@@ -863,6 +863,13 @@ function addTag(dimension,id){
  if(!tagDefinition(dimension,id)||state[key].includes(id))return;
  state[key].push(id);state.page=1;renderResults();
 }
+async function loadBulkDetails(records,stillNeeded=()=>true){
+ // Small batches leave room for a newly requested folio or search between them.
+ const byFolio=new Map();
+ for(const record of records){if(!byFolio.has(record.source_order))byFolio.set(record.source_order,[]);byFolio.get(record.source_order).push(record);}
+ const groups=[...byFolio.values()];
+ for(let i=0;i<groups.length&&stillNeeded();i+=6)await ensureRecordDetails(groups.slice(i,i+6).flat());
+}
 async function renderResults(){
  const serial=++renderSerial;
  hideCatalogueHelp();
@@ -877,7 +884,7 @@ async function renderResults(){
  if(state.sort==='title')filtered.sort((a,b)=>compare(normalize(titleOf(a)),normalize(titleOf(b))));
  if(state.sort==='shelfmark')filtered.sort((a,b)=>compare(a.shelfmark||'zz',b.shelfmark||'zz'));
  if(state.sort==='column'){
-  await ensureRecordDetails(filtered);
+  await loadBulkDetails(filtered,()=>serial===renderSerial);
   if(serial!==renderSerial)return;
   const col=spreadsheetColumns.find(c=>c.key===state.column);
   if(col)filtered.sort((a,b)=>compare(col.value(a),col.value(b))*(state.direction==='desc'?-1:1));
@@ -998,7 +1005,7 @@ async function download(){
  if(exporting||!filtered.length)return;
  const rows=[...filtered];exporting=true;$('#download-results').disabled=true;toast('Preparing download…');
  try{
- await ensureRecordDetails(rows);
+ await loadBulkDetails(rows);
  const fields=['id','source_order','folio_label','record_type','subtype','annotations','verification_status','human_verified','locations','relationships','resolvedRelationships','editorial_context','change_audit','focused_readings','source','incipit','shelfmark','titleLiteral','titleNormalized','displayTitle','authorOrSource','displayAuthor','readable_title','readableTitle','resolved_title','resolved_author','resolved_source','resolved_subject','resolved_work','resolvedFields','subject','subject_tags','uncertain_subject_tags','tradition_tags','uncertain_tradition_tags','classification_status','classification','date','extent','lines','script','status','transcription','uncertainties','reviewNotes','editorialNotes','originalFieldReadings','sourceCitationURL'];
  const q=v=>'"'+String(Array.isArray(v)?(v.some(x=>x&&typeof x==='object')?JSON.stringify(v):v.join('\n')):v&&typeof v==='object'?JSON.stringify(v):v??'').replaceAll('"','""')+'"';
  const csv='\uFEFF'+[fields.map(q).join(','),...rows.map(r=>{const c=r.classification;const row={...r,readable_title:r.readableTitle?.value||'',...Object.fromEntries(['title','author','source','subject','work'].map(field=>['resolved_'+field,r.resolvedFields?.[field]?.value||''])),subject_tags:c?.subjects.map(t=>t.label),uncertain_subject_tags:c?.subjects.filter(t=>t.confidence==='uncertain').map(t=>t.label),tradition_tags:c?.traditions.map(t=>t.label),uncertain_tradition_tags:c?.traditions.filter(t=>t.confidence==='uncertain').map(t=>t.label),classification_status:c?.status};return fields.map(f=>q(row[f])).join(',');})].join('\r\n');
