@@ -285,12 +285,11 @@ document.addEventListener('click',e=>{
  if(b.dataset.copyCitation){
   (async()=>{try{await navigator.clipboard.writeText(b.dataset.copyCitation);toast('Citation copied');}catch{toast('Select and copy the citation shown above.');}})();return;
  }
- if(b.dataset.view||b.dataset.query!==undefined||b.dataset.page||b.dataset.filterSubjectTag||b.dataset.filterTraditionTag||b.dataset.remove||b.dataset.columnSort)state.focusRecord=null;
+ if(b.dataset.view||b.dataset.query!==undefined||b.dataset.page||b.dataset.filterTraditionTag||b.dataset.remove||b.dataset.columnSort)state.focusRecord=null;
  if(b.dataset.view){showView(b.dataset.view);window.scrollTo({top:0});}
  if(b.dataset.query!==undefined){Object.assign(state,{query:b.dataset.query,kind:state.kind,subject:'',folio:'',review:false,includeCancelled:true,sort:'relevance',page:1});syncControls();renderResults();}
  if(b.dataset.filterFolio)browseFolio(b.dataset.filterFolio);
  if(b.dataset.page){state.page=Number(b.dataset.page);renderResults();$('.results-toolbar').scrollIntoView({block:'start'});}
- if(b.dataset.filterSubjectTag){addTag('subjects',b.dataset.filterSubjectTag);return;}
  if(b.dataset.filterTraditionTag){addTag('traditions',b.dataset.filterTraditionTag);return;}
  if(b.dataset.remove){const k=b.dataset.remove;if(k.startsWith('subjectTag:'))state.subjectTags=state.subjectTags.filter(id=>id!==k.slice(11));else if(k.startsWith('traditionTag:'))state.traditionTags=state.traditionTags.filter(id=>id!==k.slice(13));else if(k==='kind')state.kind='all';else if(k==='scope')state.scope='all';else if(k==='cancelled')state.includeCancelled=true;else if(k==='review')state.review=false;else state[k]='';state.page=1;syncControls();renderResults();}
  if(b.hasAttribute('data-reset-search'))reset();
