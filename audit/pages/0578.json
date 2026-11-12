@@ -1,0 +1,517 @@
+{
+  "source_order": 578,
+  "folio_label": "fol. 289b",
+  "page_id": "1e0b045f-0c77-4ae7-8c84-f8cae40090c1",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "289b",
+    "principal_page_bbox": [
+      285,
+      262,
+      2920,
+      4584
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          325,
+          150,
+          160
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "289^b.",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "superscript 'b' above and after '289'",
+          "dot after numeral"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          780,
+          370,
+          70,
+          215
+        ],
+        "description": "Curved pencil stroke resembling a closing bracket ')' in the upper area; no attached text."
+      },
+      {
+        "bbox": [
+          1300,
+          580,
+          160,
+          70
+        ],
+        "description": "Very faint marks near the top ruling. They appear to be offset or show-through rather than writing on this page. They are illegible."
+      },
+      {
+        "bbox": [
+          1920,
+          1830,
+          180,
+          100
+        ],
+        "description": "Small isolated ink specks, one resembling '6'. Not legible as text."
+      },
+      {
+        "bbox": [
+          1540,
+          3090,
+          50,
+          60
+        ],
+        "description": "Ink blot with small dots below it."
+      },
+      {
+        "bbox": [
+          2620,
+          3440,
+          180,
+          340
+        ],
+        "description": "Faint curved pencil stroke in the lower right, a bracket-like arc; no attached text."
+      },
+      {
+        "bbox": [
+          950,
+          4310,
+          120,
+          60
+        ],
+        "description": "Short ink smear or stroke near the lower left."
+      },
+      {
+        "bbox": [
+          2840,
+          1110,
+          30,
+          40
+        ],
+        "description": "Small dark speck at the right."
+      }
+    ],
+    "boundary_notes": [
+      "Faint ghosted writing across the upper half appears to be offset or show-through from facing pages (fol. 289 / fol. 290). It is not treated as target-page text.",
+      "Adjacent pages fol. 289 and fol. 290 are dense catalogue pages. None of their entries are recorded here."
+    ],
+    "uncertainties": [
+      "Whether the faint upper-area traces are offset or erased pencil writing cannot be determined with certainty. They are illegible in all cases.",
+      "The pencil arcs at the top and lower right may be deliberate brackets or stray marks."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "289b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "289^b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number in the top-left corner of the page.",
+          "The 'b' is written superscript above and after '289'.",
+          "A dot follows the numeral."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The only legible writing on the page is the pencil folio number '289^b.'"
+      }
+    ],
+    "page_annotations": [
+      "The page was reviewed from the overview and from all six native-resolution tiles. Apart from the folio number, it is a ruled, unused catalogue page with no catalogue entries.",
+      "There is a curved pencil stroke resembling ')' in the upper area, at approximately [780,370,70,215]. No text is attached to it. It may be a deliberate bracket or a stray mark.",
+      "There is a faint curved pencil arc in the lower right, at approximately [2620,3440,180,340]. No text is attached to it.",
+      "Very faint illegible traces appear near the top ruling, at approximately [1300,580,160,70]. They are most probably offset or show-through from facing writing. No reading is possible.",
+      "Faint ghosted traces across the upper half appear to be offset or show-through from the facing pages. They are illegible and are not transcribed as target-page text.",
+      "Small ink specks appear at approximately [1920,1830,180,100], one of them resembling '6'. There is also an ink blot with dots at about [1540,3090,50,60], a short ink smear at the lower left at about [950,4310,120,60], and a dark speck at the right at about [2840,1110,30,40]. None of these is legible as text.",
+      "No entries from the adjacent pages fol. 289 or fol. 290 are recorded here."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "In the top-left native tile, the pencil folio number reads '289' with a superscript 'b' and a following dot, at about [360,325,150,160]. The candidate's literal text '289^b.' matches the source. No other legible writing was found on the page. The unattached marks listed in the inventory have no block IDs. Each was checked against the tiles and is described in page_annotations as a non-text mark. None is legible as text."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": null,
+        "field_path": "page_annotations",
+        "before": [
+          "The page was reviewed from the overview and from all six native-resolution tiles. Apart from the folio number, it is a ruled, unused catalogue page with no catalogue entries.",
+          "There is a curved pencil stroke resembling ')' in the upper area, at approximately [780,370,70,215]. No text is attached to it. It may be a deliberate bracket or a stray mark.",
+          "There is a faint curved pencil arc in the lower right, at approximately [2620,3440,180,340]. No text is attached to it.",
+          "Very faint illegible traces appear near the top ruling, at approximately [1300,580,160,70]. They are most probably offset or show-through from facing writing. No reading is possible.",
+          "Faint ghosted traces across the upper half appear to be offset or show-through from the facing pages. They are illegible and are not transcribed as target-page text.",
+          "Small ink specks appear at approximately [1920,1830,180,100], one of them resembling '6'. There is also an ink blot with dots at about [1540,3090,50,60], a short ink smear at the lower left at about [950,4310,120,60], and a dark speck at the right at about [2840,1110,30,40]. None of these is legible as text.",
+          "No entries from the adjacent pages fol. 289 or fol. 290 are recorded here."
+        ],
+        "after": [
+          "The page was reviewed from the overview and from all six native-resolution tiles. Apart from the folio number, it is a ruled, unused catalogue page with no catalogue entries.",
+          "There is a curved pencil stroke resembling ')' in the upper area, at approximately [780,370,70,215]. No text is attached to it. It may be a deliberate bracket or a stray mark.",
+          "There is a faint curved pencil arc in the lower right, at approximately [2620,3440,180,340]. No text is attached to it.",
+          "Very faint illegible traces appear near the top ruling, at approximately [1300,580,160,70]. They are most probably offset or show-through from facing writing. No reading is possible.",
+          "Faint ghosted traces across the upper half appear to be offset or show-through from the facing pages. They are illegible and are not transcribed as target-page text.",
+          "Small ink specks appear at approximately [1920,1830,180,100], one of them resembling '6'. There is also an ink blot with dots at about [1540,3090,50,60], a short ink smear at the lower left at about [950,4310,120,60], and a small dark asterisk-like speck at the right at about [2940,1020,30,40]. None of these is legible as text.",
+          "No entries from the adjacent pages fol. 289 or fol. 290 are recorded here."
+        ],
+        "reason": "In the top-right native tile (offset x=1604), the dark speck sits at tile pixel (~1350,~1035). That corresponds to canvas position (~2954,~1035), not [2840,1110]. This is a locator correction only.",
+        "source_block_ids": [],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "The faint ghosted traces in the upper half, including those at about [1300,580,160,70], cannot be securely classified as offset or show-through rather than erased pencil writing on this page. They remain illegible in every case.",
+        "next_check": "Examine the original leaf under raking or transmitted light."
+      }
+    ],
+    "boundary_review": "The principal page is a single leaf with no facing-page fragment visible within the canvas. The adjacent fol. 289 and fol. 290 are dense catalogue pages. None of their text continues onto this page, and none of it is recorded here. No ditto or continuation relationship applies.",
+    "region_review": {
+      "top": "The only writing is the folio number '289^b.' at top left. There is also a pencil ')'-like arc near x≈800 and faint illegible traces near the first ruling, probably offset.",
+      "middle": "The page is ruled and unwritten. It has scattered specks, including two near [1930–2070,1850–1890], one of them '6'-like, and an ink blot with dots near [1565,3130].",
+      "bottom": "The page is unwritten, with only a short ink smear near [960–1060,4330] and foxing. No bottom note was found.",
+      "left_margin": "The gutter edge shows no writing.",
+      "right_margin": "The outer edge shows only a speck near [2950,1030] and a short ruling-end stroke near y≈1120. There is no text.",
+      "interlinear": "No interlinear additions were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        325,
+        150,
+        160
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "289^b.",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "superscript 'b' above and after '289'",
+        "dot after numeral"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "289^b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number in the top-left corner of the page.",
+        "The 'b' is written superscript above and after '289'.",
+        "A dot follows the numeral."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0578-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": null,
+      "field_path": "page_annotations",
+      "before": [
+        "The page was reviewed from the overview and from all six native-resolution tiles. Apart from the folio number, it is a ruled, unused catalogue page with no catalogue entries.",
+        "There is a curved pencil stroke resembling ')' in the upper area, at approximately [780,370,70,215]. No text is attached to it. It may be a deliberate bracket or a stray mark.",
+        "There is a faint curved pencil arc in the lower right, at approximately [2620,3440,180,340]. No text is attached to it.",
+        "Very faint illegible traces appear near the top ruling, at approximately [1300,580,160,70]. They are most probably offset or show-through from facing writing. No reading is possible.",
+        "Faint ghosted traces across the upper half appear to be offset or show-through from the facing pages. They are illegible and are not transcribed as target-page text.",
+        "Small ink specks appear at approximately [1920,1830,180,100], one of them resembling '6'. There is also an ink blot with dots at about [1540,3090,50,60], a short ink smear at the lower left at about [950,4310,120,60], and a dark speck at the right at about [2840,1110,30,40]. None of these is legible as text.",
+        "No entries from the adjacent pages fol. 289 or fol. 290 are recorded here."
+      ],
+      "after": [
+        "The page was reviewed from the overview and from all six native-resolution tiles. Apart from the folio number, it is a ruled, unused catalogue page with no catalogue entries.",
+        "There is a curved pencil stroke resembling ')' in the upper area, at approximately [780,370,70,215]. No text is attached to it. It may be a deliberate bracket or a stray mark.",
+        "There is a faint curved pencil arc in the lower right, at approximately [2620,3440,180,340]. No text is attached to it.",
+        "Very faint illegible traces appear near the top ruling, at approximately [1300,580,160,70]. They are most probably offset or show-through from facing writing. No reading is possible.",
+        "Faint ghosted traces across the upper half appear to be offset or show-through from the facing pages. They are illegible and are not transcribed as target-page text.",
+        "Small ink specks appear at approximately [1920,1830,180,100], one of them resembling '6'. There is also an ink blot with dots at about [1540,3090,50,60], a short ink smear at the lower left at about [950,4310,120,60], and a small dark asterisk-like speck at the right at about [2940,1020,30,40]. None of these is legible as text.",
+        "No entries from the adjacent pages fol. 289 or fol. 290 are recorded here."
+      ],
+      "reason": "In the top-right native tile (offset x=1604), the dark speck sits at tile pixel (~1350,~1035). That corresponds to canvas position (~2954,~1035), not [2840,1110]. This is a locator correction only.",
+      "source_block_ids": [],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1e0b045f-0c77-4ae7-8c84-f8cae40090c1.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e0b045f-0c77-4ae7-8c84-f8cae40090c1/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "365f9dcab7da8a50851b06d0b9dbf1a14382aa89aed62573ec2cc3da91a729f2",
+      "bytes": 431725,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e0b045f-0c77-4ae7-8c84-f8cae40090c1/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "68d8bf941e6f729a2e030b70fa87ab229574ee13f0bb512f65c5c720587c8732",
+      "bytes": 460457,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e0b045f-0c77-4ae7-8c84-f8cae40090c1/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "64bbb6c2a098e16b705a793c9aabe9a350a6f2dc2c509134f49822cbd1f990ac",
+      "bytes": 430007,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e0b045f-0c77-4ae7-8c84-f8cae40090c1/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee434f70252d2dfd1f3b657f4404870630b2b2ddbab479f8b3cc2f3a863acc66",
+      "bytes": 551414,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e0b045f-0c77-4ae7-8c84-f8cae40090c1/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f41a9457693e308b4723dff95e5f6b0c4cc9661784405f5f99036739d3b4904e",
+      "bytes": 549046,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e0b045f-0c77-4ae7-8c84-f8cae40090c1/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e07de84d0a31bb9db93dbb31e2b3425475faf758d5ae31849deb74c48071daf9",
+      "bytes": 510964,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e0b045f-0c77-4ae7-8c84-f8cae40090c1/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "693e6d12cd0b13e9a378cdfd60ca8e6e38329cc30c2dff01729acae076820611",
+      "bytes": 520477,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ff8b68c7-f82d-4dc8-bb91-e2b858b37e2b/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2e517f87d9be02d885c8ef6a8d64f84d06ec453e04b151d59b6d215852c214d6",
+      "bytes": 346815,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 577,
+      "folio_label": "fol. 289",
+      "page_id": "ff8b68c7-f82d-4dc8-bb91-e2b858b37e2b",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cbf5b881-82a4-4989-aac6-5cc471b23551/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e096bca7091b3e640ba071dd90451e77e64850def84787ffb0a6fa62b66c6350",
+      "bytes": 402532,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 579,
+      "folio_label": "fol. 290",
+      "page_id": "cbf5b881-82a4-4989-aac6-5cc471b23551",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

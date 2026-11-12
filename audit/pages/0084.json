@@ -1,0 +1,1019 @@
+{
+  "source_order": 84,
+  "folio_label": "fol. 42b",
+  "page_id": "cb599fcd-23f9-4a65-bd03-c7f6029c954e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "42b",
+    "principal_page_bbox": [
+      320,
+      285,
+      2840,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          355,
+          130,
+          100
+        ],
+        "kind_hint": "page_number",
+        "anchor": "42b.",
+        "features": [
+          "pencil",
+          "top left corner",
+          "superscript b with dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          350,
+          1750,
+          1620,
+          90
+        ],
+        "kind_hint": "entry",
+        "anchor": "/c. 355(2). Do., ff.1., at beginning of MS of Katantrasutra.",
+        "features": [
+          "single handwritten line on ruled line",
+          "begins with shelfmark-like reference",
+          "'Do.' ditto-type reference to a preceding title not on this page",
+          "leading stroke before 'c.' may be a tick or part of the letter"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2620,
+          1790,
+          650,
+          130
+        ],
+        "kind_hint": "entry_date_extent_script_column",
+        "anchor": "n.d. : 1 : 5: Beng.",
+        "features": [
+          "right column of same line as b002",
+          "arrow/bracket mark after text extends across gutter toward facing page",
+          "descender stroke below 'Beng.'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          430,
+          2720,
+          85,
+          45
+        ],
+        "description": "small faint mark resembling '3n/' or similar in left area; possibly a stray mark or offset ink, illegible"
+      },
+      {
+        "bbox": [
+          2730,
+          440,
+          90,
+          160
+        ],
+        "description": "very faint pencil stroke resembling 'a/' near top right; possibly show-through or stray mark"
+      },
+      {
+        "bbox": [
+          1150,
+          1990,
+          30,
+          30
+        ],
+        "description": "small stray ink fleck below the entry line"
+      }
+    ],
+    "boundary_notes": [
+      "Right edge of image shows fragments of the facing page fol. 43 (left column 'd.', 'c.', ticks); these are not target-page records.",
+      "The arrow in b003 crosses the gutter; the facing page shows ': 5: Beng ← 7' at its left edge, i.e. the same mark seen from fol. 43, so its attachment is to this line.",
+      "Most of the page shows faint mirrored show-through from the reverse (fol. 42 entries); not transcribed as target text."
+    ],
+    "uncertainties": [
+      "Reading of 'Katantrasutra' spelling and diacritics uncertain at this resolution.",
+      "Initial '/' before 'c. 355(2)' may be a tick mark or an exaggerated letter stroke.",
+      "Whether faint marks near top right and at mid-left are deliberate writing or show-through is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "42b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "42b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number in the top left corner, written as 42 with a superscript 'b' and a dot below it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letter is read as 'b'. The image shows a looped form."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry",
+        "literal_text": "/c. 355(2). Do., ff.1., at beginning of MS of Katantrasutra.    n.d. : 1 : 5: Beng.",
+        "fields": {
+          "shelfmark": "c. 355(2)",
+          "title": "Do.",
+          "source": "at beginning of MS of Katantrasutra",
+          "date": "n.d.",
+          "extent": "1",
+          "lines": "5",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "This is a single entry line. The right-hand column, n.d. : 1 : 5: Beng., sits on the same ruled line as the shelfmark and title.",
+          "The main text also gives 'ff.1.'",
+          "A stroke precedes 'c.'. It may be a tick mark similar to the ticks on fol. 43, or an exaggerated initial stroke.",
+          "'Beng.' has a long descender stroke.",
+          "After 'Beng.' an arrow or bracket mark runs rightward across the gutter onto the facing page fol. 43. Its end looks like '⟶7'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 85,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "line of 'Triveṇī-astakastotra' / before 'd. 1070(8) Kālabhairavotpattikathā' (arrow terminus); possibly 'Kālabhairavāṣṭaka'",
+            "evidence": "'Do.' refers to a title that does not appear on this page. The arrow after 'Beng.' crosses the gutter to fol. 43 at the level of the c. 424(1)e / Triveṇī-astakastotra lines. This suggests the entry was meant to be inserted into the fol. 43 sequence.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 85,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "': 5: Beng ← 7' at left edge of fol. 43 image, between c. 424(1)e entry and d. 1070(8)",
+            "evidence": "The arrow mark spans the gutter between this line and fol. 43.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The spelling and diacritics of 'Katantrasutra' are uncertain. No macrons are clearly visible.",
+          "The extent digit in the right column could be read as '1' or 'I'.",
+          "It is uncertain whether the leading '/' is a tick or part of the shelfmark letter.",
+          "The title governed by 'Do.' is not established."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "stray_mark",
+        "literal_text": "[illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A small dark mark in the left area resembles '3n/'. It may be a stray mark or offset ink."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is unclear whether this is deliberate writing."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "faint_mark",
+        "literal_text": "[a/?]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A very faint pencil-like stroke near the top right resembles 'a/'. It is probably show-through from the reverse."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It may be show-through rather than writing on this page."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          430,
+          2715,
+          85,
+          50
+        ],
+        "kind_hint": "stray_mark",
+        "anchor": "3n/ (illegible)",
+        "features": [
+          "small dark mark, left area",
+          "possibly offset ink"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2740,
+          440,
+          95,
+          160
+        ],
+        "kind_hint": "faint_mark",
+        "anchor": "a/",
+        "features": [
+          "very faint",
+          "near top right",
+          "likely show-through"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Left part of the single entry line."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Date, extent, lines and script column of the same line, including the gutter-crossing arrow."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Inventory unattached mark recorded as an added block."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Inventory unattached faint mark recorded as an added block."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number, the page carries a single entry line.",
+      "Faint mirrored show-through of fol. 42 entries covers much of the page and is not transcribed.",
+      "A small ink fleck at about [1150,1990] below the entry line is not text.",
+      "Fragments of fol. 43 at the right edge (shelfmark letters 'd.' and 'c.' and ticks) belong to the facing page and are not recorded here."
+    ],
+    "unresolved_relationships": [
+      "The antecedent of 'Do.' in r002 is unresolved. It is probably the fol. 43 title at the arrow terminus, possibly Kālabhairavāṣṭaka, but this is not confirmed."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '42' with a superscript 'b' (looped form) and a dot is at top left, about [390,355,130,100]. It is correctly recorded as a page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single entry line is at about y≈1775. It reads '/c. 355(2). Do., f[f?].1., at beginning of MS of Katantrasutra.' The leading '/' is ambiguous. Whether the abbreviation is 'f.' or 'ff.' is uncertain at native scale: it looks like one long f."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The right column reads 'n.d. : 1 : 5: Beng.' and sits on the same ruled line, with a long descender under 'Beng.'. The following mark has its arrowhead at the left, just after 'Beng.'. A dash runs right across the gutter and ends in a '7'-like hook on fol. 43. The candidate's description of the direction needs correction."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A small dark mark resembling '3n/' is at about [430,2720]. It is illegible and may be a stray mark or offset. Recording it as an unattached mark is appropriate."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A very faint 'a/'-like stroke is at about [2730,440]. It is probably show-through or offset and not certain writing."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "This is a single entry line. The right-hand column, n.d. : 1 : 5: Beng., sits on the same ruled line as the shelfmark and title.",
+          "The main text also gives 'ff.1.'",
+          "A stroke precedes 'c.'. It may be a tick mark similar to the ticks on fol. 43, or an exaggerated initial stroke.",
+          "'Beng.' has a long descender stroke.",
+          "After 'Beng.' an arrow or bracket mark runs rightward across the gutter onto the facing page fol. 43. Its end looks like '⟶7'."
+        ],
+        "after": [
+          "This is a single entry line. The right-hand column, n.d. : 1 : 5: Beng., sits on the same ruled line as the shelfmark and title.",
+          "The main text also gives a folio count read as 'ff.1.' (possibly 'f.1.').",
+          "A stroke precedes 'c.'. It may be a tick mark similar to the ticks on fol. 43, or an exaggerated initial stroke.",
+          "'Beng.' has a long descender stroke.",
+          "After 'Beng.' there is an arrowhead pointing left, back toward the entry. A dash extends from it rightward across the gutter and ends in a '7'-like hook on the left edge of fol. 43, at about the level between the c. 424(1)e entry and d. 1070(8)."
+        ],
+        "reason": "At native scale (tile at 1604,1608) the arrowhead ('£'/'←' shape) sits immediately after 'Beng.' and points left. The '7'-shaped stroke lies on the fol. 43 side of the gutter. The arrow therefore does not end in an arrowhead at '7'.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 85,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "line of 'Triveṇī-astakastotra' / before 'd. 1070(8) Kālabhairavotpattikathā' (arrow terminus); possibly 'Kālabhairavāṣṭaka'",
+            "evidence": "'Do.' refers to a title that does not appear on this page. The arrow after 'Beng.' crosses the gutter to fol. 43 at the level of the c. 424(1)e / Triveṇī-astakastotra lines. This suggests the entry was meant to be inserted into the fol. 43 sequence.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 85,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "': 5: Beng ← 7' at left edge of fol. 43 image, between c. 424(1)e entry and d. 1070(8)",
+            "evidence": "The arrow mark spans the gutter between this line and fol. 43.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 85,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "fol. 43 entries near the arrow terminus: c. 424(1)e block (ending 'Triveṇī-astakastotra' [reading from context image]) and preceding d. 678 'Kālabhairavāṣṭaka' [reading from context image]",
+            "evidence": "'Do.' refers to a title not present on this page. The gutter-crossing arrow suggests insertion into the fol. 43 sequence near the c. 424(1)e entry. Which title 'Do.' repeats is not established.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_insertion_point",
+            "target_page_order": 85,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "fol. 43 left margin, between the c. 424(1)e entry and d. 1070(8), where the '7'-like hook of the arrow lies",
+            "evidence": "The arrow stroke physically crosses the gutter from this line to fol. 43. The ': 5: Beng ← 7' visible at the left edge of the fol. 43 context image is this same fol. 42b line seen from the facing side, not text on fol. 43.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The original second relationship presented the fol. 42b fragment, as seen in the fol. 43 photograph, as a fol. 43 anchor. The diacritic readings of fol. 43 titles come from a reduced context image and must be flagged as such.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The spelling and diacritics of 'Katantrasutra' are uncertain. No macrons are clearly visible.",
+          "The extent digit in the right column could be read as '1' or 'I'.",
+          "It is uncertain whether the leading '/' is a tick or part of the shelfmark letter.",
+          "The title governed by 'Do.' is not established."
+        ],
+        "after": [
+          "The spelling and diacritics of 'Katantrasutra' are uncertain. No macrons are clearly visible.",
+          "The extent digit in the right column could be read as '1' or 'I'.",
+          "It is uncertain whether the leading '/' is a tick or part of the shelfmark letter.",
+          "The title governed by 'Do.' is not established.",
+          "The folio abbreviation may be a single 'f.' rather than 'ff.'. The written form looks like one long f followed by '.1.,'.",
+          "The arrow's direction and purpose (insertion mark versus link) is inferred from its shape."
+        ],
+        "reason": "Native-scale inspection of the main line and the gutter mark.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The antecedent of 'Do.' and the precise insertion point on fol. 43 are not established.",
+        "next_check": "Compare at native resolution with the fol. 43 left margin around y≈1800 and the c. 424(1)e / d. 678 entries."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "It is unresolved whether the text reads 'ff.1.' or 'f.1.'.",
+        "next_check": "Use higher-contrast magnification of the main line near x≈700–760, y≈1775."
+      }
+    ],
+    "boundary_review": "The right edge shows the fol. 43 left column ('d.', 'c.' and ticks). These are facing-page fragments and are not recorded. The arrow from b003 crosses the gutter, and its hook lies on fol. 43. It is attributed to this line, and the insertion relationship is left as probable or uncertain. The ': 5: Beng ← 7' visible in the fol. 43 context image is this page's own line seen from the facing side.",
+    "region_review": {
+      "top": "Only the page number at top left is present. Faint 'a/' at about [2730,440] is probably show-through. Mirrored show-through of the reverse appears throughout and is not transcribed.",
+      "middle": "There is one entry line at y≈1775. An ink fleck at about [1150,1998] is not text. A faint diagonal stroke at about [2930,1440] appears to be show-through.",
+      "bottom": "Ruled lines carry only show-through and specks. No bottom note was found.",
+      "left_margin": "There is a small mark '3n/' at about [430,2720] and the leading '/' of the entry. Nothing else was found.",
+      "right_margin": "The gutter contains the arrow from b003 and facing-page fragments of fol. 43.",
+      "interlinear": "No interlinear additions, corrections or cancellations were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        355,
+        130,
+        100
+      ],
+      "kind_hint": "page_number",
+      "anchor": "42b.",
+      "features": [
+        "pencil",
+        "top left corner",
+        "superscript b with dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        350,
+        1750,
+        1620,
+        90
+      ],
+      "kind_hint": "entry",
+      "anchor": "/c. 355(2). Do., ff.1., at beginning of MS of Katantrasutra.",
+      "features": [
+        "single handwritten line on ruled line",
+        "begins with shelfmark-like reference",
+        "'Do.' ditto-type reference to a preceding title not on this page",
+        "leading stroke before 'c.' may be a tick or part of the letter"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2620,
+        1790,
+        650,
+        130
+      ],
+      "kind_hint": "entry_date_extent_script_column",
+      "anchor": "n.d. : 1 : 5: Beng.",
+      "features": [
+        "right column of same line as b002",
+        "arrow/bracket mark after text extends across gutter toward facing page",
+        "descender stroke below 'Beng.'"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        430,
+        2715,
+        85,
+        50
+      ],
+      "kind_hint": "stray_mark",
+      "anchor": "3n/ (illegible)",
+      "features": [
+        "small dark mark, left area",
+        "possibly offset ink"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2740,
+        440,
+        95,
+        160
+      ],
+      "kind_hint": "faint_mark",
+      "anchor": "a/",
+      "features": [
+        "very faint",
+        "near top right",
+        "likely show-through"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "42b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number in the top left corner, written as 42 with a superscript 'b' and a dot below it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letter is read as 'b'. The image shows a looped form."
+      ],
+      "stable_id": "css-prod-0084-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry",
+      "literal_text": "/c. 355(2). Do., ff.1., at beginning of MS of Katantrasutra.    n.d. : 1 : 5: Beng.",
+      "fields": {
+        "shelfmark": "c. 355(2)",
+        "title": "Do.",
+        "source": "at beginning of MS of Katantrasutra",
+        "date": "n.d.",
+        "extent": "1",
+        "lines": "5",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "This is a single entry line. The right-hand column, n.d. : 1 : 5: Beng., sits on the same ruled line as the shelfmark and title.",
+        "The main text also gives 'ff.1.'",
+        "A stroke precedes 'c.'. It may be a tick mark similar to the ticks on fol. 43, or an exaggerated initial stroke.",
+        "'Beng.' has a long descender stroke.",
+        "After 'Beng.' an arrow or bracket mark runs rightward across the gutter onto the facing page fol. 43. Its end looks like '⟶7'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 85,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "line of 'Triveṇī-astakastotra' / before 'd. 1070(8) Kālabhairavotpattikathā' (arrow terminus); possibly 'Kālabhairavāṣṭaka'",
+          "evidence": "'Do.' refers to a title that does not appear on this page. The arrow after 'Beng.' crosses the gutter to fol. 43 at the level of the c. 424(1)e / Triveṇī-astakastotra lines. This suggests the entry was meant to be inserted into the fol. 43 sequence.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 85,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "': 5: Beng ← 7' at left edge of fol. 43 image, between c. 424(1)e entry and d. 1070(8)",
+          "evidence": "The arrow mark spans the gutter between this line and fol. 43.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The spelling and diacritics of 'Katantrasutra' are uncertain. No macrons are clearly visible.",
+        "The extent digit in the right column could be read as '1' or 'I'.",
+        "It is uncertain whether the leading '/' is a tick or part of the shelfmark letter.",
+        "The title governed by 'Do.' is not established."
+      ],
+      "stable_id": "css-prod-0084-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "stray_mark",
+      "literal_text": "[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A small dark mark in the left area resembles '3n/'. It may be a stray mark or offset ink."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unclear whether this is deliberate writing."
+      ],
+      "stable_id": "css-prod-0084-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "faint_mark",
+      "literal_text": "[a/?]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A very faint pencil-like stroke near the top right resembles 'a/'. It is probably show-through from the reverse."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It may be show-through rather than writing on this page."
+      ],
+      "stable_id": "css-prod-0084-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "This is a single entry line. The right-hand column, n.d. : 1 : 5: Beng., sits on the same ruled line as the shelfmark and title.",
+        "The main text also gives 'ff.1.'",
+        "A stroke precedes 'c.'. It may be a tick mark similar to the ticks on fol. 43, or an exaggerated initial stroke.",
+        "'Beng.' has a long descender stroke.",
+        "After 'Beng.' an arrow or bracket mark runs rightward across the gutter onto the facing page fol. 43. Its end looks like '⟶7'."
+      ],
+      "after": [
+        "This is a single entry line. The right-hand column, n.d. : 1 : 5: Beng., sits on the same ruled line as the shelfmark and title.",
+        "The main text also gives a folio count read as 'ff.1.' (possibly 'f.1.').",
+        "A stroke precedes 'c.'. It may be a tick mark similar to the ticks on fol. 43, or an exaggerated initial stroke.",
+        "'Beng.' has a long descender stroke.",
+        "After 'Beng.' there is an arrowhead pointing left, back toward the entry. A dash extends from it rightward across the gutter and ends in a '7'-like hook on the left edge of fol. 43, at about the level between the c. 424(1)e entry and d. 1070(8)."
+      ],
+      "reason": "At native scale (tile at 1604,1608) the arrowhead ('£'/'←' shape) sits immediately after 'Beng.' and points left. The '7'-shaped stroke lies on the fol. 43 side of the gutter. The arrow therefore does not end in an arrowhead at '7'.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 85,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "line of 'Triveṇī-astakastotra' / before 'd. 1070(8) Kālabhairavotpattikathā' (arrow terminus); possibly 'Kālabhairavāṣṭaka'",
+          "evidence": "'Do.' refers to a title that does not appear on this page. The arrow after 'Beng.' crosses the gutter to fol. 43 at the level of the c. 424(1)e / Triveṇī-astakastotra lines. This suggests the entry was meant to be inserted into the fol. 43 sequence.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 85,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "': 5: Beng ← 7' at left edge of fol. 43 image, between c. 424(1)e entry and d. 1070(8)",
+          "evidence": "The arrow mark spans the gutter between this line and fol. 43.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 85,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 43 entries near the arrow terminus: c. 424(1)e block (ending 'Triveṇī-astakastotra' [reading from context image]) and preceding d. 678 'Kālabhairavāṣṭaka' [reading from context image]",
+          "evidence": "'Do.' refers to a title not present on this page. The gutter-crossing arrow suggests insertion into the fol. 43 sequence near the c. 424(1)e entry. Which title 'Do.' repeats is not established.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_insertion_point",
+          "target_page_order": 85,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 43 left margin, between the c. 424(1)e entry and d. 1070(8), where the '7'-like hook of the arrow lies",
+          "evidence": "The arrow stroke physically crosses the gutter from this line to fol. 43. The ': 5: Beng ← 7' visible at the left edge of the fol. 43 context image is this same fol. 42b line seen from the facing side, not text on fol. 43.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The original second relationship presented the fol. 42b fragment, as seen in the fol. 43 photograph, as a fol. 43 anchor. The diacritic readings of fol. 43 titles come from a reduced context image and must be flagged as such.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The spelling and diacritics of 'Katantrasutra' are uncertain. No macrons are clearly visible.",
+        "The extent digit in the right column could be read as '1' or 'I'.",
+        "It is uncertain whether the leading '/' is a tick or part of the shelfmark letter.",
+        "The title governed by 'Do.' is not established."
+      ],
+      "after": [
+        "The spelling and diacritics of 'Katantrasutra' are uncertain. No macrons are clearly visible.",
+        "The extent digit in the right column could be read as '1' or 'I'.",
+        "It is uncertain whether the leading '/' is a tick or part of the shelfmark letter.",
+        "The title governed by 'Do.' is not established.",
+        "The folio abbreviation may be a single 'f.' rather than 'ff.'. The written form looks like one long f followed by '.1.,'.",
+        "The arrow's direction and purpose (insertion mark versus link) is inferred from its shape."
+      ],
+      "reason": "Native-scale inspection of the main line and the gutter mark.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cb599fcd-23f9-4a65-bd03-c7f6029c954e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb599fcd-23f9-4a65-bd03-c7f6029c954e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "33c0588454fbabc8a6d0ffc4b720f650944551989b94b7a3b9c478f29206a0b7",
+      "bytes": 246409,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb599fcd-23f9-4a65-bd03-c7f6029c954e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "79040b5304eadc9b703ea110cadc82beaf245352da0f23b73e6879efd3a1d02f",
+      "bytes": 316578,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb599fcd-23f9-4a65-bd03-c7f6029c954e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3a002f95648c0bcb2508350fe679f4bc424b08eb27a9aef570c662cdf107a8a1",
+      "bytes": 318567,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb599fcd-23f9-4a65-bd03-c7f6029c954e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b47797f3b416a5dc6f3be5b5934f5c21edc29e5ecc915c3a75819a9322caa61d",
+      "bytes": 314901,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb599fcd-23f9-4a65-bd03-c7f6029c954e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2aaf1bcb295695adbeac6b69efb42998929cdb3c39dcc65d081f6ecaf232504d",
+      "bytes": 289985,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb599fcd-23f9-4a65-bd03-c7f6029c954e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3ed86cf0111f9b506b1f02451e9c54238c2f92c6c56d8ae9f68ed6a77f7125a9",
+      "bytes": 317190,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb599fcd-23f9-4a65-bd03-c7f6029c954e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e93e62dac8c80f67575beb5e01e04573401e024cebc526b6d55ba57e26db76f3",
+      "bytes": 325286,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/14ccefc0-35a4-4da6-ace7-d99835053dee/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5a3dd386fe49168871df4f17c925920540e3a297227a5edccca6b8fc5261c4d6",
+      "bytes": 236963,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 83,
+      "folio_label": "fol. 42",
+      "page_id": "14ccefc0-35a4-4da6-ace7-d99835053dee",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/667d77b0-9011-438c-90fd-49931d8b37d3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "eadb85ec056b43715176afda18b85b0a0e267e7489a8958459746d893bc2323a",
+      "bytes": 251694,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 85,
+      "folio_label": "fol. 43",
+      "page_id": "667d77b0-9011-438c-90fd-49931d8b37d3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

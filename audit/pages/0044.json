@@ -1,0 +1,787 @@
+{
+  "source_order": 44,
+  "folio_label": "fol. 22b",
+  "page_id": "f06dc784-7632-49f9-b5bf-7da6f41f3072",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "22b",
+    "principal_page_bbox": [
+      305,
+      265,
+      2845,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          325,
+          130,
+          75
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "22b",
+        "features": [
+          "top-left corner",
+          "ink",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          405,
+          1430,
+          1795,
+          120
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 1-13, inc. = C.S. Coll. II, 232. Opening verse spells the title Āśauca°.",
+        "features": [
+          "single line",
+          "no shelfmark at line start",
+          "appears to continue or annotate a holding not given on this page",
+          "roman numeral II underlined",
+          "ends with degree-sign abbreviation"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          365,
+          2340,
+          1310,
+          100
+        ],
+        "kind_hint": "entry",
+        "anchor": "b. 99 (9) Āśaucavyavasthā by Maheśa Bhaṭṭācārya, ff. 1-7.",
+        "features": [
+          "shelfmark at left",
+          "faint pencil tick above the shelfmark at about [410,2230,60,90]",
+          "dotted diacritics under ṭṭ",
+          "folio extent"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2560,
+          2350,
+          535,
+          110
+        ],
+        "kind_hint": "entry_data_column",
+        "anchor": "n.d. : ⟦8/7?⟧ 7 : 6/7 : Beng",
+        "features": [
+          "right-hand data column on the same ruled line as b003",
+          "cancelled numeral group struck through",
+          "stroke descends from the end of 'Beng'",
+          "script abbreviation"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1105,
+          2262,
+          30,
+          35
+        ],
+        "description": "small ink mark like an 'i' or stroke above the b003 line, mid-page; no text attached"
+      },
+      {
+        "bbox": [
+          2440,
+          2200,
+          800,
+          350
+        ],
+        "description": "faint offset/show-through of a circular stamp across the middle of the page; not writing"
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x≈3150. The text to the right is from facing fol. 23 and is not a target. It includes the shelfmark letters e., d., b. and c., the ticks, and two left-pointing arrows: one near y≈1440 and one near y≈2380 at x≈3290-3420.",
+      "The arrow at y≈2380 lies on the facing page next to 'c. 384(7)' and 'b. 93(3)'. On the adjacent overview, fol. 23 shows '7:6/7: Beng' at its left edge, which matches b004. This suggests a cross-page link, but the arrow itself lies beyond the target gutter.",
+      "The parent entry of b002 is not on this page. It may relate to an entry on the facing or preceding page, but this is unresolved."
+    ],
+    "uncertainties": [
+      "The cancelled numerals in b004 are uncertain; they read roughly as '8/7'.",
+      "'C.S. Coll.' in b002 is read as written; the abbreviation is not expanded.",
+      "The b003 shelfmark letter is read as 'b.', which is fairly certain.",
+      "The faint pencil tick above b003 may be a check mark or a stray stroke."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "22b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "22b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in ink at the top-left corner; the 'b' is superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "addendum_linked_by_arrow_on_facing_page",
+        "literal_text": "ff. 1-13, inc. = C.S. Coll. II, 232. Opening verse spells the title Āśauca°.",
+        "fields": {
+          "extent": "ff. 1-13, inc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line with no shelfmark at the start, at about y≈1480.",
+          "The roman numeral II is underlined.",
+          "The line ends with a degree-sign abbreviation after 'Āśauca'.",
+          "'C.S. Coll.' is recorded as written and is not expanded."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 45,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 96 (2)b ... By Nyāyapañcānana Vidvān ... n.d.: 13:7: Beng",
+            "evidence": "On facing fol. 23 a left-pointing arrow and a tick at about the same height (y≈1440) stand beside the b. 96 (2)b entry and point toward this note. The arrow lies beyond the target gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The parent holding is not on this page. The attachment to b. 96 (2)b on fol. 23 depends on the arrow alone."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "insertion_linked_by_arrow_on_facing_page",
+        "literal_text": "b. 99 (9) Āśaucavyavasthā by Maheśa Bhaṭṭācārya, ff. 1-7.    n.d. : ⟦8/7 [reading?]⟧ 7 : 6/7 : Beng",
+        "fields": {
+          "shelfmark": "b. 99 (9)",
+          "title": "Āśaucavyavasthā",
+          "author": "Maheśa Bhaṭṭācārya",
+          "date": "n.d.",
+          "extent": "ff. 1-7.",
+          "lines": "6/7",
+          "script": "Beng"
+        },
+        "normalized_title": "Āśaucavyavasthā",
+        "annotations": [
+          "A faint pencil tick stands above the shelfmark at about [410,2230,60,90].",
+          "The dotted diacritics under ṭṭ in 'Bhaṭṭācārya' are written as such.",
+          "The right-hand data column sits on the same ruled line, at about x 2560-3095.",
+          "A cancelled numeral group, read roughly as '8/7', is struck through before '7'.",
+          "A stroke descends from the end of 'Beng'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 45,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 384(7) Āśaucālokasaṃkṣepa ... / b. 93(3)a",
+            "evidence": "On facing fol. 23 a left-pointing arrow at about y≈2380 lies between 'c. 384(7)' and 'b. 93(3)a' and points toward this line. This suggests the entry is meant for insertion in the Āśauca section there.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cancelled numerals are uncertain.",
+          "The 'lines' field assumes the column order used elsewhere (date : leaves : lines : script). '7' may duplicate the leaf count."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Detached continuation or addendum note. Its probable attachment is to fol. 23, b. 96 (2)b, via the arrow."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Main part of the entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Data column on the same ruled line as b003."
+      }
+    ],
+    "page_annotations": [
+      "A small ink mark like an 'i' or stroke at about [1105,2262,30,35] above the b003 line has no text attached.",
+      "Faint show-through of a circular stamp lies across the middle of the page; it is not writing.",
+      "The rest of the page, including the lower half, the margins and the top, was reviewed: it is ruled and blank apart from scattered specks.",
+      "Text right of the gutter (x≈3150) belongs to facing fol. 23 and is not transcribed here. That includes the shelfmark letters, ticks and arrows."
+    ],
+    "unresolved_relationships": [
+      "The parent of r002 is only probable: fol. 23, b. 96 (2)b, via the arrow at y≈1440 beyond the gutter.",
+      "The insertion point of r003 is only probable: fol. 23, after c. 384(7), via the arrow at y≈2380."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio label '22' with superscript 'b' is in ink at the top left, at about canvas [360,330,120,70]. The label is correctly kept as a non-catalogue page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single line at about y≈1480 runs from x≈410 to x≈2190. It reads 'ff. 1-13, inc. = C.S. Coll. II, 232. Opening verse spells th[e?] title Āśauca°.' The 'II' has a bar or underline, and the line ends with a degree sign and a full stop. There is no shelfmark on this page. The parent attachment is recorded only as probable. The word read as 'the' is written as a compressed 'th' form; see the change and unresolved items."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "'b. 99 (9) Āśaucavyavasthā by Maheśa Bhaṭṭācārya, ff. 1-7.' is legible at about y≈2350. The diacritic dots under 'ṭṭ' are present. A faint pencil tick lies at about [415,2233,50,85], above and left of the shelfmark. It is correctly recorded as an annotation."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "'n.d. : ⟦8/7?⟧ 7 : 6/7 : Beng' is at about x 2565-3095 on the same ruled line. The cancelled group is struck through with a horizontal stroke, and its reading stays uncertain. A long stroke descends from the end of 'Beng'. Grouping this column with b003 is correct."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The parent holding is not on this page. The attachment to b. 96 (2)b on fol. 23 depends on the arrow alone."
+        ],
+        "after": [
+          "The parent holding is not on this page. The attachment to b. 96 (2)b on fol. 23 depends on the arrow alone.",
+          "The word transcribed 'the' in 'spells the title' is written as a compressed 'th' form. It may be an abbreviation 'th' rather than a full 'the'. The literal reading is uncertain.",
+          "The target anchor on fol. 23 was read from the reduced adjacent overview only."
+        ],
+        "reason": "In the native tile the word between 'spells' and 'title' shows only 'th' with no distinct 'e'. The source does not securely support the candidate's 'the'. The fol. 23 anchor wording comes from a low-resolution context image.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The parent holding is linked only by a left-pointing arrow and tick at y≈1440 on facing fol. 23, beside 'b. 96 (2)b'. The arrow lies beyond the gutter at x≈3150. The '13' leaf count on fol. 23 is consistent with 'ff. 1-13', but this is not proof.",
+        "next_check": "Compare with the native-resolution image of fol. 23, around y 1380-1500."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "issue": "The insertion point is suggested only by the facing-page arrow at y≈2380, between 'c. 384(7)' and 'b. 93(3)a'. The cancelled numerals in b004 read roughly '8/7' and remain unresolved.",
+        "next_check": "Examine fol. 23 at native resolution, and use higher magnification of b004 around x 2690-2810, y 2360-2420."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The literal form of 'the/th' in 'spells th[e?] title' is uncertain.",
+        "next_check": "Zoom on canvas x≈1640-1760, y≈1450-1510."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "The inventory places the faint stamp show-through at [2440,2200,800,350]. On the overview, the faint oval offset appears centred mid-page, at roughly canvas x 1150-2150, y 1750-3250. This is a location discrepancy for a non-text mark only.",
+        "next_check": "Check the overview under contrast enhancement."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3150. Everything to the right belongs to facing fol. 23 and is not transcribed: the shelfmark letters e., d., b., c., the ticks, two left-pointing arrows at y≈1440 and y≈2380, and small dots at about x 3210-3270, y≈2378. The 'T 7:6/7: Beng' visible at the left edge of the fol. 23 overview is the target's own b004 seen from the facing image. It is not a separate record. The relationships to fol. 23 stay probable, not resolved.",
+    "region_review": {
+      "top": "Only the folio label '22b' is present. A small stroke near the gutter at about [3115,640] is a speck, not writing.",
+      "middle": "The b002 line is at y≈1480 and the b003/b004 line at y≈2350. There is a pencil tick above the shelfmark, a small ink mark at about [1110,2273], and faint stamp show-through. There is no further writing.",
+      "bottom": "The page is ruled and blank from about y 2500 to the lower edge at about y 4840, apart from scattered specks and a small curved speck near [3030,4430].",
+      "left_margin": "No marginal writing. The pencil tick near x≈415, y≈2233-2318 is attached to b003.",
+      "right_margin": "The gutter-side area of the target is blank except for specks. The arrows and ticks lie on the facing page.",
+      "interlinear": "No interlinear additions. The only marks are the small stroke at about [1110,2273] above the b003 line and a speck below b002 at about [1829,1545]. Neither is text."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        325,
+        130,
+        75
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "22b",
+      "features": [
+        "top-left corner",
+        "ink",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        405,
+        1430,
+        1795,
+        120
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 1-13, inc. = C.S. Coll. II, 232. Opening verse spells the title Āśauca°.",
+      "features": [
+        "single line",
+        "no shelfmark at line start",
+        "appears to continue or annotate a holding not given on this page",
+        "roman numeral II underlined",
+        "ends with degree-sign abbreviation"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        365,
+        2340,
+        1310,
+        100
+      ],
+      "kind_hint": "entry",
+      "anchor": "b. 99 (9) Āśaucavyavasthā by Maheśa Bhaṭṭācārya, ff. 1-7.",
+      "features": [
+        "shelfmark at left",
+        "faint pencil tick above the shelfmark at about [410,2230,60,90]",
+        "dotted diacritics under ṭṭ",
+        "folio extent"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2560,
+        2350,
+        535,
+        110
+      ],
+      "kind_hint": "entry_data_column",
+      "anchor": "n.d. : ⟦8/7?⟧ 7 : 6/7 : Beng",
+      "features": [
+        "right-hand data column on the same ruled line as b003",
+        "cancelled numeral group struck through",
+        "stroke descends from the end of 'Beng'",
+        "script abbreviation"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "22b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in ink at the top-left corner; the 'b' is superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0044-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "addendum_linked_by_arrow_on_facing_page",
+      "literal_text": "ff. 1-13, inc. = C.S. Coll. II, 232. Opening verse spells the title Āśauca°.",
+      "fields": {
+        "extent": "ff. 1-13, inc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line with no shelfmark at the start, at about y≈1480.",
+        "The roman numeral II is underlined.",
+        "The line ends with a degree-sign abbreviation after 'Āśauca'.",
+        "'C.S. Coll.' is recorded as written and is not expanded."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 45,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 96 (2)b ... By Nyāyapañcānana Vidvān ... n.d.: 13:7: Beng",
+          "evidence": "On facing fol. 23 a left-pointing arrow and a tick at about the same height (y≈1440) stand beside the b. 96 (2)b entry and point toward this note. The arrow lies beyond the target gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The parent holding is not on this page. The attachment to b. 96 (2)b on fol. 23 depends on the arrow alone."
+      ],
+      "stable_id": "css-prod-0044-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "insertion_linked_by_arrow_on_facing_page",
+      "literal_text": "b. 99 (9) Āśaucavyavasthā by Maheśa Bhaṭṭācārya, ff. 1-7.    n.d. : ⟦8/7 [reading?]⟧ 7 : 6/7 : Beng",
+      "fields": {
+        "shelfmark": "b. 99 (9)",
+        "title": "Āśaucavyavasthā",
+        "author": "Maheśa Bhaṭṭācārya",
+        "date": "n.d.",
+        "extent": "ff. 1-7.",
+        "lines": "6/7",
+        "script": "Beng"
+      },
+      "normalized_title": "Āśaucavyavasthā",
+      "annotations": [
+        "A faint pencil tick stands above the shelfmark at about [410,2230,60,90].",
+        "The dotted diacritics under ṭṭ in 'Bhaṭṭācārya' are written as such.",
+        "The right-hand data column sits on the same ruled line, at about x 2560-3095.",
+        "A cancelled numeral group, read roughly as '8/7', is struck through before '7'.",
+        "A stroke descends from the end of 'Beng'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 45,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 384(7) Āśaucālokasaṃkṣepa ... / b. 93(3)a",
+          "evidence": "On facing fol. 23 a left-pointing arrow at about y≈2380 lies between 'c. 384(7)' and 'b. 93(3)a' and points toward this line. This suggests the entry is meant for insertion in the Āśauca section there.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cancelled numerals are uncertain.",
+        "The 'lines' field assumes the column order used elsewhere (date : leaves : lines : script). '7' may duplicate the leaf count."
+      ],
+      "stable_id": "css-prod-0044-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The parent holding is not on this page. The attachment to b. 96 (2)b on fol. 23 depends on the arrow alone."
+      ],
+      "after": [
+        "The parent holding is not on this page. The attachment to b. 96 (2)b on fol. 23 depends on the arrow alone.",
+        "The word transcribed 'the' in 'spells the title' is written as a compressed 'th' form. It may be an abbreviation 'th' rather than a full 'the'. The literal reading is uncertain.",
+        "The target anchor on fol. 23 was read from the reduced adjacent overview only."
+      ],
+      "reason": "In the native tile the word between 'spells' and 'title' shows only 'th' with no distinct 'e'. The source does not securely support the candidate's 'the'. The fol. 23 anchor wording comes from a low-resolution context image.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f06dc784-7632-49f9-b5bf-7da6f41f3072.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f06dc784-7632-49f9-b5bf-7da6f41f3072/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "2148e130fe4062cda2fc821ae9cc3f18f633601a430d2186b0c251fc0a4fa0b6",
+      "bytes": 289138,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f06dc784-7632-49f9-b5bf-7da6f41f3072/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2f91aee7c6103dd9659527a107d70fb6e42efb5feba7cea231e469674c7feca1",
+      "bytes": 347867,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f06dc784-7632-49f9-b5bf-7da6f41f3072/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2939fdc559d0102d29bb7de0482708b6d72c5cb243eeaa30bb2e64a40577896e",
+      "bytes": 355883,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f06dc784-7632-49f9-b5bf-7da6f41f3072/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2a0cb167eb3e32962bf38e8fb0421b8cdae4dfb71ee9511f4fcaf0964a264426",
+      "bytes": 356730,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f06dc784-7632-49f9-b5bf-7da6f41f3072/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "de1b3df0badef0a83402cfb37b564743b63a3a2674787c043f0260db1b780853",
+      "bytes": 344307,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f06dc784-7632-49f9-b5bf-7da6f41f3072/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "36191294c8e6d4b85dd29f4c4ed6f67b11b450cb57aea42f40559d41c36b38dd",
+      "bytes": 343097,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f06dc784-7632-49f9-b5bf-7da6f41f3072/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5844c96dbc043b5893a8cfa4fe0b503d1eac61a677dae66d43e45398525fda7e",
+      "bytes": 355146,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b6e1c88b-ae56-4f2e-aa7b-70039b7f8b96/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6734cdbe55a8ecdee120c965eac59d3257a2657e7ba2b8649171fd4a5cdf45be",
+      "bytes": 301367,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 43,
+      "folio_label": "fol. 22",
+      "page_id": "b6e1c88b-ae56-4f2e-aa7b-70039b7f8b96",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3170f6bc-2336-4168-8648-14a23b804d4a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "65bf02ac45698b640617d0a1af623c52f5d7ba3fb622937d535865f5c49ba1e5",
+      "bytes": 251509,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 45,
+      "folio_label": "fol. 23",
+      "page_id": "3170f6bc-2336-4168-8648-14a23b804d4a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

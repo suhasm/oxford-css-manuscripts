@@ -1,0 +1,1097 @@
+{
+  "source_order": 440,
+  "folio_label": "fol. 220b",
+  "page_id": "0cc15412-3ee0-4e2e-9de0-8591234800e7",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "220b",
+    "principal_page_bbox": [
+      320,
+      262,
+      2880,
+      4640
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          370,
+          305,
+          140,
+          140
+        ],
+        "kind_hint": "page_number",
+        "anchor": "220b",
+        "features": [
+          "ink",
+          "top left corner",
+          "superscript 'b' after '220'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          395,
+          810,
+          2320,
+          140
+        ],
+        "kind_hint": "continuation/colophon note (attached to an entry on a facing page via arrow)",
+        "anchor": "Cd: \"Vaiśākhasyaikaviṁśe ... Bhojarājasya tṛptyai.\" Old MS.",
+        "features": [
+          "ink",
+          "single line",
+          "quoted Sanskrit colophon",
+          "ends with 'Old MS.'",
+          "linked by arrow at right edge to the facing-page 'Vc.' line; parent entry not on this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2930,
+          2010,
+          60,
+          90
+        ],
+        "kind_hint": "marginal pencil query",
+        "anchor": "?",
+        "features": [
+          "faint pencil",
+          "isolated",
+          "no attached text on this page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2590,
+          2700,
+          220,
+          150
+        ],
+        "kind_hint": "marginal pencil note",
+        "anchor": "u/ ā/?",
+        "features": [
+          "faint pencil",
+          "correction-style notation with slashes",
+          "query mark"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2940,
+          2840,
+          90,
+          140
+        ],
+        "kind_hint": "marginal pencil note",
+        "anchor": "ā/",
+        "features": [
+          "faint pencil",
+          "macron over a",
+          "slash"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3010,
+          835,
+          190,
+          50
+        ],
+        "description": "Ink arrow pointing left toward b002, drawn near the gutter. It continues a line from the facing page's 'Vc.' entry."
+      },
+      {
+        "bbox": [
+          400,
+          600,
+          2800,
+          3900
+        ],
+        "description": "Faint reversed show-through of writing from the other side of the leaf across the ruled lines. This is not text on this page and has not been transcribed."
+      },
+      {
+        "bbox": [
+          320,
+          530,
+          20,
+          30
+        ],
+        "description": "Small dark mark at the left edge of the leaf."
+      }
+    ],
+    "boundary_notes": [
+      "The strip at the right of x≈3200 belongs to the facing page (fol. 221 left margin). It shows '— Vc.', 'see below d. 8…', 'cl…', 'from next…', 'insert… d', 'insert ✓'. These fragments are not target-page records.",
+      "b002 has no shelfmark or heading on this page. Its parent holding is indicated only by the arrow linking it to the facing-page 'Vc.' line. The attachment is recorded as visual evidence, not resolved.",
+      "The pencil marks b003–b005 lie at positions that roughly match marks in the fol. 221 left margin. Whether they belong to this leaf or are transfer marks is uncertain."
+    ],
+    "uncertainties": [
+      "The letters of b002 are cursive. Readings such as 'Vaiśākhasyaikaviṁśe', 'vyalikhad' and 'tṛptyai' are provisional.",
+      "The opening abbreviation 'Cd' or 'Col' is ambiguous.",
+      "The reading 'u/ ā/?' of b004 is uncertain. The first character may be 'u' or another letter."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "220b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "220b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top left corner. The 'b' is written raised above '220', with a dot or point between them."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letter is read as 'b'. The form is cursive."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "colophon_quotation",
+        "literal_text": "Cd: \"Vaiśākhasyaikaviṁśe vyalikhad amaladhiyo Bhojarājasya tṛptyai.\" Old MS.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line on the ruled line at about y≈860.",
+          "An ink arrow pointing left (approx. bbox [3010,835,190,50]) is drawn near the gutter on this page. On the facing fol. 221 left margin it continues as '← — Vc. 135 (1)'.",
+          "No shelfmark or heading for this note is on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 441,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 135 (1)",
+            "evidence": "An arrow line runs from the fol. 221 left-margin shelfmark 'Vc. 135 (1)' across the gutter and points at this line.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The opening abbreviation may be read 'Cd:' or 'Col:'.",
+          "The cursive readings 'Vaiśākhasyaikaviṁśe' (anusvāra form), 'vyalikhad', 'amaladhiyo' and 'tṛptyai' are provisional.",
+          "The parent holding is identified only from the arrow on the facing page. The attachment to Vc. 135 (1) is not confirmed by any text on this page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_query",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, isolated, about x≈2940, y≈2020.",
+          "A similar '?' appears at about the same height in the fol. 221 left margin, beside 'd. 850 (5)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 441,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 850 (5)",
+            "evidence": "Only the matching vertical position and the similar '?' mark in the fol. 221 margin suggest a link.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear what the query refers to, and whether it belongs to this page or relates to the facing page."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_correction_note",
+        "literal_text": "u/ ā/?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil. The slashes are long downward strokes. The final mark is raised and may be '?' or '!'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The first character may be 'u' or another letter. The final mark may be '?' or '!'.",
+          "No attached text is on this page."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_correction_note",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, a with a macron followed by a long slash, about x≈2950, y≈2850."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 441,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ā/ (fol. 221 left margin)",
+            "evidence": "A similar 'ā/' mark is at a comparable height in the fol. 221 left margin.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear whether this mark relates to this page, to the facing page, or is a transfer mark."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Colophon quotation, attached by arrow to a facing-page entry (probable)."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Isolated pencil query, unattached."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Pencil correction-style note, unattached."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Pencil 'ā/' mark, unattached."
+      }
+    ],
+    "page_annotations": [
+      "Otherwise blank ruled verso. Faint reversed show-through from the other side of the leaf is not transcribed.",
+      "A small dark mark at the left leaf edge (about y≈530) is not text.",
+      "The strip right of x≈3200 is the fol. 221 margin ('— Vc.', 'see below d. 8…', 'cl…', 'from next…', 'insert… d', 'insert ✓'). These fragments are not target records.",
+      "The bottom and margins were reviewed and no further writing was found."
+    ],
+    "unresolved_relationships": [
+      "The parent holding of r002 is inferred from the arrow only (probably Vc. 135 (1) on fol. 221).",
+      "The referents of pencil marks r003–r005 are unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The ink folio number '220' with a raised 'b' and small dot(s) is at the top left (native about x 375–500, y 310–440). The candidate reading and its uncertainty are adequate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "There is a single ink line on the ruled line at y≈860, running from x≈400 to x≈2695 across the two upper tiles. The overlap at x 1604–1904 ('amaladhiyo Bh…') is not duplicated. The reading agrees with the source within the stated provisional uncertainties: opening 'Cd'/'Col', 'Vaiśākhasyaikaviṁśe', 'tṛptyai' written with an under-dot r̥. A left-pointing ink arrow at x≈3015–3190 lies on this leaf and continues across the gutter to '— Vc.' on fol. 221. The candidate annotation wrongly places the '←' on the fol. 221 margin."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A faint pencil '?' is at about x 2940–2975, y 2015–2095. The '?' that appears at the far left of the fol. 221 adjacent image is this same mark, seen on the fol. 220b strip included in that image. It is not a second matching mark. The candidate's evidence for the link therefore needs correcting."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Faint pencil at about x 2600–2800, y 2700–2850. The literal reading is uncertain. The mark over the second 'a' is a short stroke that may be a macron or a slanted accent. After it come one or two tall strokes and a final raised mark ('!' or '?')."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Faint pencil 'ā' followed by a long slash, at about x 2955–3030, y 2840–2985. The 'ā/' visible at the far left of the fol. 221 adjacent image is this same mark on the fol. 220b strip. There is no separate 'ā/' mark in the fol. 221 margin."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Single ink line on the ruled line at about y≈860.",
+          "An ink arrow pointing left (approx. bbox [3010,835,190,50]) is drawn near the gutter on this page. On the facing fol. 221 left margin it continues as '← — Vc. 135 (1)'.",
+          "No shelfmark or heading for this note is on this page."
+        ],
+        "after": [
+          "Single ink line on the ruled line at about y≈860.",
+          "An ink arrow pointing left (approx. bbox [3010,835,190,50]) is drawn near the gutter on this page. Across the gutter, a dash on fol. 221 leads to the shelfmark 'Vc. 135 (1)'. The '←' seen at the far left of the fol. 221 adjacent image is this same arrow on the fol. 220b strip, not a separate mark on fol. 221.",
+          "No shelfmark or heading for this note is on this page."
+        ],
+        "reason": "In the fol. 221 adjacent image, the arrowhead lies left of that page's leaf edge, on the strip of fol. 220b. It matches this page's arrow and is not a separate mark.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Faint pencil, isolated, about x≈2940, y≈2020.",
+          "A similar '?' appears at about the same height in the fol. 221 left margin, beside 'd. 850 (5)'."
+        ],
+        "after": [
+          "Faint pencil, isolated, about x≈2940, y≈2020.",
+          "The '?' visible at the far left of the fol. 221 adjacent image is this same mark on the fol. 220b strip, not a second mark. On fol. 221, the shelfmark 'd. 850 (5)' stands at roughly the same height across the gutter."
+        ],
+        "reason": "The adjacent image shows the mark left of fol. 221's leaf edge, so it is the same physical mark.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 441,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 850 (5)",
+            "evidence": "Only the matching vertical position and the similar '?' mark in the fol. 221 margin suggest a link.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 441,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 850 (5)",
+            "evidence": "Only the roughly matching vertical position across the gutter suggests a link. There is no separate matching '?' on fol. 221.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The supposed matching mark is this page's own mark seen in the adjacent image.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 441,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ā/ (fol. 221 left margin)",
+            "evidence": "A similar 'ā/' mark is at a comparable height in the fol. 221 left margin.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [],
+        "reason": "The 'ā/' in the fol. 221 adjacent image lies on the fol. 220b strip and is this same mark. No independent evidence for an attachment remains.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "The first character may be 'u' or another letter. The final mark may be '?' or '!'.",
+          "No attached text is on this page."
+        ],
+        "after": [
+          "The first character may be 'u' or another letter. The final mark may be '?' or '!'.",
+          "The stroke over the second 'a' may be a macron or a slanted accent. After it there appear to be one or possibly two long vertical strokes before the final mark.",
+          "No attached text is on this page."
+        ],
+        "reason": "The native tile shows a short sloping stroke over the 'a' and more than one tall stroke after it. The transcription 'ā/' is not secure.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The parent holding Vc. 135 (1) on fol. 221 is supported only by the arrow and dash crossing the gutter. The cursive readings remain provisional.",
+        "next_check": "Compare the arrow continuity at higher resolution across the gutter on fol. 221."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "Exact pencil characters and diacritic are uncertain, and the referent is unknown.",
+        "next_check": "Inspect enhanced raking or contrast image of the region x 2590–2810, y 2700–2850."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The referent of the pencil 'ā/' is unknown.",
+        "next_check": "Check whether it aligns with a fol. 221 line such as 'Rāmacandrāgami'."
+      }
+    ],
+    "boundary_review": "The leaf runs from x≈330 to x≈3190, with the gutter at x≈3200–3230. Everything right of that belongs to fol. 221 ('— Vc.', 'see below', 'd. 8…', 'cl…', 'from next…', 'insert…', 'd…', 'insert ✓'). None of it is transcribed here. The adjacent fol. 221 image includes a strip of fol. 220b on its left, which shows this page's arrow, '?' and 'ā/'. These are the same marks, not duplicates.",
+    "region_review": {
+      "top": "The folio number and the b002 line are the only writing. There is a stray dot near x≈1540, y≈350.",
+      "middle": "Pencil marks b003, b004 and b005 are present. Otherwise there is only faint reversed show-through, which is not transcribed.",
+      "bottom": "Ruled lines and show-through only. No writing was found down to the leaf edge at y≈4855.",
+      "left_margin": "There is a small dark mark at the leaf edge (y≈530). It is not text.",
+      "right_margin": "The ink arrow at x≈3015–3190, y≈862 points to b002. Gutter stitching or nicks appear around y≈1720 and y≈2670.",
+      "interlinear": "No interlinear additions or cancellations were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        370,
+        305,
+        140,
+        140
+      ],
+      "kind_hint": "page_number",
+      "anchor": "220b",
+      "features": [
+        "ink",
+        "top left corner",
+        "superscript 'b' after '220'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        395,
+        810,
+        2320,
+        140
+      ],
+      "kind_hint": "continuation/colophon note (attached to an entry on a facing page via arrow)",
+      "anchor": "Cd: \"Vaiśākhasyaikaviṁśe ... Bhojarājasya tṛptyai.\" Old MS.",
+      "features": [
+        "ink",
+        "single line",
+        "quoted Sanskrit colophon",
+        "ends with 'Old MS.'",
+        "linked by arrow at right edge to the facing-page 'Vc.' line; parent entry not on this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2930,
+        2010,
+        60,
+        90
+      ],
+      "kind_hint": "marginal pencil query",
+      "anchor": "?",
+      "features": [
+        "faint pencil",
+        "isolated",
+        "no attached text on this page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2590,
+        2700,
+        220,
+        150
+      ],
+      "kind_hint": "marginal pencil note",
+      "anchor": "u/ ā/?",
+      "features": [
+        "faint pencil",
+        "correction-style notation with slashes",
+        "query mark"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2940,
+        2840,
+        90,
+        140
+      ],
+      "kind_hint": "marginal pencil note",
+      "anchor": "ā/",
+      "features": [
+        "faint pencil",
+        "macron over a",
+        "slash"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "220b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top left corner. The 'b' is written raised above '220', with a dot or point between them."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letter is read as 'b'. The form is cursive."
+      ],
+      "stable_id": "css-prod-0440-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "colophon_quotation",
+      "literal_text": "Cd: \"Vaiśākhasyaikaviṁśe vyalikhad amaladhiyo Bhojarājasya tṛptyai.\" Old MS.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line on the ruled line at about y≈860.",
+        "An ink arrow pointing left (approx. bbox [3010,835,190,50]) is drawn near the gutter on this page. On the facing fol. 221 left margin it continues as '← — Vc. 135 (1)'.",
+        "No shelfmark or heading for this note is on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 441,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 135 (1)",
+          "evidence": "An arrow line runs from the fol. 221 left-margin shelfmark 'Vc. 135 (1)' across the gutter and points at this line.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The opening abbreviation may be read 'Cd:' or 'Col:'.",
+        "The cursive readings 'Vaiśākhasyaikaviṁśe' (anusvāra form), 'vyalikhad', 'amaladhiyo' and 'tṛptyai' are provisional.",
+        "The parent holding is identified only from the arrow on the facing page. The attachment to Vc. 135 (1) is not confirmed by any text on this page."
+      ],
+      "stable_id": "css-prod-0440-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_query",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, isolated, about x≈2940, y≈2020.",
+        "A similar '?' appears at about the same height in the fol. 221 left margin, beside 'd. 850 (5)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 441,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 850 (5)",
+          "evidence": "Only the matching vertical position and the similar '?' mark in the fol. 221 margin suggest a link.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear what the query refers to, and whether it belongs to this page or relates to the facing page."
+      ],
+      "stable_id": "css-prod-0440-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_correction_note",
+      "literal_text": "u/ ā/?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil. The slashes are long downward strokes. The final mark is raised and may be '?' or '!'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The first character may be 'u' or another letter. The final mark may be '?' or '!'.",
+        "No attached text is on this page."
+      ],
+      "stable_id": "css-prod-0440-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_correction_note",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, a with a macron followed by a long slash, about x≈2950, y≈2850."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 441,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ā/ (fol. 221 left margin)",
+          "evidence": "A similar 'ā/' mark is at a comparable height in the fol. 221 left margin.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear whether this mark relates to this page, to the facing page, or is a transfer mark."
+      ],
+      "stable_id": "css-prod-0440-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Single ink line on the ruled line at about y≈860.",
+        "An ink arrow pointing left (approx. bbox [3010,835,190,50]) is drawn near the gutter on this page. On the facing fol. 221 left margin it continues as '← — Vc. 135 (1)'.",
+        "No shelfmark or heading for this note is on this page."
+      ],
+      "after": [
+        "Single ink line on the ruled line at about y≈860.",
+        "An ink arrow pointing left (approx. bbox [3010,835,190,50]) is drawn near the gutter on this page. Across the gutter, a dash on fol. 221 leads to the shelfmark 'Vc. 135 (1)'. The '←' seen at the far left of the fol. 221 adjacent image is this same arrow on the fol. 220b strip, not a separate mark on fol. 221.",
+        "No shelfmark or heading for this note is on this page."
+      ],
+      "reason": "In the fol. 221 adjacent image, the arrowhead lies left of that page's leaf edge, on the strip of fol. 220b. It matches this page's arrow and is not a separate mark.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Faint pencil, isolated, about x≈2940, y≈2020.",
+        "A similar '?' appears at about the same height in the fol. 221 left margin, beside 'd. 850 (5)'."
+      ],
+      "after": [
+        "Faint pencil, isolated, about x≈2940, y≈2020.",
+        "The '?' visible at the far left of the fol. 221 adjacent image is this same mark on the fol. 220b strip, not a second mark. On fol. 221, the shelfmark 'd. 850 (5)' stands at roughly the same height across the gutter."
+      ],
+      "reason": "The adjacent image shows the mark left of fol. 221's leaf edge, so it is the same physical mark.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 441,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 850 (5)",
+          "evidence": "Only the matching vertical position and the similar '?' mark in the fol. 221 margin suggest a link.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 441,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 850 (5)",
+          "evidence": "Only the roughly matching vertical position across the gutter suggests a link. There is no separate matching '?' on fol. 221.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The supposed matching mark is this page's own mark seen in the adjacent image.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 441,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ā/ (fol. 221 left margin)",
+          "evidence": "A similar 'ā/' mark is at a comparable height in the fol. 221 left margin.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [],
+      "reason": "The 'ā/' in the fol. 221 adjacent image lies on the fol. 220b strip and is this same mark. No independent evidence for an attachment remains.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The first character may be 'u' or another letter. The final mark may be '?' or '!'.",
+        "No attached text is on this page."
+      ],
+      "after": [
+        "The first character may be 'u' or another letter. The final mark may be '?' or '!'.",
+        "The stroke over the second 'a' may be a macron or a slanted accent. After it there appear to be one or possibly two long vertical strokes before the final mark.",
+        "No attached text is on this page."
+      ],
+      "reason": "The native tile shows a short sloping stroke over the 'a' and more than one tall stroke after it. The transcription 'ā/' is not secure.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0cc15412-3ee0-4e2e-9de0-8591234800e7.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cc15412-3ee0-4e2e-9de0-8591234800e7/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b95a2a0f7ca44f8bc8f92feeb5d5b4d66963710682899cf2ea1d3d3332aa8319",
+      "bytes": 248796,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cc15412-3ee0-4e2e-9de0-8591234800e7/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "db632c5dbb417465ee9b99148733841f19d3d1ce1ee9901e08bb0dca95434464",
+      "bytes": 317153,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cc15412-3ee0-4e2e-9de0-8591234800e7/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9da751218ae862a98cc0d727239a3391373865baaa088ab8d49cc93944487c22",
+      "bytes": 317028,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cc15412-3ee0-4e2e-9de0-8591234800e7/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7fe04ea65cef8eee1080c0069335f0163868455cfb00460c60bb97c6271522c5",
+      "bytes": 296721,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cc15412-3ee0-4e2e-9de0-8591234800e7/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "df60acc6e0420822493173a7ebaebcbf2f5703209ce98f1389b6982033cb12c1",
+      "bytes": 280875,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cc15412-3ee0-4e2e-9de0-8591234800e7/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "975463f6be93aa0cba1becd8276bba9f4287b3078acc8cf5b9b208c7f60d84d7",
+      "bytes": 297990,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cc15412-3ee0-4e2e-9de0-8591234800e7/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "710f7f9049c1ff37fa07a178a27847a11c40f7a6fb377d0402635904302cabf2",
+      "bytes": 317351,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9fdab2c5-3cca-490e-8726-bbec18f6fc67/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2f0d0333de2f8df1b15f122b4211cd5e50264fbe40773850acafa83f2e8348c4",
+      "bytes": 265058,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 439,
+      "folio_label": "fol. 220",
+      "page_id": "9fdab2c5-3cca-490e-8726-bbec18f6fc67",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d2cdbfea-7f40-4cfb-89a7-861e45ffca90/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "09a15b288c892e4a2427136308d6d95aaa32e04bdfd81b0d00443a9fb5c4774c",
+      "bytes": 248947,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 441,
+      "folio_label": "fol. 221",
+      "page_id": "d2cdbfea-7f40-4cfb-89a7-861e45ffca90",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

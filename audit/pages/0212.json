@@ -1,0 +1,938 @@
+{
+  "source_order": 212,
+  "folio_label": "fol. 106b",
+  "page_id": "b668e42e-b535-4139-bed1-74a802915db3",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "106b",
+    "principal_page_bbox": [
+      270,
+      265,
+      2870,
+      4585
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          350,
+          300,
+          150,
+          90
+        ],
+        "kind_hint": "page_number",
+        "anchor": "106b",
+        "features": [
+          "top left corner",
+          "superscript 'b' after 106"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          300,
+          1515,
+          2680,
+          300
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "b. 95(3) Dānotsargavidhi, ff. 1-2 inc. Begins Tatra prathamataḥ ... 2.d: 2: 5: Beng.",
+        "features": [
+          "slanted tick/stroke in the left margin before the shelfmark",
+          "three handwritten lines",
+          "incipit: 'Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-somādikaṁ paṭhet' (approximate reading)",
+          "list of contents: 'Followed by (1) ff 16-18 of b. 95(2)c Vṛṣotsarga, (2) one leaf from ritual text, (3) one leaf from extract from Mahābhārata, Virāṭaparvan, (4) stray leaf' (approximate reading)",
+          "date/extent/script formula at the right end of line 3: '2.d: 2: 5: Beng.'",
+          "superscript 'c' after 'b. 95(2)'"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1100,
+          1495,
+          260,
+          70
+        ],
+        "kind_hint": "interlinear_addition",
+        "anchor": "Sāmavedin",
+        "features": [
+          "written above the title Dānotsargavidhi, between the title and 'ff.'",
+          "caret or comma-like stroke beneath it, below the line, at about x 1130"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          390,
+          3080,
+          950,
+          130
+        ],
+        "kind_hint": "continuation_or_displaced_note",
+        "anchor": "ff. 1-41, inc., frequently printed.",
+        "features": [
+          "isolated single line in the lower middle of the page",
+          "linked by a horizontal arrow from the gutter side (see unattached_marks)"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2845,
+          3130,
+          265,
+          40
+        ],
+        "description": "Horizontal arrow drawn in ink or pencil near the gutter. The arrowhead points left toward the 'ff. 1-41' line. It continues as a dash across the gutter onto the facing page (fol. 107), level with the facing-page entry 'c. 259(3)'."
+      },
+      {
+        "bbox": [
+          700,
+          2950,
+          350,
+          60
+        ],
+        "description": "Small specks or dots on the paper; not text."
+      },
+      {
+        "bbox": [
+          1080,
+          360,
+          40,
+          30
+        ],
+        "description": "Small speck near the top centre; not text."
+      }
+    ],
+    "boundary_notes": [
+      "The right side of the canvas, beyond the gutter at x≈3135, shows the left edge of the facing fol. 107. This includes marginal marks such as 't/?', 'd. 67…', 'See s. MBh.', arrows, 'ū/', 'ā/ Ā/', 'ū/? m/', 'Dharma?', ticks, 'a/', '9' and 'Vc. 393(1)'. These are context only and not target blocks.",
+      "Block b004 is probably a note displaced from the facing page. Its arrow aligns with the facing-page entry c. 259(3) (Dāyabhāga) and does not attach to b002. Its parent attribution is ambiguous."
+    ],
+    "uncertainties": [
+      "Readings of the cursive Sanskrit incipit in b002 are approximate. 'Vṛṣotsarga' is written with a subscript dot that is unclear.",
+      "It is unclear whether 'Sāmavedin' qualifies the title or the work."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "106b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "composite_manuscript_entry",
+        "literal_text": "b. 95(3) Dānotsargavidhi [interlinear above, keyed by caret: Sāmavedin], ff. 1-2 inc. Begins Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-\nsomādikaṁ paṭhet. Followed by (1) ff 16-18 of b. 95(2)^c Vṛṣotsarga, (2) one leaf from ritual text, (3) one\nleaf from extract from Mahābhārata, Virāṭaparvan, (4) stray leaf.          2.d: 2: 5: Beng.",
+        "fields": {
+          "shelfmark": "b. 95(3)",
+          "title": "Dānotsargavidhi",
+          "extent": "ff. 1-2 inc.",
+          "incipit": "Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-somādikaṁ paṭhet.",
+          "date": "2.d",
+          "lines": "5",
+          "script": "Beng."
+        },
+        "normalized_title": "Dānotsargavidhi",
+        "annotations": [
+          "A slanted tick or stroke appears in the left margin before the shelfmark.",
+          "'Sāmavedin' is written interlinearly above the space between the title and 'ff.'. A caret or comma-like mark sits below the line at that point and keys the insertion after the title.",
+          "There is a superscript 'c' after 'b. 95(2)'.",
+          "The contents list is numbered (1)-(4). Item (1) refers to another shelfmark, b. 95(2)^c, with the title Vṛṣotsarga.",
+          "The formula '2.d: 2: 5: Beng.' is placed at the right end of line 3.",
+          "The interpretation of the formula's second element, '2', is uncertain. The field mapping assigns only the third element, '5', to lines, and does not assign '2' to any field."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 212,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 95(2)^c Vṛṣotsarga",
+            "evidence": "The contents list refers to ff 16-18 of b. 95(2)^c, which are bound with this item. This is an internal reference to another holding, not an independent cross-reference record.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The cursive incipit reading is approximate, especially 'sūryyaḥ-somādikaṁ' and 'paṭhet'.",
+          "The first element of the formula looks like '2.d'. It may be an 'n.d.' written in a form that resembles '2'. It is transcribed as it appears.",
+          "The '(1' in 'Followed by (1)' may be written '(11'. It is read as '(1)'.",
+          "The diacritics in 'Vṛṣotsarga' are unclear.",
+          "It is uncertain whether 'Sāmavedin' qualifies the title (that is, a Sāmavedin form of the Dānotsargavidhi) or is a separate note."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b004",
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "displaced_note_with_arrow",
+        "literal_text": "ff. 1-41, inc., frequently printed.",
+        "fields": {
+          "extent": "ff. 1-41, inc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "This is an isolated single line in the lower middle of the page.",
+          "A horizontal arrow near the gutter, at the level of this line, points left toward it. A dash continues the stroke across the gutter onto the facing fol. 107."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 213,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 259(3) (ditto Dāyabhāga entry, 'D. by Śrīkṛṣṇa Vipra')",
+            "evidence": "The arrow and dash run from the gutter across to fol. 107, level with the ticked entry c. 259(3).",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The parent holding is ambiguous. The note does not attach to r001 on this page. The arrow suggests it belongs to an entry on fol. 107, possibly c. 259(3), but this is not secure."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "106^b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top left corner, with a superscript 'b' after 106."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2845,
+          3130,
+          400,
+          45
+        ],
+        "kind_hint": "arrow_mark",
+        "anchor": "horizontal arrow pointing left toward 'ff. 1-41' line",
+        "features": [
+          "The arrowhead is at about x 2850.",
+          "The shaft runs to the gutter at about x 3105.",
+          "A dash continues onto the facing page at about x 3160-3240."
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Page number 106b."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Main holding entry b. 95(3)."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Interlinear 'Sāmavedin', keyed by a caret into the title position of r001."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Displaced note with no secure parent; its arrow points toward fol. 107."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow mark linking the b004 note across the gutter."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper. Specks and dots at about [700,2950] and [1080,360] are not text.",
+      "Marks at the left edge of the facing fol. 107, beyond x≈3135, are context only and are not transcribed as target records."
+    ],
+    "unresolved_relationships": [
+      "The attachment of 'ff. 1-41, inc., frequently printed.' is unresolved. It possibly relates to fol. 107 entry c. 259(3) by the arrow."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The page number '106' with a superscript letter (read as 'b') is at the top left, about [350,300]. The candidate's literal text '106^b' is acceptable."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "All three lines of the b. 95(3) entry are present in r001. This includes the left-margin slanted stroke at about [320,1530] and the right-end formula '2.d: 2: 5: Beng.' (the first element may be 'n.d'). The cursive readings remain approximate. 'Followed by (11' is literally ambiguous between '(1' and '(11'. The dot under 'paṭhet' is visible."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "'Sāmavedin' is written above the line, roughly over the end of 'Dānotsargavidhi' and the start of ', ff'. The descending stroke below the line at about x 1125, y 1600 is most plausibly the comma after the title. It is not clearly a caret, so the candidate's claim that the stroke keys the insertion is overstated."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An isolated line, 'ff. 1-41, inc., frequently printed.', is at about [390,3080]. It is correctly kept separate from r001."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A left-pointing arrow runs from about x 2850 to the gutter at about x 3105, at y≈3150. A detached dash continues on the facing fol. 107 at about x 3160-3240. This matches the inventory's unattached arrow mark. The bbox extends past the gutter only to include that dash."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "literal_text",
+        "before": "b. 95(3) Dānotsargavidhi [interlinear above, keyed by caret: Sāmavedin], ff. 1-2 inc. Begins Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-\nsomādikaṁ paṭhet. Followed by (1) ff 16-18 of b. 95(2)^c Vṛṣotsarga, (2) one leaf from ritual text, (3) one\nleaf from extract from Mahābhārata, Virāṭaparvan, (4) stray leaf.          2.d: 2: 5: Beng.",
+        "after": "b. 95(3) Dānotsargavidhi [interlinear above, over the end of the title / start of ', ff': Sāmavedin], ff. 1-2 inc. Begins Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-\nsomādikaṁ paṭhet. Followed by (1[?]) ff 16-18 of b. 95(2)^c Vṛṣotsarga, (2) one leaf from ritual text, (3) one\nleaf from extract from Mahābhārata, Virāṭaparvan, (4) stray leaf.          2.d: 2: 5: Beng.",
+        "reason": "No caret is securely visible. The sub-linear stroke is consistent with the comma after the title. The '(1' reading is ambiguous ('(11' is possible), so it is flagged in the literal text rather than silently normalised.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r001",
+        "field_path": "annotations",
+        "before": [
+          "A slanted tick or stroke appears in the left margin before the shelfmark.",
+          "'Sāmavedin' is written interlinearly above the space between the title and 'ff.'. A caret or comma-like mark sits below the line at that point and keys the insertion after the title.",
+          "There is a superscript 'c' after 'b. 95(2)'.",
+          "The contents list is numbered (1)-(4). Item (1) refers to another shelfmark, b. 95(2)^c, with the title Vṛṣotsarga.",
+          "The formula '2.d: 2: 5: Beng.' is placed at the right end of line 3.",
+          "The interpretation of the formula's second element, '2', is uncertain. The field mapping assigns only the third element, '5', to lines, and does not assign '2' to any field."
+        ],
+        "after": [
+          "A slanted tick or stroke appears in the left margin before the shelfmark.",
+          "'Sāmavedin' is written interlinearly above the end of the title and the start of ', ff'. The descending stroke below the line at that point appears to be the comma after the title. No distinct caret is securely visible, so the exact insertion point is not marked.",
+          "There is a superscript 'c' after 'b. 95(2)'.",
+          "The contents list is numbered (1)-(4). Item (1) refers to another shelfmark, b. 95(2)^c, with the title Vṛṣotsarga.",
+          "The formula '2.d: 2: 5: Beng.' is placed at the right end of line 3.",
+          "The interpretation of the formula's second element, '2', is uncertain. The field mapping assigns only the third element, '5', to lines, and does not assign '2' to any field."
+        ],
+        "reason": "The source does not show a clear caret keying the insertion. The candidate presented an ambiguous stroke as an insertion key.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 213,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 259(3) (ditto Dāyabhāga entry, 'D. by Śrīkṛṣṇa Vipra')",
+            "evidence": "The arrow and dash run from the gutter across to fol. 107, level with the ticked entry c. 259(3).",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 213,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 259(3) (ditto line on fol. 107; reading of its text from the low-resolution context image is approximate)",
+            "evidence": "The arrow and dash run from the gutter across to fol. 107, level with the ticked entry c. 259(3). In the low-resolution context image, that entry's right-hand formula appears to contain '41', which is consistent with 'ff. 1-41'. This reading is not verified at native resolution.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "This adds supporting but unverified evidence. The facing-page anchor wording is from a low-resolution context image and should not be presented as secure.",
+        "source_block_ids": [
+          "b004",
+          "b901"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The first element of the formula, recorded in fields.date as '2.d', may be a cursive 'n.d'. Adjacent pages use 'n.d.' formulas throughout. The value should not be treated as a date of '2'.",
+        "next_check": "Compare the letter form with secure 'n.d.' instances in the same hand at native resolution."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b004",
+          "b901"
+        ],
+        "issue": "The parent of 'ff. 1-41, inc., frequently printed.' is unresolved. The arrow aligns with fol. 107 c. 259(3).",
+        "next_check": "Inspect fol. 107 at native resolution: the c. 259(3) formula and whether the gutter dash connects to it."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "It is unclear whether 'Sāmavedin' qualifies the title or the work, and where exactly it is inserted.",
+        "next_check": "Check for similar interlinear qualifiers elsewhere in this hand."
+      }
+    ],
+    "boundary_review": "The gutter is at x≈3135. Everything to its right (t/?, d. 67…, See s. MBh., ←, ū/, ā/ Ā/, ū/? m/, Dharma?, ticks, a/, 9, √c. 393(1)) belongs to fol. 107. These are context only and are correctly excluded. The only cross-gutter element is the dash continuing the arrow b901. Block b004's attribution to a fol. 107 entry remains unresolved.",
+    "region_review": {
+      "top": "The page number 106^b is at top left; there is a speck near the top centre. Otherwise the area is blank ruled paper.",
+      "middle": "The b. 95(3) entry is at y≈1500-1800 with the interlinear 'Sāmavedin'. The note 'ff. 1-41, inc., frequently printed.' is at y≈3080. There are specks at about [700,2950].",
+      "bottom": "Blank ruled paper from y≈3300 to the page foot (~4850), with only specks. No bottom note is visible.",
+      "left_margin": "A slanted tick is before b. 95(3). Nothing else is visible.",
+      "right_margin": "The left-pointing arrow at y≈3150 is near the gutter. There is no other writing on the target side.",
+      "interlinear": "'Sāmavedin' is above line 1 of b002. There is a superscript 'c' after b. 95(2). No other interlinear additions or cancellations are seen."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        350,
+        300,
+        150,
+        90
+      ],
+      "kind_hint": "page_number",
+      "anchor": "106b",
+      "features": [
+        "top left corner",
+        "superscript 'b' after 106"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        300,
+        1515,
+        2680,
+        300
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "b. 95(3) Dānotsargavidhi, ff. 1-2 inc. Begins Tatra prathamataḥ ... 2.d: 2: 5: Beng.",
+      "features": [
+        "slanted tick/stroke in the left margin before the shelfmark",
+        "three handwritten lines",
+        "incipit: 'Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-somādikaṁ paṭhet' (approximate reading)",
+        "list of contents: 'Followed by (1) ff 16-18 of b. 95(2)c Vṛṣotsarga, (2) one leaf from ritual text, (3) one leaf from extract from Mahābhārata, Virāṭaparvan, (4) stray leaf' (approximate reading)",
+        "date/extent/script formula at the right end of line 3: '2.d: 2: 5: Beng.'",
+        "superscript 'c' after 'b. 95(2)'"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1100,
+        1495,
+        260,
+        70
+      ],
+      "kind_hint": "interlinear_addition",
+      "anchor": "Sāmavedin",
+      "features": [
+        "written above the title Dānotsargavidhi, between the title and 'ff.'",
+        "caret or comma-like stroke beneath it, below the line, at about x 1130"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        390,
+        3080,
+        950,
+        130
+      ],
+      "kind_hint": "continuation_or_displaced_note",
+      "anchor": "ff. 1-41, inc., frequently printed.",
+      "features": [
+        "isolated single line in the lower middle of the page",
+        "linked by a horizontal arrow from the gutter side (see unattached_marks)"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2845,
+        3130,
+        400,
+        45
+      ],
+      "kind_hint": "arrow_mark",
+      "anchor": "horizontal arrow pointing left toward 'ff. 1-41' line",
+      "features": [
+        "The arrowhead is at about x 2850.",
+        "The shaft runs to the gutter at about x 3105.",
+        "A dash continues onto the facing page at about x 3160-3240."
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "composite_manuscript_entry",
+      "literal_text": "b. 95(3) Dānotsargavidhi [interlinear above, keyed by caret: Sāmavedin], ff. 1-2 inc. Begins Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-\nsomādikaṁ paṭhet. Followed by (1) ff 16-18 of b. 95(2)^c Vṛṣotsarga, (2) one leaf from ritual text, (3) one\nleaf from extract from Mahābhārata, Virāṭaparvan, (4) stray leaf.          2.d: 2: 5: Beng.",
+      "fields": {
+        "shelfmark": "b. 95(3)",
+        "title": "Dānotsargavidhi",
+        "extent": "ff. 1-2 inc.",
+        "incipit": "Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-somādikaṁ paṭhet.",
+        "date": "2.d",
+        "lines": "5",
+        "script": "Beng."
+      },
+      "normalized_title": "Dānotsargavidhi",
+      "annotations": [
+        "A slanted tick or stroke appears in the left margin before the shelfmark.",
+        "'Sāmavedin' is written interlinearly above the space between the title and 'ff.'. A caret or comma-like mark sits below the line at that point and keys the insertion after the title.",
+        "There is a superscript 'c' after 'b. 95(2)'.",
+        "The contents list is numbered (1)-(4). Item (1) refers to another shelfmark, b. 95(2)^c, with the title Vṛṣotsarga.",
+        "The formula '2.d: 2: 5: Beng.' is placed at the right end of line 3.",
+        "The interpretation of the formula's second element, '2', is uncertain. The field mapping assigns only the third element, '5', to lines, and does not assign '2' to any field."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 212,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 95(2)^c Vṛṣotsarga",
+          "evidence": "The contents list refers to ff 16-18 of b. 95(2)^c, which are bound with this item. This is an internal reference to another holding, not an independent cross-reference record.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The cursive incipit reading is approximate, especially 'sūryyaḥ-somādikaṁ' and 'paṭhet'.",
+        "The first element of the formula looks like '2.d'. It may be an 'n.d.' written in a form that resembles '2'. It is transcribed as it appears.",
+        "The '(1' in 'Followed by (1)' may be written '(11'. It is read as '(1)'.",
+        "The diacritics in 'Vṛṣotsarga' are unclear.",
+        "It is uncertain whether 'Sāmavedin' qualifies the title (that is, a Sāmavedin form of the Dānotsargavidhi) or is a separate note."
+      ],
+      "stable_id": "css-prod-0212-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b004",
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "displaced_note_with_arrow",
+      "literal_text": "ff. 1-41, inc., frequently printed.",
+      "fields": {
+        "extent": "ff. 1-41, inc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "This is an isolated single line in the lower middle of the page.",
+        "A horizontal arrow near the gutter, at the level of this line, points left toward it. A dash continues the stroke across the gutter onto the facing fol. 107."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 213,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 259(3) (ditto Dāyabhāga entry, 'D. by Śrīkṛṣṇa Vipra')",
+          "evidence": "The arrow and dash run from the gutter across to fol. 107, level with the ticked entry c. 259(3).",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The parent holding is ambiguous. The note does not attach to r001 on this page. The arrow suggests it belongs to an entry on fol. 107, possibly c. 259(3), but this is not secure."
+      ],
+      "stable_id": "css-prod-0212-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "106^b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top left corner, with a superscript 'b' after 106."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0212-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "literal_text",
+      "before": "b. 95(3) Dānotsargavidhi [interlinear above, keyed by caret: Sāmavedin], ff. 1-2 inc. Begins Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-\nsomādikaṁ paṭhet. Followed by (1) ff 16-18 of b. 95(2)^c Vṛṣotsarga, (2) one leaf from ritual text, (3) one\nleaf from extract from Mahābhārata, Virāṭaparvan, (4) stray leaf.          2.d: 2: 5: Beng.",
+      "after": "b. 95(3) Dānotsargavidhi [interlinear above, over the end of the title / start of ', ff': Sāmavedin], ff. 1-2 inc. Begins Tatra prathamataḥ svastivācanaṁ kṛtvā sūryyaḥ-\nsomādikaṁ paṭhet. Followed by (1[?]) ff 16-18 of b. 95(2)^c Vṛṣotsarga, (2) one leaf from ritual text, (3) one\nleaf from extract from Mahābhārata, Virāṭaparvan, (4) stray leaf.          2.d: 2: 5: Beng.",
+      "reason": "No caret is securely visible. The sub-linear stroke is consistent with the comma after the title. The '(1' reading is ambiguous ('(11' is possible), so it is flagged in the literal text rather than silently normalised.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r001",
+      "field_path": "annotations",
+      "before": [
+        "A slanted tick or stroke appears in the left margin before the shelfmark.",
+        "'Sāmavedin' is written interlinearly above the space between the title and 'ff.'. A caret or comma-like mark sits below the line at that point and keys the insertion after the title.",
+        "There is a superscript 'c' after 'b. 95(2)'.",
+        "The contents list is numbered (1)-(4). Item (1) refers to another shelfmark, b. 95(2)^c, with the title Vṛṣotsarga.",
+        "The formula '2.d: 2: 5: Beng.' is placed at the right end of line 3.",
+        "The interpretation of the formula's second element, '2', is uncertain. The field mapping assigns only the third element, '5', to lines, and does not assign '2' to any field."
+      ],
+      "after": [
+        "A slanted tick or stroke appears in the left margin before the shelfmark.",
+        "'Sāmavedin' is written interlinearly above the end of the title and the start of ', ff'. The descending stroke below the line at that point appears to be the comma after the title. No distinct caret is securely visible, so the exact insertion point is not marked.",
+        "There is a superscript 'c' after 'b. 95(2)'.",
+        "The contents list is numbered (1)-(4). Item (1) refers to another shelfmark, b. 95(2)^c, with the title Vṛṣotsarga.",
+        "The formula '2.d: 2: 5: Beng.' is placed at the right end of line 3.",
+        "The interpretation of the formula's second element, '2', is uncertain. The field mapping assigns only the third element, '5', to lines, and does not assign '2' to any field."
+      ],
+      "reason": "The source does not show a clear caret keying the insertion. The candidate presented an ambiguous stroke as an insertion key.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 213,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 259(3) (ditto Dāyabhāga entry, 'D. by Śrīkṛṣṇa Vipra')",
+          "evidence": "The arrow and dash run from the gutter across to fol. 107, level with the ticked entry c. 259(3).",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 213,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 259(3) (ditto line on fol. 107; reading of its text from the low-resolution context image is approximate)",
+          "evidence": "The arrow and dash run from the gutter across to fol. 107, level with the ticked entry c. 259(3). In the low-resolution context image, that entry's right-hand formula appears to contain '41', which is consistent with 'ff. 1-41'. This reading is not verified at native resolution.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "This adds supporting but unverified evidence. The facing-page anchor wording is from a low-resolution context image and should not be presented as secure.",
+      "source_block_ids": [
+        "b004",
+        "b901"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b668e42e-b535-4139-bed1-74a802915db3.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b668e42e-b535-4139-bed1-74a802915db3/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "38bd27bb079988a94eb8ebaab68ed050fa8c263e8e9f87db11ae056a8a9e0bea",
+      "bytes": 304007,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b668e42e-b535-4139-bed1-74a802915db3/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1f74b058f2337f59cca3c2fc8e83c4018d0ebc79ad7b627649815d5b611046d4",
+      "bytes": 371106,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b668e42e-b535-4139-bed1-74a802915db3/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6f1a2e2fe40bdb0bbf00159e4e6e151f7d45f4c72811bc65bea7b62ef0b3a937",
+      "bytes": 393777,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b668e42e-b535-4139-bed1-74a802915db3/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d8ad87819655f27c01314814cee97eeca3b259341b52040042ddd398cc7402ad",
+      "bytes": 386606,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b668e42e-b535-4139-bed1-74a802915db3/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f6a64cc9741834b9bb2eaec092ef4c36ca2c1c5964aa8c818daa94bb293808e7",
+      "bytes": 394598,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b668e42e-b535-4139-bed1-74a802915db3/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7bb263c0986096a77ec3d74b158a6cb55db104b0ff90e80920d89b5ed887ab1e",
+      "bytes": 325546,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b668e42e-b535-4139-bed1-74a802915db3/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "da3f792cc164e0e395559c4330f3f2346ea98d059435004e6d9344ef85bfe122",
+      "bytes": 363148,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/be4f8f5e-cb8f-4c36-8752-ec41c2fc400e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "57af1bd7f0b46f970c9803a0e61e890953468593f720c55c251c35fc6c2a6101",
+      "bytes": 296758,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 211,
+      "folio_label": "fol. 106",
+      "page_id": "be4f8f5e-cb8f-4c36-8752-ec41c2fc400e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b5e71e85-acc3-4d13-89ea-838cc4356402/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c8ab241ec6ff62f2f8af8d0734431c7bd98ae31f6c2b1fb56cb52a6ab1f84a1e",
+      "bytes": 255542,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 213,
+      "folio_label": "fol. 107",
+      "page_id": "b5e71e85-acc3-4d13-89ea-838cc4356402",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

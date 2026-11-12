@@ -1,0 +1,1713 @@
+{
+  "source_order": 18,
+  "folio_label": "fol. 9b",
+  "page_id": "5290b84d-f5f3-490d-b990-35feb3683933",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "9b",
+    "principal_page_bbox": [
+      285,
+      230,
+      2845,
+      4630
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          375,
+          305,
+          95,
+          90
+        ],
+        "kind_hint": "page_number",
+        "anchor": "9b",
+        "features": [
+          "top-left corner",
+          "ink",
+          "superscript-like 'b' with a dot or colon after it"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          335,
+          1635,
+          1860,
+          180
+        ],
+        "kind_hint": "holding_entry_ditto_continuation",
+        "anchor": "d.330(10). Do., prom Do., in 122 verses. ff.1-13, S.1914.     1857:13:8:D",
+        "features": [
+          "ink tick above shelfmark",
+          "shelfmark begins with a tick-like mark",
+          "'Do.' ditto forms refer to an entry on the preceding page",
+          "extent ff.1-13",
+          "date S.1914",
+          "right-hand date/size/script formula 1857:13:8:D",
+          "the reading 'prom' is uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          335,
+          4025,
+          2580,
+          190
+        ],
+        "kind_hint": "holding_entry_ditto_continuation",
+        "anchor": "√c.38(1). Do  ff.1-68, inc. With readings & brief glosses. Damaged by wet.     n.d.:68:16/18:D.",
+        "features": [
+          "tick above",
+          "√ before shelfmark",
+          "'Do' ditto",
+          "ff.1-68, inc.",
+          "appears to be pencil or lighter ink",
+          "right-hand formula n.d.:68:16/18:D.",
+          "arrow leads from this entry toward the facing page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3010,
+          1730,
+          225,
+          55
+        ],
+        "description": "Paired arrows '← →' near the gutter level with b002. The left arrow is on the target page and the right arrow crosses the gutter toward the facing page entry d.315 (8)/c.375 (3). The arrows likely link this entry to the facing-page entries."
+      },
+      {
+        "bbox": [
+          3010,
+          4135,
+          415,
+          55
+        ],
+        "description": "Long left-pointing arrow from the facing page entry d.201(12), crossing the gutter. Its head points at b003's n.d. formula."
+      },
+      {
+        "bbox": [
+          485,
+          2995,
+          20,
+          10
+        ],
+        "description": "Small stray dash or ink speck in the left area; it does not appear to be text."
+      }
+    ],
+    "boundary_notes": [
+      "The right strip of the images beyond the gutter (x>~3140) shows the facing fol. 10. Its shelfmarks 'e.107 (5)', 'd.385(2)' etc. are context, not target blocks.",
+      "Faint mirrored show-through of writing from the reverse of the leaf is visible across the page. It is not treated as target text.",
+      "b002 and b003 begin with 'Do.' and depend on headings on the preceding page. They are recorded as independent ditto entries, not as headings."
+    ],
+    "uncertainties": [
+      "The word after 'Do.,' in b002 is read as 'prom'. The reading is uncertain.",
+      "The leading mark of 'd.330(10)' may be a tick merged with the 'd'.",
+      "In b003, 'readings &' and 'brief glosses' are cursive and approximate.",
+      "'16/18' in b003 is uncertain as to whether it is one value or alternatives."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "9b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "9b:",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner. The 'b' is written superscript and is followed by a colon-like pair of dots."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The mark after the superscript 'b' could be a colon or two dots."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry_linked_to_facing_page",
+        "literal_text": "√d.330(10). Do., [prom?] Do., in 122 verses. ff.1-13, S.1914.     1857:13:8:D",
+        "fields": {
+          "shelfmark": "d.330(10)",
+          "title": "Do.",
+          "source": "[prom?] Do.",
+          "date": "S.1914; 1857",
+          "extent": "ff.1-13",
+          "lines": "8",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is an ink tick above the shelfmark. A tick-like stroke runs into the initial 'd'.",
+          "'in 122 verses' is a verse count, given separately from the folio extent.",
+          "The right-hand formula '1857:13:8:D' follows the date:folios:lines:script column convention used in this catalogue.",
+          "A left-pointing arrow '←' (b901) is near the gutter at this line. It pairs with a right-pointing arrow '→' on facing fol. 10, beside d.315(8)."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Do. probably repeats Apāmārjanastotra, the heading governing d.315(8) on fol. 10",
+            "source_page_order": 19,
+            "source_block_id": null,
+            "evidence": "Paired arrows '← →' cross the gutter at this line. They meet the fol. 10 entry d.315(8), which is a '——' ditto under Apāmārjanastotra.",
+            "certainty": "probable"
+          },
+          {
+            "field": "source",
+            "value": "Do. probably repeats 'From the Viṣṇudharmottara' (fol. 10, Apāmārjanastotra entry e.72(4))",
+            "source_page_order": 19,
+            "source_block_id": null,
+            "evidence": "The same arrow linkage applies; the fol. 10 Apāmārjanastotra entry reads 'From the Viṣṇudharmottara'.",
+            "certainty": "uncertain"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 19,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Apāmārjanastotra ... d.315(8)",
+            "evidence": "Paired arrows cross the gutter at this line toward fol. 10, d.315(8)/c.375(3).",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 19,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.315(8) / √c.375(3)",
+            "evidence": "The arrows suggest this entry is to be inserted at that point in the fol. 10 sequence.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The word after 'Do.,' is read 'prom'. It may be 'from', but the letter forms are ambiguous.",
+          "The leading tick may be merged with the 'd' of the shelfmark.",
+          "Reading the third formula value as lines is by column convention only."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b902"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry_linked_to_facing_page",
+        "literal_text": "√c.38(1). Do  ff.1-68, inc. With [readings?] & brief glosses. Damaged by wet.     n.d.:68:16/18:D.",
+        "fields": {
+          "shelfmark": "c.38(1)",
+          "title": "Do",
+          "date": "n.d.",
+          "extent": "ff.1-68, inc.",
+          "lines": "16/18",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick stands above the entry and a √ precedes the shelfmark.",
+          "The entry is in pencil or a lighter ink.",
+          "A long left-pointing arrow (b902) comes from facing fol. 10, near √d.201(12), crosses the gutter and points at the 'n.d.' formula of this entry."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Do probably repeats the fol. 10 heading at d.201(12), Abhidhānaratnamālā (with 'kośa' cancelled)",
+            "source_page_order": 19,
+            "source_block_id": null,
+            "evidence": "The long arrow runs from the fol. 10 d.201(12) line to this entry.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 19,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.201(12) Abhidhānaratnamālā",
+            "evidence": "A cross-gutter arrow connects that entry to this one.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 19,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.201(12)",
+            "evidence": "The arrow suggests this entry is to be inserted near d.201(12).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'readings' may instead be 'headings'. 'brief glosses' is cursive and approximate.",
+          "'16/18' may be one value or alternative line counts.",
+          "The closing parenthesis of 'c.38(1)' is faint."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3010,
+          1730,
+          130,
+          55
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "left-pointing ink arrow near the gutter, level with b002",
+          "pairs with '→' on facing fol. 10"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3010,
+          4135,
+          415,
+          55
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←——",
+        "features": [
+          "long arrow crossing the gutter from the fol. 10 d.201(12) line",
+          "head points at b003's formula"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          485,
+          2995,
+          20,
+          10
+        ],
+        "kind_hint": "stray_mark",
+        "anchor": "-",
+        "features": [
+          "small ink dash or speck; not text"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Ditto holding linked by arrows to fol. 10."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Ditto holding linked by arrow to fol. 10."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Linking arrow for r002."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Linking arrow for r003."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [],
+        "explanation": "Stray mark, not text."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper. Faint mirrored show-through from the reverse of the leaf is visible but is not transcribed.",
+      "The strip right of the gutter (x > ~3140) belongs to fol. 10 and is context only.",
+      "Correction to the inventory: the 'Do.' entries are linked by arrows to fol. 10 entries, not to the preceding page."
+    ],
+    "unresolved_relationships": [
+      "The exact antecedents of the 'Do.' entries depend on reading the arrow linkage to fol. 10; they are probable, not secure."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left ink page label reads '9' with a superscript 'b' and a colon-like pair of dots. r001 records it adequately and keeps the uncertainty about the dots."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The ink entry at line y≈1700 is complete through the right-hand formula '1857:13:8:D'. The tick above and the tick merged into the initial 'd' are noted. The word after 'Do.,' is kept as '[prom?]'. The r002 date field merges the S.1914 statement with the formula year 1857; a change below separates them."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The lighter pencil-like entry at y≈4150 is complete through the 'n.d.:68:16/18:D.' formula, and the tick and √ are noted. 'headings/readings' remains uncertain. After 'Do' there may be a faint point ('Do.'); this is not secured."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The left-pointing arrow '←' at about x 3020–3075 is on the target side of the gutter. The paired '→' at about x 3150–3230 lies beyond the gutter on fol. 10, so it is a facing-page mark, not a target block. Attachment to r002 is correct."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The long arrow runs from the fol. 10 side, near the '√d.201(12)' line, across the gutter. Its head is at about x 3015, pointing at the r003 formula. The bbox spans both pages; only the head and part of the shaft are on the target page."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A small ink dash at about [485,2995] is not text. It is correctly left without a record."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "fields.date",
+        "before": "S.1914; 1857",
+        "after": "S.1914",
+        "reason": "The body text gives 'S.1914'. '1857' appears separately as the first element of the right-hand formula. Merging the two in one field implies an equivalence that the source does not state. Both are kept literally, in separate fields.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "fields.formula_date",
+        "before": null,
+        "after": "1857",
+        "reason": "This is the first element of the right-hand formula '1857:13:8:D', recorded separately from the body date 'S.1914'.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The fol. 9 left margin, beside e.166(1), also carries '← →' arrows and a note that appears to read 'Apāmārjanastotra ... 9 here ←' (letters partly illegible in the context image). This may mean the r002 Apāmārjanastotra material was meant to be inserted or referenced on fol. 9, not only at fol. 10 d.315(8). The antecedent and insertion point therefore remain probable at best.",
+        "next_check": "Read the fol. 9 margin note at native resolution. Compare it with the fol. 10 arrows at d.315(8)/c.375(3)."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The word after 'Do.,' is 'prom' or possibly 'from'. The leading mark before 'd.330(10)' may be a √ or tick merged with the 'd'.",
+        "next_check": "Inspect at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "Several readings are approximate: 'readings' versus 'headings'; the '&' form; and whether 'Do' carries a final point. '16/18' may be one value or alternatives.",
+        "next_check": "Inspect the pencil entry at higher magnification."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x 3130–3170. Everything to its right is fol. 10 context: shelfmarks e.107(5) through b.94(5), the right arrow '→' of the pair, and the tail of the long arrow with its '-:(' marks. None of this is transcribed as target text. Mirrored show-through from the reverse of the leaf is visible across the page and is not transcribed. Cross-page ditto antecedents are probable, not secure.",
+    "region_review": {
+      "top": "Only the page label '9b:' appears, plus faint show-through.",
+      "middle": "Entry b002 with its tick, and the left arrow near the gutter. The stray dash at y≈3000 is not text. Otherwise there are only ruled lines and show-through.",
+      "bottom": "Pencil entry b003 with its tick and the arrow head near the gutter. There is no bottom note; the lower page below y≈4200 is blank apart from show-through.",
+      "left_margin": "There are no marginal notes beyond the ticks or √ marks attached to the entries.",
+      "right_margin": "Only the gutter-side arrows b901 and b902 appear; their counterparts belong to fol. 10.",
+      "interlinear": "There are no interlinear additions or cancellations on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        375,
+        305,
+        95,
+        90
+      ],
+      "kind_hint": "page_number",
+      "anchor": "9b",
+      "features": [
+        "top-left corner",
+        "ink",
+        "superscript-like 'b' with a dot or colon after it"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        335,
+        1635,
+        1860,
+        180
+      ],
+      "kind_hint": "holding_entry_ditto_continuation",
+      "anchor": "d.330(10). Do., prom Do., in 122 verses. ff.1-13, S.1914.     1857:13:8:D",
+      "features": [
+        "ink tick above shelfmark",
+        "shelfmark begins with a tick-like mark",
+        "'Do.' ditto forms refer to an entry on the preceding page",
+        "extent ff.1-13",
+        "date S.1914",
+        "right-hand date/size/script formula 1857:13:8:D",
+        "the reading 'prom' is uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        335,
+        4025,
+        2580,
+        190
+      ],
+      "kind_hint": "holding_entry_ditto_continuation",
+      "anchor": "√c.38(1). Do  ff.1-68, inc. With readings & brief glosses. Damaged by wet.     n.d.:68:16/18:D.",
+      "features": [
+        "tick above",
+        "√ before shelfmark",
+        "'Do' ditto",
+        "ff.1-68, inc.",
+        "appears to be pencil or lighter ink",
+        "right-hand formula n.d.:68:16/18:D.",
+        "arrow leads from this entry toward the facing page"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3010,
+        1730,
+        130,
+        55
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "left-pointing ink arrow near the gutter, level with b002",
+        "pairs with '→' on facing fol. 10"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3010,
+        4135,
+        415,
+        55
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←——",
+      "features": [
+        "long arrow crossing the gutter from the fol. 10 d.201(12) line",
+        "head points at b003's formula"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        485,
+        2995,
+        20,
+        10
+      ],
+      "kind_hint": "stray_mark",
+      "anchor": "-",
+      "features": [
+        "small ink dash or speck; not text"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "9b:",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner. The 'b' is written superscript and is followed by a colon-like pair of dots."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The mark after the superscript 'b' could be a colon or two dots."
+      ],
+      "stable_id": "css-prod-0018-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry_linked_to_facing_page",
+      "literal_text": "√d.330(10). Do., [prom?] Do., in 122 verses. ff.1-13, S.1914.     1857:13:8:D",
+      "fields": {
+        "shelfmark": "d.330(10)",
+        "title": "Do.",
+        "source": "[prom?] Do.",
+        "date": "S.1914",
+        "extent": "ff.1-13",
+        "lines": "8",
+        "script": "D",
+        "formula_date": "1857"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is an ink tick above the shelfmark. A tick-like stroke runs into the initial 'd'.",
+        "'in 122 verses' is a verse count, given separately from the folio extent.",
+        "The right-hand formula '1857:13:8:D' follows the date:folios:lines:script column convention used in this catalogue.",
+        "A left-pointing arrow '←' (b901) is near the gutter at this line. It pairs with a right-pointing arrow '→' on facing fol. 10, beside d.315(8)."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Do. probably repeats Apāmārjanastotra, the heading governing d.315(8) on fol. 10",
+          "source_page_order": 19,
+          "source_block_id": null,
+          "evidence": "Paired arrows '← →' cross the gutter at this line. They meet the fol. 10 entry d.315(8), which is a '——' ditto under Apāmārjanastotra.",
+          "certainty": "probable"
+        },
+        {
+          "field": "source",
+          "value": "Do. probably repeats 'From the Viṣṇudharmottara' (fol. 10, Apāmārjanastotra entry e.72(4))",
+          "source_page_order": 19,
+          "source_block_id": null,
+          "evidence": "The same arrow linkage applies; the fol. 10 Apāmārjanastotra entry reads 'From the Viṣṇudharmottara'.",
+          "certainty": "uncertain"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 19,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Apāmārjanastotra ... d.315(8)",
+          "evidence": "Paired arrows cross the gutter at this line toward fol. 10, d.315(8)/c.375(3).",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 19,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.315(8) / √c.375(3)",
+          "evidence": "The arrows suggest this entry is to be inserted at that point in the fol. 10 sequence.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The word after 'Do.,' is read 'prom'. It may be 'from', but the letter forms are ambiguous.",
+        "The leading tick may be merged with the 'd' of the shelfmark.",
+        "Reading the third formula value as lines is by column convention only."
+      ],
+      "stable_id": "css-prod-0018-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b902"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry_linked_to_facing_page",
+      "literal_text": "√c.38(1). Do  ff.1-68, inc. With [readings?] & brief glosses. Damaged by wet.     n.d.:68:16/18:D.",
+      "fields": {
+        "shelfmark": "c.38(1)",
+        "title": "Do",
+        "date": "n.d.",
+        "extent": "ff.1-68, inc.",
+        "lines": "16/18",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick stands above the entry and a √ precedes the shelfmark.",
+        "The entry is in pencil or a lighter ink.",
+        "A long left-pointing arrow (b902) comes from facing fol. 10, near √d.201(12), crosses the gutter and points at the 'n.d.' formula of this entry."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Do probably repeats the fol. 10 heading at d.201(12), Abhidhānaratnamālā (with 'kośa' cancelled)",
+          "source_page_order": 19,
+          "source_block_id": null,
+          "evidence": "The long arrow runs from the fol. 10 d.201(12) line to this entry.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 19,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.201(12) Abhidhānaratnamālā",
+          "evidence": "A cross-gutter arrow connects that entry to this one.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 19,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.201(12)",
+          "evidence": "The arrow suggests this entry is to be inserted near d.201(12).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'readings' may instead be 'headings'. 'brief glosses' is cursive and approximate.",
+        "'16/18' may be one value or alternative line counts.",
+        "The closing parenthesis of 'c.38(1)' is faint."
+      ],
+      "stable_id": "css-prod-0018-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9901",
+      "block_ids": [
+        "b903"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "stray_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A small isolated ink dash at about canvas (490,2998), left part of the page. It is not wording, and its purpose is unknown."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It may be an accidental pen touch or a deliberate mark."
+      ],
+      "stable_id": "css-prod-0018-r9901",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "fields.date",
+      "before": "S.1914; 1857",
+      "after": "S.1914",
+      "reason": "The body text gives 'S.1914'. '1857' appears separately as the first element of the right-hand formula. Merging the two in one field implies an equivalence that the source does not state. Both are kept literally, in separate fields.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.formula_date",
+      "before": null,
+      "after": "1857",
+      "reason": "This is the first element of the right-hand formula '1857:13:8:D', recorded separately from the body date 'S.1914'.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "√c.38(1). Do  ff.1-68, inc. With [readings?] & brief glosses. Damaged by wet.     n.d.:68:16/18:D.",
+      "after": "√c.38(1). Do.  ff.1-68, inc. With [headings? / readings?] & brief glosses. Damaged by wet.     n.d.:68:16/18:D.",
+      "reason": "A baseline dot follows 'Do'. The first letter of the word read as 'readings' has a tall ascender, so 'headings' is an equal or better possibility. The reading is kept doubtful.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0018-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.title",
+      "before": "Do",
+      "after": "Do.",
+      "reason": "A dot is visible after 'Do' in the native tile.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0018-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "'readings' may instead be 'headings'. 'brief glosses' is cursive and approximate.",
+        "'16/18' may be one value or alternative line counts.",
+        "The closing parenthesis of 'c.38(1)' is faint."
+      ],
+      "after": [
+        "The word may be 'headings' or 'readings'. The tall initial ascender slightly favours 'h'. 'brief glosses' is cursive and approximate.",
+        "The point after 'Do' is small and may be a speck.",
+        "'16/18' is written as one slashed group. It may be one value or alternative line counts.",
+        "The closing parenthesis of 'c.38(1)' is faint.",
+        "Arrow b902 has its head on fol. 9b, but its shaft lies mostly on the facing fol. 10 leaf."
+      ],
+      "reason": "Fresh reread of the native tiles.",
+      "source_block_ids": [
+        "b003",
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0018-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [
+    {
+      "record_id": "r9901",
+      "stage": "focus",
+      "focused_check_file": "0018-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record for an existing unrepresented source block; original geometry retained"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b903"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b903",
+      "block_ids": [
+        "b903"
+      ],
+      "record_ids": [],
+      "id": "focus-0018-01"
+    },
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0018-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The fol. 9 left margin, beside e.166(1), also carries '← →' arrows and a note that appears to read 'Apāmārjanastotra ... 9 here ←' (letters partly illegible in the context image). This may mean the r002 Apāmārjanastotra material was meant to be inserted or referenced on fol. 9, not only at fol. 10 d.315(8). The antecedent and insertion point therefore remain probable at best.",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0018-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The word after 'Do.,' is 'prom' or possibly 'from'. The leading mark before 'd.330(10)' may be a √ or tick merged with the 'd'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0018-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "Several readings are approximate: 'readings' versus 'headings'; the '&' form; and whether 'Do' carries a final point. '16/18' may be one value or alternatives.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0018-05"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The mark after the superscript 'b' could be a colon or two dots.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0018-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The word after 'Do.,' is read 'prom'. It may be 'from', but the letter forms are ambiguous.",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0018-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The leading tick may be merged with the 'd' of the shelfmark.",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0018-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Reading the third formula value as lines is by column convention only.",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0018-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'readings' may instead be 'headings'. 'brief glosses' is cursive and approximate.",
+      "block_ids": [
+        "b003",
+        "b902"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0018-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0018-01",
+        "focus-0018-02",
+        "focus-0018-03",
+        "focus-0018-04",
+        "focus-0018-05",
+        "focus-0018-06",
+        "focus-0018-07",
+        "focus-0018-08",
+        "focus-0018-09",
+        "focus-0018-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0018-01",
+          "source_reading": "[no text: a short ink dash]",
+          "certainty": "secure",
+          "evidence": "In the native tile at offset y=1608 there is a short dark horizontal dash at about tile (490,1390), which is canvas (490,2998). It stands alone on a ruled line, with no letters near it. It is a stray mark, not wording."
+        },
+        {
+          "issue_id": "focus-0018-02",
+          "source_reading": "←—— (arrowhead and first part of the shaft on fol. 9b; the shaft continues across the gutter with a small hook onto the fol. 10 leaf)",
+          "certainty": "probable",
+          "evidence": "In the tile at offset (1604,3216), the arrowhead is at about tile x=1410, which is canvas x≈3014, right of the 'n.d.:68:16/18:D.' formula. The shaft runs to the gutter at about tile x=1560 (canvas ≈3164). It continues on the facing leaf to about tile x=1820 (canvas ≈3424), next to 'd.20[1...]'. The arrow is a single cross-gutter mark. Only its head end lies on the principal leaf."
+        },
+        {
+          "issue_id": "focus-0018-03",
+          "source_reading": "On fol. 9b: '←' only, level with d.330(10), at canvas x≈3019-3074. The matching '→' lies across the gutter on the fol. 10 leaf. The fol. 9 margin note near e.166(1) is not on this page.",
+          "certainty": "uncertain",
+          "evidence": "The tile at offset (1604,0) shows '←' at tile x≈1415-1470, before the gutter at ≈1540, and '→' after the gutter. Nothing on fol. 9b reads 'Apāmārjanastotra' or 'here'. The fol. 9 note is visible only in the reduced context image and cannot be verified here."
+        },
+        {
+          "issue_id": "focus-0018-04",
+          "source_reading": "√d.330(10). Do., p[r/e]om [or from?] Do.,",
+          "certainty": "uncertain",
+          "evidence": "The word after 'Do.,' begins with a long descender that has a loop at the top, a form compatible with 'p' or a cursive 'f'. This is followed by low minim strokes. The initial 'd' of the shelfmark has a check-like stroke fused to its left side."
+        },
+        {
+          "issue_id": "focus-0018-05",
+          "source_reading": "Do.  ff.1-68, inc. With [h/r]eadings & brief glosses. … n.d.:68:16/18:D.",
+          "certainty": "uncertain",
+          "evidence": "A small dot follows the 'o' of 'Do' at the baseline, so 'Do.' is probable. The first letter of the next-but-one word has a tall ascender, which favours 'h' over 'r' but is not decisive. The '&' is a small cursive looped sign. '16/18' is written as one slashed group in the third formula slot."
+        },
+        {
+          "issue_id": "focus-0018-06",
+          "source_reading": "9b: (superscript b with a dot-like mark after it)",
+          "certainty": "uncertain",
+          "evidence": "In the native tile, a dot sits below and right of the superscript 'b'. A second, upper dot is not clearly separable from the stroke of the 'b'. Whether the mark is a colon or a single point remains doubtful."
+        },
+        {
+          "issue_id": "focus-0018-07",
+          "source_reading": "p[r/e]om / from?",
+          "certainty": "uncertain",
+          "evidence": "The letter forms are as described under focus-0018-04. No secure decision is possible between 'prom' and 'from'."
+        },
+        {
+          "issue_id": "focus-0018-08",
+          "source_reading": "√d (tick fused with d)",
+          "certainty": "probable",
+          "evidence": "A left-side check stroke joins the bowl of the 'd'. A separate tick also appears above the line."
+        },
+        {
+          "issue_id": "focus-0018-09",
+          "source_reading": "1857:13:8:D",
+          "certainty": "probable",
+          "evidence": "The digits are clear. Interpreting the third value as a line count rests only on the column convention."
+        },
+        {
+          "issue_id": "focus-0018-10",
+          "source_reading": "[h/r]eadings & brief glosses",
+          "certainty": "uncertain",
+          "evidence": "The tall initial ascender favours 'headings', but the cursive is ambiguous. 'brief glosses' is cursive, with 'glosses' fairly clear."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "√c.38(1). Do  ff.1-68, inc. With [readings?] & brief glosses. Damaged by wet.     n.d.:68:16/18:D.",
+          "after": "√c.38(1). Do.  ff.1-68, inc. With [headings? / readings?] & brief glosses. Damaged by wet.     n.d.:68:16/18:D.",
+          "reason": "A baseline dot follows 'Do'. The first letter of the word read as 'readings' has a tall ascender, so 'headings' is an equal or better possibility. The reading is kept doubtful.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "fields.title",
+          "before": "Do",
+          "after": "Do.",
+          "reason": "A dot is visible after 'Do' in the native tile.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "'readings' may instead be 'headings'. 'brief glosses' is cursive and approximate.",
+            "'16/18' may be one value or alternative line counts.",
+            "The closing parenthesis of 'c.38(1)' is faint."
+          ],
+          "after": [
+            "The word may be 'headings' or 'readings'. The tall initial ascender slightly favours 'h'. 'brief glosses' is cursive and approximate.",
+            "The point after 'Do' is small and may be a speck.",
+            "'16/18' is written as one slashed group. It may be one value or alternative line counts.",
+            "The closing parenthesis of 'c.38(1)' is faint.",
+            "Arrow b902 has its head on fol. 9b, but its shaft lies mostly on the facing fol. 10 leaf."
+          ],
+          "reason": "Fresh reread of the native tiles.",
+          "source_block_ids": [
+            "b003",
+            "b902"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b903",
+            "bbox": [
+              485,
+              2995,
+              20,
+              10
+            ],
+            "kind_hint": "stray_mark",
+            "anchor": "-",
+            "features": [
+              "small isolated ink dash",
+              "no letters adjacent"
+            ]
+          },
+          "record": {
+            "id": "r9901",
+            "block_ids": [
+              "b903"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "stray_mark",
+            "literal_text": "",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A small isolated ink dash at about canvas (490,2998), left part of the page. It is not wording, and its purpose is unknown."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "It may be an accidental pen touch or a deliberate mark."
+            ],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "The visible mark had no record. It is recorded as a non-text mark with empty literal text."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "9b with a superscript b and a dot or colon after it."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The entry line is fully represented. The 'prom'/'from' reading remains doubtful."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Represented, with corrections for 'Do.' and for 'headings'/'readings'."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "'←' lies on fol. 9b. The paired '→' is across the gutter on fol. 10."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "This is a cross-gutter arrow. Only the head and part of the shaft are on fol. 9b; the rest is on the facing leaf."
+        },
+        {
+          "block_id": "b903",
+          "status": "represented",
+          "record_ids": [
+            "r9901"
+          ],
+          "finding": "Stray dash, now recorded as a non-text mark."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0018-03",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b901"
+          ],
+          "issue": "A possible link to the fol. 9 margin note ('Apāmārjanastotra … here ←') cannot be verified from this page. The antecedent and insertion point remain probable at best.",
+          "next_check": "Read the native fol. 9 margin near e.166(1)."
+        },
+        {
+          "issue_id": "focus-0018-07",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The reading 'prom' versus 'from' is unresolved.",
+          "next_check": "Compare with other examples of 'from' in this hand on fols. 9 and 10."
+        },
+        {
+          "issue_id": "focus-0018-10",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The reading 'headings' versus 'readings' is unresolved.",
+          "next_check": "Compare the initial letter forms of 'h' and 'r' in the same pencil hand."
+        },
+        {
+          "issue_id": "focus-0018-06",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "It is unclear whether the mark after 'b' is a colon or a single dot.",
+          "next_check": "Examine a higher-resolution image of the corner."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "71f2f315e497095ff98a8e28dacfe71162e677038a2b8475b48afd8756563350",
+      "bytes": 253905,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "73dd57d395d47e0c64797773384624d2251225e8c2afa3357372810ccbd734b3",
+      "bytes": 311502,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "633af0f16a2da81f0272538392895810466d0eb6d94a280fd95c5fe25bac3fbd",
+      "bytes": 299147,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "65d7d06ea5abf839aa1e4f90cc50999608840db96190e97a64fb65cbf129800d",
+      "bytes": 298435,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ccc20962aaf18ff968083989b5b923bf264129fb4b72ddccc2a030ebe8ee590a",
+      "bytes": 273720,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "53737c5a45989d79997c43212435494dd276f5fb663952cd70c9bb92d1bf1df8",
+      "bytes": 336204,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8bd03b24bed24b49c51ca7174f86defbb1f7f0a62b861b9c8c8d3a69c6dadd04",
+      "bytes": 337217,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7144d8f9-ad1a-46e0-9edb-10d6de59b6a3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a713dcd07784c0477085b4c89601ce7eb19f2220cecd752d29ba2cf4424823bc",
+      "bytes": 278521,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 17,
+      "folio_label": "fol. 9",
+      "page_id": "7144d8f9-ad1a-46e0-9edb-10d6de59b6a3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/00c31d76-e1fc-4ea2-abf0-47c09acafde5/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2e5925d439f5557d51211eca9b331a3ba2ff7d61f319a336329e04e56809df70",
+      "bytes": 260850,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 19,
+      "folio_label": "fol. 10",
+      "page_id": "00c31d76-e1fc-4ea2-abf0-47c09acafde5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/00c31d76-e1fc-4ea2-abf0-47c09acafde5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "030d889a3730ecd105d9dfb9dcf75d3f52ad45defe54ba7644aeed73f03d1afb",
+      "bytes": 416972,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "control_matches_calibration": true,
+      "source_order": 19,
+      "folio_label": "fol. 10",
+      "page_id": "00c31d76-e1fc-4ea2-abf0-47c09acafde5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/00c31d76-e1fc-4ea2-abf0-47c09acafde5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "21aba77ef7e9d40ff2d22a882a8dd76d90edc8ea353a4b196192a762868437a0",
+      "bytes": 463933,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "control_matches_calibration": true,
+      "source_order": 19,
+      "folio_label": "fol. 10",
+      "page_id": "00c31d76-e1fc-4ea2-abf0-47c09acafde5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5290b84d-f5f3-490d-b990-35feb3683933.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "71f2f315e497095ff98a8e28dacfe71162e677038a2b8475b48afd8756563350",
+      "bytes": 253905,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "73dd57d395d47e0c64797773384624d2251225e8c2afa3357372810ccbd734b3",
+      "bytes": 311502,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "633af0f16a2da81f0272538392895810466d0eb6d94a280fd95c5fe25bac3fbd",
+      "bytes": 299147,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "65d7d06ea5abf839aa1e4f90cc50999608840db96190e97a64fb65cbf129800d",
+      "bytes": 298435,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ccc20962aaf18ff968083989b5b923bf264129fb4b72ddccc2a030ebe8ee590a",
+      "bytes": 273720,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "53737c5a45989d79997c43212435494dd276f5fb663952cd70c9bb92d1bf1df8",
+      "bytes": 336204,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5290b84d-f5f3-490d-b990-35feb3683933/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8bd03b24bed24b49c51ca7174f86defbb1f7f0a62b861b9c8c8d3a69c6dadd04",
+      "bytes": 337217,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7144d8f9-ad1a-46e0-9edb-10d6de59b6a3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a713dcd07784c0477085b4c89601ce7eb19f2220cecd752d29ba2cf4424823bc",
+      "bytes": 278521,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 17,
+      "folio_label": "fol. 9",
+      "page_id": "7144d8f9-ad1a-46e0-9edb-10d6de59b6a3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/00c31d76-e1fc-4ea2-abf0-47c09acafde5/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2e5925d439f5557d51211eca9b331a3ba2ff7d61f319a336329e04e56809df70",
+      "bytes": 260850,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 19,
+      "folio_label": "fol. 10",
+      "page_id": "00c31d76-e1fc-4ea2-abf0-47c09acafde5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

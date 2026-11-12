@@ -1,0 +1,1582 @@
+{
+  "source_order": 372,
+  "folio_label": "fol. 186b",
+  "page_id": "8c96301a-d2fe-437f-96db-3a4327b97ca5",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "186b",
+    "principal_page_bbox": [
+      320,
+      290,
+      2890,
+      4620
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          410,
+          315,
+          140,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "186b",
+        "features": [
+          "top-left corner",
+          "ink",
+          "'b' written as a raised letter"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          375,
+          3660,
+          2720,
+          140
+        ],
+        "kind_hint": "entry_continuation_ditto",
+        "anchor": "b. 4(1). —, v. 3466 to end, ff 111-252, occasional",
+        "features": [
+          "tick before shelfmark",
+          "opening ditto dash in place of a title",
+          "right-hand column 'n.d. : -:11: D.'",
+          "interlinear 'marginal' above, with caret below between 'occasional' and 'corrections'",
+          "interlinear 'second' above the word before 'hand'; that word may be 'later' and may be overwritten or cancelled"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          370,
+          3800,
+          2780,
+          260
+        ],
+        "kind_hint": "entry_continuation_ditto",
+        "anchor": "b. 4(2). —, v. 3047 to end, ff.103-285 (126-151 missing), dated Kāśī, Monday",
+        "features": [
+          "tick before shelfmark",
+          "opening ditto dash",
+          "two lines",
+          "second line 'Caitravadi 12, Saṁvat. 1646'",
+          "right-hand column has a ditto dash and '10 : D.'",
+          "date"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          380,
+          4380,
+          2750,
+          230
+        ],
+        "kind_hint": "entry",
+        "anchor": "a. 2. Śāntiparvan. ff. 1-135 (ff.1,2,102,120,121,125,126,134 missing)",
+        "features": [
+          "tick before shelfmark",
+          "two lines",
+          "right-hand column 'ff. 126-[cancelled number]-184'",
+          "interlinear '(sic)' above the cancelled number",
+          "second line '(129 missing, 173bis) Mokṣadh., last three leaves mutilated, ends at v. 9599.'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          660,
+          3965,
+          25,
+          25
+        ],
+        "description": "small dot or asterisk-like mark to the left of 'Caitravadi' on the second line of b003"
+      },
+      {
+        "bbox": [
+          1040,
+          3270,
+          500,
+          40
+        ],
+        "description": "scattered ink specks or blots on a ruled line above the entries"
+      },
+      {
+        "bbox": [
+          580,
+          2430,
+          80,
+          50
+        ],
+        "description": "small smudge or blot mark in the middle left area"
+      },
+      {
+        "bbox": [
+          360,
+          580,
+          2800,
+          2900
+        ],
+        "description": "mirror-image show-through of the writing on the reverse leaf over the upper and middle ruled area; this is not target text"
+      }
+    ],
+    "boundary_notes": [
+      "The strip right of about x=3210 is the margin of the facing fol. 187. It contains ticks, an arrow, 'See s. N...', 'check w...', 'W. a ...', 'f.', 'a' and 'Cat. S. Bengali'. These are excluded from this inventory.",
+      "Entries b002 and b003 open with ditto dashes and have no title on this page. Their governing title is presumably on the facing page; on fol. 187 a cancelled 'b. 4' line beginning 'two fragm.' is marked with an arrow. This is context only and was not resolved here.",
+      "Entries b002 to b004 are independent holdings even though b002 and b003 carry ditto title dashes."
+    ],
+    "uncertainties": [
+      "The word under 'second' in b002 may be 'later' and may be overwritten or struck through.",
+      "The cancelled number between '126' and '184' in b004 is illegible.",
+      "The spelling of the 'Rājadh.', 'Āpaddh.' and 'Mokṣadh.' abbreviations in b004 is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "186b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "186b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner; the 'b' is raised."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "ditto_title_entry",
+        "literal_text": "√b. 4(1). —, v. 3466 to end, ff 111-252, occasional ^marginal corrections in a [later?] ^second hand     n.d. : -:11: D.",
+        "fields": {
+          "shelfmark": "b. 4(1).",
+          "date": "n.d.",
+          "extent": "v. 3466 to end, ff 111-252",
+          "lines": "11",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is a tick before the shelfmark.",
+          "An opening long dash (ditto) stands in place of the title.",
+          "'marginal' is written interlinear above the line. A caret below the line between 'occasional' and 'corrections' marks its insertion point. A small mark, possibly '?' or ':', precedes 'marginal'.",
+          "'second' is written interlinear above the word before 'hand'. That word appears to read 'later' and seems overwritten or cancelled; 'second' is probably its replacement.",
+          "The right-hand column reads 'n.d. : -:11: D.', with a dash in the position that seems to be the extent/count slot."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 373,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "MAHĀBHĀRATA section; cancelled line 'b. 4 ... two fragm. 1. beg. l. 2469; 2. beg. l. 3047' marked with an arrow",
+            "evidence": "The ditto dash has no antecedent title on this page. The facing fol. 187 carries a cancelled b. 4 entry, arrowed toward this page, describing two fragments.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 373,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "cancelled 'b. 4' line with arrow",
+            "evidence": "Shelfmark b. 4 matches. These entries appear to replace the cancelled line.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'later' under 'second', and whether it is cancelled, are uncertain.",
+          "The title denoted by the ditto dash is not stated on this page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "ditto_title_entry",
+        "literal_text": "√b. 4(2). —, v. 3047 to end, ff.103-285 (126-151 missing), dated Kāśī, Monday\nCaitravadi 12, Saṁvat. 1646     —— 10 : D.",
+        "fields": {
+          "shelfmark": "b. 4(2).",
+          "date": "dated Kāśī, Monday Caitravadi 12, Saṁvat. 1646",
+          "extent": "v. 3047 to end, ff.103-285 (126-151 missing)",
+          "lines": "10",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is a tick before the shelfmark.",
+          "An opening long dash (ditto) stands in place of the title.",
+          "The right-hand column has a long ditto dash followed by '10 : D.'.",
+          "A small dot or asterisk-like mark appears left of 'Caitravadi'.",
+          "A short slanted stroke near the right edge, above the right-column dash, may be a mark or a show-through from the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 373,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "cancelled 'b. 4 ... 2. beg. l. 3047' line",
+            "evidence": "The ditto dash has no antecedent title here. The cancelled line on fol. 187 mentions a fragment beginning at l. 3047, matching 'v. 3047'.",
+            "certainty": "probable"
+          },
+          {
+            "type": "ditto_from",
+            "target_page_order": 372,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "n.d. : -",
+            "evidence": "The right-column dash probably repeats the date/extent slot of the entry above.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The scope of the right-column ditto dash is uncertain; '10' is read as the line count by analogy with the column format.",
+          "The ditto title is not stated on this page."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "entry",
+        "literal_text": "√a. 2. Śāntiparvan. ff. 1-135 (ff.1,2,102,120,121,125,126,134 missing) Rājadh. & Āpaddh.     ff. 126-⟦[illegible]⟧(sic)-184\n(129 missing, 173bis) Mokṣadh., last three leaves mutilated, ends at v. 9599.",
+        "fields": {
+          "shelfmark": "a. 2.",
+          "title": "Śāntiparvan.",
+          "extent": "ff. 1-135 (ff.1,2,102,120,121,125,126,134 missing) Rājadh. & Āpaddh. ff. 126-[cancelled]-184 (129 missing, 173bis) Mokṣadh., last three leaves mutilated, ends at v. 9599."
+        },
+        "normalized_title": "Śāntiparvan",
+        "annotations": [
+          "There is a tick before the shelfmark.",
+          "In the right-hand area, a number between '126-' and '-184' is struck through.",
+          "'(sic)' is written interlinear above the struck number.",
+          "The entry has no date, line or script column."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "governed_by",
+            "target_page_order": 373,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "MAHĀBHĀRATA The great Indian epic poem",
+            "evidence": "Śāntiparvan is a parvan entry facing the Mahābhārata section on fol. 187.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cancelled number in 'ff. 126-...-184' is illegible.",
+          "The exact spellings of the abbreviations 'Rājadh.', 'Āpaddh.' and 'Mokṣadh.' are uncertain.",
+          "'102' in the missing-leaves list is a probable reading.",
+          "It is unclear whether 'ff. 126-...-184' is the second part of the ff. 1-135 sequence or a separate range continuing into the second line."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3150,
+          3905,
+          70,
+          50
+        ],
+        "kind_hint": "mark",
+        "anchor": "slanted stroke near right edge above b003 right column",
+        "features": [
+          "short diagonal ink stroke",
+          "attachment unclear"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Holding b. 4(1) with interlinear insertions."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Two-line holding b. 4(2) with date."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Two-line holding a. 2 Śāntiparvan."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Noted as a possible mark within r003's annotations; attachment uncertain."
+      }
+    ],
+    "page_annotations": [
+      "The upper and middle ruled area carries only mirror-image show-through from the reverse leaf; this is not target text.",
+      "There are scattered ink specks around y≈3270 and a smudge near (580,2430); these are non-textual.",
+      "The strip right of about x=3210 belongs to the facing fol. 187 (ticks, arrow, 'See s. N...', 'check w...', 'W. a ...', 'f.', 'a', 'Cat. S. Bengali'). It is excluded."
+    ],
+    "unresolved_relationships": [
+      "The ditto titles for b. 4(1) and b. 4(2) are probably the parvan of the cancelled fol. 187 b. 4 entry, but no title is written on this page."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '186' with a raised 'b' is at the top left. It matches the supplied label fol. 186b."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The line was checked against the native tiles. It reads: tick, 'b. 4(1).', ditto dash, 'v. 3466 to end, ff 111-252, occasional'. Interlinear 'marginal' sits above, preceded by a small mark, with a caret below between 'occasional' and 'corrections'. The line continues 'corrections in a', then a word under interlinear 'second' that appears to be 'later' and is overwritten or scribbled, then 'hand'. The right column reads 'n.d. : -:11: D.'. The candidate's representation is adequate and keeps the uncertainty."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Two lines were verified. The first ends 'dated Kāśī, Monday' and the second reads 'Caitravadi 12, Saṁvat. 1646'. The right column has a long dash followed by '10 : D.'. A small dot stands left of 'Caitravadi'. The final digit of 'v. 3047' is somewhat cramped but is consistent with 7."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Two-line Śāntiparvan entry with a tick. The right column reads 'ff. 126-', a struck-through number with '(sic)' above it, then '-184'. The struck number is not legible. The macrons in 'Rājadh.' and 'Āpaddh.' and the form 'Mokṣadh.' remain uncertain, as the candidate states."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A short diagonal stroke lies near the right edge of the target page at about x≈3160, y≈3920, above the '10 : D.' column. It is noted in the r003 annotations with uncertain attachment. It may relate to the arrow on the facing page or be a stray stroke."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The ditto_from anchor cites a cancelled fol. 187 line reading '1. beg. l. 2469'. This entry begins at v. 3466, so the numbers do not match. A link between b. 4(1) and fragment 1 of the cancelled line is therefore not confirmed by the extent.",
+        "next_check": "Compare the cancelled b. 4 line on fol. 187 at native resolution with this entry."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The word under 'second' may be 'later'. It is unclear whether it is cancelled or merely overwritten.",
+        "next_check": "Native zoom on the area around x≈2250-2480, y≈3700."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The struck number between 126 and 184 is illegible. The diacritics in the section abbreviations are uncertain.",
+        "next_check": "Higher-contrast inspection."
+      }
+    ],
+    "boundary_review": "The strip right of the gutter, at about x>3210, belongs to fol. 187. Its ticks, arrow, 'See s. N...', 'check w...', 'W. a ...', 'f.', 'a' and 'Cat. S. Bengali' are excluded. The fol. 187 overview also shows fragments of this page's right column at its left edge ('-:11: D.', '10 : D.', '(sic) 126-184'). These are not separate target records and are not duplicates. The ditto titles for b. 4(1) and b. 4(2) remain unresolved on this page.",
+    "region_review": {
+      "top": "Only the folio number; the rest is mirror show-through from the reverse leaf.",
+      "middle": "Show-through, ink specks around y≈3270 and a smudge near (580,2430); no target text.",
+      "bottom": "Entries b002 to b004. Below b004 the page is ruled and blank apart from show-through.",
+      "left_margin": "Ticks before the shelfmarks and a dot before 'Caitravadi'; nothing else.",
+      "right_margin": "Right-column data for b002 and b003, the b004 ff. range, and stroke b901. Beyond the gutter the material belongs to the facing page.",
+      "interlinear": "'marginal' with caret, 'second' over the possibly cancelled 'later', and '(sic)' over the struck number. All are represented."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        410,
+        315,
+        140,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "186b",
+      "features": [
+        "top-left corner",
+        "ink",
+        "'b' written as a raised letter"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        375,
+        3660,
+        2720,
+        140
+      ],
+      "kind_hint": "entry_continuation_ditto",
+      "anchor": "b. 4(1). —, v. 3466 to end, ff 111-252, occasional",
+      "features": [
+        "tick before shelfmark",
+        "opening ditto dash in place of a title",
+        "right-hand column 'n.d. : -:11: D.'",
+        "interlinear 'marginal' above, with caret below between 'occasional' and 'corrections'",
+        "interlinear 'second' above the word before 'hand'; that word may be 'later' and may be overwritten or cancelled"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        370,
+        3800,
+        2780,
+        260
+      ],
+      "kind_hint": "entry_continuation_ditto",
+      "anchor": "b. 4(2). —, v. 3047 to end, ff.103-285 (126-151 missing), dated Kāśī, Monday",
+      "features": [
+        "tick before shelfmark",
+        "opening ditto dash",
+        "two lines",
+        "second line 'Caitravadi 12, Saṁvat. 1646'",
+        "right-hand column has a ditto dash and '10 : D.'",
+        "date"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        380,
+        4380,
+        2750,
+        230
+      ],
+      "kind_hint": "entry",
+      "anchor": "a. 2. Śāntiparvan. ff. 1-135 (ff.1,2,102,120,121,125,126,134 missing)",
+      "features": [
+        "tick before shelfmark",
+        "two lines",
+        "right-hand column 'ff. 126-[cancelled number]-184'",
+        "interlinear '(sic)' above the cancelled number",
+        "second line '(129 missing, 173bis) Mokṣadh., last three leaves mutilated, ends at v. 9599.'"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3150,
+        3905,
+        70,
+        50
+      ],
+      "kind_hint": "mark",
+      "anchor": "slanted stroke near right edge above b003 right column",
+      "features": [
+        "short diagonal ink stroke",
+        "attachment unclear"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "186b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner; the 'b' is raised."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0372-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "ditto_title_entry",
+      "literal_text": "√b. 4(1). —, v. 3466 to end, ff 111-252, occasional ^marginal corrections in a [later?] ^second hand     n.d. : -:11: D.",
+      "fields": {
+        "shelfmark": "b. 4(1).",
+        "date": "n.d.",
+        "extent": "v. 3466 to end, ff 111-252",
+        "lines": "11",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is a tick before the shelfmark.",
+        "An opening long dash (ditto) stands in place of the title.",
+        "'marginal' is written interlinear above the line. A caret below the line between 'occasional' and 'corrections' marks its insertion point. A small mark, possibly '?' or ':', precedes 'marginal'.",
+        "'second' is written interlinear above the word before 'hand'. That word appears to read 'later' and seems overwritten or cancelled; 'second' is probably its replacement.",
+        "The right-hand column reads 'n.d. : -:11: D.', with a dash in the position that seems to be the extent/count slot."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 373,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "MAHĀBHĀRATA section; cancelled line 'b. 4 ... two fragm. 1. beg. l. 2469; 2. beg. l. 3047' marked with an arrow",
+          "evidence": "The ditto dash has no antecedent title on this page. The facing fol. 187 carries a cancelled b. 4 entry, arrowed toward this page, describing two fragments.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 373,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cancelled 'b. 4' line with arrow",
+          "evidence": "Shelfmark b. 4 matches. These entries appear to replace the cancelled line.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'later' under 'second', and whether it is cancelled, are uncertain.",
+        "The title denoted by the ditto dash is not stated on this page."
+      ],
+      "stable_id": "css-prod-0372-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "ditto_title_entry",
+      "literal_text": "√b. 4(2). —, v. 3047 to end, ff.103-285 (126-151 missing), dated Kāśī, Monday\nCaitravadi 12, Saṁvat. 1646     —— 10 : D.",
+      "fields": {
+        "shelfmark": "b. 4(2).",
+        "date": "dated Kāśī, Monday Caitravadi 12, Saṁvat. 1646",
+        "extent": "v. 3047 to end, ff.103-285 (126-151 missing)",
+        "lines": "10",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is a tick before the shelfmark.",
+        "An opening long dash (ditto) stands in place of the title.",
+        "The right-hand column has a long ditto dash followed by '10 : D.'.",
+        "A small dot or asterisk-like mark appears left of 'Caitravadi'.",
+        "A short slanted stroke near the right edge, above the right-column dash, may be a mark or a show-through from the facing page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 373,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cancelled 'b. 4 ... 2. beg. l. 3047' line",
+          "evidence": "The ditto dash has no antecedent title here. The cancelled line on fol. 187 mentions a fragment beginning at l. 3047, matching 'v. 3047'.",
+          "certainty": "probable"
+        },
+        {
+          "type": "ditto_from",
+          "target_page_order": 372,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "n.d. : -",
+          "evidence": "The right-column dash probably repeats the date/extent slot of the entry above.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The scope of the right-column ditto dash is uncertain; '10' is read as the line count by analogy with the column format.",
+        "The ditto title is not stated on this page."
+      ],
+      "stable_id": "css-prod-0372-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "entry",
+      "literal_text": "√a. 2. Śāntiparvan. ff. 1-135 (ff.1,2,102,120,121,125,126,134 missing) Rājadh. & Āpaddh.     ff. 126-⟦[illegible]⟧(sic)-184\n(129 missing, 173bis) Mokṣadh., last three leaves mutilated, ends at v. 9599.",
+      "fields": {
+        "shelfmark": "a. 2.",
+        "title": "Śāntiparvan.",
+        "extent": "ff. 1-135 (ff.1,2,102,120,121,125,126,134 missing) Rājadh. & Āpaddh. ff. 126-[cancelled]-184 (129 missing, 173bis) Mokṣadh., last three leaves mutilated, ends at v. 9599."
+      },
+      "normalized_title": "Śāntiparvan",
+      "annotations": [
+        "There is a tick before the shelfmark.",
+        "In the right-hand area, a number between '126-' and '-184' is struck through.",
+        "'(sic)' is written interlinear above the struck number.",
+        "The entry has no date, line or script column."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "governed_by",
+          "target_page_order": 373,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "MAHĀBHĀRATA The great Indian epic poem",
+          "evidence": "Śāntiparvan is a parvan entry facing the Mahābhārata section on fol. 187.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cancelled number in 'ff. 126-...-184' is illegible.",
+        "The exact spellings of the abbreviations 'Rājadh.', 'Āpaddh.' and 'Mokṣadh.' are uncertain.",
+        "'102' in the missing-leaves list is a probable reading.",
+        "It is unclear whether 'ff. 126-...-184' is the second part of the ff. 1-135 sequence or a separate range continuing into the second line."
+      ],
+      "stable_id": "css-prod-0372-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9901",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A short diagonal ink stroke near the right edge of the page, above the right-column dash of b. 4(2). It forms no letters.",
+        "The stroke is also visible at the left edge of the fol. 187 context image, which confirms that it lies on fol. 186b."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The function of the stroke and its attachment to r003 or to the facing page are unclear."
+      ],
+      "stable_id": "css-prod-0372-r9901",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 373,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "MAHĀBHĀRATA section; cancelled line 'b. 4 ... two fragm. 1. beg. l. 2469; 2. beg. l. 3047' marked with an arrow",
+          "evidence": "The ditto dash has no antecedent title on this page. The facing fol. 187 carries a cancelled b. 4 entry, arrowed toward this page, describing two fragments.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 373,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cancelled 'b. 4' line with arrow",
+          "evidence": "Shelfmark b. 4 matches. These entries appear to replace the cancelled line.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 373,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "MAHĀBHĀRATA section; cancelled line 'b. 4 ... two fragm. 1. beg. l. 2469; 2. beg. l. 3047' marked with an arrow",
+          "evidence": "The ditto dash has no antecedent title on this page. The facing fol. 187 carries a cancelled b. 4 entry, arrowed toward this page, describing two fragments.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 373,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cancelled 'b. 4' line with arrow",
+          "evidence": "Shelfmark b. 4 matches and the arrow points toward this page. However, fragment 1 there reads 'beg. l. 2469', while this entry reads 'v. 3466', so the extent does not confirm a link to fragment 1.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The source numbers 2469 and 3466 do not match, so the fragment-level attachment is downgraded.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0372-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [
+    {
+      "record_id": "r9901",
+      "stage": "focus",
+      "focused_check_file": "0372-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record for an existing unrepresented source block; original geometry retained"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b901"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [],
+      "id": "focus-0372-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The ditto_from anchor cites a cancelled fol. 187 line reading '1. beg. l. 2469'. This entry begins at v. 3466, so the numbers do not match. A link between b. 4(1) and fragment 1 of the cancelled line is therefore not confirmed by the extent.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0372-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The word under 'second' may be 'later'. It is unclear whether it is cancelled or merely overwritten.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0372-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The struck number between 126 and 184 is illegible. The diacritics in the section abbreviations are uncertain.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0372-04"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'later' under 'second', and whether it is cancelled, are uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0372-05"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The title denoted by the ditto dash is not stated on this page.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0372-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The scope of the right-column ditto dash is uncertain; '10' is read as the line count by analogy with the column format.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0372-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The ditto title is not stated on this page.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0372-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The cancelled number in 'ff. 126-...-184' is illegible.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0372-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The exact spellings of the abbreviations 'Rājadh.', 'Āpaddh.' and 'Mokṣadh.' are uncertain.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0372-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0372-01",
+        "focus-0372-02",
+        "focus-0372-03",
+        "focus-0372-04",
+        "focus-0372-05",
+        "focus-0372-06",
+        "focus-0372-07",
+        "focus-0372-08",
+        "focus-0372-09",
+        "focus-0372-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0372-01",
+          "source_reading": "[short diagonal ink stroke, no letters]",
+          "certainty": "probable",
+          "evidence": "In the right native tile, near tile coordinates x≈1560-1600, y≈700-725, there is an isolated slanted stroke above the b003 right-column dash. The same stroke is visible at the left edge of the fol. 187 context tile, so it lies on fol. 186b. It forms no letters, and its attachment is unclear."
+        },
+        {
+          "issue_id": "focus-0372-02",
+          "source_reading": "facing cancelled line: 'b. 4 ... two fragm. 1. beg. l. 2469 : 2. beg. l. 3047. 1889 : 299 : 10 : D' (fragment numbers read as on the image); target r002: 'v. 3466 to end'",
+          "certainty": "probable",
+          "evidence": "The fol. 187 native tile shows '2469'. The target clearly shows '3466'. Fragment 2 (3047) matches b. 4(2), but fragment 1 does not match b. 4(1) by number."
+        },
+        {
+          "issue_id": "focus-0372-03",
+          "source_reading": "in a [later?] hand, with 'second' interlinear above",
+          "certainty": "uncertain",
+          "evidence": "The letters under 'second' look like 'later'. No clear separate strike line can be distinguished from the letter forms, so cancellation versus overwriting is undetermined."
+        },
+        {
+          "issue_id": "focus-0372-04",
+          "source_reading": "ff. 126-⟦1[illegible]⟧-184, with '(sic)' above",
+          "certainty": "uncertain",
+          "evidence": "The struck figure appears to begin with '1'. The following digits are obscured by the strike."
+        },
+        {
+          "issue_id": "focus-0372-05",
+          "source_reading": "[later?]; cancelled status unclear",
+          "certainty": "uncertain",
+          "evidence": "This is the same evidence as focus-0372-03."
+        },
+        {
+          "issue_id": "focus-0372-06",
+          "source_reading": "— (ditto dash; no title on page)",
+          "certainty": "secure",
+          "evidence": "No heading or title appears above b002 on fol. 186b. The page above is blank ruled paper with show-through only."
+        },
+        {
+          "issue_id": "focus-0372-07",
+          "source_reading": "—— 10 : D.",
+          "certainty": "probable",
+          "evidence": "A long dash sits where 'n.d. : -' stands in the line above, followed by '10 : D.'. The dash's scope (date only, or date and extent) is not determinable."
+        },
+        {
+          "issue_id": "focus-0372-08",
+          "source_reading": "— (ditto dash; no title on page)",
+          "certainty": "secure",
+          "evidence": "No antecedent title appears on the page."
+        },
+        {
+          "issue_id": "focus-0372-09",
+          "source_reading": "⟦1[illegible]⟧",
+          "certainty": "uncertain",
+          "evidence": "The strike-through covers the digits."
+        },
+        {
+          "issue_id": "focus-0372-10",
+          "source_reading": "Rajadh. [macron not clearly visible] & Āpaddh. ... Moksadh. [dot/diacritic under s uncertain]",
+          "certainty": "uncertain",
+          "evidence": "No macron is clearly seen over the 'a' of R?jadh. The Ā in Āpaddh. appears to carry a macron. Under the 's' of Mok?adh. there is a mark that may be a subscript dot."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "ditto_from",
+              "target_page_order": 373,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "MAHĀBHĀRATA section; cancelled line 'b. 4 ... two fragm. 1. beg. l. 2469; 2. beg. l. 3047' marked with an arrow",
+              "evidence": "The ditto dash has no antecedent title on this page. The facing fol. 187 carries a cancelled b. 4 entry, arrowed toward this page, describing two fragments.",
+              "certainty": "probable"
+            },
+            {
+              "type": "possible_attachment",
+              "target_page_order": 373,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "cancelled 'b. 4' line with arrow",
+              "evidence": "Shelfmark b. 4 matches. These entries appear to replace the cancelled line.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "ditto_from",
+              "target_page_order": 373,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "MAHĀBHĀRATA section; cancelled line 'b. 4 ... two fragm. 1. beg. l. 2469; 2. beg. l. 3047' marked with an arrow",
+              "evidence": "The ditto dash has no antecedent title on this page. The facing fol. 187 carries a cancelled b. 4 entry, arrowed toward this page, describing two fragments.",
+              "certainty": "probable"
+            },
+            {
+              "type": "possible_attachment",
+              "target_page_order": 373,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "cancelled 'b. 4' line with arrow",
+              "evidence": "Shelfmark b. 4 matches and the arrow points toward this page. However, fragment 1 there reads 'beg. l. 2469', while this entry reads 'v. 3466', so the extent does not confirm a link to fragment 1.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "The source numbers 2469 and 3466 do not match, so the fragment-level attachment is downgraded.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b901",
+            "bbox": [
+              3150,
+              3905,
+              70,
+              50
+            ],
+            "kind_hint": "mark",
+            "anchor": "slanted stroke near right edge above b003 right column",
+            "features": [
+              "short diagonal ink stroke",
+              "attachment unclear"
+            ]
+          },
+          "record": {
+            "id": "r9901",
+            "block_ids": [
+              "b901"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "mark",
+            "literal_text": "",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A short diagonal ink stroke near the right edge of the page, above the right-column dash of b. 4(2). It forms no letters.",
+              "The stroke is also visible at the left edge of the fol. 187 context image, which confirms that it lies on fol. 186b."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "The function of the stroke and its attachment to r003 or to the facing page are unclear."
+            ],
+            "stable_id": "css-prod-0372-r9901",
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "The block was listed but unrepresented except in a descriptive annotation on r003. The image shows a distinct ink stroke on this page whose attachment is unknown."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 186b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Literal reading confirmed. The 'later' reading and its cancellation remain uncertain."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Reading confirmed. The scope of the right-column dash is uncertain."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The struck number remains illegible apart from a probable initial '1'."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r9901"
+          ],
+          "finding": "Non-text mark with unclear attachment."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0372-03",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "It is unclear whether 'later' under 'second' is cancelled or overwritten.",
+          "next_check": "Examine a higher-resolution or raking-light image of the word before 'hand'."
+        },
+        {
+          "issue_id": "focus-0372-02",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "b. 4(1) at v. 3466 does not match fragment 1 at l. 2469 on fol. 187.",
+          "next_check": "Consult the shelf record of MS b. 4."
+        },
+        {
+          "issue_id": "focus-0372-06",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The ditto title is not stated on this page.",
+          "next_check": "None possible from this page."
+        },
+        {
+          "issue_id": "focus-0372-08",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The ditto title is not stated on this page.",
+          "next_check": "None possible from this page."
+        },
+        {
+          "issue_id": "focus-0372-07",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The scope of the right-column dash is uncertain.",
+          "next_check": "Compare with column conventions elsewhere in the volume."
+        },
+        {
+          "issue_id": "focus-0372-09",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The cancelled number is illegible.",
+          "next_check": "Examine a higher-resolution image."
+        },
+        {
+          "issue_id": "focus-0372-10",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "Diacritics in the abbreviations are uncertain.",
+          "next_check": "Examine a higher-resolution image."
+        },
+        {
+          "issue_id": "focus-0372-04",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The struck number and the diacritics both remain uncertain.",
+          "next_check": "Examine a higher-resolution image."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "9467bcb753a47cb40ca15374610379433de59aa9fa298965a17c5cf8b7293461",
+      "bytes": 279741,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dd811a1a2635a4dbc6cff3d314f5f206d17fe6683c5b711d3f25c2aa03d1ca8c",
+      "bytes": 362142,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1799b64d7effb15fe266fb5dabc240dcc4133de76bd8c9daa2b077527619ea65",
+      "bytes": 364427,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/75dd4eef-8dc1-45d6-b8d8-9ff7e2d31d4a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "14546e8edcf96d689bb1034a286a0bdeed580a0bea5c0b4c6c9d34ca17250d75",
+      "bytes": 252370,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 371,
+      "folio_label": "fol. 186",
+      "page_id": "75dd4eef-8dc1-45d6-b8d8-9ff7e2d31d4a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2a7c77ec-d2dd-4002-aab4-03117f63953d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "1c3e4219e69b71ed168763d3ce0a6c26e8226102a20b58ddb4fb3daf2218aecf",
+      "bytes": 315310,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 373,
+      "folio_label": "fol. 187",
+      "page_id": "2a7c77ec-d2dd-4002-aab4-03117f63953d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2a7c77ec-d2dd-4002-aab4-03117f63953d/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "89e90cf347ccb24f48ae019136973feb315f16068f410c95f95ecdbc6e7385d2",
+      "bytes": 482125,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 373,
+      "folio_label": "fol. 187",
+      "page_id": "2a7c77ec-d2dd-4002-aab4-03117f63953d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2a7c77ec-d2dd-4002-aab4-03117f63953d/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "71f70ad50f581c50a295b12e860d7ef53899e36321ac6771122a4e629a8b42cc",
+      "bytes": 544907,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 373,
+      "folio_label": "fol. 187",
+      "page_id": "2a7c77ec-d2dd-4002-aab4-03117f63953d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8c96301a-d2fe-437f-96db-3a4327b97ca5.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "9467bcb753a47cb40ca15374610379433de59aa9fa298965a17c5cf8b7293461",
+      "bytes": 279741,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0b5cfd287cee9c26f391150b9d5d15def867b7d61c9d301e8c044ccde81d9504",
+      "bytes": 294114,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "de3ce1bfd2cb92ba42b33a0efc3984a8202304035e47ed6e34cd9daddde82bc0",
+      "bytes": 302918,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5667a37619aa7779471819d8d8dead12865d39430371fc7bf18761bad70377ee",
+      "bytes": 295144,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a887b98cfddf21b198e4d46daabfadc6dc80a730a753c12e347eaca52aff7468",
+      "bytes": 282338,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dd811a1a2635a4dbc6cff3d314f5f206d17fe6683c5b711d3f25c2aa03d1ca8c",
+      "bytes": 362142,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8c96301a-d2fe-437f-96db-3a4327b97ca5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1799b64d7effb15fe266fb5dabc240dcc4133de76bd8c9daa2b077527619ea65",
+      "bytes": 364427,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/75dd4eef-8dc1-45d6-b8d8-9ff7e2d31d4a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "14546e8edcf96d689bb1034a286a0bdeed580a0bea5c0b4c6c9d34ca17250d75",
+      "bytes": 252370,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 371,
+      "folio_label": "fol. 186",
+      "page_id": "75dd4eef-8dc1-45d6-b8d8-9ff7e2d31d4a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2a7c77ec-d2dd-4002-aab4-03117f63953d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "1c3e4219e69b71ed168763d3ce0a6c26e8226102a20b58ddb4fb3daf2218aecf",
+      "bytes": 315310,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 373,
+      "folio_label": "fol. 187",
+      "page_id": "2a7c77ec-d2dd-4002-aab4-03117f63953d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "source_order": 234,
+  "folio_label": "fol. 117b",
+  "page_id": "757f732e-8fdf-4db6-8e8a-e23d04b77f30",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "117b",
+    "principal_page_bbox": [
+      300,
+      285,
+      2900,
+      4596
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          405,
+          330,
+          120,
+          100
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "117ᵇ",
+        "features": [
+          "ink",
+          "top-left corner",
+          "'b' written superscript after 117"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          585,
+          2415,
+          80,
+          115
+        ],
+        "description": "Small dark smudge or blot in the left part of the page, near the ruled lines. Not legible as text."
+      },
+      {
+        "bbox": [
+          1785,
+          3160,
+          40,
+          100
+        ],
+        "description": "Faint short vertical grey streak, possibly pencil or abrasion, in the lower middle of the page. Not legible as text."
+      },
+      {
+        "bbox": [
+          1180,
+          1305,
+          90,
+          50
+        ],
+        "description": "Two or three tiny dark ink specks in the upper middle of the page."
+      },
+      {
+        "bbox": [
+          3190,
+          2590,
+          40,
+          110
+        ],
+        "description": "Torn paper fragment or tissue at the right (sewing) edge. Physical, not a mark of writing."
+      },
+      {
+        "bbox": [
+          3190,
+          3620,
+          50,
+          560
+        ],
+        "description": "Sewing thread visible at the right edge of the gutter. Physical feature."
+      }
+    ],
+    "boundary_notes": [
+      "The page has printed ruling with no catalogue entries on any ruled line.",
+      "Faint ghosted letterforms are visible across the page. They appear to be show-through or offset from the writing on the reverse side or the facing folio (compare fol. 117 and fol. 118). They are not target-page text and are not transcribed.",
+      "The right edge is the gutter and sewing side. The left edge shows the stacked edges of the leaves."
+    ],
+    "uncertainties": [
+      "The superscript after '117' is read as 'b'. The letterform could alternatively be read as '6'. 'b' is consistent with the folio label.",
+      "The grey streak at about x=1800, y=3200 might be a very faint pencil stroke. No letters are discernible in it."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "117b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "117ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left corner of the page, at about x=405–525, y=330–430 in native coordinates.",
+          "The final character is written raised, as a superscript after '117'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letterform could be read as 'b' or as '6'. It is read as 'b' because that agrees with the supplied folio label 'fol. 117b'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "This is the folio number, the only written element on the page. It is recorded as non-catalogue text."
+      }
+    ],
+    "page_annotations": [
+      "I reviewed the overview and all six native tiles. The ruled lines carry no catalogue entries, headings, cross-references or marginal notes at the top, middle, bottom, outer edge or gutter.",
+      "Faint ghosted letterforms appear across the ruled area. They are show-through or offset from writing on adjacent leaves (compare fol. 117 and fol. 118) and are not transcribed as target text.",
+      "There is a small dark smudge or blot at about x=590–660, y=2415–2530. It is not legible as text.",
+      "There is a faint short grey vertical streak at about x=1790–1820, y=3165–3260. It may be a pencil trace or abrasion, and no letters can be made out.",
+      "There are tiny ink specks at about x=1185–1265, y=1315–1360. They are not text.",
+      "The right (gutter) edge shows sewing thread at about y=3620–4380, plus a small torn paper or tissue fragment at about y=2590–2700. These are physical features, not writing."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Ink folio number in the top-left corner, at about native [405,330,120,100]. The native tile shows '117' followed by a raised character. That character is shaped like a '6' or a 'b' with an open, hooked top. The candidate's reading '117ᵇ' rests partly on the supplied label 'fol. 117b', and its recorded uncertainty is kept. The bbox matches the native tile."
+      },
+      {
+        "block_id": "unattached_mark_smudge_585_2415",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Dark blotted smudge at about native x 590–660, y 2418–2528, seen in the tile at offset (0,1608). It has no letterforms and is not text. It is described in page_annotations and correctly has no record."
+      },
+      {
+        "block_id": "unattached_mark_streak_1785_3160",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint grey vertical streak at about native x 1795–1815, y 3163–3258. It may be pencil or abrasion, and no letters are discernible. It is described in page_annotations and has no record."
+      },
+      {
+        "block_id": "unattached_mark_specks_1180_1305",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Two or three tiny dark ink specks at about native x 1185–1265, y 1315–1360. They are not text and are described in page_annotations."
+      },
+      {
+        "block_id": "unattached_mark_torn_fragment_3190_2590",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Small torn paper or tissue fragment at the gutter edge, at about native x 3195–3225, y 2588–2680. It is a physical feature and is described in page_annotations."
+      },
+      {
+        "block_id": "unattached_mark_sewing_thread_3190_3620",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Sewing thread at the gutter edge. In the native tile at offset (1604,3216) it runs from about y 3626 to y 4376. That makes the inventory bbox height of 560 (ending near y 4180) somewhat short, while the candidate annotation's 'y=3620–4380' matches the image. It is a physical feature and is not writing."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The raised character after '117' is graphically ambiguous between 'b' and '6'. The reading 'b' is supported mainly by the supplied folio label, not independently by the letterform.",
+        "next_check": "Compare this character with other 'b'-suffixed folio numbers in the same hand elsewhere in the volume."
+      }
+    ],
+    "boundary_review": "The target page contains no catalogue entries. Fol. 117 ends with a Nalodaya commentary entry and cancelled continuation text. Fol. 118 begins with a Nalodaya heading and further commentary entries. No continuation, ditto or cross-reference on the target links these two pages, so the blank leaf interrupts nothing that can be recorded here. Ghosted letterforms across the ruled area are show-through or offset from adjacent leaves and are not target text. No fragments of a facing page appear within the target canvas: the left edge shows only stacked leaf edges and the right edge shows the gutter and thread.",
+    "region_review": {
+      "top": "The only writing is the folio number '117' with a raised suffix at top left. There are also a few dots and a faint diagonal scratch near the top right (about native x 2720–2770, y 360–420), which is not text. There is no heading.",
+      "middle": "The ruled lines are empty. There are faint show-through ghost letters, an ink-speck cluster near y 1315–1360, and a smudge near x 590–660, y 2418–2528. No legible text was found.",
+      "bottom": "The ruled lines are empty down to the lower edge. There are a few tiny specks or dots, for example about native x 2805–2840, y 4335–4370 and x 2245–2280, y 4655–4700, plus show-through. No bottom note was found.",
+      "left_margin": "Only the stacked leaf edges and small ruling-end ticks are visible. There is no marginal writing.",
+      "right_margin": "The gutter shows the sewing thread and a torn tissue fragment. There is no writing.",
+      "interlinear": "No interlinear additions were found. The faint grey streak near x 1800, y 3160–3260 is not legible."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        405,
+        330,
+        120,
+        100
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "117ᵇ",
+      "features": [
+        "ink",
+        "top-left corner",
+        "'b' written superscript after 117"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "117ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left corner of the page, at about x=405–525, y=330–430 in native coordinates.",
+        "The final character is written raised, as a superscript after '117'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letterform could be read as 'b' or as '6'. It is read as 'b' because that agrees with the supplied folio label 'fol. 117b'."
+      ],
+      "stable_id": "css-prod-0234-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/757f732e-8fdf-4db6-8e8a-e23d04b77f30.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/757f732e-8fdf-4db6-8e8a-e23d04b77f30/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "ec8442083c4e4f7f85b55bd95eec076c4d23fb01694145f70ded37e5fe270489",
+      "bytes": 313189,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/757f732e-8fdf-4db6-8e8a-e23d04b77f30/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "54ec6b4c7e18a080788d8fdfe4c4691d9ea773d8625f99ba99e8e5e0303753c5",
+      "bytes": 344863,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/757f732e-8fdf-4db6-8e8a-e23d04b77f30/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ff5e0206af1e528f456a4ce2b682220f23f1289aae8110195dd08c90540db2c4",
+      "bytes": 343567,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/757f732e-8fdf-4db6-8e8a-e23d04b77f30/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "43edc84335fd058d65037b4ba6662b0eebb9dd860d080ca7012b0b3a93866978",
+      "bytes": 381686,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/757f732e-8fdf-4db6-8e8a-e23d04b77f30/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1d288c64c3325bcb623ecb9f9a45dc45e1798a81f634d0c40ce46b1570ca49f5",
+      "bytes": 394620,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/757f732e-8fdf-4db6-8e8a-e23d04b77f30/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "16e75779b20da9dffadfc7a1d6370726e4c08a63327d57ac8b1f5f7848445b94",
+      "bytes": 369585,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/757f732e-8fdf-4db6-8e8a-e23d04b77f30/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c11e407913f5464b7bf5bbbbc18d0085accea7abc8c58bd56e13dddb2ccac217",
+      "bytes": 392905,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e8ce214a-9434-4ff7-b13e-60efe648d0b5/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4265570bedd47c59aef47c7bd766c6ab519280d2695346b5f3a9ae53fcf16954",
+      "bytes": 259558,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 233,
+      "folio_label": "fol. 117",
+      "page_id": "e8ce214a-9434-4ff7-b13e-60efe648d0b5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/723adf80-7a19-4d1a-adf4-b5262247571c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6a18612d78ac436ae9a48982a374951acbadb6ecb4c92b3ffb3c8fc35d40f29b",
+      "bytes": 306675,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 235,
+      "folio_label": "fol. 118",
+      "page_id": "723adf80-7a19-4d1a-adf4-b5262247571c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

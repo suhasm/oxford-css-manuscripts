@@ -1,0 +1,2219 @@
+{
+  "source_order": 596,
+  "folio_label": "fol. 298b",
+  "page_id": "60081d8d-b254-4c1c-846c-d183d3cca8a3",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "298b",
+    "principal_page_bbox": [
+      325,
+      290,
+      2810,
+      4555
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          420,
+          340,
+          170,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "298b",
+        "features": [
+          "pencil",
+          "top-left margin",
+          "b written superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          375,
+          3625,
+          370,
+          145
+        ],
+        "kind_hint": "shelfmark",
+        "anchor": "√ c. 43(4)",
+        "features": [
+          "ink tick before shelfmark",
+          "left shelfmark column"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1305,
+          3610,
+          670,
+          85
+        ],
+        "kind_hint": "interlinear_note",
+        "anchor": "[See Burnell]",
+        "features": [
+          "bracketed",
+          "above the title line",
+          "a stroke leads down toward 'Sathātaraṅga'"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          1650,
+          3650,
+          1070,
+          85
+        ],
+        "kind_hint": "interlinear_addition",
+        "anchor": "s/o Lakṣmaṇa s/o Vedamiśra of Rāḍhideśa, ff. 1-29, inc.",
+        "features": [
+          "smaller superscript line above the title line",
+          "probably keyed to the caret '^' after 'anthology' in the line below; the attachment is uncertain"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          895,
+          3690,
+          2060,
+          110
+        ],
+        "kind_hint": "entry",
+        "anchor": "Sathātaraṅga by Jagannātha Miśra. ⟦fragment...⟧ n.d.: 29: 6: D",
+        "features": [
+          "main entry line",
+          "cancelled word after 'Miśra.' struck through, reading uncertain",
+          "date/extent formula at right: 'n.d.: 29: 6: D'"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          365,
+          3770,
+          1445,
+          75
+        ],
+        "kind_hint": "note_continuation",
+        "anchor": "may. title is Satha.T. (for Sathāsitataraṅgiṇī?) - apparently an anthology.^",
+        "features": [
+          "starts in the left margin and crosses the column rule into the main column",
+          "small hand",
+          "caret insertion mark at the end"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          920,
+          3830,
+          1190,
+          95
+        ],
+        "kind_hint": "note_continuation",
+        "anchor": "Listed also, e. 149(1) as Samāraṅjaka pārāśari",
+        "features": [
+          "third line of the entry",
+          "contains a cross-listing to another shelfmark"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3000,
+          3785,
+          280,
+          65
+        ],
+        "description": "An ink arrow runs from the right end of the entry, after the n.d. formula, across the gutter. It points onto the facing page fol. 299 toward the d. 697(3) entry there."
+      },
+      {
+        "bbox": [
+          330,
+          700,
+          2790,
+          3900
+        ],
+        "description": "Faint mirrored show-through or offset of writing from the other side of the leaf runs across the ruled lines. It is not treated as target text."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge beyond about x=3140 shows fol. 299: shelfmarks d. 615(7), c. 439, d. 582, ... d. 365(9), the see-references and a left-pointing arrow. These are facing-page fragments and were not inventoried.",
+      "The arrow in the unattached marks crosses from the target page onto the facing page."
+    ],
+    "uncertainties": [
+      "The cancelled word after 'Miśra.' is illegible; 'fragment' is a guess.",
+      "The exact attachment point of the interlinear 's/o ... inc.' line, whether at the caret or after 'Miśra', is uncertain.",
+      "The diacritics in 'Sathāsitataraṅgiṇī?', 'Rāḍhideśa' and 'Samāraṅjaka pārāśari' are tentative readings of a small hand."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "298b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "298b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left of the page; 'b' written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": "main_entry",
+        "literal_text": "√ c. 43(4)   Sathātaraṅga by Jagannātha Miśra. ⟦fra[illegible]⟧.   n.d.: 29: 6: D",
+        "fields": {
+          "shelfmark": "c. 43(4)",
+          "title": "Sathātaraṅga",
+          "author": "Jagannātha Miśra",
+          "date": "n.d.",
+          "extent": "29",
+          "lines": "6",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink tick before the shelfmark in the left column.",
+          "A word after 'Miśra.' is struck through; it begins 'fra…' and the rest is illegible.",
+          "The date/extent formula is at the right end of the line."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Title reading 'Sathātaraṅga': the 'ā' is written small and superscript. The first syllables may be read otherwise.",
+          "Cancelled word only partly legible; 'fragment' is a guess."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "title_note",
+        "literal_text": "may. title is Satha.T. (for Sathāsitataraṅgiṇī?) - apparently an anthology.^",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Small hand. Starts in the left shelfmark margin and runs across the column rule into the main column.",
+          "Ends with a caret insertion mark."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 596,
+            "target_record_id": "r002",
+            "target_block_id": "b005",
+            "target_anchor": "Sathātaraṅga by Jagannātha Miśra",
+            "evidence": "Line written directly beneath the entry line and within the same entry.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "'may.' is uncertain (possibly an abbreviation such as 'MS.').",
+          "'Sathāsitataraṅgiṇī?' is a tentative reading; the first element could be read otherwise. No correction is made."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "interlinear_addition",
+        "literal_text": "s/o Lakṣmaṇa s/o Vedamiśra of Rāḍhideśa, ff. 1-29, inc.",
+        "fields": {
+          "extent": "ff. 1-29"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Smaller superscript line above the title line, to the right of '[See Burnell]'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 596,
+            "target_record_id": "r003",
+            "target_block_id": "b006",
+            "target_anchor": "apparently an anthology.^",
+            "evidence": "Caret after 'anthology' in the line below. Placement is also directly above 'Miśra.', so it may qualify the author name.",
+            "certainty": "probable"
+          },
+          {
+            "type": "continues",
+            "target_page_order": 596,
+            "target_record_id": "r002",
+            "target_block_id": "b005",
+            "target_anchor": "Jagannātha Miśra",
+            "evidence": "Interlinear addition within the entry.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The exact insertion point (at the caret or after 'Miśra') is uncertain.",
+          "'Rāḍhideśa' diacritics are tentative.",
+          "'inc.' is read literally and not expanded."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "bibliographic_reference",
+        "literal_text": "[See Burnell]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Bracketed, above the title line.",
+          "A thin stroke leads down-left toward the title word."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 596,
+            "target_record_id": "r002",
+            "target_block_id": "b005",
+            "target_anchor": "Sathātaraṅga",
+            "evidence": "A stroke connects the note to the title.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": []
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b007"
+        ],
+        "type": "continuation_note",
+        "subtype": "cross_listing",
+        "literal_text": "Listed also, e. 149(1) as Samāraṅjaka pārāśari",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Third line of the entry, in the main column."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 596,
+            "target_record_id": "r002",
+            "target_block_id": "b005",
+            "target_anchor": "Sathātaraṅga by Jagannātha Miśra",
+            "evidence": "Line within the same entry block.",
+            "certainty": "secure"
+          },
+          {
+            "type": "cross_reference",
+            "target_page_order": 597,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "? whole … Sabhārañjaka pārāśarījātaka, by Parāśara",
+            "evidence": "The facing page has a similar title beside a left-pointing arrow. The link is a hypothesis only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'e.' versus 'c.' in the shelfmark 'e. 149(1)' is uncertain.",
+          "'Samāraṅjaka pārāśari' is a tentative reading of a small hand."
+        ]
+      },
+      {
+        "id": "r007",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink arrow from the right of 'n.d.: 29: 6: D' across the gutter, pointing toward the d. 697(3) line on fol. 299.",
+          "A separate left-pointing arrow on fol. 299, below that line, points back toward the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 597,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 697(3) / ? whole Sabhārañjaka…",
+            "evidence": "The arrow crosses the gutter onto the facing page. Its purpose may be alphabetical placement.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The arrow's purpose is unclear."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3000,
+          3785,
+          280,
+          65
+        ],
+        "kind_hint": "arrow",
+        "anchor": "arrow after n.d.: 29: 6: D",
+        "features": [
+          "ink",
+          "crosses gutter to fol. 299"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Shelfmark of the holding."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Bracketed reference linked by a stroke to the title."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Interlinear addition; insertion point uncertain."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Main entry line."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Second line of the entry."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Third line, cross-listing."
+      }
+    ],
+    "page_annotations": [
+      "The upper page is empty of target text apart from the folio number. Faint mirrored show-through from the other side of the leaf is not transcribed.",
+      "Facing-page fragments (fol. 299 shelfmarks) at the right edge are not transcribed."
+    ],
+    "unresolved_relationships": [
+      "Insertion point of the b004 addition.",
+      "Whether the b901 arrow and the 'Listed also … Samāraṅjaka pārāśari' line relate to the fol. 299 entries 'd. 697(3)' or '? whole Sabhārañjaka pārāśarījātaka'."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '298' with superscript 'b' is in the top-left margin. It matches the supplied label fol. 298b."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The ink tick and 'c. 43(4)' are in the left shelfmark column. 'c.' looks secure on the native tile."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "'[See Burnell]' is bracketed above the title line. A thin stroke descends left toward the title word, so the attachment is probable."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The interlinear line sits above 'Miśra.' and the struck-through word, running toward the formula. The candidate's attachment reasoning needs adjustment: the caret on line 2 lies under 'Miśra.' and points up into the main line."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The main line is represented. The cancellation may cover more than one word: the struck sequence resembles 'fra…' followed by a short second element. Both are illegible."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The second line starts in the left margin and crosses the column rule, ending in a caret. The reading is represented with its uncertainties."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "The cross-listing line is represented. The image shows a gap after 'Samā' and a tilde-like mark over the n, so 'Samāraṅjaka' as one word with ṅ is doubtful."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r007"
+        ],
+        "finding": "The ink arrow runs from after the formula across the gutter to the d. 697(3) line on fol. 299. The second, left-pointing arrow lies on the facing page and is noted only as context."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r006",
+        "field_path": "literal_text",
+        "before": "Listed also, e. 149(1) as Samāraṅjaka pārāśari",
+        "after": "Listed also, e. 149(1) as Samā rañjaka pārāśari",
+        "reason": "The native tile shows a space between 'Samā' and the following word. The nasal carries a tilde-like mark (ñ rather than ṅ). This remains a tentative reading of a small hand.",
+        "source_block_ids": [
+          "b007"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Ink tick before the shelfmark in the left column.",
+          "A word after 'Miśra.' is struck through; it begins 'fra…' and the rest is illegible.",
+          "The date/extent formula is at the right end of the line."
+        ],
+        "after": [
+          "Ink tick before the shelfmark in the left column.",
+          "Text after 'Miśra.' is struck through with a heavy line. It begins 'fra…' and may comprise two elements, a longer word and a short second word, followed by a full stop. The rest is illegible.",
+          "The interlinear addition b004 sits directly above 'Miśra.' and the struck-through text.",
+          "The date/extent formula is at the right end of the line."
+        ],
+        "reason": "Inspection of the native tile shows the extent of the cancellation and the position of the interlinear line above it.",
+        "source_block_ids": [
+          "b005",
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 596,
+            "target_record_id": "r003",
+            "target_block_id": "b006",
+            "target_anchor": "apparently an anthology.^",
+            "evidence": "Caret after 'anthology' in the line below. Placement is also directly above 'Miśra.', so it may qualify the author name.",
+            "certainty": "probable"
+          },
+          {
+            "type": "continues",
+            "target_page_order": 596,
+            "target_record_id": "r002",
+            "target_block_id": "b005",
+            "target_anchor": "Jagannātha Miśra",
+            "evidence": "Interlinear addition within the entry.",
+            "certainty": "secure"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 596,
+            "target_record_id": "r002",
+            "target_block_id": "b005",
+            "target_anchor": "Miśra. ⟦fra[illegible]⟧.",
+            "evidence": "The caret at the end of line 2 lies beneath 'Miśra.' and points upward into the main line. The interlinear line stands above 'Miśra.' and the cancelled text. It may be an insertion after 'Miśra.' or a substitute for the cancelled words; which one is undetermined.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "continues",
+            "target_page_order": 596,
+            "target_record_id": "r002",
+            "target_block_id": "b005",
+            "target_anchor": "Jagannātha Miśra",
+            "evidence": "Interlinear addition within the entry.",
+            "certainty": "secure"
+          }
+        ],
+        "reason": "The caret marks an insertion into the main line, not into the anthology note. The exact insertion point is still not secure.",
+        "source_block_ids": [
+          "b004",
+          "b005",
+          "b006"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "The exact insertion point (at the caret or after 'Miśra') is uncertain.",
+          "'Rāḍhideśa' diacritics are tentative.",
+          "'inc.' is read literally and not expanded."
+        ],
+        "after": [
+          "The exact insertion point is uncertain: after 'Miśra.' (indicated by the caret) or in place of the cancelled words.",
+          "'Lakṣmaṇa' final vowel and 'Rāḍhideśa' diacritics are tentative.",
+          "A dot-like mark near the '9' of '1-29' is not interpreted.",
+          "'inc.' is read literally and not expanded."
+        ],
+        "reason": "Additional small-hand ambiguities are visible on the native tile.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The cancelled text after 'Miśra.' is illegible beyond 'fra…'. 'fragment' remains a guess.",
+        "next_check": "Higher-contrast imaging of the struck-through words."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004",
+          "b006"
+        ],
+        "issue": "Insertion point versus replacement of the cancelled text.",
+        "next_check": "Compare the ink and hand of b004 with the caret and the cancellation."
+      },
+      {
+        "record_id": "r007",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "Purpose of the cross-gutter arrow. Its relation to the fol. 299 entries d. 697(3) and '? whole … Sabhārañjaka pārāśarījātaka' with its left-pointing arrow is unresolved.",
+        "next_check": "Review fol. 299 at native resolution near y≈3790–3900."
+      },
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b007"
+        ],
+        "issue": "'e. 149(1)' versus 'c. 149(1)', and the exact form of 'Samā rañjaka pārāśari', remain uncertain.",
+        "next_check": "Native-scale letterform comparison with other e./c. shelfmarks in the same hand."
+      }
+    ],
+    "boundary_review": "Everything right of the gutter (about x>3140) belongs to fol. 299 and is not transcribed: shelfmarks d. 615(7) through d. 365(9), the 'see s.' references, the left-pointing arrow and the ff. 1-14 note. Only the arrow starting on the target page (b901) is recorded, as a cross-gutter mark. Its link to fol. 299 remains uncertain. Nothing from fol. 298 continues onto this page.",
+    "region_review": {
+      "top": "Only the pencil folio number '298b'. The ruled lines carry faint mirrored show-through, which is not target text.",
+      "middle": "No target writing from about y=500 to y=3600; show-through only.",
+      "bottom": "The single entry block runs from about y=3610 to y=3925. Below it, to the page foot at about y=4830, the area was reviewed and found blank apart from show-through.",
+      "left_margin": "Tick and shelfmark 'c. 43(4)', plus the start of the 'may. title is…' line. Nothing else.",
+      "right_margin": "The formula 'n.d.: 29: 6: D' and the arrow into the gutter. Beyond the gutter is the facing page.",
+      "interlinear": "'[See Burnell]' with its connecting stroke, and the 's/o … inc.' line above the title line. There is also a caret at the end of line 2."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        420,
+        340,
+        170,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "298b",
+      "features": [
+        "pencil",
+        "top-left margin",
+        "b written superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        375,
+        3625,
+        370,
+        145
+      ],
+      "kind_hint": "shelfmark",
+      "anchor": "√ c. 43(4)",
+      "features": [
+        "ink tick before shelfmark",
+        "left shelfmark column"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1305,
+        3610,
+        670,
+        85
+      ],
+      "kind_hint": "interlinear_note",
+      "anchor": "[See Burnell]",
+      "features": [
+        "bracketed",
+        "above the title line",
+        "a stroke leads down toward 'Sathātaraṅga'"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        1650,
+        3650,
+        1070,
+        85
+      ],
+      "kind_hint": "interlinear_addition",
+      "anchor": "s/o Lakṣmaṇa s/o Vedamiśra of Rāḍhideśa, ff. 1-29, inc.",
+      "features": [
+        "smaller superscript line above the title line",
+        "probably keyed to the caret '^' after 'anthology' in the line below; the attachment is uncertain"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        895,
+        3690,
+        2060,
+        110
+      ],
+      "kind_hint": "entry",
+      "anchor": "Sathātaraṅga by Jagannātha Miśra. ⟦fragment...⟧ n.d.: 29: 6: D",
+      "features": [
+        "main entry line",
+        "cancelled word after 'Miśra.' struck through, reading uncertain",
+        "date/extent formula at right: 'n.d.: 29: 6: D'"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        365,
+        3770,
+        1445,
+        75
+      ],
+      "kind_hint": "note_continuation",
+      "anchor": "may. title is Satha.T. (for Sathāsitataraṅgiṇī?) - apparently an anthology.^",
+      "features": [
+        "starts in the left margin and crosses the column rule into the main column",
+        "small hand",
+        "caret insertion mark at the end"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        920,
+        3830,
+        1190,
+        95
+      ],
+      "kind_hint": "note_continuation",
+      "anchor": "Listed also, e. 149(1) as Samāraṅjaka pārāśari",
+      "features": [
+        "third line of the entry",
+        "contains a cross-listing to another shelfmark"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3000,
+        3785,
+        280,
+        65
+      ],
+      "kind_hint": "arrow",
+      "anchor": "arrow after n.d.: 29: 6: D",
+      "features": [
+        "ink",
+        "crosses gutter to fol. 299"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "298b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left of the page; 'b' written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0596-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": "main_entry",
+      "literal_text": "√ c. 43(4)   Sathātaraṅga by Jagannātha Miśra. ⟦fra[illegible]⟧.   n.d.: 29: 6: D",
+      "fields": {
+        "shelfmark": "c. 43(4)",
+        "title": "Sathātaraṅga",
+        "author": "Jagannātha Miśra",
+        "date": "n.d.",
+        "extent": "29",
+        "lines": "6",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink tick before the shelfmark in the left column.",
+        "A word after 'Miśra.' is struck through; it begins 'fra…' and the rest is illegible.",
+        "The date/extent formula is at the right end of the line."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Title reading 'Sathātaraṅga': the 'ā' is written small and superscript. The first syllables may be read otherwise.",
+        "Cancelled word only partly legible; 'fragment' is a guess."
+      ],
+      "stable_id": "css-prod-0596-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "title_note",
+      "literal_text": "may. title is Satha.T. (for Sathāsitataraṅgiṇī?) - apparently an anthology.^",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Small hand. Starts in the left shelfmark margin and runs across the column rule into the main column.",
+        "Ends with a caret insertion mark."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Sathātaraṅga by Jagannātha Miśra",
+          "evidence": "Line written directly beneath the entry line and within the same entry.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "'may.' is uncertain (possibly an abbreviation such as 'MS.').",
+        "'Sathāsitataraṅgiṇī?' is a tentative reading; the first element could be read otherwise. No correction is made."
+      ],
+      "stable_id": "css-prod-0596-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "interlinear_addition",
+      "literal_text": "s/o Lakṣmaṇa s/o Vedamiśra of Rāḍhideśa, ff. 1-29, inc.",
+      "fields": {
+        "extent": "ff. 1-29"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Smaller superscript line above the title line, to the right of '[See Burnell]'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 596,
+          "target_record_id": "r003",
+          "target_block_id": "b006",
+          "target_anchor": "apparently an anthology.^",
+          "evidence": "Caret after 'anthology' in the line below. Placement is also directly above 'Miśra.', so it may qualify the author name.",
+          "certainty": "probable"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Jagannātha Miśra",
+          "evidence": "Interlinear addition within the entry.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The exact insertion point (at the caret or after 'Miśra') is uncertain.",
+        "'Rāḍhideśa' diacritics are tentative.",
+        "'inc.' is read literally and not expanded."
+      ],
+      "stable_id": "css-prod-0596-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "bibliographic_reference",
+      "literal_text": "[See Burnell]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Bracketed, above the title line.",
+        "A thin stroke leads down-left toward the title word."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Sathātaraṅga",
+          "evidence": "A stroke connects the note to the title.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0596-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b007"
+      ],
+      "type": "continuation_note",
+      "subtype": "cross_listing",
+      "literal_text": "Listed also, e. 149(1) as Samāraṅjaka pārāśari",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Third line of the entry, in the main column."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Sathātaraṅga by Jagannātha Miśra",
+          "evidence": "Line within the same entry block.",
+          "certainty": "secure"
+        },
+        {
+          "type": "cross_reference",
+          "target_page_order": 597,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "? whole … Sabhārañjaka pārāśarījātaka, by Parāśara",
+          "evidence": "The facing page has a similar title beside a left-pointing arrow. The link is a hypothesis only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'e.' versus 'c.' in the shelfmark 'e. 149(1)' is uncertain.",
+        "'Samāraṅjaka pārāśari' is a tentative reading of a small hand."
+      ],
+      "stable_id": "css-prod-0596-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r007",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink arrow from the right of 'n.d.: 29: 6: D' across the gutter, pointing toward the d. 697(3) line on fol. 299.",
+        "A separate left-pointing arrow on fol. 299, below that line, points back toward the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 597,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 697(3) / ? whole Sabhārañjaka…",
+          "evidence": "The arrow crosses the gutter onto the facing page. Its purpose may be alphabetical placement.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The arrow's purpose is unclear."
+      ],
+      "stable_id": "css-prod-0596-r007",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r006",
+      "field_path": "literal_text",
+      "before": "Listed also, e. 149(1) as Samāraṅjaka pārāśari",
+      "after": "Listed also, e. 149(1) as Samā rañjaka pārāśari",
+      "reason": "The native tile shows a space between 'Samā' and the following word. The nasal carries a tilde-like mark (ñ rather than ṅ). This remains a tentative reading of a small hand.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Ink tick before the shelfmark in the left column.",
+        "A word after 'Miśra.' is struck through; it begins 'fra…' and the rest is illegible.",
+        "The date/extent formula is at the right end of the line."
+      ],
+      "after": [
+        "Ink tick before the shelfmark in the left column.",
+        "Text after 'Miśra.' is struck through with a heavy line. It begins 'fra…' and may comprise two elements, a longer word and a short second word, followed by a full stop. The rest is illegible.",
+        "The interlinear addition b004 sits directly above 'Miśra.' and the struck-through text.",
+        "The date/extent formula is at the right end of the line."
+      ],
+      "reason": "Inspection of the native tile shows the extent of the cancellation and the position of the interlinear line above it.",
+      "source_block_ids": [
+        "b005",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 596,
+          "target_record_id": "r003",
+          "target_block_id": "b006",
+          "target_anchor": "apparently an anthology.^",
+          "evidence": "Caret after 'anthology' in the line below. Placement is also directly above 'Miśra.', so it may qualify the author name.",
+          "certainty": "probable"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Jagannātha Miśra",
+          "evidence": "Interlinear addition within the entry.",
+          "certainty": "secure"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Miśra. ⟦fra[illegible]⟧.",
+          "evidence": "The caret at the end of line 2 lies beneath 'Miśra.' and points upward into the main line. The interlinear line stands above 'Miśra.' and the cancelled text. It may be an insertion after 'Miśra.' or a substitute for the cancelled words; which one is undetermined.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Jagannātha Miśra",
+          "evidence": "Interlinear addition within the entry.",
+          "certainty": "secure"
+        }
+      ],
+      "reason": "The caret marks an insertion into the main line, not into the anthology note. The exact insertion point is still not secure.",
+      "source_block_ids": [
+        "b004",
+        "b005",
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The exact insertion point (at the caret or after 'Miśra') is uncertain.",
+        "'Rāḍhideśa' diacritics are tentative.",
+        "'inc.' is read literally and not expanded."
+      ],
+      "after": [
+        "The exact insertion point is uncertain: after 'Miśra.' (indicated by the caret) or in place of the cancelled words.",
+        "'Lakṣmaṇa' final vowel and 'Rāḍhideśa' diacritics are tentative.",
+        "A dot-like mark near the '9' of '1-29' is not interpreted.",
+        "'inc.' is read literally and not expanded."
+      ],
+      "reason": "Additional small-hand ambiguities are visible on the native tile.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "√ c. 43(4)   Sathātaraṅga by Jagannātha Miśra. ⟦fra[illegible]⟧.   n.d.: 29: 6: D",
+      "after": "√ c. 43(4)   Sathātaraṅga by Jagannātha Miśra. ⟦fra[illegible]. [illegible]⟧.   n.d.: 29: 6: D",
+      "reason": "The native tile shows two struck elements, each followed by a stop.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0596-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Ink tick before the shelfmark in the left column.",
+        "A word after 'Miśra.' is struck through; it begins 'fra…' and the rest is illegible.",
+        "The date/extent formula is at the right end of the line."
+      ],
+      "after": [
+        "Ink tick before the shelfmark in the left column.",
+        "Text after 'Miśra.' is struck through with a heavy line. It begins 'fra…' and may comprise two elements, a longer word and a short second word, followed by a full stop. The rest is illegible.",
+        "The interlinear addition b004 sits directly above 'Miśra.' and the struck-through text.",
+        "The date/extent formula is at the right end of the line."
+      ],
+      "reason": "Native tile inspection.",
+      "source_block_ids": [
+        "b005",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0596-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "Title reading 'Sathātaraṅga': the 'ā' is written small and superscript. The first syllables may be read otherwise.",
+        "Cancelled word only partly legible; 'fragment' is a guess."
+      ],
+      "after": [
+        "Title reading 'Sathātaraṅga': the 'ā' is written small and superscript. The first syllables may be read otherwise.",
+        "Cancelled text only partly legible ('fra…' plus a short second element). No expansion is confirmed."
+      ],
+      "reason": "Avoid privileging the guess 'fragment'.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0596-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 596,
+          "target_record_id": "r003",
+          "target_block_id": "b006",
+          "target_anchor": "apparently an anthology.^",
+          "evidence": "Caret after 'anthology' in the line below. Placement is also directly above 'Miśra.', so it may qualify the author name.",
+          "certainty": "probable"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Jagannātha Miśra",
+          "evidence": "Interlinear addition within the entry.",
+          "certainty": "secure"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Miśra. ⟦fra[illegible]. [illegible]⟧.",
+          "evidence": "The caret at the end of line 2 lies beneath 'Miśra.' and points upward into the main line. The interlinear line stands above 'Miśra.' and the cancelled text. It may be an insertion after 'Miśra.' or a substitute for the cancelled words; which one is undetermined.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 596,
+          "target_record_id": "r002",
+          "target_block_id": "b005",
+          "target_anchor": "Jagannātha Miśra",
+          "evidence": "Interlinear addition within the entry.",
+          "certainty": "secure"
+        }
+      ],
+      "reason": "The caret's position under 'Miśra' points upward into the main line. Keying it to the anthology note is not supported over this reading.",
+      "source_block_ids": [
+        "b004",
+        "b005",
+        "b006"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0596-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The exact insertion point (at the caret or after 'Miśra') is uncertain.",
+        "'Rāḍhideśa' diacritics are tentative.",
+        "'inc.' is read literally and not expanded."
+      ],
+      "after": [
+        "The exact insertion point is uncertain: after 'Miśra.' (indicated by the caret) or in place of the cancelled words.",
+        "'Lakṣmaṇa' final vowel and 'Rāḍhideśa' diacritics are tentative.",
+        "A dot-like mark near the '9' of '1-29' is not interpreted.",
+        "'inc.' is read literally and not expanded."
+      ],
+      "reason": "Native tile shows these ambiguities.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0596-focus.parsed.json"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "literal_text",
+      "before": "Listed also, e. 149(1) as Samāraṅjaka pārāśari",
+      "after": "Listed also, e. 149(1) as Samā rañjaka pārāśari",
+      "reason": "The native tile shows a space after 'Samā' and a tilde over the n.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0596-focus.parsed.json"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "uncertainties",
+      "before": [
+        "'e.' versus 'c.' in the shelfmark 'e. 149(1)' is uncertain.",
+        "'Samāraṅjaka pārāśari' is a tentative reading of a small hand."
+      ],
+      "after": [
+        "'e.' versus 'c.' in the shelfmark 'e. 149(1)' is uncertain; the looped form favours 'e.'.",
+        "'Samā rañjaka pārāśari' is a tentative reading of a small hand. The final vowel of 'pārāśari' may be 'ī'."
+      ],
+      "reason": "Fresh native reading.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0596-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b901"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b901"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r007"
+      ],
+      "id": "focus-0596-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The cancelled text after 'Miśra.' is illegible beyond 'fra…'. 'fragment' remains a guess.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0596-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Insertion point versus replacement of the cancelled text.",
+      "block_ids": [
+        "b004",
+        "b006"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0596-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Purpose of the cross-gutter arrow. Its relation to the fol. 299 entries d. 697(3) and '? whole … Sabhārañjaka pārāśarījātaka' with its left-pointing arrow is unresolved.",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r007"
+      ],
+      "id": "focus-0596-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The native tile shows a space between 'Samā' and the following word. The nasal carries a tilde-like mark (ñ rather than ṅ). This remains a tentative reading of a small hand. Proposed literal_text: \"Listed also, e. 149(1) as Samā rañjaka pārāśari\"",
+      "block_ids": [
+        "b007"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0596-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The caret marks an insertion into the main line, not into the anthology note. The exact insertion point is still not secure. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 596, \"target_record_id\": \"r002\", \"target_block_id\": \"b005\", \"target_anchor\": \"Miśra. ⟦fra[illegible]⟧.\", \"evidence\": \"The caret at the end of line 2 lies beneath 'Miśra.' and points upward into the main line. The interlinear line stands above 'Miśra.' and the cancelled text. It may be an insertion after 'Miśra.' or a substitute for the cancelled words; which one is undetermined.\", \"certainty\": \"uncertain\"}, {\"type\": \"continues\", \"target_page_order\": 596, \"target_record_id\": \"r002\", \"target_block_id\": \"b005\", \"target_anchor\": \"Jagannātha Miśra\", \"evidence\": \"Interlinear addition within the entry.\", \"certainty\": \"secure\"}]",
+      "block_ids": [
+        "b004",
+        "b005",
+        "b006"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0596-06"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "'e. 149(1)' versus 'c. 149(1)', and the exact form of 'Samā rañjaka pārāśari', remain uncertain.",
+      "block_ids": [
+        "b007"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0596-07"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Inspection of the native tile shows the extent of the cancellation and the position of the interlinear line above it. Proposed annotations: [\"Ink tick before the shelfmark in the left column.\", \"Text after 'Miśra.' is struck through with a heavy line. It begins 'fra…' and may comprise two elements, a longer word and a short second word, followed by a full stop. The rest is illegible.\", \"The interlinear addition b004 sits directly above 'Miśra.' and the struck-through text.\", \"The date/extent formula is at the right end of the line.\"]",
+      "block_ids": [
+        "b005",
+        "b004"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0596-08"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Additional small-hand ambiguities are visible on the native tile. Proposed uncertainties: [\"The exact insertion point is uncertain: after 'Miśra.' (indicated by the caret) or in place of the cancelled words.\", \"'Lakṣmaṇa' final vowel and 'Rāḍhideśa' diacritics are tentative.\", \"A dot-like mark near the '9' of '1-29' is not interpreted.\", \"'inc.' is read literally and not expanded.\"]",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0596-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Title reading 'Sathātaraṅga': the 'ā' is written small and superscript. The first syllables may be read otherwise.",
+      "block_ids": [
+        "b002",
+        "b005"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0596-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0596-01",
+        "focus-0596-02",
+        "focus-0596-03",
+        "focus-0596-04",
+        "focus-0596-05",
+        "focus-0596-06",
+        "focus-0596-07",
+        "focus-0596-08",
+        "focus-0596-09",
+        "focus-0596-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0596-01",
+          "source_reading": "Ink arrow, no text. The tail starts on fol. 298b at about x 3004, y 3786, to the right of 'n.d.: 29: 6: D'. It crosses the gutter at about x 3125. The head lies on fol. 299 at about x 3275, pointing at 'd. 697(3)'. The separate small left-pointing arrow at about x 3175–3225, y 3900 lies right of the gutter, on fol. 299.",
+          "certainty": "probable",
+          "evidence": "Native tile at offset (1604, 3216): the arrow tail is at tile x 1400–1520 and the gutter fold is at about tile x 1520. The arrowhead is at tile x 1670. The left-pointing arrow is at tile x 1570–1620, right of the fold. The fol. 299 native tile shows the same arrow beginning just right of the trace '29: 6: D' of the target page."
+        },
+        {
+          "issue_id": "focus-0596-02",
+          "source_reading": "⟦fra[illegible]. [illegible]⟧.",
+          "certainty": "uncertain",
+          "evidence": "There is a heavy strike-through after 'Miśra.'. Under it are a longer word beginning 'fra' followed by minims, a stop, and a short second element (two or three letters) with a final stop. The letters cannot be read securely. 'fragment' is not confirmed."
+        },
+        {
+          "issue_id": "focus-0596-03",
+          "source_reading": "The interlinear line 's/o Lakṣmaṇ[a/e] s/o Vedamiśra of Rāḍhideśa, ff. 1-29, inc.' begins above 'Miśra.' and runs on past the cancelled words toward the date formula. A caret '^' at the end of the line below stands under the end of 'Miśra'.",
+          "certainty": "uncertain",
+          "evidence": "The placement fits an insertion after 'Miśra.' and also fits a replacement of the cancelled words. Nothing on the page decides between the two."
+        },
+        {
+          "issue_id": "focus-0596-04",
+          "source_reading": "Arrow only; no words attached.",
+          "certainty": "uncertain",
+          "evidence": "The arrow runs from the right of the target entry to 'd. 697(3)' on fol. 299. A separate '←' stands before '? whole' on fol. 299. Neither the purpose (placement, transfer or comparison) nor the link to Sabhārañjaka is written."
+        },
+        {
+          "issue_id": "focus-0596-05",
+          "source_reading": "Listed also, e. 149(1) as Samā rañjaka pārāśari",
+          "certainty": "probable",
+          "evidence": "There is a visible space after 'Samā'. The nasal carries a tilde-like mark (ñ). The final vowel of 'pārāśari' has a small mark above it and may be ī."
+        },
+        {
+          "issue_id": "focus-0596-06",
+          "source_reading": "The caret '^' after 'anthology.' lies directly beneath the end of 'Miśra' in the line above and points upward.",
+          "certainty": "uncertain",
+          "evidence": "The caret may mark insertion of the interlinear line into the main line. It could also belong to the anthology note."
+        },
+        {
+          "issue_id": "focus-0596-07",
+          "source_reading": "e. 149(1)",
+          "certainty": "probable",
+          "evidence": "The letter has a looped 'ℓ'-form, as in 'e. 65.' on fol. 299. The 'c' of 'c. 43(4)' on this page has no loop."
+        },
+        {
+          "issue_id": "focus-0596-08",
+          "source_reading": "Two struck-through elements after 'Miśra.', followed by a full stop. The interlinear line sits above 'Miśra.' and the struck text.",
+          "certainty": "probable",
+          "evidence": "Native tile at offset (1604, 3216), tile x 290–650, y 530–550."
+        },
+        {
+          "issue_id": "focus-0596-09",
+          "source_reading": "s/o Lakṣmaṇ[a?] s/o Vedamiśra of Rāḍhideśa, ff. 1-29, inc.",
+          "certainty": "probable",
+          "evidence": "The final vowel of 'Lakṣmaṇa' looks like 'e' or 'a'. There is a dot above the '9' of '1-29'. The diacritics of 'Rāḍhideśa' are small."
+        },
+        {
+          "issue_id": "focus-0596-10",
+          "source_reading": "Sathā[superscript]taraṅga",
+          "certainty": "uncertain",
+          "evidence": "The 'ā' is raised and small, and the stroke from '[See Burnell]' ends near it. The first syllables are not secure."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "√ c. 43(4)   Sathātaraṅga by Jagannātha Miśra. ⟦fra[illegible]⟧.   n.d.: 29: 6: D",
+          "after": "√ c. 43(4)   Sathātaraṅga by Jagannātha Miśra. ⟦fra[illegible]. [illegible]⟧.   n.d.: 29: 6: D",
+          "reason": "The native tile shows two struck elements, each followed by a stop.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "Ink tick before the shelfmark in the left column.",
+            "A word after 'Miśra.' is struck through; it begins 'fra…' and the rest is illegible.",
+            "The date/extent formula is at the right end of the line."
+          ],
+          "after": [
+            "Ink tick before the shelfmark in the left column.",
+            "Text after 'Miśra.' is struck through with a heavy line. It begins 'fra…' and may comprise two elements, a longer word and a short second word, followed by a full stop. The rest is illegible.",
+            "The interlinear addition b004 sits directly above 'Miśra.' and the struck-through text.",
+            "The date/extent formula is at the right end of the line."
+          ],
+          "reason": "Native tile inspection.",
+          "source_block_ids": [
+            "b005",
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "Title reading 'Sathātaraṅga': the 'ā' is written small and superscript. The first syllables may be read otherwise.",
+            "Cancelled word only partly legible; 'fragment' is a guess."
+          ],
+          "after": [
+            "Title reading 'Sathātaraṅga': the 'ā' is written small and superscript. The first syllables may be read otherwise.",
+            "Cancelled text only partly legible ('fra…' plus a short second element). No expansion is confirmed."
+          ],
+          "reason": "Avoid privileging the guess 'fragment'.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 596,
+              "target_record_id": "r003",
+              "target_block_id": "b006",
+              "target_anchor": "apparently an anthology.^",
+              "evidence": "Caret after 'anthology' in the line below. Placement is also directly above 'Miśra.', so it may qualify the author name.",
+              "certainty": "probable"
+            },
+            {
+              "type": "continues",
+              "target_page_order": 596,
+              "target_record_id": "r002",
+              "target_block_id": "b005",
+              "target_anchor": "Jagannātha Miśra",
+              "evidence": "Interlinear addition within the entry.",
+              "certainty": "secure"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 596,
+              "target_record_id": "r002",
+              "target_block_id": "b005",
+              "target_anchor": "Miśra. ⟦fra[illegible]. [illegible]⟧.",
+              "evidence": "The caret at the end of line 2 lies beneath 'Miśra.' and points upward into the main line. The interlinear line stands above 'Miśra.' and the cancelled text. It may be an insertion after 'Miśra.' or a substitute for the cancelled words; which one is undetermined.",
+              "certainty": "uncertain"
+            },
+            {
+              "type": "continues",
+              "target_page_order": 596,
+              "target_record_id": "r002",
+              "target_block_id": "b005",
+              "target_anchor": "Jagannātha Miśra",
+              "evidence": "Interlinear addition within the entry.",
+              "certainty": "secure"
+            }
+          ],
+          "reason": "The caret's position under 'Miśra' points upward into the main line. Keying it to the anthology note is not supported over this reading.",
+          "source_block_ids": [
+            "b004",
+            "b005",
+            "b006"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "uncertainties",
+          "before": [
+            "The exact insertion point (at the caret or after 'Miśra') is uncertain.",
+            "'Rāḍhideśa' diacritics are tentative.",
+            "'inc.' is read literally and not expanded."
+          ],
+          "after": [
+            "The exact insertion point is uncertain: after 'Miśra.' (indicated by the caret) or in place of the cancelled words.",
+            "'Lakṣmaṇa' final vowel and 'Rāḍhideśa' diacritics are tentative.",
+            "A dot-like mark near the '9' of '1-29' is not interpreted.",
+            "'inc.' is read literally and not expanded."
+          ],
+          "reason": "Native tile shows these ambiguities.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r006",
+          "field_path": "literal_text",
+          "before": "Listed also, e. 149(1) as Samāraṅjaka pārāśari",
+          "after": "Listed also, e. 149(1) as Samā rañjaka pārāśari",
+          "reason": "The native tile shows a space after 'Samā' and a tilde over the n.",
+          "source_block_ids": [
+            "b007"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r006",
+          "field_path": "uncertainties",
+          "before": [
+            "'e.' versus 'c.' in the shelfmark 'e. 149(1)' is uncertain.",
+            "'Samāraṅjaka pārāśari' is a tentative reading of a small hand."
+          ],
+          "after": [
+            "'e.' versus 'c.' in the shelfmark 'e. 149(1)' is uncertain; the looped form favours 'e.'.",
+            "'Samā rañjaka pārāśari' is a tentative reading of a small hand. The final vowel of 'pārāśari' may be 'ī'."
+          ],
+          "reason": "Fresh native reading.",
+          "source_block_ids": [
+            "b007"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number at top left."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Tick and shelfmark."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "[See Burnell] with a stroke to the title."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Interlinear line; its attachment is uncertain."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Main line with cancellation."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Note ending in the caret."
+        },
+        {
+          "block_id": "b007",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "Cross-listing line."
+        },
+        {
+          "block_id": "b901",
+          "status": "uncertain",
+          "record_ids": [
+            "r007"
+          ],
+          "finding": "The arrow's tail is on fol. 298b and its head on fol. 299. The bbox spans the gutter, and ownership is shared. The separate left-pointing arrow belongs to the fol. 299 side and is only context here."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0596-01",
+          "record_id": "r007",
+          "block_ids": [
+            "b901"
+          ],
+          "issue": "The arrow straddles both leaves. It is unclear whether it should be attributed to 298b (tail origin) or to 299.",
+          "next_check": "Cross-page reconciliation with the fol. 299 records."
+        },
+        {
+          "issue_id": "focus-0596-02",
+          "record_id": "r002",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "The cancelled text is illegible beyond 'fra…'.",
+          "next_check": "Higher-contrast imaging of the strike-through."
+        },
+        {
+          "issue_id": "focus-0596-03",
+          "record_id": "r004",
+          "block_ids": [
+            "b004",
+            "b006"
+          ],
+          "issue": "It is undetermined whether the interlinear line is an insertion after 'Miśra.' or a replacement for the cancelled words.",
+          "next_check": "Not resolvable from the image alone."
+        },
+        {
+          "issue_id": "focus-0596-04",
+          "record_id": "r007",
+          "block_ids": [
+            "b901"
+          ],
+          "issue": "The arrow's purpose and its link to d. 697(3) and '? whole … Sabhārañjaka' are unknown.",
+          "next_check": "Compare with the arrow conventions elsewhere in the catalogue."
+        },
+        {
+          "issue_id": "focus-0596-07",
+          "record_id": "r006",
+          "block_ids": [
+            "b007"
+          ],
+          "issue": "The reading e. versus c. and the exact title form remain tentative.",
+          "next_check": "Check the e. 149(1) entry elsewhere."
+        },
+        {
+          "issue_id": "focus-0596-10",
+          "record_id": "r002",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "The initial syllables of the title are uncertain.",
+          "next_check": "Compare with the c. 43 entries elsewhere."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "0df5228fc540e8c9bf1469e02722c19a1ea92c4821829daf2f747267c640d7de",
+      "bytes": 311343,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "688e4b1a242528fb8bf8e2b2859d1a4dae5553569dec5699e7fe115db2a14939",
+      "bytes": 344072,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2f88cc292348743a963bbe10ac8528c9ddb858afa0022f7ed449c4f94d64730d",
+      "bytes": 380889,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1232ad3367021fbdb5ad8baba9ffa8276729b9c949fef51ba4eb12ae4cc22eed",
+      "bytes": 409160,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "32865ef0671c08f47a60fe94410d25910907e191eb947c9f9e168ed5a5f4d0e4",
+      "bytes": 368509,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 595,
+      "folio_label": "fol. 298",
+      "page_id": "13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/21e08166-b80d-4f70-8cd9-79fb8b0ad2e9/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b8680760dc2dbe513ab33a2484ab20b277e9c30499fc9d6b2b00201dc7b088ad",
+      "bytes": 337748,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 597,
+      "folio_label": "fol. 299",
+      "page_id": "21e08166-b80d-4f70-8cd9-79fb8b0ad2e9",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/21e08166-b80d-4f70-8cd9-79fb8b0ad2e9/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bb0cfd28ed528b6c08b4ed59199a90c1eb8992bfe0ab4190fc05f74c3a93a85f",
+      "bytes": 562251,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 597,
+      "folio_label": "fol. 299",
+      "page_id": "21e08166-b80d-4f70-8cd9-79fb8b0ad2e9",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/21e08166-b80d-4f70-8cd9-79fb8b0ad2e9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1c2ce3b7734e0b115042c4105236e833c6bceb4d84615f451b857f61cb0bf320",
+      "bytes": 519323,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 597,
+      "folio_label": "fol. 299",
+      "page_id": "21e08166-b80d-4f70-8cd9-79fb8b0ad2e9",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/60081d8d-b254-4c1c-846c-d183d3cca8a3.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "0df5228fc540e8c9bf1469e02722c19a1ea92c4821829daf2f747267c640d7de",
+      "bytes": 311343,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0fe71bafaaa881b6a19a551b5dadfad105341cbe6fb55ac523bd303d40e76a30",
+      "bytes": 337611,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0fe608fb714dd8df457ec18ea7592c0510b407c341bb48039986fd1195237818",
+      "bytes": 366578,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "688e4b1a242528fb8bf8e2b2859d1a4dae5553569dec5699e7fe115db2a14939",
+      "bytes": 344072,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d86f4f3155cb374ff0363b43cc8712bd7da955732136c13eace56888aa024bc3",
+      "bytes": 362650,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2f88cc292348743a963bbe10ac8528c9ddb858afa0022f7ed449c4f94d64730d",
+      "bytes": 380889,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/60081d8d-b254-4c1c-846c-d183d3cca8a3/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1232ad3367021fbdb5ad8baba9ffa8276729b9c949fef51ba4eb12ae4cc22eed",
+      "bytes": 409160,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "32865ef0671c08f47a60fe94410d25910907e191eb947c9f9e168ed5a5f4d0e4",
+      "bytes": 368509,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 595,
+      "folio_label": "fol. 298",
+      "page_id": "13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/21e08166-b80d-4f70-8cd9-79fb8b0ad2e9/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b8680760dc2dbe513ab33a2484ab20b277e9c30499fc9d6b2b00201dc7b088ad",
+      "bytes": 337748,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 597,
+      "folio_label": "fol. 299",
+      "page_id": "21e08166-b80d-4f70-8cd9-79fb8b0ad2e9",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1567 @@
+{
+  "source_order": 548,
+  "folio_label": "fol. 274b",
+  "page_id": "f141a071-2e60-4820-9a48-b67cf3e9e73e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "274b",
+    "principal_page_bbox": [
+      305,
+      295,
+      2900,
+      4565
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          330,
+          150,
+          145
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "274b",
+        "features": [
+          "top-left corner",
+          "written '27' plus a digit with a superscript 'b'; the 4 may be overwritten or altered",
+          "ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          410,
+          2945,
+          860,
+          160
+        ],
+        "kind_hint": "note_unattached_extent_shelfmark",
+        "anchor": "ff.1-84 in 16 adhy. I.C. 3390[?]",
+        "features": [
+          "single line",
+          "no title or shelfmark column on this page",
+          "final digit of the number uncertain",
+          "may relate to the Śivagītā entries on facing fol. 275"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2870,
+          2990,
+          80,
+          90
+        ],
+        "kind_hint": "marginal_query_mark",
+        "anchor": "?",
+        "features": [
+          "question mark at right of the b002 line",
+          "an arrow follows and points toward the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          345,
+          3105,
+          2775,
+          160
+        ],
+        "kind_hint": "descriptive_note",
+        "anchor": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 … = I.O. 3399 (for references I.O. 6632). First fol. contains three verses / of different Śivagīta … ff.[?]-9 have been renumbered 2-[?] accordingly.",
+        "features": [
+          "two handwritten lines",
+          "interlinear insertion 'original' above 'ff.' in the second line",
+          "overwritten digits in 'ff.[?]-9'",
+          "second line's renumbering figures uncertain",
+          "small comma-like mark below 'verses'"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          455,
+          3240,
+          640,
+          100
+        ],
+        "kind_hint": "descriptive_note_continuation",
+        "anchor": "ff. 1-5 unf., I.1-II.12.",
+        "features": [
+          "indented third line under b004",
+          "roman numerals with marks above/below",
+          "'1-5' first digit uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3050,
+          3010,
+          160,
+          40
+        ],
+        "description": "Left-pointing arrow beginning on the target page at line of b002/b003. It continues across the gutter onto facing fol. 275, where the arrow line extends to about x=3320."
+      },
+      {
+        "bbox": [
+          2910,
+          3200,
+          40,
+          40
+        ],
+        "description": "Small comma/dot mark below the end of the first line of b004."
+      }
+    ],
+    "boundary_notes": [
+      "Gutter lies at about x=3195-3215. Material beyond it, including 'lat. S. Padmapurāṇa', ticks 'i√', '√', the lower arrow at about x 3300-3475, y 3270, and a pasted slip, belongs to facing fol. 275 and is not transcribed here.",
+      "Faint show-through of ruled entries from the reverse (fol. 274) is visible throughout and is not counted as target text.",
+      "The arrow by '?' straddles the gutter. Its attachment is to the target-page note and the facing-page entry c.154, but it is not certain."
+    ],
+    "uncertainties": [
+      "Folio number may be '274b' with an altered '4' (possibly overwritten).",
+      "Final digit of 'I.C. 3390[?]' and digits in 'ff.[?]-9' / '2-[?]' are uncertain.",
+      "Whether b005 is a separate note or a continuation of b004 is unclear. It is kept distinct here."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "274b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "274b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left corner.",
+          "The '4' appears overwritten or altered.",
+          "A superscript 'b' follows, then a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The digit under the overwritten '4' is not legible."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "descriptive_note_extent_reference",
+        "literal_text": "ff.1-84 in 16 adhy. I.[C?]. 3390[?]        ?",
+        "fields": {
+          "extent": "ff.1-84",
+          "shelfmark": "I.[C?]. 3390[?]"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line with no title or shelfmark column on this page.",
+          "A question mark stands at the right of the line (b003).",
+          "A left-pointing arrow runs from about x=3050 across the gutter onto facing fol. 275, to about x=3320.",
+          "The second letter of the reference resembles 'C', but the same hand writes 'I.O.' in the next note."
+        ],
+        "editorial_context": [
+          {
+            "field": "extent",
+            "value": "facing fol. 275 entry c.154 (Śivagītā group) has '84' in its extent column",
+            "source_page_order": 549,
+            "source_block_id": null,
+            "evidence": "Arrow level and extent figure 84 match",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 549,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 154",
+            "evidence": "Arrow crosses the gutter at the level of c.154, which has a matching extent of 84 ff.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The final digit of '3390[?]' may be 7 or 9.",
+          "The reference may read 'I.O.' rather than 'I.C.'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "descriptive_note",
+        "literal_text": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different Śivagītā [the?] ^original ff.[2?]-9 have been renumbered 2-[?] accordingly.",
+        "fields": {
+          "extent": "ff.1-100",
+          "date": "Samv. 1815",
+          "shelfmark": "I.O. 3399"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two lines of ink note.",
+          "'original' is an interlinear insertion above 'ff.' in the second line.",
+          "Digits in 'ff.[2?]-9' are overwritten.",
+          "A small comma-like mark appears below 'verses'."
+        ],
+        "editorial_context": [
+          {
+            "field": "extent",
+            "value": "facing fol. 275 entry c.91(1) has '1765 n.d.: 100' in its extent/date column",
+            "source_page_order": 549,
+            "source_block_id": null,
+            "evidence": "Extent 100 ff. matches",
+            "certainty": "uncertain"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 549,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 91(1)",
+            "evidence": "Extent 100 matches; no arrow is drawn for this line.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The word after 'Śivagītā' is unclear.",
+          "The first renumbering figure is uncertain.",
+          "The end figure of '2-[?]' is unclear."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "descriptive_note",
+        "literal_text": "ff. [1?]-5 unf., I.1-II.12.",
+        "fields": {
+          "extent": "ff. [1?]-5 unf."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Indented line below b004.",
+          "'I' is underlined and has a circumflex-like mark over the '1'.",
+          "'II' is underlined.",
+          "A lower arrow on facing fol. 275 at about y=3270 points toward this level."
+        ],
+        "editorial_context": [
+          {
+            "field": "extent",
+            "value": "facing fol. 275 entry b.102(2) has extent 5",
+            "source_page_order": 549,
+            "source_block_id": null,
+            "evidence": "Arrow level and extent 5 match",
+            "certainty": "uncertain"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 549,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 102(2)",
+            "evidence": "Lower arrow on the facing page; extent 5 matches.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The first digit is overwritten.",
+          "This may be a continuation of b004 rather than a separate note."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Note line, recorded with its question mark."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Query mark and arrow belonging to the b002 line."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Two-line descriptive note."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Kept separate because it probably relates to a different facing-page entry."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper; the reviewed images show faint show-through from fol. 274, which is not transcribed.",
+      "Material beyond the gutter belongs to fol. 275 and is not transcribed here: 'lat. S. Padmapurāṇa', ticks, the lower arrow and a pasted slip."
+    ],
+    "unresolved_relationships": [
+      "Attachment of r002, r003 and r004 to facing fol. 275 entries c.154, c.91(1) and b.102(2) rests on arrows and matching extents only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left ink folio number '27' is followed by an overwritten or altered digit and a superscript 'b' with a dot. The candidate reading '274b' and its note on the overwritten digit match the image. The underlying digit cannot be read."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single line 'ff.1-84 in 16 adhy. I.[C?]. 3390[?]' is represented. The second letter of the reference looks open like 'C', unlike the closed 'O' in the next line. The final character after '3390' is unclear, so the existing uncertainty is kept."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The question mark at about x=2895, y=3000 sits to the right of the b002 line and is grouped with it. The arrow following it is recorded in the r002 annotations."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Both lines are represented. The interlinear insertion 'original', the overwritten digits and the comma-like mark under 'verses' are recorded. Some readings in the candidate's literal text are falsely precise: the overwritten first renumbering digit, the word before 'original', and the diacritics of the work name."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The indented third line 'ff. [1?]-5 unf., I.1-II.12.' is represented with its marks on the roman numerals and figures. It may instead continue b004; that ambiguity is preserved."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different Śivagītā [the?] ^original ff.[2?]-9 have been renumbered 2-[?] accordingly.",
+        "after": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different [Ś?]ivag[ī?]t[ā?] [the?] ^original ff.[?]-9 have been renumbered 2-[?] accordingly.",
+        "reason": "The first digit of the 'ff.' range is overwritten, and the image does not securely support '2'. The diacritics on the work name are not clearly visible at native scale, so 'Śivagītā' should not be asserted from familiarity.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The word after 'Śivagītā' is unclear.",
+          "The first renumbering figure is uncertain.",
+          "The end figure of '2-[?]' is unclear."
+        ],
+        "after": [
+          "The word after the work name is unclear and is not securely 'the'.",
+          "The first figure of 'ff.[?]-9' is overwritten, and neither the original nor the replacement digit is secure.",
+          "The end figure of '2-[?]' is unclear and runs into 'accordingly'.",
+          "The diacritics on the work name (Ś, ī, final ā) are not clearly visible."
+        ],
+        "source_block_ids": [
+          "b004"
+        ],
+        "reason": "This aligns the uncertainty list with the revised literal text.",
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The reference prefix ('I.C.' or 'I.O.') and the final digit of the number are unresolved. The arrow attachment to facing fol. 275 c.154 rests on line level and the matching extent of 84 only.",
+        "next_check": "Compare the reference with an I.O. concordance only as context; do not alter the literal reading."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "No arrow links this note to the facing page. The proposed attachment to c.91(1) rests only on the matching extent figure 100, and the facing-page extent itself is hard to read.",
+        "next_check": "Inspect fol. 275 c.91(1) at native resolution."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The note may be separate or may continue b004. The lower facing-page arrow (x≈3300-3475, y≈3270) lies between the levels of b004 line 2 and b005, so its attachment to b.102(2) is uncertain.",
+        "next_check": "Check the arrow alignment against fol. 275 at native resolution."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x=3195-3215. 'lat. S. Padmapurāṇa', the ticks, the lower arrow and the pasted slip belong to fol. 275 and are correctly excluded. The upper arrow straddles the gutter and is recorded only as an annotation on r002. Text visible at the left edge of the fol. 275 image ('...tains three verses', '?') is this target page's own text, not a separate fragment. Faint show-through from fol. 274 is not transcribed.",
+    "region_review": {
+      "top": "Folio number only, plus a few specks and dots. There is no other writing.",
+      "middle": "Blank ruled paper with show-through. The writing is confined to about y=2940-3340.",
+      "bottom": "Blank ruled paper with show-through only. No bottom note was found.",
+      "left_margin": "No marginal writing on the target page.",
+      "right_margin": "The '?' and the beginning of the arrow are near the gutter. Everything beyond the gutter belongs to the facing page.",
+      "interlinear": "'original' is inserted above the second line of b004. The marks on the roman numerals in b005 are recorded. No other interlinear text was found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        330,
+        150,
+        145
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "274b",
+      "features": [
+        "top-left corner",
+        "written '27' plus a digit with a superscript 'b'; the 4 may be overwritten or altered",
+        "ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        410,
+        2945,
+        860,
+        160
+      ],
+      "kind_hint": "note_unattached_extent_shelfmark",
+      "anchor": "ff.1-84 in 16 adhy. I.C. 3390[?]",
+      "features": [
+        "single line",
+        "no title or shelfmark column on this page",
+        "final digit of the number uncertain",
+        "may relate to the Śivagītā entries on facing fol. 275"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2870,
+        2990,
+        80,
+        90
+      ],
+      "kind_hint": "marginal_query_mark",
+      "anchor": "?",
+      "features": [
+        "question mark at right of the b002 line",
+        "an arrow follows and points toward the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        345,
+        3105,
+        2775,
+        160
+      ],
+      "kind_hint": "descriptive_note",
+      "anchor": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 … = I.O. 3399 (for references I.O. 6632). First fol. contains three verses / of different Śivagīta … ff.[?]-9 have been renumbered 2-[?] accordingly.",
+      "features": [
+        "two handwritten lines",
+        "interlinear insertion 'original' above 'ff.' in the second line",
+        "overwritten digits in 'ff.[?]-9'",
+        "second line's renumbering figures uncertain",
+        "small comma-like mark below 'verses'"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        455,
+        3240,
+        640,
+        100
+      ],
+      "kind_hint": "descriptive_note_continuation",
+      "anchor": "ff. 1-5 unf., I.1-II.12.",
+      "features": [
+        "indented third line under b004",
+        "roman numerals with marks above/below",
+        "'1-5' first digit uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "274b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left corner.",
+        "The '4' appears overwritten or altered.",
+        "A superscript 'b' follows, then a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The digit under the overwritten '4' is not legible."
+      ],
+      "stable_id": "css-prod-0548-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "descriptive_note_extent_reference",
+      "literal_text": "ff.1-84 in 16 adhy. I.[C?]. 3390[?]        ?",
+      "fields": {
+        "extent": "ff.1-84",
+        "shelfmark": "I.[C?]. 3390[?]"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line with no title or shelfmark column on this page.",
+        "A question mark stands at the right of the line (b003).",
+        "A left-pointing arrow runs from about x=3050 across the gutter onto facing fol. 275, to about x=3320.",
+        "The second letter of the reference resembles 'C', but the same hand writes 'I.O.' in the next note."
+      ],
+      "editorial_context": [
+        {
+          "field": "extent",
+          "value": "facing fol. 275 entry c.154 (Śivagītā group) has '84' in its extent column",
+          "source_page_order": 549,
+          "source_block_id": null,
+          "evidence": "Arrow level and extent figure 84 match",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 549,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 154",
+          "evidence": "Arrow crosses the gutter at the level of c.154, which has a matching extent of 84 ff.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The final digit of '3390[?]' may be 7 or 9.",
+        "The reference may read 'I.O.' rather than 'I.C.'."
+      ],
+      "stable_id": "css-prod-0548-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "descriptive_note",
+      "literal_text": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different Śivagītā [the?] ^original ff.[2?]-9 have been renumbered 2-[?] accordingly.",
+      "fields": {
+        "extent": "ff.1-100",
+        "date": "Samv. 1815",
+        "shelfmark": "I.O. 3399"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two lines of ink note.",
+        "'original' is an interlinear insertion above 'ff.' in the second line.",
+        "Digits in 'ff.[2?]-9' are overwritten.",
+        "A small comma-like mark appears below 'verses'."
+      ],
+      "editorial_context": [
+        {
+          "field": "extent",
+          "value": "facing fol. 275 entry c.91(1) has '1765 n.d.: 100' in its extent/date column",
+          "source_page_order": 549,
+          "source_block_id": null,
+          "evidence": "Extent 100 ff. matches",
+          "certainty": "uncertain"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 549,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 91(1)",
+          "evidence": "Extent 100 matches; no arrow is drawn for this line.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The word after 'Śivagītā' is unclear.",
+        "The first renumbering figure is uncertain.",
+        "The end figure of '2-[?]' is unclear."
+      ],
+      "stable_id": "css-prod-0548-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "descriptive_note",
+      "literal_text": "ff. [1?]-5 unf., I.1-II.12.",
+      "fields": {
+        "extent": "ff. [1?]-5 unf."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Indented line below b004.",
+        "'I' is underlined and has a circumflex-like mark over the '1'.",
+        "'II' is underlined.",
+        "A lower arrow on facing fol. 275 at about y=3270 points toward this level."
+      ],
+      "editorial_context": [
+        {
+          "field": "extent",
+          "value": "facing fol. 275 entry b.102(2) has extent 5",
+          "source_page_order": 549,
+          "source_block_id": null,
+          "evidence": "Arrow level and extent 5 match",
+          "certainty": "uncertain"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 549,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 102(2)",
+          "evidence": "Lower arrow on the facing page; extent 5 matches.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The first digit is overwritten.",
+        "This may be a continuation of b004 rather than a separate note."
+      ],
+      "stable_id": "css-prod-0548-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different Śivagītā [the?] ^original ff.[2?]-9 have been renumbered 2-[?] accordingly.",
+      "after": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different [Ś?]ivag[ī?]t[ā?] [the?] ^original ff.[?]-9 have been renumbered 2-[?] accordingly.",
+      "reason": "The first digit of the 'ff.' range is overwritten, and the image does not securely support '2'. The diacritics on the work name are not clearly visible at native scale, so 'Śivagītā' should not be asserted from familiarity.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The word after 'Śivagītā' is unclear.",
+        "The first renumbering figure is uncertain.",
+        "The end figure of '2-[?]' is unclear."
+      ],
+      "after": [
+        "The word after the work name is unclear and is not securely 'the'.",
+        "The first figure of 'ff.[?]-9' is overwritten, and neither the original nor the replacement digit is secure.",
+        "The end figure of '2-[?]' is unclear and runs into 'accordingly'.",
+        "The diacritics on the work name (Ś, ī, final ā) are not clearly visible."
+      ],
+      "source_block_ids": [
+        "b004"
+      ],
+      "reason": "This aligns the uncertainty list with the revised literal text.",
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different Śivagītā [the?] ^original ff.[2?]-9 have been renumbered 2-[?] accordingly.",
+      "after": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different [Ś?]ivag[ī?]t[ā?] [the?] ^original ff.[?]-9 have been renumbered 2-[?] accordingly.",
+      "reason": "The overwritten first digit is not securely '2', and the diacritics on the work name are not visible at native scale.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0548-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The word after 'Śivagītā' is unclear.",
+        "The first renumbering figure is uncertain.",
+        "The end figure of '2-[?]' is unclear."
+      ],
+      "after": [
+        "The word after the work name is unclear and is not securely 'the'.",
+        "The first figure of 'ff.[?]-9' is overwritten, and neither the original nor the replacement digit is secure.",
+        "The end figure of '2-[?]' is unclear and runs into 'accordingly'.",
+        "The diacritics on the work name (Ś, ī, final ā) are not clearly visible."
+      ],
+      "reason": "Brings the uncertainty list into line with the revised literal text.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0548-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The reference prefix ('I.C.' or 'I.O.') and the final digit of the number are unresolved. The arrow attachment to facing fol. 275 c.154 rests on line level and the matching extent of 84 only.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0548-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "No arrow links this note to the facing page. The proposed attachment to c.91(1) rests only on the matching extent figure 100, and the facing-page extent itself is hard to read.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0548-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The note may be separate or may continue b004. The lower facing-page arrow (x≈3300-3475, y≈3270) lies between the levels of b004 line 2 and b005, so its attachment to b.102(2) is uncertain.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0548-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The first digit of the 'ff.' range is overwritten, and the image does not securely support '2'. The diacritics on the work name are not clearly visible at native scale, so 'Śivagītā' should not be asserted from familiarity. Proposed literal_text: \"ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\\nof different [Ś?]ivag[ī?]t[ā?] [the?] ^original ff.[?]-9 have been renumbered 2-[?] accordingly.\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0548-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "This aligns the uncertainty list with the revised literal text. Proposed uncertainties: [\"The word after the work name is unclear and is not securely 'the'.\", \"The first figure of 'ff.[?]-9' is overwritten, and neither the original nor the replacement digit is secure.\", \"The end figure of '2-[?]' is unclear and runs into 'accordingly'.\", \"The diacritics on the work name (Ś, ī, final ā) are not clearly visible.\"]",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0548-05"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The digit under the overwritten '4' is not legible.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0548-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The final digit of '3390[?]' may be 7 or 9.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0548-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reference may read 'I.O.' rather than 'I.C.'.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0548-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The word after 'Śivagītā' is unclear.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0548-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The first renumbering figure is uncertain.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0548-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0548-01",
+        "focus-0548-02",
+        "focus-0548-03",
+        "focus-0548-04",
+        "focus-0548-05",
+        "focus-0548-06",
+        "focus-0548-07",
+        "focus-0548-08",
+        "focus-0548-09",
+        "focus-0548-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0548-01",
+          "source_reading": "ff.1-84 in 16 adhy. I.[C?]. 3390[?]",
+          "certainty": "uncertain",
+          "evidence": "At native scale, the second letter of the reference is an open, C-like form. It differs from the closed 'O' in '=I.O. 3399' on the next line. The final figure after '3390' has a descender and is ambiguous. On the target page, the arrow runs from about x=3054 to x=3319 at y≈3048, level with the '?'. On facing fol. 275, it ends at the line of 'c. 154', whose extent column reads '84'. The attachment is therefore probable but not explicit."
+        },
+        {
+          "issue_id": "focus-0548-02",
+          "source_reading": "No arrow at the level of b004 line 1 (y≈3163).",
+          "certainty": "secure",
+          "evidence": "No arrow is visible at this level on either side of the gutter. Facing c.91(1) shows '1765' written over a possibly cancelled 'n.d', followed by ': 100'. The attachment rests only on the matching figure 100 and remains uncertain."
+        },
+        {
+          "issue_id": "focus-0548-03",
+          "source_reading": "ff.[1?]-5 unf., I.1-II.12.",
+          "certainty": "uncertain",
+          "evidence": "b005 is indented on its own line at y≈3256-3326, below b004 line 2 (y≈3218). The lower arrow runs from about x=3304 to x=3474 at y≈3276. It is closer to the level of b005 and of facing 'b.102(2)', whose extent reads 'n.d? 5'. There is no physical link between the arrow and the line, so the attachment is still uncertain. The note could also be a continuation of b004."
+        },
+        {
+          "issue_id": "focus-0548-04",
+          "source_reading": "of different [Ś?]ivag[ī?]t[ā?] [the?] ^original ff.[?]-9 have been renumbered 2-[?] accordingly.",
+          "certainty": "uncertain",
+          "evidence": "The first digit of the ff. range is overwritten with heavy ink and neither layer is legible. The work name reads roughly 'Sivagite'; any diacritics are not securely visible."
+        },
+        {
+          "issue_id": "focus-0548-05",
+          "source_reading": "The uncertainty list should match the revised literal text.",
+          "certainty": "probable",
+          "evidence": "Same native rereading as focus-0548-04."
+        },
+        {
+          "issue_id": "focus-0548-06",
+          "source_reading": "27[4 over illegible digit] with superscript b, then a dot",
+          "certainty": "uncertain",
+          "evidence": "The '4' is written over another form, and the underlying digit cannot be read."
+        },
+        {
+          "issue_id": "focus-0548-07",
+          "source_reading": "3390[?]",
+          "certainty": "uncertain",
+          "evidence": "The final figure has a looped head and a descender. It could be 7 or 9."
+        },
+        {
+          "issue_id": "focus-0548-08",
+          "source_reading": "I.[C?].",
+          "certainty": "uncertain",
+          "evidence": "The letter is open on the right, unlike the 'O' in 'I.O.' in b004."
+        },
+        {
+          "issue_id": "focus-0548-09",
+          "source_reading": "[the?]",
+          "certainty": "uncertain",
+          "evidence": "The word reads roughly 'Lw'/'hw' and is not securely 'the'."
+        },
+        {
+          "issue_id": "focus-0548-10",
+          "source_reading": "ff.[?]-9",
+          "certainty": "uncertain",
+          "evidence": "The figure is overwritten. Reading it as '2' is not supported."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different Śivagītā [the?] ^original ff.[2?]-9 have been renumbered 2-[?] accordingly.",
+          "after": "ff.1-100, in 16 adhy, in several hands. Dated Samv. 1815 in different hand to col. = I.O. 3399 (for references I.O. 6632). First fol. contains three verses\nof different [Ś?]ivag[ī?]t[ā?] [the?] ^original ff.[?]-9 have been renumbered 2-[?] accordingly.",
+          "reason": "The overwritten first digit is not securely '2', and the diacritics on the work name are not visible at native scale.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The word after 'Śivagītā' is unclear.",
+            "The first renumbering figure is uncertain.",
+            "The end figure of '2-[?]' is unclear."
+          ],
+          "after": [
+            "The word after the work name is unclear and is not securely 'the'.",
+            "The first figure of 'ff.[?]-9' is overwritten, and neither the original nor the replacement digit is secure.",
+            "The end figure of '2-[?]' is unclear and runs into 'accordingly'.",
+            "The diacritics on the work name (Ś, ī, final ā) are not clearly visible."
+          ],
+          "reason": "Brings the uncertainty list into line with the revised literal text.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number with an overwritten digit."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Single note line. The reference prefix and the final digit remain uncertain."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Question mark followed by an arrow toward the facing page."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Two-line note. Its literal text has been revised."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Indented line. Whether it is separate from b004 or continues it remains uncertain."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0548-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b003"
+          ],
+          "issue": "The I.C./I.O. prefix and the final digit are unresolved. The attachment to c.154 is probable but not explicit.",
+          "next_check": "Compare with the I.O. or I.C. concordance number for c.154, if an independent source is available."
+        },
+        {
+          "issue_id": "focus-0548-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "No arrow links this note to the facing page. The attachment to c.91(1) rests on the figure 100 only.",
+          "next_check": "Check the facing-page extent column under magnification."
+        },
+        {
+          "issue_id": "focus-0548-03",
+          "record_id": "r004",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "The arrow lies near the level of b005 and of b.102(2), but the link is not physically explicit. b005 may continue b004.",
+          "next_check": "Measure the arrow baseline against both lines on a full-resolution spread."
+        },
+        {
+          "issue_id": "focus-0548-06",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "The digit under the overwritten '4' is illegible.",
+          "next_check": "Raking-light or higher-resolution image."
+        },
+        {
+          "issue_id": "focus-0548-10",
+          "record_id": "r003",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The overwritten renumbering digits are illegible.",
+          "next_check": "Higher-resolution image."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "c55af2df743c4363de3764d1ce2f82e3cfbc0ef98c23879153bacecdd95fc6dd",
+      "bytes": 264822,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0a85461acaa91e0707a29b0e18c8c752d1add7390dcacff4a95eeb2b8b6eb1f1",
+      "bytes": 309743,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3e80202fe01a8f6bd109ccd30d22130bbbeaa1d7c58a00bc49d932d2474eb206",
+      "bytes": 353801,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c65975fcfa69c8bf2fbf257adb95dbb807203bab0d82642e0b7f7b278765ef9d",
+      "bytes": 318153,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a4b86edea365445764f41637f30758f47e76ec1854ffd22326fcd7a13d3faf0e",
+      "bytes": 327187,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8c7eccd772e9a5ec6246b32b4d212698f17e74171f90fbd465a5b2ee0c45fc01",
+      "bytes": 328204,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/61bc9d3b-ddeb-4771-afb7-4b35366345eb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "995ab7d3aff084f5452dfa9356a27e0600f558a1190ae8bd802db3aeb0e1ecc8",
+      "bytes": 256704,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 547,
+      "folio_label": "fol. 274",
+      "page_id": "61bc9d3b-ddeb-4771-afb7-4b35366345eb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8b5b05f-5145-4f14-b2ba-b083e58ec8c6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "9e4496341a5021a6c5bd516268294b207eece72cd9046c86d80097b7e85ddbff",
+      "bytes": 263931,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 549,
+      "folio_label": "fol. 275",
+      "page_id": "d8b5b05f-5145-4f14-b2ba-b083e58ec8c6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8b5b05f-5145-4f14-b2ba-b083e58ec8c6/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d5af005f26f1815c4728df4c8d9054487b8ee47e0dc9ad77f0a96c695efb5c28",
+      "bytes": 413389,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 549,
+      "folio_label": "fol. 275",
+      "page_id": "d8b5b05f-5145-4f14-b2ba-b083e58ec8c6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8b5b05f-5145-4f14-b2ba-b083e58ec8c6/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1b61c5b1299c9d8f01ec365b626ac24cee7334a4ff766510fbeed45f31d6162e",
+      "bytes": 459333,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 549,
+      "folio_label": "fol. 275",
+      "page_id": "d8b5b05f-5145-4f14-b2ba-b083e58ec8c6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f141a071-2e60-4820-9a48-b67cf3e9e73e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "c55af2df743c4363de3764d1ce2f82e3cfbc0ef98c23879153bacecdd95fc6dd",
+      "bytes": 264822,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0a85461acaa91e0707a29b0e18c8c752d1add7390dcacff4a95eeb2b8b6eb1f1",
+      "bytes": 309743,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1684bce2ef87a814cdecb2f2bdaf8e9645c0ce4b488df05690248986a4449b8f",
+      "bytes": 308679,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3e80202fe01a8f6bd109ccd30d22130bbbeaa1d7c58a00bc49d932d2474eb206",
+      "bytes": 353801,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c65975fcfa69c8bf2fbf257adb95dbb807203bab0d82642e0b7f7b278765ef9d",
+      "bytes": 318153,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a4b86edea365445764f41637f30758f47e76ec1854ffd22326fcd7a13d3faf0e",
+      "bytes": 327187,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f141a071-2e60-4820-9a48-b67cf3e9e73e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8c7eccd772e9a5ec6246b32b4d212698f17e74171f90fbd465a5b2ee0c45fc01",
+      "bytes": 328204,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/61bc9d3b-ddeb-4771-afb7-4b35366345eb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "995ab7d3aff084f5452dfa9356a27e0600f558a1190ae8bd802db3aeb0e1ecc8",
+      "bytes": 256704,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 547,
+      "folio_label": "fol. 274",
+      "page_id": "61bc9d3b-ddeb-4771-afb7-4b35366345eb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8b5b05f-5145-4f14-b2ba-b083e58ec8c6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "9e4496341a5021a6c5bd516268294b207eece72cd9046c86d80097b7e85ddbff",
+      "bytes": 263931,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 549,
+      "folio_label": "fol. 275",
+      "page_id": "d8b5b05f-5145-4f14-b2ba-b083e58ec8c6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

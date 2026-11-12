@@ -1,0 +1,961 @@
+{
+  "source_order": 336,
+  "folio_label": "fol. 168b",
+  "page_id": "762555f1-c0ef-49af-b257-1db8d163bb64",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "168b",
+    "principal_page_bbox": [
+      300,
+      288,
+      2840,
+      4565
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          370,
+          320,
+          140,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "168b",
+        "features": [
+          "top left corner",
+          "pencil/ink folio label with superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          1710,
+          560,
+          250,
+          210
+        ],
+        "kind_hint": "annotation",
+        "anchor": "transfer m.D.",
+        "features": [
+          "pencil",
+          "two lines",
+          "upper centre of page",
+          "not attached to any entry line"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2150,
+          560,
+          130,
+          180
+        ],
+        "kind_hint": "annotation",
+        "anchor": "ā/",
+        "features": [
+          "ā with macron followed by a long slash",
+          "upper centre-right of page",
+          "unattached"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2290,
+          350,
+          240,
+          180
+        ],
+        "kind_hint": "annotation",
+        "anchor": "(see MS)",
+        "features": [
+          "written slanting upward",
+          "in parentheses",
+          "above and to the right of ā/"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          320,
+          3680,
+          1640,
+          150
+        ],
+        "kind_hint": "entry",
+        "anchor": "C.17(3). Bhasmajābāla [reading?] Upaniṣad, ff.1-10. = I.O. 493-4(105)",
+        "features": [
+          "tick in left margin",
+          "shelfmark",
+          "title",
+          "foliation",
+          "equation with I.O. number",
+          "single line near lower third of page"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2550,
+          3740,
+          480,
+          90
+        ],
+        "kind_hint": "entry_continuation",
+        "anchor": "n.d.: 10: 7/9: D.",
+        "features": [
+          "same line as b005, right column",
+          "date/extent/lines/script data"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1140,
+          2020,
+          30,
+          30
+        ],
+        "description": "small ink dot mid-page, no text"
+      },
+      {
+        "bbox": [
+          490,
+          4110,
+          30,
+          30
+        ],
+        "description": "small ink dot lower left, no text"
+      }
+    ],
+    "boundary_notes": [
+      "Faint mirrored show-through of the entries on fol. 168 (recto) is visible across the whole page; it is not writing on this page and is not transcribed.",
+      "Right edge beyond the gutter (x > c.3140) shows fragments of facing fol. 169: 'for Bhaviṣya…', 'd. 365(4)…', 'cat. s. √…', '(Ṣaṣṭīvratakathā… Bhaviṣyapu…' and a left-pointing arrow '←' at c.[3310,3840,100,60]; these belong to fol. 169 and are not target-page blocks.",
+      "b006 is on the same ruled line as b005 and is taken as its right-column data, but kept as a distinct block."
+    ],
+    "uncertainties": [
+      "Title in b005 read as 'Bhasmajābāla' but letters are cursive; could be read as 'Bharmajātāla' etc.",
+      "'transfer m.D.' second line reading 'm.D.' uncertain.",
+      "Exact sense/attachment of 'ā/' and '(see MS)' unclear; possibly related to each other."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "168b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "168ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Folio label in the top left corner; the 'b' is written raised after 168."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is unclear whether the label is in pencil or faint ink."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_note",
+        "literal_text": "transfer\nm.D. [reading?]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Two-line pencil note in the upper centre of the page, above the first ruled line.",
+          "It is not aligned with any entry line."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The second line may read 'm.D.' or 'm.J.'; the letters are faint and cursive.",
+          "The note's referent is unknown. It may relate to the single entry lower on the page, but there is no physical link."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "mark",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The letter a with a macron, followed by a long oblique stroke, in the upper centre-right of the page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The meaning is unclear. The mark may be connected with '(see MS)' written above it to the right."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_note",
+        "literal_text": "(see MS)",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written slanting upward, in parentheses, above and to the right of 'ā/'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The attachment is unclear; it is possibly a gloss on 'ā/'."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005",
+          "b006"
+        ],
+        "type": "holding",
+        "subtype": "single_entry",
+        "literal_text": "C.17(3). Bhasmajābāla [reading?] Upaniṣad, ff.1-10. = I.O. 493-4(105)    n.d.: 10: 7/9: D.",
+        "fields": {
+          "shelfmark": "C.17(3)",
+          "title": "Bhasmajābāla [reading?] Upaniṣad",
+          "date": "n.d.",
+          "extent": "10",
+          "lines": "7/9",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick mark appears in the left margin before the shelfmark.",
+          "'ff.1-10.' is foliation within the entry.",
+          "'= I.O. 493-4(105)' is an equation with an I.O. number.",
+          "The right-column data 'n.d.: 10: 7/9: D.' is on the same ruled line as the main entry."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 337,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "← (left-pointing arrow beside cancelled 'Bhasmajābāla Upaniṣat. See Jābāla Upaniṣat')",
+            "evidence": "On facing fol. 169 a left-pointing arrow sits at about the same height as this entry. It is next to a cancelled heading with a similar title in the alphabetical position for 'Bhasma-'. This suggests the entry belongs at that point in the sequence.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The title is cursive. It may read 'Bhasmajābāla' or 'Bharmajātāla'; the middle letters are not secure.",
+          "The initial letter of the shelfmark could be capital or lowercase 'c'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio label."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Unattached pencil note."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Unattached mark."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Unattached parenthetical note."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Main entry text."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Right-column date/extent/lines/script data on the same line as b005."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the listed blocks, the page is otherwise unwritten.",
+      "Faint mirrored show-through of fol. 168 recto is visible across the page. It is not transcribed.",
+      "There are small ink dots mid-page (c.[1140,2020]) and lower left (c.[490,4110]); they carry no text.",
+      "Fragments of facing fol. 169 beyond the gutter are excluded. These are 'for Bhaviṣya…', 'd. 365(4)…', 'cat. s. √…', '(Ṣaṣṭīvratakathā…', 'Bhaviṣyapu…' and an arrow '←'."
+    ],
+    "unresolved_relationships": [
+      "The referents of 'transfer m.D.', 'ā/' and '(see MS)' are unresolved. They may concern the single entry on this page or its transfer to the fol. 169 sequence."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio label '168' is followed by a raised 'b' at the top left. A small dot or point beside the 'b' may be punctuation or part of the letter. This is noted as unresolved, not changed."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The two-line pencil note at about [1710,580,240,160] reads 'transfer' over 'm.D.'. The second line is faint and remains uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "'ā/' is at about [2160,600,110,130]. The macron and the long oblique stroke are visible."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'(see MS)' is written slanting upward at about [2290,370,240,160]. It is legible."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The tick in the left margin and the main entry line are captured. The cursive title remains uncertain."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The right-column data 'n.d.: 10: 7/9: D.' is on the same ruled line as b005. It is correctly merged into r005."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 337,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "← (left-pointing arrow beside cancelled 'Bhasmajābāla Upaniṣat. See Jābāla Upaniṣat')",
+            "evidence": "On facing fol. 169 a left-pointing arrow sits at about the same height as this entry. It is next to a cancelled heading with a similar title in the alphabetical position for 'Bhasma-'. This suggests the entry belongs at that point in the sequence.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 337,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "← (left-pointing arrow beside a cancelled line on fol. 169 reading approximately 'Bhasmaja[?]ala Upaniṣat. See Jābāla Upaniṣat' [reading?])",
+            "evidence": "On facing fol. 169 a left-pointing arrow sits at roughly the same height as this entry. It is beside a struck-through cross-reference line among the 'Bhasma-' headings. The cancelled title is read only from the reduced adjacent overview; its middle letters are not secure.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The candidate gave a confident reading of the cancelled line on fol. 169. That reading cannot be secured from the reduced context image.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The title letters are cursive. Possible readings are 'Bhasmajābāla', 'Bharmajātāla' or 'Bhasmajātāla'. The initial of 'Upaniṣad' also resembles a lowercase 'u'.",
+        "next_check": "Compare the letter forms with secure 's', 'b' and 't' elsewhere in the same hand."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "A small mark accompanies the raised 'b' of the folio label. It may be a dot or a stroke of the letter.",
+        "next_check": "Inspect at higher zoom."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The second line could read 'm.D.' or 'm.J.'. The referent of the note is unknown.",
+        "next_check": "Check whether the same notation appears elsewhere in the volume."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "issue": "The meaning of 'ā/' and '(see MS)', and their relation to each other and to r005, are unresolved.",
+        "next_check": "Look for parallel marks on other pages."
+      }
+    ],
+    "boundary_review": "Text beyond the gutter at x>c.3140 belongs to fol. 169 and is excluded. That text comprises 'for Bhaviṣya…', 'd. 365(4)…', 'cat. s. √…', the bracketed pencil 'Ṣaṣṭīvratakathā… Bhaviṣyapu…' and the arrow '←' at about [3320,3840]. Conversely, '7/9: D.' visible at the left edge of the fol. 169 image is this page's b006 seen across the opening, not a separate record. Mirrored show-through of the fol. 168 entries is not transcribed. The link between the fol. 169 arrow and r005 is probable, not secure.",
+    "region_review": {
+      "top": "Contains the folio label, 'transfer m.D.', 'ā/' and '(see MS)'. Nothing else apart from show-through.",
+      "middle": "Only show-through and a small ink dot at about [1150,2030]. No writing on this page.",
+      "bottom": "Contains the single entry line at y≈3700-3830 with its tick, and a dot at about [500,4120]. The remaining lines are blank apart from show-through.",
+      "left_margin": "Contains the tick before C.17(3). No other marginal writing.",
+      "right_margin": "Contains no target-page writing. The facing-page fragments beyond the gutter are excluded.",
+      "interlinear": "No interlinear additions or cancellations found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        370,
+        320,
+        140,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "168b",
+      "features": [
+        "top left corner",
+        "pencil/ink folio label with superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        1710,
+        560,
+        250,
+        210
+      ],
+      "kind_hint": "annotation",
+      "anchor": "transfer m.D.",
+      "features": [
+        "pencil",
+        "two lines",
+        "upper centre of page",
+        "not attached to any entry line"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2150,
+        560,
+        130,
+        180
+      ],
+      "kind_hint": "annotation",
+      "anchor": "ā/",
+      "features": [
+        "ā with macron followed by a long slash",
+        "upper centre-right of page",
+        "unattached"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2290,
+        350,
+        240,
+        180
+      ],
+      "kind_hint": "annotation",
+      "anchor": "(see MS)",
+      "features": [
+        "written slanting upward",
+        "in parentheses",
+        "above and to the right of ā/"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        320,
+        3680,
+        1640,
+        150
+      ],
+      "kind_hint": "entry",
+      "anchor": "C.17(3). Bhasmajābāla [reading?] Upaniṣad, ff.1-10. = I.O. 493-4(105)",
+      "features": [
+        "tick in left margin",
+        "shelfmark",
+        "title",
+        "foliation",
+        "equation with I.O. number",
+        "single line near lower third of page"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2550,
+        3740,
+        480,
+        90
+      ],
+      "kind_hint": "entry_continuation",
+      "anchor": "n.d.: 10: 7/9: D.",
+      "features": [
+        "same line as b005, right column",
+        "date/extent/lines/script data"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "168ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Folio label in the top left corner; the 'b' is written raised after 168."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unclear whether the label is in pencil or faint ink."
+      ],
+      "stable_id": "css-prod-0336-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_note",
+      "literal_text": "transfer\nm.D. [reading?]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Two-line pencil note in the upper centre of the page, above the first ruled line.",
+        "It is not aligned with any entry line."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The second line may read 'm.D.' or 'm.J.'; the letters are faint and cursive.",
+        "The note's referent is unknown. It may relate to the single entry lower on the page, but there is no physical link."
+      ],
+      "stable_id": "css-prod-0336-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "mark",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The letter a with a macron, followed by a long oblique stroke, in the upper centre-right of the page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The meaning is unclear. The mark may be connected with '(see MS)' written above it to the right."
+      ],
+      "stable_id": "css-prod-0336-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_note",
+      "literal_text": "(see MS)",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written slanting upward, in parentheses, above and to the right of 'ā/'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The attachment is unclear; it is possibly a gloss on 'ā/'."
+      ],
+      "stable_id": "css-prod-0336-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005",
+        "b006"
+      ],
+      "type": "holding",
+      "subtype": "single_entry",
+      "literal_text": "C.17(3). Bhasmajābāla [reading?] Upaniṣad, ff.1-10. = I.O. 493-4(105)    n.d.: 10: 7/9: D.",
+      "fields": {
+        "shelfmark": "C.17(3)",
+        "title": "Bhasmajābāla [reading?] Upaniṣad",
+        "date": "n.d.",
+        "extent": "10",
+        "lines": "7/9",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick mark appears in the left margin before the shelfmark.",
+        "'ff.1-10.' is foliation within the entry.",
+        "'= I.O. 493-4(105)' is an equation with an I.O. number.",
+        "The right-column data 'n.d.: 10: 7/9: D.' is on the same ruled line as the main entry."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 337,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "← (left-pointing arrow beside cancelled 'Bhasmajābāla Upaniṣat. See Jābāla Upaniṣat')",
+          "evidence": "On facing fol. 169 a left-pointing arrow sits at about the same height as this entry. It is next to a cancelled heading with a similar title in the alphabetical position for 'Bhasma-'. This suggests the entry belongs at that point in the sequence.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The title is cursive. It may read 'Bhasmajābāla' or 'Bharmajātāla'; the middle letters are not secure.",
+        "The initial letter of the shelfmark could be capital or lowercase 'c'."
+      ],
+      "stable_id": "css-prod-0336-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 337,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "← (left-pointing arrow beside cancelled 'Bhasmajābāla Upaniṣat. See Jābāla Upaniṣat')",
+          "evidence": "On facing fol. 169 a left-pointing arrow sits at about the same height as this entry. It is next to a cancelled heading with a similar title in the alphabetical position for 'Bhasma-'. This suggests the entry belongs at that point in the sequence.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 337,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "← (left-pointing arrow beside a cancelled line on fol. 169 reading approximately 'Bhasmaja[?]ala Upaniṣat. See Jābāla Upaniṣat' [reading?])",
+          "evidence": "On facing fol. 169 a left-pointing arrow sits at roughly the same height as this entry. It is beside a struck-through cross-reference line among the 'Bhasma-' headings. The cancelled title is read only from the reduced adjacent overview; its middle letters are not secure.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The candidate gave a confident reading of the cancelled line on fol. 169. That reading cannot be secured from the reduced context image.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/762555f1-c0ef-49af-b257-1db8d163bb64.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/762555f1-c0ef-49af-b257-1db8d163bb64/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "8e1a6921d58196e56efab3f82c7bc9e7de4ef294ba8faa1f1bd273a9f2ca8600",
+      "bytes": 240655,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/762555f1-c0ef-49af-b257-1db8d163bb64/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "98d01d6162324a2b3f08cb68675f9c01bbb4dfb372caa1ba10e07f842d134244",
+      "bytes": 299427,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/762555f1-c0ef-49af-b257-1db8d163bb64/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "511c6199b6a5cd25e8ca52872a4b70b8ee65640852cb061d500596fed319e442",
+      "bytes": 311196,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/762555f1-c0ef-49af-b257-1db8d163bb64/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e1ee549467afe01bac02d10642317e6221aac11af1fc9b82fb1ba01475f0fef9",
+      "bytes": 291558,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/762555f1-c0ef-49af-b257-1db8d163bb64/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fd345a53939d82bfdd85ee5899fa407f9d40a6fc8f6e921d5ad6e7f3c230fb1f",
+      "bytes": 270214,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/762555f1-c0ef-49af-b257-1db8d163bb64/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "24f47eccf1cc45a501057afd5078bdb713c9203e9c24aa27994a0335dea5caa4",
+      "bytes": 316347,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/762555f1-c0ef-49af-b257-1db8d163bb64/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "701b0268177c3baa259b6973cc4c5009fbd393556c192282a3a59621503e333a",
+      "bytes": 308357,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/181f740e-3066-46e2-969f-a2876ac170c1/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b459da93ae968f64ca6178fcf7d131e0b1d1d41f07301d34175e011deddb55ac",
+      "bytes": 252416,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 335,
+      "folio_label": "fol. 168",
+      "page_id": "181f740e-3066-46e2-969f-a2876ac170c1",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1d5d115b-8edb-44aa-a81b-f96c1bf1c562/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "36a595f9ff4e7dd030573f2d6c9839978768b2a5c5dd6229ef542b67f7c24003",
+      "bytes": 265099,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 337,
+      "folio_label": "fol. 169",
+      "page_id": "1d5d115b-8edb-44aa-a81b-f96c1bf1c562",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

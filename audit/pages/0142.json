@@ -1,0 +1,833 @@
+{
+  "source_order": 142,
+  "folio_label": "fol. 71b",
+  "page_id": "45dd4de7-8065-4b40-a765-d54bc0246ea2",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "71b",
+    "principal_page_bbox": [
+      300,
+      290,
+      2830,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          350,
+          345,
+          140,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "71b",
+        "features": [
+          "top left corner",
+          "ink",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          345,
+          1185,
+          2700,
+          270
+        ],
+        "kind_hint": "entry",
+        "anchor": "b. 100(10). Gaurāṅgadevapurṇapramāṇa, f.1 unf. Extracts from Bhāgavata ... n.d. : 1 : 9 : Beng",
+        "features": [
+          "two handwritten lines",
+          "second line indented",
+          "shelfmark at line start",
+          "date/extent/script data at end of second line: n.d. : 1 : 9 : Beng",
+          "no tick visible"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          425,
+          4050,
+          2330,
+          150
+        ],
+        "kind_hint": "continuation_incipit",
+        "anchor": "Begins 'Snātvācamya saṁkalpaṁ kuryāt | atyetādi ... divākare vā'",
+        "features": [
+          "single line near bottom of page",
+          "incipit in quotation marks",
+          "separated from b002 by many blank ruled lines",
+          "parent not explicitly marked"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2810,
+          4150,
+          40,
+          40
+        ],
+        "description": "Round grey/dark dot, probably an ink spot or blemish, to the right of the end of the 'Begins' line. It carries no evident text."
+      },
+      {
+        "bbox": [
+          1740,
+          1180,
+          30,
+          30
+        ],
+        "description": "Small dot above the line of b002, near 'Extracts'. It is possibly an ink speck."
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the canvas, from about x≈3130 onward past the gutter and stitching, shows the facing page fol. 72. Its content includes ticks, 'd. 307', 'see Pam...', an arrow, 'c.' and 'd.' shelfmarks, ff. pencil notes and a bracket. That material is excluded as context and is not part of the target.",
+      "The arrow at about x≈3300, y≈1250 on fol. 72 points toward the target entry. It belongs to the facing page.",
+      "Fol. 71, the preceding page, has a cancelled Gorāṅgadeva entry with a 'see Gaurāṅga°' note. That page is context only.",
+      "The bottom incipit (b003) is probably the continuation of b002 (b. 100(10)). Its attachment is inferred from position and subject, not from any explicit mark."
+    ],
+    "uncertainties": [
+      "Readings of the Sanskrit words in the anchors are approximate. These include 'Gaurāṅgadevapurṇapramāṇa', 'Śrīvidyāpaṭala' and the incipit words 'atyetādi' and 'rāhugrastaniśākare'.",
+      "The '9' in 'n.d. : 1 : 9 : Beng' is a tentative reading.",
+      "The ending 'vā' of the incipit is a tentative reading."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "71b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "71b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Folio number in ink in the top left corner. The 'b' is written superscript, with a dot below it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "b. 100(10). Gaurāṅgadevapurṇapramāṇa, f.1 unf. Extracts from Bhāgavata [&?] other purāṇas. Foll. by one leaf\non tantric ritual with quotation from Tantrasāra, Śrīvidyāpaṭala on verso. Ritual. n.d. : 1 : 9 : Beng",
+        "fields": {
+          "shelfmark": "b. 100(10)",
+          "title": "Gaurāṅgadevapurṇapramāṇa",
+          "subject": "Ritual",
+          "date": "n.d.",
+          "extent": "f.1 unf. / 1",
+          "lines": "9",
+          "script": "Beng"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two handwritten ink lines. The second line is indented.",
+          "No tick or check mark is visible in the left margin.",
+          "A small dot above 'Extracts' is probably an ink speck."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The connective between 'Bhāgavata' and 'other' is written as a 'v'-like stroke; it is read here as '&'.",
+          "The title is read 'purṇa' without a visible macron. The cancelled entry on fol. 71 has 'pūrṇa'. This is not corrected here.",
+          "The reading 'quotation' versus 'quotations' is uncertain.",
+          "The line count '9' is a tentative reading; the figure could be read as 'a'-shaped."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit",
+        "literal_text": "Begins 'Snātvācamya saṁkalpaṁ kuryāt | atyetādi rāhugrastaniśākare divākare vā'",
+        "fields": {
+          "incipit": "Snātvācamya saṁkalpaṁ kuryāt | atyetādi rāhugrastaniśākare divākare vā"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line near the bottom of the page.",
+          "It is separated from r002 by many blank ruled lines.",
+          "No explicit attachment mark is present.",
+          "There is a round grey dot to the right of the line end, probably a blemish."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 142,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "b. 100(10). Gaurāṅgadevapurṇapramāṇa",
+            "evidence": "It is the only entry on the page. The 'Begins' formula is consistent with the catalogue's practice for incipits. It is separated by a large gap and has no linking mark.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'atyetādi' and the final 'vā' are tentative.",
+          "The diacritics in 'saṁkalpaṁ' are approximate.",
+          "Attachment to b. 100(10) is inferred from position only."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The sole catalogue entry, written in two lines."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Bottom incipit line. It is probably the continuation of r002."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the ruled page is blank on image review. No pencil or marginal additions were found.",
+      "The strip right of the gutter (x≈3130 onward) belongs to facing fol. 72 and is excluded. This includes the ticks, 'd. 307', 'see Pam…', arrows, the 'ff.' pencil notes and a bracket.",
+      "There are scattered ink specks and a grey dot near x≈2830, y≈4170. They carry no text."
+    ],
+    "unresolved_relationships": [
+      "The attachment of the bottom 'Begins' incipit (b003) to b. 100(10) is not explicitly marked."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Ink folio number '71' with a superscript 'b' and a dot below, at the top left. Matches the candidate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Two-line ink entry. The literal text substantially matches the image. The connective after 'Bhāgavata' is a 'v'-like stroke; the '[&?]' reading remains uncertain. The '9' in the line count is written 'q'-like, matching the numeral forms on fol. 72, but it is kept tentative. On fol. 72, opposite this entry at about y≈1250, there is an arrow pointing toward it. It sits beside the Gautamīya/Gaurīkāñcalikā sequence. This is consistent with the entry being an out-of-sequence insertion for the Gaurāṅga° entry cancelled on fol. 71. That relationship is recorded only as unresolved context."
+      },
+      {
+        "block_id": "b003",
+        "status": "uncertain",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The 'Begins' line is represented and its reading is acceptable, with tentative elements. Its attachment is questionable. On facing fol. 72, at nearly the same height (about y≈4130), a left-pointing arrow stands before the entry 'b. 99(2)c Grahaṇapuraścaraṇavidhi, f.1 unf. ritual. fragment'. The arrow points toward this line. The candidate's assumption that it is the probable continuation of b. 100(10) is therefore not secure."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 142,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "b. 100(10). Gaurāṅgadevapurṇapramāṇa",
+            "evidence": "It is the only entry on the page. The 'Begins' formula is consistent with the catalogue's practice for incipits. It is separated by a large gap and has no linking mark.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 142,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "b. 100(10). Gaurāṅgadevapurṇapramāṇa",
+            "evidence": "It is the only entry on this page, but it is separated by many blank ruled lines and there is no linking mark on fol. 71b.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 143,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 99(2)c Grahaṇapuraścaraṇavidhi",
+            "evidence": "A left-pointing arrow on fol. 72 at about the same height (y≈4130) stands beside the b. 99(2)c entry and points toward this incipit line across the gutter.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The facing-page arrow aligned with this line provides competing attachment evidence. The attachment to b. 100(10) should not be presented as probable.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Single ink line near the bottom of the page.",
+          "It is separated from r002 by many blank ruled lines.",
+          "No explicit attachment mark is present.",
+          "There is a round grey dot to the right of the line end, probably a blemish."
+        ],
+        "after": [
+          "Single ink line near the bottom of the page.",
+          "It is separated from r002 by many blank ruled lines.",
+          "No attachment mark is present on fol. 71b itself. On facing fol. 72, a left-pointing arrow at about the same height stands before the entry b. 99(2)c and points toward this line.",
+          "There is a round grey dot to the right of the line end, probably a blemish."
+        ],
+        "reason": "The facing-page arrow is visible in the native tile at about x≈3340, y≈4130 and is relevant attachment evidence.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The readings 'atyetādi' and the final 'vā' are tentative.",
+          "The diacritics in 'saṁkalpaṁ' are approximate.",
+          "Attachment to b. 100(10) is inferred from position only."
+        ],
+        "after": [
+          "The readings 'atyetādi' and the final 'vā' are tentative.",
+          "The diacritics in 'saṁkalpaṁ' are approximate.",
+          "The attachment is unresolved: either b. 100(10) on this page, inferred from position, or b. 99(2)c on fol. 72, suggested by the facing arrow."
+        ],
+        "reason": "This reflects the competing evidence.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "Is the incipit the continuation of b. 100(10) or of fol. 72 b. 99(2)c Grahaṇapuraścaraṇavidhi, to which a facing arrow seems to point?",
+        "next_check": "Compare the arrow's exact alignment and ink across the opening, and check the catalogue's arrow conventions elsewhere."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The fol. 72 arrow at about y≈1250 may mark the alphabetical insertion point of this entry. This is not confirmed.",
+        "next_check": "Review the full opening at native resolution."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3130. Everything to the right of it belongs to fol. 72 and is excluded from transcription. The two arrows on fol. 72, at y≈1250 and y≈4130, are context bearing on attachment and are not target records.",
+    "region_review": {
+      "top": "Folio number only; otherwise blank ruled lines.",
+      "middle": "The two-line b002 entry. Below it are blank ruled lines with scattered specks only.",
+      "bottom": "The 'Begins' line, a grey dot and a speck left of 'Begins'. Below it are blank ruled lines.",
+      "left_margin": "No tick or annotation.",
+      "right_margin": "No target text. Fol. 72 marks are visible across the gutter.",
+      "interlinear": "None found apart from a dot above 'Extracts', probably an ink speck."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        350,
+        345,
+        140,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "71b",
+      "features": [
+        "top left corner",
+        "ink",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        345,
+        1185,
+        2700,
+        270
+      ],
+      "kind_hint": "entry",
+      "anchor": "b. 100(10). Gaurāṅgadevapurṇapramāṇa, f.1 unf. Extracts from Bhāgavata ... n.d. : 1 : 9 : Beng",
+      "features": [
+        "two handwritten lines",
+        "second line indented",
+        "shelfmark at line start",
+        "date/extent/script data at end of second line: n.d. : 1 : 9 : Beng",
+        "no tick visible"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        425,
+        4050,
+        2330,
+        150
+      ],
+      "kind_hint": "continuation_incipit",
+      "anchor": "Begins 'Snātvācamya saṁkalpaṁ kuryāt | atyetādi ... divākare vā'",
+      "features": [
+        "single line near bottom of page",
+        "incipit in quotation marks",
+        "separated from b002 by many blank ruled lines",
+        "parent not explicitly marked"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "71b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Folio number in ink in the top left corner. The 'b' is written superscript, with a dot below it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0142-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "b. 100(10). Gaurāṅgadevapurṇapramāṇa, f.1 unf. Extracts from Bhāgavata [&?] other purāṇas. Foll. by one leaf\non tantric ritual with quotation from Tantrasāra, Śrīvidyāpaṭala on verso. Ritual. n.d. : 1 : 9 : Beng",
+      "fields": {
+        "shelfmark": "b. 100(10)",
+        "title": "Gaurāṅgadevapurṇapramāṇa",
+        "subject": "Ritual",
+        "date": "n.d.",
+        "extent": "f.1 unf. / 1",
+        "lines": "9",
+        "script": "Beng"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two handwritten ink lines. The second line is indented.",
+        "No tick or check mark is visible in the left margin.",
+        "A small dot above 'Extracts' is probably an ink speck."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The connective between 'Bhāgavata' and 'other' is written as a 'v'-like stroke; it is read here as '&'.",
+        "The title is read 'purṇa' without a visible macron. The cancelled entry on fol. 71 has 'pūrṇa'. This is not corrected here.",
+        "The reading 'quotation' versus 'quotations' is uncertain.",
+        "The line count '9' is a tentative reading; the figure could be read as 'a'-shaped."
+      ],
+      "stable_id": "css-prod-0142-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit",
+      "literal_text": "Begins 'Snātvācamya saṁkalpaṁ kuryāt | atyetādi rāhugrastaniśākare divākare vā'",
+      "fields": {
+        "incipit": "Snātvācamya saṁkalpaṁ kuryāt | atyetādi rāhugrastaniśākare divākare vā"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line near the bottom of the page.",
+        "It is separated from r002 by many blank ruled lines.",
+        "No attachment mark is present on fol. 71b itself. On facing fol. 72, a left-pointing arrow at about the same height stands before the entry b. 99(2)c and points toward this line.",
+        "There is a round grey dot to the right of the line end, probably a blemish."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 142,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "b. 100(10). Gaurāṅgadevapurṇapramāṇa",
+          "evidence": "It is the only entry on the page. The 'Begins' formula is consistent with the catalogue's practice for incipits. It is separated by a large gap and has no linking mark.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'atyetādi' and the final 'vā' are tentative.",
+        "The diacritics in 'saṁkalpaṁ' are approximate.",
+        "Attachment to b. 100(10) is inferred from position only."
+      ],
+      "stable_id": "css-prod-0142-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 142,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "b. 100(10). Gaurāṅgadevapurṇapramāṇa",
+          "evidence": "It is the only entry on the page. The 'Begins' formula is consistent with the catalogue's practice for incipits. It is separated by a large gap and has no linking mark.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 142,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "b. 100(10). Gaurāṅgadevapurṇapramāṇa",
+          "evidence": "It is the only entry on this page, but it is separated by many blank ruled lines and there is no linking mark on fol. 71b.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 143,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 99(2)c Grahaṇapuraścaraṇavidhi",
+          "evidence": "A left-pointing arrow on fol. 72 at about the same height (y≈4130) stands beside the b. 99(2)c entry and points toward this incipit line across the gutter.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The facing-page arrow aligned with this line provides competing attachment evidence. The attachment to b. 100(10) should not be presented as probable.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Single ink line near the bottom of the page.",
+        "It is separated from r002 by many blank ruled lines.",
+        "No explicit attachment mark is present.",
+        "There is a round grey dot to the right of the line end, probably a blemish."
+      ],
+      "after": [
+        "Single ink line near the bottom of the page.",
+        "It is separated from r002 by many blank ruled lines.",
+        "No attachment mark is present on fol. 71b itself. On facing fol. 72, a left-pointing arrow at about the same height stands before the entry b. 99(2)c and points toward this line.",
+        "There is a round grey dot to the right of the line end, probably a blemish."
+      ],
+      "reason": "The facing-page arrow is visible in the native tile at about x≈3340, y≈4130 and is relevant attachment evidence.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings 'atyetādi' and the final 'vā' are tentative.",
+        "The diacritics in 'saṁkalpaṁ' are approximate.",
+        "Attachment to b. 100(10) is inferred from position only."
+      ],
+      "after": [
+        "The readings 'atyetādi' and the final 'vā' are tentative.",
+        "The diacritics in 'saṁkalpaṁ' are approximate.",
+        "The attachment is unresolved: either b. 100(10) on this page, inferred from position, or b. 99(2)c on fol. 72, suggested by the facing arrow."
+      ],
+      "reason": "This reflects the competing evidence.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/45dd4de7-8065-4b40-a765-d54bc0246ea2.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/45dd4de7-8065-4b40-a765-d54bc0246ea2/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "23ae02729e869bae8fa2eca1123aadc6aaa456f154931b027ceebfecea7e5e41",
+      "bytes": 280368,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/45dd4de7-8065-4b40-a765-d54bc0246ea2/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "07fee32ad5194cc6a8135f0f263b3372cbd207e14a69ab26a55e692270bbbe6c",
+      "bytes": 340253,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/45dd4de7-8065-4b40-a765-d54bc0246ea2/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "db29caecc05cef4cb97a3786643e8328c56c859a18b031a1a666245c457031c6",
+      "bytes": 344941,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/45dd4de7-8065-4b40-a765-d54bc0246ea2/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8d21011e533edda9847a42c771d8c680612ad64f09ab654bba8539e33ee6ce91",
+      "bytes": 313581,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/45dd4de7-8065-4b40-a765-d54bc0246ea2/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0102cef4c3e3ad1e0ab91eb917c833bdabfeeaa9f209c39ff4c04ac871547fd7",
+      "bytes": 306632,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/45dd4de7-8065-4b40-a765-d54bc0246ea2/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "56948ef2ac3fba0416b6317334ae9ea829c8c96e669d1891a63742b27f21b57c",
+      "bytes": 326435,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/45dd4de7-8065-4b40-a765-d54bc0246ea2/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "df16dc9527f0006a85678dbab3945ee3e7cd1d4e8fa79f42d8f4b461abdcb740",
+      "bytes": 351705,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8ec13d96-3dc3-4d59-9496-41e5bcbe6cd0/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "857ae53b5eff72860ab565576ae1b617fe9b57b7ef85931613d46778b7f9b060",
+      "bytes": 267860,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 141,
+      "folio_label": "fol. 71",
+      "page_id": "8ec13d96-3dc3-4d59-9496-41e5bcbe6cd0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4dac2d22-f49a-4c6a-9024-000331960c63/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "43b14502fded1ccfbcda1e911ec9c932b8e87dafcd93d3de3f0aa95eccbf1b0c",
+      "bytes": 277509,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 143,
+      "folio_label": "fol. 72",
+      "page_id": "4dac2d22-f49a-4c6a-9024-000331960c63",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

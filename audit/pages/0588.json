@@ -1,0 +1,1099 @@
+{
+  "source_order": 588,
+  "folio_label": "fol. 294b",
+  "page_id": "fcb9cdbf-f058-465b-b1a7-c9e2fab0e522",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "294b",
+    "principal_page_bbox": [
+      295,
+      295,
+      2775,
+      4555
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          370,
+          360,
+          220,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "294b",
+        "features": [
+          "top-left corner",
+          "superscript 'b' above '294'",
+          "faint stray dots to the right"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          340,
+          1450,
+          2700,
+          180
+        ],
+        "kind_hint": "entry",
+        "anchor": "√c.396l. Saṁketacūḍāmaṇi of Gautama, … n.d.: 1:9: Berg",
+        "features": [
+          "tick before the shelfmark",
+          "superscript after '396' (read as 'l', uncertain)",
+          "title has thick wavy underline plus a second underline",
+          "date/extent/source formula at the right",
+          "left-pointing arrow (←) at the right near the gutter, about x≈2910–3020"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          400,
+          2190,
+          2460,
+          130
+        ],
+        "kind_hint": "continuation",
+        "anchor": "ff. 1-108, Śake 1682, + 1 misc. leaf. Scribe Kāśīnātha Devaśarman. I.O. 819",
+        "features": [
+          "faint, lighter (pencil-like) writing",
+          "no shelfmark at left on this page",
+          "left-pointing arrow (←) near the gutter, about x≈3030–3110",
+          "appears linked by the arrow to the facing-page entry √c.359"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          350,
+          2460,
+          3000,
+          240
+        ],
+        "kind_hint": "entry",
+        "anchor": "√d.231 Saṁkṣiptasāra by Kramadīśvara, + Co. Rasavatī, revised by Jumaranandin … I.O. 815, 5071.",
+        "features": [
+          "tick before the shelfmark",
+          "two lines",
+          "second line indented, beginning '1-38 (S.1866, Śake 1731)'",
+          "line below the right part reads '1808-9: 230: D: 6'",
+          "left-pointing arrow (←) at the end of the first line near the gutter"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          410,
+          3230,
+          2700,
+          150
+        ],
+        "kind_hint": "continuation",
+        "anchor": "ff. 1-9 x mut. Owner Mālaviya Raghunātha Śarman. Probably section of larger work whose name began with La°.",
+        "features": [
+          "interlinear superscript insertion 'mut.' (reading?) above, after '9'",
+          "caret/'x' insertion mark below",
+          "no shelfmark at left",
+          "left-pointing arrow (←) near the gutter, about x≈2905–3050",
+          "appears linked by the arrow to the facing-page entry (c./d.) 316(10)"
+        ]
+      }
+    ],
+    "unattached_marks": [],
+    "boundary_notes": [
+      "The right part of the canvas beyond the gutter (x>≈3065) shows the left column of facing fol. 295. That column has shelfmarks d.783, c.316, d.796, d.767, d.772, c.4, e.168, d.773, √c.359, √d.129, d.576, c.396, e./d.316, d.450, e.26, d.751, d.766 and e.2. It also has right-pointing arrows (→), a curved linking arrow and a dash line. These belong to the facing page and are not inventoried as target blocks.",
+      "The arrows at the right of b002 to b005 point toward the gutter and pair with marks on fol. 295. This suggests the lines on this page supplement entries on the facing page. The parent attachment of b003 and b005 is inferred from the arrows only.",
+      "b004 has its own shelfmark, d.231, but is also arrow-linked across the gutter. It is unclear whether it is an independent holding or a supplement to the Saṁkṣiptasāra heading on fol. 295."
+    ],
+    "uncertainties": [
+      "The superscript after 'c.396' may be 'l' or another letter.",
+      "The interlinear 'mut.' in b005 is uncertain.",
+      "Several personal names and words are hard to read in cursive: 'Kramadīśvara', 'Rasavatī', 'Jumaranandin', 'Mālaviya'.",
+      "The extent figures in b004 ('1-5 mut.', '1-43', '1-39') are tentative."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "294b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "294ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner, with a superscript 'b' above and after '294'.",
+          "Faint stray dots follow the number; they are not read as text."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "inserted_entry_for_facing_page",
+        "literal_text": "√c.396ˡ. Saṁketacūḍāmaṇi of Gautama, f.1, inc., foll. by six unidentifiable folios.   n.d.: 1:9: Berg  ←",
+        "fields": {
+          "shelfmark": "c.396ˡ",
+          "title": "Saṁketacūḍāmaṇi",
+          "author": "Gautama",
+          "date": "n.d.",
+          "source": "Berg"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick (√) stands before the shelfmark.",
+          "The title has a thick wavy underline plus a second underline.",
+          "A left-pointing arrow near the gutter, about x≈2910–3020, pairs with a right-pointing arrow on fol. 295. That arrow sits between the Saṁketacaturthīkalpa entry and the Saṁketārthaprakāśikā line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 589,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ between 'Saṁketacaturthīkalpa … n.d.: 4:18: D.' and 'Saṁketārthaprakāśikā'",
+            "evidence": "Paired arrows across the gutter suggest an insertion point in the alphabetical sequence on the facing page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The superscript after '396' is read as 'l' but is uncertain.",
+          "'f.1, inc.' is a tentative reading.",
+          "'Berg' is a tentative reading of a cursive word.",
+          "The figures '1:9' are not assigned to the extent or lines fields because the formula's meaning is not stated."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "supplement_to_facing_page_entry",
+        "literal_text": "ff. 1-108, Śake 1682, + 1 misc. leaf. Scribe Kāśīnātha Devaśarman.  I.O. 819  ←",
+        "fields": {
+          "extent": "ff. 1-108, + 1 misc. leaf",
+          "date": "Śake 1682"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The writing is faint and lighter, possibly pencil.",
+          "There is no shelfmark at the left.",
+          "A left-pointing arrow near the gutter, about x≈3030–3075, is matched by a dash leading to '√c. 359.' on fol. 295.",
+          "The scribe is named in the text; the name is not treated as an author.",
+          "'I.O. 819' is recorded literally."
+        ],
+        "editorial_context": [
+          {
+            "field": "shelfmark",
+            "value": "c.359",
+            "source_page_order": 589,
+            "source_block_id": null,
+            "evidence": "Arrow and dash link to '√c. 359.' on the facing page.",
+            "certainty": "probable"
+          },
+          {
+            "field": "title",
+            "value": "Saṁkṣiptasāra (facing-page entry for c.359)",
+            "source_page_order": 589,
+            "source_block_id": null,
+            "evidence": "The c.359 entry on fol. 295 reads 'Saṁkṣiptasāra by Kramadīśvara, with comm. … Part (iii) (Kṛdanta) only'.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 589,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 359. Saṁkṣiptasāra by Kramadīśvara",
+            "evidence": "Arrow across the gutter only.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Kāśīnātha Devaśarman' is a tentative reading of faint cursive.",
+          "Attachment to c.359 is inferred from the arrow only."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "inserted_entry_for_facing_page",
+        "literal_text": "√d.231  Saṁkṣiptasāra by Kramadīśvara, + Co. Rasavatī, revised by Jumaranandin., ff.1-38, 1-5 mut., 1-43, 1-39 (S.1865, Śake 1730) ←\n1-38 (S.1866, Śake 1731), 1-67 (S.1866), in several hands. I.O. 815, 5071.        1808-9: 230: D: 6",
+        "fields": {
+          "shelfmark": "d.231",
+          "title": "Saṁkṣiptasāra",
+          "author": "Kramadīśvara",
+          "extent": "ff.1-38, 1-5 mut., 1-43, 1-39 … 1-38 …, 1-67",
+          "date": "S.1865, Śake 1730; S.1866, Śake 1731; S.1866"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick (√) stands before the shelfmark.",
+          "The work is listed with a commentary, 'Co. Rasavatī, revised by Jumaranandin'.",
+          "The second line is indented.",
+          "The formula '1808-9: 230: D: 6' is written below the right part of the entry.",
+          "A left-pointing arrow at the end of the first line pairs with a right-pointing arrow on fol. 295. That arrow sits below 'Part (iii) (Kṛdanta) only' in the Saṁkṣiptasāra entry."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 589,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ below '√c. 359. Saṁkṣiptasāra … Part (iii) (Kṛdanta) only'",
+            "evidence": "Paired arrows across the gutter. The entry has its own shelfmark, so it is treated as a separate holding inserted after c.359.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Kramadīśvara', 'Rasavatī' and 'Jumaranandin' are uncertain readings.",
+          "The extent figures '1-5 mut.', '1-43' and '1-39' are tentative.",
+          "The meaning of the formula '1808-9: 230: D: 6' is not stated; it is kept literal and not split into fields.",
+          "It is unclear whether this is an independent holding or a supplement to the facing-page heading."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "supplement_to_facing_page_entry",
+        "literal_text": "ff. 1-9 ˣ[mut.?] Owner Mālaviya Raghunātha Śarman. Probably section of larger work whose name began with La°.  ←",
+        "fields": {
+          "extent": "ff. 1-9 [mut.?]"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'mut.' is written interlinearly above, between '9' and 'Owner'.",
+          "A small 'x' insertion mark is placed below, after '9'.",
+          "There is no shelfmark at the left.",
+          "A left-pointing arrow near the gutter, about x≈2905–3050, pairs with a dash leading to '(e./d.)316(10)' on fol. 295. On that page the 'd' is overwritten or crossed and 'e' is written above.",
+          "The owner's name is not treated as an author."
+        ],
+        "editorial_context": [
+          {
+            "field": "shelfmark",
+            "value": "e.316(10) (overwritten from d.)",
+            "source_page_order": 589,
+            "source_block_id": null,
+            "evidence": "Arrow and dash link to the facing-page row.",
+            "certainty": "probable"
+          },
+          {
+            "field": "title",
+            "value": "Saṁkṣepajanmapatrāvalokana (facing-page entry)",
+            "source_page_order": 589,
+            "source_block_id": null,
+            "evidence": "The facing-page row 316(10) reads 'Saṁkṣepajanmapatrāvalokana ⟦…⟧ Jyotiṣa n.d.: 9:12: D.'",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 589,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "e./d. 316(10) Saṁkṣepajanmapatrāvalokana",
+            "evidence": "Arrow across the gutter only.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The interlinear 'mut.' is an uncertain reading.",
+          "'Mālaviya' is a tentative reading.",
+          "Attachment is inferred from the arrow only."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Independent holding with its own shelfmark, arrow-linked to an insertion point on fol. 295."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Unshelfmarked supplement, arrow-linked to c.359 on fol. 295."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Holding with its own shelfmark d.231, arrow-linked to an insertion point on fol. 295."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Unshelfmarked supplement, arrow-linked to 316(10) on fol. 295."
+      }
+    ],
+    "page_annotations": [
+      "The page is a sparse verso of supplementary entries keyed by arrows to the facing fol. 295.",
+      "The strip of fol. 295 visible beyond the gutter (x>≈3065) is facing-page context and is not transcribed as target records.",
+      "The lower part of the page, from about y≈3400 to the bottom, was reviewed and is blank apart from specks."
+    ],
+    "unresolved_relationships": [
+      "r002 and r004 may be insertions into the fol. 295 sequence rather than freestanding holdings; their status is based on the arrows only.",
+      "The attachments of r003 to c.359 and of r005 to 316(10) are based on arrows only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '294' has a superscript 'b' written above and after the '4'. Faint dots follow it; these are not text."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The full line is represented. The source image shows the tick, the shelfmark with its superscript, the double underline under the title, 'f.1, inc., foll. by six unidentifiable folios.', 'n.d.: 1:9: Berg' and the left arrow near the gutter. The superscript after 396 is still uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The faint pencil line is represented and its readings match the image. The arrow and dash lead to '√c. 359.' on fol. 295. That entry's date column shows 'n.d.' overwritten by '1760', followed by '108: 6: Berg'. This is consistent with this line, but that consistency is context only."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Both lines and the lower formula '1808-9: 230: D: 6' are represented. The paired → on fol. 295 sits at the cancelled line '⟦Saṁkṣiptasāra, see Rasavatī⟧' below 'Part (iii) (Kṛdanta) only'. The candidate does not record this."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The interlinear 'mut.' and the 'x' mark are captured. The arrow leads to the facing row with 'X', cancelled 'd' and 'e' written above, then '316(10)'. That row's 'n.d.: 9:12: D.' is consistent with ff. 1-9, but this is context only."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "fields.extent",
+        "before": "ff.1-38, 1-5 mut., 1-43, 1-39 … 1-38 …, 1-67",
+        "after": "ff.1-38, 1-5 mut., 1-43, 1-39; 1-38; 1-67",
+        "reason": "The ellipses are not in the source. Each listed extent is now given separately; the dates remain in fields.date.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 589,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ below '√c. 359. Saṁkṣiptasāra … Part (iii) (Kṛdanta) only'",
+            "evidence": "Paired arrows across the gutter. The entry has its own shelfmark, so it is treated as a separate holding inserted after c.359.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 589,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ beside the cancelled line '⟦Saṁkṣiptasāra, see Rasavatī⟧' below '√c. 359. Saṁkṣiptasāra … Part (iii) (Kṛdanta) only'",
+            "evidence": "Paired arrows across the gutter. The facing arrow sits at a cancelled cross-reference, so this holding may replace that cross-reference. The entry has its own shelfmark, so it is treated as a separate holding.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The facing-page image places the → at the cancelled cross-reference line. The candidate omits this.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The superscript after 'c.396' could be 'l' or a cursive 'e'. Fol. 295 has a separate row 'c.396⁽ᵉ⁾', which may be a different sub-item.",
+        "next_check": "Compare the letter forms at higher magnification. Do not equate the two shelfmarks without evidence."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The meaning of the formula '1808-9: 230: D: 6' and its field order are unclear.",
+        "next_check": "Compare it with other multi-part entries in this catalogue."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The faint scribe name 'Kāśīnātha Devaśarman' and the word 'Scribe' are tentative readings.",
+        "next_check": "Use enhanced contrast imaging."
+      }
+    ],
+    "boundary_review": "Text beyond the gutter (x>≈3065) belongs to the facing fol. 295 and is not transcribed as target records. All four left arrows on this page are matched by marks on fol. 295. The attachments of r003 and r005 rest on the arrows only. Whether r002 and r004 are freestanding holdings or insertions into the fol. 295 sequence remains unresolved.",
+    "region_review": {
+      "top": "Folio number 294ᵇ only; the ruled area is blank down to the c.396 line.",
+      "middle": "Four written units (b002–b005); nothing else was found between them except specks.",
+      "bottom": "Blank below the b005 line (y≈3400) down to the page edge, apart from specks; checked in the bottom tiles.",
+      "left_margin": "Only the ticks and shelfmarks of b002 and b004; the margin is otherwise empty.",
+      "right_margin": "Left arrows near the gutter for each unit. The facing-page column beyond the gutter is treated as context.",
+      "interlinear": "'mut.' above 'ff. 1-9' with an 'x' mark below in b005. A macron-like stroke over 'Rasavatī' in b004 is part of the word."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        370,
+        360,
+        220,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "294b",
+      "features": [
+        "top-left corner",
+        "superscript 'b' above '294'",
+        "faint stray dots to the right"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        340,
+        1450,
+        2700,
+        180
+      ],
+      "kind_hint": "entry",
+      "anchor": "√c.396l. Saṁketacūḍāmaṇi of Gautama, … n.d.: 1:9: Berg",
+      "features": [
+        "tick before the shelfmark",
+        "superscript after '396' (read as 'l', uncertain)",
+        "title has thick wavy underline plus a second underline",
+        "date/extent/source formula at the right",
+        "left-pointing arrow (←) at the right near the gutter, about x≈2910–3020"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        400,
+        2190,
+        2460,
+        130
+      ],
+      "kind_hint": "continuation",
+      "anchor": "ff. 1-108, Śake 1682, + 1 misc. leaf. Scribe Kāśīnātha Devaśarman. I.O. 819",
+      "features": [
+        "faint, lighter (pencil-like) writing",
+        "no shelfmark at left on this page",
+        "left-pointing arrow (←) near the gutter, about x≈3030–3110",
+        "appears linked by the arrow to the facing-page entry √c.359"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        350,
+        2460,
+        3000,
+        240
+      ],
+      "kind_hint": "entry",
+      "anchor": "√d.231 Saṁkṣiptasāra by Kramadīśvara, + Co. Rasavatī, revised by Jumaranandin … I.O. 815, 5071.",
+      "features": [
+        "tick before the shelfmark",
+        "two lines",
+        "second line indented, beginning '1-38 (S.1866, Śake 1731)'",
+        "line below the right part reads '1808-9: 230: D: 6'",
+        "left-pointing arrow (←) at the end of the first line near the gutter"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        410,
+        3230,
+        2700,
+        150
+      ],
+      "kind_hint": "continuation",
+      "anchor": "ff. 1-9 x mut. Owner Mālaviya Raghunātha Śarman. Probably section of larger work whose name began with La°.",
+      "features": [
+        "interlinear superscript insertion 'mut.' (reading?) above, after '9'",
+        "caret/'x' insertion mark below",
+        "no shelfmark at left",
+        "left-pointing arrow (←) near the gutter, about x≈2905–3050",
+        "appears linked by the arrow to the facing-page entry (c./d.) 316(10)"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "294ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner, with a superscript 'b' above and after '294'.",
+        "Faint stray dots follow the number; they are not read as text."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0588-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "inserted_entry_for_facing_page",
+      "literal_text": "√c.396ˡ. Saṁketacūḍāmaṇi of Gautama, f.1, inc., foll. by six unidentifiable folios.   n.d.: 1:9: Berg  ←",
+      "fields": {
+        "shelfmark": "c.396ˡ",
+        "title": "Saṁketacūḍāmaṇi",
+        "author": "Gautama",
+        "date": "n.d.",
+        "source": "Berg"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick (√) stands before the shelfmark.",
+        "The title has a thick wavy underline plus a second underline.",
+        "A left-pointing arrow near the gutter, about x≈2910–3020, pairs with a right-pointing arrow on fol. 295. That arrow sits between the Saṁketacaturthīkalpa entry and the Saṁketārthaprakāśikā line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 589,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ between 'Saṁketacaturthīkalpa … n.d.: 4:18: D.' and 'Saṁketārthaprakāśikā'",
+          "evidence": "Paired arrows across the gutter suggest an insertion point in the alphabetical sequence on the facing page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The superscript after '396' is read as 'l' but is uncertain.",
+        "'f.1, inc.' is a tentative reading.",
+        "'Berg' is a tentative reading of a cursive word.",
+        "The figures '1:9' are not assigned to the extent or lines fields because the formula's meaning is not stated."
+      ],
+      "stable_id": "css-prod-0588-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "supplement_to_facing_page_entry",
+      "literal_text": "ff. 1-108, Śake 1682, + 1 misc. leaf. Scribe Kāśīnātha Devaśarman.  I.O. 819  ←",
+      "fields": {
+        "extent": "ff. 1-108, + 1 misc. leaf",
+        "date": "Śake 1682"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The writing is faint and lighter, possibly pencil.",
+        "There is no shelfmark at the left.",
+        "A left-pointing arrow near the gutter, about x≈3030–3075, is matched by a dash leading to '√c. 359.' on fol. 295.",
+        "The scribe is named in the text; the name is not treated as an author.",
+        "'I.O. 819' is recorded literally."
+      ],
+      "editorial_context": [
+        {
+          "field": "shelfmark",
+          "value": "c.359",
+          "source_page_order": 589,
+          "source_block_id": null,
+          "evidence": "Arrow and dash link to '√c. 359.' on the facing page.",
+          "certainty": "probable"
+        },
+        {
+          "field": "title",
+          "value": "Saṁkṣiptasāra (facing-page entry for c.359)",
+          "source_page_order": 589,
+          "source_block_id": null,
+          "evidence": "The c.359 entry on fol. 295 reads 'Saṁkṣiptasāra by Kramadīśvara, with comm. … Part (iii) (Kṛdanta) only'.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 589,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 359. Saṁkṣiptasāra by Kramadīśvara",
+          "evidence": "Arrow across the gutter only.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Kāśīnātha Devaśarman' is a tentative reading of faint cursive.",
+        "Attachment to c.359 is inferred from the arrow only."
+      ],
+      "stable_id": "css-prod-0588-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "inserted_entry_for_facing_page",
+      "literal_text": "√d.231  Saṁkṣiptasāra by Kramadīśvara, + Co. Rasavatī, revised by Jumaranandin., ff.1-38, 1-5 mut., 1-43, 1-39 (S.1865, Śake 1730) ←\n1-38 (S.1866, Śake 1731), 1-67 (S.1866), in several hands. I.O. 815, 5071.        1808-9: 230: D: 6",
+      "fields": {
+        "shelfmark": "d.231",
+        "title": "Saṁkṣiptasāra",
+        "author": "Kramadīśvara",
+        "extent": "ff.1-38, 1-5 mut., 1-43, 1-39 … 1-38 …, 1-67",
+        "date": "S.1865, Śake 1730; S.1866, Śake 1731; S.1866"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick (√) stands before the shelfmark.",
+        "The work is listed with a commentary, 'Co. Rasavatī, revised by Jumaranandin'.",
+        "The second line is indented.",
+        "The formula '1808-9: 230: D: 6' is written below the right part of the entry.",
+        "A left-pointing arrow at the end of the first line pairs with a right-pointing arrow on fol. 295. That arrow sits below 'Part (iii) (Kṛdanta) only' in the Saṁkṣiptasāra entry."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 589,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ below '√c. 359. Saṁkṣiptasāra … Part (iii) (Kṛdanta) only'",
+          "evidence": "Paired arrows across the gutter. The entry has its own shelfmark, so it is treated as a separate holding inserted after c.359.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Kramadīśvara', 'Rasavatī' and 'Jumaranandin' are uncertain readings.",
+        "The extent figures '1-5 mut.', '1-43' and '1-39' are tentative.",
+        "The meaning of the formula '1808-9: 230: D: 6' is not stated; it is kept literal and not split into fields.",
+        "It is unclear whether this is an independent holding or a supplement to the facing-page heading."
+      ],
+      "stable_id": "css-prod-0588-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "supplement_to_facing_page_entry",
+      "literal_text": "ff. 1-9 ˣ[mut.?] Owner Mālaviya Raghunātha Śarman. Probably section of larger work whose name began with La°.  ←",
+      "fields": {
+        "extent": "ff. 1-9 [mut.?]"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'mut.' is written interlinearly above, between '9' and 'Owner'.",
+        "A small 'x' insertion mark is placed below, after '9'.",
+        "There is no shelfmark at the left.",
+        "A left-pointing arrow near the gutter, about x≈2905–3050, pairs with a dash leading to '(e./d.)316(10)' on fol. 295. On that page the 'd' is overwritten or crossed and 'e' is written above.",
+        "The owner's name is not treated as an author."
+      ],
+      "editorial_context": [
+        {
+          "field": "shelfmark",
+          "value": "e.316(10) (overwritten from d.)",
+          "source_page_order": 589,
+          "source_block_id": null,
+          "evidence": "Arrow and dash link to the facing-page row.",
+          "certainty": "probable"
+        },
+        {
+          "field": "title",
+          "value": "Saṁkṣepajanmapatrāvalokana (facing-page entry)",
+          "source_page_order": 589,
+          "source_block_id": null,
+          "evidence": "The facing-page row 316(10) reads 'Saṁkṣepajanmapatrāvalokana ⟦…⟧ Jyotiṣa n.d.: 9:12: D.'",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 589,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "e./d. 316(10) Saṁkṣepajanmapatrāvalokana",
+          "evidence": "Arrow across the gutter only.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The interlinear 'mut.' is an uncertain reading.",
+        "'Mālaviya' is a tentative reading.",
+        "Attachment is inferred from the arrow only."
+      ],
+      "stable_id": "css-prod-0588-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "fields.extent",
+      "before": "ff.1-38, 1-5 mut., 1-43, 1-39 … 1-38 …, 1-67",
+      "after": "ff.1-38, 1-5 mut., 1-43, 1-39; 1-38; 1-67",
+      "reason": "The ellipses are not in the source. Each listed extent is now given separately; the dates remain in fields.date.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 589,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ below '√c. 359. Saṁkṣiptasāra … Part (iii) (Kṛdanta) only'",
+          "evidence": "Paired arrows across the gutter. The entry has its own shelfmark, so it is treated as a separate holding inserted after c.359.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 589,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ beside the cancelled line '⟦Saṁkṣiptasāra, see Rasavatī⟧' below '√c. 359. Saṁkṣiptasāra … Part (iii) (Kṛdanta) only'",
+          "evidence": "Paired arrows across the gutter. The facing arrow sits at a cancelled cross-reference, so this holding may replace that cross-reference. The entry has its own shelfmark, so it is treated as a separate holding.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The facing-page image places the → at the cancelled cross-reference line. The candidate omits this.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/fcb9cdbf-f058-465b-b1a7-c9e2fab0e522.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fcb9cdbf-f058-465b-b1a7-c9e2fab0e522/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b76083425ec016c4909b48f824fc0be0c95ff55d49ec819d30baefe6dbeb7d43",
+      "bytes": 345422,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fcb9cdbf-f058-465b-b1a7-c9e2fab0e522/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "94aa1a09d1a10d0d53b1939e847736791ae3c18181c2e2c5be8e47837cc7853f",
+      "bytes": 384932,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fcb9cdbf-f058-465b-b1a7-c9e2fab0e522/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "31feee7291be91d5de35ef976f4455db6b2ec385b972155b1949ff83fcfaca0e",
+      "bytes": 411013,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fcb9cdbf-f058-465b-b1a7-c9e2fab0e522/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dc06403026a13c393bee1a02b518c6d8d4a9844823113035e0ae618c0ba16387",
+      "bytes": 450013,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fcb9cdbf-f058-465b-b1a7-c9e2fab0e522/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b8ee7e3fab72887a3c0db94cad00184a9b3099f60a50be5fdd1cf3572c9ec765",
+      "bytes": 451666,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fcb9cdbf-f058-465b-b1a7-c9e2fab0e522/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "88e15572dd5dad9971ff65f7c67dff7006f85cd9249217c9c328a742f0af07a0",
+      "bytes": 375415,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fcb9cdbf-f058-465b-b1a7-c9e2fab0e522/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "53765d95f0c79e557ca48dc573a8c630e1e0a4f952f4929724f3d61b709bd943",
+      "bytes": 406304,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ceaa7259-c5d5-4e7b-bae9-87693406ecd7/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "786603a9c1d11e9c9473163ad8ed170e353dde01dceeedadf65f5302cd282d3b",
+      "bytes": 356264,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 587,
+      "folio_label": "fol. 294",
+      "page_id": "ceaa7259-c5d5-4e7b-bae9-87693406ecd7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6ee19578-a659-4efd-b3a9-eea8367c75f1/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "bb0aafa97ac40a27e3a1e0c13fe64f6b068b684ed50008835956e7b5d797c83f",
+      "bytes": 323127,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 589,
+      "folio_label": "fol. 295",
+      "page_id": "6ee19578-a659-4efd-b3a9-eea8367c75f1",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

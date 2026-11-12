@@ -1,0 +1,749 @@
+{
+  "source_order": 334,
+  "folio_label": "fol. 167b",
+  "page_id": "3012ff18-d251-4e08-abd5-c67445580c0b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "167b",
+    "principal_page_bbox": [
+      305,
+      285,
+      2835,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          320,
+          150,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "167b",
+        "features": [
+          "top-left corner",
+          "superscript 'b' after 167",
+          "darker ink or pencil than the body notes"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          395,
+          1180,
+          2080,
+          130
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "ff. followed by ff. 8, 9, + 13, of [Meghadūta?] + co. (unidentified); ll. 7, Newārī",
+        "features": [
+          "single line on a ruled line in the upper third of the page",
+          "faint handwriting, pencil or light ink",
+          "'unidentified' has letters written over near its end ('-fied')",
+          "no shelfmark on this page",
+          "a leftward arrow near the gutter at the same height points toward this note from the facing page",
+          "likely attaches to an entry on facing fol. 168 (c.272(1) Bhaṭṭikāvya area); not an independent holding"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          395,
+          4185,
+          900,
+          110
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "ff. 1-10 (m. 6, 8, 9). Oxf. II, 1476.",
+        "features": [
+          "single line near the bottom of the page",
+          "small dots under '8, 9'",
+          "a leftward arrow near the gutter at the same height links it to the facing page",
+          "likely attaches to an entry on facing fol. 168 (c.387(2) area); not an independent holding"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3025,
+          1220,
+          250,
+          45
+        ],
+        "description": "Leftward arrow drawn across or near the gutter at the height of b002. It runs from the facing page toward the note."
+      },
+      {
+        "bbox": [
+          2965,
+          4185,
+          280,
+          45
+        ],
+        "description": "Leftward arrow near the gutter at the height of b003."
+      },
+      {
+        "bbox": [
+          515,
+          3515,
+          70,
+          150
+        ],
+        "description": "Two small dark specks or strokes in the left area of the lower page. They are probably blemishes, not text."
+      },
+      {
+        "bbox": [
+          2300,
+          2950,
+          50,
+          40
+        ],
+        "description": "Small dark dot in the mid-page. It is probably a blemish."
+      },
+      {
+        "bbox": [
+          2090,
+          3085,
+          40,
+          40
+        ],
+        "description": "Small dark dot. It is probably a blemish."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the image shows the left margin of facing fol. 168. This includes ticks, 'e.26[6]', 'd.', 'e.', '√c.', 'd', 'e' and 'f'. These are not target-page content and are not recorded as blocks.",
+      "Faint mirrored show-through of the recto (fol. 167) entries is visible across the whole page. It is not target text.",
+      "The two arrows straddle the gutter. Their parent entries are on fol. 168, so attachment is inferred from position only."
+    ],
+    "uncertainties": [
+      "The reading of the word in b002 read as '[Meghadūta?]' is uncertain.",
+      "The initial abbreviation in b002 ('ff.') is uncertain.",
+      "The overwritten letters in 'unidentified' cannot be fully resolved.",
+      "In b003, 'm.' may be another abbreviation, possibly 'w.' or 'n.'."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "167b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "167b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner; the 'b' is written superscript after 167, in darker pencil or ink than the body notes."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "facing_page_marginal_continuation",
+        "literal_text": "[ff.?] followed by ff. 8, 9, + 13, of [Meghadūta?] + co. (unidentified); ll. 7, Newāri",
+        "fields": {
+          "extent": "ff. 8, 9, + 13",
+          "lines": "ll. 7",
+          "script": "Newāri"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Faint single line written on a ruled line in the upper third of the page.",
+          "The letters near the end of 'unidentified' (around '-ified') are overwritten. The earlier letters cannot be resolved.",
+          "At the same height, a leftward arrow runs across the gutter from the margin of the facing fol. 168 toward this note.",
+          "The note has no shelfmark of its own."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 335,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.272(1) Bhaṭṭikāvya, co. by Jayamaṅgala ... Newārī (fol. 168)",
+            "evidence": "A leftward arrow at the same height in the gutter links this note to the facing-page entry c.272(1). That entry's margin also shows an arrow.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The opening abbreviation, read as 'ff.', is uncertain.",
+          "The word read as 'Meghadūta' is uncertain.",
+          "The final vowel of 'Newāri' may be ī.",
+          "The overwritten letters in 'unidentified' are unresolved."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "facing_page_marginal_continuation",
+        "literal_text": "ff. 1-10 (m. 6, 8, 9). Oxf. II, 1476.",
+        "fields": {
+          "extent": "ff. 1-10 (m. 6, 8, 9)",
+          "source": "Oxf. II, 1476"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line near the bottom of the page.",
+          "Small dots are written under '8, 9'.",
+          "At the same height, a leftward arrow near the gutter links this note to the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 335,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 387 (2) Bhavānīsahasranāmastotra (fol. 168)",
+            "evidence": "A leftward arrow at the same height links this note to the facing entry c.387(2). That entry's margin also shows an arrow.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The abbreviation read as 'm.' could instead be 'w.' or 'n.'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note that probably belongs to the fol. 168 entry c.272(1)."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Continuation note that probably belongs to the fol. 168 entry c.387(2)."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is blank except for faint mirrored show-through of the fol. 167 entries, which is not target text.",
+      "Two leftward arrows near the gutter, at about y≈1220 and y≈4185, are non-text linking marks.",
+      "Small dark specks at about (515,3515), (2300,2950) and (2090,3085) are probably blemishes.",
+      "The right edge of the image shows the left margin of facing fol. 168, including ticks, 'e.26[6]', 'd.', 'e.', '√c.', 'd', 'e' and 'f'. This is not recorded as target content."
+    ],
+    "unresolved_relationships": [
+      "Attachment of r002 and r003 to fol. 168 entries rests on arrow position only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left folio label reads '167' with a superscript 'b' and is followed by a dot. It is darker than the body notes. r001 represents it correctly."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is a single faint line at about y≈1200–1300. Both upper tiles show it, and the overlap was reconciled without duplication: tile 1 ends at '(uniden…' and tile 2 begins at 'co. (unidentified)'. The reading 'followed by ff. 8, 9, +13, of … + co. (unidentified); ll. 7, Newā[r]i' agrees with the candidate. The opening 'ff' and the title word remain uncertain, and the candidate correctly marks them as uncertain. The end of 'unidentified' is visibly written over in darker ink. A leftward arrow at x≈3030–3270 crosses the gutter at the same height."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The lower note at y≈4200–4290 reads 'ff. 1-10 (m. 6, 8, 9). Oxf. II, 1476.' Small dots sit under the '8, 9' area. The 'II' appears to have a horizontal stroke over it. A leftward arrow at x≈2970–3240, y≈4230, crosses the gutter."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Single line near the bottom of the page.",
+          "Small dots are written under '8, 9'.",
+          "At the same height, a leftward arrow near the gutter links this note to the facing page."
+        ],
+        "after": [
+          "Single line near the bottom of the page.",
+          "Small dots are written under '8, 9'.",
+          "The 'II' after 'Oxf.' appears to be written with a horizontal stroke over it, in Roman-numeral style.",
+          "At the same height, a leftward arrow near the gutter links this note to the facing page."
+        ],
+        "reason": "The native bottom-left tile shows a stroke over the numeral 'II'. This is a visual description only; the literal text is unchanged.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings are unresolved: the opening abbreviation ('ff'?), the title word read as 'Meghadūta', the final vowel of 'Newāri/Newārī', and the overwritten letters in 'unidentified'. On fol. 168, the facing shelfmark 'c.272(1)' appears to be written over an earlier number. The target anchor's reading of the commentator's name comes from the reduced adjacent image.",
+        "next_check": "Compare the fol. 168 native image at the c.272(1) line and its margin arrow, and inspect the overwritten letters at higher contrast."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The abbreviation read as 'm.' may be 'w.' or 'n.'. Attachment to the fol. 168 entry c.387(2) rests on arrow alignment only.",
+        "next_check": "Check the native fol. 168 image at the √c.387(2) line for the corresponding arrow and entry text."
+      }
+    ],
+    "boundary_review": "The right edge of the canvas, beyond the gutter at x≈3150, shows the left margin of fol. 168: ticks with 'c' at y≈1140 and y≈1270 (the c.132 and c.272(1) lines), and 'e.26[6]', 'd.', 'e.', '√c.', 'd', 'e' and 'f' at y≈3900–4560. These are facing-page content, not target records. Both arrows straddle the gutter. Their attachment to the fol. 168 entries c.272(1) and c.387(2) is probable from alignment, not secure. Mirrored show-through of the fol. 167 recto is visible across the page and is not target text.",
+    "region_review": {
+      "top": "The folio label 167ᵇ is present. The rest of the top is blank ruled paper with faint show-through.",
+      "middle": "Only b002 is written, in the upper third. The rest is show-through. Small dark specks at about (2300,2950) and (2090,3085) are blemishes.",
+      "bottom": "b003 is present at y≈4200–4290. Below it the page is blank to the edge at y≈4830.",
+      "left_margin": "No writing. Two dark strokes at about (520–560, 3520–3660) look like blemishes or ink specks, not text.",
+      "right_margin": "The gutter carries the two arrows. Small binding or puncture marks are visible in the gutter at about (3145,1250), (3145,1925) and (3145,2600); these are non-text. The facing fol. 168 margin fragments are not target content.",
+      "interlinear": "There are no interlinear additions on the target page apart from the overwriting inside 'unidentified' in b002."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        320,
+        150,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "167b",
+      "features": [
+        "top-left corner",
+        "superscript 'b' after 167",
+        "darker ink or pencil than the body notes"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        395,
+        1180,
+        2080,
+        130
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "ff. followed by ff. 8, 9, + 13, of [Meghadūta?] + co. (unidentified); ll. 7, Newārī",
+      "features": [
+        "single line on a ruled line in the upper third of the page",
+        "faint handwriting, pencil or light ink",
+        "'unidentified' has letters written over near its end ('-fied')",
+        "no shelfmark on this page",
+        "a leftward arrow near the gutter at the same height points toward this note from the facing page",
+        "likely attaches to an entry on facing fol. 168 (c.272(1) Bhaṭṭikāvya area); not an independent holding"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        395,
+        4185,
+        900,
+        110
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "ff. 1-10 (m. 6, 8, 9). Oxf. II, 1476.",
+      "features": [
+        "single line near the bottom of the page",
+        "small dots under '8, 9'",
+        "a leftward arrow near the gutter at the same height links it to the facing page",
+        "likely attaches to an entry on facing fol. 168 (c.387(2) area); not an independent holding"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "167b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner; the 'b' is written superscript after 167, in darker pencil or ink than the body notes."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0334-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "facing_page_marginal_continuation",
+      "literal_text": "[ff.?] followed by ff. 8, 9, + 13, of [Meghadūta?] + co. (unidentified); ll. 7, Newāri",
+      "fields": {
+        "extent": "ff. 8, 9, + 13",
+        "lines": "ll. 7",
+        "script": "Newāri"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Faint single line written on a ruled line in the upper third of the page.",
+        "The letters near the end of 'unidentified' (around '-ified') are overwritten. The earlier letters cannot be resolved.",
+        "At the same height, a leftward arrow runs across the gutter from the margin of the facing fol. 168 toward this note.",
+        "The note has no shelfmark of its own."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 335,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.272(1) Bhaṭṭikāvya, co. by Jayamaṅgala ... Newārī (fol. 168)",
+          "evidence": "A leftward arrow at the same height in the gutter links this note to the facing-page entry c.272(1). That entry's margin also shows an arrow.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The opening abbreviation, read as 'ff.', is uncertain.",
+        "The word read as 'Meghadūta' is uncertain.",
+        "The final vowel of 'Newāri' may be ī.",
+        "The overwritten letters in 'unidentified' are unresolved."
+      ],
+      "stable_id": "css-prod-0334-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "facing_page_marginal_continuation",
+      "literal_text": "ff. 1-10 (m. 6, 8, 9). Oxf. II, 1476.",
+      "fields": {
+        "extent": "ff. 1-10 (m. 6, 8, 9)",
+        "source": "Oxf. II, 1476"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line near the bottom of the page.",
+        "Small dots are written under '8, 9'.",
+        "At the same height, a leftward arrow near the gutter links this note to the facing page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 335,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 387 (2) Bhavānīsahasranāmastotra (fol. 168)",
+          "evidence": "A leftward arrow at the same height links this note to the facing entry c.387(2). That entry's margin also shows an arrow.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The abbreviation read as 'm.' could instead be 'w.' or 'n.'."
+      ],
+      "stable_id": "css-prod-0334-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Single line near the bottom of the page.",
+        "Small dots are written under '8, 9'.",
+        "At the same height, a leftward arrow near the gutter links this note to the facing page."
+      ],
+      "after": [
+        "Single line near the bottom of the page.",
+        "Small dots are written under '8, 9'.",
+        "The 'II' after 'Oxf.' appears to be written with a horizontal stroke over it, in Roman-numeral style.",
+        "At the same height, a leftward arrow near the gutter links this note to the facing page."
+      ],
+      "reason": "The native bottom-left tile shows a stroke over the numeral 'II'. This is a visual description only; the literal text is unchanged.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3012ff18-d251-4e08-abd5-c67445580c0b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3012ff18-d251-4e08-abd5-c67445580c0b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "3fb8eb8c985930a81bde5c9d782a3b2063fd5eaf4535f91959ae7e39ff6625fc",
+      "bytes": 241745,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3012ff18-d251-4e08-abd5-c67445580c0b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2a7cf172257a5a4e59c4970fe7fbc3e1c3025588d114133013f38e355873ba1f",
+      "bytes": 306605,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3012ff18-d251-4e08-abd5-c67445580c0b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "db563900266abb2807226cfd6010f04798c7e2ab0f9b264c34c5c77721ba9984",
+      "bytes": 309770,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3012ff18-d251-4e08-abd5-c67445580c0b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b43a3e6af59eae9d92106fa0e19b15def6490037a1f5a21a630a28adb5f8dc03",
+      "bytes": 295431,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3012ff18-d251-4e08-abd5-c67445580c0b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "407f3d0028bde06aea50c04f8c4448cc9edb393620ec05296834476506155b95",
+      "bytes": 274996,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3012ff18-d251-4e08-abd5-c67445580c0b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "18a522e98db5da8135edb92fc9d10a0e80adb9717439cb9f54e558be5fac82f3",
+      "bytes": 310300,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3012ff18-d251-4e08-abd5-c67445580c0b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d3d1e96208a213ab52b08e6b45dca4762db6b9ad65e553e40d168972b5df7c7c",
+      "bytes": 315114,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fa0e95a3-618d-4a96-8220-f300b8659ab6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c0263046437f3eeaaef725710cf65c1f2b5ed372179b62f87337cc86ab39125d",
+      "bytes": 300398,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 333,
+      "folio_label": "fol. 167",
+      "page_id": "fa0e95a3-618d-4a96-8220-f300b8659ab6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/181f740e-3066-46e2-969f-a2876ac170c1/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b459da93ae968f64ca6178fcf7d131e0b1d1d41f07301d34175e011deddb55ac",
+      "bytes": 252416,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 335,
+      "folio_label": "fol. 168",
+      "page_id": "181f740e-3066-46e2-969f-a2876ac170c1",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

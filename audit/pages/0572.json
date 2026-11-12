@@ -1,0 +1,909 @@
+{
+  "source_order": 572,
+  "folio_label": "fol. 286b",
+  "page_id": "0cd54256-1809-46f1-9c7d-df7aca56278b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "286b",
+    "principal_page_bbox": [
+      300,
+      280,
+      2880,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          330,
+          160,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "286b",
+        "features": [
+          "ink",
+          "top left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          380,
+          940,
+          2580,
+          170
+        ],
+        "kind_hint": "marginal_note_addition_for_facing_page_entry",
+        "anchor": "C. 23(3). Do., Do. (vivaraṇa only). [✗]14 ff. called ...",
+        "features": [
+          "two handwritten lines",
+          "second line indented: 'Dated samv. 1699, but real date is approximately 1875 (W.M. 1871); cf. C 23(4) ...'",
+          "line ends with extent/date formula 'L.d.:14:8:D.' [reading?]",
+          "overwritten or cancelled character before '14 ff.' (X-like mark)",
+          "shelfmark C. 23(3)",
+          "contains a query '?' within a title reading",
+          "arrow just beyond the gutter at right, on the facing-page side, pointing left"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          370,
+          1540,
+          1760,
+          140
+        ],
+        "kind_hint": "continuation_or_addition_note",
+        "anchor": "ff.1-27, inf., ends in xiii.28. from Īśvaresanatkumārasaṃvāde [reading?] ...",
+        "features": [
+          "single line",
+          "extent statement",
+          "left-pointing arrow at right inside target page near gutter (approx [2960,1590,120,30])",
+          "probably keyed by arrow to an entry on the facing fol. 287"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          370,
+          4280,
+          2660,
+          130
+        ],
+        "kind_hint": "continuation_or_addition_note",
+        "anchor": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff., ullāsa vi, ends with ...",
+        "features": [
+          "single long line",
+          "extent statement with missing leaves",
+          "cross-reference 'Cf. [reading?] vii, 2261 for other part of same work'",
+          "left-pointing arrow at line end (approx [2990,4320,110,40])",
+          "probably keyed by arrow to an entry on the facing fol. 287"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1080,
+          380,
+          15,
+          15
+        ],
+        "description": "small ink dot, top middle"
+      },
+      {
+        "bbox": [
+          770,
+          1395,
+          15,
+          20
+        ],
+        "description": "small ink dot below b002"
+      },
+      {
+        "bbox": [
+          1575,
+          3710,
+          15,
+          100
+        ],
+        "description": "short faint vertical stroke/tick, lower middle"
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2880,
+          4000
+        ],
+        "description": "faint reversed show-through of text from the other side of the leaf across the ruled area; not target-page writing"
+      }
+    ],
+    "boundary_notes": [
+      "Writing to the right of the gutter (about x>3180: 'vd.', 'g.', 'd.', 'd.', 'e.', '✓ ℰC.1...', 'd', '– vd.') belongs to the facing fol. 287 left margin and is not transcribed as target blocks.",
+      "The arrow at the right end of b002 lies beyond the gutter on the facing-page side. The arrows for b003 and b004 lie on the target page. All three point toward entries on fol. 287. No exact parent entry is asserted here."
+    ],
+    "uncertainties": [
+      "Readings of the Sanskrit title forms within b002 and b003 are uncertain in this cursive hand.",
+      "The character before '14 ff.' in b002 is overwritten or crossed, and its underlying reading is unclear.",
+      "The abbreviation in the b004 cross-reference ('Cf. [?], vii, 2261') is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "286b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "286b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top left corner. The 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "insertion_keyed_by_arrow_to_facing_page",
+        "literal_text": "C. 23(3). Do., Do. (vivaraṇa only). ⟦[illegible]⟧14 ff. called Cannu[?] ?Cantapr[...]kāṇḍikāśrāddhasūtra [reading?] in colophon.\n Dated samv. 1699, but real date is approximately 1875 (W.M. 1871); cf. C 23(4) & (5) Śrāddhasūtra [reading?].   L.d. [reading?]:14:8:D.",
+        "fields": {
+          "shelfmark": "C. 23(3)",
+          "title": "Do., Do. (vivaraṇa only)",
+          "date": "Dated samv. 1699, but real date is approximately 1875 (W.M. 1871)",
+          "extent": "14 ff.",
+          "lines": "8",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two lines. The second line is indented.",
+          "A character before '14 ff.' is overwritten or crossed with an X-like mark.",
+          "A left-pointing arrow lies beyond the gutter on the facing fol. 287 side, at the level of line 1.",
+          "The opening of the final formula reads like 'L.d.' rather than the usual 'n.d.'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 573,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 94(2) Śrāddhasūtra, by Kātyāyana. Bhāṣya [vivaraṇa] by Karkopādhyāya",
+            "evidence": "The arrow on fol. 287 at the same height points to this note. The 'Do., Do.' would then repeat that work and its commentary.",
+            "certainty": "probable"
+          },
+          {
+            "type": "ditto_from",
+            "target_page_order": 573,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 94(2) Śrāddhasūtra",
+            "evidence": "The 'Do., Do.' refers back to the entry indicated by the arrow.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading of the alternative title after 'called' is very uncertain.",
+          "The cancelled or overwritten character before '14 ff.' cannot be read.",
+          "The 'cf. C 23(4) & (5)' reading is uncertain.",
+          "The 'L.d.' reading is uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "arrow_keyed_addition_to_facing_page_entry",
+        "literal_text": "ff.1-27, inf., ends in xiii.28. from Īśvaresanatkumārasaṃvāde [reading?] iti",
+        "fields": {
+          "extent": "ff.1-27, inf."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line.",
+          "A left-pointing arrow sits near the gutter on the target page, approximately [2960,1590,120,30].",
+          "A matching arrow appears in the left margin of fol. 287 at the same height."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 573,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ℰC.100(5) Śrāvaṇamāhātmya, from the Skandapurāṇa. Incomplete.",
+            "evidence": "There is an arrow at the matching height on both pages.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The Sanskrit compound before 'iti' is uncertain.",
+          "The word read as 'from' is cursive and uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "arrow_keyed_addition_to_facing_page_entry",
+        "literal_text": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff., ullāsa vi, ends with paryāpaṭale [reading?]. Cf. L[?], vii, 2261 for other part of same work.",
+        "fields": {
+          "extent": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single long line.",
+          "A left-pointing arrow is at the line end, approximately [2990,4320,110,40].",
+          "The note contains an internal cross-reference to another catalogue, 'vii, 2261'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 573,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "– √d. 356(1) Śrīvidyāpaddhati",
+            "evidence": "The arrow on the target page is aligned with this entry on fol. 287.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The word after 'ends with' is uncertain.",
+          "The abbreviation after 'Cf.' is uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Shelfmarked addition keyed by arrow to fol. 287."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrow-keyed continuation note."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrow-keyed continuation note."
+      }
+    ],
+    "page_annotations": [
+      "The ruled area shows faint reversed text bleeding through from the other side of the leaf. This is not target-page writing.",
+      "A small ink dot is at the top middle, approximately [1080,380].",
+      "A small ink dot is below b002, approximately [770,1395].",
+      "A short faint vertical stroke is at lower middle, approximately [1575,3710].",
+      "Writing to the right of the gutter ('vd.', 'g.', 'd.', 'e.', '✓ ℰC.1…', '– vd.') belongs to fol. 287 and is not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The exact parent entries on fol. 287 for r002, r003 and r004 are inferred from arrow alignment only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The visible folio number '286' with a superscript 'b' and a full stop is at top left, about [390,340,130,130]. The transcription matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is a two-line shelfmarked addition. Line 2 is indented. A crossed or overwritten character before '14 ff.' is noted. Parentheses or slash-like brackets around the queried title alternative after 'called' are visible but not reproduced in the literal text. The left-pointing arrow on the fol. 287 side at about y≈1000 matches the height of the d. 94(2) Śrāddhasūtra entry and the following 'Sūtra 1732:10:11:D.' line on fol. 287."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "This is a single line with a left-pointing arrow near the gutter. On fol. 287 an arrow sits at the matching height, beside ℰC.100(5) Śrāvaṇamāhātmya. The Sanskrit compound and the 'iti' reading remain uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "This is a single long line ending in an arrow. On fol. 287 an arrow at the matching height points to '– √d. 356(1) Śrīvidyāpaddhati'. The word after 'ends with' looks more like 'pujāpaṭale' than 'paryāpaṭale', but it is uncertain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "C. 23(3). Do., Do. (vivaraṇa only). ⟦[illegible]⟧14 ff. called Cannu[?] ?Cantapr[...]kāṇḍikāśrāddhasūtra [reading?] in colophon.\n Dated samv. 1699, but real date is approximately 1875 (W.M. 1871); cf. C 23(4) & (5) Śrāddhasūtra [reading?].   L.d. [reading?]:14:8:D.",
+        "after": "C. 23(3). Do., Do. (vivaraṇa only). ⟦[illegible]⟧14 ff. called Cannu[?](?Cantapr[...])kāṇḍikāśrāddhasūtra [reading?] in colophon.\n Dated samv. 1699, but real date is approximately 1875 (W.M. 1871); cf. C 23(4) & (5) Śrāddhasūtra [reading?].   L.d. [reading?]:14:8:D.",
+        "reason": "Bracket strokes enclose the queried alternative '?Cantapr...' after 'Cannu'. They are visible in the native tile. The letters inside remain uncertain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "literal_text",
+        "before": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff., ullāsa vi, ends with paryāpaṭale [reading?]. Cf. L[?], vii, 2261 for other part of same work.",
+        "after": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff., ullāsa vi, ends with pujāpaṭale [reading?]. Cf. L[?], vii, 2261 for other part of same work.",
+        "reason": "The visible letterforms after 'ends with' resemble 'p-u-j-ā-paṭale' rather than 'paryā-'. This remains a tentative reading.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings are uncertain: the alternative title after 'called', the word read 'Śrāddhasūtra' (possibly 'Śrautasūtra'), the '&' in 'C 23(4) & (5)', and 'L.d.' versus 'n.d.'.",
+        "next_check": "Use higher-contrast enlargement of x 1500-3050, y 940-1110."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The 'Do., Do.' ditto dependency on fol. 287 d. 94(2) rests on arrow alignment only.",
+        "next_check": "Confirm the arrow pairing on fol. 287 at native resolution."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The compound before 'iti' and the word 'from' are uncertain. The final word may not be 'iti'.",
+        "next_check": "Enlarge x 1100-2100, y 1540-1680."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The word after 'ends with' and the abbreviation after 'Cf.' (a letter with a dot, read 'L[?]') are uncertain.",
+        "next_check": "Enlarge x 1850-2700, y 4280-4410."
+      }
+    ],
+    "boundary_review": "Shelfmark fragments right of the gutter ('vd.', 'g.', 'd.', 'd.', 'e.', '✓ ℰC.1', 'd', '– vd.') are the left-column shelfmarks of fol. 287. They are excluded as facing-page material. The b002 arrow lies on the fol. 287 side; the b003 and b004 arrows lie on the target page. Reversed show-through across the ruled area is not target writing.",
+    "region_review": {
+      "top": "The folio number and a small dot at about [1080,380] are present. There is no other writing.",
+      "middle": "b002 and b003 are present, with a dot at about [770,1395]. Otherwise the area holds show-through only.",
+      "bottom": "b004 is present. The faint vertical stroke at about [1575,3710] is an unattached mark. Below b004 there is show-through only.",
+      "left_margin": "There is a tiny edge mark near [305,570] that may be page-edge damage. No text is present.",
+      "right_margin": "Arrows for b002, b003 and b004 are near the gutter. Beyond the gutter are fol. 287 shelfmark fragments, which are excluded.",
+      "interlinear": "There are no interlinear additions apart from the indented second line of b002."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        330,
+        160,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "286b",
+      "features": [
+        "ink",
+        "top left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        380,
+        940,
+        2580,
+        170
+      ],
+      "kind_hint": "marginal_note_addition_for_facing_page_entry",
+      "anchor": "C. 23(3). Do., Do. (vivaraṇa only). [✗]14 ff. called ...",
+      "features": [
+        "two handwritten lines",
+        "second line indented: 'Dated samv. 1699, but real date is approximately 1875 (W.M. 1871); cf. C 23(4) ...'",
+        "line ends with extent/date formula 'L.d.:14:8:D.' [reading?]",
+        "overwritten or cancelled character before '14 ff.' (X-like mark)",
+        "shelfmark C. 23(3)",
+        "contains a query '?' within a title reading",
+        "arrow just beyond the gutter at right, on the facing-page side, pointing left"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        370,
+        1540,
+        1760,
+        140
+      ],
+      "kind_hint": "continuation_or_addition_note",
+      "anchor": "ff.1-27, inf., ends in xiii.28. from Īśvaresanatkumārasaṃvāde [reading?] ...",
+      "features": [
+        "single line",
+        "extent statement",
+        "left-pointing arrow at right inside target page near gutter (approx [2960,1590,120,30])",
+        "probably keyed by arrow to an entry on the facing fol. 287"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        370,
+        4280,
+        2660,
+        130
+      ],
+      "kind_hint": "continuation_or_addition_note",
+      "anchor": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff., ullāsa vi, ends with ...",
+      "features": [
+        "single long line",
+        "extent statement with missing leaves",
+        "cross-reference 'Cf. [reading?] vii, 2261 for other part of same work'",
+        "left-pointing arrow at line end (approx [2990,4320,110,40])",
+        "probably keyed by arrow to an entry on the facing fol. 287"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "286b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top left corner. The 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0572-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "insertion_keyed_by_arrow_to_facing_page",
+      "literal_text": "C. 23(3). Do., Do. (vivaraṇa only). ⟦[illegible]⟧14 ff. called Cannu[?] ?Cantapr[...]kāṇḍikāśrāddhasūtra [reading?] in colophon.\n Dated samv. 1699, but real date is approximately 1875 (W.M. 1871); cf. C 23(4) & (5) Śrāddhasūtra [reading?].   L.d. [reading?]:14:8:D.",
+      "fields": {
+        "shelfmark": "C. 23(3)",
+        "title": "Do., Do. (vivaraṇa only)",
+        "date": "Dated samv. 1699, but real date is approximately 1875 (W.M. 1871)",
+        "extent": "14 ff.",
+        "lines": "8",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two lines. The second line is indented.",
+        "A character before '14 ff.' is overwritten or crossed with an X-like mark.",
+        "A left-pointing arrow lies beyond the gutter on the facing fol. 287 side, at the level of line 1.",
+        "The opening of the final formula reads like 'L.d.' rather than the usual 'n.d.'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 573,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 94(2) Śrāddhasūtra, by Kātyāyana. Bhāṣya [vivaraṇa] by Karkopādhyāya",
+          "evidence": "The arrow on fol. 287 at the same height points to this note. The 'Do., Do.' would then repeat that work and its commentary.",
+          "certainty": "probable"
+        },
+        {
+          "type": "ditto_from",
+          "target_page_order": 573,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 94(2) Śrāddhasūtra",
+          "evidence": "The 'Do., Do.' refers back to the entry indicated by the arrow.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading of the alternative title after 'called' is very uncertain.",
+        "The cancelled or overwritten character before '14 ff.' cannot be read.",
+        "The 'cf. C 23(4) & (5)' reading is uncertain.",
+        "The 'L.d.' reading is uncertain."
+      ],
+      "stable_id": "css-prod-0572-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "arrow_keyed_addition_to_facing_page_entry",
+      "literal_text": "ff.1-27, inf., ends in xiii.28. from Īśvaresanatkumārasaṃvāde [reading?] iti",
+      "fields": {
+        "extent": "ff.1-27, inf."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line.",
+        "A left-pointing arrow sits near the gutter on the target page, approximately [2960,1590,120,30].",
+        "A matching arrow appears in the left margin of fol. 287 at the same height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 573,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ℰC.100(5) Śrāvaṇamāhātmya, from the Skandapurāṇa. Incomplete.",
+          "evidence": "There is an arrow at the matching height on both pages.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The Sanskrit compound before 'iti' is uncertain.",
+        "The word read as 'from' is cursive and uncertain."
+      ],
+      "stable_id": "css-prod-0572-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "arrow_keyed_addition_to_facing_page_entry",
+      "literal_text": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff., ullāsa vi, ends with paryāpaṭale [reading?]. Cf. L[?], vii, 2261 for other part of same work.",
+      "fields": {
+        "extent": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single long line.",
+        "A left-pointing arrow is at the line end, approximately [2990,4320,110,40].",
+        "The note contains an internal cross-reference to another catalogue, 'vii, 2261'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 573,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "– √d. 356(1) Śrīvidyāpaddhati",
+          "evidence": "The arrow on the target page is aligned with this entry on fol. 287.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The word after 'ends with' is uncertain.",
+        "The abbreviation after 'Cf.' is uncertain."
+      ],
+      "stable_id": "css-prod-0572-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "C. 23(3). Do., Do. (vivaraṇa only). ⟦[illegible]⟧14 ff. called Cannu[?] ?Cantapr[...]kāṇḍikāśrāddhasūtra [reading?] in colophon.\n Dated samv. 1699, but real date is approximately 1875 (W.M. 1871); cf. C 23(4) & (5) Śrāddhasūtra [reading?].   L.d. [reading?]:14:8:D.",
+      "after": "C. 23(3). Do., Do. (vivaraṇa only). ⟦[illegible]⟧14 ff. called Cannu[?](?Cantapr[...])kāṇḍikāśrāddhasūtra [reading?] in colophon.\n Dated samv. 1699, but real date is approximately 1875 (W.M. 1871); cf. C 23(4) & (5) Śrāddhasūtra [reading?].   L.d. [reading?]:14:8:D.",
+      "reason": "Bracket strokes enclose the queried alternative '?Cantapr...' after 'Cannu'. They are visible in the native tile. The letters inside remain uncertain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff., ullāsa vi, ends with paryāpaṭale [reading?]. Cf. L[?], vii, 2261 for other part of same work.",
+      "after": "ff.1-20, 29-172 (20 ff. m.) and 16 unn. ff., ullāsa vi, ends with pujāpaṭale [reading?]. Cf. L[?], vii, 2261 for other part of same work.",
+      "reason": "The visible letterforms after 'ends with' resemble 'p-u-j-ā-paṭale' rather than 'paryā-'. This remains a tentative reading.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0cd54256-1809-46f1-9c7d-df7aca56278b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cd54256-1809-46f1-9c7d-df7aca56278b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "a1017a7706623b42db72596c3dcb04937fce541ad22dd3bd1cef036a9273b383",
+      "bytes": 290826,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cd54256-1809-46f1-9c7d-df7aca56278b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "aa363a9adca09e11d02b75f49ef1b424f728b7316273067c7624c962680e3152",
+      "bytes": 375411,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cd54256-1809-46f1-9c7d-df7aca56278b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "04ccb913a24b1a5078a8b946ef3c83ce511d6c8c48838feddf7b712b9cc8af47",
+      "bytes": 369625,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cd54256-1809-46f1-9c7d-df7aca56278b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4dcf500db85391cb00f56a3bc9bf9dc168331c8c323e1f6ccdad5d5c5f1d0e63",
+      "bytes": 334016,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cd54256-1809-46f1-9c7d-df7aca56278b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bfe9d709a03867f560398ae7510e2a5858b4b4c2c15d3458ca875cb6a73ecdef",
+      "bytes": 301474,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cd54256-1809-46f1-9c7d-df7aca56278b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee4ae68881994ae76133a955aedead908ecd6f60e2309b50577b289633ae61b7",
+      "bytes": 341787,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0cd54256-1809-46f1-9c7d-df7aca56278b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0be0b7b64765437e13e9e9ab63c91dff2cf092bdbb232f586426566f743a577f",
+      "bytes": 342029,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/aa2b545f-be57-4439-9c60-d3a48b34b90d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "57118af280a72e8f0b9981cabb683315189e9cbc15d7f44f2daf89999742135f",
+      "bytes": 327373,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 571,
+      "folio_label": "fol. 286",
+      "page_id": "aa2b545f-be57-4439-9c60-d3a48b34b90d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/402aa6c1-91fd-4e84-960b-22ac116dbe95/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "9b3078dacf82375109a73643dea49fcfdadf29fc22b1089c695602fd9e52a93b",
+      "bytes": 306304,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 573,
+      "folio_label": "fol. 287",
+      "page_id": "402aa6c1-91fd-4e84-960b-22ac116dbe95",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1090 @@
+{
+  "source_order": 36,
+  "folio_label": "fol. 18b",
+  "page_id": "c12123f9-97f4-4940-8556-4e2aadf819c5",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "18b",
+    "principal_page_bbox": [
+      305,
+      245,
+      2870,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          330,
+          130,
+          100
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "18b",
+        "features": [
+          "top left corner",
+          "superscript b with dot beneath",
+          "ink/pencil darker than ruling"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          415,
+          1160,
+          1490,
+          120
+        ],
+        "kind_hint": "note_or_continuation",
+        "anchor": "ff.1-10. Scribe Kālīprasāda Dāsa. RLM, II, 620.",
+        "features": [
+          "single line on ruled line about one quarter down the page",
+          "faint pencil",
+          "no shelfmark or heading on this page",
+          "attachment uncertain; possibly an addition referring to an entry on the facing page fol. 18 or fol. 19, not a holding in itself",
+          "reading 'Scribe' and 'RLM' are tentative"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2010,
+          2890,
+          740,
+          200
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "[Tri?]kāṇḍa Corrupt. metre & text",
+        "features": [
+          "faint pencil",
+          "enclosed by two overlapping hand-drawn ovals",
+          "near the gutter side of the page, level with entries on the facing page fol. 19 (around the d. 341 lines)",
+          "first word is uncertain",
+          "attachment uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2985,
+          1180,
+          230,
+          50
+        ],
+        "description": "Short horizontal pencil line with a small hook near the gutter, level with b002. It may point toward the facing-page entry 'c. 369(6)'."
+      },
+      {
+        "bbox": [
+          2745,
+          2480,
+          90,
+          100
+        ],
+        "description": "Faint pencil 'a/' or a similar mark with a slash, in the right part of the page."
+      },
+      {
+        "bbox": [
+          3000,
+          2930,
+          90,
+          190
+        ],
+        "description": "Pencil mark 'm/' or 'm' followed by a long slash, to the right of b003 near the gutter."
+      },
+      {
+        "bbox": [
+          2840,
+          3200,
+          200,
+          280
+        ],
+        "description": "Faint pencil '?/' or '7/' mark with a slash, near the gutter below b003. A second faint stroke may lie lower."
+      },
+      {
+        "bbox": [
+          320,
+          1410,
+          30,
+          50
+        ],
+        "description": "Tiny pencil tick or stroke at the left margin."
+      }
+    ],
+    "boundary_notes": [
+      "The strip right of the gutter (x > c.3190) belongs to the facing page fol. 19 ('e. 10', 'e. 1', 'd. 5', '√c. 3', 'd.', 'f. 4', 'd.', 'e.', 'du', '√d.', 'ff 1-11, in ... shorter vers...', '√d.', 'e.', 'e.', 'd.'). It is not transcribed as target content.",
+      "The slash marks near the gutter correspond to marks visible at the left edge of the fol. 19 overview, but they lie physically on fol. 18b.",
+      "Faint mirrored text across the page is show-through from the other side of the leaf, not writing on this page."
+    ],
+    "uncertainties": [
+      "The reading of b002 is tentative: 'Scribe' could be another word, and 'RLM, II, 620' is uncertain.",
+      "The first word of b003 is uncertain ('Trikkāṇḍa'/'Triskāṇḍa'?).",
+      "The marks 'a/', 'm/' and '?/' may be reviewer annotations whose meaning is unclear."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "18b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "18ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top left corner of the page. A superscript 'b' has a dot or point beneath it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The mark beneath the superscript b may be a full stop or an underdot."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "supplementary_note",
+        "literal_text": "ff.1-10. Scribe Kālīprasāda Dāsa. RLM, II, 620.",
+        "fields": {
+          "extent": "ff.1-10",
+          "source": "RLM, II, 620"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, written as a single line on a ruled line about a quarter of the way down the page.",
+          "There is no shelfmark or title on this page.",
+          "A short pencil line with a small hook (b901) lies near the gutter at the same level. It appears to lead toward the left margin of the facing fol. 19, level with the entry 'c. 369 (6)ᶜ Ātmanātmaviveka. By Śaṅkara Ācārya'. A matching dash is visible at the left edge of the fol. 19 overview.",
+          "The note names a scribe. That person is not treated as the author."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 37,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 369 (6)ᶜ Ātmanātmaviveka. By Śaṅkara Ācārya",
+            "evidence": "A hooked pencil line at the same height runs to the gutter, opposite the fol. 19 entry c. 369(6).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'Scribe' is tentative.",
+          "The reading 'Kālīprasāda' is tentative because the diacritics are faint.",
+          "The reading 'RLM, II, 620' is tentative.",
+          "The attachment to fol. 19 c. 369(6) rests on the connecting line and is not certain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_note",
+        "literal_text": "[Trikkāṇḍa?] Corrupt. metre & text",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil note enclosed by two overlapping hand-drawn ovals.",
+          "It sits toward the gutter, level with the fol. 19 note 'ff 1-11, in 10+162 verses, shorter version of 10.3453' that belongs to the entry d. 341(8) Ādityahṛdayastotra."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 37,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 341(8) Ādityahṛdayastotra / ff 1-11, in 10+162 verses",
+            "evidence": "The note is at the same vertical level only; no connecting line was seen.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The first word is uncertain; possible readings include 'Trikkāṇḍa' and 'Triskāṇḍa'.",
+          "The attachment is uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "reviewer_mark",
+        "literal_text": "a/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil letter followed by a slash, in the right part of the page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The letter reading is uncertain.",
+          "The meaning of the mark is unknown."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b903"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "reviewer_mark",
+        "literal_text": "m/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil 'm', or a similar letter, followed by a long slash.",
+          "It lies to the right of b003, near the gutter, level with fol. 19 d. 341(8)."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The letter reading is uncertain.",
+          "The purpose of the mark is unclear."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b904"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "reviewer_mark",
+        "literal_text": "?/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil character with a slash, below b003 and near the gutter.",
+          "A further faint stroke, possibly 'a/', lies just below and to the left."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The character may be '?', '7' or another letter.",
+          "The meaning of the mark is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2985,
+          1180,
+          230,
+          50
+        ],
+        "kind_hint": "connecting_mark",
+        "anchor": "hooked horizontal line",
+        "features": [
+          "pencil",
+          "level with b002",
+          "runs toward the fol. 19 entry c. 369(6)"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2750,
+          2480,
+          90,
+          100
+        ],
+        "kind_hint": "marginal_mark",
+        "anchor": "a/",
+        "features": [
+          "faint pencil",
+          "slash"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          3000,
+          2930,
+          90,
+          200
+        ],
+        "kind_hint": "marginal_mark",
+        "anchor": "m/",
+        "features": [
+          "pencil",
+          "long slash"
+        ]
+      },
+      {
+        "id": "b904",
+        "bbox": [
+          2840,
+          3200,
+          200,
+          280
+        ],
+        "kind_hint": "marginal_mark",
+        "anchor": "?/",
+        "features": [
+          "faint pencil",
+          "slash",
+          "second faint stroke below"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Supplementary pencil note. It is probably attached, via b901, to the fol. 19 entry c. 369(6)."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Oval-enclosed pencil note with uncertain attachment."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Connecting hook line recorded as attachment evidence for b002."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Reviewer mark."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Reviewer mark."
+      },
+      {
+        "block_id": "b904",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Reviewer mark."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number, two pencil notes and a few slash marks, the page is otherwise unwritten ruled paper.",
+      "Faint mirrored writing across the page is show-through from the reverse of the leaf and was not transcribed.",
+      "The strip to the right of the gutter (x > c.3190) belongs to fol. 19 and was not transcribed.",
+      "A tiny pencil tick or stroke at the left margin (c. [320,1410]) is not textual.",
+      "The bottom of the page was reviewed and is blank."
+    ],
+    "unresolved_relationships": [
+      "The b002 attachment to fol. 19 c. 369(6) is probable but not secure.",
+      "The b003 attachment to fol. 19 d. 341(8)/(4) is uncertain.",
+      "The meaning of the slash marks b902–b904 is unknown."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio label '18' with superscript b and a point beneath, at the top left (native c.[395,335,110,90]). The candidate's literal '18ᵇ.' matches the image. The dot/underdot ambiguity is correctly kept."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Single faint pencil line at native y≈1180–1260, x≈420–1900, reading 'ff.1-10. Scribe Kālīprasāda Dāsa[?]. RLM, II, 620.' It has no shelfmark or heading. It is correctly treated as an annotation, not a holding. The final vowel of 'Dāsa' appears to carry a stroke that may be a macron. This is now flagged as an uncertainty."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Oval-enclosed pencil note at native c.[2010,2900,740,190]. 'Corrupt. metre & text' is legible; the ampersand-like sign is read as '&'. The first word is not securely legible and is correctly bracketed as uncertain. The note is level with the fol. 19 note 'ff 1-11, in 10+162 verses…' under d. 341(8). No connecting line is visible."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Hooked pencil line at native x≈2989–3214, y≈1200–1215. It runs up to and slightly across the gutter (gutter c.x 3180–3195). It matches the dash seen at the left edge of the fol. 19 overview, opposite c. 369 (6)ᶜ. The candidate correctly records it as attachment evidence for b002, at probable certainty only."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Faint 'a/' (or 'd/') at native c.[2754,2488,70,85]. Correctly recorded as an uncertain mark."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Pencil 'm' (apparently with a point below) followed by a long slash, at native c.[3000,2938,75,180]. It lies physically on fol. 18b near the gutter and corresponds to the 'm/' visible at the left edge of the fol. 19 overview. Correctly recorded."
+      },
+      {
+        "block_id": "b904",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "Faint '?/' or '7/' with a point below, at native c.[2924,3245,70,165]. A further faint curved stroke lies lower left (native c.[2844,3330,60,110]); it may be a separate 'a/'-like mark. The candidate folds this stroke into r006 as an annotation, which is acceptable, but whether it is a separate mark is unresolved."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The reading 'Scribe' is tentative.",
+          "The reading 'Kālīprasāda' is tentative because the diacritics are faint.",
+          "The reading 'RLM, II, 620' is tentative.",
+          "The attachment to fol. 19 c. 369(6) rests on the connecting line and is not certain."
+        ],
+        "after": [
+          "The reading 'Scribe' is tentative.",
+          "The reading 'Kālīprasāda' is tentative because the diacritics are faint.",
+          "The final vowel of 'Dāsa' appears to carry a stroke that may be a macron ('Dāsā'); this is not securely resolved.",
+          "The reading 'RLM, II, 620' is tentative; 'II' is written as a roman numeral with serif-like strokes.",
+          "The attachment to fol. 19 c. 369(6) rests on the connecting line and is not certain."
+        ],
+        "reason": "Native tile 1 shows a superscript stroke over the final letter of 'Dāsa'. This possible diacritic should be recorded as uncertain rather than silently omitted.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "Attachment of the scribe/extent note to fol. 19 c. 369 (6)ᶜ Ātmanātmaviveka is supported only by the hooked line at the same height. It is not secure.",
+        "next_check": "Compare with how other facing-page additions in this volume use hooked lines toward the opposite page."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The first word of the oval note is illegible or uncertain. Its attachment to fol. 19 d. 341(8) or d. 341(4) rests on vertical level only.",
+        "next_check": "Higher-contrast imaging of the first word; compare with the titles of the d. 341 entries on fol. 19."
+      },
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b904"
+        ],
+        "issue": "It is unclear whether the lower-left faint stroke below '?/' is a separate mark (possibly 'a/') or part of the same mark.",
+        "next_check": "Enhanced view of native region c.[2830,3220,200,240]."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b902",
+          "b903",
+          "b904"
+        ],
+        "issue": "The meaning of the letter-plus-slash marks near the gutter is unknown.",
+        "next_check": "Look for similar mark series on other verso pages."
+      }
+    ],
+    "boundary_review": "The gutter lies at about native x 3180–3195. Everything to its right (e. 10…, e. 1…, d. 5…, √c. 3…, d., f. 4, d., e., du…, √d., ff 1-11 … shorter vers…, √d., e., e., d.-) belongs to fol. 19 and is correctly excluded. The b901 hook slightly crosses the gutter but originates on 18b. The marks b903 and b904 lie on 18b although they are visible on the fol. 19 overview edge. Mirrored faint writing across the page is show-through and is not transcribed. Attachments remain probable or uncertain only.",
+    "region_review": {
+      "top": "Folio label 18ᵇ only. There is a speck near the gutter at about native (3149,550); it is not text.",
+      "middle": "b002 line with hook b901. b902 'a/'. b003 oval note with b903 'm/'. b904 '?/' plus a lower faint stroke. The rest is ruled lines with show-through.",
+      "bottom": "Reviewed in native tiles 5 and 6. No writing; only faint show-through and specks.",
+      "left_margin": "A tiny pencil tick at about native (325,1420) is non-textual. It is noted in the candidate's page_annotations and has no block ID.",
+      "right_margin": "The gutter-side marks b901, b903 and b904 are represented. Fol. 19 content beyond the gutter is excluded.",
+      "interlinear": "No interlinear additions, cancellations or corrections were found on this page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        330,
+        130,
+        100
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "18b",
+      "features": [
+        "top left corner",
+        "superscript b with dot beneath",
+        "ink/pencil darker than ruling"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        415,
+        1160,
+        1490,
+        120
+      ],
+      "kind_hint": "note_or_continuation",
+      "anchor": "ff.1-10. Scribe Kālīprasāda Dāsa. RLM, II, 620.",
+      "features": [
+        "single line on ruled line about one quarter down the page",
+        "faint pencil",
+        "no shelfmark or heading on this page",
+        "attachment uncertain; possibly an addition referring to an entry on the facing page fol. 18 or fol. 19, not a holding in itself",
+        "reading 'Scribe' and 'RLM' are tentative"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2010,
+        2890,
+        740,
+        200
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "[Tri?]kāṇḍa Corrupt. metre & text",
+      "features": [
+        "faint pencil",
+        "enclosed by two overlapping hand-drawn ovals",
+        "near the gutter side of the page, level with entries on the facing page fol. 19 (around the d. 341 lines)",
+        "first word is uncertain",
+        "attachment uncertain"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2985,
+        1180,
+        230,
+        50
+      ],
+      "kind_hint": "connecting_mark",
+      "anchor": "hooked horizontal line",
+      "features": [
+        "pencil",
+        "level with b002",
+        "runs toward the fol. 19 entry c. 369(6)"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2750,
+        2480,
+        90,
+        100
+      ],
+      "kind_hint": "marginal_mark",
+      "anchor": "a/",
+      "features": [
+        "faint pencil",
+        "slash"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        3000,
+        2930,
+        90,
+        200
+      ],
+      "kind_hint": "marginal_mark",
+      "anchor": "m/",
+      "features": [
+        "pencil",
+        "long slash"
+      ]
+    },
+    {
+      "id": "b904",
+      "bbox": [
+        2840,
+        3200,
+        200,
+        280
+      ],
+      "kind_hint": "marginal_mark",
+      "anchor": "?/",
+      "features": [
+        "faint pencil",
+        "slash",
+        "second faint stroke below"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "18ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top left corner of the page. A superscript 'b' has a dot or point beneath it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The mark beneath the superscript b may be a full stop or an underdot."
+      ],
+      "stable_id": "css-prod-0036-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "supplementary_note",
+      "literal_text": "ff.1-10. Scribe Kālīprasāda Dāsa. RLM, II, 620.",
+      "fields": {
+        "extent": "ff.1-10",
+        "source": "RLM, II, 620"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, written as a single line on a ruled line about a quarter of the way down the page.",
+        "There is no shelfmark or title on this page.",
+        "A short pencil line with a small hook (b901) lies near the gutter at the same level. It appears to lead toward the left margin of the facing fol. 19, level with the entry 'c. 369 (6)ᶜ Ātmanātmaviveka. By Śaṅkara Ācārya'. A matching dash is visible at the left edge of the fol. 19 overview.",
+        "The note names a scribe. That person is not treated as the author."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 37,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 369 (6)ᶜ Ātmanātmaviveka. By Śaṅkara Ācārya",
+          "evidence": "A hooked pencil line at the same height runs to the gutter, opposite the fol. 19 entry c. 369(6).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'Scribe' is tentative.",
+        "The reading 'Kālīprasāda' is tentative because the diacritics are faint.",
+        "The reading 'RLM, II, 620' is tentative.",
+        "The attachment to fol. 19 c. 369(6) rests on the connecting line and is not certain."
+      ],
+      "stable_id": "css-prod-0036-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_note",
+      "literal_text": "[Trikkāṇḍa?] Corrupt. metre & text",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil note enclosed by two overlapping hand-drawn ovals.",
+        "It sits toward the gutter, level with the fol. 19 note 'ff 1-11, in 10+162 verses, shorter version of 10.3453' that belongs to the entry d. 341(8) Ādityahṛdayastotra."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 37,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 341(8) Ādityahṛdayastotra / ff 1-11, in 10+162 verses",
+          "evidence": "The note is at the same vertical level only; no connecting line was seen.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The first word is uncertain; possible readings include 'Trikkāṇḍa' and 'Triskāṇḍa'.",
+        "The attachment is uncertain."
+      ],
+      "stable_id": "css-prod-0036-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "reviewer_mark",
+      "literal_text": "a/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil letter followed by a slash, in the right part of the page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The letter reading is uncertain.",
+        "The meaning of the mark is unknown."
+      ],
+      "stable_id": "css-prod-0036-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b903"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "reviewer_mark",
+      "literal_text": "m/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil 'm', or a similar letter, followed by a long slash.",
+        "It lies to the right of b003, near the gutter, level with fol. 19 d. 341(8)."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The letter reading is uncertain.",
+        "The purpose of the mark is unclear."
+      ],
+      "stable_id": "css-prod-0036-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b904"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "reviewer_mark",
+      "literal_text": "?/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil character with a slash, below b003 and near the gutter.",
+        "A further faint stroke, possibly 'a/', lies just below and to the left."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The character may be '?', '7' or another letter.",
+        "The meaning of the mark is unknown."
+      ],
+      "stable_id": "css-prod-0036-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'Scribe' is tentative.",
+        "The reading 'Kālīprasāda' is tentative because the diacritics are faint.",
+        "The reading 'RLM, II, 620' is tentative.",
+        "The attachment to fol. 19 c. 369(6) rests on the connecting line and is not certain."
+      ],
+      "after": [
+        "The reading 'Scribe' is tentative.",
+        "The reading 'Kālīprasāda' is tentative because the diacritics are faint.",
+        "The final vowel of 'Dāsa' appears to carry a stroke that may be a macron ('Dāsā'); this is not securely resolved.",
+        "The reading 'RLM, II, 620' is tentative; 'II' is written as a roman numeral with serif-like strokes.",
+        "The attachment to fol. 19 c. 369(6) rests on the connecting line and is not certain."
+      ],
+      "reason": "Native tile 1 shows a superscript stroke over the final letter of 'Dāsa'. This possible diacritic should be recorded as uncertain rather than silently omitted.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c12123f9-97f4-4940-8556-4e2aadf819c5.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12123f9-97f4-4940-8556-4e2aadf819c5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4b8173b04201c1a9f7ecaf21ea680fbe52522034895073479e61d3e5910cbbf1",
+      "bytes": 245495,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12123f9-97f4-4940-8556-4e2aadf819c5/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cd57c40f384b197bff062c54d99d8e5cb037a86bdee15edea37f8c531e58d326",
+      "bytes": 300469,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12123f9-97f4-4940-8556-4e2aadf819c5/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "021b99e26d0ba2388d7a4a1d8eb0986f44241e90ca42636cbce2103dcf2bff91",
+      "bytes": 301385,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12123f9-97f4-4940-8556-4e2aadf819c5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0ccfe722530ca9c88641e4d4bd716ba3353095460956bdf70590bf9f1f339412",
+      "bytes": 297850,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12123f9-97f4-4940-8556-4e2aadf819c5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "86a545b8c9cc854ddbaaa472eb942aeef89df00b5835564ac8820087a88db057",
+      "bytes": 298645,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12123f9-97f4-4940-8556-4e2aadf819c5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1e14a8224803e1183b7118f1cef8da01db102e4c30485b91df3482ec153f6281",
+      "bytes": 302068,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c12123f9-97f4-4940-8556-4e2aadf819c5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6b2e5cd5475497a30f38542736ec2aa0a891b0dde1a78c0e8ebe462374eeb339",
+      "bytes": 312245,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4b9e7a3a-2eee-4965-ac17-533dd088f4cb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5eae9f249414a8de2b18b16114af31101a17ebc814a034432cdb2a24770e8173",
+      "bytes": 261316,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 35,
+      "folio_label": "fol. 18",
+      "page_id": "4b9e7a3a-2eee-4965-ac17-533dd088f4cb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/814605e1-9db6-43fd-bede-d95ba3341b89/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0cf07e1523d5547528541f458448be13476b545835a2a5b31fb88b8457b9dca3",
+      "bytes": 245075,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 37,
+      "folio_label": "fol. 19",
+      "page_id": "814605e1-9db6-43fd-bede-d95ba3341b89",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

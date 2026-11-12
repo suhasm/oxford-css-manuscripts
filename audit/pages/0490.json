@@ -1,0 +1,985 @@
+{
+  "source_order": 490,
+  "folio_label": "fol. 245b",
+  "page_id": "58ee6a90-1264-4bd6-9e06-9f828b0f455f",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "other",
+    "visible_folio": "245b",
+    "principal_page_bbox": [
+      315,
+      255,
+      2900,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          420,
+          300,
+          145,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "245b",
+        "features": [
+          "top left corner",
+          "pencil or ink",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          3005,
+          760,
+          100,
+          170
+        ],
+        "kind_hint": "marginal_mark_note",
+        "anchor": "ā/",
+        "features": [
+          "right margin area",
+          "pencil",
+          "letter with macron followed by long oblique stroke",
+          "no adjacent target-page text"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2935,
+          1010,
+          135,
+          200
+        ],
+        "kind_hint": "marginal_mark_note",
+        "anchor": "ṭṭh/ [reading?]",
+        "features": [
+          "right margin area",
+          "pencil",
+          "dots below letters",
+          "long oblique stroke"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2990,
+          1765,
+          75,
+          135
+        ],
+        "kind_hint": "marginal_mark_note",
+        "anchor": "r/ [reading?]",
+        "features": [
+          "right margin area",
+          "pencil",
+          "small letter crossed by oblique stroke",
+          "diacritic uncertain"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2900,
+          2120,
+          80,
+          150
+        ],
+        "kind_hint": "marginal_mark_note",
+        "anchor": "ś/",
+        "features": [
+          "right margin area",
+          "pencil",
+          "acute-type mark over s",
+          "oblique stroke"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2960,
+          2360,
+          85,
+          175
+        ],
+        "kind_hint": "marginal_mark_note",
+        "anchor": "ṇ/ [reading?]",
+        "features": [
+          "right margin area",
+          "pencil",
+          "dot below n",
+          "oblique stroke"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          2945,
+          3540,
+          95,
+          195
+        ],
+        "kind_hint": "marginal_mark_note",
+        "anchor": "ā/",
+        "features": [
+          "lower right area",
+          "pencil",
+          "macron over a",
+          "long oblique stroke"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1740,
+          4200,
+          1200,
+          400
+        ],
+        "description": "Scattered specks or dust and debris in a loose arc across the lower page. These are not writing."
+      },
+      {
+        "bbox": [
+          400,
+          500,
+          2750,
+          3800
+        ],
+        "description": "Faint ghosting or show-through of handwriting from the other side of the leaf across the ruled lines. It is not legible target-page text and is not transcribed."
+      }
+    ],
+    "boundary_notes": [
+      "The strip at the right edge (x > about 3280) belongs to the facing page, fol. 246, and is excluded. It shows 'Sc...', a circled 'i', a circled 'n', a tick, '?', a curved line, 'ū/' and 'ī/?'.",
+      "The letter-plus-slash marks on the target page sit near the outer right edge of the writing area and have no attached entries on this page. They may relate to the facing or other pages, but no relation is assumed."
+    ],
+    "uncertainties": [
+      "The readings of the diacritics in b003, b004 and b006 are uncertain.",
+      "The faint show-through might hide very faint target-page pencil. No such pencil was identified on inspection."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank_except_folio_number_and_marginal_marks",
+    "visible_folio": "245ᵇ",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "245ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner, written in pencil or ink. The 'b' is superscript and has a small dot or stroke beneath it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "diacritic_check_mark",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, in the right part of the page near the outer edge.",
+          "Letter a with a macron above, followed by a long oblique stroke.",
+          "There is no adjacent catalogue text on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Purpose and attachment unknown. Not assumed to relate to the facing page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "diacritic_check_mark",
+        "literal_text": "ṭṭh/ [reading?]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Letters 'tth' with two dots below, followed by a long oblique stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The letters and the placement of the dots are uncertain. The dots may sit under the two t's."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "diacritic_check_mark",
+        "literal_text": "r/ [reading?]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Small letter crossed by an oblique stroke, with an angled foot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The letter and any diacritic are uncertain. It might be r with a diacritic, such as ṛ or r̄."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "diacritic_check_mark",
+        "literal_text": "ś/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Letter s with an acute-type mark above, followed by an oblique stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "diacritic_check_mark",
+        "literal_text": "ṇ/ [reading?]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Letter n with a dot below, followed by an oblique stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading of the underdot is probable but not certain."
+        ]
+      },
+      {
+        "id": "r007",
+        "block_ids": [
+          "b007"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "diacritic_check_mark",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, in the lower right area.",
+          "Letter a with a macron above, followed by a long oblique stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Purpose and attachment unknown."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Isolated pencil letter-plus-slash mark."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Isolated pencil letter-plus-slash mark. The reading is uncertain."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Isolated pencil letter-plus-slash mark. The reading is uncertain."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Isolated pencil letter-plus-slash mark."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Isolated pencil letter-plus-slash mark. The reading is probable."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r007"
+        ],
+        "explanation": "Isolated pencil letter-plus-slash mark."
+      }
+    ],
+    "page_annotations": [
+      "The ruled page carries no catalogue entries. It has only the folio number and six pencil letter-plus-slash marks near the outer right edge of the writing area.",
+      "Faint show-through from the reverse of the leaf is visible across the ruled lines. It is not legible as target-page writing and is not transcribed.",
+      "Specks or debris in a loose arc across the lower page, around x 1740–2940 and y 4200–4600, are not writing.",
+      "The strip at the far right (x > ~3280) belongs to fol. 246 and is excluded. It shows 'Sc...', a circled i, a circled n, a tick, '?', a curved line, 'ū/' and 'ī/?'.",
+      "Fol. 245 carries similar letter-plus-slash marks in the strip of the preceding verso visible at its left edge. The marks here may be diacritic checks of the same kind. No attachment to any specific entry is assumed."
+    ],
+    "unresolved_relationships": [
+      "It is unresolved whether marks b002–b007 refer to entries on fol. 246 or to entries elsewhere. They are not positionally aligned with any entry on this page."
+    ]
+  },
+  "review": {
+    "page_class": "blank_except_folio_number_and_marginal_marks",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '245' with a superscript 'b' is in the top-left corner, at about canvas x 425–575 and y 300–420. A small mark sits beneath the 'b'. The candidate reading '245ᵇ' matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Native tile 2 shows a macron over 'a' and a long oblique stroke, at about canvas x 3010–3105 and y 760–930. The reading 'ā/' is secure."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The mark reads as 'tth' with two dots beneath the first letters, followed by a long oblique stroke, at about canvas y 1010–1205. Which letters carry the dots remains uncertain, and the candidate keeps the [reading?] flag."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A small r-like letter is crossed by an oblique stroke that ends in an angled foot, at about canvas x 2995–3065 and y 1765–1900. The diacritic cannot be determined, and the candidate correctly leaves it uncertain."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "An 's' with an acute-type mark above is followed by an oblique stroke, at about canvas x 2900–2975 and y 2120–2270. The reading 'ś/' is legible."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "An 'n' with a dot below is followed by an oblique stroke, at about canvas y 2365–2540. The underdot is visible, but the candidate's caution is acceptable."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r007"
+        ],
+        "finding": "A macron over 'a' is followed by a long oblique stroke, at about canvas x 2945–3035 and y 3540–3735. The reading 'ā/' is secure."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The letter and its diacritic are not legible enough to decide between r, ṛ or another form.",
+        "next_check": "Inspect the original in raking light or at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The placement of the two underdots, and so whether the reading is ṭṭh, ṭth or similar, is uncertain.",
+        "next_check": "Use higher-magnification imaging of the region around canvas x 2940–3070, y 1010–1210."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004",
+          "b005",
+          "b006",
+          "b007"
+        ],
+        "issue": "The purpose and attachment of the letter-plus-slash marks are unknown. They do not align with any entry on this page, and no relation to fol. 246 can be verified from these images.",
+        "next_check": "Compare the original volume for any systematic diacritic-check practice. Do not assume an attachment."
+      }
+    ],
+    "boundary_review": "The right strip beyond about x 3280 belongs to fol. 246 and is correctly excluded. It shows 'Sc...', a circled i, a circled n, a tick, '?', a long curved line, 'ū/' and 'ī/?'. None of these duplicates a target record. The marks seen at the left edge of fol. 245 belong to the preceding verso's facing strip, not to this page. The gutter shows only binding thread and the page edge, with no writing.",
+    "region_review": {
+      "top": "There is only the folio number 245ᵇ in the top left, plus a stray speck. No other writing is present.",
+      "middle": "There are no catalogue entries. Faint show-through from the reverse is visible across the ruled lines but is not legible as target-page writing. Isolated specks, such as one near canvas x 2155, y 1712, are not writing.",
+      "bottom": "An arc of debris or specks lies at about canvas y 4200–4500. Below the last ruled lines there is no bottom note.",
+      "left_margin": "The left margin has no writing, only page-edge layering and specks.",
+      "right_margin": "The six pencil letter-plus-slash marks (b002–b007) are all represented, and no further marks were found.",
+      "interlinear": "No interlinear additions were found. The only content between the ruled lines is show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        420,
+        300,
+        145,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "245b",
+      "features": [
+        "top left corner",
+        "pencil or ink",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        3005,
+        760,
+        100,
+        170
+      ],
+      "kind_hint": "marginal_mark_note",
+      "anchor": "ā/",
+      "features": [
+        "right margin area",
+        "pencil",
+        "letter with macron followed by long oblique stroke",
+        "no adjacent target-page text"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2935,
+        1010,
+        135,
+        200
+      ],
+      "kind_hint": "marginal_mark_note",
+      "anchor": "ṭṭh/ [reading?]",
+      "features": [
+        "right margin area",
+        "pencil",
+        "dots below letters",
+        "long oblique stroke"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2990,
+        1765,
+        75,
+        135
+      ],
+      "kind_hint": "marginal_mark_note",
+      "anchor": "r/ [reading?]",
+      "features": [
+        "right margin area",
+        "pencil",
+        "small letter crossed by oblique stroke",
+        "diacritic uncertain"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2900,
+        2120,
+        80,
+        150
+      ],
+      "kind_hint": "marginal_mark_note",
+      "anchor": "ś/",
+      "features": [
+        "right margin area",
+        "pencil",
+        "acute-type mark over s",
+        "oblique stroke"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2960,
+        2360,
+        85,
+        175
+      ],
+      "kind_hint": "marginal_mark_note",
+      "anchor": "ṇ/ [reading?]",
+      "features": [
+        "right margin area",
+        "pencil",
+        "dot below n",
+        "oblique stroke"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        2945,
+        3540,
+        95,
+        195
+      ],
+      "kind_hint": "marginal_mark_note",
+      "anchor": "ā/",
+      "features": [
+        "lower right area",
+        "pencil",
+        "macron over a",
+        "long oblique stroke"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "245ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner, written in pencil or ink. The 'b' is superscript and has a small dot or stroke beneath it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0490-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "diacritic_check_mark",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, in the right part of the page near the outer edge.",
+        "Letter a with a macron above, followed by a long oblique stroke.",
+        "There is no adjacent catalogue text on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Purpose and attachment unknown. Not assumed to relate to the facing page."
+      ],
+      "stable_id": "css-prod-0490-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "diacritic_check_mark",
+      "literal_text": "ṭṭh/ [reading?]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Letters 'tth' with two dots below, followed by a long oblique stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The letters and the placement of the dots are uncertain. The dots may sit under the two t's."
+      ],
+      "stable_id": "css-prod-0490-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "diacritic_check_mark",
+      "literal_text": "r/ [reading?]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Small letter crossed by an oblique stroke, with an angled foot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The letter and any diacritic are uncertain. It might be r with a diacritic, such as ṛ or r̄."
+      ],
+      "stable_id": "css-prod-0490-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "diacritic_check_mark",
+      "literal_text": "ś/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Letter s with an acute-type mark above, followed by an oblique stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0490-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "diacritic_check_mark",
+      "literal_text": "ṇ/ [reading?]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Letter n with a dot below, followed by an oblique stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading of the underdot is probable but not certain."
+      ],
+      "stable_id": "css-prod-0490-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r007",
+      "block_ids": [
+        "b007"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "diacritic_check_mark",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, in the lower right area.",
+        "Letter a with a macron above, followed by a long oblique stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Purpose and attachment unknown."
+      ],
+      "stable_id": "css-prod-0490-r007",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/58ee6a90-1264-4bd6-9e06-9f828b0f455f.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/58ee6a90-1264-4bd6-9e06-9f828b0f455f/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "9a52c202ed785a15139ca285a655222096833665b2d290a48c3cb04f20f10857",
+      "bytes": 254868,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/58ee6a90-1264-4bd6-9e06-9f828b0f455f/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f2df2ec1077510761fbd27f4ba5dd3737aab99820c15776d15eeacf516e81cda",
+      "bytes": 303223,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/58ee6a90-1264-4bd6-9e06-9f828b0f455f/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d8963964f53b9cd9941345cbef81081f83ab5dec25b5e14549908013cf236ba2",
+      "bytes": 320648,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/58ee6a90-1264-4bd6-9e06-9f828b0f455f/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f972dba55870e1a833b610054660a41b2fd93464880dc0ca52e5477776916d6c",
+      "bytes": 295352,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/58ee6a90-1264-4bd6-9e06-9f828b0f455f/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ed1cab423e2cbb06c643ccd560ae0d5f97424719a3d320062c9d60760b9e57da",
+      "bytes": 302197,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/58ee6a90-1264-4bd6-9e06-9f828b0f455f/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "840b76c642b2e38a60dfb67654a12f5d4b5466c8643a22e502dab284e73a6632",
+      "bytes": 305777,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/58ee6a90-1264-4bd6-9e06-9f828b0f455f/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "97696128c430fef391a1abb35880410c49a0dd9d10ebe26ea0c01aed422d3026",
+      "bytes": 336687,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2e64bea5-66dd-441e-a190-705b5810c8b6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "48a4b342c4a4ab6883c98dc0689f9f7551812f6eb68257cdbf0d6d1755498253",
+      "bytes": 258912,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 489,
+      "folio_label": "fol. 245",
+      "page_id": "2e64bea5-66dd-441e-a190-705b5810c8b6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b79aa4e0-7b89-4680-b31f-43784a712f6a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e150bed1d1b6b17d367f23e4fcfdc78ff21cd999fac98bf97071d4b0b7185929",
+      "bytes": 278622,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 491,
+      "folio_label": "fol. 246",
+      "page_id": "b79aa4e0-7b89-4680-b31f-43784a712f6a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

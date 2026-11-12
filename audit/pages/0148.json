@@ -1,0 +1,1461 @@
+{
+  "source_order": 148,
+  "folio_label": "fol. 74b",
+  "page_id": "e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "74b",
+    "principal_page_bbox": [
+      330,
+      270,
+      2860,
+      4620
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          415,
+          315,
+          160,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "74b",
+        "features": [
+          "upper left corner",
+          "dark pencil or ink",
+          "the final character is a raised 'b'-like letter; it is read as 'b' and matches the folio label"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          380,
+          3430,
+          1930,
+          110
+        ],
+        "kind_hint": "unattached_note_or_continuation",
+        "anchor": "ff.1-15b (n.54).- S.1705. ... Scribe Ghanaśyāma Tripāṭhī.",
+        "features": [
+          "single isolated line in the lower part of the page",
+          "handwritten in pencil or faint ink",
+          "contains a folio range, a date 'S.1705' and a scribe's name",
+          "the '4' in '54' may be written over another digit",
+          "the middle words, possibly 'Onan Bāla Mukunda[?]', are hard to read",
+          "no governing heading or shelfmark appears on this page",
+          "an arrow in the gutter-side margin points toward this line"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3050,
+          3465,
+          165,
+          60
+        ],
+        "description": "Left-pointing arrow near the gutter at the level of the line ff.1-15b. It points toward that line, probably signalling that the line attaches to an entry on another page, perhaps the facing fol. 75."
+      },
+      {
+        "bbox": [
+          1930,
+          4220,
+          210,
+          220
+        ],
+        "description": "Large faint pencil tick-like stroke in the lower middle of the page. It may be a true mark or show-through."
+      },
+      {
+        "bbox": [
+          330,
+          600,
+          2850,
+          3900
+        ],
+        "description": "Faint mirrored show-through of writing from the reverse side across the ruled area. This is not target text."
+      }
+    ],
+    "boundary_notes": [
+      "Right of the gutter at about x>3180 is the facing page, fol. 75. The marks there ('i/', 'a/', 'tt/', 'd.', 'e.' and ticks) belong to fol. 75 and are excluded.",
+      "It is unclear whether the line ff.1-15b... belongs to an entry on fol. 74 or fol. 75. The arrow suggests linkage across the gutter. It is not treated as a new holding."
+    ],
+    "uncertainties": [
+      "The reading of the middle words of b002 ('Onan Bāla Mukunda'?) is uncertain.",
+      "It is uncertain whether '54' contains an overwritten digit.",
+      "It is uncertain whether the faint central tick is original or show-through."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "74b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "74b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the upper left corner in dark pencil or ink. The final character is raised. It is read as 'b' and matches the supplied label fol. 74b."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised final letter resembles 'y' or 'b'. It is read as 'b'."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "ambiguously_attached_descriptive_note",
+        "literal_text": "ff. 1-15b (n. 54).- S. 1705. Owner[?] Bāla Mukunda[?]. Scrib[e?] Ghanaśyāma Tripāṭhī.",
+        "fields": {
+          "date": "S. 1705",
+          "extent": "ff. 1-15b"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "This is a single isolated line in the lower part of the page, written in pencil or faint ink. No shelfmark, title or heading appears on this page.",
+          "The '4' of '54' appears to be written over another digit.",
+          "The 'b' after '15' is raised.",
+          "A left-pointing arrow drawn from the gutter at the level of this line points toward it."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 149,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓ c. 306 Cakradatta ... By Cakradatta. medical. 1648 ...",
+            "evidence": "A gutter arrow at this line's height (about y 3500) matches a left-pointing arrow in the left margin of fol. 75 beside the c. 306 Cakradatta entry at about the same height. This suggests the line supplements that entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Onaer'.",
+          "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+          "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the fields.",
+          "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3045,
+          3480,
+          170,
+          55
+        ],
+        "kind_hint": "arrow_mark",
+        "anchor": "←",
+        "features": [
+          "left-pointing arrow at the gutter on the level of b002",
+          "links across the gutter toward fol. 75"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          1930,
+          4220,
+          210,
+          220
+        ],
+        "kind_hint": "tick_mark",
+        "anchor": "✓ (faint)",
+        "features": [
+          "large faint pencil tick-like stroke in the lower middle",
+          "may be show-through"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Isolated descriptive note. It is probably attached by the arrow to the fol. 75 Cakradatta entry and is not treated as an independent holding."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The arrow is described as attachment evidence in r002."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [],
+        "explanation": "Non-text mark of uncertain status. It is recorded in page_annotations."
+      }
+    ],
+    "page_annotations": [
+      "The page is mostly blank ruled paper. Faint mirrored show-through from the reverse is not target text.",
+      "A faint tick-like stroke in the lower middle (about [1930,4220,210,220]) may be an original mark or show-through.",
+      "Marks right of the gutter at about x>3180 ('i/', 'a/', 'tt/', 'd.', 'e.' and ticks) belong to fol. 75 and are excluded."
+    ],
+    "unresolved_relationships": [
+      "Attachment of r002 to fol. 75 'c. 306 Cakradatta' is probable but not certain. The entry on fol. 75 gives the date 1648 (overwritten). The note's S. 1705 differs, so the note could belong to another entry."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "An upper-left folio number '74' with a raised final letter. The raised letter is read as 'b', which matches the supplied label fol. 74b. The letter shape remains somewhat ambiguous, and r001 already notes this."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single isolated line at about y 3440-3540 is present in r002. The candidate's literal text adds spaces that do not appear in the source ('ff.1-15b(n.54).- S.1705.'). It also writes 'Scrib[e?]', which supplies a possible completion inside the literal text. Corrections are given below. The middle words and the endings of the names remain uncertain."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A left-pointing arrow beside the gutter at about [3045,3480,170,55]. It points back toward the b002 line. The arrow is recorded as attachment evidence in r002."
+      },
+      {
+        "block_id": "b902",
+        "status": "uncertain",
+        "record_ids": [],
+        "finding": "A large faint pencil tick-like stroke at about [1930,4220,210,220]. It is recorded in page_annotations. It is unclear whether it is an original mark or show-through; it looks fainter than the ink on the page and similar to the mirrored writing."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff. 1-15b (n. 54).- S. 1705. Owner[?] Bāla Mukunda[?]. Scrib[e?] Ghanaśyāma Tripāṭhī.",
+        "after": "ff.1-15b(n.54).- S.1705. Owner[?] Bāla Mukunda[?]. Scrib[?] Ghanaśyāma Tripāṭhī.",
+        "reason": "The source writes 'ff.1-15b(n.54).-' and 'S.1705.' with no internal spaces. '[e?]' supplies a completion that is not written; the source shows only 'Scrib', so the uncertainty is marked without completing the word.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "fields.date",
+        "before": "S. 1705",
+        "after": "S.1705",
+        "reason": "This preserves the written form without the added space.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "fields.extent",
+        "before": "ff. 1-15b",
+        "after": "ff.1-15b",
+        "reason": "This preserves the written form without the added space.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Onaer'.",
+          "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+          "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the fields.",
+          "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text."
+        ],
+        "after": [
+          "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Ouner'.",
+          "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+          "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the literal text or fields.",
+          "The raised character after '15' is read as 'b' but could be another superscript mark.",
+          "The final vowel of 'Ghanaśyāma' is not fully clear and could be '-e'.",
+          "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text."
+        ],
+        "reason": "This records additional letter-level ambiguities visible in the native tiles.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The attachment to fol. 75 c.306 Cakradatta is only probable. A matching left-margin arrow appears there at about the same height. However, that entry's date (1648, written over n.d.) differs from S.1705, and the date systems are not resolved.",
+        "next_check": "Compare the fol. 75 arrow position and the c.306 entry at native resolution."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The readings 'Owner', 'Bāla Mukunda' and the overwritten digit in '54' are uncertain.",
+        "next_check": "Inspect at higher magnification."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b902"
+        ],
+        "issue": "It is unclear whether the faint tick is original or show-through.",
+        "next_check": "Compare with the reverse page (fol. 74) at this location."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x 3175-3180. The marks to its right ('i/', 'a/', 'tt/', 'd.', 'e.' and ticks) belong to fol. 75 and are excluded. The b901 arrow lies on the target side of the gutter, with a small tail at the gutter itself. Whether b002 attaches to fol. 75 remains ambiguous and is not treated as an independent holding.",
+    "region_review": {
+      "top": "Only the folio number '74b' (b001) is present. The rest is blank ruled paper with faint mirrored show-through.",
+      "middle": "Only faint mirrored show-through from the reverse is visible. There is no target text.",
+      "bottom": "The b002 line is at about y 3480. A faint tick (b902) is at about y 4220-4440. There are scattered specks, and no further text down to the lower edge.",
+      "left_margin": "There is a small dot at about [365,3375] above the b002 line, probably a speck. There is no other writing.",
+      "right_margin": "The b901 arrow is beside the gutter. Marks beyond the gutter belong to fol. 75.",
+      "interlinear": "No interlinear additions are visible. The '4' of '54' appears overwritten."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        415,
+        315,
+        160,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "74b",
+      "features": [
+        "upper left corner",
+        "dark pencil or ink",
+        "the final character is a raised 'b'-like letter; it is read as 'b' and matches the folio label"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        380,
+        3430,
+        1930,
+        110
+      ],
+      "kind_hint": "unattached_note_or_continuation",
+      "anchor": "ff.1-15b (n.54).- S.1705. ... Scribe Ghanaśyāma Tripāṭhī.",
+      "features": [
+        "single isolated line in the lower part of the page",
+        "handwritten in pencil or faint ink",
+        "contains a folio range, a date 'S.1705' and a scribe's name",
+        "the '4' in '54' may be written over another digit",
+        "the middle words, possibly 'Onan Bāla Mukunda[?]', are hard to read",
+        "no governing heading or shelfmark appears on this page",
+        "an arrow in the gutter-side margin points toward this line"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3045,
+        3480,
+        170,
+        55
+      ],
+      "kind_hint": "arrow_mark",
+      "anchor": "←",
+      "features": [
+        "left-pointing arrow at the gutter on the level of b002",
+        "links across the gutter toward fol. 75"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        1930,
+        4220,
+        210,
+        220
+      ],
+      "kind_hint": "tick_mark",
+      "anchor": "✓ (faint)",
+      "features": [
+        "large faint pencil tick-like stroke in the lower middle",
+        "may be show-through"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "74b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the upper left corner in dark pencil or ink. The final character is raised. It is read as 'b' and matches the supplied label fol. 74b."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised final letter resembles 'y' or 'b'. It is read as 'b'."
+      ],
+      "stable_id": "css-prod-0148-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "ambiguously_attached_descriptive_note",
+      "literal_text": "ff. 1-15b (n. 54).- S. 1705. Owner[?] Bāla Mukunda[?]. Scrib[e?] Ghanaśyāma Tripāṭhī.",
+      "fields": {
+        "date": "S.1705",
+        "extent": "ff.1-15b"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "This is a single isolated line in the lower part of the page, written in pencil or faint ink. No shelfmark, title or heading appears on this page.",
+        "The '4' of '54' appears to be written over another digit.",
+        "The 'b' after '15' is raised.",
+        "A left-pointing arrow drawn from the gutter at the level of this line points toward it."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 149,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓ c. 306 Cakradatta ... By Cakradatta. medical. 1648 ...",
+          "evidence": "A gutter arrow at this line's height (about y 3500) matches a left-pointing arrow in the left margin of fol. 75 beside the c. 306 Cakradatta entry at about the same height. This suggests the line supplements that entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Onaer'.",
+        "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+        "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the fields.",
+        "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text."
+      ],
+      "stable_id": "css-prod-0148-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9901",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "tick_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A faint, large tick-like stroke in the lower middle of the page. It contains no letters.",
+        "It is much paler than the b002 note and has the same tone as the visible show-through."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unclear whether the tick is an original mark on this page or show-through from the other side of the leaf."
+      ],
+      "stable_id": "css-prod-0148-r9901",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff. 1-15b (n. 54).- S. 1705. Owner[?] Bāla Mukunda[?]. Scrib[e?] Ghanaśyāma Tripāṭhī.",
+      "after": "ff.1-15b(n.54).- S.1705. Owner[?] Bāla Mukunda[?]. Scrib[?] Ghanaśyāma Tripāṭhī.",
+      "reason": "The source writes 'ff.1-15b(n.54).-' and 'S.1705.' with no internal spaces. '[e?]' supplies a completion that is not written; the source shows only 'Scrib', so the uncertainty is marked without completing the word.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.date",
+      "before": "S. 1705",
+      "after": "S.1705",
+      "reason": "This preserves the written form without the added space.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.extent",
+      "before": "ff. 1-15b",
+      "after": "ff.1-15b",
+      "reason": "This preserves the written form without the added space.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Onaer'.",
+        "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+        "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the fields.",
+        "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text."
+      ],
+      "after": [
+        "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Ouner'.",
+        "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+        "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the literal text or fields.",
+        "The raised character after '15' is read as 'b' but could be another superscript mark.",
+        "The final vowel of 'Ghanaśyāma' is not fully clear and could be '-e'.",
+        "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text."
+      ],
+      "reason": "This records additional letter-level ambiguities visible in the native tiles.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff. 1-15b (n. 54).- S. 1705. Owner[?] Bāla Mukunda[?]. Scrib[e?] Ghanaśyāma Tripāṭhī.",
+      "after": "ff.1-15b(n.54).- S.1705. Owner[?] Bāla Mukunda[?]. Scrib[?] Ghanaśyāma Tripāṭhī.",
+      "reason": "Preserve the source spacing as written. The source shows only 'Scrib', so the unwritten completion is removed.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0148-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Onaer'.",
+        "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+        "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the fields.",
+        "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text."
+      ],
+      "after": [
+        "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Ouner'.",
+        "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+        "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the literal text or fields.",
+        "The raised character after '15' is read as 'b' but could be another superscript mark.",
+        "The final vowel of 'Ghanaśyāma' is not fully clear and could be '-e'.",
+        "The digit under the '4' of '54' is not legible.",
+        "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text. S.1705 differs from the date 1648 on fol. 75 c.306."
+      ],
+      "reason": "Records the letter-level ambiguities visible in the native tiles.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0148-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "block_ids",
+      "before": [
+        "b002"
+      ],
+      "after": [
+        "b002",
+        "b901"
+      ],
+      "reason": "The gutter arrow b901 is level with this line and points at it. It is a linking mark that belongs with this note.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0148-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [
+    {
+      "record_id": "r9901",
+      "stage": "focus",
+      "focused_check_file": "0148-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record for an existing unrepresented source block; original geometry retained"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [
+      "b901"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b901",
+      "b902"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [],
+      "id": "focus-0148-01"
+    },
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0148-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The attachment to fol. 75 c.306 Cakradatta is only probable. A matching left-margin arrow appears there at about the same height. However, that entry's date (1648, written over n.d.) differs from S.1705, and the date systems are not resolved.",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0148-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The readings 'Owner', 'Bāla Mukunda' and the overwritten digit in '54' are uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0148-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The source writes 'ff.1-15b(n.54).-' and 'S.1705.' with no internal spaces. '[e?]' supplies a completion that is not written; the source shows only 'Scrib', so the uncertainty is marked without completing the word. Proposed literal_text: \"ff.1-15b(n.54).- S.1705. Owner[?] Bāla Mukunda[?]. Scrib[?] Ghanaśyāma Tripāṭhī.\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0148-05"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is unclear whether the faint tick is original or show-through.",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0148-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "This records additional letter-level ambiguities visible in the native tiles. Proposed uncertainties: [\"The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Ouner'.\", \"The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.\", \"'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the literal text or fields.\", \"The raised character after '15' is read as 'b' but could be another superscript mark.\", \"The final vowel of 'Ghanaśyāma' is not fully clear and could be '-e'.\", \"The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text.\"]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0148-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The raised final letter resembles 'y' or 'b'. It is read as 'b'.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0148-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Onaer'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0148-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0148-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0148-01",
+        "focus-0148-02",
+        "focus-0148-03",
+        "focus-0148-04",
+        "focus-0148-05",
+        "focus-0148-06",
+        "focus-0148-07",
+        "focus-0148-08",
+        "focus-0148-09",
+        "focus-0148-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0148-01",
+          "source_reading": "← (a short left-pointing pencil arrow whose tail starts at the gutter fold, level with the b002 line)",
+          "certainty": "secure",
+          "evidence": "In the native tile at region x1604,y3216, the arrow lies at about local x1445-1610, y265-305. That is about canvas x3049-3214, y3481-3521. Its head points left toward the end of the b002 line."
+        },
+        {
+          "issue_id": "focus-0148-02",
+          "source_reading": "A large faint tick-like stroke (✓) with no letters.",
+          "certainty": "uncertain",
+          "evidence": "In the native tile at x1604,y3216, the stroke is at about local x330-530, y1010-1220, which is canvas x1934-2134, y4226-4436. It is much paler than the b002 writing. The page also shows faint text that has come through from the other side of the leaf."
+        },
+        {
+          "issue_id": "focus-0148-03",
+          "source_reading": "The gutter arrow on 74b is at y≈3500. On fol. 75 there is an arrow at the left margin at about the same height, beside the entry '✓ c.306 Cakradatta ... medical. 1648 [over cancelled n.d.] : 150 : 10/14 : D'.",
+          "certainty": "probable",
+          "evidence": "The arrows match in position across the gutter. No explicit text links the two. The note's 'S.1705' is not the same as '1648' written on fol. 75. Whether these use different date systems is not resolved from the source."
+        },
+        {
+          "issue_id": "focus-0148-04",
+          "source_reading": "Onan/Ouner[?] Bāla[?] Mukunda/Mukunde[?]; in '(n.54)' the '4' is written heavily over another digit, and that digit cannot be read.",
+          "certainty": "uncertain",
+          "evidence": "The cursive letter forms are ambiguous. The overwriting in the '4' is visible, but the underlying digit is not legible."
+        },
+        {
+          "issue_id": "focus-0148-05",
+          "source_reading": "ff.1-15b(n.54).- S.1705. Owner[?] Bāla Mukunda[?]. Scrib[?] Ghanaśyāma Tripāṭhī.",
+          "certainty": "probable",
+          "evidence": "The source shows no internal spaces in 'ff.1-15b(n.54).-' or 'S.1705.'. The word after the date ends at 'Scrib' with no further letters written."
+        },
+        {
+          "issue_id": "focus-0148-06",
+          "source_reading": "A faint tick. It cannot be determined whether it is an original mark or show-through from the other side of the leaf.",
+          "certainty": "uncertain",
+          "evidence": "Its tone is similar to the visible show-through text. It is not aligned with any text on this page."
+        },
+        {
+          "issue_id": "focus-0148-07",
+          "source_reading": "The raised character after '15' could be 'b' or '1'. The final vowels of Mukunda and Ghanaśyāma are unclear.",
+          "certainty": "uncertain",
+          "evidence": "These are small cursive forms in the native tile at x0,y3216, around y240-290."
+        },
+        {
+          "issue_id": "focus-0148-08",
+          "source_reading": "74 followed by a raised 'b'-like (or 'y'-like) letter.",
+          "certainty": "probable",
+          "evidence": "In the native tile at x0,y0, at about x420-560, y320-440."
+        },
+        {
+          "issue_id": "focus-0148-09",
+          "source_reading": "Onan / Ouner[?]",
+          "certainty": "uncertain",
+          "evidence": "The word shows minims followed by 'n'. No clear 'w' can be seen."
+        },
+        {
+          "issue_id": "focus-0148-10",
+          "source_reading": "Bāla Mukunda[?] (the final letter may be '-e')",
+          "certainty": "uncertain",
+          "evidence": "The final vowel is a short open stroke."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "ff. 1-15b (n. 54).- S. 1705. Owner[?] Bāla Mukunda[?]. Scrib[e?] Ghanaśyāma Tripāṭhī.",
+          "after": "ff.1-15b(n.54).- S.1705. Owner[?] Bāla Mukunda[?]. Scrib[?] Ghanaśyāma Tripāṭhī.",
+          "reason": "Preserve the source spacing as written. The source shows only 'Scrib', so the unwritten completion is removed.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Onaer'.",
+            "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+            "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the fields.",
+            "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text."
+          ],
+          "after": [
+            "The reading 'Owner' is uncertain. The letters look like 'Onan' or 'Ouner'.",
+            "The reading 'Bāla Mukunda' is uncertain. The final vowel may be '-e'.",
+            "'Scrib' may be an abbreviation of 'Scribe'. It is not expanded in the literal text or fields.",
+            "The raised character after '15' is read as 'b' but could be another superscript mark.",
+            "The final vowel of 'Ghanaśyāma' is not fully clear and could be '-e'.",
+            "The digit under the '4' of '54' is not legible.",
+            "The attachment to fol. 75 is inferred from the arrows. It is not explicit in the text. S.1705 differs from the date 1648 on fol. 75 c.306."
+          ],
+          "reason": "Records the letter-level ambiguities visible in the native tiles.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "block_ids",
+          "before": [
+            "b002"
+          ],
+          "after": [
+            "b002",
+            "b901"
+          ],
+          "reason": "The gutter arrow b901 is level with this line and points at it. It is a linking mark that belongs with this note.",
+          "source_block_ids": [
+            "b002",
+            "b901"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b902",
+            "bbox": [
+              1930,
+              4220,
+              210,
+              220
+            ],
+            "kind_hint": "tick_mark",
+            "anchor": "✓ (faint)",
+            "features": [
+              "faint pencil tick-like stroke in the lower middle of the page",
+              "may be show-through from the other side of the leaf"
+            ]
+          },
+          "record": {
+            "id": "r9901",
+            "block_ids": [
+              "b902"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "tick_mark",
+            "literal_text": "",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A faint, large tick-like stroke in the lower middle of the page. It contains no letters.",
+              "It is much paler than the b002 note and has the same tone as the visible show-through."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "It is unclear whether the tick is an original mark on this page or show-through from the other side of the leaf."
+            ],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "The faint mark is visible in the native tile at x1604,y3216, and no existing record represents it. The record reuses the existing block b902."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 74 with a raised letter."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "A single note line. Its literal text is revised."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The gutter arrow is now grouped with the note it points to."
+        },
+        {
+          "block_id": "b902",
+          "status": "uncertain",
+          "record_ids": [
+            "r9901"
+          ],
+          "finding": "A faint tick that may be show-through."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0148-03",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b901"
+          ],
+          "issue": "The attachment to fol. 75 c.306 is based only on matching arrows. The dates S.1705 and 1648 differ.",
+          "next_check": "Compare with the primary catalogue for c.306 to see whether the date systems agree."
+        },
+        {
+          "issue_id": "focus-0148-04",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The readings 'Owner', 'Bāla Mukunda' and the digit under the '4' of '54' remain unresolved.",
+          "next_check": "Examine the original at higher magnification or under raking light."
+        },
+        {
+          "issue_id": "focus-0148-06",
+          "record_id": "r9901",
+          "block_ids": [
+            "b902"
+          ],
+          "issue": "It is unclear whether the tick is original or show-through.",
+          "next_check": "Inspect the reverse side of the leaf (fol. 74 recto) at the mirrored position."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b1be5e78f8b7bae3b519ae9ac571f886216c9b5ab81c14ede7d313a3ae354a56",
+      "bytes": 243383,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c51613f74d856fc11deb57c50eb0aa6839b6d4616504a576613a0cd1c73cacdb",
+      "bytes": 293837,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "28d30e86ecb1ec6387e1f3d6b86dfcb6902a9b4482a6da55823d6600e2feecb3",
+      "bytes": 307721,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c091f2f99b35db5151a94ac5f17d97995d3c4f1a7e98106bc43912cb81487af4",
+      "bytes": 282545,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f73989963c766cca51893def65c0abc48dda90c5b2f6e18b7b735533b3305b1d",
+      "bytes": 316036,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5f8953092ed9630a2fed47618753ba1f568eb9360f478aa18df3dfb1230158f5",
+      "bytes": 322743,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3da70937-47f6-4ca1-acbc-978b80d53015/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "781b2a26f74a3541c65876258b07e436e48d55ed7fdacae3ab93a499487015b4",
+      "bytes": 265439,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 147,
+      "folio_label": "fol. 74",
+      "page_id": "3da70937-47f6-4ca1-acbc-978b80d53015",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c2adcb6a-e3a7-4ab2-a3e0-68a5633c3352/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e59d6bf331591f3d568ecf004da112e7cadc6b65a2d41e84fd7e6541f25fdd9b",
+      "bytes": 254578,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 149,
+      "folio_label": "fol. 75",
+      "page_id": "c2adcb6a-e3a7-4ab2-a3e0-68a5633c3352",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c2adcb6a-e3a7-4ab2-a3e0-68a5633c3352/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9cb8c8a33d7a99c2cb51f59e9359124525b9c4e83d142f13cd849092c6542415",
+      "bytes": 428755,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 149,
+      "folio_label": "fol. 75",
+      "page_id": "c2adcb6a-e3a7-4ab2-a3e0-68a5633c3352",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c2adcb6a-e3a7-4ab2-a3e0-68a5633c3352/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f10bfd7adedd0e5e67bae0c40c136f4f1a2294a760ed685f86ffd6f19bf176c2",
+      "bytes": 425140,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 149,
+      "folio_label": "fol. 75",
+      "page_id": "c2adcb6a-e3a7-4ab2-a3e0-68a5633c3352",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b1be5e78f8b7bae3b519ae9ac571f886216c9b5ab81c14ede7d313a3ae354a56",
+      "bytes": 243383,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c51613f74d856fc11deb57c50eb0aa6839b6d4616504a576613a0cd1c73cacdb",
+      "bytes": 293837,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c203bf5eb2550f559df07f6b1d7b70f6263a7fdb130217179e74a20cebcb542c",
+      "bytes": 293625,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "28d30e86ecb1ec6387e1f3d6b86dfcb6902a9b4482a6da55823d6600e2feecb3",
+      "bytes": 307721,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c091f2f99b35db5151a94ac5f17d97995d3c4f1a7e98106bc43912cb81487af4",
+      "bytes": 282545,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f73989963c766cca51893def65c0abc48dda90c5b2f6e18b7b735533b3305b1d",
+      "bytes": 316036,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e5b3cf04-c30a-480c-bb9f-d3b8d6d4d429/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5f8953092ed9630a2fed47618753ba1f568eb9360f478aa18df3dfb1230158f5",
+      "bytes": 322743,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3da70937-47f6-4ca1-acbc-978b80d53015/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "781b2a26f74a3541c65876258b07e436e48d55ed7fdacae3ab93a499487015b4",
+      "bytes": 265439,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 147,
+      "folio_label": "fol. 74",
+      "page_id": "3da70937-47f6-4ca1-acbc-978b80d53015",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c2adcb6a-e3a7-4ab2-a3e0-68a5633c3352/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e59d6bf331591f3d568ecf004da112e7cadc6b65a2d41e84fd7e6541f25fdd9b",
+      "bytes": 254578,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 149,
+      "folio_label": "fol. 75",
+      "page_id": "c2adcb6a-e3a7-4ab2-a3e0-68a5633c3352",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

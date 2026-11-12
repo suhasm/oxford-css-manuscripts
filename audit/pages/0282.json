@@ -1,0 +1,586 @@
+{
+  "source_order": 282,
+  "folio_label": "fol. 141b",
+  "page_id": "12a90abc-70c0-40dc-9e07-5d6709d279f4",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "141b",
+    "principal_page_bbox": [
+      285,
+      262,
+      2910,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          320,
+          150,
+          100
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "141b",
+        "features": [
+          "handwritten folio label in top-left corner",
+          "the final letter is written raised, as a superscript"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2665,
+          1810,
+          40,
+          45
+        ],
+        "description": "Small isolated pencil stroke, shaped like a '1' or a tick, in the right-centre area of the page. It is darker than the surrounding show-through. Whether it is a deliberate mark is uncertain."
+      },
+      {
+        "bbox": [
+          2110,
+          1375,
+          40,
+          30
+        ],
+        "description": "Small dark dot or speck in the upper middle of the page. It is probably a paper blemish."
+      },
+      {
+        "bbox": [
+          1025,
+          2900,
+          30,
+          20
+        ],
+        "description": "Small dark speck or dash in the lower middle of the page. It is probably a blemish."
+      }
+    ],
+    "boundary_notes": [
+      "Ink from the recto, fol. 141, shows through faintly in mirror image across the ruled lines. It is not text written on this page and is not transcribed.",
+      "The right edge shows the sewing thread and binding. No facing-page text intrudes on the canvas."
+    ],
+    "uncertainties": [
+      "The isolated pencil stroke near the right centre may be an accidental mark or a stray tick. It is not attached to any entry.",
+      "Faint show-through could hide very faint pencil on this page. No independent writing was distinguished, apart from the folio label and the marks listed above."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "141b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "141b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio label in the top-left corner.",
+          "The 'b' is written raised, as a superscript, after '141'.",
+          "A small dot follows the superscript letter."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The trailing dot may be a full stop or an incidental mark."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "isolated_mark",
+        "literal_text": "1",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A small isolated pencil stroke in the right-centre area of the page. It is shaped like a '1' or a tick.",
+          "No catalogue entry is written on this page, so there is no entry it could attach to."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is unclear whether this is a deliberate numeral, a tick, or an accidental stroke.",
+          "It lies at about the same height as a ticked or numbered entry on the recto (fol. 141). Any link to that entry is unproven, and the mark is not show-through, because it is darker and not mirrored."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2660,
+          1800,
+          50,
+          60
+        ],
+        "kind_hint": "isolated_pencil_mark",
+        "anchor": "1",
+        "features": [
+          "small pencil stroke resembling '1' or a tick",
+          "darker than surrounding show-through",
+          "right-centre of page, about y 1820–1850",
+          "listed among unattached_marks in the provisional inventory, without a block ID"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio label '141' with a superscript 'b' is transcribed as non-catalogue text."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The isolated pencil mark is recorded as an unattached annotation, and its significance is left uncertain."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio label and one isolated pencil stroke, the page was reviewed in the overview and in all six native tiles and contains no catalogue entries.",
+      "Faint mirror-image show-through from the recto (fol. 141) is visible across the ruled lines. It is not transcribed.",
+      "Small dark specks occur at about [2110,1375] and [1025,2900]. A few other scattered dots also appear. They are judged to be paper blemishes and are not transcribed.",
+      "The sewing thread and binding are visible at the right edge. No facing-page text intrudes on the canvas.",
+      "The top margin, bottom margin, left (outer) margin, right (gutter) margin and interlinear spaces were all checked. No further pencil additions could be distinguished from the show-through."
+    ],
+    "unresolved_relationships": [
+      "The isolated '1'-like pencil stroke (r002) has no secure attachment to any entry."
+    ]
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "In native tile [0,0], the folio label in the top-left corner reads '141' with a raised 'b' and a small dot after it. This is at about [380,320,150,100]. The candidate's literal text '141b.' and its annotations match the source. The dot is plausibly punctuation, but it may be incidental, so the existing uncertainty is kept."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "In native tile [1604,1608], a small, faint pencil stroke shaped like '1' sits at about [2670,1815,40,45]. It lies just above a ruled line and is darker than the show-through. Whether it is a numeral, a tick or an accidental stroke cannot be settled. Its literal text is changed to an uncertain form. The candidate's speculative link to the recto is also removed."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "1",
+        "after": "[1?]",
+        "reason": "The stroke may be a tick or an accidental mark rather than the numeral 1. The literal text should not present it as a secure reading.",
+        "source_block_ids": [
+          "b901"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "It is unclear whether this is a deliberate numeral, a tick, or an accidental stroke.",
+          "It lies at about the same height as a ticked or numbered entry on the recto (fol. 141). Any link to that entry is unproven, and the mark is not show-through, because it is darker and not mirrored."
+        ],
+        "after": [
+          "It is unclear whether this is a deliberate numeral, a tick, or an accidental stroke.",
+          "The mark appears darker than the surrounding recto show-through and is probably written on this side of the leaf. No relationship to any entry on fol. 141 or fol. 142 is established from the images."
+        ],
+        "reason": "The candidate asserted that the mark corresponds to a ticked or numbered recto entry. Mirroring the position puts it near the shelfmark column of fol. 141, at about the line of 'e. 145 (12)', which has no tick. The claimed correspondence is unsupported, so it is removed rather than replaced with another conjecture.",
+        "source_block_ids": [
+          "b901"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "It is not known whether the '1'-like pencil stroke is a deliberate numeral or tick, or an accidental stroke. It has no secure attachment to any entry.",
+        "next_check": "Inspect the original leaf under raking light. This would confirm whether the graphite is on the verso surface and whether the stroke is a deliberate mark."
+      }
+    ],
+    "boundary_review": "The principal page is fol. 141b, the verso of the leaf. Faint mirror-image show-through from fol. 141 covers the ruled area. It is not text on this page and is correctly excluded. The right edge shows the binding thread and torn sewing points. No facing-page writing intrudes on the canvas. The left edge shows the stacked edges of the leaves only. Adjacent pages were used only to check the speculative recto link.",
+    "region_review": {
+      "top": "The top margin holds only the folio label '141ᵇ.' at top left. No other writing is present.",
+      "middle": "The ruled area shows only show-through and scattered specks. These include specks at about [2110,1375], [2640,1390], [1040,2912] and [1000,2690], which are judged to be blemishes. The pencil stroke at about [2670,1815] is recorded as r002.",
+      "bottom": "The lower ruled lines and bottom margin show only show-through and specks, such as one at about [2315,4750]. No bottom note was found.",
+      "left_margin": "A faint curved stroke near the leaf edge at about [335,1130,60,90] looks like a crease or edge blemish rather than writing. Nothing else was found.",
+      "right_margin": "The gutter shows the sewing thread and the binding damage at about y 2380–2460. No annotations were found.",
+      "interlinear": "No interlinear additions could be distinguished from the show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        320,
+        150,
+        100
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "141b",
+      "features": [
+        "handwritten folio label in top-left corner",
+        "the final letter is written raised, as a superscript"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2660,
+        1800,
+        50,
+        60
+      ],
+      "kind_hint": "isolated_pencil_mark",
+      "anchor": "1",
+      "features": [
+        "small pencil stroke resembling '1' or a tick",
+        "darker than surrounding show-through",
+        "right-centre of page, about y 1820–1850",
+        "listed among unattached_marks in the provisional inventory, without a block ID"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "141b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio label in the top-left corner.",
+        "The 'b' is written raised, as a superscript, after '141'.",
+        "A small dot follows the superscript letter."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The trailing dot may be a full stop or an incidental mark."
+      ],
+      "stable_id": "css-prod-0282-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "isolated_mark",
+      "literal_text": "1",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A small isolated pencil stroke in the right-centre area of the page. It is shaped like a '1' or a tick.",
+        "No catalogue entry is written on this page, so there is no entry it could attach to."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unclear whether this is a deliberate numeral, a tick, or an accidental stroke.",
+        "It lies at about the same height as a ticked or numbered entry on the recto (fol. 141). Any link to that entry is unproven, and the mark is not show-through, because it is darker and not mirrored."
+      ],
+      "stable_id": "css-prod-0282-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "1",
+      "after": "[1?]",
+      "reason": "The stroke may be a tick or an accidental mark rather than the numeral 1. The literal text should not present it as a secure reading.",
+      "source_block_ids": [
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "It is unclear whether this is a deliberate numeral, a tick, or an accidental stroke.",
+        "It lies at about the same height as a ticked or numbered entry on the recto (fol. 141). Any link to that entry is unproven, and the mark is not show-through, because it is darker and not mirrored."
+      ],
+      "after": [
+        "It is unclear whether this is a deliberate numeral, a tick, or an accidental stroke.",
+        "The mark appears darker than the surrounding recto show-through and is probably written on this side of the leaf. No relationship to any entry on fol. 141 or fol. 142 is established from the images."
+      ],
+      "reason": "The candidate asserted that the mark corresponds to a ticked or numbered recto entry. Mirroring the position puts it near the shelfmark column of fol. 141, at about the line of 'e. 145 (12)', which has no tick. The claimed correspondence is unsupported, so it is removed rather than replaced with another conjecture.",
+      "source_block_ids": [
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/12a90abc-70c0-40dc-9e07-5d6709d279f4.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/12a90abc-70c0-40dc-9e07-5d6709d279f4/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "ee53bc0f997686ebe304ed848a69e3eaa50e638e5c45a2d50a4be8c3be5beedd",
+      "bytes": 300590,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/12a90abc-70c0-40dc-9e07-5d6709d279f4/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "57f59886fb81df15fc04ce1d4bdc2ba9e8df81a829e17c4aabdb0825c55ffde6",
+      "bytes": 353353,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/12a90abc-70c0-40dc-9e07-5d6709d279f4/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d339c83ff022d8e6e82dece295a2a24e16e10171d5e20bde32bb251769aad2cb",
+      "bytes": 347003,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/12a90abc-70c0-40dc-9e07-5d6709d279f4/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bebf3abf11589f390331ebbde210851d7efb774248e19420736e8bf514d417ae",
+      "bytes": 362579,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/12a90abc-70c0-40dc-9e07-5d6709d279f4/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "44ce5134355ad27476a0d373bd78fad7fed4423029ad1a87bdd003719636ba9a",
+      "bytes": 390338,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/12a90abc-70c0-40dc-9e07-5d6709d279f4/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "57831a113d33ccc001ae7b0671b2f7bab939af568575f5088114728be19f492b",
+      "bytes": 356525,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/12a90abc-70c0-40dc-9e07-5d6709d279f4/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a4157a69a1320cbfbcc3d18babd06d4138bc68f750d32192014091def7675413",
+      "bytes": 392024,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5167d802-962c-468a-929f-654a7b8a32bd/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7f21a49430f663e5171d8cb3eaea0e752f0d123b78ccf85e06c889b991da41ce",
+      "bytes": 269851,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 281,
+      "folio_label": "fol. 141",
+      "page_id": "5167d802-962c-468a-929f-654a7b8a32bd",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ca156af-5c24-4aa5-9db0-7d15306e3d08/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "049c4b3b0f3c1d6836e5e75af5ed33dc96038c1ab0ecf46099b9ee06d86e09ee",
+      "bytes": 326734,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 283,
+      "folio_label": "fol. 142",
+      "page_id": "3ca156af-5c24-4aa5-9db0-7d15306e3d08",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1920 @@
+{
+  "source_order": 654,
+  "folio_label": "fol. 327b",
+  "page_id": "092a3268-fe84-481d-a6a6-57fa8d585b93",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "327b",
+    "principal_page_bbox": [
+      310,
+      285,
+      2780,
+      4545
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          425,
+          330,
+          200,
+          145
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "327b",
+        "features": [
+          "superscript 'b' added above/after 327",
+          "faint smudged mark to right of numeral"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          480,
+          1165,
+          260,
+          65
+        ],
+        "kind_hint": "shelfmark_entry_left_column",
+        "anchor": "c 452(3)",
+        "features": [
+          "shelfmark in left shelfmark column"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          850,
+          1170,
+          240,
+          70
+        ],
+        "kind_hint": "cross_reference_note",
+        "anchor": "See opp. p.",
+        "features": [
+          "refers to opposite page; same line as c 452(3)",
+          "abbreviation 'opp. p.'"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          1160,
+          2880,
+          1170,
+          85
+        ],
+        "kind_hint": "independent_name_cross_reference",
+        "anchor": "Śrīnid[hi?] Janārdana, see Janārdana Bhaṭṭa",
+        "features": [
+          "main column, mid-page",
+          "diacritics written: ā, underdot in Bhaṭṭa",
+          "independent author cross-reference, not attached to a shelfmark"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          410,
+          4390,
+          280,
+          65
+        ],
+        "kind_hint": "cancelled_shelfmark",
+        "anchor": "⟦d 1013⟧",
+        "features": [
+          "struck through with heavy horizontal line(s)",
+          "left shelfmark column, line above c 452(4)"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          430,
+          4530,
+          265,
+          75
+        ],
+        "kind_hint": "shelfmark_entry_left_column",
+        "anchor": "c 452(4)",
+        "features": [
+          "shelfmark in left column near bottom"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          885,
+          4535,
+          275,
+          75
+        ],
+        "kind_hint": "cross_reference_note",
+        "anchor": "See opp. p.",
+        "features": [
+          "same line as c 452(4)",
+          "abbreviation 'opp. p.'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2740,
+          2880,
+          235,
+          20
+        ],
+        "description": "Short horizontal ink dash to the right of the Śrīnidhi Janārdana line, near the gutter; not attached to text; aligns with an arrow on the facing page."
+      },
+      {
+        "bbox": [
+          1060,
+          490,
+          140,
+          60
+        ],
+        "description": "Small stray ink specks/dots in upper main area."
+      }
+    ],
+    "boundary_notes": [
+      "Right portion of the image beyond the gutter (x > ~3090) shows the facing page fol. 328 (shelfmarks d.272, d.340, c.452(3), etc., ticks, arrows, brace); these are not transcribed as target blocks.",
+      "Left margin beyond x~310 is dark background; no content."
+    ],
+    "uncertainties": [
+      "Reading of first word of b004 ('Śrīnidhi' vs 'Śrīnida') is uncertain from the cursive form.",
+      "Exact extent of cancellation in b005 (whether 'd' itself is struck) — the line appears to run through the whole shelfmark."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "327b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "327b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The 'b' is written raised, above and after the end of '327'.",
+          "There is a faint smudged mark, possibly offset ink, just to the right of the numeral."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The faint mark to the right of the numeral is not legible. It may be a show-through or offset trace."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "cross_reference",
+        "subtype": "shelfmark_pointer_to_opposite_page",
+        "literal_text": "c 452(3)    See opp. p.",
+        "fields": {
+          "shelfmark": "c 452(3)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The shelfmark is in the left shelfmark column.",
+          "'See opp. p.' is written on the same ruled line in the main column."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 655,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 452(3)",
+            "evidence": "'opp. p.' points to the opposite page. The facing fol. 328 has a ticked entry at shelfmark c. 452(3).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "No title appears on this page. This record is not treated as an independent holding."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "cross_reference",
+        "subtype": "independent_name_cross_reference",
+        "literal_text": "Śrīnida[?] Janārdana, see Janārdana Bhaṭṭa",
+        "fields": {
+          "author": "Śrīnida[?] Janārdana"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The entry is in the main column at mid-page.",
+          "It is not on the same line as any shelfmark."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 655,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Janārdana Bhaṭṭa al. ... Janārdana, Vaidyaratna",
+            "evidence": "The facing page has a name heading for Janārdana Bhaṭṭa.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The first word is uncertain in the cursive hand. It could be read 'Śrīnida' or 'Śrīnidhi'.",
+          "Diacritics on the first word are not clearly visible."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "horizontal_dash",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A short horizontal ink stroke is to the right of the r003 line, near the gutter.",
+          "On the facing page, an arrow sits at approximately the same height, beside d. 296."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 655,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ d. 296",
+            "evidence": "The dash and the arrow are horizontally aligned across the opening.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The function of the dash is unknown."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "cancelled_shelfmark",
+        "literal_text": "⟦d 1013⟧",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The shelfmark is struck through with heavy horizontal line(s).",
+          "It is in the left shelfmark column, on the line above c 452(4).",
+          "No main-column text accompanies it."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 655,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 1013(7)",
+            "evidence": "The facing page has shelfmark d. 1013(7).",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The cancellation appears to run through the whole shelfmark, including 'd'.",
+          "The final digit read as '3' is partly obscured by the strike."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006",
+          "b007"
+        ],
+        "type": "cross_reference",
+        "subtype": "shelfmark_pointer_to_opposite_page",
+        "literal_text": "c 452(4)    See opp. p.",
+        "fields": {
+          "shelfmark": "c 452(4)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The shelfmark is in the left column near the bottom of the page.",
+          "'See opp. p.' is on the same line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 655,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 452(4)",
+            "evidence": "The facing fol. 328 has a bottom entry at shelfmark c. 452(4).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2740,
+          2880,
+          235,
+          30
+        ],
+        "kind_hint": "unattached_mark",
+        "anchor": "horizontal dash",
+        "features": [
+          "ink stroke near the gutter",
+          "on the same line as b004",
+          "aligned with an arrow on the facing page"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Shelfmark paired with the 'See opp. p.' note on the same line."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Cross-reference note on the same line as b002."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Independent name cross-reference."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Cancelled shelfmark with no accompanying text."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Shelfmark paired with b007."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Cross-reference note on the same line as b006."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Unattached dash."
+      }
+    ],
+    "page_annotations": [
+      "The page is mostly blank ruled paper, with a vertical shelfmark-column rule at about x≈810.",
+      "Stray ink specks in the upper main area and elsewhere are not text.",
+      "Content to the right of the gutter (x>~3090) belongs to the facing fol. 328 and is not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The function of the b901 dash and its relation to the facing-page arrow is unresolved.",
+      "The purpose of the cancelled shelfmark d 1013 is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The page number '327' has a raised 'b'. A faint offset-like trace and dot to the right are not legible. The candidate records both correctly."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'c 452(3)' is in the left shelfmark column. The reading agrees with the native tile."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'See opp. p.' is on the same ruled line as b002. Grouping the two is appropriate."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Independent name cross-reference in the main column at mid-page. Macrons on 'Janārdana' and the underdot under 'Bhaṭṭa' are visible. Diacritics on the first word, specifically on S and i, are not visibly written."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Shelfmark struck through with a heavy double stroke, reading 'd 1013'. The final digit is obscured; it could be '3' or '5'. The candidate flags this uncertainty."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "'c 452(4)' is in the left column near the bottom."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "'See opp. p.' is on the same line as b006."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Horizontal ink dash near the gutter at about y≈2895. It is the same mark as the inventory's first unattached_mark, so it is not a duplicate unit. The inventory's second unattached mark (stray specks near the top) is not text and is correctly left without a record."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "Śrīnida[?] Janārdana, see Janārdana Bhaṭṭa",
+        "after": "[Srinida?] Janārdana, see Janārdana Bhaṭṭa",
+        "reason": "In the native tile the first word shows no visible acute on S and no macron on i. The diacritics 'Ś' and 'ī' were supplied rather than read. The written form is uncertain, so the whole word is bracketed as uncertain.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "fields.author",
+        "before": "Śrīnida[?] Janārdana",
+        "after": "[Srinida?] Janārdana",
+        "reason": "Aligns the field with the literal reading and does not supply diacritics that are not visible.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 655,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Janārdana Bhaṭṭa al. ... Janārdana, Vaidyaratna",
+            "evidence": "The facing page has a name heading for Janārdana Bhaṭṭa.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 655,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Janārdana Bhatta al. [Srinide?] Janārdana, Vaidyaratna",
+            "evidence": "'see Janārdana Bhaṭṭa' is an explicit pointer. The facing fol. 328 has a heading line beginning 'Janārdana Bhatta al.' above d.1019. The wording of the facing heading is only partly legible at context resolution.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "This is an explicit 'see' reference, not a physical attachment. The target heading's wording remains partly uncertain.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The final digit of the cancelled shelfmark could be '3' or '5' under the strike. Its link to d.1013(7) on fol. 328 is unconfirmed.",
+        "next_check": "Higher-contrast inspection of the strike area at x≈540-690, y≈4410-4450."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The function of the dash and its relation to the facing-page arrow at d.296 are unknown.",
+        "next_check": "Compare the ink and hand with the arrows on fol. 328."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The first word's letter forms and diacritics are uncertain ('Srinida' vs 'Śrīnidhi').",
+        "next_check": "Compare with the cursive forms on the fol. 328 heading line."
+      }
+    ],
+    "boundary_review": "Content right of the gutter (x>~3090) belongs to facing fol. 328: ticked shelfmarks, the 'Sanskrit (with Hindi translation)' note, arrows and a brace. It is not transcribed as target content. The dash at x≈2740-2975 lies on the target page, left of the gutter. Nothing on the left edge; dark background beyond x≈310.",
+    "region_review": {
+      "top": "Folio number 327b and stray specks only; no heading.",
+      "middle": "c 452(3) / See opp. p. line, then a long blank ruled area, then the Janārdana cross-reference with a dash near the gutter.",
+      "bottom": "Cancelled d 1013 and c 452(4) / See opp. p.; below that only a faint diagonal stain and no text.",
+      "left_margin": "Shelfmark column only, containing b002, b005 and b006.",
+      "right_margin": "The dash b901 near the gutter; otherwise blank.",
+      "interlinear": "No interlinear additions observed."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        425,
+        330,
+        200,
+        145
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "327b",
+      "features": [
+        "superscript 'b' added above/after 327",
+        "faint smudged mark to right of numeral"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        480,
+        1165,
+        260,
+        65
+      ],
+      "kind_hint": "shelfmark_entry_left_column",
+      "anchor": "c 452(3)",
+      "features": [
+        "shelfmark in left shelfmark column"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        850,
+        1170,
+        240,
+        70
+      ],
+      "kind_hint": "cross_reference_note",
+      "anchor": "See opp. p.",
+      "features": [
+        "refers to opposite page; same line as c 452(3)",
+        "abbreviation 'opp. p.'"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        1160,
+        2880,
+        1170,
+        85
+      ],
+      "kind_hint": "independent_name_cross_reference",
+      "anchor": "Śrīnid[hi?] Janārdana, see Janārdana Bhaṭṭa",
+      "features": [
+        "main column, mid-page",
+        "diacritics written: ā, underdot in Bhaṭṭa",
+        "independent author cross-reference, not attached to a shelfmark"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        410,
+        4390,
+        280,
+        65
+      ],
+      "kind_hint": "cancelled_shelfmark",
+      "anchor": "⟦d 1013⟧",
+      "features": [
+        "struck through with heavy horizontal line(s)",
+        "left shelfmark column, line above c 452(4)"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        430,
+        4530,
+        265,
+        75
+      ],
+      "kind_hint": "shelfmark_entry_left_column",
+      "anchor": "c 452(4)",
+      "features": [
+        "shelfmark in left column near bottom"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        885,
+        4535,
+        275,
+        75
+      ],
+      "kind_hint": "cross_reference_note",
+      "anchor": "See opp. p.",
+      "features": [
+        "same line as c 452(4)",
+        "abbreviation 'opp. p.'"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2740,
+        2880,
+        235,
+        30
+      ],
+      "kind_hint": "unattached_mark",
+      "anchor": "horizontal dash",
+      "features": [
+        "ink stroke near the gutter",
+        "on the same line as b004",
+        "aligned with an arrow on the facing page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "327b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The 'b' is written raised, above and after the end of '327'.",
+        "There is a faint smudged mark, possibly offset ink, just to the right of the numeral."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The faint mark to the right of the numeral is not legible. It may be a show-through or offset trace."
+      ],
+      "stable_id": "css-prod-0654-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "cross_reference",
+      "subtype": "shelfmark_pointer_to_opposite_page",
+      "literal_text": "c 452(3)    See opp. p.",
+      "fields": {
+        "shelfmark": "c 452(3)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The shelfmark is in the left shelfmark column.",
+        "'See opp. p.' is written on the same ruled line in the main column."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 452(3)",
+          "evidence": "'opp. p.' points to the opposite page. The facing fol. 328 has a ticked entry at shelfmark c. 452(3).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "No title appears on this page. This record is not treated as an independent holding."
+      ],
+      "stable_id": "css-prod-0654-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "cross_reference",
+      "subtype": "independent_name_cross_reference",
+      "literal_text": "Śrīnida[?] Janārdana, see Janārdana Bhaṭṭa",
+      "fields": {
+        "author": "Śrīnida[?] Janārdana"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The entry is in the main column at mid-page.",
+        "It is not on the same line as any shelfmark."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Janārdana Bhaṭṭa al. ... Janārdana, Vaidyaratna",
+          "evidence": "The facing page has a name heading for Janārdana Bhaṭṭa.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The first word is uncertain in the cursive hand. It could be read 'Śrīnida' or 'Śrīnidhi'.",
+        "Diacritics on the first word are not clearly visible."
+      ],
+      "stable_id": "css-prod-0654-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "horizontal_dash",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A short horizontal ink stroke is to the right of the r003 line, near the gutter.",
+        "On the facing page, an arrow sits at approximately the same height, beside d. 296."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ d. 296",
+          "evidence": "The dash and the arrow are horizontally aligned across the opening.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The function of the dash is unknown."
+      ],
+      "stable_id": "css-prod-0654-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "cancelled_shelfmark",
+      "literal_text": "⟦d 1013⟧",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The shelfmark is struck through with heavy horizontal line(s).",
+        "It is in the left shelfmark column, on the line above c 452(4).",
+        "No main-column text accompanies it."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 1013(7)",
+          "evidence": "The facing page has shelfmark d. 1013(7).",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The cancellation appears to run through the whole shelfmark, including 'd'.",
+        "The final digit read as '3' is partly obscured by the strike."
+      ],
+      "stable_id": "css-prod-0654-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006",
+        "b007"
+      ],
+      "type": "cross_reference",
+      "subtype": "shelfmark_pointer_to_opposite_page",
+      "literal_text": "c 452(4)    See opp. p.",
+      "fields": {
+        "shelfmark": "c 452(4)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The shelfmark is in the left column near the bottom of the page.",
+        "'See opp. p.' is on the same line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 452(4)",
+          "evidence": "The facing fol. 328 has a bottom entry at shelfmark c. 452(4).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0654-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "Śrīnida[?] Janārdana, see Janārdana Bhaṭṭa",
+      "after": "[Srinida?] Janārdana, see Janārdana Bhaṭṭa",
+      "reason": "In the native tile the first word shows no visible acute on S and no macron on i. The diacritics 'Ś' and 'ī' were supplied rather than read. The written form is uncertain, so the whole word is bracketed as uncertain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.author",
+      "before": "Śrīnida[?] Janārdana",
+      "after": "[Srinida?] Janārdana",
+      "reason": "Aligns the field with the literal reading and does not supply diacritics that are not visible.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Janārdana Bhaṭṭa al. ... Janārdana, Vaidyaratna",
+          "evidence": "The facing page has a name heading for Janārdana Bhaṭṭa.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Janārdana Bhatta al. [Srinide?] Janārdana, Vaidyaratna",
+          "evidence": "'see Janārdana Bhaṭṭa' is an explicit pointer. The facing fol. 328 has a heading line beginning 'Janārdana Bhatta al.' above d.1019. The wording of the facing heading is only partly legible at context resolution.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "This is an explicit 'see' reference, not a physical attachment. The target heading's wording remains partly uncertain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "Śrīnida[?] Janārdana, see Janārdana Bhaṭṭa",
+      "after": "[Srinida?] Janārdana, see Janārdana Bhaṭṭa",
+      "reason": "The diacritics Ś and ī are not visible in the native tile, so the whole first word is marked uncertain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0654-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.author",
+      "before": "Śrīnida[?] Janārdana",
+      "after": "[Srinida?] Janārdana",
+      "reason": "Aligns the field with the literal reading without supplying unseen diacritics.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0654-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Janārdana Bhaṭṭa al. ... Janārdana, Vaidyaratna",
+          "evidence": "The facing page has a name heading for Janārdana Bhaṭṭa.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 655,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Janārdana Bhatta al. [Srinide?] Janārdana, Vaidyaratna",
+          "evidence": "'see Janārdana Bhaṭṭa' is an explicit pointer. The facing fol. 328 has a heading line beginning 'Janārdana Bhatta al.' above d.1019. The facing heading's wording is only partly legible.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "This is an explicit 'see' reference, not a physical attachment.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0654-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The first word is uncertain in the cursive hand. It could be read 'Śrīnida' or 'Śrīnidhi'.",
+        "Diacritics on the first word are not clearly visible."
+      ],
+      "after": [
+        "The first word is uncertain in the cursive hand, roughly 'Srinida' or 'Srnida'. No 'h' supporting 'nidhi' is visible.",
+        "No acute or macron is visible on the first word. The diacritics are not supplied."
+      ],
+      "reason": "Fresh reread of the native tile.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0654-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "⟦d 1013⟧",
+      "after": "⟦d 101[3?]⟧",
+      "reason": "The final digit under the strike could be '3' or '5'.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0654-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "uncertainties",
+      "before": [
+        "The cancellation appears to run through the whole shelfmark, including 'd'.",
+        "The final digit read as '3' is partly obscured by the strike."
+      ],
+      "after": [
+        "The cancellation appears to run through the whole shelfmark, including 'd'.",
+        "The final digit is partly obscured by the strike. It could be '3' or '5'.",
+        "The link to d.1013(7) on fol. 328 is unconfirmed."
+      ],
+      "reason": "Keeps the doubtful digit and the doubtful link explicit.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0654-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The final digit of the cancelled shelfmark could be '3' or '5' under the strike. Its link to d.1013(7) on fol. 328 is unconfirmed.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0654-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The function of the dash and its relation to the facing-page arrow at d.296 are unknown.",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0654-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "In the native tile the first word shows no visible acute on S and no macron on i. The diacritics 'Ś' and 'ī' were supplied rather than read. The written form is uncertain, so the whole word is bracketed as uncertain. Proposed literal_text: \"[Srinida?] Janārdana, see Janārdana Bhaṭṭa\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0654-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "This is an explicit 'see' reference, not a physical attachment. The target heading's wording remains partly uncertain. Proposed relationships: [{\"type\": \"cross_reference\", \"target_page_order\": 655, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"Janārdana Bhatta al. [Srinide?] Janārdana, Vaidyaratna\", \"evidence\": \"'see Janārdana Bhaṭṭa' is an explicit pointer. The facing fol. 328 has a heading line beginning 'Janārdana Bhatta al.' above d.1019. The wording of the facing heading is only partly legible at context resolution.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0654-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The first word's letter forms and diacritics are uncertain ('Srinida' vs 'Śrīnidhi').",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0654-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Aligns the field with the literal reading and does not supply diacritics that are not visible. Proposed fields.author: \"[Srinida?] Janārdana\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0654-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The faint mark to the right of the numeral is not legible. It may be a show-through or offset trace.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0654-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "No title appears on this page. This record is not treated as an independent holding.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0654-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The first word is uncertain in the cursive hand. It could be read 'Śrīnida' or 'Śrīnidhi'.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0654-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Diacritics on the first word are not clearly visible.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0654-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0654-01",
+        "focus-0654-02",
+        "focus-0654-03",
+        "focus-0654-04",
+        "focus-0654-05",
+        "focus-0654-06",
+        "focus-0654-07",
+        "focus-0654-08",
+        "focus-0654-09",
+        "focus-0654-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0654-01",
+          "source_reading": "⟦d 101[3?/5?]⟧",
+          "certainty": "uncertain",
+          "evidence": "In the native bottom tile, at about y 4420–4445, heavy double horizontal strokes run through the 'd' and through '101'. The final digit has a flat top and a lower curve, and the strike crosses it. It could be read as '3' or '5'. Nothing on this page links it to d.1013(7) on fol. 328."
+        },
+        {
+          "issue_id": "focus-0654-02",
+          "source_reading": "[horizontal dash, no text]",
+          "certainty": "secure",
+          "evidence": "A single straight ink stroke runs at about x 2744–2969, y about 2895, to the right of the b004 line and short of the gutter. On the facing page, an arrow sits in the margin between d.296 and d.1073(1) at a similar height. Their alignment is visible, but no connecting stroke crosses the gutter. Its function is undetermined."
+        },
+        {
+          "issue_id": "focus-0654-03",
+          "source_reading": "[Srinida?] Janārdana, see Janārdana Bhaṭṭa",
+          "certainty": "uncertain",
+          "evidence": "The first word is written in cursive, roughly 'Srriida' or 'Srnida'. No acute is visible on the S and no macron on the i. 'Janārdana' shows a mark over the second a. 'see' is written in a cursive form that looks like 'sec'. 'Bhaṭṭa' has a dot under the tt."
+        },
+        {
+          "issue_id": "focus-0654-04",
+          "source_reading": "see Janārdana Bhaṭṭa",
+          "certainty": "probable",
+          "evidence": "This is an explicit 'see' pointer. Fol. 328 has a heading 'Janārdana Bhatta al. [Śrīnide?] Janārdana, Vaidyaratna' above d.1019. That heading is only partly legible at the available resolution."
+        },
+        {
+          "issue_id": "focus-0654-05",
+          "source_reading": "[Srinida?]",
+          "certainty": "uncertain",
+          "evidence": "There is an S-form, then minims that could be 'rri', 'rn' or 'ri', then 'd' and a final 'a'. No 'h' after the d is evident, so 'nidhi' is not supported."
+        },
+        {
+          "issue_id": "focus-0654-06",
+          "source_reading": "[Srinida?] Janārdana",
+          "certainty": "uncertain",
+          "evidence": "Same as focus-0654-03. No diacritics are visible on the first word."
+        },
+        {
+          "issue_id": "focus-0654-07",
+          "source_reading": "[illegible faint mark]",
+          "certainty": "uncertain",
+          "evidence": "To the right of '327' there is a pale grey mark with a few dots, at about x 570–620, y 420–455. It may be an offset or show-through trace, possibly of a 'b'. It is not legible."
+        },
+        {
+          "issue_id": "focus-0654-08",
+          "source_reading": "c 452(3)    See opp. p.",
+          "certainty": "secure",
+          "evidence": "There is a shelfmark in the left column and the pointer 'See opp. p.' in the main column. No title is written on this page."
+        },
+        {
+          "issue_id": "focus-0654-09",
+          "source_reading": "[Srinida?]",
+          "certainty": "uncertain",
+          "evidence": "The letter forms are ambiguous. A reading of 'Śrīnidhi' is not supported by any visible 'h'."
+        },
+        {
+          "issue_id": "focus-0654-10",
+          "source_reading": "[no diacritics visible on first word]",
+          "certainty": "probable",
+          "evidence": "In the native tile, no acute or macron strokes appear above the first word."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "Śrīnida[?] Janārdana, see Janārdana Bhaṭṭa",
+          "after": "[Srinida?] Janārdana, see Janārdana Bhaṭṭa",
+          "reason": "The diacritics Ś and ī are not visible in the native tile, so the whole first word is marked uncertain.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "fields.author",
+          "before": "Śrīnida[?] Janārdana",
+          "after": "[Srinida?] Janārdana",
+          "reason": "Aligns the field with the literal reading without supplying unseen diacritics.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 655,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "Janārdana Bhaṭṭa al. ... Janārdana, Vaidyaratna",
+              "evidence": "The facing page has a name heading for Janārdana Bhaṭṭa.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "cross_reference",
+              "target_page_order": 655,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "Janārdana Bhatta al. [Srinide?] Janārdana, Vaidyaratna",
+              "evidence": "'see Janārdana Bhaṭṭa' is an explicit pointer. The facing fol. 328 has a heading line beginning 'Janārdana Bhatta al.' above d.1019. The facing heading's wording is only partly legible.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "This is an explicit 'see' reference, not a physical attachment.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The first word is uncertain in the cursive hand. It could be read 'Śrīnida' or 'Śrīnidhi'.",
+            "Diacritics on the first word are not clearly visible."
+          ],
+          "after": [
+            "The first word is uncertain in the cursive hand, roughly 'Srinida' or 'Srnida'. No 'h' supporting 'nidhi' is visible.",
+            "No acute or macron is visible on the first word. The diacritics are not supplied."
+          ],
+          "reason": "Fresh reread of the native tile.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "literal_text",
+          "before": "⟦d 1013⟧",
+          "after": "⟦d 101[3?]⟧",
+          "reason": "The final digit under the strike could be '3' or '5'.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "uncertainties",
+          "before": [
+            "The cancellation appears to run through the whole shelfmark, including 'd'.",
+            "The final digit read as '3' is partly obscured by the strike."
+          ],
+          "after": [
+            "The cancellation appears to run through the whole shelfmark, including 'd'.",
+            "The final digit is partly obscured by the strike. It could be '3' or '5'.",
+            "The link to d.1013(7) on fol. 328 is unconfirmed."
+          ],
+          "reason": "Keeps the doubtful digit and the doubtful link explicit.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "uncertain"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number with raised b. The faint trace to its right is illegible."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Shelfmark c 452(3)."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "'See opp. p.'"
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Independent name cross-reference. The first word is uncertain."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Horizontal dash. Its function is unknown."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Cancelled shelfmark. The final digit is uncertain."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "Shelfmark c 452(4)."
+        },
+        {
+          "block_id": "b007",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "'See opp. p.'"
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0654-01",
+          "record_id": "r005",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "The final digit could be '3' or '5'. The link to d.1013(7) is unconfirmed.",
+          "next_check": "Higher-resolution or raking-light view of the struck digits."
+        },
+        {
+          "issue_id": "focus-0654-02",
+          "record_id": "r004",
+          "block_ids": [
+            "b901"
+          ],
+          "issue": "The dash's function and its relation to the facing arrow at d.296/d.1073(1) are unknown.",
+          "next_check": "Compare ink and hand with the fol. 328 arrow, and check catalogue conventions."
+        },
+        {
+          "issue_id": "focus-0654-05",
+          "record_id": "r003",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The letter forms and diacritics of the first word remain uncertain.",
+          "next_check": "Compare with the facing fol. 328 heading at native resolution."
+        },
+        {
+          "issue_id": "focus-0654-07",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "The faint mark beside the numeral is illegible.",
+          "next_check": "Check the verso or facing leaf for an offset source."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "2c2dcaebf1b4584c1de83f73faec341f77f0ef571f7e1721d360dd546bcd9d34",
+      "bytes": 312025,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5ce2913f3346d8e4213a22881974334e3ea42ae035af2c7c4f3f885a996e2c14",
+      "bytes": 364774,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4c98eb3c41a6274c5308d07483ffe05e163a392bc8a3e81ff31886ea05542d2b",
+      "bytes": 387652,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e4c08e33fa00926aaf388608cd8892a0462d0479056399993a85542b6ee3dafb",
+      "bytes": 403278,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fc4a323f5719c762537005704890e722614ae983bc03da0b32c1fe385cb7e0fe",
+      "bytes": 360674,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2e6c0651-16b2-482f-aaec-9358fb2f11f3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "38006da074ad3f451abb593842ab49e59b3f14bca7fae9b4a4a73a24a6281a4f",
+      "bytes": 356756,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 653,
+      "folio_label": "fol. 327",
+      "page_id": "2e6c0651-16b2-482f-aaec-9358fb2f11f3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/88cca606-f988-4009-b13c-91f28c31760f/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "88aa5962d642c13a4b5048ab1b276d5181c622ab730bf7a2283f4535bcc6b224",
+      "bytes": 319220,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 655,
+      "folio_label": "fol. 328",
+      "page_id": "88cca606-f988-4009-b13c-91f28c31760f",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/88cca606-f988-4009-b13c-91f28c31760f/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2bb6abd1754958f4f63373f774787e8a13cfa22fa6063ce533f6b15283cf781e",
+      "bytes": 555750,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 655,
+      "folio_label": "fol. 328",
+      "page_id": "88cca606-f988-4009-b13c-91f28c31760f",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/88cca606-f988-4009-b13c-91f28c31760f/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3617780e8249ff2d40c346c434851037c8429e92eda6df80421179de405238eb",
+      "bytes": 517111,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 655,
+      "folio_label": "fol. 328",
+      "page_id": "88cca606-f988-4009-b13c-91f28c31760f",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/092a3268-fe84-481d-a6a6-57fa8d585b93.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "2c2dcaebf1b4584c1de83f73faec341f77f0ef571f7e1721d360dd546bcd9d34",
+      "bytes": 312025,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5ce2913f3346d8e4213a22881974334e3ea42ae035af2c7c4f3f885a996e2c14",
+      "bytes": 364774,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6eb6dab9eeb8b72d638d2ed0ba005d2bc7d63ae476b9cf6a506faaf21ace8ba6",
+      "bytes": 389255,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4c98eb3c41a6274c5308d07483ffe05e163a392bc8a3e81ff31886ea05542d2b",
+      "bytes": 387652,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e4c08e33fa00926aaf388608cd8892a0462d0479056399993a85542b6ee3dafb",
+      "bytes": 403278,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fc4a323f5719c762537005704890e722614ae983bc03da0b32c1fe385cb7e0fe",
+      "bytes": 360674,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/092a3268-fe84-481d-a6a6-57fa8d585b93/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ce0ce2d78a481ce701bc5a51f172f6b8655ad2b2035fefc59be53bca8f41d516",
+      "bytes": 390317,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2e6c0651-16b2-482f-aaec-9358fb2f11f3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "38006da074ad3f451abb593842ab49e59b3f14bca7fae9b4a4a73a24a6281a4f",
+      "bytes": 356756,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 653,
+      "folio_label": "fol. 327",
+      "page_id": "2e6c0651-16b2-482f-aaec-9358fb2f11f3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/88cca606-f988-4009-b13c-91f28c31760f/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "88aa5962d642c13a4b5048ab1b276d5181c622ab730bf7a2283f4535bcc6b224",
+      "bytes": 319220,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 655,
+      "folio_label": "fol. 328",
+      "page_id": "88cca606-f988-4009-b13c-91f28c31760f",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

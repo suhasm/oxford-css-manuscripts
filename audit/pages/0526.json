@@ -1,0 +1,2147 @@
+{
+  "source_order": 526,
+  "folio_label": "fol. 263b",
+  "page_id": "d385e096-1b5f-4d20-ae12-ffc6b256be72",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "263.b",
+    "principal_page_bbox": [
+      300,
+      270,
+      2895,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          320,
+          150,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "263.b",
+        "features": [
+          "top-left corner",
+          "superscript 'b' after '263.'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          520,
+          645,
+          1010,
+          80
+        ],
+        "kind_hint": "interlinear_addition",
+        "anchor": "ff 329-689 (in 10ff.) acc. to later foliation, originally",
+        "features": [
+          "written above the first part of b003",
+          "smaller hand, possibly pencil or lighter ink",
+          "attachment point within b003 not marked by a caret"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          380,
+          720,
+          1950,
+          110
+        ],
+        "kind_hint": "note_continuation_for_facing_page_entry",
+        "anchor": "two MSS. put together, (1) 60ff. beginning with f.2, inc., (2)",
+        "features": [
+          "descriptive note with no shelfmark or title on this page",
+          "contains struck-through '⟦ff.1-300 (in 10ff.)⟧' and a following 'inc.' that may also be struck through",
+          "ends with a trailing comma"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          1740,
+          665,
+          600,
+          80
+        ],
+        "kind_hint": "interlinear_addition",
+        "anchor": "8ff. and ff.9-300 (in.9ff.)",
+        "features": [
+          "written above the cancelled text in b003",
+          "appears to be the replacement reading for the cancelled extent"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2455,
+          715,
+          380,
+          95
+        ],
+        "kind_hint": "comparison_reference",
+        "anchor": "Cp. I.O. 1684",
+        "features": [
+          "lighter hand or pencil",
+          "on the same line as b003, to the right"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          380,
+          915,
+          1390,
+          135
+        ],
+        "kind_hint": "note_continuation_for_facing_page_entry",
+        "anchor": "ff.1-114 unf., date in S. vyomābhi… (18?1)",
+        "features": [
+          "date digits are overwritten or uncertain",
+          "small '?' written above the third digit",
+          "Sanskrit date wording is in cursive transliteration and only partly legible"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          480,
+          2990,
+          2560,
+          230
+        ],
+        "kind_hint": "note_continuation_for_facing_page_entry",
+        "anchor": "ff 1-65, breaks off in middle of 65b … printed ed. of G.O.S.",
+        "features": [
+          "two lines",
+          "'b' in '65b' is underlined",
+          "mentions 'paṭala 27', 'khaṇḍa II', 'Raj. Mitra's 405' and 'Not in printed ed.'",
+          "dots appear under letters in 'khaṇḍa'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3070,
+          725,
+          50,
+          40
+        ],
+        "description": "small 'ㄴ'-like hook or arrowhead at the right edge level with b003; probably a link mark to the facing page"
+      },
+      {
+        "bbox": [
+          2995,
+          960,
+          180,
+          45
+        ],
+        "description": "left-pointing arrow near the gutter level with b006; probably links b006 to an entry on the facing page"
+      },
+      {
+        "bbox": [
+          740,
+          4555,
+          460,
+          60
+        ],
+        "description": "small dark specks or debris near the bottom; not writing"
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x≈3190. Short dashes beyond it at y≈740 and y≈970, and a diagonal stroke at about [3420,1610,88,50], belong to the facing page (fol. 264) and are not transcribed here.",
+      "The notes on this verso have no shelfmarks or titles. Their parent entries are presumably on the facing fol. 264, but no parent is assigned here.",
+      "Faint show-through of writing from the reverse side is visible across the page, including a faint diagonal stroke in the lower half. It is not counted as target text."
+    ],
+    "uncertainties": [
+      "Extent of the cancellation in b003: whether 'inc.' after '(in 10ff.)' is also struck through.",
+      "Date digits in b006 ('18?1'): the third digit is overwritten and queried.",
+      "The Sanskrit wording in b006 is only partly legible.",
+      "Whether b005 belongs to the b003 note or is an independent annotation."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "263.b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "263.b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner. The 'b' is written superscript after '263.'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_note",
+        "literal_text": "ff 329-689 (in 10ff.) acc. to later foliation, originally\ntwo MSS. put together, (1) 60ff. beginning with f.2, inc., (2) ⟦ff.1-300 (in 10ff.)⟧, ⟦inc.⟧.,\n[interlinear above the cancelled text:] 8ff. and ff.9-300 (in.9ff.)",
+        "fields": {
+          "extent": "ff 329-689 (in 10ff.) acc. to later foliation; (1) 60ff. beginning with f.2, inc.; (2) 8ff. and ff.9-300 (in.9ff.)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "b002 is a lighter, smaller interlinear line written above the start of b003. No caret marks its insertion point.",
+          "b004 is written interlinearly above the struck-through 'ff.1-300 (in 10ff.)'. It appears to be the replacement reading.",
+          "A single horizontal stroke runs through 'ff.1-300 (in 10ff.)' and appears to continue through the following 'inc.'.",
+          "A small hook mark (ㄴ-like) at the right edge near the gutter (about x 3070, y 725) is level with this line. It is probably a link mark to the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓c. 333 ———¹ ——— n.d.: 35?: 9/10 :D",
+            "evidence": "A hook mark beside this line at the gutter corresponds to a similar hook in the left margin of fol. 264 at the c. 333 entry. The note has no shelfmark or title on this page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "It is not certain whether 'inc.' after the cancelled extent is struck through.",
+          "'(in 10ff.)' could also be read '(m 10ff.)'.",
+          "The exact insertion point of b002 within b003 is unmarked."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "comparison_reference",
+        "literal_text": "Cp. I.O. 1684",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in a lighter hand or pencil, on the same line as b003 and to its right."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 526,
+            "target_record_id": "r002",
+            "target_block_id": "b003",
+            "target_anchor": "two MSS. put together",
+            "evidence": "It stands on the same ruled line as b003. No explicit linking mark is present.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "It may be an independent annotation rather than part of the b003 note."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_and_date_note",
+        "literal_text": "ff.1-114 unf., date in S. vyomābhi nāga rajanīpati [reading?] (18[8?]1)",
+        "fields": {
+          "extent": "ff.1-114 unf.",
+          "date": "S. vyomābhi nāga rajanīpati [reading?] (18[8?]1)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The third digit of the date is overwritten. A small '?' is written above it.",
+          "A left-pointing arrow near the gutter (about x 2995, y 960) is level with this line. It probably links to the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓c. 268 Vratodyāpanakaumudī. By Śaṅkara Bhaṭṭa",
+            "evidence": "The left-pointing arrow at this line corresponds to a matching arrow in the left margin of fol. 264 beside the c. 268 entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cursive transliterated Sanskrit date words are only partly legible. Word division is uncertain.",
+          "The date digits are uncertain: the third digit is overwritten and queried."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b007"
+        ],
+        "type": "continuation_note",
+        "subtype": "content_note",
+        "literal_text": "ff 1-65, breaks off in middle of 65b in paṭala 27. Apparently corresponds to khaṇḍa II of Raj. Mitra's 405. Not in\nprinted ed. of G.O.S.",
+        "fields": {
+          "extent": "ff 1-65"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The 'b' in '65b' is underlined.",
+          "Dots are written under letters in 'khaṇḍa'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+            "evidence": "The end of this line ('Not in') is visible at the left edge of fol. 264, level with the b. 44(2) entry, whose cancelled text mentions paṭalas, a khaṇḍa and R. Lāl's catalogue. No explicit link mark is present.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'corresponds' may be written 'correspond'."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3070,
+          725,
+          50,
+          40
+        ],
+        "kind_hint": "link_mark",
+        "anchor": "ㄴ-like hook beside b003",
+        "features": [
+          "near the gutter",
+          "non-text mark"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2995,
+          960,
+          180,
+          45
+        ],
+        "kind_hint": "link_mark",
+        "anchor": "left-pointing arrow beside b006",
+        "features": [
+          "near the gutter",
+          "non-text mark"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear addition to the b003 note."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Main continuation note."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear replacement for the cancelled extent."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Comparison reference, kept separate because its attachment is ambiguous."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Continuation note with extent and date."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Two-line continuation note."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Link mark described in r002 annotations."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Link mark described in r004 annotations."
+      }
+    ],
+    "page_annotations": [
+      "The verso carries only descriptive notes with no shelfmarks or titles. They appear to continue entries on the facing fol. 264.",
+      "Show-through from the reverse side and specks near the bottom (about [740,4555,460,60]) are not text.",
+      "Dashes and a diagonal stroke beyond the gutter belong to fol. 264."
+    ],
+    "unresolved_relationships": [
+      "The parent entries on fol. 264 for r002, r004 and r005 are probable, not secure.",
+      "It is not settled whether r003 attaches to r002."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '263.' with a raised 'b' is in the top-left corner. It is correctly recorded as a non-catalogue page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A lighter, smaller interlinear line stands above the start of the b003 line. The reading is acceptable. '(in 10ff.)' could also be read '(m10ff.)', and the candidate already flags this. No caret marks the insertion point."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The main line is represented. A single stroke cancels 'ff.1-300 (in 10ff.)' and appears to run on through 'inc'. A trailing '.,' follows. The extent of the cancellation remains uncertain. A long diagonal descender crosses the line near '(2) ff.'. It appears to be a letter stroke, not a separate mark."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The interlinear replacement '8ff. and ff.9-300 (in.9ff.)' is written above the cancelled text. The candidate puts a bracketed editorial description inside literal_text. That description belongs in the annotations, which already state the position."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "'Cp. I.O. 1684' is in a lighter hand on the b003 line, to the right. Its attachment to r002 is plausible but not explicit, and is correctly kept as probable."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The line reads 'ff.1-114 unf., date in S. vyomābhi nāga rajanīpati (18?1)'. The third digit is overwritten as 8 over another digit, with '?' above it. The Sanskrit wording and diacritics are uncertain, and the candidate preserves that uncertainty."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The two-line note is correctly transcribed. The 'b' of '65b' is underlined and dots stand under 'khaṇḍa'. The line ends 'Not in' near x≈3030 and continues on the next line with 'printed ed. of G.O.S.'."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The hook mark is on the target page just left of the gutter (about x 3080, y 740). The same mark is visible at the left edge of the fol. 264 image as a fragment of this page. It is not a separate mark on fol. 264."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The left-pointing arrow is on the target page near the gutter. In the fol. 264 image it appears at the left-edge fragment of this page, followed by a short dash beyond the gutter, level with the c. 268 entry."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff 329-689 (in 10ff.) acc. to later foliation, originally\ntwo MSS. put together, (1) 60ff. beginning with f.2, inc., (2) ⟦ff.1-300 (in 10ff.)⟧, ⟦inc.⟧.,\n[interlinear above the cancelled text:] 8ff. and ff.9-300 (in.9ff.)",
+        "after": "ff 329-689 (in 10ff.) acc. to later foliation, originally\ntwo MSS. put together, (1) 60ff. beginning with f.2, inc., (2) ⟦ff.1-300 (in 10ff.)⟧, ⟦inc.⟧.,\n8ff. and ff.9-300 (in.9ff.)",
+        "reason": "The bracketed phrase is an editorial description, not source wording. The position of the interlinear text is already recorded in the annotations.",
+        "source_block_ids": [
+          "b003",
+          "b004"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓c. 333 ———¹ ——— n.d.: 35?: 9/10 :D",
+            "evidence": "A hook mark beside this line at the gutter corresponds to a similar hook in the left margin of fol. 264 at the c. 333 entry. The note has no shelfmark or title on this page.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓c. 333 ———¹ ———",
+            "evidence": "The hook mark at the gutter end of this line is visible in the fol. 264 image only as part of this page's fragment, left of the gutter. A short dash just beyond the gutter is level with the c. 333 entry. The alignment is by level, not by a separate matching mark on fol. 264. The note has no shelfmark or title on this page.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The candidate treats the facing-page fragment of this page's own mark as an independent matching mark on fol. 264. The date portion of the anchor was not verified from the reduced adjacent image, so it is dropped.",
+        "source_block_ids": [
+          "b003",
+          "b901"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓c. 268 Vratodyāpanakaumudī. By Śaṅkara Bhaṭṭa",
+            "evidence": "The left-pointing arrow at this line corresponds to a matching arrow in the left margin of fol. 264 beside the c. 268 entry.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓c. 268 Vratodyāpanakaumudī",
+            "evidence": "The left-pointing arrow at the gutter end of this line appears in the fol. 264 image as part of this page's fragment. A short dash just beyond the gutter is level with the c. 268 entry. This is a level alignment, not a separate arrow on fol. 264.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The evidence is corrected: the arrow belongs to the target page and is not a matching mark on fol. 264. The title reading in the anchor is kept to the legible portion.",
+        "source_block_ids": [
+          "b006",
+          "b902"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+            "evidence": "The end of this line ('Not in') is visible at the left edge of fol. 264, level with the b. 44(2) entry, whose cancelled text mentions paṭalas, a khaṇḍa and R. Lāl's catalogue. No explicit link mark is present.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 527,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+            "evidence": "In the fol. 264 image, the end of this line ('Not in') is visible in the fragment of this page left of the gutter, level with the b. 44(2) entry. That entry's cancelled text appears to mention paṭalas, a khaṇḍa and 'R. Lāla's', but the reading from the reduced image is uncertain. No explicit link mark is present.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The evidence wording is clarified: 'Not in' lies on this page's fragment, not on fol. 264 itself. The reading of the cancelled text on fol. 264 is not secure from the reduced image.",
+        "source_block_ids": [
+          "b007"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "It is uncertain whether the cancellation stroke extends through 'inc.' and the comma after ')'. The cancelled '(in 10ff.)' may be written '(in.10ff.)' or '(m.10ff.)'.",
+        "next_check": "Inspect the native region at about x 2100-2600, y 740-820 at higher magnification."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The Sanskrit date words (word division, diacritics, and 'S.' versus 'Ś.') and the overwritten third digit of the year are not securely legible.",
+        "next_check": "Magnify the region at about x 900-1760, y 950-1050."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "It is not settled whether 'Cp. I.O. 1684' belongs to the r002 note or is an independent annotation.",
+        "next_check": "Compare the ink and hand with b002, and check the parent entry c. 333 on fol. 264."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3190. The hook and arrow (b901, b902) are on the target page. The short dashes just beyond the gutter and the diagonal stroke at about y≈1610 belong to fol. 264's left margin. The fol. 264 image shows a strip of this page at its left edge (the hook, the arrow and 'Not in'). These are the same target-page marks, not separate fol. 264 marks, and they are not duplicate records. Parent entries for r002, r004 and r005 on fol. 264 remain probable, by level alignment only.",
+    "region_review": {
+      "top": "Folio number '263.b' at top left. Otherwise the area above the first ruled text line is blank.",
+      "middle": "Blank ruled lines from about y 1100 to 2900 apart from faint show-through, including a faint diagonal. No writing.",
+      "bottom": "The b007 note at about y 3000-3220. Below it are blank ruled lines with only show-through and dark specks at about [740,4555,460,60], which are debris, not writing.",
+      "left_margin": "No marginal shelfmarks or marks besides the folio number.",
+      "right_margin": "The 'Cp. I.O. 1684' reference, the hook beside line 1 and the arrow beside the b006 line near the gutter. 'Not in' ends the b007 line near x≈3030. No other writing.",
+      "interlinear": "b002 above the start of b003. b004 above the cancelled extent. A '?' above the third digit of the date in b006. No other interlinear text found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        320,
+        150,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "263.b",
+      "features": [
+        "top-left corner",
+        "superscript 'b' after '263.'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        520,
+        645,
+        1010,
+        80
+      ],
+      "kind_hint": "interlinear_addition",
+      "anchor": "ff 329-689 (in 10ff.) acc. to later foliation, originally",
+      "features": [
+        "written above the first part of b003",
+        "smaller hand, possibly pencil or lighter ink",
+        "attachment point within b003 not marked by a caret"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        380,
+        720,
+        1950,
+        110
+      ],
+      "kind_hint": "note_continuation_for_facing_page_entry",
+      "anchor": "two MSS. put together, (1) 60ff. beginning with f.2, inc., (2)",
+      "features": [
+        "descriptive note with no shelfmark or title on this page",
+        "contains struck-through '⟦ff.1-300 (in 10ff.)⟧' and a following 'inc.' that may also be struck through",
+        "ends with a trailing comma"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        1740,
+        665,
+        600,
+        80
+      ],
+      "kind_hint": "interlinear_addition",
+      "anchor": "8ff. and ff.9-300 (in.9ff.)",
+      "features": [
+        "written above the cancelled text in b003",
+        "appears to be the replacement reading for the cancelled extent"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2455,
+        715,
+        380,
+        95
+      ],
+      "kind_hint": "comparison_reference",
+      "anchor": "Cp. I.O. 1684",
+      "features": [
+        "lighter hand or pencil",
+        "on the same line as b003, to the right"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        380,
+        915,
+        1390,
+        135
+      ],
+      "kind_hint": "note_continuation_for_facing_page_entry",
+      "anchor": "ff.1-114 unf., date in S. vyomābhi… (18?1)",
+      "features": [
+        "date digits are overwritten or uncertain",
+        "small '?' written above the third digit",
+        "Sanskrit date wording is in cursive transliteration and only partly legible"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        480,
+        2990,
+        2560,
+        230
+      ],
+      "kind_hint": "note_continuation_for_facing_page_entry",
+      "anchor": "ff 1-65, breaks off in middle of 65b … printed ed. of G.O.S.",
+      "features": [
+        "two lines",
+        "'b' in '65b' is underlined",
+        "mentions 'paṭala 27', 'khaṇḍa II', 'Raj. Mitra's 405' and 'Not in printed ed.'",
+        "dots appear under letters in 'khaṇḍa'"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3070,
+        725,
+        50,
+        40
+      ],
+      "kind_hint": "link_mark",
+      "anchor": "ㄴ-like hook beside b003",
+      "features": [
+        "near the gutter",
+        "non-text mark"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2995,
+        960,
+        180,
+        45
+      ],
+      "kind_hint": "link_mark",
+      "anchor": "left-pointing arrow beside b006",
+      "features": [
+        "near the gutter",
+        "non-text mark"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "263.b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner. The 'b' is written superscript after '263.'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0526-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_note",
+      "literal_text": "ff 329-689 (in 10ff.) acc. to later foliation, originally\ntwo MSS. put together, (1) 60ff. beginning with f.2, inc., (2) ⟦ff.1-300 (in 10ff.)⟧, ⟦inc.⟧.,\n8ff. and ff.9-300 (in.9ff.)",
+      "fields": {
+        "extent": "ff 329-689 (in 10ff.) acc. to later foliation; (1) 60ff. beginning with f.2, inc.; (2) 8ff. and ff.9-300 (in.9ff.)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "b002 is a lighter, smaller interlinear line written above the start of b003. No caret marks its insertion point.",
+        "b004 is written interlinearly above the struck-through 'ff.1-300 (in 10ff.)'. It appears to be the replacement reading.",
+        "A single horizontal stroke runs through 'ff.1-300 (in 10ff.)' and appears to continue through the following 'inc.'.",
+        "A small hook mark (ㄴ-like) at the right edge near the gutter (about x 3070, y 725) is level with this line. It is probably a link mark to the facing page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 333 ———¹ ——— n.d.: 35?: 9/10 :D",
+          "evidence": "A hook mark beside this line at the gutter corresponds to a similar hook in the left margin of fol. 264 at the c. 333 entry. The note has no shelfmark or title on this page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "It is not certain whether 'inc.' after the cancelled extent is struck through.",
+        "'(in 10ff.)' could also be read '(m 10ff.)'.",
+        "The exact insertion point of b002 within b003 is unmarked."
+      ],
+      "stable_id": "css-prod-0526-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "comparison_reference",
+      "literal_text": "Cp. I.O. 1684",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in a lighter hand or pencil, on the same line as b003 and to its right."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 526,
+          "target_record_id": "r002",
+          "target_block_id": "b003",
+          "target_anchor": "two MSS. put together",
+          "evidence": "It stands on the same ruled line as b003. No explicit linking mark is present.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "It may be an independent annotation rather than part of the b003 note."
+      ],
+      "stable_id": "css-prod-0526-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_and_date_note",
+      "literal_text": "ff.1-114 unf., date in S. vyomābhi nāga rajanīpati [reading?] (18[8?]1)",
+      "fields": {
+        "extent": "ff.1-114 unf.",
+        "date": "S. vyomābhi nāga rajanīpati [reading?] (18[8?]1)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The third digit of the date is overwritten. A small '?' is written above it.",
+        "A left-pointing arrow near the gutter (about x 2995, y 960) is level with this line. It probably links to the facing page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 268 Vratodyāpanakaumudī. By Śaṅkara Bhaṭṭa",
+          "evidence": "The left-pointing arrow at this line corresponds to a matching arrow in the left margin of fol. 264 beside the c. 268 entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cursive transliterated Sanskrit date words are only partly legible. Word division is uncertain.",
+        "The date digits are uncertain: the third digit is overwritten and queried."
+      ],
+      "stable_id": "css-prod-0526-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b007"
+      ],
+      "type": "continuation_note",
+      "subtype": "content_note",
+      "literal_text": "ff 1-65, breaks off in middle of 65b in paṭala 27. Apparently corresponds to khaṇḍa II of Raj. Mitra's 405. Not in\nprinted ed. of G.O.S.",
+      "fields": {
+        "extent": "ff 1-65"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The 'b' in '65b' is underlined.",
+        "Dots are written under letters in 'khaṇḍa'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+          "evidence": "The end of this line ('Not in') is visible at the left edge of fol. 264, level with the b. 44(2) entry, whose cancelled text mentions paṭalas, a khaṇḍa and R. Lāl's catalogue. No explicit link mark is present.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'corresponds' may be written 'correspond'."
+      ],
+      "stable_id": "css-prod-0526-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff 329-689 (in 10ff.) acc. to later foliation, originally\ntwo MSS. put together, (1) 60ff. beginning with f.2, inc., (2) ⟦ff.1-300 (in 10ff.)⟧, ⟦inc.⟧.,\n[interlinear above the cancelled text:] 8ff. and ff.9-300 (in.9ff.)",
+      "after": "ff 329-689 (in 10ff.) acc. to later foliation, originally\ntwo MSS. put together, (1) 60ff. beginning with f.2, inc., (2) ⟦ff.1-300 (in 10ff.)⟧, ⟦inc.⟧.,\n8ff. and ff.9-300 (in.9ff.)",
+      "reason": "The bracketed phrase is an editorial description, not source wording. The position of the interlinear text is already recorded in the annotations.",
+      "source_block_ids": [
+        "b003",
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 333 ———¹ ——— n.d.: 35?: 9/10 :D",
+          "evidence": "A hook mark beside this line at the gutter corresponds to a similar hook in the left margin of fol. 264 at the c. 333 entry. The note has no shelfmark or title on this page.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 333 ———¹ ———",
+          "evidence": "The hook mark at the gutter end of this line is visible in the fol. 264 image only as part of this page's fragment, left of the gutter. A short dash just beyond the gutter is level with the c. 333 entry. The alignment is by level, not by a separate matching mark on fol. 264. The note has no shelfmark or title on this page.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The candidate treats the facing-page fragment of this page's own mark as an independent matching mark on fol. 264. The date portion of the anchor was not verified from the reduced adjacent image, so it is dropped.",
+      "source_block_ids": [
+        "b003",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 268 Vratodyāpanakaumudī. By Śaṅkara Bhaṭṭa",
+          "evidence": "The left-pointing arrow at this line corresponds to a matching arrow in the left margin of fol. 264 beside the c. 268 entry.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 268 Vratodyāpanakaumudī",
+          "evidence": "The left-pointing arrow at the gutter end of this line appears in the fol. 264 image as part of this page's fragment. A short dash just beyond the gutter is level with the c. 268 entry. This is a level alignment, not a separate arrow on fol. 264.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The evidence is corrected: the arrow belongs to the target page and is not a matching mark on fol. 264. The title reading in the anchor is kept to the legible portion.",
+      "source_block_ids": [
+        "b006",
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+          "evidence": "The end of this line ('Not in') is visible at the left edge of fol. 264, level with the b. 44(2) entry, whose cancelled text mentions paṭalas, a khaṇḍa and R. Lāl's catalogue. No explicit link mark is present.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+          "evidence": "In the fol. 264 image, the end of this line ('Not in') is visible in the fragment of this page left of the gutter, level with the b. 44(2) entry. That entry's cancelled text appears to mention paṭalas, a khaṇḍa and 'R. Lāla's', but the reading from the reduced image is uncertain. No explicit link mark is present.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The evidence wording is clarified: 'Not in' lies on this page's fragment, not on fol. 264 itself. The reading of the cancelled text on fol. 264 is not secure from the reduced image.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "block_ids",
+      "before": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "after": [
+        "b002",
+        "b003",
+        "b004",
+        "b901"
+      ],
+      "reason": "The hook mark b901 at the line end belongs to this line on the target page.",
+      "source_block_ids": [
+        "b901",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0526-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "block_ids",
+      "before": [
+        "b006"
+      ],
+      "after": [
+        "b006",
+        "b902"
+      ],
+      "reason": "The arrow b902 at the line end belongs to this line on the target page.",
+      "source_block_ids": [
+        "b902",
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0526-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 333 ———¹ ——— n.d.: 35?: 9/10 :D",
+          "evidence": "A hook mark beside this line at the gutter corresponds to a similar hook in the left margin of fol. 264 at the c. 333 entry. The note has no shelfmark or title on this page.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 333 ———¹ ———",
+          "evidence": "The hook mark at the gutter end of this line is visible in the fol. 264 image only as part of this page's fragment, left of the gutter. A short dash just beyond the gutter is level with the c. 333 entry. The alignment is by level, not by a separate matching mark on fol. 264. The note has no shelfmark or title on this page.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Corrected evidence after native comparison; the unverified date portion of the anchor is dropped.",
+      "source_block_ids": [
+        "b003",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0526-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 268 Vratodyāpanakaumudī. By Śaṅkara Bhaṭṭa",
+          "evidence": "The left-pointing arrow at this line corresponds to a matching arrow in the left margin of fol. 264 beside the c. 268 entry.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓c. 268 Vratodyāpanakaumudī",
+          "evidence": "The left-pointing arrow at the gutter end of this line appears in the fol. 264 image as part of this page's fragment. A short dash just beyond the gutter is level with the c. 268 entry. This is a level alignment, not a separate arrow on fol. 264.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The arrow is on the target page; the anchor is limited to the legible portion.",
+      "source_block_ids": [
+        "b006",
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0526-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+          "evidence": "The end of this line ('Not in') is visible at the left edge of fol. 264, level with the b. 44(2) entry, whose cancelled text mentions paṭalas, a khaṇḍa and R. Lāl's catalogue. No explicit link mark is present.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 527,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+          "evidence": "In the fol. 264 image, the end of this line ('Not in') is visible in the fragment of this page left of the gutter, level with the b. 44(2) entry. That entry's cancelled text appears to mention paṭalas, a khaṇḍa and 'R. Lāla's', but the reading from the reduced image is uncertain. No explicit link mark is present.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Clarifies that 'Not in' lies on this page's fragment and that the fol. 264 reading is uncertain.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0526-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [
+      "b901",
+      "b902"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b901",
+      "b902"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [],
+      "id": "focus-0526-01"
+    },
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0526-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "It is uncertain whether the cancellation stroke extends through 'inc.' and the comma after ')'. The cancelled '(in 10ff.)' may be written '(in.10ff.)' or '(m.10ff.)'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0526-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The Sanskrit date words (word division, diacritics, and 'S.' versus 'Ś.') and the overwritten third digit of the year are not securely legible.",
+      "block_ids": [
+        "b006"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0526-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The candidate treats the facing-page fragment of this page's own mark as an independent matching mark on fol. 264. The date portion of the anchor was not verified from the reduced adjacent image, so it is dropped. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 527, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"✓c. 333 ———¹ ———\", \"evidence\": \"The hook mark at the gutter end of this line is visible in the fol. 264 image only as part of this page's fragment, left of the gutter. A short dash just beyond the gutter is level with the c. 333 entry. The alignment is by level, not by a separate matching mark on fol. 264. The note has no shelfmark or title on this page.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b003",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0526-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The evidence is corrected: the arrow belongs to the target page and is not a matching mark on fol. 264. The title reading in the anchor is kept to the legible portion. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 527, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"✓c. 268 Vratodyāpanakaumudī\", \"evidence\": \"The left-pointing arrow at the gutter end of this line appears in the fol. 264 image as part of this page's fragment. A short dash just beyond the gutter is level with the c. 268 entry. This is a level alignment, not a separate arrow on fol. 264.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b006",
+        "b902"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0526-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The evidence wording is clarified: 'Not in' lies on this page's fragment, not on fol. 264 itself. The reading of the cancelled text on fol. 264 is not secure from the reduced image. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 527, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"b. 44(2) Śaktisaṅgama Tantra\", \"evidence\": \"In the fol. 264 image, the end of this line ('Not in') is visible in the fragment of this page left of the gutter, level with the b. 44(2) entry. That entry's cancelled text appears to mention paṭalas, a khaṇḍa and 'R. Lāla's', but the reading from the reduced image is uncertain. No explicit link mark is present.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b007"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0526-07"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is not settled whether 'Cp. I.O. 1684' belongs to the r002 note or is an independent annotation.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0526-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "It is not certain whether 'inc.' after the cancelled extent is struck through.",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0526-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'(in 10ff.)' could also be read '(m 10ff.)'.",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0526-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0526-01",
+        "focus-0526-02",
+        "focus-0526-03",
+        "focus-0526-04",
+        "focus-0526-05",
+        "focus-0526-06",
+        "focus-0526-07",
+        "focus-0526-08",
+        "focus-0526-09",
+        "focus-0526-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0526-01",
+          "source_reading": "[hook mark, ㄴ-like, no text]",
+          "certainty": "secure",
+          "evidence": "In the native tile at about x 3075–3110 and y 725–760, a small hook stands left of the gutter (gutter at about x 3192), level with b003. A short dash just right of the gutter, at about x 3200–3250, lies on the fol. 264 side."
+        },
+        {
+          "issue_id": "focus-0526-02",
+          "source_reading": "[left-pointing arrow, no text]",
+          "certainty": "secure",
+          "evidence": "A left-pointing arrow runs from about x 2995 to x 3170 at about y 975–995, left of the gutter and level with b006. A separate short dash beyond the gutter, at about x 3200–3265, is on the fol. 264 side."
+        },
+        {
+          "issue_id": "focus-0526-03",
+          "source_reading": ", (2) ⟦ff.1-300 ([in./m.?]10ff.)⟧, ⟦inc⟧.. ,",
+          "certainty": "uncertain",
+          "evidence": "The horizontal stroke crosses 'ff.1-300' and the parenthetical. The letters 'inc' appear overscored or scribbled through. A long descending stroke below ')' makes the status of the comma unclear. The letter before '10ff.' is an m-like or in-like form and cannot be decided."
+        },
+        {
+          "issue_id": "focus-0526-04",
+          "source_reading": "date in S. vyomābhi nāga rajanīpati (18[8 over another digit?]1)",
+          "certainty": "uncertain",
+          "evidence": "No accent is clearly visible on 'S.'. The word division in 'nāga rajanīpati' is unclear. The third digit is an 8 written over another digit, with a '?' above it. The underlying digit is not legible."
+        },
+        {
+          "issue_id": "focus-0526-05",
+          "source_reading": "hook mark at line end (target page); short dash on fol. 264 margin level with c. 333",
+          "certainty": "probable",
+          "evidence": "In the fol. 264 native tile, the hook is at x ≈ 240, left of that image's gutter at x ≈ 345, so it is the target-page fragment. The dash at x ≈ 355–410 is beyond the gutter, level with 'c. 333'."
+        },
+        {
+          "issue_id": "focus-0526-06",
+          "source_reading": "left arrow at line end (target page); short dash on fol. 264 margin level with c. 268",
+          "certainty": "probable",
+          "evidence": "In the fol. 264 native tile, the arrow at x ≈ 145–315 is left of the gutter, and the dash at x ≈ 355–415 is right of it, level with 'c. 268 Vratodyāpanakaumudī'."
+        },
+        {
+          "issue_id": "focus-0526-07",
+          "source_reading": "Not in",
+          "certainty": "probable",
+          "evidence": "In the fol. 264 overview, ', Not in' appears left of the gutter, level with the b. 44(2) line. No link mark is visible."
+        },
+        {
+          "issue_id": "focus-0526-08",
+          "source_reading": "Cp. I.O. 1684",
+          "certainty": "secure",
+          "evidence": "The text is legible, in a lighter grey hand or pencil, to the right of b003 on the same ruled line. No linking mark is present, so its ownership remains undetermined."
+        },
+        {
+          "issue_id": "focus-0526-09",
+          "source_reading": "⟦inc⟧..",
+          "certainty": "uncertain",
+          "evidence": "Dense strokes overlie 'inc', consistent with cancellation, but whether this is a continuation of the main stroke or separate scribbling is unclear."
+        },
+        {
+          "issue_id": "focus-0526-10",
+          "source_reading": "([in/m?] 10ff.)",
+          "certainty": "uncertain",
+          "evidence": "In b002, b003 and b004 (the latter written '(m.9ff.)'-like), the form before the numerals is ambiguous between 'in' and 'm'."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "block_ids",
+          "before": [
+            "b002",
+            "b003",
+            "b004"
+          ],
+          "after": [
+            "b002",
+            "b003",
+            "b004",
+            "b901"
+          ],
+          "reason": "The hook mark b901 at the line end belongs to this line on the target page.",
+          "source_block_ids": [
+            "b901",
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "block_ids",
+          "before": [
+            "b006"
+          ],
+          "after": [
+            "b006",
+            "b902"
+          ],
+          "reason": "The arrow b902 at the line end belongs to this line on the target page.",
+          "source_block_ids": [
+            "b902",
+            "b006"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 527,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "✓c. 333 ———¹ ——— n.d.: 35?: 9/10 :D",
+              "evidence": "A hook mark beside this line at the gutter corresponds to a similar hook in the left margin of fol. 264 at the c. 333 entry. The note has no shelfmark or title on this page.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 527,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "✓c. 333 ———¹ ———",
+              "evidence": "The hook mark at the gutter end of this line is visible in the fol. 264 image only as part of this page's fragment, left of the gutter. A short dash just beyond the gutter is level with the c. 333 entry. The alignment is by level, not by a separate matching mark on fol. 264. The note has no shelfmark or title on this page.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "Corrected evidence after native comparison; the unverified date portion of the anchor is dropped.",
+          "source_block_ids": [
+            "b003",
+            "b901"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 527,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "✓c. 268 Vratodyāpanakaumudī. By Śaṅkara Bhaṭṭa",
+              "evidence": "The left-pointing arrow at this line corresponds to a matching arrow in the left margin of fol. 264 beside the c. 268 entry.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 527,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "✓c. 268 Vratodyāpanakaumudī",
+              "evidence": "The left-pointing arrow at the gutter end of this line appears in the fol. 264 image as part of this page's fragment. A short dash just beyond the gutter is level with the c. 268 entry. This is a level alignment, not a separate arrow on fol. 264.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The arrow is on the target page; the anchor is limited to the legible portion.",
+          "source_block_ids": [
+            "b006",
+            "b902"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 527,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+              "evidence": "The end of this line ('Not in') is visible at the left edge of fol. 264, level with the b. 44(2) entry, whose cancelled text mentions paṭalas, a khaṇḍa and R. Lāl's catalogue. No explicit link mark is present.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 527,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "b. 44(2) Śaktisaṅgama Tantra",
+              "evidence": "In the fol. 264 image, the end of this line ('Not in') is visible in the fragment of this page left of the gutter, level with the b. 44(2) entry. That entry's cancelled text appears to mention paṭalas, a khaṇḍa and 'R. Lāla's', but the reading from the reduced image is uncertain. No explicit link mark is present.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "Clarifies that 'Not in' lies on this page's fragment and that the fol. 264 reading is uncertain.",
+          "source_block_ids": [
+            "b007"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Hook mark at the line end on the target page; now listed in r002."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Arrow at the line end on the target page; now listed in r004."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The extent of the cancellation is uncertain."
+        },
+        {
+          "block_id": "b005",
+          "status": "uncertain",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Ownership of the annotation is unresolved."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The date reading is uncertain."
+        },
+        {
+          "block_id": "b007",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Literal text is consistent with the image."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0526-03",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "It is unclear whether the cancellation covers 'inc.' and the comma, and whether the form is 'in' or 'm'.",
+          "next_check": "Higher-contrast inspection of the area around x 1990–2320, y 720–830."
+        },
+        {
+          "issue_id": "focus-0526-04",
+          "record_id": "r004",
+          "block_ids": [
+            "b006"
+          ],
+          "issue": "The date words, the S./Ś. form and the overwritten third digit are not secure.",
+          "next_check": "Enhanced view of x 900–1770, y 915–1050."
+        },
+        {
+          "issue_id": "focus-0526-08",
+          "record_id": "r003",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "It remains undetermined whether 'Cp. I.O. 1684' belongs to the r002 note or is independent.",
+          "next_check": "Compare ink and hand with b002 and b003; look for similar annotations elsewhere."
+        },
+        {
+          "issue_id": "focus-0526-09",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "It is uncertain whether 'inc.' is struck through.",
+          "next_check": "Same as focus-0526-03."
+        },
+        {
+          "issue_id": "focus-0526-10",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b003",
+            "b004"
+          ],
+          "issue": "The reading 'in' versus 'm' is undecided.",
+          "next_check": "Compare letter forms elsewhere in the same hand."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "e30d9e702eef94d6f5e5d6a17d2c3be57009ad359b6d268317c313732d22d66f",
+      "bytes": 245119,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ff76978e4f3a333218c79d00b5eca365e5a012f8208eceff4ef2455f3b7c9068",
+      "bytes": 327536,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fde24732b1fd55f38a6f0dd555d7e3931233c03aa908b3cafdd400bdbb9c8e74",
+      "bytes": 289901,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4111af9aeb2541c2294e8c287fc672bdaa4fc4804dd4c14e1895e1b3b364b088",
+      "bytes": 300792,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "963ffd581961ab5814d7ec919667983b43ac1d5226ba94ca5e4c2e1a1d397018",
+      "bytes": 260859,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b46af2af460571e726ee18b06493ece9f57ccf641f3ecb89b00f7d01f3814581",
+      "bytes": 290160,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5d93dcf51bebefe772d002d12ab319b47462437d049f899b659fc207c68b3b01",
+      "bytes": 288381,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bbd9a020-a022-4208-8c99-b8ffd72b0635/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2a8efb62094fa2921e86192a8d5e3c321374eadfde9e140fdb71588b37255d51",
+      "bytes": 225951,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 525,
+      "folio_label": "fol. 263",
+      "page_id": "bbd9a020-a022-4208-8c99-b8ffd72b0635",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a43a08-13e9-443c-9a53-883f9099772d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f4a377fa1b0e89bbbe18db491cd333162ff94eaed4563b263fb4dd8259ab84e1",
+      "bytes": 220988,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 527,
+      "folio_label": "fol. 264",
+      "page_id": "91a43a08-13e9-443c-9a53-883f9099772d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a43a08-13e9-443c-9a53-883f9099772d/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a8c99bc8d4a8fc109c346777ac28e50e4265fb84c6899a0a3a44f2df89602dcf",
+      "bytes": 351966,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 527,
+      "folio_label": "fol. 264",
+      "page_id": "91a43a08-13e9-443c-9a53-883f9099772d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a43a08-13e9-443c-9a53-883f9099772d/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cc97f0e9bdc762f524ca9d962e02637e3937521a22fe6c024800f8bf2381830a",
+      "bytes": 357706,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 527,
+      "folio_label": "fol. 264",
+      "page_id": "91a43a08-13e9-443c-9a53-883f9099772d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d385e096-1b5f-4d20-ae12-ffc6b256be72.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "e30d9e702eef94d6f5e5d6a17d2c3be57009ad359b6d268317c313732d22d66f",
+      "bytes": 245119,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ff76978e4f3a333218c79d00b5eca365e5a012f8208eceff4ef2455f3b7c9068",
+      "bytes": 327536,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fde24732b1fd55f38a6f0dd555d7e3931233c03aa908b3cafdd400bdbb9c8e74",
+      "bytes": 289901,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4111af9aeb2541c2294e8c287fc672bdaa4fc4804dd4c14e1895e1b3b364b088",
+      "bytes": 300792,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "963ffd581961ab5814d7ec919667983b43ac1d5226ba94ca5e4c2e1a1d397018",
+      "bytes": 260859,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b46af2af460571e726ee18b06493ece9f57ccf641f3ecb89b00f7d01f3814581",
+      "bytes": 290160,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d385e096-1b5f-4d20-ae12-ffc6b256be72/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5d93dcf51bebefe772d002d12ab319b47462437d049f899b659fc207c68b3b01",
+      "bytes": 288381,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bbd9a020-a022-4208-8c99-b8ffd72b0635/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2a8efb62094fa2921e86192a8d5e3c321374eadfde9e140fdb71588b37255d51",
+      "bytes": 225951,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 525,
+      "folio_label": "fol. 263",
+      "page_id": "bbd9a020-a022-4208-8c99-b8ffd72b0635",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a43a08-13e9-443c-9a53-883f9099772d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f4a377fa1b0e89bbbe18db491cd333162ff94eaed4563b263fb4dd8259ab84e1",
+      "bytes": 220988,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 527,
+      "folio_label": "fol. 264",
+      "page_id": "91a43a08-13e9-443c-9a53-883f9099772d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

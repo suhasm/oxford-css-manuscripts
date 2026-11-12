@@ -1,0 +1,1746 @@
+{
+  "source_order": 164,
+  "folio_label": "fol. 82b",
+  "page_id": "b95dbeba-dfdd-4306-ad68-6267983cf20e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "82b.",
+    "principal_page_bbox": [
+      290,
+      255,
+      2850,
+      4575
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          350,
+          330,
+          130,
+          100
+        ],
+        "kind_hint": "page_number",
+        "anchor": "82b.",
+        "features": [
+          "top-left corner",
+          "b written superscript with a dot below",
+          "appears to be pencil or lighter ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          340,
+          2500,
+          2790,
+          170
+        ],
+        "kind_hint": "annotation_note_with_incipit (extension of an entry on facing fol. 83)",
+        "anchor": "title uncertain, said to be part of Viśvanāthī (Viśvanātha's Co. on Grahalāghava). Begins:- Sindurāruṇa... / bhojaṁ praṇamya ... –",
+        "features": [
+          "two handwritten lines",
+          "second line continues the incipit and starts slightly indented",
+          "small mark after the dash at the end of line 2, possibly a superscript stroke [reading?]",
+          "the line runs up to the gutter",
+          "level with the √c.315(4) Janmapattrapaddhati entry on fol. 83",
+          "not a holding by itself"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          400,
+          2850,
+          2660,
+          110
+        ],
+        "kind_hint": "annotation_note (extension of entries on facing fol. 83)",
+        "anchor": "Janmāṣṭamīvrata (prose) and Janmaṣṭamīvratakathā (verse) from the Bhaviṣya (? Bhaviṣyottara) Purāṇa",
+        "features": [
+          "single line",
+          "parenthetical query '(?' before Bhaviṣyottara",
+          "level with the b.93(14) / b.94(6) entries on fol. 83",
+          "written spelling of the second title differs ('Janmaṣṭamī...' as read)"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          360,
+          3690,
+          1690,
+          120
+        ],
+        "kind_hint": "annotation_note (extension of an entry on facing fol. 83)",
+        "anchor": "Vāsiṣṭhaditiprasaṁvāda, followed by the [Janmāṣṭamī–] pūjāvidhi.",
+        "features": [
+          "single line",
+          "square brackets in the source",
+          "level with the arrow at the gutter and the b.100(7) entry on fol. 83"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3030,
+          3725,
+          290,
+          55
+        ],
+        "description": "Leftward-pointing arrow line (←——) drawn across the gutter. It links fol. 83 (the b.100(7) line) to this page, level with the note in b004."
+      },
+      {
+        "bbox": [
+          450,
+          3360,
+          45,
+          90
+        ],
+        "description": "Isolated exclamation-like ink mark ('!') with faint specks above it, in the left part of the page. Its purpose is unclear; it may be a blot."
+      },
+      {
+        "bbox": [
+          3170,
+          2525,
+          30,
+          30
+        ],
+        "description": "Small dot or mark near the gutter at the end of b002 line 1."
+      },
+      {
+        "bbox": [
+          855,
+          3080,
+          20,
+          20
+        ],
+        "description": "Small ink dot below b003, probably incidental."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the image shows fragments of facing fol. 83 (e.g. 'e.', 'e.', '√d.', 'd', '√d', 'n/', '√c', ticks). These belong to the adjacent page and are not recorded as target blocks.",
+      "The gutter lies at about x≈3140 native. The arrow mark crosses it.",
+      "The three notes on this verso appear to be overflow annotations for entries on the facing fol. 83. Their attachment is inferred from horizontal alignment only."
+    ],
+    "uncertainties": [
+      "Cursive readings of the Sanskrit words in b002 (Sindurāruṇa..., bhojaṁ praṇamya darad?) are uncertain.",
+      "The end mark of b002 line 2 is not clearly legible.",
+      "The function of the '!' mark is unknown."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "82b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "82b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner. The 'b' is written superscript with a dot below. It appears to be in pencil or lighter ink."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b903"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_for_facing_page_entry",
+        "literal_text": "title uncertain, said to be part of Viśvanāthī (Viśvanātha's Co. on Grahalāghava). Begins:- Sindurāruṇasindhura āsyacaraṇā-\nbhojaṁ praṇamyādarād –[illegible]",
+        "fields": {
+          "incipit": "Sindurāruṇasindhura āsyacaraṇā-\nbhojaṁ praṇamyādarād –"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two lines. The second line is slightly indented.",
+          "A small superscript mark follows the final dash; it may be '!' or similar.",
+          "Line 1 runs to the gutter. A small dot sits near the gutter at the end of line 1 (b903)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 165,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.315(4) Janmapattrapaddhati, by Viśvanātha / Divākara on horoscopes",
+            "evidence": "The note is horizontally level with this entry on facing fol. 83. Its content refers to Viśvanātha. There is no explicit linking mark.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cursive readings of the incipit words are uncertain: 'Sindurāruṇasindhura', 'āsyacaraṇā-', 'praṇamyādarād' [reading?].",
+          "The spelling 'Grahalāghava' is uncertain; a mark appears above the first a.",
+          "The mark at the end of line 2 is illegible.",
+          "'said to be' is a cursive reading [reading?]."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b904"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_for_facing_page_entry",
+        "literal_text": "Janmāṣṭamīvrata (prose) and Janmaṣṭamīvratakathā (verse) from the Bhaviṣya (? Bhaviṣyottara) Purāṇa",
+        "fields": {
+          "title": "Janmāṣṭamīvrata (prose) and Janmaṣṭamīvratakathā (verse)",
+          "source": "Bhaviṣya (? Bhaviṣyottara) Purāṇa"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line.",
+          "A small ink dot below the line (b904) is probably incidental."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 165,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b.93(14) — From the Bhaviṣya Purāṇa",
+            "evidence": "The note is horizontally level with the b.93(14) / b.94(6) rows on fol. 83. There is no linking mark.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The second title may read 'Janmaṣṭamī' or 'Janmāṣṭamī'. The macron is unclear; it is recorded as read.",
+          "It is uncertain whether the note attaches to b.93(14) or to b.94(6)."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_for_facing_page_entry",
+        "literal_text": "Vāśiṣṭhaditiprasaṁvāda, followed by the [Janmāṣṭamī–] pūjāvidhi.",
+        "fields": {
+          "title": "Vāśiṣṭhaditiprasaṁvāda, followed by the [Janmāṣṭamī–] pūjāvidhi"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The square brackets are in the source.",
+          "A leftward arrow (b901) crosses the gutter, linking the b.100(7) line on fol. 83 to this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 165,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b.100(7) ———, from the Bhaviṣya Purāṇa",
+            "evidence": "An arrow is drawn across the gutter from the b.100(7) line on fol. 83, level with this note.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?]."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "mark",
+        "literal_text": "!",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "An isolated exclamation-like ink mark with faint specks above it, in the left part of the page. It may be a blot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The function of the mark is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3030,
+          3725,
+          290,
+          55
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←——",
+        "features": [
+          "crosses the gutter",
+          "level with b004"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          450,
+          3360,
+          45,
+          90
+        ],
+        "kind_hint": "mark",
+        "anchor": "!",
+        "features": [
+          "isolated",
+          "possibly a blot"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          3170,
+          2525,
+          30,
+          30
+        ],
+        "kind_hint": "mark",
+        "anchor": "dot",
+        "features": [
+          "near the gutter at the end of b002 line 1"
+        ]
+      },
+      {
+        "id": "b904",
+        "bbox": [
+          855,
+          3080,
+          20,
+          20
+        ],
+        "kind_hint": "mark",
+        "anchor": "dot",
+        "features": [
+          "below b003",
+          "probably incidental"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Overflow note with incipit."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Overflow note."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Overflow note linked by arrow."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrow linking b004 to fol. 83."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Unexplained mark."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Dot at the end of b002 line 1."
+      },
+      {
+        "block_id": "b904",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Incidental dot below b003."
+      }
+    ],
+    "page_annotations": [
+      "The page is mostly blank ruled paper. Its only content is three overflow notes for entries on facing fol. 83.",
+      "Fragments of fol. 83 visible at the right edge (e., √d., d, n/, √c, ticks) are not transcribed.",
+      "The top and bottom areas were reviewed; apart from the page number, no further text was found."
+    ],
+    "unresolved_relationships": [
+      "The attachments of r002 and r003 rest only on horizontal alignment with fol. 83 rows."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left folio label '82b.' has a superscript b with a dot below it. It matches the candidate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Two lines of English note with a romanised incipit. Line 1 ends '...āsyacaraṇā-' at the gutter, followed by a vertical stroke or bracket-like mark. Line 2 ends with a dash and a small superscript mark. The cursive readings of the Sanskrit and of 'Grahalāghava' (a mark sits over the first a) remain uncertain, and the candidate already flags them. Overlap between tiles 3 and 4 is not duplicated."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Single line, read as in the candidate, including '(? Bhaviṣyottara)'. It is level with the √b.93(14) row on fol. 83, which reads '——— ff.1-2 From the Bhaviṣya Purāṇa'. The attachment rests on alignment only."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Single line ending 'pūjāvidhi.'. The diacritics on the first word are ambiguous: an accent-like stroke above the first syllables and dots under the ṣṭh. The inventory reads 'Vāsiṣṭha', the candidate 'Vāśiṣṭha'. The closing bracket after 'Janmāṣṭamī –' may be ')' rather than ']'."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The arrowhead lies on the fol. 82b side, about x≈3040. The stem crosses the gutter to fol. 83, level with √b.100(7). The disposition is correct."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Isolated '!'-like mark with specks above it. Its function is unknown. It has no text association."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Dot near the gutter at the end of b002 line 1, just after a vertical stroke at about x≈3135. Attaching it to r002 as an annotation is acceptable, but this is uncertain."
+      },
+      {
+        "block_id": "b904",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Isolated dot below b003, probably incidental."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?]."
+        ],
+        "after": [
+          "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?].",
+          "The diacritic over the first syllables is ambiguous: it could be a macron on the a or an acute on the s (ś). The independent inventory read 'Vāsiṣṭha'. Neither reading is secure.",
+          "The closing bracket after 'Janmāṣṭamī –' resembles ')' as much as ']'. The candidate reading '[...]' is not secure."
+        ],
+        "reason": "On source review the opening diacritics and the closing bracket shape are ambiguous. The candidate and the inventory disagree on the first word.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b903"
+        ],
+        "issue": "The end of line 1 has a vertical stroke and a dot at the gutter. It is unclear whether these are punctuation, a bracket, or a mark relating to fol. 83 (√c.315(4)). The terminal mark on line 2 is illegible.",
+        "next_check": "Inspect the gutter at higher resolution, or a reshot image with the spine opened."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The attachment to √b.93(14) or to √b.94(6) on fol. 83 rests on alignment only. The b.93(14) row is closer and also says 'From the Bhaviṣya Purāṇa'.",
+        "next_check": "Compare the vertical alignment with the fol. 83 native image."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The diacritics of the first word and the shape of the closing bracket are uncertain.",
+        "next_check": "Examine b004 at higher magnification."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3140. Text on the right of it (e., e., √d., d, √d, n/, √c, d, ticks, and a dot at about x≈3204, y≈2893) belongs to facing fol. 83 and is not transcribed. The arrow b901 straddles the gutter. Its head is on this page and its tail is on fol. 83 at √b.100(7). The fol. 83 overview also shows a sliver of this page's b002 line 1 ('...syacaraṇā-|·'), which is the same text, not a separate record. The left adjacent page, fol. 82, has no connection to these notes.",
+    "region_review": {
+      "top": "Only the folio label '82b.'. The ruled area is otherwise blank apart from specks.",
+      "middle": "Blank ruled lines down to about y≈2500, then b002 and b003.",
+      "bottom": "b902 mark, b004 with arrow, then blank ruled lines to the page foot. No bottom note was found.",
+      "left_margin": "No marginal writing. The b902 mark lies in the left text area.",
+      "right_margin": "Gutter marks b903 and b901 are present. Facing-page fragments are excluded.",
+      "interlinear": "b002 line 2 is a continuation line, not an interlinear insertion. No other interlinear additions or cancellations were seen."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        350,
+        330,
+        130,
+        100
+      ],
+      "kind_hint": "page_number",
+      "anchor": "82b.",
+      "features": [
+        "top-left corner",
+        "b written superscript with a dot below",
+        "appears to be pencil or lighter ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        340,
+        2500,
+        2790,
+        170
+      ],
+      "kind_hint": "annotation_note_with_incipit (extension of an entry on facing fol. 83)",
+      "anchor": "title uncertain, said to be part of Viśvanāthī (Viśvanātha's Co. on Grahalāghava). Begins:- Sindurāruṇa... / bhojaṁ praṇamya ... –",
+      "features": [
+        "two handwritten lines",
+        "second line continues the incipit and starts slightly indented",
+        "small mark after the dash at the end of line 2, possibly a superscript stroke [reading?]",
+        "the line runs up to the gutter",
+        "level with the √c.315(4) Janmapattrapaddhati entry on fol. 83",
+        "not a holding by itself"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        400,
+        2850,
+        2660,
+        110
+      ],
+      "kind_hint": "annotation_note (extension of entries on facing fol. 83)",
+      "anchor": "Janmāṣṭamīvrata (prose) and Janmaṣṭamīvratakathā (verse) from the Bhaviṣya (? Bhaviṣyottara) Purāṇa",
+      "features": [
+        "single line",
+        "parenthetical query '(?' before Bhaviṣyottara",
+        "level with the b.93(14) / b.94(6) entries on fol. 83",
+        "written spelling of the second title differs ('Janmaṣṭamī...' as read)"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        360,
+        3690,
+        1690,
+        120
+      ],
+      "kind_hint": "annotation_note (extension of an entry on facing fol. 83)",
+      "anchor": "Vāsiṣṭhaditiprasaṁvāda, followed by the [Janmāṣṭamī–] pūjāvidhi.",
+      "features": [
+        "single line",
+        "square brackets in the source",
+        "level with the arrow at the gutter and the b.100(7) entry on fol. 83"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3030,
+        3725,
+        290,
+        55
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←——",
+      "features": [
+        "crosses the gutter",
+        "level with b004"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        450,
+        3360,
+        45,
+        90
+      ],
+      "kind_hint": "mark",
+      "anchor": "!",
+      "features": [
+        "isolated",
+        "possibly a blot"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        3170,
+        2525,
+        30,
+        30
+      ],
+      "kind_hint": "mark",
+      "anchor": "dot",
+      "features": [
+        "near the gutter at the end of b002 line 1"
+      ]
+    },
+    {
+      "id": "b904",
+      "bbox": [
+        855,
+        3080,
+        20,
+        20
+      ],
+      "kind_hint": "mark",
+      "anchor": "dot",
+      "features": [
+        "below b003",
+        "probably incidental"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "82b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner. The 'b' is written superscript with a dot below. It appears to be in pencil or lighter ink."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0164-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_for_facing_page_entry",
+      "literal_text": "title uncertain, said to be part of Viśvanāthī (Viśvanātha's Co. on Grahalāghava). Begins:- Sindurāruṇasindhura āsyacaraṇā-\nbhojaṁ praṇamyādarād –[illegible]",
+      "fields": {
+        "incipit": "Sindurāruṇasindhura āsyacaraṇā-\nbhojaṁ praṇamyādarād –"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two lines. The second line is slightly indented.",
+        "A small superscript mark follows the final dash; it may be '!' or similar.",
+        "Line 1 runs to the gutter. A small dot sits near the gutter at the end of line 1 (b903)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 165,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.315(4) Janmapattrapaddhati, by Viśvanātha / Divākara on horoscopes",
+          "evidence": "The note is horizontally level with this entry on facing fol. 83. Its content refers to Viśvanātha. There is no explicit linking mark.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cursive readings of the incipit words are uncertain: 'Sindurāruṇasindhura', 'āsyacaraṇā-', 'praṇamyādarād' [reading?].",
+        "The spelling 'Grahalāghava' is uncertain; a mark appears above the first a.",
+        "The mark at the end of line 2 is illegible.",
+        "'said to be' is a cursive reading [reading?]."
+      ],
+      "stable_id": "css-prod-0164-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b904"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_for_facing_page_entry",
+      "literal_text": "Janmāṣṭamīvrata (prose) and Janmaṣṭamīvratakathā (verse) from the Bhaviṣya (? Bhaviṣyottara) Purāṇa",
+      "fields": {
+        "title": "Janmāṣṭamīvrata (prose) and Janmaṣṭamīvratakathā (verse)",
+        "source": "Bhaviṣya (? Bhaviṣyottara) Purāṇa"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line.",
+        "A small ink dot below the line (b904) is probably incidental."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 165,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b.93(14) — From the Bhaviṣya Purāṇa",
+          "evidence": "The note is horizontally level with the b.93(14) / b.94(6) rows on fol. 83. There is no linking mark.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The second title may read 'Janmaṣṭamī' or 'Janmāṣṭamī'. The macron is unclear; it is recorded as read.",
+        "It is uncertain whether the note attaches to b.93(14) or to b.94(6)."
+      ],
+      "stable_id": "css-prod-0164-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_for_facing_page_entry",
+      "literal_text": "Vāśiṣṭhaditiprasaṁvāda, followed by the [Janmāṣṭamī–] pūjāvidhi.",
+      "fields": {
+        "title": "Vāśiṣṭhaditiprasaṁvāda, followed by the [Janmāṣṭamī–] pūjāvidhi"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The square brackets are in the source.",
+        "A leftward arrow (b901) crosses the gutter, linking the b.100(7) line on fol. 83 to this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 165,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b.100(7) ———, from the Bhaviṣya Purāṇa",
+          "evidence": "An arrow is drawn across the gutter from the b.100(7) line on fol. 83, level with this note.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?].",
+        "The diacritic over the first syllables is ambiguous: it could be a macron on the a or an acute on the s (ś). The independent inventory read 'Vāsiṣṭha'. Neither reading is secure.",
+        "The closing bracket after 'Janmāṣṭamī –' resembles ')' as much as ']'. The candidate reading '[...]' is not secure."
+      ],
+      "stable_id": "css-prod-0164-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "mark",
+      "literal_text": "!",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "An isolated exclamation-like ink mark with faint specks above it, in the left part of the page. It may be a blot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The function of the mark is unknown."
+      ],
+      "stable_id": "css-prod-0164-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?]."
+      ],
+      "after": [
+        "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?].",
+        "The diacritic over the first syllables is ambiguous: it could be a macron on the a or an acute on the s (ś). The independent inventory read 'Vāsiṣṭha'. Neither reading is secure.",
+        "The closing bracket after 'Janmāṣṭamī –' resembles ')' as much as ']'. The candidate reading '[...]' is not secure."
+      ],
+      "reason": "On source review the opening diacritics and the closing bracket shape are ambiguous. The candidate and the inventory disagree on the first word.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Two lines. The second line is slightly indented.",
+        "A small superscript mark follows the final dash; it may be '!' or similar.",
+        "Line 1 runs to the gutter. A small dot sits near the gutter at the end of line 1 (b903)."
+      ],
+      "after": [
+        "Two lines. The second line is slightly indented.",
+        "A small superscript mark follows the final dash; it may be '!' or similar.",
+        "Line 1 runs to the gutter and ends with a short vertical stroke at the gutter. That stroke may be a bracket or a binding deformation.",
+        "The dot recorded as b903 lies just right of the gutter, on the fol. 83 leaf margin. Its relation to this note is unestablished.",
+        "A small dot or circle appears above the final ā of 'caraṇā' at the end of line 1."
+      ],
+      "reason": "Native reread establishes that the b903 dot lies past the gutter line.",
+      "source_block_ids": [
+        "b002",
+        "b903"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0164-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?]."
+      ],
+      "after": [
+        "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?].",
+        "The diacritic over the first syllables is ambiguous: it could be a macron on the a or an acute on the s (ś). The independent inventory read 'Vāsiṣṭha'. Neither reading is secure.",
+        "The closing bracket after 'Janmāṣṭamī –' resembles ')' as much as ']'. The candidate reading '[...]' is not secure."
+      ],
+      "reason": "Applies the proposal after source review; the ambiguity is confirmed.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0164-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "The square brackets are in the source.",
+        "A leftward arrow (b901) crosses the gutter, linking the b.100(7) line on fol. 83 to this line."
+      ],
+      "after": [
+        "Brackets are in the source. The closing bracket's shape is ambiguous.",
+        "A leftward arrow (b901) has its head on the 82b leaf at about x 3040–3085. Its shaft extends across the gutter onto the fol. 83 leaf, toward the b.100(7) line."
+      ],
+      "reason": "Ownership of the arrow is shared across the gutter; the arrowhead is on the target leaf.",
+      "source_block_ids": [
+        "b004",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0164-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b901",
+      "b903"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b901",
+      "b903"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0164-01"
+    },
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b903",
+      "block_ids": [
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0164-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The end of line 1 has a vertical stroke and a dot at the gutter. It is unclear whether these are punctuation, a bracket, or a mark relating to fol. 83 (√c.315(4)). The terminal mark on line 2 is illegible.",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0164-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The attachment to √b.93(14) or to √b.94(6) on fol. 83 rests on alignment only. The b.93(14) row is closer and also says 'From the Bhaviṣya Purāṇa'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0164-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The diacritics of the first word and the shape of the closing bracket are uncertain.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0164-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "On source review the opening diacritics and the closing bracket shape are ambiguous. The candidate and the inventory disagree on the first word. Proposed uncertainties: [\"The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?].\", \"The diacritic over the first syllables is ambiguous: it could be a macron on the a or an acute on the s (ś). The independent inventory read 'Vāsiṣṭha'. Neither reading is secure.\", \"The closing bracket after 'Janmāṣṭamī –' resembles ')' as much as ']'. The candidate reading '[...]' is not secure.\"]",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0164-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The cursive readings of the incipit words are uncertain: 'Sindurāruṇasindhura', 'āsyacaraṇā-', 'praṇamyādarād' [reading?].",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0164-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The spelling 'Grahalāghava' is uncertain; a mark appears above the first a.",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0164-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The mark at the end of line 2 is illegible.",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0164-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'said to be' is a cursive reading [reading?].",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0164-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0164-01",
+        "focus-0164-02",
+        "focus-0164-03",
+        "focus-0164-04",
+        "focus-0164-05",
+        "focus-0164-06",
+        "focus-0164-07",
+        "focus-0164-08",
+        "focus-0164-09",
+        "focus-0164-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0164-01",
+          "source_reading": "[non-text: arrow] Short arrowhead pointing left at about canvas x 3040–3085 on the 82b leaf. Its horizontal shaft runs right across the gutter (about x 3139) to about x 3315 on the fol. 83 leaf, level with b004 (y about 3740–3770).",
+          "certainty": "probable",
+          "evidence": "Native tile at offset 1604,3216: the arrowhead is at tile x about 1440–1480 and the shaft runs to tile x about 1710. The gutter line is at tile x about 1535. The fol. 83 overview shows the shaft reaching the b.100(7) row. The mark spans both leaves, so its ownership is shared."
+        },
+        {
+          "issue_id": "focus-0164-02",
+          "source_reading": "[non-text: dot] Single ink dot at about canvas x 3184, y 2538. This is right of the gutter (about x 3139), on the fol. 83 leaf margin.",
+          "certainty": "probable",
+          "evidence": "Native tile at offset 1604,1608: the dot is at tile x about 1580, y about 930, past the gutter line at tile x about 1535. The same dot appears near the left edge of the fol. 83 native context tile. Its relation to b002 is not established."
+        },
+        {
+          "issue_id": "focus-0164-03",
+          "source_reading": "…āsyacaraṇā[ṁ?]- followed by a short vertical stroke touching the gutter, then a dot on the far side of the gutter.",
+          "certainty": "uncertain",
+          "evidence": "The vertical stroke at about canvas x 3130 coincides with a sewing or gutter deformation visible on the gutter line at the same height. It may be a bracket, a stroke, or a binding artefact. Nothing links the dot to √c.315(4) beyond its alignment."
+        },
+        {
+          "issue_id": "focus-0164-04",
+          "source_reading": "Janmāṣṭamīvrata (prose) and Janmaṣṭamīvratakathā (verse) from the Bhaviṣya (? Bhaviṣyottara) Purāṇa",
+          "certainty": "probable",
+          "evidence": "The b003 baseline is at about canvas y 2905. On fol. 83, b.93(14) is at about y 2938 and b.94(6) at about y 3048. The note is nearer b.93(14). There is no linking mark, so the attachment remains unresolved."
+        },
+        {
+          "issue_id": "focus-0164-05",
+          "source_reading": "V[á/aś?]iṣṭhaditiprasaṁvāda, followed by the [Janmāṣṭamī –[closing bracket, shape ambiguous] pūjāvidhi.",
+          "certainty": "uncertain",
+          "evidence": "An acute-like stroke stands above, between the 'a' and the 's'. The closing mark is curved with a foot hook. It is comparable in style to the opening '[', but it is not clearly square."
+        },
+        {
+          "issue_id": "focus-0164-06",
+          "source_reading": "The first word is read as 'V?śiṣṭhaditiprasaṁvāda'. The diacritic may be an acute over the s or a mark over the a. The closing bracket shape is ambiguous.",
+          "certainty": "uncertain",
+          "evidence": "Native tile at offset 0,3216, tile x about 370–900, y about 500–560."
+        },
+        {
+          "issue_id": "focus-0164-07",
+          "source_reading": "Sindurāruṇasindhura āsyacaraṇā[ṁ?]- / bhojaṁ praṇamyādarād –",
+          "certainty": "uncertain",
+          "evidence": "Cursive script. There is a dot under the n of 'ruṇa' and a dot under the n of 'caraṇā'. A small dot or circle sits above the final ā of line 1. The candidate's 'āsyacaraṇā-' may omit this dot."
+        },
+        {
+          "issue_id": "focus-0164-08",
+          "source_reading": "Gr[a with superscript mark]halāghava",
+          "certainty": "uncertain",
+          "evidence": "A small superscript mark is above 'ra', possibly a macron or a correction. It is not resolved."
+        },
+        {
+          "issue_id": "focus-0164-09",
+          "source_reading": "–[small superscript mark resembling '!' or a crossed stroke with a dot below]",
+          "certainty": "uncertain",
+          "evidence": "Native tile at offset 0,1608, tile x about 1020–1035, y about 985–1030."
+        },
+        {
+          "issue_id": "focus-0164-10",
+          "source_reading": "said t[o] be",
+          "certainty": "probable",
+          "evidence": "The letters are compressed: 'said' followed by a cramped 'tbe' form. 'to be' is a plausible reading but is not certain."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "Two lines. The second line is slightly indented.",
+            "A small superscript mark follows the final dash; it may be '!' or similar.",
+            "Line 1 runs to the gutter. A small dot sits near the gutter at the end of line 1 (b903)."
+          ],
+          "after": [
+            "Two lines. The second line is slightly indented.",
+            "A small superscript mark follows the final dash; it may be '!' or similar.",
+            "Line 1 runs to the gutter and ends with a short vertical stroke at the gutter. That stroke may be a bracket or a binding deformation.",
+            "The dot recorded as b903 lies just right of the gutter, on the fol. 83 leaf margin. Its relation to this note is unestablished.",
+            "A small dot or circle appears above the final ā of 'caraṇā' at the end of line 1."
+          ],
+          "reason": "Native reread establishes that the b903 dot lies past the gutter line.",
+          "source_block_ids": [
+            "b002",
+            "b903"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "uncertainties",
+          "before": [
+            "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?]."
+          ],
+          "after": [
+            "The first word is uncertain: 'Vāśiṣṭhaditi' may be 'Vasiṣṭhāditi' [reading?].",
+            "The diacritic over the first syllables is ambiguous: it could be a macron on the a or an acute on the s (ś). The independent inventory read 'Vāsiṣṭha'. Neither reading is secure.",
+            "The closing bracket after 'Janmāṣṭamī –' resembles ')' as much as ']'. The candidate reading '[...]' is not secure."
+          ],
+          "reason": "Applies the proposal after source review; the ambiguity is confirmed.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "annotations",
+          "before": [
+            "The square brackets are in the source.",
+            "A leftward arrow (b901) crosses the gutter, linking the b.100(7) line on fol. 83 to this line."
+          ],
+          "after": [
+            "Brackets are in the source. The closing bracket's shape is ambiguous.",
+            "A leftward arrow (b901) has its head on the 82b leaf at about x 3040–3085. Its shaft extends across the gutter onto the fol. 83 leaf, toward the b.100(7) line."
+          ],
+          "reason": "Ownership of the arrow is shared across the gutter; the arrowhead is on the target leaf.",
+          "source_block_ids": [
+            "b004",
+            "b901"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Page number."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Two-line note."
+        },
+        {
+          "block_id": "b903",
+          "status": "uncertain",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The dot lies right of the gutter, on the fol. 83 margin. Its attachment is unresolved."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Single line."
+        },
+        {
+          "block_id": "b904",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Incidental dot."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Single line."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Arrow spans both leaves; its head is on 82b."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Isolated '!' mark or blot."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0164-02",
+          "record_id": "r002",
+          "block_ids": [
+            "b903"
+          ],
+          "issue": "The dot sits on the fol. 83 margin. It may belong to fol. 83 rather than to the r002 note.",
+          "next_check": "Compare with the fol. 83 transcription of the √c.315(4) row margin."
+        },
+        {
+          "issue_id": "focus-0164-03",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b903"
+          ],
+          "issue": "The gutter vertical stroke may be a bracket or a binding artefact.",
+          "next_check": "Inspect at higher magnification or check the physical volume."
+        },
+        {
+          "issue_id": "focus-0164-04",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The attachment rests on alignment only; the note is nearer b.93(14).",
+          "next_check": "Check the fol. 83 records for any linking mark."
+        },
+        {
+          "issue_id": "focus-0164-07",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The cursive incipit is uncertain, including a possible ṁ dot after 'caraṇā'.",
+          "next_check": "Compare with the hand elsewhere in the volume."
+        },
+        {
+          "issue_id": "focus-0164-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The superscript mark in 'Grahalāghava' is unresolved.",
+          "next_check": "Compare with the hand elsewhere in the volume."
+        },
+        {
+          "issue_id": "focus-0164-09",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The terminal mark on line 2 is illegible.",
+          "next_check": "Inspect at higher magnification."
+        },
+        {
+          "issue_id": "focus-0164-05",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The first-word diacritic and the closing bracket shape are unresolved.",
+          "next_check": "Inspect at higher magnification."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "a84ff4af1063115b2409fad6b2e7f9e9c74e78efad1e96269d5371a08ba3bc9d",
+      "bytes": 296601,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cc7fd33c64fb28231d94970b3dc36cee5c5cf632f81d9a03f8ef99d1726d86c4",
+      "bytes": 376484,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ff09c05539175b341fb27d894d0f24f3e3f2121ca41235fb92e714d3f4d0b2a6",
+      "bytes": 363166,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c4ca9ccdf7b2062bbd6eb90cf9b2ea3a46f578a0e91ff71985dad487c81ce0f3",
+      "bytes": 340101,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8dbc5bc0f9b861602506f8d924d3b45f53f261b575e3ef840576afe292cc3cdc",
+      "bytes": 353859,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/64e6583d-7951-4d79-8004-fd8785c2cb85/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "06e8a00f203e404a6b999aef0fd2bc80e93371b2cc4a7f8e7edd404bc006991c",
+      "bytes": 295134,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 163,
+      "folio_label": "fol. 82",
+      "page_id": "64e6583d-7951-4d79-8004-fd8785c2cb85",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7365795-62c6-4da6-9dc0-dd4a86d20df2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4d07df64248d2c8432fed00538f247ec0618055f0b653ed1a3e563fd5e2ff479",
+      "bytes": 266027,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 165,
+      "folio_label": "fol. 83",
+      "page_id": "f7365795-62c6-4da6-9dc0-dd4a86d20df2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7365795-62c6-4da6-9dc0-dd4a86d20df2/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1df46f4d503ed6c450f87de84a701a6926daaad810aa7be82607e6cc06c7dcbe",
+      "bytes": 395078,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 165,
+      "folio_label": "fol. 83",
+      "page_id": "f7365795-62c6-4da6-9dc0-dd4a86d20df2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7365795-62c6-4da6-9dc0-dd4a86d20df2/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "16d2a596825be6182aa527311fa53b9243daa0fb51ae223c7cb34d7bba0f5b27",
+      "bytes": 465205,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 165,
+      "folio_label": "fol. 83",
+      "page_id": "f7365795-62c6-4da6-9dc0-dd4a86d20df2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b95dbeba-dfdd-4306-ad68-6267983cf20e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "a84ff4af1063115b2409fad6b2e7f9e9c74e78efad1e96269d5371a08ba3bc9d",
+      "bytes": 296601,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6f4f4972d8e3a9f345f7e313144a6683a68e1e68f4fdb7682f6b62f040dba559",
+      "bytes": 326817,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "183f8595b346117e076bcf587a07077673eac6b49c20e2f5a0a0087e1f29dced",
+      "bytes": 335839,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cc7fd33c64fb28231d94970b3dc36cee5c5cf632f81d9a03f8ef99d1726d86c4",
+      "bytes": 376484,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ff09c05539175b341fb27d894d0f24f3e3f2121ca41235fb92e714d3f4d0b2a6",
+      "bytes": 363166,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c4ca9ccdf7b2062bbd6eb90cf9b2ea3a46f578a0e91ff71985dad487c81ce0f3",
+      "bytes": 340101,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b95dbeba-dfdd-4306-ad68-6267983cf20e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8dbc5bc0f9b861602506f8d924d3b45f53f261b575e3ef840576afe292cc3cdc",
+      "bytes": 353859,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/64e6583d-7951-4d79-8004-fd8785c2cb85/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "06e8a00f203e404a6b999aef0fd2bc80e93371b2cc4a7f8e7edd404bc006991c",
+      "bytes": 295134,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 163,
+      "folio_label": "fol. 82",
+      "page_id": "64e6583d-7951-4d79-8004-fd8785c2cb85",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7365795-62c6-4da6-9dc0-dd4a86d20df2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4d07df64248d2c8432fed00538f247ec0618055f0b653ed1a3e563fd5e2ff479",
+      "bytes": 266027,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 165,
+      "folio_label": "fol. 83",
+      "page_id": "f7365795-62c6-4da6-9dc0-dd4a86d20df2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

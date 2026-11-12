@@ -1,0 +1,754 @@
+{
+  "source_order": 606,
+  "folio_label": "fol. 303b",
+  "page_id": "9e95533d-9336-4c80-aca5-4d874ca185ed",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "303b",
+    "principal_page_bbox": [
+      320,
+      300,
+      2770,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          415,
+          350,
+          175,
+          145
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "303b.",
+        "features": [
+          "top-left corner of the outer margin",
+          "handwritten in ink",
+          "superscript 'b' followed by a dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          350,
+          4405,
+          2730,
+          120
+        ],
+        "kind_hint": "marginal_or_supplementary_entry_note",
+        "anchor": "√c. 390(9). Sāṁvatsarika[...]",
+        "features": [
+          "bottom of page, one long line written in small cramped ink",
+          "begins with a tick",
+          "shelfmark-like reference c. 390(9)",
+          "contains a folio count and an n.d. extent formula ending in a script/location abbreviation [reading?]",
+          "ends with a left-pointing arrow (←) at the gutter edge",
+          "the text crosses the vertical ruled margin line",
+          "most of the wording after the shelfmark is uncertain at this scale"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          480,
+          4535,
+          1560,
+          110
+        ],
+        "kind_hint": "continuation_incipit",
+        "anchor": "Begins Tatra pūrvadine [...] sakṛtbhojanaḥ",
+        "features": [
+          "second line below b002",
+          "lighter, greyer stroke, possibly pencil",
+          "incipit-style text",
+          "indented",
+          "left-pointing arrow (←) near the gutter at x≈2995–3070"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2380,
+          2640,
+          120,
+          80
+        ],
+        "description": "small ink specks or blots in the middle of the blank ruled area; not text"
+      },
+      {
+        "bbox": [
+          355,
+          600,
+          20,
+          30
+        ],
+        "description": "tiny stray mark in the left margin near the top; not text"
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the images, beyond the gutter at native x≈3080, shows the facing page fol. 304. Its shelfmarks are not target records: f. 9, d. 77(2), c. 326(2), d. 680(4) … c. 368(7), b. 95(5).",
+      "The arrows at the ends of b002 and b003 sit against the gutter. They correspond to '→' and '—' marks on fol. 304 beside c. 368(7). The bottom note on 303b therefore appears to be an addition linked to an entry on the facing page. The attachment is inferred from arrow positions only.",
+      "Faint show-through of writing from the reverse side is visible across the ruled area. It was not treated as target text."
+    ],
+    "uncertainties": [
+      "The detailed reading of b002 after 'c. 390(9).' is uncertain: the small hand covers a title, a folio count, 'foll. by …', a 'Begins …' phrase and an n.d. formula.",
+      "Whether b003 is in pencil or in faded ink is uncertain.",
+      "The exact final word of b003 ('sakṛtbhojanaḥ' or a similar form) is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "303b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "303b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left outer margin. The 'b' is superscript and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "supplementary_bottom_entry",
+        "literal_text": "√c. 390(9). Sāṁvatsarikaśrāddhaprayoga, f.[1?], unb.[?] f. 88, foll. by part f. of śrāddhatext[?], f. 89. Begins Oṁ na[?] parita[?]...[illegible] n.d. : [illegible] : [illegible] : Bey.[?] ←",
+        "fields": {
+          "shelfmark": "c. 390(9)",
+          "title": "Sāṁvatsarikaśrāddhaprayoga",
+          "incipit": "Oṁ na[?] parita[?]...[illegible]",
+          "date": "n.d.",
+          "extent": "f.[1?], unb.[?] f. 88, foll. by part f. of śrāddhatext[?], f. 89",
+          "script": "Bey.[?]"
+        },
+        "normalized_title": "Sāṁvatsarikaśrāddhaprayoga",
+        "annotations": [
+          "A tick precedes the shelfmark.",
+          "Written in a small, cramped ink hand on one line at the foot of the page. It begins in the left margin and crosses the vertical ruled margin line.",
+          "The line ends with a left-pointing arrow at the gutter edge."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 607,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "—√c. 368(7) / Sāṁvatsarika... (arrow marks '→' beside the gutter)",
+            "evidence": "The arrows at the gutter end of the line align with the arrow marks on the facing fol. 304 near c. 368(7). This suggests the entry was meant to be inserted in the alphabetical sequence there.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings of 'f.[1?]' and 'unb.[?]' are uncertain.",
+          "The reading 'śrāddhatext' is uncertain.",
+          "The incipit after 'Begins' is mostly illegible.",
+          "The two middle elements of the n.d. formula are illegible.",
+          "The final abbreviation may be 'Bey.' but this is uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit",
+        "literal_text": "Begins Tatra pūrvadine niāmiṣaḥ[?] sakṛtbhojanaḥ ←",
+        "fields": {
+          "incipit": "Tatra pūrvadine niāmiṣaḥ[?] sakṛtbhojanaḥ"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Indented second line below r002, in a lighter grey stroke (pencil or faded ink).",
+          "A separate left-pointing arrow at the gutter (x≈2995–3070) sits on this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 606,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "√c. 390(9).",
+            "evidence": "The line sits immediately beneath b002 and is indented as a continuation. However, b002 already contains its own 'Begins', so this may be the incipit of the second part (f. 89), or a later replacement.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 607,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "—√c. 368(7)",
+            "evidence": "Its arrow aligns with the '—' mark before c. 368(7) on the facing page.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'niāmiṣaḥ' may be a different form; the letters are unclear.",
+          "The medium (pencil or ink) is uncertain.",
+          "It is uncertain which work or part this incipit belongs to."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Supplementary holding entry at the page foot."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Incipit line, probably continuing r002; kept separate because of the different stroke and its own arrow."
+      }
+    ],
+    "page_annotations": [
+      "The ruled area above the bottom entry was image-reviewed and is blank apart from show-through from the reverse and small specks near (2380,2640) and (355,600).",
+      "The facing fol. 304 at x>3080 is context only and was not transcribed."
+    ],
+    "unresolved_relationships": [
+      "The exact insertion target of r002/r003 on fol. 304 (near c. 368(7) or c. 117(10)) is inferred only from arrow positions."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The ink folio label '303b.' is in the top-left margin, with the 'b' superscript and followed by a dot. The candidate's literal text matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the single cramped ink line at the page foot. It runs from a tick at x≈360 to the gutter at x≈3060 and crosses the vertical ruled line at x≈810. The legible frame is secure: 'c. 390(9).', the title, 'unb. f. 88', 'foll. by part f. of śrāddhatext', 'f. 89. Begins', 'n.d.' and the closing abbreviation. The incipit words and the two middle elements of the formula stay uncertain, which the candidate correctly keeps flagged. The terminal left-pointing arrow appears to be drawn over or through the final abbreviation ('Bey.[?]'), not after it; the candidate does not record this."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "This is the indented second line in a lighter grey stroke: 'Begins Tatra pūrvadine niāmiṣaḥ sakṛtbhojanaḥ', with a separate arrow at x≈3000–3070. The candidate's literal text and its flags match the image. Whether it is the incipit of the f. 89 part or a later supplement remains unresolved."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "A tick precedes the shelfmark.",
+          "Written in a small, cramped ink hand on one line at the foot of the page. It begins in the left margin and crosses the vertical ruled margin line.",
+          "The line ends with a left-pointing arrow at the gutter edge."
+        ],
+        "after": [
+          "A tick precedes the shelfmark.",
+          "Written in a small, cramped ink hand on one line at the foot of the page. It begins in the left margin and crosses the vertical ruled margin line.",
+          "The line ends with a left-pointing arrow at the gutter edge. The arrow appears to be drawn across or over the final abbreviation (read 'Bey.[?]'), which partly obscures it."
+        ],
+        "reason": "The native tile shows the arrow stroke overlapping the last abbreviation. This affects how legible that abbreviation is.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings are not secure: the incipit after 'Begins Oṁ', the middle elements of the n.d. formula, 'f.[1?]', and the final abbreviation 'Bey.[?]' (partly under the arrow).",
+        "next_check": "Use higher-magnification imaging of x≈1900–3060, y≈4420–4500."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "It is uncertain whether this incipit belongs to the second part (f. 89) or replaces the incipit in b002. The medium (pencil or faded ink) is also uncertain.",
+        "next_check": "Compare the stroke tone under raking light. Compare with the fol. 304 entries near c. 368(7)."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The insertion point on fol. 304 is inferred only from arrow alignment. The facing page has '→' in its left margin opposite b002 and '—' before '√c. 368(7)' opposite b003.",
+        "next_check": "Examine the fol. 304 (source order 607) native image near c. 117(10) and c. 368(7)."
+      }
+    ],
+    "boundary_review": "The gutter lies at about native x≈3080. Everything to its right (f. 9, d. 77(2), c. 326(2) … c. 117(10), c. 368(7), b. 95(5), plus marginal notes such as '? Sasyādāne…', 'RLM, IX, 3127…' and 'see …') belongs to fol. 304. It is context only and is not recorded as target records. The arrows at the end of b002 and b003 stand on the 303b side, against the gutter. The matching marks ('→' and '—') are on the 304 side. The attachment relationship remains probable or uncertain, not resolved.",
+    "region_review": {
+      "top": "The only text is the folio label '303b.'. A tiny stray mark sits at the left edge near y≈600.",
+      "middle": "The ruled area is blank apart from show-through from the reverse and ink specks near (2380,2640) and (1530,1460). These are not text.",
+      "bottom": "There are two lines (b002 ink, b003 lighter stroke), each with a gutter arrow. No further writing appears below them, down to the page edge at y≈4850.",
+      "left_margin": "Only the tick and the start of b002 at the foot, and the folio label at the top. No other marginalia.",
+      "right_margin": "The gutter area holds only the arrows of b002 and b003. Beyond it is the facing fol. 304, which is context only.",
+      "interlinear": "No interlinear additions were found apart from the stacked letters at the end of b002 (the formula and abbreviation), which form part of that line."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        415,
+        350,
+        175,
+        145
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "303b.",
+      "features": [
+        "top-left corner of the outer margin",
+        "handwritten in ink",
+        "superscript 'b' followed by a dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        350,
+        4405,
+        2730,
+        120
+      ],
+      "kind_hint": "marginal_or_supplementary_entry_note",
+      "anchor": "√c. 390(9). Sāṁvatsarika[...]",
+      "features": [
+        "bottom of page, one long line written in small cramped ink",
+        "begins with a tick",
+        "shelfmark-like reference c. 390(9)",
+        "contains a folio count and an n.d. extent formula ending in a script/location abbreviation [reading?]",
+        "ends with a left-pointing arrow (←) at the gutter edge",
+        "the text crosses the vertical ruled margin line",
+        "most of the wording after the shelfmark is uncertain at this scale"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        480,
+        4535,
+        1560,
+        110
+      ],
+      "kind_hint": "continuation_incipit",
+      "anchor": "Begins Tatra pūrvadine [...] sakṛtbhojanaḥ",
+      "features": [
+        "second line below b002",
+        "lighter, greyer stroke, possibly pencil",
+        "incipit-style text",
+        "indented",
+        "left-pointing arrow (←) near the gutter at x≈2995–3070"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "303b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left outer margin. The 'b' is superscript and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0606-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "supplementary_bottom_entry",
+      "literal_text": "√c. 390(9). Sāṁvatsarikaśrāddhaprayoga, f.[1?], unb.[?] f. 88, foll. by part f. of śrāddhatext[?], f. 89. Begins Oṁ na[?] parita[?]...[illegible] n.d. : [illegible] : [illegible] : Bey.[?] ←",
+      "fields": {
+        "shelfmark": "c. 390(9)",
+        "title": "Sāṁvatsarikaśrāddhaprayoga",
+        "incipit": "Oṁ na[?] parita[?]...[illegible]",
+        "date": "n.d.",
+        "extent": "f.[1?], unb.[?] f. 88, foll. by part f. of śrāddhatext[?], f. 89",
+        "script": "Bey.[?]"
+      },
+      "normalized_title": "Sāṁvatsarikaśrāddhaprayoga",
+      "annotations": [
+        "A tick precedes the shelfmark.",
+        "Written in a small, cramped ink hand on one line at the foot of the page. It begins in the left margin and crosses the vertical ruled margin line.",
+        "The line ends with a left-pointing arrow at the gutter edge."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 607,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "—√c. 368(7) / Sāṁvatsarika... (arrow marks '→' beside the gutter)",
+          "evidence": "The arrows at the gutter end of the line align with the arrow marks on the facing fol. 304 near c. 368(7). This suggests the entry was meant to be inserted in the alphabetical sequence there.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings of 'f.[1?]' and 'unb.[?]' are uncertain.",
+        "The reading 'śrāddhatext' is uncertain.",
+        "The incipit after 'Begins' is mostly illegible.",
+        "The two middle elements of the n.d. formula are illegible.",
+        "The final abbreviation may be 'Bey.' but this is uncertain."
+      ],
+      "stable_id": "css-prod-0606-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit",
+      "literal_text": "Begins Tatra pūrvadine niāmiṣaḥ[?] sakṛtbhojanaḥ ←",
+      "fields": {
+        "incipit": "Tatra pūrvadine niāmiṣaḥ[?] sakṛtbhojanaḥ"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Indented second line below r002, in a lighter grey stroke (pencil or faded ink).",
+        "A separate left-pointing arrow at the gutter (x≈2995–3070) sits on this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 606,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "√c. 390(9).",
+          "evidence": "The line sits immediately beneath b002 and is indented as a continuation. However, b002 already contains its own 'Begins', so this may be the incipit of the second part (f. 89), or a later replacement.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 607,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "—√c. 368(7)",
+          "evidence": "Its arrow aligns with the '—' mark before c. 368(7) on the facing page.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'niāmiṣaḥ' may be a different form; the letters are unclear.",
+        "The medium (pencil or ink) is uncertain.",
+        "It is uncertain which work or part this incipit belongs to."
+      ],
+      "stable_id": "css-prod-0606-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "A tick precedes the shelfmark.",
+        "Written in a small, cramped ink hand on one line at the foot of the page. It begins in the left margin and crosses the vertical ruled margin line.",
+        "The line ends with a left-pointing arrow at the gutter edge."
+      ],
+      "after": [
+        "A tick precedes the shelfmark.",
+        "Written in a small, cramped ink hand on one line at the foot of the page. It begins in the left margin and crosses the vertical ruled margin line.",
+        "The line ends with a left-pointing arrow at the gutter edge. The arrow appears to be drawn across or over the final abbreviation (read 'Bey.[?]'), which partly obscures it."
+      ],
+      "reason": "The native tile shows the arrow stroke overlapping the last abbreviation. This affects how legible that abbreviation is.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9e95533d-9336-4c80-aca5-4d874ca185ed.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e95533d-9336-4c80-aca5-4d874ca185ed/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "5c5016485cc4c30d9130496b70757bf5588893409b75afa0ed8f1332a9419a76",
+      "bytes": 319819,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e95533d-9336-4c80-aca5-4d874ca185ed/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a5f51edacb7c40fd91ab49cb3810692555b9cd76a95b95a7be27cb0d46823d9c",
+      "bytes": 359453,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e95533d-9336-4c80-aca5-4d874ca185ed/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "64efe4c4d9e648f15b684a0c2336552e29ded50296a73ce83c2c40a31dcfc8fa",
+      "bytes": 398683,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e95533d-9336-4c80-aca5-4d874ca185ed/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b3da696ac6918c8846d3b66ff720c8476e26d75bbcbd235ab74b55fc72f4f1a5",
+      "bytes": 378753,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e95533d-9336-4c80-aca5-4d874ca185ed/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "95eff8f58daae6f0c15dc691c50c203fd8c39e584138d64331b3021fc641048e",
+      "bytes": 413660,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e95533d-9336-4c80-aca5-4d874ca185ed/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5f0aad3bda1d2513748fc2319b9fd66bd823b4b5e9dcbbcade712f78ec82c560",
+      "bytes": 369023,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e95533d-9336-4c80-aca5-4d874ca185ed/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3df79630718138d0496ab5641fc6d26b0597a06f4f9866228259049f1afba977",
+      "bytes": 411202,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e678a627-741c-40f4-bed8-177a177f9292/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "9ff441f1de7bdb47b13fb4c1bc5c5889699217a090df0ac1d2f57689b88207cd",
+      "bytes": 373566,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 605,
+      "folio_label": "fol. 303",
+      "page_id": "e678a627-741c-40f4-bed8-177a177f9292",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2924c769-efce-4525-b8cc-9431a44ded58/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8022c27f47e9f4f3b0757c3df9ad78d4e9cb9806a01cb8074759899620e4cd4f",
+      "bytes": 348810,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 607,
+      "folio_label": "fol. 304",
+      "page_id": "2924c769-efce-4525-b8cc-9431a44ded58",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

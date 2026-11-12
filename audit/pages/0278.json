@@ -1,0 +1,795 @@
+{
+  "source_order": 278,
+  "folio_label": "fol. 139b",
+  "page_id": "cf5e8149-ff3c-465d-b444-5b3598755677",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "139b",
+    "principal_page_bbox": [
+      290,
+      290,
+      2900,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          320,
+          190,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "139b",
+        "features": [
+          "top left corner",
+          "the 'b' is a superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          570,
+          1790,
+          1790,
+          130
+        ],
+        "kind_hint": "marginal_note_linked_to_facing_page",
+        "anchor": "ff. 1-20 + one blank. Col. calls it Paśuprayoga (not Paśubandha pr.)",
+        "features": [
+          "single line in ink",
+          "'bandha' in 'Paśubandha' is underlined",
+          "closing parenthesis",
+          "linked by a left-pointing arrow (at about x3020-3160) to an entry on the facing page fol. 140 (likely the bracketed √d. 118 (9) line)"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          3020,
+          1840,
+          140,
+          50
+        ],
+        "kind_hint": "arrow_mark",
+        "anchor": "←",
+        "features": [
+          "left-pointing arrow at the right edge of the target page near the gutter",
+          "connects b002 to the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          380,
+          3230,
+          1570,
+          110
+        ],
+        "kind_hint": "marginal_note_linked_to_facing_page",
+        "anchor": "s/o Umā[ś?]aṅkara, s/o Dharmeśvara, ff.1-52 in two hands, I.O.4835",
+        "features": [
+          "single line in ink",
+          "contains a shelfmark-like number 'I.O.4835'",
+          "linked by a left-pointing arrow (at about x3080-3160) to the facing page entry √d. 111 (3)"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          3075,
+          3290,
+          90,
+          40
+        ],
+        "kind_hint": "arrow_mark",
+        "anchor": "←",
+        "features": [
+          "left-pointing arrow near the gutter",
+          "connects b004 to the facing page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1590,
+          570,
+          700,
+          80
+        ],
+        "description": "Faint scattered specks or smudges near the top centre. They may be traces of erased pencil. No legible text."
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2850,
+          4100
+        ],
+        "description": "Faint reversed show-through of the catalogue text from the other side of the leaf. This is not writing on this page."
+      },
+      {
+        "bbox": [
+          660,
+          2420,
+          140,
+          80
+        ],
+        "description": "Small faint smudge with specks, mid-left. Not text."
+      }
+    ],
+    "boundary_notes": [
+      "Text at the right edge beyond the gutter (about x>3190) belongs to the facing page fol. 140 and is not transcribed. This includes the √d./d./e. press-mark fragments, a bracket '(', and a dash '—' near y3300.",
+      "The arrows at about x3020-3160 lie on the target page, left of the gutter. They link b002 and b004 to entries on fol. 140."
+    ],
+    "uncertainties": [
+      "The second letter group of the name in b004 is read as 'Umā' or 'Umē' with a macron. The exact reading of the sibilant is uncertain.",
+      "In b004, 'I.O.4835' could also be read as '1.0.4835'."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "139b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "139ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Folio number at the top left corner; the 'b' is written superscript and followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_note_on_facing_verso",
+        "literal_text": "ff. 1-20 + one blank. Col. calls it Paśuprayoga (not Paśubandha pr.)",
+        "fields": {
+          "extent": "ff. 1-20 + one blank"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'bandha' in 'Paśubandha' is underlined.",
+          "A left-pointing arrow (←) stands at about x3020-3160, y1850, near the gutter. It points towards the facing page fol. 140.",
+          "Single line in ink, written on a ruled line roughly level with the facing-page entry √d. 118 (9)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 279,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d. 118 (9) ——— Hiraṇyakeśi — n.d.: 21:8/9:ð (bracketed group in the Paśubandhaprayoga entries)",
+            "evidence": "The arrow on this page is level with the facing-page line √d. 118 (9). The overview of fol. 140 shows the arrow at that line in the left margin.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'Paśuprayoga' (diacritics on Paś-) is not fully certain.",
+          "'Col.' is left unexpanded; it is presumably colophon, but this is not resolved here."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_note_on_facing_verso",
+        "literal_text": "s/o Um[ā?]śaṅkara, s/o Dharmeśvara, ff. 1-52 in two hands, I.O. 4835",
+        "fields": {
+          "extent": "ff. 1-52"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A left-pointing arrow (←) stands at about x3080-3160, y3300. It points towards the facing page, where a dash '—' follows beyond the gutter.",
+          "'I.O. 4835' appears to be a reference number in another collection. It is not treated as this holding's shelfmark.",
+          "The 's/o' names are a genealogy and are not recorded as authors."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 279,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d. 111 (3) Pākayajñanirṇaya By Candracūḍa ... 'Āpastamba' n.d.: 52:N:ð",
+            "evidence": "The arrow and dash are level with the facing-page line √d. 111 (3).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The name could be read 'Umāśaṅkara' or 'Umēśaṅkara'.",
+          "'I.O.' could possibly be read '1.0.'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Note linked by arrow b003 to the facing-page entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow that connects note b002 to fol. 140."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Note linked by arrow b005 to the facing-page entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrow that connects note b004 to fol. 140."
+      }
+    ],
+    "page_annotations": [
+      "Otherwise the page is blank ruled paper. Reversed show-through from the other side of the leaf is visible but was not transcribed.",
+      "Faint specks near the top centre and mid-left are not legible text.",
+      "The press-mark fragments (√d., d., e.), the bracket and the dash to the right of the gutter (about x>3190) belong to fol. 140 and were not transcribed."
+    ],
+    "unresolved_relationships": [
+      "The targets of both arrows are matched to fol. 140 lines by vertical alignment only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '139' with a superscript 'b' and a following dot is at the top left. It is correctly recorded as a page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This single ink line was rechecked against the native tiles. The reading 'ff. 1-20 + one blank. Col. calls it Paśuprayoga (not Paśubandha pr.)' is consistent with the image. 'bandha' is underlined, and the opening and closing parentheses are present. The diacritic on 'Paś-' remains not fully certain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The left-pointing arrow at about x3020-3160, y1850 is on the target page, left of the gutter. Fol. 140 also has an arrow in its left margin at the bracketed √d. 118 (9) line, which is consistent with this attachment."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "This single ink line is represented. The vowel after 'Um' is written with a macron and its letter form looks closer to 'ē' than 'ā'. The candidate's '[ā?]' bracketing leans toward the less likely reading. The ID is written without spaces ('I.O.4835' or '1.0.4835')."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The left-pointing arrow at about x3080-3160, y3300 is on the target page. The dash beyond the gutter belongs to fol. 140. Fol. 140's left margin shows '← —' at the √d. 111 (3) Pākayajñanirṇaya line."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "s/o Um[ā?]śaṅkara, s/o Dharmeśvara, ff. 1-52 in two hands, I.O. 4835",
+        "after": "s/o Um[ē?]śaṅkara, s/o Dharmeśvara, ff.1-52 in two hands, I.O.4835",
+        "reason": "In the native tile the barred vowel after 'Um' looks like an ē, not an ā. The reading is still kept uncertain. The source writes 'ff.1-52' and 'I.O.4835' without internal spaces.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The name's vowel is uncertain (Umē-/Umā-), as is the exact sibilant and nasal ('śaṅkara'). It is also unclear whether the ID reads 'I.O.4835' or '1.0.4835'. Interpreting 'I.O.' as another collection's number is an inference, not a reading.",
+        "next_check": "Compare with other occurrences of 'I.O.' in this hand elsewhere in the catalogue."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The arrow target, fol. 140 √d. 118 (9), rests on vertical alignment and the matching marginal arrow on fol. 140. It is not explicitly labelled.",
+        "next_check": "Inspect fol. 140 at native resolution near the left-margin arrow."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "issue": "The arrow target, fol. 140 √d. 111 (3), rests on alignment and the '← —' marks on fol. 140. The ff. 1-52 in the note agrees with the 52 leaves recorded for that entry, but this agreement is not proof of the attachment.",
+        "next_check": "Inspect fol. 140 at native resolution."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x3190. The press-mark fragments to its right (d., √d., e., the bracket '(', the dash, 'bu…') belong to fol. 140 and are correctly not transcribed. Both arrows are on the target page. Faint reversed text across the page is show-through from the other side of the leaf, not writing on this page.",
+    "region_review": {
+      "top": "The folio label is present. Faint specks near the top centre (about x1590-2290, y570-650) carry no legible text.",
+      "middle": "The b002 note is at y≈1850. A small smudge mid-left (about x660-800, y2420-2500) is not text. The rest is ruled lines and show-through.",
+      "bottom": "The b004 note is at y≈3290. Below it, through the bottom edge at y≈4870, are only ruled lines, show-through and a few dots, with no writing.",
+      "left_margin": "No marginal writing.",
+      "right_margin": "Only the two arrows on this page. Material beyond the gutter belongs to fol. 140.",
+      "interlinear": "No interlinear additions, cancellations or pencil text found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        320,
+        190,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "139b",
+      "features": [
+        "top left corner",
+        "the 'b' is a superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        570,
+        1790,
+        1790,
+        130
+      ],
+      "kind_hint": "marginal_note_linked_to_facing_page",
+      "anchor": "ff. 1-20 + one blank. Col. calls it Paśuprayoga (not Paśubandha pr.)",
+      "features": [
+        "single line in ink",
+        "'bandha' in 'Paśubandha' is underlined",
+        "closing parenthesis",
+        "linked by a left-pointing arrow (at about x3020-3160) to an entry on the facing page fol. 140 (likely the bracketed √d. 118 (9) line)"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        3020,
+        1840,
+        140,
+        50
+      ],
+      "kind_hint": "arrow_mark",
+      "anchor": "←",
+      "features": [
+        "left-pointing arrow at the right edge of the target page near the gutter",
+        "connects b002 to the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        380,
+        3230,
+        1570,
+        110
+      ],
+      "kind_hint": "marginal_note_linked_to_facing_page",
+      "anchor": "s/o Umā[ś?]aṅkara, s/o Dharmeśvara, ff.1-52 in two hands, I.O.4835",
+      "features": [
+        "single line in ink",
+        "contains a shelfmark-like number 'I.O.4835'",
+        "linked by a left-pointing arrow (at about x3080-3160) to the facing page entry √d. 111 (3)"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        3075,
+        3290,
+        90,
+        40
+      ],
+      "kind_hint": "arrow_mark",
+      "anchor": "←",
+      "features": [
+        "left-pointing arrow near the gutter",
+        "connects b004 to the facing page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "139ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Folio number at the top left corner; the 'b' is written superscript and followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0278-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_note_on_facing_verso",
+      "literal_text": "ff. 1-20 + one blank. Col. calls it Paśuprayoga (not Paśubandha pr.)",
+      "fields": {
+        "extent": "ff. 1-20 + one blank"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'bandha' in 'Paśubandha' is underlined.",
+        "A left-pointing arrow (←) stands at about x3020-3160, y1850, near the gutter. It points towards the facing page fol. 140.",
+        "Single line in ink, written on a ruled line roughly level with the facing-page entry √d. 118 (9)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 279,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d. 118 (9) ——— Hiraṇyakeśi — n.d.: 21:8/9:ð (bracketed group in the Paśubandhaprayoga entries)",
+          "evidence": "The arrow on this page is level with the facing-page line √d. 118 (9). The overview of fol. 140 shows the arrow at that line in the left margin.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'Paśuprayoga' (diacritics on Paś-) is not fully certain.",
+        "'Col.' is left unexpanded; it is presumably colophon, but this is not resolved here."
+      ],
+      "stable_id": "css-prod-0278-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_note_on_facing_verso",
+      "literal_text": "s/o Um[ā?]śaṅkara, s/o Dharmeśvara, ff. 1-52 in two hands, I.O. 4835",
+      "fields": {
+        "extent": "ff. 1-52"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A left-pointing arrow (←) stands at about x3080-3160, y3300. It points towards the facing page, where a dash '—' follows beyond the gutter.",
+        "'I.O. 4835' appears to be a reference number in another collection. It is not treated as this holding's shelfmark.",
+        "The 's/o' names are a genealogy and are not recorded as authors."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 279,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d. 111 (3) Pākayajñanirṇaya By Candracūḍa ... 'Āpastamba' n.d.: 52:N:ð",
+          "evidence": "The arrow and dash are level with the facing-page line √d. 111 (3).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The name could be read 'Umāśaṅkara' or 'Umēśaṅkara'.",
+        "'I.O.' could possibly be read '1.0.'."
+      ],
+      "stable_id": "css-prod-0278-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "s/o Um[ā?]śaṅkara, s/o Dharmeśvara, ff. 1-52 in two hands, I.O. 4835",
+      "after": "s/o Um[ē?]śaṅkara, s/o Dharmeśvara, ff.1-52 in two hands, I.O.4835",
+      "reason": "In the native tile the barred vowel after 'Um' looks like an ē, not an ā. The reading is still kept uncertain. The source writes 'ff.1-52' and 'I.O.4835' without internal spaces.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cf5e8149-ff3c-465d-b444-5b3598755677.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cf5e8149-ff3c-465d-b444-5b3598755677/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "81e65edd0f65a1b55f0f2741cd62cf1ba8969ad3c145489a73a270410570bb8e",
+      "bytes": 251054,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cf5e8149-ff3c-465d-b444-5b3598755677/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fe6afe92a2d46456ba30a5eadaff47b98ed4ec89e959f198ab06e1f93f8b34e6",
+      "bytes": 314338,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cf5e8149-ff3c-465d-b444-5b3598755677/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d6f402c3b0c18156cd00ebb2619e7ffda73637508c4ff11a41beb9dafdd24b64",
+      "bytes": 317828,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cf5e8149-ff3c-465d-b444-5b3598755677/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "85f0448fed7a893794268e25fd263273a2e5308dbc23cd4f57d542d3cb26c5a3",
+      "bytes": 326112,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cf5e8149-ff3c-465d-b444-5b3598755677/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f748c7b3d918aa5d50ec50ae4d6b07b3cf8c4a559eb1b366b24ca1e22d5721fd",
+      "bytes": 298995,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cf5e8149-ff3c-465d-b444-5b3598755677/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6b845e058be8ccb24d1fd776d456f42d2b9f82fb9e1d838c8b6e44369e50bd7c",
+      "bytes": 318444,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cf5e8149-ff3c-465d-b444-5b3598755677/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "450b8a2813865c73c73d844d9b58fa148e3ca862d0f958eb6d972660132eed03",
+      "bytes": 313002,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2039169a-f306-426a-9885-1e34b0aebd41/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ca48f168f21c433ad463da6d3baa4458a552664823f927681db977fa0884ebb4",
+      "bytes": 251963,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 277,
+      "folio_label": "fol. 139",
+      "page_id": "2039169a-f306-426a-9885-1e34b0aebd41",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca59bf63-ee48-4d91-bc9f-37547a5b3afc/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7b091810ba4b393040abe1dd9cba0c8056cb272baf440cfc152f3554269fbb7b",
+      "bytes": 263036,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 279,
+      "folio_label": "fol. 140",
+      "page_id": "ca59bf63-ee48-4d91-bc9f-37547a5b3afc",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

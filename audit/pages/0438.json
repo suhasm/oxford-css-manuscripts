@@ -1,0 +1,1917 @@
+{
+  "source_order": 438,
+  "folio_label": "fol. 219b",
+  "page_id": "d8d68246-1445-4a1e-a762-0dd3eba40255",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "219b",
+    "principal_page_bbox": [
+      300,
+      285,
+      2895,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          350,
+          355,
+          130,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "219b",
+        "features": [
+          "pencil",
+          "top left corner",
+          "superscript b with dot/colon"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2865,
+          1045,
+          215,
+          285
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "ś/ ś/ c/",
+        "features": [
+          "pencil",
+          "right side of page",
+          "short letters each followed by a slanted stroke",
+          "two marks side by side on the upper level, one mark below",
+          "no adjacent target-page entry"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          400,
+          4150,
+          2600,
+          160
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "ff.1-11, Saṁv 1910 . [illegible] Janārdana Svāmin. The W. is 2nd in Cal. Sk. S. ed (attributed there [apparently] to Rāmavarman) ⟦[illegible]⟧",
+        "features": [
+          "ink",
+          "single long line at the bottom of the page",
+          "interlinear insertion 'apparently' above, with a caret below the line",
+          "cancelled final word",
+          "vertical stroke after the text",
+          "arrow from the gutter points left to this note",
+          "apparently attached to an entry on facing fol. 220"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2430,
+          4150,
+          250,
+          55
+        ],
+        "kind_hint": "interlinear_insertion",
+        "anchor": "apparently",
+        "features": [
+          "ink",
+          "superscript insertion above 'there', with a caret",
+          "part of the b003 note"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2915,
+          4505,
+          90,
+          175
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "ā/",
+        "features": [
+          "pencil",
+          "letter with a macron followed by a slanted stroke",
+          "lower right of page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3055,
+          4190,
+          140,
+          45
+        ],
+        "description": "Left-pointing ink arrow toward the end of note b003. Its shaft continues across the gutter onto facing fol. 220."
+      },
+      {
+        "bbox": [
+          1560,
+          3330,
+          120,
+          60
+        ],
+        "description": "Faint pencil dashes or dots below the bottom note. They may be stray marks."
+      }
+    ],
+    "boundary_notes": [
+      "Faint ruled lines and show-through of text from the recto (fol. 219) are visible across the page. They are not transcribed as target content.",
+      "Material right of the gutter (about x>3200) belongs to facing fol. 220. It includes a circled 'ā', 'Cat. s. B[...]', the continuation of the arrow line and a tick. These fragments are not target records.",
+      "Note b003 is probably linked by the arrow to an entry on fol. 220, possibly c. 87(2) Rāmagītā with Adhyātmarāmāyaṇaprakāśa. Its parent is not shown on this page.",
+      "The pencil 'ā/' (b005) may correspond to the 'ā/' marks on fol. 220. Its attachment is uncertain."
+    ],
+    "uncertainties": [
+      "The reading of the word after 'Saṁv 1910' is uncertain: 'Sinitr' or a similar form.",
+      "The cancelled final word in b003 is illegible.",
+      "Whether 'ff.1-11' and 'Saṁv' are written exactly so is uncertain.",
+      "The meaning of the pencil 'ś/ ś/ c/' marks is unclear, and the letter readings are approximate."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "219b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "219ᵇ:",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top left corner. The superscript 'b' is followed by a colon-like pair of dots."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The punctuation after the superscript b is a dot or a colon."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_on_facing_page_entry",
+        "literal_text": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2nd in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+        "fields": {
+          "extent": "ff.1-11",
+          "date": "Saṁv 1910"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, written as a single line near the foot of the page.",
+          "'apparently' is an interlinear insertion above the line between 'there' and 'to'. A caret below the line marks the insertion point (b004).",
+          "The final word is struck through. It may read 'ptd.'.",
+          "A vertical stroke follows the note, at about x≈2975.",
+          "A left-pointing ink arrow at about [3055,4190] points to the end of the note. Its shaft continues across the gutter onto facing fol. 220."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+            "evidence": "The arrow line crosses the gutter toward the left margin of fol. 220 at the level of entry c.87(2). On fol. 220 this entry carries a margin mark 'ptd' with a strike and an arrow.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The word after 'Saṁv 1910 .' is not securely read. 'Śiṣya' is only one possibility; the provisional inventory proposed 'Sinitr'.",
+          "Whether the note reads 'Saṁv' or 'Saṁvat' abbreviated is uncertain.",
+          "The reading of 'ed' after 'Cal. Sk. S.' is uncertain.",
+          "Whether a closing parenthesis follows 'Rāmavarman' is uncertain.",
+          "The cancelled final word is uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_marks",
+        "literal_text": "ś/ ś/\nc/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, right side of page. Each letter is followed by a long slanting stroke.",
+          "Two marks stand side by side, with one below.",
+          "No entry is present on this page beside these marks."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ś/ ś/ c/ (left margin of fol. 220 near d.674(5))",
+            "evidence": "Similar marks are visible in the left margin of the fol. 220 overview. These may be offsets or related marks.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The letter readings are approximate: the lower mark may be 'c' or another letter.",
+          "The meaning of the marks is unknown."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, lower right of page. A letter with a macron is followed by a long slanting stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ā/ (left margin of fol. 220 near c.108(1))",
+            "evidence": "A similar 'ā/' is visible on the fol. 220 overview at a corresponding height.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Attachment and meaning are uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Unattached pencil marks."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Bottom ink note, recorded as a continuation note probably tied by an arrow to an entry on fol. 220."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear insertion forming part of the b003 note."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Unattached pencil mark."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank apart from ruled lines and show-through from fol. 219. The show-through is not transcribed.",
+      "The faint dots listed in the inventory at [1560,3330] are actually at about [1990,4530,70,20] in native coordinates, below the bottom note. They are probably stray marks.",
+      "Material right of the gutter (x>~3200) belongs to fol. 220 and is not transcribed here. This includes a circled 'ā', 'Cat. S. B[...]', the arrow shaft and a tick."
+    ],
+    "unresolved_relationships": [
+      "The precise parent entry of note r002 on fol. 220 is probable (c. 87(2)) but not confirmed on this page."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '219' with a superscript b and a dot or colon is at the top left, about [350,355,130,120]. It is correctly recorded."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The pencil marks are at about [2864,1060,210,265], with two above and one below. The letter readings are approximate. The relationship evidence in r003 is wrong. The marks seen at the left edge of the fol. 220 overview are this same 219b material showing across the gutter. They are not separate marks on fol. 220."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The bottom ink note runs from about x 400 to 2980 at y≈4240. It is a single line, with a vertical stroke after a cancelled final word. The reading of the word after 'Saṁv 1910 .' remains insecure. The cancelled word plausibly looks like 'ptd' but is not secure. The '2nd' has a superscript 'nd'."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'apparently' is written above 'there', with a caret below the line before 'to'. It is correctly integrated into the note."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The pencil 'ā/' is at about [2919,4511,75,170]. The 'ā/' seen at the lower left of the fol. 220 overview is this same mark across the gutter. It is not a corresponding mark on fol. 220."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2nd in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+        "after": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2ⁿᵈ in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+        "reason": "The 'nd' is written as a superscript."
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+            "evidence": "The arrow line crosses the gutter toward the left margin of fol. 220 at the level of entry c.87(2). On fol. 220 this entry carries a margin mark 'ptd' with a strike and an arrow.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+            "evidence": "A left-pointing arrow at about [3055,4190] has its shaft continuing across the gutter onto fol. 220. The shaft reaches the level of entry c.87(2), which is about y≈4220 on the fol. 220 overview. The struck 'ptd' and the arrow visible at the left edge of the fol. 220 overview are the end of this 219b note seen across the gutter. They are not a separate mark on fol. 220.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The candidate misread a facing-page fragment of the target page as a mark on fol. 220.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ś/ ś/ c/ (left margin of fol. 220 near d.674(5))",
+            "evidence": "Similar marks are visible in the left margin of the fol. 220 overview. These may be offsets or related marks.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "fol. 220 entries d.674(5)/d.676(6) (level only)",
+            "evidence": "The marks lie near the gutter at roughly the height of fol. 220 entries d.674(5) and d.676(6). The marks visible at the left edge of the fol. 220 overview are this same 219b material, not separate marks. Attachment rests on position alone.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The duplicate-mark evidence was a facing-page view of the same marks.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ā/ (left margin of fol. 220 near c.108(1))",
+            "evidence": "A similar 'ā/' is visible on the fol. 220 overview at a corresponding height.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 439,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "fol. 220 entry c.108(1) (level only)",
+            "evidence": "The 'ā/' at the lower left of the fol. 220 overview is this same 219b mark seen across the gutter. Its height roughly matches fol. 220 entry c.108(1). Attachment rests on position only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The evidence was a misidentified facing-page fragment.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The word after 'Saṁv 1910 .' is not securely read: 'Śiṣya', 'Sinitr' or another form. The cancelled final word, possibly 'ptd', is also insecure. A closing parenthesis after Rāmavarman is uncertain.",
+        "next_check": "Inspect the original at higher magnification."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The parent entry on fol. 220 (c.87(2)) is probable only.",
+        "next_check": "Trace the arrow shaft on the fol. 220 native image."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b005"
+        ],
+        "issue": "The meaning and attachment of the pencil marks are unknown.",
+        "next_check": "Compare with similar marks on other gutter-side pages."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3190. Material to its right belongs to fol. 220: a circled 'ā', 'Cat. S. B[...]', the continuation of the arrow shaft and a tick. None of it is recorded here. The left margin of the fol. 220 overview shows this page's ś/ ś/ c/ marks, its ā/ mark and the end of its note, including the struck 'ptd' and the arrow. These are views of the same marks, not corresponding marks on fol. 220. Show-through from fol. 219 is not transcribed.",
+    "region_review": {
+      "top": "Only the folio number. Elsewhere there is show-through.",
+      "middle": "Only the pencil ś/ ś/ c/ marks at the right side. Elsewhere there is show-through and ruling.",
+      "bottom": "The ink note at y≈4240, the pencil ā/ and faint dots at about [1990,4530,70,20]. The dots are probably stray; the inventory's coordinate [1560,3330] is wrong.",
+      "left_margin": "Blank apart from show-through.",
+      "right_margin": "The ś/ marks, the ā/ mark, the vertical stroke ending the note and the arrowhead near the gutter.",
+      "interlinear": "'apparently' above the note, with a caret."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        350,
+        355,
+        130,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "219b",
+      "features": [
+        "pencil",
+        "top left corner",
+        "superscript b with dot/colon"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2865,
+        1045,
+        215,
+        285
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "ś/ ś/ c/",
+      "features": [
+        "pencil",
+        "right side of page",
+        "short letters each followed by a slanted stroke",
+        "two marks side by side on the upper level, one mark below",
+        "no adjacent target-page entry"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        400,
+        4150,
+        2600,
+        160
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "ff.1-11, Saṁv 1910 . [illegible] Janārdana Svāmin. The W. is 2nd in Cal. Sk. S. ed (attributed there [apparently] to Rāmavarman) ⟦[illegible]⟧",
+      "features": [
+        "ink",
+        "single long line at the bottom of the page",
+        "interlinear insertion 'apparently' above, with a caret below the line",
+        "cancelled final word",
+        "vertical stroke after the text",
+        "arrow from the gutter points left to this note",
+        "apparently attached to an entry on facing fol. 220"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2430,
+        4150,
+        250,
+        55
+      ],
+      "kind_hint": "interlinear_insertion",
+      "anchor": "apparently",
+      "features": [
+        "ink",
+        "superscript insertion above 'there', with a caret",
+        "part of the b003 note"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2915,
+        4505,
+        90,
+        175
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "ā/",
+      "features": [
+        "pencil",
+        "letter with a macron followed by a slanted stroke",
+        "lower right of page"
+      ]
+    },
+    {
+      "id": "b9901",
+      "bbox": [
+        3195,
+        3430,
+        313,
+        1200
+      ],
+      "kind_hint": "facing_page_fragment",
+      "anchor": "ā (circled) / Cat S. B",
+      "features": [
+        "visible strip of facing fol. 220 at the right edge of the target canvas",
+        "circled ā at about [3305,3440,110,140]",
+        "'Cat S. B' at about [3290,3985,218,65], cut off at the canvas edge",
+        "tick at about [3450,4570,58,50]",
+        "small stroke at about [3485,4330,23,30]"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "219ᵇ:",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top left corner. The superscript 'b' is followed by a colon-like pair of dots."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The punctuation after the superscript b is a dot or a colon."
+      ],
+      "stable_id": "css-prod-0438-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_on_facing_page_entry",
+      "literal_text": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2ⁿᵈ in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+      "fields": {
+        "extent": "ff.1-11",
+        "date": "Saṁv 1910"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, written as a single line near the foot of the page.",
+        "'apparently' is an interlinear insertion above the line between 'there' and 'to'. A caret below the line marks the insertion point (b004).",
+        "The final word is struck through. It may read 'ptd.'.",
+        "A vertical stroke follows the note, at about x≈2975.",
+        "A left-pointing ink arrow at about [3055,4190] points to the end of the note. Its shaft continues across the gutter onto facing fol. 220."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+          "evidence": "The arrow line crosses the gutter toward the left margin of fol. 220 at the level of entry c.87(2). On fol. 220 this entry carries a margin mark 'ptd' with a strike and an arrow.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The word after 'Saṁv 1910 .' is not securely read. 'Śiṣya' is only one possibility; the provisional inventory proposed 'Sinitr'.",
+        "Whether the note reads 'Saṁv' or 'Saṁvat' abbreviated is uncertain.",
+        "The reading of 'ed' after 'Cal. Sk. S.' is uncertain.",
+        "Whether a closing parenthesis follows 'Rāmavarman' is uncertain.",
+        "The cancelled final word is uncertain."
+      ],
+      "stable_id": "css-prod-0438-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_marks",
+      "literal_text": "ś/ ś/\nc/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, right side of page. Each letter is followed by a long slanting stroke.",
+        "Two marks stand side by side, with one below.",
+        "No entry is present on this page beside these marks."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ś/ ś/ c/ (left margin of fol. 220 near d.674(5))",
+          "evidence": "Similar marks are visible in the left margin of the fol. 220 overview. These may be offsets or related marks.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The letter readings are approximate: the lower mark may be 'c' or another letter.",
+        "The meaning of the marks is unknown."
+      ],
+      "stable_id": "css-prod-0438-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, lower right of page. A letter with a macron is followed by a long slanting stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ā/ (left margin of fol. 220 near c.108(1))",
+          "evidence": "A similar 'ā/' is visible on the fol. 220 overview at a corresponding height.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Attachment and meaning are uncertain."
+      ],
+      "stable_id": "css-prod-0438-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9901",
+      "block_ids": [
+        "b9901"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "facing_page_fragment",
+      "literal_text": "ā\nCat S. B[…]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "These are on the fol. 220 leaf, right of the gutter (x>3190). They belong to the facing page, not to fol. 219b.",
+        "'ā' is enclosed in a drawn circle.",
+        "A tick mark appears lower down, at about y≈4590.",
+        "The text is cut off at the right edge of the canvas."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Only partial letters are visible. The text continues beyond the canvas edge."
+      ],
+      "stable_id": "css-prod-0438-r9901",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2nd in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+      "after": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2ⁿᵈ in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+      "reason": "The 'nd' is written as a superscript.",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+          "evidence": "The arrow line crosses the gutter toward the left margin of fol. 220 at the level of entry c.87(2). On fol. 220 this entry carries a margin mark 'ptd' with a strike and an arrow.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+          "evidence": "A left-pointing arrow at about [3055,4190] has its shaft continuing across the gutter onto fol. 220. The shaft reaches the level of entry c.87(2), which is about y≈4220 on the fol. 220 overview. The struck 'ptd' and the arrow visible at the left edge of the fol. 220 overview are the end of this 219b note seen across the gutter. They are not a separate mark on fol. 220.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The candidate misread a facing-page fragment of the target page as a mark on fol. 220.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ś/ ś/ c/ (left margin of fol. 220 near d.674(5))",
+          "evidence": "Similar marks are visible in the left margin of the fol. 220 overview. These may be offsets or related marks.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 220 entries d.674(5)/d.676(6) (level only)",
+          "evidence": "The marks lie near the gutter at roughly the height of fol. 220 entries d.674(5) and d.676(6). The marks visible at the left edge of the fol. 220 overview are this same 219b material, not separate marks. Attachment rests on position alone.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The duplicate-mark evidence was a facing-page view of the same marks.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ā/ (left margin of fol. 220 near c.108(1))",
+          "evidence": "A similar 'ā/' is visible on the fol. 220 overview at a corresponding height.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 220 entry c.108(1) (level only)",
+          "evidence": "The 'ā/' at the lower left of the fol. 220 overview is this same 219b mark seen across the gutter. Its height roughly matches fol. 220 entry c.108(1). Attachment rests on position only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The evidence was a misidentified facing-page fragment.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2nd in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+      "after": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2ⁿᵈ in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+      "reason": "The 'nd' is visibly superscript in the native tile.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0438-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+          "evidence": "The arrow line crosses the gutter toward the left margin of fol. 220 at the level of entry c.87(2). On fol. 220 this entry carries a margin mark 'ptd' with a strike and an arrow.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+          "evidence": "The left-pointing arrow head at about [3064,4206] has a shaft continuing across the gutter onto the fol. 220 leaf to about x≈3414, at the level of entry c.87(2). The struck 'ptd' and the arrow at the left edge of the fol. 220 overview are this same 219b note end seen in that photograph. They are not a separate fol. 220 mark. Attachment rests on the arrow and its level only.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The earlier evidence wrongly treated the facing-photo view of the same marks as fol. 220 marks.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0438-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ś/ ś/ c/ (left margin of fol. 220 near d.674(5))",
+          "evidence": "Similar marks are visible in the left margin of the fol. 220 overview. These may be offsets or related marks.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 220 entries d.674(5)/d.676(6) (level only)",
+          "evidence": "The marks lie near the gutter at roughly the height of fol. 220 entries d.674(5) and d.676(6). The marks at the left edge of the fol. 220 overview are this same 219b material, not separate marks. Attachment rests on position alone.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The duplicate-mark evidence was a view of the same marks across the opening.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0438-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ā/ (left margin of fol. 220 near c.108(1))",
+          "evidence": "A similar 'ā/' is visible on the fol. 220 overview at a corresponding height.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 439,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 220 entry c.108(1) (level only)",
+          "evidence": "The 'ā/' at the lower left of the fol. 220 overview is this same 219b mark seen across the gutter. Its height roughly matches fol. 220 entry c.108(1). Attachment rests on position only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The earlier evidence was a misidentified view of the same mark.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0438-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [
+    {
+      "record_id": "r9901",
+      "stage": "focus",
+      "focused_check_file": "0438-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record and newly identified source block"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The word after 'Saṁv 1910 .' is not securely read: 'Śiṣya', 'Sinitr' or another form. The cancelled final word, possibly 'ptd', is also insecure. A closing parenthesis after Rāmavarman is uncertain.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0438-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The meaning and attachment of the pencil marks are unknown.",
+      "block_ids": [
+        "b002",
+        "b005"
+      ],
+      "record_ids": [
+        "r003",
+        "r004"
+      ],
+      "id": "focus-0438-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The 'nd' is written as a superscript. Proposed literal_text: \"ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2ⁿᵈ in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧\"",
+      "block_ids": [],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0438-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The candidate misread a facing-page fragment of the target page as a mark on fol. 220. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 439, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa\", \"evidence\": \"A left-pointing arrow at about [3055,4190] has its shaft continuing across the gutter onto fol. 220. The shaft reaches the level of entry c.87(2), which is about y≈4220 on the fol. 220 overview. The struck 'ptd' and the arrow visible at the left edge of the fol. 220 overview are the end of this 219b note seen across the gutter. They are not a separate mark on fol. 220.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0438-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The duplicate-mark evidence was a facing-page view of the same marks. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 439, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"fol. 220 entries d.674(5)/d.676(6) (level only)\", \"evidence\": \"The marks lie near the gutter at roughly the height of fol. 220 entries d.674(5) and d.676(6). The marks visible at the left edge of the fol. 220 overview are this same 219b material, not separate marks. Attachment rests on position alone.\", \"certainty\": \"uncertain\"}]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0438-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The evidence was a misidentified facing-page fragment. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 439, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"fol. 220 entry c.108(1) (level only)\", \"evidence\": \"The 'ā/' at the lower left of the fol. 220 overview is this same 219b mark seen across the gutter. Its height roughly matches fol. 220 entry c.108(1). Attachment rests on position only.\", \"certainty\": \"uncertain\"}]",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0438-06"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The parent entry on fol. 220 (c.87(2)) is probable only.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0438-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The punctuation after the superscript b is a dot or a colon.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0438-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The word after 'Saṁv 1910 .' is not securely read. 'Śiṣya' is only one possibility; the provisional inventory proposed 'Sinitr'.",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0438-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Whether the note reads 'Saṁv' or 'Saṁvat' abbreviated is uncertain.",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0438-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0438-01",
+        "focus-0438-02",
+        "focus-0438-03",
+        "focus-0438-04",
+        "focus-0438-05",
+        "focus-0438-06",
+        "focus-0438-07",
+        "focus-0438-08",
+        "focus-0438-09",
+        "focus-0438-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0438-01",
+          "source_reading": "…Saṁv 1910 . [Śiṣya? / Sinṭe?] Janārdana Svāmin. … to Rāmavarman[)?] ⟦ptd[.?]⟧",
+          "certainty": "uncertain",
+          "evidence": "In native tile [0,3216], the word after '1910 .' at about x≈870–985, y≈4200–4260 shows an initial S-form, a short i/n stroke cluster and a final looped form like 'ṭe' or 'fe'. It cannot be secured as 'Śiṣya' or as 'Sinitr'. After 'Rāmavarman' at about x≈2860 there is a descending curved stroke. It may be ')' or a tail. The following short word looks like 'ptd' and is struck through. A dot or point is possible."
+        },
+        {
+          "issue_id": "focus-0438-02",
+          "source_reading": "ś/ ś/ c/ (b002); ā/ (b005)",
+          "certainty": "uncertain",
+          "evidence": "These are pencil letters, each followed by a long slant stroke. The fol. 220 overview shows the same marks at its far left, which is the edge of 219b photographed with the opening. They are not separate fol. 220 marks. No text explains what the marks mean."
+        },
+        {
+          "issue_id": "focus-0438-03",
+          "source_reading": "The W. is 2ⁿᵈ in Cal. Sk. S. ed",
+          "certainty": "secure",
+          "evidence": "In tile [1604,3216] at about x≈1765, y≈4170, the 'nd' sits raised above the baseline after '2'."
+        },
+        {
+          "issue_id": "focus-0438-04",
+          "source_reading": "⟦ptd⟧ | ←———  (arrow head about x≈3064, y≈4206; shaft continues about x≈3200–3414 across the gutter)",
+          "certainty": "probable",
+          "evidence": "A left-pointing arrow head sits just right of the vertical stroke ending the note. A horizontal line continues beyond the gutter onto the fol. 220 leaf at the same height. On the fol. 220 overview, the 'ptd ←' seen at the left is this same 219b note end, at the level of c.87(2)."
+        },
+        {
+          "issue_id": "focus-0438-05",
+          "source_reading": "ś/ ś/ c/",
+          "certainty": "uncertain",
+          "evidence": "These lie at about y≈1060–1330, near the gutter. On the fol. 220 overview they appear at its left edge, roughly level with d.674(5) and its 'Begins' lines. Attachment rests on position only."
+        },
+        {
+          "issue_id": "focus-0438-06",
+          "source_reading": "ā/",
+          "certainty": "uncertain",
+          "evidence": "This lies at about [2914,4511]. On the fol. 220 overview it appears at the left edge, roughly level with c.108(1). Attachment rests on position only."
+        },
+        {
+          "issue_id": "focus-0438-07",
+          "source_reading": "Parent possibly fol. 220 'Vc. 87(2) —— —— + Ɔ: Adhyātmarāmāyaṇaprakāśa'",
+          "certainty": "probable",
+          "evidence": "The parent is suggested only by the arrow and line level across the gutter. No explicit shelfmark appears in the 219b note."
+        },
+        {
+          "issue_id": "focus-0438-08",
+          "source_reading": "219ᵇ:",
+          "certainty": "probable",
+          "evidence": "Two small dots, one over the other, follow the 9 below the raised 'b'. They look colon-like, but faint."
+        },
+        {
+          "issue_id": "focus-0438-09",
+          "source_reading": "[Śiṣya? / Sinṭe?]",
+          "certainty": "uncertain",
+          "evidence": "The letter forms are as described in focus-0438-01. No secure reading is possible."
+        },
+        {
+          "issue_id": "focus-0438-10",
+          "source_reading": "Saṁv",
+          "certainty": "probable",
+          "evidence": "The word is written 'Sa' plus a nasal mark over a minim cluster, then a final 'v'. No further letters follow before '1910'. It is the abbreviated form, not 'Saṁvat'."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2nd in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+          "after": "ff.1-11, Saṁv 1910 . [Śiṣya?] Janārdana Svāmin. The W. is 2ⁿᵈ in Cal. Sk. S. ed (attributed there ^apparently^ to Rāmavarman[)?] ⟦[ptd.?]⟧",
+          "reason": "The 'nd' is visibly superscript in the native tile.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 439,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+              "evidence": "The arrow line crosses the gutter toward the left margin of fol. 220 at the level of entry c.87(2). On fol. 220 this entry carries a margin mark 'ptd' with a strike and an arrow.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 439,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c. 87(2) —— + Ɔ: Adhyātmarāmāyaṇaprakāśa",
+              "evidence": "The left-pointing arrow head at about [3064,4206] has a shaft continuing across the gutter onto the fol. 220 leaf to about x≈3414, at the level of entry c.87(2). The struck 'ptd' and the arrow at the left edge of the fol. 220 overview are this same 219b note end seen in that photograph. They are not a separate fol. 220 mark. Attachment rests on the arrow and its level only.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The earlier evidence wrongly treated the facing-photo view of the same marks as fol. 220 marks.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 439,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "ś/ ś/ c/ (left margin of fol. 220 near d.674(5))",
+              "evidence": "Similar marks are visible in the left margin of the fol. 220 overview. These may be offsets or related marks.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 439,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "fol. 220 entries d.674(5)/d.676(6) (level only)",
+              "evidence": "The marks lie near the gutter at roughly the height of fol. 220 entries d.674(5) and d.676(6). The marks at the left edge of the fol. 220 overview are this same 219b material, not separate marks. Attachment rests on position alone.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "The duplicate-mark evidence was a view of the same marks across the opening.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 439,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "ā/ (left margin of fol. 220 near c.108(1))",
+              "evidence": "A similar 'ā/' is visible on the fol. 220 overview at a corresponding height.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 439,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "fol. 220 entry c.108(1) (level only)",
+              "evidence": "The 'ā/' at the lower left of the fol. 220 overview is this same 219b mark seen across the gutter. Its height roughly matches fol. 220 entry c.108(1). Attachment rests on position only.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "The earlier evidence was a misidentified view of the same mark.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b9901",
+            "bbox": [
+              3195,
+              3430,
+              313,
+              1200
+            ],
+            "kind_hint": "facing_page_fragment",
+            "anchor": "ā (circled) / Cat S. B",
+            "features": [
+              "visible strip of facing fol. 220 at the right edge of the target canvas",
+              "circled ā at about [3305,3440,110,140]",
+              "'Cat S. B' at about [3290,3985,218,65], cut off at the canvas edge",
+              "tick at about [3450,4570,58,50]",
+              "small stroke at about [3485,4330,23,30]"
+            ]
+          },
+          "record": {
+            "id": "r9901",
+            "block_ids": [
+              "b9901"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "facing_page_fragment",
+            "literal_text": "ā\nCat S. B[…]",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "These are on the fol. 220 leaf, right of the gutter (x>3190). They belong to the facing page, not to fol. 219b.",
+              "'ā' is enclosed in a drawn circle.",
+              "A tick mark appears lower down, at about y≈4590.",
+              "The text is cut off at the right edge of the canvas."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "Only partial letters are visible. The text continues beyond the canvas edge."
+            ],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "A visible strip of facing-page writing within the target canvas is not represented in the index. It is recorded only as a facing-page trace."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "The folio number reads 219ᵇ followed by a colon-like mark."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Pencil marks; meaning unknown."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Ink note. The superscript 'nd' has been corrected."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Interlinear 'apparently' with a caret below the line."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Pencil ā/."
+        },
+        {
+          "block_id": "b9901",
+          "status": "facing_page_fragment",
+          "record_ids": [
+            "r9901"
+          ],
+          "finding": "A fol. 220 strip at the right edge of the canvas."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0438-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The word after 'Saṁv 1910 .', the closing parenthesis and the cancelled word all remain insecure.",
+          "next_check": "Use higher magnification of x 850–1000 and x 2850–2970 at y≈4200–4270."
+        },
+        {
+          "issue_id": "focus-0438-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b002",
+            "b005"
+          ],
+          "issue": "The meaning and attachment of the pencil marks are unknown.",
+          "next_check": "Compare with similar pencil marks elsewhere in the volume."
+        },
+        {
+          "issue_id": "focus-0438-07",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The parent entry c.87(2) on fol. 220 is probable only.",
+          "next_check": "Check the fol. 220 c.87(2) entry details against ff.1-11 and the date."
+        },
+        {
+          "issue_id": "focus-0438-09",
+          "record_id": "r002",
+          "block_ids": [
+            "b003",
+            "b004"
+          ],
+          "issue": "The word reading remains uncertain.",
+          "next_check": "Same check as focus-0438-01."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "5739a381b36e60256513063c58304ebe7aa8502275c8580298939c6cc9b94163",
+      "bytes": 232614,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0cd30420a784963aca20fefc9fa76fe9515e61ab8aebd4f348ff68603a8500dd",
+      "bytes": 289051,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "628a53542fd199832c8e18949f30642d1c52ea3014ced87be18e4bfa12ab42eb",
+      "bytes": 271363,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "49f91b01dc9d966dae3bc416898ba10e2d35b79bdee33b58db6ac5f258eb7825",
+      "bytes": 277547,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5ed13fff9e5a60c221c1ee4cd883c17d7b531abfbf63a9aa0cc1fd862c0b0fc0",
+      "bytes": 238699,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e812073be013d7d97f2694c90ae1697d4ba3d17d2ac763b2f1c9459534a1c18a",
+      "bytes": 309106,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cb3793f15925e674ddfe07442d8bd39a0d541d3ba15ddb2ae9761b0dcb7f1e50",
+      "bytes": 303243,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ccc98675-979b-4ab1-a392-98abf333d7d1/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f3f94743d8e78d0e08a42baf417b42158dde7a9584aa27c0cc516ba7652594ce",
+      "bytes": 262121,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 437,
+      "folio_label": "fol. 219",
+      "page_id": "ccc98675-979b-4ab1-a392-98abf333d7d1",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9fdab2c5-3cca-490e-8726-bbec18f6fc67/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2f0d0333de2f8df1b15f122b4211cd5e50264fbe40773850acafa83f2e8348c4",
+      "bytes": 265058,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 439,
+      "folio_label": "fol. 220",
+      "page_id": "9fdab2c5-3cca-490e-8726-bbec18f6fc67",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9fdab2c5-3cca-490e-8726-bbec18f6fc67/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a42828bd3fce39ee8fb61bc8cefe281646694a04827d72327285b797d01e5b3d",
+      "bytes": 358985,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 439,
+      "folio_label": "fol. 220",
+      "page_id": "9fdab2c5-3cca-490e-8726-bbec18f6fc67",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9fdab2c5-3cca-490e-8726-bbec18f6fc67/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a8dc39169bd5152f9a76d047a6e5bef518562532ca0e46c6faaa3c6e872d3055",
+      "bytes": 464227,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 439,
+      "folio_label": "fol. 220",
+      "page_id": "9fdab2c5-3cca-490e-8726-bbec18f6fc67",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d8d68246-1445-4a1e-a762-0dd3eba40255.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "5739a381b36e60256513063c58304ebe7aa8502275c8580298939c6cc9b94163",
+      "bytes": 232614,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0cd30420a784963aca20fefc9fa76fe9515e61ab8aebd4f348ff68603a8500dd",
+      "bytes": 289051,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "628a53542fd199832c8e18949f30642d1c52ea3014ced87be18e4bfa12ab42eb",
+      "bytes": 271363,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "49f91b01dc9d966dae3bc416898ba10e2d35b79bdee33b58db6ac5f258eb7825",
+      "bytes": 277547,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5ed13fff9e5a60c221c1ee4cd883c17d7b531abfbf63a9aa0cc1fd862c0b0fc0",
+      "bytes": 238699,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e812073be013d7d97f2694c90ae1697d4ba3d17d2ac763b2f1c9459534a1c18a",
+      "bytes": 309106,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8d68246-1445-4a1e-a762-0dd3eba40255/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cb3793f15925e674ddfe07442d8bd39a0d541d3ba15ddb2ae9761b0dcb7f1e50",
+      "bytes": 303243,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ccc98675-979b-4ab1-a392-98abf333d7d1/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f3f94743d8e78d0e08a42baf417b42158dde7a9584aa27c0cc516ba7652594ce",
+      "bytes": 262121,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 437,
+      "folio_label": "fol. 219",
+      "page_id": "ccc98675-979b-4ab1-a392-98abf333d7d1",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9fdab2c5-3cca-490e-8726-bbec18f6fc67/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2f0d0333de2f8df1b15f122b4211cd5e50264fbe40773850acafa83f2e8348c4",
+      "bytes": 265058,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 439,
+      "folio_label": "fol. 220",
+      "page_id": "9fdab2c5-3cca-490e-8726-bbec18f6fc67",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

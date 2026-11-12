@@ -1,0 +1,901 @@
+{
+  "source_order": 664,
+  "folio_label": "fol. 332b",
+  "page_id": "2377132c-400d-405b-9a4d-cc36a0158ebc",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "332b",
+    "principal_page_bbox": [
+      305,
+      315,
+      2800,
+      4555
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          430,
+          400,
+          230,
+          180
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "332b",
+        "features": [
+          "top-left outer margin",
+          "written at an angle",
+          "small raised 'b' after 332",
+          "possible faint erasure or smudge just above and left of the number"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          400,
+          1430,
+          2510,
+          120
+        ],
+        "kind_hint": "entry",
+        "anchor": "d. 1018. | Subhāṣitaratnāvalī, tr. of Bhartṛhari's Śatakatraya. Def. | 1810:26:10:D.",
+        "features": [
+          "shelfmark in left column",
+          "title in main column",
+          "date and extent figures at right",
+          "diacritics present; the letter forms are cursive and readings are approximate"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          430,
+          1870,
+          2660,
+          110
+        ],
+        "kind_hint": "entry",
+        "anchor": "d.1071 (2) | Suvṛttahārī [by Gajarāja — b. 1874 S.]. | c. S. 1943:27(ff.22b-48):20:D",
+        "features": [
+          "the square bracket is written around the author statement",
+          "the closing bracket drops down to the second line",
+          "folio range is written in parentheses within the extent figures",
+          "the 'ff.' reading is uncertain"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          915,
+          1950,
+          1270,
+          75
+        ],
+        "kind_hint": "continuation_description",
+        "anchor": "Manual of prosody in ⟦?⟧ Hindi prose & verse. Unf.",
+        "features": [
+          "smaller, more cursive hand",
+          "below the b003 title line",
+          "a short word before 'Hindi' is cancelled by scribbling",
+          "'Unf.' is placed to the right, near the closing bracket"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          1025,
+          2025,
+          1260,
+          80
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "Followed by 9 folios containing fragments of a similar work.",
+        "features": [
+          "third line belonging with the d.1071 (2) entry",
+          "indented",
+          "small cursive hand"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          430,
+          2065,
+          640,
+          75
+        ],
+        "kind_hint": "cross_reference",
+        "anchor": "d.1013 (2)   See opp. p.",
+        "features": [
+          "shelfmark in left column",
+          "'See opp. p.' straddles the column rule",
+          "independent of the d.1071 (2) entry",
+          "refers to the facing page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          925,
+          1700,
+          590,
+          95
+        ],
+        "description": "Row of ink blots and dots in the main column between the d.1018 and d.1071 (2) entries; no legible letters; possibly offset or blotting rather than text."
+      },
+      {
+        "bbox": [
+          2890,
+          4190,
+          40,
+          40
+        ],
+        "description": "Small ink speck lower right of the main column."
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the image (approx. x>3110) shows the facing page fol. 333 with shelfmarks (d. 27(1, c. 436., d. 1022, c. 198., arrow, c. 211 … c. 241, including check marks and a cancelled d. 1040(1)). These are context only and are not recorded as target blocks.",
+      "The page edge and gutter lie at about x≈3100; the target page has no text beyond its date column."
+    ],
+    "uncertainties": [
+      "The exact letter readings in the b002 title are uncertain because of the compressed cursive hand.",
+      "The reading 'ff.22b-48' in b003 is uncertain.",
+      "The cancelled word in b004 is illegible.",
+      "The b001 suffix is read as 'b'."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "332b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "332b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at an angle in the top-left outer margin.",
+          "The 'b' is small and raised after '332', with a dot after it.",
+          "There is a faint smudge or possible erasure just above and to the left of the number."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised suffix is read as 'b'."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "d. 1018.   Subhāṣitaratnāvalī, tr. of Bhartṛhari's Śatakatraya. Def.   1810:26:10:D.",
+        "fields": {
+          "shelfmark": "d. 1018.",
+          "title": "Subhāṣitaratnāvalī, tr. of Bhartṛhari's Śatakatraya",
+          "date": "1810",
+          "extent": "26",
+          "lines": "10",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'Def.' is written after the title.",
+          "The shelfmark is in the left column. The title is in the main column. The date and extent figures are at the right."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The title is in a compressed cursive hand. The diacritics in 'Subhāṣitaratnāvalī' (ṣ, ā, final ī) and 'Bhartṛhari's' are uncertain readings.",
+          "The last digit of the shelfmark could be read as 6 or 8. It is read here as 8.",
+          "The first digits of the date '1810' are cursive. The reading is probable."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b004",
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "d.1071 (2)   Suvṛttahārī [by Gajarāja — b. 1874 S.].   c. S. 1943:27(ff.22b-48):20:D\nManual of prosody in ⟦[illegible]⟧ Hindi prose & verse.   Unf.\nFollowed by 9 folios containing fragments of a similar work.",
+        "fields": {
+          "shelfmark": "d.1071 (2)",
+          "title": "Suvṛttahārī",
+          "author": "Gajarāja",
+          "subject": "Manual of prosody in Hindi prose & verse",
+          "date": "c. S. 1943",
+          "extent": "27(ff.22b-48)",
+          "lines": "20",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The author statement '[by Gajarāja — b. 1874 S.]' is in square brackets. The closing bracket drops down to the second line.",
+          "The second and third lines are in a smaller, more cursive hand.",
+          "A short word before 'Hindi' is cancelled by scribbling.",
+          "'Unf.' is placed to the right of the closing bracket on the second line.",
+          "The third line is indented."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 665,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 1071(2) Suvṛttahārī ... c.S.1943 : 27 : 20 : D.",
+            "evidence": "The facing page carries a ticked entry for the same shelfmark, with a corrected date matching this page's date.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'ff.' in the extent figures is uncertain. It could be 'll.'.",
+          "The cancelled word before 'Hindi' is illegible.",
+          "'b. 1874 S.' is literal. It is not expanded here."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "cross_reference",
+        "subtype": "see_opposite_page",
+        "literal_text": "d.1013 (2)   See opp. p.",
+        "fields": {
+          "shelfmark": "d.1013 (2)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The shelfmark is in the left column. 'See opp. p.' straddles the column rule.",
+          "It sits on the line below the d.1071 (2) entry and is independent of it."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 665,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 1013(2) Jñānasvarodaya by Taraṇadāsa",
+            "evidence": "'See opp. p.' points to the facing page, which has a ticked d.1013(2) entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Single-line holding."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Main line of the d.1071 (2) holding."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Description line attached directly under the b003 title, within the bracket layout."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Indented third line of the same entry, placed above the next shelfmark line's text."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Independent cross-reference to the facing page."
+      }
+    ],
+    "page_annotations": [
+      "A row of ink blots and dots appears at about [925,1700,590,95] between the d.1018 and d.1071 (2) entries. No legible letters were found; it is possibly offset or blotting.",
+      "There is a small ink speck at about [2890,4190,40,40].",
+      "The rest of the page below about y=2150 is ruled and blank after image review.",
+      "The facing page fol. 333 is visible at the right (x>3110). It is context only and has not been transcribed as target records."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "An angled '332' sits in the top-left margin with a small raised 'b' and a dot. A faint grey smudge lies above and to the left. The record matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single line 'd. 1018.' plus title, 'Def.' and '1810:26:10:D.' was checked on native tiles 1 and 2. Nothing else is on this line. The diacritic uncertainty is correctly kept."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The main line, with its bracketed author statement and the right-hand figures, is checked. The abbreviation before '22b-48' is ambiguous (ff./ll.) and stays uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The smaller-hand line sits directly under the title. A short word before 'Hindi' is scribbled out and illegible. 'Unf.' lies right of the descending closing bracket. Grouping with d.1071 (2) is correct."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The indented line 'Followed by 9 folios containing fragments of a similar work.' is in the same small hand. It is correctly attached to d.1071 (2), not to d.1013 (2)."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "This is an independent cross-reference 'd.1013 (2)  See opp. p.', with 'See' starting across the column rule. It is not a continuation of r003."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The extent abbreviation in '27(ff.22b-48)' could be 'ff.' or 'll.'. The same fragment, visible at the left edge of the fol. 333 image, does not resolve it.",
+        "next_check": "Compare with this hand's folio-range abbreviations elsewhere in the volume."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The cancelled word before 'Hindi' is scribbled over and illegible.",
+        "next_check": "Higher-contrast or multispectral image of the region around x≈1450-1500, y≈1960-2000."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The facing-page anchor 'Jñānasvarodaya by Taraṇadāsa' is read from a reduced context image. The fol. 333 entry carries a cancelled 'Svarodaya' and further cancellations, so the anchor wording is only probable.",
+        "next_check": "Native-resolution review of fol. 333 at the d.1013(2) line."
+      }
+    ],
+    "boundary_review": "The target page edge and gutter lie at about x≈3100-3130. Everything to the right (d. 27(1, c. 436., d. 1022, c. 198., arrow, c. 211 … c. 241, ticks at d.1071( and d.1013(2), cancelled d.1040(1)) belongs to fol. 333 and is context only. On fol. 333 the d.1071(2) and d.1013(2) shelfmarks are ticked, which supports the probable cross-page relationships in r003 and r004. The fol. 333 image shows fragments of this page at its left edge ('6:10:D', '(ll.22b-48):20:D'). These are the same target text, not extra records.",
+    "region_review": {
+      "top": "Contains only the folio number 332b. Faint smudges and a tiny dot near x≈2160, y≈420 are not writing. There is no heading.",
+      "middle": "Contains the d.1018 entry, a row of ink blots (unattached, no letters), the d.1071 (2) three-line entry and the d.1013 (2) cross-reference. Nothing further is present.",
+      "bottom": "Below y≈2150 the page is ruled with no ink writing. There is faint show-through or offset of text from the other side of the leaf, which is illegible and not transcribed. A small ink speck sits at about [2895,4200,40,40]. The lower edge was image-reviewed and is blank.",
+      "left_margin": "The shelfmark column holds d. 1018., d.1071 (2) and d.1013 (2). There are no ticks or other marks on the target page.",
+      "right_margin": "The date and extent figures run up to the gutter. There are no marginal additions. The facing-page ticks belong to fol. 333.",
+      "interlinear": "The b004 and b005 smaller-hand lines are the only interlinear-style writing. The cancellation in b004 is recorded. There is no other interlinear text."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        430,
+        400,
+        230,
+        180
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "332b",
+      "features": [
+        "top-left outer margin",
+        "written at an angle",
+        "small raised 'b' after 332",
+        "possible faint erasure or smudge just above and left of the number"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        400,
+        1430,
+        2510,
+        120
+      ],
+      "kind_hint": "entry",
+      "anchor": "d. 1018. | Subhāṣitaratnāvalī, tr. of Bhartṛhari's Śatakatraya. Def. | 1810:26:10:D.",
+      "features": [
+        "shelfmark in left column",
+        "title in main column",
+        "date and extent figures at right",
+        "diacritics present; the letter forms are cursive and readings are approximate"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        430,
+        1870,
+        2660,
+        110
+      ],
+      "kind_hint": "entry",
+      "anchor": "d.1071 (2) | Suvṛttahārī [by Gajarāja — b. 1874 S.]. | c. S. 1943:27(ff.22b-48):20:D",
+      "features": [
+        "the square bracket is written around the author statement",
+        "the closing bracket drops down to the second line",
+        "folio range is written in parentheses within the extent figures",
+        "the 'ff.' reading is uncertain"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        915,
+        1950,
+        1270,
+        75
+      ],
+      "kind_hint": "continuation_description",
+      "anchor": "Manual of prosody in ⟦?⟧ Hindi prose & verse. Unf.",
+      "features": [
+        "smaller, more cursive hand",
+        "below the b003 title line",
+        "a short word before 'Hindi' is cancelled by scribbling",
+        "'Unf.' is placed to the right, near the closing bracket"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        1025,
+        2025,
+        1260,
+        80
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "Followed by 9 folios containing fragments of a similar work.",
+      "features": [
+        "third line belonging with the d.1071 (2) entry",
+        "indented",
+        "small cursive hand"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        430,
+        2065,
+        640,
+        75
+      ],
+      "kind_hint": "cross_reference",
+      "anchor": "d.1013 (2)   See opp. p.",
+      "features": [
+        "shelfmark in left column",
+        "'See opp. p.' straddles the column rule",
+        "independent of the d.1071 (2) entry",
+        "refers to the facing page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "332b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at an angle in the top-left outer margin.",
+        "The 'b' is small and raised after '332', with a dot after it.",
+        "There is a faint smudge or possible erasure just above and to the left of the number."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised suffix is read as 'b'."
+      ],
+      "stable_id": "css-prod-0664-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "d. 1018.   Subhāṣitaratnāvalī, tr. of Bhartṛhari's Śatakatraya. Def.   1810:26:10:D.",
+      "fields": {
+        "shelfmark": "d. 1018.",
+        "title": "Subhāṣitaratnāvalī, tr. of Bhartṛhari's Śatakatraya",
+        "date": "1810",
+        "extent": "26",
+        "lines": "10",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'Def.' is written after the title.",
+        "The shelfmark is in the left column. The title is in the main column. The date and extent figures are at the right."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The title is in a compressed cursive hand. The diacritics in 'Subhāṣitaratnāvalī' (ṣ, ā, final ī) and 'Bhartṛhari's' are uncertain readings.",
+        "The last digit of the shelfmark could be read as 6 or 8. It is read here as 8.",
+        "The first digits of the date '1810' are cursive. The reading is probable."
+      ],
+      "stable_id": "css-prod-0664-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b004",
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "d.1071 (2)   Suvṛttahārī [by Gajarāja — b. 1874 S.].   c. S. 1943:27(ff.22b-48):20:D\nManual of prosody in ⟦[illegible]⟧ Hindi prose & verse.   Unf.\nFollowed by 9 folios containing fragments of a similar work.",
+      "fields": {
+        "shelfmark": "d.1071 (2)",
+        "title": "Suvṛttahārī",
+        "author": "Gajarāja",
+        "subject": "Manual of prosody in Hindi prose & verse",
+        "date": "c. S. 1943",
+        "extent": "27(ff.22b-48)",
+        "lines": "20",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The author statement '[by Gajarāja — b. 1874 S.]' is in square brackets. The closing bracket drops down to the second line.",
+        "The second and third lines are in a smaller, more cursive hand.",
+        "A short word before 'Hindi' is cancelled by scribbling.",
+        "'Unf.' is placed to the right of the closing bracket on the second line.",
+        "The third line is indented."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 665,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 1071(2) Suvṛttahārī ... c.S.1943 : 27 : 20 : D.",
+          "evidence": "The facing page carries a ticked entry for the same shelfmark, with a corrected date matching this page's date.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'ff.' in the extent figures is uncertain. It could be 'll.'.",
+        "The cancelled word before 'Hindi' is illegible.",
+        "'b. 1874 S.' is literal. It is not expanded here."
+      ],
+      "stable_id": "css-prod-0664-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "cross_reference",
+      "subtype": "see_opposite_page",
+      "literal_text": "d.1013 (2)   See opp. p.",
+      "fields": {
+        "shelfmark": "d.1013 (2)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The shelfmark is in the left column. 'See opp. p.' straddles the column rule.",
+        "It sits on the line below the d.1071 (2) entry and is independent of it."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 665,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 1013(2) Jñānasvarodaya by Taraṇadāsa",
+          "evidence": "'See opp. p.' points to the facing page, which has a ticked d.1013(2) entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0664-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2377132c-400d-405b-9a4d-cc36a0158ebc.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2377132c-400d-405b-9a4d-cc36a0158ebc/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4503e7218aae7d7d209004cd844bbedea48c11bb98749fc0c781356ab8521abf",
+      "bytes": 318195,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2377132c-400d-405b-9a4d-cc36a0158ebc/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "61e2c4b81a3d47143bf899a06648eed00e91d938e2a79cacb2272e8717f48a14",
+      "bytes": 367743,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2377132c-400d-405b-9a4d-cc36a0158ebc/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6dc792edd51deea2b21bb03c52aedb4734be62545ccaacd4b284da67780dab89",
+      "bytes": 403951,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2377132c-400d-405b-9a4d-cc36a0158ebc/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "88c6eedc507380062be5e050e77eac0c7bb0220db04529138bfb01507dcd5f2b",
+      "bytes": 388738,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2377132c-400d-405b-9a4d-cc36a0158ebc/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f3e09f8dc3a4a4fecdbf4bf8ef1a21fe77ad2b9ba556a28194411c5cb277e792",
+      "bytes": 409938,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2377132c-400d-405b-9a4d-cc36a0158ebc/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a5209df510e3b97e1172c0cfd9eca485544a6afefe1aa44b7b267fd2901b0176",
+      "bytes": 339159,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2377132c-400d-405b-9a4d-cc36a0158ebc/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "732489406b945277615e64652b055052f8050438b4b3e47fdc9b3bb8b685dc74",
+      "bytes": 385008,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1fcc474d-e4c1-4b2f-9152-c970548d9e80/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2cb8912f1d8c4163ab55fafd2c054a5c0176de97437512f9ab28ccdada3561fb",
+      "bytes": 319473,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 663,
+      "folio_label": "fol. 332",
+      "page_id": "1fcc474d-e4c1-4b2f-9152-c970548d9e80",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ec06271c-a3bd-4e30-b5af-0f61fa27dd98/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "1a1bc7dfe26692f5cb0b012f114373f2b2222dc350f29e9c143499aa3f2c037e",
+      "bytes": 316339,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 665,
+      "folio_label": "fol. 333",
+      "page_id": "ec06271c-a3bd-4e30-b5af-0f61fa27dd98",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

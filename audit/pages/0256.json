@@ -1,0 +1,998 @@
+{
+  "source_order": 256,
+  "folio_label": "fol. 128b",
+  "page_id": "15700300-097c-4973-91dc-218e471f0fe1",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "128b",
+    "principal_page_bbox": [
+      240,
+      270,
+      2900,
+      4610
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          355,
+          330,
+          135,
+          100
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "128b",
+        "features": [
+          "top left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          320,
+          2478,
+          2340,
+          110
+        ],
+        "kind_hint": "entry",
+        "anchor": "d. 74(4) Nyāyapariśiṣṭaprakāśa (called here Pariśiṣṭavardhamānaprakāśa). by Vardhamāna, Co.² on Nyayasutras",
+        "features": [
+          "tick or check stroke over initial 'd'",
+          "shelfmark at left",
+          "title with parenthetical alternative title",
+          "author and commentary designation",
+          "superscript 2 after 'Co'"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          760,
+          2583,
+          180,
+          50
+        ],
+        "kind_hint": "interlinear_note",
+        "anchor": "ff. 2-70",
+        "features": [
+          "written below the title line beneath 'Nyāyapariśiṣṭa'",
+          "foliation extent"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2679,
+          2565,
+          315,
+          55
+        ],
+        "kind_hint": "entry_data_column",
+        "anchor": "n.d.: 69:11: D",
+        "features": [
+          "date/extent/line-count/script column at right end of b002 line",
+          "slightly lowered relative to the main line"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          385,
+          3135,
+          1320,
+          70
+        ],
+        "kind_hint": "continuation",
+        "anchor": "31 ff., only partially numbered & out of order. I.O. 2077",
+        "features": [
+          "separate line several rules below b002",
+          "no shelfmark",
+          "physical description and cross-reference to I.O. number",
+          "reading of '&' is an interpretation of a looped ampersand-like mark"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2964,
+          2525,
+          150,
+          40
+        ],
+        "description": "Left-pointing arrow in right margin level with the b002 line, extending toward the gutter"
+      },
+      {
+        "bbox": [
+          2990,
+          3145,
+          145,
+          40
+        ],
+        "description": "Left-pointing arrow in right margin level with the b005 line, extending toward the gutter"
+      },
+      {
+        "bbox": [
+          3125,
+          670,
+          25,
+          60
+        ],
+        "description": "Small dark mark at gutter edge near the top"
+      },
+      {
+        "bbox": [
+          3140,
+          2440,
+          20,
+          40
+        ],
+        "description": "Small dark mark at gutter edge near the b002 level"
+      }
+    ],
+    "boundary_notes": [
+      "Text and long curved arrows to the right of x≈3150 (for example 'd. 48..', 'd. 11..', 'a/', 't/?', the struck 'b.', 'Vc', 'c', and the vertical connecting lines) belong to the facing page fol. 129 and are not target-page blocks.",
+      "On fol. 129 the arrows in its left margin, at the 'b. 114' and 'c. 463' levels, appear to correspond to the two arrows on this page.",
+      "b005 lies several ruled lines below b002 without its own shelfmark. It is treated as a continuation of the d. 74(4) entry, but its attachment is not explicit."
+    ],
+    "uncertainties": [
+      "Faint show-through of text from the reverse side is visible across the page. It is not target writing and is not inventoried.",
+      "Several readings in b002 and b005 are cursive and uncertain, especially 'called here', 'only partially', '& out of order', and the diacritics in 'Pariśiṣṭavardhamāna'.",
+      "The mark before 'd. 74(4)' may be a tick or may be part of the letterform."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "128b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "128b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top left corner with a superscript 'b'. A dot or stop mark appears under the 'b'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "d. 74(4) Nyāyapariśiṣṭaprakāśa (called here Pariśiṣṭavardhamānaprakāśa). by Vardhamāna, Co.² on Nyayasutras   n.d.: 69:11: D\nff. 2-70",
+        "fields": {
+          "shelfmark": "d. 74(4)",
+          "title": "Nyāyapariśiṣṭaprakāśa (called here Pariśiṣṭavardhamānaprakāśa)",
+          "author": "Vardhamāna",
+          "subject": "Co.² on Nyayasutras",
+          "date": "n.d.",
+          "extent": "69",
+          "lines": "11",
+          "script": "D",
+          "source": "ff. 2-70"
+        },
+        "normalized_title": "Nyāyapariśiṣṭaprakāśa",
+        "annotations": [
+          "A tick or check stroke is written over the initial 'd' of the shelfmark.",
+          "'ff. 2-70' is written interlinearly below the title, beneath 'Nyāyapariśiṣṭa'. It gives the foliation within the composite volume.",
+          "The data column 'n.d.: 69:11: D' sits slightly lower than the main line, at its right end.",
+          "The superscript '2' follows 'Co.'.",
+          "A left-pointing arrow in the right margin at this line level runs from the gutter toward the entry (approx. bbox [2964,2525,150,40]). A right-pointing arrow on the facing fol. 129 margin is at roughly the same level."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 257,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 114 / arrow in left margin of fol. 129",
+            "evidence": "The margin arrows at this line level appear to link this entry to a position in the alphabetical sequence on fol. 129. The facing page's left margin shows a corresponding arrow near the 'b. 114' level, and long curved lines run in that margin.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'called here' is cursive and uncertain.",
+          "The diacritics in 'Pariśiṣṭavardhamānaprakāśa' are uncertain. The subdots in 'ṣṭ' are visible under the letters.",
+          "'Nyayasutras' is transcribed without macrons because none are clearly visible.",
+          "The mark over 'd' may be a tick or may be part of the letterform.",
+          "The intended insertion point of this entry on fol. 129 is not explicit."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "physical_description_note",
+        "literal_text": "31 ff., only partially numbered & out of order. I.O. 2077",
+        "fields": {
+          "extent": "31 ff."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The line is several ruled lines below the d. 74(4) entry and has no shelfmark.",
+          "A left-pointing arrow at the same level in the right margin runs from the gutter toward this line (approx. bbox [2990,3145,145,40]).",
+          "The '&' is a looped ampersand-like mark."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 257,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 463 (Nyāyalīlāvatī entries; 'I.O. 2077' cited at d. 483(3))",
+            "evidence": "The arrow at this line level matches the arrow beside 'c. 463' on fol. 129. Fol. 129 also cites 'I.O. 2077' in the Nyāyalīlāvatī entry d. 483(3), in the same block of entries as c. 463. This suggests the note belongs to c. 463 rather than to d. 74(4).",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 256,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "d. 74(4)",
+            "evidence": "The note is on the same page below d. 74(4), but it is separated by several lines and has its own arrow. Its 31 ff. does not match the 69 leaves / ff. 2-70 given for d. 74(4).",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'only partially' and '& out of order' are cursive and uncertain.",
+          "The attachment of this note is not explicit on the page."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Main entry line."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear foliation placed directly beneath the title of the d. 74(4) entry. It is securely part of that entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Data column at the right end of the d. 74(4) line."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Treated as an ambiguously attached note, correcting the inventory's continuation hypothesis. The arrow and the I.O. 2077 citation point probably to c. 463 on fol. 129."
+      }
+    ],
+    "page_annotations": [
+      "Two left-pointing arrows in the right margin, at the levels of b002 and b005, link this page to the facing fol. 129.",
+      "Small dark marks at the gutter edge (near y≈670 and y≈2440) are not text.",
+      "Faint show-through from the reverse side is visible across the page. It is not target writing.",
+      "Material to the right of the gutter (x≈3150 onward) belongs to fol. 129 and is not transcribed here. This includes 'd. 48..', 'd. 11..', 'a/', 't/?', the struck 'b.', 'c', 'Vc' and the curved connecting lines.",
+      "The bottom half of the page was reviewed and contains no target writing."
+    ],
+    "unresolved_relationships": [
+      "The exact insertion point of d. 74(4) in the fol. 129 sequence is unresolved.",
+      "Whether the '31 ff., ... I.O. 2077' note belongs to c. 463 on fol. 129 (probable) or to d. 74(4) (uncertain) is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left folio number '128' has a superscript 'b' and a dot beneath it. It matches the source."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The main line is present, as is the tick-like stroke over the initial 'd'. The source shows a closing parenthesis and stop after 'prakāśa'. Subdot marks under 'ṣṭ' appear in both title words. The subdots of the first word sit directly above 'ff. 2-70'."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The interlinear 'ff. 2-70' is beneath the first title word. It is correctly attached to the d. 74(4) entry. The candidate's field name 'source' mislabels it."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'n.d.: 69:11: D' sits slightly lower at the right end of the line. The same string is visible as a fragment in the left margin of the fol. 129 overview, beside its arrows. That fragment is not a separate record."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The line has no shelfmark. The '&' is written as a 'v'-like mark, and 'out of' is cursive. 'I.O.' is written like '1.0.'. Its attachment is ambiguous, and keeping it as a separate note is appropriate."
+      },
+      {
+        "block_id": "mark_arrow_b002_level",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A left-pointing arrow at about [2964,2525,150,40] is noted in the r002 annotations. On fol. 129 a right-pointing arrow sits just past the gutter at the same level."
+      },
+      {
+        "block_id": "mark_arrow_b005_level",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A left-pointing arrow at about [2990,3145,145,40] is noted in the r003 annotations."
+      },
+      {
+        "block_id": "mark_gutter_670",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A small dark gutter mark that is not text. It is mentioned in page_annotations."
+      },
+      {
+        "block_id": "mark_gutter_2440",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A small dark gutter mark that is not text. It is mentioned in page_annotations."
+      },
+      {
+        "block_id": "facing_page_fragments",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Material right of x≈3150 belongs to fol. 129. This includes 'd. 48..', 'd. 11..', 'a/', 't/?', the struck 'b.', '√c', 'Vc', 'd.' and the curved lines. It is correctly excluded."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "fields.source",
+        "before": "ff. 2-70",
+        "after": null,
+        "reason": "'ff. 2-70' is a foliation range, not a source citation. The field label is misleading.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "fields.foliation",
+        "before": null,
+        "after": "ff. 2-70",
+        "reason": "This field records the interlinear foliation literally.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "A tick or check stroke is written over the initial 'd' of the shelfmark.",
+          "'ff. 2-70' is written interlinearly below the title, beneath 'Nyāyapariśiṣṭa'. It gives the foliation within the composite volume.",
+          "The data column 'n.d.: 69:11: D' sits slightly lower than the main line, at its right end.",
+          "The superscript '2' follows 'Co.'.",
+          "A left-pointing arrow in the right margin at this line level runs from the gutter toward the entry (approx. bbox [2964,2525,150,40]). A right-pointing arrow on the facing fol. 129 margin is at roughly the same level."
+        ],
+        "after": [
+          "A tick or check stroke is written over the initial 'd' of the shelfmark.",
+          "'ff. 2-70' is written interlinearly below the title, beneath 'Nyāyapariśiṣṭa'. The two pairs of dots just above it appear to be the subdots of 'ṣṭ' in the title line.",
+          "The data column 'n.d.: 69:11: D' sits slightly lower than the main line, at its right end.",
+          "The superscript '2' follows 'Co.'.",
+          "A left-pointing arrow in the right margin at this line level runs from the gutter toward the entry (approx. bbox [2964,2525,150,40]). A right-pointing arrow on the facing fol. 129 margin is at roughly the same level."
+        ],
+        "reason": "The claim that the foliation lies 'within the composite volume' is an inference, not written text. The note on the dot placement records visible evidence.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The readings 'only partially' and '& out of order' are cursive and uncertain.",
+          "The attachment of this note is not explicit on the page."
+        ],
+        "after": [
+          "The readings 'only partially' and '& out of order' are cursive and uncertain. The '&' is a 'v'-like looped mark.",
+          "'I.O.' is written in a form resembling '1.0.'.",
+          "The attachment of this note is not explicit on the page.",
+          "On fol. 129 the c. 463 data column appears to contain an altered or superscript extent figure, possibly '31'. This is not legible enough at the adjacent-page resolution to confirm a match with '31 ff.'."
+        ],
+        "reason": "This records letterform ambiguity and a possible, unconfirmed piece of corroborating evidence. It does not resolve the attachment.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "mark_arrow_b002_level"
+        ],
+        "issue": "The insertion point in the fol. 129 sequence is not explicit. The facing-page arrow falls near b. 114 / Nyāyaratnamālā, but the intended position is not stated.",
+        "next_check": "Compare the full-resolution fol. 129 left margin and the arrow heads at that level."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b005",
+          "mark_arrow_b005_level"
+        ],
+        "issue": "It is unresolved whether the note attaches to c. 463 on fol. 129 (probable) or to d. 74(4) (uncertain).",
+        "next_check": "Read the c. 463 extent figure on fol. 129 at native resolution."
+      }
+    ],
+    "boundary_review": "The page edge and gutter lie at x≈3130–3160. Everything to the right belongs to fol. 129 and is excluded. The fragment 'n.d.: 69:11: D' visible at the left of the fol. 129 overview is this page's b004 and is not duplicated. The cross-page arrow relationships remain unresolved or probable only.",
+    "region_review": {
+      "top": "This region holds only the folio number '128b'. Faint reverse-side show-through is present, with no target writing.",
+      "middle": "This region holds the d. 74(4) line with its interlinear foliation and data column, and below it the '31 ff. ... I.O. 2077' line. A few isolated dots, for example near (3069,2053) and (2690,2795), appear to be specks.",
+      "bottom": "Reviewed in the native tiles, this region is ruled and blank apart from show-through and specks. It contains no target writing.",
+      "left_margin": "The margin is blank apart from page-edge stacking lines. The tick sits on the 'd' of d. 74(4).",
+      "right_margin": "There are two left-pointing arrows at the b002 and b005 levels, and two small dark marks at the gutter. Curved connecting lines lie past the gutter on fol. 129.",
+      "interlinear": "The only interlinear writing is 'ff. 2-70' beneath the title of d. 74(4)."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        355,
+        330,
+        135,
+        100
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "128b",
+      "features": [
+        "top left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        320,
+        2478,
+        2340,
+        110
+      ],
+      "kind_hint": "entry",
+      "anchor": "d. 74(4) Nyāyapariśiṣṭaprakāśa (called here Pariśiṣṭavardhamānaprakāśa). by Vardhamāna, Co.² on Nyayasutras",
+      "features": [
+        "tick or check stroke over initial 'd'",
+        "shelfmark at left",
+        "title with parenthetical alternative title",
+        "author and commentary designation",
+        "superscript 2 after 'Co'"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        760,
+        2583,
+        180,
+        50
+      ],
+      "kind_hint": "interlinear_note",
+      "anchor": "ff. 2-70",
+      "features": [
+        "written below the title line beneath 'Nyāyapariśiṣṭa'",
+        "foliation extent"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2679,
+        2565,
+        315,
+        55
+      ],
+      "kind_hint": "entry_data_column",
+      "anchor": "n.d.: 69:11: D",
+      "features": [
+        "date/extent/line-count/script column at right end of b002 line",
+        "slightly lowered relative to the main line"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        385,
+        3135,
+        1320,
+        70
+      ],
+      "kind_hint": "continuation",
+      "anchor": "31 ff., only partially numbered & out of order. I.O. 2077",
+      "features": [
+        "separate line several rules below b002",
+        "no shelfmark",
+        "physical description and cross-reference to I.O. number",
+        "reading of '&' is an interpretation of a looped ampersand-like mark"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "128b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top left corner with a superscript 'b'. A dot or stop mark appears under the 'b'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0256-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "d. 74(4) Nyāyapariśiṣṭaprakāśa (called here Pariśiṣṭavardhamānaprakāśa). by Vardhamāna, Co.² on Nyayasutras   n.d.: 69:11: D\nff. 2-70",
+      "fields": {
+        "shelfmark": "d. 74(4)",
+        "title": "Nyāyapariśiṣṭaprakāśa (called here Pariśiṣṭavardhamānaprakāśa)",
+        "author": "Vardhamāna",
+        "subject": "Co.² on Nyayasutras",
+        "date": "n.d.",
+        "extent": "69",
+        "lines": "11",
+        "script": "D",
+        "source": null,
+        "foliation": "ff. 2-70"
+      },
+      "normalized_title": "Nyāyapariśiṣṭaprakāśa",
+      "annotations": [
+        "A tick or check stroke is written over the initial 'd' of the shelfmark.",
+        "'ff. 2-70' is written interlinearly below the title, beneath 'Nyāyapariśiṣṭa'. It gives the foliation within the composite volume.",
+        "The data column 'n.d.: 69:11: D' sits slightly lower than the main line, at its right end.",
+        "The superscript '2' follows 'Co.'.",
+        "A left-pointing arrow in the right margin at this line level runs from the gutter toward the entry (approx. bbox [2964,2525,150,40]). A right-pointing arrow on the facing fol. 129 margin is at roughly the same level."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 257,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 114 / arrow in left margin of fol. 129",
+          "evidence": "The margin arrows at this line level appear to link this entry to a position in the alphabetical sequence on fol. 129. The facing page's left margin shows a corresponding arrow near the 'b. 114' level, and long curved lines run in that margin.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'called here' is cursive and uncertain.",
+        "The diacritics in 'Pariśiṣṭavardhamānaprakāśa' are uncertain. The subdots in 'ṣṭ' are visible under the letters.",
+        "'Nyayasutras' is transcribed without macrons because none are clearly visible.",
+        "The mark over 'd' may be a tick or may be part of the letterform.",
+        "The intended insertion point of this entry on fol. 129 is not explicit."
+      ],
+      "stable_id": "css-prod-0256-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "physical_description_note",
+      "literal_text": "31 ff., only partially numbered & out of order. I.O. 2077",
+      "fields": {
+        "extent": "31 ff."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The line is several ruled lines below the d. 74(4) entry and has no shelfmark.",
+        "A left-pointing arrow at the same level in the right margin runs from the gutter toward this line (approx. bbox [2990,3145,145,40]).",
+        "The '&' is a looped ampersand-like mark."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 257,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 463 (Nyāyalīlāvatī entries; 'I.O. 2077' cited at d. 483(3))",
+          "evidence": "The arrow at this line level matches the arrow beside 'c. 463' on fol. 129. Fol. 129 also cites 'I.O. 2077' in the Nyāyalīlāvatī entry d. 483(3), in the same block of entries as c. 463. This suggests the note belongs to c. 463 rather than to d. 74(4).",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 256,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "d. 74(4)",
+          "evidence": "The note is on the same page below d. 74(4), but it is separated by several lines and has its own arrow. Its 31 ff. does not match the 69 leaves / ff. 2-70 given for d. 74(4).",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'only partially' and '& out of order' are cursive and uncertain.",
+        "The attachment of this note is not explicit on the page."
+      ],
+      "stable_id": "css-prod-0256-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "fields.source",
+      "before": "ff. 2-70",
+      "after": null,
+      "reason": "'ff. 2-70' is a foliation range, not a source citation. The field label is misleading.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.foliation",
+      "before": null,
+      "after": "ff. 2-70",
+      "reason": "This field records the interlinear foliation literally.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "A tick or check stroke is written over the initial 'd' of the shelfmark.",
+        "'ff. 2-70' is written interlinearly below the title, beneath 'Nyāyapariśiṣṭa'. It gives the foliation within the composite volume.",
+        "The data column 'n.d.: 69:11: D' sits slightly lower than the main line, at its right end.",
+        "The superscript '2' follows 'Co.'.",
+        "A left-pointing arrow in the right margin at this line level runs from the gutter toward the entry (approx. bbox [2964,2525,150,40]). A right-pointing arrow on the facing fol. 129 margin is at roughly the same level."
+      ],
+      "after": [
+        "A tick or check stroke is written over the initial 'd' of the shelfmark.",
+        "'ff. 2-70' is written interlinearly below the title, beneath 'Nyāyapariśiṣṭa'. The two pairs of dots just above it appear to be the subdots of 'ṣṭ' in the title line.",
+        "The data column 'n.d.: 69:11: D' sits slightly lower than the main line, at its right end.",
+        "The superscript '2' follows 'Co.'.",
+        "A left-pointing arrow in the right margin at this line level runs from the gutter toward the entry (approx. bbox [2964,2525,150,40]). A right-pointing arrow on the facing fol. 129 margin is at roughly the same level."
+      ],
+      "reason": "The claim that the foliation lies 'within the composite volume' is an inference, not written text. The note on the dot placement records visible evidence.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings 'only partially' and '& out of order' are cursive and uncertain.",
+        "The attachment of this note is not explicit on the page."
+      ],
+      "after": [
+        "The readings 'only partially' and '& out of order' are cursive and uncertain. The '&' is a 'v'-like looped mark.",
+        "'I.O.' is written in a form resembling '1.0.'.",
+        "The attachment of this note is not explicit on the page.",
+        "On fol. 129 the c. 463 data column appears to contain an altered or superscript extent figure, possibly '31'. This is not legible enough at the adjacent-page resolution to confirm a match with '31 ff.'."
+      ],
+      "reason": "This records letterform ambiguity and a possible, unconfirmed piece of corroborating evidence. It does not resolve the attachment.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/15700300-097c-4973-91dc-218e471f0fe1.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15700300-097c-4973-91dc-218e471f0fe1/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "9d180de5d0921e5005fd8b7434cd1034efffbdc03c013fd60ed2ccaa3d781202",
+      "bytes": 282327,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15700300-097c-4973-91dc-218e471f0fe1/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4bc1a03b8f7e69870c9696a485c5d4778a7eeb4904ed3a8fd7d37bbe0be7d1d5",
+      "bytes": 309485,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15700300-097c-4973-91dc-218e471f0fe1/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "47807a90acfa510fdbf91d3e2c3896312f84b36c808db35a3ad2d680ad6e2b5a",
+      "bytes": 346809,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15700300-097c-4973-91dc-218e471f0fe1/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c1fdf45d9bd30ffac662c65a64aca36f3ddfb635f24d59af9c86d7d22e64371b",
+      "bytes": 362401,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15700300-097c-4973-91dc-218e471f0fe1/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5c174e58a153f2458bdae61b51d240edead19b77e052088d2fda1a9fc9f389d2",
+      "bytes": 360841,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15700300-097c-4973-91dc-218e471f0fe1/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "52b095f674f87a3ada33fe3abe592a4659badf296522d775ae5cacfe3457167b",
+      "bytes": 305839,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15700300-097c-4973-91dc-218e471f0fe1/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2d013d4f8cb40f5f02574978b013d7b4411041e6561ac4f459202292338d0bba",
+      "bytes": 339050,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f83d55e7-7bf5-47c3-96f4-9b3d5c2f5e4b/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6327b66fa9c95f88d5f194b628f80ffe8e09c98a3e328c4cbb370d2d5a17823a",
+      "bytes": 275966,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 255,
+      "folio_label": "fol. 128",
+      "page_id": "f83d55e7-7bf5-47c3-96f4-9b3d5c2f5e4b",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/abc8718f-3652-4031-b509-49f596b473b3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "bdde7a0ecc612bb09ce9c7b4caee3a214f1bd9522c2345439058a5f0df6967dc",
+      "bytes": 281033,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 257,
+      "folio_label": "fol. 129",
+      "page_id": "abc8718f-3652-4031-b509-49f596b473b3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

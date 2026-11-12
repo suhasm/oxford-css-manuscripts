@@ -1,0 +1,1682 @@
+{
+  "source_order": 176,
+  "folio_label": "fol. 88b",
+  "page_id": "d8f832ae-52cd-48cf-a1d6-61394a5dadcb",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "88b",
+    "principal_page_bbox": [
+      310,
+      260,
+      2880,
+      4640
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          395,
+          300,
+          145,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "88ᵇ.",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          335,
+          1965,
+          1545,
+          95
+        ],
+        "kind_hint": "entry",
+        "anchor": "√c.198(5). Do., ff.15-118(49 ff. m.), portions of two or more MSS.",
+        "features": [
+          "tick before shelfmark",
+          "ditto 'Do.' referring to an earlier heading not on this page",
+          "extent given"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2510,
+          1995,
+          560,
+          70
+        ],
+        "kind_hint": "entry_data_column",
+        "anchor": "n.d. : 55 : 9/10 : D.",
+        "features": [
+          "pencil",
+          "same line as b002",
+          "arrow pointing left from the facing page across the gutter ends next to it"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          390,
+          4600,
+          2650,
+          215
+        ],
+        "kind_hint": "entry",
+        "anchor": "c.202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section, … Tarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi",
+        "features": [
+          "dash ditto for title or heading",
+          "two lines",
+          "caret insertion marks near 'ff.17-53' and 'Tattvacintāmaṇi'",
+          "small 'co-' or superscript wording before 'on', reading uncertain",
+          "query mark in parenthesis"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2670,
+          4735,
+          400,
+          90
+        ],
+        "kind_hint": "entry_data_column",
+        "anchor": "n.d.: 37:12/16: D",
+        "features": [
+          "on second line of b004",
+          "arrow from the facing-page margin points left toward it, at about x3090-3340 and y4680"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          670,
+          2480,
+          100,
+          90
+        ],
+        "description": "ink blot or spot, mid-left"
+      },
+      {
+        "bbox": [
+          990,
+          3530,
+          70,
+          50
+        ],
+        "description": "small ink spot"
+      },
+      {
+        "bbox": [
+          410,
+          4545,
+          110,
+          40
+        ],
+        "description": "faint dots, possibly stray marks"
+      },
+      {
+        "bbox": [
+          3050,
+          2010,
+          420,
+          30
+        ],
+        "description": "long arrow line from the facing page (fol. 89) across the gutter to b003"
+      },
+      {
+        "bbox": [
+          3090,
+          4670,
+          250,
+          60
+        ],
+        "description": "arrow from the facing page to b004/b005"
+      }
+    ],
+    "boundary_notes": [
+      "Right of the gutter (x>3190) is fol. 89: the 'n/' mark, the column of 'd' shelfmark fragments, ticks, a bracket, the 'c/' marks and 'se s.' are facing-page fragments and are not recorded as blocks.",
+      "Faint show-through ruled text from the reverse is visible across the page and is not transcribed.",
+      "b002 and b004 continue a heading from elsewhere. b002 uses 'Do.' and b004 uses a dash ditto. Their parent is likely on fol. 89 (TATTVACINTĀMAṆI); this is inferred, not visible here."
+    ],
+    "uncertainties": [
+      "Exact readings in b004 are uncertain: 'Gūḍhārthakā', 'Nyāyālaṃkāra', 'presumably co-on'.",
+      "In b003, '9/10' could also be read as '9|10'.",
+      "Whether the small dots in the bottom-left are intentional marks is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "88b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "88ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left corner. The 'b' is superscript, with a point below it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry",
+        "literal_text": "√c. 198(5). Do., ff. 15-118(49 ff. m.), portions of two or more MSS.          n.d. : 55 : 9/10 : D.",
+        "fields": {
+          "shelfmark": "c. 198(5)",
+          "title": "Do.",
+          "date": "n.d.",
+          "extent": "ff. 15-118(49 ff. m.); 55",
+          "lines": "9/10",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is an ink tick before the shelfmark.",
+          "The data column (n.d. : 55 : 9/10 : D.) is in pencil at the right on the same ruled line.",
+          "A small mark (') follows 'D.'. An arrow points left to it from the facing page across the gutter."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "'Do.' refers to an earlier title or heading that is not on this page. The parent may be on fol. 89 (TATTVACINTĀMAṆI, 1. Texts, Anumāna, against d.198(5)).",
+            "source_page_order": 177,
+            "source_block_id": null,
+            "evidence": "The arrow comes from the facing page. Fol. 89 has d.198(5) with n.d.:55:9:D and an 'n/' mark.",
+            "certainty": "uncertain"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 177,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 198(5) 1. Texts. Anumāna n.d.:55:9:D",
+            "evidence": "The 'Do.' ditto, the arrow from the facing page, and the matching folio count of 55.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The shelfmark prefix reads 'c.', but it could be 'd.'.",
+          "'9/10' could be read as '9|10'.",
+          "The exact origin point of the arrow on fol. 89 is unclear."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry",
+        "literal_text": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section, ‸ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+        "fields": {
+          "shelfmark": "c. 202(5)",
+          "title": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section",
+          "author": "Nyāyālaṃkāra Tarkavāgīśa (i.e. Raghudeva ?)",
+          "date": "n.d.",
+          "extent": "ff. 17-53; 37",
+          "lines": "12/16",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A dash ditto stands for an earlier title or heading.",
+          "There is a caret mark near 'ff. 17-53' and another below or above 'Tattvacintāmaṇi'.",
+          "'co-' is written small, possibly as a superscript, before 'on'.",
+          "An arrow from the facing-page margin points left toward the data column."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "The dash ditto probably refers to a heading on fol. 89 under TATTVACINTĀMAṆI, possibly the Gadādharī/c.202 entries at the foot of that page.",
+            "source_page_order": 177,
+            "source_block_id": null,
+            "evidence": "The arrow comes from the bottom of the facing page near c. 202(2).",
+            "certainty": "uncertain"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 177,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 202(2) Avacchedakaṭippaṇī ...",
+            "evidence": "An arrow on fol. 89 near the c.202 entries points to this entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'Gūḍhārthakā', 'sāmānya' (possibly 'sāmānye'), 'lakṣaṇa', 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+          "The placement of the caret insertions is uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Entry text."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Pencil data column on the same line as b002."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Two-line entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Data column on the second line of b004."
+      }
+    ],
+    "page_annotations": [
+      "Ink blots near (670,2480) and (990,3530). Faint dots near (410,4545), probably stray marks.",
+      "A faint small mark near (1160,4330), possibly show-through; not transcribed.",
+      "Show-through of ruled text from the reverse is visible across the page and is not transcribed.",
+      "Marks right of the gutter (n/, d-shelfmarks, ticks, bracket, c/, 'se s.') belong to fol. 89 and are not recorded."
+    ],
+    "unresolved_relationships": [
+      "The parent headings for 'Do.' (r002) and the dash ditto (r003) are not on this page. Linking them to fol. 89 entries is uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Pencil folio label '88' with a superscript letter and a point, top-left. The letter is read as 'b', matching the supplied label fol. 88b. It is somewhat 6-like in form."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Ink line. It reads '√c.198(5). Do., ff.15-118(49 ff. m.), portions of two or more MSS.' The candidate literal matches the image. The prefix looks like 'c.' in the native tile. The candidate's c/d doubt can stay as a minor caution."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Pencil data column 'n.d. : 55 : 9/10 : D.' on the same ruled line. A small apostrophe-like mark follows it, then the head of an arrow drawn from across the gutter. It is correctly attached to r002."
+      },
+      {
+        "block_id": "b004",
+        "status": "partly_missing",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Two-line ink entry, correctly grouped. Three issues: (1) the word after 'Gūḍhārthakā,' looks more like 'sāmānye' than 'sāmānya'; (2) the candidate puts a caret symbol into the literal text; (3) the candidate describes two carets, but the image shows only one."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Data column 'n.d.: 37: 12/16: D' at the end of line 2. An arrow from the fol. 89 margin points to it. It is correctly attached."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section, ‸ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+        "after": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section, ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+        "reason": "The final letters of the first word appear as '-ye' with a descender, so 'sāmānye' is preferred over 'sāmānya'. 'lakṣaṇa/lakṣaṇe' remains unclear. The caret is a non-text mark and is moved to annotations rather than kept in the literal text.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "fields.title",
+        "before": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section",
+        "after": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section",
+        "reason": "This aligns the title field with the revised literal reading, keeping the uncertainty markers.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "A dash ditto stands for an earlier title or heading.",
+          "There is a caret mark near 'ff. 17-53' and another below or above 'Tattvacintāmaṇi'.",
+          "'co-' is written small, possibly as a superscript, before 'on'.",
+          "An arrow from the facing-page margin points left toward the data column."
+        ],
+        "after": [
+          "A dash ditto stands for an earlier title or heading.",
+          "There is one caret, apex up, between the two lines, at about x2420 y4716. It sits below the comma after 'section' and before 'ff. 17-53', and directly above the small 'co-' of line 2. Its function and the text it attaches to are uncertain.",
+          "'co-' is written small, possibly as a superscript, before 'on'.",
+          "Comma or apostrophe-like marks appear raised after 'Gūḍhārthakā' and after 'Raghudeva ?)'.",
+          "An arrow from the facing-page margin points left toward the data column."
+        ],
+        "reason": "On the native tile only a single caret is visible, at the position described. No second caret appears near 'Tattvacintāmaṇi'.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The readings 'Gūḍhārthakā', 'sāmānya' (possibly 'sāmānye'), 'lakṣaṇa', 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+          "The placement of the caret insertions is uncertain."
+        ],
+        "after": [
+          "The readings 'Gūḍhārthakā' (diacritics on ḍ/ū uncertain), 'sāmānye' (possibly 'sāmānya'), 'lakṣaṇe' (possibly 'lakṣaṇa'), 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+          "The function of the single caret is uncertain. It may relate to the small 'co-' below it or to an insertion before 'ff. 17-53'."
+        ],
+        "reason": "This reflects the revised readings and the single-caret finding.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The parent of 'Do.' is not on this page. The arrow runs horizontally across the gutter at the level of the d.953(6)/d.400(2) rows on fol. 89, not at d.198(5). Its origin on fol. 89 is unclear, so the link to d.198(5) (n.d.:55:9:D) is only suggestive. The shelfmark series also differs (c. here, d. there).",
+        "next_check": "Inspect a native-resolution view of the left margin of fol. 89 near y≈2010 to find where the arrow starts."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "issue": "The parent of the dash ditto is not on this page. The fol. 89 arrow lies near c.202(2) and the 'ff. 15-59' line under the Gādādharī group, but the link is unconfirmed.",
+        "next_check": "Check the bottom-left margin of fol. 89 at native resolution."
+      }
+    ],
+    "boundary_review": "Content right of the gutter (about x>3190) belongs to fol. 89 and is not recorded: 'n/', the column of 'd' fragments, ticks, a bracket, 'c/' marks and 'se s.'. The two arrow lines cross the gutter and are treated as attachment evidence for r002 and r003. Show-through from the reverse is not transcribed.",
+    "region_review": {
+      "top": "Only the folio label. The rest is blank ruled paper with show-through.",
+      "middle": "One entry line (b002 and b003). There are ink blots near (670,2480) and (990,3530) and a dot near (1050,855). No text.",
+      "bottom": "Faint dots near (410,4545) and a faint small 'b'-like mark near (1160,4334), possibly show-through. The two-line entry b004/b005 is at the foot of the page.",
+      "left_margin": "Only the tick before c.198(5). No other marginal writing.",
+      "right_margin": "Arrows from fol. 89 at about y2010 and y4700. Facing-page fragments lie beyond the gutter.",
+      "interlinear": "One caret between the lines of b004, and the small 'co-' on line 2. No other interlinear text."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        395,
+        300,
+        145,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "88ᵇ.",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        335,
+        1965,
+        1545,
+        95
+      ],
+      "kind_hint": "entry",
+      "anchor": "√c.198(5). Do., ff.15-118(49 ff. m.), portions of two or more MSS.",
+      "features": [
+        "tick before shelfmark",
+        "ditto 'Do.' referring to an earlier heading not on this page",
+        "extent given"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2510,
+        1995,
+        560,
+        70
+      ],
+      "kind_hint": "entry_data_column",
+      "anchor": "n.d. : 55 : 9/10 : D.",
+      "features": [
+        "pencil",
+        "same line as b002",
+        "arrow pointing left from the facing page across the gutter ends next to it"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        390,
+        4600,
+        2650,
+        215
+      ],
+      "kind_hint": "entry",
+      "anchor": "c.202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section, … Tarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi",
+      "features": [
+        "dash ditto for title or heading",
+        "two lines",
+        "caret insertion marks near 'ff.17-53' and 'Tattvacintāmaṇi'",
+        "small 'co-' or superscript wording before 'on', reading uncertain",
+        "query mark in parenthesis"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2670,
+        4735,
+        400,
+        90
+      ],
+      "kind_hint": "entry_data_column",
+      "anchor": "n.d.: 37:12/16: D",
+      "features": [
+        "on second line of b004",
+        "arrow from the facing-page margin points left toward it, at about x3090-3340 and y4680"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "88ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left corner. The 'b' is superscript, with a point below it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0176-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry",
+      "literal_text": "√c. 198(5). Do., ff. 15-118(49 ff. m.), portions of two or more MSS.          n.d. : 55 : 9/10 : D.",
+      "fields": {
+        "shelfmark": "c. 198(5)",
+        "title": "Do.",
+        "date": "n.d.",
+        "extent": "ff. 15-118(49 ff. m.); 55",
+        "lines": "9/10",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is an ink tick before the shelfmark.",
+        "The data column (n.d. : 55 : 9/10 : D.) is in pencil at the right on the same ruled line.",
+        "A small mark (') follows 'D.'. An arrow points left to it from the facing page across the gutter."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "'Do.' refers to an earlier title or heading that is not on this page. The parent may be on fol. 89 (TATTVACINTĀMAṆI, 1. Texts, Anumāna, against d.198(5)).",
+          "source_page_order": 177,
+          "source_block_id": null,
+          "evidence": "The arrow comes from the facing page. Fol. 89 has d.198(5) with n.d.:55:9:D and an 'n/' mark.",
+          "certainty": "uncertain"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 177,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 198(5) 1. Texts. Anumāna n.d.:55:9:D",
+          "evidence": "The 'Do.' ditto, the arrow from the facing page, and the matching folio count of 55.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The shelfmark prefix reads 'c.', but it could be 'd.'.",
+        "'9/10' could be read as '9|10'.",
+        "The exact origin point of the arrow on fol. 89 is unclear."
+      ],
+      "stable_id": "css-prod-0176-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry",
+      "literal_text": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section, ‸ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+      "fields": {
+        "shelfmark": "c. 202(5)",
+        "title": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section",
+        "author": "Nyāyālaṃkāra Tarkavāgīśa (i.e. Raghudeva ?)",
+        "date": "n.d.",
+        "extent": "ff. 17-53; 37",
+        "lines": "12/16",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A dash ditto stands for an earlier title or heading.",
+        "There is a caret mark near 'ff. 17-53' and another below or above 'Tattvacintāmaṇi'.",
+        "'co-' is written small, possibly as a superscript, before 'on'.",
+        "An arrow from the facing-page margin points left toward the data column."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "The dash ditto probably refers to a heading on fol. 89 under TATTVACINTĀMAṆI, possibly the Gadādharī/c.202 entries at the foot of that page.",
+          "source_page_order": 177,
+          "source_block_id": null,
+          "evidence": "The arrow comes from the bottom of the facing page near c. 202(2).",
+          "certainty": "uncertain"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 177,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 202(2) Avacchedakaṭippaṇī ...",
+          "evidence": "An arrow on fol. 89 near the c.202 entries points to this entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'Gūḍhārthakā', 'sāmānya' (possibly 'sāmānye'), 'lakṣaṇa', 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+        "The placement of the caret insertions is uncertain."
+      ],
+      "stable_id": "css-prod-0176-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section, ‸ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+      "after": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section, ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+      "reason": "The final letters of the first word appear as '-ye' with a descender, so 'sāmānye' is preferred over 'sāmānya'. 'lakṣaṇa/lakṣaṇe' remains unclear. The caret is a non-text mark and is moved to annotations rather than kept in the literal text.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.title",
+      "before": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section",
+      "after": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section",
+      "reason": "This aligns the title field with the revised literal reading, keeping the uncertainty markers.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "A dash ditto stands for an earlier title or heading.",
+        "There is a caret mark near 'ff. 17-53' and another below or above 'Tattvacintāmaṇi'.",
+        "'co-' is written small, possibly as a superscript, before 'on'.",
+        "An arrow from the facing-page margin points left toward the data column."
+      ],
+      "after": [
+        "A dash ditto stands for an earlier title or heading.",
+        "There is one caret, apex up, between the two lines, at about x2420 y4716. It sits below the comma after 'section' and before 'ff. 17-53', and directly above the small 'co-' of line 2. Its function and the text it attaches to are uncertain.",
+        "'co-' is written small, possibly as a superscript, before 'on'.",
+        "Comma or apostrophe-like marks appear raised after 'Gūḍhārthakā' and after 'Raghudeva ?)'.",
+        "An arrow from the facing-page margin points left toward the data column."
+      ],
+      "reason": "On the native tile only a single caret is visible, at the position described. No second caret appears near 'Tattvacintāmaṇi'.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings 'Gūḍhārthakā', 'sāmānya' (possibly 'sāmānye'), 'lakṣaṇa', 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+        "The placement of the caret insertions is uncertain."
+      ],
+      "after": [
+        "The readings 'Gūḍhārthakā' (diacritics on ḍ/ū uncertain), 'sāmānye' (possibly 'sāmānya'), 'lakṣaṇe' (possibly 'lakṣaṇa'), 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+        "The function of the single caret is uncertain. It may relate to the small 'co-' below it or to an insertion before 'ff. 17-53'."
+      ],
+      "reason": "This reflects the revised readings and the single-caret finding.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section, ‸ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+      "after": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section, ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+      "reason": "The '-ye' ending is visible. The caret is a non-text mark and is removed from the literal text.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0176-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.title",
+      "before": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section",
+      "after": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section",
+      "reason": "Aligns the title with the revised literal reading.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0176-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "A dash ditto stands for an earlier title or heading.",
+        "There is a caret mark near 'ff. 17-53' and another below or above 'Tattvacintāmaṇi'.",
+        "'co-' is written small, possibly as a superscript, before 'on'.",
+        "An arrow from the facing-page margin points left toward the data column."
+      ],
+      "after": [
+        "A dash ditto stands for an earlier title or heading.",
+        "There is one caret, apex up, between the two lines at about x2430 y4710. It sits below the comma after 'section' and before 'ff. 17-53', and above the middle of 'Tattvacintāmaṇi' on line 2. Its function and the text it attaches to are uncertain.",
+        "'co-' is written small, possibly as a superscript, before 'on'.",
+        "Comma or apostrophe-like marks appear raised after 'Gūḍhārthakā' and after 'Raghudeva ?)'.",
+        "An arrow from the facing-page margin points left toward the data column."
+      ],
+      "reason": "Only one caret is visible. It lies above 'Tattvacintāmaṇi', not above 'co-'.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0176-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings 'Gūḍhārthakā', 'sāmānya' (possibly 'sāmānye'), 'lakṣaṇa', 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+        "The placement of the caret insertions is uncertain."
+      ],
+      "after": [
+        "The readings 'Gūḍhārthakā' (diacritics uncertain), 'sāmānye' (possibly 'sāmānya'), 'lakṣaṇe' (possibly 'lakṣaṇa'), 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+        "The function of the single caret is uncertain. It may mark an insertion point after 'section,', possibly of 'Tattvacintāmaṇi' written below it, but this is not confirmed."
+      ],
+      "reason": "Reflects the revised readings and the single-caret finding.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0176-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [
+      {
+        "block_id": "b004",
+        "status": "partly_missing",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Two-line ink entry, correctly grouped. Three issues: (1) the word after 'Gūḍhārthakā,' looks more like 'sāmānye' than 'sāmānya'; (2) the candidate puts a caret symbol into the literal text; (3) the candidate describes two carets, but the image shows only one."
+      }
+    ],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [
+      {
+        "block_id": "b004",
+        "status": "partly_missing",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Two-line ink entry, correctly grouped. Three issues: (1) the word after 'Gūḍhārthakā,' looks more like 'sāmānye' than 'sāmānya'; (2) the candidate puts a caret symbol into the literal text; (3) the candidate describes two carets, but the image shows only one."
+      }
+    ],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "coverage",
+      "priority": 100,
+      "issue": "Two-line ink entry, correctly grouped. Three issues: (1) the word after 'Gūḍhārthakā,' looks more like 'sāmānye' than 'sāmānya'; (2) the candidate puts a caret symbol into the literal text; (3) the candidate describes two carets, but the image shows only one.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0176-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The parent of 'Do.' is not on this page. The arrow runs horizontally across the gutter at the level of the d.953(6)/d.400(2) rows on fol. 89, not at d.198(5). Its origin on fol. 89 is unclear, so the link to d.198(5) (n.d.:55:9:D) is only suggestive. The shelfmark series also differs (c. here, d. there).",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0176-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The final letters of the first word appear as '-ye' with a descender, so 'sāmānye' is preferred over 'sāmānya'. 'lakṣaṇa/lakṣaṇe' remains unclear. The caret is a non-text mark and is moved to annotations rather than kept in the literal text. Proposed literal_text: \"c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section, ff. 17-53, by Nyāyālaṃkāra\\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0176-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The parent of the dash ditto is not on this page. The fol. 89 arrow lies near c.202(2) and the 'ff. 15-59' line under the Gādādharī group, but the link is unconfirmed.",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0176-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "This aligns the title field with the revised literal reading, keeping the uncertainty markers. Proposed fields.title: \"———, Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0176-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "On the native tile only a single caret is visible, at the position described. No second caret appears near 'Tattvacintāmaṇi'. Proposed annotations: [\"A dash ditto stands for an earlier title or heading.\", \"There is one caret, apex up, between the two lines, at about x2420 y4716. It sits below the comma after 'section' and before 'ff. 17-53', and directly above the small 'co-' of line 2. Its function and the text it attaches to are uncertain.\", \"'co-' is written small, possibly as a superscript, before 'on'.\", \"Comma or apostrophe-like marks appear raised after 'Gūḍhārthakā' and after 'Raghudeva ?)'.\", \"An arrow from the facing-page margin points left toward the data column.\"]",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0176-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "This reflects the revised readings and the single-caret finding. Proposed uncertainties: [\"The readings 'Gūḍhārthakā' (diacritics on ḍ/ū uncertain), 'sāmānye' (possibly 'sāmānya'), 'lakṣaṇe' (possibly 'lakṣaṇa'), 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.\", \"The function of the single caret is uncertain. It may relate to the small 'co-' below it or to an insertion before 'ff. 17-53'.\"]",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0176-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The shelfmark prefix reads 'c.', but it could be 'd.'.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0176-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'9/10' could be read as '9|10'.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0176-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The exact origin point of the arrow on fol. 89 is unclear.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0176-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0176-01",
+        "focus-0176-02",
+        "focus-0176-03",
+        "focus-0176-04",
+        "focus-0176-05",
+        "focus-0176-06",
+        "focus-0176-07",
+        "focus-0176-08",
+        "focus-0176-09",
+        "focus-0176-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0176-01",
+          "source_reading": "Sāmānye lakṣaṇe[?] section,",
+          "certainty": "probable",
+          "evidence": "In the native bottom-right tile the first word ends in a y-shaped letter with a descender, then a final e-like loop. This favours 'sāmānye'. The ending of the second word is a small cramped loop, and 'lakṣaṇe' versus 'lakṣaṇa' cannot be settled. Only one caret is visible."
+        },
+        {
+          "issue_id": "focus-0176-02",
+          "source_reading": "Do.",
+          "certainty": "uncertain",
+          "evidence": "There is no parent heading on fol. 88b. The arrow line crosses the gutter at canvas y≈2010-2020. On fol. 89 its right end lies left of the shelfmark column, between the d.953(6) and d.480(2) rows. It is not at d.198(5), which is much higher, near the 'n/' mark."
+        },
+        {
+          "issue_id": "focus-0176-03",
+          "source_reading": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānye lakṣaṇe[?] section, ff. 17-53, by Nyāyālaṃkāra / Tarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.   n.d.: 37: 12/16: D",
+          "certainty": "probable",
+          "evidence": "The '-ye' ending is visible with a descender. The caret is a mark between the lines, not a letter."
+        },
+        {
+          "issue_id": "focus-0176-04",
+          "source_reading": "———",
+          "certainty": "uncertain",
+          "evidence": "The dash ditto has no parent on this page. On fol. 89 the arrow at about y≈4690 lies at the level of the √c. 202(2) and 'ff. 15-59' lines. Its origin is not determinable."
+        },
+        {
+          "issue_id": "focus-0176-05",
+          "source_reading": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānye lakṣaṇe[?] section",
+          "certainty": "probable",
+          "evidence": "Same reading as focus-0176-03."
+        },
+        {
+          "issue_id": "focus-0176-06",
+          "source_reading": "single caret ^ between the lines",
+          "certainty": "probable",
+          "evidence": "The single caret is at about canvas x≈2420-2440, y≈4700-4720. It sits below the comma after 'section', just before 'ff. 17-53'. It lies above the middle of 'Tattvacintāmaṇi' on line 2, not above 'co-'. 'co-' sits at about x≈2000-2085. The proposed claim that the caret is above 'co-' is not supported."
+        },
+        {
+          "issue_id": "focus-0176-07",
+          "source_reading": "one caret; function uncertain",
+          "certainty": "probable",
+          "evidence": "No second caret is visible. Because the caret lies over 'Tattvacintāmaṇi', it may signal insertion, but its target is unclear."
+        },
+        {
+          "issue_id": "focus-0176-08",
+          "source_reading": "√c. 198(5).",
+          "certainty": "probable",
+          "evidence": "The letter is a short open curve with no ascender, unlike the looped 'd.' forms on fol. 89. 'c.' is favoured, but the uncertainty is kept."
+        },
+        {
+          "issue_id": "focus-0176-09",
+          "source_reading": "9/10 (stroke between 9 and 10 near-vertical)",
+          "certainty": "uncertain",
+          "evidence": "The pencil stroke between 9 and 10 is steep, so it is ambiguous between '/' and '|'."
+        },
+        {
+          "issue_id": "focus-0176-10",
+          "source_reading": "arrow line begins left of fol. 89 shelfmark column at about the d.953(6)/d.480(2) level",
+          "certainty": "uncertain",
+          "evidence": "The adjacent native tile shows the line ending near x≈655 at y≈2015, with no connector to a specific entry."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section, ‸ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+          "after": "c. 202(5). ——— , Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section, ff. 17-53, by Nyāyālaṃkāra\nTarkavāgīśa (i.e. Raghudeva ?), presumably co-on Tattvacintāmaṇi.          n.d.: 37: 12/16: D",
+          "reason": "The '-ye' ending is visible. The caret is a non-text mark and is removed from the literal text.",
+          "source_block_ids": [
+            "b004",
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "fields.title",
+          "before": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānya lakṣaṇa section",
+          "after": "———, Mūlaṭippaṇī Gūḍhārthakā, sāmānye [reading?] lakṣaṇe [reading?] section",
+          "reason": "Aligns the title with the revised literal reading.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "annotations",
+          "before": [
+            "A dash ditto stands for an earlier title or heading.",
+            "There is a caret mark near 'ff. 17-53' and another below or above 'Tattvacintāmaṇi'.",
+            "'co-' is written small, possibly as a superscript, before 'on'.",
+            "An arrow from the facing-page margin points left toward the data column."
+          ],
+          "after": [
+            "A dash ditto stands for an earlier title or heading.",
+            "There is one caret, apex up, between the two lines at about x2430 y4710. It sits below the comma after 'section' and before 'ff. 17-53', and above the middle of 'Tattvacintāmaṇi' on line 2. Its function and the text it attaches to are uncertain.",
+            "'co-' is written small, possibly as a superscript, before 'on'.",
+            "Comma or apostrophe-like marks appear raised after 'Gūḍhārthakā' and after 'Raghudeva ?)'.",
+            "An arrow from the facing-page margin points left toward the data column."
+          ],
+          "reason": "Only one caret is visible. It lies above 'Tattvacintāmaṇi', not above 'co-'.",
+          "source_block_ids": [
+            "b004",
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The readings 'Gūḍhārthakā', 'sāmānya' (possibly 'sāmānye'), 'lakṣaṇa', 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+            "The placement of the caret insertions is uncertain."
+          ],
+          "after": [
+            "The readings 'Gūḍhārthakā' (diacritics uncertain), 'sāmānye' (possibly 'sāmānya'), 'lakṣaṇe' (possibly 'lakṣaṇa'), 'Nyāyālaṃkāra', 'presumably' and 'co-on' are uncertain.",
+            "The function of the single caret is uncertain. It may mark an insertion point after 'section,', possibly of 'Tattvacintāmaṇi' written below it, but this is not confirmed."
+          ],
+          "reason": "Reflects the revised readings and the single-caret finding.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Ink entry with tick. 'c.' is favoured."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Pencil data column. The arrow from fol. 89 ends at the small mark after 'D.'."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Two-line entry with one caret between the lines."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Data column on line 2, with the arrow from the facing page."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0176-02",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b003"
+          ],
+          "issue": "The parent of 'Do.' is unconfirmed. The arrow lies at the level of the d.953(6)/d.480(2) rows on fol. 89, not at d.198(5).",
+          "next_check": "Examine fol. 89 at full resolution for any connector from the arrow's end to a specific entry."
+        },
+        {
+          "issue_id": "focus-0176-04",
+          "record_id": "r003",
+          "block_ids": [
+            "b004",
+            "b005"
+          ],
+          "issue": "The parent of the dash ditto is unconfirmed. The arrow is near the c.202(2) and ff. 15-59 lines on fol. 89.",
+          "next_check": "Examine the lower-left margin of fol. 89 at native resolution."
+        },
+        {
+          "issue_id": "focus-0176-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "Shelfmark prefix 'c.' versus 'd.'.",
+          "next_check": "Compare with other c./d. letterforms by the same hand."
+        },
+        {
+          "issue_id": "focus-0176-09",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "'9/10' versus '9|10'.",
+          "next_check": "Examine the pencil stroke at higher magnification."
+        },
+        {
+          "issue_id": "focus-0176-10",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The origin point of the arrow on fol. 89 is unclear.",
+          "next_check": "Trace the arrow line on the fol. 89 native image."
+        },
+        {
+          "issue_id": "focus-0176-01",
+          "record_id": "r003",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "'lakṣaṇe' versus 'lakṣaṇa' is unresolved, and the function of the caret is unresolved.",
+          "next_check": "Examine the word ending and the caret at higher zoom."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7580eb85c52d66a129318984175d3d132df72202c77cb6fd134d6fe10770f0bb",
+      "bytes": 263058,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1115975479712cd500eb0019e831460fc28d18ebd64fc466ddb4767d6d33baff",
+      "bytes": 292169,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a2e60c4a20561c81a5f4fa853b0d5fa0434a57f9f04c8cca1d41e99af4231e86",
+      "bytes": 293775,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "872dc242c0772d8b962fc486192c952d665d80815c0f120529e30f1e89f4d9cb",
+      "bytes": 314898,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4db125e6357e21b18aed3c20a89cade0260ecfbb39c64187a03c2786f2439324",
+      "bytes": 287341,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b5de16991727119d2f99b42fc213752df0c503b7fd51429193bab8709350b2f3",
+      "bytes": 333949,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "06d18f095d6b234f4afd7d6534685f0c3b72fc977dc9970d3423d035e7226e7f",
+      "bytes": 351807,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca45e1c8-bd30-479e-bfb4-6c907e3e488d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e4f90d4a6619ec188ca23e5ded566983b78a695852fa36b33fc8a4504a06754a",
+      "bytes": 275862,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 175,
+      "folio_label": "fol. 88",
+      "page_id": "ca45e1c8-bd30-479e-bfb4-6c907e3e488d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e79d46b-e1db-4885-885c-48ca160d8503/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a1b8feae3585adb819877db711da62800c8b06b16c496df07712a00d7c5768dc",
+      "bytes": 252903,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 177,
+      "folio_label": "fol. 89",
+      "page_id": "1e79d46b-e1db-4885-885c-48ca160d8503",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e79d46b-e1db-4885-885c-48ca160d8503/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8a861788ae7f0be6097411d207b37dc83c24d5915892441272e44b660113105c",
+      "bytes": 395167,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 177,
+      "folio_label": "fol. 89",
+      "page_id": "1e79d46b-e1db-4885-885c-48ca160d8503",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e79d46b-e1db-4885-885c-48ca160d8503/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "371a4730bf1124a5402d6900654ceb5b775551a7cc56092e76f571fe7e7a8e05",
+      "bytes": 432253,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 177,
+      "folio_label": "fol. 89",
+      "page_id": "1e79d46b-e1db-4885-885c-48ca160d8503",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d8f832ae-52cd-48cf-a1d6-61394a5dadcb.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7580eb85c52d66a129318984175d3d132df72202c77cb6fd134d6fe10770f0bb",
+      "bytes": 263058,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1115975479712cd500eb0019e831460fc28d18ebd64fc466ddb4767d6d33baff",
+      "bytes": 292169,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a2e60c4a20561c81a5f4fa853b0d5fa0434a57f9f04c8cca1d41e99af4231e86",
+      "bytes": 293775,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "872dc242c0772d8b962fc486192c952d665d80815c0f120529e30f1e89f4d9cb",
+      "bytes": 314898,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4db125e6357e21b18aed3c20a89cade0260ecfbb39c64187a03c2786f2439324",
+      "bytes": 287341,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b5de16991727119d2f99b42fc213752df0c503b7fd51429193bab8709350b2f3",
+      "bytes": 333949,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8f832ae-52cd-48cf-a1d6-61394a5dadcb/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "06d18f095d6b234f4afd7d6534685f0c3b72fc977dc9970d3423d035e7226e7f",
+      "bytes": 351807,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca45e1c8-bd30-479e-bfb4-6c907e3e488d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e4f90d4a6619ec188ca23e5ded566983b78a695852fa36b33fc8a4504a06754a",
+      "bytes": 275862,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 175,
+      "folio_label": "fol. 88",
+      "page_id": "ca45e1c8-bd30-479e-bfb4-6c907e3e488d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1e79d46b-e1db-4885-885c-48ca160d8503/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a1b8feae3585adb819877db711da62800c8b06b16c496df07712a00d7c5768dc",
+      "bytes": 252903,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 177,
+      "folio_label": "fol. 89",
+      "page_id": "1e79d46b-e1db-4885-885c-48ca160d8503",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

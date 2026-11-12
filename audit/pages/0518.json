@@ -1,0 +1,669 @@
+{
+  "source_order": 518,
+  "folio_label": "fol. 259b",
+  "page_id": "b276915d-0941-4596-b361-6bee0c316b79",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visual_folio": null,
+    "visible_folio": "259b",
+    "principal_page_bbox": [
+      312,
+      250,
+      2890,
+      4630
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          335,
+          150,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "259b",
+        "features": [
+          "handwritten folio number in dark ink or pencil at top-left corner",
+          "superscript 'b' above the numeral 9",
+          "a dot or point after the 9"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2960,
+          3115,
+          45,
+          75
+        ],
+        "description": "Small pencil question mark '?' in the right part of the page, mid-lower area. It has no adjacent text on this page."
+      },
+      {
+        "bbox": [
+          2680,
+          4165,
+          110,
+          150
+        ],
+        "description": "Pencil mark resembling a question mark with a slanted stroke ('?/' or '?✓'), lower right area. It has no adjacent text on this page."
+      }
+    ],
+    "boundary_notes": [
+      "All faint ruled-line text visible across the page is mirror-image show-through from the recto, fol. 259 (Vedic fragments … Vaidyajīvana entries). It is not written on this page and is not transcribed.",
+      "The strip beyond the gutter at the right, from about x≈3200 native, belongs to the facing leaf. Its fragments ('cl', 'd', 'a' and a tick '√' near y≈640–1530) are not target-page records.",
+      "The dark notch at the top edge near x≈780–840 is binding or physical damage, not writing."
+    ],
+    "uncertainties": [
+      "The superscript after '259' is read as 'b' with reasonable confidence.",
+      "The lower-right mark at about [2680,4165] may be a question mark plus a tick, or a question mark plus a slash. Its meaning is unclear."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank_except_folio_number_and_pencil_marks",
+    "visible_folio": "259b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "259b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio number in the top-left corner.",
+          "The 'b' is written as a superscript above the 9.",
+          "A dot follows the 9."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript is read as 'b' with reasonable but not complete confidence."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Small pencil question mark in the right part of the page, in the mid-lower area.",
+          "There is no adjacent text on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Its referent is unknown. It may relate to recto show-through or to the facing leaf, but this is not established."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "?/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil question mark with a following slanted stroke, in the lower right area.",
+          "There is no adjacent text on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The second stroke may be a slash or a tick.",
+          "The meaning of the mark is unclear."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2960,
+          3115,
+          45,
+          80
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "?",
+        "features": [
+          "small pencil question mark",
+          "isolated",
+          "no adjacent text on this page"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2685,
+          4165,
+          105,
+          155
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "?/",
+        "features": [
+          "pencil question mark",
+          "slanted stroke resembling a slash or tick",
+          "isolated, lower right"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only ink or pencil writing in the main page area. It is recorded as non-catalogue text."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The inventory listed this question mark as an unattached mark. It is added as a block and recorded as an unattached annotation."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "The inventory listed this lower-right mark as an unattached mark. It is added as a block and recorded as an unattached annotation."
+      }
+    ],
+    "page_annotations": [
+      "The images were reviewed across the top, middle and bottom, both margins and the gutter.",
+      "No catalogue entries are written on this page.",
+      "The faint lettering on the ruled lines is mirror-image show-through from the recto, fol. 259 (source_order 517). It is not transcribed.",
+      "The strip beyond the gutter at the right (about x≥3200) belongs to the facing leaf. Its fragments ('cl', 'd', 'a' and a tick) are not target-page records.",
+      "The dark notch at the top edge near x≈780–840 is physical damage or binding, not writing.",
+      "A few scattered specks and dots are not writing."
+    ],
+    "unresolved_relationships": [
+      "The two pencil query marks (r002, r003) have no identifiable target on this page."
+    ]
+  },
+  "review": {
+    "page_class": "blank_except_folio_number_and_pencil_marks",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The native tile shows the folio number in the top-left corner at about native [365,335,150,140]. It reads '259' with a superscript 'b' above and after the 9, followed by a dot. r001 '259b.' matches the source. The 'b' reading is likely but not certain."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "There is a small isolated pencil '?' at about native [2960,3115,45,80]. In tile 1604/1608 it sits at local x≈1370, y≈1520. The same mark appears in the left-edge strip of the fol. 260 overview, at about y≈915/1500. This confirms it is on fol. 259b and is not a separate fol. 260 mark. No text is written next to it on this page."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "There is a pencil mark at about native [2685,4165,105,155]. It is a small '?' followed by a long slanted stroke. A short branch at the foot of the stroke gives it a 'λ'-like or tick-like shape. The literal reading '?/' is acceptable only as an approximation, so the uncertainty should mention the λ-like form."
+      },
+      {
+        "block_id": "inventory_unattached_mark_1",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the inventory's first unattached mark, which had no ID. It is the same as candidate added block b901."
+      },
+      {
+        "block_id": "inventory_unattached_mark_2",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "This is the inventory's second unattached mark, which had no ID. It is the same as candidate added block b902."
+      },
+      {
+        "block_id": "facing_leaf_fragments",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "The strip beyond the gutter at x≳3200 shows fragments 'cl', 'd' and 'a' at y≈650, 760 and 880, and a tick at y≈1530. Their heights match the fol. 260 shelfmarks 'd. 716 (1)', 'd. 726 (5)' and 'd. 737', and the tick matches '√c. 91 (2)'. They are fragments of the facing page, not target records. This disposition is correct."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The second stroke may be a slash or a tick.",
+          "The meaning of the mark is unclear."
+        ],
+        "after": [
+          "The second stroke may be a slash or a tick. At its lower end it has a short leftward branch, giving a 'λ'-like shape. The rendering '?/' is approximate.",
+          "The meaning of the mark is unclear."
+        ],
+        "reason": "In the native tile the slanted stroke has a short branch at its foot, so the literal '?/' oversimplifies the form.",
+        "source_block_ids": [
+          "b902"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [
+          "b901",
+          "b902"
+        ],
+        "issue": "The referents of both pencil query marks are unknown. They might relate to entries on the recto (show-through) or to the facing fol. 260, but nothing on the source establishes this.",
+        "next_check": "Compare the positions of the marks with the mirrored recto entries of fol. 259 and with the fol. 260 entries, using the physical volume if possible."
+      }
+    ],
+    "boundary_review": "The principal page runs from about x 312 to the gutter at about x 3200. The faint lettering on the ruled lines is mirror-image show-through from fol. 259 recto and is correctly not transcribed. The right strip belongs to fol. 260: its 'd'-like fragments and tick line up with the fol. 260 shelfmarks d. 716 (1), d. 726 (5), d. 737 and √c. 91 (2). The left-edge '?' in the fol. 260 overview is this page's b901, so it should not be counted twice. The dark notch at the top edge near x 780–840 is physical damage.",
+    "region_review": {
+      "top": "Only the folio number '259b.' and the damage notch at the top edge.",
+      "middle": "Show-through only. There is a pencil '?' at about [2960,3115]. A few specks and dots are not writing.",
+      "bottom": "The pencil '?' plus slanted, λ-like stroke at about [2685,4165]. Otherwise only show-through.",
+      "left_margin": "No writing. A couple of specks only.",
+      "right_margin": "The gutter, then fragments of the facing fol. 260 (d-like letters and a tick), which are not target records.",
+      "interlinear": "No interlinear writing on this page. Only recto show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        335,
+        150,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "259b",
+      "features": [
+        "handwritten folio number in dark ink or pencil at top-left corner",
+        "superscript 'b' above the numeral 9",
+        "a dot or point after the 9"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2960,
+        3115,
+        45,
+        80
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "?",
+      "features": [
+        "small pencil question mark",
+        "isolated",
+        "no adjacent text on this page"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2685,
+        4165,
+        105,
+        155
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "?/",
+      "features": [
+        "pencil question mark",
+        "slanted stroke resembling a slash or tick",
+        "isolated, lower right"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "259b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio number in the top-left corner.",
+        "The 'b' is written as a superscript above the 9.",
+        "A dot follows the 9."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript is read as 'b' with reasonable but not complete confidence."
+      ],
+      "stable_id": "css-prod-0518-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Small pencil question mark in the right part of the page, in the mid-lower area.",
+        "There is no adjacent text on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Its referent is unknown. It may relate to recto show-through or to the facing leaf, but this is not established."
+      ],
+      "stable_id": "css-prod-0518-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "?/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil question mark with a following slanted stroke, in the lower right area.",
+        "There is no adjacent text on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The second stroke may be a slash or a tick.",
+        "The meaning of the mark is unclear."
+      ],
+      "stable_id": "css-prod-0518-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The second stroke may be a slash or a tick.",
+        "The meaning of the mark is unclear."
+      ],
+      "after": [
+        "The second stroke may be a slash or a tick. At its lower end it has a short leftward branch, giving a 'λ'-like shape. The rendering '?/' is approximate.",
+        "The meaning of the mark is unclear."
+      ],
+      "reason": "In the native tile the slanted stroke has a short branch at its foot, so the literal '?/' oversimplifies the form.",
+      "source_block_ids": [
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b276915d-0941-4596-b361-6bee0c316b79.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b276915d-0941-4596-b361-6bee0c316b79/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "85c24d9b13cf1ae40e4a9064a42ab73425f25759694c964e4bae9a286ff50c81",
+      "bytes": 220767,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b276915d-0941-4596-b361-6bee0c316b79/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "75c34ae5ecdbd317aca6bc9aab46f831f1328dd6db566b9da76b1eb53096aa17",
+      "bytes": 289968,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b276915d-0941-4596-b361-6bee0c316b79/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6970dac07eaaf4c168bc9219b26820a157f00d6cba7781d99cca9b3a9a666f42",
+      "bytes": 287501,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b276915d-0941-4596-b361-6bee0c316b79/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fdc78b07df9a3ecc9955b92c54171b4fc0864666d391898c3f205aefb25fd963",
+      "bytes": 284106,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b276915d-0941-4596-b361-6bee0c316b79/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cd74b7d1e03bd0953b1567e6e3c7fd4af4c137ce5082b309e29e46e3e56b269b",
+      "bytes": 263396,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b276915d-0941-4596-b361-6bee0c316b79/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ba63300a017e3cd4e4e253dea676c4741a3706307e72923342be09363218cb2a",
+      "bytes": 280376,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b276915d-0941-4596-b361-6bee0c316b79/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d0e26059f72bfb87ea88225e443e69736c383f2c383e946d698fe278d438d9f7",
+      "bytes": 287872,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6317fc56-545f-432d-85b9-b582f26edc2d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "708ba81bf8939851d15e4586761fcfab6b8a42f14290b8314670303f32ec7e7c",
+      "bytes": 254527,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 517,
+      "folio_label": "fol. 259",
+      "page_id": "6317fc56-545f-432d-85b9-b582f26edc2d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/540e20d3-086d-4e26-8965-0ff489f4591c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0a290e8a7d2506fc888d3d31d44d9ca25c56e454915c3b8b4de9c62264529440",
+      "bytes": 233455,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 519,
+      "folio_label": "fol. 260",
+      "page_id": "540e20d3-086d-4e26-8965-0ff489f4591c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

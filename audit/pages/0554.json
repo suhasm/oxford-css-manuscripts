@@ -1,0 +1,808 @@
+{
+  "source_order": 554,
+  "folio_label": "fol. 277b",
+  "page_id": "fc11bf6d-52e2-44e7-a40d-779f4096fc2b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "277b",
+    "principal_page_bbox": [
+      290,
+      272,
+      2880,
+      4352
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          305,
+          140,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "277b",
+        "features": [
+          "top left corner",
+          "ink",
+          "'b' written superscript with a dot beneath/after it",
+          "matches folio label fol. 277b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          1115,
+          2700,
+          925,
+          150
+        ],
+        "kind_hint": "cross_reference_or_heading",
+        "anchor": "Śivavaidya, Sārasaṁgraha [reading?]",
+        "features": [
+          "single ink line in mid-page",
+          "no shelfmark in left margin",
+          "no date or extent",
+          "cursive reading of second word uncertain",
+          "relation to a governing heading or holding not evident on this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          3020,
+          2760,
+          140,
+          30
+        ],
+        "kind_hint": "marginal_mark_arrow_tail",
+        "anchor": "—",
+        "features": [
+          "ink horizontal stroke at the gutter on the same line as b002",
+          "the arrowhead continues on the facing page (fol. 278) at x≈3265-3395",
+          "appears to link b002 to the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2880,
+          4000,
+          145,
+          205
+        ],
+        "kind_hint": "marginal_note_pencil",
+        "anchor": "h/?",
+        "features": [
+          "pencil",
+          "lower right of the page",
+          "the meaning of 'h' is uncertain",
+          "a similar 'h/?' appears in the left margin of fol. 278"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          315,
+          890,
+          20,
+          90
+        ],
+        "description": "Small dark vertical mark at the left page edge. Probably an edge or binding artefact, not writing."
+      },
+      {
+        "bbox": [
+          3160,
+          1190,
+          40,
+          70
+        ],
+        "description": "Small notch or dark mark at the gutter edge. Likely physical damage."
+      },
+      {
+        "bbox": [
+          320,
+          600,
+          2850,
+          3900
+        ],
+        "description": "Faint mirrored show-through of writing from the recto (fol. 277) throughout the ruled area. Not target text."
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the image, beyond the gutter at x≈3190, belongs to the facing page fol. 278. Its margin entries ('√d. 3…', 'd.', 'Sc…', '√', 'Cat. s. M…') are not target records.",
+      "The arrow starting at b003 crosses the gutter. Only its tail lies on the target page; the arrowhead is on fol. 278."
+    ],
+    "uncertainties": [
+      "The reading of the second word in b002 is uncertain ('Sārasaṁgraha' is tentative).",
+      "It is unclear whether b002 is an independent cross-reference or a heading attached to an entry on fol. 278 via the arrow.",
+      "The meaning of the pencil 'h/?' is unclear."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "277b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "277b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top left corner.",
+          "The 'b' is written superscript, with a dot beneath or after it.",
+          "Matches the supplied folio label fol. 277b."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is uncertain whether the dot is punctuation or belongs to the superscript."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "cross_reference",
+        "subtype": "author_title_entry_without_shelfmark",
+        "literal_text": "Śivavaidya, Sārasaṁgraha [reading?]",
+        "fields": {
+          "author": "Śivavaidya",
+          "title": "Sārasaṁgraha [reading?]"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line in mid-page at about y≈2700–2850.",
+          "There is no shelfmark in the left margin and no date, extent or subject.",
+          "A short ink horizontal stroke (b003) at the gutter, x≈3030–3155, y≈2775, is on the same line. It is the tail of an arrow whose head is on the facing page, fol. 278, at x≈3265–3395."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 555,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "left-margin arrow on fol. 278 near the line 'Śivavijaya, see Śivalīlāmṛta'",
+            "evidence": "The arrow tail (b003) on the target page continues across the gutter as an arrowhead in fol. 278's left margin at the same height. It may indicate where this line is meant to be inserted in the sequence on fol. 278.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The second word is cursive. 'Sārasaṁgraha' is a tentative reading, especially the nasal and the 'gra' letters.",
+          "It is unclear whether the line is an independent cross-reference or an entry or heading to be inserted at the arrow point on fol. 278.",
+          "The form 'Author, Title' is assumed from the comma only. Role assignment is provisional."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_marginal_note",
+        "literal_text": "h/?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, lower right of the page at about x≈2884–3014, y≈4011–4201.",
+          "There is a dot beneath the 'h'. A long diagonal slash separates it from a question mark.",
+          "A similar 'h/?' appears in the left margin of fol. 278."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 555,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "'h/?' in left margin of fol. 278 beside c.363(1)",
+            "evidence": "An identical pencil mark appears on the facing page at a similar height.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The meaning of 'h' and its dot is unknown.",
+          "No catalogue entry on the target page is attached to this mark."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Sole text line on the page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow tail on the same line as b002. It is recorded as an annotation and a possible link to fol. 278."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Pencil mark with no clear attachment."
+      }
+    ],
+    "page_annotations": [
+      "Most of the ruled page is blank apart from the listed elements.",
+      "Faint mirrored show-through from fol. 277 covers the ruled area. It is not transcribed.",
+      "A small dark mark at the left edge (x≈315, y≈890) and a notch at the gutter (x≈3160, y≈1190) are physical artefacts, not writing.",
+      "Material to the right of the gutter (x>≈3190) belongs to fol. 278 and is excluded."
+    ],
+    "unresolved_relationships": [
+      "The exact target of the arrow (b003) on fol. 278 is uncertain. It lies near the 'Śivavijaya, see Śivalīlāmṛta' line.",
+      "It is unclear whether the pencil 'h/?' on this page relates to the matching mark on fol. 278."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left ink folio number shows '277' with a superscript 'b' and a dot below or after it. r001 transcribes it as '277b.' and keeps the dot's function uncertain. This is consistent with the supplied label fol. 277b."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the only text line on the page, written in ink at about x≈1120–2035, y≈2700–2850. The first word reads clearly as 'Śivavaidya,' followed by a comma. The second word is cursive. 'Sārasaṁgraha' is plausible but the nasal and the 'gra' letters are not secure, so the tentative flag is kept. A tiny speck below the end of the word (x≈2030, y≈2855) looks like an ink spot, not a letter or diacritic. There is no shelfmark, date or extent."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A short horizontal ink stroke (x≈3029–3154, y≈2776) sits on the same line as b002, just before the gutter. Its arrowhead continues on fol. 278 (x≈3264–3395). The stroke is correctly attached to r002 as an annotation and a possible-link relationship, not as text."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A pencil 'h/?' sits at x≈2884–3014, y≈4011–4201. There is a dot beneath the 'h', a long slash, and a question mark with its dot. No catalogue entry on this page is near it. It is correctly kept as an unattached annotation. A similar pencil 'h/?' appears in the left margin of fol. 278."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 555,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "'h/?' in left margin of fol. 278 beside c.363(1)",
+            "evidence": "An identical pencil mark appears on the facing page at a similar height.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 555,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "pencil 'h/?' in left margin of fol. 278, level with the 'Prāñjaliḥ…' continuation line of the c.363(1) entry (below its shelfmark line)",
+            "evidence": "A visually similar pencil mark appears on the facing page at roughly the same height. Their identity of purpose is not established.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "In the fol. 278 overview, the facing mark sits beside a continuation line of the c.363(1) entry, not beside its shelfmark line. The anchor is refined accordingly, and the claim of identity is softened to similarity.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The reading of the second word ('Sārasaṁgraha') is tentative, especially the nasal sign and the 'gra' letters.",
+        "next_check": "Compare with this hand's spelling of 'saṁgraha' elsewhere in the catalogue at higher magnification."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The arrow points across the gutter to fol. 278 near 'Śivavijaya, see Śivalīlāmṛta'. It is unclear whether the line is an insertion into the fol. 278 sequence or an independent cross-reference.",
+        "next_check": "Review the fol. 278 native image at the arrowhead's height to locate the exact insertion point."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The meaning of the pencil 'h/?' is unclear. It is also unclear whether the dot under the 'h' is a diacritic (ḥ) or a separate mark.",
+        "next_check": "Compare with other 'h/?' pencil marks in the volume."
+      }
+    ],
+    "boundary_review": "The gutter is at x≈3180–3210. Everything to the right of it belongs to fol. 278 and is excluded: the margin entries '√d. 3…', 'd.', 'Sc…', '√', 'Cat. s. M…', the arrowhead, and the gutter/bottom marks. Only the arrow tail b003 lies on the target page. Mirrored show-through from fol. 277 throughout the ruled area is not target text.",
+    "region_review": {
+      "top": "The folio number '277b.' is at top left. The rest of the top margin and the first ruled lines are blank apart from show-through.",
+      "middle": "There is a single ink line, 'Śivavaidya, Sārasaṁgraha', at y≈2700–2850, with an arrow tail at the gutter. The rest is blank with mirrored show-through.",
+      "bottom": "The pencil 'h/?' is at lower right (y≈4011–4201). The lower ruled lines and the bottom margin are otherwise blank. Small marks at the gutter foot are physical artefacts.",
+      "left_margin": "No shelfmarks or notes. There is a dark vertical edge mark at about y≈890–970, which is a binding or edge artefact.",
+      "right_margin": "The arrow tail b003 and the pencil b004 are near the gutter. There is a gutter notch at about y≈1190, which is physical damage.",
+      "interlinear": "No interlinear additions, cancellations or corrections were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        305,
+        140,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "277b",
+      "features": [
+        "top left corner",
+        "ink",
+        "'b' written superscript with a dot beneath/after it",
+        "matches folio label fol. 277b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        1115,
+        2700,
+        925,
+        150
+      ],
+      "kind_hint": "cross_reference_or_heading",
+      "anchor": "Śivavaidya, Sārasaṁgraha [reading?]",
+      "features": [
+        "single ink line in mid-page",
+        "no shelfmark in left margin",
+        "no date or extent",
+        "cursive reading of second word uncertain",
+        "relation to a governing heading or holding not evident on this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        3020,
+        2760,
+        140,
+        30
+      ],
+      "kind_hint": "marginal_mark_arrow_tail",
+      "anchor": "—",
+      "features": [
+        "ink horizontal stroke at the gutter on the same line as b002",
+        "the arrowhead continues on the facing page (fol. 278) at x≈3265-3395",
+        "appears to link b002 to the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2880,
+        4000,
+        145,
+        205
+      ],
+      "kind_hint": "marginal_note_pencil",
+      "anchor": "h/?",
+      "features": [
+        "pencil",
+        "lower right of the page",
+        "the meaning of 'h' is uncertain",
+        "a similar 'h/?' appears in the left margin of fol. 278"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "277b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top left corner.",
+        "The 'b' is written superscript, with a dot beneath or after it.",
+        "Matches the supplied folio label fol. 277b."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is uncertain whether the dot is punctuation or belongs to the superscript."
+      ],
+      "stable_id": "css-prod-0554-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "cross_reference",
+      "subtype": "author_title_entry_without_shelfmark",
+      "literal_text": "Śivavaidya, Sārasaṁgraha [reading?]",
+      "fields": {
+        "author": "Śivavaidya",
+        "title": "Sārasaṁgraha [reading?]"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line in mid-page at about y≈2700–2850.",
+        "There is no shelfmark in the left margin and no date, extent or subject.",
+        "A short ink horizontal stroke (b003) at the gutter, x≈3030–3155, y≈2775, is on the same line. It is the tail of an arrow whose head is on the facing page, fol. 278, at x≈3265–3395."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 555,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "left-margin arrow on fol. 278 near the line 'Śivavijaya, see Śivalīlāmṛta'",
+          "evidence": "The arrow tail (b003) on the target page continues across the gutter as an arrowhead in fol. 278's left margin at the same height. It may indicate where this line is meant to be inserted in the sequence on fol. 278.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The second word is cursive. 'Sārasaṁgraha' is a tentative reading, especially the nasal and the 'gra' letters.",
+        "It is unclear whether the line is an independent cross-reference or an entry or heading to be inserted at the arrow point on fol. 278.",
+        "The form 'Author, Title' is assumed from the comma only. Role assignment is provisional."
+      ],
+      "stable_id": "css-prod-0554-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_marginal_note",
+      "literal_text": "h/?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, lower right of the page at about x≈2884–3014, y≈4011–4201.",
+        "There is a dot beneath the 'h'. A long diagonal slash separates it from a question mark.",
+        "A similar 'h/?' appears in the left margin of fol. 278."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 555,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "'h/?' in left margin of fol. 278 beside c.363(1)",
+          "evidence": "An identical pencil mark appears on the facing page at a similar height.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The meaning of 'h' and its dot is unknown.",
+        "No catalogue entry on the target page is attached to this mark."
+      ],
+      "stable_id": "css-prod-0554-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 555,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "'h/?' in left margin of fol. 278 beside c.363(1)",
+          "evidence": "An identical pencil mark appears on the facing page at a similar height.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 555,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "pencil 'h/?' in left margin of fol. 278, level with the 'Prāñjaliḥ…' continuation line of the c.363(1) entry (below its shelfmark line)",
+          "evidence": "A visually similar pencil mark appears on the facing page at roughly the same height. Their identity of purpose is not established.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "In the fol. 278 overview, the facing mark sits beside a continuation line of the c.363(1) entry, not beside its shelfmark line. The anchor is refined accordingly, and the claim of identity is softened to similarity.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/fc11bf6d-52e2-44e7-a40d-779f4096fc2b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fc11bf6d-52e2-44e7-a40d-779f4096fc2b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "949714bd40fd15be175edfbe6d0b31649d3bc484523f884523ab7ce4ac78b9bb",
+      "bytes": 246267,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fc11bf6d-52e2-44e7-a40d-779f4096fc2b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "07839184e2c2fea2751fabf30a63add04dba5f83e57912db1c0a7f596dc9a89a",
+      "bytes": 308296,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fc11bf6d-52e2-44e7-a40d-779f4096fc2b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9eecf930741aaafb64ac07a2ef17d3c9d339461f06d128d8a94bb5711133e853",
+      "bytes": 311153,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fc11bf6d-52e2-44e7-a40d-779f4096fc2b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a262500df691a7cd79a20319a5a8cca842f2b2747305b974c289610d6fb4411b",
+      "bytes": 311654,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fc11bf6d-52e2-44e7-a40d-779f4096fc2b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "991b1a448e161e1240eb88feab9ca0092424f2f0df47905683072ba49b5eb9eb",
+      "bytes": 288494,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fc11bf6d-52e2-44e7-a40d-779f4096fc2b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f60351a3517500c789bda3b936aa3c60fbc86f2f01f6b4e5cc9f787ec4d12723",
+      "bytes": 304134,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fc11bf6d-52e2-44e7-a40d-779f4096fc2b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f964f7feda78fccc3cfcea98a9f6d31a91baf0caad5b28b479ff03c8795507f0",
+      "bytes": 311120,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7c15abf0-547b-4524-b3a4-95c73aa73181/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e3c495cee27edfb1eec5075557e9c212a7964a57abe22977526cd38cd26056b0",
+      "bytes": 244732,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 553,
+      "folio_label": "fol. 277",
+      "page_id": "7c15abf0-547b-4524-b3a4-95c73aa73181",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/08e19613-154f-4176-bc87-4da0efcd8479/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "db52872fc52de3a645cac134457dc9dae2f7b55a10362e6f712869189d91b755",
+      "bytes": 263876,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 555,
+      "folio_label": "fol. 278",
+      "page_id": "08e19613-154f-4176-bc87-4da0efcd8479",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

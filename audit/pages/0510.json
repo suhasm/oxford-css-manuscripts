@@ -1,0 +1,1164 @@
+{
+  "source_order": 510,
+  "folio_label": "fol. 255b",
+  "page_id": "6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "255b",
+    "principal_page_bbox": [
+      295,
+      255,
+      2885,
+      4610
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          335,
+          295,
+          140,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "255b",
+        "features": [
+          "ink",
+          "top left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2820,
+          890,
+          220,
+          180
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "ū/ ?",
+        "features": [
+          "pencil",
+          "right side of page",
+          "slash mark",
+          "query mark",
+          "no entry text on same line on this page; it may align with facing-page entries"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2040,
+          1160,
+          880,
+          110
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "Scribe Kamatā Kāntadevaśarman.",
+        "features": [
+          "ink",
+          "isolated note",
+          "diacritics present",
+          "possibly linked to the arrow on the facing page; not confirmed"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2780,
+          1765,
+          200,
+          150
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "ś/ s/",
+        "features": [
+          "pencil",
+          "two slash marks with letters"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          365,
+          2620,
+          2700,
+          155
+        ],
+        "kind_hint": "continuation",
+        "anchor": "ff. 1-20 (ka to na), stories 1-8, one folio of beginning of tantric text dealing with vaśyādiyakṣiṇīmantra,",
+        "features": [
+          "ink",
+          "two lines",
+          "second line begins 'in second hand, from middle of 10th story'",
+          "cancelled word before 'and' (⟦then⟧?)",
+          "cancelled words before 'of 25th' with interlinear insertion 'middle' above",
+          "underlined 'ka', 'na' within parentheses and at line end",
+          "ends 'inc.'",
+          "line 1 ends 'and ff. ka to na'"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2820,
+          2740,
+          50,
+          75
+        ],
+        "kind_hint": "interlinear_note",
+        "anchor": "?",
+        "features": [
+          "query mark below 'ff. ka to na' at end of b005 line 1"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          1175,
+          3590,
+          1270,
+          110
+        ],
+        "kind_hint": "continuation",
+        "anchor": "ff. 5-144 (m. 41-43, 54-58, 84, 109, bis 114, 133) inc.",
+        "features": [
+          "ink",
+          "single line",
+          "arrow ← to the right, at about x2930-3040, pointing toward the gutter and facing page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          740,
+          255,
+          70,
+          35
+        ],
+        "description": "ink blot at top edge of leaf"
+      },
+      {
+        "bbox": [
+          400,
+          3570,
+          60,
+          40
+        ],
+        "description": "small stray dots in left area"
+      },
+      {
+        "bbox": [
+          400,
+          1600,
+          2700,
+          2700
+        ],
+        "description": "faint mirrored show-through of text from the other side of the leaf; not target writing"
+      }
+    ],
+    "boundary_notes": [
+      "Gutter at about x3175; text beyond it (ticks, 'ff. 1-68...', 'N.B. cf. ...', 'lit s. Vāj. S.' bracket, shelfmark letters) belongs to the facing fol. 256 and is not inventoried.",
+      "The notes on this verso appear to annotate the facing page fol. 256 entries at the same heights, for example Vetālapañcaviṃśati and the arrow by Vedadīpa. This attachment is not asserted."
+    ],
+    "uncertainties": [
+      "Cancelled words in b005 (before 'and' and before 'of 25th') are only partly legible.",
+      "Readings of pencil letters in b002 and b004 (ū, ś, s) are uncertain.",
+      "Reading 'tantric text' and 'vaśyādiyakṣiṇīmantra' in b005 is tentative."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "255b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "255ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number at the top left corner. The 'b' is superscript and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_marginal_mark",
+        "literal_text": "ū/ ?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil. A letter with a macron is followed by a long slash and, set apart from it, a query mark.",
+          "No target-page entry text stands on this line. The mark lies near the gutter at roughly the height of the fol. 256 entry for d.143(6), the Kāmyavṛṣotsargaprayoga entry."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 511,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vd.143 (6) Kāmyavṛṣotsargaprayoga from the Dānakhaṇḍa",
+            "evidence": "The mark is at the same height on the facing page. There is no explicit linking mark.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading of the letter as 'ū' is uncertain.",
+          "Whether the mark is a correction, a query or a check mark is unclear."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "scribe_note_for_facing_page_entry",
+        "literal_text": "Scribe Kamatā Kāntadevaśarman.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Isolated ink note on the right half of the page.",
+          "On fol. 256 an arrow (←) at this height points leftward from the 'b.99 (4)' entry toward this note."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 511,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "← b.99 (4) Vṛṣotsargavidhi, ff. 37-42 (m. 40). Dated San 1202, Śake 1717",
+            "evidence": "The facing-page arrow sits at the same height and points toward the gutter and this note.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first name is read as 'Kamatā'. It could possibly be 'Kamalā'.",
+          "The note names a scribe and is not an author attribution."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_marginal_mark",
+        "literal_text": "ś/ s/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil: two letters, each followed by a long slash.",
+          "It stands at roughly the height of the fol. 256 entry 'd. 407 Vetālapañcaviṃśati. By Śivadāsa /', which itself carries a slash."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 511,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 407 Vetālapañcaviṃśati. By Śivadāsa /",
+            "evidence": "The mark is at the same height. Its slash form resembles the slash in the facing entry. There is no explicit link.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'ś' and 's' are uncertain.",
+          "The purpose of the marks is unclear."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005",
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_for_facing_page_entry",
+        "literal_text": "ff. 1-20 (ka to na), stories 1-8, one folio of beginning of tantric text dealing with vaśyādiyakṣiṇīmantras, ⟦then⟧ and ff. ka to na\n?\nin second hand, from middle of 10th story to ⟦near end⟧ [middle inserted above] of 25th, inc.",
+        "fields": {
+          "extent": "ff. 1-20 (ka to na) ... and ff. ka to na"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, two lines.",
+          "In the parenthesis of line 1, 'ka' and 'na' are underlined. 'ka' and 'na' at the end of line 1 are also underlined.",
+          "A cancelled word stands before 'and', read tentatively as 'then'.",
+          "In line 2, cancelled words follow 'to'. 'middle' is written interlinearly above them.",
+          "A query mark (b006) sits below the final 'ff. ka to na' of line 1.",
+          "On fol. 256, at this height, there is the entry 'b. 80 ... Defective. Ends with 25th story' and an arrowed note 'N.B. cf. with d. 405 & 407'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 511,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 80 — Defective. Ends with 25th story (Vetālapañcaviṃśati group)",
+            "evidence": "The note is at the same height as the facing entry. The content (stories, 25th story) matches the Vetālapañcaviṃśati entries. A facing-page arrow (←) points toward the gutter at this height.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'tantric text' and 'vaśyādiyakṣiṇīmantras' are tentative.",
+          "The cancelled word before 'and' is only partly legible ('then'?).",
+          "The cancelled words after 'to' are only partly legible ('near end'?).",
+          "The query mark may refer only to 'ff. ka to na'."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b007"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_note_for_facing_page_entry",
+        "literal_text": "ff. 5-144 (m. 41-43, 54-58, 84, 109, bis 114, 133) inc.   ←",
+        "fields": {
+          "extent": "ff. 5-144 (m. 41-43, 54-58, 84, 109, bis 114, 133) inc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, single line.",
+          "An arrow (←) stands to the right at about x2930-3040, near the gutter.",
+          "There is a small vertical tick below '133)'.",
+          "'m.' is left unexpanded."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 511,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vd. 68 Vedadīpa ... By Mahīdhara. On the Y.V.",
+            "evidence": "The note is at the same height as the facing entry, beside the arrow and the 'lit s. Vāj. S.' bracket on fol. 256.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The exact target among the bracketed d. 68 / d. 70 / d. 72(5) entries is not certain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Pencil mark with uncertain attachment."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Scribe note, probably linked to the facing-page arrow at b.99(4)."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Pencil marks with uncertain attachment."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Description note, probably for the facing-page Vetālapañcaviṃśati entry b.80."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Query mark under the end of b005 line 1; part of the same note."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Extent note with arrow, probably for the facing-page d.68 Vedadīpa entry."
+      }
+    ],
+    "page_annotations": [
+      "Ink blot at the top edge, stray dots at the left, and faint mirrored show-through from the reverse; none of this is target writing.",
+      "Text beyond the gutter (about x3175) belongs to fol. 256 and is not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "Attachment of r002 and r004 to facing-page entries is not established.",
+      "Attachments of r003, r005 and r006 to fol. 256 entries are probable only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The ink folio number '255' with a raised 'b' and a following dot is at the top left. The candidate reading '255ᵇ.' matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The faint pencil 'ū/' with a separate '?' is at about y900-1070. It stands level with the fol. 256 entry 'Vd.143 (6)'. The attachment is unproven and the letter reading is uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The ink note 'Scribe Kamatā Kāntadevaśarman.' is level with the fol. 256 left-pointing arrow at 'b. 99 (4)'. The reading of the first name is uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Two pencil groups, 'ś/' and 's/', are level with fol. 256 'd. 407'. The readings and the attachment are uncertain."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The two-line ink note is present. In line 2, the cancelled 'near end' after 'to' carries an interlinear 'middle' written above it. The candidate wrote this insertion as a bracketed description inside literal_text; this is corrected below. The superscript ordinals '10th' and '25th' are raised in the source."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The query mark sits below 'ff. ka to na' at the end of line 1, between the two lines and at the far right. Grouping it with r005 is reasonable."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "The single ink line is present, with a left-pointing arrow near the gutter and a small tick below '133'. It is level with the fol. 256 'Vd. 68' entry, which has the bracket and 'lit s. Vāj. S.' annotation."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r005",
+        "field_path": "literal_text",
+        "before": "ff. 1-20 (ka to na), stories 1-8, one folio of beginning of tantric text dealing with vaśyādiyakṣiṇīmantras, ⟦then⟧ and ff. ka to na\n?\nin second hand, from middle of 10th story to ⟦near end⟧ [middle inserted above] of 25th, inc.",
+        "after": "ff. 1-20 (ka to na), stories 1-8, one folio of beginning of tantric text dealing with vaśyādiyakṣiṇīmantras, ⟦then⟧ and ff. ka to na\n?\nin second hand, from middle of 10ᵗʰ story to ⟦near end⟧ middle of 25ᵗʰ, inc.",
+        "reason": "The insertion description was removed from the literal wording, as the conventions require; the interlinear 'middle' is now described in annotations. The superscript ordinals are kept as written. The cancelled readings remain tentative.",
+        "source_block_ids": [
+          "b005",
+          "b006"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "annotations",
+        "before": [
+          "Ink, two lines.",
+          "In the parenthesis of line 1, 'ka' and 'na' are underlined. 'ka' and 'na' at the end of line 1 are also underlined.",
+          "A cancelled word stands before 'and', read tentatively as 'then'.",
+          "In line 2, cancelled words follow 'to'. 'middle' is written interlinearly above them.",
+          "A query mark (b006) sits below the final 'ff. ka to na' of line 1.",
+          "On fol. 256, at this height, there is the entry 'b. 80 ... Defective. Ends with 25th story' and an arrowed note 'N.B. cf. with d. 405 & 407'."
+        ],
+        "after": [
+          "Ink, two lines.",
+          "In the parenthesis of line 1, 'ka' and 'na' are underlined. 'ka' and 'na' at the end of line 1 are also underlined.",
+          "A cancelled word stands before 'and', read tentatively as 'then'.",
+          "In line 2, cancelled words follow 'to'. The word 'middle' is written interlinearly above the cancelled words as their replacement, and is placed in the literal text at the point of cancellation.",
+          "'th' after '10' and after '25' is written raised.",
+          "A query mark (b006) sits below the final 'ff. ka to na' of line 1, between lines 1 and 2.",
+          "On fol. 256, at this height, there is the entry 'b. 80 ... Defective. Ends with 25th story' and an arrowed note 'N.B. cf. with d. 405 & 407'."
+        ],
+        "reason": "Records the insertion position and the superscripts that were removed from the literal text.",
+        "source_block_ids": [
+          "b005",
+          "b006"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The cancelled words ('then'?, 'near end'?) are only partly legible. The readings 'tantric text' and 'vaśyādiyakṣiṇīmantras' (including whether the first sibilant is 'ś' or 's') remain tentative.",
+        "next_check": "Inspect at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "It is unclear whether the first name reads 'Kamatā' or 'Kamalā'.",
+        "next_check": "Compare with the scribe's letter forms elsewhere."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b004"
+        ],
+        "issue": "The readings of the pencil letters are uncertain, and so is their link to fol. 256 entries. The facing fol. 255 carries similar pencil marks in its margin, which suggests a pattern but does not prove an attachment.",
+        "next_check": "Compare the mark series across adjacent versos."
+      }
+    ],
+    "boundary_review": "The gutter is at about x3175. The ticks, 'ff. 1-68...', 'N.B. cf...', the arrows and the 'lit s. Vāj. S.' bracket beyond it belong to fol. 256 and are not transcribed. All attachments of the target notes to fol. 256 entries rest on alignment and arrows only. They remain probable or uncertain.",
+    "region_review": {
+      "top": "The folio number and an ink blot at the top edge; no other writing.",
+      "middle": "b002, b003, b004 and b005/b006. The mirrored show-through from the reverse is not target writing.",
+      "bottom": "b007 at about y3600. Below it there is only show-through and stray dots; no bottom note was found.",
+      "left_margin": "Only stray dots; no writing.",
+      "right_margin": "Pencil marks b002 and b004, and the arrow of b007, near the gutter.",
+      "interlinear": "The 'middle' insertion and the query mark in b005/b006; no other interlinear writing was found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        335,
+        295,
+        140,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "255b",
+      "features": [
+        "ink",
+        "top left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2820,
+        890,
+        220,
+        180
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "ū/ ?",
+      "features": [
+        "pencil",
+        "right side of page",
+        "slash mark",
+        "query mark",
+        "no entry text on same line on this page; it may align with facing-page entries"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2040,
+        1160,
+        880,
+        110
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "Scribe Kamatā Kāntadevaśarman.",
+      "features": [
+        "ink",
+        "isolated note",
+        "diacritics present",
+        "possibly linked to the arrow on the facing page; not confirmed"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2780,
+        1765,
+        200,
+        150
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "ś/ s/",
+      "features": [
+        "pencil",
+        "two slash marks with letters"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        365,
+        2620,
+        2700,
+        155
+      ],
+      "kind_hint": "continuation",
+      "anchor": "ff. 1-20 (ka to na), stories 1-8, one folio of beginning of tantric text dealing with vaśyādiyakṣiṇīmantra,",
+      "features": [
+        "ink",
+        "two lines",
+        "second line begins 'in second hand, from middle of 10th story'",
+        "cancelled word before 'and' (⟦then⟧?)",
+        "cancelled words before 'of 25th' with interlinear insertion 'middle' above",
+        "underlined 'ka', 'na' within parentheses and at line end",
+        "ends 'inc.'",
+        "line 1 ends 'and ff. ka to na'"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2820,
+        2740,
+        50,
+        75
+      ],
+      "kind_hint": "interlinear_note",
+      "anchor": "?",
+      "features": [
+        "query mark below 'ff. ka to na' at end of b005 line 1"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        1175,
+        3590,
+        1270,
+        110
+      ],
+      "kind_hint": "continuation",
+      "anchor": "ff. 5-144 (m. 41-43, 54-58, 84, 109, bis 114, 133) inc.",
+      "features": [
+        "ink",
+        "single line",
+        "arrow ← to the right, at about x2930-3040, pointing toward the gutter and facing page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "255ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number at the top left corner. The 'b' is superscript and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0510-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_marginal_mark",
+      "literal_text": "ū/ ?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil. A letter with a macron is followed by a long slash and, set apart from it, a query mark.",
+        "No target-page entry text stands on this line. The mark lies near the gutter at roughly the height of the fol. 256 entry for d.143(6), the Kāmyavṛṣotsargaprayoga entry."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 511,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vd.143 (6) Kāmyavṛṣotsargaprayoga from the Dānakhaṇḍa",
+          "evidence": "The mark is at the same height on the facing page. There is no explicit linking mark.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading of the letter as 'ū' is uncertain.",
+        "Whether the mark is a correction, a query or a check mark is unclear."
+      ],
+      "stable_id": "css-prod-0510-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "scribe_note_for_facing_page_entry",
+      "literal_text": "Scribe Kamatā Kāntadevaśarman.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Isolated ink note on the right half of the page.",
+        "On fol. 256 an arrow (←) at this height points leftward from the 'b.99 (4)' entry toward this note."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 511,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "← b.99 (4) Vṛṣotsargavidhi, ff. 37-42 (m. 40). Dated San 1202, Śake 1717",
+          "evidence": "The facing-page arrow sits at the same height and points toward the gutter and this note.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first name is read as 'Kamatā'. It could possibly be 'Kamalā'.",
+        "The note names a scribe and is not an author attribution."
+      ],
+      "stable_id": "css-prod-0510-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_marginal_mark",
+      "literal_text": "ś/ s/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil: two letters, each followed by a long slash.",
+        "It stands at roughly the height of the fol. 256 entry 'd. 407 Vetālapañcaviṃśati. By Śivadāsa /', which itself carries a slash."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 511,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 407 Vetālapañcaviṃśati. By Śivadāsa /",
+          "evidence": "The mark is at the same height. Its slash form resembles the slash in the facing entry. There is no explicit link.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'ś' and 's' are uncertain.",
+        "The purpose of the marks is unclear."
+      ],
+      "stable_id": "css-prod-0510-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005",
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_for_facing_page_entry",
+      "literal_text": "ff. 1-20 (ka to na), stories 1-8, one folio of beginning of tantric text dealing with vaśyādiyakṣiṇīmantras, ⟦then⟧ and ff. ka to na\n?\nin second hand, from middle of 10th story to ⟦near end⟧ [middle inserted above] of 25th, inc.",
+      "fields": {
+        "extent": "ff. 1-20 (ka to na) ... and ff. ka to na"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, two lines.",
+        "In the parenthesis of line 1, 'ka' and 'na' are underlined. 'ka' and 'na' at the end of line 1 are also underlined.",
+        "A cancelled word stands before 'and', read tentatively as 'then'.",
+        "In line 2, cancelled words follow 'to'. 'middle' is written interlinearly above them.",
+        "A query mark (b006) sits below the final 'ff. ka to na' of line 1.",
+        "On fol. 256, at this height, there is the entry 'b. 80 ... Defective. Ends with 25th story' and an arrowed note 'N.B. cf. with d. 405 & 407'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 511,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 80 — Defective. Ends with 25th story (Vetālapañcaviṃśati group)",
+          "evidence": "The note is at the same height as the facing entry. The content (stories, 25th story) matches the Vetālapañcaviṃśati entries. A facing-page arrow (←) points toward the gutter at this height.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'tantric text' and 'vaśyādiyakṣiṇīmantras' are tentative.",
+        "The cancelled word before 'and' is only partly legible ('then'?).",
+        "The cancelled words after 'to' are only partly legible ('near end'?).",
+        "The query mark may refer only to 'ff. ka to na'."
+      ],
+      "stable_id": "css-prod-0510-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b007"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_note_for_facing_page_entry",
+      "literal_text": "ff. 5-144 (m. 41-43, 54-58, 84, 109, bis 114, 133) inc.   ←",
+      "fields": {
+        "extent": "ff. 5-144 (m. 41-43, 54-58, 84, 109, bis 114, 133) inc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, single line.",
+        "An arrow (←) stands to the right at about x2930-3040, near the gutter.",
+        "There is a small vertical tick below '133)'.",
+        "'m.' is left unexpanded."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 511,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vd. 68 Vedadīpa ... By Mahīdhara. On the Y.V.",
+          "evidence": "The note is at the same height as the facing entry, beside the arrow and the 'lit s. Vāj. S.' bracket on fol. 256.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The exact target among the bracketed d. 68 / d. 70 / d. 72(5) entries is not certain."
+      ],
+      "stable_id": "css-prod-0510-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "ff. 1-20 (ka to na), stories 1-8, one folio of beginning of tantric text dealing with vaśyādiyakṣiṇīmantras, ⟦then⟧ and ff. ka to na\n?\nin second hand, from middle of 10th story to ⟦near end⟧ [middle inserted above] of 25th, inc.",
+      "after": "ff. 1-20 (ka to na), stories 1-8, one folio of beginning of tantric text dealing with vaśyādiyakṣiṇīmantras, ⟦then⟧ and ff. ka to na\n?\nin second hand, from middle of 10ᵗʰ story to ⟦near end⟧ middle of 25ᵗʰ, inc.",
+      "reason": "The insertion description was removed from the literal wording, as the conventions require; the interlinear 'middle' is now described in annotations. The superscript ordinals are kept as written. The cancelled readings remain tentative.",
+      "source_block_ids": [
+        "b005",
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "annotations",
+      "before": [
+        "Ink, two lines.",
+        "In the parenthesis of line 1, 'ka' and 'na' are underlined. 'ka' and 'na' at the end of line 1 are also underlined.",
+        "A cancelled word stands before 'and', read tentatively as 'then'.",
+        "In line 2, cancelled words follow 'to'. 'middle' is written interlinearly above them.",
+        "A query mark (b006) sits below the final 'ff. ka to na' of line 1.",
+        "On fol. 256, at this height, there is the entry 'b. 80 ... Defective. Ends with 25th story' and an arrowed note 'N.B. cf. with d. 405 & 407'."
+      ],
+      "after": [
+        "Ink, two lines.",
+        "In the parenthesis of line 1, 'ka' and 'na' are underlined. 'ka' and 'na' at the end of line 1 are also underlined.",
+        "A cancelled word stands before 'and', read tentatively as 'then'.",
+        "In line 2, cancelled words follow 'to'. The word 'middle' is written interlinearly above the cancelled words as their replacement, and is placed in the literal text at the point of cancellation.",
+        "'th' after '10' and after '25' is written raised.",
+        "A query mark (b006) sits below the final 'ff. ka to na' of line 1, between lines 1 and 2.",
+        "On fol. 256, at this height, there is the entry 'b. 80 ... Defective. Ends with 25th story' and an arrowed note 'N.B. cf. with d. 405 & 407'."
+      ],
+      "reason": "Records the insertion position and the superscripts that were removed from the literal text.",
+      "source_block_ids": [
+        "b005",
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "1aa379a7f94d36820af32845a2ef34920d1a0e44c9a0f3c3548b35650dd85571",
+      "bytes": 264956,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0113fbd0cc60ad5389616feabbf430012ccef1caa5dade11547c485936e54ea3",
+      "bytes": 292788,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0265b3717e7cd0bf68367d6ad0184ff6fffbb22cf6ce0f01ce62a8c82c0244f5",
+      "bytes": 314628,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d61ee66e9cfc62edf37786e90911f81d78b47b1e9e68d371804c125cae3e8af0",
+      "bytes": 312240,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "07eeb5cf623b5946cd40e02a65cb8e371652bf1d65794a34e8e4a6fd467a7e7b",
+      "bytes": 290549,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ddb8e7759d82af7e0441a3d9c79c156a769dbe478bffe9573e7b2bc8903958a0",
+      "bytes": 307768,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666c0f9-bf52-41c6-b1b1-e05fe26d5cc6/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "367057b27ce23169e6fa754a927115e9dffd8f1857afc7db1ec3aa6056df3281",
+      "bytes": 327053,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5c470b1d-0df2-427d-80ad-b44e178965cc/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6c23fdbae64378dbc1e164e8613cd8bc446456531731fe2880905bcd8390ef9b",
+      "bytes": 293553,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 509,
+      "folio_label": "fol. 255",
+      "page_id": "5c470b1d-0df2-427d-80ad-b44e178965cc",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cecf076a-5d49-418b-a99f-1c989e479533/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "37f7f03fe49a4f26cca32e637d1a15cd87dda325a3fca26b82875afdde106dc6",
+      "bytes": 294927,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 511,
+      "folio_label": "fol. 256",
+      "page_id": "cecf076a-5d49-418b-a99f-1c989e479533",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

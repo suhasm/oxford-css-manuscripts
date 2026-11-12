@@ -1,0 +1,497 @@
+{
+  "source_order": 120,
+  "folio_label": "fol. 60b",
+  "page_id": "54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "60b.",
+    "principal_page_bbox": [
+      318,
+      255,
+      2900,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          420,
+          285,
+          145,
+          95
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "60b.",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "superscript b with following point"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          430,
+          495,
+          180,
+          70
+        ],
+        "description": "small faint grey specks/strokes near top-left below folio number; not legible as text"
+      },
+      {
+        "bbox": [
+          475,
+          2000,
+          55,
+          80
+        ],
+        "description": "dark ink blot/speck in left part of page, with small specks below; not text"
+      },
+      {
+        "bbox": [
+          2240,
+          1640,
+          220,
+          130
+        ],
+        "description": "faint grey smudge mid-page; not text"
+      },
+      {
+        "bbox": [
+          515,
+          2655,
+          190,
+          90
+        ],
+        "description": "faint thin curved pencil-like stroke; not legible"
+      },
+      {
+        "bbox": [
+          2920,
+          2935,
+          160,
+          125
+        ],
+        "description": "dark ink smudge near right edge; not legible as text"
+      },
+      {
+        "bbox": [
+          3060,
+          5140,
+          140,
+          100
+        ],
+        "description": "pale smudge near lower right; not text"
+      }
+    ],
+    "boundary_notes": [
+      "Faint ghost text across the ruled lines appears to be show-through/offset from the written leaf (fol. 60). It is not target-page writing and has not been inventoried as blocks.",
+      "The thread visible at the right edge is binding, not a mark."
+    ],
+    "uncertainties": [
+      "The faint show-through could conceal very faint pencil writing on this page; no independent target-page writing was distinguished on inspection of the native tiles.",
+      "The coordinates for the lower-right smudge are approximate because it lies at the overlap of the tiles."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "60b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "60b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number in the top-left corner.",
+          "The 'b' is written superscript and is followed by a point, so the visual form is 60ᵇ."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number. It is the only legible writing on the target page."
+      }
+    ],
+    "page_annotations": [
+      "The native tiles were reviewed across the whole canvas: top, middle, bottom, left (gutter) margin, right (outer) margin and interlinear spaces. No catalogue entries, headings, cross-references or annotations were found apart from the folio number.",
+      "Faint ghost lettering across the ruled lines is show-through or offset from the written leaf (fol. 60, source order 119). It is not transcribed as target-page writing.",
+      "Several non-text marks were seen and none is legible as text: an ink blot near the left at about [475,2000]; an ink smudge near the right edge at about [2920,2935]; faint grey specks below the folio number; a faint grey smudge mid-page at about [2240,1640]; a faint curved stroke at about [515,2655]; and a pale smudge near the lower right.",
+      "The thread visible at the right edge is binding."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Pencil folio number in the top-left corner, at about [425,295,130,85] in the first native tile. It reads 60 with a raised b followed by a point. This matches r001's literal text '60b.' and its annotation describing the superscript b. No other writing is attached to it."
+      },
+      {
+        "block_id": "unattached_mark_1",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint grey specks and short dashes below the folio number, at about [370-600,500-560]. They are not legible as text. The candidate's page annotations mention them, which is correct for non-text marks."
+      },
+      {
+        "block_id": "unattached_mark_2",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Dark ink blot at about [480,2003] with small specks below it. It is not text, and the candidate's page annotation is correct."
+      },
+      {
+        "block_id": "unattached_mark_3",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint grey smudge mid-page at about [2254-2434,1660-1760]. It is not text, and the candidate's page annotation is correct."
+      },
+      {
+        "block_id": "unattached_mark_4",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint thin curved stroke at about [520-700,2663-2735]. It is not legible as text, and the candidate's page annotation is correct."
+      },
+      {
+        "block_id": "unattached_mark_5",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Dark ink smudge near the right edge at about [2924-3074,2938-3050]. It is not text, and the candidate's page annotation is correct."
+      },
+      {
+        "block_id": "unattached_mark_6",
+        "status": "uncertain",
+        "record_ids": [],
+        "finding": "The inventory places a pale smudge at [3060,5140,140,100], which lies outside the 5120-pixel canvas height. The only pale smudge visible in the lower-right tile is at about [3060-3125,3826-3870]. That location is probably the intended mark. It is not text. The candidate mentions it without coordinates."
+      },
+      {
+        "block_id": "unattached_mark_7",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Further minor non-text marks were not listed in the inventory and do not form text. They are: faint small strokes near [1290-1310,770-825] and [780-895,815-855] in the upper area; a faint vertical stroke near [1090-1140,1000-1200]; faint vertical ticks and dots near [735-870,2910-3135]. None is legible and none needs a record."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [
+          "unattached_mark_6"
+        ],
+        "issue": "The inventory coordinates for the lower-right pale smudge fall outside the canvas. The visible smudge is at about [3060,3826,65,45].",
+        "next_check": "Confirm the smudge location against the native lower-right tile and correct the inventory locator."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Faint ghost lettering across the ruled lines appears to be show-through or offset from fol. 60. Very faint pencil writing on this page cannot be absolutely excluded, though none could be distinguished.",
+        "next_check": "Inspect the original under raking or transmitted light if needed."
+      }
+    ],
+    "boundary_review": "Only one leaf is in frame. The gutter at the left shows stacked page edges and no facing-page text. The thread at the right edge is binding. The ghost lettering corresponds to the written side of fol. 60 (show-through or offset) and is not target-page text. No ditto or cross-page relationships arise.",
+    "region_review": {
+      "top": "Only the folio number '60b.' (raised b with a point) and faint specks.",
+      "middle": "Ruled lines with faint show-through, an ink blot at left and a grey smudge; no writing.",
+      "bottom": "Ruled lines with faint show-through only; no bottom note found.",
+      "left_margin": "The gutter edge has stacked leaves and minor specks; no marginal writing.",
+      "right_margin": "Binding thread and an ink smudge near the edge at about y 2940-3050; no writing.",
+      "interlinear": "No interlinear additions distinguishable from show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        420,
+        285,
+        145,
+        95
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "60b.",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "superscript b with following point"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "60b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number in the top-left corner.",
+        "The 'b' is written superscript and is followed by a point, so the visual form is 60ᵇ."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0120-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "3aea537e75623938ee8117d7c8fa523d1bdbaaa7d397519f3a611f6221c5ea9f",
+      "bytes": 298634,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "56452e21e8cfd82d0a7c61bb89c5f3a1f9c80ae7e700ff5a15442fd85c23d443",
+      "bytes": 341699,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0cf93d34eff529864ce323e2b50fbb67bc8a456d0afba542289a960a83a1bcdc",
+      "bytes": 343466,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dc13bf5041e89dc0ead9cb9bccd0722f1ab41d1bb066122b64c0d233b4acd7c8",
+      "bytes": 357991,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b1078d19dd0c00e43efd3c0bb9903e694f8af8ace22cb397d6b318d5d75c97b6",
+      "bytes": 387594,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a48b14de11b5eb91795b30de9af0de74381fe17a2cddf4583989e462fff21b2c",
+      "bytes": 352936,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/54a5c5e3-c6f4-4973-a6f1-3b84a8ff93d2/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5db2883aca4a072b2cfe818ffcc4972b89876d3e6f068a7c578149d52175c0cf",
+      "bytes": 382622,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/767be2f7-90c4-4336-9104-176676462a13/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e967fc089badabe2cbc5f46df473279cf35b13e0d4b29d465494dd1d184b6927",
+      "bytes": 286679,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 119,
+      "folio_label": "fol. 60",
+      "page_id": "767be2f7-90c4-4336-9104-176676462a13",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1beb7068-0fba-45c0-b3dd-9fe248ba5294/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "bb10f885a35cd065ee948a3130d1b8388556f15ee56aa64c233376516db4ee51",
+      "bytes": 305799,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 121,
+      "folio_label": "fol. 61",
+      "page_id": "1beb7068-0fba-45c0-b3dd-9fe248ba5294",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

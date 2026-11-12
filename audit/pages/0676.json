@@ -1,0 +1,633 @@
+{
+  "source_order": 676,
+  "folio_label": "fol. 338b",
+  "page_id": "2991a53e-072a-415e-9b57-2e749199036a",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "338b",
+    "principal_page_bbox": [
+      315,
+      300,
+      2745,
+      4530
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          345,
+          135,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "338b.",
+        "features": [
+          "top-left corner",
+          "pencil or faint ink",
+          "the superscript b appears as a small raised letter"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          455,
+          3130,
+          2480,
+          120
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "e.71. Ābhāsarāmāyaṇa. Epitome of Rām.ii ? ... 1844 : 69 : 151 D.",
+        "features": [
+          "the shelfmark e.71. is in the left column",
+          "the title and description are in the main column",
+          "the description ends with a question mark",
+          "a date, extent and line-count group is at the right: 1844 : 69 : 151 D.",
+          "in the middle numeral group (69), the 9 appears darker and possibly overwritten",
+          "a single isolated entry on an otherwise blank ruled page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1580,
+          3260,
+          25,
+          30
+        ],
+        "description": "An isolated ink dot below the title line, near x≈1590. It may be a stray mark or a dropped punctuation mark."
+      },
+      {
+        "bbox": [
+          2855,
+          985,
+          20,
+          40
+        ],
+        "description": "A small ink mark like an exclamation mark or tick in the upper right area of the main column. It is not attached to any text."
+      },
+      {
+        "bbox": [
+          330,
+          3370,
+          20,
+          20
+        ],
+        "description": "A tiny dot at the left edge of the page, below the entry. It is probably a stray speck."
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the image, beyond the gutter at native x≈3050–3110, shows the left edge of facing fol. 339. That fragment has shelfmarks c.252, e.255, e.251, d.1094, etc., with ticks and crosses, and cancelled d.1089. It is context only and is not transcribed as target blocks.",
+      "The left column is divided from the main column by a ruled vertical line at native x≈805."
+    ],
+    "uncertainties": [
+      "The reading of the title diacritics is uncertain ('Ābhāsarāmāyaṇa' versus a similar form).",
+      "'Rām.ii' may be an abbreviation; the final letters are unclear.",
+      "The middle numeral of the date group may be overwritten ('69' or '64')."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "338b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "338b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top-left corner of the page, apparently in pencil.",
+          "The 'b' is a small raised letter after 338. A dot or point follows it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The final point may be a full stop or a stray mark."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "e.71.    Ābhāsarāmāyaṇa. Epitome of Rām.[in?] ?        1844 : 6[4? or 9?] : 15 : D.",
+        "fields": {
+          "shelfmark": "e.71.",
+          "title": "Ābhāsarāmāyaṇa.",
+          "subject": "Epitome of Rām.[in?] ?",
+          "date": "1844",
+          "extent": "6[4? or 9?]",
+          "lines": "15",
+          "script": "D."
+        },
+        "normalized_title": "Ābhāsarāmāyaṇa",
+        "annotations": [
+          "The shelfmark is in the left column, west of the ruled vertical line at x≈805.",
+          "The title and description are in the main column. A wide space separates the description from the final '?'.",
+          "The numeral group is at the right of the main column, with separators between the elements.",
+          "The second digit of the middle numeral is darker and appears overwritten.",
+          "This is the only catalogue entry on an otherwise blank ruled page. It is placed about two-thirds of the way down the page.",
+          "An isolated ink dot sits below the line, under 'Epitome', at about [1580,3260]. It is not attached to any text."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The mark over the initial A may be a macron or a circumflex-like caret. It is transcribed as Ā.",
+          "'Rām.' is followed by letters read as 'in' (or 'ii'). Their meaning is unresolved and is not expanded.",
+          "The middle numeral may be read as 64 or 69 because it is overwritten.",
+          "The inventory read the lines value as '151'. The native tile suggests '15' followed by a separator before 'D.', but '151' cannot be excluded.",
+          "The page carries no section heading. Whether a heading on an adjacent page governs this entry is not established."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number in the top-left corner."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The single catalogue entry on the page. Shelfmark, title, description and numeral group form one line."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and the single entry e.71, the ruled page is blank. The top, middle, bottom, left column and gutter were reviewed in the native tiles.",
+      "A small isolated ink mark, like a semicolon or tick, is in the upper right of the main column at about [2855,985,20,40]. No text is attached to it.",
+      "A tiny speck at the left edge at about [330,3370] is probably not writing.",
+      "The strip beyond the gutter (x≈3050+) shows the left edge of facing fol. 339. Its shelfmarks (c.252, e.255, e.251, d.1094, cancelled d.1089, etc.) are context only and are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "It is unclear which language section e.71 belongs to. It may be governed by section v (Panjabi) on fol. 338, or it may be a separate insertion. No heading on this page establishes either."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '338' with a raised 'b' and a following point is in the top-left corner at about native [390,345,135,120]. It is grey and probably pencil. The candidate reading and its uncertainty about the final point fit the native tile."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the single entry line at native y≈3130–3250. It has the shelfmark 'e.71.' west of the ruling at x≈805, then the title, the description 'Epitome of Rām.' followed by small letters, a spaced '?', and the numeral group at x≈2520–2930. The candidate keeps the uncertainties for 'in'/'ii', 64/69 and 15/151. The overwriting affects the start of the middle group: the darkest stroke is over or near its first element. The candidate's statement that the second digit is the overwritten one is too specific, so it is softened below. The left edge of the fol. 339 overview shows this line's tail as '…:151).'-like. That view is too small to settle '15 : D.' against '151 D.'."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "The shelfmark is in the left column, west of the ruled vertical line at x≈805.",
+          "The title and description are in the main column. A wide space separates the description from the final '?'.",
+          "The numeral group is at the right of the main column, with separators between the elements.",
+          "The second digit of the middle numeral is darker and appears overwritten.",
+          "This is the only catalogue entry on an otherwise blank ruled page. It is placed about two-thirds of the way down the page.",
+          "An isolated ink dot sits below the line, under 'Epitome', at about [1580,3260]. It is not attached to any text."
+        ],
+        "after": [
+          "The shelfmark is in the left column, west of the ruled vertical line at x≈805.",
+          "The title and description are in the main column. A wide space separates the description from the final '?'.",
+          "The numeral group is at the right of the main column, with separators between the elements.",
+          "The middle numeral group shows darker, overwritten-looking strokes. It is uncertain whether the first or the second digit is the overwritten one.",
+          "This is the only catalogue entry on an otherwise blank ruled page. It is placed about two-thirds of the way down the page.",
+          "An isolated ink dot sits below the line, under 'Epitome', at about [1580,3260]. It is not attached to any text."
+        ],
+        "reason": "In the native tile the heavy, overwritten-looking stroke sits at the start of the middle group, not clearly on its second digit. The location of the correction is therefore uncertain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The final element of the numeral group could be '15 : D.' or '151 D.'. The middle element could be 64 or 69, and the location of its overwriting is unclear.",
+        "next_check": "Inspect the original or a higher-resolution image of native region ~[2500,3120,450,140]."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The letters after 'Rām.' could be 'in' or 'ii'. They are not expanded.",
+        "next_check": "Inspect native region ~[1730,3130,120,100] at higher magnification."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The governing section is unknown. Fol. 338 ends in section v (Panjabi), and fol. 339 continues with a 'Nanak Sahib, Pañcagrantha' heading before section vi. No heading on 338b governs e.71.",
+        "next_check": "Compare with neighbouring folios and any index to see where e.71 is classified."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There is a very faint grey trace in the left column at about native [390,1500,120,60]. It may be paper texture, offset or erased pencil. It is not legible as writing.",
+        "next_check": "Examine the original under raking light to decide whether erased writing is present."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter at native x≈3030–3110. Beyond it, the left edge of facing fol. 339 is visible. That fragment has shelfmarks c.252, e.255, e.251, d.1094, d.992, d.1103(2), d.1102, d.1103(1), e.254, f.93, f.109/f.50, b.108, c.442, an arrow, d.275(2), e.216, 'or e?' e.210, cancelled d.1089, d.1089, e.206, c.144(3) and c.440(3), with ticks and crosses. It is context only and is correctly excluded. No fol. 338b writing crosses into fol. 339, and no 339 text sits on the target. Ditto or continuation relationships with fol. 338 are not established.",
+    "region_review": {
+      "top": "Only the folio number 338b is in the top-left corner. The rest of the top band is blank paper with ruling.",
+      "middle": "The ruled lines are blank except for small specks and a small isolated mark (semicolon- or tick-like) at about [2855,985,20,40]. The candidate correctly records it as unattached in page_annotations.",
+      "bottom": "The single entry e.71 is at y≈3130–3250. Below it is an isolated dot at about [1580,3260], and the rest down to the bottom edge at y≈4830 is blank.",
+      "left_margin": "The shelfmark e.71. is in the left column. There is a speck at about [330,3370] and a possible very faint trace at about [390,1500]. No other writing is visible.",
+      "right_margin": "The gutter strip is blank on the target side. The visible writing beyond it belongs to fol. 339.",
+      "interlinear": "No interlinear additions are visible. The only feature near the entry line is the dot below 'Epitome'."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        345,
+        135,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "338b.",
+      "features": [
+        "top-left corner",
+        "pencil or faint ink",
+        "the superscript b appears as a small raised letter"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        455,
+        3130,
+        2480,
+        120
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "e.71. Ābhāsarāmāyaṇa. Epitome of Rām.ii ? ... 1844 : 69 : 151 D.",
+      "features": [
+        "the shelfmark e.71. is in the left column",
+        "the title and description are in the main column",
+        "the description ends with a question mark",
+        "a date, extent and line-count group is at the right: 1844 : 69 : 151 D.",
+        "in the middle numeral group (69), the 9 appears darker and possibly overwritten",
+        "a single isolated entry on an otherwise blank ruled page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "338b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top-left corner of the page, apparently in pencil.",
+        "The 'b' is a small raised letter after 338. A dot or point follows it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The final point may be a full stop or a stray mark."
+      ],
+      "stable_id": "css-prod-0676-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "e.71.    Ābhāsarāmāyaṇa. Epitome of Rām.[in?] ?        1844 : 6[4? or 9?] : 15 : D.",
+      "fields": {
+        "shelfmark": "e.71.",
+        "title": "Ābhāsarāmāyaṇa.",
+        "subject": "Epitome of Rām.[in?] ?",
+        "date": "1844",
+        "extent": "6[4? or 9?]",
+        "lines": "15",
+        "script": "D."
+      },
+      "normalized_title": "Ābhāsarāmāyaṇa",
+      "annotations": [
+        "The shelfmark is in the left column, west of the ruled vertical line at x≈805.",
+        "The title and description are in the main column. A wide space separates the description from the final '?'.",
+        "The numeral group is at the right of the main column, with separators between the elements.",
+        "The second digit of the middle numeral is darker and appears overwritten.",
+        "This is the only catalogue entry on an otherwise blank ruled page. It is placed about two-thirds of the way down the page.",
+        "An isolated ink dot sits below the line, under 'Epitome', at about [1580,3260]. It is not attached to any text."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The mark over the initial A may be a macron or a circumflex-like caret. It is transcribed as Ā.",
+        "'Rām.' is followed by letters read as 'in' (or 'ii'). Their meaning is unresolved and is not expanded.",
+        "The middle numeral may be read as 64 or 69 because it is overwritten.",
+        "The inventory read the lines value as '151'. The native tile suggests '15' followed by a separator before 'D.', but '151' cannot be excluded.",
+        "The page carries no section heading. Whether a heading on an adjacent page governs this entry is not established."
+      ],
+      "stable_id": "css-prod-0676-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "The shelfmark is in the left column, west of the ruled vertical line at x≈805.",
+        "The title and description are in the main column. A wide space separates the description from the final '?'.",
+        "The numeral group is at the right of the main column, with separators between the elements.",
+        "The second digit of the middle numeral is darker and appears overwritten.",
+        "This is the only catalogue entry on an otherwise blank ruled page. It is placed about two-thirds of the way down the page.",
+        "An isolated ink dot sits below the line, under 'Epitome', at about [1580,3260]. It is not attached to any text."
+      ],
+      "after": [
+        "The shelfmark is in the left column, west of the ruled vertical line at x≈805.",
+        "The title and description are in the main column. A wide space separates the description from the final '?'.",
+        "The numeral group is at the right of the main column, with separators between the elements.",
+        "The middle numeral group shows darker, overwritten-looking strokes. It is uncertain whether the first or the second digit is the overwritten one.",
+        "This is the only catalogue entry on an otherwise blank ruled page. It is placed about two-thirds of the way down the page.",
+        "An isolated ink dot sits below the line, under 'Epitome', at about [1580,3260]. It is not attached to any text."
+      ],
+      "reason": "In the native tile the heavy, overwritten-looking stroke sits at the start of the middle group, not clearly on its second digit. The location of the correction is therefore uncertain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2991a53e-072a-415e-9b57-2e749199036a.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2991a53e-072a-415e-9b57-2e749199036a/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "6d2febf9877f92d5dd861e0417c52708a9627f931658c87fa9330ef787a89249",
+      "bytes": 314675,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2991a53e-072a-415e-9b57-2e749199036a/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "10feeca9812268a35ff496bb0a4b1c1bc71cdf7598a05fca194691bbc2cf0456",
+      "bytes": 374564,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2991a53e-072a-415e-9b57-2e749199036a/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f7b20711f185035d9d62da742f2731b9edffa620abb5dcea1d1b13819e092b8a",
+      "bytes": 414215,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2991a53e-072a-415e-9b57-2e749199036a/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "65d497338af30dc845f72387c03a22359e262b5ede781a8192ba554f082386ae",
+      "bytes": 408550,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2991a53e-072a-415e-9b57-2e749199036a/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4c1bb341d3a3ae79156431bcd277c8f8d211a9c0527796f9668cf2ddf3220ff8",
+      "bytes": 422854,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2991a53e-072a-415e-9b57-2e749199036a/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6bfb5e5305e79c79462551efae2087677e89b33e608027880fd8fc16d151377a",
+      "bytes": 358720,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2991a53e-072a-415e-9b57-2e749199036a/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0bc83b164cb960c377ef1391106dd81ac775f94809dbd61bc8b754c8ebf17320",
+      "bytes": 401109,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ff330d94-428e-45d2-b9d5-acef86ec2fcb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "064cd62655ba531c3a9985efbc82b44b57dfe293eec45c80d0fd40f32b10e208",
+      "bytes": 309588,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 675,
+      "folio_label": "fol. 338",
+      "page_id": "ff330d94-428e-45d2-b9d5-acef86ec2fcb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/addc8f71-3a3f-4476-908c-7fe5ddf7d397/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "eb604faa4baa066d0272a7a1fe8557eaab4af16849866968504e99e43e673645",
+      "bytes": 286742,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 677,
+      "folio_label": "fol. 339",
+      "page_id": "addc8f71-3a3f-4476-908c-7fe5ddf7d397",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

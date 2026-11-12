@@ -1,0 +1,1094 @@
+{
+  "source_order": 128,
+  "folio_label": "fol. 64b",
+  "page_id": "8833be2c-55f2-45fc-a7d0-a63027ca263b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "64b.",
+    "principal_page_bbox": [
+      310,
+      280,
+      2875,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          320,
+          130,
+          115
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "64b.",
+        "features": [
+          "top left corner",
+          "superscript b with dot below/after"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2390,
+          2520,
+          390,
+          195
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "Trs. below / M.P.",
+        "features": [
+          "pencil",
+          "written in two staggered lines",
+          "attached to a large pencil brace at its right (brace c.[2770,1955,260,1355])",
+          "the brace spans the region of the blank ruled lines",
+          "readings 'Trs.' and 'M.P.' uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          415,
+          3700,
+          1610,
+          125
+        ],
+        "kind_hint": "entry",
+        "anchor": "Mudrārākṣasa. I.O. 2571 (first verse differs). Materia medica.",
+        "features": [
+          "ink",
+          "single line",
+          "no shelfmark in left margin",
+          "parenthetical note",
+          "small hooked mark at right c.[2950,3750,80,40] may point to this line"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          365,
+          4370,
+          2190,
+          110
+        ],
+        "kind_hint": "entry",
+        "anchor": "√d. 368(6). Guptavatīrahasyatantra, Kīlakavivaraṇapaṭala. ff.1-7. n.d.: 7: 9/10 : D.",
+        "features": [
+          "ink",
+          "tick before shelfmark",
+          "extent ff.1-7",
+          "line count with fraction 9/10",
+          "script abbreviation D.",
+          "left-pointing arrow c.[3060,4410,70,40] at right end of the line near the gutter"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2950,
+          3750,
+          80,
+          40
+        ],
+        "description": "small hooked pencil mark or left-pointing arrow at right of the Mudrārākṣasa line"
+      },
+      {
+        "bbox": [
+          3060,
+          4405,
+          80,
+          45
+        ],
+        "description": "ink left-pointing arrow (←) near gutter, level with the √d. 368(6) line; its counterpart right arrow (→) is on the facing page fol. 65"
+      },
+      {
+        "bbox": [
+          655,
+          4590,
+          40,
+          30
+        ],
+        "description": "small ink specks below the last entry, probably not meaningful"
+      },
+      {
+        "bbox": [
+          3150,
+          600,
+          60,
+          3800
+        ],
+        "description": "small dots/tears along the gutter edge, apparently stitching holes or specks"
+      }
+    ],
+    "boundary_notes": [
+      "Gutter/right edge of target page lies at approximately x≈3180; material to the right (e.g. 'ff.1 / 1.O.410' c.[3340,1100,170,170], 'c/' marks c.[3380,2150,60,110] and c.[3330,3600,60,110], 'd/?' c.[3350,3240,70,120], right arrow c.[3220,4410,130,30], 'Sb. 77' c.[3310,4630,200,80]) belongs to the facing page fol. 65 and is not inventoried as target blocks.",
+      "Faint reversed show-through of the text of fol. 64 is visible across the upper and middle page; it is not writing on this page and is not inventoried.",
+      "The brace with 'Trs. below M.P.' covers the region of the blank ruled lines; it is unclear which entries, if any, it refers to."
+    ],
+    "uncertainties": [
+      "Reading of the marginal note 'Trs. below M.P.' (abbreviations) is uncertain.",
+      "Exact spelling of the titles in b004 (Guptavatīrahasyatantra, Kīlakavivaraṇapaṭala) and the reading 'first verse differs' in b003 are uncertain due to cursive hand.",
+      "The hooked mark at the right of b003 may be an arrow or a check letter."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "64ᵇ.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "64ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top left corner. The 'b' is superscript and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_marginal_note_with_brace",
+        "literal_text": "Trs. below\nM.P.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in pencil. 'Trs.' is lower and to the left; 'below' is raised above it; 'M.P.' sits under 'below'.",
+          "A large pencil brace is to the right of the note, at about [2840,1960,200,1340]. It spans otherwise blank ruled lines in the middle of the page. Its point faces left, toward the note."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading 'Trs.' is uncertain; the first letter could be 't' or 'T'.",
+          "The reading 'M.P.' is uncertain; it could be 'm.P.'.",
+          "The meaning of the abbreviations has not been resolved.",
+          "It is unclear what the brace refers to. It covers blank lines, so it may anticipate entries or point to b003 below."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "note_without_shelfmark",
+        "literal_text": "Mudrārākṣasa. I.O. 2571 (first verse differs). Materia medica.",
+        "fields": {
+          "title": "Mudrārākṣasa",
+          "source": "I.O. 2571",
+          "subject": "Materia medica"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written in ink on a single line, with no shelfmark in the left margin.",
+          "A small hooked mark, resembling a left-pointing arrow, is at the right of the line near the gutter (b901).",
+          "At about the same height, the facing page fol. 65 has a left-pointing arrow in its margin beside '√c. 325(3) Guṇaratnamālā by Bhāva Miśra'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 129,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 325(3) Guṇaratnamālā by Bhāva Miśra",
+            "evidence": "A hooked mark on this line and an arrow on the facing page margin are at about the same height.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'first verse differs' is read from a cursive hand; 'first' is uncertain.",
+          "'Mudrārākṣasa' may be a reading of a cursive word; the underdot under ṣ is visible.",
+          "It is unclear whether this line is an independent holding, a cross-reference or a note belonging to an entry on fol. 65."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b902"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "√d. 368(6). Guptavatīrahasyatantra, Kīlakavivaraṇapaṭala. ff.1-7. n.d. : 7 : 9/10 : D.",
+        "fields": {
+          "shelfmark": "d. 368(6)",
+          "title": "Guptavatīrahasyatantra, Kīlakavivaraṇapaṭala",
+          "date": "n.d.",
+          "extent": "ff.1-7; 7",
+          "lines": "9/10",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written in ink, with a tick (√) before the shelfmark.",
+          "An ink left-pointing arrow (b902) is near the gutter at the right end of the line. A matching right-pointing arrow is on the facing page fol. 65, leading to its bottom entry 'Sb. 77(3)ª Guptasādhanatantra ...'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 129,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Sb. 77(3)ª Guptasādhanatantra",
+            "evidence": "Paired arrows (← on this page, → on fol. 65) are at the same height. This suggests the entry is meant to be read at that alphabetical position among the Gupta- entries.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cursive spelling of 'Guptavatīrahasyatantra' is uncertain; it is possibly 'Guptavatī-'.",
+          "The diacritics in 'Kīlakavivaraṇapaṭala' are uncertain; the underdot is clear only under ṭ.",
+          "'9/10' is written as a fraction."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2950,
+          3750,
+          80,
+          40
+        ],
+        "kind_hint": "mark",
+        "anchor": "hooked mark right of Mudrārākṣasa line",
+        "features": [
+          "small hooked left-pointing mark",
+          "near gutter"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3060,
+          4405,
+          80,
+          45
+        ],
+        "kind_hint": "mark",
+        "anchor": "← level with √d. 368(6)",
+        "features": [
+          "ink left arrow",
+          "counterpart → on fol. 65"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Pencil note with brace; attachment unclear."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Ink line without shelfmark, treated as an ambiguously attached note."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Holding entry."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Mark at the right of the b003 line."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrow at the right of the b004 line."
+      }
+    ],
+    "page_annotations": [
+      "Reversed show-through from fol. 64 is visible across the page. It was not transcribed.",
+      "Small specks below the last entry (about [655,4590]) and dots along the gutter are not meaningful.",
+      "Material to the right of the gutter (about x>3180), such as 'ff.1 / I.O.410', 'c/' marks and 'Sb. 77', belongs to fol. 65 and was excluded."
+    ],
+    "unresolved_relationships": [
+      "The referent of the 'Trs. below M.P.' brace is unknown.",
+      "The attachment of the Mudrārākṣasa / Materia medica line to fol. 65 Guṇaratnamālā is uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio label '64ᵇ.' is at the top left. The superscript b with its dot is confirmed in the native tile."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The pencil note 'Trs. below / M.P.' is staggered as the candidate describes. The large pencil brace runs from about y≈1960 to y≈3250, x≈2780–3025. Its point faces left at about [2780,2700], toward the note. The readings remain uncertain. The brace spans only blank ruled lines and show-through, and its referent is unresolved."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The single ink line is read as 'Mudrārākṣasa. I.O. 2571 (first verse differs). Materia medica.' There is no shelfmark. Whether it is a standalone note or attached to fol. 65 remains open."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The ticked holding line is complete, ending '... ff.1-7. n.d. : 7 : 9/10 : D.' The candidate's description of the arrow relationship needs correcting: on fol. 65 the arrow pair sits level with the d. 471(6) Guṇaśiromaṇi line, not with Sb. 77(3)ª."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A hooked, ℓ-like mark at about [2950,3750] has a short horizontal stroke running right toward the gutter. A similar hooked mark is in the left margin of fol. 65 at the c. 325(3) Guṇaratnamālā line."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "An ink ← at about [3070,4420] is on the target side of the gutter. Its counterpart → is on fol. 65 and was correctly excluded as a target block."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "Written in ink, with a tick (√) before the shelfmark.",
+          "An ink left-pointing arrow (b902) is near the gutter at the right end of the line. A matching right-pointing arrow is on the facing page fol. 65, leading to its bottom entry 'Sb. 77(3)ª Guptasādhanatantra ...'."
+        ],
+        "after": [
+          "Written in ink, with a tick (√) before the shelfmark.",
+          "An ink left-pointing arrow (b902) is near the gutter at the right end of the line. A matching right-pointing arrow is in the left margin of the facing page fol. 65, at about the same height. On fol. 65 that arrow is level with the line 'd. 471(6) Guṇaśiromaṇi', above 'Gupta Tantra' and the bottom entry 'Sb. 77(3)ª'."
+        ],
+        "reason": "On the fol. 65 overview the ← → pair stands beside the d. 471(6) row, about 1297/1500 down the page. Sb. 77(3)ª is lower, at about 1385/1500. The candidate's statement that the arrow leads to Sb. 77 is not supported by the image.",
+        "source_block_ids": [
+          "b004",
+          "b902"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 129,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Sb. 77(3)ª Guptasādhanatantra",
+            "evidence": "Paired arrows (← on this page, → on fol. 65) are at the same height. This suggests the entry is meant to be read at that alphabetical position among the Gupta- entries.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 129,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ in left margin of fol. 65 level with 'd. 471(6) Guṇaśiromaṇi'",
+            "evidence": "Paired arrows (← on this page, → on fol. 65) are at the same height, level with the d. 471(6) row on fol. 65. The intended insertion point on fol. 65 is not established: it could be at that row or among the following Gupta- lines, before Sb. 77(3)ª.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "Corrects the arrow alignment. The insertion position is not securely shown.",
+        "source_block_ids": [
+          "b004",
+          "b902"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "The cursive spelling of 'Guptavatīrahasyatantra' is uncertain; it is possibly 'Guptavatī-'.",
+          "The diacritics in 'Kīlakavivaraṇapaṭala' are uncertain; the underdot is clear only under ṭ.",
+          "'9/10' is written as a fraction."
+        ],
+        "after": [
+          "The cursive spelling of 'Guptavatīrahasyatantra' is uncertain, especially the 'p' of 'Gupta-' and the vowel lengths in '-vatī-'.",
+          "The diacritics in 'Kīlakavivaraṇapaṭala' are uncertain; the underdot is clear only under ṭ. The macron on 'Kī-' and the underdot of 'ṇ' are not securely visible.",
+          "'9/10' is written as a fraction."
+        ],
+        "reason": "The first item offered as an alternative the same reading as the literal text, so it was not meaningful. The diacritic uncertainty is now stated explicitly.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Written in ink on a single line, with no shelfmark in the left margin.",
+          "A small hooked mark, resembling a left-pointing arrow, is at the right of the line near the gutter (b901).",
+          "At about the same height, the facing page fol. 65 has a left-pointing arrow in its margin beside '√c. 325(3) Guṇaratnamālā by Bhāva Miśra'."
+        ],
+        "after": [
+          "Written in ink on a single line, with no shelfmark in the left margin.",
+          "A small hooked, ℓ-like mark with a short horizontal stroke extending right toward the gutter is at the right of the line (b901). It may be an arrow.",
+          "At about the same height, the facing page fol. 65 has a similar hooked mark in its left margin beside '√c. 325(3) Guṇaratnamālā by Bhāva Miśra'."
+        ],
+        "reason": "The source shows hooked marks with a stroke rather than clearly formed arrows. The description should not overstate their form.",
+        "source_block_ids": [
+          "b003",
+          "b901"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The readings 'Trs.' and 'M.P.' and the referent of the brace, which spans only blank lines, are unresolved.",
+        "next_check": "Compare with other pencil notes by the same hand in the volume."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b901"
+        ],
+        "issue": "It is unclear whether the line is an independent note or one attached to the fol. 65 c. 325(3) Guṇaratnamālā entry. The field label 'source' for I.O. 2571 is an interpretive label.",
+        "next_check": "Inspect the fol. 65 left margin at the c. 325(3) line at native resolution."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004",
+          "b902"
+        ],
+        "issue": "The exact insertion point on fol. 65 indicated by the arrow pair is unresolved.",
+        "next_check": "Check the fol. 65 native tile near the d. 471(6) and Gupta Tantra lines."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3180. The target-side marks b901 and b902 are retained. 'ff.1 / I.O.410', the 'c/' and 'd/?' marks, the → arrow, the horizontal stroke right of the gutter and 'Sb. 77' belong to fol. 65 and are excluded. Reversed show-through of fol. 64 is not transcribed.",
+    "region_review": {
+      "top": "Contains only the folio label 64ᵇ. and an isolated speck at about [3070,350]. The rest is show-through.",
+      "middle": "Contains the pencil note and brace (b002). Otherwise there are blank ruled lines with show-through.",
+      "bottom": "Contains the b003 and b004 lines. There are ink specks at about [665,4600] and no further writing.",
+      "left_margin": "No shelfmarks or marks apart from the tick that begins b004.",
+      "right_margin": "Contains marks b901 and b902 near the gutter. The dots and specks along the gutter at about y 2650–3300 appear to be stitching or specks, not writing.",
+      "interlinear": "No interlinear additions or cancellations found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        320,
+        130,
+        115
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "64b.",
+      "features": [
+        "top left corner",
+        "superscript b with dot below/after"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2390,
+        2520,
+        390,
+        195
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "Trs. below / M.P.",
+      "features": [
+        "pencil",
+        "written in two staggered lines",
+        "attached to a large pencil brace at its right (brace c.[2770,1955,260,1355])",
+        "the brace spans the region of the blank ruled lines",
+        "readings 'Trs.' and 'M.P.' uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        415,
+        3700,
+        1610,
+        125
+      ],
+      "kind_hint": "entry",
+      "anchor": "Mudrārākṣasa. I.O. 2571 (first verse differs). Materia medica.",
+      "features": [
+        "ink",
+        "single line",
+        "no shelfmark in left margin",
+        "parenthetical note",
+        "small hooked mark at right c.[2950,3750,80,40] may point to this line"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        365,
+        4370,
+        2190,
+        110
+      ],
+      "kind_hint": "entry",
+      "anchor": "√d. 368(6). Guptavatīrahasyatantra, Kīlakavivaraṇapaṭala. ff.1-7. n.d.: 7: 9/10 : D.",
+      "features": [
+        "ink",
+        "tick before shelfmark",
+        "extent ff.1-7",
+        "line count with fraction 9/10",
+        "script abbreviation D.",
+        "left-pointing arrow c.[3060,4410,70,40] at right end of the line near the gutter"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2950,
+        3750,
+        80,
+        40
+      ],
+      "kind_hint": "mark",
+      "anchor": "hooked mark right of Mudrārākṣasa line",
+      "features": [
+        "small hooked left-pointing mark",
+        "near gutter"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3060,
+        4405,
+        80,
+        45
+      ],
+      "kind_hint": "mark",
+      "anchor": "← level with √d. 368(6)",
+      "features": [
+        "ink left arrow",
+        "counterpart → on fol. 65"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "64ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top left corner. The 'b' is superscript and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0128-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_marginal_note_with_brace",
+      "literal_text": "Trs. below\nM.P.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in pencil. 'Trs.' is lower and to the left; 'below' is raised above it; 'M.P.' sits under 'below'.",
+        "A large pencil brace is to the right of the note, at about [2840,1960,200,1340]. It spans otherwise blank ruled lines in the middle of the page. Its point faces left, toward the note."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading 'Trs.' is uncertain; the first letter could be 't' or 'T'.",
+        "The reading 'M.P.' is uncertain; it could be 'm.P.'.",
+        "The meaning of the abbreviations has not been resolved.",
+        "It is unclear what the brace refers to. It covers blank lines, so it may anticipate entries or point to b003 below."
+      ],
+      "stable_id": "css-prod-0128-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "note_without_shelfmark",
+      "literal_text": "Mudrārākṣasa. I.O. 2571 (first verse differs). Materia medica.",
+      "fields": {
+        "title": "Mudrārākṣasa",
+        "source": "I.O. 2571",
+        "subject": "Materia medica"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written in ink on a single line, with no shelfmark in the left margin.",
+        "A small hooked mark, resembling a left-pointing arrow, is at the right of the line near the gutter (b901).",
+        "At about the same height, the facing page fol. 65 has a left-pointing arrow in its margin beside '√c. 325(3) Guṇaratnamālā by Bhāva Miśra'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 129,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 325(3) Guṇaratnamālā by Bhāva Miśra",
+          "evidence": "A hooked mark on this line and an arrow on the facing page margin are at about the same height.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'first verse differs' is read from a cursive hand; 'first' is uncertain.",
+        "'Mudrārākṣasa' may be a reading of a cursive word; the underdot under ṣ is visible.",
+        "It is unclear whether this line is an independent holding, a cross-reference or a note belonging to an entry on fol. 65."
+      ],
+      "stable_id": "css-prod-0128-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b902"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "√d. 368(6). Guptavatīrahasyatantra, Kīlakavivaraṇapaṭala. ff.1-7. n.d. : 7 : 9/10 : D.",
+      "fields": {
+        "shelfmark": "d. 368(6)",
+        "title": "Guptavatīrahasyatantra, Kīlakavivaraṇapaṭala",
+        "date": "n.d.",
+        "extent": "ff.1-7; 7",
+        "lines": "9/10",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written in ink, with a tick (√) before the shelfmark.",
+        "An ink left-pointing arrow (b902) is near the gutter at the right end of the line. A matching right-pointing arrow is on the facing page fol. 65, leading to its bottom entry 'Sb. 77(3)ª Guptasādhanatantra ...'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 129,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Sb. 77(3)ª Guptasādhanatantra",
+          "evidence": "Paired arrows (← on this page, → on fol. 65) are at the same height. This suggests the entry is meant to be read at that alphabetical position among the Gupta- entries.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cursive spelling of 'Guptavatīrahasyatantra' is uncertain; it is possibly 'Guptavatī-'.",
+        "The diacritics in 'Kīlakavivaraṇapaṭala' are uncertain; the underdot is clear only under ṭ.",
+        "'9/10' is written as a fraction."
+      ],
+      "stable_id": "css-prod-0128-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "Written in ink, with a tick (√) before the shelfmark.",
+        "An ink left-pointing arrow (b902) is near the gutter at the right end of the line. A matching right-pointing arrow is on the facing page fol. 65, leading to its bottom entry 'Sb. 77(3)ª Guptasādhanatantra ...'."
+      ],
+      "after": [
+        "Written in ink, with a tick (√) before the shelfmark.",
+        "An ink left-pointing arrow (b902) is near the gutter at the right end of the line. A matching right-pointing arrow is in the left margin of the facing page fol. 65, at about the same height. On fol. 65 that arrow is level with the line 'd. 471(6) Guṇaśiromaṇi', above 'Gupta Tantra' and the bottom entry 'Sb. 77(3)ª'."
+      ],
+      "reason": "On the fol. 65 overview the ← → pair stands beside the d. 471(6) row, about 1297/1500 down the page. Sb. 77(3)ª is lower, at about 1385/1500. The candidate's statement that the arrow leads to Sb. 77 is not supported by the image.",
+      "source_block_ids": [
+        "b004",
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 129,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Sb. 77(3)ª Guptasādhanatantra",
+          "evidence": "Paired arrows (← on this page, → on fol. 65) are at the same height. This suggests the entry is meant to be read at that alphabetical position among the Gupta- entries.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 129,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ in left margin of fol. 65 level with 'd. 471(6) Guṇaśiromaṇi'",
+          "evidence": "Paired arrows (← on this page, → on fol. 65) are at the same height, level with the d. 471(6) row on fol. 65. The intended insertion point on fol. 65 is not established: it could be at that row or among the following Gupta- lines, before Sb. 77(3)ª.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "Corrects the arrow alignment. The insertion position is not securely shown.",
+      "source_block_ids": [
+        "b004",
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The cursive spelling of 'Guptavatīrahasyatantra' is uncertain; it is possibly 'Guptavatī-'.",
+        "The diacritics in 'Kīlakavivaraṇapaṭala' are uncertain; the underdot is clear only under ṭ.",
+        "'9/10' is written as a fraction."
+      ],
+      "after": [
+        "The cursive spelling of 'Guptavatīrahasyatantra' is uncertain, especially the 'p' of 'Gupta-' and the vowel lengths in '-vatī-'.",
+        "The diacritics in 'Kīlakavivaraṇapaṭala' are uncertain; the underdot is clear only under ṭ. The macron on 'Kī-' and the underdot of 'ṇ' are not securely visible.",
+        "'9/10' is written as a fraction."
+      ],
+      "reason": "The first item offered as an alternative the same reading as the literal text, so it was not meaningful. The diacritic uncertainty is now stated explicitly.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Written in ink on a single line, with no shelfmark in the left margin.",
+        "A small hooked mark, resembling a left-pointing arrow, is at the right of the line near the gutter (b901).",
+        "At about the same height, the facing page fol. 65 has a left-pointing arrow in its margin beside '√c. 325(3) Guṇaratnamālā by Bhāva Miśra'."
+      ],
+      "after": [
+        "Written in ink on a single line, with no shelfmark in the left margin.",
+        "A small hooked, ℓ-like mark with a short horizontal stroke extending right toward the gutter is at the right of the line (b901). It may be an arrow.",
+        "At about the same height, the facing page fol. 65 has a similar hooked mark in its left margin beside '√c. 325(3) Guṇaratnamālā by Bhāva Miśra'."
+      ],
+      "reason": "The source shows hooked marks with a stroke rather than clearly formed arrows. The description should not overstate their form.",
+      "source_block_ids": [
+        "b003",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8833be2c-55f2-45fc-a7d0-a63027ca263b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8833be2c-55f2-45fc-a7d0-a63027ca263b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "253a1e896da5e6f89e728e686e91437d100fcc301029d08d9cb422064bcf9b52",
+      "bytes": 241668,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8833be2c-55f2-45fc-a7d0-a63027ca263b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8f33fd54a0e0395cff05c40da319285a27e145272068f15af281977a57180871",
+      "bytes": 276973,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8833be2c-55f2-45fc-a7d0-a63027ca263b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dda2e0206367fe1a3441b173cf2f791fa3a8df00504410b6ccceb1d6618db70d",
+      "bytes": 276808,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8833be2c-55f2-45fc-a7d0-a63027ca263b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5c32f9ca3d6b2579b79505d5e6d0c47e1b74c9402cb33b95f9a5866446122606",
+      "bytes": 273546,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8833be2c-55f2-45fc-a7d0-a63027ca263b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8c8e13a6f0c08400e528eb33f1843df7c17c4f86d790b2382d011460206ff2f4",
+      "bytes": 274692,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8833be2c-55f2-45fc-a7d0-a63027ca263b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6ecbc9b760652027369314e1b757a3aadd36972cea5a0cf3964f67bfe5bbfe17",
+      "bytes": 314285,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8833be2c-55f2-45fc-a7d0-a63027ca263b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c9f95a40e87888a00591ac0e74b893f52d2c9a59edce1e0d2270ce8f8459381a",
+      "bytes": 314011,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7d375714-83bc-49c8-aa8a-3f0408000d4c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "072b9c2bac130f5a573ca4fe15afb5c5d4ab58d27c189702e88ff24e60dc5c32",
+      "bytes": 268970,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 127,
+      "folio_label": "fol. 64",
+      "page_id": "7d375714-83bc-49c8-aa8a-3f0408000d4c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/533bf0b7-435d-430f-845d-56fed03bbf9e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4fa4be575ae3159b5ae4a521bf0409e9150c6eeb5c6ba36e2b9e2fdc000b56b2",
+      "bytes": 250135,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 129,
+      "folio_label": "fol. 65",
+      "page_id": "533bf0b7-435d-430f-845d-56fed03bbf9e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,719 @@
+{
+  "source_order": 687,
+  "folio_label": "fol. 344",
+  "page_id": "d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "344",
+    "principal_page_bbox": [
+      400,
+      305,
+      2770,
+      4550
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          2850,
+          385,
+          145,
+          85
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "344",
+        "features": [
+          "top right corner of the page",
+          "handwritten, apparently pencil",
+          "no underlining or other marks"
+        ]
+      }
+    ],
+    "unattached_marks": [],
+    "boundary_notes": [
+      "A strip of the facing leaf, ruled and blank, is visible at the far left of the canvas (about x 0–400) beyond the gutter fold. It is not part of the target page.",
+      "A ruled vertical margin line runs at about x 905 native. The area between the gutter and this line was inspected and has no writing.",
+      "The adjacent pages fol. [343b] and fol. [344b] are blank, ruled context only and were not transcribed."
+    ],
+    "uncertainties": [
+      "Faint specks and paper fibres across the sheet were judged to be paper flaws or dust rather than writing. No faint pencil text was detected at native resolution."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "344",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "344",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio number at the top right corner of the page, apparently in pencil. It is not underlined and has no other marks.",
+          "Approximate native bbox [2850,385,145,85], located from the native tile with x offset 1604."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The medium (pencil) is judged from the grey tone of the stroke."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number '344' at the top right was confirmed at native resolution. It is recorded as non-catalogue text."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number, the target page is a ruled blank leaf. All native tiles were reviewed, including the top, bottom, outer margin, gutter and the area between the gutter and the vertical margin line at about x 905. No catalogue entries, headings, cross-references, interlinear text or faint pencil additions were found.",
+      "Small specks and fibres scattered across the sheet were judged to be paper flaws or dust, not writing.",
+      "A strip of the facing leaf, ruled and blank, is visible left of the gutter fold at about x 0–400. It is not part of the target page.",
+      "The adjacent pages fol. [343b] and fol. [344b] appear blank and ruled. They were used only as context."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "In the native tile at x offset 1604, the handwritten folio number '344' sits at about tile x 1250–1385, y 390–465, which is native x 2854–2989. This matches the candidate bbox [2850,385,145,85]. The grey stroke tone is consistent with pencil, and the candidate already records that medium as a judgement. No underlining or other attached marks were seen."
+      },
+      {
+        "block_id": "b951",
+        "status": "missing",
+        "record_ids": [
+          "r951"
+        ],
+        "finding": "A short dark horizontal dash lies at the extreme top-right edge of the leaf, near the damaged corner. It is at about tile x 1435–1450, y 335–340 (native x ~3039–3054, y ~335). The overview shows the same mark at about overview x 1218, y 131. Neither the inventory nor the candidate records it. It may be a pencil or ink tick or dash, or a shadow or damage at the frayed corner. It is not legible text."
+      }
+    ],
+    "changes": [],
+    "missing_records": [
+      {
+        "block": {
+          "id": "b951",
+          "bbox": [
+            3035,
+            328,
+            25,
+            15
+          ],
+          "kind_hint": "unidentified_mark",
+          "anchor": "short dash at top-right edge near damaged corner",
+          "features": [
+            "very short horizontal dark stroke",
+            "at the leaf edge above and to the right of the folio number",
+            "possibly paper damage or shadow rather than a written mark"
+          ]
+        },
+        "record": {
+          "id": "r951",
+          "block_ids": [
+            "b951"
+          ],
+          "type": "non_text_mark",
+          "subtype": "unidentified_mark",
+          "literal_text": "",
+          "fields": {},
+          "normalized_title": null,
+          "annotations": [
+            "Short dark horizontal dash at the extreme top-right edge of the leaf, beside the frayed or damaged corner, at approximately native bbox [3035,328,25,15]. It is not text."
+          ],
+          "editorial_context": [],
+          "relationships": [],
+          "uncertainties": [
+            "It cannot be determined whether this is a deliberate pencil or ink mark or an artefact of corner damage or shadow."
+          ]
+        },
+        "reason": "A visible mark on the target leaf was omitted from both the inventory and the candidate. It is recorded with its nature left uncertain so that it is not silently dropped."
+      }
+    ],
+    "unresolved": [
+      {
+        "record_id": "r951",
+        "block_ids": [
+          "b951"
+        ],
+        "issue": "The nature of the short dash at the top-right corner (written mark vs. damage or shadow) is uncertain.",
+        "next_check": "Inspect the original leaf or a higher-contrast image of the top-right corner."
+      }
+    ],
+    "boundary_review": "The facing leaf strip at about x 0–400, left of the gutter fold, is ruled and blank and is not part of the target page. The target text area starts after the vertical rule at about x 905. The area between the gutter and that rule was inspected and is blank. The right edge of the leaf is at about x 3170. The adjacent pages fol. [343b] and fol. [344b] are ruled and blank, so there are no cross-page continuations or ditto relationships to verify.",
+    "region_review": {
+      "top": "The folio number '344' is at the top right. A small dash at the extreme top-right edge near the damaged corner has been added as uncertain. No headings were found.",
+      "middle": "Ruled lines only. Scattered specks and fibres look like paper flaws, and no writing was found.",
+      "bottom": "Ruled and blank down to the lower edge at about y 4850. A faint smudge near the lower edge around x 2700–2900 appears to be soiling rather than writing. No bottom note was found.",
+      "left_margin": "The gutter-side margin between the fold at about x 400 and the rule at about x 905 is blank. The facing strip is also blank.",
+      "right_margin": "The outer margin is blank apart from the folio number and the possible corner dash.",
+      "interlinear": "No interlinear additions or faint pencil text were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        2850,
+        385,
+        145,
+        85
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "344",
+      "features": [
+        "top right corner of the page",
+        "handwritten, apparently pencil",
+        "no underlining or other marks"
+      ]
+    },
+    {
+      "id": "b951",
+      "bbox": [
+        3035,
+        328,
+        25,
+        15
+      ],
+      "kind_hint": "unidentified_mark",
+      "anchor": "short dash at top-right edge near damaged corner",
+      "features": [
+        "very short horizontal dark stroke",
+        "at the leaf edge above and to the right of the folio number",
+        "possibly paper damage or shadow rather than a written mark"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "344",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio number at the top right corner of the page, apparently in pencil. It is not underlined and has no other marks.",
+        "Approximate native bbox [2850,385,145,85], located from the native tile with x offset 1604."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The medium (pencil) is judged from the grey tone of the stroke."
+      ],
+      "stable_id": "css-prod-0687-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r951",
+      "block_ids": [
+        "b951"
+      ],
+      "type": "non_text_mark",
+      "subtype": "unidentified_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Short dark horizontal dash at the extreme top-right edge of the leaf, beside the frayed or damaged corner, at approximately native bbox [3035,328,25,15]. It is not text."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It cannot be determined whether this is a deliberate pencil or ink mark or an artefact of corner damage or shadow."
+      ],
+      "stable_id": "css-prod-0687-r951",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [
+    {
+      "record_id": "r951",
+      "stage": "review",
+      "applied": true,
+      "application_reason": "Added record and newly identified source block"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [
+      {
+        "block_id": "b951",
+        "status": "missing",
+        "record_ids": [
+          "r951"
+        ],
+        "finding": "A short dark horizontal dash lies at the extreme top-right edge of the leaf, near the damaged corner. It is at about tile x 1435–1450, y 335–340 (native x ~3039–3054, y ~335). The overview shows the same mark at about overview x 1218, y 131. Neither the inventory nor the candidate records it. It may be a pencil or ink tick or dash, or a shadow or damage at the frayed corner. It is not legible text."
+      }
+    ],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [
+      {
+        "block_id": "b951",
+        "status": "missing",
+        "record_ids": [
+          "r951"
+        ],
+        "finding": "A short dark horizontal dash lies at the extreme top-right edge of the leaf, near the damaged corner. It is at about tile x 1435–1450, y 335–340 (native x ~3039–3054, y ~335). The overview shows the same mark at about overview x 1218, y 131. Neither the inventory nor the candidate records it. It may be a pencil or ink tick or dash, or a shadow or damage at the frayed corner. It is not legible text."
+      }
+    ],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "coverage",
+      "priority": 100,
+      "issue": "A short dark horizontal dash lies at the extreme top-right edge of the leaf, near the damaged corner. It is at about tile x 1435–1450, y 335–340 (native x ~3039–3054, y ~335). The overview shows the same mark at about overview x 1218, y 131. Neither the inventory nor the candidate records it. It may be a pencil or ink tick or dash, or a shadow or damage at the frayed corner. It is not legible text.",
+      "block_ids": [
+        "b951"
+      ],
+      "record_ids": [
+        "r951"
+      ],
+      "id": "focus-0687-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The nature of the short dash at the top-right corner (written mark vs. damage or shadow) is uncertain.",
+      "block_ids": [
+        "b951"
+      ],
+      "record_ids": [
+        "r951"
+      ],
+      "id": "focus-0687-02"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The medium (pencil) is judged from the grey tone of the stroke.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0687-03"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "It cannot be determined whether this is a deliberate pencil or ink mark or an artefact of corner damage or shadow.",
+      "block_ids": [
+        "b951"
+      ],
+      "record_ids": [
+        "r951"
+      ],
+      "id": "focus-0687-04"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0687-01",
+        "focus-0687-02",
+        "focus-0687-03",
+        "focus-0687-04"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0687-01",
+          "source_reading": "[non-text mark: short dark-grey horizontal dash, no legible text]",
+          "certainty": "probable",
+          "evidence": "The native tile (x offset 1604) shows a short dark horizontal stroke at about tile x 1433–1452, y 333–341, which is native x ~3037–3056, y ~333–341. It lies just below the top edge of the leaf (tile y ~318) and left of the frayed corner, which begins at about tile x 1520. The existing record r951 and block b951 bbox [3035,328,25,15] already cover it. No letters or digits can be discerned."
+        },
+        {
+          "issue_id": "focus-0687-02",
+          "source_reading": "[nature undetermined: possibly a pencil or ink dash, possibly a shadow or edge artefact]",
+          "certainty": "uncertain",
+          "evidence": "The stroke is crisp and darker than the paper tone. It sits on the leaf surface, not on the black background, which favours a written mark. However, it is very close to the damaged corner and the top edge, so an edge shadow or deposit cannot be excluded. The adjacent page fol. [344b] shows a similar small dash near its top-left corner, but this is context only and proves nothing."
+        },
+        {
+          "issue_id": "focus-0687-03",
+          "source_reading": "344",
+          "certainty": "secure",
+          "evidence": "The numeral '344' is clearly legible at tile x ~1250–1385, y ~390–465, which is native ~2854–2989, 390–465 and consistent with the b001 bbox. The strokes are thin and medium grey, with the slightly granular edges typical of pencil. The medium is probable rather than secure, so the existing uncertainty is retained."
+        },
+        {
+          "issue_id": "focus-0687-04",
+          "source_reading": "[undetermined whether deliberate mark or artefact]",
+          "certainty": "uncertain",
+          "evidence": "At native resolution the image is insufficient to distinguish a graphite or ink stroke from a crease shadow at the frayed corner. The existing uncertainty remains appropriate."
+        }
+      ],
+      "changes": [],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "The folio number '344' at the top right is correctly transcribed and located."
+        },
+        {
+          "block_id": "b951",
+          "status": "represented",
+          "record_ids": [
+            "r951"
+          ],
+          "finding": "The short dash at the top-right edge is recorded as a non-text mark. Its bbox matches the native position. No legible text is present."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0687-02",
+          "record_id": "r951",
+          "block_ids": [
+            "b951"
+          ],
+          "issue": "Whether the short dash is a deliberate pencil or ink mark or a damage or shadow artefact at the frayed corner cannot be determined from the image.",
+          "next_check": "Physical inspection of the leaf corner under raking light, or a higher-resolution or colour capture."
+        },
+        {
+          "issue_id": "focus-0687-04",
+          "record_id": "r951",
+          "block_ids": [
+            "b951"
+          ],
+          "issue": "The medium and intent of the dash are undetermined.",
+          "next_check": "Physical inspection or a colour image to distinguish graphite sheen, ink or shadow."
+        },
+        {
+          "issue_id": "focus-0687-03",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "The medium of the folio number is judged as pencil from grey tone only.",
+          "next_check": "A colour image or physical inspection to confirm graphite."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "a869e472e03de8effbe07b3ccc0dca5402aaab8968d7be09079bac25089f2889",
+      "bytes": 277077,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bd8995722b043561d751b6ba6a19401cf0384f8bbbc74e1a4c8434b46cf1df28",
+      "bytes": 361377,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ddf8182a-a11a-447d-89eb-605842bdfe29/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ca18c95ff2bfdaba68f00d64fd94f4e174eb369779472dea534b03cdd7f2866a",
+      "bytes": 149334,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 686,
+      "folio_label": "fol. [343b]",
+      "page_id": "ddf8182a-a11a-447d-89eb-605842bdfe29",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98b653a4-b04e-4137-9bf4-45dbbdc73098/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "1f5882d5f3639fb2e030b37b3af4d7226cec14e48ec94591b2404e32ae392fb4",
+      "bytes": 143413,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 688,
+      "folio_label": "fol. [344b]",
+      "page_id": "98b653a4-b04e-4137-9bf4-45dbbdc73098",
+      "native_dimensions": [
+        3507,
+        5119
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "a869e472e03de8effbe07b3ccc0dca5402aaab8968d7be09079bac25089f2889",
+      "bytes": 277077,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6bd4d2e14792170b40de3362bdb41c3901a9bb5320b638c5de9a5d87208083c8",
+      "bytes": 383591,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bd8995722b043561d751b6ba6a19401cf0384f8bbbc74e1a4c8434b46cf1df28",
+      "bytes": 361377,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "051f06208634da4312d1c9d2f9c338de53eebc990b6a5abda5132ea5fd3441f0",
+      "bytes": 390212,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "58932908061e87b028ac881178e140816d89475cae602d5af3ebdd6188e480d8",
+      "bytes": 387178,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8f7109f848e6c5e8467a1075d8ff89b9f9ea1417a21e6a9e8af35698a42ce83d",
+      "bytes": 377750,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d05c2cbb-fb17-48ed-9e72-8bf3106b9e4b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "11fbf486c75e22a3c4affdc9c593899936ed9f51135ff5695bd33601f38291d3",
+      "bytes": 363403,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ddf8182a-a11a-447d-89eb-605842bdfe29/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ca18c95ff2bfdaba68f00d64fd94f4e174eb369779472dea534b03cdd7f2866a",
+      "bytes": 149334,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 686,
+      "folio_label": "fol. [343b]",
+      "page_id": "ddf8182a-a11a-447d-89eb-605842bdfe29",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98b653a4-b04e-4137-9bf4-45dbbdc73098/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "1f5882d5f3639fb2e030b37b3af4d7226cec14e48ec94591b2404e32ae392fb4",
+      "bytes": 143413,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 688,
+      "folio_label": "fol. [344b]",
+      "page_id": "98b653a4-b04e-4137-9bf4-45dbbdc73098",
+      "native_dimensions": [
+        3507,
+        5119
+      ]
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "source_order": 322,
+  "folio_label": "fol. 161b",
+  "page_id": "b6ed4752-30b4-47a8-b3dc-f5b29344c95f",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "161b",
+    "principal_page_bbox": [
+      330,
+      275,
+      2895,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          395,
+          325,
+          125,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "161b",
+        "features": [
+          "top-left corner",
+          "pencil or ink numeral with superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          1660,
+          3830,
+          720,
+          100
+        ],
+        "kind_hint": "marginal_note_cross_reference",
+        "anchor": "(See ref. in index also s. Āśīrvāda)",
+        "features": [
+          "parenthetical",
+          "ink",
+          "lower part of page on a ruled line",
+          "reading uncertain",
+          "faint offset smudges above the text"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2460,
+          3830,
+          780,
+          110
+        ],
+        "kind_hint": "marginal_note_extent",
+        "anchor": "ff. 1-7 in 54 verses",
+        "features": [
+          "ink",
+          "same line as b002",
+          "followed by a leftward-pointing arrow drawn toward the gutter (about x 3050-3205), which appears to link the note to an entry on the facing page fol. 162"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1320,
+          860,
+          50,
+          30
+        ],
+        "description": "small faint speck/mark in upper-middle area"
+      },
+      {
+        "bbox": [
+          1320,
+          3860,
+          20,
+          20
+        ],
+        "description": "ink dot to the left of b002"
+      },
+      {
+        "bbox": [
+          1785,
+          4450,
+          30,
+          25
+        ],
+        "description": "small double dot mark resembling a ditto or stray ink, lower middle; not attachable to text"
+      },
+      {
+        "bbox": [
+          348,
+          1970,
+          20,
+          15
+        ],
+        "description": "small dark mark at the left edge"
+      }
+    ],
+    "boundary_notes": [
+      "The faint mirrored writing across the page is show-through from the reverse side (fol. 161) and is not transcribed as target text.",
+      "The tick marks visible at the upper right, beyond the gutter (about x 3440-3508, y 620-1160), belong to the facing page fol. 162.",
+      "A short dash beyond the gutter (about x 3285-3365, y 3855) is on the facing page and accompanies the arrow from b003.",
+      "The arrow in b003 points across the gutter. This suggests it is attached to the d. 167 (8) Brahmavidāśīrvādapaddhati entry on fol. 162, which is at a corresponding height. This link is inferred from the layout only."
+    ],
+    "uncertainties": [
+      "Wording of b002 is uncertain, especially 'index also s.' and the diacritics of 'Āśīrvāda'.",
+      "'verses' in b003 is a probable reading."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "161b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "161b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner with a superscript 'b'. It appears to be in pencil or faint ink."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "cross_reference",
+        "subtype": "index_reference_note",
+        "literal_text": "(See ref. in index also s. Āśīrvāda)",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "In ink, in parentheses, on a ruled line in the lower part of the page (about y 3830-3930).",
+          "Faint smudges or offset marks appear above the middle of the text.",
+          "It is on the same line as the extent note b003, which ends in an arrow pointing to the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 323,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+            "evidence": "This note shares a line with b003. The arrow from b003 crosses the gutter toward the fol. 162 entry that has a matching arrow at a corresponding height.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The wording is uncertain. The hand appears to write 'Seve', 'indea' and 'alos'; the reading 'See ref. in index also s.' is probable.",
+          "The diacritics of 'Āśīrvāda' are uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_note_with_arrow",
+        "literal_text": "ff. 1-7 in 54 verses",
+        "fields": {
+          "extent": "ff. 1-7 in 54 verses"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "In ink. It is followed by a leftward-pointing arrow drawn toward the gutter (about x 3040-3205, y 3850-3890).",
+          "A short dash across the gutter on the facing page (about x 3280-3365) continues the arrow line.",
+          "Fol. 162 shows a matching arrow mark to the left of 'd. 167 (8) Brahmavidāśīrvādapaddhati'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 323,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+            "evidence": "An arrow and dash link across the gutter to the matching arrow beside this entry on fol. 162. The link is inferred from the layout.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'verses' is a probable reading."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Index cross-reference note on the lower ruled line. It probably attaches to the facing-page entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Extent note with an arrow linking it to the fol. 162 entry."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and the single line of notes near the bottom, the page carries no target text.",
+      "The faint mirrored writing across the page is show-through from fol. 161 and has not been transcribed.",
+      "Ticks beyond the gutter at the upper right belong to fol. 162.",
+      "Several stray marks are not attachable to any text: a speck near (1320,860); a dark mark at the left edge near (350,1975); an ink dot left of b002 near (1325,3870); a small double-dot mark near (1790,4460) that resembles a ditto mark but has no associated text; and minor dots elsewhere."
+    ],
+    "unresolved_relationships": [
+      "The attachment of b002 and b003 to fol. 162 'd. 167 (8) Brahmavidāśīrvādapaddhati' rests on the cross-gutter arrow and matching height. It is probable, not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio label '161' with a superscript 'b' is at the top left, about native (400,330)-(520,430). It is correctly recorded as a page-number record."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The parenthetical ink note is at about native (1665-2385, 3845-3920). The literal text is a probable reading. The letter forms resemble 'Seve', 'indea' and 'alos', and the macron and accent diacritics on 'Āśīrvāda' are not securely legible. The candidate's uncertainty notes are kept. Faint vertical smudges above 'index also' are offset marks, not text."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The extent note 'ff. 1-7 in 54 verses' is followed by an arrow. The arrow's head is at its LEFT end, about x 3050, next to the note. Its shaft runs right to the gutter at about x 3205. A separate dash sits beyond the gutter at about x 3285-3365, y 3855. The candidate wrongly says the arrow points toward the gutter, and that fol. 162 has its own 'matching arrow'. On fol. 162 the '← —' at the left edge is this same mark from fol. 161b, captured in the adjacent image. It is not an independent mark on fol. 162."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "In ink. It is followed by a leftward-pointing arrow drawn toward the gutter (about x 3040-3205, y 3850-3890).",
+          "A short dash across the gutter on the facing page (about x 3280-3365) continues the arrow line.",
+          "Fol. 162 shows a matching arrow mark to the left of 'd. 167 (8) Brahmavidāśīrvādapaddhati'."
+        ],
+        "after": [
+          "In ink. To the right of the note is an arrow whose head points left toward the note text (head about x 3050, shaft running right to the gutter about x 3205, y about 3850-3890).",
+          "A short dash beyond the gutter, in the left margin of fol. 162 (about x 3285-3365, y 3855), continues the line across the gutter.",
+          "The '← —' visible at the left edge of the fol. 162 adjacent image is this same arrow and dash seen in that capture. It is not a separate arrow on fol. 162. The line runs at about the height of the fol. 162 entry 'd. 167 (8)' (title as read from the reduced adjacent image)."
+        ],
+        "reason": "Source image: the arrowhead is at the left end of the shaft, so the arrow points away from the gutter and toward the note. The supposed matching arrow on fol. 162 is the fol. 161b mark seen in the adjacent capture.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 323,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+            "evidence": "An arrow and dash link across the gutter to the matching arrow beside this entry on fol. 162. The link is inferred from the layout.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 323,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+            "evidence": "A line with a dash runs from the fol. 162 left margin across the gutter to an arrowhead pointing at this note. It lies at the same height as the fol. 162 entry. This suggests the note supplements that entry. The link is inferred from layout only, and the title is read from the reduced adjacent image.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The evidence wrongly described a separate matching arrow on fol. 162. 'continues' overstates the relationship: an extent note added to a facing-page entry is an attachment, not a continuation.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "In ink, in parentheses, on a ruled line in the lower part of the page (about y 3830-3930).",
+          "Faint smudges or offset marks appear above the middle of the text.",
+          "It is on the same line as the extent note b003, which ends in an arrow pointing to the facing page."
+        ],
+        "after": [
+          "In ink, in parentheses, on a ruled line in the lower part of the page (about y 3830-3930).",
+          "Faint smudges or offset marks appear above the middle of the text.",
+          "It is on the same line as the extent note b003. b003 is followed by an arrow whose head points left toward the notes, with its line coming from across the gutter."
+        ],
+        "reason": "Correcting the arrow direction.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 323,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+            "evidence": "This note shares a line with b003. The arrow from b003 crosses the gutter toward the fol. 162 entry that has a matching arrow at a corresponding height.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 323,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+            "evidence": "This note shares a line with b003. That line is joined by an arrow-and-dash line across the gutter from the fol. 162 margin, at the height of this fol. 162 entry. There is no separate matching arrow on fol. 162. The attachment is inferred from layout only.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The evidence statement misdescribed the marks.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The exact wording ('See'/'Seve', 'index'/'indea', 'also s.'/'alos.') and the diacritics of 'Āśīrvāda' are not securely legible.",
+        "next_check": "Examine the full-resolution letter forms. Compare with other notes in the same hand."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The attachment to fol. 162 'd. 167 (8)' rests only on the cross-gutter line and matching height. The exact title on fol. 162 was read from a reduced image.",
+        "next_check": "Review fol. 162 at native resolution around y 3850-3900."
+      }
+    ],
+    "boundary_review": "The gutter is at about x 3225-3260. Ticks at the upper right (x>3440) and the dash at x 3285-3365, y 3855 lie on fol. 162 and are not target text. The arrow on the target side belongs with b003. Mirrored faint writing across the page is show-through from fol. 161 and is not transcribed.",
+    "region_review": {
+      "top": "Only the folio label '161b' appears. The rest is show-through.",
+      "middle": "Show-through only. There is a small speck near (1330,880). No target text.",
+      "bottom": "There is one line of ink notes (b002 and b003) with an arrow at about y 3850-3900. Stray dots appear near (1325,3873), (1775,3688), (1808,3966) and (2211,3746). A double-dot mark near (1797,4461) resembles a ditto mark but has no associated text. Below this, only show-through.",
+      "left_margin": "A small dark mark at the page edge near (350,1975). No text.",
+      "right_margin": "Gutter only. The ticks and dash beyond it belong to fol. 162.",
+      "interlinear": "No interlinear additions. Smudges above b002 are offset marks, not writing."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        395,
+        325,
+        125,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "161b",
+      "features": [
+        "top-left corner",
+        "pencil or ink numeral with superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        1660,
+        3830,
+        720,
+        100
+      ],
+      "kind_hint": "marginal_note_cross_reference",
+      "anchor": "(See ref. in index also s. Āśīrvāda)",
+      "features": [
+        "parenthetical",
+        "ink",
+        "lower part of page on a ruled line",
+        "reading uncertain",
+        "faint offset smudges above the text"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2460,
+        3830,
+        780,
+        110
+      ],
+      "kind_hint": "marginal_note_extent",
+      "anchor": "ff. 1-7 in 54 verses",
+      "features": [
+        "ink",
+        "same line as b002",
+        "followed by a leftward-pointing arrow drawn toward the gutter (about x 3050-3205), which appears to link the note to an entry on the facing page fol. 162"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "161b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner with a superscript 'b'. It appears to be in pencil or faint ink."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0322-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "cross_reference",
+      "subtype": "index_reference_note",
+      "literal_text": "(See ref. in index also s. Āśīrvāda)",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "In ink, in parentheses, on a ruled line in the lower part of the page (about y 3830-3930).",
+        "Faint smudges or offset marks appear above the middle of the text.",
+        "It is on the same line as the extent note b003. b003 is followed by an arrow whose head points left toward the notes, with its line coming from across the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 323,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+          "evidence": "This note shares a line with b003. The arrow from b003 crosses the gutter toward the fol. 162 entry that has a matching arrow at a corresponding height.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The wording is uncertain. The hand appears to write 'Seve', 'indea' and 'alos'; the reading 'See ref. in index also s.' is probable.",
+        "The diacritics of 'Āśīrvāda' are uncertain."
+      ],
+      "stable_id": "css-prod-0322-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_note_with_arrow",
+      "literal_text": "ff. 1-7 in 54 verses",
+      "fields": {
+        "extent": "ff. 1-7 in 54 verses"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "In ink. To the right of the note is an arrow whose head points left toward the note text (head about x 3050, shaft running right to the gutter about x 3205, y about 3850-3890).",
+        "A short dash beyond the gutter, in the left margin of fol. 162 (about x 3285-3365, y 3855), continues the line across the gutter.",
+        "The '← —' visible at the left edge of the fol. 162 adjacent image is this same arrow and dash seen in that capture. It is not a separate arrow on fol. 162. The line runs at about the height of the fol. 162 entry 'd. 167 (8)' (title as read from the reduced adjacent image)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 323,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+          "evidence": "An arrow and dash link across the gutter to the matching arrow beside this entry on fol. 162. The link is inferred from the layout.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'verses' is a probable reading."
+      ],
+      "stable_id": "css-prod-0322-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "In ink. It is followed by a leftward-pointing arrow drawn toward the gutter (about x 3040-3205, y 3850-3890).",
+        "A short dash across the gutter on the facing page (about x 3280-3365) continues the arrow line.",
+        "Fol. 162 shows a matching arrow mark to the left of 'd. 167 (8) Brahmavidāśīrvādapaddhati'."
+      ],
+      "after": [
+        "In ink. To the right of the note is an arrow whose head points left toward the note text (head about x 3050, shaft running right to the gutter about x 3205, y about 3850-3890).",
+        "A short dash beyond the gutter, in the left margin of fol. 162 (about x 3285-3365, y 3855), continues the line across the gutter.",
+        "The '← —' visible at the left edge of the fol. 162 adjacent image is this same arrow and dash seen in that capture. It is not a separate arrow on fol. 162. The line runs at about the height of the fol. 162 entry 'd. 167 (8)' (title as read from the reduced adjacent image)."
+      ],
+      "reason": "Source image: the arrowhead is at the left end of the shaft, so the arrow points away from the gutter and toward the note. The supposed matching arrow on fol. 162 is the fol. 161b mark seen in the adjacent capture.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 323,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+          "evidence": "An arrow and dash link across the gutter to the matching arrow beside this entry on fol. 162. The link is inferred from the layout.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 323,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+          "evidence": "A line with a dash runs from the fol. 162 left margin across the gutter to an arrowhead pointing at this note. It lies at the same height as the fol. 162 entry. This suggests the note supplements that entry. The link is inferred from layout only, and the title is read from the reduced adjacent image.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The evidence wrongly described a separate matching arrow on fol. 162. 'continues' overstates the relationship: an extent note added to a facing-page entry is an attachment, not a continuation.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "In ink, in parentheses, on a ruled line in the lower part of the page (about y 3830-3930).",
+        "Faint smudges or offset marks appear above the middle of the text.",
+        "It is on the same line as the extent note b003, which ends in an arrow pointing to the facing page."
+      ],
+      "after": [
+        "In ink, in parentheses, on a ruled line in the lower part of the page (about y 3830-3930).",
+        "Faint smudges or offset marks appear above the middle of the text.",
+        "It is on the same line as the extent note b003. b003 is followed by an arrow whose head points left toward the notes, with its line coming from across the gutter."
+      ],
+      "reason": "Correcting the arrow direction.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 323,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+          "evidence": "This note shares a line with b003. The arrow from b003 crosses the gutter toward the fol. 162 entry that has a matching arrow at a corresponding height.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 323,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 167 (8) Brahmavidāśīrvādapaddhati",
+          "evidence": "This note shares a line with b003. That line is joined by an arrow-and-dash line across the gutter from the fol. 162 margin, at the height of this fol. 162 entry. There is no separate matching arrow on fol. 162. The attachment is inferred from layout only.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The evidence statement misdescribed the marks.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b6ed4752-30b4-47a8-b3dc-f5b29344c95f.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b6ed4752-30b4-47a8-b3dc-f5b29344c95f/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "99045e8ad5d5273155b878e9ade1845e1dbf7d9be8a0ec22999097e54f2d3df3",
+      "bytes": 234137,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b6ed4752-30b4-47a8-b3dc-f5b29344c95f/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "00fc7277c7243822401711e92d290634cdae2fe91e1fce2d3fbb028f49e543a9",
+      "bytes": 285166,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b6ed4752-30b4-47a8-b3dc-f5b29344c95f/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "df781052ed4c19448b9ac4143bf7b259971b247caf1543228454576c1d64b1f0",
+      "bytes": 286659,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b6ed4752-30b4-47a8-b3dc-f5b29344c95f/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2e1c0e45bb1d2d797e9de3514771cc372be4f80d74ab40bd28457bc86f6dcc1c",
+      "bytes": 288949,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b6ed4752-30b4-47a8-b3dc-f5b29344c95f/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "774077c369b4a8de761b2ebf7d695544a6b4d4909a1dabe47370e34e4a56ead6",
+      "bytes": 266301,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b6ed4752-30b4-47a8-b3dc-f5b29344c95f/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "046b76b876a8478b31c277a4f51ee089285b8f54a94f03c44d56e8237dfb495b",
+      "bytes": 297214,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b6ed4752-30b4-47a8-b3dc-f5b29344c95f/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1c7c57c93b0288b4b02c5489b5cb29dc5acc48216f47c591800222ffc9339dff",
+      "bytes": 312247,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72cc7a8e-f849-4b6e-b50b-8672306c898d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "68f7af563f4dd2e3af78011586c7182349ad3992954cfe07c32487dacf2ac878",
+      "bytes": 267616,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 321,
+      "folio_label": "fol. 161",
+      "page_id": "72cc7a8e-f849-4b6e-b50b-8672306c898d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c6c1bf11-827f-4299-8b0f-5c4ecbe6d9fe/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a11380702a5d8d7d4878aec4886498dd1e1ccaf0df25a4874cfa78abd9eb3d9e",
+      "bytes": 251810,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 323,
+      "folio_label": "fol. 162",
+      "page_id": "c6c1bf11-827f-4299-8b0f-5c4ecbe6d9fe",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

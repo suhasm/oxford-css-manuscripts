@@ -1,0 +1,391 @@
+{
+  "source_order": 689,
+  "folio_label": "fol. 345",
+  "page_id": "2f52d7d6-683d-451b-b26a-147ae3bc4d72",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visual_folio_note": null,
+    "visible_folio": "345",
+    "principal_page_bbox": [
+      400,
+      325,
+      2770,
+      4540
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          2885,
+          445,
+          135,
+          85
+        ],
+        "kind_hint": "page_number",
+        "anchor": "345",
+        "features": [
+          "top right corner",
+          "pencil or faint ink",
+          "foliation numeral; no catalogue text on the page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          745,
+          2662,
+          25,
+          25
+        ],
+        "description": "small dark spot in the left margin column, left of the vertical ruled margin line; not writing"
+      },
+      {
+        "bbox": [
+          1765,
+          2710,
+          65,
+          60
+        ],
+        "description": "faint grey blot or stain in the main column at mid-page; not writing"
+      },
+      {
+        "bbox": [
+          2400,
+          330,
+          770,
+          720
+        ],
+        "description": "diagonal crease and fold marks across the top right corner; paper damage, not text"
+      },
+      {
+        "bbox": [
+          425,
+          4820,
+          95,
+          50
+        ],
+        "description": "small torn or folded paper corner at the bottom gutter edge"
+      }
+    ],
+    "boundary_notes": [
+      "A fragment of the facing page (fol. [344b]) is visible at the left, x≈0–400. It is ruled and blank, and is not recorded as a target-page block.",
+      "The gutter edge lies at about x≈390–440. The page extends right to about x≈3170 and from y≈325 to y≈4865 in native coordinates."
+    ],
+    "uncertainties": [
+      "It is uncertain whether the folio numeral '345' is in pencil or faint ink."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "345",
+    "records": [],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [],
+        "explanation": "The foliation numeral '345' is in the top right corner, about bbox [2885,445,135,85]. It is recorded as visible_folio and is not a catalogue record. It looks like pencil, but faint ink cannot be ruled out."
+      }
+    ],
+    "page_annotations": [
+      "I reviewed the overview and all six native tiles, covering the top, middle and bottom, the gutter and outer margins, and the space between the lines. No catalogue text, cross-reference, heading, continuation note or marginal addition is present. The only writing is the folio numeral '345' at the top right.",
+      "The page is printed with horizontal ruled lines and a vertical margin rule at about x≈905.",
+      "Several marks are not writing. There is a small dark spot at about [745,2662,25,25] in the left margin column. There is a faint grey blot at about [1765,2710,65,60] in the main column. Diagonal crease and fold marks cross the top right corner at about [2400,330,770,720]. A small folded or torn corner sits at the bottom gutter edge at about [425,4820,95,50]. A faint diagonal crease is also visible near the lower right, at about x≈2850–3010 and y≈4470–4720.",
+      "At the left edge, x≈0–400, a strip of the facing page (source order 688, fol. [344b]) is visible. It is ruled and blank and is not transcribed as part of this page.",
+      "The adjacent page overviews were viewed for context only. Both fol. [344b] and fol. [345b] also appear blank."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "The foliation numeral '345' is at the top right. The native tile at offset x1604 puts it at about [2890,450,130,75], which agrees with the inventory bbox. Its grey tone looks like pencil, but faint ink cannot be excluded. The candidate records it correctly as visible_folio and not as a catalogue record. No other writing is near it. The crease marks nearby are paper damage, not strokes."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The medium of the folio numeral '345' (pencil or faint ink) cannot be settled from the greyscale image.",
+        "next_check": "Inspect the original page or a colour image."
+      }
+    ],
+    "boundary_review": "The facing-page strip of fol. [344b] lies at about x≈0–390. In the native tiles it is ruled and blank, with no writing running across the gutter. It is correctly excluded from the target page. The gutter shadow is at about x≈390–440. The target page runs from about x≈400 to 3170 and from y≈325 to y≈4865. The adjacent overviews for fol. [344b] and fol. [345b] show only blank ruled paper with specks and stains. There is therefore no cross-page continuation or ditto relationship to resolve.",
+    "region_review": {
+      "top": "The top edge has diagonal crease and fold damage at the top right corner. The only writing is the numeral '345'. The top band to the left of it is blank.",
+      "middle": "The ruled lines are blank. There is a dark speck at about (757,2676) in the left margin column, which is not writing. There is a faint grey stain at about (1795,2736) in the main column, which is also not writing. Other tiny paper specks are present and are not text.",
+      "bottom": "The bottom is blank down to the page edge at y≈4865. There is a small folded or torn corner at the gutter, at about [430,4815,90,55]. A faint diagonal crease runs at about x≈2870–3015 and y≈4475–4750; it is not writing. No bottom note is present.",
+      "left_margin": "The margin column between the gutter and the vertical rule at x≈905 is blank apart from the dark speck. It holds no shelfmarks, ticks or annotations.",
+      "right_margin": "The outer edge at x≈3170 is blank apart from the crease damage at the top right. There are no marginal additions.",
+      "interlinear": "No interlinear writing, cancellations or faint pencil additions were seen in any of the six native tiles."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        2885,
+        445,
+        135,
+        85
+      ],
+      "kind_hint": "page_number",
+      "anchor": "345",
+      "features": [
+        "top right corner",
+        "pencil or faint ink",
+        "foliation numeral; no catalogue text on the page"
+      ]
+    }
+  ],
+  "reviewed_records": [],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": [
+      "b001"
+    ]
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": [
+      "b001"
+    ]
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2f52d7d6-683d-451b-b26a-147ae3bc4d72.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f52d7d6-683d-451b-b26a-147ae3bc4d72/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "0e9a9cc64429fac586eab1835af44e6d49e17640dfee6ec46d66bac6fb30d9c2",
+      "bytes": 298621,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f52d7d6-683d-451b-b26a-147ae3bc4d72/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "28be58a4ca0a21f800385e2c606a2010a90d54167387ad4ee7fd104dbee130a9",
+      "bytes": 413785,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f52d7d6-683d-451b-b26a-147ae3bc4d72/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "00c106d9d0678c61b95a37c4b7228aa26f087b83da9d0321b2dc0b0105e2d971",
+      "bytes": 380570,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f52d7d6-683d-451b-b26a-147ae3bc4d72/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "70c9f5e7a916fadb9afd708d5b3821dc9ef2cccfd2259ed5e205ea55e3a6db62",
+      "bytes": 414672,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f52d7d6-683d-451b-b26a-147ae3bc4d72/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "08aaefd2b617de96e7ec99800423ff9a45c80a0e62d9199502212e5771138b1d",
+      "bytes": 403200,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f52d7d6-683d-451b-b26a-147ae3bc4d72/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "327fd489a846269e258efaa537f4e4313d897dffa20a494714d8ad69c247cc08",
+      "bytes": 401835,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f52d7d6-683d-451b-b26a-147ae3bc4d72/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7e41f1ae86aca2f7ca03a39ec07931b7c43f16abe8bf727462c8378d74cd8892",
+      "bytes": 380294,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98b653a4-b04e-4137-9bf4-45dbbdc73098/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "1f5882d5f3639fb2e030b37b3af4d7226cec14e48ec94591b2404e32ae392fb4",
+      "bytes": 143413,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 688,
+      "folio_label": "fol. [344b]",
+      "page_id": "98b653a4-b04e-4137-9bf4-45dbbdc73098",
+      "native_dimensions": [
+        3507,
+        5119
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15c1aad2-0fbb-439d-9702-d95eebc83c4d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d7c47b66255863a98386edf97c3ed4618992d88be0dca98a0cd6e369350ef95f",
+      "bytes": 181239,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 690,
+      "folio_label": "fol. [345b]",
+      "page_id": "15c1aad2-0fbb-439d-9702-d95eebc83c4d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

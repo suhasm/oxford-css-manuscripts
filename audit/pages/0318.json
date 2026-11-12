@@ -1,0 +1,569 @@
+{
+  "source_order": 318,
+  "folio_label": "fol. 159b",
+  "page_id": "e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "159b",
+    "principal_page_bbox": [
+      290,
+      265,
+      2860,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          315,
+          150,
+          135
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "159b",
+        "features": [
+          "top left corner",
+          "b written superscript to 159",
+          "dark pencil/ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          430,
+          4160,
+          2370,
+          110
+        ],
+        "kind_hint": "unattached_annotation_note",
+        "anchor": "differs fr[om] the texts usually called by this name . Look up: is this Taitt. Up., Brahmavalli?",
+        "features": [
+          "single handwritten line at the bottom of the page",
+          "'the' added interlinearly above with a caret",
+          "ends in a question mark",
+          "no shelfmark on this page",
+          "likely relates to an arrow in the margin of facing fol. 160 at the Brahma Upaniṣad entry (b. 99), but attachment is not evidenced on this page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1145,
+          475,
+          30,
+          30
+        ],
+        "description": "small dark dot or spot near the top centre"
+      },
+      {
+        "bbox": [
+          1250,
+          1500,
+          90,
+          1800
+        ],
+        "description": "faint marks and specks in the middle of the page; paper flaws, not text"
+      },
+      {
+        "bbox": [
+          3125,
+          1550,
+          100,
+          2600
+        ],
+        "description": "long vertical crease or fold or tear line near the gutter; not writing"
+      }
+    ],
+    "boundary_notes": [
+      "Faint mirrored writing showing through from the recto (fol. 159) appears across the ruled lines; it is not transcribed as target text.",
+      "At the right edge beyond the gutter (x>3150) are fragments of facing fol. 160: 'd. 5' at top right (~3420,650), and lower down tick marks '√', an arrow '←' and 'See Taitt. U.' (~3210-3508, 4000-4380). These belong to fol. 160's margin and are not target-page records."
+    ],
+    "uncertainties": [
+      "The reading of 'fr[om]' in the bottom note is uncertain because the word is abbreviated or cursive; 'Brahmavalli' is also an uncertain reading of the cursive script.",
+      "It is not clear whether the bottom note was meant to annotate the Brahma Upaniṣad entry on fol. 160."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "159b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "159b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner, dark pencil. The 'b' is written superscript to '159' and followed by a small stroke or point.",
+          "The superscript letter resembles '6' or 'b'. It is read as 'b' to agree with the folio label 'fol. 159b'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript character could be read as 'b' or '6'."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "bottom_note",
+        "literal_text": "differs fro[m?] ^the texts usually called by this name . Look up: is [this?] Taitt. Up., Brahmavalli[?]?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Single handwritten line in ink near the bottom of the page, at about y≈4200.",
+          "'the' is written interlinearly above the line, with a caret below, between 'fro[m]' and 'texts'.",
+          "The note ends with a question mark.",
+          "There is no shelfmark, title or other holding data on this page. The note begins mid-thought ('differs ...') with no stated subject."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 319,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Brahma Upaniṣad entries near the bottom of fol. 160 (√ b. 99(3)… with marginal '←' and 'See Taitt. U.')",
+            "evidence": "The facing fol. 160 has an arrow '←' and a 'See Taitt. U.' note in its left margin at roughly the same height as this note. Their fragments are visible at the right edge of the target image. No connecting mark is visible on this page itself.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'fro[m?]' is cursive or abbreviated.",
+          "'this' may possibly be read as 'then'.",
+          "'Brahmavalli' is an uncertain reading of cursive script; a long-vowel mark may be present on the final i.",
+          "The attachment to the fol. 160 entry is not evidenced on this page."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number recorded as non-catalogue text."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Bottom note recorded as an unattached annotation with a possible attachment to fol. 160."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the ruled page is blank on image review.",
+      "Faint mirrored show-through of writing from the recto (fol. 159) is visible across the ruled lines. It is not target text and is not transcribed.",
+      "A small dark dot near the top centre (~1150,490) and scattered specks in the middle of the page are paper flaws, not writing.",
+      "A long vertical crease or fold line near the gutter (~x 3130-3200, y 1550-4160) is not writing.",
+      "Fragments of facing fol. 160 appear beyond the gutter at the right edge: 'd. 5' at the top right, and '√' ticks, '←' and 'See Taitt. U.' lower down. They belong to fol. 160 and are not target-page records."
+    ],
+    "unresolved_relationships": [
+      "Whether the bottom note on fol. 159b annotates the Brahma Upaniṣad entry (b. 99(3)) on fol. 160 is not established from this page."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left page number reads '159' with a superscript character and a following point or stroke. The superscript is shaped like 'b' or '6'. The candidate keeps this ambiguity, and the reading 'b' agrees with the supplied folio label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The bottom line runs across both lower tiles (about x 430–2780, y 4160–4270). It is represented once, with no duplication from the tile overlap. The interlinear 'the' with a caret below sits between 'fro[m]' and 'texts'. The word after 'is' could be 'this' or 'then', and the final word reads 'Brahmavalli' with a possible mark over the last letter. The candidate keeps all of these uncertainties."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "It is not evidenced on this page whether the note belongs to the Brahma Upaniṣad entries on fol. 160. Those entries carry a '←' at b. 99(3) and 'See Taitt. U.' beside a cancelled line. No linking mark crosses the gutter.",
+        "next_check": "Compare the ink and hand of the note with the fol. 160 marginalia, and look for any connecting sign at the gutter in a higher-resolution image of fol. 160."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several cursive readings remain uncertain: 'fro[m]', 'this'/'then', and the final letter or mark of 'Brahmavalli'.",
+        "next_check": "Inspect the note at higher magnification. Do not normalise the readings."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The superscript character of the page number has a 'b'/'6' letterform ambiguity.",
+        "next_check": "Compare it with other verso page numbers in the same hand."
+      }
+    ],
+    "boundary_review": "Fragments beyond the gutter at the right edge belong to facing fol. 160 and are not target records. These are 'd. 5' at the top right, and lower down a small mark above a '√', a second '√', a '←', and 'See Taitt. U.' (about x 3210–3508, y 3990–4380). Faint mirrored show-through from fol. 159 recto is visible throughout and is not transcribed. Attachment of the bottom note to fol. 160 remains unresolved.",
+    "region_review": {
+      "top": "Only the page number '159' with its superscript is present. A dark dot near (1160,490) is a mark, not text. The 'd. 5' at the far right belongs to the facing page.",
+      "middle": "The ruled lines are blank apart from show-through and paper specks. A vertical crease or fold runs near x 3130–3200, y 1550–3770. There is no writing.",
+      "bottom": "A single ink note sits at about y 4200 and is represented as r002. The lines below it to the paper edge are blank apart from show-through.",
+      "left_margin": "Ruling and ticks at the binding edge, with show-through only. No added writing.",
+      "right_margin": "The gutter crease and facing fol. 160 fragments are visible (ticks, arrow, 'See Taitt. U.'). They are excluded as non-target material.",
+      "interlinear": "The only interlinear item is 'the' with a caret, inserted in the bottom note. It is represented in r002."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        315,
+        150,
+        135
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "159b",
+      "features": [
+        "top left corner",
+        "b written superscript to 159",
+        "dark pencil/ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        430,
+        4160,
+        2370,
+        110
+      ],
+      "kind_hint": "unattached_annotation_note",
+      "anchor": "differs fr[om] the texts usually called by this name . Look up: is this Taitt. Up., Brahmavalli?",
+      "features": [
+        "single handwritten line at the bottom of the page",
+        "'the' added interlinearly above with a caret",
+        "ends in a question mark",
+        "no shelfmark on this page",
+        "likely relates to an arrow in the margin of facing fol. 160 at the Brahma Upaniṣad entry (b. 99), but attachment is not evidenced on this page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "159b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner, dark pencil. The 'b' is written superscript to '159' and followed by a small stroke or point.",
+        "The superscript letter resembles '6' or 'b'. It is read as 'b' to agree with the folio label 'fol. 159b'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript character could be read as 'b' or '6'."
+      ],
+      "stable_id": "css-prod-0318-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "bottom_note",
+      "literal_text": "differs fro[m?] ^the texts usually called by this name . Look up: is [this?] Taitt. Up., Brahmavalli[?]?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Single handwritten line in ink near the bottom of the page, at about y≈4200.",
+        "'the' is written interlinearly above the line, with a caret below, between 'fro[m]' and 'texts'.",
+        "The note ends with a question mark.",
+        "There is no shelfmark, title or other holding data on this page. The note begins mid-thought ('differs ...') with no stated subject."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 319,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Brahma Upaniṣad entries near the bottom of fol. 160 (√ b. 99(3)… with marginal '←' and 'See Taitt. U.')",
+          "evidence": "The facing fol. 160 has an arrow '←' and a 'See Taitt. U.' note in its left margin at roughly the same height as this note. Their fragments are visible at the right edge of the target image. No connecting mark is visible on this page itself.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'fro[m?]' is cursive or abbreviated.",
+        "'this' may possibly be read as 'then'.",
+        "'Brahmavalli' is an uncertain reading of cursive script; a long-vowel mark may be present on the final i.",
+        "The attachment to the fol. 160 entry is not evidenced on this page."
+      ],
+      "stable_id": "css-prod-0318-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "13f01668562bbc24535c48e7a3e2b6debfd94a930a5b99aab1278364a2cbbd97",
+      "bytes": 239167,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "553d03988ba92513f724bebf790a60bd5e0d293e18fd1bbe146d2c1d1858bcd3",
+      "bytes": 303132,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4efe167bf3ba3f7e1f51c87a2c7cb78d6a5c44443084f06235d94cedc9d0ef1b",
+      "bytes": 288250,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "82d89eb6ebf8005472896b01e5341faa3602d1f199a0b5f9e1782727c85baf76",
+      "bytes": 295879,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b2d8e7e7341e0ca89e800e754bc7a73d8002067920c56b301876a8bbb2f88f39",
+      "bytes": 268866,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c696217442e71808ceb2a107bf0368be3ef409c765102e8f2ddd9bef775929c6",
+      "bytes": 321599,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e4a5f3e8-d6a6-4a4d-b5d6-98adf99d9ec4/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0354ecb8b0e9a72e69e2c683d698ca4b1540bb0057c47b1caf44cba501137a80",
+      "bytes": 319315,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/16bcd429-3c74-4a7f-8d0d-4188216396a7/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "9b4b6150f3446382e783b6351a01ed8070fc72187e4cc474b481251d413d94e7",
+      "bytes": 256032,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 317,
+      "folio_label": "fol. 159",
+      "page_id": "16bcd429-3c74-4a7f-8d0d-4188216396a7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/870219c7-2717-4f70-8fe3-ab6ad1792601/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5ff389201e1a1089a1d22d2ed8a3325298bac26241ef5a2f19185f9696dcd093",
+      "bytes": 254596,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 319,
+      "folio_label": "fol. 160",
+      "page_id": "870219c7-2717-4f70-8fe3-ab6ad1792601",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

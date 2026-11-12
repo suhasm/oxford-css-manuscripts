@@ -1,0 +1,691 @@
+{
+  "source_order": 174,
+  "folio_label": "fol. 87b",
+  "page_id": "80fde3f7-7c47-4712-9185-f2119e2d02d6",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "87b",
+    "principal_page_bbox": [
+      300,
+      280,
+      2900,
+      4620
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          370,
+          330,
+          150,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "87^b",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          390,
+          2015,
+          1900,
+          140
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "e R. 39(10)  Jyotiṣṭoma pitṛtvaprayoga[?]. Ritual. Begins with[?]",
+        "features": [
+          "ink",
+          "shelfmark in left column",
+          "letter before '39' appears overwritten or blotted ('R.'?)",
+          "dots under ṣṭ",
+          "title not underlined"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1205,
+          2180,
+          580,
+          85
+        ],
+        "kind_hint": "continuation_line_of_entry",
+        "anchor": "Āśval. ś[?]. S., i.23.12.",
+        "features": [
+          "ink",
+          "indented second line of b002",
+          "macron and acute on Ā/ś"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2505,
+          2185,
+          450,
+          60
+        ],
+        "kind_hint": "date_extent_column",
+        "anchor": "n.d.: 5: 10: D",
+        "features": [
+          "ink",
+          "right-hand data column on the same line as b003",
+          "belongs to b002 entry"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          415,
+          3720,
+          95,
+          80
+        ],
+        "description": "Small ink blot or smudge in the left margin of the lower page; no legible text."
+      },
+      {
+        "bbox": [
+          1080,
+          3310,
+          40,
+          40
+        ],
+        "description": "Scattered specks and dots on the lower page; non-textual."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the canvas (x greater than about 3160) shows the gutter, the binding thread and the left margin of facing fol. 88. The pencil '5/' (top and bottom), the pencil 'y?', the ink arrow (about [3200,2100,240,70]) and the partial letters at the far right all belong to fol. 88. They match its left-margin marks in the adjacent overview and are not recorded as target blocks.",
+      "Faint mirror-image traces of writing visible across the ruled lines are show-through from the reverse side, not target text."
+    ],
+    "uncertainties": [
+      "The reading of the shelfmark letter after 'e' is unclear: it looks overwritten or blotted ('R.'?).",
+      "The title word reading 'pitṛtvaprayoga' is uncertain; it may be 'paitṛ…' or similar.",
+      "The final words of line 1 may read 'Begins with'; the hand is cursive and the reading is uncertain.",
+      "The 'ś' in 'Āśval. ś. S.' is uncertain (possibly 'ś.' or 'Ś.')."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "87b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "87^b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number in the top-left corner of the page; the 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "e R[?]. 39(10)  Jyotiṣṭoma pitṛtvaprayoga[?]. Ritual. Begins with[?]\n            Āśval. ś[?]. S., i.23.12.          n.d.: 5: 10: D",
+        "fields": {
+          "shelfmark": "e R[?]. 39(10)",
+          "title": "Jyotiṣṭoma pitṛtvaprayoga[?]",
+          "subject": "Ritual",
+          "date": "n.d.",
+          "extent": "5",
+          "lines": "10",
+          "script": "D",
+          "incipit": "Āśval. ś[?]. S., i.23.12."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink entry. The shelfmark is in the left column, and the letter after 'e' is heavily blotted or overwritten.",
+          "The title is not underlined. There are dots under the ṣṭ of Jyotiṣṭoma and under letters of the second title word.",
+          "The second line is indented and continues the first line; 'Begins with' introduces a reference rather than quoted incipit text.",
+          "The right-hand data column 'n.d.: 5: 10: D' stands on the same ruled line as the second line."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The shelfmark letter after 'e' is blotted. It may read 'R.', or it may be a blot over another letter.",
+          "The second title word could be read as 'pitṛtvaprayoga', 'paitṛ…' or something similar. The cursive hand is unclear.",
+          "'Begins with' is a probable reading of cursive script.",
+          "The 'ś' in 'Āśval. ś. S.' is written like 'f' with a dot below. It could also be read as 'Ś.'.",
+          "The gap between 'Jyotiṣṭoma' and the following word is small. The title may be intended as a single compound."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "First line of the single holding entry (shelfmark, title, subject)."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Indented continuation line of the same entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Date, extent, lines and script column for the same entry."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper; image review covered the top, bottom and both margins.",
+      "A small ink blot or smudge sits in the lower left margin at about [415,3720,95,80]. It has no legible text.",
+      "Scattered specks and dots appear elsewhere on the page; they are non-textual.",
+      "Faint mirror-image show-through from the reverse side is visible and was not transcribed.",
+      "Marks right of the gutter (x > c.3160) belong to the facing fol. 88 and were not recorded here. These are the pencil '5/' (top and bottom), the pencil 'y?' or similar, the ink arrow and partial letters."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '87' with a superscript 'b' is in the top-left corner, at about [380,340,140,110] in tile 1. The transcription '87^b' agrees with the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the first ink line, at about y≈2045–2145. The letter after 'e' is heavily inked or blotted and reads like 'R.'. The second title word is cursive. Its second letter resembles 'o' at least as much as 'i', so the reading is uncertain. The line ends with a cursive phrase read as 'Begins with'. All of this is captured in r002, with the uncertainty noted."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the indented second line, 'Āśval. ś[?]. S., i.23.12.'. The macron over Ā and the acute on ś are visible. The middle abbreviation is a long-s or 'f'-like letter with a dot below. The line is correctly grouped with b002."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The data column 'n.d.: 5: 10: D' is on the same ruled line as b003. There is a short stroke after 'D', probably a full stop or dash. It is correctly attached to r002."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The shelfmark letter after 'e' is blotted. It may read 'R.', or it may be a blot over another letter.",
+          "The second title word could be read as 'pitṛtvaprayoga', 'paitṛ…' or something similar. The cursive hand is unclear.",
+          "'Begins with' is a probable reading of cursive script.",
+          "The 'ś' in 'Āśval. ś. S.' is written like 'f' with a dot below. It could also be read as 'Ś.'.",
+          "The gap between 'Jyotiṣṭoma' and the following word is small. The title may be intended as a single compound."
+        ],
+        "after": [
+          "The shelfmark letter after 'e' is blotted. It may read 'R.', or it may be a blot over another letter.",
+          "The second title word could be read as 'pitṛtvaprayoga', 'potṛtvaprayoga' or 'paitṛ…'. The second letter looks as much like 'o' as 'i', and there is a dot below the following 't/ṛ' area. The cursive hand is unclear and no reading is secure.",
+          "'Begins with' is a probable reading of cursive script.",
+          "The 'ś' in 'Āśval. ś. S.' is written like 'f' with a dot below. It could also be read as 'Ś.'.",
+          "The gap between 'Jyotiṣṭoma' and the following word is small. The title may be intended as a single compound.",
+          "The field labelled 'incipit' holds a textual reference introduced by 'Begins with'. It is not quoted incipit wording."
+        ],
+        "reason": "Native tile review shows the second letter of the second title word as an 'o'-like loop. The alternative reading should be recorded rather than favouring 'pitṛ'. The incipit field also needs qualifying, because the content is a reference, not quoted text.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "An ink arrow on the fol. 88 side of the gutter begins at about y≈2150, level with this entry, and points right. On the fol. 88 overview it points toward the Jyotiṣṭoma (f. 4) group. It may mark where this 87b entry is to be inserted. Its attachment to r002 is not established from the images.",
+        "next_check": "Compare the arrow tail position and ink with the r002 lines and the fol. 88 Jyotiṣṭoma entries at native resolution on fol. 88."
+      }
+    ],
+    "boundary_review": "The target page runs from about x 320 to the gutter at x≈3160. The thread, the '1'-like thread end, the pencil '5/' marks, the pencil 'y?', the ink arrow and the partial letters at the far right all belong to the left margin of fol. 88. On the fol. 88 overview, the fragment ': D' at its far left edge is this page's 'D' and is not a fol. 88 record. The only possible cross-page relation is the arrow, which is listed as unresolved.",
+    "region_review": {
+      "top": "Only the pencil folio number 87^b. Faint show-through is visible, but there is no other writing.",
+      "middle": "A single two-line ink entry with its data column. The rest is blank ruled paper with show-through.",
+      "bottom": "An ink blot near [415,3720] with no legible text, plus a few specks. There is no bottom note.",
+      "left_margin": "No marginal writing. The only feature is the ink blot in the lower left.",
+      "right_margin": "Gutter and thread. All marks beyond them belong to fol. 88.",
+      "interlinear": "No interlinear additions or cancellations, apart from the blotted shelfmark letter."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        370,
+        330,
+        150,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "87^b",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        390,
+        2015,
+        1900,
+        140
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "e R. 39(10)  Jyotiṣṭoma pitṛtvaprayoga[?]. Ritual. Begins with[?]",
+      "features": [
+        "ink",
+        "shelfmark in left column",
+        "letter before '39' appears overwritten or blotted ('R.'?)",
+        "dots under ṣṭ",
+        "title not underlined"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1205,
+        2180,
+        580,
+        85
+      ],
+      "kind_hint": "continuation_line_of_entry",
+      "anchor": "Āśval. ś[?]. S., i.23.12.",
+      "features": [
+        "ink",
+        "indented second line of b002",
+        "macron and acute on Ā/ś"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2505,
+        2185,
+        450,
+        60
+      ],
+      "kind_hint": "date_extent_column",
+      "anchor": "n.d.: 5: 10: D",
+      "features": [
+        "ink",
+        "right-hand data column on the same line as b003",
+        "belongs to b002 entry"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "87^b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number in the top-left corner of the page; the 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0174-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "e R[?]. 39(10)  Jyotiṣṭoma pitṛtvaprayoga[?]. Ritual. Begins with[?]\n            Āśval. ś[?]. S., i.23.12.          n.d.: 5: 10: D",
+      "fields": {
+        "shelfmark": "e R[?]. 39(10)",
+        "title": "Jyotiṣṭoma pitṛtvaprayoga[?]",
+        "subject": "Ritual",
+        "date": "n.d.",
+        "extent": "5",
+        "lines": "10",
+        "script": "D",
+        "incipit": "Āśval. ś[?]. S., i.23.12."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink entry. The shelfmark is in the left column, and the letter after 'e' is heavily blotted or overwritten.",
+        "The title is not underlined. There are dots under the ṣṭ of Jyotiṣṭoma and under letters of the second title word.",
+        "The second line is indented and continues the first line; 'Begins with' introduces a reference rather than quoted incipit text.",
+        "The right-hand data column 'n.d.: 5: 10: D' stands on the same ruled line as the second line."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The shelfmark letter after 'e' is blotted. It may read 'R.', or it may be a blot over another letter.",
+        "The second title word could be read as 'pitṛtvaprayoga', 'paitṛ…' or something similar. The cursive hand is unclear.",
+        "'Begins with' is a probable reading of cursive script.",
+        "The 'ś' in 'Āśval. ś. S.' is written like 'f' with a dot below. It could also be read as 'Ś.'.",
+        "The gap between 'Jyotiṣṭoma' and the following word is small. The title may be intended as a single compound."
+      ],
+      "stable_id": "css-prod-0174-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The shelfmark letter after 'e' is blotted. It may read 'R.', or it may be a blot over another letter.",
+        "The second title word could be read as 'pitṛtvaprayoga', 'paitṛ…' or something similar. The cursive hand is unclear.",
+        "'Begins with' is a probable reading of cursive script.",
+        "The 'ś' in 'Āśval. ś. S.' is written like 'f' with a dot below. It could also be read as 'Ś.'.",
+        "The gap between 'Jyotiṣṭoma' and the following word is small. The title may be intended as a single compound."
+      ],
+      "after": [
+        "The shelfmark letter after 'e' is blotted. It may read 'R.', or it may be a blot over another letter.",
+        "The second title word could be read as 'pitṛtvaprayoga', 'potṛtvaprayoga' or 'paitṛ…'. The second letter looks as much like 'o' as 'i', and there is a dot below the following 't/ṛ' area. The cursive hand is unclear and no reading is secure.",
+        "'Begins with' is a probable reading of cursive script.",
+        "The 'ś' in 'Āśval. ś. S.' is written like 'f' with a dot below. It could also be read as 'Ś.'.",
+        "The gap between 'Jyotiṣṭoma' and the following word is small. The title may be intended as a single compound.",
+        "The field labelled 'incipit' holds a textual reference introduced by 'Begins with'. It is not quoted incipit wording."
+      ],
+      "reason": "Native tile review shows the second letter of the second title word as an 'o'-like loop. The alternative reading should be recorded rather than favouring 'pitṛ'. The incipit field also needs qualifying, because the content is a reference, not quoted text.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/80fde3f7-7c47-4712-9185-f2119e2d02d6.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80fde3f7-7c47-4712-9185-f2119e2d02d6/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "66d25de0eedc9481e6d021db7e14e32a7b2f3fe0e9cb73f9f87dadffc0c25033",
+      "bytes": 253577,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80fde3f7-7c47-4712-9185-f2119e2d02d6/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8066e59157132362d945a8920af01ed206efb438f2f82a1a5b88f09d28395af9",
+      "bytes": 299383,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80fde3f7-7c47-4712-9185-f2119e2d02d6/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "72eef71995d59aea4516cd8b54f3e2fb971fa4b5bfec08c644a4863117a2d800",
+      "bytes": 304434,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80fde3f7-7c47-4712-9185-f2119e2d02d6/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6390e98c8b123a2cf40d29bfabd0ca2a0a7ca8cfb3fcbcbd8bca9536c0883391",
+      "bytes": 339862,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80fde3f7-7c47-4712-9185-f2119e2d02d6/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f4392805d7d43ca8b05b2e4881b97485d495498cdcd267e9c6d99396492df4d3",
+      "bytes": 305408,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80fde3f7-7c47-4712-9185-f2119e2d02d6/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4621d1b11ce2512507ba291742f80e6c4b1bfe27344d0ce48479d95a34487791",
+      "bytes": 306441,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/80fde3f7-7c47-4712-9185-f2119e2d02d6/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "efc93a49571e6ff8ba782d92a647638fe30b50b1bdb1dcc4fc308f235556a1fd",
+      "bytes": 317885,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6f095924-3422-415f-b40c-e6eec74af512/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c41efa0349f06891a94cbb4a34dc53d07478c70f1ede478e3068a0de91738137",
+      "bytes": 255865,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 173,
+      "folio_label": "fol. 87",
+      "page_id": "6f095924-3422-415f-b40c-e6eec74af512",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca45e1c8-bd30-479e-bfb4-6c907e3e488d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e4f90d4a6619ec188ca23e5ded566983b78a695852fa36b33fc8a4504a06754a",
+      "bytes": 275862,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 175,
+      "folio_label": "fol. 88",
+      "page_id": "ca45e1c8-bd30-479e-bfb4-6c907e3e488d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

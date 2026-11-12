@@ -1,0 +1,1368 @@
+{
+  "source_order": 406,
+  "folio_label": "fol. 203b",
+  "page_id": "d27b3265-4c04-4f27-8f80-d1a2f1702b17",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "203b.",
+    "principal_page_bbox": [
+      280,
+      285,
+      2880,
+      4555
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          340,
+          330,
+          150,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "203b.",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          340,
+          2240,
+          2570,
+          150
+        ],
+        "kind_hint": "marginal_note_attached_by_arrow",
+        "anchor": "ff.1-7, S.1849. Begins Tatra ... etc.",
+        "features": [
+          "single line",
+          "extent",
+          "date",
+          "incipit in transliteration",
+          "leftward arrow at about x 3010-3240, y 2300 runs from across the gutter toward the note"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          360,
+          3360,
+          2610,
+          130
+        ],
+        "kind_hint": "marginal_note_attached_by_arrow",
+        "anchor": "ff.1-5 (colophon apparently added to incomplete MS.). S.1830, Śake 1695 ... RLM, V, 1796.",
+        "features": [
+          "two lines",
+          "extent",
+          "dates",
+          "scribe named",
+          "place",
+          "bibliographic reference",
+          "leftward arrow at about x 3015-3090, y 3390"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2240,
+          3580,
+          670,
+          100
+        ],
+        "kind_hint": "marginal_note_attached_by_arrow",
+        "anchor": "Property of Bāla Mukunda",
+        "features": [
+          "single line",
+          "ownership note",
+          "leftward arrow at about x 3005-3100, y 3630"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          540,
+          4300,
+          1000,
+          90
+        ],
+        "kind_hint": "marginal_note_attached_by_arrow",
+        "anchor": "title quite uncertain, ff 1-6, inc.",
+        "features": [
+          "single line",
+          "insertion caret after 'uncertain'",
+          "leftward arrow at about x 2980-3230, y 4316 runs from across the gutter"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          960,
+          4250,
+          250,
+          60
+        ],
+        "kind_hint": "interlinear_addition",
+        "anchor": "but see d.86(2)",
+        "features": [
+          "small writing",
+          "interlinear",
+          "above 'uncertain'",
+          "keyed by caret into b005"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          1490,
+          4410,
+          1280,
+          120
+        ],
+        "kind_hint": "note_or_continuation",
+        "anchor": "from the Prayaścittaprakaraṇa (i.e. part of a larger work?), ff. 1-6",
+        "features": [
+          "single line",
+          "extent",
+          "no arrow visible",
+          "relation to b005 or to a facing-page entry is unclear"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2750,
+          2020,
+          50,
+          80
+        ],
+        "description": "Isolated pencil or ink question mark in the upper-middle right area. It has no adjacent text on this page."
+      },
+      {
+        "bbox": [
+          3130,
+          600,
+          80,
+          60
+        ],
+        "description": "Sewing or stitch mark at the gutter, top. Further stitch marks appear at about y 2480 and y 3550."
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2850,
+          4000
+        ],
+        "description": "Faint mirror-image show-through of catalogue entries from the reverse side, together with the ruled lines. This is not text written on the target page."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter is at about x 3160. Everything to its right (d., e., f. shelfmarks, ticks, 'V.S. Tattva...', 'see Pariśiṣṭa', '?wrapped', a circled 'e.' and a curved arrow) belongs to the facing fol. 204 and is not inventoried here.",
+      "The arrows of b002 to b005 have their tails at or beyond the gutter. The notes therefore appear attached to particular entries on facing fol. 204. The exact parent entries are not determined here."
+    ],
+    "uncertainties": [
+      "Readings of the anchors are tentative because the cursive is small. Examples are 'S.1849', the scribe name in b003 and 'd.86(2)'.",
+      "It is uncertain whether b007 continues b005 or is a separate note for another facing-page entry.",
+      "The question mark may be show-through or a stray query mark."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "203b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "203b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number at the top-left corner; the 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_note_attached_by_arrow",
+        "literal_text": "ff.1-7, S.1849. Begins Tatra prasaramūlanakṣatrāt dvitīyamūlanakṣatre susnātaḥ sapatniko yajamānaḥ [svācāntaḥ?] etc.",
+        "fields": {
+          "extent": "ff.1-7",
+          "date": "S.1849",
+          "incipit": "Tatra prasaramūlanakṣatrāt dvitīyamūlanakṣatre susnātaḥ sapatniko yajamānaḥ [svācāntaḥ?] etc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A leftward arrow at about x 3010-3240, y 2300 has its tail across the gutter on facing fol. 204 and points to the end of this note.",
+          "The note is a single line written across the ruled page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 407,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.272(3) Mūlavidhānapaddhati",
+            "evidence": "The arrow tail sits at the same height (about y 2300) as the arrow in the fol. 204 left margin beside the c.272(3) entry. The incipit concerns the Mūla nakṣatra.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'prasaramūlanakṣatrāt' is tentative.",
+          "The word read as 'svācāntaḥ' is uncertain; the letters could also be read 'svīcāmitaḥ'.",
+          "The year '1849' is a probable reading of the cursive."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_note_attached_by_arrow",
+        "literal_text": "ff.1-5 (colophon apparently added to incomplete MS.). S.1830, Śake 1695. Scribe Maheśvara [Mudgala?] s/o Śambhu Upādhyāya\nat Kāśī. RLM, V, 1796.",
+        "fields": {
+          "extent": "ff.1-5",
+          "date": "S.1830, Śake 1695",
+          "source": "RLM, V, 1796"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There are two lines of text.",
+          "A leftward arrow at about x 3015-3090, y 3390 points to the end of the first line from the gutter.",
+          "The note names a scribe, his father and a place. It does not name an author."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 407,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓d.85(1) Mūlādhyāya. By Kātyāyana.",
+            "evidence": "The arrow on the fol. 204 left margin ('...dhyāya ←') is at the corresponding height, next to d.85(1).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The scribe's second name is read tentatively as 'Mudgala'.",
+          "The reading 'Śambhu Upādhyāya' is tentative."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "ownership_note",
+        "literal_text": "Property of Bāla Mukunda",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A leftward arrow at about x 3005-3100, y 3630 points to this note from the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 407,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓d.83(1) —— D. Vaidyanātha ff.1-142",
+            "evidence": "The arrow on the fol. 204 left margin ('...nda ←') is at the same height as the d.83(1) entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": []
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005",
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_note_attached_by_arrow",
+        "literal_text": "title quite uncertain‸[but see d.86(2)] ff 1-6, inc.",
+        "fields": {
+          "extent": "ff 1-6"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'but see d.86(2)' is a small interlinear addition above 'uncertain'. A caret after 'uncertain' keys it into the line.",
+          "A long leftward arrow at about x 2980-3230, y 4316 runs from across the gutter toward this note.",
+          "'inc.' is recorded literally and has not been expanded."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 407,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓d.85(6) —— Begins:- 'Prātar agnihotraṃ hutvā'",
+            "evidence": "The arrow in the fol. 204 left margin is at the height of the d.85(6) entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "cross_reference",
+            "target_page_order": 407,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d.86(2)",
+            "evidence": "The interlinear text 'but see d.86(2)'. The shelfmark d.86(2) also appears at the foot of fol. 204.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'd.86(2)' of the small interlinear text is tentative."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b007"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "note_ambiguously_attached",
+        "literal_text": "from the Prayaścittaprakaraṇa (i.e. part of a larger work?), ff. 1-6",
+        "fields": {
+          "extent": "ff. 1-6"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is no arrow next to this note."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 407,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓d.153(2) —— Begins:- 'Prāyaścittaprakaraṇa mṛgāreṣṭikaraṇam...'",
+            "evidence": "The note lies at about the height of the d.153(2) entry on fol. 204, and the wording matches that entry's incipit. No arrow is visible.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 406,
+            "target_record_id": "r005",
+            "target_block_id": "b005",
+            "target_anchor": "title quite uncertain ... ff 1-6, inc.",
+            "evidence": "The note sits immediately below b005 and gives the same extent, ff. 1-6.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear whether this note continues b005 or is a separate note for another entry on the facing page.",
+          "The accentuation of 'Prayaścitta' in the handwriting is uncertain."
+        ]
+      },
+      {
+        "id": "r007",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "query_mark",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "An isolated question mark in the upper-middle right area. There is no adjacent text on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The mark may be a stray query mark rather than show-through. Its attachment is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2745,
+          2015,
+          60,
+          90
+        ],
+        "kind_hint": "isolated_mark",
+        "anchor": "?",
+        "features": [
+          "isolated question mark",
+          "no adjacent text",
+          "listed under unattached_marks in the inventory"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrowed note giving extent, date and incipit, probably for an entry on fol. 204."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrowed two-line note giving extent, dates, scribe, place and a reference."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrowed ownership note."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Arrowed note. It is combined with its caret-keyed interlinear addition b006."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Interlinear addition keyed by a caret into b005."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Note with no arrow. Its attachment is ambiguous."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r007"
+        ],
+        "explanation": "Isolated question mark."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise empty apart from show-through from the reverse side and the ruled lines.",
+      "Material to the right of the gutter (about x 3160) belongs to fol. 204 and has not been transcribed.",
+      "Stitch marks are visible at the gutter."
+    ],
+    "unresolved_relationships": [
+      "The parent entries on fol. 204 for b002-b005 are inferred from the heights of the arrows and are probable only.",
+      "The attachment of b007 is unresolved: it may relate to d.153(2) on fol. 204 or continue b005."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio label '203b.' is written in ink at the top left. The 'b' is raised. The record is accurate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single-line note is present at about y 2300 with the arrow from the gutter. The word after 'S.1849.' looks like 'Begin' rather than clearly 'Begins'. A final 's' cannot be confirmed. 'svācāntaḥ' remains uncertain. The written form looks closer to 'svīcāmitaḥ'/'svācāmitaḥ'."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Two lines are present: 'ff.1-5 (colophon ...). S.1830, Śake1695. Scribe Maheśvara Mudgala s/o Śambhu Upādhyāya / at Kāśī. RLM, V, 1796.' The arrow is at about y 3390. The readings are adequately flagged."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'Property of Bāla Mukunda' is present with an arrow at about y 3630."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The line 'title quite uncertain ... ff 1-6, inc.' is present. The arrow spans about x 2980-3230, y about 4340. The mark after 'uncertain' is small and below the baseline. It is probably a caret but could be a comma."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Small interlinear 'but see d.86(2)' above 'uncertain'. It is correctly merged into r005."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "'from the Prayaścittaprakaraṇa (i.e. part of a larger work?), ff. 1-6'. No arrow was seen on re-inspection. Its attachment remains ambiguous."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r007"
+        ],
+        "finding": "An ink question mark at about (2750,2020). It is crisp and dark, unlike the faint show-through, so it is probably a genuine written mark. Its attachment is unknown."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff.1-7, S.1849. Begins Tatra prasaramūlanakṣatrāt dvitīyamūlanakṣatre susnātaḥ sapatniko yajamānaḥ [svācāntaḥ?] etc.",
+        "after": "ff.1-7, S.1849. Begin[s?] Tatra prasaramūlanakṣatrāt dvitīyamūlanakṣatre susnātaḥ sapatniko yajamānaḥ [svācāntaḥ?] etc.",
+        "reason": "In the native tile the word reads 'Begin'. A terminal 's' is not clearly visible."
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 407,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓d.85(1) Mūlādhyāya. By Kātyāyana.",
+            "evidence": "The arrow on the fol. 204 left margin ('...dhyāya ←') is at the corresponding height, next to d.85(1).",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 407,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓d.85(1) Mū[l?]yādhyāya [reading of facing-page title uncertain]. By Kātyāyana.",
+            "evidence": "The arrow on the fol. 204 left margin ('...dhyāya ←') is at the corresponding height (about y 3380 native), next to d.85(1). The facing-page title appears to read 'Mūlyādhyāya' rather than 'Mūlādhyāya' at context resolution.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The context image of the facing-page anchor does not clearly support 'Mūlādhyāya'.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "uncertainties",
+        "before": [
+          "The reading 'd.86(2)' of the small interlinear text is tentative."
+        ],
+        "after": [
+          "The reading 'd.86(2)' of the small interlinear text is tentative.",
+          "The mark after 'uncertain' is small and below the line. It is probably an insertion caret but could be a comma."
+        ],
+        "reason": "On re-inspection the mark's form is ambiguous.",
+        "source_block_ids": [
+          "b005",
+          "b006"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The reading 'prasaramūlanakṣatrāt' is tentative.",
+          "The word read as 'svācāntaḥ' is uncertain; the letters could also be read 'svīcāmitaḥ'.",
+          "The year '1849' is a probable reading of the cursive."
+        ],
+        "after": [
+          "The reading 'prasaramūlanakṣatrāt' is tentative.",
+          "The word read as 'svācāntaḥ' is uncertain; the letters could also be read 'svīcāmitaḥ'.",
+          "The year '1849' is a probable reading of the cursive.",
+          "'Begin' versus 'Begins' is uncertain; no clear final 's'."
+        ],
+        "reason": "Documents the new uncertainty.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b007",
+          "b005"
+        ],
+        "issue": "b007 has no arrow. It may belong to d.153(2) on fol. 204 (same height; the wording echoes that entry's incipit) or continue b005 (same extent, ff. 1-6).",
+        "next_check": "Compare ink and pen with b005 and examine fol. 204 at native resolution near d.153(2) for a faint arrow or keying mark."
+      },
+      {
+        "record_id": "r007",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The query mark has no identifiable referent on this page. It may refer to a fol. 204 entry at about the same height (around c.292(5)).",
+        "next_check": "Compare heights with fol. 204 entries at native resolution."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The cross-reference 'd.86(2)' is tentative. The facing page shows '✓d.86(2)' at its foot.",
+        "next_check": "Examine the interlinear text at higher magnification."
+      }
+    ],
+    "boundary_review": "The gutter is at about x 3160. Shelfmarks (d., e., f.), ticks, 'V.S. Tattva...', 'ff.1-', 'see Pariśiṣṭa', '?wrapped', the circled 'e.' and the curved arrow to the right of the gutter belong to fol. 204 and are excluded. The arrows of b002-b005 cross the gutter. Their facing-page targets (c.272(3), d.85(1), d.83(1), d.85(6)) align by height and are probable only. Fragments '...ate ←', '...dhyāya ←', '...nda ←' in the fol. 204 image are this page's notes seen across the opening, not separate records.",
+    "region_review": {
+      "top": "Only the folio number, a stitch mark at the gutter and faint show-through are present. No other text.",
+      "middle": "The b002 note, the isolated '?' and faint mirror show-through of entries from the reverse are present. Show-through is not transcribed.",
+      "bottom": "b005, b006 and b007 are present. Below them are only show-through and the page edge. No further notes.",
+      "left_margin": "No writing. The page edges and ruling ticks are not text.",
+      "right_margin": "Arrow tails run to the gutter. Stitch marks are at about y 600, 2480 and 3550. Everything beyond belongs to fol. 204.",
+      "interlinear": "Only 'but see d.86(2)' above 'uncertain' in b005. There is also an accent mark over 'Śake' in b003, which is part of the line."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        340,
+        330,
+        150,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "203b.",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        340,
+        2240,
+        2570,
+        150
+      ],
+      "kind_hint": "marginal_note_attached_by_arrow",
+      "anchor": "ff.1-7, S.1849. Begins Tatra ... etc.",
+      "features": [
+        "single line",
+        "extent",
+        "date",
+        "incipit in transliteration",
+        "leftward arrow at about x 3010-3240, y 2300 runs from across the gutter toward the note"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        360,
+        3360,
+        2610,
+        130
+      ],
+      "kind_hint": "marginal_note_attached_by_arrow",
+      "anchor": "ff.1-5 (colophon apparently added to incomplete MS.). S.1830, Śake 1695 ... RLM, V, 1796.",
+      "features": [
+        "two lines",
+        "extent",
+        "dates",
+        "scribe named",
+        "place",
+        "bibliographic reference",
+        "leftward arrow at about x 3015-3090, y 3390"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2240,
+        3580,
+        670,
+        100
+      ],
+      "kind_hint": "marginal_note_attached_by_arrow",
+      "anchor": "Property of Bāla Mukunda",
+      "features": [
+        "single line",
+        "ownership note",
+        "leftward arrow at about x 3005-3100, y 3630"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        540,
+        4300,
+        1000,
+        90
+      ],
+      "kind_hint": "marginal_note_attached_by_arrow",
+      "anchor": "title quite uncertain, ff 1-6, inc.",
+      "features": [
+        "single line",
+        "insertion caret after 'uncertain'",
+        "leftward arrow at about x 2980-3230, y 4316 runs from across the gutter"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        960,
+        4250,
+        250,
+        60
+      ],
+      "kind_hint": "interlinear_addition",
+      "anchor": "but see d.86(2)",
+      "features": [
+        "small writing",
+        "interlinear",
+        "above 'uncertain'",
+        "keyed by caret into b005"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        1490,
+        4410,
+        1280,
+        120
+      ],
+      "kind_hint": "note_or_continuation",
+      "anchor": "from the Prayaścittaprakaraṇa (i.e. part of a larger work?), ff. 1-6",
+      "features": [
+        "single line",
+        "extent",
+        "no arrow visible",
+        "relation to b005 or to a facing-page entry is unclear"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2745,
+        2015,
+        60,
+        90
+      ],
+      "kind_hint": "isolated_mark",
+      "anchor": "?",
+      "features": [
+        "isolated question mark",
+        "no adjacent text",
+        "listed under unattached_marks in the inventory"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "203b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number at the top-left corner; the 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0406-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_note_attached_by_arrow",
+      "literal_text": "ff.1-7, S.1849. Begins Tatra prasaramūlanakṣatrāt dvitīyamūlanakṣatre susnātaḥ sapatniko yajamānaḥ [svācāntaḥ?] etc.",
+      "fields": {
+        "extent": "ff.1-7",
+        "date": "S.1849",
+        "incipit": "Tatra prasaramūlanakṣatrāt dvitīyamūlanakṣatre susnātaḥ sapatniko yajamānaḥ [svācāntaḥ?] etc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A leftward arrow at about x 3010-3240, y 2300 has its tail across the gutter on facing fol. 204 and points to the end of this note.",
+        "The note is a single line written across the ruled page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 407,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.272(3) Mūlavidhānapaddhati",
+          "evidence": "The arrow tail sits at the same height (about y 2300) as the arrow in the fol. 204 left margin beside the c.272(3) entry. The incipit concerns the Mūla nakṣatra.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'prasaramūlanakṣatrāt' is tentative.",
+        "The word read as 'svācāntaḥ' is uncertain; the letters could also be read 'svīcāmitaḥ'.",
+        "The year '1849' is a probable reading of the cursive."
+      ],
+      "stable_id": "css-prod-0406-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_note_attached_by_arrow",
+      "literal_text": "ff.1-5 (colophon apparently added to incomplete MS.). S.1830, Śake 1695. Scribe Maheśvara [Mudgala?] s/o Śambhu Upādhyāya\nat Kāśī. RLM, V, 1796.",
+      "fields": {
+        "extent": "ff.1-5",
+        "date": "S.1830, Śake 1695",
+        "source": "RLM, V, 1796"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There are two lines of text.",
+        "A leftward arrow at about x 3015-3090, y 3390 points to the end of the first line from the gutter.",
+        "The note names a scribe, his father and a place. It does not name an author."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 407,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓d.85(1) Mūlādhyāya. By Kātyāyana.",
+          "evidence": "The arrow on the fol. 204 left margin ('...dhyāya ←') is at the corresponding height, next to d.85(1).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The scribe's second name is read tentatively as 'Mudgala'.",
+        "The reading 'Śambhu Upādhyāya' is tentative."
+      ],
+      "stable_id": "css-prod-0406-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "ownership_note",
+      "literal_text": "Property of Bāla Mukunda",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A leftward arrow at about x 3005-3100, y 3630 points to this note from the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 407,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓d.83(1) —— D. Vaidyanātha ff.1-142",
+          "evidence": "The arrow on the fol. 204 left margin ('...nda ←') is at the same height as the d.83(1) entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0406-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005",
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_note_attached_by_arrow",
+      "literal_text": "title quite uncertain‸[but see d.86(2)] ff 1-6, inc.",
+      "fields": {
+        "extent": "ff 1-6"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'but see d.86(2)' is a small interlinear addition above 'uncertain'. A caret after 'uncertain' keys it into the line.",
+        "A long leftward arrow at about x 2980-3230, y 4316 runs from across the gutter toward this note.",
+        "'inc.' is recorded literally and has not been expanded."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 407,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓d.85(6) —— Begins:- 'Prātar agnihotraṃ hutvā'",
+          "evidence": "The arrow in the fol. 204 left margin is at the height of the d.85(6) entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "cross_reference",
+          "target_page_order": 407,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d.86(2)",
+          "evidence": "The interlinear text 'but see d.86(2)'. The shelfmark d.86(2) also appears at the foot of fol. 204.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'd.86(2)' of the small interlinear text is tentative."
+      ],
+      "stable_id": "css-prod-0406-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b007"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "note_ambiguously_attached",
+      "literal_text": "from the Prayaścittaprakaraṇa (i.e. part of a larger work?), ff. 1-6",
+      "fields": {
+        "extent": "ff. 1-6"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is no arrow next to this note."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 407,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓d.153(2) —— Begins:- 'Prāyaścittaprakaraṇa mṛgāreṣṭikaraṇam...'",
+          "evidence": "The note lies at about the height of the d.153(2) entry on fol. 204, and the wording matches that entry's incipit. No arrow is visible.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 406,
+          "target_record_id": "r005",
+          "target_block_id": "b005",
+          "target_anchor": "title quite uncertain ... ff 1-6, inc.",
+          "evidence": "The note sits immediately below b005 and gives the same extent, ff. 1-6.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear whether this note continues b005 or is a separate note for another entry on the facing page.",
+        "The accentuation of 'Prayaścitta' in the handwriting is uncertain."
+      ],
+      "stable_id": "css-prod-0406-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r007",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "query_mark",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "An isolated question mark in the upper-middle right area. There is no adjacent text on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The mark may be a stray query mark rather than show-through. Its attachment is unknown."
+      ],
+      "stable_id": "css-prod-0406-r007",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff.1-7, S.1849. Begins Tatra prasaramūlanakṣatrāt dvitīyamūlanakṣatre susnātaḥ sapatniko yajamānaḥ [svācāntaḥ?] etc.",
+      "after": "ff.1-7, S.1849. Begin[s?] Tatra prasaramūlanakṣatrāt dvitīyamūlanakṣatre susnātaḥ sapatniko yajamānaḥ [svācāntaḥ?] etc.",
+      "reason": "In the native tile the word reads 'Begin'. A terminal 's' is not clearly visible.",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 407,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓d.85(1) Mūlādhyāya. By Kātyāyana.",
+          "evidence": "The arrow on the fol. 204 left margin ('...dhyāya ←') is at the corresponding height, next to d.85(1).",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 407,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓d.85(1) Mū[l?]yādhyāya [reading of facing-page title uncertain]. By Kātyāyana.",
+          "evidence": "The arrow on the fol. 204 left margin ('...dhyāya ←') is at the corresponding height (about y 3380 native), next to d.85(1). The facing-page title appears to read 'Mūlyādhyāya' rather than 'Mūlādhyāya' at context resolution.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The context image of the facing-page anchor does not clearly support 'Mūlādhyāya'.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'd.86(2)' of the small interlinear text is tentative."
+      ],
+      "after": [
+        "The reading 'd.86(2)' of the small interlinear text is tentative.",
+        "The mark after 'uncertain' is small and below the line. It is probably an insertion caret but could be a comma."
+      ],
+      "reason": "On re-inspection the mark's form is ambiguous.",
+      "source_block_ids": [
+        "b005",
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'prasaramūlanakṣatrāt' is tentative.",
+        "The word read as 'svācāntaḥ' is uncertain; the letters could also be read 'svīcāmitaḥ'.",
+        "The year '1849' is a probable reading of the cursive."
+      ],
+      "after": [
+        "The reading 'prasaramūlanakṣatrāt' is tentative.",
+        "The word read as 'svācāntaḥ' is uncertain; the letters could also be read 'svīcāmitaḥ'.",
+        "The year '1849' is a probable reading of the cursive.",
+        "'Begin' versus 'Begins' is uncertain; no clear final 's'."
+      ],
+      "reason": "Documents the new uncertainty.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d27b3265-4c04-4f27-8f80-d1a2f1702b17.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d27b3265-4c04-4f27-8f80-d1a2f1702b17/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "db1d832ccc4f6a18f0a3cc3e80362143d10067d61163dd9d8b70f6d3d2c76036",
+      "bytes": 283525,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d27b3265-4c04-4f27-8f80-d1a2f1702b17/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "13fada5d79c9de331cf8634bde88411cb73c70b146f3e3a25815e095f5f4bbc0",
+      "bytes": 304920,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d27b3265-4c04-4f27-8f80-d1a2f1702b17/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "eb51d0679ecd9dac3e3c3b78301f6dac1873ccea0ac4d9192f959b3ad1158aba",
+      "bytes": 303086,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d27b3265-4c04-4f27-8f80-d1a2f1702b17/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "24a4b02261b5fea3bcb566e38c21b91dd6f4dad9b565ec92f6ac2696c2797a91",
+      "bytes": 349574,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d27b3265-4c04-4f27-8f80-d1a2f1702b17/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "917643eeed739d185b53539d03387b62bff93f1a4fe1e1d30ed1cbd33cadfe39",
+      "bytes": 322347,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d27b3265-4c04-4f27-8f80-d1a2f1702b17/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "07426da89bd2783b16d79d3d0816f73e6451b01684600dc27f27159bbd08ea8a",
+      "bytes": 342227,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d27b3265-4c04-4f27-8f80-d1a2f1702b17/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ba9e06e399a4527f5ae94422ded6966a1bfbeb4cee2a5cbd90f89779ed57d029",
+      "bytes": 362652,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1d237560-cbf1-4cd6-94ec-80eef04fa732/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6377e1f01b53b23bf4c03d711b9953ad6f78dc411e82977ab1f8f67a683c3c54",
+      "bytes": 253350,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 405,
+      "folio_label": "fol. 203",
+      "page_id": "1d237560-cbf1-4cd6-94ec-80eef04fa732",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/477d6b41-5957-4f38-8bc7-dba0d7b77ac6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e15c10436d492811b25798e965c7aef05dfcb4a6a5c0b15752b465002081c908",
+      "bytes": 283154,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 407,
+      "folio_label": "fol. 204",
+      "page_id": "477d6b41-5957-4f38-8bc7-dba0d7b77ac6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

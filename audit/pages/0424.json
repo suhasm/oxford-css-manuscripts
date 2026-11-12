@@ -1,0 +1,498 @@
+{
+  "source_order": 424,
+  "folio_label": "fol. 212b",
+  "page_id": "2ca9abb5-bab5-49ec-b0c4-7d792d6869ca",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "tranche-1",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "212b",
+    "principal_page_bbox": [
+      300,
+      275,
+      2910,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          395,
+          290,
+          145,
+          135
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "212b",
+        "features": [
+          "top-left corner",
+          "handwritten in ink or pencil",
+          "'b' written as a superscript after '212'",
+          "no catalogue text elsewhere on the page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          510,
+          775,
+          130,
+          70
+        ],
+        "description": "Grey smudge or blot between the second and third ruled lines near the left margin. No legible text."
+      },
+      {
+        "bbox": [
+          420,
+          2220,
+          290,
+          55
+        ],
+        "description": "Short faint wavy pencil stroke near the left margin, about mid-page. It may be a stray mark or offset. No legible text."
+      },
+      {
+        "bbox": [
+          3170,
+          500,
+          30,
+          80
+        ],
+        "description": "Dark mark at the right outer edge, probably edge damage or debris."
+      },
+      {
+        "bbox": [
+          630,
+          4355,
+          45,
+          40
+        ],
+        "description": "Small dark spot in the lower left area, probably a blemish."
+      },
+      {
+        "bbox": [
+          2240,
+          4640,
+          80,
+          180
+        ],
+        "description": "Faint vertical streak with a small blot at the bottom edge, probably paper damage or debris."
+      },
+      {
+        "bbox": [
+          1120,
+          3755,
+          15,
+          20
+        ],
+        "description": "Tiny dark speck, not text."
+      }
+    ],
+    "boundary_notes": [
+      "Only ruled lines and the folio number are present on fol. 212b. The adjacent fol. 212 and fol. 213 entries (Yogavāsiṣṭha… / Yogaśāstra…) are context only and do not continue onto this page.",
+      "Book-block edges are visible at the left (gutter) and right edges. No facing-page fragments with text are visible."
+    ],
+    "uncertainties": [
+      "Faint mottling in the lower half might be offset or show-through from the reverse. No legible writing was identified in it."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "212b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "212b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio number in the top-left corner, at about [395,290,145,135].",
+          "The 'b' is written as a superscript after '212'.",
+          "Same hand and medium as the folio numbering on adjacent pages; ink or dark pencil."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Medium (ink vs. pencil) not certain from the image."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only written element on the page. It is recorded as non-catalogue text."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number, the page was reviewed across the overview and all six native tiles (top, middle, bottom, gutter and outer margins, interlinear spaces). It contains only printed ruled lines and no catalogue entries, headings, cross-references or notes.",
+      "Non-text marks observed: grey smudge near the left margin between the 2nd and 3rd ruled lines (~[510,775,130,70]); a short faint wavy pencil stroke near the left margin mid-page (~[420,2215,290,60]), with no legible letters, probably a stray mark; a dark mark at the right outer edge (~[3170,500,30,80]), probably edge damage; small dark spots at ~[630,4355,45,40] and ~[1120,3755,15,20]; a faint vertical streak with a blot at the bottom edge (~[2240,4640,80,180]), probably paper damage. None is text.",
+      "Faint mottling in the lower half may be show-through or offset from the reverse. No legible writing was identified in it.",
+      "Book-block edges are visible at the left and right. No facing-page text fragments appear on this canvas."
+    ],
+    "unresolved_relationships": [
+      "The entries on fol. 212 (Yogavāsiṣṭha … Yogaśataka) and fol. 213 (Yogaśāstra …) are not continued on this page. No relationships are asserted."
+    ]
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left native tile shows '212' with a raised 'b' at about [395,290,145,135]. The candidate literal '212b' and its bbox match. No other written text is on the page."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "annotations",
+        "before": [
+          "Handwritten folio number in the top-left corner, at about [395,290,145,135].",
+          "The 'b' is written as a superscript after '212'.",
+          "Same hand and medium as the folio numbering on adjacent pages; ink or dark pencil."
+        ],
+        "after": [
+          "Handwritten folio number in the top-left corner, at about [395,290,145,135].",
+          "The 'b' is written as a superscript after '212'.",
+          "Written in ink or dark pencil. Fol. 212 and fol. 213 carry their numbers at the top right; this page's number is at the top left."
+        ],
+        "reason": "The claim that the hand and medium match the adjacent numbering cannot be verified from the reduced adjacent overviews. The placement also differs: this number is top left, while the adjacent numbers are top right.",
+        "source_block_ids": [
+          "b001"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "In the lower half (approximately y 3950–4150), there is faint mottling that is aligned with the rules. It may be offset or show-through of writing from another leaf. No letters are legible.",
+        "next_check": "Inspect the original page under raking or transmitted light to confirm that no faint pencil writing is present."
+      }
+    ],
+    "boundary_review": "No catalogue text continues from fol. 212 or onto fol. 213. The book-block edges at the left and right show no facing-page text fragments. No relationships are asserted.",
+    "region_review": {
+      "top": "Only the folio number '212b' at top left, plus specks. The smudge at ~[510,775,130,70] is not text.",
+      "middle": "Only ruled lines. A faint wavy pencil stroke at ~[420,2220,290,55] has no legible letters.",
+      "bottom": "Only ruled lines, specks, a blot at ~[630,4355,45,40], and a vertical streak at the bottom edge ~[2240,4640,80,180]. Faint mottling may be offset. No legible notes.",
+      "left_margin": "Page-block edges visible. No marginal writing.",
+      "right_margin": "A dark mark at the outer edge ~[3170,500,30,80] is likely damage or debris. No writing.",
+      "interlinear": "No interlinear writing found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        395,
+        290,
+        145,
+        135
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "212b",
+      "features": [
+        "top-left corner",
+        "handwritten in ink or pencil",
+        "'b' written as a superscript after '212'",
+        "no catalogue text elsewhere on the page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "212b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio number in the top-left corner, at about [395,290,145,135].",
+        "The 'b' is written as a superscript after '212'.",
+        "Same hand and medium as the folio numbering on adjacent pages; ink or dark pencil."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Medium (ink vs. pencil) not certain from the image."
+      ],
+      "stable_id": "css-t1-0424-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "annotations",
+      "before": [
+        "Handwritten folio number in the top-left corner, at about [395,290,145,135].",
+        "The 'b' is written as a superscript after '212'.",
+        "Same hand and medium as the folio numbering on adjacent pages; ink or dark pencil."
+      ],
+      "after": [
+        "Handwritten folio number in the top-left corner, at about [395,290,145,135].",
+        "The 'b' is written as a superscript after '212'.",
+        "Written in ink or dark pencil. Fol. 212 and fol. 213 carry their numbers at the top right; this page's number is at the top left."
+      ],
+      "reason": "The claim that the hand and medium match the adjacent numbering cannot be verified from the reduced adjacent overviews. The placement also differs: this number is top left, while the adjacent numbers are top right.",
+      "source_block_ids": [
+        "b001"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2ca9abb5-bab5-49ec-b0c4-7d792d6869ca.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2ca9abb5-bab5-49ec-b0c4-7d792d6869ca/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "a6457a91baa551926441b3c4d1808cac638ac5319f3a8f1d2022483bb526f021",
+      "bytes": 328962,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2ca9abb5-bab5-49ec-b0c4-7d792d6869ca/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "75b3eb831dda04fe4cae01d01ae5c6abec866525dd6ff2a6faf66b611bb324c7",
+      "bytes": 360948,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2ca9abb5-bab5-49ec-b0c4-7d792d6869ca/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5b061ebd0a4b0c8ea5af64f414f03d859523dfe811030b2666cc430db55ae8d2",
+      "bytes": 367057,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2ca9abb5-bab5-49ec-b0c4-7d792d6869ca/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "45808f83f78e3aa62ce125dc5ef4d493b571128aa8643ceb62137341f68e58ce",
+      "bytes": 407164,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2ca9abb5-bab5-49ec-b0c4-7d792d6869ca/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2bedaae06258c21dbfcedf2ffa3cf0cf9de227dff6e1199fa3642f5a96c224c0",
+      "bytes": 424916,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2ca9abb5-bab5-49ec-b0c4-7d792d6869ca/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "78c6fec5a7b42e0c5f131d3ab263e40cc9a09a14920b351ffc17eae68249d3c7",
+      "bytes": 399103,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2ca9abb5-bab5-49ec-b0c4-7d792d6869ca/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "93ebf3c40d58323e673088ad1abe35901d4bb86d0c17a0e061bc89c730673428",
+      "bytes": 420846,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/55ba4824-5c5c-40b1-b20c-27c5418eb938/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0351efe4d16c8dce00c895cc6fe7195793777b2221d2c6eedee9f2ef8fb84a80",
+      "bytes": 272561,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 423,
+      "folio_label": "fol. 212",
+      "page_id": "55ba4824-5c5c-40b1-b20c-27c5418eb938",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/16377a0c-1204-425b-be12-78ab94a88f33/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d4083cf1a7301100be935da6dc884cecd103c932e296c1d6a9fe906236e6b599",
+      "bytes": 288830,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 425,
+      "folio_label": "fol. 213",
+      "page_id": "16377a0c-1204-425b-be12-78ab94a88f33",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

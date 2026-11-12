@@ -1,0 +1,1707 @@
+{
+  "source_order": 100,
+  "folio_label": "fol. 50b",
+  "page_id": "98be8332-6a8f-4c11-947c-e9c074de53a9",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "50b",
+    "principal_page_bbox": [
+      285,
+      262,
+      2890,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          295,
+          120,
+          100
+        ],
+        "kind_hint": "page_number",
+        "anchor": "50b.",
+        "features": [
+          "top-left corner",
+          "ink",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2875,
+          725,
+          90,
+          110
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "m/",
+        "features": [
+          "pencil",
+          "right part of page near outer edge by gutter",
+          "dot under m with long oblique stroke",
+          "aligns with d. 905 (1) row on facing fol. 51"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2400,
+          2775,
+          460,
+          85
+        ],
+        "kind_hint": "marginal_note_cross_reference",
+        "anchor": "Cf with d. 116 (3)",
+        "features": [
+          "ink",
+          "followed by leftward arrow pointing to the note",
+          "arrow points from gutter side",
+          "aligns with d. 116 (3) / Kūṣmāṇḍahomaprayoga row on facing fol. 51"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          365,
+          3940,
+          2560,
+          135
+        ],
+        "kind_hint": "marginal_note_contents",
+        "anchor": "Foll. by (1) f.1 of Kāśinātha's ... (2) a leaf with a list of the Ekādaśītattvas",
+        "features": [
+          "ink",
+          "single long line across page",
+          "leftward arrow at right end near gutter",
+          "aligns with b. 101 / Kṛtyatattva row on facing fol. 51",
+          "reading of 'Kāśinātha's' and abbreviation after it uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2985,
+          1012,
+          40,
+          30
+        ],
+        "description": "short oblique dash near gutter edge, ink or pencil, aligned roughly with d. 904 row of facing page; purpose unclear"
+      },
+      {
+        "bbox": [
+          3000,
+          2785,
+          150,
+          30
+        ],
+        "description": "leftward arrow belonging to b003"
+      },
+      {
+        "bbox": [
+          3000,
+          4005,
+          90,
+          40
+        ],
+        "description": "leftward arrow belonging to b004"
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2860,
+          4200
+        ],
+        "description": "faint ruled lines and faint show-through of writing from the reverse side; not text written on this page"
+      }
+    ],
+    "boundary_notes": [
+      "Right edge shows the left margin of facing fol. 51 (shelfmarks d., √c., √d., e., ff. 1-16, ff. 1-70. S.18.., b. 101 with arrows); these are not target-page records.",
+      "Small marks right at the gutter (e.g. near y≈1745 and y≈2050, and dashes/arrows just right of the gutter at y≈2785 and y≈4020) appear to belong to the facing page margin; attribution ambiguous."
+    ],
+    "uncertainties": [
+      "Exact reading of b004 abbreviations (e.g. 'Foll. by', 'f.1', 'Kāśinātha's [cm.?]') is uncertain.",
+      "Whether 'm/' in b002 is a sign or abbreviation is uncertain.",
+      "Faint show-through could hide very faint pencil additions; none distinguished beyond those listed."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "50b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "50ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner; 'b' written superscript after '50', followed by a point."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_mark",
+        "literal_text": "m/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, near the gutter edge of the target page, at about canvas x 2884-2950, y 700-830.",
+          "There is a dot beneath the 'm'. A long oblique stroke follows it.",
+          "It sits roughly level with the 'd. 905 (1)' row on facing fol. 51 (source order 101)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 101,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 905 (1)",
+            "evidence": "Vertical alignment across the gutter only. There is no arrow or connecting line.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The meaning of 'm/' is unknown. It may be a sign or an abbreviation.",
+          "Attachment to any facing-page row is unproven."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "cross_reference",
+        "subtype": "marginal_compare_note",
+        "literal_text": "Cf with d. 116 (3)",
+        "fields": {
+          "shelfmark": "d. 116 (3)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, written to the right of the page centre at about canvas y 2778-2848.",
+          "A leftward arrow at about canvas x 3009-3144, y ~2800 runs from the gutter side toward the note.",
+          "Across the gutter, on fol. 51, there is a separate short dash and the row '√d. 172 (7)'.",
+          "The shelfmark in this field is the cited target of the comparison, not the holding to which the note is attached."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 101,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d. 172 (7) (Kūṣmāṇḍahoma/Gaṇahoma row)",
+            "evidence": "The note and its arrow are level with the √d. 172 (7) row on facing fol. 51. That row sits at canvas y ≈2810 on the facing page; the d. 116 (3) row is higher, at ≈2350. The arrow points from the gutter toward the note.",
+            "certainty": "probable"
+          },
+          {
+            "type": "cross_reference",
+            "target_page_order": 101,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 116 (3) Kūṣmāṇḍahomaprayoga",
+            "evidence": "The note literally cites 'd. 116 (3)', which appears as a shelfmark on fol. 51.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The provisional inventory aligned this note with the d. 116 (3) row. On the images it aligns instead with √d. 172 (7), so the note probably compares d. 172 (7) with d. 116 (3). The attachment is not certain.",
+          "The opening 'Cf' is written as a ligature-like form."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "contents_note_following_items",
+        "literal_text": "Foll. by (1) f.1 of Kāśinātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaśītattvas",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, a single long line across the page at about canvas y 3956-4045.",
+          "A leftward arrow at about canvas x 3004-3084, y ~4005 runs from the gutter toward the note.",
+          "A further arrow just across the gutter belongs to the facing page margin."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 101,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b. 101 (1?) Kṛtyatattva. By Raghunandana",
+            "evidence": "The note and arrow are level with the b. 101 row on facing fol. 51. That row's margin carries its own arrow pointing toward the gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The abbreviation after 'Kāśinātha's' is uncertain. It may read 'co.' or 'cm.'.",
+          "The diacritics in 'Kāśinātha's' and 'Ekādaśītattvas' (especially ī versus i) are uncertain.",
+          "'Foll.' and 'f.1' are read as written; the reading is fairly secure."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2990,
+          1015,
+          40,
+          25
+        ],
+        "kind_hint": "mark",
+        "anchor": "short oblique dash",
+        "features": [
+          "ink or pencil",
+          "near the gutter",
+          "level with the first d. 904 row of facing fol. 51",
+          "purpose unclear"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2930,
+          2980,
+          250,
+          1300
+        ],
+        "kind_hint": "faint_strokes",
+        "anchor": "faint vertical pencil-like strokes near the gutter",
+        "features": [
+          "very faint",
+          "probably show-through of margin notes from the reverse (fol. 50 left margin)",
+          "no legible text"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Pencil mark 'm/', stored as an unattached annotation."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Compare note with arrow. Its attachment is probably to √d. 172 (7) on fol. 51."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Contents note with arrow, probably continuing b. 101 on fol. 51."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [],
+        "explanation": "Non-text dash with no transcribable content, described in page_annotations."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [],
+        "explanation": "Probable show-through from the reverse of the leaf, not target text. Described in page_annotations."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank but ruled. Faint show-through from the reverse is visible across the page.",
+      "A short dash near the gutter at about canvas y 1020 (b901) is unexplained.",
+      "The faint strokes near the gutter at about canvas y 2980-4280 (b902) appear to be show-through, not writing on this page.",
+      "The facing fol. 51 margin, at the right edge of the canvas, contains shelfmarks such as d., √d., √c., e., 'ff. 1-16', 'ff. 1-70. S.18..' and b. These are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "r002 'm/': it is unclear whether this refers to the d. 905 (1) row on fol. 51.",
+      "r003: the note may attach to d. 172 (7) (by alignment) rather than to d. 116 (3) (the shelfmark it cites)."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Ink page number '50' with a superscript letter and a point, top-left at about x 390-500, y 300-390. The superscript is read as 'b'."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Pencil 'm' with a dot beneath and a long oblique stroke, at about x 2880-2955, y 700-830. On the fol. 51 overview the same mark is visible at the edge of 50b. It lies between the 'd. 905 (1)' row and the following 'Begins' line on fol. 51, so the possible attachment correctly stays uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "'Cf with d. 116 (3)' in ink at about x 2405-2850, y 2778-2848. A leftward arrow sits at about x 3009-3144. On the fol. 51 overview this note-and-arrow is level with √d. 172 (7) (y≈2815), not with √d. 116 (3) (y≈2340). The candidate's correction of the inventory alignment is supported."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A single ink line runs across the page at about y 3955-4050, with an arrow at about x 3004-3084. It is level with the 'b. 101' Kṛtyatattva row on fol. 51. Diacritics in two names are less secure than the literal text implies (see changes)."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A short oblique dash at about x 2990-3030, y 1015-1040. It is level with the second d. 904 row on fol. 51 and has no text. It is correctly described only in page_annotations."
+      },
+      {
+        "block_id": "b902",
+        "status": "uncertain",
+        "record_ids": [],
+        "finding": "Faint grey strokes near the gutter at about x 2930-3180, y 2980-4280. Around y 3090-3260 the strokes resemble a faint pencil 'm/' followed by another letter, similar to b002. The candidate classes them as show-through from the fol. 50 left margin, which is plausible but not secure. They could be very faint pencil on this page."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "literal_text",
+        "before": "Foll. by (1) f.1 of Kāśinātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaśītattvas",
+        "after": "Foll. by (1) f.1 of Kā[ś?]inātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaś[ī?]tattvas",
+        "reason": "The candidate's own uncertainty list admits doubt over ś and ī, but the literal text asserts them. In the native tile the sibilant in 'Kāsinātha's' and the length of the i in 'Ekādaśi-' cannot be securely distinguished, so the literal text should carry the uncertainty markers.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [
+          "b902"
+        ],
+        "issue": "The faint gutter-side strokes (about y 3090-3260) may be a faint pencil 'm/'-type mark on this page rather than show-through.",
+        "next_check": "Compare with a raking-light or verso image of fol. 50's left margin, to see whether the strokes mirror writing there."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The meaning of 'm/' and its attachment to the 'd. 905 (1)' row on fol. 51 are unproven.",
+        "next_check": "Look for similar 'm/' marks elsewhere in the catalogue that do have explicit attachment."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "By alignment the note attaches to √d. 172 (7) on fol. 51; by its wording it cites d. 116 (3). The attachment is probable, not certain.",
+        "next_check": "Check the fol. 51 record for d. 172 (7) for any reciprocal note."
+      }
+    ],
+    "boundary_review": "The right edge of the canvas (x ≳3180) shows the left margin of facing fol. 51: shelfmarks d., √d., √c., e., 'ff. 1-16', 'ff. 1-70. S.18..', b. and a dash and an arrow just right of the gutter. These are correctly excluded from target records. Two further marks sit right in the gutter: a small asterisk-like mark at about y 1745 and a dash at about y 2048. Their attribution is ambiguous; they probably belong to fol. 51 and are not recorded here.",
+    "region_review": {
+      "top": "Only the page number; the area is otherwise blank.",
+      "middle": "The pencil 'm/' (b002), the dash (b901) and the ink note 'Cf with d. 116 (3)' with its arrow (b003). Everything else is ruling and show-through.",
+      "bottom": "The single ink note b004 with its arrow. Below it there is only show-through, ruling and stray specks.",
+      "left_margin": "No writing on this page. There is only the edges of the bound leaves.",
+      "right_margin": "Gutter-side arrows belong to b003 and b004. The faint strokes b902 remain uncertain. Material from facing fol. 51 is excluded.",
+      "interlinear": "No interlinear additions or cancellations were seen."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        295,
+        120,
+        100
+      ],
+      "kind_hint": "page_number",
+      "anchor": "50b.",
+      "features": [
+        "top-left corner",
+        "ink",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2875,
+        725,
+        90,
+        110
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "m/",
+      "features": [
+        "pencil",
+        "right part of page near outer edge by gutter",
+        "dot under m with long oblique stroke",
+        "aligns with d. 905 (1) row on facing fol. 51"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2400,
+        2775,
+        460,
+        85
+      ],
+      "kind_hint": "marginal_note_cross_reference",
+      "anchor": "Cf with d. 116 (3)",
+      "features": [
+        "ink",
+        "followed by leftward arrow pointing to the note",
+        "arrow points from gutter side",
+        "aligns with d. 116 (3) / Kūṣmāṇḍahomaprayoga row on facing fol. 51"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        365,
+        3940,
+        2560,
+        135
+      ],
+      "kind_hint": "marginal_note_contents",
+      "anchor": "Foll. by (1) f.1 of Kāśinātha's ... (2) a leaf with a list of the Ekādaśītattvas",
+      "features": [
+        "ink",
+        "single long line across page",
+        "leftward arrow at right end near gutter",
+        "aligns with b. 101 / Kṛtyatattva row on facing fol. 51",
+        "reading of 'Kāśinātha's' and abbreviation after it uncertain"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2990,
+        1015,
+        40,
+        25
+      ],
+      "kind_hint": "mark",
+      "anchor": "short oblique dash",
+      "features": [
+        "ink or pencil",
+        "near the gutter",
+        "level with the first d. 904 row of facing fol. 51",
+        "purpose unclear"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2930,
+        2980,
+        250,
+        1300
+      ],
+      "kind_hint": "faint_strokes",
+      "anchor": "faint vertical pencil-like strokes near the gutter",
+      "features": [
+        "very faint",
+        "probably show-through of margin notes from the reverse (fol. 50 left margin)",
+        "no legible text"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "50ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner; 'b' written superscript after '50', followed by a point."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0100-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_mark",
+      "literal_text": "m/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, near the gutter edge of the target page, at about canvas x 2884-2950, y 700-830.",
+        "There is a dot beneath the 'm'. A long oblique stroke follows it.",
+        "It sits roughly level with the 'd. 905 (1)' row on facing fol. 51 (source order 101)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 101,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 905 (1)",
+          "evidence": "Vertical alignment across the gutter only. There is no arrow or connecting line.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The meaning of 'm/' is unknown. It may be a sign or an abbreviation.",
+        "Attachment to any facing-page row is unproven."
+      ],
+      "stable_id": "css-prod-0100-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "cross_reference",
+      "subtype": "marginal_compare_note",
+      "literal_text": "Cf with d. 116 (3)",
+      "fields": {
+        "shelfmark": "d. 116 (3)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, written to the right of the page centre at about canvas y 2778-2848.",
+        "A leftward arrow at about canvas x 3009-3144, y ~2800 runs from the gutter side toward the note.",
+        "Across the gutter, on fol. 51, there is a separate short dash and the row '√d. 172 (7)'.",
+        "The shelfmark in this field is the cited target of the comparison, not the holding to which the note is attached."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 101,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d. 172 (7) (Kūṣmāṇḍahoma/Gaṇahoma row)",
+          "evidence": "The note and its arrow are level with the √d. 172 (7) row on facing fol. 51. That row sits at canvas y ≈2810 on the facing page; the d. 116 (3) row is higher, at ≈2350. The arrow points from the gutter toward the note.",
+          "certainty": "probable"
+        },
+        {
+          "type": "cross_reference",
+          "target_page_order": 101,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 116 (3) Kūṣmāṇḍahomaprayoga",
+          "evidence": "The note literally cites 'd. 116 (3)', which appears as a shelfmark on fol. 51.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The provisional inventory aligned this note with the d. 116 (3) row. On the images it aligns instead with √d. 172 (7), so the note probably compares d. 172 (7) with d. 116 (3). The attachment is not certain.",
+        "The opening 'Cf' is written as a ligature-like form."
+      ],
+      "stable_id": "css-prod-0100-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "contents_note_following_items",
+      "literal_text": "Foll. by (1) f.1 of Kāśinātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaśītattvas",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, a single long line across the page at about canvas y 3956-4045.",
+        "A leftward arrow at about canvas x 3004-3084, y ~4005 runs from the gutter toward the note.",
+        "A further arrow just across the gutter belongs to the facing page margin."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 101,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b. 101 (1?) Kṛtyatattva. By Raghunandana",
+          "evidence": "The note and arrow are level with the b. 101 row on facing fol. 51. That row's margin carries its own arrow pointing toward the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The abbreviation after 'Kāśinātha's' is uncertain. It may read 'co.' or 'cm.'.",
+        "The diacritics in 'Kāśinātha's' and 'Ekādaśītattvas' (especially ī versus i) are uncertain.",
+        "'Foll.' and 'f.1' are read as written; the reading is fairly secure."
+      ],
+      "stable_id": "css-prod-0100-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9901",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A short oblique stroke, not text, at about canvas x 2994-3024, y 1020-1035, on the target page near the gutter.",
+        "It is roughly level with a short dash in the fol. 51 margin beside the first 'd. 904' row."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 101,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 904 (Kūpapratiṣṭhaprayoga row)",
+          "evidence": "Vertical alignment only; there is no connector.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The purpose of the mark and whether it was made in ink or pencil are unclear.",
+        "Its attachment is unproven."
+      ],
+      "stable_id": "css-prod-0100-r9901",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    },
+    {
+      "id": "r9902",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "faint_strokes_possible_show_through",
+      "literal_text": "[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Very faint grey strokes at about canvas x 2930-3160, y 2985-3920.",
+        "Near y≈3200-3260 one group resembles 'm/' followed by two short uprights.",
+        "The page carries general faint ghosting from the reverse. The position matches the fol. 50 shelfmark column."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unresolved whether these strokes are a faint pencil mark on this page or show-through from fol. 50.",
+        "No legible text can be read."
+      ],
+      "stable_id": "css-prod-0100-r9902",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "Foll. by (1) f.1 of Kāśinātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaśītattvas",
+      "after": "Foll. by (1) f.1 of Kā[ś?]inātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaś[ī?]tattvas",
+      "reason": "The candidate's own uncertainty list admits doubt over ś and ī, but the literal text asserts them. In the native tile the sibilant in 'Kāsinātha's' and the length of the i in 'Ekādaśi-' cannot be securely distinguished, so the literal text should carry the uncertainty markers.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "Foll. by (1) f.1 of Kāśinātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaśītattvas",
+      "after": "Foll. by (1) f.1 of Kā[ś?]inātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaś[ī?]tattvas",
+      "reason": "Neither the sibilant diacritic nor the vowel length can be securely read on the native tile, so the literal text should not assert them.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0100-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The abbreviation after 'Kāśinātha's' is uncertain. It may read 'co.' or 'cm.'.",
+        "The diacritics in 'Kāśinātha's' and 'Ekādaśītattvas' (especially ī versus i) are uncertain.",
+        "'Foll.' and 'f.1' are read as written; the reading is fairly secure."
+      ],
+      "after": [
+        "The abbreviation after 'Kā[ś?]inātha's' is uncertain. It may read 'co.' or 'cm.'.",
+        "It is unclear whether 'Kā[ś?]inātha's' has ś or s; a mark near the word may be the apostrophe.",
+        "'Ekādaś[ī?]tattvas': the s carries a mark, but the vowel cannot be read securely as ī or i.",
+        "'Foll.' and 'f.1' are read as written; the reading is fairly secure."
+      ],
+      "reason": "Aligns the uncertainty list with the bracketed literal text.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0100-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [
+    {
+      "block_id": "b902",
+      "before_bbox": [
+        2930,
+        2980,
+        250,
+        1300
+      ],
+      "after_bbox": [
+        2930,
+        2980,
+        240,
+        950
+      ],
+      "reason": "In tiles 2 and 4 the faint strokes end at about canvas y 3920; nothing comparable appears below that.",
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Uncertain source location retained as a proposal",
+      "focused_check_file": "0100-focus.parsed.json"
+    }
+  ],
+  "addition_audit": [
+    {
+      "record_id": "r9901",
+      "stage": "focus",
+      "focused_check_file": "0100-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record for an existing unrepresented source block; original geometry retained"
+    },
+    {
+      "record_id": "r9902",
+      "stage": "focus",
+      "focused_check_file": "0100-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record for an existing unrepresented source block; original geometry retained"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b901",
+      "b902"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [],
+      "id": "focus-0100-01"
+    },
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0100-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The faint gutter-side strokes (about y 3090-3260) may be a faint pencil 'm/'-type mark on this page rather than show-through.",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0100-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The meaning of 'm/' and its attachment to the 'd. 905 (1)' row on fol. 51 are unproven.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0100-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "By alignment the note attaches to √d. 172 (7) on fol. 51; by its wording it cites d. 116 (3). The attachment is probable, not certain.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0100-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The candidate's own uncertainty list admits doubt over ś and ī, but the literal text asserts them. In the native tile the sibilant in 'Kāsinātha's' and the length of the i in 'Ekādaśi-' cannot be securely distinguished, so the literal text should carry the uncertainty markers. Proposed literal_text: \"Foll. by (1) f.1 of Kā[ś?]inātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaś[ī?]tattvas\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0100-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The meaning of 'm/' is unknown. It may be a sign or an abbreviation.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0100-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Attachment to any facing-page row is unproven.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0100-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The provisional inventory aligned this note with the d. 116 (3) row. On the images it aligns instead with √d. 172 (7), so the note probably compares d. 172 (7) with d. 116 (3). The attachment is not certain.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0100-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The opening 'Cf' is written as a ligature-like form.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0100-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0100-01",
+        "focus-0100-02",
+        "focus-0100-03",
+        "focus-0100-04",
+        "focus-0100-05",
+        "focus-0100-06",
+        "focus-0100-07",
+        "focus-0100-08",
+        "focus-0100-09",
+        "focus-0100-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0100-01",
+          "source_reading": "[short oblique stroke, no letters]",
+          "certainty": "probable",
+          "evidence": "Native tile 1 (offset x1604) shows a short stroke descending left to right. It lies at tile x≈1390-1420, y≈1020-1035, which is canvas ≈2994-3024 / 1020-1035. It is on the target page, inside the page edge at ≈3170. It is roughly level with a short dash in the margin of fol. 51 by its first 'd. 904' row. Its function is unknown, and it is not text."
+        },
+        {
+          "issue_id": "focus-0100-02",
+          "source_reading": "[illegible faint strokes]",
+          "certainty": "uncertain",
+          "evidence": "Tiles 2 and 4 show very faint grey strokes near the page edge, at about canvas x 2930-3160 and y 2985-3920. Part of them, at about y 3200-3260, resembles 'm/' followed by two short uprights. The same ghosting appears in the left part of the fol. 51 native context tile at x≈150-300, y≈1380-1660. The whole page carries faint ghost text from the reverse. The y-range matches the shelfmark column of fol. 50 (the √d. 268 / √d. 263 rows), so show-through is plausible."
+        },
+        {
+          "issue_id": "focus-0100-03",
+          "source_reading": "[faint 'm/'-like shape?] with two short uprights; possibly show-through",
+          "certainty": "uncertain",
+          "evidence": "The strokes are much fainter than the secure pencil 'm/' at y≈735-830, and they are not crisp. Their tone matches the general show-through across the page. The images do not show whether this is a mark on the surface or show-through."
+        },
+        {
+          "issue_id": "focus-0100-04",
+          "source_reading": "m/",
+          "certainty": "probable",
+          "evidence": "Pencil 'm' with a dot beneath it and a long oblique stroke, at canvas ≈2884-2954, 735-830. It is level with the 'd. 905 (1)' row on fol. 51 (y≈790). There is no arrow or connector, so neither its meaning nor its attachment is shown."
+        },
+        {
+          "issue_id": "focus-0100-05",
+          "source_reading": "Cf with d. 116 (3) ←",
+          "certainty": "probable",
+          "evidence": "The note sits at canvas y≈2778-2848, followed by a leftward arrow at x≈3009-3144. On fol. 51 a separate dash and the row '√d. 172 (7)' sit at y≈2800. The '√d. 116 (3)' row sits at y≈2348. Vertical alignment therefore favours d. 172 (7), but this is alignment only."
+        },
+        {
+          "issue_id": "focus-0100-06",
+          "source_reading": "Foll. by (1) f.1 of Kā[ś?]inātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaś[ī?]tattvas",
+          "certainty": "uncertain",
+          "evidence": "In tile 3 the sibilant in 'Kāsinātha's' has no clearly separable acute; a mark is present but could belong to the apostrophe. In tile 4 'Ekādaś-' has a mark over the s, but the vowel after it cannot be securely read as ī or i. The abbreviation looks like 'co.' but is cramped."
+        },
+        {
+          "issue_id": "focus-0100-07",
+          "source_reading": "m/",
+          "certainty": "secure",
+          "evidence": "The letter forms themselves are clear. What they mean is not shown on the page."
+        },
+        {
+          "issue_id": "focus-0100-08",
+          "source_reading": "m/",
+          "certainty": "uncertain",
+          "evidence": "There is no connecting line or arrow. The only link to any facing-page row is vertical alignment."
+        },
+        {
+          "issue_id": "focus-0100-09",
+          "source_reading": "Cf with d. 116 (3)",
+          "certainty": "probable",
+          "evidence": "Same as focus-0100-05: the note aligns with √d. 172 (7), not with d. 116 (3)."
+        },
+        {
+          "issue_id": "focus-0100-10",
+          "source_reading": "Cf",
+          "certainty": "probable",
+          "evidence": "'C' and 'f' are joined in a single looped form with a descender; it is read as 'Cf'."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r004",
+          "field_path": "literal_text",
+          "before": "Foll. by (1) f.1 of Kāśinātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaśītattvas",
+          "after": "Foll. by (1) f.1 of Kā[ś?]inātha's [co.?] on Raghunandana's Tithitattva (2) a leaf with a list of the Ekādaś[ī?]tattvas",
+          "reason": "Neither the sibilant diacritic nor the vowel length can be securely read on the native tile, so the literal text should not assert them.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "uncertainties",
+          "before": [
+            "The abbreviation after 'Kāśinātha's' is uncertain. It may read 'co.' or 'cm.'.",
+            "The diacritics in 'Kāśinātha's' and 'Ekādaśītattvas' (especially ī versus i) are uncertain.",
+            "'Foll.' and 'f.1' are read as written; the reading is fairly secure."
+          ],
+          "after": [
+            "The abbreviation after 'Kā[ś?]inātha's' is uncertain. It may read 'co.' or 'cm.'.",
+            "It is unclear whether 'Kā[ś?]inātha's' has ś or s; a mark near the word may be the apostrophe.",
+            "'Ekādaś[ī?]tattvas': the s carries a mark, but the vowel cannot be read securely as ī or i.",
+            "'Foll.' and 'f.1' are read as written; the reading is fairly secure."
+          ],
+          "reason": "Aligns the uncertainty list with the bracketed literal text.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [
+        {
+          "block_id": "b902",
+          "before_bbox": [
+            2930,
+            2980,
+            250,
+            1300
+          ],
+          "after_bbox": [
+            2930,
+            2980,
+            240,
+            950
+          ],
+          "reason": "In tiles 2 and 4 the faint strokes end at about canvas y 3920; nothing comparable appears below that.",
+          "certainty": "probable"
+        }
+      ],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b901",
+            "bbox": [
+              2990,
+              1015,
+              40,
+              25
+            ],
+            "kind_hint": "mark",
+            "anchor": "short oblique dash",
+            "features": [
+              "near gutter edge of target page",
+              "descending left to right",
+              "level with first d. 904 row of fol. 51"
+            ]
+          },
+          "record": {
+            "id": "r9901",
+            "block_ids": [
+              "b901"
+            ],
+            "type": "unattached_annotation",
+            "subtype": "marginal_mark",
+            "literal_text": "",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A short oblique stroke, not text, at about canvas x 2994-3024, y 1020-1035, on the target page near the gutter.",
+              "It is roughly level with a short dash in the fol. 51 margin beside the first 'd. 904' row."
+            ],
+            "editorial_context": [],
+            "relationships": [
+              {
+                "type": "possible_attachment",
+                "target_page_order": 101,
+                "target_record_id": null,
+                "target_block_id": null,
+                "target_anchor": "d. 904 (Kūpapratiṣṭhaprayoga row)",
+                "evidence": "Vertical alignment only; there is no connector.",
+                "certainty": "uncertain"
+              }
+            ],
+            "uncertainties": [
+              "The purpose of the mark and whether it was made in ink or pencil are unclear.",
+              "Its attachment is unproven."
+            ],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "A visible mark on the target page that no existing record represents."
+        },
+        {
+          "block": {
+            "id": "b902",
+            "bbox": [
+              2930,
+              2980,
+              240,
+              950
+            ],
+            "kind_hint": "faint_strokes",
+            "anchor": "faint pencil-like strokes near gutter",
+            "features": [
+              "very faint",
+              "possibly show-through from fol. 50",
+              "partly resembles 'm/' with two uprights"
+            ]
+          },
+          "record": {
+            "id": "r9902",
+            "block_ids": [
+              "b902"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "faint_strokes_possible_show_through",
+            "literal_text": "[illegible]",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "Very faint grey strokes at about canvas x 2930-3160, y 2985-3920.",
+              "Near y≈3200-3260 one group resembles 'm/' followed by two short uprights.",
+              "The page carries general faint ghosting from the reverse. The position matches the fol. 50 shelfmark column."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "It is unresolved whether these strokes are a faint pencil mark on this page or show-through from fol. 50.",
+              "No legible text can be read."
+            ],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "A visible faint feature without a record. It is recorded with an explicitly uncertain status rather than as text."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "The page number '50ᵇ.' is present."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The pencil 'm/' is present; its attachment remains uncertain."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "The note 'Cf with d. 116 (3)' and its arrow are present; the attachment is probable."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The bottom note is present; its literal uncertainty is now marked."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r9901"
+          ],
+          "finding": "Added as a non-text mark."
+        },
+        {
+          "block_id": "b902",
+          "status": "uncertain",
+          "record_ids": [
+            "r9902"
+          ],
+          "finding": "Added with an uncertain status; it may be show-through."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0100-03",
+          "record_id": "r9902",
+          "block_ids": [
+            "b902"
+          ],
+          "issue": "It is uncertain whether the faint strokes are a surface pencil mark or show-through.",
+          "next_check": "Compare with a mirrored image of the fol. 50 left margin, or inspect the original under raking light."
+        },
+        {
+          "issue_id": "focus-0100-04",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "Neither the meaning of 'm/' nor its attachment to 'd. 905 (1)' is proven.",
+          "next_check": "Look for similar 'm/' marks elsewhere in the catalogue and check whether they consistently align with facing-page rows."
+        },
+        {
+          "issue_id": "focus-0100-05",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The attachment to √d. 172 (7) rests on alignment only.",
+          "next_check": "Compare the ink and hand of the fol. 51 dash with the arrow on the target page."
+        },
+        {
+          "issue_id": "focus-0100-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "No connector to any facing-page row has been found.",
+          "next_check": "Inspect the gutter area under higher magnification."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "9c580aed09bf5938d7542f686565dcf0a4653f1ea9a129d6d45a1882f414da2d",
+      "bytes": 258205,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "09c5cd4cc02424f1582ea0e429ad0fa33f938784d56e9a8e7084295b96020e05",
+      "bytes": 303434,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "357a6002efc6dddccef8b0c3f1794db611ee204607a424ed4c53b4aa54463094",
+      "bytes": 300603,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bac1b68a507f1e6c68ee37ddfcc5abcd3fc146539350c962f3fdd188b185e97c",
+      "bytes": 312275,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "852d93defebadf4320f4768fb3eb5810ec29aba4bdc759ba472ec05c761d52d2",
+      "bytes": 333859,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/37748af3-d12f-48cb-b2d1-d193f1ad5010/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "3c7a0d544d5390b05d5bb1a22f18a7b216e2babee1993885dfa5cf77f968734b",
+      "bytes": 274223,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 99,
+      "folio_label": "fol. 50",
+      "page_id": "37748af3-d12f-48cb-b2d1-d193f1ad5010",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/43857fc6-070b-40fc-a35d-d7d4c6572c2e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "949d59c47d50ea008a21a93f7071dd178ecbcb2ddc94bfbabb5fb0c7d32f41e6",
+      "bytes": 281058,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 101,
+      "folio_label": "fol. 51",
+      "page_id": "43857fc6-070b-40fc-a35d-d7d4c6572c2e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/43857fc6-070b-40fc-a35d-d7d4c6572c2e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4e971cc9b157efb7a8b5e745dd449e9d15494c9e133509ef00cc3f885f4ec4f5",
+      "bytes": 450731,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 101,
+      "folio_label": "fol. 51",
+      "page_id": "43857fc6-070b-40fc-a35d-d7d4c6572c2e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/43857fc6-070b-40fc-a35d-d7d4c6572c2e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1504dec5747cbd5e1804a5eeb8f8c4fb356faa05fe43320517fc15d1a9114746",
+      "bytes": 511914,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 101,
+      "folio_label": "fol. 51",
+      "page_id": "43857fc6-070b-40fc-a35d-d7d4c6572c2e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/98be8332-6a8f-4c11-947c-e9c074de53a9.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "9c580aed09bf5938d7542f686565dcf0a4653f1ea9a129d6d45a1882f414da2d",
+      "bytes": 258205,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "486f5a2bf305491c18f144865888b7fa57c81f23528cf7631db34d89f1c6e409",
+      "bytes": 289055,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "09c5cd4cc02424f1582ea0e429ad0fa33f938784d56e9a8e7084295b96020e05",
+      "bytes": 303434,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "799be59cfb13c7be812eb79439eff52ef33c3e8a45c6d4101631537d41f7a24f",
+      "bytes": 296088,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "357a6002efc6dddccef8b0c3f1794db611ee204607a424ed4c53b4aa54463094",
+      "bytes": 300603,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bac1b68a507f1e6c68ee37ddfcc5abcd3fc146539350c962f3fdd188b185e97c",
+      "bytes": 312275,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/98be8332-6a8f-4c11-947c-e9c074de53a9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "852d93defebadf4320f4768fb3eb5810ec29aba4bdc759ba472ec05c761d52d2",
+      "bytes": 333859,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/37748af3-d12f-48cb-b2d1-d193f1ad5010/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "3c7a0d544d5390b05d5bb1a22f18a7b216e2babee1993885dfa5cf77f968734b",
+      "bytes": 274223,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 99,
+      "folio_label": "fol. 50",
+      "page_id": "37748af3-d12f-48cb-b2d1-d193f1ad5010",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/43857fc6-070b-40fc-a35d-d7d4c6572c2e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "949d59c47d50ea008a21a93f7071dd178ecbcb2ddc94bfbabb5fb0c7d32f41e6",
+      "bytes": 281058,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 101,
+      "folio_label": "fol. 51",
+      "page_id": "43857fc6-070b-40fc-a35d-d7d4c6572c2e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

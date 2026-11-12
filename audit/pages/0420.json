@@ -1,0 +1,552 @@
+{
+  "source_order": 420,
+  "folio_label": "fol. 210b",
+  "page_id": "c6baad06-de2f-451d-98cb-c6fd95de41a4",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "210b",
+    "principal_page_bbox": [
+      300,
+      262,
+      2900,
+      4576
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          300,
+          150,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "210b.",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "the 'b' is written superscript or raised"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          385,
+          4150,
+          1830,
+          130
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "ff.1-15, 179 verses, S. 1942. Madras Cat., 4360 (cf. Hall, xxviii, p.14)",
+        "features": [
+          "ink",
+          "single line near the bottom of the page",
+          "no shelfmark or title on this page",
+          "linked by an arrow from the facing page (fol. 211), apparently to the c.191(2) Yogabīja entry, but the attachment is inferred"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2945,
+          4170,
+          500,
+          70
+        ],
+        "description": "Ink arrow pointing left toward note b002. It begins on the facing page (fol. 211) and crosses the gutter."
+      },
+      {
+        "bbox": [
+          400,
+          1890,
+          110,
+          300
+        ],
+        "description": "Small ink specks or dots in the left margin. They are not text."
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2900,
+          3700
+        ],
+        "description": "Faint mirrored show-through of the writing on fol. 210 (recto). It is not target-page text."
+      }
+    ],
+    "boundary_notes": [
+      "Letters such as 'c.', 'd.' and 'v' along the right edge beyond the gutter (x>3250) belong to the facing fol. 211. They are not transcribed here.",
+      "Note b002 is probably additional detail for a holding entered on fol. 211, connected by the arrow. It is not an independent holding on this page."
+    ],
+    "uncertainties": [
+      "The reading 'S. 1942' and the figure '179' are clear but cursive. The ff. abbreviation is read as 'ff.' (written 'ff.' with a joined form).",
+      "The 'b' of the folio number is small and raised; 'b' is the most likely reading."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "210b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "210b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left corner of the page.",
+          "The 'b' is small and raised, above the line."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised 'b' is the most likely reading."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "arrowed_addition_from_facing_page",
+        "literal_text": "ff.1-15, 179 verses, S. 1942. Madras Cat., 4360 (cf. Hall, xxviii, p.14)",
+        "fields": {
+          "extent": "ff.1-15, 179 verses",
+          "date": "S. 1942",
+          "source": "Madras Cat., 4360 (cf. Hall, xxviii, p.14)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, single line near the foot of the page, written on the ruled line.",
+          "An ink arrow points left toward the end of this line. It starts beside the c. 191 (2) entry on the facing fol. 211 and crosses the gutter.",
+          "There is no shelfmark or title on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 421,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 191 (2) Yogabija",
+            "evidence": "An ink arrow runs from the left of the c. 191 (2) Yogabija line on fol. 211 across the gutter. It ends at the same height as this note (y≈4180). That line also has the date '1885' added over 'n.d.'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The handwriting is cursive. 'ff.', '179' and 'S. 1942' are read with reasonable confidence.",
+          "The attachment rests on the arrow and its vertical alignment. No shelfmark is repeated on this page."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Bottom ink note, probably a continuation of fol. 211 c. 191 (2) via the arrow."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and the bottom note, the page is otherwise blank after image review. Faint mirrored show-through of fol. 210 is visible and is not target text.",
+      "There are small ink specks in the left margin (around y 1890-2190). They are not text.",
+      "The letters 'c.', 'd.' and 'v' at the right edge, beyond the gutter, belong to the facing fol. 211 and are not transcribed.",
+      "An ink arrow at about [2945,4170,500,70] crosses the gutter from fol. 211 toward the note."
+    ],
+    "unresolved_relationships": [
+      "The attachment of r002 to fol. 211 c. 191 (2) is probable, not secure."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil folio number in the top-left corner (about [380,300,150,130]) reads '210' with a small raised 'b' and a dot beneath it. The candidate's '210b.' and its uncertainty about the raised 'b' match the native tile. There is no other top-margin writing."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single cursive ink line near the foot reads 'ff.1-15, 179 verses, S. 1942. Madras Cat., 4360 (cf. Hall, xxviii, p.14)'. It spans the bottom-left and bottom-right native tiles at about y≈4180–4240. The overlap at 'cf. Hall,' is not duplicated in the candidate. No title or shelfmark is on this page. The letter forms in 'ff.', 'verses' and 'S. 1942' are cursive but consistent with the candidate. The ink arrow (an unattached mark, about [2945,4170,500,70]) runs leftward from beside the '√c. 191 (2) Yogabīja' line on fol. 211 across the gutter, and its tip ends right of this line. This disposition is recorded in the r002 annotations and page_annotations. The other unattached marks are also recorded in page_annotations: the left-margin specks around y≈1890–2190 and a small speck near [1590,460], neither of which is text, and the mirrored show-through of fol. 210. None of these needs its own record."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The attachment of the bottom note to fol. 211 '√c. 191 (2) Yogabīja' rests only on the arrow crossing the gutter at the same height (y≈4200). That line also has a struck-through descriptive phrase and '1885' written above 'n.d.'. The arrow evidence is strong, but the relationship is not stated in words.",
+        "next_check": "Compare against the full-resolution fol. 211 image to confirm that the arrow's tail begins at the c. 191 (2) line and not at the e.190 line below."
+      }
+    ],
+    "boundary_review": "The facing fol. 211 starts beyond the gutter at about x>3250. The letters 'c.', 'd.' and a 'v' or tick mark at y≈4200 visible at the right edge are fragments of fol. 211's shelfmark column, including the tick of '√c. 191 (2)'. They are correctly excluded from the transcription. The arrow is the only element that crosses the gutter and it is treated as a linking mark. The mirrored show-through of fol. 210 recto across the page is not target text.",
+    "region_review": {
+      "top": "Only the pencil '210b.' folio number in the top-left; a small speck near x≈1590, y≈460 is not text.",
+      "middle": "The ruled lines are empty apart from the faint mirrored show-through of fol. 210. There is no faint pencil writing.",
+      "bottom": "The single ink line b002 and the arrow from the facing page. The ruled lines below the note are blank apart from show-through.",
+      "left_margin": "There are ink specks or dots around y≈1890–2190 and small marks on the page-block edge. They are not text.",
+      "right_margin": "There is no target text. The gutter has a fold or crease, and fragments of the facing page lie beyond it.",
+      "interlinear": "There are no interlinear additions or cancellations on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        300,
+        150,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "210b.",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "the 'b' is written superscript or raised"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        385,
+        4150,
+        1830,
+        130
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "ff.1-15, 179 verses, S. 1942. Madras Cat., 4360 (cf. Hall, xxviii, p.14)",
+      "features": [
+        "ink",
+        "single line near the bottom of the page",
+        "no shelfmark or title on this page",
+        "linked by an arrow from the facing page (fol. 211), apparently to the c.191(2) Yogabīja entry, but the attachment is inferred"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "210b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left corner of the page.",
+        "The 'b' is small and raised, above the line."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised 'b' is the most likely reading."
+      ],
+      "stable_id": "css-prod-0420-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "arrowed_addition_from_facing_page",
+      "literal_text": "ff.1-15, 179 verses, S. 1942. Madras Cat., 4360 (cf. Hall, xxviii, p.14)",
+      "fields": {
+        "extent": "ff.1-15, 179 verses",
+        "date": "S. 1942",
+        "source": "Madras Cat., 4360 (cf. Hall, xxviii, p.14)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, single line near the foot of the page, written on the ruled line.",
+        "An ink arrow points left toward the end of this line. It starts beside the c. 191 (2) entry on the facing fol. 211 and crosses the gutter.",
+        "There is no shelfmark or title on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 421,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 191 (2) Yogabija",
+          "evidence": "An ink arrow runs from the left of the c. 191 (2) Yogabija line on fol. 211 across the gutter. It ends at the same height as this note (y≈4180). That line also has the date '1885' added over 'n.d.'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The handwriting is cursive. 'ff.', '179' and 'S. 1942' are read with reasonable confidence.",
+        "The attachment rests on the arrow and its vertical alignment. No shelfmark is repeated on this page."
+      ],
+      "stable_id": "css-prod-0420-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c6baad06-de2f-451d-98cb-c6fd95de41a4.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c6baad06-de2f-451d-98cb-c6fd95de41a4/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "88e76f50882c30bbdf09354279b64b5208788d72a0c603f71d05aaeaec78831c",
+      "bytes": 239460,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c6baad06-de2f-451d-98cb-c6fd95de41a4/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "846ff7bbb4dd343ac45904a46955ede4c4a111db97f7dc2120ceffb0f2026b0a",
+      "bytes": 297944,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c6baad06-de2f-451d-98cb-c6fd95de41a4/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "259c1984995ffb636554a1fe6117c128442691f67852b0c314c6a1d765a9fc1d",
+      "bytes": 289028,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c6baad06-de2f-451d-98cb-c6fd95de41a4/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "888130fd0297db18c21a22cd3f50c4f7b02b6ffde2bf227e32715c68dd5aa37e",
+      "bytes": 290592,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c6baad06-de2f-451d-98cb-c6fd95de41a4/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1a1ea29111747c378f3482c8fc40aad0a12a4b3d04bf7144c545f1d7e6f68915",
+      "bytes": 261920,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c6baad06-de2f-451d-98cb-c6fd95de41a4/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "746b25a2114899749584f575d0913f9a39250673048b8931d7658b5e8f4fe1b7",
+      "bytes": 319768,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c6baad06-de2f-451d-98cb-c6fd95de41a4/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "edb7b6ec86f1199d9eae7726541cd78787b03280a1f8d6c3f951650d03a86719",
+      "bytes": 314839,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9b04573-7397-4aac-85f0-67f692114d71/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "48003fdf50ea37f102fd47fc7c7cd2381a945bc5f4c9d50babd72e3b61046928",
+      "bytes": 232633,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 419,
+      "folio_label": "fol. 210",
+      "page_id": "d9b04573-7397-4aac-85f0-67f692114d71",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f5b375f2-3ac8-4832-9c52-ce6aefa599cb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "be81ce06a11e1c120d685c27163c5d54c254c374cbec88c7a67d6bc93c252b6e",
+      "bytes": 234352,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 421,
+      "folio_label": "fol. 211",
+      "page_id": "f5b375f2-3ac8-4832-9c52-ce6aefa599cb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

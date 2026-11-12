@@ -1,0 +1,1829 @@
+{
+  "source_order": 96,
+  "folio_label": "fol. 48b",
+  "page_id": "ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "48b",
+    "principal_page_bbox": [
+      320,
+      265,
+      2880,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          280,
+          115,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "48b",
+        "features": [
+          "top-left corner",
+          "superscript b with dot below/after"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          465,
+          1320,
+          830,
+          110
+        ],
+        "kind_hint": "holding_detail_note",
+        "anchor": "ff.1-8, S.1651. R.L.M., II, 708.",
+        "features": [
+          "no shelfmark or title on this page",
+          "left-pointing arrow at the right of this line, near the gutter",
+          "may relate to an entry on the facing page; the linkage is not established"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          420,
+          1660,
+          1470,
+          130
+        ],
+        "kind_hint": "holding_detail_note",
+        "anchor": "ff.1-20. S.1914, Śaka 1779. Owner Bāla Mukunda.",
+        "features": [
+          "long left-pointing arrow at the right of this line, with a dash continuing across the gutter",
+          "diacritics on Ś and ā"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          400,
+          3270,
+          2480,
+          110
+        ],
+        "kind_hint": "entry",
+        "anchor": "c. 387(5) S°. Kubjikākavaca, 20ff. of fragmentary MSS, ...",
+        "features": [
+          "shelfmark at start",
+          "single long line ending '..., ff 1-6, inc., pp. 87-92'",
+          "fine pen"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2800,
+          3320,
+          380,
+          70
+        ],
+        "kind_hint": "date_extent_script_note",
+        "anchor": "n.d.: 20: 9: Newari",
+        "features": [
+          "written slightly below the end of b004",
+          "double-headed arrow above it runs across the gutter"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          400,
+          4400,
+          2720,
+          135
+        ],
+        "kind_hint": "entry",
+        "anchor": "K..5 +6. Ka[?]yasudhā (or Vyākhyāsudhā), by Raghupati of Surapanagrāma, ff. 2-149 ...",
+        "features": [
+          "two lines",
+          "second line: 'down to vii, 93. R.L.M., v, 1964'",
+          "the reading of the title's first word is uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3040,
+          1320,
+          120,
+          35
+        ],
+        "description": "short left-pointing arrow in the right area of the target page, level with b002"
+      },
+      {
+        "bbox": [
+          2940,
+          1685,
+          360,
+          45
+        ],
+        "description": "long left-pointing arrow level with b003, plus a short dash beyond the gutter"
+      },
+      {
+        "bbox": [
+          3055,
+          3265,
+          265,
+          60
+        ],
+        "description": "double-headed arrow linking the b005 area across the gutter to the facing-page note 'Kubjikāmata ...'"
+      }
+    ],
+    "boundary_notes": [
+      "The right strip beyond the gutter (x > ~3200) shows the facing page fol. 49. Its left margin has a pencil note 'this portion ... shifted ...', letters/shelfmarks (e, e, d, d...), ticks, 'ff.1...', and 'Kubjikāmata ... from ...'. This material is not transcribed as target-page records.",
+      "The arrows in b002/b003 and the double arrow near b005 indicate links to fol. 49 marginal shelfmarks. The parent entries for b002 and b003 are not on this page."
+    ],
+    "uncertainties": [
+      "Faint mirrored show-through of writing from the reverse side is visible across the ruled lines. It was not treated as target text.",
+      "Reading of 'Ka[?]yasudhā' in b006 is uncertain.",
+      "'S°.' in b004 is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "48b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "48ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner of the page. The superscript b is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "detail_note_for_facing_page_entry",
+        "literal_text": "ff.1-8, S.1651. R.L.M., II, 708.",
+        "fields": {
+          "extent": "ff.1-8",
+          "date": "S.1651",
+          "source": "R.L.M., II, 708."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A short left-pointing arrow (about x 3040–3160, y 1320) sits near the gutter at the level of this line.",
+          "The note has no shelfmark or title on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 97,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "← c. 273 (2) Kundārka ... By Śaṅkara, son of Nīlakaṇṭha ... 1794: 8: ...",
+            "evidence": "The arrow is level with the left-margin arrow beside c. 273 (2) on fol. 49. The extent of 8 ff. agrees with the 8 in that entry's line.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The Roman numeral is read as 'II' but is somewhat ligatured.",
+          "The attachment to fol. 49 rests on arrow alignment only."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "detail_note_for_facing_page_entry",
+        "literal_text": "ff1-20. S.1914, Śaka 1779. Owner Bāla Mukunda.",
+        "fields": {
+          "extent": "ff1-20",
+          "date": "S.1914, Śaka 1779"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is a dot above the S of 'S.1914'.",
+          "A long left-pointing arrow (about x 2940–3170, y 1685) is level with this line. A dash continues it across the gutter onto fol. 49."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 97,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "←— c. 273 (5) ... 1857: 20: 8: D.",
+            "evidence": "The arrow and dash run across the gutter to the left-margin arrow beside c. 273 (5) on fol. 49. The 20 ff. agrees with '20' in that entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": "shifted_entry",
+        "literal_text": "c. 387(5) S°. Kubjikākavaca, 20ff. of fragmentary MSS, only identifiable portion being as above, ff1-6, inc., pp. 87-92\nn.d.: 20: 9: Newari",
+        "fields": {
+          "shelfmark": "c. 387(5)",
+          "title": "Kubjikākavaca",
+          "date": "n.d.",
+          "extent": "20",
+          "lines": "9",
+          "script": "Newari"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The note 'n.d.: 20: 9: Newari' is written slightly below the end of the main line.",
+          "A double-headed arrow above it (about x 3055–3320, y 3265) runs across the gutter to a fol. 49 marginal note beginning 'Kubjikāmata ...'.",
+          "Fine pen."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 97,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "n.d.:20:9:Newari ↔ Kubjikāmata ... from ...",
+            "evidence": "The double-headed arrow crosses the gutter to the fol. 49 left-margin note.",
+            "certainty": "probable"
+          },
+          {
+            "type": "continues",
+            "target_page_order": 95,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 387(5) Kubjikākavaca ⟦A collection of fragments⟧ ... n.d.: 24: 9: Newari",
+            "evidence": "The same shelfmark and title appear on fol. 48. 'as above' may refer to that entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'S°.' after the shelfmark is uncertain; it may read 'J°'.",
+          "'pp. 87-92' could be read 'ff. 87-92'."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "K..5 +6. Ka[?]yasudhā (or Vyākhyāsudhā), by Raghupati of Surapaṇagrāma, ff. 2-149 (n. 36, 37), with 4 duplicates of Co. only,\ndown to vii, 93. R.L.M., v, 1964",
+        "fields": {
+          "shelfmark": "K..5 +6",
+          "title": "Ka[?]yasudhā (or Vyākhyāsudhā)",
+          "author": "Raghupati of Surapaṇagrāma",
+          "extent": "ff. 2-149 (n. 36, 37)",
+          "source": "R.L.M., v, 1964"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two lines; the second line is indented."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 97,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 184 (1) ... + D: Kāvyasudhā, by Raghupati ... n.d.: 150: ...",
+            "evidence": "This line is level with the fol. 49 entry that names a commentary by Raghupati. The extent of 2-149 ff. is close to that entry's 150.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The first word of the title is uncertain; it could be read 'Kauyasudhā' or 'Kavyasudhā'.",
+          "The shelfmark 'K..5 +6' is uncertain.",
+          "'(n. 36, 37)' could be read '(m. 36, 37)'.",
+          "'Co.' is read literally and not expanded."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Detail note with an arrow, probably attached to a fol. 49 entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Detail note with an arrow, probably attached to a fol. 49 entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Main line of the Kubjikākavaca entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Date, extent, lines and script note securely belonging to the b004 entry."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Two-line holding entry."
+      }
+    ],
+    "page_annotations": [
+      "Faint mirrored show-through from the reverse side is visible across the ruled lines. It was not transcribed.",
+      "Ticks, letters and notes beyond the gutter (x > ~3200) belong to fol. 49 and are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "Attachment of b002 and b003 to fol. 49 entries c. 273 (2) and c. 273 (5) is inferred from arrows only.",
+      "Relation of b006 to the fol. 49 Raghupati commentary entry is uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '48' with superscript b and dot, top-left. The candidate reading '48ᵇ.' matches the source."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The line 'ff.1-8, S.1651. R.L.M., II, 708.' is legible in tile 0,0. The roman numeral is ligatured or overlined, and the candidate already notes this. The short left-pointing arrow near the gutter (unattached mark at about 3040,1320) is recorded in the annotations. The arrow is level with the arrow beside c. 273 (2) on fol. 49, so the attachment stays probable."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The text is present. The mark after '1779' looks more like a dash than a full stop. The owner name is cursive and already flagged. The long arrow and the dash beyond the gutter (unattached mark at about 2940,1685) are recorded and are level with the arrow beside c. 273 (5) on fol. 49."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "One long fine-pen line, transcribed once with no duplication across the tile overlap. 'S°.' is uncertain: the letter after '(5)' is a long-s or f shape with a superscript o. Whether 'pp. 87-92' should read 'ff.' is already flagged."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'n.d.: 20: 9: Newari' sits below the end of b004. The script word is cursive (it could be 'Newāri' or similar), so its literal form is uncertain. The double-headed arrow across the gutter (unattached mark at about 3055,3265) is recorded in the r004 annotations. Grouping this note with b004 is reasonable, but it rests on position only."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Two lines, the second indented. In the native tile the dot under ṇ in 'Surapaṇagrāma' is visible, so the candidate's ṇ is supported and the inventory's 'n' is not. The first word of the title remains uncertain. On fol. 49 the cut-off 'plicates of Co. only,' appears at the level of the c. 184 (1) row, which supports level alignment with that entry. There is no arrow, so the link stays unresolved."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise."
+        ],
+        "after": [
+          "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise.",
+          "'Owner' is a cursive abbreviation-like form; the reading is probable, not certain.",
+          "The punctuation after '1779' resembles a dash rather than a full stop.",
+          "The extent has no clearly visible point after 'ff' (unlike 'ff.1-8' in b002); the inventory reads 'ff.1-20'."
+        ],
+        "reason": "Source review shows these additional letter-form and punctuation ambiguities in b003.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "'S°.' after the shelfmark is uncertain; it may read 'J°'.",
+          "'pp. 87-92' could be read 'ff. 87-92'."
+        ],
+        "after": [
+          "'S°.' after the shelfmark is uncertain; it may read 'J°' or 'f°'.",
+          "'pp. 87-92' could be read 'ff. 87-92'.",
+          "The script word in 'n.d.: 20: 9: Newari' is cursive; its exact spelling and any diacritics are uncertain.",
+          "Assigning b005 to b004 rests on position below the end of the line."
+        ],
+        "reason": "The script word in b005 is not securely legible, and the ownership of the note is inferred from position.",
+        "source_block_ids": [
+          "b004",
+          "b005"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The attachment to fol. 49 c. 273 (2) is based on arrow alignment. The date there (1794) does not obviously match S.1651.",
+        "next_check": "Compare at native resolution on fol. 49 whether the c. 273 (2) arrow is meant to receive this note."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The attachment to fol. 49 c. 273 (5) is probable from the arrow and the dash crossing the gutter.",
+        "next_check": "Check the fol. 49 native image for continuity of the dash."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "issue": "The relation to fol. 48 c. 387(5), which reads n.d.: 24: 9, and to the fol. 49 marginal note 'Kubjikāmata ... from ...' is not fully legible.",
+        "next_check": "Read the fol. 49 left-margin pencil note at native resolution."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The title's first word, the shelfmark 'K..5 +6' and the link to fol. 49 c. 184 (1) are all uncertain.",
+        "next_check": "Compare letter forms with the fol. 49 'Kāvyasudhā' line without correcting the target reading."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter, about x 3200. Material beyond it belongs to fol. 49 and is not transcribed as target records: the pencil 'this portion ... shifted back' note, the letters e/e/d/d, the ticks, 'ff.1...', and 'Kubjikāmata ... from ...'. The fol. 49 overview shows fragments of this page (the 'n.d.:20:9:Newari' and 'plicates of Co. only,' fragments), which confirms the alignment and are not new records. The links of the arrows to facing-page entries remain probable or uncertain.",
+    "region_review": {
+      "top": "Only the folio number. The ruled lines show faint mirrored show-through only.",
+      "middle": "Contains b002, b003 and b004/b005 with their arrows. Other faint text is show-through.",
+      "bottom": "Contains b006 (two lines). The space below it to the page edge is blank apart from show-through.",
+      "left_margin": "No writing apart from the line starts.",
+      "right_margin": "Contains the arrows at the b002, b003 and b005 levels. Ticks beyond the gutter belong to fol. 49.",
+      "interlinear": "No interlinear additions or cancellations were found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        280,
+        115,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "48b",
+      "features": [
+        "top-left corner",
+        "superscript b with dot below/after"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        465,
+        1320,
+        830,
+        110
+      ],
+      "kind_hint": "holding_detail_note",
+      "anchor": "ff.1-8, S.1651. R.L.M., II, 708.",
+      "features": [
+        "no shelfmark or title on this page",
+        "left-pointing arrow at the right of this line, near the gutter",
+        "may relate to an entry on the facing page; the linkage is not established"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        420,
+        1660,
+        1470,
+        130
+      ],
+      "kind_hint": "holding_detail_note",
+      "anchor": "ff.1-20. S.1914, Śaka 1779. Owner Bāla Mukunda.",
+      "features": [
+        "long left-pointing arrow at the right of this line, with a dash continuing across the gutter",
+        "diacritics on Ś and ā"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        400,
+        3270,
+        2480,
+        110
+      ],
+      "kind_hint": "entry",
+      "anchor": "c. 387(5) S°. Kubjikākavaca, 20ff. of fragmentary MSS, ...",
+      "features": [
+        "shelfmark at start",
+        "single long line ending '..., ff 1-6, inc., pp. 87-92'",
+        "fine pen"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2800,
+        3320,
+        380,
+        70
+      ],
+      "kind_hint": "date_extent_script_note",
+      "anchor": "n.d.: 20: 9: Newari",
+      "features": [
+        "written slightly below the end of b004",
+        "double-headed arrow above it runs across the gutter"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        400,
+        4400,
+        2720,
+        135
+      ],
+      "kind_hint": "entry",
+      "anchor": "K..5 +6. Ka[?]yasudhā (or Vyākhyāsudhā), by Raghupati of Surapanagrāma, ff. 2-149 ...",
+      "features": [
+        "two lines",
+        "second line: 'down to vii, 93. R.L.M., v, 1964'",
+        "the reading of the title's first word is uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "48ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner of the page. The superscript b is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0096-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "detail_note_for_facing_page_entry",
+      "literal_text": "ff.1-8, S.1651. R.L.M., II, 708.",
+      "fields": {
+        "extent": "ff.1-8",
+        "date": "S.1651",
+        "source": "R.L.M., II, 708."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A short left-pointing arrow (about x 3040–3160, y 1320) sits near the gutter at the level of this line.",
+        "The note has no shelfmark or title on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 97,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "← c. 273 (2) Kundārka ... By Śaṅkara, son of Nīlakaṇṭha ... 1794: 8: ...",
+          "evidence": "The arrow is level with the left-margin arrow beside c. 273 (2) on fol. 49. The extent of 8 ff. agrees with the 8 in that entry's line.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The Roman numeral is read as 'II' but is somewhat ligatured.",
+        "The attachment to fol. 49 rests on arrow alignment only.",
+        "The date on fol. 49 c. 273 (2) is written '1794', whereas this note has 'S.1651'; the dates are not reconciled, and no conversion is applied."
+      ],
+      "stable_id": "css-prod-0096-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "detail_note_for_facing_page_entry",
+      "literal_text": "ff1-20. S.1914, Śaka 1779. Owner Bāla Mukunda.",
+      "fields": {
+        "extent": "ff1-20",
+        "date": "S.1914, Śaka 1779"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is a dot above the S of 'S.1914'.",
+        "A long left-pointing arrow (about x 2940–3170, y 1685) is level with this line. A dash continues it across the gutter onto fol. 49."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 97,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "←— c. 273 (5) ... 1857: 20: 8: D.",
+          "evidence": "The arrow and dash run across the gutter to the left-margin arrow beside c. 273 (5) on fol. 49. The 20 ff. agrees with '20' in that entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise."
+      ],
+      "stable_id": "css-prod-0096-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": "shifted_entry",
+      "literal_text": "c. 387(5) S°. Kubjikākavaca, 20ff. of fragmentary MSS, only identifiable portion being as above, ff1-6, inc., pp. 87-92\nn.d.: 20: 9: Newari",
+      "fields": {
+        "shelfmark": "c. 387(5)",
+        "title": "Kubjikākavaca",
+        "date": "n.d.",
+        "extent": "20",
+        "lines": "9",
+        "script": "Newari"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The note 'n.d.: 20: 9: Newari' is written slightly below the end of the main line.",
+        "A double-headed arrow above it (about x 3055–3320, y 3265) runs across the gutter to a fol. 49 marginal note beginning 'Kubjikāmata ...'.",
+        "Fine pen."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 97,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "n.d.:20:9:Newari ↔ Kubjikāmata ... from ...",
+          "evidence": "The double-headed arrow crosses the gutter to the fol. 49 left-margin note.",
+          "certainty": "probable"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 95,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 387(5) Kubjikākavaca ⟦A collection of fragments⟧ ... n.d.: 24: 9: Newari",
+          "evidence": "The same shelfmark and title appear on fol. 48. 'as above' may refer to that entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'S°.' after the shelfmark is uncertain; it may read 'J°'.",
+        "'pp. 87-92' could be read 'ff. 87-92'."
+      ],
+      "stable_id": "css-prod-0096-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "K..5 +6. Ka[?]yasudhā (or Vyākhyāsudhā), by Raghupati of Surapaṇagrāma, ff. 2-149 (n. 36, 37), with 4 duplicates of Co. only,\ndown to vii, 93. R.L.M., v, 1964",
+      "fields": {
+        "shelfmark": "K..5 +6",
+        "title": "Ka[?]yasudhā (or Vyākhyāsudhā)",
+        "author": "Raghupati of Surapaṇagrāma",
+        "extent": "ff. 2-149 (n. 36, 37)",
+        "source": "R.L.M., v, 1964"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two lines; the second line is indented."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 97,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 184 (1) ... + D: Kāvyasudhā, by Raghupati ... n.d.: 150: ...",
+          "evidence": "This line is level with the fol. 49 entry that names a commentary by Raghupati. The extent of 2-149 ff. is close to that entry's 150.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The first word of the title is uncertain; it could be read 'Kauyasudhā' or 'Kavyasudhā'.",
+        "The shelfmark 'K..5 +6' is uncertain.",
+        "'(n. 36, 37)' could be read '(m. 36, 37)'.",
+        "'Co.' is read literally and not expanded."
+      ],
+      "stable_id": "css-prod-0096-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise."
+      ],
+      "after": [
+        "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise.",
+        "'Owner' is a cursive abbreviation-like form; the reading is probable, not certain.",
+        "The punctuation after '1779' resembles a dash rather than a full stop.",
+        "The extent has no clearly visible point after 'ff' (unlike 'ff.1-8' in b002); the inventory reads 'ff.1-20'."
+      ],
+      "reason": "Source review shows these additional letter-form and punctuation ambiguities in b003.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "'S°.' after the shelfmark is uncertain; it may read 'J°'.",
+        "'pp. 87-92' could be read 'ff. 87-92'."
+      ],
+      "after": [
+        "'S°.' after the shelfmark is uncertain; it may read 'J°' or 'f°'.",
+        "'pp. 87-92' could be read 'ff. 87-92'.",
+        "The script word in 'n.d.: 20: 9: Newari' is cursive; its exact spelling and any diacritics are uncertain.",
+        "Assigning b005 to b004 rests on position below the end of the line."
+      ],
+      "reason": "The script word in b005 is not securely legible, and the ownership of the note is inferred from position.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff1-20. S.1914, Śaka 1779. Owner Bāla Mukunda.",
+      "after": "ff1-20. S.1914, Śaka 1779- Owner Bāla Mukunda[reading?].",
+      "reason": "A dash rather than a full stop follows 1779, and the name is not securely legible.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0096-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise."
+      ],
+      "after": [
+        "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise.",
+        "'Owner' is a cursive abbreviation-like form; the reading is probable, not certain.",
+        "The punctuation after '1779' resembles a dash rather than a full stop.",
+        "No point is visible after 'ff' (unlike 'ff.1-8' in b002).",
+        "The attachment to fol. 49 c. 273 (5) rests on the arrow and dash, and on the shared extent of 20; the dates are not compared."
+      ],
+      "reason": "Source reread.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0096-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "'S°.' after the shelfmark is uncertain; it may read 'J°'.",
+        "'pp. 87-92' could be read 'ff. 87-92'."
+      ],
+      "after": [
+        "'S°.' after the shelfmark is uncertain; it may read 'J°' or 'f°'.",
+        "'pp. 87-92' could be read 'ff. 87-92'.",
+        "The script word in 'n.d.: 20: 9: Newari' is cursive; its exact spelling and any diacritics are uncertain.",
+        "Assigning b005 to b004 rests on its position below the end of the line.",
+        "The fol. 49 marginal note at the arrow's end is faint and only partly legible ('Kubjikām... / from ...').",
+        "Fol. 48 c. 387(5) gives 24 leaves where b005 gives 20; the relationship is unconfirmed."
+      ],
+      "reason": "Source reread.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0096-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The Roman numeral is read as 'II' but is somewhat ligatured.",
+        "The attachment to fol. 49 rests on arrow alignment only."
+      ],
+      "after": [
+        "The Roman numeral is read as 'II' but is somewhat ligatured.",
+        "The attachment to fol. 49 rests on arrow alignment only.",
+        "The date on fol. 49 c. 273 (2) is written '1794', whereas this note has 'S.1651'; the dates are not reconciled, and no conversion is applied."
+      ],
+      "reason": "Records the date discrepancy noted in focus-0096-01.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0096-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "uncertainties",
+      "before": [
+        "The first word of the title is uncertain; it could be read 'Kauyasudhā' or 'Kavyasudhā'.",
+        "The shelfmark 'K..5 +6' is uncertain.",
+        "'(n. 36, 37)' could be read '(m. 36, 37)'.",
+        "'Co.' is read literally and not expanded."
+      ],
+      "after": [
+        "The first word of the title is uncertain; it could be read 'Kauyasudhā' or 'Kavyasudhā'.",
+        "The shelfmark 'K..5 +6' is uncertain; the character after 'K..' may be 's' rather than '5'.",
+        "'(n. 36, 37)' could be read '(m. 36, 37)'.",
+        "'Co.' is read literally and not expanded.",
+        "The link to fol. 49 c. 184 (1) rests on vertical position only."
+      ],
+      "reason": "Source reread.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0096-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The attachment to fol. 49 c. 273 (2) is based on arrow alignment. The date there (1794) does not obviously match S.1651.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0096-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The attachment to fol. 49 c. 273 (5) is probable from the arrow and the dash crossing the gutter.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0096-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The relation to fol. 48 c. 387(5), which reads n.d.: 24: 9, and to the fol. 49 marginal note 'Kubjikāmata ... from ...' is not fully legible.",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0096-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The title's first word, the shelfmark 'K..5 +6' and the link to fol. 49 c. 184 (1) are all uncertain.",
+      "block_ids": [
+        "b006"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0096-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Source review shows these additional letter-form and punctuation ambiguities in b003. Proposed uncertainties: [\"The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise.\", \"'Owner' is a cursive abbreviation-like form; the reading is probable, not certain.\", \"The punctuation after '1779' resembles a dash rather than a full stop.\", \"The extent has no clearly visible point after 'ff' (unlike 'ff.1-8' in b002); the inventory reads 'ff.1-20'.\"]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0096-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The script word in b005 is not securely legible, and the ownership of the note is inferred from position. Proposed uncertainties: [\"'S°.' after the shelfmark is uncertain; it may read 'J°' or 'f°'.\", \"'pp. 87-92' could be read 'ff. 87-92'.\", \"The script word in 'n.d.: 20: 9: Newari' is cursive; its exact spelling and any diacritics are uncertain.\", \"Assigning b005 to b004 rests on position below the end of the line.\"]",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0096-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The Roman numeral is read as 'II' but is somewhat ligatured.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0096-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The attachment to fol. 49 rests on arrow alignment only.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0096-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0096-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'S°.' after the shelfmark is uncertain; it may read 'J°'.",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0096-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0096-01",
+        "focus-0096-02",
+        "focus-0096-03",
+        "focus-0096-04",
+        "focus-0096-05",
+        "focus-0096-06",
+        "focus-0096-07",
+        "focus-0096-08",
+        "focus-0096-09",
+        "focus-0096-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0096-01",
+          "source_reading": "ff.1-8, S.1651. R.L.M., II, 708. — a short left-pointing arrow near the gutter at the level of this line",
+          "certainty": "probable",
+          "evidence": "The text reading is clear on the native tile. On the fol. 49 context, a short left-pointing arrow in the left margin sits level with c. 273 (2), whose entry reads '1794: 8: 12/13: D.' The extents agree (8), but the dates are written differently (S.1651 against 1794). No date conversion is applied. The attachment therefore rests on arrow level and extent only."
+        },
+        {
+          "issue_id": "focus-0096-02",
+          "source_reading": "ff1-20. S.1914, Śaka 1779- Owner Bāla M[?]kunda. — a long left arrow (about x 2945–3170, y 1690) and a separate dash (about x 3220–3290) beyond the gutter",
+          "certainty": "probable",
+          "evidence": "On fol. 49, a long left arrow with a short dash sits in the left margin beside c. 273 (5) '1857: 20: 8: D'. The dash on the target page continues toward it. The extent of 20 agrees. The dates are not compared by conversion."
+        },
+        {
+          "issue_id": "focus-0096-03",
+          "source_reading": "b004 '...ff1-6, inc., pp[?]. 87-92'; b005 below its end: 'n.d.: 20: 9: Newari[?]'; a double-headed arrow from b005 runs across the gutter to a faint fol. 49 note 'Kubjikāma[ta?] in here[?] / from ne[...]'",
+          "certainty": "uncertain",
+          "evidence": "The fol. 49 note is faint pencil and only partly legible; only 'Kubjikām...' and 'from' are reasonably clear. Fol. 48 c. 387(5) reads 'n.d.: 24: 9: Newari', while b005 has 20. The relation to that entry is not established beyond the shared shelfmark and title."
+        },
+        {
+          "issue_id": "focus-0096-04",
+          "source_reading": "K..s[?] +6. Ka[u/v?]yasudhā (or Vyākhyāsudhā), by Raghupati of Surapaṇagrāma, ff. 2-149(n[?].36,37), with 4 duplicates of Co. only, / down to vii, 93. R.L.M., v, 1964",
+          "certainty": "uncertain",
+          "evidence": "The shelfmark glyph after 'K..' could be 's' or '5'. The title's second letter is ambiguous. Fol. 49 c. 184 (1) ('+ D: Kāvyasudhā, by Raghupati ... n.d.: 150: ...') lies at roughly the same height. The fragment '...licates of Co. only,' is visible at the left edge of the fol. 49 image, which is the target text seen across the gutter. The link is by position only."
+        },
+        {
+          "issue_id": "focus-0096-05",
+          "source_reading": "ff1-20. S.1914, Śaka 1779- Owner Bāla M[?]kunda.",
+          "certainty": "probable",
+          "evidence": "No point is visible after 'ff' in b003, whereas b002 has 'ff.'. A short dash rather than a full stop follows '1779'. 'Owner' is cursive ('Ounr'-like). The second name word is cursive, with an uncertain first vowel."
+        },
+        {
+          "issue_id": "focus-0096-06",
+          "source_reading": "c. 387(5) S°[?]. Kubjikākavaca, ... pp[?]. 87-92 / n.d.: 20: 9: Newari[?]",
+          "certainty": "uncertain",
+          "evidence": "The letter after the shelfmark has a superscript o; its base letter could be S, J or f. 'pp' versus 'ff' is ambiguous because the strokes resemble the 'ff' of 'ff1-6'. The script word is cursive. b005 sits directly under the end of b004, but its attachment is by position only."
+        },
+        {
+          "issue_id": "focus-0096-07",
+          "source_reading": "II (ligatured)",
+          "certainty": "probable",
+          "evidence": "Two uprights joined by bars, between 'R.L.M.,' and ', 708.'"
+        },
+        {
+          "issue_id": "focus-0096-08",
+          "source_reading": "arrow alignment only",
+          "certainty": "uncertain",
+          "evidence": "There is no shelfmark or title on the target page."
+        },
+        {
+          "issue_id": "focus-0096-09",
+          "source_reading": "Bāla M[?]kunda",
+          "certainty": "uncertain",
+          "evidence": "The second word is cursive; 'Mukunda' is a possible reading only."
+        },
+        {
+          "issue_id": "focus-0096-10",
+          "source_reading": "S°[?]",
+          "certainty": "uncertain",
+          "evidence": "The base letter is a looped stroke; it could be S, J or f."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff1-20. S.1914, Śaka 1779. Owner Bāla Mukunda.",
+          "after": "ff1-20. S.1914, Śaka 1779- Owner Bāla Mukunda[reading?].",
+          "reason": "A dash rather than a full stop follows 1779, and the name is not securely legible.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise."
+          ],
+          "after": [
+            "The owner's name is read as 'Bāla Mukunda' [reading?]. The second word is cursive and could be read otherwise.",
+            "'Owner' is a cursive abbreviation-like form; the reading is probable, not certain.",
+            "The punctuation after '1779' resembles a dash rather than a full stop.",
+            "No point is visible after 'ff' (unlike 'ff.1-8' in b002).",
+            "The attachment to fol. 49 c. 273 (5) rests on the arrow and dash, and on the shared extent of 20; the dates are not compared."
+          ],
+          "reason": "Source reread.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "uncertainties",
+          "before": [
+            "'S°.' after the shelfmark is uncertain; it may read 'J°'.",
+            "'pp. 87-92' could be read 'ff. 87-92'."
+          ],
+          "after": [
+            "'S°.' after the shelfmark is uncertain; it may read 'J°' or 'f°'.",
+            "'pp. 87-92' could be read 'ff. 87-92'.",
+            "The script word in 'n.d.: 20: 9: Newari' is cursive; its exact spelling and any diacritics are uncertain.",
+            "Assigning b005 to b004 rests on its position below the end of the line.",
+            "The fol. 49 marginal note at the arrow's end is faint and only partly legible ('Kubjikām... / from ...').",
+            "Fol. 48 c. 387(5) gives 24 leaves where b005 gives 20; the relationship is unconfirmed."
+          ],
+          "reason": "Source reread.",
+          "source_block_ids": [
+            "b004",
+            "b005"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "The Roman numeral is read as 'II' but is somewhat ligatured.",
+            "The attachment to fol. 49 rests on arrow alignment only."
+          ],
+          "after": [
+            "The Roman numeral is read as 'II' but is somewhat ligatured.",
+            "The attachment to fol. 49 rests on arrow alignment only.",
+            "The date on fol. 49 c. 273 (2) is written '1794', whereas this note has 'S.1651'; the dates are not reconciled, and no conversion is applied."
+          ],
+          "reason": "Records the date discrepancy noted in focus-0096-01.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "uncertainties",
+          "before": [
+            "The first word of the title is uncertain; it could be read 'Kauyasudhā' or 'Kavyasudhā'.",
+            "The shelfmark 'K..5 +6' is uncertain.",
+            "'(n. 36, 37)' could be read '(m. 36, 37)'.",
+            "'Co.' is read literally and not expanded."
+          ],
+          "after": [
+            "The first word of the title is uncertain; it could be read 'Kauyasudhā' or 'Kavyasudhā'.",
+            "The shelfmark 'K..5 +6' is uncertain; the character after 'K..' may be 's' rather than '5'.",
+            "'(n. 36, 37)' could be read '(m. 36, 37)'.",
+            "'Co.' is read literally and not expanded.",
+            "The link to fol. 49 c. 184 (1) rests on vertical position only."
+          ],
+          "reason": "Source reread.",
+          "source_block_ids": [
+            "b006"
+          ],
+          "certainty": "uncertain"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 48b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The text is legible; the attachment remains probable."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "The punctuation is now recorded; the name is uncertain."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Single line."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Grouped with b004 by position."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Two lines."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0096-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The attachment to c. 273 (2) does not reconcile S.1651 with 1794.",
+          "next_check": "Compare the fol. 49 c. 273 (2) entry at native resolution and any related notes."
+        },
+        {
+          "issue_id": "focus-0096-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The attachment is probable, not confirmed.",
+          "next_check": "Trace the dash continuity across the gutter at native resolution."
+        },
+        {
+          "issue_id": "focus-0096-03",
+          "record_id": "r004",
+          "block_ids": [
+            "b004",
+            "b005"
+          ],
+          "issue": "The fol. 49 marginal note is only partly legible, and the relation to fol. 48 c. 387(5) is unclear.",
+          "next_check": "Read the fol. 49 left-margin pencil note at native scale."
+        },
+        {
+          "issue_id": "focus-0096-04",
+          "record_id": "r005",
+          "block_ids": [
+            "b006"
+          ],
+          "issue": "The shelfmark, the title's first word and the fol. 49 link are all uncertain.",
+          "next_check": "Use a higher-contrast image of the line start."
+        },
+        {
+          "issue_id": "focus-0096-06",
+          "record_id": "r004",
+          "block_ids": [
+            "b004",
+            "b005"
+          ],
+          "issue": "'S°', 'pp' and the script word remain doubtful.",
+          "next_check": "Compare letter forms elsewhere in this hand."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4d3fa7428f1ce753f89d07e4c0bdedfb1980fc676698332f65ebc214d4976a9a",
+      "bytes": 270764,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b779f803b965663b1cd076cb3ed68e0f8308890383216d853e82723992845943",
+      "bytes": 309419,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "53c4c77a72be56392680183f2271c2623995ee3ff861c097b454206d772e6aa4",
+      "bytes": 298392,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3b1c1693df434358e76792defc5240c5774c62fa21935ea30503d0a995f95812",
+      "bytes": 324720,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "95046a1ad16ea3db014e03a5a68a6ea0143ae6bdb13433e6eb5b887891535d4f",
+      "bytes": 297382,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "38b5a0b04f3d31919f3361fdf25d72418f68c4465025203cf3b02d36ddcef6f4",
+      "bytes": 348949,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "58c42af39b78938db9671f7e4f0feb6e05aa43d1e465611120b53ee43a276614",
+      "bytes": 352929,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae7c0ae4-bb2c-4fee-b8c5-a3a48f72a473/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "85c33390ad6057cdcaaffded0dc48ee4df4c5806030cf7b99ca78861464e9121",
+      "bytes": 260308,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 95,
+      "folio_label": "fol. 48",
+      "page_id": "ae7c0ae4-bb2c-4fee-b8c5-a3a48f72a473",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb3a889e-cb74-4c1d-810d-8fd2f1ff208c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d52dcdcce3ee5db26b166f629b20df7b86a5d963fd989ece52a4344e68553337",
+      "bytes": 244494,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 97,
+      "folio_label": "fol. 49",
+      "page_id": "cb3a889e-cb74-4c1d-810d-8fd2f1ff208c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb3a889e-cb74-4c1d-810d-8fd2f1ff208c/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5a96121ee223ce282a04767837bb798a90340c9c49f7f78b435cdf44b77653cd",
+      "bytes": 365005,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 97,
+      "folio_label": "fol. 49",
+      "page_id": "cb3a889e-cb74-4c1d-810d-8fd2f1ff208c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb3a889e-cb74-4c1d-810d-8fd2f1ff208c/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0283d8dbadd52fb4e8ca6941b18ab1131c75222306917b487209d37c80d68e23",
+      "bytes": 370869,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 97,
+      "folio_label": "fol. 49",
+      "page_id": "cb3a889e-cb74-4c1d-810d-8fd2f1ff208c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4d3fa7428f1ce753f89d07e4c0bdedfb1980fc676698332f65ebc214d4976a9a",
+      "bytes": 270764,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b779f803b965663b1cd076cb3ed68e0f8308890383216d853e82723992845943",
+      "bytes": 309419,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "53c4c77a72be56392680183f2271c2623995ee3ff861c097b454206d772e6aa4",
+      "bytes": 298392,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3b1c1693df434358e76792defc5240c5774c62fa21935ea30503d0a995f95812",
+      "bytes": 324720,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "95046a1ad16ea3db014e03a5a68a6ea0143ae6bdb13433e6eb5b887891535d4f",
+      "bytes": 297382,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "38b5a0b04f3d31919f3361fdf25d72418f68c4465025203cf3b02d36ddcef6f4",
+      "bytes": 348949,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee4189d2-3f43-45b0-b7d1-2aa5da63a4f9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "58c42af39b78938db9671f7e4f0feb6e05aa43d1e465611120b53ee43a276614",
+      "bytes": 352929,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae7c0ae4-bb2c-4fee-b8c5-a3a48f72a473/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "85c33390ad6057cdcaaffded0dc48ee4df4c5806030cf7b99ca78861464e9121",
+      "bytes": 260308,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 95,
+      "folio_label": "fol. 48",
+      "page_id": "ae7c0ae4-bb2c-4fee-b8c5-a3a48f72a473",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb3a889e-cb74-4c1d-810d-8fd2f1ff208c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d52dcdcce3ee5db26b166f629b20df7b86a5d963fd989ece52a4344e68553337",
+      "bytes": 244494,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 97,
+      "folio_label": "fol. 49",
+      "page_id": "cb3a889e-cb74-4c1d-810d-8fd2f1ff208c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

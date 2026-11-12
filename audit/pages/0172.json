@@ -1,0 +1,1114 @@
+{
+  "source_order": 172,
+  "folio_label": "fol. 86b",
+  "page_id": "3ac48d9e-05ad-44c8-b5e4-7271bfcbb683",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "86b",
+    "principal_page_bbox": [
+      280,
+      270,
+      2870,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          355,
+          305,
+          120,
+          135
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "86b",
+        "features": [
+          "top left corner",
+          "superscript 'b' after 86"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2760,
+          1320,
+          560,
+          75
+        ],
+        "kind_hint": "marginal_annotation_shelfmark",
+        "anchor": "1.0.2552 ←",
+        "features": [
+          "written near the gutter",
+          "horizontal arrow line runs toward the gutter (approx. x 3099-3309)",
+          "aligned with the √c.151(5) row on facing fol. 87; attachment to that row is inferred from position only"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          320,
+          2300,
+          2710,
+          220
+        ],
+        "kind_hint": "entry",
+        "anchor": "√ b.98(4). Jyotiḥsāra, ff 1-12, inc., first verse begins Vivāhādikam ārabhya   n.d.:12:5/6:Beng.",
+        "features": [
+          "tick in left margin",
+          "single long line",
+          "an arrow on the facing page at approx. x 3300-3450 points toward this line"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          340,
+          3225,
+          1470,
+          95
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff.1-79 with one interpolated leaf (f.44), in several hands, Śake 1766.",
+        "features": [
+          "no shelfmark or title",
+          "small arrow at approx. [3044,3248,60,52] near the gutter",
+          "dash continues on the facing page",
+          "probably keyed to a fol. 87 entry; parent unconfirmed"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          410,
+          3450,
+          1040,
+          110
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff.1-26, S.1713. Written at Śi[?]pura",
+        "features": [
+          "no shelfmark",
+          "small arrow at approx. [3024,3491,50,50] near the gutter",
+          "dash continues on the facing page",
+          "place-name reading uncertain"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2515,
+          4040,
+          400,
+          395
+        ],
+        "kind_hint": "pencil_marginal_note",
+        "anchor": "kāla-[?]la ? / c[?] a vṛ[?]ikā",
+        "features": [
+          "faint pencil",
+          "written diagonally",
+          "two lines",
+          "contains a question mark",
+          "no clear attachment to an entry"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1290,
+          560,
+          10,
+          10
+        ],
+        "description": "small dot/speck, likely paper blemish"
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at approx. x 3149.",
+      "Text to the right of the gutter ('d.', '√c', 'd', 'e', 'v' marks and the arrows) belongs to facing fol. 87 and is not transcribed here.",
+      "The arrows from b002, b004 and b005 cross the gutter toward fol. 87 rows. Their exact parent entries are not certain from this page alone.",
+      "Faint show-through of writing from the reverse side appears across the ruled area. It is not target text."
+    ],
+    "uncertainties": [
+      "The place name in b005 ('Śi[?]pura') is uncertain.",
+      "The pencil note b006 is largely uncertain: the first word may be 'kāla' and the second line may contain 'copied (?)' and 'vṛścikā/vṛṣṭikā'.",
+      "The 'S' in 'Śake' in b004 has an accent-like mark; the reading is approximate.",
+      "The first word of the incipit in b003 is approximately 'Vivāhādikam'."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "86b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "86ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top left corner; 'b' written superscript after 86, followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_shelfmark_with_arrow",
+        "literal_text": "1.0.2552",
+        "fields": {
+          "shelfmark": "1.0.2552"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written in the right part of the page near the gutter.",
+          "An arrowhead next to the number points left toward it. A horizontal line runs right across the gutter toward the row of √c.151(5) on facing fol. 87."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 173,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 151 (5) ——, in 23 hefte ... ff.1-75",
+            "evidence": "The arrow line crosses the gutter level with this fol. 87 row. Fol. 87 shows the matching '0.2552 ←——' at its left edge.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first character is read as '1'. The separators are read as dots."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "entry",
+        "literal_text": "√ b.98(4). Jyotiḥsāra, ff 1-12, inc., first verse begins Vivāhādikam ārabhya    n.d. :12 : 5/6 : Beng.",
+        "fields": {
+          "shelfmark": "b.98(4)",
+          "title": "Jyotiḥsāra",
+          "date": "n.d.",
+          "extent": "ff 1-12, inc.; 12",
+          "lines": "5/6",
+          "script": "Beng.",
+          "incipit": "Vivāhādikam ārabhya"
+        },
+        "normalized_title": "Jyotiḥsāra",
+        "annotations": [
+          "A tick in the left margin precedes the shelfmark.",
+          "An arrow on facing fol. 87, beside the JYOTISA heading row, points toward this line across the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 173,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "JYOTISA. Works on Astronomy, Astrology, mathematics &c.",
+            "evidence": "The arrow on fol. 87 near the JYOTISA heading row points toward this entry. This may indicate an intended insertion position.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The first letter of the incipit is unclear ('V'/'K'). It is read as 'Vivāhādikam'.",
+          "'first verse begins' is read from a cursive hand."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "arrowed_note_for_facing_page",
+        "literal_text": "ff.1-79 with one interpolated leaf (f.44), in several hands, Śake 1766.",
+        "fields": {
+          "date": "Śake 1766",
+          "extent": "ff.1-79 with one interpolated leaf (f.44)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is no shelfmark or title.",
+          "A small arrow near the gutter at approx. x 3044, y 3248 connects to a dash on fol. 87."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 173,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.402ᵇ Jyotiṣatattva. By Raghunandana",
+            "evidence": "The arrow and the dash on fol. 87 run level with the ←— mark before √c.402ᵇ.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The accent on 'Śake' is approximate."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "arrowed_note_for_facing_page",
+        "literal_text": "ff.1-26, S.1713. Written at Śi[?]pura",
+        "fields": {
+          "date": "S.1713",
+          "extent": "ff.1-26"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is no shelfmark.",
+          "A small arrow near the gutter at approx. x 3024, y 3491 connects to a dash on fol. 87."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 173,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.316(6) Jyotiṣaratnamālā By Śrīpati Bhaṭṭa",
+            "evidence": "The arrow and the dash run level with the ← mark before √c.316(6) on fol. 87.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The place name is uncertain: possibly 'Śivapura' or 'Śitapura'."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_note",
+        "literal_text": "kāla-[?]la ?\n[illegible] a vṛ[?]ṭikā",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, written diagonally in two lines in the lower right of the page. The question mark follows the first line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 173,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d.924(1) Jyotiṣavṛṣṭikāphala",
+            "evidence": "The note lies at roughly the height of this fol. 87 row and contains a similar-looking word. There is no arrow.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The first word is possibly 'kāla'. The second element may be 'phala'/'bhala'.",
+          "The second line's opening word(s) are illegible, possibly 'copied'/'cand pod'.",
+          "The last word is possibly 'vṛṣṭikā'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Marginal shelfmark with an arrow toward fol. 87."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Complete holding entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrowed note probably for fol. 87 c.402ᵇ."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Arrowed note probably for fol. 87 c.316(6)."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Faint pencil note, unattached."
+      }
+    ],
+    "page_annotations": [
+      "Text right of the gutter (about x 3149) belongs to fol. 87 and is not transcribed.",
+      "Show-through from the reverse side is visible across the ruled area and is not target text.",
+      "A small speck near x 1290, y 560 is a probable blemish."
+    ],
+    "unresolved_relationships": [
+      "The exact parent entries for r002, r004 and r005 on fol. 87 are inferred from alignment only.",
+      "The function of the fol. 87 arrow pointing at r003 is uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left page label reads '86' with a superscript 'b' and a following dot. The candidate literal '86ᵇ.' matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'1.0.2552' is followed by a leftward arrowhead and a horizontal line that crosses the gutter. In the fol. 87 overview, the '0.2552 ←——' at the left edge is this same ink seen in the spread photograph. It is not an independent matching note, so the candidate evidence wording is corrected."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The single long entry line is complete across both native tiles and is not duplicated in the overlap. The tick before 'b.98(4)' is noted. The first letter of the incipit is still ambiguous ('V'/'K')."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The text matches the source and the accent on 'Śake' is visible. The small arrow near x≈3044, y≈3248, together with the dash on the fol. 87 side, aligns with the '← —' before √c.402ᵇ on fol. 87. The parent is probable, not secure."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "'ff.1-26, S.1713. Written at Śi[?]pura' is correct. The place name is uncertain. The arrow near y≈3500 aligns with the '←' before √c.316(6) on fol. 87."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "There is a faint diagonal pencil note in two lines. The first line appears to be 'kāla-[?]la' (possibly '-phala') followed by '?'. The second line ends in what looks like 'vṛ[ṣ?]ṭikā', with a sub-dot visible. Its opening word(s) remain uncertain. Faint fragments ('?' and '…ā') at the far left of the fol. 87 overview are this same pencil note seen in the spread."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 173,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 151 (5) ——, in 23 hefte ... ff.1-75",
+            "evidence": "The arrow line crosses the gutter level with this fol. 87 row. Fol. 87 shows the matching '0.2552 ←——' at its left edge.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 173,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 151 (5) ——, in 23 hefte ... ff.1-75",
+            "evidence": "The arrow line crosses the gutter level with this fol. 87 row. The '0.2552 ←——' visible at the left edge of the fol. 87 overview is the same fol. 86b ink captured in the spread photograph, not a separate confirming note.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The candidate treated a spread-overlap view of the same mark as independent corroboration.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r006",
+        "field_path": "literal_text",
+        "before": "kāla-[?]la ?\n[illegible] a vṛ[?]ṭikā",
+        "after": "kāla-[phala?] ?\n[illegible] a vṛ[ṣ?]ṭikā",
+        "reason": "In the native tile, the second element of line 1 resembles 'phala', and a sub-dot under the letter after 'vṛ' is visible. Both readings remain tentative and are marked as such.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The function of the fol. 87 arrow that points from near the JYOTISA heading row toward this entry is unknown. It may mark an intended insertion point. The first letter of the incipit (V/K) is also ambiguous.",
+        "next_check": "Examine fol. 87 at native resolution near x 3300-3450, y≈2450."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The attachment to √c.402ᵇ on fol. 87 rests on alignment only.",
+        "next_check": "Compare the fol. 87 native rows at y≈3250."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The place name is uncertain ('Śivapura'/'Śitapura'/other). The attachment to √c.316(6) rests on alignment only.",
+        "next_check": "Check the native image at higher contrast, and check fol. 87 at y≈3510."
+      },
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The pencil note is largely uncertain. Its link to d.924(1) Jyotiṣavṛṣṭikāphala is suggested only by proximity and a similar word.",
+        "next_check": "Use enhanced imaging of the pencil."
+      }
+    ],
+    "boundary_review": "The gutter is at x≈3149. The 'd.', '√c', 'd', 'e' and 'v' marks to the right belong to fol. 87 and are not transcribed. The arrows and dashes for b002, b004 and b005 start on 86b and cross the gutter. Their parents on fol. 87 remain inferred. Fragments of 86b ink ('0.2552 ←', '/6: Beng.', and the pencil '?', '…ā') appear in the fol. 87 overview because of the spread. They are not separate records. A small speck near (1290, 560) is a probable blemish. Show-through is not target text.",
+    "region_review": {
+      "top": "Only the folio label 86ᵇ. appears. The ruled area above line ~1300 is blank apart from show-through.",
+      "middle": "b002 (shelfmark with arrow) and b003 (the entry) are present. The rest is show-through only.",
+      "bottom": "b004 and b005 are present with their gutter arrows, and the pencil note b006 is in the lower right. Below about y 4450 the page is blank to the edge.",
+      "left_margin": "The tick before b.98(4) is present. No other marks were found.",
+      "right_margin": "Arrows near the gutter belong to b002, b004 and b005. Marks beyond x≈3149 are fol. 87.",
+      "interlinear": "No interlinear additions or cancellations were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        355,
+        305,
+        120,
+        135
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "86b",
+      "features": [
+        "top left corner",
+        "superscript 'b' after 86"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2760,
+        1320,
+        560,
+        75
+      ],
+      "kind_hint": "marginal_annotation_shelfmark",
+      "anchor": "1.0.2552 ←",
+      "features": [
+        "written near the gutter",
+        "horizontal arrow line runs toward the gutter (approx. x 3099-3309)",
+        "aligned with the √c.151(5) row on facing fol. 87; attachment to that row is inferred from position only"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        320,
+        2300,
+        2710,
+        220
+      ],
+      "kind_hint": "entry",
+      "anchor": "√ b.98(4). Jyotiḥsāra, ff 1-12, inc., first verse begins Vivāhādikam ārabhya   n.d.:12:5/6:Beng.",
+      "features": [
+        "tick in left margin",
+        "single long line",
+        "an arrow on the facing page at approx. x 3300-3450 points toward this line"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        340,
+        3225,
+        1470,
+        95
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff.1-79 with one interpolated leaf (f.44), in several hands, Śake 1766.",
+      "features": [
+        "no shelfmark or title",
+        "small arrow at approx. [3044,3248,60,52] near the gutter",
+        "dash continues on the facing page",
+        "probably keyed to a fol. 87 entry; parent unconfirmed"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        410,
+        3450,
+        1040,
+        110
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff.1-26, S.1713. Written at Śi[?]pura",
+      "features": [
+        "no shelfmark",
+        "small arrow at approx. [3024,3491,50,50] near the gutter",
+        "dash continues on the facing page",
+        "place-name reading uncertain"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2515,
+        4040,
+        400,
+        395
+      ],
+      "kind_hint": "pencil_marginal_note",
+      "anchor": "kāla-[?]la ? / c[?] a vṛ[?]ikā",
+      "features": [
+        "faint pencil",
+        "written diagonally",
+        "two lines",
+        "contains a question mark",
+        "no clear attachment to an entry"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "86ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top left corner; 'b' written superscript after 86, followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0172-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_shelfmark_with_arrow",
+      "literal_text": "1.0.2552",
+      "fields": {
+        "shelfmark": "1.0.2552"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written in the right part of the page near the gutter.",
+        "An arrowhead next to the number points left toward it. A horizontal line runs right across the gutter toward the row of √c.151(5) on facing fol. 87."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 173,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 151 (5) ——, in 23 hefte ... ff.1-75",
+          "evidence": "The arrow line crosses the gutter level with this fol. 87 row. The '0.2552 ←——' visible at the left edge of the fol. 87 overview is the same fol. 86b ink captured in the spread photograph, not a separate confirming note.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first character is read as '1'. The separators are read as dots."
+      ],
+      "stable_id": "css-prod-0172-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "entry",
+      "literal_text": "√ b.98(4). Jyotiḥsāra, ff 1-12, inc., first verse begins Vivāhādikam ārabhya    n.d. :12 : 5/6 : Beng.",
+      "fields": {
+        "shelfmark": "b.98(4)",
+        "title": "Jyotiḥsāra",
+        "date": "n.d.",
+        "extent": "ff 1-12, inc.; 12",
+        "lines": "5/6",
+        "script": "Beng.",
+        "incipit": "Vivāhādikam ārabhya"
+      },
+      "normalized_title": "Jyotiḥsāra",
+      "annotations": [
+        "A tick in the left margin precedes the shelfmark.",
+        "An arrow on facing fol. 87, beside the JYOTISA heading row, points toward this line across the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 173,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "JYOTISA. Works on Astronomy, Astrology, mathematics &c.",
+          "evidence": "The arrow on fol. 87 near the JYOTISA heading row points toward this entry. This may indicate an intended insertion position.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The first letter of the incipit is unclear ('V'/'K'). It is read as 'Vivāhādikam'.",
+        "'first verse begins' is read from a cursive hand."
+      ],
+      "stable_id": "css-prod-0172-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "arrowed_note_for_facing_page",
+      "literal_text": "ff.1-79 with one interpolated leaf (f.44), in several hands, Śake 1766.",
+      "fields": {
+        "date": "Śake 1766",
+        "extent": "ff.1-79 with one interpolated leaf (f.44)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is no shelfmark or title.",
+        "A small arrow near the gutter at approx. x 3044, y 3248 connects to a dash on fol. 87."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 173,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.402ᵇ Jyotiṣatattva. By Raghunandana",
+          "evidence": "The arrow and the dash on fol. 87 run level with the ←— mark before √c.402ᵇ.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The accent on 'Śake' is approximate."
+      ],
+      "stable_id": "css-prod-0172-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "arrowed_note_for_facing_page",
+      "literal_text": "ff.1-26, S.1713. Written at Śi[?]pura",
+      "fields": {
+        "date": "S.1713",
+        "extent": "ff.1-26"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is no shelfmark.",
+        "A small arrow near the gutter at approx. x 3024, y 3491 connects to a dash on fol. 87."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 173,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.316(6) Jyotiṣaratnamālā By Śrīpati Bhaṭṭa",
+          "evidence": "The arrow and the dash run level with the ← mark before √c.316(6) on fol. 87.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The place name is uncertain: possibly 'Śivapura' or 'Śitapura'."
+      ],
+      "stable_id": "css-prod-0172-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_note",
+      "literal_text": "kāla-[?]la ?\n[illegible] a vṛ[?]ṭikā",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, written diagonally in two lines in the lower right of the page. The question mark follows the first line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 173,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d.924(1) Jyotiṣavṛṣṭikāphala",
+          "evidence": "The note lies at roughly the height of this fol. 87 row and contains a similar-looking word. There is no arrow.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The first word is possibly 'kāla'. The second element may be 'phala'/'bhala'.",
+        "The second line's opening word(s) are illegible, possibly 'copied'/'cand pod'.",
+        "The last word is possibly 'vṛṣṭikā'."
+      ],
+      "stable_id": "css-prod-0172-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 173,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 151 (5) ——, in 23 hefte ... ff.1-75",
+          "evidence": "The arrow line crosses the gutter level with this fol. 87 row. Fol. 87 shows the matching '0.2552 ←——' at its left edge.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 173,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 151 (5) ——, in 23 hefte ... ff.1-75",
+          "evidence": "The arrow line crosses the gutter level with this fol. 87 row. The '0.2552 ←——' visible at the left edge of the fol. 87 overview is the same fol. 86b ink captured in the spread photograph, not a separate confirming note.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The candidate treated a spread-overlap view of the same mark as independent corroboration.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "literal_text",
+      "before": "kāla-[?]la ?\n[illegible] a vṛ[?]ṭikā",
+      "after": "kāla-[phala?] ?\n[illegible] a vṛ[ṣ?]ṭikā",
+      "reason": "In the native tile, the second element of line 1 resembles 'phala', and a sub-dot under the letter after 'vṛ' is visible. Both readings remain tentative and are marked as such.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3ac48d9e-05ad-44c8-b5e4-7271bfcbb683.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ac48d9e-05ad-44c8-b5e4-7271bfcbb683/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "36a82ed4a08cb56216f1dc52891324ca06ef21682c277d42ac145e3784c165da",
+      "bytes": 253287,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ac48d9e-05ad-44c8-b5e4-7271bfcbb683/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b5134fd4cec1f7ab698c5ef777da2475c29a8714826d0cbf016752989b59b605",
+      "bytes": 294716,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ac48d9e-05ad-44c8-b5e4-7271bfcbb683/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e1f44085b0e75348cf50c06748742a170d1d32a0f0d4991ffc3b71aa5353b84e",
+      "bytes": 297869,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ac48d9e-05ad-44c8-b5e4-7271bfcbb683/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e3135f5914b9614431d1e1f34974049a26e19f37bee815299e36ebd1de1cdd6e",
+      "bytes": 334027,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ac48d9e-05ad-44c8-b5e4-7271bfcbb683/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "73a1c696871decd0f5c89930af2e4de7ec3ec8cea9e366e15e2be2893f78d7cb",
+      "bytes": 294880,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ac48d9e-05ad-44c8-b5e4-7271bfcbb683/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "15f666552a2c755a040b805cf5ee845a5a01cb9886d89dd7572f2927ef199fbc",
+      "bytes": 319857,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ac48d9e-05ad-44c8-b5e4-7271bfcbb683/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bc5c06db03d201126aa4db473ffde80a6032d29def2fef0de51b1fae873753c4",
+      "bytes": 315952,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b33c510a-0552-4c5e-8ef9-31988cbb9b00/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b1a21c08bd0822fa714d10cc6edb10bf6bea48e34319e14049b5e114810b6346",
+      "bytes": 252067,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 171,
+      "folio_label": "fol. 86",
+      "page_id": "b33c510a-0552-4c5e-8ef9-31988cbb9b00",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6f095924-3422-415f-b40c-e6eec74af512/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c41efa0349f06891a94cbb4a34dc53d07478c70f1ede478e3068a0de91738137",
+      "bytes": 255865,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 173,
+      "folio_label": "fol. 87",
+      "page_id": "6f095924-3422-415f-b40c-e6eec74af512",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

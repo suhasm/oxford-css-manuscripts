@@ -1,0 +1,2540 @@
+{
+  "source_order": 454,
+  "folio_label": "fol. 227b",
+  "page_id": "9eda3407-d881-4982-a978-43b8e74b2cba",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "227b",
+    "principal_page_bbox": [
+      285,
+      268,
+      2870,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          340,
+          290,
+          130,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "227b",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript 'b' written above and after '227'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          400,
+          2740,
+          2080,
+          140
+        ],
+        "kind_hint": "entry",
+        "anchor": "Rudrajāpya, mantras from VS, in viii adhy., ff.1-95, S.1923. I.O. 4521 (beginning differs)",
+        "features": [
+          "ink",
+          "single line",
+          "no shelfmark in left column",
+          "no tick",
+          "parenthetical note at end"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          330,
+          3580,
+          2710,
+          210
+        ],
+        "kind_hint": "entry",
+        "anchor": "√ d.122(4) Rudrapaddhati, or Rudrānusthānapaddhati, by Nārāyana Bhatta s/o Rāmeśvara",
+        "features": [
+          "ink",
+          "tick before shelfmark",
+          "three handwritten lines",
+          "second line indented: 'ff. 1-22 (h. 19) S.1748. Scribe Laksmīdhara Kālevada s/o Tryambaka Bhatta, ends as in RLM, I 18[?]'",
+          "third line: 'but beg. differs'",
+          "date/extent figure at right of third line: '1691:21½ :9/12:D'",
+          "pencil diagonal stroke through the date/extent figure",
+          "marginal arrow at right edge, pointing left"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          320,
+          3780,
+          2310,
+          90
+        ],
+        "kind_hint": "entry",
+        "anchor": "√ d.135(4) Do. by Do. ff.1-25. I.O.1783",
+        "features": [
+          "ink",
+          "tick before shelfmark",
+          "ditto words 'Do. by Do.'",
+          "'n.d.: 25:15/17:D.'",
+          "trailing note: 'Two recensions of same work.'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2895,
+          825,
+          50,
+          90
+        ],
+        "description": "pencil '?' in right part of page, upper area"
+      },
+      {
+        "bbox": [
+          2920,
+          3130,
+          130,
+          300
+        ],
+        "description": "pencil 'ī/' above 'ā/' with diagonal strokes, right part of page; not attached to any entry on this page"
+      },
+      {
+        "bbox": [
+          3020,
+          3610,
+          100,
+          40
+        ],
+        "description": "small ink arrow '←' at right edge beside the first line of the d.122(4) entry; it may relate to the facing-page arrow"
+      },
+      {
+        "bbox": [
+          2870,
+          4290,
+          30,
+          80
+        ],
+        "description": "short pencil stroke '/' in lower right area"
+      },
+      {
+        "bbox": [
+          2790,
+          470,
+          30,
+          30
+        ],
+        "description": "small stray mark near top right"
+      }
+    ],
+    "boundary_notes": [
+      "The right strip beyond about x=3160 belongs to the facing page, fol. 228. It shows 'f.', 'd.', ticks, an asterisk, the note 'insert from below', the 'trs. above' brace, an arrow, and 'See Rudrajāpya...', 'See Vāj. S.' and 'See Taitt'. These were not inventoried as target-page blocks.",
+      "Faint ghost text across the page appears to be show-through from the verso of fol. 227, the previous leaf. It was not treated as target-page writing.",
+      "The left-pointing arrow at the right edge of b003 may connect to the arrow on the facing page fol. 228 near the d.134(8)/e.47 entries. The link is not certain."
+    ],
+    "uncertainties": [
+      "Exact readings of several words in b003 are uncertain, including the RLM reference number after 'I 18'.",
+      "The '1691:21½' figure in b003 is crossed by a pencil diagonal. It is unclear whether this is a cancellation or a separator.",
+      "The relation of the pencil 'ī/ā/' and '?' marks to the target page or to the show-through is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "227b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "227b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner. 'b' is written superscript above and after '227', followed by a dot or colon-like mark."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "entry_without_shelfmark",
+        "literal_text": "Rudrajāpya, mantras from VS, in viii adhy., ff.1-95, S.1923. I.O. 4521 (beginning differs)",
+        "fields": {
+          "title": "Rudrajāpya",
+          "source": "I.O. 4521",
+          "date": "S.1923",
+          "extent": "ff.1-95"
+        },
+        "normalized_title": "Rudrajāpya",
+        "annotations": [
+          "Single ink line in the middle of the page.",
+          "There is no shelfmark and no tick in the left column."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 455,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "See Rudrajāpya... (left margin of fol. 228, near c.20/d.144)",
+            "evidence": "The facing page has a marginal 'See Rudrajāpya...' cross-reference. Its link to this entry is not explicit.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "No shelfmark is written. It is unclear whether this records a holding or a reference entry.",
+          "The reading 'in viii adhy.' is probable."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "√ d.122(4) Rudrapaddhati, or Rudrānuṣṭhānapaddhati, by Nārāyana Bhaṭṭa s/o Rāmeśvara, composed at Kāśī,\nff. 1-22 (h. 19) S.1748. Scribe Lakṣmīdhara Kālevaḍe s/o Tryambaka Bhaṭṭa, ends as in RLM, I 18[?],\nbut beg. differs.                1691:21½ / :9/12:D.",
+        "fields": {
+          "shelfmark": "d.122(4)",
+          "title": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+          "author": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+          "source": "RLM, I 18[?]",
+          "date": "S.1748; 1691",
+          "extent": "ff. 1-22 (h. 19); 21½",
+          "lines": "9/12",
+          "script": "D"
+        },
+        "normalized_title": "Rudrapaddhati",
+        "annotations": [
+          "Ink tick before the shelfmark.",
+          "The second line is indented. The third line, 'but beg. differs.', sits below at the left.",
+          "The figures '1691:21½ :9/12:D.' are at the right of the third line.",
+          "A pencil diagonal stroke passes through the figures after '21½'.",
+          "Lakṣmīdhara is recorded as scribe, not author.",
+          "There is a small left-pointing ink arrow at the right edge beside line 1 (see r006)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 455,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "* √ d.134(8) Rudrapaddhati ... with 'trs. above' brace and '———→' arrow",
+            "evidence": "Arrows at the right edge here and the left margin there may mark a transfer or linking of Rudrapaddhati entries.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain.",
+          "'(h. 19)' could be '(n. 19)'.",
+          "The number after 'RLM, I 18' is unclear.",
+          "It is unclear whether the pencil stroke is a cancellation or a separator."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry",
+        "literal_text": "√ d.135(4) Do. by Do. ff.1-25. I.O.1783        n.d.: 25:15/17:D.",
+        "fields": {
+          "shelfmark": "d.135(4)",
+          "title": "Do.",
+          "author": "Do.",
+          "source": "I.O.1783",
+          "date": "n.d.",
+          "extent": "ff.1-25; 25",
+          "lines": "15/17",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink tick before the shelfmark.",
+          "'Do.' is used as ditto for both title and author."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+            "source_page_order": 454,
+            "source_block_id": "b003",
+            "evidence": "'Do.' immediately follows the d.122(4) entry.",
+            "certainty": "secure"
+          },
+          {
+            "field": "author",
+            "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+            "source_page_order": 454,
+            "source_block_id": "b003",
+            "evidence": "'by Do.' follows the d.122(4) entry.",
+            "certainty": "secure"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 454,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "d.122(4) Rudrapaddhati",
+            "evidence": "Ditto 'Do. by Do.'",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": []
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "comparative_note",
+        "literal_text": "Two recensions of same work.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the end of the d.135(4) line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 454,
+            "target_record_id": "r004",
+            "target_block_id": "b004",
+            "target_anchor": "d.135(4)",
+            "evidence": "Same line as d.135(4).",
+            "certainty": "secure"
+          },
+          {
+            "type": "continues",
+            "target_page_order": 454,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "d.122(4)",
+            "evidence": "The note compares the two copies.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'same work' could read 'same work.' with minor letter uncertainty."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b903"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "←",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Small ink arrow pointing left, at the right edge beside line 1 of d.122(4)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 454,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "d.122(4)",
+            "evidence": "Proximity.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 455,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "'———→' arrow beside d.134(8)/e.47",
+            "evidence": "Facing arrows at the same height.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": []
+      },
+      {
+        "id": "r007",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_query",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, upper right area. No target-page text is adjacent."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Its purpose is unknown. It may relate to show-through text."
+        ]
+      },
+      {
+        "id": "r008",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_marks",
+        "literal_text": "ī/\nā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, right part of the page: 'ī' over 'ā', each followed by a long diagonal stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The inventory placed this mark at y≈3130. The native tile shows it at y≈1530–1830.",
+          "Its relation to any entry is unknown."
+        ]
+      },
+      {
+        "id": "r009",
+        "block_ids": [
+          "b904"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_stroke",
+        "literal_text": "/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Short pencil stroke in the lower right area."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r010",
+        "block_ids": [
+          "b905"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "stray_mark",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Small stray mark near top right. Not text."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2895,
+          825,
+          50,
+          90
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "?",
+        "features": [
+          "pencil"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2920,
+          1530,
+          140,
+          300
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "ī/ ā/",
+        "features": [
+          "pencil",
+          "diagonal strokes"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          3020,
+          3620,
+          100,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "ink"
+        ]
+      },
+      {
+        "id": "b904",
+        "bbox": [
+          2870,
+          4290,
+          30,
+          80
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "/",
+        "features": [
+          "pencil"
+        ]
+      },
+      {
+        "id": "b905",
+        "bbox": [
+          2790,
+          470,
+          30,
+          30
+        ],
+        "kind_hint": "stray_mark",
+        "anchor": "",
+        "features": [
+          "tiny"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Rudrajāpya entry without shelfmark."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "d.122(4) entry, three lines plus figures."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004",
+          "r005"
+        ],
+        "explanation": "d.135(4) ditto entry and its trailing comparative note."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r007"
+        ],
+        "explanation": "Pencil '?'."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r008"
+        ],
+        "explanation": "Pencil ī/ā marks; position corrected."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Ink arrow."
+      },
+      {
+        "block_id": "b904",
+        "record_ids": [
+          "r009"
+        ],
+        "explanation": "Pencil stroke."
+      },
+      {
+        "block_id": "b905",
+        "record_ids": [
+          "r010"
+        ],
+        "explanation": "Stray mark."
+      }
+    ],
+    "page_annotations": [
+      "Faint ghost writing across the page is show-through from the preceding leaf and is not transcribed.",
+      "The right strip beyond x≈3160 belongs to facing fol. 228 and is not transcribed here.",
+      "Scattered dots are not treated as text."
+    ],
+    "unresolved_relationships": [
+      "Whether the arrow at d.122(4) links to the 'trs. above' arrow at d.134(8)/e.47 on fol. 228.",
+      "Whether fol. 228's 'See Rudrajāpya...' refers to the Rudrajāpya entry (b002)."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '227' with superscript 'b' and a following dot or colon is in the top-left corner (native tile 0,0 at about x340–470, y290–420). It is correctly represented."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single ink line 'Rudrajāpya, mantras from VS, in viii adhy., ff.1-95, S.1923. I.O. 4521 (beginning differs)' is at canvas y≈2770–2860. The reading matches the source. No shelfmark or tick is present in the left column. The holding/reference status remains open, as the candidate states."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The three-line d.122(4) entry is at y≈3600–3780. All lines are represented. However, the candidate's literal text inserts '/' for the pencil diagonal stroke, which is a non-text mark and is already described in annotations. The stroke starts between '21½' and ':9/12' and runs down to about y≈3850, past the d.135(4) line level."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004",
+          "r005"
+        ],
+        "finding": "The d.135(4) line, with 'Do. by Do.', 'ff.1-25. I.O.1783', 'n.d.: 25:15/17:D.' and the trailing 'Two recensions of same work.', is at y≈3800–3860. It is represented across r004 and r005."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r007"
+        ],
+        "finding": "A pencil '?' is at about x2900–2940, y830–910. It is represented."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r008"
+        ],
+        "finding": "Pencil 'ī' over 'ā', each with a diagonal stroke, is at about x2920–3040, y1530–1830 in native tile 1604,0. This confirms that the candidate's correction of the inventory's y≈3130 placement is right."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "A small ink left-pointing arrow is at about x3020–3110, y3630–3650, level with line 1 of d.122(4). It is represented."
+      },
+      {
+        "block_id": "b904",
+        "status": "represented",
+        "record_ids": [
+          "r009"
+        ],
+        "finding": "A short pencil stroke is at about x2875–2900, y4290–4370. It is represented."
+      },
+      {
+        "block_id": "b905",
+        "status": "represented",
+        "record_ids": [
+          "r010"
+        ],
+        "finding": "A tiny stray mark is at about x2795–2820, y475–495. It is represented as non-text."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "√ d.122(4) Rudrapaddhati, or Rudrānuṣṭhānapaddhati, by Nārāyana Bhaṭṭa s/o Rāmeśvara, composed at Kāśī,\nff. 1-22 (h. 19) S.1748. Scribe Lakṣmīdhara Kālevaḍe s/o Tryambaka Bhaṭṭa, ends as in RLM, I 18[?],\nbut beg. differs.                1691:21½ / :9/12:D.",
+        "after": "√ d.122(4) Rudrapaddhati, or Rudrānuṣṭhānapaddhati, by Nārāyana Bhaṭṭa s/o Rāmeśvara, composed at Kāśī,\nff. 1-22 (h. 19) S.1748. Scribe Lakṣmīdhara Kālevaḍe s/o Tryambaka Bhaṭṭa, ends as in RLM, I 18[?],\nbut beg. differs.                1691:21½ :9/12:D.",
+        "reason": "The '/' in the candidate is the pencil diagonal stroke, not written wording. It is already described in annotations, so it should not appear in the literal text.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain.",
+          "'(h. 19)' could be '(n. 19)'.",
+          "The number after 'RLM, I 18' is unclear.",
+          "It is unclear whether the pencil stroke is a cancellation or a separator."
+        ],
+        "after": [
+          "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain. Underdots are visible under 'tt' in line 2, but not clearly in line 1.",
+          "'(h. 19)' could be '(n. 19)'.",
+          "The number after 'RLM, I 18' is unclear.",
+          "The fraction in '21½' is written small and is partly overlapped by the pencil stroke. The reading is probable.",
+          "It is unclear whether the pencil stroke is a cancellation or a separator. It extends downward past the level of the d.135(4) line."
+        ],
+        "reason": "The fraction reading and the extent of the stroke need to be recorded as uncertain.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 454,
+            "target_record_id": "r004",
+            "target_block_id": "b004",
+            "target_anchor": "d.135(4)",
+            "evidence": "Same line as d.135(4).",
+            "certainty": "secure"
+          },
+          {
+            "type": "continues",
+            "target_page_order": 454,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "d.122(4)",
+            "evidence": "The note compares the two copies.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 454,
+            "target_record_id": "r004",
+            "target_block_id": "b004",
+            "target_anchor": "d.135(4)",
+            "evidence": "Same line as d.135(4).",
+            "certainty": "secure"
+          },
+          {
+            "type": "refers_to",
+            "target_page_order": 454,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "d.122(4)",
+            "evidence": "The note refers to two recensions, presumably d.122(4) and d.135(4). It is physically written on the d.135(4) line, not as a continuation of d.122(4).",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The note does not physically continue the d.122(4) entry. Its link to that entry is a comparative reference only.",
+        "source_block_ids": [
+          "b003",
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "editorial_context",
+        "before": [
+          {
+            "field": "title",
+            "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+            "source_page_order": 454,
+            "source_block_id": "b003",
+            "evidence": "'Do.' immediately follows the d.122(4) entry.",
+            "certainty": "secure"
+          },
+          {
+            "field": "author",
+            "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+            "source_page_order": 454,
+            "source_block_id": "b003",
+            "evidence": "'by Do.' follows the d.122(4) entry.",
+            "certainty": "secure"
+          }
+        ],
+        "after": [
+          {
+            "field": "title",
+            "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+            "source_page_order": 454,
+            "source_block_id": "b003",
+            "evidence": "'Do.' immediately follows the d.122(4) entry. Whether the ditto covers the alternative title as well is not stated.",
+            "certainty": "probable"
+          },
+          {
+            "field": "author",
+            "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+            "source_page_order": 454,
+            "source_block_id": "b003",
+            "evidence": "'by Do.' follows the d.122(4) entry.",
+            "certainty": "secure"
+          }
+        ],
+        "reason": "The source does not show how far the ditto extends over the alternative title.",
+        "source_block_ids": [
+          "b003",
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b903"
+        ],
+        "issue": "It is not established whether the ink arrow at d.122(4) links to the '———→' arrow and 'trs. above' brace near d.134(8)/e.47 on fol. 228.",
+        "next_check": "Compare the native fol. 228 left margin at the same height and the hand or ink of both arrows."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The entry has no shelfmark. Its status as a holding or a reference is unclear, and so is its relation to 'See Rudrajāpyabhāṣya' on fol. 228.",
+        "next_check": "Inspect the fol. 228 left-margin note at native resolution."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The function of the pencil diagonal stroke (cancellation or separator) is not established.",
+        "next_check": "Compare similar pencil strokes elsewhere in the catalogue."
+      },
+      {
+        "record_id": "r008",
+        "block_ids": [
+          "b902",
+          "b901"
+        ],
+        "issue": "The purpose of the pencil 'ī/ā/' and '?' marks is unknown. Similar 'ī/ā/' marks appear in the margin of fol. 228 at a matching position, so these may be offset or related annotations.",
+        "next_check": "Compare with the margin marks on fols. 227 and 228."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter, at about x≈3160. The strip to the right ('f.', 'd.', ticks, an asterisk, 'insert from below', the 'trs. above' brace, an arrow, 'See Rudrajāpya...', 'See Vāj. S.', 'See Taitt') belongs to fol. 228 and is not transcribed as target records. Faint ghost lines across the page are show-through and are not transcribed. Cross-page arrow and 'See' links remain unresolved.",
+    "region_review": {
+      "top": "Contains the folio number 227b, a tiny stray mark near the top right and a pencil '?' at y≈830. There is no other writing apart from show-through.",
+      "middle": "Contains the pencil ī/ā marks at y≈1530–1830 and the Rudrajāpya line at y≈2790. Otherwise only show-through and scattered dots.",
+      "bottom": "Contains the d.122(4) and d.135(4) entries at y≈3600–3860 and a pencil stroke at y≈4290–4370. Below that, only show-through.",
+      "left_margin": "No writing other than the ticks attached to the entries.",
+      "right_margin": "Contains the ink arrow at d.122(4) and the pencil diagonal through the figures. Beyond the gutter is the facing page.",
+      "interlinear": "The second and third lines of d.122(4) are tightly spaced. No separate interlinear insertions were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        340,
+        290,
+        130,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "227b",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript 'b' written above and after '227'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        400,
+        2740,
+        2080,
+        140
+      ],
+      "kind_hint": "entry",
+      "anchor": "Rudrajāpya, mantras from VS, in viii adhy., ff.1-95, S.1923. I.O. 4521 (beginning differs)",
+      "features": [
+        "ink",
+        "single line",
+        "no shelfmark in left column",
+        "no tick",
+        "parenthetical note at end"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        330,
+        3580,
+        2710,
+        210
+      ],
+      "kind_hint": "entry",
+      "anchor": "√ d.122(4) Rudrapaddhati, or Rudrānusthānapaddhati, by Nārāyana Bhatta s/o Rāmeśvara",
+      "features": [
+        "ink",
+        "tick before shelfmark",
+        "three handwritten lines",
+        "second line indented: 'ff. 1-22 (h. 19) S.1748. Scribe Laksmīdhara Kālevada s/o Tryambaka Bhatta, ends as in RLM, I 18[?]'",
+        "third line: 'but beg. differs'",
+        "date/extent figure at right of third line: '1691:21½ :9/12:D'",
+        "pencil diagonal stroke through the date/extent figure",
+        "marginal arrow at right edge, pointing left"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        320,
+        3780,
+        2310,
+        90
+      ],
+      "kind_hint": "entry",
+      "anchor": "√ d.135(4) Do. by Do. ff.1-25. I.O.1783",
+      "features": [
+        "ink",
+        "tick before shelfmark",
+        "ditto words 'Do. by Do.'",
+        "'n.d.: 25:15/17:D.'",
+        "trailing note: 'Two recensions of same work.'"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2895,
+        825,
+        50,
+        90
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "?",
+      "features": [
+        "pencil"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2920,
+        1530,
+        140,
+        300
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "ī/ ā/",
+      "features": [
+        "pencil",
+        "diagonal strokes"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        3020,
+        3620,
+        100,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "ink"
+      ]
+    },
+    {
+      "id": "b904",
+      "bbox": [
+        2870,
+        4290,
+        30,
+        80
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "/",
+      "features": [
+        "pencil"
+      ]
+    },
+    {
+      "id": "b905",
+      "bbox": [
+        2790,
+        470,
+        30,
+        30
+      ],
+      "kind_hint": "stray_mark",
+      "anchor": "",
+      "features": [
+        "tiny"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "227b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner. 'b' is written superscript above and after '227', followed by a dot or colon-like mark."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0454-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "entry_without_shelfmark",
+      "literal_text": "Rudrajāpya, mantras from VS, in viii adhy., ff.1-95, S.1923. I.O. 4521 (beginning differs)",
+      "fields": {
+        "title": "Rudrajāpya",
+        "source": "I.O. 4521",
+        "date": "S.1923",
+        "extent": "ff.1-95"
+      },
+      "normalized_title": "Rudrajāpya",
+      "annotations": [
+        "Single ink line in the middle of the page.",
+        "There is no shelfmark and no tick in the left column."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 455,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "See Rudrajāpya... (left margin of fol. 228, near c.20/d.144)",
+          "evidence": "The facing page has a marginal 'See Rudrajāpya...' cross-reference. Its link to this entry is not explicit.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "No shelfmark is written. It is unclear whether this records a holding or a reference entry.",
+        "The reading 'in viii adhy.' is probable."
+      ],
+      "stable_id": "css-prod-0454-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "√ d.122(4) Rudrapaddhati, or Rudrānuṣṭhānapaddhati, by Nārāyana Bhaṭṭa s/o Rāmeśvara, composed at Kāśī,\nff. 1-22 (h. 19) S.1748. Scribe Lakṣmīdhara Kālevaḍe s/o Tryambaka Bhaṭṭa, ends as in RLM, I 18[?],\nbut beg. differs.                1691:21½ :9/12:D.",
+      "fields": {
+        "shelfmark": "d.122(4)",
+        "title": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+        "author": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+        "source": "RLM, I 18[?]",
+        "date": "S.1748; 1691",
+        "extent": "ff. 1-22 (h. 19); 21½",
+        "lines": "9/12",
+        "script": "D"
+      },
+      "normalized_title": "Rudrapaddhati",
+      "annotations": [
+        "Ink tick before the shelfmark.",
+        "The second line is indented. The third line, 'but beg. differs.', sits below at the left.",
+        "The figures '1691:21½ :9/12:D.' are at the right of the third line.",
+        "A pencil diagonal stroke passes through the figures after '21½'.",
+        "Lakṣmīdhara is recorded as scribe, not author.",
+        "There is a small left-pointing ink arrow at the right edge beside line 1 (see r006)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 455,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "* √ d.134(8) Rudrapaddhati ... with 'trs. above' brace and '———→' arrow",
+          "evidence": "Arrows at the right edge here and the left margin there may mark a transfer or linking of Rudrapaddhati entries.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain.",
+        "'(h. 19)' could be '(n. 19)'.",
+        "The number after 'RLM, I 18' is unclear.",
+        "It is unclear whether the pencil stroke is a cancellation or a separator."
+      ],
+      "stable_id": "css-prod-0454-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry",
+      "literal_text": "√ d.135(4) Do. by Do. ff.1-25. I.O.1783        n.d.: 25:15/17:D.",
+      "fields": {
+        "shelfmark": "d.135(4)",
+        "title": "Do.",
+        "author": "Do.",
+        "source": "I.O.1783",
+        "date": "n.d.",
+        "extent": "ff.1-25; 25",
+        "lines": "15/17",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink tick before the shelfmark.",
+        "'Do.' is used as ditto for both title and author."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'Do.' immediately follows the d.122(4) entry. Whether the ditto covers the alternative title as well is not stated.",
+          "certainty": "probable"
+        },
+        {
+          "field": "author",
+          "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'by Do.' follows the d.122(4) entry.",
+          "certainty": "secure"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 454,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "d.122(4) Rudrapaddhati",
+          "evidence": "Ditto 'Do. by Do.'",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0454-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "comparative_note",
+      "literal_text": "Two recensions of same work.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the end of the d.135(4) line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 454,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "d.135(4)",
+          "evidence": "Same line as d.135(4).",
+          "certainty": "secure"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 454,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "d.122(4)",
+          "evidence": "The note compares the two copies.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'same work' could read 'same work.' with minor letter uncertainty."
+      ],
+      "stable_id": "css-prod-0454-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b903"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "←",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Small ink arrow pointing left, at the right edge beside line 1 of d.122(4)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 454,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "d.122(4)",
+          "evidence": "Proximity.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 455,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "'———→' arrow beside d.134(8)/e.47",
+          "evidence": "Facing arrows at the same height.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0454-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r007",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_query",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, upper right area. No target-page text is adjacent."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Its purpose is unknown. It may relate to show-through text."
+      ],
+      "stable_id": "css-prod-0454-r007",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r008",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_marks",
+      "literal_text": "ī/\nā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, right part of the page: 'ī' over 'ā', each followed by a long diagonal stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The inventory placed this mark at y≈3130. The native tile shows it at y≈1530–1830.",
+        "Its relation to any entry is unknown."
+      ],
+      "stable_id": "css-prod-0454-r008",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r009",
+      "block_ids": [
+        "b904"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_stroke",
+      "literal_text": "/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Short pencil stroke in the lower right area."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0454-r009",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r010",
+      "block_ids": [
+        "b905"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "stray_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Small stray mark near top right. Not text."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0454-r010",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "√ d.122(4) Rudrapaddhati, or Rudrānuṣṭhānapaddhati, by Nārāyana Bhaṭṭa s/o Rāmeśvara, composed at Kāśī,\nff. 1-22 (h. 19) S.1748. Scribe Lakṣmīdhara Kālevaḍe s/o Tryambaka Bhaṭṭa, ends as in RLM, I 18[?],\nbut beg. differs.                1691:21½ / :9/12:D.",
+      "after": "√ d.122(4) Rudrapaddhati, or Rudrānuṣṭhānapaddhati, by Nārāyana Bhaṭṭa s/o Rāmeśvara, composed at Kāśī,\nff. 1-22 (h. 19) S.1748. Scribe Lakṣmīdhara Kālevaḍe s/o Tryambaka Bhaṭṭa, ends as in RLM, I 18[?],\nbut beg. differs.                1691:21½ :9/12:D.",
+      "reason": "The '/' in the candidate is the pencil diagonal stroke, not written wording. It is already described in annotations, so it should not appear in the literal text.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain.",
+        "'(h. 19)' could be '(n. 19)'.",
+        "The number after 'RLM, I 18' is unclear.",
+        "It is unclear whether the pencil stroke is a cancellation or a separator."
+      ],
+      "after": [
+        "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain. Underdots are visible under 'tt' in line 2, but not clearly in line 1.",
+        "'(h. 19)' could be '(n. 19)'.",
+        "The number after 'RLM, I 18' is unclear.",
+        "The fraction in '21½' is written small and is partly overlapped by the pencil stroke. The reading is probable.",
+        "It is unclear whether the pencil stroke is a cancellation or a separator. It extends downward past the level of the d.135(4) line."
+      ],
+      "reason": "The fraction reading and the extent of the stroke need to be recorded as uncertain.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 454,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "d.135(4)",
+          "evidence": "Same line as d.135(4).",
+          "certainty": "secure"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 454,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "d.122(4)",
+          "evidence": "The note compares the two copies.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 454,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "d.135(4)",
+          "evidence": "Same line as d.135(4).",
+          "certainty": "secure"
+        },
+        {
+          "type": "refers_to",
+          "target_page_order": 454,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "d.122(4)",
+          "evidence": "The note refers to two recensions, presumably d.122(4) and d.135(4). It is physically written on the d.135(4) line, not as a continuation of d.122(4).",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The note does not physically continue the d.122(4) entry. Its link to that entry is a comparative reference only.",
+      "source_block_ids": [
+        "b003",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "title",
+          "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'Do.' immediately follows the d.122(4) entry.",
+          "certainty": "secure"
+        },
+        {
+          "field": "author",
+          "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'by Do.' follows the d.122(4) entry.",
+          "certainty": "secure"
+        }
+      ],
+      "after": [
+        {
+          "field": "title",
+          "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'Do.' immediately follows the d.122(4) entry. Whether the ditto covers the alternative title as well is not stated.",
+          "certainty": "probable"
+        },
+        {
+          "field": "author",
+          "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'by Do.' follows the d.122(4) entry.",
+          "certainty": "secure"
+        }
+      ],
+      "reason": "The source does not show how far the ditto extends over the alternative title.",
+      "source_block_ids": [
+        "b003",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 454,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "d.135(4)",
+          "evidence": "Same line as d.135(4).",
+          "certainty": "secure"
+        },
+        {
+          "type": "continues",
+          "target_page_order": 454,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "d.122(4)",
+          "evidence": "The note compares the two copies.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 454,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "d.135(4)",
+          "evidence": "Same line as d.135(4).",
+          "certainty": "secure"
+        },
+        {
+          "type": "refers_to",
+          "target_page_order": 454,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "d.122(4)",
+          "evidence": "The note refers to two recensions, presumably d.122(4) and d.135(4). It is physically written on the d.135(4) line, not as a continuation of d.122(4).",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The note is physically on the d.135(4) line. Its link to d.122(4) is a comparative reference, not a physical continuation.",
+      "source_block_ids": [
+        "b003",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0454-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "title",
+          "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'Do.' immediately follows the d.122(4) entry.",
+          "certainty": "secure"
+        },
+        {
+          "field": "author",
+          "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'by Do.' follows the d.122(4) entry.",
+          "certainty": "secure"
+        }
+      ],
+      "after": [
+        {
+          "field": "title",
+          "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'Do.' immediately follows the d.122(4) entry. Whether the ditto covers the alternative title as well is not stated.",
+          "certainty": "probable"
+        },
+        {
+          "field": "author",
+          "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+          "source_page_order": 454,
+          "source_block_id": "b003",
+          "evidence": "'by Do.' follows the d.122(4) entry.",
+          "certainty": "secure"
+        }
+      ],
+      "reason": "The source does not show how far the title ditto extends.",
+      "source_block_ids": [
+        "b003",
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0454-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain.",
+        "'(h. 19)' could be '(n. 19)'.",
+        "The number after 'RLM, I 18' is unclear.",
+        "It is unclear whether the pencil stroke is a cancellation or a separator."
+      ],
+      "after": [
+        "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain. Underdots are visible under 'tt' in line 2, but not clearly in line 1. In 'Rudrānuṣ', only the 'ṣ' dot is clear.",
+        "'(h. 19)' could be '(n. 19)' or '(u. 19)'.",
+        "The number after 'RLM, I 18' is unclear.",
+        "The fraction in '21½' is written small and is partly overlapped by the pencil stroke. The reading is probable.",
+        "It is unclear whether the pencil stroke is a cancellation or a separator. It extends downward past the level of the d.135(4) line."
+      ],
+      "reason": "Fresh native-tile reading.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0454-focus.parsed.json"
+    },
+    {
+      "record_id": "r008",
+      "field_path": "uncertainties",
+      "before": [
+        "The inventory placed this mark at y≈3130. The native tile shows it at y≈1530–1830.",
+        "Its relation to any entry is unknown."
+      ],
+      "after": [
+        "Its relation to any entry is unknown.",
+        "The 'ī/ ā/' seen in the fol. 228 photograph lies left of that page's edge. It is therefore this page's own mark, not a separate offset or annotation on fol. 228."
+      ],
+      "reason": "The block location already gives y≈1530. The adjacent-image evidence shows the fol. 228 photograph captures this same mark.",
+      "source_block_ids": [
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0454-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The entry has no shelfmark. Its status as a holding or a reference is unclear, and so is its relation to 'See Rudrajāpyabhāṣya' on fol. 228.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0454-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The function of the pencil diagonal stroke (cancellation or separator) is not established.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0454-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The purpose of the pencil 'ī/ā/' and '?' marks is unknown. Similar 'ī/ā/' marks appear in the margin of fol. 228 at a matching position, so these may be offset or related annotations.",
+      "block_ids": [
+        "b902",
+        "b901"
+      ],
+      "record_ids": [
+        "r008"
+      ],
+      "id": "focus-0454-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The note does not physically continue the d.122(4) entry. Its link to that entry is a comparative reference only. Proposed relationships: [{\"type\": \"continues\", \"target_page_order\": 454, \"target_record_id\": \"r004\", \"target_block_id\": \"b004\", \"target_anchor\": \"d.135(4)\", \"evidence\": \"Same line as d.135(4).\", \"certainty\": \"secure\"}, {\"type\": \"refers_to\", \"target_page_order\": 454, \"target_record_id\": \"r003\", \"target_block_id\": \"b003\", \"target_anchor\": \"d.122(4)\", \"evidence\": \"The note refers to two recensions, presumably d.122(4) and d.135(4). It is physically written on the d.135(4) line, not as a continuation of d.122(4).\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0454-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is not established whether the ink arrow at d.122(4) links to the '———→' arrow and 'trs. above' brace near d.134(8)/e.47 on fol. 228.",
+      "block_ids": [
+        "b903"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0454-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The fraction reading and the extent of the stroke need to be recorded as uncertain. Proposed uncertainties: [\"Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain. Underdots are visible under 'tt' in line 2, but not clearly in line 1.\", \"'(h. 19)' could be '(n. 19)'.\", \"The number after 'RLM, I 18' is unclear.\", \"The fraction in '21½' is written small and is partly overlapped by the pencil stroke. The reading is probable.\", \"It is unclear whether the pencil stroke is a cancellation or a separator. It extends downward past the level of the d.135(4) line.\"]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0454-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The source does not show how far the ditto extends over the alternative title. Proposed editorial_context: [{\"field\": \"title\", \"value\": \"Rudrapaddhati, or Rudrānuṣṭhānapaddhati\", \"source_page_order\": 454, \"source_block_id\": \"b003\", \"evidence\": \"'Do.' immediately follows the d.122(4) entry. Whether the ditto covers the alternative title as well is not stated.\", \"certainty\": \"probable\"}, {\"field\": \"author\", \"value\": \"Nārāyana Bhaṭṭa s/o Rāmeśvara\", \"source_page_order\": 454, \"source_block_id\": \"b003\", \"evidence\": \"'by Do.' follows the d.122(4) entry.\", \"certainty\": \"secure\"}]",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0454-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "No shelfmark is written. It is unclear whether this records a holding or a reference entry.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0454-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'in viii adhy.' is probable.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0454-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0454-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0454-01",
+        "focus-0454-02",
+        "focus-0454-03",
+        "focus-0454-04",
+        "focus-0454-05",
+        "focus-0454-06",
+        "focus-0454-07",
+        "focus-0454-08",
+        "focus-0454-09",
+        "focus-0454-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0454-01",
+          "source_reading": "Rudrajāpya, mantras from VS, in viii adhy., ff.1-95, S.1923. I.O. 4521 (beginning differs)",
+          "certainty": "probable",
+          "evidence": "A single ink line at about y 2790–2870. There is nothing in the shelfmark column to its left and no tick. On fol. 228, in the left margin near c.20/d.144, there is 'See Rudrajāpyabhāṣya'. That note lies to the right of the fol. 227b page edge, so it belongs to fol. 228. Nothing physically links it to this line. The vertical positions do not match: this line is at the middle of the page, and the fol. 228 note is near the bottom."
+        },
+        {
+          "issue_id": "focus-0454-02",
+          "source_reading": "A pencil oblique stroke runs from about (2790,3690) down to (2755,3855). It passes between '21½' and ':9/12:D.' and continues below the d.135(4) line, ending near 'Two recensions of same work.'",
+          "certainty": "uncertain",
+          "evidence": "The stroke does not run along the figures, so it does not look like a strike-through. It falls between two groups of figures and extends downward. Its function as cancellation, separator or marker cannot be determined."
+        },
+        {
+          "issue_id": "focus-0454-03",
+          "source_reading": "'?' in pencil at about (2905,830). 'ī/' over 'ā/' in pencil at about (2925–3050, 1530–1820), each followed by a long oblique pencil stroke.",
+          "certainty": "secure",
+          "evidence": "In the fol. 228 overview, the 'ī/ ā/' and '?' appear to the left of the fol. 228 page edge. They are therefore this page's own marks, captured in the adjacent photograph, not separate marks on fol. 228. A similar 'a/ ā/' pair appears in the left margin of the fol. 227 image, which shows the facing page. Their purpose is not stated anywhere."
+        },
+        {
+          "issue_id": "focus-0454-04",
+          "source_reading": "√ d.135(4) Do. by Do. ff.1-25. I.O.1783   n.d.: 25:15/17:D.  Two recensions of same work.",
+          "certainty": "secure",
+          "evidence": "The note is on the same ruled line as d.135(4), after the figures. It is not written as a continuation of the d.122(4) lines."
+        },
+        {
+          "issue_id": "focus-0454-05",
+          "source_reading": "A small ink arrow pointing left ('←') at about (3035–3110, 3625–3650), level with line 1 of d.122(4). On fol. 228, at the same height, there is an ink '———→' pointing right, just below the 'trs. above' brace.",
+          "certainty": "uncertain",
+          "evidence": "The two arrows face each other across the gutter at the same height. No written words connect them."
+        },
+        {
+          "issue_id": "focus-0454-06",
+          "source_reading": "1691:21½ :9/12:D.",
+          "certainty": "probable",
+          "evidence": "After '21' there is a small raised '1' over a lower figure, which may be '2'. The pencil stroke begins just to its right and overlaps slightly. The stroke extends below the d.135(4) line."
+        },
+        {
+          "issue_id": "focus-0454-07",
+          "source_reading": "Do. by Do.",
+          "certainty": "secure",
+          "evidence": "The literal text is only 'Do.' for the title and 'Do.' for the author. Nothing shows whether the title ditto covers the alternative title 'or Rudrānuṣṭhānapaddhati'."
+        },
+        {
+          "issue_id": "focus-0454-08",
+          "source_reading": "There is no shelfmark and no tick before 'Rudrajāpya'.",
+          "certainty": "secure",
+          "evidence": "The left column at about y 2790–2870 is blank."
+        },
+        {
+          "issue_id": "focus-0454-09",
+          "source_reading": "in viii adhy.,",
+          "certainty": "probable",
+          "evidence": "'in' is followed by a small roman 'viii' and then 'adhy' with a dot and comma. The letter forms are cursive."
+        },
+        {
+          "issue_id": "focus-0454-10",
+          "source_reading": "Rudrānuṣ[ṭ?]hānapaddhati; Nārāyana; Kālevaḍe[?]; Bhaṭṭa (line 2)",
+          "certainty": "uncertain",
+          "evidence": "There is a dot under 's' in 'Rudrānuṣ', but no clear dot under 'th'. 'Nārāyana' shows no underdot on 'n'. In line 1, 'Bhatta' shows no clear underdots. In line 2, 'Bhaṭṭa' has dots under 'tt'. In 'Kālevaḍe' there is a dot below the letter read as 'ḍ', and that letter form is doubtful."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r005",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 454,
+              "target_record_id": "r004",
+              "target_block_id": "b004",
+              "target_anchor": "d.135(4)",
+              "evidence": "Same line as d.135(4).",
+              "certainty": "secure"
+            },
+            {
+              "type": "continues",
+              "target_page_order": 454,
+              "target_record_id": "r003",
+              "target_block_id": "b003",
+              "target_anchor": "d.122(4)",
+              "evidence": "The note compares the two copies.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 454,
+              "target_record_id": "r004",
+              "target_block_id": "b004",
+              "target_anchor": "d.135(4)",
+              "evidence": "Same line as d.135(4).",
+              "certainty": "secure"
+            },
+            {
+              "type": "refers_to",
+              "target_page_order": 454,
+              "target_record_id": "r003",
+              "target_block_id": "b003",
+              "target_anchor": "d.122(4)",
+              "evidence": "The note refers to two recensions, presumably d.122(4) and d.135(4). It is physically written on the d.135(4) line, not as a continuation of d.122(4).",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The note is physically on the d.135(4) line. Its link to d.122(4) is a comparative reference, not a physical continuation.",
+          "source_block_ids": [
+            "b003",
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "editorial_context",
+          "before": [
+            {
+              "field": "title",
+              "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+              "source_page_order": 454,
+              "source_block_id": "b003",
+              "evidence": "'Do.' immediately follows the d.122(4) entry.",
+              "certainty": "secure"
+            },
+            {
+              "field": "author",
+              "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+              "source_page_order": 454,
+              "source_block_id": "b003",
+              "evidence": "'by Do.' follows the d.122(4) entry.",
+              "certainty": "secure"
+            }
+          ],
+          "after": [
+            {
+              "field": "title",
+              "value": "Rudrapaddhati, or Rudrānuṣṭhānapaddhati",
+              "source_page_order": 454,
+              "source_block_id": "b003",
+              "evidence": "'Do.' immediately follows the d.122(4) entry. Whether the ditto covers the alternative title as well is not stated.",
+              "certainty": "probable"
+            },
+            {
+              "field": "author",
+              "value": "Nārāyana Bhaṭṭa s/o Rāmeśvara",
+              "source_page_order": 454,
+              "source_block_id": "b003",
+              "evidence": "'by Do.' follows the d.122(4) entry.",
+              "certainty": "secure"
+            }
+          ],
+          "reason": "The source does not show how far the title ditto extends.",
+          "source_block_ids": [
+            "b003",
+            "b004"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain.",
+            "'(h. 19)' could be '(n. 19)'.",
+            "The number after 'RLM, I 18' is unclear.",
+            "It is unclear whether the pencil stroke is a cancellation or a separator."
+          ],
+          "after": [
+            "Diacritics in 'Rudrānuṣṭhānapaddhati', 'Nārāyana', 'Kālevaḍe' and 'Bhaṭṭa' are uncertain. Underdots are visible under 'tt' in line 2, but not clearly in line 1. In 'Rudrānuṣ', only the 'ṣ' dot is clear.",
+            "'(h. 19)' could be '(n. 19)' or '(u. 19)'.",
+            "The number after 'RLM, I 18' is unclear.",
+            "The fraction in '21½' is written small and is partly overlapped by the pencil stroke. The reading is probable.",
+            "It is unclear whether the pencil stroke is a cancellation or a separator. It extends downward past the level of the d.135(4) line."
+          ],
+          "reason": "Fresh native-tile reading.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r008",
+          "field_path": "uncertainties",
+          "before": [
+            "The inventory placed this mark at y≈3130. The native tile shows it at y≈1530–1830.",
+            "Its relation to any entry is unknown."
+          ],
+          "after": [
+            "Its relation to any entry is unknown.",
+            "The 'ī/ ā/' seen in the fol. 228 photograph lies left of that page's edge. It is therefore this page's own mark, not a separate offset or annotation on fol. 228."
+          ],
+          "reason": "The block location already gives y≈1530. The adjacent-image evidence shows the fol. 228 photograph captures this same mark.",
+          "source_block_ids": [
+            "b902"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 227 with superscript b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The line has no shelfmark, so its holding or reference status is unresolved."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Three lines plus figures, with a pencil oblique stroke."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004",
+            "r005"
+          ],
+          "finding": "Ditto entry plus a trailing note on the same line."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r007"
+          ],
+          "finding": "Pencil '?'."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r008"
+          ],
+          "finding": "Pencil 'ī/ ā/'."
+        },
+        {
+          "block_id": "b903",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "Ink left-pointing arrow."
+        },
+        {
+          "block_id": "b904",
+          "status": "represented",
+          "record_ids": [
+            "r009"
+          ],
+          "finding": "Pencil '/' at about y 4300."
+        },
+        {
+          "block_id": "b905",
+          "status": "represented",
+          "record_ids": [
+            "r010"
+          ],
+          "finding": "Tiny stray mark."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0454-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "It is unclear whether this is a holding or a reference entry. Its relation to 'See Rudrajāpyabhāṣya' on fol. 228 is not shown.",
+          "next_check": "Compare with the conventions of this cataloguer on other pages."
+        },
+        {
+          "issue_id": "focus-0454-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The function of the pencil stroke is unknown.",
+          "next_check": "Look for similar pencil strokes elsewhere in the catalogue."
+        },
+        {
+          "issue_id": "focus-0454-03",
+          "record_id": "r008",
+          "block_ids": [
+            "b901",
+            "b902"
+          ],
+          "issue": "The purpose of the '?' and 'ī/ ā/' marks is unknown.",
+          "next_check": "Compare with the 'a/ ā/' marks on fol. 226b/227."
+        },
+        {
+          "issue_id": "focus-0454-05",
+          "record_id": "r006",
+          "block_ids": [
+            "b903"
+          ],
+          "issue": "It is unconfirmed whether the arrow links to the '———→' arrow on fol. 228.",
+          "next_check": "Check the transfer conventions ('trs. above') on fol. 228."
+        },
+        {
+          "issue_id": "focus-0454-10",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "Diacritics and the reading 'Kālevaḍe' remain doubtful.",
+          "next_check": "Examine at higher magnification."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "8323f595254a3db1f2a7d53be54b02e9a47b32c72d6d0d7c6c89b4791dceac41",
+      "bytes": 283316,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "851873134cf7f7adc02757ad6fdee520f592fcb80a3b8c6ed2b27dc4a9964a04",
+      "bytes": 300043,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6e9cec73ecd32926e9bbdd37b03749ee698695cf5566628eaf11b8d6414fd47b",
+      "bytes": 312227,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d16b3a52f93f4ae25b06c70f0fec06b1a62f58ed3a8698946d42ba2f2bebbe61",
+      "bytes": 291585,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8ddddcd3966574410e1a16655621cc483c856bd45a4881340ee0e2c9f99366bf",
+      "bytes": 355364,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bebd710d736dad84e886e3f24ede23fbf2921bcdc5ef23365f43efc55ee9357b",
+      "bytes": 366157,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0893f339-c65e-452d-8a4d-8e0139db9b51/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7bf2c94812b57dd5b5ce38929103a534da2f146d3cbbd020ddc6452b7a541009",
+      "bytes": 270202,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 453,
+      "folio_label": "fol. 227",
+      "page_id": "0893f339-c65e-452d-8a4d-8e0139db9b51",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/10dd21cb-70ab-4ec6-9953-d5a0b2bb8642/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0a22872368b2873bc9b1df1f27fc3ae9456b8cb539c7f2d40abd1f07f6650a95",
+      "bytes": 270572,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 455,
+      "folio_label": "fol. 228",
+      "page_id": "10dd21cb-70ab-4ec6-9953-d5a0b2bb8642",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/10dd21cb-70ab-4ec6-9953-d5a0b2bb8642/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6eb41371afe49b659745dcd8b79b03c9864d8636224bac3112b307e5c37f9979",
+      "bytes": 454008,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 455,
+      "folio_label": "fol. 228",
+      "page_id": "10dd21cb-70ab-4ec6-9953-d5a0b2bb8642",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/10dd21cb-70ab-4ec6-9953-d5a0b2bb8642/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "106a49e0bf31e705c48f6fac7015981bb7bd19f29ccfb4f6ab5fd10cd2fb7ad3",
+      "bytes": 484348,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 455,
+      "folio_label": "fol. 228",
+      "page_id": "10dd21cb-70ab-4ec6-9953-d5a0b2bb8642",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9eda3407-d881-4982-a978-43b8e74b2cba.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "8323f595254a3db1f2a7d53be54b02e9a47b32c72d6d0d7c6c89b4791dceac41",
+      "bytes": 283316,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "19631f3bc3787a63e76bd79851512273f3494613da91e78d4ef2f8c1e6c15392",
+      "bytes": 297219,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "851873134cf7f7adc02757ad6fdee520f592fcb80a3b8c6ed2b27dc4a9964a04",
+      "bytes": 300043,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6e9cec73ecd32926e9bbdd37b03749ee698695cf5566628eaf11b8d6414fd47b",
+      "bytes": 312227,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d16b3a52f93f4ae25b06c70f0fec06b1a62f58ed3a8698946d42ba2f2bebbe61",
+      "bytes": 291585,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8ddddcd3966574410e1a16655621cc483c856bd45a4881340ee0e2c9f99366bf",
+      "bytes": 355364,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9eda3407-d881-4982-a978-43b8e74b2cba/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bebd710d736dad84e886e3f24ede23fbf2921bcdc5ef23365f43efc55ee9357b",
+      "bytes": 366157,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0893f339-c65e-452d-8a4d-8e0139db9b51/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7bf2c94812b57dd5b5ce38929103a534da2f146d3cbbd020ddc6452b7a541009",
+      "bytes": 270202,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 453,
+      "folio_label": "fol. 227",
+      "page_id": "0893f339-c65e-452d-8a4d-8e0139db9b51",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/10dd21cb-70ab-4ec6-9953-d5a0b2bb8642/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0a22872368b2873bc9b1df1f27fc3ae9456b8cb539c7f2d40abd1f07f6650a95",
+      "bytes": 270572,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 455,
+      "folio_label": "fol. 228",
+      "page_id": "10dd21cb-70ab-4ec6-9953-d5a0b2bb8642",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,935 @@
+{
+  "source_order": 584,
+  "folio_label": "fol. 292b",
+  "page_id": "a0f0de86-0a89-4014-b3a7-dee0c1a2aa03",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "292b",
+    "principal_page_bbox": [
+      320,
+      280,
+      2790,
+      4550
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          330,
+          145,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "292 with superscript b",
+        "features": [
+          "top-left corner of the page",
+          "ink",
+          "'b' written superscript after '292'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          390,
+          1700,
+          2480,
+          150
+        ],
+        "kind_hint": "marginal_note_attached_by_arrow_to_facing_page",
+        "anchor": "Title in later hand, in col. ... paddhati (cat. s.?)",
+        "features": [
+          "single line",
+          "starts in the left margin and crosses the ruled margin line",
+          "ends with '(cat. s.?)'",
+          "dot below the question mark",
+          "separate pencil arrow at about x2220-2860, y1735-1795 points left toward the note",
+          "the arrow's right end approaches the gutter",
+          "probably keyed to an entry on the facing fol. 293 (c. 275 / c. 113 region)"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          375,
+          3100,
+          2700,
+          200
+        ],
+        "kind_hint": "marginal_note_attached_by_arrow_to_facing_page",
+        "anchor": "(title doubtful. At beginning Ai[...]jata...",
+        "features": [
+          "two lines",
+          "bracketed reading with interlinear 'or' written above it",
+          "contains '(sic)'",
+          "contains 'ff. 1-3, S. 1819, written at Benares.'",
+          "arrow at line end, about x2950-3075, y3140-3175, points toward the gutter",
+          "aligned with the facing-page entry c. 341(6)"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2215,
+          910,
+          30,
+          70
+        ],
+        "description": "faint pencil mark resembling '5' in the upper middle of the page; no text is attached to it"
+      },
+      {
+        "bbox": [
+          1730,
+          2395,
+          25,
+          25
+        ],
+        "description": "small ink dot or speck in the middle of the page"
+      },
+      {
+        "bbox": [
+          2180,
+          3040,
+          20,
+          20
+        ],
+        "description": "small dot or speck above b003"
+      }
+    ],
+    "boundary_notes": [
+      "Strip right of x≈3110 (beyond gutter) is facing fol. 293 left margin and shelfmark column (√d.167, c.39, d.918, c.423, c.275, ... d.760); not transcribed as target blocks.",
+      "Arrows in b002 and b003 point toward the gutter, suggesting the notes refer to entries on fol. 293 rather than to holdings on this page.",
+      "Ruled left margin line at x≈820-835 runs the full page height."
+    ],
+    "uncertainties": [
+      "Exact literal reading of b002 wording ('in col.', 'Upanayana paddhati') is uncertain due to cursive hand.",
+      "Bracketed reading in b003 ('Ai[?Ro]jata' with 'or') and the long compound words are uncertain.",
+      "Faint pencil '5' may be a stray mark or a count."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "292b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "292b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left corner; 'b' is written superscript after '292' and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "note_keyed_by_arrow_to_facing_page",
+        "literal_text": "Title in later hand, in col. Upanayana paddhati (cat. s.?)",
+        "fields": {
+          "title": "Upanayana paddhati"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line in ink. It begins in the left margin and crosses the ruled margin line.",
+          "A dot is written below the question mark.",
+          "A separate pencil arrow at about x2220-2860, y1735-1795 points left toward the note. Its right end approaches the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 585,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 275(2) Ṣoḍaśasaṁskāra (cancelled entry), possibly c. 423 / c. 113(3)",
+            "evidence": "The arrow runs toward the gutter at the height of the c. 275 row on the facing fol. 293.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The cursive reading of 'in col.' and 'Upanayana paddhati' is uncertain.",
+          "The meaning of 'cat. s.?' is unresolved.",
+          "It is not certain which facing-page entry the note is keyed to."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "note_keyed_by_arrow_to_facing_page",
+        "literal_text": "(title doubtful. At beginning Ai[?Ro]jatā maṇipujā, and at end Saṁvatsarapratipad ai(?ro)janāmaṇi-\npūjanā mupūjana (sic)). ff. 1-3, S. 1819, written at Benares.",
+        "fields": {
+          "date": "S. 1819",
+          "extent": "ff. 1-3",
+          "incipit": "Ai[?Ro]jatā maṇipujā"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two lines in ink.",
+          "'or' is written interlinearly above the bracketed '[?Ro]'.",
+          "An arrow at the end of line 1, at about x2950-3075, y3140-3175, points toward the gutter.",
+          "A matching fragment '…ṇāmaṇi- ←' is visible in the left margin of the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 585,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 341(6) Saṁvatsarapūjā. Tantra.",
+            "evidence": "The arrow is aligned with the row on fol. 293 that carries a leading dash, '-√c. 341(6)'. That entry's date column appears to read 1762:3:9: D, which is consistent with S. 1819.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The bracketed readings '[?Ro]' and '(?ro)' are uncertain.",
+          "The diacritics in the compounds are uncertain, including 'maṇipujā', 'Saṁvatsarapratipad' and 'mupūjana'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "5",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil mark in the upper middle of the page. No text is attached to it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It may be a stray mark or a count. The reading '5' is itself uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2215,
+          910,
+          30,
+          70
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "5",
+        "features": [
+          "faint pencil",
+          "isolated",
+          "listed among unattached_marks in the inventory"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Note, with its pencil arrow, keyed toward the facing page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Two-line note, with its arrow, probably keyed to c. 341(6) on fol. 293."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Faint pencil '5' added as a block."
+      }
+    ],
+    "page_annotations": [
+      "There are no holdings on this page. The strip beyond the gutter belongs to fol. 293 and was not transcribed.",
+      "Small ink specks at about (1730,2395) and (2180,3040) are not text.",
+      "The ruled left margin line runs the full height of the page.",
+      "The remainder of the page was reviewed and is blank."
+    ],
+    "unresolved_relationships": [
+      "The precise facing-page target of the b002 note is uncertain: c. 275(2), c. 423 or c. 113(3)."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "An ink '292' with a superscript 'b' and a following dot is in the top-left corner. Folio label 'fol. 292b' is preserved."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single ink line runs from the left margin across the ruled margin line. A separate pencil arrow at about x2220-2860, y1720-1795 points left toward the note, with a small tick above the arrowhead. Its right end stops short of the gutter at about x3110. The wording is cursive, and the candidate flags it as uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A two-line ink note with an interlinear 'or' above the bracket. Line 1 ends in a dash and an arrow at about x2944-3075, y3140-3170 pointing toward the gutter. The candidate's literal text is broadly consistent with the image, but several diacritics and readings are uncertain. One annotation wrongly treats the edge of the facing-page image as an independent fragment."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A faint isolated pencil stroke resembling '5' at about x2215-2245, y910-980. The reading is uncertain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Two lines in ink.",
+          "'or' is written interlinearly above the bracketed '[?Ro]'.",
+          "An arrow at the end of line 1, at about x2950-3075, y3140-3175, points toward the gutter.",
+          "A matching fragment '…ṇāmaṇi- ←' is visible in the left margin of the facing page."
+        ],
+        "after": [
+          "Two lines in ink.",
+          "'or' is written interlinearly above the bracketed '[?Ro]'.",
+          "Line 1 ends with a dash followed by an arrow, at about x2950-3075, y3140-3175, pointing toward the gutter.",
+          "The '…ṇāmaṇi- ←' visible at the left edge of the adjacent fol. 293 image is this same line of fol. 292b caught at the edge of that photograph. It is not a separate fragment written on fol. 293."
+        ],
+        "reason": "The adjacent fol. 293 image includes a strip of the facing 292b to the left of its gutter. The fragment there is the end of b003 itself, not independent matching evidence.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 585,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 341(6) Saṁvatsarapūjā. Tantra.",
+            "evidence": "The arrow is aligned with the row on fol. 293 that carries a leading dash, '-√c. 341(6)'. That entry's date column appears to read 1762:3:9: D, which is consistent with S. 1819.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 585,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 341(6) Saṁvatsarapūjā. Tantra.",
+            "evidence": "The arrow is at the height of the fol. 293 row whose shelfmark carries a leading dash, '-√c. 341(6)'. That dash lies right of the gutter, on fol. 293 itself. The date column of that entry has overwritten digits (approximately '1[?7]62:3:[?9]: D'). Any correspondence with 'S. 1819' is an editorial inference, not a source statement.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The facing-page date digits are visibly overwritten, so the reading should not be presented as clean. The calendar-consistency claim is inference.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The bracketed readings '[?Ro]' and '(?ro)' are uncertain.",
+          "The diacritics in the compounds are uncertain, including 'maṇipujā', 'Saṁvatsarapratipad' and 'mupūjana'."
+        ],
+        "after": [
+          "The bracketed readings '[?Ro]' and '(?ro)' are uncertain.",
+          "The diacritics in the compounds are uncertain, including 'jatā', 'maṇipujā', 'Saṁvatsarapratipad', 'janāmaṇi' and 'mupūjana'.",
+          "It is ambiguous whether the mark after 'janāmaṇi' is a word-division hyphen or part of the dash leading to the arrow."
+        ],
+        "reason": "The cursive hand leaves the macrons, retroflex dots and the line-end stroke unsecured.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The target of the pencil arrow on fol. 293 is uncertain. The arrow's right end is near the c. 423 / c. 275(2) / c. 113(3) rows. The dash visible at the left edge of the fol. 293 image at that height is probably this page's own arrow, not a mark on fol. 293.",
+        "next_check": "Inspect fol. 293 at native resolution for any marker right of the gutter beside c. 275(2), c. 423 or c. 113(3)."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The readings 'in col.', 'Upanayana paddhati' and 'cat. s.?' are uncertain.",
+        "next_check": "Compare with the same hand elsewhere in the catalogue."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "It is uncertain whether the pencil '5' is a numeral or a stray stroke.",
+        "next_check": "Check whether similar pencil counts occur on neighbouring blank versos."
+      }
+    ],
+    "boundary_review": "The principal page runs from about x320 to x3110. The gutter is at about x3110-3130. Right of the gutter, the shelfmark column of fol. 293 is visible and is not transcribed. The '-√c. 341(6)' dash is part of fol. 293. In the adjacent fol. 293 image, the '…ṇāmaṇi- ←' and the dash at the c. 275 row lie on this page (292b), seen at the photo edge, and are not duplicate records. The cross-page attachment of b003 is probable; that of b002 is unresolved.",
+    "region_review": {
+      "top": "Folio number '292b.' only. The rest is blank ruled paper.",
+      "middle": "The b002 note with its pencil arrow, the faint pencil '5' above it, and small ink specks at about (1730,2395) and (2180,3040). The specks are not text.",
+      "bottom": "The two-line b003 note. Below it the page is blank ruled paper to the lower edge. No bottom note was found.",
+      "left_margin": "Both b002 and b003 begin in the left margin and cross the ruled line at about x820. No other marginal writing.",
+      "right_margin": "Nothing between the text area and the gutter apart from the two arrows. The facing-page strip is excluded.",
+      "interlinear": "'or' above the bracketed reading in b003 line 1. No other interlinear text."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        330,
+        145,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "292 with superscript b",
+      "features": [
+        "top-left corner of the page",
+        "ink",
+        "'b' written superscript after '292'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        390,
+        1700,
+        2480,
+        150
+      ],
+      "kind_hint": "marginal_note_attached_by_arrow_to_facing_page",
+      "anchor": "Title in later hand, in col. ... paddhati (cat. s.?)",
+      "features": [
+        "single line",
+        "starts in the left margin and crosses the ruled margin line",
+        "ends with '(cat. s.?)'",
+        "dot below the question mark",
+        "separate pencil arrow at about x2220-2860, y1735-1795 points left toward the note",
+        "the arrow's right end approaches the gutter",
+        "probably keyed to an entry on the facing fol. 293 (c. 275 / c. 113 region)"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        375,
+        3100,
+        2700,
+        200
+      ],
+      "kind_hint": "marginal_note_attached_by_arrow_to_facing_page",
+      "anchor": "(title doubtful. At beginning Ai[...]jata...",
+      "features": [
+        "two lines",
+        "bracketed reading with interlinear 'or' written above it",
+        "contains '(sic)'",
+        "contains 'ff. 1-3, S. 1819, written at Benares.'",
+        "arrow at line end, about x2950-3075, y3140-3175, points toward the gutter",
+        "aligned with the facing-page entry c. 341(6)"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2215,
+        910,
+        30,
+        70
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "5",
+      "features": [
+        "faint pencil",
+        "isolated",
+        "listed among unattached_marks in the inventory"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "292b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left corner; 'b' is written superscript after '292' and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0584-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "note_keyed_by_arrow_to_facing_page",
+      "literal_text": "Title in later hand, in col. Upanayana paddhati (cat. s.?)",
+      "fields": {
+        "title": "Upanayana paddhati"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line in ink. It begins in the left margin and crosses the ruled margin line.",
+        "A dot is written below the question mark.",
+        "A separate pencil arrow at about x2220-2860, y1735-1795 points left toward the note. Its right end approaches the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 585,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 275(2) Ṣoḍaśasaṁskāra (cancelled entry), possibly c. 423 / c. 113(3)",
+          "evidence": "The arrow runs toward the gutter at the height of the c. 275 row on the facing fol. 293.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The cursive reading of 'in col.' and 'Upanayana paddhati' is uncertain.",
+        "The meaning of 'cat. s.?' is unresolved.",
+        "It is not certain which facing-page entry the note is keyed to."
+      ],
+      "stable_id": "css-prod-0584-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "note_keyed_by_arrow_to_facing_page",
+      "literal_text": "(title doubtful. At beginning Ai[?Ro]jatā maṇipujā, and at end Saṁvatsarapratipad ai(?ro)janāmaṇi-\npūjanā mupūjana (sic)). ff. 1-3, S. 1819, written at Benares.",
+      "fields": {
+        "date": "S. 1819",
+        "extent": "ff. 1-3",
+        "incipit": "Ai[?Ro]jatā maṇipujā"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two lines in ink.",
+        "'or' is written interlinearly above the bracketed '[?Ro]'.",
+        "Line 1 ends with a dash followed by an arrow, at about x2950-3075, y3140-3175, pointing toward the gutter.",
+        "The '…ṇāmaṇi- ←' visible at the left edge of the adjacent fol. 293 image is this same line of fol. 292b caught at the edge of that photograph. It is not a separate fragment written on fol. 293."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 585,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 341(6) Saṁvatsarapūjā. Tantra.",
+          "evidence": "The arrow is aligned with the row on fol. 293 that carries a leading dash, '-√c. 341(6)'. That entry's date column appears to read 1762:3:9: D, which is consistent with S. 1819.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The bracketed readings '[?Ro]' and '(?ro)' are uncertain.",
+        "The diacritics in the compounds are uncertain, including 'maṇipujā', 'Saṁvatsarapratipad' and 'mupūjana'."
+      ],
+      "stable_id": "css-prod-0584-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "5",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil mark in the upper middle of the page. No text is attached to it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It may be a stray mark or a count. The reading '5' is itself uncertain."
+      ],
+      "stable_id": "css-prod-0584-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Two lines in ink.",
+        "'or' is written interlinearly above the bracketed '[?Ro]'.",
+        "An arrow at the end of line 1, at about x2950-3075, y3140-3175, points toward the gutter.",
+        "A matching fragment '…ṇāmaṇi- ←' is visible in the left margin of the facing page."
+      ],
+      "after": [
+        "Two lines in ink.",
+        "'or' is written interlinearly above the bracketed '[?Ro]'.",
+        "Line 1 ends with a dash followed by an arrow, at about x2950-3075, y3140-3175, pointing toward the gutter.",
+        "The '…ṇāmaṇi- ←' visible at the left edge of the adjacent fol. 293 image is this same line of fol. 292b caught at the edge of that photograph. It is not a separate fragment written on fol. 293."
+      ],
+      "reason": "The adjacent fol. 293 image includes a strip of the facing 292b to the left of its gutter. The fragment there is the end of b003 itself, not independent matching evidence.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 585,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 341(6) Saṁvatsarapūjā. Tantra.",
+          "evidence": "The arrow is aligned with the row on fol. 293 that carries a leading dash, '-√c. 341(6)'. That entry's date column appears to read 1762:3:9: D, which is consistent with S. 1819.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 585,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 341(6) Saṁvatsarapūjā. Tantra.",
+          "evidence": "The arrow is at the height of the fol. 293 row whose shelfmark carries a leading dash, '-√c. 341(6)'. That dash lies right of the gutter, on fol. 293 itself. The date column of that entry has overwritten digits (approximately '1[?7]62:3:[?9]: D'). Any correspondence with 'S. 1819' is an editorial inference, not a source statement.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The facing-page date digits are visibly overwritten, so the reading should not be presented as clean. The calendar-consistency claim is inference.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The bracketed readings '[?Ro]' and '(?ro)' are uncertain.",
+        "The diacritics in the compounds are uncertain, including 'maṇipujā', 'Saṁvatsarapratipad' and 'mupūjana'."
+      ],
+      "after": [
+        "The bracketed readings '[?Ro]' and '(?ro)' are uncertain.",
+        "The diacritics in the compounds are uncertain, including 'jatā', 'maṇipujā', 'Saṁvatsarapratipad', 'janāmaṇi' and 'mupūjana'.",
+        "It is ambiguous whether the mark after 'janāmaṇi' is a word-division hyphen or part of the dash leading to the arrow."
+      ],
+      "reason": "The cursive hand leaves the macrons, retroflex dots and the line-end stroke unsecured.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/a0f0de86-0a89-4014-b3a7-dee0c1a2aa03.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0f0de86-0a89-4014-b3a7-dee0c1a2aa03/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "70754462e084d3ed36c25077d32760a4a0a2fe735d346faeec327c1546e13837",
+      "bytes": 322096,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0f0de86-0a89-4014-b3a7-dee0c1a2aa03/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3a231a8556b3f31e8c4d1fb39cfafdb0893bfe8ea75dd6d2d3b1da68469dce4a",
+      "bytes": 374653,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0f0de86-0a89-4014-b3a7-dee0c1a2aa03/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "540caab4735b0b1a55596cebc823a72ca970ed82cf5378d66965ac1f417351d8",
+      "bytes": 401126,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0f0de86-0a89-4014-b3a7-dee0c1a2aa03/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c309201d0269714c8cac24c80ca0335562288e2eafff984732222f1f6610ba66",
+      "bytes": 425574,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0f0de86-0a89-4014-b3a7-dee0c1a2aa03/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b30160708e82eb001e5cd6dddaa15e2efa0a43e48d52466c456ae9f4ef675b01",
+      "bytes": 444466,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0f0de86-0a89-4014-b3a7-dee0c1a2aa03/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "58e7809555ea13898b1d6501229970aaf86a59b89d36b0626d8cb358d3d19dc0",
+      "bytes": 352975,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0f0de86-0a89-4014-b3a7-dee0c1a2aa03/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a50f62c311a609b02639572b32538fd2a52287e55c17180f34ee0447d23d6d2f",
+      "bytes": 395442,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f8ad7e51-719a-4ace-a4df-f9eae589f3bb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4bcdb14b020b9314128622334b2dca95cd2ef8a9475ba0325d37121b8e7acb01",
+      "bytes": 326392,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 583,
+      "folio_label": "fol. 292",
+      "page_id": "f8ad7e51-719a-4ace-a4df-f9eae589f3bb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c85065b8-a35b-48aa-b105-c17031e7c530/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "93a46f57fcd5aaac75e91e509b471598e9b0f0ff133d86b324a9d6310c1e2a26",
+      "bytes": 336342,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 585,
+      "folio_label": "fol. 293",
+      "page_id": "c85065b8-a35b-48aa-b105-c17031e7c530",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

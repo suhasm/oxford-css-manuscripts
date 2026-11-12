@@ -1,0 +1,2249 @@
+{
+  "source_order": 498,
+  "folio_label": "fol. 249b",
+  "page_id": "c78e8e5c-8b25-400c-9fdf-7eae9127e884",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "249b",
+    "principal_page_bbox": [
+      300,
+      250,
+      2900,
+      4610
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          300,
+          145,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "249b",
+        "features": [
+          "top-left corner",
+          "the 'b' is written as a superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          440,
+          580,
+          2390,
+          170
+        ],
+        "kind_hint": "marginal_note_incipit",
+        "anchor": "Begins. Viśeṣyatvaṁ viśeṣaṇaṁ ca dvividhaṁ | … Fol. by / f.2 of a philosophical text.",
+        "features": [
+          "two handwritten lines",
+          "the second line is indented",
+          "unattached to a shelfmark on this page",
+          "likely keyed to the facing-page entry b. 101 by the marginal mark and arrow"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2960,
+          590,
+          140,
+          130
+        ],
+        "kind_hint": "margin_mark",
+        "anchor": "s/ ⇐",
+        "features": [
+          "right margin beside b002",
+          "an arrow points toward the gutter or facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2880,
+          915,
+          80,
+          130
+        ],
+        "kind_hint": "margin_mark",
+        "anchor": "ā/",
+        "features": [
+          "right margin",
+          "isolated"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          385,
+          2620,
+          1860,
+          110
+        ],
+        "kind_hint": "marginal_note_extent_date",
+        "anchor": "ff.1-94 (64-67 bis, n.74). Date is abdhyagnibhūy(?)aiḥ pramite vrajye 'bde.",
+        "features": [
+          "contains '(?)' in the original",
+          "a left-pointing arrow in the right margin links it toward the facing page"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          385,
+          2750,
+          2090,
+          120
+        ],
+        "kind_hint": "marginal_note_extent",
+        "anchor": "ff.1-51, frmc., 1-22 (n.4, many lacunae) inc., 1-5, 1-3, 1-3 in various handwritings",
+        "features": [
+          "a short arrow in the right margin links it toward the facing page"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          420,
+          3420,
+          2720,
+          140
+        ],
+        "kind_hint": "holding_entry",
+        "anchor": "b. 93 (12) Viśvasāra tantra … Baṭu‹ka›bhairavastavarāja, ff.1-3   n.d.: 3:8: Bay",
+        "features": [
+          "shelfmark",
+          "titles",
+          "extent",
+          "date or extent column at right reading 'n.d.: 3:8: Bay'",
+          "an interlinear insertion '‹ka›' is written above with a caret"
+        ]
+      },
+      {
+        "id": "b008",
+        "bbox": [
+          900,
+          3550,
+          1140,
+          90
+        ],
+        "kind_hint": "continuation",
+        "anchor": "preceded by f.1 of text on Śivaliṅgārcana.",
+        "features": [
+          "indented second line of b007"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2790,
+          1195,
+          30,
+          20
+        ],
+        "description": "short horizontal pencil dash in the right area"
+      },
+      {
+        "bbox": [
+          3030,
+          2645,
+          145,
+          40
+        ],
+        "description": "left-pointing arrow beside b005, pointing to the gutter"
+      },
+      {
+        "bbox": [
+          3090,
+          2775,
+          80,
+          40
+        ],
+        "description": "short arrow or tick beside b006"
+      }
+    ],
+    "boundary_notes": [
+      "The strip of the facing page beyond the gutter (x>~3195) shows arrows, ticks, 'b.' and the letters 'd', 'd', 'a'. These belong to fol. 250 and are not transcribed.",
+      "Faint show-through of ruled entries from the reverse side is visible throughout. It is not target text."
+    ],
+    "uncertainties": [
+      "Readings in the anchors are approximate, for example 'abdhyagnibhūy(?)aiḥ', 'frmc.' and 'Bay'.",
+      "Whether b002 continues to a 'Fol. by' line or forms a single note is unclear. It is treated here as one block spanning two lines."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "249b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "249b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner. The 'b' is written raised, as a superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit_and_content_note",
+        "literal_text": "Begins. Viśeṣyatvaṁ viśeṣaṇaṁ ca dvividhaṁ | arthaviśeṣyatvaṁ śabdaviśeṣyatvaṁ | Foll by\nf.2 of a philosophical text.",
+        "fields": {
+          "incipit": "Viśeṣyatvaṁ viśeṣaṇaṁ ca dvividhaṁ | arthaviśeṣyatvaṁ śabdaviśeṣyatvaṁ |"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The second line is indented under the incipit.",
+          "Right-margin mark 's/ ⇐' (b003) beside the first line. The arrow points toward the gutter.",
+          "A matching 's/⇐' and '← ✓b. 101' appear in the left margin of fol. 250 against b. 101 (2?), Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 101 (2?) Viśeṣyaviśeṣaṇa… ff.1-6",
+            "evidence": "Matching 's/ ⇐' mark and an arrow toward the facing page entry on the same line level.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Foll by' is read as an abbreviation, possibly 'Foll. by'. The punctuation is unclear.",
+          "There is a small mark over the final syllable of 'viśeṣaṇaṁ'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "margin_mark",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Isolated right-margin mark.",
+          "A similar 'ā/' mark appears in the left margin of fol. 250 near d. 435 (3)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 435 (3) Viśvaguṇādarśa",
+            "evidence": "A corresponding 'ā/' mark lies at a similar height on the facing page.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The meaning of the mark is unknown."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_date_note",
+        "literal_text": "ff.1-94 (64-67 bis, n.74). Date is abdhyagnibhūy(?)aiḥ pramite vrajye 'bde.",
+        "fields": {
+          "extent": "ff.1-94 (64-67 bis, n.74)",
+          "date": "abdhyagnibhūy(?)aiḥ pramite vrajye 'bde"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The '(?)' is in the original.",
+          "A left-pointing arrow in the right margin points toward the gutter.",
+          "On fol. 250 an arrow and tick stand at d. 202 (8) Viśvaprakāśa kośa."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓ d. 202 (8) Viśvaprakāśakośa. By Maheśvara",
+            "evidence": "An arrow links to the facing-page entry at the same height.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'vrajye' could also be 'vyaye' [reading?].",
+          "'abdhyagnibhūy(?)aiḥ' is an uncertain reading."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_note",
+        "literal_text": "ff.1-51, frmc., 1-22 (n.4, many lacunae) inc., 1-5, 1-3, 1-3 in various handwritings",
+        "fields": {
+          "extent": "ff.1-51, frmc., 1-22 (n.4, many lacunae) inc., 1-5, 1-3, 1-3"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A short arrow in the right margin points toward the gutter.",
+          "On fol. 250 an arrow and tick stand at d. 207 (3), 'with supplements'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓ d. 207 (3) — with supplements",
+            "evidence": "An arrow links to the facing-page entry at the same height.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'frmc.' is an uncertain reading and abbreviation.",
+          "The final mark after 'handwritings' may be punctuation."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b007",
+          "b008"
+        ],
+        "type": "holding",
+        "subtype": "multi_text_manuscript",
+        "literal_text": "b. 93 (12) Viśvasāratantra Āpaduddhārakalpa, Baṭu‹ka›bhairavastavarāja, ff.1-3      n.d.: 3:8: Bay\npreceded by f.1 of text on Śivaliṅgārcana.",
+        "fields": {
+          "shelfmark": "b. 93 (12)",
+          "title": "Viśvasāratantra Āpaduddhārakalpa, Baṭu‹ka›bhairavastavarāja",
+          "extent": "ff.1-3",
+          "date": "n.d.",
+          "script": "Bay"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'‹ka›' is written above the line with a caret after 'Baṭu'.",
+          "The second line is indented.",
+          "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted.",
+          "Fol. 250 has '3:8: Bay' visible at its left edge and an arrow at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Viśvasāra Tantra. ext. … Vaṭukabhairavastavarāja",
+            "evidence": "A margin arrow on fol. 250 sits at the Viśvasāra Tantra extracts list.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Bay' is an uncertain reading of the script column.",
+          "It is uncertain whether 'Viśvasāratantra Āpaduddhārakalpa' is one title or a source plus title."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2790,
+          1195,
+          30,
+          20
+        ],
+        "kind_hint": "margin_mark",
+        "anchor": "short horizontal pencil dash",
+        "features": [
+          "isolated",
+          "no text"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Incipit note keyed to fol. 250."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Linking margin mark for b002."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Isolated margin mark."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Extent and date note keyed by arrow to the facing page."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Extent note keyed by arrow to the facing page."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Holding entry."
+      },
+      {
+        "block_id": "b008",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Indented second line of b007."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [],
+        "explanation": "Non-text pencil dash with no attachment; recorded as a page annotation."
+      }
+    ],
+    "page_annotations": [
+      "Short pencil dash at about [2790,1195]; meaning unknown.",
+      "Faint show-through of ruled entries from the reverse side is not target text.",
+      "Facing-page marks beyond the gutter (x>~3195) belong to fol. 250 and are not transcribed."
+    ],
+    "unresolved_relationships": [
+      "The attachments of r002, r004 and r005 to specific fol. 250 entries rest on arrows and marks only (probable).",
+      "The significance of the 'ā/' mark (r003) is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio label '249' with a raised 'b' at top left. The candidate's reading is correct."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Two-line incipit note. The second line, 'f.2 of a philosophical text.', is indented. The literal reading is acceptable. A small superscript mark resembling '2' stands over the end of 'viśeṣaṇaṁ'. The candidate notes this mark."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Right-margin mark 's/ ⇐', with a long slash. There may be a dot under the 's'. The candidate's claim that a separate matching mark appears on fol. 250 is wrong. The 's/⇐' at the left edge of the fol. 250 image is this page's own mark seen in the overlap."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Isolated 'ā/' in the right margin. The 'ā/' at the left edge of the fol. 250 image is this same mark, not a corresponding mark on fol. 250. Its height is level with the d. 435 (3) row."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Extent and date note. The left-pointing arrow near x≈3030–3175 is included. The reading 'vrajye' is doubtful, and the letter shapes look closer to 'vyaye'. This is kept uncertain."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Extent note with a short arrow or tick near the gutter. 'frmc.' remains doubtful."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "Holding entry b. 93 (12). The interlinear '‹ka›' is written in angle brackets above the line, with a caret below. The right column reads 'n.d.: 3:8: Bay'. The punctuation after 'n.d' and after '8' is unclear and could be ':' or '!'."
+      },
+      {
+        "block_id": "b008",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "Indented second line of b007, 'preceded by f.1 of text on Śivaliṅgārcana.' It is correctly grouped with b007."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Short pencil dash at about [2790,1195]. It carries no text and is recorded only as a page annotation, which is appropriate."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "The second line is indented under the incipit.",
+          "Right-margin mark 's/ ⇐' (b003) beside the first line. The arrow points toward the gutter.",
+          "A matching 's/⇐' and '← ✓b. 101' appear in the left margin of fol. 250 against b. 101 (2?), Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya."
+        ],
+        "after": [
+          "The second line is indented under the incipit.",
+          "Right-margin mark 's/ ⇐' (b003) beside the first line. The arrow points toward the gutter.",
+          "The 's/⇐' visible at the left edge of the fol. 250 image is this page's own b003 mark seen in the overlap, not a second matching mark. Fol. 250 itself has '← ✓b. 101' in its left margin at the same height, against b. 101 (2?) Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya."
+        ],
+        "reason": "The adjacent fol. 250 image includes a strip of fol. 249b at its left edge. The 's/⇐' there is the same mark, not an independent one.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 101 (2?) Viśeṣyaviśeṣaṇa… ff.1-6",
+            "evidence": "Matching 's/ ⇐' mark and an arrow toward the facing page entry on the same line level.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 101 (2?) Viśeṣyaviśeṣaṇa… ff.1-6",
+            "evidence": "The 's/ ⇐' mark on this page points toward the gutter. A '←' and a tick stand at b. 101 on fol. 250 at the same line level.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "Corrects the evidence description. The mark is not duplicated on fol. 250.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Isolated right-margin mark.",
+          "A similar 'ā/' mark appears in the left margin of fol. 250 near d. 435 (3)."
+        ],
+        "after": [
+          "Isolated right-margin mark.",
+          "The 'ā/' visible at the left edge of the fol. 250 image is this same mark seen in the overlap. It lies at about the height of the fol. 250 row d. 435 (3). No arrow connects it to that row."
+        ],
+        "reason": "The adjacent-image strip shows this page, not a separate mark on fol. 250.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 435 (3) Viśvaguṇādarśa",
+            "evidence": "A corresponding 'ā/' mark lies at a similar height on the facing page.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 499,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 435 (3) Viśvaguṇādarśa",
+            "evidence": "Height alignment only. The mark lies level with the d. 435 (3) row on fol. 250. There is no arrow and no matching mark.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The stated evidence was false, so it is corrected. The relationship itself stays uncertain.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r006",
+        "field_path": "annotations",
+        "before": [
+          "'‹ka›' is written above the line with a caret after 'Baṭu'.",
+          "The second line is indented.",
+          "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted.",
+          "Fol. 250 has '3:8: Bay' visible at its left edge and an arrow at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja."
+        ],
+        "after": [
+          "'‹ka›' is written above the line, angle brackets included, with a caret after 'Baṭu'.",
+          "The second line is indented.",
+          "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted, and the punctuation marks after 'n.d' and '8' (':' or '!') are unclear.",
+          "The '3:8: Bay' at the left edge of the fol. 250 image is this page's own text seen in the overlap. Fol. 250 has an arrow '←' at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja."
+        ],
+        "reason": "Clarifies that the overlap strip is not fol. 250 content. Also records that the angle brackets are written in the source and that the punctuation is ambiguous.",
+        "source_block_ids": [
+          "b007"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The written word before ''bde' may be 'vyaye' rather than 'vrajye'. 'abdhyagnibhūy(?)aiḥ' is also uncertain.",
+        "next_check": "Compare this hand's 'r' and 'y' forms at higher magnification."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The reading and abbreviation of 'frmc.' are uncertain. It might be read 'fr. inc.' or similar.",
+        "next_check": "Compare with other extent notes in the same hand."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The margin mark may be 'ṣ/', with a dot under the s, rather than 's/'.",
+        "next_check": "Inspect the mark at high zoom."
+      },
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b007"
+        ],
+        "issue": "It is unclear whether 'Viśvasāratantra' is written as one word or hyphenated. Its relation to 'Āpaduddhārakalpa' is also unclear.",
+        "next_check": "Inspect letter joins at native resolution."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3195. Beyond it the strip of fol. 250 shows '← ✓b.', 'd', 'd', 'a', dashes and ticks at y≈2670 and 2790, and an arrow-like mark near y≈3470. All belong to fol. 250 and are not transcribed here. Conversely, the left edge of the fol. 250 image shows this page's 's/⇐', 'ā/', arrows and '3:8: Bay'. These are not independent fol. 250 marks. Show-through from the reverse side is not target text.",
+    "region_review": {
+      "top": "Folio label 249b and the b002 incipit lines.",
+      "middle": "Mostly blank ruled lines with show-through. Contains the ā/ mark, the pencil dash, and the b005 and b006 notes with their arrows.",
+      "bottom": "The b007 and b008 entry. Below it, only show-through is visible and no further writing is seen.",
+      "left_margin": "No writing beyond the folio label.",
+      "right_margin": "Contains 's/ ⇐', 'ā/', the dash and the arrows at b005 and b006.",
+      "interlinear": "'‹ka›' with caret in b007, and a small superscript mark over 'viśeṣaṇaṁ' in b002."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        300,
+        145,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "249b",
+      "features": [
+        "top-left corner",
+        "the 'b' is written as a superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        440,
+        580,
+        2390,
+        170
+      ],
+      "kind_hint": "marginal_note_incipit",
+      "anchor": "Begins. Viśeṣyatvaṁ viśeṣaṇaṁ ca dvividhaṁ | … Fol. by / f.2 of a philosophical text.",
+      "features": [
+        "two handwritten lines",
+        "the second line is indented",
+        "unattached to a shelfmark on this page",
+        "likely keyed to the facing-page entry b. 101 by the marginal mark and arrow"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2960,
+        590,
+        140,
+        130
+      ],
+      "kind_hint": "margin_mark",
+      "anchor": "s/ ⇐",
+      "features": [
+        "right margin beside b002",
+        "an arrow points toward the gutter or facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2880,
+        915,
+        80,
+        130
+      ],
+      "kind_hint": "margin_mark",
+      "anchor": "ā/",
+      "features": [
+        "right margin",
+        "isolated"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        385,
+        2620,
+        1860,
+        110
+      ],
+      "kind_hint": "marginal_note_extent_date",
+      "anchor": "ff.1-94 (64-67 bis, n.74). Date is abdhyagnibhūy(?)aiḥ pramite vrajye 'bde.",
+      "features": [
+        "contains '(?)' in the original",
+        "a left-pointing arrow in the right margin links it toward the facing page"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        385,
+        2750,
+        2090,
+        120
+      ],
+      "kind_hint": "marginal_note_extent",
+      "anchor": "ff.1-51, frmc., 1-22 (n.4, many lacunae) inc., 1-5, 1-3, 1-3 in various handwritings",
+      "features": [
+        "a short arrow in the right margin links it toward the facing page"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        420,
+        3420,
+        2720,
+        140
+      ],
+      "kind_hint": "holding_entry",
+      "anchor": "b. 93 (12) Viśvasāra tantra … Baṭu‹ka›bhairavastavarāja, ff.1-3   n.d.: 3:8: Bay",
+      "features": [
+        "shelfmark",
+        "titles",
+        "extent",
+        "date or extent column at right reading 'n.d.: 3:8: Bay'",
+        "an interlinear insertion '‹ka›' is written above with a caret"
+      ]
+    },
+    {
+      "id": "b008",
+      "bbox": [
+        900,
+        3550,
+        1140,
+        90
+      ],
+      "kind_hint": "continuation",
+      "anchor": "preceded by f.1 of text on Śivaliṅgārcana.",
+      "features": [
+        "indented second line of b007"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2790,
+        1195,
+        30,
+        20
+      ],
+      "kind_hint": "margin_mark",
+      "anchor": "short horizontal pencil dash",
+      "features": [
+        "isolated",
+        "no text"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "249b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner. The 'b' is written raised, as a superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0498-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit_and_content_note",
+      "literal_text": "Begins. Viśeṣyatvaṁ viśeṣaṇaṁ ca dvividhaṁ | arthaviśeṣyatvaṁ śabdaviśeṣyatvaṁ | Foll by\nf.2 of a philosophical text.",
+      "fields": {
+        "incipit": "Viśeṣyatvaṁ viśeṣaṇaṁ ca dvividhaṁ | arthaviśeṣyatvaṁ śabdaviśeṣyatvaṁ |"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The second line is indented under the incipit.",
+        "Right-margin mark 's/ ⇐' (b003) beside the first line. The arrow points toward the gutter.",
+        "The 's/⇐' visible at the left edge of the fol. 250 image is this page's own b003 mark seen in the overlap, not a second matching mark. Fol. 250 itself has '← ✓b. 101' in its left margin at the same height, against b. 101 (2?) Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 101 (2?) Viśeṣyaviśeṣaṇa… ff.1-6",
+          "evidence": "The 's/ ⇐' mark on this page points toward the gutter. A '←' and a tick stand at b. 101 on fol. 250 at the same line level.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Foll by' is read as an abbreviation, possibly 'Foll. by'. The punctuation is unclear.",
+        "There is a small mark over the final syllable of 'viśeṣaṇaṁ'."
+      ],
+      "stable_id": "css-prod-0498-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "margin_mark",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Isolated right-margin mark.",
+        "The 'ā/' visible at the left edge of the fol. 250 image is this same mark seen in the overlap. It lies at about the height of the fol. 250 row d. 435 (3). No arrow connects it to that row."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 435 (3) Viśvaguṇādarśa",
+          "evidence": "Height alignment only. The mark lies level with the d. 435 (3) row on fol. 250. There is no arrow and no matching mark.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The meaning of the mark is unknown."
+      ],
+      "stable_id": "css-prod-0498-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_date_note",
+      "literal_text": "ff.1-94 (64-67 bis, n.74). Date is abdhyagnibhūy(?)aiḥ pramite vrajye 'bde.",
+      "fields": {
+        "extent": "ff.1-94 (64-67 bis, n.74)",
+        "date": "abdhyagnibhūy(?)aiḥ pramite vrajye 'bde"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The '(?)' is in the original.",
+        "A left-pointing arrow in the right margin points toward the gutter.",
+        "On fol. 250 an arrow and tick stand at d. 202 (8) Viśvaprakāśa kośa."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓ d. 202 (8) Viśvaprakāśakośa. By Maheśvara",
+          "evidence": "An arrow links to the facing-page entry at the same height.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'vrajye' could also be 'vyaye' [reading?].",
+        "'abdhyagnibhūy(?)aiḥ' is an uncertain reading."
+      ],
+      "stable_id": "css-prod-0498-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_note",
+      "literal_text": "ff.1-51, frmc., 1-22 (n.4, many lacunae) inc., 1-5, 1-3, 1-3 in various handwritings",
+      "fields": {
+        "extent": "ff.1-51, frmc., 1-22 (n.4, many lacunae) inc., 1-5, 1-3, 1-3"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A short arrow in the right margin points toward the gutter.",
+        "On fol. 250 an arrow and tick stand at d. 207 (3), 'with supplements'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓ d. 207 (3) — with supplements",
+          "evidence": "An arrow links to the facing-page entry at the same height.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'frmc.' is an uncertain reading and abbreviation.",
+        "The final mark after 'handwritings' may be punctuation."
+      ],
+      "stable_id": "css-prod-0498-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b007",
+        "b008"
+      ],
+      "type": "holding",
+      "subtype": "multi_text_manuscript",
+      "literal_text": "b. 93 (12) Viśvasāratantra Āpaduddhārakalpa, Baṭu‹ka›bhairavastavarāja, ff.1-3      n.d.: 3:8: Bay\npreceded by f.1 of text on Śivaliṅgārcana.",
+      "fields": {
+        "shelfmark": "b. 93 (12)",
+        "title": "Viśvasāratantra Āpaduddhārakalpa, Baṭu‹ka›bhairavastavarāja",
+        "extent": "ff.1-3",
+        "date": "n.d.",
+        "script": "Bay"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'‹ka›' is written above the line with a caret after 'Baṭu'.",
+        "The second line is indented.",
+        "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted.",
+        "Fol. 250 has '3:8: Bay' visible at its left edge and an arrow at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Viśvasāra Tantra. ext. … Vaṭukabhairavastavarāja",
+          "evidence": "A margin arrow on fol. 250 sits at the Viśvasāra Tantra extracts list.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Bay' is an uncertain reading of the script column.",
+        "It is uncertain whether 'Viśvasāratantra Āpaduddhārakalpa' is one title or a source plus title."
+      ],
+      "stable_id": "css-prod-0498-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9901",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "margin_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A short isolated horizontal pencil dash in the right part of the page, below the 'ā/' mark. It is not a word, and no text or arrow is attached to it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The purpose of the dash and whether it is intentional are unknown."
+      ],
+      "stable_id": "css-prod-0498-r9901",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "The second line is indented under the incipit.",
+        "Right-margin mark 's/ ⇐' (b003) beside the first line. The arrow points toward the gutter.",
+        "A matching 's/⇐' and '← ✓b. 101' appear in the left margin of fol. 250 against b. 101 (2?), Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya."
+      ],
+      "after": [
+        "The second line is indented under the incipit.",
+        "Right-margin mark 's/ ⇐' (b003) beside the first line. The arrow points toward the gutter.",
+        "The 's/⇐' visible at the left edge of the fol. 250 image is this page's own b003 mark seen in the overlap, not a second matching mark. Fol. 250 itself has '← ✓b. 101' in its left margin at the same height, against b. 101 (2?) Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya."
+      ],
+      "reason": "The adjacent fol. 250 image includes a strip of fol. 249b at its left edge. The 's/⇐' there is the same mark, not an independent one.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 101 (2?) Viśeṣyaviśeṣaṇa… ff.1-6",
+          "evidence": "Matching 's/ ⇐' mark and an arrow toward the facing page entry on the same line level.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 101 (2?) Viśeṣyaviśeṣaṇa… ff.1-6",
+          "evidence": "The 's/ ⇐' mark on this page points toward the gutter. A '←' and a tick stand at b. 101 on fol. 250 at the same line level.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Corrects the evidence description. The mark is not duplicated on fol. 250.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Isolated right-margin mark.",
+        "A similar 'ā/' mark appears in the left margin of fol. 250 near d. 435 (3)."
+      ],
+      "after": [
+        "Isolated right-margin mark.",
+        "The 'ā/' visible at the left edge of the fol. 250 image is this same mark seen in the overlap. It lies at about the height of the fol. 250 row d. 435 (3). No arrow connects it to that row."
+      ],
+      "reason": "The adjacent-image strip shows this page, not a separate mark on fol. 250.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 435 (3) Viśvaguṇādarśa",
+          "evidence": "A corresponding 'ā/' mark lies at a similar height on the facing page.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 499,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 435 (3) Viśvaguṇādarśa",
+          "evidence": "Height alignment only. The mark lies level with the d. 435 (3) row on fol. 250. There is no arrow and no matching mark.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The stated evidence was false, so it is corrected. The relationship itself stays uncertain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "annotations",
+      "before": [
+        "'‹ka›' is written above the line with a caret after 'Baṭu'.",
+        "The second line is indented.",
+        "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted.",
+        "Fol. 250 has '3:8: Bay' visible at its left edge and an arrow at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja."
+      ],
+      "after": [
+        "'‹ka›' is written above the line, angle brackets included, with a caret after 'Baṭu'.",
+        "The second line is indented.",
+        "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted, and the punctuation marks after 'n.d' and '8' (':' or '!') are unclear.",
+        "The '3:8: Bay' at the left edge of the fol. 250 image is this page's own text seen in the overlap. Fol. 250 has an arrow '←' at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja."
+      ],
+      "reason": "Clarifies that the overlap strip is not fol. 250 content. Also records that the angle brackets are written in the source and that the punctuation is ambiguous.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "ff.1-94 (64-67 bis, n.74). Date is abdhyagnibhūy(?)aiḥ pramite vrajye 'bde.",
+      "after": "ff.1-94 (64-67 bis, n.74). Date is abdhyagnibhūy(?)aiḥ pramite vyaye 'bde.",
+      "reason": "The native image shows 'vyaye'. No letters for 'vrajye' are visible.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0498-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "fields.date",
+      "before": "abdhyagnibhūy(?)aiḥ pramite vrajye 'bde",
+      "after": "abdhyagnibhūy(?)aiḥ pramite vyaye 'bde",
+      "reason": "Keeps the field consistent with the literal reading.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0498-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "'vrajye' could also be 'vyaye' [reading?].",
+        "'abdhyagnibhūy(?)aiḥ' is an uncertain reading."
+      ],
+      "after": [
+        "'vyaye' is a probable reading. The earlier alternative 'vrajye' is not supported by visible letter forms, but the cursive is not fully secure.",
+        "'abdhyagnibhūy(?)aiḥ' is an uncertain reading. The '(?)' is in the original, and the letters 'gni'/'bhū' are cramped."
+      ],
+      "reason": "Documents the fresh reading while keeping the doubt.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0498-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "The second line is indented under the incipit.",
+        "Right-margin mark 's/ ⇐' (b003) beside the first line. The arrow points toward the gutter.",
+        "The 's/⇐' visible at the left edge of the fol. 250 image is this page's own b003 mark seen in the overlap, not a second matching mark. Fol. 250 itself has '← ✓b. 101' in its left margin at the same height, against b. 101 (2?) Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya."
+      ],
+      "after": [
+        "The second line is indented under the incipit.",
+        "Right-margin mark (b003) beside the first line, probably 'ṣ/ ⇐': there is a dot below the 's'. The arrow points toward the gutter.",
+        "The mark visible at the left edge of the fol. 250 image is this page's own b003 mark seen in the overlap, not a second matching mark. Fol. 250 itself has '← ✓b. 101' in its left margin at the same height, against b. 101 (2?) Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya.",
+        "A small superscript curl (resembling '2') stands over the final syllable of 'viśeṣaṇaṁ'."
+      ],
+      "reason": "The native tile shows a dot under the s, and the curl over 'viśeṣaṇaṁ' is described.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0498-focus.parsed.json"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "annotations",
+      "before": [
+        "'‹ka›' is written above the line with a caret after 'Baṭu'.",
+        "The second line is indented.",
+        "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted.",
+        "Fol. 250 has '3:8: Bay' visible at its left edge and an arrow at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja."
+      ],
+      "after": [
+        "'‹ka›' is written above the line, angle brackets included, with a caret after 'Baṭu'.",
+        "The second line is indented.",
+        "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted, and the punctuation marks after 'n.d' and '8' (':' or '!') are unclear.",
+        "The '3:8: Bay' at the left edge of the fol. 250 image is this page's own text seen in the overlap. Fol. 250 has an arrow '←' at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja.",
+        "'Viśvasāra' and 'tantra' are joined by a connecting pen stroke. No clear hyphen or space is visible, and there is no punctuation before 'Āpaduddhārakalpa'."
+      ],
+      "reason": "Applies the verified proposal and records the source evidence on word division.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0498-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [
+    {
+      "record_id": "r9901",
+      "stage": "focus",
+      "focused_check_file": "0498-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record for an existing unrepresented source block; original geometry retained"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b901"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [],
+      "id": "focus-0498-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The margin mark may be 'ṣ/', with a dot under the s, rather than 's/'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0498-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The written word before ''bde' may be 'vyaye' rather than 'vrajye'. 'abdhyagnibhūy(?)aiḥ' is also uncertain.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0498-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The reading and abbreviation of 'frmc.' are uncertain. It might be read 'fr. inc.' or similar.",
+      "block_ids": [
+        "b006"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0498-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is unclear whether 'Viśvasāratantra' is written as one word or hyphenated. Its relation to 'Āpaduddhārakalpa' is also unclear.",
+      "block_ids": [
+        "b007"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0498-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Clarifies that the overlap strip is not fol. 250 content. Also records that the angle brackets are written in the source and that the punctuation is ambiguous. Proposed annotations: [\"'‹ka›' is written above the line, angle brackets included, with a caret after 'Baṭu'.\", \"The second line is indented.\", \"The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted, and the punctuation marks after 'n.d' and '8' (':' or '!') are unclear.\", \"The '3:8: Bay' at the left edge of the fol. 250 image is this page's own text seen in the overlap. Fol. 250 has an arrow '←' at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja.\"]",
+      "block_ids": [
+        "b007"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0498-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'Foll by' is read as an abbreviation, possibly 'Foll. by'. The punctuation is unclear.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0498-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "There is a small mark over the final syllable of 'viśeṣaṇaṁ'.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0498-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The meaning of the mark is unknown.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0498-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'vrajye' could also be 'vyaye' [reading?].",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0498-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0498-01",
+        "focus-0498-02",
+        "focus-0498-03",
+        "focus-0498-04",
+        "focus-0498-05",
+        "focus-0498-06",
+        "focus-0498-07",
+        "focus-0498-08",
+        "focus-0498-09",
+        "focus-0498-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0498-01",
+          "source_reading": "[no text] short horizontal pencil dash",
+          "certainty": "secure",
+          "evidence": "In the native tile at offset 1604,0, a short grey horizontal stroke lies at about x 1190-1215, y 1205. This is canvas x about 2794-2819, y about 1205. Nothing is written near it."
+        },
+        {
+          "issue_id": "focus-0498-02",
+          "source_reading": "ṣ/ ⇐",
+          "certainty": "probable",
+          "evidence": "In the native tile, a small dot sits directly below the 's' of the margin mark at about canvas 2977,660. The dot is separate from the slash, so the mark reads 'ṣ/'."
+        },
+        {
+          "issue_id": "focus-0498-03",
+          "source_reading": "abdhyagnibhūy(?)aiḥ pramite vyaye 'bde.",
+          "certainty": "probable",
+          "evidence": "The word before ''bde' shows v-y-a-y-e. No r-loop or j-descender for 'vrajye' is visible. In 'abdhyagnibhūy(?)aiḥ', the '(?)' is written and there is a dot below the final h. The letters 'gni' and 'bhū' are cramped."
+        },
+        {
+          "issue_id": "focus-0498-04",
+          "source_reading": "frmc. [reading?]",
+          "certainty": "uncertain",
+          "evidence": "The word after 'ff.1-51,' is written as one cursive word ending in 'c.'. No dot or break separates 'fr' from the rest, and no i-dot is visible. Compare 'inc.' later in the same line. A reading 'fr. inc.' is not supported by any visible stop, but cannot be excluded."
+        },
+        {
+          "issue_id": "focus-0498-05",
+          "source_reading": "Viśvasāratantra Āpaduddhārakalpa,",
+          "certainty": "uncertain",
+          "evidence": "A connecting stroke runs from 'sāra' into 'tantra', with no clear hyphen and no space. There is no punctuation between 'tantra' and 'Āpaduddhārakalpa'. A comma follows 'kalpa'."
+        },
+        {
+          "issue_id": "focus-0498-06",
+          "source_reading": "n.d: 3:8! Bay",
+          "certainty": "uncertain",
+          "evidence": "The right column reads 'n.d' followed by a colon-like mark, then '3:8', then a mark with a vertical stroke above a dot (a '!' or a slanted ':'), then 'Bay'. '‹ka›' is written above the line with angle brackets and a caret. The '3:8! Bay' at the left edge of the fol. 250 image is this page's own text."
+        },
+        {
+          "issue_id": "focus-0498-07",
+          "source_reading": "Foll by",
+          "certainty": "probable",
+          "evidence": "No full stop is visible after 'Foll'. The words are 'F-ll' and 'by'."
+        },
+        {
+          "issue_id": "focus-0498-08",
+          "source_reading": "viśeṣaṇaṁ (with a small superscript mark resembling '2' or a curl over the final syllable)",
+          "certainty": "uncertain",
+          "evidence": "Native tile 1: a small curl sits above the last letters of the word, at about x 1105, y 615."
+        },
+        {
+          "issue_id": "focus-0498-09",
+          "source_reading": "ā/",
+          "certainty": "secure",
+          "evidence": "A macron over 'a' with a long slash. Its meaning is not stated on the page."
+        },
+        {
+          "issue_id": "focus-0498-10",
+          "source_reading": "vyaye",
+          "certainty": "probable",
+          "evidence": "Same reading as focus-0498-03."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r004",
+          "field_path": "literal_text",
+          "before": "ff.1-94 (64-67 bis, n.74). Date is abdhyagnibhūy(?)aiḥ pramite vrajye 'bde.",
+          "after": "ff.1-94 (64-67 bis, n.74). Date is abdhyagnibhūy(?)aiḥ pramite vyaye 'bde.",
+          "reason": "The native image shows 'vyaye'. No letters for 'vrajye' are visible.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "fields.date",
+          "before": "abdhyagnibhūy(?)aiḥ pramite vrajye 'bde",
+          "after": "abdhyagnibhūy(?)aiḥ pramite vyaye 'bde",
+          "reason": "Keeps the field consistent with the literal reading.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "uncertainties",
+          "before": [
+            "'vrajye' could also be 'vyaye' [reading?].",
+            "'abdhyagnibhūy(?)aiḥ' is an uncertain reading."
+          ],
+          "after": [
+            "'vyaye' is a probable reading. The earlier alternative 'vrajye' is not supported by visible letter forms, but the cursive is not fully secure.",
+            "'abdhyagnibhūy(?)aiḥ' is an uncertain reading. The '(?)' is in the original, and the letters 'gni'/'bhū' are cramped."
+          ],
+          "reason": "Documents the fresh reading while keeping the doubt.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "The second line is indented under the incipit.",
+            "Right-margin mark 's/ ⇐' (b003) beside the first line. The arrow points toward the gutter.",
+            "The 's/⇐' visible at the left edge of the fol. 250 image is this page's own b003 mark seen in the overlap, not a second matching mark. Fol. 250 itself has '← ✓b. 101' in its left margin at the same height, against b. 101 (2?) Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya."
+          ],
+          "after": [
+            "The second line is indented under the incipit.",
+            "Right-margin mark (b003) beside the first line, probably 'ṣ/ ⇐': there is a dot below the 's'. The arrow points toward the gutter.",
+            "The mark visible at the left edge of the fol. 250 image is this page's own b003 mark seen in the overlap, not a second matching mark. Fol. 250 itself has '← ✓b. 101' in its left margin at the same height, against b. 101 (2?) Viśeṣyaviśeṣaṇa…, ff.1-6, nyāya.",
+            "A small superscript curl (resembling '2') stands over the final syllable of 'viśeṣaṇaṁ'."
+          ],
+          "reason": "The native tile shows a dot under the s, and the curl over 'viśeṣaṇaṁ' is described.",
+          "source_block_ids": [
+            "b002",
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r006",
+          "field_path": "annotations",
+          "before": [
+            "'‹ka›' is written above the line with a caret after 'Baṭu'.",
+            "The second line is indented.",
+            "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted.",
+            "Fol. 250 has '3:8: Bay' visible at its left edge and an arrow at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja."
+          ],
+          "after": [
+            "'‹ka›' is written above the line, angle brackets included, with a caret after 'Baṭu'.",
+            "The second line is indented.",
+            "The right-column entry 'n.d.: 3:8: Bay' is kept literally. The middle numbers are not interpreted, and the punctuation marks after 'n.d' and '8' (':' or '!') are unclear.",
+            "The '3:8: Bay' at the left edge of the fol. 250 image is this page's own text seen in the overlap. Fol. 250 has an arrow '←' at the 'Viśvasāra Tantra. ext.' cross-reference list, which includes Vaṭukabhairavastavarāja.",
+            "'Viśvasāra' and 'tantra' are joined by a connecting pen stroke. No clear hyphen or space is visible, and there is no punctuation before 'Āpaduddhārakalpa'."
+          ],
+          "reason": "Applies the verified proposal and records the source evidence on word division.",
+          "source_block_ids": [
+            "b007"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b901",
+            "bbox": [
+              2790,
+              1195,
+              30,
+              20
+            ],
+            "kind_hint": "margin_mark",
+            "anchor": "short horizontal pencil dash",
+            "features": [
+              "isolated",
+              "no text"
+            ]
+          },
+          "record": {
+            "id": "r9901",
+            "block_ids": [
+              "b901"
+            ],
+            "type": "unattached_annotation",
+            "subtype": "margin_mark",
+            "literal_text": "",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A short isolated horizontal pencil dash in the right part of the page, below the 'ā/' mark. It is not a word, and no text or arrow is attached to it."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "The purpose of the dash and whether it is intentional are unknown."
+            ],
+            "stable_id": "css-prod-0498-r9901",
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "A visible pencil dash at canvas about 2794,1205 is not represented in the record index."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 249b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Incipit lines."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Margin mark, probably ṣ/ ⇐."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "ā/ mark."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Extent and date note."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Extent note."
+        },
+        {
+          "block_id": "b007",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "b. 93 (12) entry."
+        },
+        {
+          "block_id": "b008",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "Indented second line."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r9901"
+          ],
+          "finding": "Pencil dash added as a non-text mark."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0498-04",
+          "record_id": "r005",
+          "block_ids": [
+            "b006"
+          ],
+          "issue": "The reading and abbreviation of 'frmc.' are unresolved.",
+          "next_check": "Compare the same hand's abbreviations elsewhere in the catalogue."
+        },
+        {
+          "issue_id": "focus-0498-05",
+          "record_id": "r006",
+          "block_ids": [
+            "b007"
+          ],
+          "issue": "It is unclear whether Viśvasāratantra is a source or part of a single title with Āpaduddhārakalpa.",
+          "next_check": "Compare with the fol. 250 Viśvasāra Tantra cross-reference list."
+        },
+        {
+          "issue_id": "focus-0498-06",
+          "record_id": "r006",
+          "block_ids": [
+            "b007"
+          ],
+          "issue": "The punctuation in 'n.d: 3:8! Bay' (':' or '!') and the reading 'Bay' remain uncertain.",
+          "next_check": "Compare with the date-column conventions on adjacent pages."
+        },
+        {
+          "issue_id": "focus-0498-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The nature of the superscript curl over 'viśeṣaṇaṁ' is unknown.",
+          "next_check": "Inspect at higher magnification."
+        },
+        {
+          "issue_id": "focus-0498-09",
+          "record_id": "r003",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The meaning and attachment of the 'ā/' mark are unknown.",
+          "next_check": "Compare with similar 'ā/' marks on fol. 249."
+        },
+        {
+          "issue_id": "focus-0498-03",
+          "record_id": "r004",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "'vyaye' is probable, not secure. The reading 'abdhyagnibhūy(?)aiḥ' is uncertain.",
+          "next_check": "Inspect at higher magnification."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "cbef47a172062fecaf9696db3e0dc4f4fbe0260feeba15c0aebb0c0cf75b578e",
+      "bytes": 270739,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "45bf6fdcb2bbc57ae2a62e8f71287c5a96e81d74791d80d7517df4003a6716a0",
+      "bytes": 317039,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f1a8b2cf642935ab80f80efd4c6db7a3a05147a626f438f4fe10cb2014a47bea",
+      "bytes": 308955,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b4b24c966a4688ad288335406219e8d5685a1a3a1f3eeac72a61335d906b456c",
+      "bytes": 337482,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c1f042bf47930995b1e5c75f3f0e5f174e8234b984fdbb7cab46624b5583061e",
+      "bytes": 294256,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "968fa1b33238f2df71131fa27c8325e5f2129ee458e7954e20b32ae2c6d667b2",
+      "bytes": 322661,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9be8c18dd8cd742d336092ab2836ccb859e5269f6a79fe4fff5c1106a844fc84",
+      "bytes": 319990,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/01a9a5b2-bcff-4e06-b304-4756764fef11/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "dcc4a4688dc72f0d30a817877ae1a39f0b669ee36ae380de96524f2ffd40a037",
+      "bytes": 251039,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 497,
+      "folio_label": "fol. 249",
+      "page_id": "01a9a5b2-bcff-4e06-b304-4756764fef11",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c77c3a71-a13f-4b87-8ef5-d6236397d95d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "033ded76afc34c3c0256f646e6a4e6de12d16506aefc93c55c4ff6b71165f582",
+      "bytes": 216348,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 499,
+      "folio_label": "fol. 250",
+      "page_id": "c77c3a71-a13f-4b87-8ef5-d6236397d95d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c77c3a71-a13f-4b87-8ef5-d6236397d95d/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9c7a87734546cd760bf39d85a3e8b095324d2b298a01df2b3467ccbd5d1d0fbc",
+      "bytes": 337658,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 499,
+      "folio_label": "fol. 250",
+      "page_id": "c77c3a71-a13f-4b87-8ef5-d6236397d95d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c77c3a71-a13f-4b87-8ef5-d6236397d95d/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "07716ee29cbccb42b7454ac62f1c32ae991221fda621c5e938dfd45a5b14364f",
+      "bytes": 397237,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 499,
+      "folio_label": "fol. 250",
+      "page_id": "c77c3a71-a13f-4b87-8ef5-d6236397d95d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c78e8e5c-8b25-400c-9fdf-7eae9127e884.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "cbef47a172062fecaf9696db3e0dc4f4fbe0260feeba15c0aebb0c0cf75b578e",
+      "bytes": 270739,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "45bf6fdcb2bbc57ae2a62e8f71287c5a96e81d74791d80d7517df4003a6716a0",
+      "bytes": 317039,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f1a8b2cf642935ab80f80efd4c6db7a3a05147a626f438f4fe10cb2014a47bea",
+      "bytes": 308955,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b4b24c966a4688ad288335406219e8d5685a1a3a1f3eeac72a61335d906b456c",
+      "bytes": 337482,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c1f042bf47930995b1e5c75f3f0e5f174e8234b984fdbb7cab46624b5583061e",
+      "bytes": 294256,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "968fa1b33238f2df71131fa27c8325e5f2129ee458e7954e20b32ae2c6d667b2",
+      "bytes": 322661,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c78e8e5c-8b25-400c-9fdf-7eae9127e884/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9be8c18dd8cd742d336092ab2836ccb859e5269f6a79fe4fff5c1106a844fc84",
+      "bytes": 319990,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/01a9a5b2-bcff-4e06-b304-4756764fef11/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "dcc4a4688dc72f0d30a817877ae1a39f0b669ee36ae380de96524f2ffd40a037",
+      "bytes": 251039,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 497,
+      "folio_label": "fol. 249",
+      "page_id": "01a9a5b2-bcff-4e06-b304-4756764fef11",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c77c3a71-a13f-4b87-8ef5-d6236397d95d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "033ded76afc34c3c0256f646e6a4e6de12d16506aefc93c55c4ff6b71165f582",
+      "bytes": 216348,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 499,
+      "folio_label": "fol. 250",
+      "page_id": "c77c3a71-a13f-4b87-8ef5-d6236397d95d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

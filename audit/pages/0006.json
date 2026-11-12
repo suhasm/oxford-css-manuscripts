@@ -1,0 +1,721 @@
+{
+  "source_order": 6,
+  "folio_label": "fol. 3b",
+  "page_id": "3040425d-c010-4d5a-9439-f27fd3b84fde",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "other",
+    "visible_folio": "3b",
+    "principal_page_bbox": [
+      290,
+      260,
+      2822,
+      4620
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          375,
+          330,
+          100,
+          75
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "3b",
+        "features": [
+          "top left corner",
+          "ink or dark pencil",
+          "page number written on blank verso"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2670,
+          3950,
+          250,
+          110
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "S ?",
+        "features": [
+          "faint pencil",
+          "lower part of page near gutter",
+          "unattached query mark",
+          "letter followed by question mark"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2735,
+          4185,
+          190,
+          75
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "K ?",
+        "features": [
+          "faint pencil",
+          "below b002, near gutter",
+          "unattached query mark",
+          "letter followed by question mark"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          290,
+          600,
+          2820,
+          4100
+        ],
+        "description": "Printed horizontal ruling across the page, with no entries written on it. There are scattered small specks and faint show-through or offset from writing on other leaves, which is not legible as text."
+      },
+      {
+        "bbox": [
+          270,
+          4580,
+          120,
+          220
+        ],
+        "description": "Folded or damaged lower left corner of the leaf."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at approximately x≈3112. Everything to the right of it belongs to the facing page, fol. 4, and is excluded as a facing-page fragment. This includes the shelfmark column (d. 120, f. 14, e. 48, d. 116 … d. 734), ticks, a bracket and wavy cancellations.",
+      "The '?' at approximately [3150,4420,60,80] is just right of the gutter. It appears in the left margin of fol. 4 and is excluded as facing-page material.",
+      "The 'S ?' and 'K ?' pencil marks also appear at the left edge of the fol. 4 overview, but that is only the strip of this facing page captured in that image. They are recorded here as belonging to fol. 3b.",
+      "The pencil marks are positionally level with the fol. 4 entries d. 680 (5) through d. 742 (6). Their attachment to those entries is not established."
+    ],
+    "uncertainties": [
+      "The readings 'S' and 'K' are uncertain. The second mark in each pair is read as a question mark.",
+      "Very faint ghost marks elsewhere on the page are judged to be show-through, not writing on this page."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank_with_marginalia",
+    "visible_folio": "3b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "3b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in ink or dark pencil in the top left corner of the otherwise blank ruled verso."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "query_mark",
+        "literal_text": "S ?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil in the lower part of the page, toward the gutter, at about canvas y≈3970–4040.",
+          "A letter is followed at some distance by a question mark.",
+          "There are no catalogue entries on this page to which the mark could attach."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 7,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 680 (5)",
+            "evidence": "The mark is roughly level with the fol. 4 entry d. 680 (5), across the gutter. It lies about 400 px from the gutter and has no connecting line or arrow.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading of the letter as 'S' is uncertain.",
+          "The second sign is read as '?'.",
+          "Attachment to a fol. 4 entry is not established."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "query_mark",
+        "literal_text": "K ?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil below r002, near the gutter, at about canvas y≈4190–4260.",
+          "A letter is followed by a question mark."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 7,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 742 (6)",
+            "evidence": "The mark is roughly level with the fol. 4 entry d. 742 (6), across the gutter. There is no connecting mark.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The letter could be 'K' or 'k'; the reading is uncertain.",
+          "Attachment to a fol. 4 entry is not established."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Faint pencil query mark with no secure attachment."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Faint pencil query mark with no secure attachment."
+      }
+    ],
+    "page_annotations": [
+      "The native tiles were reviewed. The ruled verso carries no catalogue entries; apart from the folio number and the two pencil query marks it is blank.",
+      "Faint ghosting across the page is show-through or offset from other leaves and is not legible as writing on this page.",
+      "The lower left corner of the leaf is folded or damaged.",
+      "Everything right of the gutter (x≈3112) is fol. 4 and is excluded. This includes the shelfmark column, ticks, the bracket, the wavy cancellations and the '?' at about [3155,4410,40,60]."
+    ],
+    "unresolved_relationships": [
+      "Whether the 'S ?' and 'K ?' marks refer to the fol. 4 entries d. 680 (5) and d. 742 (6), or to something else, is undetermined."
+    ]
+  },
+  "review": {
+    "page_class": "blank_with_marginalia",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number is in the top left corner at about canvas [380,335,85,60]. It is written in ink or dark pencil and reads as '3b' (written '3b'). The candidate's literal text and annotation match the source."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Faint pencil, a letter followed by a question mark. In native-tile coordinates the letter sits at about canvas x 2674–2724, y 3946–4036. The question mark sits at about x 2894–2944, y 3950–4050, so it extends slightly beyond the inventory bbox on the right. The reading 'S ?' is plausible but remains uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Faint pencil. The letter is at about canvas x 2739–2804, y 4196–4256, and the question mark at about x 2884–2919, y 4166–4246. The letter form, with a tall ascender and a lower stroke, could be 'K', 'k' or another letter. The reading remains uncertain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 7,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 680 (5)",
+            "evidence": "The mark is roughly level with the fol. 4 entry d. 680 (5), across the gutter. It lies about 400 px from the gutter and has no connecting line or arrow.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 7,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 680 (5)",
+            "evidence": "The mark is roughly level with the fol. 4 entry d. 680 (5), across the gutter (x≈3112). The letter lies about 390 px from the gutter and the question mark about 170 px from it. There is no connecting line or arrow.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The native tile shows that the question mark sits much closer to the gutter than the 400 px figure implies. Positional evidence is clarified only; the attachment remains uncertain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The letter is read as 'S', but the reading is uncertain. The purpose of the mark, and whether it refers to fol. 4 d. 680 (5), is unestablished.",
+        "next_check": "Examine the original under raking light. Compare with pencil query marks elsewhere in the catalogue."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The letter could be 'K', 'k' or another letter. Whether it refers to fol. 4 d. 742 (6) is unestablished.",
+        "next_check": "Examine the original. Compare with the hand of other pencil annotations."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3112 in the native tiles. Everything to its right belongs to fol. 4 and is correctly excluded. This includes the shelfmark column, the ticks, the bracket, the wavy cancellations, the struck-through c. 323 and the pencil '?' at about [3159,4406,35,60]. The 'S ?' and 'K ?' pencil marks lie fully left of the gutter and belong to fol. 3b. They are also visible as the edge strip at the left of the fol. 4 overview, which is the same material and not a duplicate. No fol. 3 material appears on this canvas.",
+    "region_review": {
+      "top": "Only the folio number '3b' appears, top left. The area above the ruling is blank.",
+      "middle": "The ruled lines are blank. Faint ghosting is show-through or offset from other leaves and is not legible as writing on this page. Small specks are present.",
+      "bottom": "The pencil marks 'S ?' and 'K ?' lie toward the gutter, at y≈3950–4260. Below them the page is blank down to the lower edge. The lower left corner is folded or damaged and carries no writing.",
+      "left_margin": "Blank apart from the folio number. The folded corner is at the bottom left.",
+      "right_margin": "The gutter zone carries only binding stitch marks or holes on the fold line. The '?' just right of the gutter belongs to fol. 4.",
+      "interlinear": "No interlinear writing on this page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        375,
+        330,
+        100,
+        75
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "3b",
+      "features": [
+        "top left corner",
+        "ink or dark pencil",
+        "page number written on blank verso"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2670,
+        3950,
+        250,
+        110
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "S ?",
+      "features": [
+        "faint pencil",
+        "lower part of page near gutter",
+        "unattached query mark",
+        "letter followed by question mark"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2735,
+        4185,
+        190,
+        75
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "K ?",
+      "features": [
+        "faint pencil",
+        "below b002, near gutter",
+        "unattached query mark",
+        "letter followed by question mark"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "3b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in ink or dark pencil in the top left corner of the otherwise blank ruled verso."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0006-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "query_mark",
+      "literal_text": "S ?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil in the lower part of the page, toward the gutter, at about canvas y≈3970–4040.",
+        "A letter is followed at some distance by a question mark.",
+        "There are no catalogue entries on this page to which the mark could attach."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 7,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 680 (5)",
+          "evidence": "The mark is roughly level with the fol. 4 entry d. 680 (5), across the gutter. It lies about 400 px from the gutter and has no connecting line or arrow.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading of the letter as 'S' is uncertain.",
+        "The second sign is read as '?'.",
+        "Attachment to a fol. 4 entry is not established."
+      ],
+      "stable_id": "css-prod-0006-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "query_mark",
+      "literal_text": "K ?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil below r002, near the gutter, at about canvas y≈4190–4260.",
+        "A letter is followed by a question mark."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 7,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 742 (6)",
+          "evidence": "The mark is roughly level with the fol. 4 entry d. 742 (6), across the gutter. There is no connecting mark.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The letter could be 'K' or 'k'; the reading is uncertain.",
+        "Attachment to a fol. 4 entry is not established."
+      ],
+      "stable_id": "css-prod-0006-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 7,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 680 (5)",
+          "evidence": "The mark is roughly level with the fol. 4 entry d. 680 (5), across the gutter. It lies about 400 px from the gutter and has no connecting line or arrow.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 7,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 680 (5)",
+          "evidence": "The mark is roughly level with the fol. 4 entry d. 680 (5), across the gutter (x≈3112). The letter lies about 390 px from the gutter and the question mark about 170 px from it. There is no connecting line or arrow.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The native tile shows that the question mark sits much closer to the gutter than the 400 px figure implies. Positional evidence is clarified only; the attachment remains uncertain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3040425d-c010-4d5a-9439-f27fd3b84fde.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3040425d-c010-4d5a-9439-f27fd3b84fde/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "485cc5174ea81cc44671d693d47a766a79ec4ceca511562da5ec5df374b85f8a",
+      "bytes": 243621,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3040425d-c010-4d5a-9439-f27fd3b84fde/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "afe85eed3f74cbfe1f3002cc140918fa89b9a678bb7af049f051f1a307dc41b6",
+      "bytes": 317228,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3040425d-c010-4d5a-9439-f27fd3b84fde/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "78d440ed6dc194e434a63c82c42779b1a3685fd0ccccb90181b49779e424bc7f",
+      "bytes": 321967,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3040425d-c010-4d5a-9439-f27fd3b84fde/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ad4ef55d4aa4cc9b463f671884693a592c37d8d902f4da63c6c17e512eafe48e",
+      "bytes": 306992,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3040425d-c010-4d5a-9439-f27fd3b84fde/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ec7f1ab859241b8f8b070593ec5c185fc50d6e80e57389e9dc70fd026751f962",
+      "bytes": 315013,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3040425d-c010-4d5a-9439-f27fd3b84fde/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "44bd34834751040d064eb501aeca5e26bda2d1cc669829111203fba3b075ca0f",
+      "bytes": 331120,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3040425d-c010-4d5a-9439-f27fd3b84fde/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "011bd3b049c241ad634ab06af1650810af418aa639190b18c9d54880f4b6cf71",
+      "bytes": 335978,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9c32b18-2aaf-4b0b-8b83-ffd7d8acc259/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e6bf690d38afbe03a7088eaf6fe499186e09e89e5c5c4ff5e06a41d5c811a888",
+      "bytes": 272923,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 5,
+      "folio_label": "fol. 3",
+      "page_id": "d9c32b18-2aaf-4b0b-8b83-ffd7d8acc259",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f80b8ff-c447-441e-9beb-f1d6c64552ed/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4a9e1699e92a063a603ad77fa0dc8b07df4e52275fc656f8d739036c7515c449",
+      "bytes": 264037,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 7,
+      "folio_label": "fol. 4",
+      "page_id": "2f80b8ff-c447-441e-9beb-f1d6c64552ed",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1161 @@
+{
+  "source_order": 48,
+  "folio_label": "fol. 24b",
+  "page_id": "eaabb42e-521b-4ac1-bd69-97472f6de8a4",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "24b",
+    "principal_page_bbox": [
+      325,
+      263,
+      2845,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          325,
+          175,
+          105
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "24b",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "superscript 'b' written above and after 24 with a dot below it"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2300,
+          1440,
+          790,
+          80
+        ],
+        "kind_hint": "marginal_or_annotation_note",
+        "anchor": "+ bhāṣya + ṭippaṇī as in C.15(2). H7",
+        "features": [
+          "pencil",
+          "right side of page, isolated on a ruled line",
+          "no left-hand content on the same line",
+          "likely keyed to an entry on the facing page fol. 25; an arrow beyond the gutter belongs to the facing page",
+          "reading of 'H7' uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          420,
+          2030,
+          2720,
+          170
+        ],
+        "kind_hint": "annotation_note",
+        "anchor": "ff. 1-9. Saṁv. 1866. Scribe Haricaina[sic] Miśra at Kāśī. ...",
+        "features": [
+          "pencil",
+          "two lines; second line indented: 'is called Ānandajñāna.'",
+          "contains extent, date and scribe",
+          "'[sic]' bracket is written in the source",
+          "mentions 'Bibl. Ind., E. Roer'",
+          "ends with a left-pointing arrow toward the gutter (approx. x2960-3130)"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2440,
+          2160,
+          700,
+          110
+        ],
+        "kind_hint": "annotation_note",
+        "anchor": "ff. 1-11.",
+        "features": [
+          "pencil",
+          "extent only",
+          "left-pointing arrow toward the gutter (approx. x3010-3135, y~2210)"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          440,
+          3230,
+          2700,
+          95
+        ],
+        "kind_hint": "annotation_note",
+        "anchor": "ff. 1-2, paper dated 1903, same hand as d. 80(5). Weber, I; 251 (12)",
+        "features": [
+          "pencil",
+          "single line",
+          "date 1903 and a shelfmark-like reference d. 80(5)",
+          "'I' in 'Weber, I' is underlined",
+          "left-pointing arrow toward the gutter (approx. x2990-3130)"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2720,
+          2465,
+          140,
+          90
+        ],
+        "description": "faint pencil mark resembling a loop or 'ꝺ', with a short stroke to its right; not clearly text"
+      },
+      {
+        "bbox": [
+          2955,
+          2840,
+          20,
+          70
+        ],
+        "description": "short faint vertical pencil stroke"
+      },
+      {
+        "bbox": [
+          2930,
+          3560,
+          90,
+          200
+        ],
+        "description": "faint diagonal pencil stroke, possibly offset or show-through"
+      },
+      {
+        "bbox": [
+          2880,
+          4480,
+          90,
+          120
+        ],
+        "description": "faint diagonal pencil stroke near the bottom, possibly offset"
+      },
+      {
+        "bbox": [
+          1730,
+          1130,
+          20,
+          20
+        ],
+        "description": "isolated dot or speck"
+      }
+    ],
+    "boundary_notes": [
+      "The page is a verso: ruled and otherwise blank, with faint mirror-image show-through of the recto text (fol. 25 entries) across the page; show-through is not transcribed as target text.",
+      "The strip right of the gutter (x>~3170) belongs to facing fol. 25. It contains a shelfmark column ('d', 'e.', a cancelled 'e.', ticks, brackets, 'See Pariśiṣṭa', '2 75 this', 'xxx next leaf') and arrows; it is excluded from the target.",
+      "Arrows in the notes b003-b005 point toward the gutter. This suggests they key to the fol. 25 entries (e.g., c.16(8)/Īśāvāsya group, d.80(10)). The attachment is inferred and not recorded as a parent.",
+      "The b002 note aligns with the fol. 25 line for c. 16 (8), whose margin has '←'."
+    ],
+    "uncertainties": [
+      "Readings of the cursive pencil are tentative, especially 'Haricaina', 'Miśra', 'E. Roer', 'H7' and 'C.15(2)'.",
+      "The mark in unattached_marks bbox [2720,2465] may be a letter rather than a stray mark."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "24b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "24b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left corner. The 'b' is written raised after '24', with a dot below it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_addition_to_facing_page_entry",
+        "literal_text": "+ bhāṣya + ṭippaṇī as in C.15(2). H7",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Isolated near the right side of a ruled line, with no other text on the same line of this page.",
+          "Sits on the same level as the fol. 25 entry c. 16 (8), whose margin has an arrow."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 49,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 16 (8) Īśāvāsya Upaniṣad",
+            "evidence": "Horizontal alignment with the fol. 25 line for c. 16 (8), which carries a '←' in its left margin.",
+            "certainty": "probable"
+          },
+          {
+            "type": "cross_reference",
+            "target_page_order": 49,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 15 (2)",
+            "evidence": "The note literally cites 'C.15(2)'. The facing page lists c. 15 (2) with '+ bhāṣya' and '+ ṭippaṇī'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cursive pencil reading is tentative, especially 'ṭippaṇī' (it could be read 'ṭippaṇe'), 'C.15(2)' and 'H7'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_addition_to_facing_page_entry",
+        "literal_text": "ff. 1-9. Saṁv. 1866. Scribe Haricaina[sic] Miśra at Kāśī. As printed in Bibl. Ind., E. Roer, where author of ṭippaṇī ←\n   is called Ānandajñāna.",
+        "fields": {
+          "extent": "ff. 1-9",
+          "date": "Saṁv. 1866",
+          "source": "Bibl. Ind., E. Roer"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, two lines. The second line is indented.",
+          "'[sic]' is written in the source.",
+          "A left-pointing arrow at the end of line 1 points toward the gutter.",
+          "A named scribe (Haricaina Miśra) is recorded. This is a scribe statement, not an author."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 49,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 15 (2) [Īśāvāsya Upaniṣad] + bhāṣya + ṭippaṇī by Ānanda…",
+            "evidence": "The arrow and the line level align with the fol. 25 entry c. 15 (2). That entry includes a ṭippaṇī by Ānanda[…], which matches the 'author of ṭippaṇī' in this note.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'Haricaina', 'Miśra', 'As printed', 'Bibl. Ind.' and 'E. Roer' are tentative.",
+          "'Saṁv.' may be written 'Sam̐v.'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_addition_to_facing_page_entry",
+        "literal_text": "ff. 1-11. ←",
+        "fields": {
+          "extent": "ff. 1-11"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "A left-pointing arrow points toward the gutter.",
+          "A short dash continues just beyond the gutter on fol. 25."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 49,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 15 (7)",
+            "evidence": "Line level and arrow alignment with the fol. 25 entry c. 15 (7).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": []
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_addition_to_facing_page_entry",
+        "literal_text": "ff. 1-2, paper dated 1903, same hand as d. 80(5). Weber, I; 251 (12) ←",
+        "fields": {
+          "extent": "ff. 1-2",
+          "date": "paper dated 1903",
+          "source": "Weber, I; 251 (12)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, single line.",
+          "The 'I' after 'Weber,' is underlined.",
+          "A left-pointing arrow points toward the gutter.",
+          "'same hand as d. 80(5)' is a handwriting comparison, not an author statement."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 49,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 80 (10) Ukthapariśiṣṭa",
+            "evidence": "Line level and arrow align with the fol. 25 entry d. 80(10). That entry carries '(1903)' and a margin arrow.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'same hand' is tentative."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "uncertain_mark",
+        "literal_text": "[illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A faint pencil loop resembling 'ꝺ' or 'U', with a short stroke to its right.",
+          "It may be a letter or a stray mark."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is not clear whether this is text."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2720,
+          2465,
+          140,
+          90
+        ],
+        "kind_hint": "uncertain_mark",
+        "anchor": "loop mark",
+        "features": [
+          "faint pencil",
+          "listed as an unattached mark in the inventory; promoted here because it may be a letter"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Note probably keyed to fol. 25, c. 16 (8)."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Note with extent, date and scribe, probably keyed to fol. 25, c. 15 (2)."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Extent note probably keyed to fol. 25, c. 15 (7)."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Note probably keyed to fol. 25, d. 80 (10)."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Uncertain faint mark."
+      }
+    ],
+    "page_annotations": [
+      "The verso is ruled and otherwise blank.",
+      "Mirror-image show-through of fol. 25 text is visible across the page and is not transcribed.",
+      "The strip right of the gutter belongs to fol. 25 and is excluded.",
+      "Faint strokes appear at about [2955,2840], [2930,3560] and [2880,4480]. These are probably offset or show-through and not text.",
+      "An isolated speck appears at about [1730,1130]."
+    ],
+    "unresolved_relationships": [
+      "All attachments of b002–b005 to fol. 25 entries are inferred from alignment and arrows. None is secure."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Pencil folio number in the top-left corner. It reads '24' with a raised 'b' and a dot below. The literal '24b' is acceptable."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An isolated pencil line on the right side at about canvas y 1450–1525. It aligns with the fol. 25 line for c. 16 (8), which has an arrow in its left margin. The same note also shows as a fragment 'c 15(2). H7' at the left edge of the fol. 25 image. The first word may read 'bhāṣye' rather than 'bhāṣya'."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Two-line pencil note with a terminal arrow. Its line level, about y 2060, matches fol. 25 c. 15 (2), whose entry has '+ ṭippaṇī by Ānanda…'. The dash beyond the gutter, about x 3200–3275, lies on fol. 25. The readings 'Miśra' and 'E. Roer' are not secure."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'ff. 1-11.' with an arrow. Its level, about y 2210, matches fol. 25 c. 15 (7)."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Single pencil line with an arrow. The 'I' is underlined. Its level, about y 3270, matches fol. 25 d. 80 (10), which carries '(1903)'."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "Faint loop mark at about canvas (2740, 2513). A short stroke lies to its right at about x 2875, just beyond the stated bbox. Whether it is text remains undetermined."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The cursive pencil reading is tentative, especially 'ṭippaṇī' (it could be read 'ṭippaṇe'), 'C.15(2)' and 'H7'."
+        ],
+        "after": [
+          "The cursive pencil reading is tentative, especially 'bhāṣya' (it could be read 'bhāṣye'), 'ṭippaṇī' (it could be read 'ṭippaṇe'), 'C.15(2)' and 'H7'."
+        ],
+        "reason": "In the native tile, the ending of the first word looks like 'e' as much as 'a'.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The readings 'Haricaina', 'Miśra', 'As printed', 'Bibl. Ind.' and 'E. Roer' are tentative.",
+          "'Saṁv.' may be written 'Sam̐v.'."
+        ],
+        "after": [
+          "The readings 'Haricaina', 'Miśra', 'As printed', 'Bibl. Ind.' and 'E. Roer' are tentative.",
+          "'Miśra' could also be read 'Miśre'. 'E. Roer' could be 'Ed. Roer' (the initial is cursive).",
+          "'Saṁv.' may be written 'Sam̐v.'."
+        ],
+        "reason": "The native tile does not securely distinguish the final vowel of the scribe's surname or the form of the abbreviation before 'Roer'.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Pencil, two lines. The second line is indented.",
+          "'[sic]' is written in the source.",
+          "A left-pointing arrow at the end of line 1 points toward the gutter.",
+          "A named scribe (Haricaina Miśra) is recorded. This is a scribe statement, not an author."
+        ],
+        "after": [
+          "Pencil, two lines. The second line is indented.",
+          "'[sic]' is written in the source.",
+          "A left-pointing arrow at the end of line 1 points toward the gutter. A continuing dash beyond the gutter lies on fol. 25.",
+          "A named scribe (tentatively read 'Haricaina Miśra') is recorded. This is a scribe statement, not an author."
+        ],
+        "reason": "Avoid presenting the tentative name reading as certain in the annotation. Also record the dash beyond the gutter.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The loop mark may be a letter or a stray stroke. A short stroke to its right, at about x 2875, lies outside the stated bbox.",
+        "next_check": "Inspect at higher magnification, or check whether it is offset from fol. 25."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004",
+          "b005"
+        ],
+        "issue": "Attachments to fol. 25 entries are inferred only from line levels and arrows.",
+        "next_check": "Compare the original volume's line alignment across the opening."
+      }
+    ],
+    "boundary_review": "The gutter is at about x 3170. Everything to the right of it belongs to fol. 25 and is excluded: the shelfmark column, ticks, 'See Pariśiṣṭa', '2 75 this', 'xxx next leaf', and the arrow/dash continuations. The mirror-image show-through of fol. 25 text is not transcribed. The notes b002–b005 lie on fol. 24b but probably key to fol. 25 entries. This is kept as probable, not secure.",
+    "region_review": {
+      "top": "Only the folio number '24b'. Show-through ruled lines and otherwise blank.",
+      "middle": "Blocks b002, b003, b004 and b901, plus faint strokes at about (2905, 2708) and (2964, 2878). The latter are probably offset or show-through, not text. A speck at about (1744, 1150).",
+      "bottom": "b005 at about y 3270. Below it, only show-through, faint diagonal strokes at about (2944, 3636–3756) and (2894, 4496–4616), and specks. No bottom note was found.",
+      "left_margin": "Blank apart from show-through and specks.",
+      "right_margin": "The note b002 and the arrows of b003–b005 run near the gutter. The facing-page material beyond the gutter is excluded.",
+      "interlinear": "Only the indented second line of b003. No other interlinear additions were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        325,
+        175,
+        105
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "24b",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "superscript 'b' written above and after 24 with a dot below it"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2300,
+        1440,
+        790,
+        80
+      ],
+      "kind_hint": "marginal_or_annotation_note",
+      "anchor": "+ bhāṣya + ṭippaṇī as in C.15(2). H7",
+      "features": [
+        "pencil",
+        "right side of page, isolated on a ruled line",
+        "no left-hand content on the same line",
+        "likely keyed to an entry on the facing page fol. 25; an arrow beyond the gutter belongs to the facing page",
+        "reading of 'H7' uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        420,
+        2030,
+        2720,
+        170
+      ],
+      "kind_hint": "annotation_note",
+      "anchor": "ff. 1-9. Saṁv. 1866. Scribe Haricaina[sic] Miśra at Kāśī. ...",
+      "features": [
+        "pencil",
+        "two lines; second line indented: 'is called Ānandajñāna.'",
+        "contains extent, date and scribe",
+        "'[sic]' bracket is written in the source",
+        "mentions 'Bibl. Ind., E. Roer'",
+        "ends with a left-pointing arrow toward the gutter (approx. x2960-3130)"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2440,
+        2160,
+        700,
+        110
+      ],
+      "kind_hint": "annotation_note",
+      "anchor": "ff. 1-11.",
+      "features": [
+        "pencil",
+        "extent only",
+        "left-pointing arrow toward the gutter (approx. x3010-3135, y~2210)"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        440,
+        3230,
+        2700,
+        95
+      ],
+      "kind_hint": "annotation_note",
+      "anchor": "ff. 1-2, paper dated 1903, same hand as d. 80(5). Weber, I; 251 (12)",
+      "features": [
+        "pencil",
+        "single line",
+        "date 1903 and a shelfmark-like reference d. 80(5)",
+        "'I' in 'Weber, I' is underlined",
+        "left-pointing arrow toward the gutter (approx. x2990-3130)"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2720,
+        2465,
+        140,
+        90
+      ],
+      "kind_hint": "uncertain_mark",
+      "anchor": "loop mark",
+      "features": [
+        "faint pencil",
+        "listed as an unattached mark in the inventory; promoted here because it may be a letter"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "24b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left corner. The 'b' is written raised after '24', with a dot below it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0048-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_addition_to_facing_page_entry",
+      "literal_text": "+ bhāṣya + ṭippaṇī as in C.15(2). H7",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Isolated near the right side of a ruled line, with no other text on the same line of this page.",
+        "Sits on the same level as the fol. 25 entry c. 16 (8), whose margin has an arrow."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 49,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 16 (8) Īśāvāsya Upaniṣad",
+          "evidence": "Horizontal alignment with the fol. 25 line for c. 16 (8), which carries a '←' in its left margin.",
+          "certainty": "probable"
+        },
+        {
+          "type": "cross_reference",
+          "target_page_order": 49,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 15 (2)",
+          "evidence": "The note literally cites 'C.15(2)'. The facing page lists c. 15 (2) with '+ bhāṣya' and '+ ṭippaṇī'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cursive pencil reading is tentative, especially 'ṭippaṇī' (it could be read 'ṭippaṇe'), 'C.15(2)' and 'H7'."
+      ],
+      "stable_id": "css-prod-0048-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_addition_to_facing_page_entry",
+      "literal_text": "ff. 1-9. Saṁv. 1866. Scribe Haricaina[sic] Miśra at Kāśī. As printed in Bibl. Ind., E. Roer, where author of ṭippaṇī ←\n   is called Ānandajñāna.",
+      "fields": {
+        "extent": "ff. 1-9",
+        "date": "Saṁv. 1866",
+        "source": "Bibl. Ind., E. Roer"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, two lines. The second line is indented.",
+        "'[sic]' is written in the source.",
+        "A left-pointing arrow at the end of line 1 points toward the gutter.",
+        "A named scribe (Haricaina Miśra) is recorded. This is a scribe statement, not an author."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 49,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 15 (2) [Īśāvāsya Upaniṣad] + bhāṣya + ṭippaṇī by Ānanda…",
+          "evidence": "The arrow and the line level align with the fol. 25 entry c. 15 (2). That entry includes a ṭippaṇī by Ānanda[…], which matches the 'author of ṭippaṇī' in this note.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'Haricaina', 'Miśra', 'As printed', 'Bibl. Ind.' and 'E. Roer' are tentative.",
+        "'Saṁv.' may be written 'Sam̐v.'."
+      ],
+      "stable_id": "css-prod-0048-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_addition_to_facing_page_entry",
+      "literal_text": "ff. 1-11. ←",
+      "fields": {
+        "extent": "ff. 1-11"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "A left-pointing arrow points toward the gutter.",
+        "A short dash continues just beyond the gutter on fol. 25."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 49,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 15 (7)",
+          "evidence": "Line level and arrow alignment with the fol. 25 entry c. 15 (7).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0048-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_addition_to_facing_page_entry",
+      "literal_text": "ff. 1-2, paper dated 1903, same hand as d. 80(5). Weber, I; 251 (12) ←",
+      "fields": {
+        "extent": "ff. 1-2",
+        "date": "paper dated 1903",
+        "source": "Weber, I; 251 (12)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, single line.",
+        "The 'I' after 'Weber,' is underlined.",
+        "A left-pointing arrow points toward the gutter.",
+        "'same hand as d. 80(5)' is a handwriting comparison, not an author statement."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 49,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 80 (10) Ukthapariśiṣṭa",
+          "evidence": "Line level and arrow align with the fol. 25 entry d. 80(10). That entry carries '(1903)' and a margin arrow.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'same hand' is tentative."
+      ],
+      "stable_id": "css-prod-0048-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "uncertain_mark",
+      "literal_text": "[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A faint pencil loop resembling 'ꝺ' or 'U', with a short stroke to its right.",
+        "It may be a letter or a stray mark."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is not clear whether this is text."
+      ],
+      "stable_id": "css-prod-0048-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The cursive pencil reading is tentative, especially 'ṭippaṇī' (it could be read 'ṭippaṇe'), 'C.15(2)' and 'H7'."
+      ],
+      "after": [
+        "The cursive pencil reading is tentative, especially 'bhāṣya' (it could be read 'bhāṣye'), 'ṭippaṇī' (it could be read 'ṭippaṇe'), 'C.15(2)' and 'H7'."
+      ],
+      "reason": "In the native tile, the ending of the first word looks like 'e' as much as 'a'.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings 'Haricaina', 'Miśra', 'As printed', 'Bibl. Ind.' and 'E. Roer' are tentative.",
+        "'Saṁv.' may be written 'Sam̐v.'."
+      ],
+      "after": [
+        "The readings 'Haricaina', 'Miśra', 'As printed', 'Bibl. Ind.' and 'E. Roer' are tentative.",
+        "'Miśra' could also be read 'Miśre'. 'E. Roer' could be 'Ed. Roer' (the initial is cursive).",
+        "'Saṁv.' may be written 'Sam̐v.'."
+      ],
+      "reason": "The native tile does not securely distinguish the final vowel of the scribe's surname or the form of the abbreviation before 'Roer'.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Pencil, two lines. The second line is indented.",
+        "'[sic]' is written in the source.",
+        "A left-pointing arrow at the end of line 1 points toward the gutter.",
+        "A named scribe (Haricaina Miśra) is recorded. This is a scribe statement, not an author."
+      ],
+      "after": [
+        "Pencil, two lines. The second line is indented.",
+        "'[sic]' is written in the source.",
+        "A left-pointing arrow at the end of line 1 points toward the gutter. A continuing dash beyond the gutter lies on fol. 25.",
+        "A named scribe (tentatively read 'Haricaina Miśra') is recorded. This is a scribe statement, not an author."
+      ],
+      "reason": "Avoid presenting the tentative name reading as certain in the annotation. Also record the dash beyond the gutter.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/eaabb42e-521b-4ac1-bd69-97472f6de8a4.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eaabb42e-521b-4ac1-bd69-97472f6de8a4/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "5ccccb552d9f043c817fd3a7e825b17df58785c1edc5c37100f6a93d6900a2a4",
+      "bytes": 283652,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eaabb42e-521b-4ac1-bd69-97472f6de8a4/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1dfd831b9f9f32c8f4463e3b445244cce204de5f179140504143a83a2fcbe547",
+      "bytes": 318737,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eaabb42e-521b-4ac1-bd69-97472f6de8a4/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "65a98eef8bde14702f9b6177b0a6fc650b2f59854d9efba28d205b2d5672fba2",
+      "bytes": 342030,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eaabb42e-521b-4ac1-bd69-97472f6de8a4/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5fe2b1d3a6826dce61c41368831230ec8361ed1c3511241a382c79d4bad2ce80",
+      "bytes": 339734,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eaabb42e-521b-4ac1-bd69-97472f6de8a4/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee00fe6a318f95c7e52c7b1dcf3e42c5cb887d858c1ba0386052e3a42fd0f17b",
+      "bytes": 331229,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eaabb42e-521b-4ac1-bd69-97472f6de8a4/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e82bd5663b78982fdedef3568e940b9b72591f1afce73baa5327adefa080d4ce",
+      "bytes": 332786,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eaabb42e-521b-4ac1-bd69-97472f6de8a4/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1d3e1fdb3910c2edeaeb3f6300797afb1b5ae5bc11936f547153676a1c7ee9b1",
+      "bytes": 353108,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b908e236-79c9-4f1d-9c75-ebc820ba3fc4/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "42816f7078c61a19bdf0c0759415d2489e96121204083ef1581a3d3beede96de",
+      "bytes": 286784,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 47,
+      "folio_label": "fol. 24",
+      "page_id": "b908e236-79c9-4f1d-9c75-ebc820ba3fc4",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/abc95f7f-1e75-438d-8592-f8c15f8bceb0/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b26943ee33f41b5fd0f005dda669f2cf18fe8775b33cfa3f730119694c2f804c",
+      "bytes": 295407,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 49,
+      "folio_label": "fol. 25",
+      "page_id": "abc95f7f-1e75-438d-8592-f8c15f8bceb0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

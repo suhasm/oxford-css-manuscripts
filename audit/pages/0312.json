@@ -1,0 +1,939 @@
+{
+  "source_order": 312,
+  "folio_label": "fol. 156b",
+  "page_id": "9b787493-5530-4ce8-a80e-8c76c77b556f",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "156b",
+    "principal_page_bbox": [
+      320,
+      290,
+      2830,
+      4570
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          370,
+          330,
+          130,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "156b",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          405,
+          3440,
+          2080,
+          120
+        ],
+        "kind_hint": "entry",
+        "anchor": "d. 951(4).  Bilhaṇakāvya [? Caurapañcāśikā or pt. of Vikramāṅka canto?].",
+        "features": [
+          "ink",
+          "shelfmark in left column",
+          "bracketed tentative identification with query mark",
+          "abbreviation 'pt.'",
+          "only full entry on page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1110,
+          3595,
+          300,
+          75
+        ],
+        "kind_hint": "continuation",
+        "anchor": "145 verses.",
+        "features": [
+          "ink",
+          "second line of b002 entry",
+          "extent statement"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2515,
+          3595,
+          490,
+          85
+        ],
+        "kind_hint": "entry_date_extent_column",
+        "anchor": "n.d. :12: 13: Tel.",
+        "features": [
+          "ink",
+          "right-hand date/extent/script column",
+          "script abbreviation 'Tel.'",
+          "aligned with continuation line of b002"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2640,
+          3320,
+          90,
+          165
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "n? | ?",
+        "features": [
+          "faint pencil",
+          "query mark with vertical stroke",
+          "above the date column",
+          "attachment to entry uncertain"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2715,
+          3455,
+          120,
+          165
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "n? | ?",
+        "features": [
+          "faint pencil",
+          "query mark with vertical stroke",
+          "repeat of b005, slightly lower and to the right",
+          "attachment to entry uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          830,
+          1410,
+          800,
+          40
+        ],
+        "description": "Small dark ink specks or blots on a ruled line in the upper-middle page; not legible text."
+      },
+      {
+        "bbox": [
+          2590,
+          3050,
+          190,
+          30
+        ],
+        "description": "Faint smudge or specks on a ruled line above the bottom entry."
+      },
+      {
+        "bbox": [
+          3135,
+          3710,
+          180,
+          110
+        ],
+        "description": "White binding thread at the gutter. It is a physical feature, not writing."
+      }
+    ],
+    "boundary_notes": [
+      "Show-through of the recto (fol. 156) appears throughout as faint mirrored writing. It is not target text.",
+      "The right edge shows the left margin of facing fol. 157. That margin has a check mark, d./f./e./c. shelfmarks, an arrow and 'see S. Mantra Kddh...'. These belong to the adjacent page and are not recorded as target blocks."
+    ],
+    "uncertainties": [
+      "The readings in the b002 bracket (Caurapañcāśikā, Vikramāṅka canto) are tentative because of cursive handwriting.",
+      "The pencil marks b005 and b006 are read as 'n?' with a query mark. Whether they refer to the n.d. date or to the entry is unclear.",
+      "The script abbreviation in b004 is read as 'Tel.'."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "156b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "156b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left corner. The 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "single_entry",
+        "literal_text": "d. 951(4).   Bilhaṇakāvya [? Caurapañcāśikā or pt. of Vikramāṅka canto].\n145 verses.                                    n.d. :12: 13: Tel.",
+        "fields": {
+          "shelfmark": "d. 951(4).",
+          "title": "Bilhaṇakāvya",
+          "date": "n.d.",
+          "extent": "145 verses.",
+          "script": "Tel."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The shelfmark is in the left column. The title and the bracketed tentative identification are on the same line.",
+          "The bracket opens with a query mark '?'. The cataloguer offers alternative identifications: 'Caurapañcāśikā' or 'pt. of Vikramāṅka canto'.",
+          "'145 verses.' is written on the second line under the title.",
+          "The right-hand column reads 'n.d. :12: 13: Tel.' and is aligned with the second line. The numerals 12 and 13 follow the page's column pattern, but the role of each number is not stated on this page. They are not assigned to fields here.",
+          "This is the only catalogue entry on the page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The diacritics in the cursive bracket text are uncertain: 'Caurapañcāśikā' (final vowel length) and 'Vikramāṅka'.",
+          "The final word may read 'canto' or 'cantos'. The closing bracket looks like ')' or ']'.",
+          "'pt.' is read as an abbreviation; its expansion is not supplied."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_query",
+        "literal_text": "n̤ | ?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil. The letter 'n' appears to have a dot below, followed by a vertical stroke and a query mark.",
+          "It sits above the date column, above the line of entry d. 951(4)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 312,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "Bilhaṇakāvya",
+            "evidence": "It is the only entry nearby and lies above its line. It may query a dotted ṇ (as in 'Bilhaṇa') or the n.d. date. The purpose is not stated.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'n' with a dot below is uncertain; the dot may be part of the query mark.",
+          "What the mark refers to is unclear."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_query",
+        "literal_text": "n̤ | ?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil. This is a second, similar mark, placed slightly lower and to the right of b005, just above 'n.d. :12'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 312,
+            "target_record_id": "r002",
+            "target_block_id": "b004",
+            "target_anchor": "n.d. :12: 13: Tel.",
+            "evidence": "Its position is directly above the date column of the only entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading is uncertain. It may be a repetition or a correction of b005."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number; also given as visible_folio."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Entry line with shelfmark and title."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Second line of the same entry, giving the extent."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Right-hand column of the same entry, aligned with its second line."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Pencil query; attachment is uncertain."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Second pencil query; attachment is uncertain."
+      }
+    ],
+    "page_annotations": [
+      "Apart from one entry near the bottom and two pencil queries, the page is ruled but unwritten.",
+      "Faint mirrored show-through from fol. 156 appears throughout and is not transcribed.",
+      "Ink specks occur on a ruled line in the upper-middle and a smudge appears above the entry. Neither is legible text.",
+      "White binding thread is visible at the gutter.",
+      "The left margin of facing fol. 157 is visible at the right edge (check marks, shelfmark letters, an arrow, 'see S. Mantra Kddh...'). It belongs to the adjacent page and is not recorded."
+    ],
+    "unresolved_relationships": [
+      "It is unclear whether pencil marks b005 and b006 query the spelling with ṇ in 'Bilhaṇa' or the 'n.d.' date. Fol. 157 has an independent cross-reference 'Bilhana : Caurapañcāśika', which is not part of this page."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "An ink '156' with a superscript 'b' is in the top-left corner. The transcription is correct."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the main entry line. The shelfmark, title and bracket are captured. The end of the bracket is cursive: after 'cant' there is a sign that looks like a query mark or the letter 'z', then a closing stroke. The candidate's 'canto].' silently drops a probable final '?'. See the change below."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'145 verses.' is on the second line. It is represented correctly."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The right-hand column reads 'n.d. :12: 13: Tel.' It is aligned with the second line and represented correctly."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "An upper faint pencil mark: an 'n' with a dot below, a vertical stroke and a query mark. It sits above the date column. Its attachment is correctly left uncertain."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A second, similar pencil mark, lower and to the right, just above 'n.d. :12'. It is represented with its attachment left uncertain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "d. 951(4).   Bilhaṇakāvya [? Caurapañcāśikā or pt. of Vikramāṅka canto].\n145 verses.                                    n.d. :12: 13: Tel.",
+        "after": "d. 951(4).   Bilhaṇakāvya [? Caurapañcāśikā or pt. of Vikramāṅka canto?[reading?]][reading?].\n145 verses.                                    n.d. :12: 13: Tel.",
+        "reason": "After 'cant' the source shows a sign resembling the opening query mark (or 'z'), then a closing bracket-like stroke. The inventory reads 'canto?]'. The candidate omitted the probable query mark. Both the final sign and the bracket shape remain uncertain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The diacritics in the cursive bracket text are uncertain: 'Caurapañcāśikā' (final vowel length) and 'Vikramāṅka'.",
+          "The final word may read 'canto' or 'cantos'. The closing bracket looks like ')' or ']'.",
+          "'pt.' is read as an abbreviation; its expansion is not supplied."
+        ],
+        "after": [
+          "The diacritics in the cursive bracket text are uncertain: 'Caurapañcāśikā' (final vowel length) and 'Vikramāṅka' (the macron and the nasal dot are not clearly visible).",
+          "The letters after 'cant' are ambiguous. They may be 'o' plus a query mark (matching the opening '[?'), or another letter such as 'z'/'s'. The closing bracket looks like ')' rather than ']'.",
+          "'pt.' is read as an abbreviation; its expansion is not supplied."
+        ],
+        "reason": "Records the ambiguity of the final sign of the bracket without resolving it.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b005",
+          "b006"
+        ],
+        "issue": "It is unclear what the pencil queries refer to: possibly the dotted ṇ in 'Bilhaṇa' (fol. 157 writes 'Bilhana' without the dot) or the 'n.d.' date. It is also unclear whether b006 repeats b005.",
+        "next_check": "Compare with other pencil queries in this volume."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The end of the bracket reading ('canto?' versus another reading) and the closing symbol remain uncertain.",
+        "next_check": "Inspect at higher magnification."
+      }
+    ],
+    "boundary_review": "The edge strip of facing fol. 157 at the right (check marks, d./f./e./c. shelfmarks, an arrow, 'see S. Mantra Kddh...') belongs to the adjacent page and is correctly not transcribed. Mirrored show-through from fol. 156 is not target text. The binding thread at the gutter is a physical feature.",
+    "region_review": {
+      "top": "Only the folio number '156b'. The rest is ruled and blank apart from show-through.",
+      "middle": "There are ink specks on a ruled line in the upper-middle and a faint smudge above the entry; neither is legible. Otherwise only show-through.",
+      "bottom": "One entry, d. 951(4), with its continuation and date column. Below it the page is blank to the lower edge.",
+      "left_margin": "Shelfmark 'd. 951(4).' only; no other marginal writing.",
+      "right_margin": "Gutter, binding thread, and a fragment of the facing page; no target text.",
+      "interlinear": "Two pencil queries above the date column. A few faint dots right of the second query appear to be specks, not writing."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        370,
+        330,
+        130,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "156b",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        405,
+        3440,
+        2080,
+        120
+      ],
+      "kind_hint": "entry",
+      "anchor": "d. 951(4).  Bilhaṇakāvya [? Caurapañcāśikā or pt. of Vikramāṅka canto?].",
+      "features": [
+        "ink",
+        "shelfmark in left column",
+        "bracketed tentative identification with query mark",
+        "abbreviation 'pt.'",
+        "only full entry on page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1110,
+        3595,
+        300,
+        75
+      ],
+      "kind_hint": "continuation",
+      "anchor": "145 verses.",
+      "features": [
+        "ink",
+        "second line of b002 entry",
+        "extent statement"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2515,
+        3595,
+        490,
+        85
+      ],
+      "kind_hint": "entry_date_extent_column",
+      "anchor": "n.d. :12: 13: Tel.",
+      "features": [
+        "ink",
+        "right-hand date/extent/script column",
+        "script abbreviation 'Tel.'",
+        "aligned with continuation line of b002"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2640,
+        3320,
+        90,
+        165
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "n? | ?",
+      "features": [
+        "faint pencil",
+        "query mark with vertical stroke",
+        "above the date column",
+        "attachment to entry uncertain"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2715,
+        3455,
+        120,
+        165
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "n? | ?",
+      "features": [
+        "faint pencil",
+        "query mark with vertical stroke",
+        "repeat of b005, slightly lower and to the right",
+        "attachment to entry uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "156b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left corner. The 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0312-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "single_entry",
+      "literal_text": "d. 951(4).   Bilhaṇakāvya [? Caurapañcāśikā or pt. of Vikramāṅka canto].\n145 verses.                                    n.d. :12: 13: Tel.",
+      "fields": {
+        "shelfmark": "d. 951(4).",
+        "title": "Bilhaṇakāvya",
+        "date": "n.d.",
+        "extent": "145 verses.",
+        "script": "Tel."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The shelfmark is in the left column. The title and the bracketed tentative identification are on the same line.",
+        "The bracket opens with a query mark '?'. The cataloguer offers alternative identifications: 'Caurapañcāśikā' or 'pt. of Vikramāṅka canto'.",
+        "'145 verses.' is written on the second line under the title.",
+        "The right-hand column reads 'n.d. :12: 13: Tel.' and is aligned with the second line. The numerals 12 and 13 follow the page's column pattern, but the role of each number is not stated on this page. They are not assigned to fields here.",
+        "This is the only catalogue entry on the page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The diacritics in the cursive bracket text are uncertain: 'Caurapañcāśikā' (final vowel length) and 'Vikramāṅka'.",
+        "The final word may read 'canto' or 'cantos'. The closing bracket looks like ')' or ']'.",
+        "'pt.' is read as an abbreviation; its expansion is not supplied."
+      ],
+      "stable_id": "css-prod-0312-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_query",
+      "literal_text": "n̤ | ?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil. The letter 'n' appears to have a dot below, followed by a vertical stroke and a query mark.",
+        "It sits above the date column, above the line of entry d. 951(4)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 312,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "Bilhaṇakāvya",
+          "evidence": "It is the only entry nearby and lies above its line. It may query a dotted ṇ (as in 'Bilhaṇa') or the n.d. date. The purpose is not stated.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'n' with a dot below is uncertain; the dot may be part of the query mark.",
+        "What the mark refers to is unclear."
+      ],
+      "stable_id": "css-prod-0312-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_query",
+      "literal_text": "n̤ | ?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil. This is a second, similar mark, placed slightly lower and to the right of b005, just above 'n.d. :12'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 312,
+          "target_record_id": "r002",
+          "target_block_id": "b004",
+          "target_anchor": "n.d. :12: 13: Tel.",
+          "evidence": "Its position is directly above the date column of the only entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading is uncertain. It may be a repetition or a correction of b005."
+      ],
+      "stable_id": "css-prod-0312-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "d. 951(4).   Bilhaṇakāvya [? Caurapañcāśikā or pt. of Vikramāṅka canto].\n145 verses.                                    n.d. :12: 13: Tel.",
+      "after": "d. 951(4).   Bilhaṇakāvya [? Caurapañcāśikā or pt. of Vikramāṅka canto?[reading?]][reading?].\n145 verses.                                    n.d. :12: 13: Tel.",
+      "reason": "After 'cant' the source shows a sign resembling the opening query mark (or 'z'), then a closing bracket-like stroke. The inventory reads 'canto?]'. The candidate omitted the probable query mark. Both the final sign and the bracket shape remain uncertain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The diacritics in the cursive bracket text are uncertain: 'Caurapañcāśikā' (final vowel length) and 'Vikramāṅka'.",
+        "The final word may read 'canto' or 'cantos'. The closing bracket looks like ')' or ']'.",
+        "'pt.' is read as an abbreviation; its expansion is not supplied."
+      ],
+      "after": [
+        "The diacritics in the cursive bracket text are uncertain: 'Caurapañcāśikā' (final vowel length) and 'Vikramāṅka' (the macron and the nasal dot are not clearly visible).",
+        "The letters after 'cant' are ambiguous. They may be 'o' plus a query mark (matching the opening '[?'), or another letter such as 'z'/'s'. The closing bracket looks like ')' rather than ']'.",
+        "'pt.' is read as an abbreviation; its expansion is not supplied."
+      ],
+      "reason": "Records the ambiguity of the final sign of the bracket without resolving it.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9b787493-5530-4ce8-a80e-8c76c77b556f.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b787493-5530-4ce8-a80e-8c76c77b556f/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "c079c48ea2799795d9ea90f67168c9b55f2dcbb6a65b5fb31a13192a682c3691",
+      "bytes": 259056,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b787493-5530-4ce8-a80e-8c76c77b556f/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9f8d53fd75be36aab191c4d9fa5d266a10d167a3f630cc3b3d260eb4e0d8831b",
+      "bytes": 299079,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b787493-5530-4ce8-a80e-8c76c77b556f/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f263c4d3355f608bbdc158e16973675766cb174424ecba0aa816b913a19be4dc",
+      "bytes": 304434,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b787493-5530-4ce8-a80e-8c76c77b556f/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7d6234b7eae7df62a2c603029f091481b99a43669481833b3b485155f0f19a84",
+      "bytes": 312512,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b787493-5530-4ce8-a80e-8c76c77b556f/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b5c03fc9011c6ceff27005dce5a2a8c21e4b763bedf578b8c9e6d9e38b009095",
+      "bytes": 295639,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b787493-5530-4ce8-a80e-8c76c77b556f/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1982b7d70e349d0a28ce7e27f7fb4379200d97184021395e3ae7a45d2d2434c5",
+      "bytes": 326450,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b787493-5530-4ce8-a80e-8c76c77b556f/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "71a8db07a02816fd5b99ebafdc949b7a4bffba1557c421bb0973df9beb599e67",
+      "bytes": 338611,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cd5c71c2-1332-4b83-a6e0-1b32c3b1a9f6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "da6f999901a712de1c5e18afcc1aba2ffca9d6e14905feb37bfc7829d05cc9ba",
+      "bytes": 282195,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 311,
+      "folio_label": "fol. 156",
+      "page_id": "cd5c71c2-1332-4b83-a6e0-1b32c3b1a9f6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/621901ad-7754-418b-a31f-db7c1f71aca3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "81deae361a2a06ad9a64b0f2cb24947be9decb02393895ec456faea9173c72da",
+      "bytes": 283626,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 313,
+      "folio_label": "fol. 157",
+      "page_id": "621901ad-7754-418b-a31f-db7c1f71aca3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

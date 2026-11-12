@@ -1,0 +1,860 @@
+{
+  "source_order": 400,
+  "folio_label": "fol. 200b",
+  "page_id": "d25b1ac8-1e85-4c5d-917d-cd8c55574990",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "200b",
+    "principal_page_bbox": [
+      275,
+      280,
+      2880,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          355,
+          315,
+          150,
+          130
+        ],
+        "kind_hint": "page_number",
+        "anchor": "200b",
+        "features": [
+          "top-left corner",
+          "superscript 'b' above '200'",
+          "smudge or erasure beneath the numerals"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          410,
+          1790,
+          1360,
+          100
+        ],
+        "kind_hint": "marginal_note_for_facing_entry",
+        "anchor": "83 mixed folios and ff 1-16 of passage dealing with Śabda",
+        "features": [
+          "single handwritten line in ink",
+          "reading of 'Śabda' uncertain",
+          "followed to the right by a separately drawn left-pointing arrow (see unattached_marks)"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          375,
+          2500,
+          2765,
+          120
+        ],
+        "kind_hint": "marginal_note_for_facing_entry",
+        "anchor": "109 ff., probably defective, mostly in European foolscap, ends with ...",
+        "features": [
+          "single long line in ink running to the gutter",
+          "ends with a small cross-reference 'Cf. 10.5902 v Madras IX, 3380-1' (reading uncertain)",
+          "the reference end is written in a smaller hand; 'IX' appears underlined or bracketed",
+          "a left-pointing arrow on the facing page (fol. 201) at this level points toward this note"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2660,
+          1815,
+          360,
+          40
+        ],
+        "description": "Horizontal left-pointing arrow near the right edge of the page, on the same ruled line as b002; it appears to connect the note to an entry on the facing page."
+      },
+      {
+        "bbox": [
+          1070,
+          1400,
+          300,
+          50
+        ],
+        "description": "Small ink specks or blots; not text."
+      },
+      {
+        "bbox": [
+          1040,
+          1630,
+          100,
+          40
+        ],
+        "description": "Small ink specks; not text."
+      },
+      {
+        "bbox": [
+          810,
+          2170,
+          25,
+          25
+        ],
+        "description": "Isolated ink dot."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter is at about x≈3140–3150. Material to its right (d.533…, √c. …, d. …, and a ← arrow at about x≈3280 y≈2550) belongs to the facing page, fol. 201. It is not transcribed here.",
+      "Faint ghost writing across the whole page is show-through from the recto, fol. 200: shelfmarks, titles and n.d. figures. It is not target text.",
+      "Both notes appear to annotate entries on the facing page (fol. 201) rather than form independent holdings. The b003 note likely links via the facing-page arrow to √c. 217; the attachment is not confirmed."
+    ],
+    "uncertainties": [
+      "Reading of the final word of b002 ('Śabda'?).",
+      "Exact reading of the small reference at the end of b003 ('Cf. 10.5902 v Madras IX, 3380-1'?).",
+      "Reading of 'ends with ...' text in b003 (Sanskrit title partially uncertain)."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "200b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "200b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner. The 'b' is written superscript above and after '200', followed by a dot.",
+          "There is a grey smudge or possible erasure beneath the numerals."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The trailing dot may be punctuation or a stray mark."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "facing_page_marginal_note",
+        "literal_text": "83 mixed folios and ff1-16 of passage dealing with Śabda[?]",
+        "fields": {
+          "extent": "83 mixed folios and ff1-16"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line on a ruled line, about y≈1840.",
+          "A separately drawn horizontal left-pointing arrow (b901) on the same line runs toward the gutter. It appears to connect the note to an entry on the facing page, fol. 201.",
+          "No shelfmark or title is written on this page, so this is not recorded as an independent holding."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 401,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 210 (4) … fragments and stray leaves … n.d.: 99: 13: D",
+            "evidence": "The arrow on this page is at native y≈1838. In the fol. 201 overview, the ticked entry √c. 210(4) falls at about the same level (≈1836 native). This was judged from rows on separately imaged pages.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The final word could read 'Śabda' or 'Śabde'.",
+          "'ff1-16' is written without a space.",
+          "The target entry on fol. 201 is estimated only by vertical alignment."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "facing_page_marginal_note",
+        "literal_text": "109 ff., probably defective, mostly in European foolscap, ends with codanā lakṣaṇa[?] sutra. Cf. 10.5902 v Madras IX, 3380-1",
+        "fields": {
+          "extent": "109 ff."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A single long ink line, about y≈2550, running up to the gutter.",
+          "The reference 'IX, 3380-1' is written smaller. 'IX' appears underlined or bracketed.",
+          "The tail of this line ('…2 Madras IX, 3380-1') is visible at the left edge of the fol. 201 image. A left-pointing arrow on fol. 201 at this level points to √c. 217."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 401,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "← √c. 217 —— [ II: Ślokavārtika, by Kumārila ] n.d.: 109: 9: D",
+            "evidence": "The level matches, the fol. 201 arrow points toward this note, and the extent '109 ff.' agrees with the n.d.: 109 figure on fol. 201.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The phrase 'codanā lakṣaṇa sutra' is uncertain; it could be 'codanālakṣaṇe sutra'.",
+          "'10.5902' could be '1O.5902' (possibly I.O.); it is not expanded here.",
+          "The 'v' before 'Madras' is unclear; it could be a letter or a tick.",
+          "'3380-1' could be read as '338 0-1'."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2660,
+          1815,
+          360,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "← on line of b002",
+        "features": [
+          "horizontal left-pointing ink arrow",
+          "listed in the provisional inventory as unattached_mark; promoted to a block to be accounted for"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Marginal note probably annotating a facing-page entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Marginal note probably annotating fol. 201 √c. 217."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow on the same line as b002, linking toward the facing page."
+      }
+    ],
+    "page_annotations": [
+      "Faint ghost writing across the page is show-through from fol. 200 and is not transcribed.",
+      "Small ink specks near (1070,1400), (1040,1630) and (810,2170) are not text.",
+      "Material to the right of the gutter at x≈3145 (d.533, √c., d., ← arrow) belongs to fol. 201 and is not transcribed.",
+      "The lower half of the page was reviewed and is blank apart from show-through."
+    ],
+    "unresolved_relationships": [
+      "The fol. 201 entry targeted by the b002/b901 arrow is uncertain; √c. 210(4) is suggested by alignment only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Page number '200' with a superscript 'b' and a following dot, with a grey smudge beneath. It is correctly kept as a non-catalogue page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single ink line at y≈1800–1870 reads '83 mixed folios and ff1-16 of passage dealing with Śabda'. The final word is still uncertain. The literal reading is consistent with the source."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The long line at y≈2510–2600 runs to the gutter, with a smaller-written reference tail. There may be a comma-like stroke after 'Madras' or 'Madra' before 'IX'; this is added as an uncertainty and is not certain. The 'Cf.' reading and the bracketing or underlining of 'IX' are retained as uncertain."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The left-pointing arrow at x≈2660–3015, y≈1838 is on the same line as b002. Its continuation or tail appears as a short horizontal stroke at the left edge of the fol. 201 image at the same height. It is correctly attached to r002 as a linking mark."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 401,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 210 (4) … fragments and stray leaves … n.d.: 99: 13: D",
+            "evidence": "The arrow on this page is at native y≈1838. In the fol. 201 overview, the ticked entry √c. 210(4) falls at about the same level (≈1836 native). This was judged from rows on separately imaged pages.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 401,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 210 (4) … fragments and stray leaves … n.d.: 99: 13: D",
+            "evidence": "The arrow on this page is at native y≈1838. In the fol. 201 overview, the ticked entry √c. 210(4) falls at about the same level (≈1836 native), and a horizontal stroke is visible at the left edge of the fol. 201 image at that height. The note's extent, 83 mixed folios plus ff. 1-16, sums to 99, which agrees with the 'n.d.: 99' figure of that entry. That last point is an arithmetic observation, not a reading written on the page.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "Vertical alignment, the arrow continuation and the arithmetic agreement of extents together support the attachment more than alignment alone. It is still not confirmed.",
+        "source_block_ids": [
+          "b002",
+          "b901"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The phrase 'codanā lakṣaṇa sutra' is uncertain; it could be 'codanālakṣaṇe sutra'.",
+          "'10.5902' could be '1O.5902' (possibly I.O.); it is not expanded here.",
+          "The 'v' before 'Madras' is unclear; it could be a letter or a tick.",
+          "'3380-1' could be read as '338 0-1'."
+        ],
+        "after": [
+          "The phrase 'codanā lakṣaṇa sutra' is uncertain; it could be 'codanālakṣaṇe sutra'.",
+          "'10.5902' could be '1O.5902' (possibly I.O.); it is not expanded here.",
+          "The 'v' before 'Madras' is unclear; it could be a letter or a tick.",
+          "'Madras' may be written 'Madra' followed by a comma-like stroke before the small 'IX'; the punctuation around 'IX' is uncertain.",
+          "'3380-1' could be read as '338 0-1'."
+        ],
+        "reason": "Native tile inspection shows a small stroke between the 'Madra…' word and 'IX' that may be a comma or part of the bracketing.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The attachment to fol. 201 √c. 210(4) is probable but not confirmed. The final word ('Śabda'/'Śabde') also remains uncertain.",
+        "next_check": "Compare on a joint image of the opening whether the arrow line crosses the gutter into the √c. 210(4) row."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The small reference tail ('Cf. 10.5902 v Madras IX, 3380-1') and the phrase 'codanā lakṣaṇa sutra' are not securely legible.",
+        "next_check": "Inspect the tail at higher magnification for the comma/bracket around IX and the 'v' mark."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There is a small V-shaped mark at the gutter near the top (≈x3125, y≈630) and sewing or puncture marks on the gutter fold (≈y2490, ≈y3560). These are not in the inventory. They appear to be binding or gutter marks rather than target text.",
+        "next_check": "Confirm on the opening image whether the V mark belongs to the binding or to fol. 201."
+      }
+    ],
+    "boundary_review": "The gutter is at x≈3140–3150. Everything to its right (d.533, d.5…, √c. entries, ← arrow at y≈2550) belongs to fol. 201 and is not transcribed. The b003 tail is visible again at the left edge of the fol. 201 image; it is the same text, not a duplicate record. Show-through from fol. 200 covers the page and is not target text.",
+    "region_review": {
+      "top": "Only the page number '200b.' with a smudge. A gutter V-mark near y≈630 is noted, not text.",
+      "middle": "Contains two ink notes (b002 with arrow b901; b003) and ink specks near (1070,1400), (1040,1630) and (810,2170). Otherwise only show-through.",
+      "bottom": "From y≈2650 to the page edge (≈4850) there is only show-through and stray dots. No target writing was seen.",
+      "left_margin": "No writing beyond the ruled margin.",
+      "right_margin": "The b003 tail reaches the gutter. Gutter puncture marks are not text. The facing-page material lies beyond.",
+      "interlinear": "No interlinear additions were seen. The smaller writing of 'IX, 3380-1' is part of the b003 line."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        355,
+        315,
+        150,
+        130
+      ],
+      "kind_hint": "page_number",
+      "anchor": "200b",
+      "features": [
+        "top-left corner",
+        "superscript 'b' above '200'",
+        "smudge or erasure beneath the numerals"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        410,
+        1790,
+        1360,
+        100
+      ],
+      "kind_hint": "marginal_note_for_facing_entry",
+      "anchor": "83 mixed folios and ff 1-16 of passage dealing with Śabda",
+      "features": [
+        "single handwritten line in ink",
+        "reading of 'Śabda' uncertain",
+        "followed to the right by a separately drawn left-pointing arrow (see unattached_marks)"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        375,
+        2500,
+        2765,
+        120
+      ],
+      "kind_hint": "marginal_note_for_facing_entry",
+      "anchor": "109 ff., probably defective, mostly in European foolscap, ends with ...",
+      "features": [
+        "single long line in ink running to the gutter",
+        "ends with a small cross-reference 'Cf. 10.5902 v Madras IX, 3380-1' (reading uncertain)",
+        "the reference end is written in a smaller hand; 'IX' appears underlined or bracketed",
+        "a left-pointing arrow on the facing page (fol. 201) at this level points toward this note"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2660,
+        1815,
+        360,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "← on line of b002",
+      "features": [
+        "horizontal left-pointing ink arrow",
+        "listed in the provisional inventory as unattached_mark; promoted to a block to be accounted for"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "200b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner. The 'b' is written superscript above and after '200', followed by a dot.",
+        "There is a grey smudge or possible erasure beneath the numerals."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The trailing dot may be punctuation or a stray mark."
+      ],
+      "stable_id": "css-prod-0400-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "facing_page_marginal_note",
+      "literal_text": "83 mixed folios and ff1-16 of passage dealing with Śabda[?]",
+      "fields": {
+        "extent": "83 mixed folios and ff1-16"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line on a ruled line, about y≈1840.",
+        "A separately drawn horizontal left-pointing arrow (b901) on the same line runs toward the gutter. It appears to connect the note to an entry on the facing page, fol. 201.",
+        "No shelfmark or title is written on this page, so this is not recorded as an independent holding."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 401,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 210 (4) … fragments and stray leaves … n.d.: 99: 13: D",
+          "evidence": "The arrow on this page is at native y≈1838. In the fol. 201 overview, the ticked entry √c. 210(4) falls at about the same level (≈1836 native). This was judged from rows on separately imaged pages.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The final word could read 'Śabda' or 'Śabde'.",
+        "'ff1-16' is written without a space.",
+        "The target entry on fol. 201 is estimated only by vertical alignment."
+      ],
+      "stable_id": "css-prod-0400-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "facing_page_marginal_note",
+      "literal_text": "109 ff., probably defective, mostly in European foolscap, ends with codanā lakṣaṇa[?] sutra. Cf. 10.5902 v Madras IX, 3380-1",
+      "fields": {
+        "extent": "109 ff."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A single long ink line, about y≈2550, running up to the gutter.",
+        "The reference 'IX, 3380-1' is written smaller. 'IX' appears underlined or bracketed.",
+        "The tail of this line ('…2 Madras IX, 3380-1') is visible at the left edge of the fol. 201 image. A left-pointing arrow on fol. 201 at this level points to √c. 217."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 401,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "← √c. 217 —— [ II: Ślokavārtika, by Kumārila ] n.d.: 109: 9: D",
+          "evidence": "The level matches, the fol. 201 arrow points toward this note, and the extent '109 ff.' agrees with the n.d.: 109 figure on fol. 201.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The phrase 'codanā lakṣaṇa sutra' is uncertain; it could be 'codanālakṣaṇe sutra'.",
+        "'10.5902' could be '1O.5902' (possibly I.O.); it is not expanded here.",
+        "The 'v' before 'Madras' is unclear; it could be a letter or a tick.",
+        "'3380-1' could be read as '338 0-1'."
+      ],
+      "stable_id": "css-prod-0400-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 401,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 210 (4) … fragments and stray leaves … n.d.: 99: 13: D",
+          "evidence": "The arrow on this page is at native y≈1838. In the fol. 201 overview, the ticked entry √c. 210(4) falls at about the same level (≈1836 native). This was judged from rows on separately imaged pages.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 401,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 210 (4) … fragments and stray leaves … n.d.: 99: 13: D",
+          "evidence": "The arrow on this page is at native y≈1838. In the fol. 201 overview, the ticked entry √c. 210(4) falls at about the same level (≈1836 native), and a horizontal stroke is visible at the left edge of the fol. 201 image at that height. The note's extent, 83 mixed folios plus ff. 1-16, sums to 99, which agrees with the 'n.d.: 99' figure of that entry. That last point is an arithmetic observation, not a reading written on the page.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Vertical alignment, the arrow continuation and the arithmetic agreement of extents together support the attachment more than alignment alone. It is still not confirmed.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The phrase 'codanā lakṣaṇa sutra' is uncertain; it could be 'codanālakṣaṇe sutra'.",
+        "'10.5902' could be '1O.5902' (possibly I.O.); it is not expanded here.",
+        "The 'v' before 'Madras' is unclear; it could be a letter or a tick.",
+        "'3380-1' could be read as '338 0-1'."
+      ],
+      "after": [
+        "The phrase 'codanā lakṣaṇa sutra' is uncertain; it could be 'codanālakṣaṇe sutra'.",
+        "'10.5902' could be '1O.5902' (possibly I.O.); it is not expanded here.",
+        "The 'v' before 'Madras' is unclear; it could be a letter or a tick.",
+        "'Madras' may be written 'Madra' followed by a comma-like stroke before the small 'IX'; the punctuation around 'IX' is uncertain.",
+        "'3380-1' could be read as '338 0-1'."
+      ],
+      "reason": "Native tile inspection shows a small stroke between the 'Madra…' word and 'IX' that may be a comma or part of the bracketing.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d25b1ac8-1e85-4c5d-917d-cd8c55574990.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d25b1ac8-1e85-4c5d-917d-cd8c55574990/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "d436db992c85e64aca9b2a258a3ee749de59534a2d456f47acbda7d4b7069a33",
+      "bytes": 258116,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d25b1ac8-1e85-4c5d-917d-cd8c55574990/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "015c07848202c9ee2a6a0f9dd2f7678de59aa2cb063ef395962e2297f0f03860",
+      "bytes": 310588,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d25b1ac8-1e85-4c5d-917d-cd8c55574990/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f16c3e1738d429bf971635962302e996c29cb9e1f0429fedf457444d302b7a2c",
+      "bytes": 293884,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d25b1ac8-1e85-4c5d-917d-cd8c55574990/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "20c5eabbed148cd2e5be8d7da53d5b0b48d5ee9baabee39db13a3b558adeaf9d",
+      "bytes": 321263,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d25b1ac8-1e85-4c5d-917d-cd8c55574990/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "67ddb096114f9fd0f2c5e28d4e323a51c2e612a103e204809d5c820af2f28250",
+      "bytes": 285569,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d25b1ac8-1e85-4c5d-917d-cd8c55574990/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2a114d9ef912f2781834471636ca6f14f292b36a5f75260c96cd103cb5b71e80",
+      "bytes": 294375,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d25b1ac8-1e85-4c5d-917d-cd8c55574990/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "46a8a0030e9a1d4de31fdac52582a19fad4ba7156b5a7382e72e4eb02461dc00",
+      "bytes": 291803,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4e32e682-c68f-428c-a55a-8f08a4c96862/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "23d273b4892f299a1b9d9155702a1113c33394d4d2b1cecefc824119e9107d98",
+      "bytes": 259532,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 399,
+      "folio_label": "fol. 200",
+      "page_id": "4e32e682-c68f-428c-a55a-8f08a4c96862",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4438e2ea-83f8-413c-87ee-25be26069010/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "53a259d76309b4678ee8afab3db907d8f944b2ebdcb0b55d1836e13084fa19ef",
+      "bytes": 258184,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 401,
+      "folio_label": "fol. 201",
+      "page_id": "4438e2ea-83f8-413c-87ee-25be26069010",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

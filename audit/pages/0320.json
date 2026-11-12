@@ -1,0 +1,690 @@
+{
+  "source_order": 320,
+  "folio_label": "fol. 160b",
+  "page_id": "39d590ac-ccae-4ea8-ae99-658a9dd7d8cb",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visual_folio": null,
+    "visible_folio": "160b",
+    "principal_page_bbox": [
+      320,
+      255,
+      2880,
+      4575
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          400,
+          295,
+          135,
+          100
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "160b",
+        "features": [
+          "ink",
+          "superscript b after 160",
+          "top left corner"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          465,
+          800,
+          2510,
+          140
+        ],
+        "kind_hint": "entry",
+        "anchor": "+ 60. Sūtasaṁhitātātparyaṭīkā by Mādhavācārya. ff.1-134. Dated Śaka (for Saṁvat.?) 1864.",
+        "features": [
+          "single handwritten line",
+          "leading + mark",
+          "numeral/abbreviation after + read as '60' (uncertain)",
+          "extent ff.1-134",
+          "date with parenthetical query '(for Saṁvat.?)'",
+          "followed by a horizontal connecting line running to the gutter"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2975,
+          840,
+          225,
+          30
+        ],
+        "description": "Horizontal ink line from the end of b002 toward the gutter; it appears to lead to an arrow mark on the facing fol. 161 near the Brahmagītā entry. The attachment across the gutter is apparent, not certain."
+      },
+      {
+        "bbox": [
+          695,
+          305,
+          25,
+          15
+        ],
+        "description": "Short dash near the top margin, to the right of the folio number."
+      },
+      {
+        "bbox": [
+          610,
+          2115,
+          25,
+          35
+        ],
+        "description": "Small ink specks in the left-middle area."
+      },
+      {
+        "bbox": [
+          3195,
+          2020,
+          15,
+          60
+        ],
+        "description": "Short vertical stroke at the gutter edge."
+      },
+      {
+        "bbox": [
+          520,
+          4690,
+          15,
+          15
+        ],
+        "description": "Dot near the bottom margin."
+      },
+      {
+        "bbox": [
+          1515,
+          4740,
+          25,
+          20
+        ],
+        "description": "Speck near the bottom margin."
+      }
+    ],
+    "boundary_notes": [
+      "Faint mirrored writing across most of the page is show-through from the recto (fol. 160, the Baudhāyana list and the entries below it). It is not target-page writing and is not inventoried.",
+      "The strip to the right of the gutter (x > ~3240) is the edge of the facing fol. 161. It shows 'e', 'd', ticks, '? how many', '? which 3 or 4' and 'ff.1-19, 3a…'. These fragments belong to fol. 161 and are not target-page records.",
+      "The connecting line after b002 crosses toward fol. 161. b002 may therefore be linked to the Brahmagītā / Sūtasaṁhitā entry there, but it is recorded here as a separate block."
+    ],
+    "uncertainties": [
+      "The reading of the character(s) after '+' (60 / 6o / Co.) is uncertain.",
+      "The ligature reading 'tātparyaṭīkā' and the diacritics in the title are approximate.",
+      "Whether the connecting line ends at the arrow on fol. 161 cannot be fully confirmed across the gutter."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "160b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "160b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top left corner. The 'b' is written superscript after '160' and is followed by a dot-like mark."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "holding",
+        "subtype": "added_entry_without_shelfmark_linked_by_line",
+        "literal_text": "+ 6o[?]. Sūtasaṁhitātātparyaṭīkā by Mādhavācārya. ff.1-134. Dated Śaka (for Saṁvat.?) 1864.",
+        "fields": {
+          "title": "Sūtasaṁhitātātparyaṭīkā",
+          "author": "Mādhavācārya",
+          "extent": "ff.1-134",
+          "date": "Śaka (for Saṁvat.?) 1864"
+        },
+        "normalized_title": "Sūtasaṁhitā-tātparyaṭīkā",
+        "annotations": [
+          "Single handwritten ink line written on a ruled line in the upper part of the page. It begins with a '+' mark.",
+          "A horizontal ink line runs from after '1864.' to the gutter. It appears to continue toward an arrow mark (✕←) beside the Brahmagītā entry on the facing fol. 161."
+        ],
+        "editorial_context": [
+          {
+            "field": "context",
+            "value": "Facing fol. 161 Brahmagītā entry: 'From the Yajñavaibhavakhaṇḍa of the Sūtasaṁhitā of the Skanda Purāṇa', shelfmark beginning 'b.'",
+            "source_page_order": 321,
+            "source_block_id": null,
+            "evidence": "The connecting line from this entry crosses the gutter toward the arrow mark at that entry.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 321,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Brahmagītā / From the Yajñavaibhavakhaṇḍa of the Sūtasaṁhitā (arrow mark beside shelfmark b. …(1))",
+            "evidence": "The horizontal line runs from the end of the entry to the gutter, level with the ✕← arrow on fol. 161.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The characters after '+' could be read as '6o', '60', 'Co.' or 'lo.'. The reading is uncertain, and their function (number or shelfmark) is unclear.",
+          "The diacritics and ligatures in 'Sūtasaṁhitātātparyaṭīkā' are approximate.",
+          "The word read as 'for' in '(for Saṁvat.?)' is abbreviated or cramped and could be 'fr'.",
+          "No shelfmark is visible on this page. The entry may instead be a note attached to the fol. 161 holding rather than an independent holding."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2975,
+          840,
+          225,
+          30
+        ],
+        "kind_hint": "connecting_line",
+        "anchor": "line after '1864.'",
+        "features": [
+          "ink horizontal line toward the gutter",
+          "apparent link to an arrow on fol. 161"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The only catalogue text on the page."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "A connecting line securely continuous with the end of b002. Its target on the facing page is probable, not certain."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and the single entry line, the page is blank after image review. Faint mirrored writing across the page is show-through from fol. 160 recto and is not transcribed.",
+      "Minor non-text marks were noted: a short dash right of the folio number (~[695,305]), ink specks (~[610,2115]), a short vertical stroke at the gutter (~[3195,2020]), a dot (~[520,4690]) and a speck (~[1515,4740]) in the bottom margin.",
+      "The strip right of the gutter (x>~3240) belongs to fol. 161 ('e', 'd', ticks, '? how many', '? which 3 or 4', 'ff.1-19, 3a…'). It is not transcribed as target records."
+    ],
+    "unresolved_relationships": [
+      "Whether the r002 connecting line terminates at the ✕← arrow beside the Brahmagītā entry on fol. 161 cannot be fully confirmed across the gutter."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "In the top-left tile the ink folio number reads '160' with a superscript 'b' and a dot below or after it. The candidate's literal '160b' and its annotation match the source."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the single ink line across the upper page, on the ruled line near y≈850. The tiles confirm '+', then a cramped two-character group followed by a full stop, then 'Sūtasaṁhitātātparyaṭīkā by Mādhavācārya. ff.1-134. Dated Śaka (for Saṁvat.?) 1864.' The group after '+' looks most like 'Co' or '6o'. The candidate correctly marks it uncertain, and the inventory's '60' should not be treated as secure. The word after the opening parenthesis is cramped ('fr'/'for'), and the candidate keeps this uncertain. No cancellations or interlinear additions are visible."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The horizontal ink line runs from just after '1864.' (x≈2985) to the gutter (x≈3195) at y≈860, matching the inventory's unattached mark at [2975,840,225,30]. On the facing fol. 161 the tail of the same writing is visible at its left edge ('1864. ——'), and an arrow-like crossed mark sits on the Brahmagītā line (shelfmark 'b. 142 (1)'). This supports the link, but the link remains a probable attachment, not proof of record identity."
+      },
+      {
+        "block_id": "unattached_mark_dash_top",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A short dash right of the folio number at about [695,305] is visible in tile 1. It is a non-text mark, noted in page_annotations, and needs no record."
+      },
+      {
+        "block_id": "unattached_marks_specks_middle_bottom",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Specks at about [610,2115], the dot at about [520,4690] and the speck at about [1515,4740] are confirmed in the lower tiles. They are non-text marks, noted in page_annotations. A short vertical stroke at the gutter at about [3195,2020] is also visible in tile 4. None is transcribable text."
+      },
+      {
+        "block_id": "facing_strip_fol161",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "The strip right of the gutter (x>~3240) shows 'e', 'd', ticks, '? how many', '? which 3 or 4' and 'ff.1-19, 3a…'. These match the left margin and shelfmark column of fol. 161 in its overview, so they are facing-page fragments and correctly excluded from target records."
+      },
+      {
+        "block_id": "show_through",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint mirrored writing appears across most of the page, for example a reversed 'BAUDHĀYANA' and two reversed list columns. Their layout matches the fol. 160 recto list and the entries below it, so this is show-through and correctly not transcribed."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The characters after '+' are uncertain ('Co.', '6o.', '60.'), and their function (number, reference or abbreviation) is unclear.",
+        "next_check": "Compare with other '+' annotations in this hand elsewhere in the catalogue."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The entry has no shelfmark on this page. The connecting line plus the arrow mark on the fol. 161 Brahmagītā line (b. 142 (1)) suggest this is an added note or holding linked to that row, not an independent holding. The 'holding' type is therefore not securely established.",
+        "next_check": "Inspect fol. 161 at native resolution near its left edge and the arrow at the b. 142 (1) row to confirm the line terminus."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The reading of '(for' versus '(fr' and the exact diacritics in the title and author name are approximate.",
+        "next_check": "Run a higher-zoom check of the x≈1000–2600, y≈820–900 region."
+      }
+    ],
+    "boundary_review": "The principal page runs from about x=320 to the gutter at about x=3200. Everything right of about x=3240 belongs to fol. 161 and is excluded. The b002 connecting line crosses the gutter, and its continuation is visible on fol. 161 next to the Brahmagītā row arrow. The attachment is recorded as probable. Show-through from fol. 160 recto is excluded.",
+    "region_review": {
+      "top": "The folio number '160b' and a short dash are present. The ruled area above b002 is otherwise blank apart from show-through.",
+      "middle": "Apart from b002 near the top, the middle contains only faint mirrored show-through, ink specks and a gutter stroke. No target writing is present.",
+      "bottom": "Only show-through, a dot and a speck appear. There is no bottom note.",
+      "left_margin": "No marginal writing is present.",
+      "right_margin": "The connecting line runs from b002 to the gutter. Beyond the gutter are fol. 161 fragments, which are excluded.",
+      "interlinear": "No interlinear additions or cancellations are visible."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        400,
+        295,
+        135,
+        100
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "160b",
+      "features": [
+        "ink",
+        "superscript b after 160",
+        "top left corner"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        465,
+        800,
+        2510,
+        140
+      ],
+      "kind_hint": "entry",
+      "anchor": "+ 60. Sūtasaṁhitātātparyaṭīkā by Mādhavācārya. ff.1-134. Dated Śaka (for Saṁvat.?) 1864.",
+      "features": [
+        "single handwritten line",
+        "leading + mark",
+        "numeral/abbreviation after + read as '60' (uncertain)",
+        "extent ff.1-134",
+        "date with parenthetical query '(for Saṁvat.?)'",
+        "followed by a horizontal connecting line running to the gutter"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2975,
+        840,
+        225,
+        30
+      ],
+      "kind_hint": "connecting_line",
+      "anchor": "line after '1864.'",
+      "features": [
+        "ink horizontal line toward the gutter",
+        "apparent link to an arrow on fol. 161"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "160b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top left corner. The 'b' is written superscript after '160' and is followed by a dot-like mark."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0320-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "holding",
+      "subtype": "added_entry_without_shelfmark_linked_by_line",
+      "literal_text": "+ 6o[?]. Sūtasaṁhitātātparyaṭīkā by Mādhavācārya. ff.1-134. Dated Śaka (for Saṁvat.?) 1864.",
+      "fields": {
+        "title": "Sūtasaṁhitātātparyaṭīkā",
+        "author": "Mādhavācārya",
+        "extent": "ff.1-134",
+        "date": "Śaka (for Saṁvat.?) 1864"
+      },
+      "normalized_title": "Sūtasaṁhitā-tātparyaṭīkā",
+      "annotations": [
+        "Single handwritten ink line written on a ruled line in the upper part of the page. It begins with a '+' mark.",
+        "A horizontal ink line runs from after '1864.' to the gutter. It appears to continue toward an arrow mark (✕←) beside the Brahmagītā entry on the facing fol. 161."
+      ],
+      "editorial_context": [
+        {
+          "field": "context",
+          "value": "Facing fol. 161 Brahmagītā entry: 'From the Yajñavaibhavakhaṇḍa of the Sūtasaṁhitā of the Skanda Purāṇa', shelfmark beginning 'b.'",
+          "source_page_order": 321,
+          "source_block_id": null,
+          "evidence": "The connecting line from this entry crosses the gutter toward the arrow mark at that entry.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 321,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Brahmagītā / From the Yajñavaibhavakhaṇḍa of the Sūtasaṁhitā (arrow mark beside shelfmark b. …(1))",
+          "evidence": "The horizontal line runs from the end of the entry to the gutter, level with the ✕← arrow on fol. 161.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The characters after '+' could be read as '6o', '60', 'Co.' or 'lo.'. The reading is uncertain, and their function (number or shelfmark) is unclear.",
+        "The diacritics and ligatures in 'Sūtasaṁhitātātparyaṭīkā' are approximate.",
+        "The word read as 'for' in '(for Saṁvat.?)' is abbreviated or cramped and could be 'fr'.",
+        "No shelfmark is visible on this page. The entry may instead be a note attached to the fol. 161 holding rather than an independent holding."
+      ],
+      "stable_id": "css-prod-0320-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/39d590ac-ccae-4ea8-ae99-658a9dd7d8cb.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39d590ac-ccae-4ea8-ae99-658a9dd7d8cb/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "67e77428f03aca23049ea02d043634e71f1d6391bdcbd47cd10729c6cc0703ab",
+      "bytes": 244348,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39d590ac-ccae-4ea8-ae99-658a9dd7d8cb/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1031ba0453a5d60cb82b199418e22c734550962a274f789e7d959a6a62c982c5",
+      "bytes": 307083,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39d590ac-ccae-4ea8-ae99-658a9dd7d8cb/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "05e8bc2c09a1ce450acf61742914eb1b61470768da79d699109ac19569a3e06c",
+      "bytes": 310095,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39d590ac-ccae-4ea8-ae99-658a9dd7d8cb/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "44365e92f8ae3d24fd9f6d619dceb5a84b0234d7610dfb9ea3e7c6edb5721bee",
+      "bytes": 289074,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39d590ac-ccae-4ea8-ae99-658a9dd7d8cb/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d51253ff18fb94fee4a4bfbe12ba62ab22f0e294ca3f33f17a05d501a602f358",
+      "bytes": 265511,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39d590ac-ccae-4ea8-ae99-658a9dd7d8cb/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e5c39b56886b9aaa98a0fd7d3d1aceb68580241d628e2f203ff96db3ae795085",
+      "bytes": 299919,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/39d590ac-ccae-4ea8-ae99-658a9dd7d8cb/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee7e6878c94f76e549ef0bdd470b506c0d08c968eeeeb8a96a57ee4a37b5078f",
+      "bytes": 299403,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/870219c7-2717-4f70-8fe3-ab6ad1792601/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5ff389201e1a1089a1d22d2ed8a3325298bac26241ef5a2f19185f9696dcd093",
+      "bytes": 254596,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 319,
+      "folio_label": "fol. 160",
+      "page_id": "870219c7-2717-4f70-8fe3-ab6ad1792601",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72cc7a8e-f849-4b6e-b50b-8672306c898d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "68f7af563f4dd2e3af78011586c7182349ad3992954cfe07c32487dacf2ac878",
+      "bytes": 267616,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 321,
+      "folio_label": "fol. 161",
+      "page_id": "72cc7a8e-f849-4b6e-b50b-8672306c898d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

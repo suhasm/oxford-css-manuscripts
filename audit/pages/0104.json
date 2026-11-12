@@ -1,0 +1,1637 @@
+{
+  "source_order": 104,
+  "folio_label": "fol. 52b",
+  "page_id": "ad9b6c3b-4680-4f04-b841-d56a4c6226f7",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "52b",
+    "principal_page_bbox": [
+      305,
+      265,
+      2865,
+      4565
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          325,
+          130,
+          80
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "52b",
+        "features": [
+          "top-left corner",
+          "the 'b' is written superscript above a stop-like mark"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          460,
+          800,
+          1490,
+          150
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "Selections from work of Jayadeva & Bilvamangala.",
+        "features": [
+          "single line in faint pencil, upper page",
+          "there is no shelfmark or holding data on this line",
+          "it is linked by a '<' mark at the right gutter edge; a matching '<' and dash appear on the facing fol. 53 at the C.330 Kṛṣṇapadyāvalī entries",
+          "the reading '&' is an ampersand-like stroke"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          385,
+          4255,
+          2185,
+          120
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "in 23 paṭalas, Kārtikeśvarasaṃvāda. Cp. Daf. 137, Leipzig 362, I.O. 6936-40.",
+        "features": [
+          "single line in ink near the bottom of the page",
+          "the opening 'in' has dots beneath it",
+          "the line ends with a full stop",
+          "the reading 'Daf.' is uncertain",
+          "there is no shelfmark on this page",
+          "it probably relates to an entry on facing fol. 53 (the c.150 Kārtikeya entry, which has a '←' in the margin)"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3040,
+          835,
+          50,
+          50
+        ],
+        "description": "Pencil '<' mark at the right (gutter) edge, aligned with the b002 line."
+      },
+      {
+        "bbox": [
+          2600,
+          4400,
+          260,
+          200
+        ],
+        "description": "Very faint pencil strokes below b003, roughly like '1/11'; possibly show-through or erased marks; not legible."
+      },
+      {
+        "bbox": [
+          1000,
+          1700,
+          1300,
+          2000
+        ],
+        "description": "Faint show-through or ghost of an oval/figure drawing in mid-page; no legible text."
+      }
+    ],
+    "boundary_notes": [
+      "The right-hand strip beyond the gutter (x>~3175) belongs to facing fol. 53. Its '√c', dash, '√', '←' and '4.0x' marks were not recorded as target-page blocks.",
+      "Both b002 and b003 seem to be overflow notes for entries on facing fol. 53 rather than independent holdings. They are kept as distinct blocks with no parent asserted."
+    ],
+    "uncertainties": [
+      "In b002, the readings 'Selections', 'Jayadeva' and '&' are from faint pencil.",
+      "In b003, 'Daf.' and the exact digits of '6936-40' are uncertain.",
+      "Whether the faint marks near (2600-2860, 4400-4600) are writing is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "52b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "52ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner. The 'b' is superscript above a stop-like dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is unclear whether the dot under the 'b' is intended punctuation."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b903"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "overflow_note_in_pencil",
+        "literal_text": "Selections from work of Jayadeva & Bilvamangala.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Single line in faint pencil in the upper page, at about the fourth ruled line.",
+          "The ampersand is a '+'-like stroke.",
+          "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+          "No shelfmark or holding data appears on this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 105,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "C.330(2) / C.330(3) Kṛṣṇapadyāvalī ... Selections in praise of Kṛṣṇa",
+            "evidence": "There is a matching '<' mark at the gutter of this page and on the facing page beside the C.330 entries. The content refers to 'Selections' on both.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'Selections', 'Jayadeva' and '&' are from faint pencil.",
+          "It is uncertain which of the two C.330 entries the note attaches to."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "overflow_note",
+        "literal_text": "in 23 paṭalas, Kārtikeśvarasaṃvāda. Cp. Daf, 137, Leipzig 362, I.O. 6936-40.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line near the bottom of the page.",
+          "There are dots beneath the opening 'in'. Their function is unclear.",
+          "There are dots under letters of 'paṭalas'.",
+          "The line ends with a full stop."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 105,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 150 ... Begins:- 'Kārtikeya uvāca",
+            "evidence": "A '←' and '4.0x' appear in the left margin of fol. 53 at the c.150 entry, pointing toward this page. The content (Kārtikeśvarasaṃvāda) matches the Kārtikeya incipit.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Daf' is an uncertain reading; it may be 'Daf.' or 'Daf,'.",
+          "The exact digits of '6936-40' are uncertain; '69' is slightly unclear.",
+          "The diacritic in 'saṃvāda' is uncertain; it may be written as 'saṁvāda'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "faint_marks",
+        "literal_text": "[illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Very faint pencil strokes below b003, roughly like '1/11'.",
+          "They may be erased marks or show-through."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is uncertain whether these marks are writing at all."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2630,
+          4400,
+          230,
+          170
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "faint strokes like '1/11'",
+        "features": [
+          "very faint pencil",
+          "possibly erased or show-through"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          1000,
+          1700,
+          1300,
+          2000
+        ],
+        "kind_hint": "non_text",
+        "anchor": "ghost oval figure",
+        "features": [
+          "show-through of a drawing from another leaf",
+          "no legible text"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          3040,
+          840,
+          50,
+          45
+        ],
+        "kind_hint": "mark",
+        "anchor": "<",
+        "features": [
+          "pencil '<' at the gutter edge, aligned with b002"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Pencil note, probably overflow for fol. 53 C.330 entries."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Ink note, probably overflow for fol. 53 c.150 entry."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Faint illegible marks recorded as uncertain."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [],
+        "explanation": "Show-through drawing. Non-textual; noted in page_annotations."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Linking mark belonging to the b002 note."
+      }
+    ],
+    "page_annotations": [
+      "The page is mostly blank, ruled paper containing only two notes.",
+      "A faint show-through of an oval figure drawing appears mid-page.",
+      "The strip beyond the gutter (x>~3175) belongs to fol. 53. Its marks ('√c', dash, '√', '←', '4.0x') are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "b002: exact target among fol. 53 C.330(2)/C.330(3).",
+      "b003: attachment to fol. 53 c.150 is probable but not certain. Fol. 53 d.342 also mentions 'in 21 paṭalas. Lg. 362'."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '52' with a superscript 'b' and a dot beneath it, at the top-left corner. The candidate reading '52ᵇ.' matches the image; the function of the dot remains uncertain."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single faint pencil line, 'Selections from work of Jayadeva & Bilvamangala.', with a final stop. The ampersand is a small '+'/r-like stroke. The line sits on the third ruled line from the top, not the fourth."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A single ink line at the bottom. It shows dots under 'in' and a dot under the t of 'paṭalas'. The mark after 'Daf' looks like a comma, and the line ends with a stop. In 'saṁvāda' the anusvāra is uncertain. There may be a small space within 'Kārtikeśvara saṁvāda'."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Very faint pencil strokes resembling '1/11' at about x2630-2860, y4400-4560. They are not legible as text. Recording them as an uncertain illegible record is acceptable."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A faint show-through or ghost of an oval figure in mid-page. It has no legible text and is correctly kept as a non-text page annotation."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Pencil '<' at about x3064, y860, just left of the gutter and aligned with b002. It is correctly attached to r002 as a linking mark."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Single line in faint pencil in the upper page, at about the fourth ruled line.",
+          "The ampersand is a '+'-like stroke.",
+          "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+          "No shelfmark or holding data appears on this line."
+        ],
+        "after": [
+          "Single line in faint pencil in the upper page, written on the third ruled line from the top.",
+          "The ampersand is a '+'-like stroke.",
+          "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+          "No shelfmark or holding data appears on this line."
+        ],
+        "reason": "In native tile 0,0 the ruled lines fall at about y662, y782 and y898. The pencil text sits on the line at about y898, which is the third ruled line.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The attachment to fol. 53 c.150 is supported by the '←' and '4.0x' marks there. However, 'Leipzig 362' parallels 'Lg. 362' in the fol. 53 d.342 entry, which reads 'in 21 paṭalas', whereas this note reads 23. The target remains ambiguous.",
+        "next_check": "Compare the hands and ink of fol. 53 c.150 and d.342 with b003 at native resolution."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b903"
+        ],
+        "issue": "It is uncertain whether the note attaches to C.330(2) or C.330(3). On fol. 53 the '<' appears at about the C.330(3) row.",
+        "next_check": "Inspect native tiles of the fol. 53 left margin."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b902"
+        ],
+        "issue": "Further faint diagonal or vertical pencil-like strokes appear at about x2800-2900, y4050-4250, above b901. They are probably show-through or offset, and are not legible.",
+        "next_check": "Examine under enhanced contrast to decide whether they are writing."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter at about x3170. The strip to the right (the '√c', dash, '√', '←' and '4.0x' marks) belongs to fol. 53 and is not transcribed here. b002 and b003 are overflow notes with probable but unproven attachments to fol. 53 entries; no parent is asserted securely. Adjacent fol. 52 is context only.",
+    "region_review": {
+      "top": "Only the folio number '52ᵇ.' and a small speck below it. The b002 pencil line is in the upper area.",
+      "middle": "Ruled lines and a faint ghost oval figure (b902). No legible text.",
+      "bottom": "The b003 ink line, with faint illegible pencil strokes below it (b901) and above it to the right.",
+      "left_margin": "No writing apart from the start of the lines.",
+      "right_margin": "The pencil '<' (b903) at the gutter edge. Marks beyond the gutter belong to fol. 53.",
+      "interlinear": "No interlinear additions found. The only sub-linear features are the dots under 'in' and 'paṭalas' in b003."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        325,
+        130,
+        80
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "52b",
+      "features": [
+        "top-left corner",
+        "the 'b' is written superscript above a stop-like mark"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        460,
+        800,
+        1490,
+        150
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "Selections from work of Jayadeva & Bilvamangala.",
+      "features": [
+        "single line in faint pencil, upper page",
+        "there is no shelfmark or holding data on this line",
+        "it is linked by a '<' mark at the right gutter edge; a matching '<' and dash appear on the facing fol. 53 at the C.330 Kṛṣṇapadyāvalī entries",
+        "the reading '&' is an ampersand-like stroke"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        385,
+        4255,
+        2185,
+        120
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "in 23 paṭalas, Kārtikeśvarasaṃvāda. Cp. Daf. 137, Leipzig 362, I.O. 6936-40.",
+      "features": [
+        "single line in ink near the bottom of the page",
+        "the opening 'in' has dots beneath it",
+        "the line ends with a full stop",
+        "the reading 'Daf.' is uncertain",
+        "there is no shelfmark on this page",
+        "it probably relates to an entry on facing fol. 53 (the c.150 Kārtikeya entry, which has a '←' in the margin)"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2630,
+        4400,
+        230,
+        170
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "faint strokes like '1/11'",
+      "features": [
+        "very faint pencil",
+        "possibly erased or show-through"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        1000,
+        1700,
+        1300,
+        2000
+      ],
+      "kind_hint": "non_text",
+      "anchor": "ghost oval figure",
+      "features": [
+        "show-through of a drawing from another leaf",
+        "no legible text"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        3040,
+        840,
+        50,
+        45
+      ],
+      "kind_hint": "mark",
+      "anchor": "<",
+      "features": [
+        "pencil '<' at the gutter edge, aligned with b002"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "52ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner. The 'b' is superscript above a stop-like dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unclear whether the dot under the 'b' is intended punctuation."
+      ],
+      "stable_id": "css-prod-0104-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "overflow_note_in_pencil",
+      "literal_text": "Selections from work of Jayadeva & Bilvamangala.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Single line in faint pencil in the upper page, written on the third ruled line from the top.",
+        "The ampersand is a '+'-like stroke.",
+        "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+        "No shelfmark or holding data appears on this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 105,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "C.330(2) / C.330(3) Kṛṣṇapadyāvalī ... Selections in praise of Kṛṣṇa",
+          "evidence": "There is a matching '<' mark at the gutter of this page and on the facing page beside the C.330 entries. The content refers to 'Selections' on both.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'Selections', 'Jayadeva' and '&' are from faint pencil.",
+        "It is uncertain which of the two C.330 entries the note attaches to."
+      ],
+      "stable_id": "css-prod-0104-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "overflow_note",
+      "literal_text": "in 23 paṭalas, Kārtikeśvarasaṃvāda. Cp. Daf, 137, Leipzig 362, I.O. 6936-40.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line near the bottom of the page.",
+        "There are dots beneath the opening 'in'. Their function is unclear.",
+        "There are dots under letters of 'paṭalas'.",
+        "The line ends with a full stop."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 105,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 150 ... Begins:- 'Kārtikeya uvāca",
+          "evidence": "A '←' and '4.0x' appear in the left margin of fol. 53 at the c.150 entry, pointing toward this page. The content (Kārtikeśvarasaṃvāda) matches the Kārtikeya incipit.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Daf' is an uncertain reading; it may be 'Daf.' or 'Daf,'.",
+        "The exact digits of '6936-40' are uncertain; '69' is slightly unclear.",
+        "The diacritic in 'saṃvāda' is uncertain; it may be written as 'saṁvāda'."
+      ],
+      "stable_id": "css-prod-0104-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "faint_marks",
+      "literal_text": "[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Very faint pencil strokes below b003, roughly like '1/11'.",
+        "They may be erased marks or show-through."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is uncertain whether these marks are writing at all."
+      ],
+      "stable_id": "css-prod-0104-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Single line in faint pencil in the upper page, at about the fourth ruled line.",
+        "The ampersand is a '+'-like stroke.",
+        "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+        "No shelfmark or holding data appears on this line."
+      ],
+      "after": [
+        "Single line in faint pencil in the upper page, written on the third ruled line from the top.",
+        "The ampersand is a '+'-like stroke.",
+        "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+        "No shelfmark or holding data appears on this line."
+      ],
+      "reason": "In native tile 0,0 the ruled lines fall at about y662, y782 and y898. The pencil text sits on the line at about y898, which is the third ruled line.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Single line in faint pencil in the upper page, at about the fourth ruled line.",
+        "The ampersand is a '+'-like stroke.",
+        "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+        "No shelfmark or holding data appears on this line."
+      ],
+      "after": [
+        "Single line in faint pencil in the upper page, written on the third ruled line from the top.",
+        "The ampersand is a '+'-like stroke.",
+        "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+        "No shelfmark or holding data appears on this line."
+      ],
+      "reason": "The native tile shows ruled lines at y≈662, 782 and 898, and the text sits on the y≈898 line.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0104-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 105,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 150 ... Begins:- 'Kārtikeya uvāca",
+          "evidence": "A '←' and '4.0x' appear in the left margin of fol. 53 at the c.150 entry, pointing toward this page. The content (Kārtikeśvarasaṃvāda) matches the Kārtikeya incipit.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 105,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 150 ... Begins:- 'Kārtikeya uvāca",
+          "evidence": "A '←' and '4.0x' appear in the left margin of fol. 53 at the c.150 entry, pointing toward this page. The content (Kārtikeśvarasaṃvāda) matches the Kārtikeya incipit.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 105,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 342 (4) ... in 21 paṭalas. Lg. 362",
+          "evidence": "'Leipzig 362' parallels 'Lg. 362' in this entry. The paṭala count differs (23 here, 21 there). There is no marginal arrow at this entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The marginal marks and the cross-reference conflict, so both candidate targets are recorded and neither is preferred.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0104-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [
+    {
+      "block_id": "b902",
+      "before_bbox": [
+        1000,
+        1700,
+        1300,
+        2000
+      ],
+      "after_bbox": [
+        1200,
+        1650,
+        1100,
+        1650
+      ],
+      "reason": "In the native tiles, the faint figure spans about x1200–2300 and y1650–3300.",
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Uncertain source location retained as a proposal",
+      "focused_check_file": "0104-focus.parsed.json"
+    }
+  ],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [
+      "b902"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b902"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0104-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The attachment to fol. 53 c.150 is supported by the '←' and '4.0x' marks there. However, 'Leipzig 362' parallels 'Lg. 362' in the fol. 53 d.342 entry, which reads 'in 21 paṭalas', whereas this note reads 23. The target remains ambiguous.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0104-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "It is uncertain whether the note attaches to C.330(2) or C.330(3). On fol. 53 the '<' appears at about the C.330(3) row.",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0104-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "Further faint diagonal or vertical pencil-like strokes appear at about x2800-2900, y4050-4250, above b901. They are probably show-through or offset, and are not legible.",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0104-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "In native tile 0,0 the ruled lines fall at about y662, y782 and y898. The pencil text sits on the line at about y898, which is the third ruled line. Proposed annotations: [\"Single line in faint pencil in the upper page, written on the third ruled line from the top.\", \"The ampersand is a '+'-like stroke.\", \"A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.\", \"No shelfmark or holding data appears on this line.\"]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0104-05"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "It is unclear whether the dot under the 'b' is intended punctuation.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0104-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The readings 'Selections', 'Jayadeva' and '&' are from faint pencil.",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0104-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "It is uncertain which of the two C.330 entries the note attaches to.",
+      "block_ids": [
+        "b002",
+        "b903"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0104-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'Daf' is an uncertain reading; it may be 'Daf.' or 'Daf,'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0104-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The exact digits of '6936-40' are uncertain; '69' is slightly unclear.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0104-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0104-01",
+        "focus-0104-02",
+        "focus-0104-03",
+        "focus-0104-04",
+        "focus-0104-05",
+        "focus-0104-06",
+        "focus-0104-07",
+        "focus-0104-08",
+        "focus-0104-09",
+        "focus-0104-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0104-01",
+          "source_reading": "[no text] – a very faint large oval/figurative outline in the middle of the page.",
+          "certainty": "probable",
+          "evidence": "In native tiles (0,1608) and (1604,1608), faint curved strokes run from about x1200 to x2300 and from y1650 to y3300. They do not follow the ruling and have no letter forms. They are consistent with show-through or offset from another leaf. No legible text was found."
+        },
+        {
+          "issue_id": "focus-0104-02",
+          "source_reading": "in 23 paṭalas, Kārtikeśvarasaṃvāda. Cp. Daf, 137, Leipzig 362, I.O. 6936-40.",
+          "certainty": "probable",
+          "evidence": "In native tile (0,3216), the digits '23' are clear. On fol. 53, the c.150 entry has a '←' and '4.0x' in the margin, and its incipit is 'Kārtikeya uvāca'. The d.342(4) entry directly below reads 'in 21 paṭalas. Lg. 362'. The numeral and the cross-reference therefore point to different entries, so the attachment target stays ambiguous."
+        },
+        {
+          "issue_id": "focus-0104-03",
+          "source_reading": "'<' at the gutter edge of fol. 52b, level with the pencil line. On fol. 53, a '<' and dash sit at about y860, level with 'C. 330(3)'.",
+          "certainty": "uncertain",
+          "evidence": "In the fol. 53 native tile, C.330(2) is at about y770 and C.330(3) at about y860. The '<' and dash are at about y855–865. The word 'Selections', however, appears in the C.330(2) line ('Selections in praise of Kṛṣṇa'). C.330(3) has 'By Mukunda' and '(a different work)'. Position and content disagree."
+        },
+        {
+          "issue_id": "focus-0104-04",
+          "source_reading": "[illegible] faint diagonal and vertical strokes.",
+          "certainty": "uncertain",
+          "evidence": "Native tile (1604,3216) shows faint strokes at about x2800–2910, y4040–4220. They are paler than the pencil writing and have no letter structure. They are probably show-through, like b901 at about x2630–2850, y4400–4560."
+        },
+        {
+          "issue_id": "focus-0104-05",
+          "source_reading": "The pencil line sits on the third ruled line below the top edge.",
+          "certainty": "secure",
+          "evidence": "In native tile (0,0), the page edge is at y≈272 and ruled lines are at y≈662, 782 and 898. The baseline of 'Selections…' rests on the y≈898 line."
+        },
+        {
+          "issue_id": "focus-0104-06",
+          "source_reading": "52ᵇ.",
+          "certainty": "uncertain",
+          "evidence": "A small dot sits beneath the superscript 'b', to the right of '2'. It may be a stop or part of the abbreviation. Its function cannot be determined."
+        },
+        {
+          "issue_id": "focus-0104-07",
+          "source_reading": "Selections from work of Jayadeva & Bilvamangala.",
+          "certainty": "probable",
+          "evidence": "The pencil is faint but the letter shapes are readable. The 'f' of 'from' is a looped form. The '&' is a '+'/'τ'-like stroke. 'Jayadeva' ends in a cursive 'va'. 'Bilvamangala' is written without a visible diacritic over the 'n'."
+        },
+        {
+          "issue_id": "focus-0104-08",
+          "source_reading": "The mark aligns with the C.330(3) row; the content resembles C.330(2).",
+          "certainty": "uncertain",
+          "evidence": "See focus-0104-03."
+        },
+        {
+          "issue_id": "focus-0104-09",
+          "source_reading": "Daf, 137",
+          "certainty": "uncertain",
+          "evidence": "A comma-like tick is joined to the foot of 'f', followed by a space and then '137'. It looks more like a comma than a full stop, but it may be part of the letter stroke."
+        },
+        {
+          "issue_id": "focus-0104-10",
+          "source_reading": "I.O. 6936-40.",
+          "certainty": "probable",
+          "evidence": "The second digit is a 'q'-like 9. The '6', '36' and '-40' are clear, and a full stop follows."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "Single line in faint pencil in the upper page, at about the fourth ruled line.",
+            "The ampersand is a '+'-like stroke.",
+            "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+            "No shelfmark or holding data appears on this line."
+          ],
+          "after": [
+            "Single line in faint pencil in the upper page, written on the third ruled line from the top.",
+            "The ampersand is a '+'-like stroke.",
+            "A pencil '<' mark (b903) sits at the gutter edge on the same line. A pencil dash and '<' appear on facing fol. 53 at the left of the C.330(2)/(3) Kṛṣṇapadyāvalī entries.",
+            "No shelfmark or holding data appears on this line."
+          ],
+          "reason": "The native tile shows ruled lines at y≈662, 782 and 898, and the text sits on the y≈898 line.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 105,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c. 150 ... Begins:- 'Kārtikeya uvāca",
+              "evidence": "A '←' and '4.0x' appear in the left margin of fol. 53 at the c.150 entry, pointing toward this page. The content (Kārtikeśvarasaṃvāda) matches the Kārtikeya incipit.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 105,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c. 150 ... Begins:- 'Kārtikeya uvāca",
+              "evidence": "A '←' and '4.0x' appear in the left margin of fol. 53 at the c.150 entry, pointing toward this page. The content (Kārtikeśvarasaṃvāda) matches the Kārtikeya incipit.",
+              "certainty": "uncertain"
+            },
+            {
+              "type": "possible_attachment",
+              "target_page_order": 105,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "d. 342 (4) ... in 21 paṭalas. Lg. 362",
+              "evidence": "'Leipzig 362' parallels 'Lg. 362' in this entry. The paṭala count differs (23 here, 21 there). There is no marginal arrow at this entry.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "The marginal marks and the cross-reference conflict, so both candidate targets are recorded and neither is preferred.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "uncertain"
+        }
+      ],
+      "block_changes": [
+        {
+          "block_id": "b902",
+          "before_bbox": [
+            1000,
+            1700,
+            1300,
+            2000
+          ],
+          "after_bbox": [
+            1200,
+            1650,
+            1100,
+            1650
+          ],
+          "reason": "In the native tiles, the faint figure spans about x1200–2300 and y1650–3300.",
+          "certainty": "probable"
+        }
+      ],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 52ᵇ. The function of the dot is unclear."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Pencil line on the third ruled line."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Ink overflow note. Its attachment target is ambiguous."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Faint illegible strokes, probably show-through."
+        },
+        {
+          "block_id": "b902",
+          "status": "uncertain",
+          "record_ids": [],
+          "finding": "A non-text show-through figure with no legible wording. No textual record is warranted, and none is invented."
+        },
+        {
+          "block_id": "b903",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Pencil '<' at the gutter, aligned with the b002 line."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0104-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The note could attach to c.150 (arrow and Kārtikeya incipit) or to d.342 (Lg. 362). The paṭala count of 23 here versus 21 there is unexplained.",
+          "next_check": "Compare the fol. 53 native tiles at the c.150 and d.342 entries for any insertion mark."
+        },
+        {
+          "issue_id": "focus-0104-03",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b903"
+          ],
+          "issue": "The '<' on fol. 53 is level with C.330(3), but the 'Selections' wording is in the C.330(2) line.",
+          "next_check": "Read the full C.330(2)/(3) lines on fol. 53 at native resolution."
+        },
+        {
+          "issue_id": "focus-0104-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b903"
+          ],
+          "issue": "It is unresolved which C.330 entry the note attaches to.",
+          "next_check": "Same as focus-0104-03."
+        },
+        {
+          "issue_id": "focus-0104-04",
+          "record_id": null,
+          "block_ids": [
+            "b902"
+          ],
+          "issue": "Faint strokes at about x2800–2910, y4040–4220 are illegible and probably show-through. They are not recorded as text.",
+          "next_check": "Inspect the verso or the facing leaf for a source of the offset."
+        },
+        {
+          "issue_id": "focus-0104-01",
+          "record_id": null,
+          "block_ids": [
+            "b902"
+          ],
+          "issue": "b902 is non-text show-through with no record. It remains unrepresented by design.",
+          "next_check": "Decide whether non-text show-through requires a descriptive record."
+        },
+        {
+          "issue_id": "focus-0104-06",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "The function of the dot under the 'b' is unclear.",
+          "next_check": "Compare other folio numbers in the volume."
+        },
+        {
+          "issue_id": "focus-0104-09",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The mark after 'Daf' could be a comma or a stop.",
+          "next_check": "Use higher contrast on the region at about x1630–1680, y4290–4330."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "63850df9b99e9382fe8f693cdc67dccf1608ee9cb920ecdda626b28c3e9dd4b4",
+      "bytes": 281091,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ab2d55f259388db1f7e9a2ef13450c33c353fb7d515660a1fcad76c6b9ca24c5",
+      "bytes": 342953,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6d71b7c21e70651f1459d7f9bd7b843465a7055728388a86d59b207586cad964",
+      "bytes": 347808,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c4c04d7a91bc08dde4d0c502feb32d348449641353b9e0d8a17d945135e85345",
+      "bytes": 355958,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "de2c2d55bb95c60f534dd9b5c67ee180659fddaba155596e6ba77db97a7a429b",
+      "bytes": 344172,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4db10154cd3709cbcc292e4d5d61f9de53017c583495331c9b6e0c27c6292de0",
+      "bytes": 345901,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d3575df213a05a56ff78bdb151235470db8279efbe51f6168ae8a5fd2b21867a",
+      "bytes": 369127,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5426c56-dfaa-4547-84ee-56c0d4f9251a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "90a0c545ea7bb70a4459c6ee632da45bb5a8e4fbab46a5ca6b84c60264ae176f",
+      "bytes": 271078,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 103,
+      "folio_label": "fol. 52",
+      "page_id": "c5426c56-dfaa-4547-84ee-56c0d4f9251a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c0a887f0-c140-4737-aed7-6a8bf6326544/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5fbd22f97807c29c50533a119745fe0ffd9fe9909d260c43a74a0db57e318823",
+      "bytes": 267066,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 105,
+      "folio_label": "fol. 53",
+      "page_id": "c0a887f0-c140-4737-aed7-6a8bf6326544",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c0a887f0-c140-4737-aed7-6a8bf6326544/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e4b7a99ad508d6a929e60c258178c8d55774229d503b76ac90b38cd4854028e9",
+      "bytes": 372087,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 105,
+      "folio_label": "fol. 53",
+      "page_id": "c0a887f0-c140-4737-aed7-6a8bf6326544",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c0a887f0-c140-4737-aed7-6a8bf6326544/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "372b1054f08f0262aed7bbf6e0206de6e3937fcc17da1397e424f3a649cf9be9",
+      "bytes": 406832,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 105,
+      "folio_label": "fol. 53",
+      "page_id": "c0a887f0-c140-4737-aed7-6a8bf6326544",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ad9b6c3b-4680-4f04-b841-d56a4c6226f7.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "63850df9b99e9382fe8f693cdc67dccf1608ee9cb920ecdda626b28c3e9dd4b4",
+      "bytes": 281091,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ab2d55f259388db1f7e9a2ef13450c33c353fb7d515660a1fcad76c6b9ca24c5",
+      "bytes": 342953,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6d71b7c21e70651f1459d7f9bd7b843465a7055728388a86d59b207586cad964",
+      "bytes": 347808,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c4c04d7a91bc08dde4d0c502feb32d348449641353b9e0d8a17d945135e85345",
+      "bytes": 355958,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "de2c2d55bb95c60f534dd9b5c67ee180659fddaba155596e6ba77db97a7a429b",
+      "bytes": 344172,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4db10154cd3709cbcc292e4d5d61f9de53017c583495331c9b6e0c27c6292de0",
+      "bytes": 345901,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ad9b6c3b-4680-4f04-b841-d56a4c6226f7/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d3575df213a05a56ff78bdb151235470db8279efbe51f6168ae8a5fd2b21867a",
+      "bytes": 369127,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5426c56-dfaa-4547-84ee-56c0d4f9251a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "90a0c545ea7bb70a4459c6ee632da45bb5a8e4fbab46a5ca6b84c60264ae176f",
+      "bytes": 271078,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 103,
+      "folio_label": "fol. 52",
+      "page_id": "c5426c56-dfaa-4547-84ee-56c0d4f9251a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c0a887f0-c140-4737-aed7-6a8bf6326544/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5fbd22f97807c29c50533a119745fe0ffd9fe9909d260c43a74a0db57e318823",
+      "bytes": 267066,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 105,
+      "folio_label": "fol. 53",
+      "page_id": "c0a887f0-c140-4737-aed7-6a8bf6326544",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

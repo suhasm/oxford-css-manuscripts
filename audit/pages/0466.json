@@ -1,0 +1,601 @@
+{
+  "source_order": 466,
+  "folio_label": "fol. 233b",
+  "page_id": "afb7a8a6-d593-4877-b746-6935bf628207",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "233b",
+    "principal_page_bbox": [
+      270,
+      265,
+      2910,
+      4610
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          345,
+          320,
+          150,
+          160
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "233b",
+        "features": [
+          "top-left corner",
+          "written at an angle",
+          "'b' superscript or raised after '233'",
+          "darker pencil or ink than the ruled lines"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2925,
+          790,
+          100,
+          130
+        ],
+        "kind_hint": "marginal_mark_or_note",
+        "anchor": "a/",
+        "features": [
+          "faint pencil",
+          "near the right edge of the target page, close to the gutter",
+          "about the third ruled line",
+          "written character 'a' followed by a vertical stroke and a possible small mark",
+          "not attached to any entry"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3110,
+          300,
+          80,
+          200
+        ],
+        "description": "Two small tick- or hook-like pen marks at the gutter edge near the top of the target page (native approx. y 320 and y 480). These may be marks on the target page or bleed or offset from the facing page."
+      },
+      {
+        "bbox": [
+          2910,
+          4150,
+          40,
+          70
+        ],
+        "description": "A very faint small hook or '1'-like stroke in the lower right area. It is probably show-through, but this is uncertain."
+      },
+      {
+        "bbox": [
+          600,
+          2600,
+          200,
+          120
+        ],
+        "description": "A speckled smudge or stain near the left-middle area (native approx. x 620-760, y 2640-2700). It is not text."
+      }
+    ],
+    "boundary_notes": [
+      "Text at the far right of the canvas (x > ~3200), such as 'd.', 'e.' and 'Sa', belongs to the facing recto fol. 234 (shelfmark column fragments) and is excluded.",
+      "Faint mirrored writing visible across the whole page is show-through from fol. 233 recto. It is not target-page text and is not inventoried.",
+      "The 'a/' mark on the target page corresponds to the 'a/' visible at the left edge of the fol. 234 context image. It was assigned to the target verso because of its position left of the gutter."
+    ],
+    "uncertainties": [
+      "The reading 'a/' is uncertain. The trailing stroke may be a vertical line, a question mark or a fold artifact.",
+      "It is not certain whether the gutter ticks are on the target page or are offset from the facing page."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank_with_folio_number_and_marginal_mark",
+    "visible_folio": "233b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "233ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at an angle in the top-left corner of the verso, in darker pencil or ink than the ruled lines.",
+          "The final character is raised above the line and written after '233'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised final character is read as 'b'. Its form resembles '6', but the supplied folio label is fol. 233b."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_mark",
+        "literal_text": "a/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The mark is in faint pencil near the right (gutter-side) edge of the verso, at about the third ruled line (native approx. x 2935–3010, y 795–910).",
+          "The vertical stroke is long. A small mark or dot follows it to the right, which may be a question mark.",
+          "The mark is not attached to any catalogue entry on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading 'a/' is uncertain. The trailing element may be a stroke, a '?' or an artifact.",
+          "The same mark is visible at the left edge of the fol. 234 context image. It is placed on this verso because it lies left of the gutter. Its purpose is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number in the top-left corner."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Faint pencil marginal mark near the gutter. It is not attached to any entry."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and the 'a/' mark, the ruled page carries no catalogue entries. The images were reviewed across the top, middle and bottom, the margins and the interlinear spaces.",
+      "The faint mirrored writing across the page is show-through from fol. 233 recto. It is not transcribed.",
+      "There are two small tick- or hook-like marks at the gutter edge near the top (native approx. x 3110–3190, y 300–500). They may be on this page or may be offset from the facing page. They are not treated as text.",
+      "There is a very faint hook or '1'-like stroke in the lower right (approx. x 2910–2950, y 4150–4220). It is probably show-through or a stray mark.",
+      "A speckled smudge near the left middle (approx. x 620–760, y 2640–2700) is not text.",
+      "Letters such as 'd.', 'e.' and 'Sa' at the far right (x > ~3200) belong to the shelfmark column of the facing fol. 234. They are excluded."
+    ],
+    "unresolved_relationships": [
+      "The function of the 'a/' mark, and any link to an entry on fol. 233 or fol. 234, cannot be determined."
+    ]
+  },
+  "review": {
+    "page_class": "blank_with_folio_number_and_marginal_mark",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number is written at an angle in the top-left corner, at native approx. x 350–490, y 320–480. The digits '233' are clear. The raised final character looks visually like '6' in the native tile. The reading 'b' comes from the supplied folio label, not from a secure reading of the letter form. The candidate records this ambiguity in its uncertainties, but its literal_text presents 'ᵇ' as certain."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "There is a faint pencil 'a' followed by a long vertical stroke, at native approx. x 2935–3015, y 795–910. A small hooked mark at the upper right after the stroke resembles a faint '?'. This mark lies left of the gutter, so it is on the target verso. The 'a/' at the left edge of the fol. 234 context image is the same mark, seen at the edge of the facing page. It is not a separate holding. The candidate records the possible '?' as uncertain, which is appropriate."
+      },
+      {
+        "block_id": "unattached_gutter_ticks",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "There are two small hook- or tick-like ink marks at the gutter edge, at native approx. (3169, 320) and (3124, 480). They appear in the candidate's page_annotations as non-text. It is not known whether they belong to this page or are offset from fol. 234. No record is required."
+      },
+      {
+        "block_id": "unattached_lower_right_hook",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "There is a very faint '?' or '1'-like stroke at native approx. (2924, 4180). The candidate notes it in page_annotations as probable show-through or a stray mark. It is too faint to be read as text."
+      },
+      {
+        "block_id": "unattached_left_smudge",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A speckled stain at native approx. x 620–760, y 2640–2700 is not text. The candidate notes it in page_annotations."
+      },
+      {
+        "block_id": "facing_page_fragments",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "The letters 'd.', 'e.', 'd' and 'Sa' at x > ~3200 belong to the shelfmark column of fol. 234. The candidate excludes them correctly. They are not target records."
+      },
+      {
+        "block_id": "show_through",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint mirrored writing across the whole ruled area is show-through from fol. 233 recto. The candidate correctly does not transcribe it."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "literal_text",
+        "before": "233ᵇ",
+        "after": "233[b?]",
+        "reason": "The raised final character resembles '6' in the source. 'b' is adopted on the strength of the supplied folio label, not from a secure reading. The literal text should keep this uncertainty visible.",
+        "source_block_ids": [
+          "b001"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Two points are open. First, it is not certain whether the trailing element after 'a/' is a '?' or an artifact. Second, the function of the mark is unknown; it may relate to entries on fol. 233 or fol. 234.",
+        "next_check": "Inspect the original under raking light. Compare it with similar 'a/' marks in the left margin of fol. 233, which shows marks like '5/' and '/'."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "unattached_gutter_ticks"
+        ],
+        "issue": "It is unresolved whether the gutter ticks are on the target page or are offset from the facing recto.",
+        "next_check": "Examine the physical gutter of the volume."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Several small dark dots and short strokes are scattered across the page. Examples are at native approx. (2894, 3276) and (2539, 4691). They appear to be specks or stray marks, not writing, and are not individually recorded.",
+        "next_check": "Confirm on the original that none is a deliberate mark."
+      }
+    ],
+    "boundary_review": "The page boundary runs along the gutter at about x 3160–3200. Marks to the right of it belong to fol. 234 and are excluded. The 'a/' mark is assigned to fol. 233b because it lies left of the gutter. Its appearance at the left edge of the fol. 234 context image is an overlap of the same mark, not a duplicate. Mirrored writing is show-through from fol. 233 recto.",
+    "region_review": {
+      "top": "The folio number appears at the top left. Gutter ticks appear near the top right. A small dot near (1765, 385) in native coordinates is a speck. There is no other writing.",
+      "middle": "The middle has ruled lines with show-through only. The left smudge is not text. There are no entries.",
+      "bottom": "The bottom has ruled lines with show-through only. There is a faint '?'/'1'-like stroke near (2924, 4180) and stray specks. There is no bottom note.",
+      "left_margin": "The left margin is blank apart from the page-edge ruling.",
+      "right_margin": "The right margin holds the 'a/' pencil mark at about the third ruled line, and the gutter ticks. Facing-page letters further right are excluded.",
+      "interlinear": "No interlinear additions were observed beyond show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        345,
+        320,
+        150,
+        160
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "233b",
+      "features": [
+        "top-left corner",
+        "written at an angle",
+        "'b' superscript or raised after '233'",
+        "darker pencil or ink than the ruled lines"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2925,
+        790,
+        100,
+        130
+      ],
+      "kind_hint": "marginal_mark_or_note",
+      "anchor": "a/",
+      "features": [
+        "faint pencil",
+        "near the right edge of the target page, close to the gutter",
+        "about the third ruled line",
+        "written character 'a' followed by a vertical stroke and a possible small mark",
+        "not attached to any entry"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "233ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at an angle in the top-left corner of the verso, in darker pencil or ink than the ruled lines.",
+        "The final character is raised above the line and written after '233'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised final character is read as 'b'. Its form resembles '6', but the supplied folio label is fol. 233b."
+      ],
+      "stable_id": "css-prod-0466-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_mark",
+      "literal_text": "a/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The mark is in faint pencil near the right (gutter-side) edge of the verso, at about the third ruled line (native approx. x 2935–3010, y 795–910).",
+        "The vertical stroke is long. A small mark or dot follows it to the right, which may be a question mark.",
+        "The mark is not attached to any catalogue entry on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading 'a/' is uncertain. The trailing element may be a stroke, a '?' or an artifact.",
+        "The same mark is visible at the left edge of the fol. 234 context image. It is placed on this verso because it lies left of the gutter. Its purpose is unknown."
+      ],
+      "stable_id": "css-prod-0466-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "literal_text",
+      "before": "233ᵇ",
+      "after": "233[b?]",
+      "reason": "The raised final character resembles '6' in the source. 'b' is adopted on the strength of the supplied folio label, not from a secure reading. The literal text should keep this uncertainty visible.",
+      "source_block_ids": [
+        "b001"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/afb7a8a6-d593-4877-b746-6935bf628207.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/afb7a8a6-d593-4877-b746-6935bf628207/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "6a115efc247eee46b1bdf2a8c9f378c1196dbda9f7b6c2393584bdca23b10c50",
+      "bytes": 243069,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/afb7a8a6-d593-4877-b746-6935bf628207/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1e356fb7ef394e6b116a7f49c49fe8cfbc97d3b3fd4d7a64e6ddfe78b4724ad6",
+      "bytes": 305005,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/afb7a8a6-d593-4877-b746-6935bf628207/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b582d6de77959e4f0c1f07a81558f56affa5ff1075b928c7bc445fa0f2950d1e",
+      "bytes": 311220,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/afb7a8a6-d593-4877-b746-6935bf628207/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a86afe435dd024c1efe96c601e5d13b37e195add1e588a00b207a2c81b0ed121",
+      "bytes": 315652,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/afb7a8a6-d593-4877-b746-6935bf628207/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ff89db1bd68840a82761c2fcdffe7190c61b77a6c38460336ab923e3f630d206",
+      "bytes": 298160,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/afb7a8a6-d593-4877-b746-6935bf628207/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c109373337edaf8e81a2f8c215316ee7a3f0e01725a7ab93f5e049ba8a3b630b",
+      "bytes": 302443,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/afb7a8a6-d593-4877-b746-6935bf628207/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "aba896ac6ade5c660fd00988639d97a0a841fd4c1634b3fa7087c5776138cd3e",
+      "bytes": 320294,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/40b9cda7-dbb1-4ec3-976e-2a548aa69b16/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5eb597c0bdaa9bbcc9ad0f9d2ec452bb60d8f3ab5075e78b28952d103c1c8058",
+      "bytes": 260640,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 465,
+      "folio_label": "fol. 233",
+      "page_id": "40b9cda7-dbb1-4ec3-976e-2a548aa69b16",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d7e95c03-623b-4ba6-969b-c46d517fe7e5/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0d14f42531e84c22c6221bf61d1e233cad6d47788c331cde4d8be765a044cb98",
+      "bytes": 238612,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 467,
+      "folio_label": "fol. 234",
+      "page_id": "d7e95c03-623b-4ba6-969b-c46d517fe7e5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

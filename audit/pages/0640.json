@@ -1,0 +1,1280 @@
+{
+  "source_order": 640,
+  "folio_label": "fol. 320b",
+  "page_id": "ca46de42-f9dc-4b40-8707-bc39e87cc8a8",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "320ᵇ",
+    "principal_page_bbox": [
+      330,
+      285,
+      2810,
+      4545
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          455,
+          340,
+          200,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "320ᵇ",
+        "features": [
+          "top-left margin",
+          "superscript b",
+          "dot to right"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          420,
+          3560,
+          2010,
+          150
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 2-115, S. 18 (last two figures not filled in), + f. 4 from another MS. of same work.",
+        "features": [
+          "extent",
+          "date with incomplete figures noted",
+          "ink",
+          "single line crossing ruled margin",
+          "linked by arrow to facing-page shelfmark c.190"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          445,
+          4150,
+          1350,
+          100
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "Hanumatpañcākṣarīdvādaśākṣarīmātā, ff. 1-10 inc.",
+        "features": [
+          "title",
+          "extent",
+          "'inc.' abbreviation",
+          "ink",
+          "linked by arrow to facing-page shelfmark C.341(1)"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          645,
+          4245,
+          545,
+          85
+        ],
+        "kind_hint": "interlinear_note",
+        "anchor": "[? = °pañcadaśākṣarī]",
+        "features": [
+          "pencil",
+          "bracketed",
+          "below b003 title",
+          "query"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          1955,
+          4160,
+          690,
+          85
+        ],
+        "kind_hint": "cross_reference",
+        "anchor": "[reading?] Cat. s. Sudarśanasaṃhitā",
+        "features": [
+          "same line as b003",
+          "first word uncertain",
+          "ink"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          585,
+          4370,
+          1700,
+          140
+        ],
+        "kind_hint": "incipit",
+        "anchor": "Begins: Tatrādau āsana… dikaṃ karaṇaṃ kṛtvā dhyāyet.",
+        "features": [
+          "interlinear insertion 'bhuktyā' above",
+          "cancelled word beneath insertion (partly illegible)",
+          "caret insertion of 'm' above karaṇa",
+          "ink"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2955,
+          3590,
+          265,
+          50
+        ],
+        "description": "Leftward arrow from gutter toward b002 line, continuing from facing-page shelfmark √c.190"
+      },
+      {
+        "bbox": [
+          2980,
+          4165,
+          255,
+          55
+        ],
+        "description": "Leftward arrow from gutter toward b003/b005 line, continuing from facing-page shelfmark √C.341(1)"
+      },
+      {
+        "bbox": [
+          330,
+          700,
+          2790,
+          2850
+        ],
+        "description": "Faint show-through of recto writing across middle of page; not target text"
+      },
+      {
+        "bbox": [
+          2230,
+          2520,
+          120,
+          140
+        ],
+        "description": "Small smudge/mark mid-page, not text"
+      }
+    ],
+    "boundary_notes": [
+      "Right edge of image shows facing page fol. 321 shelfmarks (c.224(7), d.155(3), etc.); these are not target-page records.",
+      "Arrows straddle the gutter, linking target-page notes to facing-page entries c.190 and C.341(1)."
+    ],
+    "uncertainties": [
+      "First word of b005 ('Cat.'/'het') uncertain.",
+      "Cancelled word in b006 under 'bhuktyā' not fully legible.",
+      "Several small-cursive readings in b002 (e.g. 'filled in') are approximate."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "320ᵇ",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "320ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number in the top-left margin, with a superscript b and a dot to the right."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_date_note",
+        "literal_text": "ff. 2-115, S. 18 (last two figures not filled in), + f. 4 from another MS. of same work.",
+        "fields": {
+          "extent": "ff. 2-115, + f. 4 from another MS. of same work",
+          "date": "S. 18 (last two figures not filled in)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, one line, starting in the left ruled margin and crossing into the main column.",
+          "A leftward arrow drawn from the gutter (approx. bbox [2955,3590,265,50]) points to this line. It continues from the facing-page shelfmark √c.190."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.190 — Do, + co. Jyotsnā by Brahmānanda.",
+            "evidence": "An arrow crosses the gutter from the facing-page entry c.190 to this line.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The small cursive phrases 'last two figures not filled in' and 'from another MS. of same work' are read with some approximation."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "title_extent_note",
+        "literal_text": "Hanumatpañcākṣarīdvādaśākṣarīmātā, ff. 1-10 inc.",
+        "fields": {
+          "title": "Hanumatpañcākṣarīdvādaśākṣarīmātā",
+          "extent": "ff. 1-10 inc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "A leftward arrow drawn from the gutter (approx. bbox [2980,4165,255,55]) points to this line. It continues from the facing-page shelfmark √C.341(1)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√C.341(1) — ⟦Hanumatpaṭalavidhi⟧, from the Sudarśanasaṃhitā …",
+            "evidence": "An arrow crosses the gutter from the facing-page entry C.341(1) to this line.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The final element is read as 'mātā' as written; the letter forms could also allow 'mālā'. The reading is left as seen and not corrected."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "pencil_query",
+        "literal_text": "[? = °pañcadaśākṣarī]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, bracketed, written directly beneath the title in b003.",
+          "A query on the reading of part of the title."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 640,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "Hanumatpañcākṣarī…",
+            "evidence": "Placed immediately below the b003 title and querying a compound element of it.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The pencil is faint, but it is reasonably legible."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "bibliographic_reference",
+        "literal_text": "Cat. s. Sudarśanasaṃhitā",
+        "fields": {
+          "source": "Cat. s. Sudarśanasaṃhitā"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, on the same line as b003 and to the right of it, on the line the gutter arrow points to."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√C.341(1)",
+            "evidence": "Same line as b003, which is the target of the arrow from C.341(1). The facing-page entry also mentions the Sudarśanasaṃhitā.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first word is uncertain: 'Cat.'? or 'het'?. The abbreviation is not expanded."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit",
+        "literal_text": "Begins: Tatrādau āsana⟦[illegible]⟧ \\bhuktyā/ dikaṃ karaṇa‸m kṛtvā dhyāyet.",
+        "fields": {
+          "incipit": "Tatrādau āsana[illegible] bhuktyā dikaṃ karaṇa‸m kṛtvā dhyāyet."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, indented.",
+          "'bhuktyā' is written interlinearly above a cancelled word whose final letters may be '…tyā'.",
+          "An 'm' is inserted by caret above 'karaṇa'.",
+          "No arrow joins this line to the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√C.341(1)",
+            "evidence": "This 'Begins:' line directly follows the b003 note, which is linked by arrow to C.341(1).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cancelled word under 'bhuktyā' is illegible.",
+          "The ending of 'āsana'/'āsane' and the division before 'dikaṃ' are uncertain.",
+          "Alternative attachment: the facing-page √b.99(3) lies at roughly the same height. No arrow confirms either attachment."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note for c.190 on fol. 321, linked by arrow."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Continuation note for C.341(1) on fol. 321, linked by arrow."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Pencil query attached below the b003 title."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Bibliographic reference on the same line as b003. Kept separate because its first word is uncertain."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Incipit line, probably continuing the C.341(1) note."
+      }
+    ],
+    "page_annotations": [
+      "Most of the page is blank apart from faint show-through of writing from the recto (approx. [330,700,2790,2850]). This show-through is not target text.",
+      "A small smudge mid-page (approx. [2230,2520,120,140]) is not text.",
+      "Two leftward arrows straddle the gutter, at approx. y 3590 and y 4165.",
+      "Facing-page shelfmarks visible at the right edge (fol. 321: c.224(7), d.155(3), … √C.341(1), √b.99(3), d.672(10)) are not recorded as target records."
+    ],
+    "unresolved_relationships": [
+      "Whether b006 attaches to C.341(1) or to b.99(3) on fol. 321 is not confirmed by an arrow."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '320ᵇ' with a dot to the right, top-left margin. It is written in pencil or graphite. The candidate reading is accepted."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "One ink line beginning in the left ruled margin. The reading 'ff. 2-115, S. 18 (last two figures not filled in), + f. 4 from another MS. of same work.' agrees with the image. The small cursive remains approximate, as the candidate notes. The gutter arrow at about y 3620 crosses from fol. 321 √c.190 to this line. The facing page also shows an arrow at c.190, so the link is secure."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Ink title with extent. 'mātā' and 'mālā' remain possible readings, as the candidate says. A small dot or circle sits above the 'kṣ/ā' of 'pañcākṣarī', just above the pencil query. It is probably a pencil reference mark tied to b004. It is recorded under r004."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Pencil bracketed query '[? = °pañcadaśākṣarī]' beneath the title. The mark above the title is not described in the candidate; an annotation is added."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Ink note to the right on the b003 line. The first word looks like 'lat'/'Cat.' and is not secure. The candidate's literal_text presents 'Cat.' as certain, so it is changed to mark the uncertainty."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "Incipit line. It has the interlinear 'bhuktyā' above a struck word and a caret 'm' above 'karaṇa'. The word before the cancellation looks like 'āsane' rather than 'āsana'. The candidate already flags this ending as uncertain. Attachment is doubtful: facing-page √b.99(3) lies at almost exactly the same height (about y 4426), and no arrow connects either entry. The certainty is lowered."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r005",
+        "field_path": "literal_text",
+        "before": "Cat. s. Sudarśanasaṃhitā",
+        "after": "[Cat.?] s. Sudarśanasaṃhitā",
+        "reason": "The first word is not securely legible (it could be 'lat'/'Cat.'). The literal text should not present it as certain.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "fields.source",
+        "before": "Cat. s. Sudarśanasaṃhitā",
+        "after": "[Cat.?] s. Sudarśanasaṃhitā",
+        "reason": "Keeps the field consistent with the uncertain literal reading.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "Pencil, bracketed, written directly beneath the title in b003.",
+          "A query on the reading of part of the title."
+        ],
+        "after": [
+          "Pencil, bracketed, written directly beneath the title in b003.",
+          "A query on the reading of part of the title.",
+          "A small dot or circle above the 'kṣ/ā' of 'pañcākṣarī' in b003 (approx. x 865, y 4250) appears to be a reference mark associated with this query."
+        ],
+        "reason": "The source image shows a small mark above the title, directly over the pencil query. The candidate omitted it.",
+        "source_block_ids": [
+          "b003",
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r006",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√C.341(1)",
+            "evidence": "This 'Begins:' line directly follows the b003 note, which is linked by arrow to C.341(1).",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√C.341(1)",
+            "evidence": "The 'Begins:' line follows the b003 note, which is linked by arrow to C.341(1). No arrow joins this line itself.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_continuation",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b.99(3)",
+            "evidence": "The facing-page ticked entry √b.99(3) sits at essentially the same height as this line. No arrow is present.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The two attachments are equally unconfirmed. Height alignment favours b.99(3) as much as sequence favours C.341(1), so 'probable' is too strong.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√C.341(1) — ⟦Hanumatpaṭalavidhi⟧, from the Sudarśanasaṃhitā …",
+            "evidence": "An arrow crosses the gutter from the facing-page entry C.341(1) to this line.",
+            "certainty": "secure"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 641,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√C.341(1) — ⟦[cancelled title, reading uncertain]⟧, from the Sudarśanasaṃhitā …",
+            "evidence": "An arrow crosses the gutter from the facing-page entry C.341(1) to this line.",
+            "certainty": "secure"
+          }
+        ],
+        "reason": "The cancelled word on the facing page cannot be securely read from the reduced adjacent image. The link itself remains secure.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "It is unclear whether the incipit belongs to C.341(1) or to b.99(3) on fol. 321. No arrow links either.",
+        "next_check": "Compare the native-resolution facing-page lines at y≈4150–4480 and check for any faint link mark."
+      },
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The word before the cancellation looks like 'āsane' (candidate 'āsana'). The cancelled word is illegible.",
+        "next_check": "Use higher-contrast inspection around x 1720–2030, y 4390–4460."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The final element 'mātā' could also be read 'mālā'.",
+        "next_check": "Use close inspection of the letterforms near x 1290–1410, y 4190."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The first word 'Cat.' or 'lat' is uncertain.",
+        "next_check": "Use a native zoom near x 1960–2050, y 4190."
+      }
+    ],
+    "boundary_review": "The right strip shows fol. 321 shelfmarks (c.224(7), d.155(3), c.241(4), e.194 … √c.190, √C.341(1), √b.99(3), d.672(10)). These are facing-page fragments and are not target records. Two arrows straddle the gutter, at about y 3620 and y 4195. The b006 attachment remains ambiguous. The faint mirrored writing across the middle is show-through, not target text.",
+    "region_review": {
+      "top": "Only the folio number '320ᵇ.' appears. The rest is blank apart from show-through.",
+      "middle": "There is only faint show-through, a smudge near (2280,2570) and a faint short horizontal pencil-like stroke near (1450–1620, 2483). None is legible target text.",
+      "bottom": "Contains b002, b003, b004, b005 and b006. Below b006 to the page foot is blank.",
+      "left_margin": "b002 begins in the ruled margin. Otherwise there are no marginal notes beyond the folio number.",
+      "right_margin": "There are two gutter arrows. Otherwise only facing-page fragments appear.",
+      "interlinear": "'bhuktyā' over a cancelled word and a caret 'm' over 'karaṇa' in b006. The pencil query b004 sits under b003, with a small mark above the title."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        455,
+        340,
+        200,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "320ᵇ",
+      "features": [
+        "top-left margin",
+        "superscript b",
+        "dot to right"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        420,
+        3560,
+        2010,
+        150
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 2-115, S. 18 (last two figures not filled in), + f. 4 from another MS. of same work.",
+      "features": [
+        "extent",
+        "date with incomplete figures noted",
+        "ink",
+        "single line crossing ruled margin",
+        "linked by arrow to facing-page shelfmark c.190"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        445,
+        4150,
+        1350,
+        100
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "Hanumatpañcākṣarīdvādaśākṣarīmātā, ff. 1-10 inc.",
+      "features": [
+        "title",
+        "extent",
+        "'inc.' abbreviation",
+        "ink",
+        "linked by arrow to facing-page shelfmark C.341(1)"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        645,
+        4245,
+        545,
+        85
+      ],
+      "kind_hint": "interlinear_note",
+      "anchor": "[? = °pañcadaśākṣarī]",
+      "features": [
+        "pencil",
+        "bracketed",
+        "below b003 title",
+        "query"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        1955,
+        4160,
+        690,
+        85
+      ],
+      "kind_hint": "cross_reference",
+      "anchor": "[reading?] Cat. s. Sudarśanasaṃhitā",
+      "features": [
+        "same line as b003",
+        "first word uncertain",
+        "ink"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        585,
+        4370,
+        1700,
+        140
+      ],
+      "kind_hint": "incipit",
+      "anchor": "Begins: Tatrādau āsana… dikaṃ karaṇaṃ kṛtvā dhyāyet.",
+      "features": [
+        "interlinear insertion 'bhuktyā' above",
+        "cancelled word beneath insertion (partly illegible)",
+        "caret insertion of 'm' above karaṇa",
+        "ink"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "320ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number in the top-left margin, with a superscript b and a dot to the right."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0640-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_date_note",
+      "literal_text": "ff. 2-115, S. 18 (last two figures not filled in), + f. 4 from another MS. of same work.",
+      "fields": {
+        "extent": "ff. 2-115, + f. 4 from another MS. of same work",
+        "date": "S. 18 (last two figures not filled in)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, one line, starting in the left ruled margin and crossing into the main column.",
+        "A leftward arrow drawn from the gutter (approx. bbox [2955,3590,265,50]) points to this line. It continues from the facing-page shelfmark √c.190."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.190 — Do, + co. Jyotsnā by Brahmānanda.",
+          "evidence": "An arrow crosses the gutter from the facing-page entry c.190 to this line.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The small cursive phrases 'last two figures not filled in' and 'from another MS. of same work' are read with some approximation."
+      ],
+      "stable_id": "css-prod-0640-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "title_extent_note",
+      "literal_text": "Hanumatpañcākṣarīdvādaśākṣarīmātā, ff. 1-10 inc.",
+      "fields": {
+        "title": "Hanumatpañcākṣarīdvādaśākṣarīmātā",
+        "extent": "ff. 1-10 inc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "A leftward arrow drawn from the gutter (approx. bbox [2980,4165,255,55]) points to this line. It continues from the facing-page shelfmark √C.341(1)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√C.341(1) — ⟦Hanumatpaṭalavidhi⟧, from the Sudarśanasaṃhitā …",
+          "evidence": "An arrow crosses the gutter from the facing-page entry C.341(1) to this line.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The final element is read as 'mātā' as written; the letter forms could also allow 'mālā'. The reading is left as seen and not corrected."
+      ],
+      "stable_id": "css-prod-0640-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "pencil_query",
+      "literal_text": "[? = °pañcadaśākṣarī]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, bracketed, written directly beneath the title in b003.",
+        "A query on the reading of part of the title."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 640,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "Hanumatpañcākṣarī…",
+          "evidence": "Placed immediately below the b003 title and querying a compound element of it.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The pencil is faint, but it is reasonably legible."
+      ],
+      "stable_id": "css-prod-0640-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "bibliographic_reference",
+      "literal_text": "[Cat.?] s. Sudarśanasaṃhitā",
+      "fields": {
+        "source": "[Cat.?] s. Sudarśanasaṃhitā"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, on the same line as b003 and to the right of it, on the line the gutter arrow points to."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√C.341(1)",
+          "evidence": "Same line as b003, which is the target of the arrow from C.341(1). The facing-page entry also mentions the Sudarśanasaṃhitā.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first word is uncertain: 'Cat.'? or 'het'?. The abbreviation is not expanded."
+      ],
+      "stable_id": "css-prod-0640-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit",
+      "literal_text": "Begins: Tatrādau āsana⟦[illegible]⟧ \\bhuktyā/ dikaṃ karaṇa‸m kṛtvā dhyāyet.",
+      "fields": {
+        "incipit": "Tatrādau āsana[illegible] bhuktyā dikaṃ karaṇa‸m kṛtvā dhyāyet."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, indented.",
+        "'bhuktyā' is written interlinearly above a cancelled word whose final letters may be '…tyā'.",
+        "An 'm' is inserted by caret above 'karaṇa'.",
+        "No arrow joins this line to the facing page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√C.341(1)",
+          "evidence": "This 'Begins:' line directly follows the b003 note, which is linked by arrow to C.341(1).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cancelled word under 'bhuktyā' is illegible.",
+        "The ending of 'āsana'/'āsane' and the division before 'dikaṃ' are uncertain.",
+        "Alternative attachment: the facing-page √b.99(3) lies at roughly the same height. No arrow confirms either attachment."
+      ],
+      "stable_id": "css-prod-0640-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "Cat. s. Sudarśanasaṃhitā",
+      "after": "[Cat.?] s. Sudarśanasaṃhitā",
+      "reason": "The first word is not securely legible (it could be 'lat'/'Cat.'). The literal text should not present it as certain.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "fields.source",
+      "before": "Cat. s. Sudarśanasaṃhitā",
+      "after": "[Cat.?] s. Sudarśanasaṃhitā",
+      "reason": "Keeps the field consistent with the uncertain literal reading.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "Pencil, bracketed, written directly beneath the title in b003.",
+        "A query on the reading of part of the title."
+      ],
+      "after": [
+        "Pencil, bracketed, written directly beneath the title in b003.",
+        "A query on the reading of part of the title.",
+        "A small dot or circle above the 'kṣ/ā' of 'pañcākṣarī' in b003 (approx. x 865, y 4250) appears to be a reference mark associated with this query."
+      ],
+      "reason": "The source image shows a small mark above the title, directly over the pencil query. The candidate omitted it.",
+      "source_block_ids": [
+        "b003",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√C.341(1)",
+          "evidence": "This 'Begins:' line directly follows the b003 note, which is linked by arrow to C.341(1).",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√C.341(1)",
+          "evidence": "The 'Begins:' line follows the b003 note, which is linked by arrow to C.341(1). No arrow joins this line itself.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_continuation",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b.99(3)",
+          "evidence": "The facing-page ticked entry √b.99(3) sits at essentially the same height as this line. No arrow is present.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The two attachments are equally unconfirmed. Height alignment favours b.99(3) as much as sequence favours C.341(1), so 'probable' is too strong.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√C.341(1) — ⟦Hanumatpaṭalavidhi⟧, from the Sudarśanasaṃhitā …",
+          "evidence": "An arrow crosses the gutter from the facing-page entry C.341(1) to this line.",
+          "certainty": "secure"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 641,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√C.341(1) — ⟦[cancelled title, reading uncertain]⟧, from the Sudarśanasaṃhitā …",
+          "evidence": "An arrow crosses the gutter from the facing-page entry C.341(1) to this line.",
+          "certainty": "secure"
+        }
+      ],
+      "reason": "The cancelled word on the facing page cannot be securely read from the reduced adjacent image. The link itself remains secure.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ca46de42-f9dc-4b40-8707-bc39e87cc8a8.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca46de42-f9dc-4b40-8707-bc39e87cc8a8/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "e66edfb798b08d6d228f51cba5fe987722df9963c4aa43f3836d1ea8270a4e83",
+      "bytes": 305364,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca46de42-f9dc-4b40-8707-bc39e87cc8a8/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4d5aa3ca7a90d8bce7377fca96366a68572803d47f9b9fa85629d36ba98ce789",
+      "bytes": 334509,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca46de42-f9dc-4b40-8707-bc39e87cc8a8/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a4381e7ffd0310f63b048065fcec875c23d441ef4f72a00007cd41d08031ecf7",
+      "bytes": 363900,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca46de42-f9dc-4b40-8707-bc39e87cc8a8/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bdbcbac45d5306037c528636096732b008e50245d8db4721f0f2887a0106b504",
+      "bytes": 343706,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca46de42-f9dc-4b40-8707-bc39e87cc8a8/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "459a335225be671e7b2f83be1c8e301b3b731b062ae9e1cde8e251b1b7a68ee5",
+      "bytes": 367143,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca46de42-f9dc-4b40-8707-bc39e87cc8a8/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ff7033b1204af6c8267cdb5dccd0b9f7420544883b009300527a956d7d3d50b8",
+      "bytes": 372591,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ca46de42-f9dc-4b40-8707-bc39e87cc8a8/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f1de13cc8318afd3f10e5a09e4c7bf424bb70f23769a1448b6d18157dfc4c9a6",
+      "bytes": 390210,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/46ca288d-0410-480f-82fa-b490b3c60ee3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "58708ccb790dea2c65ea316bade293f4779e15b7cb22e5798b062b8ff611c602",
+      "bytes": 329205,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 639,
+      "folio_label": "fol. 320",
+      "page_id": "46ca288d-0410-480f-82fa-b490b3c60ee3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/021c429b-b901-4387-bc2e-002174a177bb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "cf9965a9b73d9f4d30d997415c8bf939b9fd5631c32af272c794d12687ae76a5",
+      "bytes": 337252,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 641,
+      "folio_label": "fol. 321",
+      "page_id": "021c429b-b901-4387-bc2e-002174a177bb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1081 @@
+{
+  "source_order": 210,
+  "folio_label": "fol. 105b",
+  "page_id": "0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8",
+  "native_dimensions": [
+    3508,
+    5119
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "105b",
+    "principal_page_bbox": [
+      325,
+      250,
+      2900,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          425,
+          295,
+          155,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "105b",
+        "features": [
+          "pencil",
+          "top left corner",
+          "superscript 'b' after 105"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2664,
+          840,
+          550,
+          215
+        ],
+        "description": "Long curved pencil or graphite stroke near the upper right outer edge, running from about the fourth ruled line toward the edge. It forms no letters."
+      },
+      {
+        "bbox": [
+          2764,
+          975,
+          65,
+          62
+        ],
+        "description": "Short diagonal pencil stroke just below and left of the curved stroke."
+      },
+      {
+        "bbox": [
+          1120,
+          2668,
+          70,
+          65
+        ],
+        "description": "Small dark blot or speck near mid-page. It is not legible text."
+      },
+      {
+        "bbox": [
+          1465,
+          4585,
+          40,
+          75
+        ],
+        "description": "Small dark mark or speck near the bottom of the page. It is not legible text."
+      }
+    ],
+    "boundary_notes": [
+      "Faint mirrored writing throughout the ruled area appears to be show-through or offset from the recto (fol. 105). It was not transcribed as target-page text.",
+      "Sewing thread and binding edge are visible at the right gutter. The left edge shows the stacked leaf edges."
+    ],
+    "uncertainties": [
+      "The folio superscript could be read 'b' or a similar mark. It is consistent with the supplied label 'fol. 105b'.",
+      "The curved stroke may be an accidental pencil mark rather than a deliberate annotation."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "105b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "105ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil foliation in the top left corner of the leaf. The 'b' is written superscript after '105'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript is read as 'b'. That reading is consistent with the supplied label 'fol. 105b'."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2664,
+          840,
+          550,
+          215
+        ],
+        "kind_hint": "non_text_mark",
+        "anchor": "curved pencil stroke, upper right",
+        "features": [
+          "pencil or graphite",
+          "long curved stroke running toward the outer edge near the fourth ruled line",
+          "no letterforms"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2764,
+          975,
+          65,
+          62
+        ],
+        "kind_hint": "non_text_mark",
+        "anchor": "short diagonal stroke below the curved stroke",
+        "features": [
+          "pencil",
+          "short diagonal",
+          "no letterforms"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number. It is the only written element on the page."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [],
+        "explanation": "Non-text pencil stroke with no legible letters and no attachment to any entry. It is described in page_annotations and not transcribed as text."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [],
+        "explanation": "Non-text short pencil stroke with no legible letters. It is described in page_annotations."
+      }
+    ],
+    "page_annotations": [
+      "I reviewed the overview and all six native tiles. Apart from the pencil foliation '105ᵇ', the ruled page carries no catalogue text in the top, middle or bottom areas, in the margins, or between the lines.",
+      "Faint mirrored writing across the ruled area is show-through or offset from the recto, fol. 105. It is not transcribed as target-page text.",
+      "There is a long curved pencil stroke near the upper right outer edge at about [2664,840,550,215]. A short diagonal stroke sits just below it at about [2764,975,65,62]. Neither forms letters, and either may be accidental.",
+      "Small dark blots or specks appear near mid-page at about [1120,2668,70,65] and near the bottom at about [1465,4585,40,75]. Neither is legible text.",
+      "Sewing thread and the binding edge are visible at the right gutter. The left edge shows the stacked leaf edges."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil foliation '105' with a raised 'b' sits in the top left corner, at about [425,295,155,120] in native tile 1. Record r001 transcribes it literally as '105ᵇ'. The raised letter looks like 'b', which agrees with the supplied label 'fol. 105b'. This is the only legible writing on the page."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Native tile 2 shows a long curved graphite stroke at about [2664,840,550,215]. It runs toward the outer edge and has no letterforms. The candidate rightly gives it no record and describes it in page_annotations."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Native tile 2 shows a short diagonal pencil stroke at about [2764,975,65,62], below and left of the curved stroke. It is not text. The candidate rightly gives it no record and describes it in page_annotations."
+      },
+      {
+        "block_id": "inventory_unattached_mark_mid_blot",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Native tile 3 shows a small dark blot at about [1120,2668,70,65]. It has no letterforms. It appears in the candidate's page_annotations and needs no record."
+      },
+      {
+        "block_id": "inventory_unattached_mark_bottom_speck",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Native tile 5 shows a small dark speck or scratch at about [1465,4585,40,75]. It is not text. It appears in the candidate's page_annotations and needs no record."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Faint ghost writing runs across the whole ruled area. The candidate and inventory say it is show-through from the recto, fol. 105. It could instead be offset from the facing page, fol. 106. The supplied images do not securely establish which. In neither case is it target-page text.",
+        "next_check": "Compare the line positions of the ghost writing against mirrored images of fol. 105 and fol. 106."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b901",
+          "b902"
+        ],
+        "issue": "The curved stroke and the short diagonal stroke may be accidental, or they may be deliberate marks. Their function cannot be determined from the image.",
+        "next_check": "Check whether similar strokes appear on neighbouring blank leaves."
+      }
+    ],
+    "boundary_review": "The principal page runs from the stacked leaf edges at the left to the sewn gutter at the right, where the thread is visible near the bottom. No fragment of a facing page with writing falls inside the target canvas. Fol. 105 and fol. 106 were used only as context. Nothing on this page continues an entry from fol. 105, and no ditto relationship applies.",
+    "region_review": {
+      "top": "The only writing is the pencil foliation '105ᵇ' at top left. A few tiny dots near the top edge, for example at about [955,320], are specks and not text.",
+      "middle": "Ruled lines are blank apart from faint ghost writing that is not target text, the blot at about [1120,2668], and scattered specks.",
+      "bottom": "The lower ruled lines are blank. There is a small speck or scratch at about [1465,4585] and minor specks near the bottom edge. I found no bottom note.",
+      "left_margin": "The stacked leaf edges show no marginal writing.",
+      "right_margin": "The pencil strokes b901 and b902 are at upper right. The sewing thread is visible lower at the gutter. There is no writing.",
+      "interlinear": "I found no interlinear additions. The only faint traces are ghost writing."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        425,
+        295,
+        155,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "105b",
+      "features": [
+        "pencil",
+        "top left corner",
+        "superscript 'b' after 105"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2664,
+        840,
+        550,
+        215
+      ],
+      "kind_hint": "non_text_mark",
+      "anchor": "curved pencil stroke, upper right",
+      "features": [
+        "pencil or graphite",
+        "long curved stroke running toward the outer edge near the fourth ruled line",
+        "no letterforms"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2764,
+        975,
+        65,
+        62
+      ],
+      "kind_hint": "non_text_mark",
+      "anchor": "short diagonal stroke below the curved stroke",
+      "features": [
+        "pencil",
+        "short diagonal",
+        "no letterforms"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "105ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil foliation in the top left corner of the leaf. The 'b' is written superscript after '105'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript is read as 'b'. That reading is consistent with the supplied label 'fol. 105b'."
+      ],
+      "stable_id": "css-prod-0210-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9901",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "non_text_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A long curved graphite stroke in the upper right. It runs from about x 2664 to the outer edge near the fourth ruled line. There are no letterforms."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It cannot be determined whether this stroke is accidental or a deliberate mark, or what its function is."
+      ],
+      "stable_id": "css-prod-0210-r9901",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    },
+    {
+      "id": "r9902",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "non_text_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A short graphite diagonal stroke descending left to right, below the curved stroke b901. There are no letterforms."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It cannot be determined whether this stroke is accidental or deliberate. Its relation to b901 is not established."
+      ],
+      "stable_id": "css-prod-0210-r9902",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [
+    {
+      "record_id": "r9901",
+      "stage": "focus",
+      "focused_check_file": "0210-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record for an existing unrepresented source block; original geometry retained"
+    },
+    {
+      "record_id": "r9902",
+      "stage": "focus",
+      "focused_check_file": "0210-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record for an existing unrepresented source block; original geometry retained"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b901",
+      "b902"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [],
+      "id": "focus-0210-01"
+    },
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0210-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Faint ghost writing runs across the whole ruled area. The candidate and inventory say it is show-through from the recto, fol. 105. It could instead be offset from the facing page, fol. 106. The supplied images do not securely establish which. In neither case is it target-page text.",
+      "block_ids": [],
+      "record_ids": [],
+      "id": "focus-0210-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The curved stroke and the short diagonal stroke may be accidental, or they may be deliberate marks. Their function cannot be determined from the image.",
+      "block_ids": [
+        "b901",
+        "b902"
+      ],
+      "record_ids": [],
+      "id": "focus-0210-04"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The superscript is read as 'b'. That reading is consistent with the supplied label 'fol. 105b'.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0210-05"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0210-01",
+        "focus-0210-02",
+        "focus-0210-03",
+        "focus-0210-04",
+        "focus-0210-05"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0210-01",
+          "source_reading": "[no letterforms] A long curved graphite stroke. It begins faintly near canvas x≈2664, y≈845, thickens, then runs down and right to the outer edge at about x≈3212, y≈1052, crossing near the fourth ruled line.",
+          "certainty": "secure",
+          "evidence": "Upper-right native tile (offset x 1604): the stroke runs from tile x≈1060,y≈845 to x≈1610,y≈1052. No letters, numerals or other pencil text are attached to it."
+        },
+        {
+          "issue_id": "focus-0210-02",
+          "source_reading": "[no letterforms] A short thin diagonal stroke descending left to right, below and left of the start of the curve.",
+          "certainty": "secure",
+          "evidence": "Upper-right native tile: the stroke runs from about x≈1160,y≈975 to x≈1225,y≈1037, which is canvas x≈2764–2829, y≈975–1037. It is isolated and is not a letter."
+        },
+        {
+          "issue_id": "focus-0210-03",
+          "source_reading": "Faint ghost handwriting across the ruled area. It is not legible as target-page text and was not transcribed.",
+          "certainty": "probable",
+          "evidence": "The ghost writing appears mirrored. The heavier band at about 52% page height lies near x≈60% of the width. On fol. 105 the 'DAŚA KARMA' heading lies at about 52% height and x≈40%, which is the mirror position. That pattern is consistent with show-through from the recto, fol. 105. Offset from fol. 106 cannot be strictly excluded from these images. In either case it is not target-page text."
+        },
+        {
+          "issue_id": "focus-0210-04",
+          "source_reading": "Two graphite strokes with no letterforms. Their function is undetermined.",
+          "certainty": "uncertain",
+          "evidence": "Neither stroke has an arrowhead, letter, tick form or text to which it is linked. They could be accidental pencil marks or deliberate marks."
+        },
+        {
+          "issue_id": "focus-0210-05",
+          "source_reading": "105ᵇ",
+          "certainty": "probable",
+          "evidence": "Upper-left native tile shows '105' followed by a raised looped character with an ascender, best read as 'b'. The glyph is somewhat hooked and is not fully unambiguous."
+        }
+      ],
+      "changes": [],
+      "block_changes": [],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b901",
+            "bbox": [
+              2664,
+              840,
+              550,
+              215
+            ],
+            "kind_hint": "non_text_mark",
+            "anchor": "curved pencil stroke, upper right",
+            "features": [
+              "pencil or graphite",
+              "long curved stroke running toward the outer edge near the fourth ruled line",
+              "no letterforms"
+            ]
+          },
+          "record": {
+            "id": "r9901",
+            "block_ids": [
+              "b901"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "non_text_mark",
+            "literal_text": "",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A long curved graphite stroke in the upper right. It runs from about x 2664 to the outer edge near the fourth ruled line. There are no letterforms."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "It cannot be determined whether this stroke is accidental or a deliberate mark, or what its function is."
+            ],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "This visible graphite mark is on the target page and was not represented in the record index."
+        },
+        {
+          "block": {
+            "id": "b902",
+            "bbox": [
+              2764,
+              975,
+              65,
+              62
+            ],
+            "kind_hint": "non_text_mark",
+            "anchor": "short diagonal stroke below the curved stroke",
+            "features": [
+              "pencil",
+              "short diagonal",
+              "no letterforms"
+            ]
+          },
+          "record": {
+            "id": "r9902",
+            "block_ids": [
+              "b902"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "non_text_mark",
+            "literal_text": "",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A short graphite diagonal stroke descending left to right, below the curved stroke b901. There are no letterforms."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "It cannot be determined whether this stroke is accidental or deliberate. Its relation to b901 is not established."
+            ],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "This visible isolated graphite stroke is on the target page and was not represented in the record index."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Pencil foliation '105ᵇ' in the top left corner."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r9901"
+          ],
+          "finding": "Non-text curved graphite stroke, added as a new record."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r9902"
+          ],
+          "finding": "Non-text short diagonal stroke, added as a new record."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0210-03",
+          "record_id": null,
+          "block_ids": [],
+          "issue": "The mirrored positioning favours show-through from fol. 105, but offset from fol. 106 is not strictly excluded. The ghost writing is not target-page text in either case.",
+          "next_check": "Compare the ghost writing under raking or transmitted light against the fol. 105 and fol. 106 layouts."
+        },
+        {
+          "issue_id": "focus-0210-04",
+          "record_id": null,
+          "block_ids": [
+            "b901",
+            "b902"
+          ],
+          "issue": "The function of the two strokes, and whether they are deliberate, cannot be determined.",
+          "next_check": "Physical inspection for pressure and indentation, and comparison with marks on neighbouring leaves."
+        },
+        {
+          "issue_id": "focus-0210-05",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "The superscript is read as 'b' with probable certainty. The glyph is slightly hooked.",
+          "next_check": "Compare it with other 'b'-suffixed foliation in the volume."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "be9dee74aab99f364542372522cf0ca52359f61e2c6da77912a19ba68d10acaa",
+      "bytes": 319452,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5119
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1b609b25a7d8a1e1772acc26538ef5af664f68e1bea02e88a1686090bb5babf9",
+      "bytes": 352965,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3e653afd6148649f42558942a6b879126fb5215d16c792dd08faed4e3915680e",
+      "bytes": 366547,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "35e5da41e0778cba7b2d1c9b9416c05983d4ecb085cd1b20db78c5412c569749",
+      "bytes": 384835,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "eb1b124b63743c0ac662ec84bb8f2c64da14c6a9e0855a4e21a924337c68e5c6",
+      "bytes": 414835,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/0,3215,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3d3717a4452e1694af49329defa9bdfc8b0f7c0e3c25da763c5f208c9dfe1a8d",
+      "bytes": 377371,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3215,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/1604,3215,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e4886144ed1c7a29e72bb0010fd1ad9a726e42f4041bbcaadfc0f5c3d9fa3f5d",
+      "bytes": 410826,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3215,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0ba8d675-05b0-4020-a4f5-0ebb44e30afe/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "489b3aa45fb2eae3f7234c2e3eddca3e988b846da429c11c00de0c20babd146b",
+      "bytes": 319132,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 209,
+      "folio_label": "fol. 105",
+      "page_id": "0ba8d675-05b0-4020-a4f5-0ebb44e30afe",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/be4f8f5e-cb8f-4c36-8752-ec41c2fc400e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "57af1bd7f0b46f970c9803a0e61e890953468593f720c55c251c35fc6c2a6101",
+      "bytes": 296758,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 211,
+      "folio_label": "fol. 106",
+      "page_id": "be4f8f5e-cb8f-4c36-8752-ec41c2fc400e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/be4f8f5e-cb8f-4c36-8752-ec41c2fc400e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c3a739d47cd2e78befb838ef111e14f31603eb9864fb1c52d5d13774e9c896a5",
+      "bytes": 518753,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 211,
+      "folio_label": "fol. 106",
+      "page_id": "be4f8f5e-cb8f-4c36-8752-ec41c2fc400e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/be4f8f5e-cb8f-4c36-8752-ec41c2fc400e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2ad1ac48443c22ecbb35d675e85af749b92778a7c82679a2be1ac76a54992fb2",
+      "bytes": 556267,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 211,
+      "folio_label": "fol. 106",
+      "page_id": "be4f8f5e-cb8f-4c36-8752-ec41c2fc400e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "be9dee74aab99f364542372522cf0ca52359f61e2c6da77912a19ba68d10acaa",
+      "bytes": 319452,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5119
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1b609b25a7d8a1e1772acc26538ef5af664f68e1bea02e88a1686090bb5babf9",
+      "bytes": 352965,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3e653afd6148649f42558942a6b879126fb5215d16c792dd08faed4e3915680e",
+      "bytes": 366547,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "35e5da41e0778cba7b2d1c9b9416c05983d4ecb085cd1b20db78c5412c569749",
+      "bytes": 384835,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "eb1b124b63743c0ac662ec84bb8f2c64da14c6a9e0855a4e21a924337c68e5c6",
+      "bytes": 414835,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/0,3215,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3d3717a4452e1694af49329defa9bdfc8b0f7c0e3c25da763c5f208c9dfe1a8d",
+      "bytes": 377371,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3215,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0d2d1343-be4c-4b9a-ab17-71f7ee95fcd8/1604,3215,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e4886144ed1c7a29e72bb0010fd1ad9a726e42f4041bbcaadfc0f5c3d9fa3f5d",
+      "bytes": 410826,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3215,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0ba8d675-05b0-4020-a4f5-0ebb44e30afe/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "489b3aa45fb2eae3f7234c2e3eddca3e988b846da429c11c00de0c20babd146b",
+      "bytes": 319132,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 209,
+      "folio_label": "fol. 105",
+      "page_id": "0ba8d675-05b0-4020-a4f5-0ebb44e30afe",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/be4f8f5e-cb8f-4c36-8752-ec41c2fc400e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "57af1bd7f0b46f970c9803a0e61e890953468593f720c55c251c35fc6c2a6101",
+      "bytes": 296758,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 211,
+      "folio_label": "fol. 106",
+      "page_id": "be4f8f5e-cb8f-4c36-8752-ec41c2fc400e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

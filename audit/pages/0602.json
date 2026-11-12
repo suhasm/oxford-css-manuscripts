@@ -1,0 +1,1102 @@
+{
+  "source_order": 602,
+  "folio_label": "fol. 301b",
+  "page_id": "2f410522-2dbf-46a9-9de5-e19104dcabed",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "301b",
+    "principal_page_bbox": [
+      345,
+      285,
+      2825,
+      4570
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          440,
+          360,
+          145,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "301.^b",
+        "features": [
+          "top-left corner of page, outer margin column",
+          "'b' written superscript above and after '301.'",
+          "visible folio number"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          380,
+          1830,
+          2240,
+          100
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "Vd. 147(10) Śrautasūtra by Baudhāyana[?], xxvii-xxix on prāyaścitta[?], ff. 1-26 n.d. :26: 9/10 : D",
+        "features": [
+          "shelfmark in left margin column with tick-like 'V' prefix",
+          "title written across the ruled margin line",
+          "extent 'ff. 1-26'",
+          "date and format field 'n.d. :26: 9/10 : D' at right",
+          "ink, single line"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          375,
+          1960,
+          2320,
+          110
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "Vd. 147(12) Do by Do., xxvii, ... ff. 1-5 [reading?] (... ) n.d.: 5: 15/16 : D.",
+        "features": [
+          "shelfmark in left margin column with 'V' prefix",
+          "ditto 'Do' used for title and for author",
+          "extent with a parenthetical note '(... iv)'; middle wording only partly legible",
+          "date and format field 'n.d.: 5: 15/16: D.' at right",
+          "ink, single line"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3064,
+          1895,
+          100,
+          55
+        ],
+        "description": "Leftward arrow in the right outer margin, level with entry b002 and pointing toward it"
+      },
+      {
+        "bbox": [
+          3064,
+          1985,
+          80,
+          40
+        ],
+        "description": "Leftward arrow in the right outer margin, level with entry b003"
+      },
+      {
+        "bbox": [
+          3125,
+          815,
+          30,
+          30
+        ],
+        "description": "Small dark diagonal dash at the right edge of the page near the top; it is not text"
+      },
+      {
+        "bbox": [
+          700,
+          3420,
+          50,
+          60
+        ],
+        "description": "Small dark specks in the left margin column in the lower third; these look like dirt or ink spatter"
+      },
+      {
+        "bbox": [
+          905,
+          3460,
+          50,
+          80
+        ],
+        "description": "Smudge on the vertical margin rule in the lower third"
+      }
+    ],
+    "boundary_notes": [
+      "Faint mirrored writing across the whole page is show-through from the facing or reverse page. It is not transcribed as target text and is not inventoried as blocks.",
+      "The adjacent fol. 301 and fol. 302 were used for context only. No fragments of those pages appear within this canvas."
+    ],
+    "uncertainties": [
+      "The exact readings of the title, the author and the descriptive wording in b002 and b003 are uncertain because the handwriting is cursive.",
+      "The parenthetical in b003 after 'ff. 1-5' is not securely legible.",
+      "The shelfmark numbers '(10)' and '(12)' are read with moderate confidence."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "301b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "301.b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top-left corner of the outer margin column.",
+          "The 'b' is written superscript, above and after '301.'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "√d. 147(10) Śrautasūtra by Baudhāyana, xxvii-xxix on prāyaścitta, ff. 1-26   n.d. :26: 9/10 : D",
+        "fields": {
+          "shelfmark": "d. 147(10)",
+          "title": "Śrautasūtra",
+          "author": "Baudhāyana",
+          "date": "n.d.",
+          "extent": "ff. 1-26 ; :26:",
+          "lines": "9/10",
+          "script": "D"
+        },
+        "normalized_title": "Śrautasūtra (Baudhāyana), xxvii-xxix",
+        "annotations": [
+          "The leading '√' is a tick-like mark joined to 'd.'. It has the same form as the ticks before shelfmarks on fol. 301.",
+          "The shelfmark is in the left margin column. The title begins across the vertical margin rule.",
+          "A leftward arrow in the right outer margin is level with this line (see r004)."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading of '(10)' in the shelfmark is moderately certain.",
+          "The 'Baudhāyana' reading is from cursive script ('Baudhāyana' as written; the diacritics are unclear).",
+          "The reading 'prāyaścitta' is probable.",
+          "Assigning '26' as the folio count and '9/10' as lines follows the column pattern of the adjacent pages. It is not labelled on this page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "√d. 147(12)   Do by Do., xxvii, vivaraṇa by Gopāla[?], ff. 1-5 unf.[?] (6 and partly iv[?])   n.d.: 5: 15/16: D.",
+        "fields": {
+          "shelfmark": "d. 147(12)",
+          "title": "Do",
+          "author": "Do.",
+          "date": "n.d.",
+          "extent": "ff. 1-5 unf.[?] (6 and partly iv[?]) ; 5",
+          "lines": "15/16",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick-like '√' is attached to 'd.'.",
+          "The ditto 'Do' is used for the title and 'Do.' is used for the author.",
+          "A leftward arrow in the right outer margin is level with this line (see r005)."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Śrautasūtra",
+            "source_page_order": 602,
+            "source_block_id": "b002",
+            "evidence": "The title is given as 'Do' in the line directly after the r002 entry.",
+            "certainty": "secure"
+          },
+          {
+            "field": "author",
+            "value": "Baudhāyana",
+            "source_page_order": 602,
+            "source_block_id": "b002",
+            "evidence": "The author is given as 'Do.' after the r002 entry, which names Baudhāyana.",
+            "certainty": "secure"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 602,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "Śrautasūtra by Baudhāyana",
+            "evidence": "The 'Do by Do.' appears in the line directly after r002.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'vivaraṇa by Gopāla' is uncertain. The name could be read 'Gopāla' or something similar.",
+          "In 'unf.', the parenthetical '(6 and partly iv)' is only partly legible.",
+          "The '(12)' in the shelfmark is moderately certain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A leftward arrow in the right outer margin, level with r002. Its purpose is not stated."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 602,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "√d. 147(10)",
+            "evidence": "The arrow is on the same line level.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The arrow's meaning is unknown."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A leftward arrow in the right outer margin, level with r003. Its purpose is not stated."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 602,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "√d. 147(12)",
+            "evidence": "The arrow is on the same line level.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The arrow's meaning is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3064,
+          1895,
+          110,
+          60
+        ],
+        "kind_hint": "marginal_mark",
+        "anchor": "leftward arrow beside b002",
+        "features": [
+          "ink",
+          "right outer margin"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3064,
+          1985,
+          90,
+          45
+        ],
+        "kind_hint": "marginal_mark",
+        "anchor": "leftward arrow beside b003",
+        "features": [
+          "ink",
+          "right outer margin"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "This is the visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "This is a single-line holding entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "This is a single-line holding entry that uses ditto marks."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "This is a marginal arrow. Its attachment to r002 is probable."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "This is a marginal arrow. Its attachment to r003 is probable."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page carries only show-through of mirrored writing from the reverse. This was reviewed and not transcribed.",
+      "The following non-text marks were reviewed and are not text: a small diagonal dash at the right edge near the top (~[3125,815]), specks in the left margin column (~[700,3420]), and a smudge on the margin rule (~[905,3460]).",
+      "The page is an inserted 'b' leaf. Its entries (Śrautasūtra) fall outside the alphabetical sequence of fol. 301 (Sarasvatī...) and fol. 302 (Sarasvatya...)."
+    ],
+    "unresolved_relationships": [
+      "It is unclear whether the arrows signal that these entries are to be inserted elsewhere in the sequence."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '301.' is at the top left, with a superscript 'b' above and after it. A small dot below it, at about [465,540], is a stray mark and not text."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is a single ink line, Vd. 147(10). The ink is legible, but the literal text gives 'Baudhāyana' and 'prāyaścitta' without the uncertainty markers that appear in the record's own uncertainties and in the inventory. The final 'D' may carry a closing stroke."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "This is a single ink line, Vd. 147(12), with the ditto 'Do by Do.'. The parenthetical after 'ff. 1-5 unf.' is cursive. 'and' and '6' are not secure, and there may be a further numeral before 'partly'."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A leftward arrow in the right outer margin, about [3064,1900], level with the line of b002. It is recorded as a probable attachment only."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "A leftward arrow in the right outer margin, about [3064,1990], level with the line of b003. It is recorded as a probable attachment only."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "√d. 147(10) Śrautasūtra by Baudhāyana, xxvii-xxix on prāyaścitta, ff. 1-26   n.d. :26: 9/10 : D",
+        "after": "√d. 147(10) Śrautasūtra by Baudhāyana[?], xxvii-xxix on prāyaścitta[?], ff. 1-26   n.d. :26: 9/10 : D",
+        "reason": "The cursive forms of the author's name and of 'prāyaścitta' (especially the diacritics) are not securely legible. The record's own uncertainties say so, and the literal text should not present them as certain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "√d. 147(12)   Do by Do., xxvii, vivaraṇa by Gopāla[?], ff. 1-5 unf.[?] (6 and partly iv[?])   n.d.: 5: 15/16: D.",
+        "after": "√d. 147(12)   Do by Do., xxvii, vivaraṇa[?] by Gopāla[?], ff. 1-5 unf.[?] (6[?] and[?] [reading?] partly iv[?])   n.d.: 5: 15/16: D.",
+        "reason": "The parenthetical is only partly legible. '6' and 'and' are not secure, and a further character may stand before 'partly'. The underdot of 'vivaraṇa' is also not secure.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "editorial_context",
+        "before": [
+          {
+            "field": "title",
+            "value": "Śrautasūtra",
+            "source_page_order": 602,
+            "source_block_id": "b002",
+            "evidence": "The title is given as 'Do' in the line directly after the r002 entry.",
+            "certainty": "secure"
+          },
+          {
+            "field": "author",
+            "value": "Baudhāyana",
+            "source_page_order": 602,
+            "source_block_id": "b002",
+            "evidence": "The author is given as 'Do.' after the r002 entry, which names Baudhāyana.",
+            "certainty": "secure"
+          }
+        ],
+        "after": [
+          {
+            "field": "title",
+            "value": "Śrautasūtra",
+            "source_page_order": 602,
+            "source_block_id": "b002",
+            "evidence": "The title is given as 'Do' in the line directly after the r002 entry.",
+            "certainty": "secure"
+          },
+          {
+            "field": "author",
+            "value": "Baudhāyana[?]",
+            "source_page_order": 602,
+            "source_block_id": "b002",
+            "evidence": "The author is given as 'Do.' after the r002 entry. The ditto relationship itself is secure, but the reading of the author's name in b002 is uncertain.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The resolved value cannot be more certain than its source reading.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The parenthetical extent wording after 'ff. 1-5 unf.' is not securely legible.",
+        "next_check": "Compare with the catalogue conventions for 'unf.' notes in this hand and with the manuscript d. 147(12)."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b901",
+          "b902"
+        ],
+        "issue": "The purpose of the arrows is unknown. They may signal that these entries should be inserted elsewhere: Śrautasūtra falls outside the Sarasvatī–Sarva sequence of fol. 301 and fol. 302. The page annotation about an inserted leaf is an inference, not source wording.",
+        "next_check": "Check the Ś section of the catalogue for corresponding entries d. 147(10) and d. 147(12)."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There is a small faint squiggle near the right edge in the lower part of the page, at about [3020,3510,100,80]. It appears to be a mark or show-through, not text. Neither the inventory nor the candidate records it.",
+        "next_check": "Inspect at higher contrast to confirm that it is not a faint tick or pencil mark."
+      }
+    ],
+    "boundary_review": "The canvas contains a single leaf with no facing-page fragments. Mirrored show-through from the reverse covers much of the page and is not target text. The adjacent fol. 301 and fol. 302 were used only to confirm the tick convention and the alphabetical context.",
+    "region_review": {
+      "top": "Only the folio number '301.b' and a stray dot. The diagonal dash at about [3125,815] at the right edge is a non-text mark, noted in the page annotations.",
+      "middle": "Two ink entry lines at about y 1880–2030. Otherwise there is only show-through.",
+      "bottom": "No written text. There are specks at about [700,3420] and a smudge on the margin rule at about [905,3460], both non-text. A faint squiggle near the right edge at about [3070,3540] is unrecorded and probably not text.",
+      "left_margin": "Shelfmarks with tick marks for the two entries only. Otherwise only specks.",
+      "right_margin": "Two leftward arrows level with the entries, and the small dash near the top.",
+      "interlinear": "No interlinear additions or cancellations were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        440,
+        360,
+        145,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "301.^b",
+      "features": [
+        "top-left corner of page, outer margin column",
+        "'b' written superscript above and after '301.'",
+        "visible folio number"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        380,
+        1830,
+        2240,
+        100
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "Vd. 147(10) Śrautasūtra by Baudhāyana[?], xxvii-xxix on prāyaścitta[?], ff. 1-26 n.d. :26: 9/10 : D",
+      "features": [
+        "shelfmark in left margin column with tick-like 'V' prefix",
+        "title written across the ruled margin line",
+        "extent 'ff. 1-26'",
+        "date and format field 'n.d. :26: 9/10 : D' at right",
+        "ink, single line"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        375,
+        1960,
+        2320,
+        110
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "Vd. 147(12) Do by Do., xxvii, ... ff. 1-5 [reading?] (... ) n.d.: 5: 15/16 : D.",
+      "features": [
+        "shelfmark in left margin column with 'V' prefix",
+        "ditto 'Do' used for title and for author",
+        "extent with a parenthetical note '(... iv)'; middle wording only partly legible",
+        "date and format field 'n.d.: 5: 15/16: D.' at right",
+        "ink, single line"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3064,
+        1895,
+        110,
+        60
+      ],
+      "kind_hint": "marginal_mark",
+      "anchor": "leftward arrow beside b002",
+      "features": [
+        "ink",
+        "right outer margin"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3064,
+        1985,
+        90,
+        45
+      ],
+      "kind_hint": "marginal_mark",
+      "anchor": "leftward arrow beside b003",
+      "features": [
+        "ink",
+        "right outer margin"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "301.b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top-left corner of the outer margin column.",
+        "The 'b' is written superscript, above and after '301.'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0602-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "√d. 147(10) Śrautasūtra by Baudhāyana, xxvii-xxix on prāyaścitta, ff. 1-26   n.d. :26: 9/10 : D",
+      "fields": {
+        "shelfmark": "d. 147(10)",
+        "title": "Śrautasūtra",
+        "author": "Baudhāyana",
+        "date": "n.d.",
+        "extent": "ff. 1-26 ; :26:",
+        "lines": "9/10",
+        "script": "D"
+      },
+      "normalized_title": "Śrautasūtra (Baudhāyana), xxvii-xxix",
+      "annotations": [
+        "The leading '√' is a tick-like mark joined to 'd.'. It has the same form as the ticks before shelfmarks on fol. 301.",
+        "The shelfmark is in the left margin column. The title begins across the vertical margin rule.",
+        "A leftward arrow in the right outer margin is level with this line (see r004)."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading of '(10)' in the shelfmark is moderately certain.",
+        "The 'Baudhāyana' reading is from cursive script ('Baudhāyana' as written; the diacritics are unclear).",
+        "The reading 'prāyaścitta' is probable.",
+        "Assigning '26' as the folio count and '9/10' as lines follows the column pattern of the adjacent pages. It is not labelled on this page."
+      ],
+      "stable_id": "css-prod-0602-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "√d. 147(12)   Do by Do., xxvii, vivaraṇa by Gopāla[?], ff. 1-5 unf.[?] (6 and partly iv[?])   n.d.: 5: 15/16: D.",
+      "fields": {
+        "shelfmark": "d. 147(12)",
+        "title": "Do",
+        "author": "Do.",
+        "date": "n.d.",
+        "extent": "ff. 1-5 unf.[?] (6 and partly iv[?]) ; 5",
+        "lines": "15/16",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick-like '√' is attached to 'd.'.",
+        "The ditto 'Do' is used for the title and 'Do.' is used for the author.",
+        "A leftward arrow in the right outer margin is level with this line (see r005)."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Śrautasūtra",
+          "source_page_order": 602,
+          "source_block_id": "b002",
+          "evidence": "The title is given as 'Do' in the line directly after the r002 entry.",
+          "certainty": "secure"
+        },
+        {
+          "field": "author",
+          "value": "Baudhāyana",
+          "source_page_order": 602,
+          "source_block_id": "b002",
+          "evidence": "The author is given as 'Do.' after the r002 entry, which names Baudhāyana.",
+          "certainty": "secure"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 602,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "Śrautasūtra by Baudhāyana",
+          "evidence": "The 'Do by Do.' appears in the line directly after r002.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'vivaraṇa by Gopāla' is uncertain. The name could be read 'Gopāla' or something similar.",
+        "In 'unf.', the parenthetical '(6 and partly iv)' is only partly legible.",
+        "The '(12)' in the shelfmark is moderately certain."
+      ],
+      "stable_id": "css-prod-0602-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A leftward arrow in the right outer margin, level with r002. Its purpose is not stated."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 602,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "√d. 147(10)",
+          "evidence": "The arrow is on the same line level.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The arrow's meaning is unknown."
+      ],
+      "stable_id": "css-prod-0602-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A leftward arrow in the right outer margin, level with r003. Its purpose is not stated."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 602,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "√d. 147(12)",
+          "evidence": "The arrow is on the same line level.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The arrow's meaning is unknown."
+      ],
+      "stable_id": "css-prod-0602-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "√d. 147(10) Śrautasūtra by Baudhāyana, xxvii-xxix on prāyaścitta, ff. 1-26   n.d. :26: 9/10 : D",
+      "after": "√d. 147(10) Śrautasūtra by Baudhāyana[?], xxvii-xxix on prāyaścitta[?], ff. 1-26   n.d. :26: 9/10 : D",
+      "reason": "The cursive forms of the author's name and of 'prāyaścitta' (especially the diacritics) are not securely legible. The record's own uncertainties say so, and the literal text should not present them as certain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "√d. 147(12)   Do by Do., xxvii, vivaraṇa by Gopāla[?], ff. 1-5 unf.[?] (6 and partly iv[?])   n.d.: 5: 15/16: D.",
+      "after": "√d. 147(12)   Do by Do., xxvii, vivaraṇa[?] by Gopāla[?], ff. 1-5 unf.[?] (6[?] and[?] [reading?] partly iv[?])   n.d.: 5: 15/16: D.",
+      "reason": "The parenthetical is only partly legible. '6' and 'and' are not secure, and a further character may stand before 'partly'. The underdot of 'vivaraṇa' is also not secure.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "title",
+          "value": "Śrautasūtra",
+          "source_page_order": 602,
+          "source_block_id": "b002",
+          "evidence": "The title is given as 'Do' in the line directly after the r002 entry.",
+          "certainty": "secure"
+        },
+        {
+          "field": "author",
+          "value": "Baudhāyana",
+          "source_page_order": 602,
+          "source_block_id": "b002",
+          "evidence": "The author is given as 'Do.' after the r002 entry, which names Baudhāyana.",
+          "certainty": "secure"
+        }
+      ],
+      "after": [
+        {
+          "field": "title",
+          "value": "Śrautasūtra",
+          "source_page_order": 602,
+          "source_block_id": "b002",
+          "evidence": "The title is given as 'Do' in the line directly after the r002 entry.",
+          "certainty": "secure"
+        },
+        {
+          "field": "author",
+          "value": "Baudhāyana[?]",
+          "source_page_order": 602,
+          "source_block_id": "b002",
+          "evidence": "The author is given as 'Do.' after the r002 entry. The ditto relationship itself is secure, but the reading of the author's name in b002 is uncertain.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The resolved value cannot be more certain than its source reading.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2f410522-2dbf-46a9-9de5-e19104dcabed.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f410522-2dbf-46a9-9de5-e19104dcabed/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "636459e62b1f10cfc3024fee6fce681f2e63c59a3197b1416e748f8dbe80e096",
+      "bytes": 325591,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f410522-2dbf-46a9-9de5-e19104dcabed/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "30126f2c102b0a3b5158182e0fca5a1cf43375a0365ecd97a86874bb1193421e",
+      "bytes": 394708,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f410522-2dbf-46a9-9de5-e19104dcabed/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "29041939d43e7fe695a5b0dbac60eac0a6d9d31c8664a272d1870b9188710d80",
+      "bytes": 381337,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f410522-2dbf-46a9-9de5-e19104dcabed/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "00292340810c2f67c63795158b602861a4a1699f429c72134449bd5b452a51f8",
+      "bytes": 433738,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f410522-2dbf-46a9-9de5-e19104dcabed/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bf6246eef14706d08042031c707b1b6e2e48a248557a113599e70566f6b86742",
+      "bytes": 437908,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f410522-2dbf-46a9-9de5-e19104dcabed/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1f234df2dd8a741c9022132b08b7a163b71ce2eee4fe0256b45585e5e521615e",
+      "bytes": 379175,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f410522-2dbf-46a9-9de5-e19104dcabed/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bef539bbde825ed8708b392918b912e590f90613070d47e3cc21c652e725be8a",
+      "bytes": 406154,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/650d78fe-2cb8-4f56-8f46-935fd304c4c9/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "81fc7ce5401456035bd56b37fe4c28ffd8fa82505aa2c11260dc4a4be55ecde2",
+      "bytes": 358615,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 601,
+      "folio_label": "fol. 301",
+      "page_id": "650d78fe-2cb8-4f56-8f46-935fd304c4c9",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/246a9a71-3f45-40af-9653-a1d1563a2f51/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7a5db999e78e0b0c4a1707eba76cc607c726db863ec2580654aa9570507cb97e",
+      "bytes": 339751,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 603,
+      "folio_label": "fol. 302",
+      "page_id": "246a9a71-3f45-40af-9653-a1d1563a2f51",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

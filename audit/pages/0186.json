@@ -1,0 +1,704 @@
+{
+  "source_order": 186,
+  "folio_label": "fol. 93b",
+  "page_id": "8f29e3aa-2b50-412e-b4bb-660af469fd76",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "other",
+    "visible_folio": "93b",
+    "principal_page_bbox": [
+      300,
+      280,
+      2905,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          305,
+          170,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "93b",
+        "features": [
+          "pencil",
+          "top left corner",
+          "superscript-like 'b' after 93"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          1478,
+          545,
+          180,
+          245
+        ],
+        "kind_hint": "unattached_note_list",
+        "anchor": "a - a / a - ā / ā - a / ā - ā",
+        "features": [
+          "faint pencil",
+          "four short lines stacked",
+          "macrons over some vowels",
+          "hyphen/dash separators",
+          "no catalogue entry structure"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1855,
+          540,
+          90,
+          60
+        ],
+        "kind_hint": "unattached_note",
+        "anchor": "ā3",
+        "features": [
+          "faint pencil",
+          "to the right of b002 on its first line",
+          "macron over a"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2600,
+          3255,
+          390,
+          170
+        ],
+        "description": "Thin curved pencil stroke with a short separate diagonal stroke below it, lower right of the page; not legible as text."
+      },
+      {
+        "bbox": [
+          330,
+          2380,
+          30,
+          50
+        ],
+        "description": "Small dark speck or nick at the left (gutter) edge, about mid-page; physical mark, not writing."
+      },
+      {
+        "bbox": [
+          2550,
+          2930,
+          260,
+          30
+        ],
+        "description": "Several small dark dots on a ruled line at right-centre; probably specks, not text."
+      },
+      {
+        "bbox": [
+          3190,
+          4120,
+          120,
+          480
+        ],
+        "description": "Loose binding thread protruding from the right edge near the bottom; physical feature."
+      }
+    ],
+    "boundary_notes": [
+      "The ruled lines across the page carry faint reversed show-through from the writing on the other side of the leaf (fol. 93). This is not target-page text and has not been inventoried.",
+      "No fragments of any facing page are within the target image; the adjacent fol. 93 and fol. 94 are context only."
+    ],
+    "uncertainties": [
+      "The meaning or purpose of the pencil notations a-a / ā3 is unclear. They are recorded only as literal anchors.",
+      "The form of the 'b' in the folio number is a superscript-like stroke; it is read as 'b' consistent with the label fol. 93b.",
+      "The lower-right pencil stroke may be an accidental mark rather than an intentional sign."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "mostly_blank_verso_with_pencil_notes",
+    "visible_folio": "93b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "93b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top left corner of the leaf.",
+          "The 'b' is a raised, superscript-like stroke after '93'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised letter is read as 'b'. This matches the supplied label fol. 93b, but the letterform is cursive and abbreviated."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_note_list",
+        "literal_text": "a - a\na - ā\nā - a\nā - ā",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, four short stacked lines near the top centre, above and on the first ruled lines.",
+          "Macrons are written as bars over the vowels. Short dashes separate the pairs.",
+          "No catalogue entry structure: no shelfmark, title or date."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Purpose unclear. It may be a note on vowel combinations (sandhi), but no interpretation is asserted.",
+          "The separators vary slightly in length; they are recorded uniformly as ' - '."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_note",
+        "literal_text": "ā3",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, to the right of the first line of b002 and level with it.",
+          "A macron is over the a, followed by the numeral 3."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 186,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "a - a / a - ā / ā - a / ā - ā",
+            "evidence": "Same faint pencil and same line level, adjacent to the list",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Meaning and relation to the a/ā list are unclear."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Unattached pencil list of a/ā pairs."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Separate pencil note 'ā3', possibly related to b002."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and the pencil notes at the top, the ruled page contains no catalogue entries. This was verified across all native tiles, covering the top, middle, bottom, gutter and outer margins.",
+      "Faint reversed show-through of the writing on the other side of the leaf (fol. 93) is visible along the ruled lines. It is not target text and has not been transcribed.",
+      "Lower right, about [2600,3260,390,170]: a thin curved pencil stroke with a separate short diagonal stroke below it. It is not legible as text and may be accidental.",
+      "Small specks and dots appear at about [2550,2930,260,30] and at the left gutter edge around y≈2400. These are physical marks.",
+      "A loose binding thread protrudes from the right edge near the bottom, at about [3190,4120,120,480]."
+    ],
+    "unresolved_relationships": [
+      "The relation of r003 'ā3' to the r002 list is uncertain. Neither note attaches to any catalogue entry on fol. 93 or fol. 94."
+    ]
+  },
+  "review": {
+    "page_class": "mostly_blank_verso_with_pencil_notes",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Pencil '93' with a raised, cursive b-like stroke at the top left, at about [385,305,170,150]. The candidate reading '93b' matches the supplied label. The candidate correctly keeps the letterform uncertainty."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Native tile 1 confirms four stacked faint pencil lines at about x1480–1655, y545–790: 'a - a', 'a - ā', 'ā - a', 'ā - ā'. The separator in line 3 is very short, almost a dot. A tiny dot follows the final ā of line 4; it may be a speck and is not transcribed. No cancellation or interlinear addition is visible."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "'ā3' is at about [1860,545,85,50], level with line 1 of b002. It has a macron over the a. Its possible attachment to r002 is correctly kept uncertain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": null,
+        "field_path": "page_annotations",
+        "before": [
+          "Apart from the folio number and the pencil notes at the top, the ruled page contains no catalogue entries. This was verified across all native tiles, covering the top, middle, bottom, gutter and outer margins.",
+          "Faint reversed show-through of the writing on the other side of the leaf (fol. 93) is visible along the ruled lines. It is not target text and has not been transcribed.",
+          "Lower right, about [2600,3260,390,170]: a thin curved pencil stroke with a separate short diagonal stroke below it. It is not legible as text and may be accidental.",
+          "Small specks and dots appear at about [2550,2930,260,30] and at the left gutter edge around y≈2400. These are physical marks.",
+          "A loose binding thread protrudes from the right edge near the bottom, at about [3190,4120,120,480]."
+        ],
+        "after": [
+          "Apart from the folio number and the pencil notes at the top, no catalogue entries were found on the ruled page in machine review of all native tiles (top, middle, bottom, gutter and outer margins).",
+          "Faint reversed show-through of the writing on the other side of the leaf (fol. 93) is visible along the ruled lines. It is not target text and has not been transcribed.",
+          "Lower right, about [2600,3255,390,170]: a thin curved pencil stroke with a separate short diagonal stroke below it. It is not legible as text and may be accidental.",
+          "Small specks and dots appear at about [2550,2930,260,30] and at the left gutter edge around [335,2390,30,40]. These are physical marks.",
+          "A loose binding thread protrudes from the right edge in the lower part of the page, at about [3190,3730,110,670].",
+          "Further faint non-text marks, none legible as writing: a small smudge at about [2600,4140,40,100]; a faint short diagonal at about [2870,3665,70,35]; a tiny hook or nick at about [3120,4620,60,30], near the lower right edge; and a small nick at about [820,4320,30,30]."
+        ],
+        "reason": "Native tile 6 places the thread at canvas y≈3740–4390, not 4120–4600. Additional faint marks are visible in the lower tiles. The candidate's 'verified' wording overstates a machine review.",
+        "source_block_ids": [],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The purpose of the a/ā list and 'ā3', and whether they relate to each other, is unknown.",
+        "next_check": "Inspect the original leaf for pressure and pencil tone. No interpretation should be asserted."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "A tiny dot after the final ā of line 4 may be a speck or an intentional point.",
+        "next_check": "Check at higher magnification."
+      }
+    ],
+    "boundary_review": "The target is a single verso leaf. No facing-page fragment is inside the canvas. The writing faintly visible along the rules is reversed show-through from fol. 93 and is excluded. Neither note attaches to entries on fol. 93 or fol. 94.",
+    "region_review": {
+      "top": "Folio number at the top left. a/ā list at the top centre and 'ā3' to its right. A tiny speck near [2144,380] is not text.",
+      "middle": "Ruled lines carry only show-through. Dots at the right centre and a gutter-edge nick are physical marks.",
+      "bottom": "A curved pencil stroke at the lower right, a few faint smudges and nicks, and the binding thread. No text.",
+      "left_margin": "Gutter edge shows binding and nick marks only.",
+      "right_margin": "Edge damage and the thread only. No writing.",
+      "interlinear": "No interlinear additions beyond the top pencil notes."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        305,
+        170,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "93b",
+      "features": [
+        "pencil",
+        "top left corner",
+        "superscript-like 'b' after 93"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        1478,
+        545,
+        180,
+        245
+      ],
+      "kind_hint": "unattached_note_list",
+      "anchor": "a - a / a - ā / ā - a / ā - ā",
+      "features": [
+        "faint pencil",
+        "four short lines stacked",
+        "macrons over some vowels",
+        "hyphen/dash separators",
+        "no catalogue entry structure"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1855,
+        540,
+        90,
+        60
+      ],
+      "kind_hint": "unattached_note",
+      "anchor": "ā3",
+      "features": [
+        "faint pencil",
+        "to the right of b002 on its first line",
+        "macron over a"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "93b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top left corner of the leaf.",
+        "The 'b' is a raised, superscript-like stroke after '93'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised letter is read as 'b'. This matches the supplied label fol. 93b, but the letterform is cursive and abbreviated."
+      ],
+      "stable_id": "css-prod-0186-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_note_list",
+      "literal_text": "a - a\na - ā\nā - a\nā - ā",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, four short stacked lines near the top centre, above and on the first ruled lines.",
+        "Macrons are written as bars over the vowels. Short dashes separate the pairs.",
+        "No catalogue entry structure: no shelfmark, title or date."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Purpose unclear. It may be a note on vowel combinations (sandhi), but no interpretation is asserted.",
+        "The separators vary slightly in length; they are recorded uniformly as ' - '."
+      ],
+      "stable_id": "css-prod-0186-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_note",
+      "literal_text": "ā3",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, to the right of the first line of b002 and level with it.",
+        "A macron is over the a, followed by the numeral 3."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 186,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "a - a / a - ā / ā - a / ā - ā",
+          "evidence": "Same faint pencil and same line level, adjacent to the list",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Meaning and relation to the a/ā list are unclear."
+      ],
+      "stable_id": "css-prod-0186-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": null,
+      "field_path": "page_annotations",
+      "before": [
+        "Apart from the folio number and the pencil notes at the top, the ruled page contains no catalogue entries. This was verified across all native tiles, covering the top, middle, bottom, gutter and outer margins.",
+        "Faint reversed show-through of the writing on the other side of the leaf (fol. 93) is visible along the ruled lines. It is not target text and has not been transcribed.",
+        "Lower right, about [2600,3260,390,170]: a thin curved pencil stroke with a separate short diagonal stroke below it. It is not legible as text and may be accidental.",
+        "Small specks and dots appear at about [2550,2930,260,30] and at the left gutter edge around y≈2400. These are physical marks.",
+        "A loose binding thread protrudes from the right edge near the bottom, at about [3190,4120,120,480]."
+      ],
+      "after": [
+        "Apart from the folio number and the pencil notes at the top, no catalogue entries were found on the ruled page in machine review of all native tiles (top, middle, bottom, gutter and outer margins).",
+        "Faint reversed show-through of the writing on the other side of the leaf (fol. 93) is visible along the ruled lines. It is not target text and has not been transcribed.",
+        "Lower right, about [2600,3255,390,170]: a thin curved pencil stroke with a separate short diagonal stroke below it. It is not legible as text and may be accidental.",
+        "Small specks and dots appear at about [2550,2930,260,30] and at the left gutter edge around [335,2390,30,40]. These are physical marks.",
+        "A loose binding thread protrudes from the right edge in the lower part of the page, at about [3190,3730,110,670].",
+        "Further faint non-text marks, none legible as writing: a small smudge at about [2600,4140,40,100]; a faint short diagonal at about [2870,3665,70,35]; a tiny hook or nick at about [3120,4620,60,30], near the lower right edge; and a small nick at about [820,4320,30,30]."
+      ],
+      "reason": "Native tile 6 places the thread at canvas y≈3740–4390, not 4120–4600. Additional faint marks are visible in the lower tiles. The candidate's 'verified' wording overstates a machine review.",
+      "source_block_ids": [],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8f29e3aa-2b50-412e-b4bb-660af469fd76.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f29e3aa-2b50-412e-b4bb-660af469fd76/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "55be639f914ea80069991b4476ecbcca702b17d8f8cc7b6da98d8ddc637ef764",
+      "bytes": 313855,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f29e3aa-2b50-412e-b4bb-660af469fd76/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "67fe3e5f3c9294240d1bf42d445feaf64ea4bf3349a190904187874327924c4a",
+      "bytes": 346613,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f29e3aa-2b50-412e-b4bb-660af469fd76/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c845e229ab97ee36116a5b60cf05f139cbd49b93eaa7c6b586782ff5cacd5ac4",
+      "bytes": 360411,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f29e3aa-2b50-412e-b4bb-660af469fd76/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dbf8d683a150420610186e51a92c28d736cf7a1988ecb9bce9c2cbe580b0c9a2",
+      "bytes": 367943,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f29e3aa-2b50-412e-b4bb-660af469fd76/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6983b781855bff5f8be5aaded37e50c27a0ee77bda25b56b72e4a90d142ee687",
+      "bytes": 408125,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f29e3aa-2b50-412e-b4bb-660af469fd76/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e25ddbc085160dbbe73711c22ff52ca9f169c5ec7f244f23b49635a504c85dd0",
+      "bytes": 369693,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f29e3aa-2b50-412e-b4bb-660af469fd76/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e0ae10d0b9d30649405695e42d7a3c0d126459bda8a6c86483d5024c345f88f8",
+      "bytes": 400910,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9334c018-501e-4c09-95a1-250855ade2c8/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7bc664ad312d0f1c8ee9b50dd0c29bee99613384034ce59bb8a8e77b69ec43a4",
+      "bytes": 300711,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 185,
+      "folio_label": "fol. 93",
+      "page_id": "9334c018-501e-4c09-95a1-250855ade2c8",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b96cd39e-c32f-4c48-8bc5-b1aeceb4d42c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6d3bc9cdaaf3b36ff1b7936a2ce18da97ced60c4fa6e7dce77ceaacf75528bd4",
+      "bytes": 292873,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 187,
+      "folio_label": "fol. 94",
+      "page_id": "b96cd39e-c32f-4c48-8bc5-b1aeceb4d42c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

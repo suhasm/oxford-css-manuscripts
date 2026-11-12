@@ -1,0 +1,493 @@
+{
+  "source_order": 374,
+  "folio_label": "fol. 187b",
+  "page_id": "b00c271e-2555-4389-8104-c10ecf172d95",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "tranche-1",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "187b",
+    "principal_page_bbox": [
+      295,
+      285,
+      2900,
+      4592
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          300,
+          150,
+          160
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "187b",
+        "features": [
+          "top-left corner",
+          "pencil or ink folio number",
+          "'b' raised as superscript after 187"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1770,
+          610,
+          540,
+          530
+        ],
+        "description": "Grey pencil-like smudge or rubbing trailing diagonally down-right near the top centre; no legible text"
+      },
+      {
+        "bbox": [
+          550,
+          550,
+          40,
+          60
+        ],
+        "description": "Small curved stroke or speck in the upper left; not legible as text"
+      },
+      {
+        "bbox": [
+          325,
+          2300,
+          40,
+          60
+        ],
+        "description": "Small dark mark at the left (gutter) page edge, near mid-page"
+      },
+      {
+        "bbox": [
+          328,
+          2985,
+          25,
+          40
+        ],
+        "description": "Small dark tick or speck at the left page edge"
+      },
+      {
+        "bbox": [
+          865,
+          2860,
+          45,
+          40
+        ],
+        "description": "Dark speck or ink spot in the left middle area"
+      },
+      {
+        "bbox": [
+          1225,
+          3750,
+          70,
+          190
+        ],
+        "description": "Scattered faint specks in the lower left area"
+      },
+      {
+        "bbox": [
+          2365,
+          4255,
+          50,
+          150
+        ],
+        "description": "Vertical row of dark specks in the lower right area"
+      },
+      {
+        "bbox": [
+          2400,
+          4785,
+          110,
+          90
+        ],
+        "description": "Short diagonal scratch or mark near the bottom edge"
+      },
+      {
+        "bbox": [
+          1500,
+          295,
+          240,
+          60
+        ],
+        "description": "A few tiny dots near the top edge; not text"
+      }
+    ],
+    "boundary_notes": [
+      "Faint mirror-image show-through of the recto's catalogue entries (e.g. a reversed capitalised 'MAHABHARATA' heading at mid-page) is visible across the ruled lines. It is not writing on this page and is not inventoried as blocks.",
+      "A white binding thread visible beyond the right page edge is outside the page and is not a mark on the page.",
+      "Adjacent fol. 187 and fol. 188 are context only and are not transcribed."
+    ],
+    "uncertainties": [
+      "The folio number is read as '187' followed by a superscript 'b'. The final character could alternatively be read as 'ᵇ' or as a '6'-like form; 'b' is the most likely reading.",
+      "Very faint marks were checked against the show-through pattern. None was identified as an independent pencil addition, but extremely faint pencil writing hidden beneath the show-through cannot be fully excluded."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "187b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "187ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Folio number in the top-left corner, written as '187' with a raised 'b'.",
+          "The ink or pencil medium is not certain."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised final character is read as 'b'. It is written in a looped form that could be mistaken for a '6'. 'b' agrees with the supplied folio label 'fol. 187b'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only legible writing on the page."
+      }
+    ],
+    "page_annotations": [
+      "The images were reviewed: the overview and all six native tiles, covering the top, middle, bottom, gutter and outer margins.",
+      "Apart from the folio number, the ruled page has no catalogue entries, headings or legible annotations.",
+      "Faint mirror-image show-through of the recto (fol. 187) is visible across the page. This includes a reversed capitalised 'MAHĀBHĀRATA' heading near mid-page and entry lines in the lower half. It is not writing on this page and is not transcribed.",
+      "Non-text marks have no legible text. They include: a grey smudge or rubbing trailing diagonally near the top centre (approx. [1770,610,540,530]); small specks and ticks at the gutter edge (approx. y 550, 2300, 2985); a dark spot near [865,2860]; a cluster of specks near [1225,3750]; a vertical row of specks near [2365,4255]; and a short diagonal scratch near the bottom edge [2400,4785].",
+      "A white binding thread lies beyond the right page edge and is not a mark on the page.",
+      "Extremely faint pencil writing hidden beneath the show-through cannot be completely excluded, but none was identified."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number in the top-left corner reads '187' followed by a raised looped 'b'-like character, at native approx. [370,305,140,140]. Record r001 transcribes it as '187ᵇ'. That reading is consistent with the image and with the supplied label 'fol. 187b'. The candidate keeps the uncertainty about the final character, which is appropriate."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Edge terminology is inconsistent. The binding thread runs beyond the RIGHT edge, and the left edge shows the stacked edges of several leaves. The left edge is therefore probably the outer edge, not the gutter. The inventory and page_annotations call the left-edge specks (approx. y 560, 2300, 2990) 'gutter' marks. The speck near y 550 is actually at about x 565, not at the edge; there is a separate small tick at the left edge at about [330,540,25,40]. This affects only the description of non-text marks.",
+        "next_check": "Confirm the binding side against the volume structure before relying on 'gutter' and 'outer margin' labels."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Some non-text marks are not inventoried. These are a small diagonal crease or mark at the top-right corner (approx. [3100,300,50,50]) and a broad faint grey shadow or rubbing in the upper right (approx. [2380,430,300,320]). Neither contains legible text.",
+        "next_check": "Optional: add these to the list of non-text marks. No record is needed."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "The page annotation renders the reversed show-through heading as 'MAHĀBHĀRATA' with macrons. On this page the reversed letters are visible but the macrons are not securely discernible; the macronised form comes from the recto. This is show-through and is not transcribed.",
+        "next_check": "If the annotation is kept, describe it as show-through of the recto heading rather than as a reading of this page."
+      }
+    ],
+    "boundary_review": "The target is the right-hand page of the opening, with the binding thread beyond its right edge. No fragment of the facing page is included. Show-through of fol. 187 recto is visible across the ruled lines, including the reversed capitals 'MAHABHARATA' near mid-right (approx. y 2550–2600) and entry text in the lower half. It is correctly treated as not belonging to this page. Adjacent fol. 187 and fol. 188 are context only; no ditto or continuation relationship applies to a blank page.",
+    "region_review": {
+      "top": "The only writing is the folio number '187ᵇ' at top left. A grey smudge or rubbing trails diagonally from about [1770,610]. There are tiny dots near the top edge, a small curved stroke at about [565,590], a corner crease at top right, and a faint grey shadow in the upper right. None is legible text.",
+      "middle": "The ruled lines are empty apart from mirror-image show-through of the recto. There are dark specks at about [620,1640], [620,2420] and [880,2880]. No independent writing was found.",
+      "bottom": "The lower area contains show-through only, plus a vertical row of specks at about [2380,4270–4400] and a short diagonal scratch at about [2400–2500,4790–4870] near the bottom edge. No bottom note was found.",
+      "left_margin": "There are small dark marks or ticks at the edge at about y 560, 2300 and 2990. These are probably at the outer edge rather than the gutter. None is text.",
+      "right_margin": "The margin is empty to the page edge. The white binding thread lies outside the page.",
+      "interlinear": "No interlinear writing on this page. Faint interlinear-looking traces are show-through of the recto's additions."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        300,
+        150,
+        160
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "187b",
+      "features": [
+        "top-left corner",
+        "pencil or ink folio number",
+        "'b' raised as superscript after 187"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "187ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Folio number in the top-left corner, written as '187' with a raised 'b'.",
+        "The ink or pencil medium is not certain."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised final character is read as 'b'. It is written in a looped form that could be mistaken for a '6'. 'b' agrees with the supplied folio label 'fol. 187b'."
+      ],
+      "stable_id": "css-t1-0374-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b00c271e-2555-4389-8104-c10ecf172d95.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b00c271e-2555-4389-8104-c10ecf172d95/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "6f67b526b1ed1820934cff9271f6c9d76d9dd21ea2aa21b6e88b369c3fe32f90",
+      "bytes": 298382,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b00c271e-2555-4389-8104-c10ecf172d95/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "aa821a49089f88542a89ab9ab20c88b9365c8ef3d1e8de3a2eca2e127e80ae50",
+      "bytes": 339462,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b00c271e-2555-4389-8104-c10ecf172d95/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "69b3ba9499182e82b57b2b8a296af613a9ba6ae9d6a21d67629da02c5eebce61",
+      "bytes": 348691,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b00c271e-2555-4389-8104-c10ecf172d95/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c924e0cf3ed848586f31c82b957cdf85a511dd841dd9be9c25866851f4cfa6cc",
+      "bytes": 352839,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b00c271e-2555-4389-8104-c10ecf172d95/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e572174187651557450b90f98ded47b439c27e060b5796de5605ba8524fa7886",
+      "bytes": 368452,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b00c271e-2555-4389-8104-c10ecf172d95/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "abb644b143940c820b341d103a6663c79ee22589814ed579fb2a2e466f02c5fb",
+      "bytes": 350620,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b00c271e-2555-4389-8104-c10ecf172d95/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c9a605c9869b6f3fb84573719a118407412611af39994c4b8e273841f36927fb",
+      "bytes": 366962,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2a7c77ec-d2dd-4002-aab4-03117f63953d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "1c3e4219e69b71ed168763d3ce0a6c26e8226102a20b58ddb4fb3daf2218aecf",
+      "bytes": 315310,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 373,
+      "folio_label": "fol. 187",
+      "page_id": "2a7c77ec-d2dd-4002-aab4-03117f63953d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2fbb93ca-4468-4026-8870-9930dcf8b55f/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7d145b4c9fca4b30e0711623a48ab2834fa8e68e3eb088b5d471e4f6b4ac6db5",
+      "bytes": 330605,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 375,
+      "folio_label": "fol. 188",
+      "page_id": "2fbb93ca-4468-4026-8870-9930dcf8b55f",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

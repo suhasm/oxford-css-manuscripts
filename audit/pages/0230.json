@@ -1,0 +1,606 @@
+{
+  "source_order": 230,
+  "folio_label": "fol. 115b",
+  "page_id": "36caf186-a3d3-40f6-b307-4ed08045bcf0",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "115b",
+    "principal_page_bbox": [
+      285,
+      275,
+      2880,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          330,
+          140,
+          105
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "115b",
+        "features": [
+          "top-left corner",
+          "ink",
+          "superscript 'b' with dot beneath; supplied label fol. 115b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          415,
+          4160,
+          2415,
+          130
+        ],
+        "kind_hint": "unattached_note_or_continuation",
+        "anchor": "part of a larger work, … previous section of which is on 27a. Not Calc. S. Coll, II, 549.",
+        "features": [
+          "single line in lower part of page",
+          "ink",
+          "no shelfmark, heading or entry on this page to which it is attached",
+          "caret below line marking insertion point after 'work,'",
+          "'II' written with overbar/underbar style",
+          "ends with full stop"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1005,
+          4150,
+          125,
+          60
+        ],
+        "kind_hint": "interlinear_insertion",
+        "anchor": "end of",
+        "features": [
+          "written above the line between 'work,' and 'previous'",
+          "caret below the line indicates insertion point",
+          "belongs to b002"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          990,
+          2455,
+          15,
+          15
+        ],
+        "description": "small dark ink dot or speck in mid-page, not text"
+      },
+      {
+        "bbox": [
+          405,
+          3835,
+          30,
+          30
+        ],
+        "description": "small smudge or speck in left part of lower page, not text"
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the images shows part of the facing page, fol. 116: pencil ticks such as 'ū/', 'ā/' and '?', 'beg. maheśa', 'See under Nand…', 'should not …', and an arrow. These are excluded as non-target material.",
+      "Faint reversed show-through from the other side of the leaf (fol. 115) is visible across the ruled area. It was not transcribed as target-page text.",
+      "The bottom note b002 has no parent entry on this page. Its relation to an entry on the preceding recto or on another page is not determinable from this page alone."
+    ],
+    "uncertainties": [
+      "Reading of b002 is from cursive handwriting. 'larger', 'previous', 'Calc.' and 'S. Coll' are probable readings. The roman numeral read as 'II' has a mark over it.",
+      "Reading of the interlinear 'end of' is probable but small and cursive."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "115b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "115b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left corner. The 'b' is superscript and has a dot beneath it.",
+          "Matches the supplied label fol. 115b."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The dot under the superscript 'b' may be punctuation or part of the numbering style."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "bibliographic_note",
+        "literal_text": "part of a larger work, ^[end of] previous section of which is on 27 a. Not Calc. S. Coll, II, 549.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line in the lower part of the page.",
+          "'end of' is written interlinearly above the line. A caret below the line, after 'work,', marks its insertion point.",
+          "The roman numeral 'II' has an overbar or underbar stroke.",
+          "There is no shelfmark, heading or entry on this page to which the note is attached."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The handwriting is cursive. 'larger', 'previous', 'Calc.' and 'S. Coll' are probable readings.",
+          "The interlinear 'end of' is small and is a probable reading.",
+          "The parent entry cannot be determined from this page. The holding this note belongs to is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number, recorded as non-catalogue text."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Bottom note with no attached entry on this page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear insertion 'end of', marked by a caret into b002; merged with b002 in the same record."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and the bottom note, the ruled area is empty of target-page text.",
+      "Faint reversed show-through from the other side of the leaf (fol. 115) is visible and was not transcribed.",
+      "The right edge of the images shows the facing page, fol. 116: pencil ticks, 'beg. maheśa', 'See under Nandi…', 'should not…' and an arrow. These were excluded as non-target material.",
+      "Small specks or dots at about [990,2455] and [405,3835] are not text."
+    ],
+    "unresolved_relationships": [
+      "The note r002 ('part of a larger work … Not Calc. S. Coll, II, 549.') has no determinable parent holding on this page or on the adjacent pages. Its attachment is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Ink folio number '115' with superscript 'b' and a dot below or beside the 'b', in the top-left corner at about [365,330]. It matches the supplied label fol. 115b. The candidate's literal '115b.' is acceptable. The dot's exact function remains open, as the candidate records."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Single ink line at about y≈4200–4290. Re-read from the native tiles as 'part of a larger work, [caret] previous section of which is on 27 a. Not Calc. S. Coll, II, 549.' The spacing in '27 a' appears slightly open, so the candidate's form is acceptable. The roman numeral is written as two minims with a stroke over them. No cancellations are visible. The cursive readings 'larger', 'previous', 'Calc.' and 'S. Coll' remain probable, not secure, as the candidate states."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Small interlinear 'end of' at about [1005,4150] above the gap between 'work,' and 'previous'. A caret below the baseline marks the insertion point. It is correctly merged into r002 and described in its annotations. The reading is probable."
+      },
+      {
+        "block_id": "unattached_mark_990_2455",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Small dark ink speck at mid-page (visible near [995,2463] in the native tile). It is not text. It is noted in the candidate page_annotations and needs no record."
+      },
+      {
+        "block_id": "unattached_mark_405_3835",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Small smudge at the left of the lower page (about [420,3850]). It is not text. It is noted in page_annotations and needs no record."
+      },
+      {
+        "block_id": "facing_page_fragments_fol116",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Pencil and ink fragments at the right edge beyond the gutter (x≳3190) belong to fol. 116: ticks 'ū/', 'c/', 'ā/', 'a/', '?', '? mc.4…', 'beg. maheśa', 'See under Nānd…', 'should not th…' with an arrow, and entry letters 'd.', 'e.', 'g'. They are correctly excluded. The candidate's page_annotations render one fragment as 'See under Nandi…', but only 'Nānd…' or 'Nand…' is visible on this canvas. 'Nandi' is supplied from the adjacent page, which shows 'Nandi°'."
+      },
+      {
+        "block_id": "show_through",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint reversed show-through of the fol. 115 recto entries across the ruled area. It is correctly not transcribed."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The parent holding of the note is not determinable from this page. The candidate's statement that there is no parent 'on the adjacent pages' is stronger than the evidence supports. The recto fol. 115 and fol. 116 were viewed only at reduced resolution, and no explicit linking mark (asterisk, arrow, number) was found.",
+        "next_check": "Compare fol. 115 at native resolution for a reference mark or an entry citing 27a or Calc. S. Coll. II 549. Also check fol. 27a for the 'previous section'."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several cursive readings are probable only: 'larger', 'previous', 'Calc.', 'S. Coll', and the barred numeral read as 'II'.",
+        "next_check": "Compare with the same hand's abbreviations elsewhere in the catalogue."
+      }
+    ],
+    "boundary_review": "The target page is the verso interleaf, x≈285–3165. The gutter at x≈3165–3200 separates it from fol. 116, whose left margin ticks and notes intrude at the right edge. These are excluded as non-target material. The 'See under Nand…' fragment is truncated on this canvas, and its completion as 'Nandi' depends on the adjacent page. No target text crosses the gutter.",
+    "region_review": {
+      "top": "Only the folio number '115b' is present. No other writing.",
+      "middle": "Ruled lines and faint show-through only, plus one ink speck. No target text.",
+      "bottom": "One ink note line with an interlinear insertion. Below it, ruled lines are blank to the page edge.",
+      "left_margin": "Blank apart from a small smudge near y≈3850.",
+      "right_margin": "The target's own right margin is blank. The content visible beyond the gutter belongs to fol. 116.",
+      "interlinear": "Only 'end of', with its caret, in the bottom note."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        330,
+        140,
+        105
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "115b",
+      "features": [
+        "top-left corner",
+        "ink",
+        "superscript 'b' with dot beneath; supplied label fol. 115b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        415,
+        4160,
+        2415,
+        130
+      ],
+      "kind_hint": "unattached_note_or_continuation",
+      "anchor": "part of a larger work, … previous section of which is on 27a. Not Calc. S. Coll, II, 549.",
+      "features": [
+        "single line in lower part of page",
+        "ink",
+        "no shelfmark, heading or entry on this page to which it is attached",
+        "caret below line marking insertion point after 'work,'",
+        "'II' written with overbar/underbar style",
+        "ends with full stop"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1005,
+        4150,
+        125,
+        60
+      ],
+      "kind_hint": "interlinear_insertion",
+      "anchor": "end of",
+      "features": [
+        "written above the line between 'work,' and 'previous'",
+        "caret below the line indicates insertion point",
+        "belongs to b002"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "115b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left corner. The 'b' is superscript and has a dot beneath it.",
+        "Matches the supplied label fol. 115b."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The dot under the superscript 'b' may be punctuation or part of the numbering style."
+      ],
+      "stable_id": "css-prod-0230-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "bibliographic_note",
+      "literal_text": "part of a larger work, ^[end of] previous section of which is on 27 a. Not Calc. S. Coll, II, 549.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line in the lower part of the page.",
+        "'end of' is written interlinearly above the line. A caret below the line, after 'work,', marks its insertion point.",
+        "The roman numeral 'II' has an overbar or underbar stroke.",
+        "There is no shelfmark, heading or entry on this page to which the note is attached."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The handwriting is cursive. 'larger', 'previous', 'Calc.' and 'S. Coll' are probable readings.",
+        "The interlinear 'end of' is small and is a probable reading.",
+        "The parent entry cannot be determined from this page. The holding this note belongs to is unknown."
+      ],
+      "stable_id": "css-prod-0230-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/36caf186-a3d3-40f6-b307-4ed08045bcf0.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36caf186-a3d3-40f6-b307-4ed08045bcf0/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "72b515a821503fdc69479a329e279aa9d79c55ddd810caec3d9cd138e2873056",
+      "bytes": 259919,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36caf186-a3d3-40f6-b307-4ed08045bcf0/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1f2b70a60e8bd42adf4f86a699ec1598e6882edc2f65cf0ca4fc8a649e1cd501",
+      "bytes": 298855,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36caf186-a3d3-40f6-b307-4ed08045bcf0/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a05f4abc291df9a9113907b8ed17679ca4f161ad3bd6b910d378f47cc61003f8",
+      "bytes": 325136,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36caf186-a3d3-40f6-b307-4ed08045bcf0/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7238ad26eeb9f999b6e3af579a2a63d00abf462d661b3b42c91a8a694b09c755",
+      "bytes": 313562,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36caf186-a3d3-40f6-b307-4ed08045bcf0/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "51eafd7e6b6eac715a84572ed88ae8068b44c8fb97a47f3248489f2837d1683d",
+      "bytes": 320793,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36caf186-a3d3-40f6-b307-4ed08045bcf0/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2d43a0c4a6d3fd25524ad34649081e9c341494f13cee2d13c49eba6e8bc9a9ab",
+      "bytes": 321069,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36caf186-a3d3-40f6-b307-4ed08045bcf0/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7ed0579ea19174fcf6429d4d6e3b7653eea7f1fe05b2bacdf44b34509650462b",
+      "bytes": 343839,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9429fbe-d120-4d5c-a358-d634725f1e6e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6ddcc40bb6a35a0d7b45dc6da0246604f9120c25d6dd9f617f8b4f26693c410d",
+      "bytes": 266853,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 229,
+      "folio_label": "fol. 115",
+      "page_id": "d9429fbe-d120-4d5c-a358-d634725f1e6e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0f6a579c-2d76-4d4b-8d79-5f77ee9b726a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ebb0ced9dc6abe33a6ff3defe1d3c3e1ef3589dae58c19ca323cc337b4eca68e",
+      "bytes": 258003,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 231,
+      "folio_label": "fol. 116",
+      "page_id": "0f6a579c-2d76-4d4b-8d79-5f77ee9b726a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

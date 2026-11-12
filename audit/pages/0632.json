@@ -1,0 +1,1435 @@
+{
+  "source_order": 632,
+  "folio_label": "fol. 316b",
+  "page_id": "3379272f-fa08-4cbe-b7c2-d3c9e22a5f01",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "316b.",
+    "principal_page_bbox": [
+      288,
+      295,
+      2787,
+      4540
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          395,
+          355,
+          175,
+          150
+        ],
+        "kind_hint": "page_number",
+        "anchor": "316b.",
+        "features": [
+          "top-left corner",
+          "ink",
+          "superscript b with dot after it",
+          "a faint small mark follows to the right"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          320,
+          2330,
+          2740,
+          160
+        ],
+        "kind_hint": "marginal_note_or_continuation",
+        "anchor": "ff.1-8, S.1819 Śk.1643 (?A.D. 1686), preceded on 1a by different short Strījātaka texts. Begins: ... pra-[...] / gatbhā yate bhave(d?) ... sadā puruṣāṇ praṇayānuraktā.",
+        "features": [
+          "two handwritten lines spanning both the left margin column and the main column",
+          "the first line begins in the left margin, left of the vertical rule",
+          "contains a date with an era abbreviation and a queried date in parentheses",
+          "contains an incipit after 'Begins:'",
+          "the first line ends at the outer edge with a hooked stroke",
+          "a horizontal line continues across the gutter toward the facing page (fol. 317) entry 'c. 316(3)'",
+          "this is a likely continuation or expansion of that facing-page entry",
+          "the reading of the Sanskrit words is uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          425,
+          4000,
+          150,
+          90
+        ],
+        "description": "Faint small pencil or ink marks in the lower left margin: a small '7'- or '+'-like stroke and a ')'-like stroke. Their meaning is unclear and they are not attached to any entry."
+      },
+      {
+        "bbox": [
+          3090,
+          2340,
+          110,
+          20
+        ],
+        "description": "A horizontal connecting line. It begins at the gutter edge, just right of the target page edge, and runs toward 'c. 316(3)' on fol. 317. It lies essentially on the facing page."
+      }
+    ],
+    "boundary_notes": [
+      "The right-hand strip, with shelfmarks such as d.677, d.156(10), f.5, e.53(5), c.316(...) and d.149(4), belongs to the facing page fol. 317. It is not transcribed here as target-page holdings.",
+      "The note b002 appears to be linked by the connecting line to the fol. 317 entry 'c. 316(3)', which reads 'Do. [cancelled] ... 1762/⟦1810⟧'. Its parent entry therefore lies on the facing page.",
+      "Faint show-through of writing from the reverse side is visible across the page. It is not treated as target text."
+    ],
+    "uncertainties": [
+      "The exact letters in the b002 incipit and dates ('S.1819', 'Śk.1643', '?A.D. 1686') are read tentatively.",
+      "The bottom-left marks may be accidental strokes rather than writing."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "316b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "316b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner. The 'b' is written superscript and followed by a dot.",
+          "A faint small mark follows to the right."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The faint mark after '316b.' may be accidental."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "expansion_of_facing_page_entry",
+        "literal_text": "ff.1-8, S.1819 Śk.1643(?[A.D.?] 168[6?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe?] Kripasthe vanitā pra-\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+        "fields": {
+          "date": "S.1819 Śk.1643(?[A.D.?] 168[6?])",
+          "extent": "ff.1-8",
+          "incipit": "[Lambe?] Kripasthe vanitā pra- / galbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two ink lines across the ruled lines at about mid-page.",
+          "The first line begins in the left margin column, left of the vertical rule.",
+          "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+          "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 633,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 316(3) Do. ⟦...⟧ ... 1762/⟦1810⟧ : 8 : D.",
+            "evidence": "A connecting line runs from the end of line 1 across the gutter to the facing-page shelfmark c. 316(3). That facing-page entry is a 'Do.' under Strījātaka, and this note mentions Strījātaka texts.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "Many Sanskrit words in the incipit are read tentatively, especially the first word and the compounds in line 2.",
+          "The parenthetical date is hard to read: perhaps '(?A.D. 1686)' or '(?p.1684)'. It is not converted.",
+          "The reading 'S.1819' is tentative; '1819' could be '1810'. The facing-page entry shows 1762 over a cancelled ⟦1810⟧."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "stray_marks",
+        "literal_text": "[illegible] )",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint small marks in the lower-left margin.",
+          "One is a '7'- or '+'-like stroke; the other is a ')'-like stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "These may be accidental strokes rather than writing. They are not attached to any entry."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          425,
+          3995,
+          160,
+          95
+        ],
+        "kind_hint": "stray_marks",
+        "anchor": "7/+ )",
+        "features": [
+          "lower-left margin",
+          "faint",
+          "listed in the inventory as an unattached mark without an ID"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Two-line note, probably continuing the facing-page entry c. 316(3) on fol. 317."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Stray marks in the lower-left margin, unattached."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number, the b002 note and the stray marks, the page is otherwise blank. Show-through from the reverse side is visible and is not transcribed.",
+      "The right-hand strip, with shelfmarks d.677 through d.149(4), belongs to fol. 317 (source order 633). It is not transcribed here.",
+      "The horizontal connecting line at about [3090,2340,110,20] lies essentially on the facing page and links to 'c. 316(3)'."
+    ],
+    "unresolved_relationships": [
+      "The attachment of b002 to fol. 317 'c. 316(3)' rests on the connecting line and is marked probable."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The page number '316' with a superscript 'b' and a dot is in ink at the top left. A faint small round mark follows it. The candidate records both."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "There are two ink lines at about y 2330-2490. Line 1 starts in the left margin column, left of the vertical rule. Line 2 is indented. The text is fully represented. The parenthetical date reading needs adjustment: the native tile looks closer to '(?p.1684)' or '(?A.D.1684)' than to '1686'. There is also a small dot or caret-like mark before 'bhave' that was not recorded. Many Sanskrit words remain tentative."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Faint marks in the lower-left margin (about [425,3995,160,95]): a '7'-like stroke topped by a small '+'-like stroke, and a separate ')'-like stroke. Their meaning is unclear. They are correctly left unattached."
+      },
+      {
+        "block_id": "unattached_mark_connecting_line",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The inventory lists this horizontal line at about [3090,2340,110,20] without an ID. It lies just across the gutter on fol. 317 and points to 'c. 316(3)'. It is recorded as an annotation and relationship evidence in r002 and in page_annotations. It is not a separate target record."
+      },
+      {
+        "block_id": "facing_page_strip_fol317",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "The right-hand strip shows shelfmarks d.677, √d.156(10), √d.156(11?), f.5, e.53(5), d.742(..), e.145(..), c.316(..), d.799, d.775, d.779, d.800, e.51, e.41, √pl+ d.130, √d.123, e.43, √d.149(4). All belong to fol. 317, so they are correctly excluded. The fol. 317 image also shows the end fragments 'anitā pra-' / '…ktā.' at its left edge. These are the target-page note seen from the facing image, not new target text."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "fields.date",
+        "before": "S.1819 Śk.1643(?[A.D.?] 168[6?])",
+        "after": "S.1819 Śk.1643(?[p.? / A.D.?] 168[4?])",
+        "reason": "In the native tile the parenthesis reads like '?' followed by a short abbreviation, perhaps 'p.' or 'A.D.', then '168' and a final digit. That digit looks more like '4' than '6'. The reading remains uncertain and is not converted.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff.1-8, S.1819 Śk.1643(?[A.D.?] 168[6?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe?] Kripasthe vanitā pra-\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+        "after": "ff.1-8, S.1819 Śk.1643(?[p.? / A.D.?] 168[4?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe? / Ladre?] Kripasthe vanitā pra-\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+        "reason": "This aligns the literal date with the revised uncertain reading. The first word of the incipit is not securely 'Lambe'; the letterforms could also be read 'Ladre'. Both readings are kept as uncertain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Two ink lines across the ruled lines at about mid-page.",
+          "The first line begins in the left margin column, left of the vertical rule.",
+          "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+          "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'."
+        ],
+        "after": [
+          "Two ink lines across the ruled lines at about mid-page.",
+          "The first line begins in the left margin column, left of the vertical rule.",
+          "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+          "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'.",
+          "In line 2 a small dot- or caret-like mark sits low before 'bhave'. Its function (insertion mark or blot) is unclear.",
+          "A small accent-like stroke is written above the 'S' of 'Śk.'."
+        ],
+        "reason": "These small marks are visible in the native tile (0,1608) and were not recorded.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Many incipit words are tentative: the first word, 'galbhā'/'gatbhā', 'yātā'/'yāte', and the line 2 compounds. The date digits 'S.1819' (possibly 1810) and the parenthetical '168[4?]' are also uncertain.",
+        "next_check": "Examine a higher-resolution image of line 1 (x≈320-1700) and line 2 (x≈400-2900)."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "unattached_mark_connecting_line"
+        ],
+        "issue": "The attachment to fol. 317 'c. 316(3)' rests on the connecting line and is probable. The facing-page date is only partly legible in the context image: 1762 is written above a cancelled reading, possibly 'c.1810', followed by ': 8 : 9 : D'. The candidate target_anchor may therefore be imprecise.",
+        "next_check": "Read the fol. 317 entry c. 316(3) at native resolution."
+      }
+    ],
+    "boundary_review": "The target page's right edge is at about x 3060-3080. Everything to the right of the gutter belongs to fol. 317. The connecting line starts on the facing side. The fol. 317 image's left-edge fragments are the target note, so they are not duplicated. b002's parent entry lies on the facing page; this is probable, not secure.",
+    "region_review": {
+      "top": "Only the page number '316b.' and a faint mark after it. The rest is blank apart from show-through.",
+      "middle": "The two-line note b002 at about y 2330-2490. No other writing.",
+      "bottom": "Blank apart from reverse-side show-through. No bottom note was found.",
+      "left_margin": "The start of b002 line 1, and the stray marks b901 at about y 4000.",
+      "right_margin": "Blank on the target side. Facing-page shelfmarks and the connecting line lie beyond the gutter.",
+      "interlinear": "There is no interlinear writing apart from the small mark before 'bhave' in b002 line 2."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        395,
+        355,
+        175,
+        150
+      ],
+      "kind_hint": "page_number",
+      "anchor": "316b.",
+      "features": [
+        "top-left corner",
+        "ink",
+        "superscript b with dot after it",
+        "a faint small mark follows to the right"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        320,
+        2330,
+        2740,
+        160
+      ],
+      "kind_hint": "marginal_note_or_continuation",
+      "anchor": "ff.1-8, S.1819 Śk.1643 (?A.D. 1686), preceded on 1a by different short Strījātaka texts. Begins: ... pra-[...] / gatbhā yate bhave(d?) ... sadā puruṣāṇ praṇayānuraktā.",
+      "features": [
+        "two handwritten lines spanning both the left margin column and the main column",
+        "the first line begins in the left margin, left of the vertical rule",
+        "contains a date with an era abbreviation and a queried date in parentheses",
+        "contains an incipit after 'Begins:'",
+        "the first line ends at the outer edge with a hooked stroke",
+        "a horizontal line continues across the gutter toward the facing page (fol. 317) entry 'c. 316(3)'",
+        "this is a likely continuation or expansion of that facing-page entry",
+        "the reading of the Sanskrit words is uncertain"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        425,
+        3995,
+        160,
+        95
+      ],
+      "kind_hint": "stray_marks",
+      "anchor": "7/+ )",
+      "features": [
+        "lower-left margin",
+        "faint",
+        "listed in the inventory as an unattached mark without an ID"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "316b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner. The 'b' is written superscript and followed by a dot.",
+        "A faint small mark follows to the right."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The faint mark after '316b.' may be accidental."
+      ],
+      "stable_id": "css-prod-0632-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "expansion_of_facing_page_entry",
+      "literal_text": "ff.1-8, S.1819 Śk.1643(?[A.D.?] 168[6?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe?] Kripasthe vanitā pra-\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+      "fields": {
+        "date": "S.1819 Śk.1643(?[A.D.?] 168[6?])",
+        "extent": "ff.1-8",
+        "incipit": "[Lambe?] Kripasthe vanitā pra- / galbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two ink lines across the ruled lines at about mid-page.",
+        "The first line begins in the left margin column, left of the vertical rule.",
+        "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+        "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 633,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 316(3) Do. ⟦...⟧ ... 1762/⟦1810⟧ : 8 : D.",
+          "evidence": "A connecting line runs from the end of line 1 across the gutter to the facing-page shelfmark c. 316(3). That facing-page entry is a 'Do.' under Strījātaka, and this note mentions Strījātaka texts.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "Many Sanskrit words in the incipit are read tentatively, especially the first word and the compounds in line 2.",
+        "The parenthetical date is hard to read: perhaps '(?A.D. 1686)' or '(?p.1684)'. It is not converted.",
+        "The reading 'S.1819' is tentative; '1819' could be '1810'. The facing-page entry shows 1762 over a cancelled ⟦1810⟧."
+      ],
+      "stable_id": "css-prod-0632-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "stray_marks",
+      "literal_text": "[illegible] )",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint small marks in the lower-left margin.",
+        "One is a '7'- or '+'-like stroke; the other is a ')'-like stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "These may be accidental strokes rather than writing. They are not attached to any entry."
+      ],
+      "stable_id": "css-prod-0632-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "fields.date",
+      "before": "S.1819 Śk.1643(?[A.D.?] 168[6?])",
+      "after": "S.1819 Śk.1643(?[p.? / A.D.?] 168[4?])",
+      "reason": "In the native tile the parenthesis reads like '?' followed by a short abbreviation, perhaps 'p.' or 'A.D.', then '168' and a final digit. That digit looks more like '4' than '6'. The reading remains uncertain and is not converted.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff.1-8, S.1819 Śk.1643(?[A.D.?] 168[6?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe?] Kripasthe vanitā pra-\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+      "after": "ff.1-8, S.1819 Śk.1643(?[p.? / A.D.?] 168[4?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe? / Ladre?] Kripasthe vanitā pra-\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+      "reason": "This aligns the literal date with the revised uncertain reading. The first word of the incipit is not securely 'Lambe'; the letterforms could also be read 'Ladre'. Both readings are kept as uncertain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Two ink lines across the ruled lines at about mid-page.",
+        "The first line begins in the left margin column, left of the vertical rule.",
+        "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+        "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'."
+      ],
+      "after": [
+        "Two ink lines across the ruled lines at about mid-page.",
+        "The first line begins in the left margin column, left of the vertical rule.",
+        "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+        "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'.",
+        "In line 2 a small dot- or caret-like mark sits low before 'bhave'. Its function (insertion mark or blot) is unclear.",
+        "A small accent-like stroke is written above the 'S' of 'Śk.'."
+      ],
+      "reason": "These small marks are visible in the native tile (0,1608) and were not recorded.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff.1-8, S.1819 Śk.1643(?[A.D.?] 168[6?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe?] Kripasthe vanitā pra-\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+      "after": "ff.1-8, S.181[9?] Śk.1643(?[p.? / A.D.?] 168[4?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe? / Ladre?] Kripasthe vanitā pra-\n[galbhā? / gatbhā?] [yātā? / yāte?] bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+      "reason": "Fresh native reread. The uncertain readings are kept as alternatives.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0632-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.date",
+      "before": "S.1819 Śk.1643(?[A.D.?] 168[6?])",
+      "after": "S.181[9?] Śk.1643(?[p.? / A.D.?] 168[4?])",
+      "reason": "The final digit of the parenthetical looks more like 4. The abbreviation could be p. or A.D. The last digit of S.181- is not secure.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0632-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.incipit",
+      "before": "[Lambe?] Kripasthe vanitā pra- / galbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+      "after": "[Lambe? / Ladre?] Kripasthe vanitā pra- / [galbhā? / gatbhā?] [yātā? / yāte?] bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+      "reason": "The alternative readings of uncertain letterforms are preserved.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0632-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Two ink lines across the ruled lines at about mid-page.",
+        "The first line begins in the left margin column, left of the vertical rule.",
+        "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+        "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'."
+      ],
+      "after": [
+        "Two ink lines across the ruled lines at about mid-page.",
+        "The first line begins in the left margin column, left of the vertical rule.",
+        "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+        "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'.",
+        "In line 2 a small dot- or caret-like mark sits low before 'bhave'. Its function (insertion mark or blot) is unclear.",
+        "A small accent-like stroke is written above the 'S' of 'Śk.'."
+      ],
+      "reason": "These marks are visible in the native tile (0,1608).",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0632-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 633,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 316(3) Do. ⟦...⟧ ... 1762/⟦1810⟧ : 8 : D.",
+          "evidence": "A connecting line runs from the end of line 1 across the gutter to the facing-page shelfmark c. 316(3). That facing-page entry is a 'Do.' under Strījātaka, and this note mentions Strījātaka texts.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 633,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 316(3) Do. ⟦...⟧ ... 1762 [above ⟦c.1810?⟧] : 8 : 9 : D.",
+          "evidence": "A connecting line runs from the end of line 1 across the gutter to the facing-page shelfmark c. 316(3). That facing-page entry is a 'Do.' under Strījātaka, and this note mentions Strījātaka texts. The facing date column reads 1762 above a cancelled reading, then ': 8 : 9 : D.'",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The anchor omitted the '9', and the cancelled reading is only probable.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0632-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Many incipit words are tentative: the first word, 'galbhā'/'gatbhā', 'yātā'/'yāte', and the line 2 compounds. The date digits 'S.1819' (possibly 1810) and the parenthetical '168[4?]' are also uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0632-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The attachment to fol. 317 'c. 316(3)' rests on the connecting line and is probable. The facing-page date is only partly legible in the context image: 1762 is written above a cancelled reading, possibly 'c.1810', followed by ': 8 : 9 : D'. The candidate target_anchor may therefore be imprecise.",
+      "block_ids": [
+        "b002",
+        "unattached_mark_connecting_line"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0632-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "In the native tile the parenthesis reads like '?' followed by a short abbreviation, perhaps 'p.' or 'A.D.', then '168' and a final digit. That digit looks more like '4' than '6'. The reading remains uncertain and is not converted. Proposed fields.date: \"S.1819 Śk.1643(?[p.? / A.D.?] 168[4?])\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0632-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "This aligns the literal date with the revised uncertain reading. The first word of the incipit is not securely 'Lambe'; the letterforms could also be read 'Ladre'. Both readings are kept as uncertain. Proposed literal_text: \"ff.1-8, S.1819 Śk.1643(?[p.? / A.D.?] 168[4?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe? / Ladre?] Kripasthe vanitā pra-\\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0632-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "These small marks are visible in the native tile (0,1608) and were not recorded. Proposed annotations: [\"Two ink lines across the ruled lines at about mid-page.\", \"The first line begins in the left margin column, left of the vertical rule.\", \"At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.\", \"A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'.\", \"In line 2 a small dot- or caret-like mark sits low before 'bhave'. Its function (insertion mark or blot) is unclear.\", \"A small accent-like stroke is written above the 'S' of 'Śk.'.\"]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0632-05"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The faint mark after '316b.' may be accidental.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0632-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Many Sanskrit words in the incipit are read tentatively, especially the first word and the compounds in line 2.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0632-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The parenthetical date is hard to read: perhaps '(?A.D. 1686)' or '(?p.1684)'. It is not converted.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0632-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'S.1819' is tentative; '1819' could be '1810'. The facing-page entry shows 1762 over a cancelled ⟦1810⟧.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0632-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "These may be accidental strokes rather than writing. They are not attached to any entry.",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0632-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0632-01",
+        "focus-0632-02",
+        "focus-0632-03",
+        "focus-0632-04",
+        "focus-0632-05",
+        "focus-0632-06",
+        "focus-0632-07",
+        "focus-0632-08",
+        "focus-0632-09",
+        "focus-0632-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0632-01",
+          "source_reading": "ff.1-8, S.181[9?] Śk.1643(? [p.?] 168[4?]), … Begins: [Lambe? / Ladre?] Kripasthe vanitā pra- / galbhā [yātā? / yāte?] bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+          "certainty": "uncertain",
+          "evidence": "Native tile (0,1608), line 1 at y≈2390–2420 and line 2 at y≈2450–2490. The fourth date digit has a descender and looks most like 9, but 0 cannot be excluded. In 'galbhā' the second letter could be l or t. The final vowel of 'yāt-' is unclear. The line 2 compounds are run together and only tentatively segmentable."
+        },
+        {
+          "issue_id": "focus-0632-02",
+          "source_reading": "Gutter line, then 'c. 316(3)'. On fol. 317: '1762' written above a struck-through '[c.1810?]', followed by ': 8 : 9 : D.'",
+          "certainty": "probable",
+          "evidence": "The target tile (1604,1608) shows a short horizontal line at x≈3090–3190, y≈2345, between the end of 'pra-' with its arrow and the gutter. The adjacent tile shows the line continuing toward 'c. 316(3)'. The adjacent date column reads '1762' above a cancelled 'c 1810'-like reading, then ': 8 : 9 : D.' The existing anchor omits the '9'."
+        },
+        {
+          "issue_id": "focus-0632-03",
+          "source_reading": "(? p. 168[4?])",
+          "certainty": "uncertain",
+          "evidence": "After the opening parenthesis there is a ?-like hook, then a short abbreviation that looks like 'p.' (or possibly 'A.D.'), then '168' and a final digit. The final digit is closer to 4 than to 6."
+        },
+        {
+          "issue_id": "focus-0632-04",
+          "source_reading": "[Lambe? / Ladre?] Kripasthe vanitā pra-",
+          "certainty": "uncertain",
+          "evidence": "The first word begins with a looped L-form. The middle letters are ambiguous: they could be read as m/b or as d/r."
+        },
+        {
+          "issue_id": "focus-0632-05",
+          "source_reading": "Marks confirmed: an arrow-like hook after 'pra-'; a gutter connecting line; a small dot-like mark low before 'bhave'; a short stroke above the 'S' of 'Śk.'.",
+          "certainty": "probable",
+          "evidence": "All are visible in the native tiles (0,1608) and (1604,1608)."
+        },
+        {
+          "issue_id": "focus-0632-06",
+          "source_reading": "316b. followed by a faint small o-like speck",
+          "certainty": "uncertain",
+          "evidence": "Native tile (0,0) shows a faint small mark at about x≈560, y≈420. It may be a blemish."
+        },
+        {
+          "issue_id": "focus-0632-07",
+          "source_reading": "bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca",
+          "certainty": "uncertain",
+          "evidence": "The cursive run in line 2 cannot be securely segmented."
+        },
+        {
+          "issue_id": "focus-0632-08",
+          "source_reading": "(? [p.? / A.D.?] 168[4?])",
+          "certainty": "uncertain",
+          "evidence": "See focus-0632-03. The date is not converted."
+        },
+        {
+          "issue_id": "focus-0632-09",
+          "source_reading": "S.181[9?]",
+          "certainty": "probable",
+          "evidence": "The descender on the fourth digit favours 9. The facing-page cancelled reading is 'c 1810'-like, not certain."
+        },
+        {
+          "issue_id": "focus-0632-10",
+          "source_reading": "[illegible] )",
+          "certainty": "uncertain",
+          "evidence": "Native tile (0,3216): a faint '+'/'7'-like stroke at x≈435–465, y≈4006–4086, and a ')' at x≈555–570, y≈4030–4085. There is no textual context."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "ff.1-8, S.1819 Śk.1643(?[A.D.?] 168[6?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe?] Kripasthe vanitā pra-\ngalbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+          "after": "ff.1-8, S.181[9?] Śk.1643(?[p.? / A.D.?] 168[4?]), preceded on 1a by different short Strījātaka texts. Begins: [Lambe? / Ladre?] Kripasthe vanitā pra-\n[galbhā? / gatbhā?] [yātā? / yāte?] bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+          "reason": "Fresh native reread. The uncertain readings are kept as alternatives.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "fields.date",
+          "before": "S.1819 Śk.1643(?[A.D.?] 168[6?])",
+          "after": "S.181[9?] Śk.1643(?[p.? / A.D.?] 168[4?])",
+          "reason": "The final digit of the parenthetical looks more like 4. The abbreviation could be p. or A.D. The last digit of S.181- is not secure.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "fields.incipit",
+          "before": "[Lambe?] Kripasthe vanitā pra- / galbhā yātā bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+          "after": "[Lambe? / Ladre?] Kripasthe vanitā pra- / [galbhā? / gatbhā?] [yātā? / yāte?] bhave(d?) [vṛtyeparitprādhānā?] [surūpeyātra?] pativallabhā ca sadā puruṣāṇ praṇayānuraktā.",
+          "reason": "The alternative readings of uncertain letterforms are preserved.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "Two ink lines across the ruled lines at about mid-page.",
+            "The first line begins in the left margin column, left of the vertical rule.",
+            "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+            "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'."
+          ],
+          "after": [
+            "Two ink lines across the ruled lines at about mid-page.",
+            "The first line begins in the left margin column, left of the vertical rule.",
+            "At the outer edge, the first line ends with 'pra-' and a hooked or arrow-like stroke.",
+            "A horizontal connecting line crosses the gutter toward the fol. 317 entry 'c. 316(3)'.",
+            "In line 2 a small dot- or caret-like mark sits low before 'bhave'. Its function (insertion mark or blot) is unclear.",
+            "A small accent-like stroke is written above the 'S' of 'Śk.'."
+          ],
+          "reason": "These marks are visible in the native tile (0,1608).",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 633,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c. 316(3) Do. ⟦...⟧ ... 1762/⟦1810⟧ : 8 : D.",
+              "evidence": "A connecting line runs from the end of line 1 across the gutter to the facing-page shelfmark c. 316(3). That facing-page entry is a 'Do.' under Strījātaka, and this note mentions Strījātaka texts.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 633,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c. 316(3) Do. ⟦...⟧ ... 1762 [above ⟦c.1810?⟧] : 8 : 9 : D.",
+              "evidence": "A connecting line runs from the end of line 1 across the gutter to the facing-page shelfmark c. 316(3). That facing-page entry is a 'Do.' under Strījātaka, and this note mentions Strījātaka texts. The facing date column reads 1762 above a cancelled reading, then ': 8 : 9 : D.'",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The anchor omitted the '9', and the cancelled reading is only probable.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 316b.; a faint following mark is possibly accidental."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Two-line note with an arrow and a gutter connecting line; the readings remain uncertain."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Faint stray marks in the lower-left margin."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0632-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The incipit words and the S.181[9?] digit are not secure.",
+          "next_check": "Compare with the manuscript c. 316(3) or with other entries in the same hand."
+        },
+        {
+          "issue_id": "focus-0632-02",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The attachment is probable only, and the cancelled facing-page date is uncertain.",
+          "next_check": "Check the facing page at higher magnification."
+        },
+        {
+          "issue_id": "focus-0632-03",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The parenthetical abbreviation (p. or A.D.) and the final digit (4 or 6) are uncertain.",
+          "next_check": "Reread under magnification."
+        },
+        {
+          "issue_id": "focus-0632-06",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "Whether the mark after 316b. is writing is unclear.",
+          "next_check": "Inspect the original."
+        },
+        {
+          "issue_id": "focus-0632-10",
+          "record_id": "r003",
+          "block_ids": [
+            "b901"
+          ],
+          "issue": "The stray marks may be accidental.",
+          "next_check": "Inspect the original."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "17ac957e97ddb27e48e9689286e9c4a0fcd2680fb82a41b320207b787a6aa57e",
+      "bytes": 311123,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f4646b7dbef210431ef8d6cd457d87834aea9cb4bf7f9d0d96fa3f85c8a36043",
+      "bytes": 357197,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b356810fd6b82632038dcf0bef2d9cb75ef702a61af4f0784869eb8ceaef1de7",
+      "bytes": 414019,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "835803b113088fbc00faba17c6f85dd16f667f2ca84f812acd05f4bea063d11b",
+      "bytes": 412856,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dec5a41fab7ca7ea8624aade74f8ba88352a38e4d66005d595dc24f1e1e8528f",
+      "bytes": 342741,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/505c49ff-425d-4003-ab3c-903a179e7db2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8469b5d44cc13263739cbf5313215e6df9bda9194e762e71255233f19ffb2876",
+      "bytes": 345058,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 631,
+      "folio_label": "fol. 316",
+      "page_id": "505c49ff-425d-4003-ab3c-903a179e7db2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15da2452-83bd-451f-887e-32ac683542c3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a9c55aedff7a16f73a05b8aa48b2fa937c9540d56c917568fed4c5188d897c80",
+      "bytes": 346111,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 633,
+      "folio_label": "fol. 317",
+      "page_id": "15da2452-83bd-451f-887e-32ac683542c3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15da2452-83bd-451f-887e-32ac683542c3/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "55515a83752d9959846c7e9f7e1d0f1d53ad2d9b6aca4e67d9fb09ec5c0d6107",
+      "bytes": 562190,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 633,
+      "folio_label": "fol. 317",
+      "page_id": "15da2452-83bd-451f-887e-32ac683542c3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15da2452-83bd-451f-887e-32ac683542c3/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8878be5bdbee8eb1583ef8128bc1f7831315a8c6a7c55eebfa848bd9c4d10c3b",
+      "bytes": 569587,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 633,
+      "folio_label": "fol. 317",
+      "page_id": "15da2452-83bd-451f-887e-32ac683542c3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "17ac957e97ddb27e48e9689286e9c4a0fcd2680fb82a41b320207b787a6aa57e",
+      "bytes": 311123,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f4646b7dbef210431ef8d6cd457d87834aea9cb4bf7f9d0d96fa3f85c8a36043",
+      "bytes": 357197,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6a9098ae9dabb23507d421d5b0a2137ab07c8f44fc8bee8dc8faec11197f86a5",
+      "bytes": 380259,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b356810fd6b82632038dcf0bef2d9cb75ef702a61af4f0784869eb8ceaef1de7",
+      "bytes": 414019,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "835803b113088fbc00faba17c6f85dd16f667f2ca84f812acd05f4bea063d11b",
+      "bytes": 412856,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dec5a41fab7ca7ea8624aade74f8ba88352a38e4d66005d595dc24f1e1e8528f",
+      "bytes": 342741,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3379272f-fa08-4cbe-b7c2-d3c9e22a5f01/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "83beebad510aa5d9bde12c2aa38a275e672f9494e5089f28032ab4b6b99266f6",
+      "bytes": 372325,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/505c49ff-425d-4003-ab3c-903a179e7db2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8469b5d44cc13263739cbf5313215e6df9bda9194e762e71255233f19ffb2876",
+      "bytes": 345058,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 631,
+      "folio_label": "fol. 316",
+      "page_id": "505c49ff-425d-4003-ab3c-903a179e7db2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/15da2452-83bd-451f-887e-32ac683542c3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a9c55aedff7a16f73a05b8aa48b2fa937c9540d56c917568fed4c5188d897c80",
+      "bytes": 346111,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 633,
+      "folio_label": "fol. 317",
+      "page_id": "15da2452-83bd-451f-887e-32ac683542c3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

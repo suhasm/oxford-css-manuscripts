@@ -1,0 +1,1840 @@
+{
+  "source_order": 106,
+  "folio_label": "fol. 53b",
+  "page_id": "fb243962-f118-4c85-b701-f92ddce04f15",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "53b",
+    "principal_page_bbox": [
+      295,
+      265,
+      2875,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          290,
+          120,
+          105
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "53b",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          385,
+          940,
+          2590,
+          240
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff.1-14 ([ll.?]6), inc, ... A longer recension of Cy.[?]362; cp. I.O. 6936-7. Opening differs / somewhat from c.150",
+        "features": [
+          "ink",
+          "two lines",
+          "no shelfmark or title on this page",
+          "left-pointing arrow at right edge (approx. x3050-3145, y975-1000) pointing from the gutter toward the text",
+          "probably continues an entry on facing fol. 54"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          485,
+          1780,
+          1400,
+          115
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff.1-25 ([ll.?]10), dated Śake dhātā[?]nāmasaṁvatsare.",
+        "features": [
+          "ink",
+          "single line",
+          "left-pointing arrow (approx. x2975-3105, y1810-1840) with a stroke continuing across the gutter onto the facing page (approx. x3175-3280)",
+          "probably continues an entry on facing fol. 54"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2275,
+          2765,
+          560,
+          110
+        ],
+        "kind_hint": "pencil_note",
+        "anchor": "ff.1-21. I.O.4862",
+        "features": [
+          "pencil",
+          "faint",
+          "unattached to any visible entry on this page; no arrow",
+          "possibly relates to an entry on facing fol. 54"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2880,
+          1655,
+          80,
+          90
+        ],
+        "description": "faint pencil mark resembling 'ō/' near right margin above b003"
+      },
+      {
+        "bbox": [
+          2825,
+          1800,
+          70,
+          60
+        ],
+        "description": "faint pencil 's/' or 'ś' mark beside the b003 arrow"
+      },
+      {
+        "bbox": [
+          2840,
+          2510,
+          70,
+          70
+        ],
+        "description": "faint pencil 'ś' with slanted stroke near right margin"
+      },
+      {
+        "bbox": [
+          2770,
+          3120,
+          280,
+          300
+        ],
+        "description": "very faint pencil slanted strokes and marks, possibly '9 / d'; illegible"
+      },
+      {
+        "bbox": [
+          3000,
+          960,
+          80,
+          90
+        ],
+        "description": "faint pencil 'ō'-like shapes below the b002 line near right edge; possibly offset"
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x3165. Ticks and letters right of it belong to facing fol. 54 and are not transcribed.",
+      "b002 and b003 are written without shelfmark or title. Their left-pointing arrows suggest they continue entries on fol. 54, but the exact parent entries are not determined here.",
+      "The arrow stroke of b003 crosses the gutter onto fol. 54."
+    ],
+    "uncertainties": [
+      "The abbreviation inside the parentheses in b002/b003 ('m.6' / 'n.10'?) is uncertain, possibly lines.",
+      "'Cy. 362' reading uncertain.",
+      "'dhātāhanāmasaṁvatsare' has an overwritten character; the reading is uncertain.",
+      "Lower half shows faint mirror show-through or offset of text from the other side; this was not treated as target text."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "53b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "53b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number at the top-left corner, written with a superscript 'b'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "verso_continuation_with_arrow",
+        "literal_text": "ff.1-14 (m.6), inc, [paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+        "fields": {
+          "extent": "ff.1-14"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, two lines.",
+          "No shelfmark or title is written on this page.",
+          "A left-pointing ink arrow at the right edge (approx. x3050-3145, y975-1000) points from the gutter toward the text.",
+          "A faint pencil mark resembling 'ō' lies below the line near the right edge (approx. x3000, y960-1050). It may be offset."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 107,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.396(d) —— from the Vidhāntapurāṇa n.d.:13:9:D",
+            "evidence": "An arrow on fol. 54 at the same height ('...ffer ←' is visible at the left of fol. 54) lines up with the c.396(d) entry. That entry continues the Kārtikeya text group, and fol. 53 has c.150 nearby.",
+            "certainty": "probable"
+          },
+          {
+            "type": "cross_reference",
+            "target_page_order": 105,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 150",
+            "evidence": "The note reads 'Opening differs somewhat from c.150'. Shelfmark c.150 appears on fol. 53.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The abbreviation in the parentheses, read as 'm.6', is uncertain; it may be a line count.",
+          "The word after 'inc,' is read tentatively as 'paṭala'.",
+          "'Ly.362' could instead be read 'Cy.362'.",
+          "The '6936-7' digits are slightly cramped."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "verso_continuation_with_arrow",
+        "literal_text": "ff.1-25 (m.10), dated Śake dhātā[ha?]nāmasaṁvatsare.",
+        "fields": {
+          "extent": "ff.1-25",
+          "date": "Śake dhātā[ha?]nāmasaṁvatsare"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, single line.",
+          "A left-pointing arrow (approx. x2975-3105, y1810-1840) is drawn, with a stroke that continues across the gutter onto fol. 54.",
+          "One character in 'dhātā…' is overwritten."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 107,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vd.58(2) KENA UPANIṢAD",
+            "evidence": "The arrow stroke crosses the gutter to an arrow in the left margin of fol. 54 at about the level of the d.58(2) line. The neighbouring Kedāramāhātmya line is close, so the target is not certain.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The overwritten character in 'dhātā[ha?]nāma…' is uncertain.",
+          "The parenthetical abbreviation 'm.10' is uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_note",
+        "literal_text": "ff.1-21. I.O.4862",
+        "fields": {
+          "extent": "ff.1-21"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil note with no arrow, standing mid-page in the right half."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 107,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.61(6) ... dīpikā, by Śaṅkarānanda",
+            "evidence": "Only the vertical alignment with a fol. 54 line supports this; there is no arrow.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The attachment of this note is undetermined."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b901",
+          "b902",
+          "b903",
+          "b904"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "faint_pencil_marks",
+        "literal_text": "ō/ ; s/ ; ś ; [illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil letters with slanted strokes near the right margin.",
+          "'ō/' above b003; 's/' beside the b003 arrow; 'ś' with a slant at about y2540; very faint strokes, possibly '9 / d', at about y3120-3420."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The readings of all these marks are tentative; the lowest marks are illegible."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2880,
+          1655,
+          80,
+          90
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "ō/",
+        "features": [
+          "pencil",
+          "faint"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2825,
+          1800,
+          70,
+          60
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "s/",
+        "features": [
+          "pencil",
+          "faint",
+          "beside the b003 arrow"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          2840,
+          2510,
+          70,
+          70
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "ś",
+        "features": [
+          "pencil",
+          "faint",
+          "slanted stroke"
+        ]
+      },
+      {
+        "id": "b904",
+        "bbox": [
+          2770,
+          3120,
+          280,
+          300
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "[illegible]",
+        "features": [
+          "pencil",
+          "very faint",
+          "slanted strokes"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrowed continuation note."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrowed continuation note."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Unattached pencil note."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Faint pencil mark."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Faint pencil mark."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Faint pencil mark."
+      },
+      {
+        "block_id": "b904",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Faint illegible pencil strokes."
+      }
+    ],
+    "page_annotations": [
+      "This is a verso supplement page. The gutter lies at about x3165; ticks right of it belong to fol. 54 and are not transcribed.",
+      "The lower half was reviewed. It shows only faint show-through or offset, which is not treated as target text."
+    ],
+    "unresolved_relationships": [
+      "The exact parent entries on fol. 54 for b002 and b003 are probable or uncertain, not secure.",
+      "The attachment of b004 is unknown."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The ink folio number '53' with a superscript 'b' is in the top-left corner and is correctly recorded."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The two ink lines and the arrow at the right edge are represented. The word after 'inc,' appears to have a short element before the 'paṭala'-like word, possibly 'to'. The candidate brackets only '[paṭala?]', so the bracketed span is widened below. 'Ly.362' matches the hand's 'Ly. 362' in the d.342 entry on fol. 53, but the alternative 'Cy.' remains flagged. The inventory's unattached faint pencil 'ō'-like shapes at about [3000,960,80,90] are noted in r002's annotations as possible offset. They have no separate block ID and are left as non-text offset or show-through."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The single ink line and the arrow crossing the gutter are represented. The candidate's 'nāma' adds a macron that does not appear on the visible 'nama' strokes, so it is corrected below."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The faint pencil note 'ff.1-21. I.O.4862' is legible and correctly recorded. It has no arrow, and its attachment is unresolved."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Faint pencil 'ō/' above b003 near the right margin. The reading is tentative."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Faint pencil 's/' or 'ś' beside the b003 arrow. The reading is tentative."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Faint pencil 'ś' with a slanted stroke at about y2540. It is also visible as a fragment at the left edge of the fol. 54 overview; that fragment is not a separate record."
+      },
+      {
+        "block_id": "b904",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Very faint pencil slanted strokes at about y3120-3420. They are illegible."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff.1-14 (m.6), inc, [paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+        "after": "ff.1-14 (m.6), inc, [to paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+        "reason": "A distinct short letter group stands before the 'paṭala'-like word. The uncertain span should cover it rather than omit it. The reading 'to' is not secure.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff.1-25 (m.10), dated Śake dhātā[ha?]nāmasaṁvatsare.",
+        "after": "ff.1-25 (m.10), dated Śake dhātā[ha?]namasaṁvatsare.",
+        "reason": "No macron is visible over the 'a' of 'nama' in the native tile. The candidate's macron appears to be a silent normalization.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "fields.date",
+        "before": "Śake dhātā[ha?]nāmasaṁvatsare",
+        "after": "Śake dhātā[ha?]namasaṁvatsare",
+        "reason": "Keeps the date field consistent with the literal reading, without the unwritten macron.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Two readings are uncertain: the parenthetical 'm.6' (possibly a line-count abbreviation) and 'Ly.'/'Cy.362'.",
+        "next_check": "Compare with other '(m.N)' and 'Ly.' instances in the same hand on neighbouring folios."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The attachment to the fol. 54 c.396(d) entry rests on the arrow alignment ('...ffer ←' visible at the left of fol. 54). It is probable, not secure.",
+        "next_check": "Inspect fol. 54 at native resolution for the matching arrow at the c.396(d) line."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The overwritten character in 'dhātā[ha?]…' is uncertain. The attachment to fol. 54 d.58(2) versus the adjacent Kedāramāhātmya line is also uncertain.",
+        "next_check": "Inspect fol. 54 at native resolution at the gutter-crossing stroke."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The pencil note has no arrow. Its attachment to fol. 54 d.61(6) rests only on vertical alignment.",
+        "next_check": "Check fol. 54 for a pencil mark or tick at the d.61(6) line."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x3165. The ticks, checkmarks and letter fragments to the right of it belong to fol. 54 and are not transcribed. The arrow stroke of b003 crosses the gutter. All parent-entry attachments to fol. 54 remain probable or uncertain.",
+    "region_review": {
+      "top": "Only the folio number '53b' is present; the rest is blank ruled paper.",
+      "middle": "Contains b002, b003 and b004 plus faint pencil marks near the right margin.",
+      "bottom": "Reviewed in the native tiles. It shows only faint show-through or offset and specks, with no target text.",
+      "left_margin": "No writing beyond specks.",
+      "right_margin": "Contains the arrows of b002 and b003 and the faint pencil marks b901-b904; the gutter lies beyond.",
+      "interlinear": "No interlinear additions found. Faint offset shapes below b002 are treated as non-text."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        290,
+        120,
+        105
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "53b",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        385,
+        940,
+        2590,
+        240
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff.1-14 ([ll.?]6), inc, ... A longer recension of Cy.[?]362; cp. I.O. 6936-7. Opening differs / somewhat from c.150",
+      "features": [
+        "ink",
+        "two lines",
+        "no shelfmark or title on this page",
+        "left-pointing arrow at right edge (approx. x3050-3145, y975-1000) pointing from the gutter toward the text",
+        "probably continues an entry on facing fol. 54"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        485,
+        1780,
+        1400,
+        115
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff.1-25 ([ll.?]10), dated Śake dhātā[?]nāmasaṁvatsare.",
+      "features": [
+        "ink",
+        "single line",
+        "left-pointing arrow (approx. x2975-3105, y1810-1840) with a stroke continuing across the gutter onto the facing page (approx. x3175-3280)",
+        "probably continues an entry on facing fol. 54"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2275,
+        2765,
+        560,
+        110
+      ],
+      "kind_hint": "pencil_note",
+      "anchor": "ff.1-21. I.O.4862",
+      "features": [
+        "pencil",
+        "faint",
+        "unattached to any visible entry on this page; no arrow",
+        "possibly relates to an entry on facing fol. 54"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2880,
+        1655,
+        80,
+        90
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "ō/",
+      "features": [
+        "pencil",
+        "faint"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2825,
+        1800,
+        70,
+        60
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "s/",
+      "features": [
+        "pencil",
+        "faint",
+        "beside the b003 arrow"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        2840,
+        2510,
+        70,
+        70
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "ś",
+      "features": [
+        "pencil",
+        "faint",
+        "slanted stroke"
+      ]
+    },
+    {
+      "id": "b904",
+      "bbox": [
+        2770,
+        3120,
+        280,
+        300
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "[illegible]",
+      "features": [
+        "pencil",
+        "very faint",
+        "slanted strokes"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "53b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number at the top-left corner, written with a superscript 'b'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0106-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "verso_continuation_with_arrow",
+      "literal_text": "ff.1-14 (m.6), inc, [paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+      "fields": {
+        "extent": "ff.1-14"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, two lines.",
+        "No shelfmark or title is written on this page.",
+        "A left-pointing ink arrow at the right edge (approx. x3050-3145, y975-1000) points from the gutter toward the text.",
+        "A faint pencil mark resembling 'ō' lies below the line near the right edge (approx. x3000, y960-1050). It may be offset."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 107,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.396(d) —— from the Vidhāntapurāṇa n.d.:13:9:D",
+          "evidence": "An arrow on fol. 54 at the same height ('...ffer ←' is visible at the left of fol. 54) lines up with the c.396(d) entry. That entry continues the Kārtikeya text group, and fol. 53 has c.150 nearby.",
+          "certainty": "probable"
+        },
+        {
+          "type": "cross_reference",
+          "target_page_order": 105,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 150",
+          "evidence": "The note reads 'Opening differs somewhat from c.150'. Shelfmark c.150 appears on fol. 53.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The abbreviation in the parentheses, read as 'm.6', is uncertain; it may be a line count.",
+        "The word after 'inc,' is read tentatively as 'paṭala'.",
+        "'Ly.362' could instead be read 'Cy.362'.",
+        "The '6936-7' digits are slightly cramped."
+      ],
+      "stable_id": "css-prod-0106-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "verso_continuation_with_arrow",
+      "literal_text": "ff.1-25 (m.10), dated Śake dhātā[ha?]nāmasaṁvatsare.",
+      "fields": {
+        "extent": "ff.1-25",
+        "date": "Śake dhātā[ha?]nāmasaṁvatsare"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, single line.",
+        "A left-pointing arrow (approx. x2975-3105, y1810-1840) is drawn, with a stroke that continues across the gutter onto fol. 54.",
+        "One character in 'dhātā…' is overwritten."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 107,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vd.58(2) KENA UPANIṢAD",
+          "evidence": "The arrow stroke crosses the gutter to an arrow in the left margin of fol. 54 at about the level of the d.58(2) line. The neighbouring Kedāramāhātmya line is close, so the target is not certain.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The overwritten character in 'dhātā[ha?]nāma…' is uncertain.",
+        "The parenthetical abbreviation 'm.10' is uncertain."
+      ],
+      "stable_id": "css-prod-0106-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_note",
+      "literal_text": "ff.1-21. I.O.4862",
+      "fields": {
+        "extent": "ff.1-21"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil note with no arrow, standing mid-page in the right half."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 107,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.61(6) ... dīpikā, by Śaṅkarānanda",
+          "evidence": "Only the vertical alignment with a fol. 54 line supports this; there is no arrow.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The attachment of this note is undetermined."
+      ],
+      "stable_id": "css-prod-0106-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b901",
+        "b902",
+        "b903",
+        "b904"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "faint_pencil_marks",
+      "literal_text": "ō/ ; s/ ; ś ; [illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil letters with slanted strokes near the right margin.",
+        "'ō/' above b003; 's/' beside the b003 arrow; 'ś' with a slant at about y2540; very faint strokes, possibly '9 / d', at about y3120-3420."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The readings of all these marks are tentative; the lowest marks are illegible."
+      ],
+      "stable_id": "css-prod-0106-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff.1-14 (m.6), inc, [paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+      "after": "ff.1-14 (m.6), inc, [to paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+      "reason": "A distinct short letter group stands before the 'paṭala'-like word. The uncertain span should cover it rather than omit it. The reading 'to' is not secure.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff.1-25 (m.10), dated Śake dhātā[ha?]nāmasaṁvatsare.",
+      "after": "ff.1-25 (m.10), dated Śake dhātā[ha?]namasaṁvatsare.",
+      "reason": "No macron is visible over the 'a' of 'nama' in the native tile. The candidate's macron appears to be a silent normalization.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.date",
+      "before": "Śake dhātā[ha?]nāmasaṁvatsare",
+      "after": "Śake dhātā[ha?]namasaṁvatsare",
+      "reason": "Keeps the date field consistent with the literal reading, without the unwritten macron.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff.1-14 (m.6), inc, [paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+      "after": "ff.1-14 (m.6), inc, [to paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+      "reason": "A distinct short letter group precedes the 'paṭala'-like word. The uncertain span is widened to include it.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0106-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The abbreviation in the parentheses, read as 'm.6', is uncertain; it may be a line count.",
+        "The word after 'inc,' is read tentatively as 'paṭala'.",
+        "'Ly.362' could instead be read 'Cy.362'.",
+        "The '6936-7' digits are slightly cramped."
+      ],
+      "after": [
+        "The abbreviation in the parentheses, read as 'm.6', is uncertain; it may be a line count.",
+        "The words after 'inc,' are read tentatively as 'to paṭala'. A short letter group ('to'?) precedes the 'paṭala'-like word.",
+        "'Ly.362' could instead be read 'Cy.362'.",
+        "The '6936-7' digits are slightly cramped."
+      ],
+      "reason": "Records the preceding letter group in the uncertainty note.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0106-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff.1-25 (m.10), dated Śake dhātā[ha?]nāmasaṁvatsare.",
+      "after": "ff.1-25 (m.10), dated Śake dhātā[ha?]namasaṁvatsare.",
+      "reason": "No macron is visible over 'nama' in the native tile. The earlier macron was a normalization.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0106-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.date",
+      "before": "Śake dhātā[ha?]nāmasaṁvatsare",
+      "after": "Śake dhātā[ha?]namasaṁvatsare",
+      "reason": "Brings the date field into line with the literal reading.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0106-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The overwritten character in 'dhātā[ha?]nāma…' is uncertain.",
+        "The parenthetical abbreviation 'm.10' is uncertain."
+      ],
+      "after": [
+        "The overwritten character in 'dhātā[ha?]nama…' is uncertain.",
+        "The parenthetical abbreviation 'm.10' is uncertain."
+      ],
+      "reason": "Brings the uncertainty note into line with the macron-free literal reading.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0106-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The attachment to the fol. 54 c.396(d) entry rests on the arrow alignment ('...ffer ←' visible at the left of fol. 54). It is probable, not secure.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0106-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The overwritten character in 'dhātā[ha?]…' is uncertain. The attachment to fol. 54 d.58(2) versus the adjacent Kedāramāhātmya line is also uncertain.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0106-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The pencil note has no arrow. Its attachment to fol. 54 d.61(6) rests only on vertical alignment.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0106-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "A distinct short letter group stands before the 'paṭala'-like word. The uncertain span should cover it rather than omit it. The reading 'to' is not secure. Proposed literal_text: \"ff.1-14 (m.6), inc, [to paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\\nsomewhat from c.150\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0106-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "No macron is visible over the 'a' of 'nama' in the native tile. The candidate's macron appears to be a silent normalization. Proposed literal_text: \"ff.1-25 (m.10), dated Śake dhātā[ha?]namasaṁvatsare.\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0106-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "Keeps the date field consistent with the literal reading, without the unwritten macron. Proposed fields.date: \"Śake dhātā[ha?]namasaṁvatsare\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0106-06"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "Two readings are uncertain: the parenthetical 'm.6' (possibly a line-count abbreviation) and 'Ly.'/'Cy.362'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0106-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The abbreviation in the parentheses, read as 'm.6', is uncertain; it may be a line count.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0106-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The word after 'inc,' is read tentatively as 'paṭala'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0106-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'Ly.362' could instead be read 'Cy.362'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0106-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0106-01",
+        "focus-0106-02",
+        "focus-0106-03",
+        "focus-0106-04",
+        "focus-0106-05",
+        "focus-0106-06",
+        "focus-0106-07",
+        "focus-0106-08",
+        "focus-0106-09",
+        "focus-0106-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0106-01",
+          "source_reading": "A left-pointing ink arrow '←' stands at the right edge of fol. 53b at the level of line 1 of b002 (approx. y≈980). On fol. 54 the left margin shows 'ffer ←' at the c.396(d) line.",
+          "certainty": "probable",
+          "evidence": "The arrow and the fol. 54 margin trace are at the same height. No connecting stroke is visible across the gutter for this line, so the attachment rests on alignment and on the arrow."
+        },
+        {
+          "issue_id": "focus-0106-02",
+          "source_reading": "dhātā[ha?]namasaṁvatsare",
+          "certainty": "uncertain",
+          "evidence": "The native tile shows heavier ink over the letter group after 'dhātā'. A letter like 'h' is written over another form and is followed by 'anama'. On fol. 54 the margin arrow (approx. y≈1836) is level with 'd. 58 (2)' rather than with 'd.315(1) Kedāramāhātmya' (approx. y≈1730). The alignment favours d.58(2), but the attachment is not proven."
+        },
+        {
+          "issue_id": "focus-0106-03",
+          "source_reading": "ff.1-21. I.O.4862 (pencil, no arrow)",
+          "certainty": "uncertain",
+          "evidence": "No arrow or connecting stroke is visible. The note (approx. y≈2765-2875) is roughly level with fol. 54 'd. 61 (6)' (approx. y≈2798). The pencil 'as printed in ASS 6' line on fol. 54 lies somewhat higher."
+        },
+        {
+          "issue_id": "focus-0106-04",
+          "source_reading": "inc, [to paṭala?] IV.20.",
+          "certainty": "uncertain",
+          "evidence": "A short letter group, resembling the hand's 'to' (compare 'lo only' on fol. 54), stands joined to a 'p…ṭala'-like word. Both parts are doubtful."
+        },
+        {
+          "issue_id": "focus-0106-05",
+          "source_reading": "namasaṁvatsare (no macron visible over the a of 'nama')",
+          "certainty": "probable",
+          "evidence": "In the native tile no stroke stands over 'nama'. Macrons are clearly visible elsewhere, for example in 'dhātā'."
+        },
+        {
+          "issue_id": "focus-0106-06",
+          "source_reading": "Śake dhātā[ha?]namasaṁvatsare",
+          "certainty": "uncertain",
+          "evidence": "Same reading as focus-0106-05. The overwritten letter remains uncertain."
+        },
+        {
+          "issue_id": "focus-0106-07",
+          "source_reading": "(m.6) ; Ly.362",
+          "certainty": "uncertain",
+          "evidence": "The letter in the parentheses resembles 'm' or 'n'. The initial letter of 'Ly.' resembles the 'Ly.' on fol. 53, but 'Cy.' cannot be excluded."
+        },
+        {
+          "issue_id": "focus-0106-08",
+          "source_reading": "(m.6)",
+          "certainty": "uncertain",
+          "evidence": "There is a single cursive letter before '.6'. Its meaning is not determinable from the image."
+        },
+        {
+          "issue_id": "focus-0106-09",
+          "source_reading": "[to paṭala?]",
+          "certainty": "uncertain",
+          "evidence": "A preceding short letter group is present. The rest of the word is only tentatively 'paṭala'."
+        },
+        {
+          "issue_id": "focus-0106-10",
+          "source_reading": "Ly.362",
+          "certainty": "uncertain",
+          "evidence": "The initial looks like the 'L' of 'Ly. 362' at the foot of fol. 53, but it is cramped."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "ff.1-14 (m.6), inc, [paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+          "after": "ff.1-14 (m.6), inc, [to paṭala?] IV.20. A longer recension of Ly.362; cp. I.O. 6936-7. Opening differs\nsomewhat from c.150",
+          "reason": "A distinct short letter group precedes the 'paṭala'-like word. The uncertain span is widened to include it.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "The abbreviation in the parentheses, read as 'm.6', is uncertain; it may be a line count.",
+            "The word after 'inc,' is read tentatively as 'paṭala'.",
+            "'Ly.362' could instead be read 'Cy.362'.",
+            "The '6936-7' digits are slightly cramped."
+          ],
+          "after": [
+            "The abbreviation in the parentheses, read as 'm.6', is uncertain; it may be a line count.",
+            "The words after 'inc,' are read tentatively as 'to paṭala'. A short letter group ('to'?) precedes the 'paṭala'-like word.",
+            "'Ly.362' could instead be read 'Cy.362'.",
+            "The '6936-7' digits are slightly cramped."
+          ],
+          "reason": "Records the preceding letter group in the uncertainty note.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff.1-25 (m.10), dated Śake dhātā[ha?]nāmasaṁvatsare.",
+          "after": "ff.1-25 (m.10), dated Śake dhātā[ha?]namasaṁvatsare.",
+          "reason": "No macron is visible over 'nama' in the native tile. The earlier macron was a normalization.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "fields.date",
+          "before": "Śake dhātā[ha?]nāmasaṁvatsare",
+          "after": "Śake dhātā[ha?]namasaṁvatsare",
+          "reason": "Brings the date field into line with the literal reading.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The overwritten character in 'dhātā[ha?]nāma…' is uncertain.",
+            "The parenthetical abbreviation 'm.10' is uncertain."
+          ],
+          "after": [
+            "The overwritten character in 'dhātā[ha?]nama…' is uncertain.",
+            "The parenthetical abbreviation 'm.10' is uncertain."
+          ],
+          "reason": "Brings the uncertainty note into line with the macron-free literal reading.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Two ink lines with an arrow. The attachment remains probable."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Single line with an arrow stroke crossing the gutter. The alignment favours d.58(2)."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Pencil note with no arrow."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0106-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The attachment to c.396(d) rests on the arrow and the alignment with the fol. 54 'ffer ←' trace.",
+          "next_check": "Compare the full fol. 54 native left margin at y≈950-1000."
+        },
+        {
+          "issue_id": "focus-0106-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The overwritten letter is unread. The arrow height favours d.58(2) over Kedāramāhātmya, but this is not proven.",
+          "next_check": "Use higher magnification on the overwrite. Trace the gutter stroke on fol. 54."
+        },
+        {
+          "issue_id": "focus-0106-03",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "There is no arrow. The attachment to d.61(6) rests only on alignment.",
+          "next_check": "Check fol. 54 for a matching pencil mark near d.61(6)."
+        },
+        {
+          "issue_id": "focus-0106-07",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The readings 'm.6' and 'Ly.'/'Cy.' remain uncertain.",
+          "next_check": "Compare with other parenthetical abbreviations in the same hand."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "8fa48566cc38b6161dece2f59ef573b252af3c67aee58260770c3ec8255b034a",
+      "bytes": 247975,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cc2c52bc1f5ec5fc629e7ac255be38649de5ed95079dc6335a2790fdbd2409c6",
+      "bytes": 319606,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a771f5168b279a6f19000a9b0975d0f29e9105ba38db9b2a77a473bf3578e721",
+      "bytes": 299162,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8f49195205ac7e7658bc212b91bb519c37ea39a162230466ed523a3bc2ebd30c",
+      "bytes": 290207,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cd61d996a2fef70f10d6f7667ffad989cac48331db1cff915d8d51fd82819852",
+      "bytes": 270754,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c0a887f0-c140-4737-aed7-6a8bf6326544/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5fbd22f97807c29c50533a119745fe0ffd9fe9909d260c43a74a0db57e318823",
+      "bytes": 267066,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 105,
+      "folio_label": "fol. 53",
+      "page_id": "c0a887f0-c140-4737-aed7-6a8bf6326544",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c923e78-62cd-48ed-ada6-2df8be9ee199/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2762fdbd4229ea6c43fa2ac37a3bf325a80c1b2967bab39150c95b4331a1819a",
+      "bytes": 259990,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 107,
+      "folio_label": "fol. 54",
+      "page_id": "1c923e78-62cd-48ed-ada6-2df8be9ee199",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c0a887f0-c140-4737-aed7-6a8bf6326544/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b9bfd11fbd8ea656174d0a8b7a1540b567ae0cf0f691ef3454f066817c72c945",
+      "bytes": 357497,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 105,
+      "folio_label": "fol. 53",
+      "page_id": "c0a887f0-c140-4737-aed7-6a8bf6326544",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c0a887f0-c140-4737-aed7-6a8bf6326544/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bd3239a84358ac2693713b5acc2854804e142d5d8d7c33d499b20b5e92ca42e9",
+      "bytes": 412352,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 105,
+      "folio_label": "fol. 53",
+      "page_id": "c0a887f0-c140-4737-aed7-6a8bf6326544",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c923e78-62cd-48ed-ada6-2df8be9ee199/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4b58bd50d559cee30e69708e9032b010899ac7da1f6a7ade41acc0907beb6b25",
+      "bytes": 378927,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 107,
+      "folio_label": "fol. 54",
+      "page_id": "1c923e78-62cd-48ed-ada6-2df8be9ee199",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c923e78-62cd-48ed-ada6-2df8be9ee199/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "80bca9c1a970a4e972b62f446805d045fb2c0a44747a62686abac8aa980721f4",
+      "bytes": 466473,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 107,
+      "folio_label": "fol. 54",
+      "page_id": "1c923e78-62cd-48ed-ada6-2df8be9ee199",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/fb243962-f118-4c85-b701-f92ddce04f15.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "8fa48566cc38b6161dece2f59ef573b252af3c67aee58260770c3ec8255b034a",
+      "bytes": 247975,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cc2c52bc1f5ec5fc629e7ac255be38649de5ed95079dc6335a2790fdbd2409c6",
+      "bytes": 319606,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a771f5168b279a6f19000a9b0975d0f29e9105ba38db9b2a77a473bf3578e721",
+      "bytes": 299162,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8f49195205ac7e7658bc212b91bb519c37ea39a162230466ed523a3bc2ebd30c",
+      "bytes": 290207,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cd61d996a2fef70f10d6f7667ffad989cac48331db1cff915d8d51fd82819852",
+      "bytes": 270754,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "416961c224c36d5d0ef855bec8bab7446412bf25b94f3511fbc90e09198920d8",
+      "bytes": 287363,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/fb243962-f118-4c85-b701-f92ddce04f15/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e15efd6c70a46f5e0480124dd2d2d22b8a4f353189ef63e233fbee57388de099",
+      "bytes": 298533,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c0a887f0-c140-4737-aed7-6a8bf6326544/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5fbd22f97807c29c50533a119745fe0ffd9fe9909d260c43a74a0db57e318823",
+      "bytes": 267066,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 105,
+      "folio_label": "fol. 53",
+      "page_id": "c0a887f0-c140-4737-aed7-6a8bf6326544",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c923e78-62cd-48ed-ada6-2df8be9ee199/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2762fdbd4229ea6c43fa2ac37a3bf325a80c1b2967bab39150c95b4331a1819a",
+      "bytes": 259990,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 107,
+      "folio_label": "fol. 54",
+      "page_id": "1c923e78-62cd-48ed-ada6-2df8be9ee199",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

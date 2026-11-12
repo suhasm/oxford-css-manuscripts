@@ -1,0 +1,782 @@
+{
+  "source_order": 418,
+  "folio_label": "fol. 209b",
+  "page_id": "f0551406-2eb7-44b3-b1b5-1616ad193840",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "209b.",
+    "principal_page_bbox": [
+      300,
+      280,
+      2900,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          300,
+          170,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "209b.",
+        "features": [
+          "top-left corner",
+          "written folio number with superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          420,
+          1290,
+          2490,
+          240
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "adhy. i, ff. 1-83 (ll. 9-10) : adhy. ii, ff 1-148 ... except for ⟦insertion⟧ addition to adhy. iii.",
+        "features": [
+          "three handwritten lines in ink",
+          "physical-description addendum on a verso; no shelfmark or title on this page",
+          "cancelled word in third line, read as 'insertion' [reading?], with 'addition' following",
+          "line 1 ends near the gutter-side arrow (see unattached_marks)",
+          "probable link to an entry on the facing page fol. 210 is inferred from arrow direction only"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          415,
+          2850,
+          2320,
+          120
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "ff. 1-184 (with eight extra leaves inserted), mostly old, with missing leaves supplied in modern hand",
+        "features": [
+          "single handwritten line in ink",
+          "reading of 'eight extra leaves inserted' is uncertain",
+          "ends with a left-pointing arrow toward the gutter side (see unattached_marks)",
+          "no shelfmark or title on this page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2935,
+          4120,
+          105,
+          160
+        ],
+        "kind_hint": "marginal_pencil_annotation",
+        "anchor": "[d? / cf?]",
+        "features": [
+          "faint pencil",
+          "lower right area of the page",
+          "unattached query mark",
+          "reading uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2955,
+          1310,
+          135,
+          75
+        ],
+        "description": "Ink arrow pointing left with a hooked or question-mark-like stroke. It sits to the right of line 1 of b002, near the gutter."
+      },
+      {
+        "bbox": [
+          3020,
+          2875,
+          160,
+          45
+        ],
+        "description": "Ink arrow drawn as a horizontal stroke with a crossbar, to the right of b003 near the gutter. A further dash beyond the gutter belongs to the facing page."
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2900,
+          3900
+        ],
+        "description": "Faint mirror-image show-through of writing from the other side of the leaf. It is not target text and is not transcribed."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the image beyond about x=3200 shows the facing page fol. 210: shelfmarks 'd.', 'e', 'c', ticks and 'see'. These were excluded as facing-page fragments.",
+      "The adjacent fol. 210 image shows fragments of this page's notes and arrows at its left edge. These are the same marks, not additional records.",
+      "b002 and b003 appear to be overflow descriptions keyed by arrows to entries on fol. 210. Their parent entries are not on this page."
+    ],
+    "uncertainties": [
+      "The cancelled word in the third line of b002 is read as 'insertion'; this reading is uncertain.",
+      "In b003, the reading 'eight extra leaves inserted' is uncertain.",
+      "The pencil mark b004 could be 'd?' or 'cf?'.",
+      "The precise ll. figures in b002 are hard to read: (ll. 9-10), (ll. 13), 24 ff., 173 ff."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "209b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "209b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written folio number in the top-left corner, with a superscript b followed by a point."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_overflow",
+        "literal_text": "adhy. i, ff. 1-83 (ll. 9-10) : adhy. ii, ff 1-148 (ll. 13): adhy. iii, ff 1-178 (24 ff. of original MS. m., most lacunae made\ngood by later insertion & several mutilated leaves similarly completed, 173 ff (in all). An old MS., in one hand\nexcept for ⟦insertion⟧ addition to adhy. iii.",
+        "fields": {
+          "extent": "adhy. i, ff. 1-83 (ll. 9-10) : adhy. ii, ff 1-148 (ll. 13): adhy. iii, ff 1-178"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Three ink lines written in English cursive.",
+          "In line 3 one word is struck through. It is read as 'insertion' and is followed by 'addition'.",
+          "To the right of line 1, near the gutter, is an ink arrow pointing left with a hooked or question-mark-like stroke. A matching arrow appears at the left edge of fol. 210.",
+          "No shelfmark or title is written on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 419,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c. [7?]51-2 ... D: Mitākṣarā, by Vijñāneśvara ... n.d: 225+173: 10: D",
+            "evidence": "The left-pointing arrow on this page lines up horizontally with the arrow on the left edge of fol. 210 beside this row. The figure 173 also appears in both.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'm.' after 'original MS.' is uncertain.",
+          "'(in all)' may instead be read as '(in all?)'.",
+          "The cancelled word 'insertion' is uncertain.",
+          "The line-count figures (ll. 9-10) and (ll. 13) are hard to read.",
+          "The shelfmark of the target row on fol. 210 is hard to read."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_overflow",
+        "literal_text": "ff. 1-184 (with eight extra leaves inserted), mostly old, with missing leaves supplied in modern hand",
+        "fields": {
+          "extent": "ff. 1-184 (with eight extra leaves inserted)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A single ink line.",
+          "It ends with an ink arrow pointing left, drawn as a horizontal stroke with a crossbar, toward the gutter.",
+          "A further dash beyond the gutter belongs to fol. 210."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 419,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c. 261. ... adh. 3. Prāyaścitta. D. as above ... n.d: 192: 9: D",
+            "evidence": "The arrow lines up horizontally with the arrow at the left edge of fol. 210 beside the c. 261 row. However, fol. 210 also has an interlinear 'ff 1-184 (...) several hands' written near the c. 258 row, so the attachment is ambiguous.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'eight extra leaves inserted' is a difficult reading.",
+          "The target entry is ambiguous: it may be c. 261 or c. 258 (1)."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_query",
+        "literal_text": "[cf?/d?/of?] ?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil mark in the lower right area of the page, followed by a question mark.",
+          "No adjacent text on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading is uncertain: 'cf?', 'd?' or 'of?'.",
+          "A similar pencil 'cf?' mark appears at the left edge of the fol. 210 overview; this may be the same mark seen from the facing image."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Overflow physical description, keyed by an arrow to an entry on fol. 210."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Overflow physical description, keyed by an arrow to an entry on fol. 210."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Unattached pencil query."
+      }
+    ],
+    "page_annotations": [
+      "Mirror-image show-through from the other side of the leaf is visible across the page and is not transcribed.",
+      "The strip at the right beyond about x=3200 shows fol. 210 (shelfmarks d., e., c., ticks, 'see'). It was excluded as facing-page material.",
+      "There are scattered small ink dots with no textual content."
+    ],
+    "unresolved_relationships": [
+      "The exact parent entries on fol. 210 for r002 and r003 are inferred from arrow alignment only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '209' with a superscript 'b' and a point is in the top-left corner (native about x=385–540, y=320–430). r001 matches it."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "I re-read the three ink lines in native tiles 1 and 2. They agree with the r002 literal text, including the struck-through word before 'addition' in line 3. The '&' is written as a plus-like ampersand. The first 'adhy.' numeral looks like 'i' or '1'; I read it as 'i' and that reading is not secure. The left-pointing hooked arrow with a '?'-like stroke at about x=2955–3090, y=1310–1390 is on this page and is described in the r002 annotations. No overlap text is duplicated across tiles."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The single ink line and the crossed horizontal arrow at about x=3020–3180, y=2875–2915 are represented. The second dash beyond the gutter belongs to fol. 210, as the candidate says. The reading 'eight extra leaves inserted' remains difficult."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A faint pencil mark followed by a question mark is at about x=2940–3030, y=4125–4275. Its reading is unsecure: 'cf?', 'd?' or 'of?'. The same mark is visible at the left edge of the fol. 210 overview; it is not a separate fol. 210 record."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The parent entry on fol. 210 is inferred only from arrow alignment at about y=1310–1390 and from the shared figure 173. The likely row is c. [7?]51-2, whose extent is 225+173. The shelfmark digit is not secure.",
+        "next_check": "Compare the c. ?51-2 row at native resolution on fol. 210."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The arrow aligns horizontally with the left-edge arrow beside c. 261 on fol. 210 (about y=2880). However, fol. 210 also has an interlinear 'ff 1-184 (...) several hands' near c. 258 (1). Attachment therefore remains ambiguous. The reading 'eight extra leaves inserted' is also uncertain.",
+        "next_check": "Inspect native fol. 210 at the c. 258 (1) and c. 261 rows, including the arrow positions."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The reading of the pencil mark is unresolved, and it has no evident attachment.",
+        "next_check": "View it at higher contrast or magnification."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter at about x=3190–3230. Beyond that are fol. 210 fragments: shelfmark letters d., e., c., ticks, an underlined 'c', 'see' at the bottom right, and the continuation dash of the b003 arrow. These are excluded as facing-page material. Small dashes and specks at the gutter near y=4400–4500 are binding or ink specks with no text. The arrows of b002 and b003 sit on the target side of the gutter. Their matching marks on the left edge of fol. 210 are the same features, not new records.",
+    "region_review": {
+      "top": "Contains only the folio number '209b.' and a stray dot. No other writing.",
+      "middle": "Contains two ink notes, b002 and b003, with their arrows. The rest is faint mirror-image show-through and scattered dots, not transcribed.",
+      "bottom": "Blank apart from show-through, the pencil query b004 at the lower right and specks near the gutter. No bottom note.",
+      "left_margin": "No writing. Only the page edges are visible.",
+      "right_margin": "Contains the two arrows of b002 and b003 and the pencil b004. Facing-page fragments lie beyond the gutter.",
+      "interlinear": "No interlinear additions. The only correction is the cancelled word in line 3 of b002."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        300,
+        170,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "209b.",
+      "features": [
+        "top-left corner",
+        "written folio number with superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        420,
+        1290,
+        2490,
+        240
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "adhy. i, ff. 1-83 (ll. 9-10) : adhy. ii, ff 1-148 ... except for ⟦insertion⟧ addition to adhy. iii.",
+      "features": [
+        "three handwritten lines in ink",
+        "physical-description addendum on a verso; no shelfmark or title on this page",
+        "cancelled word in third line, read as 'insertion' [reading?], with 'addition' following",
+        "line 1 ends near the gutter-side arrow (see unattached_marks)",
+        "probable link to an entry on the facing page fol. 210 is inferred from arrow direction only"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        415,
+        2850,
+        2320,
+        120
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "ff. 1-184 (with eight extra leaves inserted), mostly old, with missing leaves supplied in modern hand",
+      "features": [
+        "single handwritten line in ink",
+        "reading of 'eight extra leaves inserted' is uncertain",
+        "ends with a left-pointing arrow toward the gutter side (see unattached_marks)",
+        "no shelfmark or title on this page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2935,
+        4120,
+        105,
+        160
+      ],
+      "kind_hint": "marginal_pencil_annotation",
+      "anchor": "[d? / cf?]",
+      "features": [
+        "faint pencil",
+        "lower right area of the page",
+        "unattached query mark",
+        "reading uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "209b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written folio number in the top-left corner, with a superscript b followed by a point."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0418-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_overflow",
+      "literal_text": "adhy. i, ff. 1-83 (ll. 9-10) : adhy. ii, ff 1-148 (ll. 13): adhy. iii, ff 1-178 (24 ff. of original MS. m., most lacunae made\ngood by later insertion & several mutilated leaves similarly completed, 173 ff (in all). An old MS., in one hand\nexcept for ⟦insertion⟧ addition to adhy. iii.",
+      "fields": {
+        "extent": "adhy. i, ff. 1-83 (ll. 9-10) : adhy. ii, ff 1-148 (ll. 13): adhy. iii, ff 1-178"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Three ink lines written in English cursive.",
+        "In line 3 one word is struck through. It is read as 'insertion' and is followed by 'addition'.",
+        "To the right of line 1, near the gutter, is an ink arrow pointing left with a hooked or question-mark-like stroke. A matching arrow appears at the left edge of fol. 210.",
+        "No shelfmark or title is written on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 419,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. [7?]51-2 ... D: Mitākṣarā, by Vijñāneśvara ... n.d: 225+173: 10: D",
+          "evidence": "The left-pointing arrow on this page lines up horizontally with the arrow on the left edge of fol. 210 beside this row. The figure 173 also appears in both.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'm.' after 'original MS.' is uncertain.",
+        "'(in all)' may instead be read as '(in all?)'.",
+        "The cancelled word 'insertion' is uncertain.",
+        "The line-count figures (ll. 9-10) and (ll. 13) are hard to read.",
+        "The shelfmark of the target row on fol. 210 is hard to read."
+      ],
+      "stable_id": "css-prod-0418-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_overflow",
+      "literal_text": "ff. 1-184 (with eight extra leaves inserted), mostly old, with missing leaves supplied in modern hand",
+      "fields": {
+        "extent": "ff. 1-184 (with eight extra leaves inserted)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A single ink line.",
+        "It ends with an ink arrow pointing left, drawn as a horizontal stroke with a crossbar, toward the gutter.",
+        "A further dash beyond the gutter belongs to fol. 210."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 419,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 261. ... adh. 3. Prāyaścitta. D. as above ... n.d: 192: 9: D",
+          "evidence": "The arrow lines up horizontally with the arrow at the left edge of fol. 210 beside the c. 261 row. However, fol. 210 also has an interlinear 'ff 1-184 (...) several hands' written near the c. 258 row, so the attachment is ambiguous.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'eight extra leaves inserted' is a difficult reading.",
+        "The target entry is ambiguous: it may be c. 261 or c. 258 (1)."
+      ],
+      "stable_id": "css-prod-0418-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_query",
+      "literal_text": "[cf?/d?/of?] ?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil mark in the lower right area of the page, followed by a question mark.",
+        "No adjacent text on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading is uncertain: 'cf?', 'd?' or 'of?'.",
+        "A similar pencil 'cf?' mark appears at the left edge of the fol. 210 overview; this may be the same mark seen from the facing image."
+      ],
+      "stable_id": "css-prod-0418-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f0551406-2eb7-44b3-b1b5-1616ad193840.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f0551406-2eb7-44b3-b1b5-1616ad193840/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "879d55ee49b2006ee3fe6b360df123a42c32d5feabdaf1d0228ba1ce374093b7",
+      "bytes": 267017,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f0551406-2eb7-44b3-b1b5-1616ad193840/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e74dda74dc8ed53b24437d4641417fb6d525b1dbae88d505c9dd735e565730eb",
+      "bytes": 342072,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f0551406-2eb7-44b3-b1b5-1616ad193840/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0db860f6140c768789d7b51728cf7aa83c6aaddd4822dfa5ff68ba9768db5ce2",
+      "bytes": 330542,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f0551406-2eb7-44b3-b1b5-1616ad193840/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8615b76abdbb1567214335e6360da4fb81eb1cd46c09a25a10eebeb6135ad008",
+      "bytes": 313281,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f0551406-2eb7-44b3-b1b5-1616ad193840/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e9733758badb6bf72c5a8184ff296edbc0354df35028d0dfc945057d85620e22",
+      "bytes": 289087,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f0551406-2eb7-44b3-b1b5-1616ad193840/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6a91de6d8ef4ed99d3d9ad5f1f32e4517c6b4c06bf1143def411d1f6ab76495e",
+      "bytes": 304636,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f0551406-2eb7-44b3-b1b5-1616ad193840/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d9969b3170178e7d0f3f9acc79795beb73a6cd4f89c99b9b3de9982172812710",
+      "bytes": 315597,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7b8919c0-230e-405a-acb3-98a6e82fe75d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8fa4ccb1379a92d03a173e6bc1d5a77490cdca17b0a12a4bd5aac56a9a963666",
+      "bytes": 248054,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 417,
+      "folio_label": "fol. 209",
+      "page_id": "7b8919c0-230e-405a-acb3-98a6e82fe75d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9b04573-7397-4aac-85f0-67f692114d71/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "48003fdf50ea37f102fd47fc7c7cd2381a945bc5f4c9d50babd72e3b61046928",
+      "bytes": 232633,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 419,
+      "folio_label": "fol. 210",
+      "page_id": "d9b04573-7397-4aac-85f0-67f692114d71",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

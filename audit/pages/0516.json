@@ -1,0 +1,1943 @@
+{
+  "source_order": 516,
+  "folio_label": "fol. 258b",
+  "page_id": "3a1fecf2-219d-4580-a92d-503d4fa43b2e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "258b",
+    "principal_page_bbox": [
+      310,
+      250,
+      2890,
+      4630
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          300,
+          150,
+          170
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "258b.",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "written diagonally",
+          "final letter read as 'b'; it is small and placed above the line, so the reading is tentative"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          425,
+          2280,
+          1290,
+          125
+        ],
+        "kind_hint": "marginal_note_attached_to_facing_page_entry",
+        "anchor": "ff. 1-5 unf. Four śānti, then various gifts.",
+        "features": [
+          "ink",
+          "single line on the ruled page",
+          "no shelfmark or heading on this page",
+          "linked by a hook/arrow mark and a dash crossing the gutter toward fol. 259 (about x 3100-3365, y 2283-2333)",
+          "the facing fol. 259 has a '←' in its left margin beside the entry 'Vaitaraṇī…' c. 386(4) at about the same height"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1540,
+          4440,
+          1250,
+          145
+        ],
+        "kind_hint": "marginal_note_attached_to_facing_page_entry",
+        "anchor": "ff. 1-50, Owner Mahārāja Raghunātha Paṇḍita",
+        "features": [
+          "ink",
+          "single line near the bottom",
+          "underdot under 'd' in 'Paṇḍita'",
+          "no shelfmark on this page",
+          "followed by the mark in b004, which links to the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2975,
+          4455,
+          335,
+          60
+        ],
+        "kind_hint": "link_mark",
+        "anchor": "?t——",
+        "features": [
+          "'?t' followed by a horizontal line running across the gutter onto fol. 259",
+          "matches the '?t——' mark in the left margin of fol. 259 beside the entry c. 309 (…by Prayāgadatta…)"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2975,
+          1425,
+          40,
+          100
+        ],
+        "description": "Small isolated pencil '?' near the right edge, about y 1430-1525; no adjacent text on this page. It may relate to the '?' in the left margin of fol. 259 near the entry e. 48 (8)."
+      },
+      {
+        "bbox": [
+          3095,
+          2280,
+          270,
+          60
+        ],
+        "description": "Hook/arrow mark ('L'-shaped) followed by a short dash that crosses the gutter line. It connects the b002 note to the facing fol. 259."
+      },
+      {
+        "bbox": [
+          425,
+          4455,
+          25,
+          60
+        ],
+        "description": "Small pencil speck or stroke at the far left at the height of the bottom note; not legible as text."
+      },
+      {
+        "bbox": [
+          1325,
+          4420,
+          50,
+          80
+        ],
+        "description": "Small specks or dots, possibly a faint mark or offset, left of the bottom note."
+      },
+      {
+        "bbox": [
+          1995,
+          955,
+          15,
+          20
+        ],
+        "description": "Tiny ink speck in the upper middle area."
+      }
+    ],
+    "boundary_notes": [
+      "This verso is an interleaf facing fol. 259. The notes b002 and b003 carry no shelfmark or heading of their own. Their link lines cross the gutter, which indicates attachment to entries on fol. 259 rather than to independent holdings on this page.",
+      "A strip of the facing fol. 259 is visible beyond the gutter at the right edge. Its portions are not target-page records.",
+      "Faint offset or show-through of ruling and text from other pages is visible across the page. It is not treated as target writing."
+    ],
+    "uncertainties": [
+      "The 'b' in the folio number is uncertain.",
+      "In b002, the readings 'unf.' and 'Four śānti' are tentative.",
+      "In b003, 'Mahārāja' and 'Raghunātha' are tentative readings of cursive script.",
+      "In b004, the 't' after '?' is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "258b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "258b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left corner, written diagonally.",
+          "The 'b' is small and raised above the figures."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The 'b' after 258 is a tentative reading."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b902"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_on_facing_page_entry",
+        "literal_text": "ff. 1-5 unf. Four śānti, then various gifts.",
+        "fields": {
+          "extent": "ff. 1-5"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, single line on the ruled page at about y 2300.",
+          "No shelfmark or title appears with this note on this page.",
+          "At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 517,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "V c. 386(4) Vaitaraṇīcaturdhāśānti … ritual, expiatory. n.d.: 5:7: Beng.",
+            "evidence": "A link dash crosses the gutter at the same height as a '←'-type mark in the left margin of fol. 259 beside this entry. The note's mention of śānti fits the entry, but attachment rests mainly on the mark.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'unf.' is a tentative reading. It may be 'unf.' or a similar abbreviation.",
+          "'Four śānti' is tentative. The first word is written like 'Fom'/'Four'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_on_facing_page_entry",
+        "literal_text": "ff. 1-50, Owner Mahārāja Raghunātha Paṇḍita  ?t——",
+        "fields": {
+          "extent": "ff. 1-50"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, single line near the bottom of the page.",
+          "The 'd' in 'Paṇḍita' has an underdot.",
+          "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+          "'Owner …' records ownership. The person named is not an author."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 517,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "V c. 309 ——— D. by Prayāgadatta, son of Rāmakumāra. n.d.: 50:…:D",
+            "evidence": "A matching '?t——' mark appears in the left margin of fol. 259 beside c. 309, at the same height. The link line crosses the gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Mahārāja' is a tentative reading of cursive script. The written form looks like 'Mabarāja'/'Mahārāja'.",
+          "'Raghunātha' is tentative; the initial is unclear.",
+          "The 't' in '?t' is uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "query_mark",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Small isolated pencil '?' near the right edge of the text area. No text is adjacent to it on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 517,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "e. 48 (8) Vedoktaśivārcanapaddhati",
+            "evidence": "A similar '?' appears in the left margin of fol. 259 at roughly the same height. No link line was observed.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Whether this mark relates to fol. 259 is unproven."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2975,
+          1425,
+          40,
+          100
+        ],
+        "kind_hint": "query_mark",
+        "anchor": "?",
+        "features": [
+          "pencil",
+          "isolated",
+          "right side of page",
+          "listed in inventory as an unattached mark"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3095,
+          2280,
+          270,
+          60
+        ],
+        "kind_hint": "link_mark",
+        "anchor": "L-shaped hook + dash",
+        "features": [
+          "ink",
+          "crosses gutter to fol. 259",
+          "same line as b002"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Note attached across the gutter to an entry on fol. 259."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Bottom note attached across the gutter to an entry on fol. 259."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Link mark belonging to the b003 note."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Isolated query mark."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Link mark for the b002 note."
+      }
+    ],
+    "page_annotations": [
+      "The page is an interleaf verso facing fol. 259. It is otherwise blank apart from ruling.",
+      "Faint offset or show-through of text and ruling is visible and is not transcribed.",
+      "Minor specks occur near x 425 and x 1325 at about y 4455, and near x 1995, y 955. They are not legible as text.",
+      "The strip of fol. 259 visible beyond the gutter is not transcribed."
+    ],
+    "unresolved_relationships": [
+      "The b901 '?' may correspond to the '?' beside e. 48 (8) on fol. 259; this is uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Pencil folio number in the top-left corner, written diagonally. It reads '258' with a small raised final letter, probably 'b', followed by a dot. The candidate already keeps the 'b' as tentative."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Single ink line at about y 2300. Re-inspection shows a possible second small dot after 'unf.' ('unf. .'). The first word after it is written like 'Fom'. 'unf.' and 'Four' should be marked uncertain in the literal text, not only in the uncertainties list."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Bottom ink line at about y 4440-4585. 'Mahārāja' is written cursively and looks like 'Mabārije/Mahāraja'. 'Raghunātha' shows a macron. 'Paṇḍita' has dot(s) under the n/d junction. Whether there is one underdot or two is not secure, so the literal 'ṇḍ' and the annotation ('d' only) are inconsistent."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "'?t' with a horizontal line. It starts at about x 2990 and crosses the gutter (about x 3200) with a small terminal hook. It matches the '?t——' beside c. 309 on fol. 259. It is reasonably grouped with b003 as its link mark."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Isolated small '?' at about x 2985-3010, y 1430-1525. Its height corresponds to the '?' in the left margin of fol. 259 at about y 1430, near e. 48 (8). The relation is unproven and correctly left uncertain."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "L/hook-shaped mark at about x 3100-3160, y 2290-2320. A separate short dash lies beyond the gutter at about x 3240-3360. It corresponds to the mark beside c. 386(4) on fol. 259. It is correctly attached as a link mark."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff. 1-5 unf. Four śānti, then various gifts.",
+        "after": "ff. 1-5 [unf.?] [Four?] śānti, then various gifts.",
+        "reason": "The uncertain readings should be visible in the literal text. The first word is written like 'Fom'. 'unf.' is a tentative reading of the cursive script.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Ink, single line on the ruled page at about y 2300.",
+          "No shelfmark or title appears with this note on this page.",
+          "At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259."
+        ],
+        "after": [
+          "Ink, single line on the ruled page at about y 2300.",
+          "No shelfmark or title appears with this note on this page.",
+          "A possible second small dot follows 'unf.' (seen as 'unf. .'); it may be a stray mark.",
+          "At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259."
+        ],
+        "reason": "The source shows an extra dot after 'unf.' that the candidate does not record.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff. 1-50, Owner Mahārāja Raghunātha Paṇḍita  ?t——",
+        "after": "ff. 1-50, Owner [Mahārāja?] [Raghunātha?] Paṇḍita  ?t——",
+        "reason": "The candidate's own uncertainties mark both names as tentative. The cursive forms are not secure, so the literal text should show this.",
+        "source_block_ids": [
+          "b003",
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Ink, single line near the bottom of the page.",
+          "The 'd' in 'Paṇḍita' has an underdot.",
+          "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+          "'Owner …' records ownership. The person named is not an author."
+        ],
+        "after": [
+          "Ink, single line near the bottom of the page.",
+          "Dot(s) under the n/d junction of 'Paṇḍita'. Whether there is one underdot or two (ṇ and ḍ) is not securely determinable from the image.",
+          "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+          "'Owner …' records ownership. The person named is not an author."
+        ],
+        "reason": "The literal text gives both ṇ and ḍ, but the annotation claims an underdot under 'd' only. The image does not securely resolve the number of dots.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "Number and placement of the underdots in 'Paṇḍita' (ṇḍ vs. ḍ only), and the exact cursive reading of 'Mahārāja'.",
+        "next_check": "Higher-magnification inspection of about x 2280-2800, y 4460-4560."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The '?' may relate to the '?' beside e. 48 (8) on fol. 259. There is no connecting line.",
+        "next_check": "Compare ink and height with the fol. 259 margin mark at native resolution."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b902"
+        ],
+        "issue": "The link to c. 386(4) rests on the mark correspondence and the 'śānti' content. It is probable, not secure.",
+        "next_check": "Inspect the fol. 259 left-margin mark at about y 2300 at native resolution."
+      }
+    ],
+    "boundary_review": "The target is an interleaf verso facing fol. 259. It has no shelfmarks, headings or independent holdings. Notes b002 and b003 attach across the gutter, probably to c. 386(4) and c. 309 on fol. 259; the link marks match at the same heights. The strip of fol. 259 beyond the gutter (dash portions, part of the ruling) is not transcribed as target records. The facing-page strip also shows a faint mark at about x 3320, y 1370, which is fol. 259 offset or marginalia and is not a target record.",
+    "region_review": {
+      "top": "The pencil folio number '258b.' is the only writing. Faint offset or show-through only otherwise.",
+      "middle": "An isolated '?' at about y 1430-1525 (right). The ink note b002 at about y 2300 with its hook/dash link. Only specks otherwise (about x 1995, y 955, and a few dots near x 2500-2650, y 1990-2470); none is legible text.",
+      "bottom": "Note b003 with the '?t——' link line. There is a pencil stroke or speck at x about 435, y 4470 and specks at x about 1350, y 4430-4500; none is legible. Nothing below the last ruled line.",
+      "left_margin": "No writing apart from the small stroke at about x 435, y 4470.",
+      "right_margin": "The '?' (b901), the hook mark (b902) and the start of the b004 line. The gutter and the facing-page strip have been reviewed.",
+      "interlinear": "No interlinear additions or cancellations are found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        300,
+        150,
+        170
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "258b.",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "written diagonally",
+        "final letter read as 'b'; it is small and placed above the line, so the reading is tentative"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        425,
+        2280,
+        1290,
+        125
+      ],
+      "kind_hint": "marginal_note_attached_to_facing_page_entry",
+      "anchor": "ff. 1-5 unf. Four śānti, then various gifts.",
+      "features": [
+        "ink",
+        "single line on the ruled page",
+        "no shelfmark or heading on this page",
+        "linked by a hook/arrow mark and a dash crossing the gutter toward fol. 259 (about x 3100-3365, y 2283-2333)",
+        "the facing fol. 259 has a '←' in its left margin beside the entry 'Vaitaraṇī…' c. 386(4) at about the same height"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1540,
+        4440,
+        1250,
+        145
+      ],
+      "kind_hint": "marginal_note_attached_to_facing_page_entry",
+      "anchor": "ff. 1-50, Owner Mahārāja Raghunātha Paṇḍita",
+      "features": [
+        "ink",
+        "single line near the bottom",
+        "underdot under 'd' in 'Paṇḍita'",
+        "no shelfmark on this page",
+        "followed by the mark in b004, which links to the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2975,
+        4455,
+        335,
+        60
+      ],
+      "kind_hint": "link_mark",
+      "anchor": "?t——",
+      "features": [
+        "'?t' followed by a horizontal line running across the gutter onto fol. 259",
+        "matches the '?t——' mark in the left margin of fol. 259 beside the entry c. 309 (…by Prayāgadatta…)"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2975,
+        1425,
+        40,
+        100
+      ],
+      "kind_hint": "query_mark",
+      "anchor": "?",
+      "features": [
+        "pencil",
+        "isolated",
+        "right side of page",
+        "listed in inventory as an unattached mark"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3095,
+        2280,
+        270,
+        60
+      ],
+      "kind_hint": "link_mark",
+      "anchor": "L-shaped hook + dash",
+      "features": [
+        "ink",
+        "crosses gutter to fol. 259",
+        "same line as b002"
+      ]
+    },
+    {
+      "id": "b9903",
+      "bbox": [
+        3235,
+        2295,
+        135,
+        25
+      ],
+      "kind_hint": "facing_page_fragment",
+      "anchor": "—",
+      "features": [
+        "ink dash right of the gutter rule",
+        "on the visible strip of fol. 259",
+        "continues the hook mark b902"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "258b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left corner, written diagonally.",
+        "The 'b' is small and raised above the figures."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The 'b' after 258 is a tentative reading."
+      ],
+      "stable_id": "css-prod-0516-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b902"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_on_facing_page_entry",
+      "literal_text": "ff. 1-5 unf. Four śānti, then various gifts.",
+      "fields": {
+        "extent": "ff. 1-5"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, single line on the ruled page at about y 2300.",
+        "No shelfmark or title appears with this note on this page.",
+        "At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 517,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "V c. 386(4) Vaitaraṇīcaturdhāśānti … ritual, expiatory. n.d.: 5:7: Beng.",
+          "evidence": "A link dash crosses the gutter at the same height as a '←'-type mark in the left margin of fol. 259 beside this entry. The note's mention of śānti fits the entry, but attachment rests mainly on the mark.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'unf.' is a tentative reading. It may be 'unf.' or a similar abbreviation.",
+        "'Four śānti' is tentative. The first word is written like 'Fom'/'Four'."
+      ],
+      "stable_id": "css-prod-0516-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_on_facing_page_entry",
+      "literal_text": "ff. 1-50, Owner Mahārāja Raghunātha Paṇḍita  ?t——",
+      "fields": {
+        "extent": "ff. 1-50"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, single line near the bottom of the page.",
+        "Dot(s) under the n/d junction of 'Paṇḍita'. Whether there is one underdot or two (ṇ and ḍ) is not securely determinable from the image.",
+        "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+        "'Owner …' records ownership. The person named is not an author."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 517,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "V c. 309 ——— D. by Prayāgadatta, son of Rāmakumāra. n.d.: 50:…:D",
+          "evidence": "A matching '?t——' mark appears in the left margin of fol. 259 beside c. 309, at the same height. The link line crosses the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Mahārāja' is a tentative reading of cursive script. The written form looks like 'Mabarāja'/'Mahārāja'.",
+        "'Raghunātha' is tentative; the initial is unclear.",
+        "The 't' in '?t' is uncertain."
+      ],
+      "stable_id": "css-prod-0516-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "query_mark",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Small isolated pencil '?' near the right edge of the text area. No text is adjacent to it on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 517,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "e. 48 (8) Vedoktaśivārcanapaddhati",
+          "evidence": "A similar '?' appears in the left margin of fol. 259 at roughly the same height. No link line was observed.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Whether this mark relates to fol. 259 is unproven."
+      ],
+      "stable_id": "css-prod-0516-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9903",
+      "block_ids": [
+        "b9903"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "facing_page_fragment",
+      "literal_text": "—",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A short ink dash lies on the fol. 259 strip beyond the gutter. It is aligned with the hook b902 on this leaf. The fol. 259 image shows it as the dash beside the left-margin hook at c. 386(4)."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The dash belongs to the facing page. Its attachment is not inferred here beyond the alignment."
+      ],
+      "stable_id": "css-prod-0516-r9903",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff. 1-5 unf. Four śānti, then various gifts.",
+      "after": "ff. 1-5 [unf.?] [Four?] śānti, then various gifts.",
+      "reason": "The uncertain readings should be visible in the literal text. The first word is written like 'Fom'. 'unf.' is a tentative reading of the cursive script.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Ink, single line on the ruled page at about y 2300.",
+        "No shelfmark or title appears with this note on this page.",
+        "At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259."
+      ],
+      "after": [
+        "Ink, single line on the ruled page at about y 2300.",
+        "No shelfmark or title appears with this note on this page.",
+        "A possible second small dot follows 'unf.' (seen as 'unf. .'); it may be a stray mark.",
+        "At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259."
+      ],
+      "reason": "The source shows an extra dot after 'unf.' that the candidate does not record.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 1-50, Owner Mahārāja Raghunātha Paṇḍita  ?t——",
+      "after": "ff. 1-50, Owner [Mahārāja?] [Raghunātha?] Paṇḍita  ?t——",
+      "reason": "The candidate's own uncertainties mark both names as tentative. The cursive forms are not secure, so the literal text should show this.",
+      "source_block_ids": [
+        "b003",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Ink, single line near the bottom of the page.",
+        "The 'd' in 'Paṇḍita' has an underdot.",
+        "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+        "'Owner …' records ownership. The person named is not an author."
+      ],
+      "after": [
+        "Ink, single line near the bottom of the page.",
+        "Dot(s) under the n/d junction of 'Paṇḍita'. Whether there is one underdot or two (ṇ and ḍ) is not securely determinable from the image.",
+        "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+        "'Owner …' records ownership. The person named is not an author."
+      ],
+      "reason": "The literal text gives both ṇ and ḍ, but the annotation claims an underdot under 'd' only. The image does not securely resolve the number of dots.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff. 1-5 unf. Four śānti, then various gifts.",
+      "after": "ff. 1-5 [unf.?] [Four?] śānti, then various gifts.",
+      "reason": "Uncertain readings made visible in the literal text. The first word is written like 'Fom'.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0516-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Ink, single line on the ruled page at about y 2300.",
+        "No shelfmark or title appears with this note on this page.",
+        "At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259."
+      ],
+      "after": [
+        "Ink, single line on the ruled page at about y 2300.",
+        "No shelfmark or title appears with this note on this page.",
+        "A possible second small dot follows 'unf.' (seen as 'unf. .'); it may be a stray mark.",
+        "At the right of the same line, an L-shaped hook mark (about x 3100-3160) lies left of the gutter, on this leaf. A short dash (about x 3240-3365) lies right of the gutter, on the fol. 259 strip."
+      ],
+      "reason": "Records the extra dot and the ownership of each part of the mark.",
+      "source_block_ids": [
+        "b002",
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0516-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 1-50, Owner Mahārāja Raghunātha Paṇḍita  ?t——",
+      "after": "ff. 1-50, Owner [Mahārāja?] [Raghunātha?] Paṇḍita  ?t——",
+      "reason": "The cursive name forms are not secure. 'Mahārāja' is written like 'Mabārize'.",
+      "source_block_ids": [
+        "b003",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0516-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Ink, single line near the bottom of the page.",
+        "The 'd' in 'Paṇḍita' has an underdot.",
+        "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+        "'Owner …' records ownership. The person named is not an author."
+      ],
+      "after": [
+        "Ink, single line near the bottom of the page.",
+        "Dot(s) under the n/d junction of 'Paṇḍita'. Whether there is one underdot or two (ṇ and ḍ) is not securely determinable from the image.",
+        "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+        "'Owner …' records ownership. The person named is not an author."
+      ],
+      "reason": "The annotation overclaimed a single underdot.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0516-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 517,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "e. 48 (8) Vedoktaśivārcanapaddhati",
+          "evidence": "A similar '?' appears in the left margin of fol. 259 at roughly the same height. No link line was observed.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 517,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "e. 48 (8) Vedoktaśivārcanapaddhati",
+          "evidence": "The '?' seen at the left edge of the fol. 259 image lies left of that image's gutter line. It is probably this same physical mark on the 258b strip, not a second mark. No link line was observed, and the relation to e. 48 (8) rests only on height.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "Clarifies that the two '?' sightings are probably one physical mark.",
+      "source_block_ids": [
+        "b901"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0516-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [
+    {
+      "block_id": "b902",
+      "before_bbox": [
+        3095,
+        2280,
+        270,
+        60
+      ],
+      "after_bbox": [
+        3090,
+        2280,
+        80,
+        55
+      ],
+      "reason": "Restricted to the hook mark on the target leaf. The dash beyond the gutter (about x 3240-3365) is on the fol. 259 strip.",
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Uncertain source location retained as a proposal",
+      "focused_check_file": "0516-focus.parsed.json"
+    }
+  ],
+  "addition_audit": [
+    {
+      "record_id": "r9903",
+      "stage": "focus",
+      "focused_check_file": "0516-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record and newly identified source block"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0516-01"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The uncertain readings should be visible in the literal text. The first word is written like 'Fom'. 'unf.' is a tentative reading of the cursive script. Proposed literal_text: \"ff. 1-5 [unf.?] [Four?] śānti, then various gifts.\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0516-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The candidate's own uncertainties mark both names as tentative. The cursive forms are not secure, so the literal text should show this. Proposed literal_text: \"ff. 1-50, Owner [Mahārāja?] [Raghunātha?] Paṇḍita  ?t——\"",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0516-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "Number and placement of the underdots in 'Paṇḍita' (ṇḍ vs. ḍ only), and the exact cursive reading of 'Mahārāja'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0516-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The '?' may relate to the '?' beside e. 48 (8) on fol. 259. There is no connecting line.",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0516-05"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The link to c. 386(4) rests on the mark correspondence and the 'śānti' content. It is probable, not secure.",
+      "block_ids": [
+        "b002",
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0516-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The source shows an extra dot after 'unf.' that the candidate does not record. Proposed annotations: [\"Ink, single line on the ruled page at about y 2300.\", \"No shelfmark or title appears with this note on this page.\", \"A possible second small dot follows 'unf.' (seen as 'unf. .'); it may be a stray mark.\", \"At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259.\"]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0516-07"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The literal text gives both ṇ and ḍ, but the annotation claims an underdot under 'd' only. The image does not securely resolve the number of dots. Proposed annotations: [\"Ink, single line near the bottom of the page.\", \"Dot(s) under the n/d junction of 'Paṇḍita'. Whether there is one underdot or two (ṇ and ḍ) is not securely determinable from the image.\", \"After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.\", \"'Owner …' records ownership. The person named is not an author.\"]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0516-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The 'b' after 258 is a tentative reading.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0516-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'unf.' is a tentative reading. It may be 'unf.' or a similar abbreviation.",
+      "block_ids": [
+        "b002",
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0516-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0516-01",
+        "focus-0516-02",
+        "focus-0516-03",
+        "focus-0516-04",
+        "focus-0516-05",
+        "focus-0516-06",
+        "focus-0516-07",
+        "focus-0516-08",
+        "focus-0516-09",
+        "focus-0516-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0516-01",
+          "source_reading": "An L-shaped hook mark sits left of the gutter at about x 3100-3160, y 2288-2330. A short dash lies right of the gutter rule (gutter at about x 3199), at about x 3240-3365, y 2300-2312.",
+          "certainty": "probable",
+          "evidence": "In the native tile at offset 1604,1608, the hook is at about tile x 1497-1555 and the gutter rule at about tile x 1595. The dash is at about tile x 1635-1760, on the facing-leaf strip. The fol. 259 context shows the same hook-plus-dash, with the hook left of its gutter line. The hook therefore belongs to the 258b leaf and the dash to fol. 259."
+        },
+        {
+          "issue_id": "focus-0516-02",
+          "source_reading": "ff. 1-5 unf. . Fom śānti, then various gifts.",
+          "certainty": "uncertain",
+          "evidence": "'ff. 1-5' is clear. 'unf.' looks like u-n-f followed by a dot. A further small dot follows before the next word. The next word is formed like 'Fom', and an accent over the following 's' gives 'śānti'. 'Four' is not secure."
+        },
+        {
+          "issue_id": "focus-0516-03",
+          "source_reading": "ff. 1-50, Ouner Mabārize Raghunātha Paṇḍita   ?t——",
+          "certainty": "uncertain",
+          "evidence": "The written forms look like 'Ouner' (= Owner?) and 'Mabārize/Mabarige'. 'Raghunātha' has a macron over the a. The cursive is ambiguous, so the names are kept tentative."
+        },
+        {
+          "issue_id": "focus-0516-04",
+          "source_reading": "Panḍita / Paṇḍita: at least one dot below the n/d junction, at about x 2684, y 4521; a second dot is not secure. The middle name is formed like 'Mabāri(z/g)e'.",
+          "certainty": "uncertain",
+          "evidence": "At native resolution a small dot sits under the 'nd' cluster. Whether there are two distinct dots cannot be securely determined."
+        },
+        {
+          "issue_id": "focus-0516-05",
+          "source_reading": "?",
+          "certainty": "uncertain",
+          "evidence": "The mark is at about x 2984-3010, y 1430-1525, roughly 200 px left of the gutter. On the fol. 259 image a '?' appears left of that page's gutter line at about the same height. It is probably the same physical mark on the 258b strip, not a separate mark on fol. 259. No connecting line is visible. Its relation to e. 48 (8) is unproven."
+        },
+        {
+          "issue_id": "focus-0516-06",
+          "source_reading": "The hook + dash at the same height as fol. 259 'V c. 386(4) Vaitaraṇīcaturdhāśānti'.",
+          "certainty": "probable",
+          "evidence": "The hook and dash are continuous in alignment across the gutter at about y 2305. The fol. 259 entry c. 386(4) is at the corresponding height. The 'śānti' content matches."
+        },
+        {
+          "issue_id": "focus-0516-07",
+          "source_reading": "unf. .",
+          "certainty": "probable",
+          "evidence": "A small second dot is visible after the full stop of 'unf.' and before 'Fom'. It may be a stray mark."
+        },
+        {
+          "issue_id": "focus-0516-08",
+          "source_reading": "Underdot(s) beneath the n/d of 'Paṇḍita'; the number is not securely determinable.",
+          "certainty": "uncertain",
+          "evidence": "See focus-0516-04."
+        },
+        {
+          "issue_id": "focus-0516-09",
+          "source_reading": "258b.",
+          "certainty": "probable",
+          "evidence": "In pencil, written diagonally: '258' with a small raised letter like 'b' and a dot below it."
+        },
+        {
+          "issue_id": "focus-0516-10",
+          "source_reading": "unf.",
+          "certainty": "probable",
+          "evidence": "The letters u-n-f followed by a full stop are reasonably clear, but the cursive could allow a similar abbreviation."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "ff. 1-5 unf. Four śānti, then various gifts.",
+          "after": "ff. 1-5 [unf.?] [Four?] śānti, then various gifts.",
+          "reason": "Uncertain readings made visible in the literal text. The first word is written like 'Fom'.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "Ink, single line on the ruled page at about y 2300.",
+            "No shelfmark or title appears with this note on this page.",
+            "At the right of the same line, an L-shaped hook mark (about x 3100-3160) and a short dash cross the gutter toward fol. 259."
+          ],
+          "after": [
+            "Ink, single line on the ruled page at about y 2300.",
+            "No shelfmark or title appears with this note on this page.",
+            "A possible second small dot follows 'unf.' (seen as 'unf. .'); it may be a stray mark.",
+            "At the right of the same line, an L-shaped hook mark (about x 3100-3160) lies left of the gutter, on this leaf. A short dash (about x 3240-3365) lies right of the gutter, on the fol. 259 strip."
+          ],
+          "reason": "Records the extra dot and the ownership of each part of the mark.",
+          "source_block_ids": [
+            "b002",
+            "b902"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff. 1-50, Owner Mahārāja Raghunātha Paṇḍita  ?t——",
+          "after": "ff. 1-50, Owner [Mahārāja?] [Raghunātha?] Paṇḍita  ?t——",
+          "reason": "The cursive name forms are not secure. 'Mahārāja' is written like 'Mabārize'.",
+          "source_block_ids": [
+            "b003",
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "annotations",
+          "before": [
+            "Ink, single line near the bottom of the page.",
+            "The 'd' in 'Paṇḍita' has an underdot.",
+            "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+            "'Owner …' records ownership. The person named is not an author."
+          ],
+          "after": [
+            "Ink, single line near the bottom of the page.",
+            "Dot(s) under the n/d junction of 'Paṇḍita'. Whether there is one underdot or two (ṇ and ḍ) is not securely determinable from the image.",
+            "After a gap comes '?t' followed by a horizontal line that runs across the gutter onto fol. 259.",
+            "'Owner …' records ownership. The person named is not an author."
+          ],
+          "reason": "The annotation overclaimed a single underdot.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 517,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "e. 48 (8) Vedoktaśivārcanapaddhati",
+              "evidence": "A similar '?' appears in the left margin of fol. 259 at roughly the same height. No link line was observed.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 517,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "e. 48 (8) Vedoktaśivārcanapaddhati",
+              "evidence": "The '?' seen at the left edge of the fol. 259 image lies left of that image's gutter line. It is probably this same physical mark on the 258b strip, not a second mark. No link line was observed, and the relation to e. 48 (8) rests only on height.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "Clarifies that the two '?' sightings are probably one physical mark.",
+          "source_block_ids": [
+            "b901"
+          ],
+          "certainty": "uncertain"
+        }
+      ],
+      "block_changes": [
+        {
+          "block_id": "b902",
+          "before_bbox": [
+            3095,
+            2280,
+            270,
+            60
+          ],
+          "after_bbox": [
+            3090,
+            2280,
+            80,
+            55
+          ],
+          "reason": "Restricted to the hook mark on the target leaf. The dash beyond the gutter (about x 3240-3365) is on the fol. 259 strip.",
+          "certainty": "probable"
+        }
+      ],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b9903",
+            "bbox": [
+              3235,
+              2295,
+              135,
+              25
+            ],
+            "kind_hint": "facing_page_fragment",
+            "anchor": "—",
+            "features": [
+              "ink dash right of the gutter rule",
+              "on the visible strip of fol. 259",
+              "continues the hook mark b902"
+            ]
+          },
+          "record": {
+            "id": "r9903",
+            "block_ids": [
+              "b9903"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "facing_page_fragment",
+            "literal_text": "—",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A short ink dash lies on the fol. 259 strip beyond the gutter. It is aligned with the hook b902 on this leaf. The fol. 259 image shows it as the dash beside the left-margin hook at c. 386(4)."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "The dash belongs to the facing page. Its attachment is not inferred here beyond the alignment."
+            ]
+          },
+          "reason": "After b902 was narrowed to the target-leaf hook, this facing-page fragment needs its own trace."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "'258b.' in pencil. The 'b' reading is probable."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The literal text now marks the uncertain readings."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Names marked tentative."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "'?t' is on this leaf. The line continues past the gutter at about x 3199 onto fol. 259, so the bbox extends beyond the leaf."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Isolated '?'. It is probably the same mark visible at the left edge of the fol. 259 image."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The hook is on the target leaf. The dash is on the facing strip (b9903)."
+        },
+        {
+          "block_id": "b9903",
+          "status": "facing_page_fragment",
+          "record_ids": [
+            "r9903"
+          ],
+          "finding": "Dash on the fol. 259 strip."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0516-02",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "'Fom'/'Four' and 'unf.' remain tentative.",
+          "next_check": "Compare with the same hand's 'Four' and 'unf.' elsewhere in the catalogue."
+        },
+        {
+          "issue_id": "focus-0516-04",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The underdot count and the 'Mahārāja' cursive reading are not resolved.",
+          "next_check": "Inspect at higher magnification."
+        },
+        {
+          "issue_id": "focus-0516-05",
+          "record_id": "r004",
+          "block_ids": [
+            "b901"
+          ],
+          "issue": "The attachment of the '?' to e. 48 (8) is unproven.",
+          "next_check": "Check whether other '?' marks in this margin relate to entries on the facing page."
+        },
+        {
+          "issue_id": "focus-0516-06",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b902"
+          ],
+          "issue": "The link to c. 386(4) is probable, not secure.",
+          "next_check": "Compare the extent '5' in the c. 386(4) entry with 'ff. 1-5'."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "f7af3eaf240eac22e14ec690a486bc8d82a626cb3a86f70d5ebc886d614f5ca2",
+      "bytes": 241988,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c7a6f0b81b3e231d05fa150b77681cee3fdc14be02e410ea58ea9b24bcc8a833",
+      "bytes": 305519,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2adee7f0b3e50710e275f4c2e44d386fa953596816ffd0a730252163c9c2a50c",
+      "bytes": 303348,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "01ab4be827361f86607cd31fcc0775e583030786f0618ebc89d19e5356db9673",
+      "bytes": 299403,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7810bbaf98bee413cf345a85e2aedce2947de1bfaa0d7f3f45256597baad8231",
+      "bytes": 274044,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "60a4d22e6e8f362f06db33e5a5a2e76a0cbbd160c6b80f7fb8b1a279a1b53d2f",
+      "bytes": 301198,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d58754d24c2432c1e8d10a4236d0856e29201f1c6ea7acfade660066246a95eb",
+      "bytes": 318596,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e89ae207-c299-4dd7-9625-7152c5ca47bd/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e1facfff0402005fea573d04e439517f85bb88f0448fcfdc2e44623c957bcd28",
+      "bytes": 273729,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 515,
+      "folio_label": "fol. 258",
+      "page_id": "e89ae207-c299-4dd7-9625-7152c5ca47bd",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6317fc56-545f-432d-85b9-b582f26edc2d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "708ba81bf8939851d15e4586761fcfab6b8a42f14290b8314670303f32ec7e7c",
+      "bytes": 254527,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 517,
+      "folio_label": "fol. 259",
+      "page_id": "6317fc56-545f-432d-85b9-b582f26edc2d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6317fc56-545f-432d-85b9-b582f26edc2d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0a33869fc2a814183770da3aad0a1175bb4b01ef8c47a7d1d7abe8a971d8bc64",
+      "bytes": 408072,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 517,
+      "folio_label": "fol. 259",
+      "page_id": "6317fc56-545f-432d-85b9-b582f26edc2d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6317fc56-545f-432d-85b9-b582f26edc2d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "001f1be236ea2315b58fd45e0dcab2f43a2dffe5f6666048dd5e52fa280ccb36",
+      "bytes": 434634,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 517,
+      "folio_label": "fol. 259",
+      "page_id": "6317fc56-545f-432d-85b9-b582f26edc2d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3a1fecf2-219d-4580-a92d-503d4fa43b2e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "f7af3eaf240eac22e14ec690a486bc8d82a626cb3a86f70d5ebc886d614f5ca2",
+      "bytes": 241988,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c7a6f0b81b3e231d05fa150b77681cee3fdc14be02e410ea58ea9b24bcc8a833",
+      "bytes": 305519,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2adee7f0b3e50710e275f4c2e44d386fa953596816ffd0a730252163c9c2a50c",
+      "bytes": 303348,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "01ab4be827361f86607cd31fcc0775e583030786f0618ebc89d19e5356db9673",
+      "bytes": 299403,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7810bbaf98bee413cf345a85e2aedce2947de1bfaa0d7f3f45256597baad8231",
+      "bytes": 274044,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "60a4d22e6e8f362f06db33e5a5a2e76a0cbbd160c6b80f7fb8b1a279a1b53d2f",
+      "bytes": 301198,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3a1fecf2-219d-4580-a92d-503d4fa43b2e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d58754d24c2432c1e8d10a4236d0856e29201f1c6ea7acfade660066246a95eb",
+      "bytes": 318596,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e89ae207-c299-4dd7-9625-7152c5ca47bd/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e1facfff0402005fea573d04e439517f85bb88f0448fcfdc2e44623c957bcd28",
+      "bytes": 273729,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 515,
+      "folio_label": "fol. 258",
+      "page_id": "e89ae207-c299-4dd7-9625-7152c5ca47bd",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6317fc56-545f-432d-85b9-b582f26edc2d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "708ba81bf8939851d15e4586761fcfab6b8a42f14290b8314670303f32ec7e7c",
+      "bytes": 254527,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 517,
+      "folio_label": "fol. 259",
+      "page_id": "6317fc56-545f-432d-85b9-b582f26edc2d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

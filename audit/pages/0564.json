@@ -1,0 +1,876 @@
+{
+  "source_order": 564,
+  "folio_label": "fol. 282b",
+  "page_id": "0a92e4d9-7db1-4514-a498-c12308d61eb2",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "282b",
+    "principal_page_bbox": [
+      300,
+      300,
+      3560,
+      4640
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          360,
+          160,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "282b",
+        "features": [
+          "top-left corner",
+          "superscript 'b' after 282, followed by a dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          410,
+          2760,
+          2470,
+          90
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "by Sadānanda Svāmin on order of Mahāmahendra Mahārāṇī ... ff. 1-46, in 20 kiraṇas.",
+        "features": [
+          "single line",
+          "ink",
+          "left-pointing arrow to its right at about x 3020-3115, leading toward the gutter and facing page",
+          "appears to be an addition for an entry on the facing page; no heading on this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          440,
+          3000,
+          1260,
+          90
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "ff. 1-2. paper dated 1903, same hand as d 80(5).",
+        "features": [
+          "single line",
+          "ink",
+          "date 1903",
+          "left-pointing arrow to its right at about x 2975-3115"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          790,
+          3710,
+          2140,
+          100
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "ff. 1-38 incl. & 35 unnumbered ff., S. 1811 in two hands. I.O. 4785. Owner [Kalanuṃkunda?]",
+        "features": [
+          "single line",
+          "ink",
+          "date S. 1811",
+          "I.O. number",
+          "left-pointing arrow to its right at about x 3070-3150"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          780,
+          665,
+          30,
+          25
+        ],
+        "description": "small ink dot or speck in upper area, not text"
+      },
+      {
+        "bbox": [
+          395,
+          3520,
+          50,
+          170
+        ],
+        "description": "cluster of small ink dots or specks in the left margin area, not legible text"
+      },
+      {
+        "bbox": [
+          340,
+          3905,
+          110,
+          40
+        ],
+        "description": "short stray stroke near the left edge, not legible text"
+      },
+      {
+        "bbox": [
+          3020,
+          4840,
+          30,
+          30
+        ],
+        "description": "ink dot near the bottom right"
+      }
+    ],
+    "boundary_notes": [
+      "The right edge beyond the gutter at about x 3150 shows the left margin of the facing fol. 283. The fragments 'd.', 'f.', 'c.', '√d.' and the pencil 'see s. Sk...' belong to that page. They are not transcribed as target blocks.",
+      "The three notes have left-pointing arrows that run toward the gutter. They appear to belong to entries on the facing fol. 283, possibly the entries marked with arrows such as c. 265(4), d. 80(8) and d. 101. This attachment is inferred and not certain.",
+      "Faint show-through of writing from the reverse side covers the ruled lines throughout. It is not treated as text on this page."
+    ],
+    "uncertainties": [
+      "Readings of the personal names in b002 are uncertain: 'Mahāmahendra', 'Mahārāṇī', 'Śrīsvarūpa Siṃha'.",
+      "In b004, the readings 'incl. &' and the owner's name 'Kalanuṃkunda' are uncertain.",
+      "In b003, the reading 'dated' is uncertain; it may be 'dated' or 'later'."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "282b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "282b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner; the 'b' is written superscript after 282 and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_addition_for_facing_page_entry",
+        "literal_text": "by Sadānanda Svāmin on order of Mahāmahendra Mahārāṇī Śrīsvarūpa Siṃha, ff. 1-46, in 20 kiraṇas.",
+        "fields": {
+          "extent": "ff. 1-46, in 20 kiraṇas"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line.",
+          "A left-pointing arrow is drawn to the right of the text at about x 3020-3115. It points from the gutter side toward the note.",
+          "On facing fol. 283 the same line carries a dash and the tick-marked shelfmark 'c. 265(4)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 565,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 265(4) Śaivasudhākara ... Rules for Śivaworship",
+            "evidence": "The arrow and dash line up horizontally (y ≈ 2770-2850) with the arrow-marked entry c. 265(4) in the left margin of the facing page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The personal-name readings 'Mahāmahendra', 'Mahārāṇī' and 'Śrīsvarūpa Siṃha' are uncertain. The last word may read 'Sinha'.",
+          "'on order' is a cursive reading and is uncertain.",
+          "'Svāmin' could be read as 'Svāmin'/'Svāmi'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_addition_for_facing_page_entry",
+        "literal_text": "ff. 1-2. paper [dated?] 1903, same hand as d 80(5).",
+        "fields": {
+          "extent": "ff. 1-2",
+          "date": "1903"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line.",
+          "A left-pointing arrow is drawn to the right of the text at about x 2975-3115.",
+          "On facing fol. 283 the same line carries a dash and the tick-marked shelfmark 'd. 80(8)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 565,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d. 80(8) Śaucavidhi... By Kātyāyana",
+            "evidence": "The arrow lines up horizontally (y ≈ 3000-3090) with the arrow-marked entry d. 80(8) on the facing page. The internal reference 'd 80(5)' belongs to the same series.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The word read as 'dated' may instead be 'late' or 'later'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_addition_for_facing_page_entry",
+        "literal_text": "ff. 1-38 [incl.?] [&?] 35 unnumbered ff., S. 1811 in two hands. I.O. 4785. Owner [Bālamukunda?]",
+        "fields": {
+          "extent": "ff. 1-38 [incl.?] [&?] 35 unnumbered ff.",
+          "date": "S. 1811"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line.",
+          "A left-pointing arrow is drawn to the right of the text at about x 3070-3150.",
+          "On facing fol. 283 the same line carries a dash and the tick-marked shelfmark 'd. 101'.",
+          "'S. 1811' is kept as written and has not been converted."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 565,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d. 101 Śaunakakārikā ... Ritual compendium",
+            "evidence": "The arrow lines up horizontally (y ≈ 3710-3800) with the arrow-marked entry d. 101 on the facing page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'incl.' and '&' are uncertain.",
+          "The owner's name is very uncertain. It may be read as 'Bālamukunda' or 'Kalanuṃkunda'.",
+          "'Owner' may be followed by a colon or semicolon."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrowed addition, probably for c. 265(4) on fol. 283."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrowed addition, probably for d. 80(8) on fol. 283."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrowed addition, probably for d. 101 on fol. 283."
+      }
+    ],
+    "page_annotations": [
+      "This verso is otherwise blank apart from ruled lines and show-through from the reverse side. The show-through is not transcribed.",
+      "Small ink specks and one stray stroke in the upper area, the left margin and the bottom right are not text.",
+      "The marks beyond the gutter belong to facing fol. 283 and are not transcribed here. They include 'd.', 'f.', 'c.', ticks and the pencil 'see s. Sk...'."
+    ],
+    "unresolved_relationships": [
+      "All three notes are linked to fol. 283 entries only by arrow alignment. The target entries are probable, not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '282' with superscript b and a following dot, top left. It is transcribed correctly."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single ink line at y≈2760-2850 ending 'in 20 kiraṇas.', followed by a left-pointing arrow at about x 3020-3115. The text is fully represented. The personal names remain uncertain, as recorded."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A single ink line followed by an arrow. The word after 'paper' looks shorter than 'dated', closer to 'late'. The candidate's '[dated?]' presents the less likely reading first, so a change is suggested and the reading stays uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A single ink line followed by an arrow. 'S. 1811' and 'I.O. 4785' are clearly legible. The owner's name remains uncertain. It is not a secure 'Bālamukunda' or 'Kalanuṃkunda'. The fragment at the left edge of the facing-page image at the same height is this line's ending seen across the opening, not a separate block."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff. 1-2. paper [dated?] 1903, same hand as d 80(5).",
+        "after": "ff. 1-2. paper [late?] 1903, same hand as d 80(5).",
+        "reason": "In the native tile the word after 'paper' is a short cursive form, roughly 'late' or 'lati'. It lacks the extra letters expected for 'dated'. The reading remains uncertain.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The word read as 'dated' may instead be 'late' or 'later'."
+        ],
+        "after": [
+          "The word after 'paper' probably reads 'late'. It may possibly be 'later' or 'dated'. The reading is not secure."
+        ],
+        "reason": "This makes the uncertainty note match the revised bracketed reading. It does not resolve the reading.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The owner's name after 'Owner' is unresolved. The candidate gives [Bālamukunda?] and the inventory gives [Kalanuṃkunda?]. The initial letter could be a B or a K.",
+        "next_check": "Compare the letter forms with the capital B and K elsewhere in this hand at higher magnification."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings are cursive and unresolved: 'on order', 'Mahāmahendra', 'Mahārāṇī', 'Śrīsvarūpa' and 'Siṃha/Sinha'.",
+        "next_check": "Check these names against the corresponding entry for c. 265(4) wherever else this hand records the same patron."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "issue": "Each note is attached to a facing-page entry (c. 265(4), d. 80(8), d. 101) only by an arrow and dash aligned on the same horizontal line. The alignment is consistent, with the facing entries at about y 2780, 3020 and 3740, but it remains an inference.",
+        "next_check": "Check the facing fol. 283 entries for any matching gap or omission in their extent and date data."
+      }
+    ],
+    "boundary_review": "Beyond the gutter at about x 3150 the left margin of fol. 283 is visible. It shows the letters 'd.', 'f.', 'd.', 'd.', 'c.' (cancelled) and the pencil 'see s. Sk...', then 'd.', 'e.', 'c.', 'd.', then the ticked '√c.' and '√d.' with dashes, '√d. 10..', '√d.', a cancelled 'c.' and 'd. 9..'. These belong to the facing page and are correctly excluded. The arrows and dashes that link the notes to that page sit on or near the gutter boundary. They are recorded as annotations, not as text. No cross-page ditto relationships are visible.",
+    "region_review": {
+      "top": "Only the folio number and one ink speck at about (780,665). Show-through of writing from the reverse side is not text.",
+      "middle": "b002 and b003 at y≈2760-3090, each with an arrow. Otherwise ruled lines and show-through only.",
+      "bottom": "b004 at y≈3710-3810. A single ink dot near (3035,4840). No bottom note.",
+      "left_margin": "A cluster of dots at about x 400-440, y 3530-3680, and a short stray stroke at about (340-440,3910-3940). Neither is legible text.",
+      "right_margin": "Arrows and dashes run toward the gutter. The facing-page margin text is excluded.",
+      "interlinear": "No interlinear additions or cancellations are found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        360,
+        160,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "282b",
+      "features": [
+        "top-left corner",
+        "superscript 'b' after 282, followed by a dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        410,
+        2760,
+        2470,
+        90
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "by Sadānanda Svāmin on order of Mahāmahendra Mahārāṇī ... ff. 1-46, in 20 kiraṇas.",
+      "features": [
+        "single line",
+        "ink",
+        "left-pointing arrow to its right at about x 3020-3115, leading toward the gutter and facing page",
+        "appears to be an addition for an entry on the facing page; no heading on this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        440,
+        3000,
+        1260,
+        90
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "ff. 1-2. paper dated 1903, same hand as d 80(5).",
+      "features": [
+        "single line",
+        "ink",
+        "date 1903",
+        "left-pointing arrow to its right at about x 2975-3115"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        790,
+        3710,
+        2140,
+        100
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "ff. 1-38 incl. & 35 unnumbered ff., S. 1811 in two hands. I.O. 4785. Owner [Kalanuṃkunda?]",
+      "features": [
+        "single line",
+        "ink",
+        "date S. 1811",
+        "I.O. number",
+        "left-pointing arrow to its right at about x 3070-3150"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "282b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner; the 'b' is written superscript after 282 and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0564-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_addition_for_facing_page_entry",
+      "literal_text": "by Sadānanda Svāmin on order of Mahāmahendra Mahārāṇī Śrīsvarūpa Siṃha, ff. 1-46, in 20 kiraṇas.",
+      "fields": {
+        "extent": "ff. 1-46, in 20 kiraṇas"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line.",
+        "A left-pointing arrow is drawn to the right of the text at about x 3020-3115. It points from the gutter side toward the note.",
+        "On facing fol. 283 the same line carries a dash and the tick-marked shelfmark 'c. 265(4)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 565,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 265(4) Śaivasudhākara ... Rules for Śivaworship",
+          "evidence": "The arrow and dash line up horizontally (y ≈ 2770-2850) with the arrow-marked entry c. 265(4) in the left margin of the facing page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The personal-name readings 'Mahāmahendra', 'Mahārāṇī' and 'Śrīsvarūpa Siṃha' are uncertain. The last word may read 'Sinha'.",
+        "'on order' is a cursive reading and is uncertain.",
+        "'Svāmin' could be read as 'Svāmin'/'Svāmi'."
+      ],
+      "stable_id": "css-prod-0564-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_addition_for_facing_page_entry",
+      "literal_text": "ff. 1-2. paper [dated?] 1903, same hand as d 80(5).",
+      "fields": {
+        "extent": "ff. 1-2",
+        "date": "1903"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line.",
+        "A left-pointing arrow is drawn to the right of the text at about x 2975-3115.",
+        "On facing fol. 283 the same line carries a dash and the tick-marked shelfmark 'd. 80(8)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 565,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d. 80(8) Śaucavidhi... By Kātyāyana",
+          "evidence": "The arrow lines up horizontally (y ≈ 3000-3090) with the arrow-marked entry d. 80(8) on the facing page. The internal reference 'd 80(5)' belongs to the same series.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The word read as 'dated' may instead be 'late' or 'later'."
+      ],
+      "stable_id": "css-prod-0564-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_addition_for_facing_page_entry",
+      "literal_text": "ff. 1-38 [incl.?] [&?] 35 unnumbered ff., S. 1811 in two hands. I.O. 4785. Owner [Bālamukunda?]",
+      "fields": {
+        "extent": "ff. 1-38 [incl.?] [&?] 35 unnumbered ff.",
+        "date": "S. 1811"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line.",
+        "A left-pointing arrow is drawn to the right of the text at about x 3070-3150.",
+        "On facing fol. 283 the same line carries a dash and the tick-marked shelfmark 'd. 101'.",
+        "'S. 1811' is kept as written and has not been converted."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 565,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d. 101 Śaunakakārikā ... Ritual compendium",
+          "evidence": "The arrow lines up horizontally (y ≈ 3710-3800) with the arrow-marked entry d. 101 on the facing page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'incl.' and '&' are uncertain.",
+        "The owner's name is very uncertain. It may be read as 'Bālamukunda' or 'Kalanuṃkunda'.",
+        "'Owner' may be followed by a colon or semicolon."
+      ],
+      "stable_id": "css-prod-0564-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 1-2. paper [dated?] 1903, same hand as d 80(5).",
+      "after": "ff. 1-2. paper [late?] 1903, same hand as d 80(5).",
+      "reason": "In the native tile the word after 'paper' is a short cursive form, roughly 'late' or 'lati'. It lacks the extra letters expected for 'dated'. The reading remains uncertain.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The word read as 'dated' may instead be 'late' or 'later'."
+      ],
+      "after": [
+        "The word after 'paper' probably reads 'late'. It may possibly be 'later' or 'dated'. The reading is not secure."
+      ],
+      "reason": "This makes the uncertainty note match the revised bracketed reading. It does not resolve the reading.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0a92e4d9-7db1-4514-a498-c12308d61eb2.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a92e4d9-7db1-4514-a498-c12308d61eb2/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "1f69baef6c643765040c3cc627883462f98b957eabc885430b6b7dbe07d2c99e",
+      "bytes": 268982,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a92e4d9-7db1-4514-a498-c12308d61eb2/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e8a2d4bf57dbf7e2d5fc45b347bcf900ef34106dde54b6ae047fd6c10b6424d9",
+      "bytes": 314924,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a92e4d9-7db1-4514-a498-c12308d61eb2/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a04a1fd5a38ebb24a2923424b635ab2627258b73c02274564be1c29a6820c342",
+      "bytes": 318842,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a92e4d9-7db1-4514-a498-c12308d61eb2/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8ea5d75eacae19fc4d00850aa28aaf805961b974e421bfbbe8286ff1feb7dfad",
+      "bytes": 341176,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a92e4d9-7db1-4514-a498-c12308d61eb2/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c92b444b12db5040816a29fb9b385668459171fe6be12bf13b2a634362050b39",
+      "bytes": 312623,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a92e4d9-7db1-4514-a498-c12308d61eb2/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9c8f0ab85cdfcddca33b66ef9977f218d6fc6b29f699755fd890f4d7f47a96a6",
+      "bytes": 333071,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a92e4d9-7db1-4514-a498-c12308d61eb2/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1467eeace6411186d3579c56f6794228ccff14a6db045490b613c63a5fccad9c",
+      "bytes": 341349,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bb146daf-9cbe-4da6-ac74-789ed4eda468/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f6cd1868347618eb66896a0bb7631472e76a34ef1f0383d5c3a8b6429bd0ce9b",
+      "bytes": 285086,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 563,
+      "folio_label": "fol. 282",
+      "page_id": "bb146daf-9cbe-4da6-ac74-789ed4eda468",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d95c420e-4fcb-42b3-af3f-5640b6a2e532/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ee7b76bcc7f50ed79bd57bae4402ce5ae2467806398c66d8a2579fa367db9806",
+      "bytes": 304385,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 565,
+      "folio_label": "fol. 283",
+      "page_id": "d95c420e-4fcb-42b3-af3f-5640b6a2e532",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

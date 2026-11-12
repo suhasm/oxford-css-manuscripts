@@ -1,0 +1,909 @@
+{
+  "source_order": 254,
+  "folio_label": "fol. 127b",
+  "page_id": "a7c1f6dc-de73-4079-872e-9befdb85e06d",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "127b",
+    "principal_page_bbox": [
+      285,
+      265,
+      2885,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          340,
+          145,
+          95
+        ],
+        "kind_hint": "page_number",
+        "anchor": "127b",
+        "features": [
+          "ink",
+          "top left corner",
+          "the final 'b' is written superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          370,
+          1970,
+          2790,
+          160
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "a made up MS., containing (1) ff. 41-79, i, 71-145; ... (7) 33 misc. ff. from various sargas.",
+        "features": [
+          "two handwritten lines in small cursive",
+          "numbered list (1)-(7) of folio ranges",
+          "contains a date reading 'dated Śāke 1791, S. 1926' [reading?]",
+          "the first line runs to the right edge near the gutter",
+          "an ink arrow at about [3075,2040,90,25] points left toward this note from the facing page (fol. 128 entry c. 173)",
+          "the facing-page line continues across the gutter",
+          "appears to be an addition linked to a fol. 128 entry, not an independent holding on this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          400,
+          2390,
+          795,
+          110
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "ff. 1-101, sargas i-xi, text only",
+        "features": [
+          "single line, ink cursive",
+          "an arrow at about [3040,2410,125,25] points left from the facing page (fol. 128 entry c. 171)",
+          "linked to a facing-page entry"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          455,
+          3930,
+          2015,
+          120
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "Text + vyākhyā [by Nārāyaṇa], ff. 1-11, inc., Śataka i only. I.O. 2129.",
+        "features": [
+          "single line, ink",
+          "square brackets around the attribution",
+          "an arrow at about [3015,3985,150,25] points left from the facing page (fol. 128 entry c. 202(7))",
+          "the 'I.O. 2129' reading is approximate"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          450,
+          810,
+          90,
+          80
+        ],
+        "description": "small cluster of ink specks or dots, upper left; not text"
+      },
+      {
+        "bbox": [
+          770,
+          1790,
+          50,
+          30
+        ],
+        "description": "small ink speck; not text"
+      },
+      {
+        "bbox": [
+          3155,
+          660,
+          20,
+          45
+        ],
+        "description": "small stroke at the gutter edge near the top ruled line"
+      },
+      {
+        "bbox": [
+          300,
+          500,
+          2850,
+          4300
+        ],
+        "description": "faint mirror-image show-through of writing from the reverse side, across the whole page; not target-page text"
+      }
+    ],
+    "boundary_notes": [
+      "Right of the gutter (x > ~3200), letters such as 'd.88', '√ d. 1', 'd.', 'a/' and ticks belong to the facing page, fol. 128. They are not transcribed as target blocks.",
+      "The arrows begin on the facing page and cross the gutter. The three notes on this page appear to be additions to the fol. 128 entries c. 173, c. 171 and c. 202(7), based on arrow alignment. The parent attribution is inferred from position only."
+    ],
+    "uncertainties": [
+      "Readings of the small cursive in b002 are tentative, especially the roman numerals, the folio ranges and 'Śāke 1791, S. 1926'.",
+      "In b004, 'Śataka i only' and 'I.O. 2129' are tentative readings.",
+      "The show-through text cannot be distinguished letter by letter. It is treated as not belonging to this page."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "127b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "127b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink page number at the top left corner. The final 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "facing_page_addition",
+        "literal_text": "a made up MS., containing (1) ff. 41-79, i, 71-145; (2) ff. 1-43, ii, 1-109: (3) ff. 1-60, iii, 1-134; (4) ff. 1-33, vi, 1-112, dated Śāke 1791, S. 1926: (5) ff. 1-32, vi, 1-62:\n(6) ff. 1-46, viii, 1-110: (7) 33 misc. ff. from various sargas.",
+        "fields": {
+          "date": "Śāke 1791, S. 1926",
+          "extent": "(1) ff. 41-79, i, 71-145; (2) ff. 1-43, ii, 1-109: (3) ff. 1-60, iii, 1-134; (4) ff. 1-33, vi, 1-112 ... (5) ff. 1-32, vi, 1-62: (6) ff. 1-46, viii, 1-110: (7) 33 misc. ff. from various sargas"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two lines in small ink cursive. The first line runs almost to the gutter.",
+          "An ink arrow at about [3040,2045,130,25] points left at this note. Its stroke continues across the gutter from the fol. 128 entry at shelfmark 'c. 173'.",
+          "The fol. 128 image also shows the end of the first line, '(5) ff 1-32, vi, 1-62:', in its left margin. That is the same writing seen across the spread, not a separate note."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_entry",
+            "value": "fol. 128 'c. 173' (——2—— + Ṭ. by Bhagīratha), under Naiṣadhacarita",
+            "source_page_order": 255,
+            "source_block_id": null,
+            "evidence": "The arrow is aligned with the c. 173 line across the gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 255,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 173",
+            "evidence": "A leftward arrow runs across the gutter from the c. 173 line to this note.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The small cursive is hard to read. The following readings are tentative: '1-109' (possibly '1-104'), '1-134' (possibly '1-136'), the roman numerals 'vi' in items (4) and (5) (possibly 'iv' and 'v'), and 'S. 1926' (possibly 'S. 1916')."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "facing_page_addition",
+        "literal_text": "ff. 1-101, sargas i-xi, text only",
+        "fields": {
+          "extent": "ff. 1-101, sargas i-xi"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line.",
+          "An arrow at about [3040,2420,130,25] points left at this note from the fol. 128 'c. 171' line."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_entry",
+            "value": "fol. 128 'c. 171' (——2—— Pūrvārdha only), under Naiṣadhacarita",
+            "source_page_order": 255,
+            "source_block_id": null,
+            "evidence": "The arrow is aligned with the c. 171 line.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 255,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 171",
+            "evidence": "A leftward arrow runs across the gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'sargas' and 'i-xi' are tentative readings. The first numeral could be '1' or 'i'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "facing_page_addition",
+        "literal_text": "Text + vyākhyā [by Nārāyaṇa], ff. 1-11, inc., Stabaka [reading?] i only. I.O. 2129.",
+        "fields": {
+          "author": "[by Nārāyaṇa]",
+          "extent": "ff. 1-11, inc., Stabaka [reading?] i only",
+          "source": "I.O. 2129"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line.",
+          "The attribution is written in square brackets in the source.",
+          "An arrow at about [3015,3985,150,25] points left at this note from the fol. 128 'c. 202(7)' line."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_entry",
+            "value": "fol. 128 'c. 202(7)' (——1—— . Stabaka 1 only), under Nyāyakusumāñjali",
+            "source_page_order": 255,
+            "source_block_id": null,
+            "evidence": "The arrow is aligned with the c. 202(7) line.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 255,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 202(7)",
+            "evidence": "A leftward arrow runs across the gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The word before 'i only' looks like 'Stabaka' or 'Statake'. The inventory read 'Śataka'.",
+          "'I.O. 2129' is read fairly clearly, but the 'O' is uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Addition attached by arrow to the facing-page entry c. 173."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Addition attached by arrow to the facing-page entry c. 171."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Addition attached by arrow to the facing-page entry c. 202(7)."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper. Faint mirror-image show-through from the reverse side is visible and is not transcribed.",
+      "Small ink specks appear near [450,810] and [770,1790]. They are not text.",
+      "Marks to the right of the gutter ('d.88', '√ d. 1', 'd.', 'ā/', 'a/', ticks) belong to fol. 128 and are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The parent attributions of all three notes rest on arrow alignment across the gutter. They are probable, not secure."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Ink page number '127' with a superscript 'b' at the top left. The candidate's reading and annotation are correct."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Two-line note in small cursive, item lists (1) to (7). The wording matches the image. One date digit is not secure: the image reads 'S. 1916' or 'S. 1926', and the literal text and date field state '1926' without a marker. In items (3) and (5) the source appears to write 'ff1-60' and 'ff1-32' with no stop. That is a minor punctuation point and is left as is. Both items (4) and (5) read 'vi' as written. They are not corrected."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Single line 'ff. 1-101, sargas i-xi, text only'. The candidate's tentative readings are appropriate. The leftward arrow at about canvas x 3045-3165, y 2428 is aligned with c. 171 on fol. 128."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Single line. The word before 'i only' reads 'Stabaka', matching 'Stabaka 1 only' on the facing fol. 128 line. The inventory's 'Śataka' is not supported. The candidate keeps a [reading?] marker, which is appropriate. 'I.O. 2129' is legible; the second letter could be read as '0'."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "a made up MS., containing (1) ff. 41-79, i, 71-145; (2) ff. 1-43, ii, 1-109: (3) ff. 1-60, iii, 1-134; (4) ff. 1-33, vi, 1-112, dated Śāke 1791, S. 1926: (5) ff. 1-32, vi, 1-62:\n(6) ff. 1-46, viii, 1-110: (7) 33 misc. ff. from various sargas.",
+        "after": "a made up MS., containing (1) ff. 41-79, i, 71-145; (2) ff. 1-43, ii, 1-109: (3) ff. 1-60, iii, 1-134; (4) ff. 1-33, vi, 1-112, dated Śāke 1791, S. 1926 [reading?]: (5) ff. 1-32, vi, 1-62:\n(6) ff. 1-46, viii, 1-110: (7) 33 misc. ff. from various sargas.",
+        "reason": "The third digit of the Saṃvat year is ambiguous at native resolution and could be '1' or '2'. The literal text should not present '1926' as certain. A date must not be resolved by calculation from the Śāke year.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "fields.date",
+        "before": "Śāke 1791, S. 1926",
+        "after": "Śāke 1791, S. 1926 [reading?]",
+        "reason": "This keeps the field consistent with the uncertain digit in the source.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings are not secure: 'S. 1926' versus 'S. 1916', '1-109' versus '1-104', '1-134' versus '1-136', and the numerals 'vi' in items (4) and (5).",
+        "next_check": "Examine a higher-resolution or enhanced image of canvas region x 2700-3100, y 1990-2050 for the date, and the earlier part of that line for the folio ranges."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "issue": "The parent attachments to fol. 128 entries c. 173, c. 171 and c. 202(7) rest on arrow alignment across the gutter. Each arrow has an arrowhead segment on this page and a separate dash on the facing page.",
+        "next_check": "Confirm the arrow continuity in an image of the full spread at native resolution."
+      }
+    ],
+    "boundary_review": "The gutter lies at about canvas x 3170-3210. Everything to the right belongs to fol. 128 and is not transcribed here. That includes 'd.88', '√ d. 1', 'd.', 'ā/', 'a/', ticks, the X mark, the arrow tail dashes and the overlapping repeat of '(5) ff1-32, vi, 1-62:' visible on the fol. 128 image. No fragment of fol. 127 appears. The three notes on this page are additions linked to fol. 128 entries, not independent holdings.",
+    "region_review": {
+      "top": "Page number '127b' only. The ruled lines carry faint show-through, which is not text.",
+      "middle": "b002 and b003 are present, each with a leftward arrow near the gutter. There are small specks near canvas [450,810] and [770,1790].",
+      "bottom": "b004 and its arrow near y 4000. Below that there is only faint show-through and a speck; no bottom note.",
+      "left_margin": "No writing.",
+      "right_margin": "Three arrowheads near the gutter, and a small stroke near [3155,660] that is not text. The text beyond the gutter belongs to fol. 128.",
+      "interlinear": "No interlinear additions or cancellations are visible on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        340,
+        145,
+        95
+      ],
+      "kind_hint": "page_number",
+      "anchor": "127b",
+      "features": [
+        "ink",
+        "top left corner",
+        "the final 'b' is written superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        370,
+        1970,
+        2790,
+        160
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "a made up MS., containing (1) ff. 41-79, i, 71-145; ... (7) 33 misc. ff. from various sargas.",
+      "features": [
+        "two handwritten lines in small cursive",
+        "numbered list (1)-(7) of folio ranges",
+        "contains a date reading 'dated Śāke 1791, S. 1926' [reading?]",
+        "the first line runs to the right edge near the gutter",
+        "an ink arrow at about [3075,2040,90,25] points left toward this note from the facing page (fol. 128 entry c. 173)",
+        "the facing-page line continues across the gutter",
+        "appears to be an addition linked to a fol. 128 entry, not an independent holding on this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        400,
+        2390,
+        795,
+        110
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "ff. 1-101, sargas i-xi, text only",
+      "features": [
+        "single line, ink cursive",
+        "an arrow at about [3040,2410,125,25] points left from the facing page (fol. 128 entry c. 171)",
+        "linked to a facing-page entry"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        455,
+        3930,
+        2015,
+        120
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "Text + vyākhyā [by Nārāyaṇa], ff. 1-11, inc., Śataka i only. I.O. 2129.",
+      "features": [
+        "single line, ink",
+        "square brackets around the attribution",
+        "an arrow at about [3015,3985,150,25] points left from the facing page (fol. 128 entry c. 202(7))",
+        "the 'I.O. 2129' reading is approximate"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "127b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink page number at the top left corner. The final 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0254-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "facing_page_addition",
+      "literal_text": "a made up MS., containing (1) ff. 41-79, i, 71-145; (2) ff. 1-43, ii, 1-109: (3) ff. 1-60, iii, 1-134; (4) ff. 1-33, vi, 1-112, dated Śāke 1791, S. 1926: (5) ff. 1-32, vi, 1-62:\n(6) ff. 1-46, viii, 1-110: (7) 33 misc. ff. from various sargas.",
+      "fields": {
+        "date": "Śāke 1791, S. 1926",
+        "extent": "(1) ff. 41-79, i, 71-145; (2) ff. 1-43, ii, 1-109: (3) ff. 1-60, iii, 1-134; (4) ff. 1-33, vi, 1-112 ... (5) ff. 1-32, vi, 1-62: (6) ff. 1-46, viii, 1-110: (7) 33 misc. ff. from various sargas"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two lines in small ink cursive. The first line runs almost to the gutter.",
+        "An ink arrow at about [3040,2045,130,25] points left at this note. Its stroke continues across the gutter from the fol. 128 entry at shelfmark 'c. 173'.",
+        "The fol. 128 image also shows the end of the first line, '(5) ff 1-32, vi, 1-62:', in its left margin. That is the same writing seen across the spread, not a separate note."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_entry",
+          "value": "fol. 128 'c. 173' (——2—— + Ṭ. by Bhagīratha), under Naiṣadhacarita",
+          "source_page_order": 255,
+          "source_block_id": null,
+          "evidence": "The arrow is aligned with the c. 173 line across the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 255,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 173",
+          "evidence": "A leftward arrow runs across the gutter from the c. 173 line to this note.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The small cursive is hard to read. The following readings are tentative: '1-109' (possibly '1-104'), '1-134' (possibly '1-136'), the roman numerals 'vi' in items (4) and (5) (possibly 'iv' and 'v'), and 'S. 1926' (possibly 'S. 1916')."
+      ],
+      "stable_id": "css-prod-0254-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "facing_page_addition",
+      "literal_text": "ff. 1-101, sargas i-xi, text only",
+      "fields": {
+        "extent": "ff. 1-101, sargas i-xi"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line.",
+        "An arrow at about [3040,2420,130,25] points left at this note from the fol. 128 'c. 171' line."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_entry",
+          "value": "fol. 128 'c. 171' (——2—— Pūrvārdha only), under Naiṣadhacarita",
+          "source_page_order": 255,
+          "source_block_id": null,
+          "evidence": "The arrow is aligned with the c. 171 line.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 255,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 171",
+          "evidence": "A leftward arrow runs across the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'sargas' and 'i-xi' are tentative readings. The first numeral could be '1' or 'i'."
+      ],
+      "stable_id": "css-prod-0254-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "facing_page_addition",
+      "literal_text": "Text + vyākhyā [by Nārāyaṇa], ff. 1-11, inc., Stabaka [reading?] i only. I.O. 2129.",
+      "fields": {
+        "author": "[by Nārāyaṇa]",
+        "extent": "ff. 1-11, inc., Stabaka [reading?] i only",
+        "source": "I.O. 2129"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line.",
+        "The attribution is written in square brackets in the source.",
+        "An arrow at about [3015,3985,150,25] points left at this note from the fol. 128 'c. 202(7)' line."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_entry",
+          "value": "fol. 128 'c. 202(7)' (——1—— . Stabaka 1 only), under Nyāyakusumāñjali",
+          "source_page_order": 255,
+          "source_block_id": null,
+          "evidence": "The arrow is aligned with the c. 202(7) line.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 255,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 202(7)",
+          "evidence": "A leftward arrow runs across the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The word before 'i only' looks like 'Stabaka' or 'Statake'. The inventory read 'Śataka'.",
+        "'I.O. 2129' is read fairly clearly, but the 'O' is uncertain."
+      ],
+      "stable_id": "css-prod-0254-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "a made up MS., containing (1) ff. 41-79, i, 71-145; (2) ff. 1-43, ii, 1-109: (3) ff. 1-60, iii, 1-134; (4) ff. 1-33, vi, 1-112, dated Śāke 1791, S. 1926: (5) ff. 1-32, vi, 1-62:\n(6) ff. 1-46, viii, 1-110: (7) 33 misc. ff. from various sargas.",
+      "after": "a made up MS., containing (1) ff. 41-79, i, 71-145; (2) ff. 1-43, ii, 1-109: (3) ff. 1-60, iii, 1-134; (4) ff. 1-33, vi, 1-112, dated Śāke 1791, S. 1926 [reading?]: (5) ff. 1-32, vi, 1-62:\n(6) ff. 1-46, viii, 1-110: (7) 33 misc. ff. from various sargas.",
+      "reason": "The third digit of the Saṃvat year is ambiguous at native resolution and could be '1' or '2'. The literal text should not present '1926' as certain. A date must not be resolved by calculation from the Śāke year.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.date",
+      "before": "Śāke 1791, S. 1926",
+      "after": "Śāke 1791, S. 1926 [reading?]",
+      "reason": "This keeps the field consistent with the uncertain digit in the source.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/a7c1f6dc-de73-4079-872e-9befdb85e06d.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a7c1f6dc-de73-4079-872e-9befdb85e06d/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "53b7f5ced083e1a998b76112379525128eac6e257039a020ce4a46b0c706993b",
+      "bytes": 267698,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a7c1f6dc-de73-4079-872e-9befdb85e06d/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7eeca3c8778e01061e37a614b9ac0d74d1bf5990bef6bcb66b66c6e192c41bd4",
+      "bytes": 295751,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a7c1f6dc-de73-4079-872e-9befdb85e06d/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "384325f31f02a61ff16054e853c716b999e3b0410f3b35c241b403b2fa68f4c4",
+      "bytes": 313649,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a7c1f6dc-de73-4079-872e-9befdb85e06d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "27af64467173c4d7da1fe0c62183acc66481cc7295753af0e92c4efffc083b94",
+      "bytes": 342722,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a7c1f6dc-de73-4079-872e-9befdb85e06d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bd688e86e6ec92b497553199e6a001c11c81e95464a80c1579a2be0c59f26328",
+      "bytes": 332717,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a7c1f6dc-de73-4079-872e-9befdb85e06d/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f1a36860e175261eba81d23ff4c96f5ca5d4d03e898b5244a6ebf53a2871665e",
+      "bytes": 310301,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a7c1f6dc-de73-4079-872e-9befdb85e06d/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5b16bc121aac10e4f27576313b57b86e7a144279683e83ff29d415e7e492631e",
+      "bytes": 330243,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9ca19a19-f9e6-4953-8f80-316ff331625f/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "575d5c5622fba926d74ce383ea3eefb3d7d34ca36c668f0f3cb72143963ab2e6",
+      "bytes": 279692,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 253,
+      "folio_label": "fol. 127",
+      "page_id": "9ca19a19-f9e6-4953-8f80-316ff331625f",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f83d55e7-7bf5-47c3-96f4-9b3d5c2f5e4b/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6327b66fa9c95f88d5f194b628f80ffe8e09c98a3e328c4cbb370d2d5a17823a",
+      "bytes": 275966,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 255,
+      "folio_label": "fol. 128",
+      "page_id": "f83d55e7-7bf5-47c3-96f4-9b3d5c2f5e4b",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

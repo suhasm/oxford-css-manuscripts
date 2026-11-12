@@ -1,0 +1,1012 @@
+{
+  "source_order": 92,
+  "folio_label": "fol. 46b",
+  "page_id": "32423708-a0e3-473e-8771-406d5cafeea1",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "46b",
+    "principal_page_bbox": [
+      290,
+      300,
+      2880,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          330,
+          110,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "46b.",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "superscript 'b'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          510,
+          630,
+          2615,
+          95
+        ],
+        "kind_hint": "cancelled_entry",
+        "anchor": "c. 469 ——— D. Tilaka, by Jayarāma Pañcānana. n.d.:160:8:D",
+        "features": [
+          "ink",
+          "the entire line is struck through with a long horizontal stroke",
+          "the stroke runs from the shelfmark across the ditto dashes to the extent",
+          "shelfmark at left",
+          "has an extent/date formula"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          555,
+          2990,
+          510,
+          120
+        ],
+        "kind_hint": "note",
+        "anchor": "MS. No. not entered.",
+        "features": [
+          "ink",
+          "stands alone on a line above the following entry",
+          "likely refers to the following entry, but this is not certain"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          430,
+          3150,
+          2490,
+          360
+        ],
+        "kind_hint": "entry",
+        "anchor": "Kiraṇāvalī (Guṇa°) by Udayana, + Guṇaśiromaṇi by Mathurānātha, + Co² Guṇa- / dīdhitirahasya. Unf. … n.d.:210:16:D.",
+        "features": [
+          "ink",
+          "two-line entry with a right-aligned extent formula",
+          "no shelfmark written to the left",
+          "an ink slash mark precedes it in the left margin (approx. [430,3155,95,130])",
+          "'Unf.' abbreviation",
+          "superscript '2' after 'Co'"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2140,
+          3228,
+          70,
+          50
+        ],
+        "kind_hint": "interlinear_correction",
+        "anchor": "rā / ā (above 'Mathurā')",
+        "features": [
+          "small interlinear insertion above the 'Mathurā-' part of the name",
+          "appears to overwrite or correct a vowel",
+          "the exact reading is uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2900,
+          1180,
+          140,
+          130
+        ],
+        "description": "faint pencil-like diagonal strokes, possibly show-through from the verso of fol. 46"
+      },
+      {
+        "bbox": [
+          2690,
+          1700,
+          240,
+          180
+        ],
+        "description": "faint marks resembling '1/' and 's', possibly show-through rather than writing on this page"
+      },
+      {
+        "bbox": [
+          3000,
+          3230,
+          70,
+          110
+        ],
+        "description": "faint stroke resembling 's/' to the right of the Kiraṇāvalī entry; it may be show-through"
+      },
+      {
+        "bbox": [
+          330,
+          4010,
+          110,
+          120
+        ],
+        "description": "grey stain or smudge in the left margin"
+      }
+    ],
+    "boundary_notes": [
+      "Shelfmark fragments at the right edge of the image ('√d. 32…', 'c. 298', 's. Tri…', 'd. 82…', 'd. 6…', 'e. 11…', 'c. 42…', many 'd.' entries, '← Je.') belong to the facing fol. 47 and are excluded from the inventory.",
+      "Faint mirrored text visible throughout the page is show-through from fol. 46 and was not transcribed."
+    ],
+    "uncertainties": [
+      "Whether 'MS. No. not entered.' is attached to the Kiraṇāvalī entry below it is unclear.",
+      "The reading of the interlinear insertion above 'Mathurā' is uncertain.",
+      "The shelfmark in b002 reads 'c. 469'; the third digit is somewhat uncertain.",
+      "Whether the faint pencil marks are actual annotations or show-through is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "46b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "46b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number at the top-left corner, with a superscript 'b'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "cancelled_entry",
+        "literal_text": "⟦c. 469 ——— ——— ——— D. Tilaka, by Jayarāma Pañcānana. n.d.:160:8:D⟧",
+        "fields": {
+          "shelfmark": "c. 469",
+          "title": "D. Tilaka",
+          "author": "Jayarāma Pañcānana",
+          "date": "n.d.",
+          "extent": "160",
+          "lines": "8",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A long ink horizontal stroke cancels the whole line, from the shelfmark through the ditto dashes to the extent formula.",
+          "Ditto dashes stand between the shelfmark and the title. The page shows no governing heading for them."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 93,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "KIRAṆĀVALĪ list (ditto dashes with 'Ḍ: Guṇarahasya' etc.)",
+            "evidence": "The ditto dashes need a heading outside this page. The facing fol. 47 has a dashed KIRAṆĀVALĪ list of the same form. This page appears to be a facing insert page for it.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The digits of the shelfmark are uncertain; it could be read as 'c. 469' or 'c. 4b9'.",
+          "The initial 'D.' may be a dotted letter or abbreviation; it is not resolved.",
+          "The heading governed by the ditto dashes is not identified on this page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "note",
+        "literal_text": "MS. No. not entered.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink note on its own line above the Kiraṇāvali entry."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 92,
+            "target_record_id": "r004",
+            "target_block_id": "b004",
+            "target_anchor": "Kiraṇāvali (Guṇa°) by Udayana",
+            "evidence": "The note stands immediately above an entry that has no shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The attachment to the following entry is not secure."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": "entry_without_shelfmark",
+        "literal_text": "Kiraṇāvali (Guṇa°) by Udayana, + Guṇaśiromaṇi by Mathura[^rā]nātha, + Co.² Guṇa-\ndīdhitirahasya. Unf.                n.d.:210:16:D.",
+        "fields": {
+          "title": "Kiraṇāvali (Guṇa°) + Guṇaśiromaṇi + Co.² Guṇadīdhitirahasya",
+          "author": "Udayana; Mathura[^rā]nātha",
+          "date": "n.d.",
+          "extent": "210",
+          "lines": "16",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "An ink slash stands in the left margin before the entry, at approx. [430,3155,95,130].",
+          "A small interlinear insertion, read as 'rā' or 'ā', is written above the 'Mathura-' part of the name. It may overwrite an earlier letter. It is rendered here as [^rā].",
+          "A small mark appears above the first '+'.",
+          "The '2' after 'Co.' is superscript.",
+          "'Unf.' is left unexpanded.",
+          "No shelfmark is written."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 93,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "KIRAṆĀVALĪ list",
+            "evidence": "Same work family as the list on the facing fol. 47. The relation is not marked.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading of the interlinear insertion above 'Mathura' is uncertain.",
+          "The final vowel of 'Kiraṇāvali' is uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Cancelled holding line."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Note with a probable but unsecured attachment to the following entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Two-line holding entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Interlinear correction within the author name of r004."
+      }
+    ],
+    "page_annotations": [
+      "Faint diagonal and 's/'-like strokes at the right of the text area are judged probable show-through and were not transcribed.",
+      "There is a grey smudge in the lower left margin.",
+      "Shelfmark fragments at the right edge belong to fol. 47 and were excluded.",
+      "Mirrored show-through from fol. 46 was not transcribed."
+    ],
+    "unresolved_relationships": [
+      "The governing heading for the ditto dashes in r002 is not identified.",
+      "It is uncertain whether 'MS. No. not entered.' refers to the Kiraṇāvali entry."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '46b.' (superscript 'b') is at the top left. The record is adequate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The cancelled line is represented. In the native tile, a thin strike line runs from the shelfmark to a loop at the end of 'n.d.:160:8:D'. Two thicker ditto-dash segments are visible under it, at about x 1020–1300 and x 1520–1640. The candidate gives three dash groups. This is corrected below as a probable reading. The shelfmark reads 'c. 469'; the second digit form is retained as uncertain. The fragment 'n.d.:160:8:D' visible at the left edge of the fol. 47 image is this same line seen across the gutter. It is not a separate record."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The note is represented. In the source the word rendered 'not' is written compactly and looks like 'nt'/'ut'. The candidate's literal 'not' is a reasonable reading, but it is flagged as uncertain. Its attachment to r004 remains unproven."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The two-line entry, with 'n.d.:210:16:D.' at right, is represented. The left-margin slash and the absence of a shelfmark are noted. The 'D.' visible at the left edge of the fol. 47 image is the end of this formula seen across the gutter, not a fol. 47 entry."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The interlinear insertion above 'Mathura…' (resembling 'rā', possibly written over an earlier stroke) is kept within r004 with its uncertainty retained."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "⟦c. 469 ——— ——— ——— D. Tilaka, by Jayarāma Pañcānana. n.d.:160:8:D⟧",
+        "after": "⟦c. 469 ——— ——— D. Tilaka, by Jayarāma Pañcānana. n.d.:160:8:D⟧",
+        "reason": "The native tile shows two thickened ditto-dash segments under the continuous thin cancellation stroke, not three.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 93,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "KIRAṆĀVALĪ list (ditto dashes with 'Ḍ: Guṇarahasya' etc.)",
+            "evidence": "The ditto dashes need a heading outside this page. The facing fol. 47 has a dashed KIRAṆĀVALĪ list of the same form. This page appears to be a facing insert page for it.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 93,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "KIRAṆĀVALĪ list (ditto dashes, e.g. 'D: Gunarahasya' line)",
+            "evidence": "The ditto dashes need a heading outside this page. The facing fol. 47 has a dashed KIRAṆĀVALĪ list of the same form. No explicit link mark connects them.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The anchor's 'Ḍ:' and 'Guṇarahasya' add diacritics not visible in the fol. 47 overview, which reads 'D: Gunarahasya'. The claim that this page is an insert page is inference and has been removed.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The attachment to the following entry is not secure."
+        ],
+        "after": [
+          "The attachment to the following entry is not secure.",
+          "The word read as 'not' is written compactly (resembling 'nt'/'ut'); its exact letter forms are uncertain."
+        ],
+        "reason": "Source-image check of the note's handwriting.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "No heading on this page governs the ditto dashes. The relation to the fol. 47 KIRAṆĀVALĪ list is not marked.",
+        "next_check": "Compare the hand and line position with fol. 47 lines d. 482 / d. 494 at higher resolution."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "issue": "It is unclear whether 'MS. No. not entered.' refers to the Kiraṇāvalī entry below it.",
+        "next_check": "Look for similar notes elsewhere in the catalogue."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The exact reading of the interlinear insertion above 'Mathura' is unclear, as is whether it overwrites the base text.",
+        "next_check": "Inspect at higher magnification."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There are faint marks at about [2900,1180], [2690,1700] and [3000,3230], resembling '|/', 's' and 's/'. They are probably show-through but could be faint pencil annotations.",
+        "next_check": "Compare with the mirrored writing from fol. 46 under raking light or on the verso image."
+      }
+    ],
+    "boundary_review": "The right edge shows the facing fol. 47 margin, with shelfmarks such as '√d. 32…', 'c. 298', 's. Tri…', 'd. 82…', 'd. 6…', 'e. 11…', 'c. 42…', many 'd.' entries, '← Je.' and '√d.'. These are excluded as facing-page fragments. Conversely, the fol. 47 image shows this page's 'n.d.:160:8:D' and 'D.' at its left edge; these are not duplicates. Mirrored show-through from fol. 46 is not transcribed.",
+    "region_review": {
+      "top": "Pencil folio number '46b.' and the cancelled c. 469 line. Nothing else is above them.",
+      "middle": "Large blank ruled area containing only show-through and faint possible marks, which are unresolved. The note 'MS. No. not entered.' is near y 3000.",
+      "bottom": "The Kiraṇāvalī entry is near y 3150–3500. Below it the page is blank apart from show-through. A grey smudge is in the lower left margin near [330,4010].",
+      "left_margin": "An ink slash stands before the Kiraṇāvalī entry, plus the smudge. No other writing.",
+      "right_margin": "Faint 's/'-like strokes, probably show-through. Beyond the gutter are fol. 47 fragments, which are excluded.",
+      "interlinear": "The insertion above 'Mathura…', the dot above the first '+', and the superscript '2' after 'Co'. No other interlinear text."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        330,
+        110,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "46b.",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "superscript 'b'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        510,
+        630,
+        2615,
+        95
+      ],
+      "kind_hint": "cancelled_entry",
+      "anchor": "c. 469 ——— D. Tilaka, by Jayarāma Pañcānana. n.d.:160:8:D",
+      "features": [
+        "ink",
+        "the entire line is struck through with a long horizontal stroke",
+        "the stroke runs from the shelfmark across the ditto dashes to the extent",
+        "shelfmark at left",
+        "has an extent/date formula"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        555,
+        2990,
+        510,
+        120
+      ],
+      "kind_hint": "note",
+      "anchor": "MS. No. not entered.",
+      "features": [
+        "ink",
+        "stands alone on a line above the following entry",
+        "likely refers to the following entry, but this is not certain"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        430,
+        3150,
+        2490,
+        360
+      ],
+      "kind_hint": "entry",
+      "anchor": "Kiraṇāvalī (Guṇa°) by Udayana, + Guṇaśiromaṇi by Mathurānātha, + Co² Guṇa- / dīdhitirahasya. Unf. … n.d.:210:16:D.",
+      "features": [
+        "ink",
+        "two-line entry with a right-aligned extent formula",
+        "no shelfmark written to the left",
+        "an ink slash mark precedes it in the left margin (approx. [430,3155,95,130])",
+        "'Unf.' abbreviation",
+        "superscript '2' after 'Co'"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2140,
+        3228,
+        70,
+        50
+      ],
+      "kind_hint": "interlinear_correction",
+      "anchor": "rā / ā (above 'Mathurā')",
+      "features": [
+        "small interlinear insertion above the 'Mathurā-' part of the name",
+        "appears to overwrite or correct a vowel",
+        "the exact reading is uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "46b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number at the top-left corner, with a superscript 'b'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0092-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "cancelled_entry",
+      "literal_text": "⟦c. 469 ——— ——— ——— D. Tilaka, by Jayarāma Pañcānana. n.d.:160:8:D⟧",
+      "fields": {
+        "shelfmark": "c. 469",
+        "title": "D. Tilaka",
+        "author": "Jayarāma Pañcānana",
+        "date": "n.d.",
+        "extent": "160",
+        "lines": "8",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A long ink horizontal stroke cancels the whole line, from the shelfmark through the ditto dashes to the extent formula.",
+        "Ditto dashes stand between the shelfmark and the title. The page shows no governing heading for them."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 93,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "KIRAṆĀVALĪ list (ditto dashes with 'Ḍ: Guṇarahasya' etc.)",
+          "evidence": "The ditto dashes need a heading outside this page. The facing fol. 47 has a dashed KIRAṆĀVALĪ list of the same form. This page appears to be a facing insert page for it.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The digits of the shelfmark are uncertain; it could be read as 'c. 469' or 'c. 4b9'.",
+        "The initial 'D.' may be a dotted letter or abbreviation; it is not resolved.",
+        "The heading governed by the ditto dashes is not identified on this page."
+      ],
+      "stable_id": "css-prod-0092-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "note",
+      "literal_text": "MS. No. not entered.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink note on its own line above the Kiraṇāvali entry."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 92,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "Kiraṇāvali (Guṇa°) by Udayana",
+          "evidence": "The note stands immediately above an entry that has no shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The attachment to the following entry is not secure."
+      ],
+      "stable_id": "css-prod-0092-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": "entry_without_shelfmark",
+      "literal_text": "Kiraṇāvali (Guṇa°) by Udayana, + Guṇaśiromaṇi by Mathura[^rā]nātha, + Co.² Guṇa-\ndīdhitirahasya. Unf.                n.d.:210:16:D.",
+      "fields": {
+        "title": "Kiraṇāvali (Guṇa°) + Guṇaśiromaṇi + Co.² Guṇadīdhitirahasya",
+        "author": "Udayana; Mathura[^rā]nātha",
+        "date": "n.d.",
+        "extent": "210",
+        "lines": "16",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "An ink slash stands in the left margin before the entry, at approx. [430,3155,95,130].",
+        "A small interlinear insertion, read as 'rā' or 'ā', is written above the 'Mathura-' part of the name. It may overwrite an earlier letter. It is rendered here as [^rā].",
+        "A small mark appears above the first '+'.",
+        "The '2' after 'Co.' is superscript.",
+        "'Unf.' is left unexpanded.",
+        "No shelfmark is written."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 93,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "KIRAṆĀVALĪ list",
+          "evidence": "Same work family as the list on the facing fol. 47. The relation is not marked.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading of the interlinear insertion above 'Mathura' is uncertain.",
+        "The final vowel of 'Kiraṇāvali' is uncertain."
+      ],
+      "stable_id": "css-prod-0092-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "⟦c. 469 ——— ——— ——— D. Tilaka, by Jayarāma Pañcānana. n.d.:160:8:D⟧",
+      "after": "⟦c. 469 ——— ——— D. Tilaka, by Jayarāma Pañcānana. n.d.:160:8:D⟧",
+      "reason": "The native tile shows two thickened ditto-dash segments under the continuous thin cancellation stroke, not three.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 93,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "KIRAṆĀVALĪ list (ditto dashes with 'Ḍ: Guṇarahasya' etc.)",
+          "evidence": "The ditto dashes need a heading outside this page. The facing fol. 47 has a dashed KIRAṆĀVALĪ list of the same form. This page appears to be a facing insert page for it.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 93,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "KIRAṆĀVALĪ list (ditto dashes, e.g. 'D: Gunarahasya' line)",
+          "evidence": "The ditto dashes need a heading outside this page. The facing fol. 47 has a dashed KIRAṆĀVALĪ list of the same form. No explicit link mark connects them.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The anchor's 'Ḍ:' and 'Guṇarahasya' add diacritics not visible in the fol. 47 overview, which reads 'D: Gunarahasya'. The claim that this page is an insert page is inference and has been removed.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The attachment to the following entry is not secure."
+      ],
+      "after": [
+        "The attachment to the following entry is not secure.",
+        "The word read as 'not' is written compactly (resembling 'nt'/'ut'); its exact letter forms are uncertain."
+      ],
+      "reason": "Source-image check of the note's handwriting.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/32423708-a0e3-473e-8771-406d5cafeea1.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32423708-a0e3-473e-8771-406d5cafeea1/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "daa8b828b9644526f15755dcbbcd65e4cc4bbd2f053f11ed354c1fb90bbef886",
+      "bytes": 280224,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32423708-a0e3-473e-8771-406d5cafeea1/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2099987d7259aac47e03467c95964e4d64aa30e9577faca4b1c7fc9c652007e5",
+      "bytes": 308593,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32423708-a0e3-473e-8771-406d5cafeea1/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "02d639133ab378928193f3dafa9fc7a937f01230ebd21948fb823c9e8010d888",
+      "bytes": 326815,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32423708-a0e3-473e-8771-406d5cafeea1/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4b1c7257898dc3d59dba2695bc3f1b73a686ea47aafad349ebdee5eea0c49828",
+      "bytes": 358788,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32423708-a0e3-473e-8771-406d5cafeea1/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "72c0688764e72c6884af45622295a6e099a1ab2ca19461f79a3bd22ce1dce556",
+      "bytes": 321495,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32423708-a0e3-473e-8771-406d5cafeea1/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3b62acc07bd1fb3ffdf273dcf2fe6bd6e473995f841d5f0c5f857436dd0064a8",
+      "bytes": 348712,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32423708-a0e3-473e-8771-406d5cafeea1/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e9b9f1392ab2d5ff999910dbaec38c5edbfacd12783ac1a645603f6dbfee8f11",
+      "bytes": 353094,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7aa5112d-3b48-4243-b5d3-9995000541d4/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e5ea7d7f02e17005304bc52ded7223f9f684aa59b32c5169642eeacafd888b71",
+      "bytes": 279741,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 91,
+      "folio_label": "fol. 46",
+      "page_id": "7aa5112d-3b48-4243-b5d3-9995000541d4",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f77e344-b91b-4aee-8044-b75228e39e44/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ca79f69e8b034dc343d8812c614135e1bf1deb7924cad667b76df35a86d2bce3",
+      "bytes": 272482,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 93,
+      "folio_label": "fol. 47",
+      "page_id": "3f77e344-b91b-4aee-8044-b75228e39e44",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

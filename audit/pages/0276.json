@@ -1,0 +1,732 @@
+{
+  "source_order": 276,
+  "folio_label": "fol. 138b",
+  "page_id": "447f4e61-39e6-487b-bff1-f35581c167a4",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "138b",
+    "principal_page_bbox": [
+      305,
+      290,
+      2865,
+      4565
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          335,
+          140,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "138b",
+        "features": [
+          "top left corner",
+          "superscript b with dot below"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          385,
+          2755,
+          2480,
+          150
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "ff. 1-31 in two hands, ṚV ix, 1-67 with additions from RVKh, divided into three adhyāyas & pariśiṣṭa",
+        "features": [
+          "single handwritten line in ink",
+          "no shelfmark or title on this page",
+          "left-pointing arrow to its right; attachment uncertain",
+          "small mark below 'ff.' (possibly '3' or a dotted mark)",
+          "diacritic dots under some letters"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2980,
+          2785,
+          130,
+          40
+        ],
+        "description": "Left-pointing arrow (←) right of the note line near the gutter. It appears to connect the note with the facing-page entry 'cats. RV ✓ d. 13' (Pavamānasūkta) on fol. 139."
+      },
+      {
+        "bbox": [
+          475,
+          2865,
+          25,
+          40
+        ],
+        "description": "Small dotted mark or tiny numeral beneath the start of 'ff.'; reading uncertain."
+      },
+      {
+        "bbox": [
+          1110,
+          3240,
+          30,
+          30
+        ],
+        "description": "Small ink specks; probably accidental."
+      }
+    ],
+    "boundary_notes": [
+      "Faint reversed text across the page is show-through from the recto, fol. 138. It is not transcribed as target content.",
+      "Shelfmark fragments on the right edge belong to the facing fol. 139 and are excluded. These include 'd. 63', 'c. 21', 'd. 7', 'cats. RV ✓', ticks and 'cas: Prāya…'.",
+      "The note b002 likely belongs to an entry on fol. 139 by way of the arrow. On this page it has no parent entry."
+    ],
+    "uncertainties": [
+      "Reading of 'in two hands' and 'additions from' is uncertain due to cursive script.",
+      "The mark beneath 'ff.' is unidentified."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "138b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "138b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top left corner as '138' with a superscript 'b' and a dot beneath or after it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The dot may be punctuation or part of the superscript form."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901",
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "descriptive_note_with_arrow",
+        "literal_text": "ff. 1-31 in two hands, ṚV ix, 1-67 with additions from RVKh, divided into three adhyāyas & pariśiṣṭa",
+        "fields": {
+          "extent": "ff. 1-31"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line written across the ruled page at about mid-height. There is no shelfmark or title on this page.",
+          "A left-pointing arrow (←) is drawn to the right of the line, near the gutter.",
+          "A small mark beneath 'ff.' may be a tiny numeral '3' or dots. Its reading is uncertain.",
+          "The '&' is written as a looped 'v'-like sign. Dots appear beneath letters in 'ṚV' and 'pariśiṣṭa'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 277,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "cats. RV ✓ d. 13 Pavamānasūkta",
+            "evidence": "The arrow at the gutter points toward this note. A matching left arrow in the left margin of fol. 139 stands beside the 'cats. RV ✓ d. 13' entry, whose incipit reference is R.V. 9.1.1. That fits 'ṚV ix'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'hands' may read 'hand' or 'hand,'.",
+          "'additions from' and 'pariśiṣṭa' are uncertain readings of cursive script, including the exact diacritics.",
+          "The attachment to the fol. 139 entry is inferred from the arrows only."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2985,
+          2785,
+          125,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "left-pointing arrow right of the note line",
+          "near the gutter",
+          "links toward the facing page"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          475,
+          2865,
+          25,
+          40
+        ],
+        "kind_hint": "small_mark",
+        "anchor": "mark beneath 'ff.'",
+        "features": [
+          "tiny numeral or dotted mark",
+          "reading uncertain"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number in the top left corner."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The only note on the page. Its attachment to a fol. 139 entry is ambiguous, so it is recorded as an unattached annotation with a possible attachment."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow belonging to the note line."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Small mark beneath the start of the note. It is recorded as an annotation."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is ruled and has no target-page writing. Faint reversed text is show-through from the recto (fol. 138) and is not transcribed.",
+      "Shelfmark fragments at the right edge ('d. 63', 'c. 2…', 'd. 7', 'cats. RV ✓', ticks, 'cas: Prāya…') belong to the facing fol. 139 and are excluded.",
+      "Small ink specks near [1110,3240] and other isolated dots appear accidental."
+    ],
+    "unresolved_relationships": [
+      "Whether r002 is a continuation note for the fol. 139 entry 'cats. RV ✓ d. 13' (Pavamānasūkta) or for another RV entry remains probable but not secure."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '138' with a superscript 'b' and dot(s) beneath is in the top left corner at about [365,335]. The record r001 matches it."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the single ink line at about y≈2790. The reading 'ff. 1-31 in two hands, ṚV ix, 1-67 with additions from RVKh, divided into three adhyāyas & pariśiṣṭa' matches the image within the noted cursive uncertainties. Dots are visible under the letter forms of 'ṚV' and the end of 'pariśiṣṭa'. No cancellations or interlinear additions were seen."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A left-pointing arrow sits at about [2989,2790,115,30] on the target page, left of the gutter. It is correctly grouped with r002 as a mark. Its relationship evidence needs correcting; see changes."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A tiny stacked-dot or numeral-like mark lies beneath 'ff.' at about [480,2850]. Its reading is uncertain, which is correctly kept."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 277,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "cats. RV ✓ d. 13 Pavamānasūkta",
+            "evidence": "The arrow at the gutter points toward this note. A matching left arrow in the left margin of fol. 139 stands beside the 'cats. RV ✓ d. 13' entry, whose incipit reference is R.V. 9.1.1. That fits 'ṚV ix'.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 277,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "cats. RV ✓ d. 13",
+            "evidence": "There is only one left-pointing arrow (b901), on fol. 138b just left of the gutter, level with the note line. The arrow at the left edge of the fol. 139 capture appears to be this same arrow seen across the gutter, not a second arrow on fol. 139. On fol. 139, 'cats. RV ✓ d. 13' stands at the same height. Its title appears to be 'Pavamāna' with a following portion possibly cancelled, and its incipit reference is 'R.V. 9.1.1.'. A later line under it ('c. 390 (13)') cites 'R.V.Kh. 9.67.1'. The content fit with 'ṚV ix, 1-67 … RVKh' is suggestive only.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The candidate claimed a second, matching arrow on fol. 139. The adjacent image shows that arrow lies left of the gutter, i.e. on the target page, so it is the same mark. The anchor also included a normalized title, whose written form on fol. 139 may be partly cancelled.",
+        "source_block_ids": [
+          "b002",
+          "b901"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The attachment of the note to the fol. 139 'cats. RV ✓ d. 13' entry, rather than another RV-related line nearby (e.g. c. 390 (13)), rests only on arrow position and content.",
+        "next_check": "Compare at native resolution the fol. 139 left margin and the ruled-line alignment around the d. 13 entry."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The exact letter forms are uncertain: 'hands', 'additions from', the diacritics on 'ṚV' and 'pariśiṣṭa', and the '&' (written as a v-like loop).",
+        "next_check": "Inspect the native crop of the note line."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b902"
+        ],
+        "issue": "The mark beneath 'ff.' is unidentified (a numeral '3' or dots).",
+        "next_check": "Inspect at higher magnification."
+      }
+    ],
+    "boundary_review": "The gutter lies at x≈3170–3220. Shelfmark fragments to its right (d. 63, c. 2…, d. 7, d. 8…, e., d., f, cats. RV ✓, ticks, √d., cas: Prāya…) belong to fol. 139 and are correctly excluded. The arrow b901 is left of the gutter and belongs to the target page. Faint reversed writing is show-through from fol. 138 and is not target text.",
+    "region_review": {
+      "top": "Only the folio number '138b.' is present. The rest is show-through.",
+      "middle": "The single note line with the arrow and the mark beneath 'ff.' is present. Ink specks near [1125,3255] and other isolated dots appear accidental.",
+      "bottom": "No target writing; only ruled lines and show-through.",
+      "left_margin": "No writing; isolated specks only.",
+      "right_margin": "The arrow b901 is near the gutter. Facing-page fragments are excluded.",
+      "interlinear": "None found apart from the small mark beneath 'ff.'."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        335,
+        140,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "138b",
+      "features": [
+        "top left corner",
+        "superscript b with dot below"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        385,
+        2755,
+        2480,
+        150
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "ff. 1-31 in two hands, ṚV ix, 1-67 with additions from RVKh, divided into three adhyāyas & pariśiṣṭa",
+      "features": [
+        "single handwritten line in ink",
+        "no shelfmark or title on this page",
+        "left-pointing arrow to its right; attachment uncertain",
+        "small mark below 'ff.' (possibly '3' or a dotted mark)",
+        "diacritic dots under some letters"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2985,
+        2785,
+        125,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "left-pointing arrow right of the note line",
+        "near the gutter",
+        "links toward the facing page"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        475,
+        2865,
+        25,
+        40
+      ],
+      "kind_hint": "small_mark",
+      "anchor": "mark beneath 'ff.'",
+      "features": [
+        "tiny numeral or dotted mark",
+        "reading uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "138b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top left corner as '138' with a superscript 'b' and a dot beneath or after it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The dot may be punctuation or part of the superscript form."
+      ],
+      "stable_id": "css-prod-0276-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901",
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "descriptive_note_with_arrow",
+      "literal_text": "ff. 1-31 in two hands, ṚV ix, 1-67 with additions from RVKh, divided into three adhyāyas & pariśiṣṭa",
+      "fields": {
+        "extent": "ff. 1-31"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line written across the ruled page at about mid-height. There is no shelfmark or title on this page.",
+        "A left-pointing arrow (←) is drawn to the right of the line, near the gutter.",
+        "A small mark beneath 'ff.' may be a tiny numeral '3' or dots. Its reading is uncertain.",
+        "The '&' is written as a looped 'v'-like sign. Dots appear beneath letters in 'ṚV' and 'pariśiṣṭa'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 277,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cats. RV ✓ d. 13 Pavamānasūkta",
+          "evidence": "The arrow at the gutter points toward this note. A matching left arrow in the left margin of fol. 139 stands beside the 'cats. RV ✓ d. 13' entry, whose incipit reference is R.V. 9.1.1. That fits 'ṚV ix'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'hands' may read 'hand' or 'hand,'.",
+        "'additions from' and 'pariśiṣṭa' are uncertain readings of cursive script, including the exact diacritics.",
+        "The attachment to the fol. 139 entry is inferred from the arrows only."
+      ],
+      "stable_id": "css-prod-0276-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 277,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cats. RV ✓ d. 13 Pavamānasūkta",
+          "evidence": "The arrow at the gutter points toward this note. A matching left arrow in the left margin of fol. 139 stands beside the 'cats. RV ✓ d. 13' entry, whose incipit reference is R.V. 9.1.1. That fits 'ṚV ix'.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 277,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cats. RV ✓ d. 13",
+          "evidence": "There is only one left-pointing arrow (b901), on fol. 138b just left of the gutter, level with the note line. The arrow at the left edge of the fol. 139 capture appears to be this same arrow seen across the gutter, not a second arrow on fol. 139. On fol. 139, 'cats. RV ✓ d. 13' stands at the same height. Its title appears to be 'Pavamāna' with a following portion possibly cancelled, and its incipit reference is 'R.V. 9.1.1.'. A later line under it ('c. 390 (13)') cites 'R.V.Kh. 9.67.1'. The content fit with 'ṚV ix, 1-67 … RVKh' is suggestive only.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The candidate claimed a second, matching arrow on fol. 139. The adjacent image shows that arrow lies left of the gutter, i.e. on the target page, so it is the same mark. The anchor also included a normalized title, whose written form on fol. 139 may be partly cancelled.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/447f4e61-39e6-487b-bff1-f35581c167a4.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/447f4e61-39e6-487b-bff1-f35581c167a4/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "8eda3cfed18cd3ac043f9ec673078d20b108666326a7b7891c5cc60a024fc6bd",
+      "bytes": 245972,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/447f4e61-39e6-487b-bff1-f35581c167a4/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cfc3d412983a926eb1768483e4e3c125a3a2488e7297ac28c88fc811ab845764",
+      "bytes": 294253,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/447f4e61-39e6-487b-bff1-f35581c167a4/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4e750d122d21fa3472445a4ddfa2d969f94c6a722c18c1a54c97e872c576cd13",
+      "bytes": 297204,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/447f4e61-39e6-487b-bff1-f35581c167a4/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5afff768bfb24b900f7ae9e88f631b0c71ba0a36af37dfc8a941f77586d7d252",
+      "bytes": 312800,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/447f4e61-39e6-487b-bff1-f35581c167a4/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7ec3376910b42a33ed796ab742b12165c7f9bb1f4576d72b4a8c0abcf90c7626",
+      "bytes": 292682,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/447f4e61-39e6-487b-bff1-f35581c167a4/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ab59af6319a0859fee39ae002d4a296284c5cd102e0f8f3e7fd21ef0f4ac12ca",
+      "bytes": 301342,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/447f4e61-39e6-487b-bff1-f35581c167a4/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "26927524bb8b579dd735a7d5cc2850cf2d9bfda2b1d2647595c536a802302c3c",
+      "bytes": 311052,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dc5b3dfd-43ec-41b3-ae7f-fbd676ff4c86/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "fa25f8ba17bbb227b81be20238615a6d4935cce0b3a6e62f49640c3dffd78b5a",
+      "bytes": 303845,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 275,
+      "folio_label": "fol. 138",
+      "page_id": "dc5b3dfd-43ec-41b3-ae7f-fbd676ff4c86",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2039169a-f306-426a-9885-1e34b0aebd41/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ca48f168f21c433ad463da6d3baa4458a552664823f927681db977fa0884ebb4",
+      "bytes": 251963,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 277,
+      "folio_label": "fol. 139",
+      "page_id": "2039169a-f306-426a-9885-1e34b0aebd41",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,724 @@
+{
+  "source_order": 288,
+  "folio_label": "fol. 144b",
+  "page_id": "889e7e8b-2ac1-4907-82cf-9dc7e28eb46d",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "144b",
+    "principal_page_bbox": [
+      330,
+      285,
+      2845,
+      4550
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          415,
+          330,
+          155,
+          95
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "144b",
+        "features": [
+          "ink",
+          "top left corner",
+          "superscript 'b' after 144"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          465,
+          595,
+          1925,
+          100
+        ],
+        "kind_hint": "incipit_continuation_unattached",
+        "anchor": "Begins Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?] ...",
+        "features": [
+          "single handwritten ink line near top of page",
+          "'Begins' label at line start, reading uncertain (possibly 'Begin')",
+          "ends in trailing dash-like strokes",
+          "no shelfmark or holding entry on this page to which it attaches",
+          "likely tied by the arrow at the right edge to an entry elsewhere"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2985,
+          620,
+          175,
+          45
+        ],
+        "description": "Ink arrow pointing left, drawn at the right side of the page near the gutter on the same ruled line as b002. It probably links the incipit to an entry on another page, possibly the facing fol. 145."
+      },
+      {
+        "bbox": [
+          680,
+          3875,
+          60,
+          60
+        ],
+        "description": "Small dark speck or ink blot in the lower left part of the page. It is not text."
+      },
+      {
+        "bbox": [
+          3130,
+          2650,
+          80,
+          60
+        ],
+        "description": "Small tear or stitching mark at the gutter. It is not text."
+      }
+    ],
+    "boundary_notes": [
+      "A strip of the facing page (fol. 145) is visible to the right of the gutter, beyond x≈3180. It shows ticks and shelfmark fragments such as 'c.', 'd.' and 'e.'. These are facing-page fragments and are excluded from the target inventory.",
+      "Faint mirrored show-through of the text on the reverse side (fol. 144) is visible across the ruled lines. It is not writing on this page and has not been inventoried.",
+      "Attachment of b002 is ambiguous. It could continue an entry on fol. 144 or attach to an entry on fol. 145 via the arrow, so it is kept as an independent unattached incipit block."
+    ],
+    "uncertainties": [
+      "The exact reading of the opening word ('Begins'/'Begin') and of the final word(s) of b002 is uncertain because the hand is cursive and the line trails off.",
+      "The target of the arrow is not certain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "144b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "144b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top left corner. The 'b' is written raised, as a superscript, after '144'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "incipit_note",
+        "literal_text": "Begin[s?] Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?] —",
+        "fields": {
+          "incipit": "Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?]"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A single cursive ink line sits on the first ruled line near the top of the page.",
+          "It ends in trailing dash-like strokes.",
+          "A left-pointing ink arrow is drawn near the gutter on the same ruled line, at about x≈2985–3150, y≈640.",
+          "There is no shelfmark or holding entry on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 289,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Left-pointing arrow in the top left margin of fol. 145 beside 'c. 390 (11) Puruṣadānavidhi'",
+            "evidence": "Fol. 145 has a left-pointing arrow in its outer margin at roughly the same height as this line and the arrow on this page. This suggests the incipit was written here for that entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 287,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "fol. 144 entries",
+            "evidence": "The note could alternatively relate to an entry on fol. 144, the recto of this leaf. No direct link is visible.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The opening word may be 'Begin' or 'Begins'; no final 's' is clearly visible.",
+          "The final word is uncertain and is read tentatively as 'likhet'.",
+          "The anusvāra or macron marks on 'hastapramāṇaṃ' and 'vedīṃ' are cursive and approximate.",
+          "The target of the arrow is not certain."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2985,
+          615,
+          175,
+          50
+        ],
+        "kind_hint": "arrow_mark",
+        "anchor": "←",
+        "features": [
+          "ink",
+          "left-pointing arrow",
+          "same ruled line as b002",
+          "near the gutter"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Independent incipit note whose attachment is ambiguous."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow on the same line as the incipit, linking it probably to the facing page."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and the single incipit line with its arrow, the ruled page is blank after image review.",
+      "Faint mirrored show-through from fol. 144 is visible across the page and is not transcribed.",
+      "A small blot at about [680,3875] and a small gutter tear or stitching mark at about [3130,2650] are not text.",
+      "A strip of facing fol. 145 is visible right of the gutter, showing ticks and the shelfmark letters c., d. and e. These belong to the facing page and are excluded."
+    ],
+    "unresolved_relationships": [
+      "It is unconfirmed whether the incipit in r002 belongs to fol. 145 'c. 390 (11) Puruṣadānavidhi' (probable) or to an entry on fol. 144."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '144' with a raised 'b' is visible in ink at the top left. It is correctly recorded."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single ink line on the first ruled line is represented. The reading of the final word is not secure. The native tile shows a letter form like 'l..tvā' followed by a possible query mark, then two short dashes. This does not support 'likhet' as a reading. The opening word 'Begin'/'Begins' remains uncertain."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A left-pointing ink arrow lies at about x 2989–3152, y about 645, on the same ruled line as b002. Attaching it to r002 as linking evidence is reasonable. Its target is not confirmed."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "Begin[s?] Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?] —",
+        "after": "Begin[s?] Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhitvā?] — —",
+        "reason": "At native scale the last word appears to end in a 'tvā'-like form with a possible query mark. It is followed by two separate short dash strokes, not one dash. The reading stays bracketed as uncertain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "fields.incipit",
+        "before": "Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?]",
+        "after": "Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhitvā?]",
+        "reason": "This keeps the field consistent with the revised literal reading. The final word remains uncertain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The opening word may be 'Begin' or 'Begins'; no final 's' is clearly visible.",
+          "The final word is uncertain and is read tentatively as 'likhet'.",
+          "The anusvāra or macron marks on 'hastapramāṇaṃ' and 'vedīṃ' are cursive and approximate.",
+          "The target of the arrow is not certain."
+        ],
+        "after": [
+          "The opening word may be 'Begin' or 'Begins'; no final 's' is clearly visible.",
+          "The final word is uncertain. The visible letter forms resemble 'l..tvā' (possibly 'likhitvā'). A possible query mark follows, and it is unclear whether this is a written '?' or a flourish.",
+          "The nasal marks on 'hastapramāṇaṃ' and 'vedīṃ' appear as strokes over the final m. Their exact form is approximate.",
+          "The target of the arrow is not certain."
+        ],
+        "reason": "This replaces the unsupported tentative reading 'likhet' and records the possible query mark.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "Attachment is unresolved. The fol. 145 left-margin arrow beside 'c. 390 (11) Puruṣadānavidhi' at roughly the same height makes that entry the probable target, but this is not confirmed.",
+        "next_check": "Compare the arrow positions on both openings at native resolution, and check whether the fol. 145 entry lacks its own incipit."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The final word and the possible query mark are uncertain.",
+        "next_check": "Inspect the line at higher contrast between x 2200 and 2400, y 600 and 680."
+      }
+    ],
+    "boundary_review": "The facing fol. 145 strip, right of the gutter at x greater than about 3180, shows ticks and the shelfmark letters c., d., e. These belong to the facing page and are excluded. Small marks at the gutter, at about (3169,2688) and (3154,3646), are tears or stitching and are not text. The attachment of b002 across the page boundary remains open.",
+    "region_review": {
+      "top": "Only the folio number and the single incipit line with its arrow are present.",
+      "middle": "Ruled lines and faint mirrored show-through from the reverse are visible. No writing on this page was found.",
+      "bottom": "Blank apart from a small blot at about (710,3906) and specks. No bottom note was found.",
+      "left_margin": "Blank.",
+      "right_margin": "The gutter area holds the arrow b901 and stitching or tear marks. The facing-page fragments are excluded.",
+      "interlinear": "No interlinear additions were found on this page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        415,
+        330,
+        155,
+        95
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "144b",
+      "features": [
+        "ink",
+        "top left corner",
+        "superscript 'b' after 144"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        465,
+        595,
+        1925,
+        100
+      ],
+      "kind_hint": "incipit_continuation_unattached",
+      "anchor": "Begins Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?] ...",
+      "features": [
+        "single handwritten ink line near top of page",
+        "'Begins' label at line start, reading uncertain (possibly 'Begin')",
+        "ends in trailing dash-like strokes",
+        "no shelfmark or holding entry on this page to which it attaches",
+        "likely tied by the arrow at the right edge to an entry elsewhere"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2985,
+        615,
+        175,
+        50
+      ],
+      "kind_hint": "arrow_mark",
+      "anchor": "←",
+      "features": [
+        "ink",
+        "left-pointing arrow",
+        "same ruled line as b002",
+        "near the gutter"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "144b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top left corner. The 'b' is written raised, as a superscript, after '144'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0288-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "incipit_note",
+      "literal_text": "Begin[s?] Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?] —",
+      "fields": {
+        "incipit": "Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?]"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A single cursive ink line sits on the first ruled line near the top of the page.",
+        "It ends in trailing dash-like strokes.",
+        "A left-pointing ink arrow is drawn near the gutter on the same ruled line, at about x≈2985–3150, y≈640.",
+        "There is no shelfmark or holding entry on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 289,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Left-pointing arrow in the top left margin of fol. 145 beside 'c. 390 (11) Puruṣadānavidhi'",
+          "evidence": "Fol. 145 has a left-pointing arrow in its outer margin at roughly the same height as this line and the arrow on this page. This suggests the incipit was written here for that entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 287,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 144 entries",
+          "evidence": "The note could alternatively relate to an entry on fol. 144, the recto of this leaf. No direct link is visible.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The opening word may be 'Begin' or 'Begins'; no final 's' is clearly visible.",
+        "The final word is uncertain and is read tentatively as 'likhet'.",
+        "The anusvāra or macron marks on 'hastapramāṇaṃ' and 'vedīṃ' are cursive and approximate.",
+        "The target of the arrow is not certain."
+      ],
+      "stable_id": "css-prod-0288-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "Begin[s?] Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?] —",
+      "after": "Begin[s?] Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhitvā?] — —",
+      "reason": "At native scale the last word appears to end in a 'tvā'-like form with a possible query mark. It is followed by two separate short dash strokes, not one dash. The reading stays bracketed as uncertain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.incipit",
+      "before": "Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhet?]",
+      "after": "Tato hastapramāṇaṃ vedīṃ nirmāya tadupari rekhāṃ [likhitvā?]",
+      "reason": "This keeps the field consistent with the revised literal reading. The final word remains uncertain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The opening word may be 'Begin' or 'Begins'; no final 's' is clearly visible.",
+        "The final word is uncertain and is read tentatively as 'likhet'.",
+        "The anusvāra or macron marks on 'hastapramāṇaṃ' and 'vedīṃ' are cursive and approximate.",
+        "The target of the arrow is not certain."
+      ],
+      "after": [
+        "The opening word may be 'Begin' or 'Begins'; no final 's' is clearly visible.",
+        "The final word is uncertain. The visible letter forms resemble 'l..tvā' (possibly 'likhitvā'). A possible query mark follows, and it is unclear whether this is a written '?' or a flourish.",
+        "The nasal marks on 'hastapramāṇaṃ' and 'vedīṃ' appear as strokes over the final m. Their exact form is approximate.",
+        "The target of the arrow is not certain."
+      ],
+      "reason": "This replaces the unsupported tentative reading 'likhet' and records the possible query mark.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/889e7e8b-2ac1-4907-82cf-9dc7e28eb46d.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/889e7e8b-2ac1-4907-82cf-9dc7e28eb46d/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "15ff9842c2e6a0f6e62fba6b00a825fa1a5ff769a91b74bab5c656665a815899",
+      "bytes": 244169,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/889e7e8b-2ac1-4907-82cf-9dc7e28eb46d/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c619921919edc543291047cf20b87ff806bf08fe9485d4a5d1fa4231dcf5688f",
+      "bytes": 306452,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/889e7e8b-2ac1-4907-82cf-9dc7e28eb46d/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6532dd57dc951d4a5d2de344d575adf0c37f76817e8d27af0ddff7f8e1914e9a",
+      "bytes": 302027,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/889e7e8b-2ac1-4907-82cf-9dc7e28eb46d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "17fe181e2779a4ef5c507ff44d4d8adcfda47a2881da44973a4797ea53d1f427",
+      "bytes": 295560,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/889e7e8b-2ac1-4907-82cf-9dc7e28eb46d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "41db8f491e979e0384d180dc0925d2e4a80a2056a1374a1de8097a6bf0d6051a",
+      "bytes": 270562,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/889e7e8b-2ac1-4907-82cf-9dc7e28eb46d/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3aaa8836e649711e30683209e2eee7333ece45d377fb51cd845fa037e9f97872",
+      "bytes": 296536,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/889e7e8b-2ac1-4907-82cf-9dc7e28eb46d/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee72e6d689779b853cbdc3d3920e21971ee48c4f070c12288d883f736bb529ee",
+      "bytes": 302306,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1304bcad-892f-4af9-9014-7bc6647d9cf8/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ce404e21872b050cf563c5bebfb0d98a759ffea0bb75501ef01328b1102a27d1",
+      "bytes": 266935,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 287,
+      "folio_label": "fol. 144",
+      "page_id": "1304bcad-892f-4af9-9014-7bc6647d9cf8",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf03ee82-20a9-4c5e-8c18-f0f08c58c6db/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "25584aed8016e7c81cbf0dcfe4efd02270a95fe57cba3220e0222b7e7d2784f0",
+      "bytes": 282017,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 289,
+      "folio_label": "fol. 145",
+      "page_id": "bf03ee82-20a9-4c5e-8c18-f0f08c58c6db",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

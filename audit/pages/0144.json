@@ -1,0 +1,653 @@
+{
+  "source_order": 144,
+  "folio_label": "fol. 72b",
+  "page_id": "dcd3f59f-e52f-4852-932c-ce3a107a1b45",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "72b",
+    "principal_page_bbox": [
+      310,
+      290,
+      2860,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          330,
+          145,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "72b",
+        "features": [
+          "top left corner",
+          "superscript or raised 'b' after '72'",
+          "ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          365,
+          3455,
+          2600,
+          115
+        ],
+        "kind_hint": "marginal_or_unattached_note_continuation",
+        "anchor": "ff.1-6 (also numbered 140-145), inc. Apparently same as H.Pr.S., I, 108; but [opening?] verse differs.",
+        "features": [
+          "single handwritten line in ink on the lower part of the page",
+          "no shelfmark or title on this line",
+          "descriptive note on foliation and completeness, with a bibliographic comparison",
+          "parent entry not identifiable on this page",
+          "small ink dot above its start at about [490,3405]"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          310,
+          2930,
+          65,
+          170
+        ],
+        "description": "Faint curved pencil stroke at the left page edge, roughly in the lower middle of the page. It is not attached to any text."
+      },
+      {
+        "bbox": [
+          960,
+          1720,
+          700,
+          220
+        ],
+        "description": "Scattered small ink specks and dots in the middle of the page. They are not text."
+      },
+      {
+        "bbox": [
+          170,
+          4400,
+          320,
+          250
+        ],
+        "description": "Faint curved strokes near the bottom edge of the page. These may be paper marks or stray strokes."
+      },
+      {
+        "bbox": [
+          330,
+          550,
+          2800,
+          3800
+        ],
+        "description": "Very faint mirror-image show-through of writing from the other side of the leaf (fol. 72), across the ruled lines. It is not target-page writing."
+      }
+    ],
+    "boundary_notes": [
+      "Gutter at about x=3160-3175. Material to the right of it belongs to the facing fol. 73 and is not transcribed here. That material includes a bracket, 'This is ...', 'h?', 'i/?', '< > adde...', circle marks and an arrow, and it matches fol. 73's left margin.",
+      "Line b002 stands alone without a shelfmark or title. It may be a continuation or annotation belonging to an entry on an adjacent page, but its parent cannot be determined from this page."
+    ],
+    "uncertainties": [
+      "In b002, the readings 'H.Pr.S.' and 'opening verse' are uncertain because of cursive letterforms. 'numbered' is also not certain.",
+      "The faint show-through cannot be cleanly separated from very faint pencil on the target page. No independent faint pencil text was identified."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "72b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "72b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top left corner. The 'b' is raised after '72' and has a small dot or mark beneath it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "descriptive_note_without_heading",
+        "literal_text": "ff.1-6 (also numbered 140-145), inc. Apparently same as H.Pr.S., I, 108; but opening verse differs.",
+        "fields": {
+          "extent": "ff.1-6 (also numbered 140-145), inc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line in the lower part of the page, written on a ruled line. There is no shelfmark or title on this page.",
+          "A small ink dot stands above the start of the line, at about [490,3405]."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 143,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "an entry on fol. 72 (facing recto); specific entry not determinable",
+            "evidence": "This is a verso note with no heading. Such notes may supplement an entry on a facing page, but nothing on the target page links it to a specific entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'numbered' is a cursive reading.",
+          "'H.Pr.S.' is an uncertain reading; the letters may be 'H.Pr.S.' or similar.",
+          "'opening' is uncertain; the letterforms look like 'opening' (written loosely, like 'openiy').",
+          "The parent entry cannot be determined from this page."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Sole text line on the page. Its attachment to a parent entry is unresolved."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and one note line, the page is blank on image review.",
+      "Faint mirror-image show-through from the reverse side (fol. 72) is visible across the ruled area. It was not transcribed.",
+      "Non-text marks: a faint curved stroke at the left edge near y≈2930-3100; scattered ink specks in the middle of the page; and faint curved strokes near the bottom edge (about x 1780-2360, y 4760-4840). These are possibly paper marks or stray strokes.",
+      "Material to the right of the gutter (x≈3160 onward) belongs to fol. 73 and was not transcribed. It includes a bracket, 'This is…', 'h?', 'i/?', '< > adde…', circles and an arrow."
+    ],
+    "unresolved_relationships": [
+      "r002 has no shelfmark or title. Its parent entry, whether on fol. 72, fol. 73 or elsewhere, cannot be determined from this page."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "An ink folio number '72' with a raised 'b' and a small dot beneath is at the top left, at about [385,330,145,140]. r001 is accurate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single ink line runs across the lower page at about [365,3455,2600,115]. The candidate text matches the source closely. 'opening' is a loose cursive form, like 'Speniy', so it should be flagged in literal_text. The tail 'ns.' of 'differs.' also appears at the left edge of the fol. 73 overview at the same height, which confirms the line's position relative to the facing page. The candidate's attachment to fol. 72 is unsound, because fol. 72 is the reverse of this leaf, not the facing page. Evidence on fol. 73 points instead to an arrow-marked entry there."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff.1-6 (also numbered 140-145), inc. Apparently same as H.Pr.S., I, 108; but opening verse differs.",
+        "after": "ff.1-6 (also numbered 140-145), inc. Apparently same as H.Pr.S., I, 108; but [opening?] verse differs.",
+        "reason": "The cursive form looks like 'Speniy'. The reading is plausible but not secure, so it is flagged in the literal text as well as in uncertainties.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 143,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "an entry on fol. 72 (facing recto); specific entry not determinable",
+            "evidence": "This is a verso note with no heading. Such notes may supplement an entry on a facing page, but nothing on the target page links it to a specific entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 145,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "fol. 73 left-margin arrow beside the entry with shelfmark 'b. 99(6)' (title read in the adjacent overview as approximately 'Grahayāgavidhi'; adjacent-page reading not verified at native resolution)",
+            "evidence": "Fol. 73 is the facing page. Its left margin has a left-pointing arrow '←' between two small circle marks, at about native y≈3500-3540. This is the same height as the target line, and the arrow points across the gutter toward this note. Fol. 72 is the reverse side of this leaf (seen here as show-through), not the facing page.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The candidate's 'facing recto' attribution is physically wrong. The adjacent fol. 73 image shows an arrow that probably links this note to the b. 99(6) entry.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The attachment to the fol. 73 entry with shelfmark 'b. 99(6)' rests on the arrow and on matching height. The exact title and shelfmark on fol. 73 were read only from the reduced adjacent overview.",
+        "next_check": "Inspect fol. 73's left margin and the b. 99(6) line at native resolution. Check whether the circles and arrow refer to this note, and whether ff.1-6 (140-145) is consistent with that entry."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The readings 'H.Pr.S.' and 'opening' remain cursive and uncertain.",
+        "next_check": "Compare the letterforms with the same hand elsewhere in the catalogue."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3160-3175. Right of it, fol. 73 left-margin material is visible: a bracket, 'This is …', 'h?', 'i/?', '< > adde…', two circles and an arrow. It belongs to fol. 73 and is correctly excluded. That arrow probably points to b002 on this page. Faint mirror-image writing across the ruled area is show-through from fol. 72 on the reverse of the leaf, not target text.",
+    "region_review": {
+      "top": "The only writing is the folio number 72b. The rest is ruled lines and show-through.",
+      "middle": "There are no target-page text lines. Ink specks lie at about y≈1740, around x 415-450 at y≈2150-2240, and around x 950-1650 at y≈2430-2510. The inventory bbox for the specks ([960,1720,...]) understates this spread. None of the specks is text.",
+      "bottom": "The b002 line is at y≈3455-3570, with a small dot above its start at about [490,3410]. Faint curved strokes appear near the bottom edge, at about x 1780-2360 and y 4750-4840, as the candidate states. The inventory bbox [170,4400,...] for these strokes is mislocated. They are not text.",
+      "left_margin": "A faint curved stroke is at about x 310-370 and y 2930-3100. It is unattached and not text.",
+      "right_margin": "There is no target writing before the gutter. The material beyond the gutter belongs to fol. 73.",
+      "interlinear": "No interlinear additions or cancellations were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        330,
+        145,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "72b",
+      "features": [
+        "top left corner",
+        "superscript or raised 'b' after '72'",
+        "ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        365,
+        3455,
+        2600,
+        115
+      ],
+      "kind_hint": "marginal_or_unattached_note_continuation",
+      "anchor": "ff.1-6 (also numbered 140-145), inc. Apparently same as H.Pr.S., I, 108; but [opening?] verse differs.",
+      "features": [
+        "single handwritten line in ink on the lower part of the page",
+        "no shelfmark or title on this line",
+        "descriptive note on foliation and completeness, with a bibliographic comparison",
+        "parent entry not identifiable on this page",
+        "small ink dot above its start at about [490,3405]"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "72b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top left corner. The 'b' is raised after '72' and has a small dot or mark beneath it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0144-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "descriptive_note_without_heading",
+      "literal_text": "ff.1-6 (also numbered 140-145), inc. Apparently same as H.Pr.S., I, 108; but opening verse differs.",
+      "fields": {
+        "extent": "ff.1-6 (also numbered 140-145), inc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line in the lower part of the page, written on a ruled line. There is no shelfmark or title on this page.",
+        "A small ink dot stands above the start of the line, at about [490,3405]."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 143,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "an entry on fol. 72 (facing recto); specific entry not determinable",
+          "evidence": "This is a verso note with no heading. Such notes may supplement an entry on a facing page, but nothing on the target page links it to a specific entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'numbered' is a cursive reading.",
+        "'H.Pr.S.' is an uncertain reading; the letters may be 'H.Pr.S.' or similar.",
+        "'opening' is uncertain; the letterforms look like 'opening' (written loosely, like 'openiy').",
+        "The parent entry cannot be determined from this page."
+      ],
+      "stable_id": "css-prod-0144-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff.1-6 (also numbered 140-145), inc. Apparently same as H.Pr.S., I, 108; but opening verse differs.",
+      "after": "ff.1-6 (also numbered 140-145), inc. Apparently same as H.Pr.S., I, 108; but [opening?] verse differs.",
+      "reason": "The cursive form looks like 'Speniy'. The reading is plausible but not secure, so it is flagged in the literal text as well as in uncertainties.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 143,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "an entry on fol. 72 (facing recto); specific entry not determinable",
+          "evidence": "This is a verso note with no heading. Such notes may supplement an entry on a facing page, but nothing on the target page links it to a specific entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 145,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 73 left-margin arrow beside the entry with shelfmark 'b. 99(6)' (title read in the adjacent overview as approximately 'Grahayāgavidhi'; adjacent-page reading not verified at native resolution)",
+          "evidence": "Fol. 73 is the facing page. Its left margin has a left-pointing arrow '←' between two small circle marks, at about native y≈3500-3540. This is the same height as the target line, and the arrow points across the gutter toward this note. Fol. 72 is the reverse side of this leaf (seen here as show-through), not the facing page.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The candidate's 'facing recto' attribution is physically wrong. The adjacent fol. 73 image shows an arrow that probably links this note to the b. 99(6) entry.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/dcd3f59f-e52f-4852-932c-ce3a107a1b45.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcd3f59f-e52f-4852-932c-ce3a107a1b45/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "377f69e22f222d6895cc87f6dd569d51c2fa9b4b604c2c1ac668622f9df22f2f",
+      "bytes": 246292,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcd3f59f-e52f-4852-932c-ce3a107a1b45/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7f6de44707d50437e35960d2ae94313f9886e9e74d8371387aac9e3b2130dc3d",
+      "bytes": 294628,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcd3f59f-e52f-4852-932c-ce3a107a1b45/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2f0c5fd285a150db91c90de84744f87c2ab92daa21b7751a89a7646994a270f3",
+      "bytes": 295618,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcd3f59f-e52f-4852-932c-ce3a107a1b45/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ed98004fe9a8027b9c925996779f0cb31b75d3f036050fb6167a16034f5c5cc6",
+      "bytes": 296926,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcd3f59f-e52f-4852-932c-ce3a107a1b45/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e88d5aa201717e627803ce2f6abf3de45e8287e891466043998ef4a201410e0e",
+      "bytes": 283518,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcd3f59f-e52f-4852-932c-ce3a107a1b45/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "743e616a113fcc308c882621dd010503dd29d9b307a6a2c703a078e50fb87eb8",
+      "bytes": 308817,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcd3f59f-e52f-4852-932c-ce3a107a1b45/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cb3913e506489eec271393b688682921853c60b70cd969b344e3b6fe3bb86c3c",
+      "bytes": 318450,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4dac2d22-f49a-4c6a-9024-000331960c63/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "43b14502fded1ccfbcda1e911ec9c932b8e87dafcd93d3de3f0aa95eccbf1b0c",
+      "bytes": 277509,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 143,
+      "folio_label": "fol. 72",
+      "page_id": "4dac2d22-f49a-4c6a-9024-000331960c63",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e844fd42-56b5-4159-a3d3-0b599cf55430/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4c159a6e99981ae29ea4d113bafa9fd4ef936e4963d2e87a2cdde6e34b29dcce",
+      "bytes": 276356,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 145,
+      "folio_label": "fol. 73",
+      "page_id": "e844fd42-56b5-4159-a3d3-0b599cf55430",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

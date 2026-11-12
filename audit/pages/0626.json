@@ -1,0 +1,518 @@
+{
+  "source_order": 626,
+  "folio_label": "fol. 313b",
+  "page_id": "47dd0284-01b5-4dfa-a9d8-a36f7c39d2de",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "313b",
+    "principal_page_bbox": [
+      335,
+      262,
+      2790,
+      4540
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          415,
+          300,
+          170,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "313b",
+        "features": [
+          "written in ink or dark pencil at the top of the left margin",
+          "'b' written as a superscript after '313'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          550,
+          390,
+          140,
+          140
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "[illegible]",
+        "features": [
+          "very faint pencil marks below the folio number",
+          "possibly an erased number, perhaps '3[?]4'",
+          "left margin"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          915,
+          300,
+          230,
+          400
+        ],
+        "description": "Dark speckled stain or smudge just right of the vertical margin rule near the top. It is not legible text."
+      },
+      {
+        "bbox": [
+          400,
+          700,
+          3100,
+          4000
+        ],
+        "description": "Mirror-image show-through across the ruled area. It appears to come from the writing on the recto, fol. 313: shelfmarks in the margin column and entries in the main column. It is not written on this page."
+      },
+      {
+        "bbox": [
+          2000,
+          2510,
+          450,
+          140
+        ],
+        "description": "Small dark scratch-like vertical marks in the middle of the page, about y≈2560–2620. They do not appear to be text."
+      },
+      {
+        "bbox": [
+          2300,
+          4290,
+          40,
+          40
+        ],
+        "description": "Isolated dark dot (ink spot) near the lower part of the page."
+      }
+    ],
+    "boundary_notes": [
+      "All visible handwriting in the ruled body is reversed show-through from the recto, fol. 313. It is not transcribed as target-page content.",
+      "The left margin column and the main column contain no original entries on this verso, apart from the folio label."
+    ],
+    "uncertainties": [
+      "b002 may be erased pencil or show-through rather than a deliberate note. Its reading is uncertain.",
+      "The show-through is faint enough that very faint original pencil could be masked. No such pencil was identified on inspection."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "313b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "313b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in dark ink or pencil at the top of the left margin column, at about native x 415–585, y 300–440.",
+          "The 'b' is written as a raised superscript after '313'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "faint_marks_possible_show_through",
+        "literal_text": "[illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Very faint grey marks below the folio number in the left margin, at about native y 400–520. There is a short dash-like stroke and a faint group of characters that might be read as '3[?]4'.",
+          "Their position matches where the recto's top-right folio number '313' and the cancelled mark beneath it would show through, mirrored, onto the top-left of this verso."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It cannot be determined whether these are show-through from fol. 313, an erased pencil number, or a deliberate note. The reading is uncertain, and no text is asserted."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio label of the target page."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Faint marks of uncertain nature, probably show-through. Kept as an unattached annotation and left untranscribed."
+      }
+    ],
+    "page_annotations": [
+      "The page was reviewed at native resolution in all tiles: top, middle, bottom, both margins and the interlinear spaces. Apart from the folio label '313b', no original catalogue entries were found on this verso.",
+      "All faint handwriting in the ruled area is mirror-image show-through of the entries on the recto (fol. 313, source order 625). It is not transcribed as target content.",
+      "Non-text marks include: a dark speckled stain right of the margin rule near the top (about x 915–1145, y 300–700); small scratch-like vertical marks mid-page (about x 2000–2450, y 2510–2650); an isolated ink dot near the bottom (about x 2310, y 4310); and edge wear at the bottom and outer margins."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The source image shows '313' in dark ink or pencil at the top of the left margin column, at about x 420–580, y 300–440. A raised superscript letter follows it, consistent with 'b'. This matches the supplied folio label 'fol. 313b'. The candidate's literal text and position are accurate."
+      },
+      {
+        "block_id": "b002",
+        "status": "uncertain",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "There are very faint grey marks at about x 555–680, y 400–530: a short dash or box-like stroke above, and a faint group of numerals below. Their position mirrors the recto's top-right folio number '313', which has a dark cancelled scribble beneath it. That mirrored position is about x 3508−2935 ≈ 570, y ≈ 390–450. Show-through is therefore plausible, but erased pencil cannot be excluded. The candidate correctly keeps this uncertain and asserts no text."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The faint marks below the folio number may be mirrored show-through of the recto's '313' and its cancelled mark, or an erased pencil number on this verso. No secure reading is possible.",
+        "next_check": "Compare against the recto under transmitted light or with the physical leaf, to see whether the marks lie on the verso surface."
+      }
+    ],
+    "boundary_review": "Only the target verso is present. All faint writing in the ruled body is mirror-image show-through from the recto, fol. 313. It is consistent with the recto layout: shelfmarks in the margin column and entries in the main column. None of it is treated as target content. No fragment of a facing page is visible within the canvas. Adjacent fol. 314 is context only.",
+    "region_review": {
+      "top": "There is the folio label '313b' (b001) and faint marks below it (b002, uncertain). A dark speckled stain sits right of the margin rule, at about x 915–1145, y 300–700. It is not text.",
+      "middle": "The area contains only reversed show-through and small vertical scratch-like marks at about x 2000–2280, y 2490–2620. It also has scattered specks. No original entries were found.",
+      "bottom": "The area has reversed show-through, an isolated ink dot at about x 2310, y 4310, and edge wear and specks along the bottom edge. There is no bottom note.",
+      "left_margin": "The margin column holds only b001 and b002, plus faint mirrored shelfmark show-through and some faint diagonal scratches near y 3950–4550. These are not text.",
+      "right_margin": "The outer edge is worn, with a few dark specks near y 1060–1250. There is no writing.",
+      "interlinear": "No original interlinear additions were seen. All faint interlinear traces are show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        415,
+        300,
+        170,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "313b",
+      "features": [
+        "written in ink or dark pencil at the top of the left margin",
+        "'b' written as a superscript after '313'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        550,
+        390,
+        140,
+        140
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "[illegible]",
+      "features": [
+        "very faint pencil marks below the folio number",
+        "possibly an erased number, perhaps '3[?]4'",
+        "left margin"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "313b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in dark ink or pencil at the top of the left margin column, at about native x 415–585, y 300–440.",
+        "The 'b' is written as a raised superscript after '313'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0626-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "faint_marks_possible_show_through",
+      "literal_text": "[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Very faint grey marks below the folio number in the left margin, at about native y 400–520. There is a short dash-like stroke and a faint group of characters that might be read as '3[?]4'.",
+        "Their position matches where the recto's top-right folio number '313' and the cancelled mark beneath it would show through, mirrored, onto the top-left of this verso."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It cannot be determined whether these are show-through from fol. 313, an erased pencil number, or a deliberate note. The reading is uncertain, and no text is asserted."
+      ],
+      "stable_id": "css-prod-0626-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/47dd0284-01b5-4dfa-a9d8-a36f7c39d2de.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47dd0284-01b5-4dfa-a9d8-a36f7c39d2de/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "516420cd0b87ee875da99702ced61de4545ec1bb5ee373f9f2bc611b136f7c02",
+      "bytes": 281385,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47dd0284-01b5-4dfa-a9d8-a36f7c39d2de/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a048c52a47a11df399c78948157258e8284e523b9c7fe77169743b0aa5f63461",
+      "bytes": 360539,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47dd0284-01b5-4dfa-a9d8-a36f7c39d2de/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5e84dc25e058b28df0e161f41bf3ba6955c998e927602db1eea4a7db3ad033e4",
+      "bytes": 335987,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47dd0284-01b5-4dfa-a9d8-a36f7c39d2de/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0dc76826d50665ac18698537e229fafcf6489b3640db0b32bede3634d01a5507",
+      "bytes": 351732,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47dd0284-01b5-4dfa-a9d8-a36f7c39d2de/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0f3f3344b884eec6cbf8e23cf7ab5958165683f13ca7e2ef00f15ea44d66ef86",
+      "bytes": 356587,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47dd0284-01b5-4dfa-a9d8-a36f7c39d2de/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2f8cad58722f6071713d04e6ab6655ea07b4914dbbf372388aa4c0834eceff93",
+      "bytes": 335823,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47dd0284-01b5-4dfa-a9d8-a36f7c39d2de/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7a6486d0ed30d46206faccacbccae5747ebd7dd4f8ef91e3ae78faa7225e6a71",
+      "bytes": 354340,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0a7977fb-3583-4c3c-9f7c-985002868ad6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "fa4749f3ad9b1f0f5f4569c590080b2febfea11f667fdaa79828f5ed98c3de80",
+      "bytes": 354910,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 625,
+      "folio_label": "fol. 313",
+      "page_id": "0a7977fb-3583-4c3c-9f7c-985002868ad6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eb03cef1-f6ba-4c2a-a07f-a963b4379dde/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a79168650a91223078f4c40161d9a36b078e5e5ccafbd5400347de77a73f69c6",
+      "bytes": 319381,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 627,
+      "folio_label": "fol. 314",
+      "page_id": "eb03cef1-f6ba-4c2a-a07f-a963b4379dde",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

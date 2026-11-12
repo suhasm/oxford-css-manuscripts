@@ -1,0 +1,1679 @@
+{
+  "source_order": 562,
+  "folio_label": "fol. 281b",
+  "page_id": "f7f8ad57-a361-4cb9-9e5d-4c326290ea5c",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "281b",
+    "principal_page_bbox": [
+      290,
+      290,
+      2830,
+      4566
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          325,
+          355,
+          145,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "281b.",
+        "features": [
+          "top-left corner",
+          "ink",
+          "'b' written superscript after 281"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          560,
+          1530,
+          2250,
+          125
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand) in two hands; pt. iii ends on 59b",
+        "features": [
+          "single ink line",
+          "no shelfmark or title on this page",
+          "left-pointing arrow at right [2970,1575,105,30] points toward the facing page",
+          "'59b' appears to be followed by a short underline or stroke",
+          "reading of several words is uncertain",
+          "likely an addition to an entry on the facing fol. 282, but this is not verified"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1425,
+          3450,
+          955,
+          120
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 1-4, Scribe Bālakṛṣṇa Gurjara",
+        "features": [
+          "ink",
+          "dots under letters in 'Bālakṛṣṇa' (subscript diacritics)",
+          "left-pointing arrow at right [3010,3475,75,35] points toward the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          1880,
+          4020,
+          765,
+          130
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "Scribe Ṭhākuradāsa Śarman",
+        "features": [
+          "lighter ink or pencil",
+          "diacritics: macrons, an underdot under the T, and an accent on the S",
+          "left-pointing arrow at right [2930,4070,100,35] points toward the facing page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          675,
+          1218,
+          15,
+          15
+        ],
+        "description": "small ink dot, upper-middle left"
+      },
+      {
+        "bbox": [
+          3005,
+          2415,
+          20,
+          18
+        ],
+        "description": "small ink dot near the right edge"
+      },
+      {
+        "bbox": [
+          600,
+          3305,
+          85,
+          60
+        ],
+        "description": "faint specks or smudges in the left margin area; not legible text"
+      },
+      {
+        "bbox": [
+          290,
+          600,
+          2830,
+          3900
+        ],
+        "description": "show-through of reversed text from the other side of the leaf across the ruled lines; not transcribed"
+      }
+    ],
+    "boundary_notes": [
+      "The strip right of the gutter (x>~3150) belongs to the facing fol. 282. It carries its shelfmark ticks and letters ('√d', 'c', 'e') and short dashes at about y 1590, 3490 and 4090. These are not target-page records.",
+      "The three arrows on the target page point right, toward the facing-page lines. The notes therefore probably supplement entries on fol. 282, but no parent entry is visible on this page."
+    ],
+    "uncertainties": [
+      "Exact wording of b002 is uncertain, including 'unf.', 'm. 36-45', 'join' and 'pt. iii'.",
+      "b004 may be in pencil rather than ink."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "281b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "281b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in ink in the top-left corner; the 'b' is superscript after 281."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "added_physical_description",
+        "literal_text": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand) in two hands; pt. iii ends on 59b",
+        "fields": {
+          "extent": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line with no shelfmark or title.",
+          "A left-pointing arrow at the right [2970,1575,105,30] points toward the gutter and the facing fol. 282.",
+          "A short stroke or underline follows '59b'.",
+          "The '&' is written as a small looped sign and could be read as 'v'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 563,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d. 109 (3) (ditto line under Śulba Sūtra)",
+            "evidence": "This note is at the same height (y≈1590) as the fol. 282 line that has a left arrow and dash in its margin.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'unf.', 'm. 36-45', 'join', '&' and 'pt. iii' are uncertain.",
+          "The attachment to fol. 282 is inferred from the arrow and the line height, not stated in the note."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "added_extent_and_scribe",
+        "literal_text": "ff. 1-4, Scribe Bālakṛṣṇa Gurjara",
+        "fields": {
+          "extent": "ff. 1-4"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "Underdots are written in 'Bālakṛṣṇa'.",
+          "A left-pointing arrow at the right [3010,3475,75,35] points toward the facing fol. 282.",
+          "Bālakṛṣṇa Gurjara is named as scribe, not author."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 563,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d. 117(1) Śūdrasya Sarvasādhāraṇaśrāddhaprayoga",
+            "evidence": "The fol. 282 line at the same height (y≈3480) has an arrow and dash in its left margin.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Scribe' is written in an abbreviated or cursive form ('Scrib'?).",
+          "'Gurjara' is the probable reading."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "added_scribe",
+        "literal_text": "Scribe Ṭhākuradāsa Śarman",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Lighter ink or possibly pencil.",
+          "A left-pointing arrow at the right [2930,4070,100,35] points toward the facing fol. 282.",
+          "Ṭhākuradāsa Śarman is named as scribe, not author."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 563,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 399 Śṛṅgāratilaka. By Kālidāsa",
+            "evidence": "The fol. 282 line at the same height (y≈4095) has an arrow and dash in its left margin.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Scribe' is written cursively ('Scribe'/'Scrib').",
+          "The medium may be pencil."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Added note, probably supplementing an entry on fol. 282."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Added note, probably supplementing an entry on fol. 282."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Added note, probably supplementing an entry on fol. 282."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper with show-through of reversed text from the other side of the leaf; that text is not transcribed.",
+      "There are small ink dots at about [675,1218] and [3005,2415] and faint specks at about [600,3305]; none is legible text.",
+      "The strip right of the gutter shows ticks and letters from the facing fol. 282; these are not target-page records."
+    ],
+    "unresolved_relationships": [
+      "The parent entries for r002–r004 on fol. 282 are inferred from the arrows and line heights only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio label '281b.' is in the top-left corner, with a superscript 'b' and a following point. r001 is adequate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is a single ink line at y≈1530–1655. The candidate wording broadly matches. The connective between 'second' and 'first' is a v-shaped sign that the candidate silently gives as '&'. The arrow at the right points LEFT, toward the note text and away from the gutter, not toward fol. 282 as the candidate states. On fol. 282, a left-pointing arrow and a dash in the left margin at about the same height point back toward this note."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The ink note reads 'ff[.?]1-4, Scrib[e?] Bālakṛṣṇa Gurjara' (or 'Gurjare'). The second word is visibly written as abbreviated 'Scrib'. The arrow points left, toward the note and away from the gutter. A left arrow and a dash on fol. 282 at y≈3480 face it from the facing page."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The note is in lighter ink or pencil and reads 'Scribe Ṭhākuradāsa Śarman'. There is an underdot under the T, macrons over the 'ā' vowels and an accent over the S. The arrow points left, toward the note and away from the gutter. A left arrow and a dash on fol. 282 at y≈4090 face it."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand) in two hands; pt. iii ends on 59b",
+        "after": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand) in two hands; pt. iii ends on 59b",
+        "reason": "The connective is a v-shaped sign. '&' is an interpretation and should be marked uncertain in the literal text.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "fields.extent",
+        "before": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand)",
+        "after": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand)",
+        "reason": "Brings the field into line with the uncertain connective in the literal text.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Single ink line with no shelfmark or title.",
+          "A left-pointing arrow at the right [2970,1575,105,30] points toward the gutter and the facing fol. 282.",
+          "A short stroke or underline follows '59b'.",
+          "The '&' is written as a small looped sign and could be read as 'v'."
+        ],
+        "after": [
+          "Single ink line with no shelfmark or title.",
+          "A left-pointing arrow at the right [2970,1575,105,30] points left, toward the note text and away from the gutter. On fol. 282, a corresponding left-pointing arrow and a dash in the left margin at about the same height point back toward this page.",
+          "A short stroke or underline follows '59b'.",
+          "The connective between 'second' and 'first' is a small v-shaped or looped sign, transcribed as [&?]."
+        ],
+        "reason": "The arrow direction was misdescribed. A left-pointing arrow at the right edge of the target page points away from the gutter.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff. 1-4, Scribe Bālakṛṣṇa Gurjara",
+        "after": "ff. 1-4, Scrib[e?] Bālakṛṣṇa Gurjara[?]",
+        "reason": "The word is visibly written in abbreviated form ('Scrib'), and the final vowel of the last word is uncertain ('Gurjara' or 'Gurjare'). The candidate's own uncertainties should be carried into the literal text.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Ink.",
+          "Underdots are written in 'Bālakṛṣṇa'.",
+          "A left-pointing arrow at the right [3010,3475,75,35] points toward the facing fol. 282.",
+          "Bālakṛṣṇa Gurjara is named as scribe, not author."
+        ],
+        "after": [
+          "Ink.",
+          "Underdots are written in 'Bālakṛṣṇa'.",
+          "A left-pointing arrow at the right [3010,3475,75,35] points left, toward the note and away from the gutter. A corresponding left arrow and a dash in the left margin of fol. 282 at about the same height face it.",
+          "Bālakṛṣṇa Gurjara is named as scribe, not author."
+        ],
+        "reason": "Corrects the description of the arrow direction.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "Lighter ink or possibly pencil.",
+          "A left-pointing arrow at the right [2930,4070,100,35] points toward the facing fol. 282.",
+          "Ṭhākuradāsa Śarman is named as scribe, not author."
+        ],
+        "after": [
+          "Lighter ink or possibly pencil.",
+          "A left-pointing arrow at the right [2930,4070,100,35] points left, toward the note and away from the gutter. A corresponding left arrow and a dash in the left margin of fol. 282 at about the same height face it.",
+          "Underdot below the initial T; accent mark above the S of Śarman.",
+          "Ṭhākuradāsa Śarman is named as scribe, not author."
+        ],
+        "reason": "Corrects the arrow direction and records where the diacritic marks are written.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "secure"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The readings 'unf.', 'm. 36-45', 'join', 'pt. iii' and the connective remain uncertain. The attachment to fol. 282 √d. 109 (3) rests only on matching arrows and dashes at the same line height.",
+        "next_check": "Compare with the hand elsewhere in the catalogue, and with the fol. 282 entry at native resolution."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "It is uncertain whether the last word is 'Gurjara' or 'Gurjare', and whether 'ff' is followed by a point or a hyphen. The attachment to fol. 282 √d. 117(1) is probable only.",
+        "next_check": "Check the native image of fol. 282 at y≈3480 and the final letters of the note."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The medium (pencil or ink) is uncertain. The attachment to fol. 282 √c. 399 is probable only.",
+        "next_check": "Check the native image of fol. 282 at y≈4090."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3130–3150. Ticks and letters (√d, c, e, d) and dashes at y≈1590, 3490 and 4090 to the right of it belong to fol. 282 and are not target records. The three target arrows point left, away from the gutter. The fol. 282 marginal arrows point left toward this page. This supports, but does not prove, that the notes are attached to fol. 282 entries. No parent entry is on the target page.",
+    "region_review": {
+      "top": "Only the folio label '281b.' is present; the remainder is blank ruled paper.",
+      "middle": "Note b002 at y≈1590 is the only text. Small ink dots at about [675,1218] and [3005,2415] are not text. Show-through of reversed text is not transcribed.",
+      "bottom": "Notes b003 (y≈3490) and b004 (y≈4070) are present. Below about y 4150, only show-through is visible to the page edge at about y 4850.",
+      "left_margin": "There are faint specks at about [600,3305]; they are not legible and are not text.",
+      "right_margin": "There are three left-pointing arrows at the ends of the note lines. The facing-page dashes and ticks lie beyond the gutter.",
+      "interlinear": "No interlinear additions or cancellations were found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        325,
+        355,
+        145,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "281b.",
+      "features": [
+        "top-left corner",
+        "ink",
+        "'b' written superscript after 281"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        560,
+        1530,
+        2250,
+        125
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand) in two hands; pt. iii ends on 59b",
+      "features": [
+        "single ink line",
+        "no shelfmark or title on this page",
+        "left-pointing arrow at right [2970,1575,105,30] points toward the facing page",
+        "'59b' appears to be followed by a short underline or stroke",
+        "reading of several words is uncertain",
+        "likely an addition to an entry on the facing fol. 282, but this is not verified"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1425,
+        3450,
+        955,
+        120
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 1-4, Scribe Bālakṛṣṇa Gurjara",
+      "features": [
+        "ink",
+        "dots under letters in 'Bālakṛṣṇa' (subscript diacritics)",
+        "left-pointing arrow at right [3010,3475,75,35] points toward the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        1880,
+        4020,
+        765,
+        130
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "Scribe Ṭhākuradāsa Śarman",
+      "features": [
+        "lighter ink or pencil",
+        "diacritics: macrons, an underdot under the T, and an accent on the S",
+        "left-pointing arrow at right [2930,4070,100,35] points toward the facing page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "281b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in ink in the top-left corner; the 'b' is superscript after 281."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0562-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "added_physical_description",
+      "literal_text": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand) in two hands; pt. iii ends on 59b",
+      "fields": {
+        "extent": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line with no shelfmark or title.",
+        "A left-pointing arrow at the right [2970,1575,105,30] points left, toward the note text and away from the gutter. On fol. 282, a corresponding left-pointing arrow and a dash in the left margin at about the same height point back toward this page.",
+        "A short stroke or underline follows '59b'.",
+        "The connective between 'second' and 'first' is a small v-shaped or looped sign, transcribed as [&?]."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 563,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d. 109 (3) (ditto line under Śulba Sūtra)",
+          "evidence": "This note is at the same height (y≈1590) as the fol. 282 line that has a left arrow and dash in its margin.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'unf.', 'm. 36-45', 'join', the v-shaped connective ([&?]) and 'pt. iii' are uncertain.",
+        "The punctuation after 'hands' may be ';' or ','.",
+        "The attachment to fol. 282 is inferred from the arrow and the line height, not stated in the note."
+      ],
+      "stable_id": "css-prod-0562-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "added_extent_and_scribe",
+      "literal_text": "ff. 1-4, Scribe Bālakṛṣṇa Gurjara",
+      "fields": {
+        "extent": "ff. 1-4"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "Underdots are written in 'Bālakṛṣṇa'.",
+        "A left-pointing arrow at the right [3010,3475,75,35] points left, toward the note and away from the gutter. A corresponding left arrow and a dash in the left margin of fol. 282 at about the same height face it.",
+        "Bālakṛṣṇa Gurjara is named as scribe, not author."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 563,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d. 117(1) Śūdrasya Sarvasādhāraṇaśrāddhaprayoga",
+          "evidence": "The fol. 282 line at the same height (y≈3480) has an arrow and dash in its left margin.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Scribe' is written in an abbreviated or cursive form ('Scrib'?).",
+        "The final vowel of the last word may be read as 'Gurjara' or 'Gurjare'.",
+        "The mark after 'ff' may be a point or a hyphen.",
+        "The attachment to fol. 282 √d. 117(1) is probable only, resting on the alignment of the arrow and dash."
+      ],
+      "stable_id": "css-prod-0562-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "added_scribe",
+      "literal_text": "Scribe Ṭhākuradāsa Śarman",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Lighter ink or possibly pencil.",
+        "A left-pointing arrow at the right [2930,4070,100,35] points left, toward the note and away from the gutter. A corresponding left arrow and a dash in the left margin of fol. 282 at about the same height face it.",
+        "Underdot below the initial T; accent mark above the S of Śarman.",
+        "Ṭhākuradāsa Śarman is named as scribe, not author."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 563,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 399 Śṛṅgāratilaka. By Kālidāsa",
+          "evidence": "The fol. 282 line at the same height (y≈4095) has an arrow and dash in its left margin.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Scribe' is written cursively ('Scribe'/'Scrib').",
+        "The medium may be pencil."
+      ],
+      "stable_id": "css-prod-0562-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand) in two hands; pt. iii ends on 59b",
+      "after": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand) in two hands; pt. iii ends on 59b",
+      "reason": "The connective is a v-shaped sign. '&' is an interpretation and should be marked uncertain in the literal text.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.extent",
+      "before": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand)",
+      "after": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand)",
+      "reason": "Brings the field into line with the uncertain connective in the literal text.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Single ink line with no shelfmark or title.",
+        "A left-pointing arrow at the right [2970,1575,105,30] points toward the gutter and the facing fol. 282.",
+        "A short stroke or underline follows '59b'.",
+        "The '&' is written as a small looped sign and could be read as 'v'."
+      ],
+      "after": [
+        "Single ink line with no shelfmark or title.",
+        "A left-pointing arrow at the right [2970,1575,105,30] points left, toward the note text and away from the gutter. On fol. 282, a corresponding left-pointing arrow and a dash in the left margin at about the same height point back toward this page.",
+        "A short stroke or underline follows '59b'.",
+        "The connective between 'second' and 'first' is a small v-shaped or looped sign, transcribed as [&?]."
+      ],
+      "reason": "The arrow direction was misdescribed. A left-pointing arrow at the right edge of the target page points away from the gutter.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 1-4, Scribe Bālakṛṣṇa Gurjara",
+      "after": "ff. 1-4, Scrib[e?] Bālakṛṣṇa Gurjara[?]",
+      "reason": "The word is visibly written in abbreviated form ('Scrib'), and the final vowel of the last word is uncertain ('Gurjara' or 'Gurjare'). The candidate's own uncertainties should be carried into the literal text.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Ink.",
+        "Underdots are written in 'Bālakṛṣṇa'.",
+        "A left-pointing arrow at the right [3010,3475,75,35] points toward the facing fol. 282.",
+        "Bālakṛṣṇa Gurjara is named as scribe, not author."
+      ],
+      "after": [
+        "Ink.",
+        "Underdots are written in 'Bālakṛṣṇa'.",
+        "A left-pointing arrow at the right [3010,3475,75,35] points left, toward the note and away from the gutter. A corresponding left arrow and a dash in the left margin of fol. 282 at about the same height face it.",
+        "Bālakṛṣṇa Gurjara is named as scribe, not author."
+      ],
+      "reason": "Corrects the description of the arrow direction.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "Lighter ink or possibly pencil.",
+        "A left-pointing arrow at the right [2930,4070,100,35] points toward the facing fol. 282.",
+        "Ṭhākuradāsa Śarman is named as scribe, not author."
+      ],
+      "after": [
+        "Lighter ink or possibly pencil.",
+        "A left-pointing arrow at the right [2930,4070,100,35] points left, toward the note and away from the gutter. A corresponding left arrow and a dash in the left margin of fol. 282 at about the same height face it.",
+        "Underdot below the initial T; accent mark above the S of Śarman.",
+        "Ṭhākuradāsa Śarman is named as scribe, not author."
+      ],
+      "reason": "Corrects the arrow direction and records where the diacritic marks are written.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand) in two hands; pt. iii ends on 59b",
+      "after": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand) in two hands; pt. iii ends on 59b",
+      "reason": "The connective is a v-shaped sign; reading it as '&' is an interpretation.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0562-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.extent",
+      "before": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand)",
+      "after": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand)",
+      "reason": "Brings the field into line with the literal text.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0562-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 1-4, Scribe Bālakṛṣṇa Gurjara",
+      "after": "ff. 1-4, Scrib[e?] Bālakṛṣṇa Gurjar[a/e?]",
+      "reason": "The word is written in abbreviated form, and the final vowel of the last word is ambiguous.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0562-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "'Scribe' is written in an abbreviated or cursive form ('Scrib'?).",
+        "'Gurjara' is the probable reading."
+      ],
+      "after": [
+        "'Scribe' is written in an abbreviated or cursive form ('Scrib'?).",
+        "The final vowel of the last word may be read as 'Gurjara' or 'Gurjare'.",
+        "The mark after 'ff' may be a point or a hyphen.",
+        "The attachment to fol. 282 √d. 117(1) is probable only, resting on the alignment of the arrow and dash."
+      ],
+      "reason": "Carries forward the fresh reread without resolving it from familiarity.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0562-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings 'unf.', 'm. 36-45', 'join', '&' and 'pt. iii' are uncertain.",
+        "The attachment to fol. 282 is inferred from the arrow and the line height, not stated in the note."
+      ],
+      "after": [
+        "The readings 'unf.', 'm. 36-45', 'join', the v-shaped connective ([&?]) and 'pt. iii' are uncertain.",
+        "The punctuation after 'hands' may be ';' or ','.",
+        "The attachment to fol. 282 is inferred from the arrow and the line height, not stated in the note."
+      ],
+      "reason": "Records the fresh reread, including the punctuation ambiguity.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0562-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The readings 'unf.', 'm. 36-45', 'join', 'pt. iii' and the connective remain uncertain. The attachment to fol. 282 √d. 109 (3) rests only on matching arrows and dashes at the same line height.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0562-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "It is uncertain whether the last word is 'Gurjara' or 'Gurjare', and whether 'ff' is followed by a point or a hyphen. The attachment to fol. 282 √d. 117(1) is probable only.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0562-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The medium (pencil or ink) is uncertain. The attachment to fol. 282 √c. 399 is probable only.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0562-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The connective is a v-shaped sign. '&' is an interpretation and should be marked uncertain in the literal text. Proposed literal_text: \"ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand) in two hands; pt. iii ends on 59b\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0562-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The word is visibly written in abbreviated form ('Scrib'), and the final vowel of the last word is uncertain ('Gurjara' or 'Gurjare'). The candidate's own uncertainties should be carried into the literal text. Proposed literal_text: \"ff. 1-4, Scrib[e?] Bālakṛṣṇa Gurjara[?]\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0562-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Brings the field into line with the uncertain connective in the literal text. Proposed fields.extent: \"ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand)\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0562-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The readings 'unf.', 'm. 36-45', 'join', '&' and 'pt. iii' are uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0562-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The attachment to fol. 282 is inferred from the arrow and the line height, not stated in the note.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0562-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'Scribe' is written in an abbreviated or cursive form ('Scrib'?).",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0562-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'Gurjara' is the probable reading.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0562-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0562-01",
+        "focus-0562-02",
+        "focus-0562-03",
+        "focus-0562-04",
+        "focus-0562-05",
+        "focus-0562-06",
+        "focus-0562-07",
+        "focus-0562-08",
+        "focus-0562-09",
+        "focus-0562-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0562-01",
+          "source_reading": "ff. 2-87 unf. (m. 36-45, gap at join between second [v-sign] first hand) in two hands; pt. iii ends on 59b",
+          "certainty": "uncertain",
+          "evidence": "In native tiles [0,0] and [1604,0] at y≈1590, 'unf.' is a cursive 'unf' followed by a point. 'm. 36-45' is legible except for the initial letter. 'join' is read as 'j' + 'oin' with a dot over the i. 'pt. iii' is read as 'pt.' followed by three short strokes. The punctuation after 'hands' could be ';' or ','. On fol. 282, a left arrow and a dash in the left margin are at the line of d. 109 (3). There is no written cross-reference."
+        },
+        {
+          "issue_id": "focus-0562-02",
+          "source_reading": "ff[.?/-?]1-4, Scrib[e?] Bālakṛṣṇa Gurjar[a/e?]",
+          "certainty": "uncertain",
+          "evidence": "In tile [0,3216] the 'ff' is followed by a short stroke at mid-height that looks more like a hyphen than a point. In tile [1604,3216] the final letter of the last word is an open loop that can be read as 'a' or as 'e'. Dots are written under the k, s and n of 'Bālakṛṣṇa'. The arrow and dash align with fol. 282 √d. 117(1)."
+        },
+        {
+          "issue_id": "focus-0562-03",
+          "source_reading": "Scribe Ṭhākuradāsa Śarman",
+          "certainty": "probable",
+          "evidence": "The strokes are finer and greyer than in b002 and b003, which suggests pencil, but this is not certain. A left arrow at about y≈4070 aligns with a dash and √c. 399 on fol. 282."
+        },
+        {
+          "issue_id": "focus-0562-04",
+          "source_reading": "second [v-shaped sign] first",
+          "certainty": "secure",
+          "evidence": "The connective is a small v. Reading it as '&' is an interpretation."
+        },
+        {
+          "issue_id": "focus-0562-05",
+          "source_reading": "Scrib[e?] … Gurjar[a/e?]",
+          "certainty": "uncertain",
+          "evidence": "The word ends in 'b' with a terminal flourish, so 'Scrib' is abbreviated or cursive. The final vowel of the last word is ambiguous."
+        },
+        {
+          "issue_id": "focus-0562-06",
+          "source_reading": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand)",
+          "certainty": "probable",
+          "evidence": "Same line as focus-0562-01."
+        },
+        {
+          "issue_id": "focus-0562-07",
+          "source_reading": "unf.[?] m. 36-45[?] join[?] [&?] pt. iii[?]",
+          "certainty": "uncertain",
+          "evidence": "Cursive hand; see focus-0562-01."
+        },
+        {
+          "issue_id": "focus-0562-08",
+          "source_reading": "No written attachment; only an arrow and dash alignment.",
+          "certainty": "secure",
+          "evidence": "The note contains no shelfmark or reference."
+        },
+        {
+          "issue_id": "focus-0562-09",
+          "source_reading": "Scrib[e?]",
+          "certainty": "probable",
+          "evidence": "The written form is abbreviated."
+        },
+        {
+          "issue_id": "focus-0562-10",
+          "source_reading": "Gurjar[a/e?]",
+          "certainty": "uncertain",
+          "evidence": "The final letter is an ambiguous loop. It may lean toward 'e', but this is not certain."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand) in two hands; pt. iii ends on 59b",
+          "after": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand) in two hands; pt. iii ends on 59b",
+          "reason": "The connective is a v-shaped sign; reading it as '&' is an interpretation.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "fields.extent",
+          "before": "ff. 2-87 unf. (m. 36-45, gap at join between second & first hand)",
+          "after": "ff. 2-87 unf. (m. 36-45, gap at join between second [&?] first hand)",
+          "reason": "Brings the field into line with the literal text.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff. 1-4, Scribe Bālakṛṣṇa Gurjara",
+          "after": "ff. 1-4, Scrib[e?] Bālakṛṣṇa Gurjar[a/e?]",
+          "reason": "The word is written in abbreviated form, and the final vowel of the last word is ambiguous.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "'Scribe' is written in an abbreviated or cursive form ('Scrib'?).",
+            "'Gurjara' is the probable reading."
+          ],
+          "after": [
+            "'Scribe' is written in an abbreviated or cursive form ('Scrib'?).",
+            "The final vowel of the last word may be read as 'Gurjara' or 'Gurjare'.",
+            "The mark after 'ff' may be a point or a hyphen.",
+            "The attachment to fol. 282 √d. 117(1) is probable only, resting on the alignment of the arrow and dash."
+          ],
+          "reason": "Carries forward the fresh reread without resolving it from familiarity.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "The readings 'unf.', 'm. 36-45', 'join', '&' and 'pt. iii' are uncertain.",
+            "The attachment to fol. 282 is inferred from the arrow and the line height, not stated in the note."
+          ],
+          "after": [
+            "The readings 'unf.', 'm. 36-45', 'join', the v-shaped connective ([&?]) and 'pt. iii' are uncertain.",
+            "The punctuation after 'hands' may be ';' or ','.",
+            "The attachment to fol. 282 is inferred from the arrow and the line height, not stated in the note."
+          ],
+          "reason": "Records the fresh reread, including the punctuation ambiguity.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "secure"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number '281b.'"
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "A single ink note line."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Scribe note, with an ambiguous final vowel."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Scribe note, in lighter strokes; the medium is uncertain."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0562-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The cursive readings and the attachment to fol. 282 d. 109 (3) remain unconfirmed.",
+          "next_check": "Compare with higher-resolution or original inspection."
+        },
+        {
+          "issue_id": "focus-0562-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "It is unresolved whether the last word is 'Gurjara' or 'Gurjare', whether the mark after 'ff' is a point or a hyphen, and whether the attachment is correct.",
+          "next_check": "Compare with the scribe's 'a' and 'e' forms elsewhere in the volume."
+        },
+        {
+          "issue_id": "focus-0562-03",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The medium (pencil or ink) cannot be determined from the image.",
+          "next_check": "Physical inspection, or examination under raking light."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "84562bc549596fb94e533db35c928f63b4754965c888c142848d3f126c0894d2",
+      "bytes": 264963,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8dbf7017a950e70099ba19a81947f46986d10aaece5689f475795aa7bcc47fe7",
+      "bytes": 326269,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9d045c9b15b6599b3584180cf0db6fe432bdeb4362e0b777834bd884c46c7462",
+      "bytes": 327682,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6742c91ead47541c98f0402c1155a87acc42b99625c1af07fd83345245835e01",
+      "bytes": 311115,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "66b74045167ab6281e05123e5314bbf0dd94f4c7edc76d8a967aafb4a0bc6e85",
+      "bytes": 298886,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d1325a2d36cc260810bf1b5687641f0176fd27e213ea8f9e8ca2784790dd3a87",
+      "bytes": 309118,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "997f7714a708dbb961795b80ece535f39de6dd423cd0e87e0707be470a64e035",
+      "bytes": 332488,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d3b11045-5cc2-4efe-996e-2fdc032df961/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "484f92d9b9b5ec3ba3ef8cfa1c42aebc6a9d773580db2e3e4a41fbef9aa9c6bc",
+      "bytes": 240579,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 561,
+      "folio_label": "fol. 281",
+      "page_id": "d3b11045-5cc2-4efe-996e-2fdc032df961",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bb146daf-9cbe-4da6-ac74-789ed4eda468/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f6cd1868347618eb66896a0bb7631472e76a34ef1f0383d5c3a8b6429bd0ce9b",
+      "bytes": 285086,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 563,
+      "folio_label": "fol. 282",
+      "page_id": "bb146daf-9cbe-4da6-ac74-789ed4eda468",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bb146daf-9cbe-4da6-ac74-789ed4eda468/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "516ac4607791e1c60794cc8278080a1a08b9d67f82ba7623c9e0b7f3b08e2024",
+      "bytes": 418890,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 563,
+      "folio_label": "fol. 282",
+      "page_id": "bb146daf-9cbe-4da6-ac74-789ed4eda468",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bb146daf-9cbe-4da6-ac74-789ed4eda468/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "60e2e6a51f8000bdbb9a39122a6ed31ae0b0bf258a5459090885fd80d0ea6d82",
+      "bytes": 487012,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 563,
+      "folio_label": "fol. 282",
+      "page_id": "bb146daf-9cbe-4da6-ac74-789ed4eda468",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "84562bc549596fb94e533db35c928f63b4754965c888c142848d3f126c0894d2",
+      "bytes": 264963,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8dbf7017a950e70099ba19a81947f46986d10aaece5689f475795aa7bcc47fe7",
+      "bytes": 326269,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9d045c9b15b6599b3584180cf0db6fe432bdeb4362e0b777834bd884c46c7462",
+      "bytes": 327682,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6742c91ead47541c98f0402c1155a87acc42b99625c1af07fd83345245835e01",
+      "bytes": 311115,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "66b74045167ab6281e05123e5314bbf0dd94f4c7edc76d8a967aafb4a0bc6e85",
+      "bytes": 298886,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d1325a2d36cc260810bf1b5687641f0176fd27e213ea8f9e8ca2784790dd3a87",
+      "bytes": 309118,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7f8ad57-a361-4cb9-9e5d-4c326290ea5c/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "997f7714a708dbb961795b80ece535f39de6dd423cd0e87e0707be470a64e035",
+      "bytes": 332488,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d3b11045-5cc2-4efe-996e-2fdc032df961/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "484f92d9b9b5ec3ba3ef8cfa1c42aebc6a9d773580db2e3e4a41fbef9aa9c6bc",
+      "bytes": 240579,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 561,
+      "folio_label": "fol. 281",
+      "page_id": "d3b11045-5cc2-4efe-996e-2fdc032df961",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bb146daf-9cbe-4da6-ac74-789ed4eda468/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f6cd1868347618eb66896a0bb7631472e76a34ef1f0383d5c3a8b6429bd0ce9b",
+      "bytes": 285086,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 563,
+      "folio_label": "fol. 282",
+      "page_id": "bb146daf-9cbe-4da6-ac74-789ed4eda468",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

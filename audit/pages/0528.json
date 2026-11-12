@@ -1,0 +1,516 @@
+{
+  "source_order": 528,
+  "folio_label": "fol. 264b",
+  "page_id": "510f38d9-f2d2-4047-9987-a0d9cbc012ae",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "264b",
+    "principal_page_bbox": [
+      300,
+      280,
+      2900,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          355,
+          320,
+          145,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "264^b.",
+        "features": [
+          "top-left corner",
+          "pencil",
+          "superscript letter 'b' (reading?) above and right of '264'",
+          "dot after the numeral"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2935,
+          3475,
+          40,
+          65
+        ],
+        "description": "Small pencil question mark in the right part of the ruled area, on about the 31st ruled line. It is not attached to any text on this page."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter fold is at about x≈3195–3210. Ruled lines and a pencil stroke to the right of it, near x≈3490, y≈790, belong to the facing leaf and are not counted as target content.",
+      "The page edge, binding thread nicks along the gutter and scanner background are not text."
+    ],
+    "uncertainties": [
+      "Very faint ghost writing is visible on many ruled lines across the left and middle of the page, especially at y≈650–1300 and y≈3000–4600. It looks like offset or show-through from an adjacent written page. It is illegible and is not treated as target text.",
+      "The superscript after '264' is read as 'b', but it could be another letterform."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank_except_folio_number_and_stray_mark",
+    "visible_folio": "264b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "264^b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number in the top-left corner, at about native [355,320,145,150].",
+          "The superscript letter sits above and to the right of '264'.",
+          "A dot follows the numeral."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript is read as 'b'. The letterform resembles a 'b' or '6' shape and could be another letter."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "query_mark",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Small pencil question mark in the right part of the ruled area, at about native [2935,3475,40,65].",
+          "It sits on about the 31st ruled line, with no text on the line or nearby."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The purpose and attachment of the mark are unknown. It may be stray, or it may relate to other leaves. No attachment is asserted."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2935,
+          3475,
+          40,
+          65
+        ],
+        "kind_hint": "unattached_mark",
+        "anchor": "?",
+        "features": [
+          "pencil",
+          "isolated question mark",
+          "right part of the ruled area",
+          "no adjacent text"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number recorded as non-catalogue text."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The inventory listed this question mark as an unattached mark. It is added here as a block and recorded as an unattached annotation."
+      }
+    ],
+    "page_annotations": [
+      "I reviewed the overview and all six native tiles. The page has no catalogue entries, headings or cross-references. Its only written elements are the folio number '264^b.' and an isolated pencil '?'.",
+      "Very faint ghost writing appears on many ruled lines, especially at y≈650–1300 and y≈3000–4600. It looks like offset or show-through from adjacent written pages. It is illegible and is not transcribed as target text.",
+      "Ruled lines to the right of the gutter fold (x≈3195–3210) belong to the facing leaf. The faint stroke near x≈3490, y≈790 is also facing-leaf material and is excluded.",
+      "Binding thread nicks along the gutter and the scanner background are not text.",
+      "Context only: fol. 264 ends with a list of works marked 'cont. next page'. That list appears to resume on fol. 265, not on this blank verso. This does not create any record here."
+    ],
+    "unresolved_relationships": [
+      "The function of the isolated '?' cannot be determined, and no attachment is asserted."
+    ]
+  },
+  "review": {
+    "page_class": "blank_except_folio_number_and_stray_mark",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "In the native top-left tile, a pencil '264' sits at about x≈360–470, y≈380–460. A raised letterform above and right of the 4, at about x≈445–490, y≈325–375, looks like 'b' but could be '6'. A dot follows at about x≈490, y≈420. The candidate literal '264^b.' and its uncertainty note match the image. The bbox is approximately right."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "In the native lower-right tile (offset 1604,3216), a single pencil '?' sits at tile x≈1340–1365, y≈262–322. That is about native [2944,3478,25,60], which agrees with the candidate bbox. It is isolated on a ruled line, with no adjacent text, arrow or tick. The candidate correctly asserts no attachment."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The function of the isolated '?' cannot be determined from this page. The adjacent fol. 265 also has an isolated '?' in its left margin, but there is no visible link between the two marks.",
+        "next_check": "Compare with the physical volume or with other leaves to see whether query marks are a systematic cataloguer's convention."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The superscript letter after '264' is read as 'b', but the letterform is ambiguous and could be '6' or another letter.",
+        "next_check": "Compare with other 'b'-suffixed folio numbers in the volume."
+      }
+    ],
+    "boundary_review": "The gutter fold is at about x≈3195–3210. The ruled lines, binding-thread nicks and a faint stroke near x≈3490, y≈790 to the right of the fold belong to the facing leaf and are excluded. The page bottom edge is at about y≈4880 and lies outside the scanner background, with no writing below the last ruled line. The fol. 264 list ends with 'cont. next page', and the list of works appears on fol. 265. No continuation text is on this verso, and none is inferred.",
+    "region_review": {
+      "top": "Only the folio number '264' with its superscript and dot. There is a tiny pencil dash or speck at about x≈685, y≈360 that is not a letterform, and faint offset smudges near the numeral. Neither is treated as text.",
+      "middle": "Ruled lines only. There is very faint, illegible ghost writing (offset or show-through) on many lines and scattered specks, but no legible writing.",
+      "bottom": "Faint illegible ghost writing on the lines at about y≈3000–4600. There is no bottom note. The '?' sits on the right of the ruled area at about y≈3480–3540.",
+      "left_margin": "Page edge and stacked leaf edges only. There are small specks at about y≈1380 and y≈2940 but no writing.",
+      "right_margin": "The area near the gutter has binding nicks only. The '?' lies within the ruled area left of the gutter, not in the margin.",
+      "interlinear": "No interlinear additions, cancellations or ditto marks are visible."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        355,
+        320,
+        145,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "264^b.",
+      "features": [
+        "top-left corner",
+        "pencil",
+        "superscript letter 'b' (reading?) above and right of '264'",
+        "dot after the numeral"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2935,
+        3475,
+        40,
+        65
+      ],
+      "kind_hint": "unattached_mark",
+      "anchor": "?",
+      "features": [
+        "pencil",
+        "isolated question mark",
+        "right part of the ruled area",
+        "no adjacent text"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "264^b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number in the top-left corner, at about native [355,320,145,150].",
+        "The superscript letter sits above and to the right of '264'.",
+        "A dot follows the numeral."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript is read as 'b'. The letterform resembles a 'b' or '6' shape and could be another letter."
+      ],
+      "stable_id": "css-prod-0528-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "query_mark",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Small pencil question mark in the right part of the ruled area, at about native [2935,3475,40,65].",
+        "It sits on about the 31st ruled line, with no text on the line or nearby."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The purpose and attachment of the mark are unknown. It may be stray, or it may relate to other leaves. No attachment is asserted."
+      ],
+      "stable_id": "css-prod-0528-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/510f38d9-f2d2-4047-9987-a0d9cbc012ae.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/510f38d9-f2d2-4047-9987-a0d9cbc012ae/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "315445cbf1766eac2b181f41a351283f9181312eecbdb8672c831ae348e17f88",
+      "bytes": 218539,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/510f38d9-f2d2-4047-9987-a0d9cbc012ae/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "59f0fca48836d0c59233a1ef63d4a3730930f5805858d5cb557a111359a21dfa",
+      "bytes": 290474,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/510f38d9-f2d2-4047-9987-a0d9cbc012ae/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dfe86399688b7ee69cc893dafa066e46d89987186f16b42492dd973fe15b3acf",
+      "bytes": 269300,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/510f38d9-f2d2-4047-9987-a0d9cbc012ae/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9b6b5dbae25597ddfd08d1fffac2ade2d1e07d035b643452813b7d16eb6735af",
+      "bytes": 276724,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/510f38d9-f2d2-4047-9987-a0d9cbc012ae/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3267d614dda19f852b4b096eae0ec739b6c50f9a440698d260dce4a3b6f907d3",
+      "bytes": 246121,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/510f38d9-f2d2-4047-9987-a0d9cbc012ae/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "afdf762f5fbd33aca32b0e0ae85ebec96c783820a8066f2e80a2f094fd45ce9d",
+      "bytes": 287305,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/510f38d9-f2d2-4047-9987-a0d9cbc012ae/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7bfb7a16ca5ff0cc298b6eabf8aaaec0b654a2cb2b0f525022d80c13c6741b5f",
+      "bytes": 288550,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91a43a08-13e9-443c-9a53-883f9099772d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f4a377fa1b0e89bbbe18db491cd333162ff94eaed4563b263fb4dd8259ab84e1",
+      "bytes": 220988,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 527,
+      "folio_label": "fol. 264",
+      "page_id": "91a43a08-13e9-443c-9a53-883f9099772d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0b10522a-bded-450a-9db0-1c83039d7e36/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "29a940b70940367feacc9ad64360f5c6e2d92b5a9fe833b075178abd30daf9e3",
+      "bytes": 207402,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 529,
+      "folio_label": "fol. 265",
+      "page_id": "0b10522a-bded-450a-9db0-1c83039d7e36",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

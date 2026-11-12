@@ -1,0 +1,500 @@
+{
+  "source_order": 642,
+  "folio_label": "fol. 321b",
+  "page_id": "18424797-6b79-46f0-a4d1-25d1dac9a98c",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "321b",
+    "principal_page_bbox": [
+      345,
+      305,
+      2795,
+      4565
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          450,
+          365,
+          170,
+          145
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "321ᵇ",
+        "features": [
+          "top left corner of the narrow left margin column",
+          "pen/pencil numeral 321 with a raised small letter (read as 'b', possibly followed by a dot)",
+          "only original writing identified on the target page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          345,
+          305,
+          2795,
+          4565
+        ],
+        "description": "Faint mirror-image show-through of the handwriting on the recto/next leaf (fol. 322) is visible across the ruled area and left column. It is not ink written on this page and is not transcribed."
+      },
+      {
+        "bbox": [
+          2900,
+          4620,
+          180,
+          120
+        ],
+        "description": "Small grey smudge or stain near the bottom right of the page, close to the gutter. No legible text."
+      },
+      {
+        "bbox": [
+          2905,
+          5050,
+          120,
+          70
+        ],
+        "description": "Faint speckled mark at the lower gutter edge. No legible text."
+      },
+      {
+        "bbox": [
+          870,
+          320,
+          40,
+          4520
+        ],
+        "description": "Printed vertical ruling that separates the left shelfmark column from the main column. Horizontal printed ruled lines run down the whole page. These are stationery only."
+      }
+    ],
+    "boundary_notes": [
+      "A strip of the facing page (fol. 322) is visible to the right of the gutter, at about x>3150. It carries shelfmarks such as '√c 387/(', 'e. 124(', 'd. 369(', 'f. 27(' and '√d. 251('. These belong to fol. 322 and are not target-page records.",
+      "The target page ends at the gutter at about x≈3140. No target ink crosses into the facing strip."
+    ],
+    "uncertainties": [
+      "The raised character after '321' looks like 'b' but could also be read as '5' or 'b.'. The supplied label fol. 321b is consistent with the reading 'b'.",
+      "Faint show-through could be mistaken for pencil writing. It was inspected at native resolution, and it appears to be bleed-through from the reverse or next leaf rather than writing on this page."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "321b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "321ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten foliation in the top-left corner of the narrow left (shelfmark) column, at about bbox [450,365,170,145].",
+          "A small character is raised after '321' and appears to be followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised character could be read as 'b' or as '5'. The reading 'b' agrees with the supplied folio label fol. 321b.",
+          "The trailing dot is faint. It may be a full stop or a stray mark."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "This foliation numeral is the only ink written on the target page."
+      }
+    ],
+    "page_annotations": [
+      "The images were reviewed at native resolution across the top, middle and bottom, the left column, the main column and the gutter. No catalogue entries, pencil additions or marginal notes were found apart from the foliation '321ᵇ.'.",
+      "Faint mirror-image show-through of handwriting from the adjacent leaf is visible across the ruled area. It is not ink on this page, so it was not transcribed.",
+      "There is a small grey smudge near the bottom right, close to the gutter, at about [2900,4620,180,120]. There is also a speckled mark at the lower gutter edge. Neither has legible text.",
+      "The printed vertical ruling at about x≈870–900 and the horizontal ruled lines are stationery only.",
+      "A strip of the facing fol. 322 is visible right of the gutter at x>3150. It carries shelfmarks such as '√c 387/(', 'e. 124(', 'e. 123(', 'd. 369(', 'd. 37', 'd. 86', 'd. 107', 'f. 27(', 'd. 967(', 'd. 690(', 'd. 963', '√d. 311(', 'd. 945', 'd. 901', 'd. 39', and '√d. 251('. These belong to fol. 322 and are not records for this page."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The foliation at the top left of the left column, at about [450,365,170,145], was checked in native tile 1. It reads '321' with a raised character that resembles 'b', though '5' is possible. A small dot sits low under or just after that character. The candidate's literal text '321ᵇ.' and its stated uncertainties are adequate."
+      },
+      {
+        "block_id": "mark_showthrough",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint grey writing shows through across both columns and lines up with the ruling. It is not crisp ink on this surface. The candidate page annotations correctly leave it untranscribed. I did not try to confirm whether it is mirror-reversed."
+      },
+      {
+        "block_id": "mark_smudge_br",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "There is a grey speckled smudge at about [2900,4620,180,120] and a second speckle at the lower gutter edge. Neither has legible text. The candidate notes both."
+      },
+      {
+        "block_id": "mark_ruling",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "The printed vertical and horizontal rulings are stationery. They are noted and not transcribed."
+      },
+      {
+        "block_id": "facing_strip_fol322",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "The strip right of the gutter (x>3150) shows truncated shelfmarks that belong to fol. 322, and the fol. 322 context image confirms this. Correctly, no records were created for them. The candidate's list in its page annotations leaves out some repeated items, such as a second 'd. 369(' and a second 'd. 690'. It also gives truncated forms such as 'd. 37', 'd. 86', 'd. 107' and 'd. 39', which are only partial in the strip. This is acceptable because the list is context only."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "annotations",
+        "before": [
+          "Handwritten foliation in the top-left corner of the narrow left (shelfmark) column, at about bbox [450,365,170,145].",
+          "A small character is raised after '321' and appears to be followed by a dot."
+        ],
+        "after": [
+          "Handwritten foliation in the top-left corner of the narrow left (shelfmark) column, at about bbox [450,365,170,145].",
+          "A small character is raised after '321'. A small dot sits low, beneath or just after the raised character. Its exact position relative to that character is uncertain."
+        ],
+        "reason": "In native tile 1 the dot appears below the raised character rather than clearly after it on the same level. The new wording describes the mark without fixing its position.",
+        "source_block_ids": [
+          "b001"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The raised character could be 'b' or '5', and the function of the dot is unclear. The supplied label 'fol. 321b' is consistent with 'b', but the label alone does not prove that reading.",
+        "next_check": "Compare with other 'b' foliations elsewhere in this volume."
+      }
+    ],
+    "boundary_review": "The target page runs to the gutter at about x≈3140. The strip beyond it carries fol. 322 shelfmarks only. No target ink crosses the gutter, and no facing-page text was turned into records.",
+    "region_review": {
+      "top": "Only the foliation '321' with a raised character was found. No heading.",
+      "middle": "Only ruled lines and faint show-through. No ink entries.",
+      "bottom": "A smudge and speckles near the gutter. No notes found.",
+      "left_margin": "The shelfmark column is empty apart from the foliation.",
+      "right_margin": "The gutter area on the target side is empty. The facing strip belongs to fol. 322.",
+      "interlinear": "No interlinear pencil or ink was found. The faint marks are show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        450,
+        365,
+        170,
+        145
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "321ᵇ",
+      "features": [
+        "top left corner of the narrow left margin column",
+        "pen/pencil numeral 321 with a raised small letter (read as 'b', possibly followed by a dot)",
+        "only original writing identified on the target page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "321ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten foliation in the top-left corner of the narrow left (shelfmark) column, at about bbox [450,365,170,145].",
+        "A small character is raised after '321' and appears to be followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised character could be read as 'b' or as '5'. The reading 'b' agrees with the supplied folio label fol. 321b.",
+        "The trailing dot is faint. It may be a full stop or a stray mark."
+      ],
+      "stable_id": "css-prod-0642-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "annotations",
+      "before": [
+        "Handwritten foliation in the top-left corner of the narrow left (shelfmark) column, at about bbox [450,365,170,145].",
+        "A small character is raised after '321' and appears to be followed by a dot."
+      ],
+      "after": [
+        "Handwritten foliation in the top-left corner of the narrow left (shelfmark) column, at about bbox [450,365,170,145].",
+        "A small character is raised after '321'. A small dot sits low, beneath or just after the raised character. Its exact position relative to that character is uncertain."
+      ],
+      "reason": "In native tile 1 the dot appears below the raised character rather than clearly after it on the same level. The new wording describes the mark without fixing its position.",
+      "source_block_ids": [
+        "b001"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/18424797-6b79-46f0-a4d1-25d1dac9a98c.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/18424797-6b79-46f0-a4d1-25d1dac9a98c/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "f8706b0a3eb796f9558ed808e347913bfd953700c80f1cc1b8ac0786ae52807f",
+      "bytes": 281361,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/18424797-6b79-46f0-a4d1-25d1dac9a98c/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b446314096df528fee5f2c3fc9a8007fd0778b394ee7c9b699ab173cc83f5376",
+      "bytes": 344382,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/18424797-6b79-46f0-a4d1-25d1dac9a98c/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fc68cabaea3934300c1960369a39a29e3c82ed71a3f8887e8217ae66fb6c4e56",
+      "bytes": 383544,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/18424797-6b79-46f0-a4d1-25d1dac9a98c/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "84c45e14195371bca4e5405b4746be75238e451bbc1ef48251d0a71dd839f627",
+      "bytes": 357419,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/18424797-6b79-46f0-a4d1-25d1dac9a98c/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "25899026048f3c5b4972fa910c809eebcb255314987b1de343519095c785a725",
+      "bytes": 372605,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/18424797-6b79-46f0-a4d1-25d1dac9a98c/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1ab135f85bfcc9b50efc6470a9a10d6bde9e8bbf36d68a9ffab97b341d5ac662",
+      "bytes": 335104,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/18424797-6b79-46f0-a4d1-25d1dac9a98c/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cd0825c87c861f6017b7e25b8fcdc3568f4bde725e4d970f7d5d3489c0c811a8",
+      "bytes": 378939,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/021c429b-b901-4387-bc2e-002174a177bb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "cf9965a9b73d9f4d30d997415c8bf939b9fd5631c32af272c794d12687ae76a5",
+      "bytes": 337252,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 641,
+      "folio_label": "fol. 321",
+      "page_id": "021c429b-b901-4387-bc2e-002174a177bb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/459e379e-91a6-4e02-9694-602139980ba2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f87472563c441fa95e05061c41d2270e528e3fabc1b2bc99b4ece4136977e8c4",
+      "bytes": 321221,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 643,
+      "folio_label": "fol. 322",
+      "page_id": "459e379e-91a6-4e02-9694-602139980ba2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

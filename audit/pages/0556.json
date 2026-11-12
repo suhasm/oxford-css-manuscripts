@@ -1,0 +1,453 @@
+{
+  "source_order": 556,
+  "folio_label": "fol. 278b",
+  "page_id": "19ba2a90-d6e1-4def-9be5-13e4c8e7360e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "278b",
+    "principal_page_bbox": [
+      318,
+      262,
+      2901,
+      4579
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          405,
+          325,
+          160,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "278ᵇ.",
+        "features": [
+          "top-left corner",
+          "ink",
+          "superscript b after 278 followed by a dot",
+          "exact superscript letter form small; read as 'b'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2320,
+          4560,
+          230,
+          250
+        ],
+        "description": "Cluster of dark ink blots/stains in the lower area of the page, between the last ruled lines; no text visible."
+      },
+      {
+        "bbox": [
+          2840,
+          2455,
+          120,
+          100
+        ],
+        "description": "Three small dark ink dots in the right-middle area of the page; no text visible."
+      },
+      {
+        "bbox": [
+          2880,
+          4380,
+          30,
+          30
+        ],
+        "description": "Small hook-shaped dark mark near the lower right; it appears to be a speck or stain, not a letter."
+      },
+      {
+        "bbox": [
+          350,
+          860,
+          45,
+          120
+        ],
+        "description": "Dark object or mark on the left page edge; it may be a tab, debris or a binding feature."
+      },
+      {
+        "bbox": [
+          1355,
+          3760,
+          180,
+          120
+        ],
+        "description": "A few tiny faint strokes and specks in the lower-middle area. They are possibly show-through or debris; no legible text."
+      }
+    ],
+    "boundary_notes": [
+      "Faint mirrored show-through of writing from the other side of the leaf is visible across the ruled area. It is not recorded as target-page text.",
+      "The adjacent pages fol. 278 and fol. 279 are context only; no fragments of them appear on this canvas."
+    ],
+    "uncertainties": [
+      "The superscript after '278' is read as 'b', in accordance with the supplied folio label 'fol. 278b'. The letter form is small.",
+      "Some faint marks could be very faint pencil. At native scale none resolves into legible text."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank_except_folio_number",
+    "visible_folio": "278ᵇ.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "278ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number at the top-left corner of the page. The superscript letter follows '278' and a dot follows it.",
+          "This is a page locator, not a catalogue entry."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letter is small. It is read as 'b', which matches the supplied folio label 'fol. 278b'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The only written element on the page: the folio number '278ᵇ.' at top left."
+      }
+    ],
+    "page_annotations": [
+      "The native-resolution tiles were reviewed across the whole canvas, including the top, bottom, left edge, right edge and interlinear spaces. Apart from the folio number, the ruled page carries no catalogue text.",
+      "Faint mirrored show-through from the other side of the leaf is visible in the ruled area. It is not recorded as target-page text.",
+      "Non-text marks with no legible text: a cluster of ink blots near the bottom centre-right at about [2320,4560,230,250]; three small ink dots at right-middle at about [2840,2455,120,100]; a small hook-shaped speck at lower right at about [2880,4380,30,30]; and a dark tab or debris on the left edge at about [350,860,45,120]. There are also tiny faint strokes and specks in the lower middle at about [1355,3760,180,120], possibly show-through or debris.",
+      "Some faint specks could be very faint pencil, but none resolves into legible text at native scale.",
+      "No fragments of the adjacent pages (fol. 278, fol. 279) appear on this canvas."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank_except_folio_number",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The native top-left tile shows the ink folio number '278' at about x 415–555, y 330–440. A small superscript letter follows it, then a dot. The candidate literal '278ᵇ.' matches the visible sequence. The superscript form is small and could conceivably be read otherwise, so the existing uncertainty is kept. A very faint small circular speck sits just above the '2' at about [430,340,25,25]. It is not part of the number and has no textual value."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The superscript after '278' is small and loosely formed. It is read as 'b', in agreement with the supplied label 'fol. 278b', but the letter form alone does not make the reading wholly secure.",
+        "next_check": "Compare with the superscript letter forms on other verso folio numbers in this volume."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Neither the inventory nor the candidate page annotations list several further non-text features: a short dash-like speck at about [1610,1455,50,15]; faint specks at about [2000,2730,100,90]; small debris on the left edge at about [355,3745,60,40]; and a binding thread along the right edge at about [3195,1190,30,1420]. Image review finds none of them to be legible text, but they are not recorded.",
+        "next_check": "Record them as non-text marks or physical features in the page annotations if a complete mark inventory is wanted."
+      }
+    ],
+    "boundary_review": "Only the principal page, fol. 278b, is on this canvas. The left edge shows stacked leaf edges and the right edge a binding thread. No written fragments of fol. 278 or fol. 279 appear. Mirrored show-through from the reverse of the leaf is visible across the ruled area. It is correctly excluded from target-page text.",
+    "region_review": {
+      "top": "The folio number '278ᵇ.' is at top left; a faint speck sits above the '2'. The rest of the top area is blank apart from paper texture.",
+      "middle": "The ruled lines carry faint mirrored show-through. There are three dark ink dots at right-middle, a small dash speck and faint specks. No legible target text.",
+      "bottom": "A cluster of ink blots sits near the bottom centre-right, with a hook-shaped speck at lower right and faint strokes and specks in the lower middle. None resolves into text.",
+      "left_margin": "A dark tab or debris is on the edge at about y 860–980, with small debris near y 3750. No writing.",
+      "right_margin": "The binding thread runs along the edge and shading is visible. No writing.",
+      "interlinear": "No interlinear additions; only show-through and specks."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        405,
+        325,
+        160,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "278ᵇ.",
+      "features": [
+        "top-left corner",
+        "ink",
+        "superscript b after 278 followed by a dot",
+        "exact superscript letter form small; read as 'b'"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "278ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number at the top-left corner of the page. The superscript letter follows '278' and a dot follows it.",
+        "This is a page locator, not a catalogue entry."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letter is small. It is read as 'b', which matches the supplied folio label 'fol. 278b'."
+      ],
+      "stable_id": "css-prod-0556-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/19ba2a90-d6e1-4def-9be5-13e4c8e7360e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/19ba2a90-d6e1-4def-9be5-13e4c8e7360e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "c011df83d41598bfc56e8b8d4d8859474e915799c56a07cddb7b90487b1f23de",
+      "bytes": 321609,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/19ba2a90-d6e1-4def-9be5-13e4c8e7360e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9509dee22088a79d06e8f449346295a223e68b11ff6a4c825b385c46e1568617",
+      "bytes": 358410,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/19ba2a90-d6e1-4def-9be5-13e4c8e7360e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f9bb6e3e9c2ab2b20cbdac35aed11b12d3f980d7ff848d8b6be4bab607fe8c98",
+      "bytes": 350467,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/19ba2a90-d6e1-4def-9be5-13e4c8e7360e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c023d5c605020647d88451c6f027d509c273db963d39c4f683bc50cbee84dcec",
+      "bytes": 388015,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/19ba2a90-d6e1-4def-9be5-13e4c8e7360e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "accde9e0646bf8cbe8747bd586d3ee085de13ae2de334b31bb96f6950a82d8e3",
+      "bytes": 412707,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/19ba2a90-d6e1-4def-9be5-13e4c8e7360e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "baa296e7050cd0215fb864dda1310caf7fb5c1b8e00723efe8f33babfe0c4dc7",
+      "bytes": 366814,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/19ba2a90-d6e1-4def-9be5-13e4c8e7360e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "733fad6679f3dbbe657f9a878be4e7fffce089451d018c5abdeec705d81ba8c5",
+      "bytes": 395391,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/08e19613-154f-4176-bc87-4da0efcd8479/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "db52872fc52de3a645cac134457dc9dae2f7b55a10362e6f712869189d91b755",
+      "bytes": 263876,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 555,
+      "folio_label": "fol. 278",
+      "page_id": "08e19613-154f-4176-bc87-4da0efcd8479",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95dd1d8c-63c9-4ff0-b3a4-6b515dcd0129/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5af8190264d8b67e3dc05115d572cfa05065197de8e73a070d686899d2b8a586",
+      "bytes": 252539,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 557,
+      "folio_label": "fol. 279",
+      "page_id": "95dd1d8c-63c9-4ff0-b3a4-6b515dcd0129",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

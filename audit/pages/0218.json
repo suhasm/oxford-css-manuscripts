@@ -1,0 +1,1167 @@
+{
+  "source_order": 218,
+  "folio_label": "fol. 109b",
+  "page_id": "59b008e7-96e3-4e44-9150-e8ff4cf4e4a0",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "109b",
+    "principal_page_bbox": [
+      260,
+      265,
+      2860,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          340,
+          320,
+          130,
+          90
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "109b",
+        "features": [
+          "top-left corner",
+          "superscript b with dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          320,
+          2090,
+          2380,
+          70
+        ],
+        "kind_hint": "entry",
+        "anchor": "√b. 95(7)b Devapratiṣṭhāprayoga, ff.1-8. Begins Tatra ...",
+        "features": [
+          "shelfmark with superscript",
+          "tick or abbreviation mark before shelfmark",
+          "extent ff.",
+          "incipit begins in the same line",
+          "incipit runs into the right part of the page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          710,
+          2170,
+          530,
+          70
+        ],
+        "kind_hint": "continuation_incipit",
+        "anchor": "?ddhiṃ ca vācayitvā",
+        "features": [
+          "second line of the incipit",
+          "indented",
+          "first letter uncertain"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2570,
+          2160,
+          520,
+          90
+        ],
+        "kind_hint": "continuation_details",
+        "anchor": "n.d.:8:6: Beng",
+        "features": [
+          "date, size and script line",
+          "arrow stroke at right toward gutter, apparently linked to marginal ← and ī/ marks on facing fol. 110 near Devaprabodhinīkathā"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          280,
+          3700,
+          1830,
+          90
+        ],
+        "kind_hint": "entry",
+        "anchor": "√d. 365(1). Devīpūjāhomavidhi, ff.1-28. Tantric. n.d.: 28:8: D.",
+        "features": [
+          "tick before shelfmark",
+          "extent",
+          "date, size and script",
+          "double-headed arrow to right across gutter toward facing page"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          320,
+          4150,
+          2580,
+          180
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "Skandha IV, adhy. i-XXIV, 47, ff 1-71 (53 om. ...), inc., and Sk. III, adhy. 1-XXX, ff.1-102. = Weber, / Berlin Cat., 479.",
+        "features": [
+          "two lines",
+          "no shelfmark",
+          "arrow at right linked across gutter to facing page, apparently the Devībhāgavata Purāṇa entry vc.135",
+          "roman numerals",
+          "bibliographic reference"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          420,
+          2190,
+          50,
+          50
+        ],
+        "description": "small dotted or asterisk-like mark under the shelfmark of b002"
+      },
+      {
+        "bbox": [
+          3000,
+          3720,
+          240,
+          60
+        ],
+        "description": "double-headed arrow straddling the gutter, at the level of b005"
+      },
+      {
+        "bbox": [
+          2960,
+          4200,
+          160,
+          40
+        ],
+        "description": "left-pointing arrow at the right of b006 continuing across the gutter"
+      },
+      {
+        "bbox": [
+          2270,
+          2260,
+          20,
+          30
+        ],
+        "description": "small colon-like dots below the b004 line"
+      },
+      {
+        "bbox": [
+          400,
+          4640,
+          2500,
+          120
+        ],
+        "description": "faint dotted show-through or offset near the bottom edge; not legible text"
+      }
+    ],
+    "boundary_notes": [
+      "The gutter is at about x≈3115. Text to its right (e.13, d.9, √d., a/?, See Kātyāyana..., √c.13, √c.46 ...) belongs to the left margin of facing fol. 110 and is excluded.",
+      "b002–b004 and b005–b006 appear to be additions keyed by arrows to entries on fol. 110 rather than independent sequence entries on this page.",
+      "Faint ruled-line show-through elsewhere on the page is not counted as text."
+    ],
+    "uncertainties": [
+      "Readings within the incipit (Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti ...) are uncertain; the first character of b003 is unclear.",
+      "The parenthetical in b006 ('53 om. ...') is only partly legible.",
+      "The prefix mark before b.95 may be a tick or a cancellation-like flourish."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "109b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "109ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top-left corner. A superscript 'b' is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "added_entry_keyed_to_facing_page",
+        "literal_text": "√b. 95(7)ᵇ Devapratiṣṭhāprayoga, ff.1-8. Begins Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti.\n[?]ddhiṃ ca vācayitvā\nn.d.:8:6: Beng ↙",
+        "fields": {
+          "shelfmark": "b. 95(7)ᵇ",
+          "title": "Devapratiṣṭhāprayoga",
+          "date": "n.d.",
+          "extent": "ff.1-8",
+          "incipit": "Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti. [?]ddhiṃ ca vācayitvā"
+        },
+        "normalized_title": "Devapratiṣṭhāprayoga",
+        "annotations": [
+          "The prefix mark before 'b.' is faint and resembles a tick.",
+          "A small dotted or asterisk-like mark (about [420,2190]) sits below the shelfmark.",
+          "The second incipit line is indented.",
+          "The line 'n.d.:8:6: Beng' is placed to the right. It ends in an arrow stroke pointing toward the gutter.",
+          "The figures '8:6' are not labelled in the source. On this catalogue's pattern they probably give size or lines, but they are kept only in the literal text.",
+          "Small colon-like dots (about [2270,2260]) appear below the line; they are unattached."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 219,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "← ī/ marks beside d.906(12) Devapratiṣṭhā / √d.311(14) Devaprabodhinīkathā",
+            "evidence": "The arrow at the end of b004 points toward the gutter, where a marginal '←' and 'ī/' appear on fol. 110 at about this level.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first character of the second incipit line is unclear.",
+          "The incipit readings 'śilpinaṃ', 'śuklādine' and 'puṇyāhe' are uncertain.",
+          "The prefix may be a tick or a flourish.",
+          "The exact insertion point on fol. 110 is uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": "added_entry_keyed_to_facing_page",
+        "literal_text": "√d. 365(1). Devīpūjāhomavidhi, ff.1-28. Tantric. n.d.: 28:8: D.",
+        "fields": {
+          "shelfmark": "d. 365(1)",
+          "title": "Devīpūjāhomavidhi",
+          "subject": "Tantric",
+          "date": "n.d.",
+          "extent": "ff.1-28",
+          "script": "D."
+        },
+        "normalized_title": "Devīpūjāhomavidhi",
+        "annotations": [
+          "There is a tick before the shelfmark.",
+          "A double-headed arrow straddles the gutter at the level of this line (about [3000,3720]).",
+          "The figures '28:8' are not labelled in the source and are kept only in the literal text.",
+          "The script abbreviation 'D.' is left unexpanded."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 219,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "i/ mark and ↔ arrow beside √d.363(1) Devīcaritra",
+            "evidence": "The double-headed arrow crossing the gutter aligns with the 'i/' and arrow marks in the left margin of fol. 110.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The second digit of the shelfmark ('365') is slightly unclear."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "addition_keyed_by_arrow",
+        "literal_text": "Skandha IV, adhy. i-XXIV, 47, ff 1-71 (53 om. [in foliation?]), inc., and Sk. III, adhy. 1-XXX, ff.1-102. = Weber,\nBerlin Cat., 479.",
+        "fields": {
+          "extent": "ff 1-71; ff.1-102",
+          "source": "Weber, Berlin Cat., 479"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The note is in two lines and has no shelfmark.",
+          "A left-pointing arrow at the right continues across the gutter toward fol. 110.",
+          "Roman numerals are written in mixed case."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 219,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 135(344) Devībhāgavata Purāṇa",
+            "evidence": "The arrow line from this note runs across the gutter to the vc.135 Devībhāgavata entry on fol. 110.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The parenthetical after '53 om.' is only partly legible.",
+          "The first word may read 'Skandhe'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Main line of the added entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation of the incipit."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Date, figures and script line of the same entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Added holding entry."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Continuation note keyed to fol. 110."
+      }
+    ],
+    "page_annotations": [
+      "The entries on this verso are additions keyed by arrows to entries on facing fol. 110.",
+      "Text to the right of the gutter (x≈3115) belongs to fol. 110 and is excluded.",
+      "Faint dotted show-through near the bottom edge is not legible text.",
+      "Ruled-line show-through is ignored."
+    ],
+    "unresolved_relationships": [
+      "The exact insertion point of r002 on fol. 110 (near Devapratiṣṭhā or Devaprabodhinīkathā) is uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio label '109' with superscript b and a dot, top left. It matches the supplied label fol. 109b."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Main line of the added entry. It includes the small dotted mark below the shelfmark at about [420,2190]. The incipit readings remain uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Indented second incipit line. Its first character is unclear."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The line 'n.d.:8:6: Beng' is followed by an arrowhead pointing left, back toward 'Beng'. A line runs from it up-right toward the gutter, where fol. 110 has a '←' and 'ī/'. The candidate literal includes an arrow glyph as if it were source wording, and the candidate gives the arrow direction loosely."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Tick, shelfmark, title, extent, 'Tantric.' and 'n.d.: 28:8: D.' are present. The double-headed arrow near the gutter at about [3000,3720] is attached to this record in its annotations. The final digit of '365' looks heavier and is possibly overwritten."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Two-line note. The first word reads more like 'Skandhe' than 'Skandha'. The parenthetical seems to read '53 om. [from?] foliation' rather than 'in foliation'. The left-pointing arrowhead at about [2960,4200] receives a line from the vc.135 entry on fol. 110."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "√b. 95(7)ᵇ Devapratiṣṭhāprayoga, ff.1-8. Begins Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti.\n[?]ddhiṃ ca vācayitvā\nn.d.:8:6: Beng ↙",
+        "after": "√b. 95(7)ᵇ Devapratiṣṭhāprayoga, ff.1-8. Begins Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti.\n[?]ddhiṃ ca vācayitvā\nn.d.:8:6: Beng",
+        "reason": "The arrow is a non-text mark and is already described in the annotations. It should not appear as source wording.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "The prefix mark before 'b.' is faint and resembles a tick.",
+          "A small dotted or asterisk-like mark (about [420,2190]) sits below the shelfmark.",
+          "The second incipit line is indented.",
+          "The line 'n.d.:8:6: Beng' is placed to the right. It ends in an arrow stroke pointing toward the gutter.",
+          "The figures '8:6' are not labelled in the source. On this catalogue's pattern they probably give size or lines, but they are kept only in the literal text.",
+          "Small colon-like dots (about [2270,2260]) appear below the line; they are unattached."
+        ],
+        "after": [
+          "The prefix mark before 'b.' is faint and resembles a tick.",
+          "A small dotted or asterisk-like mark (about [420,2190]) sits below the shelfmark.",
+          "The second incipit line is indented.",
+          "The line 'n.d.:8:6: Beng' is placed to the right. After 'Beng' an arrowhead points left, toward the text. Its shaft runs up and to the right toward the gutter at about y≈2150.",
+          "The figures '8:6' are not labelled in the source and are kept only in the literal text.",
+          "Small colon-like dots (about [2270,2260]) appear below the line; they are unattached."
+        ],
+        "reason": "On re-inspection the arrowhead points toward 'Beng', with the shaft leading toward fol. 110. The interpretive statement about the catalogue's pattern was also removed.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The second digit of the shelfmark ('365') is slightly unclear."
+        ],
+        "after": [
+          "The final digit of '365' is written heavily and may be overwritten or corrected. The reading '365' is retained but is not secure."
+        ],
+        "reason": "The image shows the heavy stroke on the last digit, not the second digit.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "literal_text",
+        "before": "Skandha IV, adhy. i-XXIV, 47, ff 1-71 (53 om. [in foliation?]), inc., and Sk. III, adhy. 1-XXX, ff.1-102. = Weber,\nBerlin Cat., 479.",
+        "after": "Skandhe IV, adhy. i-XXIV, 47, ff 1-71 (53 om. [from?] [foliation?]), inc., and Sk. III, adhy. 1-XXX, ff.1-102. = Weber,\nBerlin Cat., 479.",
+        "reason": "The first word visibly ends in 'he'. The word after 'om.' looks like 'from', with a descender, rather than 'in'. Both readings within the parenthetical remain uncertain.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "The parenthetical after '53 om.' is only partly legible.",
+          "The first word may read 'Skandhe'."
+        ],
+        "after": [
+          "The parenthetical after '53 om.' is only partly legible; '[from?] [foliation?]' is a tentative reading.",
+          "The first word is read as 'Skandhe'; 'Skandha' is less likely but not excluded.",
+          "The roman numerals are in mixed or lower case, e.g. 'iv'/'IV' and 'XXiv'/'XXIV'. Their case is approximate."
+        ],
+        "reason": "The uncertainties are updated to match the revised literal text.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "The note is in two lines and has no shelfmark.",
+          "A left-pointing arrow at the right continues across the gutter toward fol. 110.",
+          "Roman numerals are written in mixed case."
+        ],
+        "after": [
+          "The note is in two lines and has no shelfmark.",
+          "At the right, an arrowhead points left toward the note. Its line continues across the gutter from the margin of fol. 110 beside the √c.135 entry.",
+          "Roman numerals are written in mixed case."
+        ],
+        "reason": "This corrects the description of the arrow direction.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The incipit readings 'śilpinaṃ', 'śuklādine' and 'puṇyāhe' are uncertain, and the first character of b003 is unclear.",
+        "next_check": "Compare with the original manuscript or a higher-resolution image."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "On fol. 110 the '←' sits between d.906(12) Devapratiṣṭhā and √d.311(14) Devaprabodhinīkathā, so the insertion point is unclear.",
+        "next_check": "Examine the fol. 110 margin at native resolution."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "It is uncertain whether the title is written as one word or as 'Devapratiṣṭhā prayoga'. 'ṭhā' is written small or raised.",
+        "next_check": "Check spacing at native resolution."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The parenthetical wording after '53 om.' remains uncertain.",
+        "next_check": "Re-examine at higher resolution."
+      }
+    ],
+    "boundary_review": "The gutter is at x≈3115. The marginal shelfmarks and marks of fol. 110 to its right (e.13, d.9, d.8, e., √d., d., ←, ī/, a/?, n/, 'See Kāt...', i/, √c.13, √c.46 and the long pencil line) are excluded as facing-page material. The arrows at about y≈2150, 3740 and 4220 cross or approach the gutter and are recorded only as attachment evidence. The specific target entries on fol. 110 are probable, not secure.",
+    "region_review": {
+      "top": "Only the folio label 109ᵇ. Faint ruled lines and show-through are present, with no legible text.",
+      "middle": "Contains the b.95(7)ᵇ entry with its incipit line and 'n.d.:8:6: Beng' line, plus small dot marks. Below that it is empty apart from show-through.",
+      "bottom": "Contains the d.365(1) entry, then the two-line Skandhe note. Near y≈4700 there is faint dotted offset or show-through that is not legible text.",
+      "left_margin": "There is no marginal text apart from the tick prefixes and the dotted mark below the b.95 shelfmark.",
+      "right_margin": "The gutter-side arrows are present at the levels of b004, b005 and b006. Material beyond the gutter belongs to fol. 110.",
+      "interlinear": "Only the indented incipit continuation and the small dot marks. No cancellations were observed."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        340,
+        320,
+        130,
+        90
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "109b",
+      "features": [
+        "top-left corner",
+        "superscript b with dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        320,
+        2090,
+        2380,
+        70
+      ],
+      "kind_hint": "entry",
+      "anchor": "√b. 95(7)b Devapratiṣṭhāprayoga, ff.1-8. Begins Tatra ...",
+      "features": [
+        "shelfmark with superscript",
+        "tick or abbreviation mark before shelfmark",
+        "extent ff.",
+        "incipit begins in the same line",
+        "incipit runs into the right part of the page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        710,
+        2170,
+        530,
+        70
+      ],
+      "kind_hint": "continuation_incipit",
+      "anchor": "?ddhiṃ ca vācayitvā",
+      "features": [
+        "second line of the incipit",
+        "indented",
+        "first letter uncertain"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2570,
+        2160,
+        520,
+        90
+      ],
+      "kind_hint": "continuation_details",
+      "anchor": "n.d.:8:6: Beng",
+      "features": [
+        "date, size and script line",
+        "arrow stroke at right toward gutter, apparently linked to marginal ← and ī/ marks on facing fol. 110 near Devaprabodhinīkathā"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        280,
+        3700,
+        1830,
+        90
+      ],
+      "kind_hint": "entry",
+      "anchor": "√d. 365(1). Devīpūjāhomavidhi, ff.1-28. Tantric. n.d.: 28:8: D.",
+      "features": [
+        "tick before shelfmark",
+        "extent",
+        "date, size and script",
+        "double-headed arrow to right across gutter toward facing page"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        320,
+        4150,
+        2580,
+        180
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "Skandha IV, adhy. i-XXIV, 47, ff 1-71 (53 om. ...), inc., and Sk. III, adhy. 1-XXX, ff.1-102. = Weber, / Berlin Cat., 479.",
+      "features": [
+        "two lines",
+        "no shelfmark",
+        "arrow at right linked across gutter to facing page, apparently the Devībhāgavata Purāṇa entry vc.135",
+        "roman numerals",
+        "bibliographic reference"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "109ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top-left corner. A superscript 'b' is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0218-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "added_entry_keyed_to_facing_page",
+      "literal_text": "√b. 95(7)ᵇ Devapratiṣṭhāprayoga, ff.1-8. Begins Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti.\n[?]ddhiṃ ca vācayitvā\nn.d.:8:6: Beng",
+      "fields": {
+        "shelfmark": "b. 95(7)ᵇ",
+        "title": "Devapratiṣṭhāprayoga",
+        "date": "n.d.",
+        "extent": "ff.1-8",
+        "incipit": "Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti. [?]ddhiṃ ca vācayitvā"
+      },
+      "normalized_title": "Devapratiṣṭhāprayoga",
+      "annotations": [
+        "The prefix mark before 'b.' is faint and resembles a tick.",
+        "A small dotted or asterisk-like mark (about [420,2190]) sits below the shelfmark.",
+        "The second incipit line is indented.",
+        "The line 'n.d.:8:6: Beng' is placed to the right. It ends in an arrow stroke pointing toward the gutter.",
+        "The figures '8:6' are not labelled in the source. On this catalogue's pattern they probably give size or lines, but they are kept only in the literal text.",
+        "Small colon-like dots (about [2270,2260]) appear below the line; they are unattached."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 219,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "← ī/ marks beside d.906(12) Devapratiṣṭhā / √d.311(14) Devaprabodhinīkathā",
+          "evidence": "The arrow at the end of b004 points toward the gutter, where a marginal '←' and 'ī/' appear on fol. 110 at about this level.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first character of the second incipit line is unclear.",
+        "The incipit readings 'śilpinaṃ', 'śuklādine' and 'puṇyāhe' are uncertain.",
+        "The prefix may be a tick or a flourish.",
+        "The exact insertion point on fol. 110 is uncertain."
+      ],
+      "stable_id": "css-prod-0218-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": "added_entry_keyed_to_facing_page",
+      "literal_text": "√d. 365(1). Devīpūjāhomavidhi, ff.1-28. Tantric. n.d.: 28:8: D.",
+      "fields": {
+        "shelfmark": "d. 365(1)",
+        "title": "Devīpūjāhomavidhi",
+        "subject": "Tantric",
+        "date": "n.d.",
+        "extent": "ff.1-28",
+        "script": "D."
+      },
+      "normalized_title": "Devīpūjāhomavidhi",
+      "annotations": [
+        "There is a tick before the shelfmark.",
+        "A double-headed arrow straddles the gutter at the level of this line (about [3000,3720]).",
+        "The figures '28:8' are not labelled in the source and are kept only in the literal text.",
+        "The script abbreviation 'D.' is left unexpanded."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 219,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "i/ mark and ↔ arrow beside √d.363(1) Devīcaritra",
+          "evidence": "The double-headed arrow crossing the gutter aligns with the 'i/' and arrow marks in the left margin of fol. 110.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The second digit of the shelfmark ('365') is slightly unclear."
+      ],
+      "stable_id": "css-prod-0218-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "addition_keyed_by_arrow",
+      "literal_text": "Skandha IV, adhy. i-XXIV, 47, ff 1-71 (53 om. [in foliation?]), inc., and Sk. III, adhy. 1-XXX, ff.1-102. = Weber,\nBerlin Cat., 479.",
+      "fields": {
+        "extent": "ff 1-71; ff.1-102",
+        "source": "Weber, Berlin Cat., 479"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The note is in two lines and has no shelfmark.",
+        "A left-pointing arrow at the right continues across the gutter toward fol. 110.",
+        "Roman numerals are written in mixed case."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 219,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 135(344) Devībhāgavata Purāṇa",
+          "evidence": "The arrow line from this note runs across the gutter to the vc.135 Devībhāgavata entry on fol. 110.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The parenthetical after '53 om.' is only partly legible.",
+        "The first word may read 'Skandhe'."
+      ],
+      "stable_id": "css-prod-0218-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "√b. 95(7)ᵇ Devapratiṣṭhāprayoga, ff.1-8. Begins Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti.\n[?]ddhiṃ ca vācayitvā\nn.d.:8:6: Beng ↙",
+      "after": "√b. 95(7)ᵇ Devapratiṣṭhāprayoga, ff.1-8. Begins Tatra śilpinaṃ paritoṣya śuklādine puṇyāhe svasti.\n[?]ddhiṃ ca vācayitvā\nn.d.:8:6: Beng",
+      "reason": "The arrow is a non-text mark and is already described in the annotations. It should not appear as source wording.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "The prefix mark before 'b.' is faint and resembles a tick.",
+        "A small dotted or asterisk-like mark (about [420,2190]) sits below the shelfmark.",
+        "The second incipit line is indented.",
+        "The line 'n.d.:8:6: Beng' is placed to the right. It ends in an arrow stroke pointing toward the gutter.",
+        "The figures '8:6' are not labelled in the source. On this catalogue's pattern they probably give size or lines, but they are kept only in the literal text.",
+        "Small colon-like dots (about [2270,2260]) appear below the line; they are unattached."
+      ],
+      "after": [
+        "The prefix mark before 'b.' is faint and resembles a tick.",
+        "A small dotted or asterisk-like mark (about [420,2190]) sits below the shelfmark.",
+        "The second incipit line is indented.",
+        "The line 'n.d.:8:6: Beng' is placed to the right. After 'Beng' an arrowhead points left, toward the text. Its shaft runs up and to the right toward the gutter at about y≈2150.",
+        "The figures '8:6' are not labelled in the source and are kept only in the literal text.",
+        "Small colon-like dots (about [2270,2260]) appear below the line; they are unattached."
+      ],
+      "reason": "On re-inspection the arrowhead points toward 'Beng', with the shaft leading toward fol. 110. The interpretive statement about the catalogue's pattern was also removed.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The second digit of the shelfmark ('365') is slightly unclear."
+      ],
+      "after": [
+        "The final digit of '365' is written heavily and may be overwritten or corrected. The reading '365' is retained but is not secure."
+      ],
+      "reason": "The image shows the heavy stroke on the last digit, not the second digit.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "Skandha IV, adhy. i-XXIV, 47, ff 1-71 (53 om. [in foliation?]), inc., and Sk. III, adhy. 1-XXX, ff.1-102. = Weber,\nBerlin Cat., 479.",
+      "after": "Skandhe IV, adhy. i-XXIV, 47, ff 1-71 (53 om. [from?] [foliation?]), inc., and Sk. III, adhy. 1-XXX, ff.1-102. = Weber,\nBerlin Cat., 479.",
+      "reason": "The first word visibly ends in 'he'. The word after 'om.' looks like 'from', with a descender, rather than 'in'. Both readings within the parenthetical remain uncertain.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The parenthetical after '53 om.' is only partly legible.",
+        "The first word may read 'Skandhe'."
+      ],
+      "after": [
+        "The parenthetical after '53 om.' is only partly legible; '[from?] [foliation?]' is a tentative reading.",
+        "The first word is read as 'Skandhe'; 'Skandha' is less likely but not excluded.",
+        "The roman numerals are in mixed or lower case, e.g. 'iv'/'IV' and 'XXiv'/'XXIV'. Their case is approximate."
+      ],
+      "reason": "The uncertainties are updated to match the revised literal text.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "The note is in two lines and has no shelfmark.",
+        "A left-pointing arrow at the right continues across the gutter toward fol. 110.",
+        "Roman numerals are written in mixed case."
+      ],
+      "after": [
+        "The note is in two lines and has no shelfmark.",
+        "At the right, an arrowhead points left toward the note. Its line continues across the gutter from the margin of fol. 110 beside the √c.135 entry.",
+        "Roman numerals are written in mixed case."
+      ],
+      "reason": "This corrects the description of the arrow direction.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/59b008e7-96e3-4e44-9150-e8ff4cf4e4a0.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/59b008e7-96e3-4e44-9150-e8ff4cf4e4a0/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4cabb70ad6b18ca6572763c88beae8126664df0e8ce1a692a669202127756a52",
+      "bytes": 285737,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/59b008e7-96e3-4e44-9150-e8ff4cf4e4a0/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "51a630a4e4faa64fa33a425d107ce208e402b4a6d3c21d441baf0a33974e64e6",
+      "bytes": 317057,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/59b008e7-96e3-4e44-9150-e8ff4cf4e4a0/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "aa9a2a9f3ca56dcc640479294691076eecf7e1f1efe74f92185c0e455fe70d6f",
+      "bytes": 326694,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/59b008e7-96e3-4e44-9150-e8ff4cf4e4a0/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4303ae0023ae878c84bbffc8a4a342de736af46cb22b410162cfa890dd26a43f",
+      "bytes": 350781,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/59b008e7-96e3-4e44-9150-e8ff4cf4e4a0/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "385f041cb248ee05fc129def73410824157fb81b2ae693ee0b2457f4f54a675e",
+      "bytes": 342083,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/59b008e7-96e3-4e44-9150-e8ff4cf4e4a0/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "91bbdfd4e1bda580f1cbd6110740f655a4850839995b0a249c0af38855729227",
+      "bytes": 362942,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/59b008e7-96e3-4e44-9150-e8ff4cf4e4a0/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "984802c49270263797b95e05578040d9d1f3256621830903a2b163ff8996ccd3",
+      "bytes": 370770,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b7f25234-e649-4ef6-a70b-cf6b6d7bcf57/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "715eb43a090a4eb970832614203922ec14e84469ecd78de01aecb5831a98a5cb",
+      "bytes": 276211,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 217,
+      "folio_label": "fol. 109",
+      "page_id": "b7f25234-e649-4ef6-a70b-cf6b6d7bcf57",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7db320ea-f231-4efe-83ef-deb8e8e4a25f/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "abf0a620f8e794ace2d42a82d83410ccf5df6b33d70bb94623afee067efbbce8",
+      "bytes": 273984,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 219,
+      "folio_label": "fol. 110",
+      "page_id": "7db320ea-f231-4efe-83ef-deb8e8e4a25f",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

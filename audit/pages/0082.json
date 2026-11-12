@@ -1,0 +1,937 @@
+{
+  "source_order": 82,
+  "folio_label": "fol. 41b",
+  "page_id": "6666b68c-0d58-43d0-a4ef-fe0e5863ff36",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "41b",
+    "principal_page_bbox": [
+      265,
+      295,
+      2870,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          335,
+          330,
+          140,
+          95
+        ],
+        "kind_hint": "page_number",
+        "anchor": "41b",
+        "features": [
+          "top-left corner",
+          "superscript-style 'b' after 41"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          365,
+          615,
+          1590,
+          115
+        ],
+        "kind_hint": "continuation",
+        "anchor": "followed by beginning of Dadhisaṁkrāntividhi. ff.1-2 inc.",
+        "features": [
+          "no shelfmark",
+          "appears to continue a holding from the preceding page (fol. 41)",
+          "extent 'ff.1-2'"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          320,
+          730,
+          2750,
+          135
+        ],
+        "kind_hint": "continuation",
+        "anchor": "followed by (1) ff.1-3, explanations of mantras, (2) ff.2-3, ritual text headed Śāntigītā, quoting at end MBh., Virāṭap., Abhimanyu-vivāha.",
+        "features": [
+          "no shelfmark",
+          "superscript '(1)' after 'by'",
+          "final word broken: 'Abhimanyu-' at line end, 'vivāha.' written below at right",
+          "abbreviations 'MBh.', 'Virāṭap.'"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          400,
+          960,
+          2540,
+          125
+        ],
+        "kind_hint": "entry",
+        "anchor": "d. 368(4) Kālakavivaraṇa, p. the Guptavatī rahasyatantra. n.d.:7:10:D.",
+        "features": [
+          "shelfmark 'd. 368(4)'",
+          "title underlined",
+          "date/extent column 'n.d.:7:10:D.' at right",
+          "dot beneath letter of final syllable of title"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          1790,
+          900,
+          110,
+          70
+        ],
+        "kind_hint": "interlinear_note",
+        "anchor": "?ī",
+        "features": [
+          "written above 'Guptavatī', apparently querying the vowel",
+          "small superscript"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1995,
+          400,
+          20,
+          45
+        ],
+        "description": "small vertical ink stroke near top centre, no text"
+      },
+      {
+        "bbox": [
+          1715,
+          1810,
+          35,
+          15
+        ],
+        "description": "short horizontal dash in mid-page, isolated"
+      },
+      {
+        "bbox": [
+          1100,
+          4700,
+          120,
+          30
+        ],
+        "description": "small ink dots near bottom of page"
+      },
+      {
+        "bbox": [
+          500,
+          3540,
+          20,
+          15
+        ],
+        "description": "isolated ink dot in lower left"
+      }
+    ],
+    "boundary_notes": [
+      "Right-hand facing page (fol. 42) is partially visible beyond the gutter at x≈3135+; its shelfmark fragments ('b.94', 'b.99', 'd.5..', arrow, 'f.4..', etc.) belong to fol. 42 and are not target records.",
+      "b002 and b003 lack shelfmarks and appear to continue the last entry of fol. 41 (c.354(2) Kārtikavrata...); parent is inferred from context only.",
+      "Faint mirror-image show-through of writing from the reverse side is visible across the lower two-thirds of the page; this is not text written on this page."
+    ],
+    "uncertainties": [
+      "Reading of 'Dadhisaṁkrāntividhi' and 'Kālakavivaraṇa' is from cursive hand; diacritics are uncertain.",
+      "Interlinear '?ī' may be '?i' with macron; its exact intended point of insertion is uncertain.",
+      "Whether b002 and b003 are successive parts of one continuation or separate notes is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "41b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "41b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner; the 'b' is raised (superscript-style) after '41'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "contents_note",
+        "literal_text": "followed by beginning of Dadhisaṁkrāntividhi. ff.1-2 inc.",
+        "fields": {
+          "title": "Dadhisaṁkrāntividhi",
+          "extent": "ff.1-2 inc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is no shelfmark. The line begins the page and is written in the description column.",
+          "A small dot or stroke appears after 'Dadhisaṁ' within the title word."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_holding",
+            "value": "c. 354 (2) Kārtikavrata + °kathā ...",
+            "source_page_order": 81,
+            "source_block_id": null,
+            "evidence": "This is the last holding on fol. 41. Its description runs to the foot of that page, and this page opens with 'followed by' and no shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 81,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 354 (2) Kārtikavrata + °kathā from the Skandapurāṇa ...",
+            "evidence": "Opening 'followed by' with no shelfmark, at the top of the verso following fol. 41.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "Diacritics and word division in 'Dadhisaṁkrāntividhi' are read from a cursive hand and may be imprecise."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "contents_note",
+        "literal_text": "followed by (1) ff.1-3, explanations of mantras, (2) ff.2-3, ritual text headed Śāntigītā, quoting at end MBh., Virāṭap., Abhimanyu-\nvivāha.",
+        "fields": {
+          "extent": "(1) ff.1-3; (2) ff.2-3",
+          "title": "Śāntigītā"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The '(1)' is written superscript after 'by'.",
+          "'vivāha.' is written below the line at the right, completing 'Abhimanyu-'.",
+          "The line starts slightly left of the preceding line."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_holding",
+            "value": "c. 354 (2) Kārtikavrata + °kathā ...",
+            "source_page_order": 81,
+            "source_block_id": null,
+            "evidence": "This is a second 'followed by' line with no shelfmark, directly following r002.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 81,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 354 (2) Kārtikavrata + °kathā from the Skandapurāṇa ...",
+            "evidence": "The line shares the 'followed by' formula with r002 and has no shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "It is uncertain whether this line continues the same parent as r002 or is a separate continuation, possibly for another item.",
+          "The reading 'explanations of mantras' is from a cursive hand, written close as 'ofmantras'.",
+          "The diacritics in 'Virāṭap.' and 'Śāntigītā' are uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "d. 368(4) Kālakavivaraṇa, p. the Guptavati [interlinear above: ?ī] rahasyatantra. n.d.:7:10:D.",
+        "fields": {
+          "shelfmark": "d. 368(4)",
+          "title": "Kālakavivaraṇa",
+          "source": "p. the Guptavati rahasyatantra",
+          "date": "n.d.",
+          "extent": "7",
+          "lines": "10",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "An interlinear '?ī' is written above the final syllable of 'Guptavati'. It apparently queries the length of the final vowel.",
+          "A dot is written beneath the final syllable of 'Kālakavivaraṇa' (ṇ).",
+          "The date/extent/lines/script column 'n.d.:7:10:D.' is at the right of the line.",
+          "'Guptavati' and 'rahasyatantra' are written almost joined."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "'p. the' may be an abbreviation such as 'fr.'; it is not expanded.",
+          "The inventory reports underlining of the title, but the underlining is not clearly confirmed in the tiles.",
+          "The exact point of the interlinear '?ī' is uncertain; it is read here as applying to the final vowel of 'Guptavati'.",
+          "The reading 'Kālakavivaraṇa' is from a cursive hand, and its diacritics are uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note probably attached to the last holding of fol. 41."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Second continuation note, including the wrapped word 'vivāha.' written below."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Independent holding with shelfmark d. 368(4)."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Interlinear query '?ī' securely placed above 'Guptavati' in r004."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page below r004 is ruled but empty of written entries. The lower area was image-reviewed and shows only mirror-image show-through from the reverse.",
+      "Isolated non-text marks have no textual content: a small vertical stroke near the top centre (~1995,400), a short dash mid-page (~1715,1810), dots near the bottom (~1100,4700) and a dot in the lower left (~500,3540).",
+      "Fragments of fol. 42 (shelfmarks with ticks, an arrow and a 't' mark) beyond the gutter at x≈3135+ belong to the facing page and are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The parent holding of r002 and r003 is inferred only from page sequence: probably c. 354 (2) on fol. 41.",
+      "It is unresolved whether r003 continues the same item as r002."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The page label '41' with a raised 'b' is at the top left. The literal '41b' is acceptable."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The line reads 'followed by beginning of Dadhisaṁkrāntividhi. ff.1-2 inc.' and matches the tiles. A small dot between 'Dadhisaṁ' and 'krānti' is visible and is noted in the annotations. There is no shelfmark. The parent is inferred from the last holding on fol. 41 (c. 354 (2) Kārtikavrata + °kathā ...)."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The full line, including the superscript '(1)', is transcribed. 'vivāha.' is written below at the right after 'Abhimanyu-'. The stroke over the S of Śāntigītā and the dot under ṭ in Virāṭap. are visible. On the adjacent fol. 42 image, the left-edge fragment 'Abhimanyu-vivāha' and ': D.' is this page seen across the opening. It confirms the page edge and is not a separate text."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'d. 368(4) Kālakavivaraṇa, p. the Guptavati rahasyatantra. n.d.:7:10:D.' is transcribed. The dot beneath the final syllable of the title is visible. Underlining of the title is not clearly visible, and the candidate rightly leaves it unconfirmed. The final vowel of 'Guptavat-' is not securely distinguishable as i or ī."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "An interlinear '?ī' (question mark plus ī) stands above the end of 'Guptavat-'. It is attached to r004. Its exact target syllable is approximate. The block_disposition wording 'securely placed' overstates the placement relative to r004's own uncertainty."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "'p. the' may be an abbreviation such as 'fr.'; it is not expanded.",
+          "The inventory reports underlining of the title, but the underlining is not clearly confirmed in the tiles.",
+          "The exact point of the interlinear '?ī' is uncertain; it is read here as applying to the final vowel of 'Guptavati'.",
+          "The reading 'Kālakavivaraṇa' is from a cursive hand, and its diacritics are uncertain."
+        ],
+        "after": [
+          "'p. the' may be an abbreviation such as 'fr.'; it is not expanded.",
+          "The inventory reports underlining of the title, but the underlining is not clearly confirmed in the tiles.",
+          "The exact point of the interlinear '?ī' is uncertain; it is read here as applying to the final vowel of 'Guptavati'.",
+          "The reading 'Kālakavivaraṇa' is from a cursive hand, and its diacritics are uncertain.",
+          "Whether the base text writes 'Guptavati' or 'Guptavatī' is not securely distinguishable; the inventory reads 'Guptavatī'. The interlinear query suggests the vowel length was itself in doubt."
+        ],
+        "reason": "The written final vowel under the interlinear query is ambiguous in the native tile, and the inventory and candidate disagree. This uncertainty should be recorded rather than silently fixed.",
+        "source_block_ids": [
+          "b004",
+          "b005"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The parent holding (probably c. 354 (2) on fol. 41) is inferred from page sequence only. It is also unresolved whether b003 continues the same item as b002 or is a separate continuation.",
+        "next_check": "Compare with the shelfmark list or the physical volume c. 354 to see whether its contents include Dadhisaṁkrāntividhi and the Śāntigītā leaves."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "'p.' before 'the' may be another abbreviation, such as 'fr.'. The base vowel of 'Guptavat-' is ambiguous.",
+        "next_check": "Compare letter forms with other occurrences of 'from the'/'fr. the' in the same hand."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Additional isolated ink dots are near the bottom right at approximately (2069,4731) and (2754,4745). They are not listed in the inventory or the candidate's page_annotations. They are non-text marks.",
+        "next_check": "No textual action is needed. Record them as non-text specks if the mark inventory is meant to be exhaustive."
+      }
+    ],
+    "boundary_review": "The target page is the left leaf (approximately x 265–3135). Content beyond the gutter, from about x 3135 onward (ticks, a 't' mark, an arrow and shelfmarks b.94, b.99, d.507, d.635, f.44, d.591 ...), belongs to fol. 42 and is correctly excluded. The opening 'followed by' lines continue fol. 41's last holding by probable inference only. The fol. 42 image shows this page's 'Abhimanyu-vivāha' and ': D.' at its left edge, so there is no extra text there.",
+    "region_review": {
+      "top": "Contains the page label '41b', a tiny stroke near the top centre (approximately 1995,400) and a faint speck. There is no other text.",
+      "middle": "Below r004 the ruled lines are empty. There is only faint mirror-image show-through from the reverse and a short dash at approximately (1715,1810). No written entries were found.",
+      "bottom": "Shows only show-through and ink specks: a dot at approximately (510,3548), dots at approximately (1095–1210,4713), and further dots at approximately (2069,4731) and (2754,4745). No bottom note was found.",
+      "left_margin": "The shelfmark column holds only 'd. 368(4)'. No marginal notes or ticks are present.",
+      "right_margin": "The date/extent column has 'n.d.:7:10:D.' for r004. 'vivāha.' wraps below b003 at the right. The facing-page material beyond the gutter is excluded.",
+      "interlinear": "Two interlinear features: the superscript '(1)' in b003 and '?ī' above 'Guptavat-' in b004. There are no other insertions or cancellations."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        335,
+        330,
+        140,
+        95
+      ],
+      "kind_hint": "page_number",
+      "anchor": "41b",
+      "features": [
+        "top-left corner",
+        "superscript-style 'b' after 41"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        365,
+        615,
+        1590,
+        115
+      ],
+      "kind_hint": "continuation",
+      "anchor": "followed by beginning of Dadhisaṁkrāntividhi. ff.1-2 inc.",
+      "features": [
+        "no shelfmark",
+        "appears to continue a holding from the preceding page (fol. 41)",
+        "extent 'ff.1-2'"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        320,
+        730,
+        2750,
+        135
+      ],
+      "kind_hint": "continuation",
+      "anchor": "followed by (1) ff.1-3, explanations of mantras, (2) ff.2-3, ritual text headed Śāntigītā, quoting at end MBh., Virāṭap., Abhimanyu-vivāha.",
+      "features": [
+        "no shelfmark",
+        "superscript '(1)' after 'by'",
+        "final word broken: 'Abhimanyu-' at line end, 'vivāha.' written below at right",
+        "abbreviations 'MBh.', 'Virāṭap.'"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        400,
+        960,
+        2540,
+        125
+      ],
+      "kind_hint": "entry",
+      "anchor": "d. 368(4) Kālakavivaraṇa, p. the Guptavatī rahasyatantra. n.d.:7:10:D.",
+      "features": [
+        "shelfmark 'd. 368(4)'",
+        "title underlined",
+        "date/extent column 'n.d.:7:10:D.' at right",
+        "dot beneath letter of final syllable of title"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        1790,
+        900,
+        110,
+        70
+      ],
+      "kind_hint": "interlinear_note",
+      "anchor": "?ī",
+      "features": [
+        "written above 'Guptavatī', apparently querying the vowel",
+        "small superscript"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "41b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner; the 'b' is raised (superscript-style) after '41'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0082-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "contents_note",
+      "literal_text": "followed by beginning of Dadhisaṁkrāntividhi. ff.1-2 inc.",
+      "fields": {
+        "title": "Dadhisaṁkrāntividhi",
+        "extent": "ff.1-2 inc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is no shelfmark. The line begins the page and is written in the description column.",
+        "A small dot or stroke appears after 'Dadhisaṁ' within the title word."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_holding",
+          "value": "c. 354 (2) Kārtikavrata + °kathā ...",
+          "source_page_order": 81,
+          "source_block_id": null,
+          "evidence": "This is the last holding on fol. 41. Its description runs to the foot of that page, and this page opens with 'followed by' and no shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 81,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 354 (2) Kārtikavrata + °kathā from the Skandapurāṇa ...",
+          "evidence": "Opening 'followed by' with no shelfmark, at the top of the verso following fol. 41.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "Diacritics and word division in 'Dadhisaṁkrāntividhi' are read from a cursive hand and may be imprecise."
+      ],
+      "stable_id": "css-prod-0082-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "contents_note",
+      "literal_text": "followed by (1) ff.1-3, explanations of mantras, (2) ff.2-3, ritual text headed Śāntigītā, quoting at end MBh., Virāṭap., Abhimanyu-\nvivāha.",
+      "fields": {
+        "extent": "(1) ff.1-3; (2) ff.2-3",
+        "title": "Śāntigītā"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The '(1)' is written superscript after 'by'.",
+        "'vivāha.' is written below the line at the right, completing 'Abhimanyu-'.",
+        "The line starts slightly left of the preceding line."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_holding",
+          "value": "c. 354 (2) Kārtikavrata + °kathā ...",
+          "source_page_order": 81,
+          "source_block_id": null,
+          "evidence": "This is a second 'followed by' line with no shelfmark, directly following r002.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 81,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 354 (2) Kārtikavrata + °kathā from the Skandapurāṇa ...",
+          "evidence": "The line shares the 'followed by' formula with r002 and has no shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "It is uncertain whether this line continues the same parent as r002 or is a separate continuation, possibly for another item.",
+        "The reading 'explanations of mantras' is from a cursive hand, written close as 'ofmantras'.",
+        "The diacritics in 'Virāṭap.' and 'Śāntigītā' are uncertain."
+      ],
+      "stable_id": "css-prod-0082-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "d. 368(4) Kālakavivaraṇa, p. the Guptavati [interlinear above: ?ī] rahasyatantra. n.d.:7:10:D.",
+      "fields": {
+        "shelfmark": "d. 368(4)",
+        "title": "Kālakavivaraṇa",
+        "source": "p. the Guptavati rahasyatantra",
+        "date": "n.d.",
+        "extent": "7",
+        "lines": "10",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "An interlinear '?ī' is written above the final syllable of 'Guptavati'. It apparently queries the length of the final vowel.",
+        "A dot is written beneath the final syllable of 'Kālakavivaraṇa' (ṇ).",
+        "The date/extent/lines/script column 'n.d.:7:10:D.' is at the right of the line.",
+        "'Guptavati' and 'rahasyatantra' are written almost joined."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "'p. the' may be an abbreviation such as 'fr.'; it is not expanded.",
+        "The inventory reports underlining of the title, but the underlining is not clearly confirmed in the tiles.",
+        "The exact point of the interlinear '?ī' is uncertain; it is read here as applying to the final vowel of 'Guptavati'.",
+        "The reading 'Kālakavivaraṇa' is from a cursive hand, and its diacritics are uncertain."
+      ],
+      "stable_id": "css-prod-0082-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "'p. the' may be an abbreviation such as 'fr.'; it is not expanded.",
+        "The inventory reports underlining of the title, but the underlining is not clearly confirmed in the tiles.",
+        "The exact point of the interlinear '?ī' is uncertain; it is read here as applying to the final vowel of 'Guptavati'.",
+        "The reading 'Kālakavivaraṇa' is from a cursive hand, and its diacritics are uncertain."
+      ],
+      "after": [
+        "'p. the' may be an abbreviation such as 'fr.'; it is not expanded.",
+        "The inventory reports underlining of the title, but the underlining is not clearly confirmed in the tiles.",
+        "The exact point of the interlinear '?ī' is uncertain; it is read here as applying to the final vowel of 'Guptavati'.",
+        "The reading 'Kālakavivaraṇa' is from a cursive hand, and its diacritics are uncertain.",
+        "Whether the base text writes 'Guptavati' or 'Guptavatī' is not securely distinguishable; the inventory reads 'Guptavatī'. The interlinear query suggests the vowel length was itself in doubt."
+      ],
+      "reason": "The written final vowel under the interlinear query is ambiguous in the native tile, and the inventory and candidate disagree. This uncertainty should be recorded rather than silently fixed.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/6666b68c-0d58-43d0-a4ef-fe0e5863ff36.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666b68c-0d58-43d0-a4ef-fe0e5863ff36/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "494b08e575987cb95deb70374dd89085eb6feaf8eb47bfa9f21bb8b6f2607890",
+      "bytes": 268630,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666b68c-0d58-43d0-a4ef-fe0e5863ff36/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a325029f8e0494a4ff2fb488b64b3e1138add8b5ff592d9d001a9d2694c5daac",
+      "bytes": 359833,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666b68c-0d58-43d0-a4ef-fe0e5863ff36/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5b1db8e475d65f9e816d511c50b10492de99fe320db6b8708ae56edaf73d0023",
+      "bytes": 349453,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666b68c-0d58-43d0-a4ef-fe0e5863ff36/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c378c30ad0291d01aac624ca696d66908afb83a137e628c13383c18fe5c0b53b",
+      "bytes": 301295,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666b68c-0d58-43d0-a4ef-fe0e5863ff36/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "476723638f10638d7f5269aeeb730562fdabb9370e841ac415ae22e55ff77ef2",
+      "bytes": 289350,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666b68c-0d58-43d0-a4ef-fe0e5863ff36/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "53898086fa0ce3bb04903cdd9f2b8e77dae50279c8be0a42c074ec39f419727b",
+      "bytes": 313314,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6666b68c-0d58-43d0-a4ef-fe0e5863ff36/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7e132246974d59558b77c09fb62236e617d1452856ef39567d7078bc9dcaa968",
+      "bytes": 319182,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/924c96aa-8df1-4441-aac7-d9e4097a1ced/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0af9cf1908ecfb551e453a50e66a178d7c333adba1720e73d762a970797daec1",
+      "bytes": 290033,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 81,
+      "folio_label": "fol. 41",
+      "page_id": "924c96aa-8df1-4441-aac7-d9e4097a1ced",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/14ccefc0-35a4-4da6-ace7-d99835053dee/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5a3dd386fe49168871df4f17c925920540e3a297227a5edccca6b8fc5261c4d6",
+      "bytes": 236963,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 83,
+      "folio_label": "fol. 42",
+      "page_id": "14ccefc0-35a4-4da6-ace7-d99835053dee",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

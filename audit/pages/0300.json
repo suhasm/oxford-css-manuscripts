@@ -1,0 +1,1862 @@
+{
+  "source_order": 300,
+  "folio_label": "fol. 150b",
+  "page_id": "95c814cc-449d-4748-ac8f-4742bd14d4c0",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "150b",
+    "principal_page_bbox": [
+      290,
+      260,
+      2910,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          375,
+          300,
+          175,
+          115
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "150b",
+        "features": [
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          355,
+          1965,
+          1270,
+          85
+        ],
+        "kind_hint": "entry_or_continuation_note",
+        "anchor": "v. c.406(3)c Do., ff.62b-64a., foll. by one misc. fol.",
+        "features": [
+          "single line",
+          "appears to begin with a tick mark",
+          "superscript letter after (3)",
+          "ditto abbreviation 'Do.'",
+          "no heading on this page; probably relates to an entry on facing fol. 151 (c.406(1))"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2560,
+          2000,
+          440,
+          65
+        ],
+        "kind_hint": "marginal_note_with_arrow",
+        "anchor": "Reads: 3:5: Beng.",
+        "features": [
+          "right side of page near gutter",
+          "followed by left-pointing arrow ← at about x3080-3150",
+          "a right-pointing arrow → continues across gutter at about x3230-3345",
+          "first word reading uncertain"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2155,
+          2140,
+          480,
+          105
+        ],
+        "kind_hint": "marginal_note_with_arrow",
+        "anchor": "ff.1-13 [Read? / bend?] of ii",
+        "features": [
+          "followed by left-pointing arrow ← at about x3030-3170",
+          "wording partly uncertain"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          465,
+          3285,
+          1910,
+          145
+        ],
+        "kind_hint": "incipit_continuation",
+        "anchor": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma…",
+        "features": [
+          "single long line",
+          "interlinear insertion 'ṁ' above, with a vertical caret/insertion stroke at about x1950",
+          "diacritics present",
+          "left-pointing arrow ← at gutter edge about x3200-3305, y~3395",
+          "relates to an entry on the facing page; parent not on this page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3200,
+          3380,
+          110,
+          30
+        ],
+        "description": "left-pointing arrow at gutter, level with b005; possibly on facing-page edge"
+      },
+      {
+        "bbox": [
+          3229,
+          2015,
+          115,
+          30
+        ],
+        "description": "right-pointing arrow across gutter, level with b003"
+      }
+    ],
+    "boundary_notes": [
+      "A strip of the facing page (fol. 151) is visible to the right of the gutter (x>~3195), carrying shelfmark letters (e., d., √c, etc.) and ticks; these are not target records.",
+      "Arrows near the gutter (with b003, b005) lie at or just across the gutter, so it is ambiguous whether they belong to this page or the facing page.",
+      "Faint show-through of the reverse side (fol. 150 entries) appears across the whole page; it is not transcribed as target text."
+    ],
+    "uncertainties": [
+      "First word of b003 ('Reads'?) is uncertain.",
+      "The middle word of b004 ('Read'/'bend'?) and the overall reading 'of ii' are uncertain.",
+      "The precise form of the inserted letter in b005 ('ṁ' over 'n'?) is uncertain.",
+      "Superscript after (3) in b002 is read as 'c'; this reading is tentative."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "150b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "150ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner, with a superscript 'b'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "additional_part_of_manuscript",
+        "literal_text": "✓. c.406(3)ᶜ Do., ff.62b-64a., foll. by one misc. fol.",
+        "fields": {
+          "shelfmark": "c.406(3)ᶜ",
+          "title": "Do.",
+          "extent": "ff.62b-64a., foll. by one misc. fol."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line in the left part of the page at about y1965–2050.",
+          "The opening mark looks like a tick, but it could also be read as 'v.'.",
+          "A small superscript letter follows '(3)'.",
+          "'Do.' is a ditto abbreviation. Its referent is not on this page."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Ditto refers to the entry on the facing page at the same level: '√c. 406(1) Praśasti[ratnākara] … A mixed MS.'",
+            "source_page_order": 301,
+            "source_block_id": null,
+            "evidence": "This line sits at the same height (about y1963) as the c.406(1) entry on fol. 151. The shelfmark base c.406 is the same.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 301,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 406(1) Praśasti…",
+            "evidence": "Same shelfmark base and same line level across the gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "Opening mark: tick or 'v.'.",
+          "The superscript after (3) is read as 'c'; this reading is tentative."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "correction_note_with_arrow",
+        "literal_text": "[n.d.? / Reads?]: 3 : 5 : Beng.",
+        "fields": {
+          "extent": "3 : 5",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written near the gutter at about y2000.",
+          "A left-pointing arrow follows at about x3080–3150.",
+          "A right-pointing arrow at about x3230–3345 crosses the gutter toward the facing page."
+        ],
+        "editorial_context": [
+          {
+            "field": "extent",
+            "value": "Possibly a correction of the extent/lines/script for c.406(1) on fol. 151, which reads 'n.d.:[corrected]:5: Beng.'",
+            "source_page_order": 301,
+            "source_block_id": null,
+            "evidence": "Same line level as c.406(1). The arrow points across the gutter. The figures and 'Beng.' match the facing entry.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 301,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 406(1) … n.d.: [?]:5: Beng.",
+            "evidence": "Arrow across the gutter at the same level.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first word is uncertain; it may be 'n.d.' or 'Reads'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "note_with_arrow",
+        "literal_text": "ff.1-13 [Bend? / Read?] of ii",
+        "fields": {
+          "extent": "ff.1-13"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written at about y2140–2245.",
+          "A left-pointing arrow follows at about x3030–3170."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 301,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "/d. 59(8) … D: dīpikā by Nārāyaṇa (or e. 22(2)²)",
+            "evidence": "Roughly level with the d.59(8) line on fol. 151. That line also has a left-margin arrow there.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The middle word and the reading 'of ii' are uncertain.",
+          "The target entry is uncertain."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit",
+        "literal_text": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[ṁ inserted above]dalhiyaṁgaman",
+        "fields": {
+          "extent": "ff.1-9.",
+          "incipit": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ]dalhiyaṁgaman"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Long single line at about y3285–3430.",
+          "An interlinear 'ṁ' is written above, with a vertical insertion stroke at about x1950. The stroke may overwrite a letter.",
+          "A left-pointing arrow at the gutter edge (about x3200–3305, y3395) is level with this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 301,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 321 Praśnavicāra … 172 ślokas",
+            "evidence": "Same line level as the c.321 entry on fol. 151, which has a left-margin arrow. A gutter arrow sits at the same height.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The letters around the insertion are uncertain ('ma[ṁ]dal…' / 'maṇḍal…').",
+          "The end of the incipit, 'hiyaṁgaman', is a tentative reading."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3200,
+          3380,
+          110,
+          30
+        ],
+        "kind_hint": "arrow",
+        "anchor": "left arrow at gutter level with b005",
+        "features": [
+          "left-pointing",
+          "at the gutter edge"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3229,
+          2015,
+          115,
+          30
+        ],
+        "kind_hint": "arrow",
+        "anchor": "right arrow across gutter level with b003",
+        "features": [
+          "right-pointing",
+          "crosses the gutter"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Additional part with ditto; parent entry on the facing page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Marginal correction note with arrows."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Note with arrow; attachment uncertain."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Extent and incipit continuation for a facing-page entry."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Gutter arrow linking b005 to the facing page."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrow linking b003 to the facing page."
+      }
+    ],
+    "page_annotations": [
+      "A strip of fol. 151 (shelfmark letters and ticks) is visible to the right of the gutter. It is not transcribed.",
+      "Faint show-through of the fol. 150 recto is not transcribed.",
+      "The lower half and the bottom of the page were reviewed. No other writing was found."
+    ],
+    "unresolved_relationships": [
+      "The precise targets of b003, b004 and b005 on fol. 151 are inferred from line level only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '150' with a superscript 'b' is at the top left. The candidate's '150ᵇ' matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The line matches the image: an opening tick-like 'v' followed by a dot, 'c.406(3)', a small superscript letter, 'Do., ff.62b-64a., foll. by one misc. fol.' The superscript letter (c or e?) and the tick-versus-'v.' question stay uncertain. The ditto link to c.406(1) on fol. 151 is plausible from line level and shelfmark base, but remains probable only."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The note reads '[first word uncertain]: 3 : 5 : Beng.', followed by a left arrow on the target side of the gutter. The candidate correctly keeps the first word uncertain. In the fol. 151 image the facing c.406(1) line ends ':5: Beng.' at the same height."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The note reads 'ff.1-13 [Bend?/Read?] of ii' with a left arrow before the gutter. The middle word stays uncertain. By level, the note sits between e.22(2)² and d.59(8) on fol. 151, nearer d.59(8). The attachment stays uncertain."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The incipit line is present. A 'ṁ' is written above, and a heavy vertical stroke overwrites a letter after 'ma'. The candidate put an editorial description ('[ṁ inserted above]') inside literal_text; this review revises that."
+      },
+      {
+        "block_id": "b901",
+        "status": "uncertain",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The left arrow at canvas x≈3204–3304, y≈3396 lies just right of the gutter line (x≈3194). It is probably on the fol. 151 margin beside c.321, not on the target page. Its attachment to r005 is plausible but its page ownership is ambiguous."
+      },
+      {
+        "block_id": "b902",
+        "status": "uncertain",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The right arrow at canvas x≈3229–3344 lies right of the gutter, so it is likely written on the fol. 151 margin. It is grouped with r003 as a linking mark, but its ownership is ambiguous."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r005",
+        "field_path": "literal_text",
+        "before": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[ṁ inserted above]dalhiyaṁgaman",
+        "after": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[letter overwritten by vertical stroke; ṁ written above]dal[hiyaṁgaman?]",
+        "reason": "The insertion and overwriting should be described as uncertainty and in the annotations, not given as source wording. The ending letters are not securely legible.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "fields.incipit",
+        "before": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ]dalhiyaṁgaman",
+        "after": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ?]dal[hiyaṁgaman?]",
+        "reason": "The inserted letter and the ending are uncertain. A bracketed reading should not appear as a resolved form.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Written near the gutter at about y2000.",
+          "A left-pointing arrow follows at about x3080–3150.",
+          "A right-pointing arrow at about x3230–3345 crosses the gutter toward the facing page."
+        ],
+        "after": [
+          "Written in the right part of the page (x≈2560–3000) at about y2000.",
+          "A left-pointing arrow follows at about x3080–3150, on the target side of the gutter.",
+          "A right-pointing arrow at about x3230–3345 lies right of the gutter line (x≈3194). It is probably on the fol. 151 margin, so its ownership is ambiguous."
+        ],
+        "reason": "The gutter position seen in the native tile shows the right arrow is likely on the facing leaf.",
+        "source_block_ids": [
+          "b003",
+          "b902"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The first word is uncertain (n.d.? / Reads?). Whether the note corrects the c.406(1) figures is inferred only.",
+        "next_check": "Compare with a higher-resolution view of the fol. 151 c.406(1) date/extent column."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The middle word is unclear, and the target entry could be e.22(2)² or d.59(8).",
+        "next_check": "Measure the line baselines across the gutter at native resolution."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The superscript after (3) (c/e?) and the opening mark (tick or 'v.') are unresolved.",
+        "next_check": "Inspect at magnification."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b901",
+          "b902"
+        ],
+        "issue": "The arrows near the gutter may belong to fol. 151.",
+        "next_check": "Check gutter ink continuity in the fol. 151 native image."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3194. A strip of fol. 151 to the right (shelfmark letters and ticks) is not transcribed. Arrows b901 and b902 sit just right of the gutter and are probably on fol. 151, but they are kept as linking marks with their ownership ambiguous. All parents of b002–b005 are on fol. 151, and the attachments are by line level only.",
+    "region_review": {
+      "top": "Only the folio number '150ᵇ' is present. Faint show-through is not transcribed.",
+      "middle": "Contains b002, b003 and b004 with their arrows. There is no other writing apart from show-through.",
+      "bottom": "Contains the b005 line at y≈3300–3430. Below it is only show-through, a tiny stray dash near x≈2594, y≈4796, and stitching marks at the gutter. No notes were found.",
+      "left_margin": "No writing.",
+      "right_margin": "Gutter arrows are present, and the facing-page strip is excluded. Binding-thread marks appear at the gutter at about y≈735, 1625 and 4385.",
+      "interlinear": "An 'ṁ' is written above the b005 incipit, with an overwriting vertical stroke."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        375,
+        300,
+        175,
+        115
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "150b",
+      "features": [
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        355,
+        1965,
+        1270,
+        85
+      ],
+      "kind_hint": "entry_or_continuation_note",
+      "anchor": "v. c.406(3)c Do., ff.62b-64a., foll. by one misc. fol.",
+      "features": [
+        "single line",
+        "appears to begin with a tick mark",
+        "superscript letter after (3)",
+        "ditto abbreviation 'Do.'",
+        "no heading on this page; probably relates to an entry on facing fol. 151 (c.406(1))"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2560,
+        2000,
+        440,
+        65
+      ],
+      "kind_hint": "marginal_note_with_arrow",
+      "anchor": "Reads: 3:5: Beng.",
+      "features": [
+        "right side of page near gutter",
+        "followed by left-pointing arrow ← at about x3080-3150",
+        "a right-pointing arrow → continues across gutter at about x3230-3345",
+        "first word reading uncertain"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2155,
+        2140,
+        480,
+        105
+      ],
+      "kind_hint": "marginal_note_with_arrow",
+      "anchor": "ff.1-13 [Read? / bend?] of ii",
+      "features": [
+        "followed by left-pointing arrow ← at about x3030-3170",
+        "wording partly uncertain"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        465,
+        3285,
+        1910,
+        145
+      ],
+      "kind_hint": "incipit_continuation",
+      "anchor": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma…",
+      "features": [
+        "single long line",
+        "interlinear insertion 'ṁ' above, with a vertical caret/insertion stroke at about x1950",
+        "diacritics present",
+        "left-pointing arrow ← at gutter edge about x3200-3305, y~3395",
+        "relates to an entry on the facing page; parent not on this page"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3200,
+        3380,
+        110,
+        30
+      ],
+      "kind_hint": "arrow",
+      "anchor": "left arrow at gutter level with b005",
+      "features": [
+        "left-pointing",
+        "at the gutter edge"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3229,
+        2015,
+        115,
+        30
+      ],
+      "kind_hint": "arrow",
+      "anchor": "right arrow across gutter level with b003",
+      "features": [
+        "right-pointing",
+        "crosses the gutter"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "150ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner, with a superscript 'b'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0300-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "additional_part_of_manuscript",
+      "literal_text": "✓. c.406(3)ᶜ Do., ff.62b-64a., foll. by one misc. fol.",
+      "fields": {
+        "shelfmark": "c.406(3)ᶜ",
+        "title": "Do.",
+        "extent": "ff.62b-64a., foll. by one misc. fol."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line in the left part of the page at about y1965–2050.",
+        "The opening mark looks like a tick, but it could also be read as 'v.'.",
+        "A small superscript letter follows '(3)'.",
+        "'Do.' is a ditto abbreviation. Its referent is not on this page."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Ditto refers to the entry on the facing page at the same level: '√c. 406(1) Praśasti[ratnākara] … A mixed MS.'",
+          "source_page_order": 301,
+          "source_block_id": null,
+          "evidence": "This line sits at the same height (about y1963) as the c.406(1) entry on fol. 151. The shelfmark base c.406 is the same.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 301,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 406(1) Praśasti…",
+          "evidence": "Same shelfmark base and same line level across the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "Opening mark: tick or 'v.'.",
+        "The superscript after (3) is read as 'c'; this reading is tentative."
+      ],
+      "stable_id": "css-prod-0300-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "correction_note_with_arrow",
+      "literal_text": "[n.d.? / Reads?]: 3 : 5 : Beng.",
+      "fields": {
+        "extent": "3 : 5",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written near the gutter at about y2000.",
+        "A left-pointing arrow follows at about x3080–3150.",
+        "A right-pointing arrow at about x3230–3345 crosses the gutter toward the facing page."
+      ],
+      "editorial_context": [
+        {
+          "field": "extent",
+          "value": "Possibly a correction of the extent/lines/script for c.406(1) on fol. 151, which reads 'n.d.:[corrected]:5: Beng.'",
+          "source_page_order": 301,
+          "source_block_id": null,
+          "evidence": "Same line level as c.406(1). The arrow points across the gutter. The figures and 'Beng.' match the facing entry.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 301,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 406(1) … n.d.: [?]:5: Beng.",
+          "evidence": "Arrow across the gutter at the same level.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first word is uncertain; it may be 'n.d.' or 'Reads'."
+      ],
+      "stable_id": "css-prod-0300-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "note_with_arrow",
+      "literal_text": "ff.1-13 [Bend? / Read?] of ii",
+      "fields": {
+        "extent": "ff.1-13"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written at about y2140–2245.",
+        "A left-pointing arrow follows at about x3030–3170."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 301,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "/d. 59(8) … D: dīpikā by Nārāyaṇa (or e. 22(2)²)",
+          "evidence": "Roughly level with the d.59(8) line on fol. 151. That line also has a left-margin arrow there.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The middle word and the reading 'of ii' are uncertain.",
+        "The target entry is uncertain."
+      ],
+      "stable_id": "css-prod-0300-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit",
+      "literal_text": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[ṁ inserted above]dalhiyaṁgaman",
+      "fields": {
+        "extent": "ff.1-9.",
+        "incipit": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ]dalhiyaṁgaman"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Long single line at about y3285–3430.",
+        "An interlinear 'ṁ' is written above, with a vertical insertion stroke at about x1950. The stroke may overwrite a letter.",
+        "A left-pointing arrow at the gutter edge (about x3200–3305, y3395) is level with this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 301,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 321 Praśnavicāra … 172 ślokas",
+          "evidence": "Same line level as the c.321 entry on fol. 151, which has a left-margin arrow. A gutter arrow sits at the same height.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The letters around the insertion are uncertain ('ma[ṁ]dal…' / 'maṇḍal…').",
+        "The end of the incipit, 'hiyaṁgaman', is a tentative reading."
+      ],
+      "stable_id": "css-prod-0300-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[ṁ inserted above]dalhiyaṁgaman",
+      "after": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[letter overwritten by vertical stroke; ṁ written above]dal[hiyaṁgaman?]",
+      "reason": "The insertion and overwriting should be described as uncertainty and in the annotations, not given as source wording. The ending letters are not securely legible.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "fields.incipit",
+      "before": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ]dalhiyaṁgaman",
+      "after": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ?]dal[hiyaṁgaman?]",
+      "reason": "The inserted letter and the ending are uncertain. A bracketed reading should not appear as a resolved form.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Written near the gutter at about y2000.",
+        "A left-pointing arrow follows at about x3080–3150.",
+        "A right-pointing arrow at about x3230–3345 crosses the gutter toward the facing page."
+      ],
+      "after": [
+        "Written in the right part of the page (x≈2560–3000) at about y2000.",
+        "A left-pointing arrow follows at about x3080–3150, on the target side of the gutter.",
+        "A right-pointing arrow at about x3230–3345 lies right of the gutter line (x≈3194). It is probably on the fol. 151 margin, so its ownership is ambiguous."
+      ],
+      "reason": "The gutter position seen in the native tile shows the right arrow is likely on the facing leaf.",
+      "source_block_ids": [
+        "b003",
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "✓. c.406(3)ᶜ Do., ff.62b-64a., foll. by one misc. fol.",
+      "after": "[✓? / v.?]. c.406(3)ᶜ[?] Do., ff.62b-64a., foll. by one misc. fol.",
+      "reason": "The opening mark and the superscript are not securely legible, so the literal text should not present them as resolved.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0300-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[ṁ inserted above]dalhiyaṁgaman",
+      "after": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[letter overwritten by vertical stroke; ṁ written above]dal[hiyaṁgaman?]",
+      "reason": "The overwritten letter and the ending are not securely legible.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0300-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "fields.incipit",
+      "before": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ]dalhiyaṁgaman",
+      "after": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ?]dal[hiyaṁgaman?]",
+      "reason": "The inserted letter and the ending are uncertain.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0300-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "annotations",
+      "before": [
+        "Long single line at about y3285–3430.",
+        "An interlinear 'ṁ' is written above, with a vertical insertion stroke at about x1950. The stroke may overwrite a letter.",
+        "A left-pointing arrow at the gutter edge (about x3200–3305, y3395) is level with this line."
+      ],
+      "after": [
+        "Long single line at about y3285–3430.",
+        "An interlinear 'ṁ' is written above, with a heavy vertical stroke at about x1950 that appears to overwrite a letter.",
+        "A left-pointing arrow at about x3204–3304, y3396 is level with this line. It lies right of the gutter fold (x≈3194) and is probably in the fol. 151 left margin, next to '√ c. 321'. Its connection to this line is not stated."
+      ],
+      "reason": "Reconciles the arrow's position with the fol. 151 context tile.",
+      "source_block_ids": [
+        "b005",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0300-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Written near the gutter at about y2000.",
+        "A left-pointing arrow follows at about x3080–3150.",
+        "A right-pointing arrow at about x3230–3345 crosses the gutter toward the facing page."
+      ],
+      "after": [
+        "Written in the right part of the page (x≈2560–3000) at about y2000.",
+        "A left-pointing arrow follows at about x3080–3150, on the target side of the gutter.",
+        "A right-pointing arrow at about x3230–3345 lies right of the gutter line (x≈3194). It is probably on the fol. 151 margin, so its ownership is ambiguous."
+      ],
+      "reason": "Native-tile gutter position.",
+      "source_block_ids": [
+        "b003",
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0300-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b901",
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b901",
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0300-01"
+    },
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0300-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The arrows near the gutter may belong to fol. 151.",
+      "block_ids": [
+        "b901",
+        "b902"
+      ],
+      "record_ids": [
+        "r003",
+        "r005"
+      ],
+      "id": "focus-0300-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The insertion and overwriting should be described as uncertainty and in the annotations, not given as source wording. The ending letters are not securely legible. Proposed literal_text: \"ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[letter overwritten by vertical stroke; ṁ written above]dal[hiyaṁgaman?]\"",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0300-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The first word is uncertain (n.d.? / Reads?). Whether the note corrects the c.406(1) figures is inferred only.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0300-05"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The middle word is unclear, and the target entry could be e.22(2)² or d.59(8).",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0300-06"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The superscript after (3) (c/e?) and the opening mark (tick or 'v.') are unresolved.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0300-07"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The inserted letter and the ending are uncertain. A bracketed reading should not appear as a resolved form. Proposed fields.incipit: \"Aparāhno Bhārgavendū saṁdhyā ma[ṁ?]dal[hiyaṁgaman?]\"",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0300-08"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The gutter position seen in the native tile shows the right arrow is likely on the facing leaf. Proposed annotations: [\"Written in the right part of the page (x≈2560–3000) at about y2000.\", \"A left-pointing arrow follows at about x3080–3150, on the target side of the gutter.\", \"A right-pointing arrow at about x3230–3345 lies right of the gutter line (x≈3194). It is probably on the fol. 151 margin, so its ownership is ambiguous.\"]",
+      "block_ids": [
+        "b003",
+        "b902"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0300-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Opening mark: tick or 'v.'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0300-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0300-01",
+        "focus-0300-02",
+        "focus-0300-03",
+        "focus-0300-04",
+        "focus-0300-05",
+        "focus-0300-06",
+        "focus-0300-07",
+        "focus-0300-08",
+        "focus-0300-09",
+        "focus-0300-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0300-01",
+          "source_reading": "[left-pointing arrow, no wording]",
+          "certainty": "probable",
+          "evidence": "In the native tile at [1604,3216], the gutter fold is at tile x≈1590, which is canvas x≈3194. The small '←' is at tile x≈1600–1700, y≈180, which is canvas x≈3204–3304, y≈3396. That places it right of the fold. In the fol. 151 native context tile, the same arrow sits just right of that page's gutter edge (x≈395–495), level with '√ c. 321'. It is therefore probably a mark in the fol. 151 left margin, not ink on fol. 150b."
+        },
+        {
+          "issue_id": "focus-0300-02",
+          "source_reading": "[right-pointing arrow, no wording]",
+          "certainty": "probable",
+          "evidence": "The '⟶' is at canvas x≈3229–3344, y≈2028. That is right of the fold line at x≈3194. In the fol. 151 context tile it lies just right of that page's gutter (x≈420–530), level with '√ c. 406(1)'. It is probably on the fol. 151 margin."
+        },
+        {
+          "issue_id": "focus-0300-03",
+          "source_reading": "Three arrows lie left of the fold, on fol. 150b: '←' after 'Beng.' (x≈3079–3149), and '←' after 'ff.1-13 …' (x≈3030–3170). Two arrows lie right of the fold: '⟶' level with b003, and '←' level with b005. Both of these are probably on the fol. 151 margin.",
+          "certainty": "probable",
+          "evidence": "The gutter position was compared between the target native tiles and the fol. 151 native tile. The arrows on the fol. 151 side may still have been drawn as cross-page links. Their attachment is not stated."
+        },
+        {
+          "issue_id": "focus-0300-04",
+          "source_reading": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[letter overwritten by heavy vertical stroke; ṁ written above]dal[hiyaṁgaman?]",
+          "certainty": "uncertain",
+          "evidence": "The native tile at [1604,3216] shows 'ma'. Next comes a letter obscured by a bold vertical stroke, with 'ṁ' above it. After that the ink reads something like 'dal' followed by 'hiyaṁgaman'. The letters after 'dal' are not securely legible."
+        },
+        {
+          "issue_id": "focus-0300-05",
+          "source_reading": "[Reads? / n.d.?]: 3 : 5 : Beng.",
+          "certainty": "uncertain",
+          "evidence": "The first word is heavily inked or overwritten. It could be 'Reads' or 'n.d.'. The figures '3 : 5 :' and 'Beng.' are clear. A relation to the corrected '3' in the fol. 151 c.406(1) line is inferred only."
+        },
+        {
+          "issue_id": "focus-0300-06",
+          "source_reading": "ff.1-13 [Bend? / Read? / Beng?] of ii",
+          "certainty": "uncertain",
+          "evidence": "The middle word begins with a B- or R-like letter followed by '-end' or '-eud'. The arrow sits on the fol. 150b side of the fold, at y≈2175. That is between the levels of e.22(2)ᵃ and d.59(8) on fol. 151, so the target entry cannot be determined."
+        },
+        {
+          "issue_id": "focus-0300-07",
+          "source_reading": "[v.? / ✓?] c.406(3)[c?] Do., ff.62b-64a., foll. by one misc. fol.",
+          "certainty": "uncertain",
+          "evidence": "The opening mark is a small symmetric 'V' followed by a dot. It is unlike the long-armed ticks on fol. 151. The superscript after '(3)' looks c-like but has a flourish."
+        },
+        {
+          "issue_id": "focus-0300-08",
+          "source_reading": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ?]dal[hiyaṁgaman?]",
+          "certainty": "uncertain",
+          "evidence": "Same as focus-0300-04. The insertion is described in the annotations rather than given as wording."
+        },
+        {
+          "issue_id": "focus-0300-09",
+          "source_reading": "[Reads? / n.d.?]: 3 : 5 : Beng. ←",
+          "certainty": "probable",
+          "evidence": "The '←' at x≈3079–3149 lies left of the fold, on the target page. The '⟶' at x≈3229–3344 lies right of the fold, probably on fol. 151."
+        },
+        {
+          "issue_id": "focus-0300-10",
+          "source_reading": "[v.? / ✓?]",
+          "certainty": "uncertain",
+          "evidence": "A small V shape with a following dot. It may be a tick or the letter 'v.'."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "✓. c.406(3)ᶜ Do., ff.62b-64a., foll. by one misc. fol.",
+          "after": "[✓? / v.?]. c.406(3)ᶜ[?] Do., ff.62b-64a., foll. by one misc. fol.",
+          "reason": "The opening mark and the superscript are not securely legible, so the literal text should not present them as resolved.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "literal_text",
+          "before": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[ṁ inserted above]dalhiyaṁgaman",
+          "after": "ff.1-9. Begins, Aparāhno Bhārgavendū saṁdhyā ma[letter overwritten by vertical stroke; ṁ written above]dal[hiyaṁgaman?]",
+          "reason": "The overwritten letter and the ending are not securely legible.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "fields.incipit",
+          "before": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ]dalhiyaṁgaman",
+          "after": "Aparāhno Bhārgavendū saṁdhyā ma[ṁ?]dal[hiyaṁgaman?]",
+          "reason": "The inserted letter and the ending are uncertain.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "annotations",
+          "before": [
+            "Long single line at about y3285–3430.",
+            "An interlinear 'ṁ' is written above, with a vertical insertion stroke at about x1950. The stroke may overwrite a letter.",
+            "A left-pointing arrow at the gutter edge (about x3200–3305, y3395) is level with this line."
+          ],
+          "after": [
+            "Long single line at about y3285–3430.",
+            "An interlinear 'ṁ' is written above, with a heavy vertical stroke at about x1950 that appears to overwrite a letter.",
+            "A left-pointing arrow at about x3204–3304, y3396 is level with this line. It lies right of the gutter fold (x≈3194) and is probably in the fol. 151 left margin, next to '√ c. 321'. Its connection to this line is not stated."
+          ],
+          "reason": "Reconciles the arrow's position with the fol. 151 context tile.",
+          "source_block_ids": [
+            "b005",
+            "b901"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "annotations",
+          "before": [
+            "Written near the gutter at about y2000.",
+            "A left-pointing arrow follows at about x3080–3150.",
+            "A right-pointing arrow at about x3230–3345 crosses the gutter toward the facing page."
+          ],
+          "after": [
+            "Written in the right part of the page (x≈2560–3000) at about y2000.",
+            "A left-pointing arrow follows at about x3080–3150, on the target side of the gutter.",
+            "A right-pointing arrow at about x3230–3345 lies right of the gutter line (x≈3194). It is probably on the fol. 151 margin, so its ownership is ambiguous."
+          ],
+          "reason": "Native-tile gutter position.",
+          "source_block_ids": [
+            "b003",
+            "b902"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Single line. The opening mark and superscript remain uncertain."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "The first word is uncertain."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The middle word and the target entry are uncertain."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "The insertion and ending are uncertain."
+        },
+        {
+          "block_id": "b901",
+          "status": "facing_page_fragment",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "The arrow is probably in the fol. 151 left margin, right of the fold."
+        },
+        {
+          "block_id": "b902",
+          "status": "facing_page_fragment",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "The arrow is probably in the fol. 151 left margin, right of the fold."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0300-03",
+          "record_id": "r005",
+          "block_ids": [
+            "b901",
+            "b902"
+          ],
+          "issue": "The arrows on the fol. 151 side are still grouped with target records. It is not stated whether they belong to or link to the fol. 150b notes.",
+          "next_check": "Compare the ink and stroke style of these arrows with the target-side arrows, and check the fol. 151 transcription for these marks."
+        },
+        {
+          "issue_id": "focus-0300-05",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The first word may be 'Reads' or 'n.d.'.",
+          "next_check": "Use higher magnification on the first word."
+        },
+        {
+          "issue_id": "focus-0300-06",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The middle word and the target entry are uncertain.",
+          "next_check": "Use magnification, and compare levels with e.22(2)ᵃ and d.59(8)."
+        },
+        {
+          "issue_id": "focus-0300-07",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The superscript letter and the opening mark are unresolved.",
+          "next_check": "Use magnification."
+        },
+        {
+          "issue_id": "focus-0300-04",
+          "record_id": "r005",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "The overwritten letter and the ending of the incipit are uncertain.",
+          "next_check": "Use magnification on x≈1900–2400, y≈3290–3430."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "714503f5487c03ab5c41afe6194bc7fbe578293ba8bd84e8007672587da6a6df",
+      "bytes": 252567,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "035a41fd08c2388e91066ecf8105db6c152cda12708b13764aa06631f8c6594f",
+      "bytes": 298849,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dbfbb467521e7cd505cdc4e7ee5dee5bc38d95caca92c88d4ab219a5e0fdb0d0",
+      "bytes": 296115,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "82a5b81d00f698e2ff46449836c76f1668c85be5657b30eb83971cfb38cba340",
+      "bytes": 321774,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "493e0fe583b1f6ce8f4e984d13125468475b859b2f54278564597d90831e408d",
+      "bytes": 298975,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f9c86e3467e5f053348303611426be182dc0e84913ca9b9820c8a455f2569a1c",
+      "bytes": 311334,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f1f7c6d6ac4a6a2f8c37c1f4bbcc53b503ff3ec8163caa83d6cafe290f3669f5",
+      "bytes": 311302,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a13f1a0f-d605-404c-9386-a8b0fb5c29ff/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "713a1a28dd27f006ceb5fb548ff19eab829c130081084bb7490eeb262454a428",
+      "bytes": 299506,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 299,
+      "folio_label": "fol. 150",
+      "page_id": "a13f1a0f-d605-404c-9386-a8b0fb5c29ff",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a8b12172-5674-4908-b2bc-5425b54aa18d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "3b8c6fb64e7cefd053cc734ea24c39ff8f634e78998ace348f9965cf9a772892",
+      "bytes": 257258,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 301,
+      "folio_label": "fol. 151",
+      "page_id": "a8b12172-5674-4908-b2bc-5425b54aa18d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a8b12172-5674-4908-b2bc-5425b54aa18d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "37ea750f3f1cad0c689a209793949f92b54d104fa76d3a655ad95804d84c07b8",
+      "bytes": 426611,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 301,
+      "folio_label": "fol. 151",
+      "page_id": "a8b12172-5674-4908-b2bc-5425b54aa18d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a8b12172-5674-4908-b2bc-5425b54aa18d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "aa9b321c8e70abdde7a1e6271f1c03b5e8425429b8be7b9dcbbb96ffbe83e152",
+      "bytes": 434134,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 301,
+      "folio_label": "fol. 151",
+      "page_id": "a8b12172-5674-4908-b2bc-5425b54aa18d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/95c814cc-449d-4748-ac8f-4742bd14d4c0.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "714503f5487c03ab5c41afe6194bc7fbe578293ba8bd84e8007672587da6a6df",
+      "bytes": 252567,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "035a41fd08c2388e91066ecf8105db6c152cda12708b13764aa06631f8c6594f",
+      "bytes": 298849,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dbfbb467521e7cd505cdc4e7ee5dee5bc38d95caca92c88d4ab219a5e0fdb0d0",
+      "bytes": 296115,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "82a5b81d00f698e2ff46449836c76f1668c85be5657b30eb83971cfb38cba340",
+      "bytes": 321774,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "493e0fe583b1f6ce8f4e984d13125468475b859b2f54278564597d90831e408d",
+      "bytes": 298975,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f9c86e3467e5f053348303611426be182dc0e84913ca9b9820c8a455f2569a1c",
+      "bytes": 311334,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95c814cc-449d-4748-ac8f-4742bd14d4c0/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f1f7c6d6ac4a6a2f8c37c1f4bbcc53b503ff3ec8163caa83d6cafe290f3669f5",
+      "bytes": 311302,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a13f1a0f-d605-404c-9386-a8b0fb5c29ff/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "713a1a28dd27f006ceb5fb548ff19eab829c130081084bb7490eeb262454a428",
+      "bytes": 299506,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 299,
+      "folio_label": "fol. 150",
+      "page_id": "a13f1a0f-d605-404c-9386-a8b0fb5c29ff",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a8b12172-5674-4908-b2bc-5425b54aa18d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "3b8c6fb64e7cefd053cc734ea24c39ff8f634e78998ace348f9965cf9a772892",
+      "bytes": 257258,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 301,
+      "folio_label": "fol. 151",
+      "page_id": "a8b12172-5674-4908-b2bc-5425b54aa18d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

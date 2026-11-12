@@ -1,0 +1,814 @@
+{
+  "source_order": 430,
+  "folio_label": "fol. 215b",
+  "page_id": "a1e4d84c-4027-44a3-9579-94c2191566fb",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "215b",
+    "principal_page_bbox": [
+      300,
+      260,
+      2870,
+      4610
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          290,
+          140,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "215b",
+        "features": [
+          "top-left corner",
+          "pencil or ink numeral with superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2630,
+          1610,
+          270,
+          180
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "n/? d/?",
+        "features": [
+          "faint pencil",
+          "right side of page",
+          "not attached to any visible entry",
+          "question marks"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2520,
+          2220,
+          200,
+          300
+        ],
+        "kind_hint": "non_text_mark",
+        "anchor": "X",
+        "features": [
+          "large pencil cross in the right-middle area",
+          "no attached text"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          370,
+          3430,
+          2540,
+          220
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "b.75(5) Rathasaṃskāravidhi, °pratiṣṭhā v. and °yātrā v., ff.1-8. ritual manual. Opening verse quotes / Utkalakhaṇḍa + Vaiśākhakhaṇḍa [of Skandapurāṇa]. / n.d.: 8: 8: Beng.",
+        "features": [
+          "two handwritten lines in ink",
+          "shelfmark in left position",
+          "°-abbreviated variant titles",
+          "extent ff.1-8",
+          "bracketed source note",
+          "right-aligned date/extent/script line 'n.d.: 8: 8: Beng.' in lighter, possibly pencil, writing on the second line",
+          "dots under retroflex letters"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3340,
+          3480,
+          140,
+          100
+        ],
+        "description": "pencil arrow pointing left, lying on the margin of facing fol. 216 beyond the gutter; it seems to relate to fol. 216 entry b.75(5), not the target page."
+      },
+      {
+        "bbox": [
+          3260,
+          1850,
+          250,
+          180
+        ],
+        "description": "pencil stroke lines on the facing page margin near the letters f/d/e; these belong to fol. 216."
+      }
+    ],
+    "boundary_notes": [
+      "Right of the gutter (x > about 3170) there are fragments of facing fol. 216: the letters 'd.', 'e', 'f', 'd', 'e', together with pencil lines and an arrow. These are the left-margin shelfmark letters of fol. 216 and are not target-page records.",
+      "Faint mirror-image show-through of fol. 215 recto text appears across the upper and middle page. It is not text written on this page and is not inventoried.",
+      "The left edge shows the stacked edges of underlying leaves, with no writing on them."
+    ],
+    "uncertainties": [
+      "Readings in b004, such as 'Opening verse quotes' and 'Beng.', are approximate; the handwriting is cursive.",
+      "b002 might read 'n/? d/?' or something similar; its meaning and attachment are unclear.",
+      "It is unclear whether the 'n.d.: 8: 8: Beng.' line was written in a different medium or at a different time from the entry."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "215b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "b.75(5) Rathasaṃskāravidhi, °pratiṣṭhā v. and °yātrā v., ff.1-8. ritual manual. Opening verse quotes\nUtkalakhaṇḍa + Vaiśākhakhaṇḍa [of Skandapurāṇa].\nn.d.: 8: 8: Beng.",
+        "fields": {
+          "shelfmark": "b.75(5)",
+          "title": "Rathasaṃskāravidhi, °pratiṣṭhā v. and °yātrā v.",
+          "subject": "ritual manual",
+          "source": "Utkalakhaṇḍa + Vaiśākhakhaṇḍa [of Skandapurāṇa]",
+          "date": "n.d.",
+          "extent": "ff.1-8",
+          "script": "Beng."
+        },
+        "normalized_title": "Rathasaṃskāravidhi",
+        "annotations": [
+          "The entry is two ink lines in cursive hand. The shelfmark is in the left position.",
+          "'n.d.: 8: 8: Beng.' is right-aligned at the end of the second line. It is in lighter grey writing, probably pencil, and may have been added separately.",
+          "Dots are written under the retroflex letters (pratiṣṭhā, khaṇḍa, purāṇa)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 431,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b.75(5) ⟦Rathayātrāvidhi⟧ ritual. n.d: 8: 8: Beng.",
+            "evidence": "Facing fol. 216 has the same shelfmark with a cancelled Rathayātrāvidhi entry and 'n.d: 8: 8: Beng.'. A pencil arrow in the left margin of fol. 216 points toward this page. This entry may be the rewritten or relocated version of that one.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'Opening verse quotes' is approximate because of the cursive hand.",
+          "It is uncertain whether there is a diacritic on the m of 'Rathasaṃskāra' (it may be written as 'saṁs' or 'sams').",
+          "The meaning of the two numerals '8: 8' is not stated on the page. They are not assigned to fields. They may correspond to extent and lines.",
+          "'Beng.' is read from lighter pencil writing and the reading is somewhat uncertain."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_query",
+        "literal_text": "n/? d/?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The note is in faint pencil on the right side of the page in the upper-middle area. No entry stands next to it.",
+          "A similar 'n/?' appears in the margin of fol. 215."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading is uncertain. The second element may be 'd/' or 'dh'.",
+          "The meaning and attachment of the note are unknown."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "non_text_mark",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A large pencil cross (X) in the right-middle area of the page. No text is attached to it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The purpose of the cross is unknown."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "215b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The folio number is written in the top-left corner. The 'b' is superscript and followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Faint pencil query note not attached to any entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Pencil cross mark with no text."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The only catalogue entry on the page. Both ink lines and the pencil date/extent/script segment are grouped in this record."
+      }
+    ],
+    "page_annotations": [
+      "Apart from b001–b004, the page is blank ruled paper. Mirror show-through of fol. 215 text is visible in the upper and middle areas and is not transcribed.",
+      "Fragments beyond the gutter (letters 'd.', 'e', 'f', 'd', 'e', pencil lines and a left-pointing arrow) belong to facing fol. 216 and are not target records.",
+      "Underlying leaf edges are visible at the left edge. They carry no writing."
+    ],
+    "unresolved_relationships": [
+      "The exact relation between this b.75(5) entry and the cancelled b.75(5) Rathayātrāvidhi entry on fol. 216 (source order 431) is not stated on the page."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The top-left folio label reads '215' with a superscript 'b' and a dot. The bbox matches native tile 1 at about x 385-505, y 300-425."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The faint pencil note at native x about 2634-2890, y about 1610-1790 is visible. It reads approximately 'n/? d/?'. The second element is written as 'd' with an oblique stroke or ligature, so 'dh' or 'd/' remains possible. No entry stands beside it. Fol. 215 has a similar 'n/?' mark in its outer margin, but that does not establish a connection."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A large pencil X is visible at native x about 2525-2720, y about 2220-2520. No text is attached to it."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Both ink lines and the lighter right-aligned 'n.d.: 8: 8: Beng.' segment, at about y 3590, are present in r001. Several readings in the candidate literal are presented with more certainty than the cursive supports. These are the ṃ in 'Rathasaṃskāra', the phrase 'Opening verse quotes', and the final vowel of 'Utkalakhaṇḍa'. See changes."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "literal_text",
+        "before": "b.75(5) Rathasaṃskāravidhi, °pratiṣṭhā v. and °yātrā v., ff.1-8. ritual manual. Opening verse quotes\nUtkalakhaṇḍa + Vaiśākhakhaṇḍa [of Skandapurāṇa].\nn.d.: 8: 8: Beng.",
+        "after": "b.75(5) Rathasa[ṃ?]skāravidhi, °pratiṣṭhā v. and °yātrā v., ff.1-8. ritual manual. [Opening verse quotes?]\nUtkala[khaṇḍa?] + Vaiśākhakhaṇḍa [of Skandapurāṇa].\nn.d.: 8: 8: Beng.",
+        "reason": "At native resolution, the nasal in 'Rathasa_skāra' looks like 'm' or 'in' with a stroke. A dot below or above the letter is not clearly visible, so a certain 'ṃ' should not be given. The phrase after 'ritual manual.' is a cursive run that is only approximately legible, possibly written as 'Openingverse quotes'. The final vowel of the first 'khaṇḍ_' could be read as 'e' rather than 'a'. The literal text should carry these uncertainties instead of resolving them by familiarity.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r001",
+        "field_path": "uncertainties",
+        "before": [
+          "The reading 'Opening verse quotes' is approximate because of the cursive hand.",
+          "It is uncertain whether there is a diacritic on the m of 'Rathasaṃskāra' (it may be written as 'saṁs' or 'sams').",
+          "The meaning of the two numerals '8: 8' is not stated on the page. They are not assigned to fields. They may correspond to extent and lines.",
+          "'Beng.' is read from lighter pencil writing and the reading is somewhat uncertain."
+        ],
+        "after": [
+          "The reading 'Opening verse quotes' is approximate because of the cursive hand. The words may be run together.",
+          "It is uncertain whether there is a diacritic on the m of 'Rathasaṃskāra' (it may be written as 'saṁs' or 'sams').",
+          "The final vowel of the first compound 'Utkalakhaṇḍ_' may be 'e' rather than 'a'. It may also be written with a space as 'Utkala khaṇḍ_'.",
+          "The meaning of the two numerals '8: 8' is not stated on the page. They are not assigned to fields. They may correspond to extent and lines.",
+          "'Beng.' is read from lighter pencil writing and the reading is somewhat uncertain."
+        ],
+        "reason": "The source image shows ambiguity in the first compound that was not recorded in the candidate.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The relationship to the cancelled fol. 216 b.75(5) Rathayātrāvidhi entry rests on matching shelfmark and figures and on a pencil arrow in fol. 216's margin. On fol. 216 the parenthesised number is overwritten, (3) or (5). Its cancelled 'Begins' line also mentions Utkalakhaṇḍe. No note on this page states the transfer.",
+        "next_check": "Compare fol. 216 at native resolution: the overwritten shelfmark digit, the cancelled title and Begins line, and the direction of the arrow."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The reading and function of 'n/? d/?' are uncertain, and the note is unattached.",
+        "next_check": "Compare with the similar 'n/?' and 'S/?' query marks on fol. 215 and the facing leaf."
+      }
+    ],
+    "boundary_review": "Beyond the gutter, at x > about 3170, the visible items belong to fol. 216 and are not target records. These are the letters 'd.', 'e', 'f', 'd' and 'e', two pencil lines near y 1850-2200, and a left-pointing pencil arrow at about [3340,3480,140,100]. The arrow aligns with fol. 216's b.75(5) entry. Its relationship to the target entry remains only probable. Mirror show-through of fol. 215 text is visible across the upper and middle page and is not transcribed. The stacked leaf edges at the left carry no writing.",
+    "region_review": {
+      "top": "Only the folio label '215b' is written. The faint mirror-image lines are show-through from fol. 215.",
+      "middle": "The pencil 'n/? d/?' note and the large pencil X are present. Otherwise there is only show-through and scattered specks.",
+      "bottom": "The two-line b.75(5) entry with its lighter date/extent/script segment is present. Below it the ruled lines are blank apart from specks.",
+      "left_margin": "No writing apart from the shelfmark at the start of b004. The leaf edges are blank.",
+      "right_margin": "The right side of the page holds the n/? query and the X. The gutter strip is blank. Fragments of fol. 216 lie beyond the gutter.",
+      "interlinear": "No interlinear additions or cancellations were found in b004 apart from the diacritic dots."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        290,
+        140,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "215b",
+      "features": [
+        "top-left corner",
+        "pencil or ink numeral with superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2630,
+        1610,
+        270,
+        180
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "n/? d/?",
+      "features": [
+        "faint pencil",
+        "right side of page",
+        "not attached to any visible entry",
+        "question marks"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2520,
+        2220,
+        200,
+        300
+      ],
+      "kind_hint": "non_text_mark",
+      "anchor": "X",
+      "features": [
+        "large pencil cross in the right-middle area",
+        "no attached text"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        370,
+        3430,
+        2540,
+        220
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "b.75(5) Rathasaṃskāravidhi, °pratiṣṭhā v. and °yātrā v., ff.1-8. ritual manual. Opening verse quotes / Utkalakhaṇḍa + Vaiśākhakhaṇḍa [of Skandapurāṇa]. / n.d.: 8: 8: Beng.",
+      "features": [
+        "two handwritten lines in ink",
+        "shelfmark in left position",
+        "°-abbreviated variant titles",
+        "extent ff.1-8",
+        "bracketed source note",
+        "right-aligned date/extent/script line 'n.d.: 8: 8: Beng.' in lighter, possibly pencil, writing on the second line",
+        "dots under retroflex letters"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "b.75(5) Rathasaṃskāravidhi, °pratiṣṭhā v. and °yātrā v., ff.1-8. ritual manual. Opening verse quotes\nUtkalakhaṇḍa + Vaiśākhakhaṇḍa [of Skandapurāṇa].\nn.d.: 8: 8: Beng.",
+      "fields": {
+        "shelfmark": "b.75(5)",
+        "title": "Rathasaṃskāravidhi, °pratiṣṭhā v. and °yātrā v.",
+        "subject": "ritual manual",
+        "source": "Utkalakhaṇḍa + Vaiśākhakhaṇḍa [of Skandapurāṇa]",
+        "date": "n.d.",
+        "extent": "ff.1-8",
+        "script": "Beng."
+      },
+      "normalized_title": "Rathasaṃskāravidhi",
+      "annotations": [
+        "The entry is two ink lines in cursive hand. The shelfmark is in the left position.",
+        "'n.d.: 8: 8: Beng.' is right-aligned at the end of the second line. It is in lighter grey writing, probably pencil, and may have been added separately.",
+        "Dots are written under the retroflex letters (pratiṣṭhā, khaṇḍa, purāṇa)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 431,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b.75(5) ⟦Rathayātrāvidhi⟧ ritual. n.d: 8: 8: Beng.",
+          "evidence": "Facing fol. 216 has the same shelfmark with a cancelled Rathayātrāvidhi entry and 'n.d: 8: 8: Beng.'. A pencil arrow in the left margin of fol. 216 points toward this page. This entry may be the rewritten or relocated version of that one.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'Opening verse quotes' is approximate because of the cursive hand.",
+        "It is uncertain whether there is a diacritic on the m of 'Rathasaṃskāra' (it may be written as 'saṁs' or 'sams').",
+        "The meaning of the two numerals '8: 8' is not stated on the page. They are not assigned to fields. They may correspond to extent and lines.",
+        "'Beng.' is read from lighter pencil writing and the reading is somewhat uncertain."
+      ],
+      "stable_id": "css-prod-0430-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_query",
+      "literal_text": "n/? d/?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The note is in faint pencil on the right side of the page in the upper-middle area. No entry stands next to it.",
+        "A similar 'n/?' appears in the margin of fol. 215."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading is uncertain. The second element may be 'd/' or 'dh'.",
+        "The meaning and attachment of the note are unknown."
+      ],
+      "stable_id": "css-prod-0430-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "non_text_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A large pencil cross (X) in the right-middle area of the page. No text is attached to it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The purpose of the cross is unknown."
+      ],
+      "stable_id": "css-prod-0430-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "215b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The folio number is written in the top-left corner. The 'b' is superscript and followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0430-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "literal_text",
+      "before": "b.75(5) Rathasaṃskāravidhi, °pratiṣṭhā v. and °yātrā v., ff.1-8. ritual manual. Opening verse quotes\nUtkalakhaṇḍa + Vaiśākhakhaṇḍa [of Skandapurāṇa].\nn.d.: 8: 8: Beng.",
+      "after": "b.75(5) Rathasa[ṃ?]skāravidhi, °pratiṣṭhā v. and °yātrā v., ff.1-8. ritual manual. [Opening verse quotes?]\nUtkala[khaṇḍa?] + Vaiśākhakhaṇḍa [of Skandapurāṇa].\nn.d.: 8: 8: Beng.",
+      "reason": "At native resolution, the nasal in 'Rathasa_skāra' looks like 'm' or 'in' with a stroke. A dot below or above the letter is not clearly visible, so a certain 'ṃ' should not be given. The phrase after 'ritual manual.' is a cursive run that is only approximately legible, possibly written as 'Openingverse quotes'. The final vowel of the first 'khaṇḍ_' could be read as 'e' rather than 'a'. The literal text should carry these uncertainties instead of resolving them by familiarity.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r001",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'Opening verse quotes' is approximate because of the cursive hand.",
+        "It is uncertain whether there is a diacritic on the m of 'Rathasaṃskāra' (it may be written as 'saṁs' or 'sams').",
+        "The meaning of the two numerals '8: 8' is not stated on the page. They are not assigned to fields. They may correspond to extent and lines.",
+        "'Beng.' is read from lighter pencil writing and the reading is somewhat uncertain."
+      ],
+      "after": [
+        "The reading 'Opening verse quotes' is approximate because of the cursive hand. The words may be run together.",
+        "It is uncertain whether there is a diacritic on the m of 'Rathasaṃskāra' (it may be written as 'saṁs' or 'sams').",
+        "The final vowel of the first compound 'Utkalakhaṇḍ_' may be 'e' rather than 'a'. It may also be written with a space as 'Utkala khaṇḍ_'.",
+        "The meaning of the two numerals '8: 8' is not stated on the page. They are not assigned to fields. They may correspond to extent and lines.",
+        "'Beng.' is read from lighter pencil writing and the reading is somewhat uncertain."
+      ],
+      "reason": "The source image shows ambiguity in the first compound that was not recorded in the candidate.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/a1e4d84c-4027-44a3-9579-94c2191566fb.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e4d84c-4027-44a3-9579-94c2191566fb/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "d160eff102136196f745a0e0d68ded976fcfb800ebb8239aae74a8de8e387c81",
+      "bytes": 266308,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e4d84c-4027-44a3-9579-94c2191566fb/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bfb90039398718bfb14affedb6640a0a4d1d0ba2ac312a6245742f6d849ad0ad",
+      "bytes": 314254,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e4d84c-4027-44a3-9579-94c2191566fb/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c60ace61d241e8d1071022e3a5d0ec9b240e710f2800f43ec193d7cbc54a5fdf",
+      "bytes": 307177,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e4d84c-4027-44a3-9579-94c2191566fb/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a950dd43db424a3a9c800aaaec13321be0c58c9fd19789557dae31fc18921b89",
+      "bytes": 325819,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e4d84c-4027-44a3-9579-94c2191566fb/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "271590ca62b7130687b3d561b186223a0f2792d9cd57dde70acb9742b11fe7ed",
+      "bytes": 304550,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e4d84c-4027-44a3-9579-94c2191566fb/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0582770f5081ed8dbed38c06dadfca91b91a8d39cd2b5a9dec88e8368ddf862a",
+      "bytes": 350265,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e4d84c-4027-44a3-9579-94c2191566fb/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "55abaed950210e6e9a395020324aa8be96e565d667e90d4dcd439c15780be014",
+      "bytes": 342161,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/234bbd3c-5b7b-4417-b3af-6337dd0eb9be/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4009add36288b5e2e0b67cabce76a4e666eadc933fcebae55a301d7d73845064",
+      "bytes": 245008,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 429,
+      "folio_label": "fol. 215",
+      "page_id": "234bbd3c-5b7b-4417-b3af-6337dd0eb9be",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/74aa91be-74bc-48b5-99c8-615fecc8ce59/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "627c074fedd6e3e51622d64c6e1ac8fa829e22900612baae0c4fa53216ac106b",
+      "bytes": 259906,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 431,
+      "folio_label": "fol. 216",
+      "page_id": "74aa91be-74bc-48b5-99c8-615fecc8ce59",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

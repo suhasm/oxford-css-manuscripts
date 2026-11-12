@@ -1,0 +1,1783 @@
+{
+  "source_order": 398,
+  "folio_label": "fol. 199b",
+  "page_id": "ee6df4b6-5473-48fe-b02b-a08e31adb52a",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "199b",
+    "principal_page_bbox": [
+      275,
+      285,
+      2880,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          340,
+          335,
+          150,
+          100
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "199b",
+        "features": [
+          "top-left corner",
+          "written folio number; the final letter is a superscript-like b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          375,
+          2500,
+          1670,
+          120
+        ],
+        "kind_hint": "continuation_extent_note",
+        "anchor": "ff.1-29, adhy.i, ff.1-28, adhy.ii, ff.15-47 (m.46), adhy.iii.  S.1850",
+        "features": [
+          "ink",
+          "single line",
+          "no shelfmark or title on this page",
+          "likely tied by an arrow in the gutter to an entry on the facing page",
+          "contains a date-like 'S.1850'"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          395,
+          2770,
+          1550,
+          120
+        ],
+        "kind_hint": "continuation_extent_note",
+        "anchor": "ff.1-78 (2ff.m.) damaged: ff.1-70 inc.: ff.1-147 (m.51,52,55).",
+        "features": [
+          "ink",
+          "single line",
+          "colon-separated list of extents",
+          "aligned with a leftward arrow from the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          440,
+          2895,
+          1290,
+          120
+        ],
+        "kind_hint": "continuation_extent_note",
+        "anchor": "each pāda foliated separately, ff.1-16, 1-9, 1-8, 1-9.",
+        "features": [
+          "ink",
+          "indented line",
+          "aligned with a separate shorter arrow at the gutter",
+          "may belong to b003 or to a different facing-page entry"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          365,
+          3125,
+          1235,
+          110
+        ],
+        "kind_hint": "continuation_extent_note",
+        "anchor": "ff.1-61, damaged, inc.: ff.1-35 inc.: ff.1-45 inc.",
+        "features": [
+          "ink",
+          "single line",
+          "has a blot or dot within '1-61'",
+          "an arrow on the facing page at roughly this height points toward it"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3000,
+          2525,
+          260,
+          50
+        ],
+        "description": "Leftward arrow that crosses the gutter. It links b002 to an entry on the facing page, fol. 200 (√ c.243 row)."
+      },
+      {
+        "bbox": [
+          3025,
+          2765,
+          320,
+          50
+        ],
+        "description": "Leftward arrow that crosses the gutter, at the height of b003 (facing-page row √ c.208)."
+      },
+      {
+        "bbox": [
+          2980,
+          2880,
+          140,
+          45
+        ],
+        "description": "Short leftward arrow at the right of the target page, at the height of b004 (facing-page row c.209(4))."
+      },
+      {
+        "bbox": [
+          3165,
+          3105,
+          210,
+          50
+        ],
+        "description": "Leftward arrow drawn on the facing page near the gutter, at about the height of b005 (facing-page row c.209(1-3))."
+      },
+      {
+        "bbox": [
+          3120,
+          605,
+          70,
+          85
+        ],
+        "description": "V-shaped mark at the gutter near the top. Its attachment is unclear; it probably relates to the facing page."
+      },
+      {
+        "bbox": [
+          3095,
+          1470,
+          30,
+          40
+        ],
+        "description": "Small pencil tick or dot near the gutter."
+      },
+      {
+        "bbox": [
+          3120,
+          1800,
+          25,
+          40
+        ],
+        "description": "Small ink dot near the gutter."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the image shows the left portion of the facing page, fol. 200, beyond the gutter at about x=3150. Its fragments are not target-page records. These include the shelfmark letters 'd.', 'c.', the pencil 'I.O.2184 √', the pencil note 'This is not also. See Pūrvamīmāṃsā…' and 'i/' near the bottom.",
+      "Blocks b002–b005 have no shelfmark or heading on the target page. They appear to be extent and condition notes for entries on fol. 200, linked by arrows. This is inferred from the arrows only."
+    ],
+    "uncertainties": [
+      "Whether b004 continues b003 or annotates a separate facing-page entry is unclear. Each line has its own arrow.",
+      "The reading of '1-61' in b005 is partly obscured by a blot.",
+      "The upper and middle ruled area appears blank. Only faint show-through from the reverse is visible, and no target-page text was found there."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "199b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "199b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written folio number at the top-left corner. The final 'b' is raised like a superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_and_date_note",
+        "literal_text": "ff.1-29, adhy.i, ff.1-28, adhy.ii, ff.15-47 (m.46), adhy.iii.  S.1850",
+        "fields": {
+          "extent": "ff.1-29, adhy.i, ff.1-28, adhy.ii, ff.15-47 (m.46), adhy.iii.",
+          "date": "S.1850"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line with no shelfmark or title on this page.",
+          "A leftward arrow crosses the gutter at this height, at about [3000,2525,260,50]. It points from the facing page toward this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 399,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c.243",
+            "evidence": "A leftward arrow at the same height as this line crosses the gutter from the facing-page row '√c.243'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The punctuation after '(m.46)' may be ',;' rather than ','.",
+          "The attachment is inferred only from the arrow alignment."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_and_condition_note",
+        "literal_text": "ff.1-78 (2ff.m.) damaged: ff.1-70 inc.: ff.1-147 (m.51,52,55).",
+        "fields": {
+          "extent": "ff.1-78 (2ff.m.) damaged: ff.1-70 inc.: ff.1-147 (m.51,52,55)."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line listing three colon-separated extents.",
+          "A leftward arrow at about [3025,2765,320,50] crosses the gutter at this height."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 399,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.208 (1-3) Śābarabhāṣya",
+            "evidence": "The arrow at this height aligns with the facing-page row 'c.208 (1-3)'. The three extents correspond to a three-part shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The attachment is inferred only from the arrow alignment."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "foliation_note",
+        "literal_text": "each pāda foliated separately, ff.1-16, 1-9, 1-8, 1-9.",
+        "fields": {
+          "extent": "ff.1-16, 1-9, 1-8, 1-9."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Indented ink line.",
+          "A separate, shorter leftward arrow at about [2980,2880,140,45] is at this height."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 399,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.209 (4)",
+            "evidence": "The line has its own arrow, which aligns with the facing-page row 'c.209(4)'.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 398,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "ff.1-78 (2ff.m.)",
+            "evidence": "This line is indented directly under b003, but it has its own arrow.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear whether this line continues b003 or annotates a separate facing-page entry."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_and_condition_note",
+        "literal_text": "ff.1-61[?], damaged, inc.: ff.1-35 inc.: ff.1-45 inc.",
+        "fields": {
+          "extent": "ff.1-61[?], damaged, inc.: ff.1-35 inc.: ff.1-45 inc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line with a blot within the first extent.",
+          "A leftward arrow drawn on the facing page near the gutter, at about [3165,3105,210,50], is at this height."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 399,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.209 (1-3) Tantravārtikā",
+            "evidence": "The arrow at this height aligns with the facing-page row 'c.209(1-3)'. The three extents correspond to a three-part shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading '1-61' is partly obscured by a blot.",
+          "The attachment is inferred only from the arrow alignment."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note linked by an arrow to the facing page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Continuation note linked by an arrow to the facing page."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Separate arrowed line; its possible attachment to b003 is recorded."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Continuation note linked by an arrow to the facing page."
+      }
+    ],
+    "page_annotations": [
+      "The upper and middle ruled areas and the lower half of the page were reviewed and are blank apart from faint show-through and specks.",
+      "A V-shaped mark at the gutter near the top, about [3120,605,70,85], has unclear attachment and probably relates to the facing page.",
+      "A small pencil tick or dot near the gutter, about [3095,1470,30,40], is unattached.",
+      "A small ink dot near the gutter, about [3120,1800,25,40], is unattached.",
+      "Fragments of the facing page, fol. 200, appear beyond the gutter at about x=3150 and are not transcribed as target records. They include shelfmark letters, the pencil 'I.O.2184 √', the pencil note 'This is not also. See Pūrvamīmāṃsā…' and 'i/'."
+    ],
+    "unresolved_relationships": [
+      "All four continuation notes are attached to facing-page entries only on the basis of arrow alignment.",
+      "It is ambiguous whether b004 belongs to b003 (c.208) or to c.209(4)."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '199' with a raised final 'b' is in ink or dark pencil at the top-left. It is correctly recorded as a page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The line was checked in native tile [0,1608]. The text matches the candidate. The punctuation between '(m.46)' and 'adhy.iii' could be ',' or ',;', and the candidate already records this. Its arrow (about canvas x 3000–3260, y≈2543) crosses the gutter with the head on the target page. It aligns with the facing-page row 'c.243' on fol. 200."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The text matches. The arrow crosses the gutter (about x 3029–3334, y≈2788) and aligns with fol. 200 row '√c.208 (1-3)'. The candidate's target_anchor adds a normalized title, 'Śābarabhāṣya', that is not written on this page."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The text matches. The short arrow (about x 2984–3119, y≈2908) lies wholly on the target page left of the gutter (gutter ≈ x 3156). It aligns with fol. 200 row 'c.209 (4)'. The possible link to b003 remains ambiguous and is correctly kept uncertain."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The text matches. A blot after 'ff.1' obscures the dash or first digits, and the '[?]' marking is appropriate. Its arrow (about x 3169–3374, y≈3133) is drawn on the facing page and does not cross onto the target page. It aligns with fol. 200 row 'c.209 (1-3)'. The candidate anchor adds a normalized title, 'Tantravārtikā', that is not on the target page."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 399,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.208 (1-3) Śābarabhāṣya",
+            "evidence": "The arrow at this height aligns with the facing-page row 'c.208 (1-3)'. The three extents correspond to a three-part shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 399,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.208 (1-3)",
+            "evidence": "The arrow at this height crosses the gutter and aligns with the facing-page row 'c.208 (1-3)'. The three extents may correspond to a three-part shelfmark. The facing-page title is not transcribed here and is not part of the anchor.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The anchor should be the visible facing-page shelfmark only. A normalized title from the facing page, not securely read in this review, should not be embedded in it.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 399,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.209 (1-3) Tantravārtikā",
+            "evidence": "The arrow at this height aligns with the facing-page row 'c.209(1-3)'. The three extents correspond to a three-part shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 399,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.209 (1-3)",
+            "evidence": "A leftward arrow drawn on the facing page near the gutter, at this height, aligns with the facing-page row 'c.209 (1-3)', whose initial letter appears overwritten. The three extents may correspond to a three-part shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The anchor should be limited to the visible shelfmark. The title is a facing-page reading that was not verified here.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There are small pencil marks at the gutter near canvas y≈1470 (an upward-arrow-like tick, about [3095,1460,30,45]) and y≈1570 (a small '(' or curved stroke, about [3115,1555,25,45]). There is also an ink dot at about [3125,1800,25,30]. They sit beside the facing-page pencil note 'This is not also. See Pūrvamīmāṃsā…'. The inventory lists only the y≈1470 tick and the y≈1800 dot; the y≈1570 stroke is not listed. Their attachment, to the target page or to that facing-page note, is unclear.",
+        "next_check": "Inspect the gutter at native resolution with the fol. 200 left margin. Decide whether these strokes form part of the bracket or indicator of the facing-page pencil note."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "issue": "It is unclear whether b004 belongs to c.209 (4) or continues b003 (c.208). It has its own arrow, aligned with c.209 (4), which favours a separate attachment, but this is not secure.",
+        "next_check": "Compare the extents with the fol. 200 entry 'c.209 (4) … adh. 1'."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The blot obscures the first extent. The reading '1-61' is not secure.",
+        "next_check": "Inspect at higher magnification, or consult the physical leaf."
+      }
+    ],
+    "boundary_review": "The target page runs from about x 300 to the gutter at about x 3156. Beyond the gutter is the left margin and shelfmark column of fol. 200: 'd.', 'c.', the pencil 'I.O.2184 √', the pencil note 'This is not also. See Pūrvamīmāṃsā…' (reading not verified) and 'i/' near the bottom. These are facing-page fragments and are not target records. The four arrows lie at different positions: two cross the gutter (b002, b003), one lies wholly on the target page (b004) and one is wholly on the facing page (b005). All attachments rest on arrow alignment only.",
+    "region_review": {
+      "top": "Contains only the folio number '199b' at the top-left and a stray ink speck. The V-shaped mark at about x 3124–3184, y 610–680 straddles the gutter and probably belongs to the top entry of the facing page.",
+      "middle": "The ruled area from y≈700 to ≈2450 is blank apart from faint show-through. The four ink lines lie at y≈2500–3240.",
+      "bottom": "From y≈3300 to the page foot there is only faint reversed show-through, specks and a crease line. No target-page writing was found.",
+      "left_margin": "Contains a ruled margin line only, with no writing.",
+      "right_margin": "Arrows sit at the gutter, along with small pencil and ink marks near y≈1470, ≈1570 and ≈1800 whose attachment is unresolved. The facing-page fragments lie beyond x≈3156.",
+      "interlinear": "No interlinear additions or cancellations are present in b002–b005."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        340,
+        335,
+        150,
+        100
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "199b",
+      "features": [
+        "top-left corner",
+        "written folio number; the final letter is a superscript-like b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        375,
+        2500,
+        1670,
+        120
+      ],
+      "kind_hint": "continuation_extent_note",
+      "anchor": "ff.1-29, adhy.i, ff.1-28, adhy.ii, ff.15-47 (m.46), adhy.iii.  S.1850",
+      "features": [
+        "ink",
+        "single line",
+        "no shelfmark or title on this page",
+        "likely tied by an arrow in the gutter to an entry on the facing page",
+        "contains a date-like 'S.1850'"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        395,
+        2770,
+        1550,
+        120
+      ],
+      "kind_hint": "continuation_extent_note",
+      "anchor": "ff.1-78 (2ff.m.) damaged: ff.1-70 inc.: ff.1-147 (m.51,52,55).",
+      "features": [
+        "ink",
+        "single line",
+        "colon-separated list of extents",
+        "aligned with a leftward arrow from the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        440,
+        2895,
+        1290,
+        120
+      ],
+      "kind_hint": "continuation_extent_note",
+      "anchor": "each pāda foliated separately, ff.1-16, 1-9, 1-8, 1-9.",
+      "features": [
+        "ink",
+        "indented line",
+        "aligned with a separate shorter arrow at the gutter",
+        "may belong to b003 or to a different facing-page entry"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        365,
+        3125,
+        1235,
+        110
+      ],
+      "kind_hint": "continuation_extent_note",
+      "anchor": "ff.1-61, damaged, inc.: ff.1-35 inc.: ff.1-45 inc.",
+      "features": [
+        "ink",
+        "single line",
+        "has a blot or dot within '1-61'",
+        "an arrow on the facing page at roughly this height points toward it"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "199b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written folio number at the top-left corner. The final 'b' is raised like a superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0398-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_and_date_note",
+      "literal_text": "ff.1-29, adhy.i, ff.1-28, adhy.ii, ff.15-47 (m.46), adhy.iii.  S.1850",
+      "fields": {
+        "extent": "ff.1-29, adhy.i, ff.1-28, adhy.ii, ff.15-47 (m.46), adhy.iii.",
+        "date": "S.1850"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line with no shelfmark or title on this page.",
+        "A leftward arrow crosses the gutter at this height, at about [3000,2525,260,50]. It points from the facing page toward this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c.243",
+          "evidence": "A leftward arrow at the same height as this line crosses the gutter from the facing-page row '√c.243'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The punctuation after '(m.46)' may be ',;' rather than ','.",
+        "The attachment is inferred only from the arrow alignment."
+      ],
+      "stable_id": "css-prod-0398-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_and_condition_note",
+      "literal_text": "ff.1-78 (2ff.m.) damaged: ff.1-70 inc.: ff.1-147 (m.51,52,55).",
+      "fields": {
+        "extent": "ff.1-78 (2ff.m.) damaged: ff.1-70 inc.: ff.1-147 (m.51,52,55)."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line listing three colon-separated extents.",
+        "A leftward arrow at about [3025,2765,320,50] crosses the gutter at this height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.208 (1-3) Śābarabhāṣya",
+          "evidence": "The arrow at this height aligns with the facing-page row 'c.208 (1-3)'. The three extents correspond to a three-part shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The attachment is inferred only from the arrow alignment."
+      ],
+      "stable_id": "css-prod-0398-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "foliation_note",
+      "literal_text": "each pāda foliated separately, ff.1-16, 1-9, 1-8, 1-9.",
+      "fields": {
+        "extent": "ff.1-16, 1-9, 1-8, 1-9."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Indented ink line.",
+        "A separate, shorter leftward arrow at about [2980,2880,140,45] is at this height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.209 (4)",
+          "evidence": "The line has its own arrow, which aligns with the facing-page row 'c.209(4)'.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 398,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "ff.1-78 (2ff.m.)",
+          "evidence": "This line is indented directly under b003, but it has its own arrow.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear whether this line continues b003 or annotates a separate facing-page entry."
+      ],
+      "stable_id": "css-prod-0398-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_and_condition_note",
+      "literal_text": "ff.1-61[?], damaged, inc.: ff.1-35 inc.: ff.1-45 inc.",
+      "fields": {
+        "extent": "ff.1-61[?], damaged, inc.: ff.1-35 inc.: ff.1-45 inc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line with a blot within the first extent.",
+        "A leftward arrow drawn on the facing page near the gutter, at about [3165,3105,210,50], is at this height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.209 (1-3) Tantravārtikā",
+          "evidence": "The arrow at this height aligns with the facing-page row 'c.209(1-3)'. The three extents correspond to a three-part shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading '1-61' is partly obscured by a blot.",
+        "The attachment is inferred only from the arrow alignment."
+      ],
+      "stable_id": "css-prod-0398-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.208 (1-3) Śābarabhāṣya",
+          "evidence": "The arrow at this height aligns with the facing-page row 'c.208 (1-3)'. The three extents correspond to a three-part shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.208 (1-3)",
+          "evidence": "The arrow at this height crosses the gutter and aligns with the facing-page row 'c.208 (1-3)'. The three extents may correspond to a three-part shelfmark. The facing-page title is not transcribed here and is not part of the anchor.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The anchor should be the visible facing-page shelfmark only. A normalized title from the facing page, not securely read in this review, should not be embedded in it.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.209 (1-3) Tantravārtikā",
+          "evidence": "The arrow at this height aligns with the facing-page row 'c.209(1-3)'. The three extents correspond to a three-part shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.209 (1-3)",
+          "evidence": "A leftward arrow drawn on the facing page near the gutter, at this height, aligns with the facing-page row 'c.209 (1-3)', whose initial letter appears overwritten. The three extents may correspond to a three-part shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The anchor should be limited to the visible shelfmark. The title is a facing-page reading that was not verified here.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.208 (1-3) Śābarabhāṣya",
+          "evidence": "The arrow at this height aligns with the facing-page row 'c.208 (1-3)'. The three extents correspond to a three-part shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.208 (1-3)",
+          "evidence": "The arrow at this height crosses the gutter and aligns with the facing-page row '√c.208 (1-3)'. The three extents may correspond to a three-part shelfmark. The facing-page title is not part of the anchor.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The anchor is limited to the visible facing-page shelfmark.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0398-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.209 (1-3) Tantravārtikā",
+          "evidence": "The arrow at this height aligns with the facing-page row 'c.209(1-3)'. The three extents correspond to a three-part shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 399,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.209 (1-3)",
+          "evidence": "A leftward arrow drawn on the facing page near the gutter, at this height, aligns with the facing-page row 'c.209 (1-3)', whose initial letter appears overwritten. The three extents may correspond to a three-part shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The anchor is limited to the visible shelfmark. The facing-page title is not verified here.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0398-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "There are small pencil marks at the gutter near canvas y≈1470 (an upward-arrow-like tick, about [3095,1460,30,45]) and y≈1570 (a small '(' or curved stroke, about [3115,1555,25,45]). There is also an ink dot at about [3125,1800,25,30]. They sit beside the facing-page pencil note 'This is not also. See Pūrvamīmāṃsā…'. The inventory lists only the y≈1470 tick and the y≈1800 dot; the y≈1570 stroke is not listed. Their attachment, to the target page or to that facing-page note, is unclear.",
+      "block_ids": [],
+      "record_ids": [],
+      "id": "focus-0398-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "It is unclear whether b004 belongs to c.209 (4) or continues b003 (c.208). It has its own arrow, aligned with c.209 (4), which favours a separate attachment, but this is not secure.",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0398-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The anchor should be the visible facing-page shelfmark only. A normalized title from the facing page, not securely read in this review, should not be embedded in it. Proposed relationships: [{\"type\": \"continues\", \"target_page_order\": 399, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"√c.208 (1-3)\", \"evidence\": \"The arrow at this height crosses the gutter and aligns with the facing-page row 'c.208 (1-3)'. The three extents may correspond to a three-part shelfmark. The facing-page title is not transcribed here and is not part of the anchor.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0398-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The anchor should be limited to the visible shelfmark. The title is a facing-page reading that was not verified here. Proposed relationships: [{\"type\": \"continues\", \"target_page_order\": 399, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"c.209 (1-3)\", \"evidence\": \"A leftward arrow drawn on the facing page near the gutter, at this height, aligns with the facing-page row 'c.209 (1-3)', whose initial letter appears overwritten. The three extents may correspond to a three-part shelfmark.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0398-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The blot obscures the first extent. The reading '1-61' is not secure.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0398-05"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The punctuation after '(m.46)' may be ',;' rather than ','.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0398-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The attachment is inferred only from the arrow alignment.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0398-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The attachment is inferred only from the arrow alignment.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0398-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "It is unclear whether this line continues b003 or annotates a separate facing-page entry.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0398-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading '1-61' is partly obscured by a blot.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0398-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0398-01",
+        "focus-0398-02",
+        "focus-0398-03",
+        "focus-0398-04",
+        "focus-0398-05",
+        "focus-0398-06",
+        "focus-0398-07",
+        "focus-0398-08",
+        "focus-0398-09",
+        "focus-0398-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0398-01",
+          "source_reading": "There are three faint marks with no wording. The first is a small upward-arrow-like pencil tick at about canvas [3095,1460,30,45]. The second is a small curved stroke like '(' at about [3115,1555,25,45]. The third is a dark ink dot at about [3120,1825,25,35]. All three lie just left of the gutter line, which is at about x≈3154, so they are physically on the target side. They sit at the height of the facing-page pencil note 'This is not also. See Pūrvamīmāṃsā…', which starts on fol. 200.",
+          "certainty": "uncertain",
+          "evidence": "Native tile [1604,0] shows the tick at tile (≈1500,1480), the '(' stroke at (≈1518,1570) and the dot at (≈1527,1840). There is no target-page text near any of them. They look like marks aligned with the facing-page pencil note, but nothing secures their attachment."
+        },
+        {
+          "issue_id": "focus-0398-02",
+          "source_reading": "each pāda foliated separately, ff.1-16, 1-9, 1-8, 1-9.",
+          "certainty": "probable",
+          "evidence": "The line is indented under b003. A separate short arrow on the target side at about [2980,2885,140,45] is at the same height as the facing-page arrow beside '√c.209 (4)'. The b003 arrow, by contrast, is aligned with c.208 (1-3). The own-arrow evidence favours c.209 (4), but this is not secure."
+        },
+        {
+          "issue_id": "focus-0398-03",
+          "source_reading": "The facing-page row at the b003 arrow height reads '√c.208 (1-3)'. The tick precedes the 'c'.",
+          "certainty": "probable",
+          "evidence": "The arrow at about [3025,2765,320,50] crosses the gutter. In the adjacent native tile it continues at the height of '√c.208 (1-3)'. The anchor should contain only the shelfmark."
+        },
+        {
+          "issue_id": "focus-0398-04",
+          "source_reading": "The facing-page row at the b005 arrow height reads 'c. 209 (1-3)'. The first letter is heavily overwritten or blotted.",
+          "certainty": "probable",
+          "evidence": "The facing-page arrow at about [3165,3105,210,50] is at the height of the row whose shelfmark begins with a darkened, overwritten letter, read as c.209 (1-3)."
+        },
+        {
+          "issue_id": "focus-0398-05",
+          "source_reading": "ff.1[?]61, with a blot or dots between '1' and '61'. The '61' is slightly raised.",
+          "certainty": "uncertain",
+          "evidence": "Native tile [0,1608] at about (470-530,1560) shows an ink blot obscuring the connector after '1'. A hyphen is plausible but not visible."
+        },
+        {
+          "issue_id": "focus-0398-06",
+          "source_reading": "(m.46), adhy.iii. — the mark after ')' may be ',' or ';'.",
+          "certainty": "uncertain",
+          "evidence": "A comma stroke follows ')'. A possible dot above it makes ';' or ',;' possible. It is not resolvable at native scale."
+        },
+        {
+          "issue_id": "focus-0398-07",
+          "source_reading": "The arrow at about [3000,2520,260,50] is at the height of the facing-page row '√c.243'.",
+          "certainty": "probable",
+          "evidence": "The only evidence is the alignment of the leftward arrow that crosses the gutter."
+        },
+        {
+          "issue_id": "focus-0398-08",
+          "source_reading": "The arrow at about [3025,2765,320,50] is at the height of '√c.208 (1-3)'.",
+          "certainty": "probable",
+          "evidence": "The only evidence is the arrow alignment."
+        },
+        {
+          "issue_id": "focus-0398-09",
+          "source_reading": "The line has its own shorter arrow aligned with 'c.209 (4)'.",
+          "certainty": "uncertain",
+          "evidence": "Its indentation under b003 suggests a continuation of b003, but its separate arrow suggests a separate entry."
+        },
+        {
+          "issue_id": "focus-0398-10",
+          "source_reading": "ff.1[?]61",
+          "certainty": "uncertain",
+          "evidence": "The blot obscures the hyphen position."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 399,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c.208 (1-3) Śābarabhāṣya",
+              "evidence": "The arrow at this height aligns with the facing-page row 'c.208 (1-3)'. The three extents correspond to a three-part shelfmark.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 399,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c.208 (1-3)",
+              "evidence": "The arrow at this height crosses the gutter and aligns with the facing-page row '√c.208 (1-3)'. The three extents may correspond to a three-part shelfmark. The facing-page title is not part of the anchor.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The anchor is limited to the visible facing-page shelfmark.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 399,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c.209 (1-3) Tantravārtikā",
+              "evidence": "The arrow at this height aligns with the facing-page row 'c.209(1-3)'. The three extents correspond to a three-part shelfmark.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 399,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c.209 (1-3)",
+              "evidence": "A leftward arrow drawn on the facing page near the gutter, at this height, aligns with the facing-page row 'c.209 (1-3)', whose initial letter appears overwritten. The three extents may correspond to a three-part shelfmark.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The anchor is limited to the visible shelfmark. The facing-page title is not verified here.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "The folio number is '199b' with a raised b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The line is read. The punctuation after (m.46) remains uncertain."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "The line is read. Its attachment is probable, from the arrow alignment."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The line is read. Its attachment is ambiguous."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "The line is read. The blot obscures the first extent."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0398-01",
+          "record_id": null,
+          "block_ids": [],
+          "issue": "The gutter tick (y≈1470), the '(' stroke (y≈1570) and the ink dot (y≈1830) lie on the target side of the gutter. They are aligned with the facing-page pencil note, and their attachment is undetermined. None has a block.",
+          "next_check": "Compare with fol. 200 to see whether these marks are paired with the pencil note 'This is not also. See…'."
+        },
+        {
+          "issue_id": "focus-0398-02",
+          "record_id": "r004",
+          "block_ids": [
+            "b003",
+            "b004"
+          ],
+          "issue": "It remains unresolved whether b004 attaches to c.209 (4) or to b003.",
+          "next_check": "Check the pāda count against the facing-page c.209 (4) entry without inferring from content."
+        },
+        {
+          "issue_id": "focus-0398-05",
+          "record_id": "r005",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "The blot obscures the connector in 'ff.1[?]61'.",
+          "next_check": "Consult a higher-resolution image or the original."
+        },
+        {
+          "issue_id": "focus-0398-06",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The mark after '(m.46)' may be ',' or ';'.",
+          "next_check": "Consult a higher-resolution image."
+        },
+        {
+          "issue_id": "focus-0398-07",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The attachment rests only on the arrow alignment.",
+          "next_check": "Cross-check with fol. 200."
+        },
+        {
+          "issue_id": "focus-0398-08",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The attachment rests only on the arrow alignment.",
+          "next_check": "Cross-check with fol. 200."
+        },
+        {
+          "issue_id": "focus-0398-09",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "It is unclear whether this line is a continuation of b003 or a separate annotation.",
+          "next_check": "Cross-check with fol. 200."
+        },
+        {
+          "issue_id": "focus-0398-10",
+          "record_id": "r005",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "The reading '1-61' is partly obscured.",
+          "next_check": "Consult a higher-resolution image."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "686263c1c0a4a8e0b781d42dec750548e17bc38bc7c60990d402fa28323443bd",
+      "bytes": 273698,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a5e48bc9921526de4813fe3b449b61298bfbf7087696cf66a8808257d9e6181a",
+      "bytes": 305649,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4fde40aa9841bff4f6509ebb80d93878eee9a185f2d0b275db71301102069299",
+      "bytes": 310849,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b89e8d172d63a99ffedb9f4ce1657c405454cf66ed0d55d6211bb7a8d2621687",
+      "bytes": 370539,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d184bc1ea921e5d4776a8f109a3eb417bbc9c7b759720711b817b9efbef43275",
+      "bytes": 301629,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "55046a79f9737352f7df4d2358315d9439b27b26c1399c6d58ac82533f15ec19",
+      "bytes": 307144,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a59ba116c45c9cfcc2c8b76ca1b45d4ea1880c49052b93c7ee2baf9740e5d454",
+      "bytes": 314860,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/79a35cee-5abf-43aa-a169-99d650ad0492/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1017,
+        1500
+      ],
+      "sha256": "e816bba8561fffc3bd10308463b51d6b085f999518da272836edf1bedc80151c",
+      "bytes": 279050,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 397,
+      "folio_label": "fol. 199",
+      "page_id": "79a35cee-5abf-43aa-a169-99d650ad0492",
+      "native_dimensions": [
+        3471,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4e32e682-c68f-428c-a55a-8f08a4c96862/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "23d273b4892f299a1b9d9155702a1113c33394d4d2b1cecefc824119e9107d98",
+      "bytes": 259532,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 399,
+      "folio_label": "fol. 200",
+      "page_id": "4e32e682-c68f-428c-a55a-8f08a4c96862",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4e32e682-c68f-428c-a55a-8f08a4c96862/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c8bdd9bf61df452303a821e7412aa1edee35002bbb74a43e7d5b3665c587c68a",
+      "bytes": 389339,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 399,
+      "folio_label": "fol. 200",
+      "page_id": "4e32e682-c68f-428c-a55a-8f08a4c96862",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4e32e682-c68f-428c-a55a-8f08a4c96862/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fe52f7cb9b017a4f1a28ab3747a5629dd7d2452b7ca35600c5ebffc4cd2e0c59",
+      "bytes": 443364,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 399,
+      "folio_label": "fol. 200",
+      "page_id": "4e32e682-c68f-428c-a55a-8f08a4c96862",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ee6df4b6-5473-48fe-b02b-a08e31adb52a.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "686263c1c0a4a8e0b781d42dec750548e17bc38bc7c60990d402fa28323443bd",
+      "bytes": 273698,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a5e48bc9921526de4813fe3b449b61298bfbf7087696cf66a8808257d9e6181a",
+      "bytes": 305649,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4fde40aa9841bff4f6509ebb80d93878eee9a185f2d0b275db71301102069299",
+      "bytes": 310849,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b89e8d172d63a99ffedb9f4ce1657c405454cf66ed0d55d6211bb7a8d2621687",
+      "bytes": 370539,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d184bc1ea921e5d4776a8f109a3eb417bbc9c7b759720711b817b9efbef43275",
+      "bytes": 301629,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "55046a79f9737352f7df4d2358315d9439b27b26c1399c6d58ac82533f15ec19",
+      "bytes": 307144,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ee6df4b6-5473-48fe-b02b-a08e31adb52a/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a59ba116c45c9cfcc2c8b76ca1b45d4ea1880c49052b93c7ee2baf9740e5d454",
+      "bytes": 314860,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/79a35cee-5abf-43aa-a169-99d650ad0492/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1017,
+        1500
+      ],
+      "sha256": "e816bba8561fffc3bd10308463b51d6b085f999518da272836edf1bedc80151c",
+      "bytes": 279050,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 397,
+      "folio_label": "fol. 199",
+      "page_id": "79a35cee-5abf-43aa-a169-99d650ad0492",
+      "native_dimensions": [
+        3471,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4e32e682-c68f-428c-a55a-8f08a4c96862/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "23d273b4892f299a1b9d9155702a1113c33394d4d2b1cecefc824119e9107d98",
+      "bytes": 259532,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 399,
+      "folio_label": "fol. 200",
+      "page_id": "4e32e682-c68f-428c-a55a-8f08a4c96862",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

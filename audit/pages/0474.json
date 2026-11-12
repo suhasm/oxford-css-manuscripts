@@ -1,0 +1,2044 @@
+{
+  "source_order": 474,
+  "folio_label": "fol. 237b",
+  "page_id": "bf3a4116-d924-4505-9f91-7649c15215c3",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "237b",
+    "principal_page_bbox": [
+      300,
+      270,
+      2850,
+      4610
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          345,
+          330,
+          135,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "237b",
+        "features": [
+          "top left corner",
+          "written as 237 with superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2930,
+          690,
+          95,
+          180
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "a/",
+        "features": [
+          "pencil",
+          "upper right of page near gutter",
+          "short siglum followed by an oblique stroke"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2720,
+          900,
+          420,
+          215
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "d/ (Brh. | s.p. 238 inf.)",
+        "features": [
+          "pencil",
+          "enclosed in a hand-drawn oval",
+          "vertical dividing stroke inside the oval",
+          "preceded by 'd/'",
+          "'inf.' written small under '238'",
+          "refers to p. 238; attachment is not explicit"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          400,
+          3080,
+          2490,
+          225
+        ],
+        "kind_hint": "insertion_note",
+        "anchor": "ff. 90-253 (n. 98, foliation omits 101-102) adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 ... Samv. 1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vijayapratāpodaya.",
+        "features": [
+          "ink",
+          "two handwritten lines",
+          "cursive hand; several readings uncertain",
+          "contains folio range and adhyāya references",
+          "contains a Samvat date",
+          "diacritics present"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2990,
+          3120,
+          135,
+          85
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "ink arrow at the right end of b004",
+          "points left toward the note",
+          "appears to correspond to the leftward arrow in the left margin of fol. 238 beside the Varāha Purāṇa entry"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2950,
+          4565,
+          80,
+          130
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "ā/",
+        "features": [
+          "pencil",
+          "lower right of page",
+          "'a' with a macron followed by an oblique stroke"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2690,
+          1660,
+          40,
+          30
+        ],
+        "description": "small stray pencil stroke or speck in the middle right area"
+      },
+      {
+        "bbox": [
+          2885,
+          1700,
+          40,
+          25
+        ],
+        "description": "small dash or speck"
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the canvas shows fragments of facing fol. 238 beyond the gutter at x≈3150: 'e.', 'f.', 'd.', the cancelled marginal note 'with which ... in other part ... in general' and a tick. These belong to the facing page and are not recorded as target-page blocks.",
+      "b004 with its arrow b005 appears to be an insertion intended for the facing page (fol. 238, Varāha Purāṇa entry, which has a leftward arrow in its margin). Attachment is inferred from the arrows only and is not explicit.",
+      "b002 'a/' and b006 'ā/' match similar sigla in the left margin of fol. 238 (visible in its overview). Their function is unclear."
+    ],
+    "uncertainties": [
+      "Readings within b004 are uncertain: 'n. 98', 'foliation omits 101-102', 'n. 342', 'adhy. 213', 'Vijayapratāpodaya'.",
+      "The opening of b003 may read 'd/' or a similar mark. 'Brh.' has an underdot that may be 'Bṛh.'.",
+      "The page carries faint show-through from the reverse, which is not treated as text."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "237b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "237b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top left corner; the 'b' is superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "siglum",
+        "literal_text": "a/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, upper right near the gutter. An 'a' is followed by a long oblique stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 475,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "a/ (left margin of fol. 238, top)",
+            "evidence": "A similar pencil siglum 'a/' appears in the left margin of fol. 238. The function of either mark is not stated.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The function of the siglum is unknown."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_reference_note",
+        "literal_text": "d/ (Bṛh. | s.p. 238\ninf.)",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "'Bṛh. | s.p. 238 inf.' is enclosed in a hand-drawn oval, with a vertical dividing stroke after 'Bṛh.'.",
+          "'inf.' is written small below '238'.",
+          "The 'd/'-like mark stands just before the oval."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 475,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "238 inf. (lower part of fol. 238)",
+            "evidence": "The note refers to '238 inf.'. It is not explicitly attached to any entry. It sits level with the upper entries of fol. 238 (e. 58 (5) Varaṇamantra region).",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The opening mark may be 'd/' or another sign.",
+          "'Bṛh.' has an underdot below the r; it could be read 'Brh.'.",
+          "'s.p.' is uncertain. It may be 's.|' with a stroke rather than 'p'.",
+          "No expansion of the abbreviation is attempted."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "insertion_for_facing_page",
+        "literal_text": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213.\nSamv. 1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vijayapratāpodaya. ←",
+        "fields": {
+          "extent": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213",
+          "date": "Samv. 1668"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, two lines in a cursive hand.",
+          "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 475,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry with leftward arrow in left margin, 'Chiefly adh. 69-173'",
+            "evidence": "Arrow b005 corresponds to a leftward arrow in the left margin of fol. 238 beside the Varāha Purāṇa entry. That entry also cites 'adh. 69-173'. The attachment is not explicitly written.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'n. 98' is uncertain.",
+          "The reading 'foliation omits' is uncertain.",
+          "The reading 'n. 342' is uncertain; the middle digit is unclear.",
+          "The reading 'adhy. 213' is uncertain.",
+          "The spelling 'Vijayapratāpodaya' is uncertain; it may be written 'Vijai-' or end '-odaye'.",
+          "The reading 'in reign of' is uncertain."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "siglum",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, lower right. An 'a' with a macron is followed by an oblique stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 475,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ā/ (left margin of fol. 238, bottom)",
+            "evidence": "A similar siglum appears in the lower left margin of fol. 238.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The function of the siglum is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Pencil siglum, unattached."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Encircled pencil reference note; attachment is ambiguous."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Ink insertion note, probably intended for the facing fol. 238."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrow belonging to the insertion note b004."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Pencil siglum, unattached."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper. The images were reviewed throughout.",
+      "Stray specks and short strokes, at about [2690,1660] and [2885,1700] and elsewhere, are not text.",
+      "Faint show-through from the reverse is not treated as text.",
+      "Fragments of the facing fol. 238 appear beyond the gutter at x≈3150 and are not transcribed as target records. They include 'e.', 'f.', 'd.', a cancelled marginal note 'with which / in other part / in general', and ticks.",
+      "A small hook mark at the gutter near y≈910 probably belongs to the gutter or the facing page."
+    ],
+    "unresolved_relationships": [
+      "The attachment of b003 ('Bṛh. | s.p. 238 inf.') to any specific entry is not determinable.",
+      "The function of the sigla 'a/' and 'ā/', and their correspondence with fol. 238, is unclear.",
+      "The attachment of b004 to the fol. 238 Varāha Purāṇa entry rests only on the arrow correspondence and is marked probable."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio label '237' with superscript 'b' at the top left. It is correctly transcribed."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Pencil 'a/' near the gutter at about y≈700-870. The reading is correct. The relationship evidence is flawed: the 'a/' seen at the left edge of the fol. 238 image is this same mark on the target page, visible beyond the gutter. It is not a separate siglum on fol. 238."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Encircled pencil note. The literal text wrongly renders the edges of the hand-drawn oval as parentheses, which are not written characters. After 's.' there is a further vertical or oblique stroke, read 'p' with uncertainty. The opening mark 'd/' is uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Two-line ink note. The literal text presents uncertain readings (n. 98, foliation omits, n. 342, 213, in reign of, Vijayapratāpodaya, Bibl.) as certain. The arrow is placed at the end of line 2 in the literal, but it stands at the right end of line 1. There is a comma after '101-102)' that is not clearly visible."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Leftward ink arrow at about x≈2990-3120, y≈3150, left of the gutter. The inventory and candidate both claim it 'corresponds to a leftward arrow in the left margin of fol. 238'. In fact the arrow visible at the far left of the fol. 238 image lies beyond that page's gutter and is this same target-page arrow. No independent arrow on fol. 238 is seen."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Pencil 'ā/' at the lower right. The reading is correct. The 'ā/' at the lower left edge of the fol. 238 image is the same target-page mark, not a separate fol. 238 siglum."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "d/ (Bṛh. | s.p. 238\ninf.)",
+        "after": "[d?]/ Bṛh. | s.[p?] 238\ninf.",
+        "reason": "The curved strokes are the hand-drawn oval, not written parentheses; this is already described in the annotations. The opening mark and 'p' are uncertain.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "literal_text",
+        "before": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213.\nSamv. 1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vijayapratāpodaya. ←",
+        "after": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?].\nSamv. 1668. Written [in reign of?] Rājādhirāja Kalyāṇaśāhi [Vijayapratāpodaya?].",
+        "reason": "Uncertain readings are now marked in the literal text. The comma after '101-102)' is not clearly visible. The arrow is a non-text mark at the end of line 1, not line 2, and is now described in annotations only.",
+        "source_block_ids": [
+          "b004",
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "fields.extent",
+        "before": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213",
+        "after": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?]",
+        "reason": "The field should carry the same uncertainty as the literal text.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "Ink, two lines in a cursive hand.",
+          "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter."
+        ],
+        "after": [
+          "Ink, two lines in a cursive hand.",
+          "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter, pointing back toward the note."
+        ],
+        "reason": "Clarifies the arrow's position now that it has been removed from the literal text.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 475,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry with leftward arrow in left margin, 'Chiefly adh. 69-173'",
+            "evidence": "Arrow b005 corresponds to a leftward arrow in the left margin of fol. 238 beside the Varāha Purāṇa entry. That entry also cites 'adh. 69-173'. The attachment is not explicitly written.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 475,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry, 'Chiefly adh. 69-173'",
+            "evidence": "The note stands at about the same height as the fol. 238 Varāha Purāṇa entry (c. 101). It shares the reference 'adh(y). 69-173'. Arrow b005 lies next to the gutter facing that entry. The arrow seen at the left edge of the fol. 238 image is this same target-page arrow, not an independent mark. The attachment is not written explicitly.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The previous evidence counted the target page's own arrow, visible in the adjacent image, as a second arrow on fol. 238.",
+        "source_block_ids": [
+          "b004",
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 475,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "a/ (left margin of fol. 238, top)",
+            "evidence": "A similar pencil siglum 'a/' appears in the left margin of fol. 238. The function of either mark is not stated.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [],
+        "reason": "The 'a/' at the left of the fol. 238 image lies beyond that page's gutter and is this same target-page mark. No separate correspondence is shown.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 475,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ā/ (left margin of fol. 238, bottom)",
+            "evidence": "A similar siglum appears in the lower left margin of fol. 238.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [],
+        "reason": "The 'ā/' at the lower left of the fol. 238 image is this same target-page mark, visible beyond the gutter.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "Several readings are uncertain: 'n. 98', 'foliation omits', the middle digit of 'n. 3?2', 'adhy. 213', 'Bibl.' (possibly written 'Bill.'), 'in reign of', and 'Vijayapratāpodaya' (possibly 'Vijai-' or '-odaye'). 'Samv.' may be written 'Samᵛ-' with a dash rather than a full stop.",
+        "next_check": "Inspect at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The opening mark 'd/' and 's.p.' are uncertain. The attachment of the note is not explicit.",
+        "next_check": "Inspect at higher magnification. Compare with the lower part of fol. 238."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b006"
+        ],
+        "issue": "The function of the sigla 'a/' and 'ā/' is unknown. Similar sigla ('a/', 's/') appear in the left margin of fol. 237, but no link is shown.",
+        "next_check": "Survey the series for a sigla system."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "A small hook mark at the gutter, about x≈3150, y≈910, probably belongs to the facing page's margin. This is not resolved.",
+        "next_check": "View the gutter at higher resolution."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3150. Everything to its right ('e.', 'f.', 'd.', the cancelled note 'with which / in other part / in general', the dash and the tick) belongs to fol. 238 and is not transcribed. The fol. 238 image in turn shows the target page's 'a/', the oval note, the arrow and 'ā/' at its left edge. These are the same marks, not additional fol. 238 marks.",
+    "region_review": {
+      "top": "Folio label only, plus specks.",
+      "middle": "Pencil 'a/' and the oval note near the gutter, stray strokes near the gutter around y≈1660-1700, and the two-line ink note with its arrow at about y≈3080-3300.",
+      "bottom": "'ā/' at the lower right; otherwise blank ruled lines.",
+      "left_margin": "Blank.",
+      "right_margin": "Gutter-side pencil marks as recorded. Fragments of the facing page lie beyond the gutter.",
+      "interlinear": "No interlinear additions found; faint show-through from the reverse is not treated as text."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        345,
+        330,
+        135,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "237b",
+      "features": [
+        "top left corner",
+        "written as 237 with superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2930,
+        690,
+        95,
+        180
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "a/",
+      "features": [
+        "pencil",
+        "upper right of page near gutter",
+        "short siglum followed by an oblique stroke"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2720,
+        900,
+        420,
+        215
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "d/ (Brh. | s.p. 238 inf.)",
+      "features": [
+        "pencil",
+        "enclosed in a hand-drawn oval",
+        "vertical dividing stroke inside the oval",
+        "preceded by 'd/'",
+        "'inf.' written small under '238'",
+        "refers to p. 238; attachment is not explicit"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        400,
+        3080,
+        2490,
+        225
+      ],
+      "kind_hint": "insertion_note",
+      "anchor": "ff. 90-253 (n. 98, foliation omits 101-102) adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 ... Samv. 1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vijayapratāpodaya.",
+      "features": [
+        "ink",
+        "two handwritten lines",
+        "cursive hand; several readings uncertain",
+        "contains folio range and adhyāya references",
+        "contains a Samvat date",
+        "diacritics present"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2990,
+        3120,
+        135,
+        85
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "ink arrow at the right end of b004",
+        "points left toward the note",
+        "appears to correspond to the leftward arrow in the left margin of fol. 238 beside the Varāha Purāṇa entry"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2950,
+        4565,
+        80,
+        130
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "ā/",
+      "features": [
+        "pencil",
+        "lower right of page",
+        "'a' with a macron followed by an oblique stroke"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "237b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top left corner; the 'b' is superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0474-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "siglum",
+      "literal_text": "a/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, upper right near the gutter. An 'a' is followed by a long oblique stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The function of the siglum is unknown."
+      ],
+      "stable_id": "css-prod-0474-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_reference_note",
+      "literal_text": "d/ (Bṛh. | s.p. 238\ninf.)",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "'Bṛh. | s.p. 238 inf.' is enclosed in a hand-drawn oval, with a vertical dividing stroke after 'Bṛh.'.",
+        "'inf.' is written small below '238'.",
+        "The 'd/'-like mark stands just before the oval."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "238 inf. (lower part of fol. 238)",
+          "evidence": "The note refers to '238 inf.'. It is not explicitly attached to any entry. It sits level with the upper entries of fol. 238 (e. 58 (5) Varaṇamantra region).",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The opening mark may be 'd/' or another sign.",
+        "'Bṛh.' has an underdot below the r; it could be read 'Brh.'.",
+        "'s.p.' is uncertain. It may be 's.|' with a stroke rather than 'p'.",
+        "No expansion of the abbreviation is attempted."
+      ],
+      "stable_id": "css-prod-0474-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "insertion_for_facing_page",
+      "literal_text": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213.\nSamv. 1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vijayapratāpodaya. ←",
+      "fields": {
+        "extent": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213",
+        "date": "Samv. 1668"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, two lines in a cursive hand.",
+        "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter, pointing back toward the note."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry with leftward arrow in left margin, 'Chiefly adh. 69-173'",
+          "evidence": "Arrow b005 corresponds to a leftward arrow in the left margin of fol. 238 beside the Varāha Purāṇa entry. That entry also cites 'adh. 69-173'. The attachment is not explicitly written.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'n. 98' is uncertain.",
+        "The reading 'foliation omits' is uncertain.",
+        "The reading 'n. 342' is uncertain; the middle digit is unclear.",
+        "The reading 'adhy. 213' is uncertain.",
+        "The spelling 'Vijayapratāpodaya' is uncertain; it may be written 'Vijai-' or end '-odaye'.",
+        "The reading 'in reign of' is uncertain."
+      ],
+      "stable_id": "css-prod-0474-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "siglum",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, lower right. An 'a' with a macron is followed by an oblique stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The function of the siglum is unknown."
+      ],
+      "stable_id": "css-prod-0474-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "d/ (Bṛh. | s.p. 238\ninf.)",
+      "after": "[d?]/ Bṛh. | s.[p?] 238\ninf.",
+      "reason": "The curved strokes are the hand-drawn oval, not written parentheses; this is already described in the annotations. The opening mark and 'p' are uncertain.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213.\nSamv. 1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vijayapratāpodaya. ←",
+      "after": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?].\nSamv. 1668. Written [in reign of?] Rājādhirāja Kalyāṇaśāhi [Vijayapratāpodaya?].",
+      "reason": "Uncertain readings are now marked in the literal text. The comma after '101-102)' is not clearly visible. The arrow is a non-text mark at the end of line 1, not line 2, and is now described in annotations only.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "fields.extent",
+      "before": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213",
+      "after": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?]",
+      "reason": "The field should carry the same uncertainty as the literal text.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "Ink, two lines in a cursive hand.",
+        "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter."
+      ],
+      "after": [
+        "Ink, two lines in a cursive hand.",
+        "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter, pointing back toward the note."
+      ],
+      "reason": "Clarifies the arrow's position now that it has been removed from the literal text.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry with leftward arrow in left margin, 'Chiefly adh. 69-173'",
+          "evidence": "Arrow b005 corresponds to a leftward arrow in the left margin of fol. 238 beside the Varāha Purāṇa entry. That entry also cites 'adh. 69-173'. The attachment is not explicitly written.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry, 'Chiefly adh. 69-173'",
+          "evidence": "The note stands at about the same height as the fol. 238 Varāha Purāṇa entry (c. 101). It shares the reference 'adh(y). 69-173'. Arrow b005 lies next to the gutter facing that entry. The arrow seen at the left edge of the fol. 238 image is this same target-page arrow, not an independent mark. The attachment is not written explicitly.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The previous evidence counted the target page's own arrow, visible in the adjacent image, as a second arrow on fol. 238.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "a/ (left margin of fol. 238, top)",
+          "evidence": "A similar pencil siglum 'a/' appears in the left margin of fol. 238. The function of either mark is not stated.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [],
+      "reason": "The 'a/' at the left of the fol. 238 image lies beyond that page's gutter and is this same target-page mark. No separate correspondence is shown.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ā/ (left margin of fol. 238, bottom)",
+          "evidence": "A similar siglum appears in the lower left margin of fol. 238.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [],
+      "reason": "The 'ā/' at the lower left of the fol. 238 image is this same target-page mark, visible beyond the gutter.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213.\nSamv. 1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vijayapratāpodaya. ←",
+      "after": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?].\nSam[v?]-1668. Written [in reign of?] Rājādhirāja Kalyāṇaśāhi [Vijayapratāpodaya?].",
+      "reason": "The uncertain readings are now marked. No comma after '101-102)' is visible. 'Samv' is followed by a dash, not a stop. The arrow is a non-text mark at the end of line 1 and is removed from the literal text.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0474-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "fields.extent",
+      "before": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213",
+      "after": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?]",
+      "reason": "The field now carries the same uncertainty as the literal text.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0474-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "fields.date",
+      "before": "Samv. 1668",
+      "after": "Sam[v?]-1668",
+      "reason": "Written with a raised v and a dash.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0474-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "Ink, two lines in a cursive hand.",
+        "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter, pointing back toward the note."
+      ],
+      "after": [
+        "Ink, two lines in a cursive hand.",
+        "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter, pointing back toward the note; it is a non-text mark.",
+        "'Samv' is written with a raised v followed by a short dash.",
+        "The name in line 2 may be written 'Vijai-' rather than 'Vijaya-'."
+      ],
+      "reason": "Documentary description of the arrow and of the spelling evidence.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0474-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry with leftward arrow in left margin, 'Chiefly adh. 69-173'",
+          "evidence": "Arrow b005 corresponds to a leftward arrow in the left margin of fol. 238 beside the Varāha Purāṇa entry. That entry also cites 'adh. 69-173'. The attachment is not explicitly written.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry, 'Chiefly adh. 69-173'",
+          "evidence": "The note stands at about the same height as the fol. 238 Varāha Purāṇa entry (c. 101). It shares the reference 'adh(y). 69-173'. Arrow b005 lies next to the gutter facing that entry. The arrow seen at the left edge of the fol. 238 image is this same target-page arrow, not an independent mark. The attachment is not written explicitly.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The earlier evidence wrongly counted this page's arrow as a second arrow on fol. 238.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0474-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "d/ (Bṛh. | s.p. 238\ninf.)",
+      "after": "[d?]/ Bṛh. | s.[p?] 238\ninf.",
+      "reason": "The curved strokes are the drawn oval, already described in the annotations, not parentheses. The opening sign and 'p' are uncertain.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0474-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "a/ (left margin of fol. 238, top)",
+          "evidence": "A similar pencil siglum 'a/' appears in the left margin of fol. 238. The function of either mark is not stated.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [],
+      "reason": "The 'a/' at the left of the fol. 238 image lies beyond that page's gutter and is this same target-page mark. No correspondence is shown.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0474-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 475,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ā/ (left margin of fol. 238, bottom)",
+          "evidence": "A similar siglum appears in the lower left margin of fol. 238.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [],
+      "reason": "The 'ā/' at the lower left of the fol. 238 image is this same target-page mark, visible beyond the gutter.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0474-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Several readings are uncertain: 'n. 98', 'foliation omits', the middle digit of 'n. 3?2', 'adhy. 213', 'Bibl.' (possibly written 'Bill.'), 'in reign of', and 'Vijayapratāpodaya' (possibly 'Vijai-' or '-odaye'). 'Samv.' may be written 'Samᵛ-' with a dash rather than a full stop.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0474-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The opening mark 'd/' and 's.p.' are uncertain. The attachment of the note is not explicit.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0474-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The function of the sigla 'a/' and 'ā/' is unknown. Similar sigla ('a/', 's/') appear in the left margin of fol. 237, but no link is shown.",
+      "block_ids": [
+        "b002",
+        "b006"
+      ],
+      "record_ids": [
+        "r002",
+        "r005"
+      ],
+      "id": "focus-0474-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "A small hook mark at the gutter, about x≈3150, y≈910, probably belongs to the facing page's margin. This is not resolved.",
+      "block_ids": [],
+      "record_ids": [],
+      "id": "focus-0474-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The curved strokes are the hand-drawn oval, not written parentheses; this is already described in the annotations. The opening mark and 'p' are uncertain. Proposed literal_text: \"[d?]/ Bṛh. | s.[p?] 238\\ninf.\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0474-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "Uncertain readings are now marked in the literal text. The comma after '101-102)' is not clearly visible. The arrow is a non-text mark at the end of line 1, not line 2, and is now described in annotations only. Proposed literal_text: \"ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?].\\nSamv. 1668. Written [in reign of?] Rājādhirāja Kalyāṇaśāhi [Vijayapratāpodaya?].\"",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0474-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The previous evidence counted the target page's own arrow, visible in the adjacent image, as a second arrow on fol. 238. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 475, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"Varāha Purāṇa (b. 17 / c. 101) entry, 'Chiefly adh. 69-173'\", \"evidence\": \"The note stands at about the same height as the fol. 238 Varāha Purāṇa entry (c. 101). It shares the reference 'adh(y). 69-173'. Arrow b005 lies next to the gutter facing that entry. The arrow seen at the left edge of the fol. 238 image is this same target-page arrow, not an independent mark. The attachment is not written explicitly.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0474-07"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The 'a/' at the left of the fol. 238 image lies beyond that page's gutter and is this same target-page mark. No separate correspondence is shown. Proposed relationships: []",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0474-08"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The 'ā/' at the lower left of the fol. 238 image is this same target-page mark, visible beyond the gutter. Proposed relationships: []",
+      "block_ids": [
+        "b006"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0474-09"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The field should carry the same uncertainty as the literal text. Proposed fields.extent: \"ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?]\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0474-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0474-01",
+        "focus-0474-02",
+        "focus-0474-03",
+        "focus-0474-04",
+        "focus-0474-05",
+        "focus-0474-06",
+        "focus-0474-07",
+        "focus-0474-08",
+        "focus-0474-09",
+        "focus-0474-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0474-01",
+          "source_reading": "Line 1: ff. 90-253 (n. 98, foliatn omits 101-102) adhy. 69-173 (Bi?l. Ind. ed), and ff. 341-350 (n. 3?2), from adhy. 2?3. — Line 2: Samᵛ-1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vij[ai/aya?]pratāpodaya.",
+          "certainty": "uncertain",
+          "evidence": "Native tiles at [0,1608] and [1604,1608]. '98' looks secure enough but remains cursive. 'foliation' is written in an abbreviated, cursive way. The middle digit of '3?2' is a cramped form and could be 4. The abbreviation before 'Ind.' looks like 'Bill.' or 'Bibl.'. 'in reign of' is cursive: 'in' looks like 'i', and 'reign' is compressed. The name begins 'Vijai' or 'Vijaya'; the ending looks like '-odaya'. 'Samv' has a raised v followed by a short dash, not a clear full stop. After '101-102)' no separate comma is clearly visible."
+        },
+        {
+          "issue_id": "focus-0474-02",
+          "source_reading": "[d?]/ (oval: Bṛh. | s.[p?] 238 / inf.)",
+          "certainty": "uncertain",
+          "evidence": "Tile [1604,0] at about x 1120-1530, y 905-1110. The opening sign is a looped letter like 'd' or 'ð' followed by an oblique stroke. After 's.' there is a vertical stroke with a small loop, which may be 'p' or a divider. No attachment line or arrow links the note to any entry."
+        },
+        {
+          "issue_id": "focus-0474-03",
+          "source_reading": "a/ (upper right); ā/ (lower right)",
+          "certainty": "secure",
+          "evidence": "Both are pencil sigla near the gutter. The fol. 238 overview shows these same marks at its left edge, beyond its gutter. Fol. 237 has 'a/' and 's/' in its left margin, but nothing on the page shows a link. The function of the sigla is unknown."
+        },
+        {
+          "issue_id": "focus-0474-04",
+          "source_reading": "[no text]: a small hooked/looped mark straddling the gutter line at about x 3150-3185, y 900-950",
+          "certainty": "uncertain",
+          "evidence": "Similar small knots or loops sit on the gutter line at about y 2520 and about y 3710. These look like sewing thread or binding, not writing. The mark is not part of the b003 oval."
+        },
+        {
+          "issue_id": "focus-0474-05",
+          "source_reading": "[d?]/ Bṛh. | s.[p?] 238\ninf.",
+          "certainty": "uncertain",
+          "evidence": "This agrees with the proposal. The curved strokes are the drawn oval, not written parentheses."
+        },
+        {
+          "issue_id": "focus-0474-06",
+          "source_reading": "See focus-0474-01. The arrow stands at the end of line 1, at about x 2995-3120, y 3140-3200.",
+          "certainty": "probable",
+          "evidence": "Tile [1604,1608]: the arrow is level with line 1 ('from adhy. 2?3.'). Line 2 ends with 'podaya.'"
+        },
+        {
+          "issue_id": "focus-0474-07",
+          "source_reading": "The leftward arrow at the left edge of the fol. 238 view is this page's arrow b005.",
+          "certainty": "probable",
+          "evidence": "In the fol. 238 native context tile the arrow sits at about x 110-225, left of that page's gutter. That position is on fol. 237b."
+        },
+        {
+          "issue_id": "focus-0474-08",
+          "source_reading": "The 'a/' in the fol. 238 view is this page's b002.",
+          "certainty": "secure",
+          "evidence": "In the fol. 238 overview it lies left of the gutter, together with the visible 'ṛh. | s| 238' oval fragment."
+        },
+        {
+          "issue_id": "focus-0474-09",
+          "source_reading": "The 'ā/' in the fol. 238 view is this page's b006.",
+          "certainty": "secure",
+          "evidence": "In the fol. 238 overview it lies at the lower left, beyond that page's gutter."
+        },
+        {
+          "issue_id": "focus-0474-10",
+          "source_reading": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?]",
+          "certainty": "uncertain",
+          "evidence": "This matches the literal reading."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r004",
+          "field_path": "literal_text",
+          "before": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213.\nSamv. 1668. Written in reign of Rājādhirāja Kalyāṇaśāhi Vijayapratāpodaya. ←",
+          "after": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?].\nSam[v?]-1668. Written [in reign of?] Rājādhirāja Kalyāṇaśāhi [Vijayapratāpodaya?].",
+          "reason": "The uncertain readings are now marked. No comma after '101-102)' is visible. 'Samv' is followed by a dash, not a stop. The arrow is a non-text mark at the end of line 1 and is removed from the literal text.",
+          "source_block_ids": [
+            "b004",
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "fields.extent",
+          "before": "ff. 90-253 (n. 98, foliation omits 101-102), adhy. 69-173 (Bibl. Ind. ed), and ff. 341-350 (n. 342), from adhy. 213",
+          "after": "ff. 90-253 (n. [98?], [foliation omits?] 101-102) adhy. 69-173 ([Bibl.?] Ind. ed), and ff. 341-350 (n. [342?]), from adhy. [213?]",
+          "reason": "The field now carries the same uncertainty as the literal text.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "fields.date",
+          "before": "Samv. 1668",
+          "after": "Sam[v?]-1668",
+          "reason": "Written with a raised v and a dash.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "annotations",
+          "before": [
+            "Ink, two lines in a cursive hand.",
+            "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter, pointing back toward the note."
+          ],
+          "after": [
+            "Ink, two lines in a cursive hand.",
+            "A leftward ink arrow (b005) stands at the right end of line 1, near the gutter, pointing back toward the note; it is a non-text mark.",
+            "'Samv' is written with a raised v followed by a short dash.",
+            "The name in line 2 may be written 'Vijai-' rather than 'Vijaya-'."
+          ],
+          "reason": "Documentary description of the arrow and of the spelling evidence.",
+          "source_block_ids": [
+            "b004",
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 475,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry with leftward arrow in left margin, 'Chiefly adh. 69-173'",
+              "evidence": "Arrow b005 corresponds to a leftward arrow in the left margin of fol. 238 beside the Varāha Purāṇa entry. That entry also cites 'adh. 69-173'. The attachment is not explicitly written.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 475,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "Varāha Purāṇa (b. 17 / c. 101) entry, 'Chiefly adh. 69-173'",
+              "evidence": "The note stands at about the same height as the fol. 238 Varāha Purāṇa entry (c. 101). It shares the reference 'adh(y). 69-173'. Arrow b005 lies next to the gutter facing that entry. The arrow seen at the left edge of the fol. 238 image is this same target-page arrow, not an independent mark. The attachment is not written explicitly.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The earlier evidence wrongly counted this page's arrow as a second arrow on fol. 238.",
+          "source_block_ids": [
+            "b004",
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "d/ (Bṛh. | s.p. 238\ninf.)",
+          "after": "[d?]/ Bṛh. | s.[p?] 238\ninf.",
+          "reason": "The curved strokes are the drawn oval, already described in the annotations, not parentheses. The opening sign and 'p' are uncertain.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 475,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "a/ (left margin of fol. 238, top)",
+              "evidence": "A similar pencil siglum 'a/' appears in the left margin of fol. 238. The function of either mark is not stated.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [],
+          "reason": "The 'a/' at the left of the fol. 238 image lies beyond that page's gutter and is this same target-page mark. No correspondence is shown.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 475,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "ā/ (left margin of fol. 238, bottom)",
+              "evidence": "A similar siglum appears in the lower left margin of fol. 238.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [],
+          "reason": "The 'ā/' at the lower left of the fol. 238 image is this same target-page mark, visible beyond the gutter.",
+          "source_block_ids": [
+            "b006"
+          ],
+          "certainty": "secure"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number '237' with superscript 'b'."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Pencil siglum 'a/'."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Oval pencil note; the opening sign and 'p' are uncertain."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Two-line ink note; several readings are uncertain."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Leftward arrow at the end of line 1."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Pencil siglum 'ā/'."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0474-01",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "Unresolved readings: middle digit of n. 3?2; 'Bibl.' or 'Bill.'; 'Vijai-' or 'Vijaya-'; 'in reign of'; 'foliation omits'.",
+          "next_check": "Higher-magnification inspection of the original."
+        },
+        {
+          "issue_id": "focus-0474-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The opening sign ('d/'?) and 's.p.' are unclear, and the note has no explicit attachment.",
+          "next_check": "Compare with similar pencil sigla elsewhere in the volume."
+        },
+        {
+          "issue_id": "focus-0474-03",
+          "record_id": null,
+          "block_ids": [
+            "b002",
+            "b006"
+          ],
+          "issue": "The function of the 'a/' and 'ā/' sigla, and any link to the 'a/' and 's/' marks on fol. 237, is unknown.",
+          "next_check": "Survey the pencil sigla pattern across neighbouring pages."
+        },
+        {
+          "issue_id": "focus-0474-04",
+          "record_id": null,
+          "block_ids": [],
+          "issue": "Small hook at the gutter (x≈3150, y≈910). It is probably binding thread, like the knots at y≈2520 and y≈3710, but this is not confirmed. No record is created.",
+          "next_check": "Inspect the physical gutter or a higher-resolution gutter image."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "ff5bf955666be80dfc1ecaa2b6393e584cbf5a22796a6324d80e9565ef78a977",
+      "bytes": 280208,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bc3a317b5fa75e07b8526271696e73821e9c16fb1f893caa18de865bbcd2c56c",
+      "bytes": 333055,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3718c34942652688cba683a0918ab777d65d4ac412c6209cf040c67a77cea175",
+      "bytes": 349319,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cc1c6dcebad62b85614a4bb1baa7a67706105bcd9eabd47d5843294fd82dcff3",
+      "bytes": 360431,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dae95e3c280647564350dc7840e436a67ed778af08eb2d19cb409186b3f70d91",
+      "bytes": 356918,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1d9c0889894bf4ff5889cd94dfe9363d557ef0ac70edd07ba96197cadb021689",
+      "bytes": 333808,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2e675786bf4935a609e33c833aa304b54234417c066cc94fa2eaaf7def723ac9",
+      "bytes": 343068,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95f6d4c4-6f52-4259-b561-9ac15252e84a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f89c40e2868faf058096c1ed2321a789f86185e2104b2d34b74737c3b3d1563c",
+      "bytes": 292085,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 473,
+      "folio_label": "fol. 237",
+      "page_id": "95f6d4c4-6f52-4259-b561-9ac15252e84a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/66d97460-0bcb-46a5-adab-ec6cded7110d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "fe64a9713aeb262e14cafd5466d74b2b76ca2d9a08dfdf395470ae17ae94951c",
+      "bytes": 300731,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 475,
+      "folio_label": "fol. 238",
+      "page_id": "66d97460-0bcb-46a5-adab-ec6cded7110d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/66d97460-0bcb-46a5-adab-ec6cded7110d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "748084a445ff4f3d7e852ef4d8f8b0bd1dfcb42da0dcf34f4cc34772d55f90dd",
+      "bytes": 444214,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 475,
+      "folio_label": "fol. 238",
+      "page_id": "66d97460-0bcb-46a5-adab-ec6cded7110d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/66d97460-0bcb-46a5-adab-ec6cded7110d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6fb550bff0ff0a7f5004d50ec033c7537e54c2dab7996a8fbd94191e3cab0995",
+      "bytes": 539792,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 475,
+      "folio_label": "fol. 238",
+      "page_id": "66d97460-0bcb-46a5-adab-ec6cded7110d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bf3a4116-d924-4505-9f91-7649c15215c3.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "ff5bf955666be80dfc1ecaa2b6393e584cbf5a22796a6324d80e9565ef78a977",
+      "bytes": 280208,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bc3a317b5fa75e07b8526271696e73821e9c16fb1f893caa18de865bbcd2c56c",
+      "bytes": 333055,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3718c34942652688cba683a0918ab777d65d4ac412c6209cf040c67a77cea175",
+      "bytes": 349319,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cc1c6dcebad62b85614a4bb1baa7a67706105bcd9eabd47d5843294fd82dcff3",
+      "bytes": 360431,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dae95e3c280647564350dc7840e436a67ed778af08eb2d19cb409186b3f70d91",
+      "bytes": 356918,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1d9c0889894bf4ff5889cd94dfe9363d557ef0ac70edd07ba96197cadb021689",
+      "bytes": 333808,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf3a4116-d924-4505-9f91-7649c15215c3/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2e675786bf4935a609e33c833aa304b54234417c066cc94fa2eaaf7def723ac9",
+      "bytes": 343068,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95f6d4c4-6f52-4259-b561-9ac15252e84a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f89c40e2868faf058096c1ed2321a789f86185e2104b2d34b74737c3b3d1563c",
+      "bytes": 292085,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 473,
+      "folio_label": "fol. 237",
+      "page_id": "95f6d4c4-6f52-4259-b561-9ac15252e84a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/66d97460-0bcb-46a5-adab-ec6cded7110d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "fe64a9713aeb262e14cafd5466d74b2b76ca2d9a08dfdf395470ae17ae94951c",
+      "bytes": 300731,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 475,
+      "folio_label": "fol. 238",
+      "page_id": "66d97460-0bcb-46a5-adab-ec6cded7110d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

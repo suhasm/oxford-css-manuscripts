@@ -1,0 +1,1923 @@
+{
+  "source_order": 524,
+  "folio_label": "fol. 262b",
+  "page_id": "d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "262b",
+    "principal_page_bbox": [
+      300,
+      260,
+      2895,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          370,
+          310,
+          160,
+          135
+        ],
+        "kind_hint": "page_number",
+        "anchor": "262b",
+        "features": [
+          "top-left corner",
+          "superscript 'b' after 262",
+          "dot after numeral"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          365,
+          1020,
+          2655,
+          90
+        ],
+        "kind_hint": "entry",
+        "anchor": "√ C.426e, Vyāsapūjāvidhi, ff.10b-3 (foliation in reverse order) of palm leaf MS. … n.d : 8 : 3 : Blog.",
+        "features": [
+          "tick mark (√) before shelfmark",
+          "superscript 'e' on shelfmark",
+          "parenthetical note on foliation",
+          "right-hand date/extent/script column 'n.d : 8 : 3 : Blog.'",
+          "script abbreviation 'Blog.' not expanded",
+          "single handwritten line"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          365,
+          1725,
+          2625,
+          90
+        ],
+        "kind_hint": "entry",
+        "anchor": "Vd.142(1) Vratabandhavidhi, upanayanakarma, ff.1-13, S.1867, Śake 1732 … 1810:13:8/9:D",
+        "features": [
+          "tick-like mark joined to 'd' at start of shelfmark",
+          "dates 'S.1867' and 'Śake 1732'",
+          "right-hand column '1810:13:8/9:D' with '8/9' line-count alternative",
+          "script abbreviation 'D' not expanded",
+          "single handwritten line"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3095,
+          1075,
+          210,
+          45
+        ],
+        "description": "Double-headed horizontal arrow (←→) to the right of b002's right-hand column; it reaches the gutter and may relate to an entry on the facing page."
+      },
+      {
+        "bbox": [
+          3055,
+          1765,
+          70,
+          45
+        ],
+        "description": "Left-pointing arrow (←) to the right of b003's right-hand column, on the target page side of the gutter."
+      },
+      {
+        "bbox": [
+          3235,
+          1760,
+          140,
+          45
+        ],
+        "description": "Right-pointing arrow (→) level with b003, just beyond the gutter line; it is probably on the facing page (fol. 263) margin."
+      },
+      {
+        "bbox": [
+          2830,
+          3220,
+          40,
+          70
+        ],
+        "description": "Small faint question mark ('?') isolated in the lower right area of the page; it has no associated text."
+      },
+      {
+        "bbox": [
+          650,
+          3390,
+          700,
+          950
+        ],
+        "description": "Faint show-through of writing from the reverse/adjacent leaf in the lower part of the page; it is not written on this page."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter runs at about x≈3195 native. Writing to its right, such as the '√' near x≈3440,y≈1210, belongs to the facing page fol. 263 and is not inventoried as a block.",
+      "The arrows near the gutter are ambiguous as to which page they belong to. The adjacent fol. 263 overview shows the same marks at its left edge.",
+      "Faint ghost text visible across the ruled lines is show-through and was not treated as target content."
+    ],
+    "uncertainties": [
+      "The reading 'Blog.' in the b002 right-hand column is uncertain because the first letter is heavily inked.",
+      "In b002, 'reverse order' is read from a cramped cursive hand; the anchor reading of that parenthetical is approximate.",
+      "It is unclear whether the tick in b003 is a separate √ mark or part of the letterform of the shelfmark 'Vd.'",
+      "The '?' mark at lower right may be a stray mark rather than a deliberate query."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "262b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "262b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The 'b' is written superscript after '262' in the top-left corner. A dot follows the numeral."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "√ C.426e, Vyāsapūjāvidhi, ff.10b-3 (foliation in reverse order) of palm leaf MS.        n.d : 8 : 3 : Blog.",
+        "fields": {
+          "shelfmark": "C.426e",
+          "title": "Vyāsapūjāvidhi",
+          "date": "n.d",
+          "extent": "8",
+          "lines": "3",
+          "script": "Blog."
+        },
+        "normalized_title": "Vyāsapūjāvidhi",
+        "annotations": [
+          "A tick (√) stands before the shelfmark.",
+          "The 'e' in 'C.426e' is written superscript.",
+          "The foliation note 'ff.10b-3 (foliation in reverse order) of palm leaf MS.' is written in a cramped cursive hand.",
+          "The first letter of the right-hand column ('n' of 'n.d') is heavily inked or overwritten.",
+          "The script abbreviation is recorded as written and is not expanded."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 525,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vyā- entries near 'd.479(1) Vyāptivāda' / 'Vyāsatīrtha' / 'Vyāsasmṛti'",
+            "evidence": "A double-headed arrow to the right of this line reaches the gutter. The fol. 263 overview shows the same arrow at its left edge, near the Vyā- entries. The arrow may mark where this entry is meant to be inserted alphabetically.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'Blog.' is uncertain because the first letter is heavily inked.",
+          "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+          "The 'ff.10b-3' reading is approximate."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "Vd.142(1) Vratabandhavidhi, upanayanakarma, ff.1-13, S.1867, Śake 1732        1810:13:8/9:D",
+        "fields": {
+          "shelfmark": "Vd.142(1)",
+          "title": "Vratabandhavidhi, upanayanakarma",
+          "date": "S.1867, Śake 1732 ; 1810",
+          "extent": "13",
+          "lines": "8/9",
+          "script": "D"
+        },
+        "normalized_title": "Vratabandhavidhi",
+        "annotations": [
+          "The initial 'V' may be a tick joined to the shelfmark 'd.142(1)' rather than part of the shelfmark.",
+          "'8/9' is written as alternative line counts.",
+          "The accent on 'Ś' in 'Śake' is written as a mark above the S.",
+          "Dates are recorded as written and are not converted."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 525,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "near 'd.970 Vratapratiṣṭhā' / 'c.384(4) Vratamālā'",
+            "evidence": "A left arrow stands on the target side of the gutter. A right arrow at the same level lies beyond the gutter, on the fol. 263 margin, beside the Vrata- entries. This possibly indicates the alphabetical insertion point.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear whether the shelfmark is 'Vd.142(1)' or a tick (√) followed by 'd.142(1)'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A double-headed horizontal arrow (←→) is level with r002's right-hand column and extends to the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 524,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "n.d : 8 : 3 : Blog.",
+            "evidence": "The arrow is on the same ruled line as b002.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear whether this arrow belongs to the target page or the facing page."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A left-pointing arrow (←) is to the right of r003's right-hand column, on the target side of the gutter. A companion right-pointing arrow beyond the gutter appears to be on fol. 263 and is not transcribed here."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 524,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "1810:13:8/9:D",
+            "evidence": "The arrow is on the same ruled line as b003.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": []
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b903"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "query_mark",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A small, faint, isolated question mark is in the lower right area. No associated text is visible."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "This may be a stray mark rather than a deliberate query."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3095,
+          1075,
+          210,
+          45
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←→ right of b002",
+        "features": [
+          "double-headed arrow",
+          "reaches gutter"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3055,
+          1765,
+          70,
+          45
+        ],
+        "kind_hint": "arrow",
+        "anchor": "← right of b003",
+        "features": [
+          "left-pointing arrow",
+          "target side of gutter"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          2830,
+          3220,
+          40,
+          70
+        ],
+        "kind_hint": "mark",
+        "anchor": "?",
+        "features": [
+          "faint",
+          "isolated"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Single-line holding entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Single-line holding entry."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrow, ambiguously attached to b002."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Arrow, ambiguously attached to b003."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Isolated question mark."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is ruled and has no written text, based on review of all tiles.",
+      "Faint ghost writing in the lower half is show-through from another leaf and was not transcribed.",
+      "Marks to the right of the gutter (x>~3195), including a '√' near y≈1210 and a right arrow near y≈1780, belong to the facing page fol. 263."
+    ],
+    "unresolved_relationships": [
+      "The arrows beside both entries may indicate intended insertion points among the Vyā-/Vrata- entries on fol. 263. The specific target lines are uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The page number at the top left reads '262' with a raised 'b' and a following dot. The source supports the literal '262b.'."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This single ink line at about y≈1060 runs from the tick and 'C.426' with superscript 'e' to the right-hand column. The tiles overlap and the text is not duplicated. The heavy inking falls on the first letter of the right-hand column ('n'/'N' of n.d), not on the 'B' of 'Blog.'. The candidate's uncertainty note conflates the two."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "This single line is at about y≈1770. The tiles overlap and the text is not duplicated. 'Śake' is written with an acute-like stroke above and to the left of the S, which the annotation already notes. The column reads '1810:13:8/9:D'."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A double-headed arrow at native x≈3099–3300, y≈1085. The gutter line is at about x≈3194, so the arrow crosses the gutter rather than stopping at it. Its arrowhead lies on the fol. 263 side."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "A left arrow at about x≈3059–3119, y≈1775, on the target side of the gutter. Its companion right arrow at about x≈3239–3369 lies beyond the gutter. The inventory lists that companion as an unattached mark, and the candidate correctly leaves it to fol. 263."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "A faint isolated '?' at about (2845,3235). It appears in both the middle-right and bottom-right tiles, and it is not duplicated."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The reading 'Blog.' is uncertain because the first letter is heavily inked.",
+          "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+          "The 'ff.10b-3' reading is approximate."
+        ],
+        "after": [
+          "The heavily inked or overwritten letter is the first letter of the right-hand column ('n.d'; it may be capital 'N'). It is not the 'B' of the script abbreviation.",
+          "The script abbreviation 'Blog.' is read from a cursive hand and is uncertain.",
+          "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+          "The 'ff.10b-3' reading is approximate. A space may stand between '10' and 'b'."
+        ],
+        "reason": "In native tile 2, the dense overwritten ink sits on the first character of 'n.d', not on 'B'. The candidate's uncertainty misattributes the cause.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "A double-headed horizontal arrow (←→) is level with r002's right-hand column and extends to the gutter."
+        ],
+        "after": [
+          "A double-headed horizontal arrow (←→) is level with r002's right-hand column. It starts on the target page and crosses the gutter line (x≈3194), and its right arrowhead lies on the facing-page side."
+        ],
+        "reason": "Native tile 2 shows the arrow spanning about x≈3099–3300, which is across the gutter.",
+        "source_block_ids": [
+          "b901"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The double-headed arrow crosses the gutter. It is unclear whether it links this entry to an insertion point on fol. 263 (near d.479(1) / Vyāsatīrtha) or is a fol. 263 mark.",
+        "next_check": "Compare the native fol. 263 left-edge tile at y≈1080 to see the arrow's continuation and its exact level."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b902"
+        ],
+        "issue": "It is unclear whether the left/right arrow pair at y≈1770 indicates insertion near d.970 Vratapratiṣṭhā / c.384(4) Vratamālā on fol. 263.",
+        "next_check": "Inspect the native fol. 263 left margin at y≈1760–1830."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "It is unclear whether the initial stroke is part of 'Vd.' or a √ tick before 'd.142(1)'.",
+        "next_check": "Compare with the tick forms on fol. 262, for example '√d.230' and '√d.301(1)'."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3194 native. To its right are a '√' at about (3444,1220), a partial letter at about (3489,1925) and the right arrow at about y≈1775. All belong to the facing page fol. 263 and are not target records. Arrow b901 straddles the gutter, so its page attribution remains ambiguous.",
+    "region_review": {
+      "top": "Only the page number 262b. is present. Faint ruled-line show-through is visible but no target writing.",
+      "middle": "There are two single-line entries (b002 and b003) with right-hand columns and arrows. There are no further lines and no ditto marks.",
+      "bottom": "The only target mark is the faint '?' at about (2845,3235). There are a few isolated ink specks or dots, for example near (1880,3405), (1875,3410), (2335,3665) and (2620,4030). These appear to be specks, not writing. Faint show-through text on the lower left is from another leaf and is not transcribed. The bottom edge is blank.",
+      "left_margin": "The binding edge and ruling are visible. There is no marginal writing.",
+      "right_margin": "The arrows b901 and b902 are near the gutter. The facing-page marks beyond x≈3194 are excluded.",
+      "interlinear": "No interlinear additions or cancellations are visible on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        370,
+        310,
+        160,
+        135
+      ],
+      "kind_hint": "page_number",
+      "anchor": "262b",
+      "features": [
+        "top-left corner",
+        "superscript 'b' after 262",
+        "dot after numeral"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        365,
+        1020,
+        2655,
+        90
+      ],
+      "kind_hint": "entry",
+      "anchor": "√ C.426e, Vyāsapūjāvidhi, ff.10b-3 (foliation in reverse order) of palm leaf MS. … n.d : 8 : 3 : Blog.",
+      "features": [
+        "tick mark (√) before shelfmark",
+        "superscript 'e' on shelfmark",
+        "parenthetical note on foliation",
+        "right-hand date/extent/script column 'n.d : 8 : 3 : Blog.'",
+        "script abbreviation 'Blog.' not expanded",
+        "single handwritten line"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        365,
+        1725,
+        2625,
+        90
+      ],
+      "kind_hint": "entry",
+      "anchor": "Vd.142(1) Vratabandhavidhi, upanayanakarma, ff.1-13, S.1867, Śake 1732 … 1810:13:8/9:D",
+      "features": [
+        "tick-like mark joined to 'd' at start of shelfmark",
+        "dates 'S.1867' and 'Śake 1732'",
+        "right-hand column '1810:13:8/9:D' with '8/9' line-count alternative",
+        "script abbreviation 'D' not expanded",
+        "single handwritten line"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3095,
+        1075,
+        210,
+        45
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←→ right of b002",
+      "features": [
+        "double-headed arrow",
+        "reaches gutter"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3055,
+        1765,
+        70,
+        45
+      ],
+      "kind_hint": "arrow",
+      "anchor": "← right of b003",
+      "features": [
+        "left-pointing arrow",
+        "target side of gutter"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        2830,
+        3220,
+        40,
+        70
+      ],
+      "kind_hint": "mark",
+      "anchor": "?",
+      "features": [
+        "faint",
+        "isolated"
+      ]
+    },
+    {
+      "id": "b9904",
+      "bbox": [
+        3235,
+        1750,
+        140,
+        45
+      ],
+      "kind_hint": "arrow",
+      "anchor": "→ beyond gutter, level with b003",
+      "features": [
+        "right-pointing arrow",
+        "beyond gutter line x≈3194",
+        "facing-page margin of fol. 263"
+      ]
+    },
+    {
+      "id": "b9905",
+      "bbox": [
+        3430,
+        1180,
+        78,
+        70
+      ],
+      "kind_hint": "mark",
+      "anchor": "√ fragment at right edge",
+      "features": [
+        "edge of facing page",
+        "partial tick"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "262b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The 'b' is written superscript after '262' in the top-left corner. A dot follows the numeral."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0524-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "√ C.426e, Vyāsapūjāvidhi, ff.10b-3 (foliation in reverse order) of palm leaf MS.        n.d : 8 : 3 : Blog.",
+      "fields": {
+        "shelfmark": "C.426e",
+        "title": "Vyāsapūjāvidhi",
+        "date": "n.d",
+        "extent": "8",
+        "lines": "3",
+        "script": "Blog."
+      },
+      "normalized_title": "Vyāsapūjāvidhi",
+      "annotations": [
+        "A tick (√) stands before the shelfmark.",
+        "The 'e' in 'C.426e' is written superscript.",
+        "The foliation note 'ff.10b-3 (foliation in reverse order) of palm leaf MS.' is written in a cramped cursive hand.",
+        "The first letter of the right-hand column ('n' of 'n.d') is heavily inked or overwritten.",
+        "The script abbreviation is recorded as written and is not expanded."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 525,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vyā- entries near 'd.479(1) Vyāptivāda' / 'Vyāsatīrtha' / 'Vyāsasmṛti'",
+          "evidence": "A double-headed arrow to the right of this line reaches the gutter. The fol. 263 overview shows the same arrow at its left edge, near the Vyā- entries. The arrow may mark where this entry is meant to be inserted alphabetically.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'Blog.' is uncertain because the first letter is heavily inked.",
+        "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+        "The 'ff.10b-3' reading is approximate."
+      ],
+      "stable_id": "css-prod-0524-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "Vd.142(1) Vratabandhavidhi, upanayanakarma, ff.1-13, S.1867, Śake 1732        1810:13:8/9:D",
+      "fields": {
+        "shelfmark": "Vd.142(1)",
+        "title": "Vratabandhavidhi, upanayanakarma",
+        "date": "S.1867, Śake 1732 ; 1810",
+        "extent": "13",
+        "lines": "8/9",
+        "script": "D"
+      },
+      "normalized_title": "Vratabandhavidhi",
+      "annotations": [
+        "The initial 'V' may be a tick joined to the shelfmark 'd.142(1)' rather than part of the shelfmark.",
+        "'8/9' is written as alternative line counts.",
+        "The accent on 'Ś' in 'Śake' is written as a mark above the S.",
+        "Dates are recorded as written and are not converted."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 525,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "near 'd.970 Vratapratiṣṭhā' / 'c.384(4) Vratamālā'",
+          "evidence": "A left arrow stands on the target side of the gutter. A right arrow at the same level lies beyond the gutter, on the fol. 263 margin, beside the Vrata- entries. This possibly indicates the alphabetical insertion point.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear whether the shelfmark is 'Vd.142(1)' or a tick (√) followed by 'd.142(1)'."
+      ],
+      "stable_id": "css-prod-0524-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A double-headed horizontal arrow (←→) is level with r002's right-hand column and extends to the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 524,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "n.d : 8 : 3 : Blog.",
+          "evidence": "The arrow is on the same ruled line as b002.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear whether this arrow belongs to the target page or the facing page."
+      ],
+      "stable_id": "css-prod-0524-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A left-pointing arrow (←) is to the right of r003's right-hand column, on the target side of the gutter. A companion right-pointing arrow beyond the gutter appears to be on fol. 263 and is not transcribed here."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 524,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "1810:13:8/9:D",
+          "evidence": "The arrow is on the same ruled line as b003.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0524-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b903"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "query_mark",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A small, faint, isolated question mark is in the lower right area. No associated text is visible."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "This may be a stray mark rather than a deliberate query."
+      ],
+      "stable_id": "css-prod-0524-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r9904",
+      "block_ids": [
+        "b9904"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "facing_page_fragment",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A right-pointing arrow (→) lies on the fol. 263 margin, level with the 'd.970' row, and pairs with the left arrow b902 on the target side."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unclear whether this arrow and b902 form one intended signal linking b003 to fol. 263."
+      ],
+      "stable_id": "css-prod-0524-r9904",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    },
+    {
+      "id": "r9905",
+      "block_ids": [
+        "b9905"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "facing_page_fragment",
+      "literal_text": "√",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A partial tick is visible at the right canvas edge. It corresponds to the '√c' before 'd.267(3)' on fol. 263."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0524-r9905",
+      "human_verified": false,
+      "verification_status": "machine_focused_review_addition"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'Blog.' is uncertain because the first letter is heavily inked.",
+        "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+        "The 'ff.10b-3' reading is approximate."
+      ],
+      "after": [
+        "The heavily inked or overwritten letter is the first letter of the right-hand column ('n.d'; it may be capital 'N'). It is not the 'B' of the script abbreviation.",
+        "The script abbreviation 'Blog.' is read from a cursive hand and is uncertain.",
+        "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+        "The 'ff.10b-3' reading is approximate. A space may stand between '10' and 'b'."
+      ],
+      "reason": "In native tile 2, the dense overwritten ink sits on the first character of 'n.d', not on 'B'. The candidate's uncertainty misattributes the cause.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "A double-headed horizontal arrow (←→) is level with r002's right-hand column and extends to the gutter."
+      ],
+      "after": [
+        "A double-headed horizontal arrow (←→) is level with r002's right-hand column. It starts on the target page and crosses the gutter line (x≈3194), and its right arrowhead lies on the facing-page side."
+      ],
+      "reason": "Native tile 2 shows the arrow spanning about x≈3099–3300, which is across the gutter.",
+      "source_block_ids": [
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'Blog.' is uncertain because the first letter is heavily inked.",
+        "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+        "The 'ff.10b-3' reading is approximate."
+      ],
+      "after": [
+        "The heavily inked or overwritten letter is the first letter of the right-hand column ('n.d'; it may be capital 'N'). It is not the 'B' of the script abbreviation.",
+        "The script abbreviation 'Blog.' is read from a cursive hand and is uncertain.",
+        "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+        "The 'ff.10b-3' reading is approximate. A space may stand between '10' and 'b'."
+      ],
+      "reason": "Native tile 2 shows the overwriting on the first character of 'n.d', not on 'B'.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0524-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "A double-headed horizontal arrow (←→) is level with r002's right-hand column and extends to the gutter."
+      ],
+      "after": [
+        "A double-headed horizontal arrow (←→) is level with r002's right-hand column. It starts on the target page and crosses the gutter line (x≈3194), and its right arrowhead lies on the facing-page side.",
+        "On fol. 263 the arrow lies between the rows for 'd.479(1) Vyāptivāda' and 'Vyāsatīrtha : Nyāyamṛta'."
+      ],
+      "reason": "Native tile 2 shows the arrow spanning about x≈3099–3300, across the gutter.",
+      "source_block_ids": [
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0524-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "It is unclear whether this arrow belongs to the target page or the facing page."
+      ],
+      "after": [
+        "It is unclear whether this arrow belongs to the target page or the facing page. It is a single stroke straddling the gutter, about half on each leaf.",
+        "Its function as an insertion mark is not stated in the source."
+      ],
+      "reason": "This records the straddling evidence without resolving ownership.",
+      "source_block_ids": [
+        "b901"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0524-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [
+    {
+      "block_id": "b901",
+      "before_bbox": [
+        3095,
+        1075,
+        210,
+        45
+      ],
+      "after_bbox": [
+        3095,
+        1070,
+        210,
+        45
+      ],
+      "reason": "Minor vertical adjustment to fit the arrow strokes at y≈1080–1105.",
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Uncertain source location retained as a proposal",
+      "focused_check_file": "0524-focus.parsed.json"
+    }
+  ],
+  "addition_audit": [
+    {
+      "record_id": "r9904",
+      "stage": "focus",
+      "focused_check_file": "0524-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record and newly identified source block"
+    },
+    {
+      "record_id": "r9905",
+      "stage": "focus",
+      "focused_check_file": "0524-focus.parsed.json",
+      "applied": true,
+      "application_reason": "Added record and newly identified source block"
+    }
+  ],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b901"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b901"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0524-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The double-headed arrow crosses the gutter. It is unclear whether it links this entry to an insertion point on fol. 263 (near d.479(1) / Vyāsatīrtha) or is a fol. 263 mark.",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0524-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is unclear whether the left/right arrow pair at y≈1770 indicates insertion near d.970 Vratapratiṣṭhā / c.384(4) Vratamālā on fol. 263.",
+      "block_ids": [
+        "b003",
+        "b902"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0524-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is unclear whether the initial stroke is part of 'Vd.' or a √ tick before 'd.142(1)'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0524-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "In native tile 2, the dense overwritten ink sits on the first character of 'n.d', not on 'B'. The candidate's uncertainty misattributes the cause. Proposed uncertainties: [\"The heavily inked or overwritten letter is the first letter of the right-hand column ('n.d'; it may be capital 'N'). It is not the 'B' of the script abbreviation.\", \"The script abbreviation 'Blog.' is read from a cursive hand and is uncertain.\", \"The reading of the parenthetical 'foliation in reverse order' is approximate.\", \"The 'ff.10b-3' reading is approximate. A space may stand between '10' and 'b'.\"]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0524-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Native tile 2 shows the arrow spanning about x≈3099–3300, which is across the gutter. Proposed annotations: [\"A double-headed horizontal arrow (←→) is level with r002's right-hand column. It starts on the target page and crosses the gutter line (x≈3194), and its right arrowhead lies on the facing-page side.\"]",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0524-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'Blog.' is uncertain because the first letter is heavily inked.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0524-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0524-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The 'ff.10b-3' reading is approximate.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0524-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "It is unclear whether the shelfmark is 'Vd.142(1)' or a tick (√) followed by 'd.142(1)'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0524-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0524-01",
+        "focus-0524-02",
+        "focus-0524-03",
+        "focus-0524-04",
+        "focus-0524-05",
+        "focus-0524-06",
+        "focus-0524-07",
+        "focus-0524-08",
+        "focus-0524-09",
+        "focus-0524-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0524-01",
+          "source_reading": "A double-headed arrow '←→' runs from about x≈3099 to x≈3300 at y≈1085–1100. The gutter line is at about x≈3194, so the left half lies on the target leaf and the right half, with its arrowhead, lies beyond the gutter.",
+          "certainty": "probable",
+          "evidence": "In native tile 2 the arrow runs from tile x≈1495 to ≈1695, with tile x 0 = canvas 1604, and the gutter line is at tile x≈1590. The fol. 263 context tile shows the same single stroke at its left edge. The arrow is one continuous mark that straddles both leaves, so its ownership cannot be settled from the image."
+        },
+        {
+          "issue_id": "focus-0524-02",
+          "source_reading": "←→ (arrow only, no wording)",
+          "certainty": "uncertain",
+          "evidence": "The arrow lies level with the right-hand column of b002. On fol. 263 it lies between the rows for 'd.479(1) Vyāptivāda' (y≈990) and 'Vyāsatīrtha : Nyāyamṛta' (y≈1130). This position is consistent with an alphabetical insertion mark, but the image shows no explicit insertion caret."
+        },
+        {
+          "issue_id": "focus-0524-03",
+          "source_reading": "A left arrow '←' is at canvas x≈3059–3119, y≈1770, on the target side. A right arrow '→' is at x≈3239–3369, y≈1770, beyond the gutter.",
+          "certainty": "uncertain",
+          "evidence": "In tile 4 the right arrow is level with the row for 'd.970 Vratapratiṣṭhā', just above 'Vc.384(4) Vratamālā' on fol. 263. Its purpose as an insertion mark is not stated anywhere."
+        },
+        {
+          "issue_id": "focus-0524-04",
+          "source_reading": "Vd.142(1",
+          "certainty": "uncertain",
+          "evidence": "The first sign is a V-shape with a slightly shorter left stroke. It resembles both a capital V and the √ ticks used on fols. 262 and 263, such as 'Vd. 115(7)' and '√c. 384(4)'. It is not clearly separated from 'd'."
+        },
+        {
+          "issue_id": "focus-0524-05",
+          "source_reading": "N:d : 8 : 3 : Bl[?]g.",
+          "certainty": "probable",
+          "evidence": "In tile 2 the dense overwritten ink sits on the first letter of the right-hand column, which looks like a capital N or an overwritten n. The B of the script abbreviation is not overwritten."
+        },
+        {
+          "issue_id": "focus-0524-06",
+          "source_reading": "←→ crossing gutter",
+          "certainty": "probable",
+          "evidence": "Tile 2 shows the arrow spanning x≈3099–3300 and crossing the gutter at x≈3194."
+        },
+        {
+          "issue_id": "focus-0524-07",
+          "source_reading": "Bl[?]g.",
+          "certainty": "uncertain",
+          "evidence": "The cursive form shows B, l and a looped letter, possibly 'o' or 'r', followed by a descender 'g' and a full stop. The difficulty comes from the cursive hand, not from heavy inking of the B."
+        },
+        {
+          "issue_id": "focus-0524-08",
+          "source_reading": "(foliation in reverse order)",
+          "certainty": "probable",
+          "evidence": "The words are cramped and read roughly 'tolialion in reverseorder'. The overall sense is reasonably secure, but the letter forms are unclear."
+        },
+        {
+          "issue_id": "focus-0524-09",
+          "source_reading": "ff. 10 b-3",
+          "certainty": "probable",
+          "evidence": "A small space is visible between '10' and 'b'."
+        },
+        {
+          "issue_id": "focus-0524-10",
+          "source_reading": "Vd.142(1",
+          "certainty": "uncertain",
+          "evidence": "This is the same reading as focus-0524-04: the first sign may be a capital V or a tick."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "The reading 'Blog.' is uncertain because the first letter is heavily inked.",
+            "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+            "The 'ff.10b-3' reading is approximate."
+          ],
+          "after": [
+            "The heavily inked or overwritten letter is the first letter of the right-hand column ('n.d'; it may be capital 'N'). It is not the 'B' of the script abbreviation.",
+            "The script abbreviation 'Blog.' is read from a cursive hand and is uncertain.",
+            "The reading of the parenthetical 'foliation in reverse order' is approximate.",
+            "The 'ff.10b-3' reading is approximate. A space may stand between '10' and 'b'."
+          ],
+          "reason": "Native tile 2 shows the overwriting on the first character of 'n.d', not on 'B'.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "annotations",
+          "before": [
+            "A double-headed horizontal arrow (←→) is level with r002's right-hand column and extends to the gutter."
+          ],
+          "after": [
+            "A double-headed horizontal arrow (←→) is level with r002's right-hand column. It starts on the target page and crosses the gutter line (x≈3194), and its right arrowhead lies on the facing-page side.",
+            "On fol. 263 the arrow lies between the rows for 'd.479(1) Vyāptivāda' and 'Vyāsatīrtha : Nyāyamṛta'."
+          ],
+          "reason": "Native tile 2 shows the arrow spanning about x≈3099–3300, across the gutter.",
+          "source_block_ids": [
+            "b901"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "uncertainties",
+          "before": [
+            "It is unclear whether this arrow belongs to the target page or the facing page."
+          ],
+          "after": [
+            "It is unclear whether this arrow belongs to the target page or the facing page. It is a single stroke straddling the gutter, about half on each leaf.",
+            "Its function as an insertion mark is not stated in the source."
+          ],
+          "reason": "This records the straddling evidence without resolving ownership.",
+          "source_block_ids": [
+            "b901"
+          ],
+          "certainty": "uncertain"
+        }
+      ],
+      "block_changes": [
+        {
+          "block_id": "b901",
+          "before_bbox": [
+            3095,
+            1075,
+            210,
+            45
+          ],
+          "after_bbox": [
+            3095,
+            1070,
+            210,
+            45
+          ],
+          "reason": "Minor vertical adjustment to fit the arrow strokes at y≈1080–1105.",
+          "certainty": "probable"
+        }
+      ],
+      "missing_records": [
+        {
+          "block": {
+            "id": "b9904",
+            "bbox": [
+              3235,
+              1750,
+              140,
+              45
+            ],
+            "kind_hint": "arrow",
+            "anchor": "→ beyond gutter, level with b003",
+            "features": [
+              "right-pointing arrow",
+              "beyond gutter line x≈3194",
+              "facing-page margin of fol. 263"
+            ]
+          },
+          "record": {
+            "id": "r9904",
+            "block_ids": [
+              "b9904"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "facing_page_fragment",
+            "literal_text": "",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A right-pointing arrow (→) lies on the fol. 263 margin, level with the 'd.970' row, and pairs with the left arrow b902 on the target side."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [
+              "It is unclear whether this arrow and b902 form one intended signal linking b003 to fol. 263."
+            ],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "Tile 4 shows a distinct right arrow at canvas x≈3239–3369, y≈1770. It is not represented in the index, where b902 covers only the left arrow."
+        },
+        {
+          "block": {
+            "id": "b9905",
+            "bbox": [
+              3430,
+              1180,
+              78,
+              70
+            ],
+            "kind_hint": "mark",
+            "anchor": "√ fragment at right edge",
+            "features": [
+              "edge of facing page",
+              "partial tick"
+            ]
+          },
+          "record": {
+            "id": "r9905",
+            "block_ids": [
+              "b9905"
+            ],
+            "type": "non_catalogue_text",
+            "subtype": "facing_page_fragment",
+            "literal_text": "√",
+            "fields": {},
+            "normalized_title": null,
+            "annotations": [
+              "A partial tick is visible at the right canvas edge. It corresponds to the '√c' before 'd.267(3)' on fol. 263."
+            ],
+            "editorial_context": [],
+            "relationships": [],
+            "uncertainties": [],
+            "stable_id": null,
+            "human_verified": false,
+            "verification_status": "machine_reviewed"
+          },
+          "reason": "Tile 2 shows a tick fragment at tile x≈1840, y≈1215. It belongs to the facing page."
+        }
+      ],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Page number 262b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Uncertainty attribution corrected."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "The question of an initial V or tick remains unresolved."
+        },
+        {
+          "block_id": "b901",
+          "status": "uncertain",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The arrow straddles the gutter, so its ownership is ambiguous."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Left arrow on the target side. Its paired right arrow is added as b9904."
+        },
+        {
+          "block_id": "b903",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "A faint '?' mark."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0524-02",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b901"
+          ],
+          "issue": "It is not known whether the arrow marks an insertion point on fol. 263.",
+          "next_check": "Compare the ink and hand with fol. 263's insertion practice."
+        },
+        {
+          "issue_id": "focus-0524-03",
+          "record_id": "r003",
+          "block_ids": [
+            "b003",
+            "b902",
+            "b9904"
+          ],
+          "issue": "The purpose of the arrow pair is uncertain.",
+          "next_check": "Check fol. 263 for a corresponding insertion mark near d.970."
+        },
+        {
+          "issue_id": "focus-0524-04",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The initial sign may be a capital V or a tick.",
+          "next_check": "Compare with other 'V' shelfmark forms in the same hand."
+        },
+        {
+          "issue_id": "focus-0524-07",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The script abbreviation 'Bl?g.' is uncertain.",
+          "next_check": "Compare with script abbreviations elsewhere in the catalogue hand."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "22cada14ae93397099426574a91c50633dc463322689b5a9c606a71d7f30278b",
+      "bytes": 241408,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "35a02a03b2a302ec308bb18770cad58defd1a46f66e4f7746bfbdfd244bf33eb",
+      "bytes": 326681,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6cd65c8e1d65d989a2c09b39df194bd981fd79256e6a53f6589b3efc3133a25f",
+      "bytes": 299874,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "195f8d882ab85ff5bdaed4270597cdb614cb29af4cd7a0084c71f99a5acde894",
+      "bytes": 299940,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3e3acc4ba4130947a3cefb2034a2c5dd4234ac022068d2420faca76ba5391477",
+      "bytes": 257391,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5ab34d96-695b-44fb-9d8b-7e16dc5c9933/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8e37ff03155327f7055251848bd2a2e24895672647e9678859cd5c37f7e0c53e",
+      "bytes": 258106,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 523,
+      "folio_label": "fol. 262",
+      "page_id": "5ab34d96-695b-44fb-9d8b-7e16dc5c9933",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bbd9a020-a022-4208-8c99-b8ffd72b0635/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2a8efb62094fa2921e86192a8d5e3c321374eadfde9e140fdb71588b37255d51",
+      "bytes": 225951,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 525,
+      "folio_label": "fol. 263",
+      "page_id": "bbd9a020-a022-4208-8c99-b8ffd72b0635",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bbd9a020-a022-4208-8c99-b8ffd72b0635/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bfb5f24cf50ec67617129ec7c6537b66eed9a9881cc889e8a5011a53f079b5d1",
+      "bytes": 351387,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 525,
+      "folio_label": "fol. 263",
+      "page_id": "bbd9a020-a022-4208-8c99-b8ffd72b0635",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bbd9a020-a022-4208-8c99-b8ffd72b0635/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b40dc730e9660bcf9fde186d08372010d90cadfd82bd16d378ddfa1dd82597fa",
+      "bytes": 387442,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 525,
+      "folio_label": "fol. 263",
+      "page_id": "bbd9a020-a022-4208-8c99-b8ffd72b0635",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "22cada14ae93397099426574a91c50633dc463322689b5a9c606a71d7f30278b",
+      "bytes": 241408,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "35a02a03b2a302ec308bb18770cad58defd1a46f66e4f7746bfbdfd244bf33eb",
+      "bytes": 326681,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6cd65c8e1d65d989a2c09b39df194bd981fd79256e6a53f6589b3efc3133a25f",
+      "bytes": 299874,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "195f8d882ab85ff5bdaed4270597cdb614cb29af4cd7a0084c71f99a5acde894",
+      "bytes": 299940,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3e3acc4ba4130947a3cefb2034a2c5dd4234ac022068d2420faca76ba5391477",
+      "bytes": 257391,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8b659b78dbd697df223bbf36a9e129ee647d10450f9347f2ba56269f1df87abb",
+      "bytes": 296070,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d8c54ac6-00e2-48b1-bfd8-99b0ee3c4803/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "045084cce87a7f98252043d3dc916034ff909ac7d459cf06040c1e71692e5a24",
+      "bytes": 288913,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5ab34d96-695b-44fb-9d8b-7e16dc5c9933/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8e37ff03155327f7055251848bd2a2e24895672647e9678859cd5c37f7e0c53e",
+      "bytes": 258106,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 523,
+      "folio_label": "fol. 262",
+      "page_id": "5ab34d96-695b-44fb-9d8b-7e16dc5c9933",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bbd9a020-a022-4208-8c99-b8ffd72b0635/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2a8efb62094fa2921e86192a8d5e3c321374eadfde9e140fdb71588b37255d51",
+      "bytes": 225951,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 525,
+      "folio_label": "fol. 263",
+      "page_id": "bbd9a020-a022-4208-8c99-b8ffd72b0635",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

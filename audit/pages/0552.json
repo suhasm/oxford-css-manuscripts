@@ -1,0 +1,1075 @@
+{
+  "source_order": 552,
+  "folio_label": "fol. 276b",
+  "page_id": "cff5e94e-78e2-49f8-844d-45adb398b93d",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "276b.",
+    "principal_page_bbox": [
+      280,
+      290,
+      2890,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          345,
+          330,
+          150,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "276b.",
+        "features": [
+          "ink",
+          "top left corner",
+          "superscript b with dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          340,
+          1140,
+          1580,
+          110
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "√c. 396b. Śivapratiṣṭhāprayoga, f. 8.  n.d.: 1:9: Beng.",
+        "features": [
+          "tick mark before shelfmark",
+          "shelfmark with superscript letter",
+          "extent",
+          "n.d. and date/line-count formula",
+          "script abbreviation Beng.",
+          "single line"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2895,
+          2860,
+          40,
+          95
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "?",
+        "features": [
+          "faint pencil question mark",
+          "right side of page, no adjacent text",
+          "about mid-page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          335,
+          3540,
+          2580,
+          110
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "√d. 352(4). Śivarātrimāhātmya, from the Īśānasaṁhitā of the Skandap., ff. 1-24, ... 1843:24:10:D",
+        "features": [
+          "tick mark before shelfmark",
+          "source statement",
+          "extent",
+          "date 'S. 1900'",
+          "'in 6 adhy.' [reading?]",
+          "year:line-count formula",
+          "script abbreviation D",
+          "single line"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2845,
+          4290,
+          40,
+          95
+        ],
+        "kind_hint": "unattached_annotation",
+        "anchor": "?",
+        "features": [
+          "pencil question mark",
+          "lower right of page, below b004, not visibly attached"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3045,
+          1180,
+          195,
+          80
+        ],
+        "description": "Double-headed ink arrow (←→) near the gutter at the level of b002. It crosses the gutter onto the facing page, with a small mark at the fold."
+      },
+      {
+        "bbox": [
+          2980,
+          3605,
+          315,
+          60
+        ],
+        "description": "Double-headed ink arrow (←→) to the right of b004. It extends across the gutter toward the facing page."
+      },
+      {
+        "bbox": [
+          1835,
+          1475,
+          30,
+          45
+        ],
+        "description": "Small ink blot or speck below the b002 line. It is not legible as text."
+      },
+      {
+        "bbox": [
+          1520,
+          2200,
+          200,
+          20
+        ],
+        "description": "Faint dotted smudge or speckle along a ruled line at mid-page. It is not text."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the canvas (x ≈3180 and beyond) shows the left margin of the facing page, fol. 277. Shelfmark fragments there ('d. 9..', 'e. 1..', '√d.', 'e.', 'd', 'See ...', a brace and ticks) belong to the facing page and are excluded.",
+      "The arrows at the gutter span both pages. They are recorded here as marks only. Their linkage to the facing-page entries is not asserted.",
+      "Show-through of writing from the reverse side is visible as faint ghost text across the page. It is not treated as target text."
+    ],
+    "uncertainties": [
+      "In b004, the reading 'in 6 adhy.' is uncertain.",
+      "In b004, the extent figure reads as 'ff. 1-24'; the first character's form is uncertain.",
+      "In b002, the shelfmark superscript after '396' is uncertain and may be 'b' or 'h'.",
+      "The two pencil '?' marks have no clear attachment to any entry."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "276b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "276b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number at the top left corner. The 'b' is written superscript and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "holding",
+        "subtype": "inserted_entry",
+        "literal_text": "√c. 396ʰ. Śivapratiṣṭhāprayoga, f. 8.      n.d.: 1:9: Beng.",
+        "fields": {
+          "shelfmark": "c. 396ʰ",
+          "title": "Śivapratiṣṭhāprayoga",
+          "date": "n.d.",
+          "extent": "f. 8.",
+          "lines": "9",
+          "script": "Beng."
+        },
+        "normalized_title": "Śivapratiṣṭhāprayoga",
+        "annotations": [
+          "A tick mark (√) precedes the shelfmark.",
+          "The formula reads 'n.d.: 1:9:'. By analogy with the adjacent pages, '1' appears to be a leaf count and '9' a line count. This reading is an interpretation, not a source statement.",
+          "A double-headed ink arrow (←→) at the gutter at this line level crosses onto the facing page (b901)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 553,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "e.170 (——— under Śivapratiṣṭhāprayoga, d. 904)",
+            "evidence": "The gutter arrow at this line meets a matching ←→ mark in the left margin of fol. 277 beside e.170. This suggests the entry is meant to be inserted in the Śivapratiṣṭhāprayoga sequence there.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The superscript after '396' may be 'h' or 'b'.",
+          "'f. 8.' may be 'ff. 8'; the form looks like a single 'f'.",
+          "The assignment of '1' and '9' within the formula is interpretive."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "query_mark",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil question mark at mid-page, right side, with no adjacent text."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Its attachment to any entry is unknown."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b902"
+        ],
+        "type": "holding",
+        "subtype": "inserted_entry",
+        "literal_text": "√d. 352(4). Śivarātrimāhātmya, from the Īśānasaṁhitā of the Skandap., ff. 1-24, S. 1900, in 6 adhy.   1843:24:10: D",
+        "fields": {
+          "shelfmark": "d. 352(4)",
+          "title": "Śivarātrimāhātmya",
+          "source": "from the Īśānasaṁhitā of the Skandap.",
+          "date": "S. 1900; 1843",
+          "extent": "ff. 1-24",
+          "lines": "10",
+          "script": "D"
+        },
+        "normalized_title": "Śivarātrimāhātmya",
+        "annotations": [
+          "A tick mark (√) precedes the shelfmark.",
+          "The formula reads '1843:24:10: D'.",
+          "A double-headed ink arrow (←→) to the right of the line extends across the gutter (b902)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 553,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 455(3) Śivarātrikathā (←→ mark in left margin)",
+            "evidence": "A matching arrow on fol. 277 lies at the level of the Śivarātri entries. This suggests the insertion point lies in that alphabetical sequence.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'in 6 adhy.' is uncertain.",
+          "In 'ff. 1-24', the form of the first character is uncertain.",
+          "'saṁhitā' is written with a mark that is read as ṁ."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "query_mark",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil question mark at the lower right, below b004, with no visible attachment."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Its attachment is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3045,
+          1180,
+          195,
+          80
+        ],
+        "kind_hint": "mark",
+        "anchor": "←→ (gutter, level of b002)",
+        "features": [
+          "ink double-headed arrow",
+          "crosses the gutter",
+          "small mark at the fold"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2980,
+          3605,
+          315,
+          60
+        ],
+        "kind_hint": "mark",
+        "anchor": "←→ (right of b004)",
+        "features": [
+          "ink double-headed arrow",
+          "crosses the gutter"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Single-line holding."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Unattached pencil query mark."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Single-line holding."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Unattached pencil query mark."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow at the line of b002; it indicates the link to the facing page."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrow at the line of b004; it indicates the link to the facing page."
+      }
+    ],
+    "page_annotations": [
+      "Fragments of the facing page fol. 277 at the right edge (d. 9.., e. 1.., √d., e., d, 'See ...', brace, ticks) are excluded.",
+      "Show-through ghost writing from the reverse is visible. It is not transcribed.",
+      "A small ink blot below b002 and a faint dotted speckle at mid-page are not text."
+    ],
+    "unresolved_relationships": [
+      "The exact insertion positions on fol. 277 indicated by the two gutter arrows are probable, not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The ink folio number '276b.' is at the top left. The 'b' is raised and followed by a dot. The candidate is accurate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single ink line reads '√c. 396ʰ. Śivapratiṣṭhāprayoga, f. 8.' followed after a wide gap by 'n.d.: 1:9: Beng.' The raised letter after 396 looks most like 'h', but 'b' cannot be excluded, and the candidate keeps that uncertainty. There is no interlinear addition or cancellation."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A faint pencil '?' is at about x≈2905, y≈2900. It has no adjacent text and no attachment. The facing-page image (fol. 277) shows the same mark in its left strip, which confirms that it belongs to this page."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A single ink line reads '√d. 352(4). Śivarātrimāhātmya, from the Īśānasaṁhitā of the Skandap., ff. 1-24, S. 1900, in 6 adhy.' followed by '1843:24:10:D'. 'in 6 adhy.' is a probable reading, not a secure one. The candidate combines S. 1900 and 1843 in a single date field, and a change below separates them."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "A pencil '?' is at about x≈2870, y≈4325, below b004. It is not visibly attached to anything. It also appears in the left strip of the fol. 277 image."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An ink double-headed arrow crosses the gutter at the level of b002, with a small mark at the fold. Its attachment to r002 by line level is reasonable. Its target on fol. 277 lies near e.170 but is not certain."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "An ink double-headed arrow is to the right of b004 and crosses the gutter. On fol. 277 it continues at the level between d. 455(3) and the cancelled d. 344(5) line, so the exact insertion point is ambiguous."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "fields",
+        "before": {
+          "shelfmark": "d. 352(4)",
+          "title": "Śivarātrimāhātmya",
+          "source": "from the Īśānasaṁhitā of the Skandap.",
+          "date": "S. 1900; 1843",
+          "extent": "ff. 1-24",
+          "lines": "10",
+          "script": "D"
+        },
+        "after": {
+          "shelfmark": "d. 352(4)",
+          "title": "Śivarātrimāhātmya",
+          "source": "from the Īśānasaṁhitā of the Skandap.",
+          "date": "S. 1900",
+          "formula_literal": "1843:24:10:D",
+          "extent": "ff. 1-24",
+          "lines": "10",
+          "script": "D"
+        },
+        "reason": "The source writes 'S. 1900' and the formula '1843:24:10:D' as separate items. Merging them into one date field implies an equivalence that the page does not state. The formula is kept literally, and treating '1843' as a year remains interpretive.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The raised letter after '396' could be 'h' or 'b'.",
+        "next_check": "Compare with other shelfmarks in this hand that carry raised letters."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The reading 'in 6 adhy.' is uncertain, and so is the first character of 'ff. 1-24'.",
+        "next_check": "Inspect at higher magnification."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b902"
+        ],
+        "issue": "The arrow's landing point on fol. 277 lies between the d. 455(3) Śivarātrikathā line and the cancelled d. 344(5) line. The specific insertion target is therefore not secure.",
+        "next_check": "Compare the native-resolution left margin of fol. 277 around y≈3550–3700."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The arrow lands near e.170 / 'Begins' on fol. 277. That position is consistent with insertion into the Śivapratiṣṭhāprayoga sequence, but this is not confirmed.",
+        "next_check": "Check the native-resolution left margin of fol. 277 around y≈1200–1270."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b003",
+          "b005"
+        ],
+        "issue": "The purpose of the two pencil query marks is unknown.",
+        "next_check": "None is possible from this image."
+      }
+    ],
+    "boundary_review": "The right strip from x≈3130 onward is the left margin of fol. 277. It shows 'd. 9..', 'e. 1..', '√d.', 'e.', 'd', 'See m..', a brace and ticks, all excluded as facing-page fragments. The two gutter arrows span both pages and are recorded only as marks attached by line level. The fol. 277 image shows this page's 'o:D' line end and both '?' marks in its left strip, so no target text is duplicated. Faint show-through from the reverse is visible throughout and is not transcribed.",
+    "region_review": {
+      "top": "The folio number '276b.' is the only text. The upper ruled lines are blank apart from show-through.",
+      "middle": "Contains the b002 entry, an ink blot below it near x≈1840, y≈1500, and a dotted speckle near y≈2210. Neither mark is text.",
+      "bottom": "Contains the b004 entry and the pencil '?' (b005). Below them, scattered dots appear down to the page edge, with no text.",
+      "left_margin": "No marginal writing. Each entry's tick mark is part of its line.",
+      "right_margin": "Contains the pencil '?' at mid-page (b003) and the two gutter arrows (b901, b902). Beyond the gutter is facing-page material, which is excluded.",
+      "interlinear": "No interlinear additions or cancellations are visible on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        345,
+        330,
+        150,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "276b.",
+      "features": [
+        "ink",
+        "top left corner",
+        "superscript b with dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        340,
+        1140,
+        1580,
+        110
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "√c. 396b. Śivapratiṣṭhāprayoga, f. 8.  n.d.: 1:9: Beng.",
+      "features": [
+        "tick mark before shelfmark",
+        "shelfmark with superscript letter",
+        "extent",
+        "n.d. and date/line-count formula",
+        "script abbreviation Beng.",
+        "single line"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2895,
+        2860,
+        40,
+        95
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "?",
+      "features": [
+        "faint pencil question mark",
+        "right side of page, no adjacent text",
+        "about mid-page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        335,
+        3540,
+        2580,
+        110
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "√d. 352(4). Śivarātrimāhātmya, from the Īśānasaṁhitā of the Skandap., ff. 1-24, ... 1843:24:10:D",
+      "features": [
+        "tick mark before shelfmark",
+        "source statement",
+        "extent",
+        "date 'S. 1900'",
+        "'in 6 adhy.' [reading?]",
+        "year:line-count formula",
+        "script abbreviation D",
+        "single line"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2845,
+        4290,
+        40,
+        95
+      ],
+      "kind_hint": "unattached_annotation",
+      "anchor": "?",
+      "features": [
+        "pencil question mark",
+        "lower right of page, below b004, not visibly attached"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3045,
+        1180,
+        195,
+        80
+      ],
+      "kind_hint": "mark",
+      "anchor": "←→ (gutter, level of b002)",
+      "features": [
+        "ink double-headed arrow",
+        "crosses the gutter",
+        "small mark at the fold"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2980,
+        3605,
+        315,
+        60
+      ],
+      "kind_hint": "mark",
+      "anchor": "←→ (right of b004)",
+      "features": [
+        "ink double-headed arrow",
+        "crosses the gutter"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "276b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number at the top left corner. The 'b' is written superscript and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0552-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "holding",
+      "subtype": "inserted_entry",
+      "literal_text": "√c. 396ʰ. Śivapratiṣṭhāprayoga, f. 8.      n.d.: 1:9: Beng.",
+      "fields": {
+        "shelfmark": "c. 396ʰ",
+        "title": "Śivapratiṣṭhāprayoga",
+        "date": "n.d.",
+        "extent": "f. 8.",
+        "lines": "9",
+        "script": "Beng."
+      },
+      "normalized_title": "Śivapratiṣṭhāprayoga",
+      "annotations": [
+        "A tick mark (√) precedes the shelfmark.",
+        "The formula reads 'n.d.: 1:9:'. By analogy with the adjacent pages, '1' appears to be a leaf count and '9' a line count. This reading is an interpretation, not a source statement.",
+        "A double-headed ink arrow (←→) at the gutter at this line level crosses onto the facing page (b901)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 553,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "e.170 (——— under Śivapratiṣṭhāprayoga, d. 904)",
+          "evidence": "The gutter arrow at this line meets a matching ←→ mark in the left margin of fol. 277 beside e.170. This suggests the entry is meant to be inserted in the Śivapratiṣṭhāprayoga sequence there.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The superscript after '396' may be 'h' or 'b'.",
+        "'f. 8.' may be 'ff. 8'; the form looks like a single 'f'.",
+        "The assignment of '1' and '9' within the formula is interpretive."
+      ],
+      "stable_id": "css-prod-0552-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "query_mark",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil question mark at mid-page, right side, with no adjacent text."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Its attachment to any entry is unknown."
+      ],
+      "stable_id": "css-prod-0552-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b902"
+      ],
+      "type": "holding",
+      "subtype": "inserted_entry",
+      "literal_text": "√d. 352(4). Śivarātrimāhātmya, from the Īśānasaṁhitā of the Skandap., ff. 1-24, S. 1900, in 6 adhy.   1843:24:10: D",
+      "fields": {
+        "shelfmark": "d. 352(4)",
+        "title": "Śivarātrimāhātmya",
+        "source": "from the Īśānasaṁhitā of the Skandap.",
+        "date": "S. 1900; 1843",
+        "extent": "ff. 1-24",
+        "lines": "10",
+        "script": "D"
+      },
+      "normalized_title": "Śivarātrimāhātmya",
+      "annotations": [
+        "A tick mark (√) precedes the shelfmark.",
+        "The formula reads '1843:24:10: D'.",
+        "A double-headed ink arrow (←→) to the right of the line extends across the gutter (b902)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 553,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 455(3) Śivarātrikathā (←→ mark in left margin)",
+          "evidence": "A matching arrow on fol. 277 lies at the level of the Śivarātri entries. This suggests the insertion point lies in that alphabetical sequence.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'in 6 adhy.' is uncertain.",
+        "In 'ff. 1-24', the form of the first character is uncertain.",
+        "'saṁhitā' is written with a mark that is read as ṁ."
+      ],
+      "stable_id": "css-prod-0552-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "query_mark",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil question mark at the lower right, below b004, with no visible attachment."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Its attachment is unknown."
+      ],
+      "stable_id": "css-prod-0552-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "fields",
+      "before": {
+        "shelfmark": "d. 352(4)",
+        "title": "Śivarātrimāhātmya",
+        "source": "from the Īśānasaṁhitā of the Skandap.",
+        "date": "S. 1900; 1843",
+        "extent": "ff. 1-24",
+        "lines": "10",
+        "script": "D"
+      },
+      "after": {
+        "shelfmark": "d. 352(4)",
+        "title": "Śivarātrimāhātmya",
+        "source": "from the Īśānasaṁhitā of the Skandap.",
+        "date": "S. 1900",
+        "formula_literal": "1843:24:10:D",
+        "extent": "ff. 1-24",
+        "lines": "10",
+        "script": "D"
+      },
+      "reason": "The source writes 'S. 1900' and the formula '1843:24:10:D' as separate items. Merging them into one date field implies an equivalence that the page does not state. The formula is kept literally, and treating '1843' as a year remains interpretive.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/cff5e94e-78e2-49f8-844d-45adb398b93d.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cff5e94e-78e2-49f8-844d-45adb398b93d/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "f9739eb0d3da75291bb55aa70692f71a7028c34d0ee3a0a4282938b5e41f1b51",
+      "bytes": 256074,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cff5e94e-78e2-49f8-844d-45adb398b93d/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1cba490a004d8883284d2a1ff3750241d8acff9e455383b9c5291fdb2060968a",
+      "bytes": 323520,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cff5e94e-78e2-49f8-844d-45adb398b93d/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8081ea4202a9e0af39e33ff434e5ea4b40a02bc9f30d871c66861e4e5917eed7",
+      "bytes": 313971,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cff5e94e-78e2-49f8-844d-45adb398b93d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9c6d10df56b7dc97057ecb4c4e665265e17e7b297b8102d292685765c02fef27",
+      "bytes": 304773,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cff5e94e-78e2-49f8-844d-45adb398b93d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d5d4c6384b583d0e29c941c7e74225dca3a6b2041235a4a8bb7d65a5331b6a6d",
+      "bytes": 282742,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cff5e94e-78e2-49f8-844d-45adb398b93d/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0a7d72beb968c7d6e98bb16e719a19599e930de2560397bae6ccf47b693d8b8b",
+      "bytes": 328095,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cff5e94e-78e2-49f8-844d-45adb398b93d/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "391041d63af2ce2e8b4bba9723cb3ae697ad0f97a5430fb2591ba7febca8e674",
+      "bytes": 325507,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b10ee7b8-cedd-45de-962c-fd1da427170e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "dfdf2386289c9ce6507f6071dbc8f7077d48345e7ffe5d87084b6d49ee5b2570",
+      "bytes": 255721,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 551,
+      "folio_label": "fol. 276",
+      "page_id": "b10ee7b8-cedd-45de-962c-fd1da427170e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7c15abf0-547b-4524-b3a4-95c73aa73181/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e3c495cee27edfb1eec5075557e9c212a7964a57abe22977526cd38cd26056b0",
+      "bytes": 244732,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 553,
+      "folio_label": "fol. 277",
+      "page_id": "7c15abf0-547b-4524-b3a4-95c73aa73181",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

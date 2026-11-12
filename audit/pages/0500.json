@@ -1,0 +1,805 @@
+{
+  "source_order": 500,
+  "folio_label": "fol. 250b",
+  "page_id": "72e634b8-7cba-4d32-a0f8-7bb75437fe30",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "250b",
+    "principal_page_bbox": [
+      338,
+      245,
+      2900,
+      4617
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          405,
+          305,
+          145,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "250^b·",
+        "features": [
+          "pencil",
+          "top left corner",
+          "superscript letter read as 'b' after 250, followed by a dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2975,
+          1850,
+          95,
+          175
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "st/",
+        "features": [
+          "pencil",
+          "right part of page near gutter",
+          "dots beneath 'st' (possibly ṣṭ or underdots)",
+          "followed by a long oblique stroke"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2850,
+          3905,
+          115,
+          185
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "ā/",
+        "features": [
+          "pencil",
+          "lower right part of page near gutter",
+          "macron over a",
+          "followed by a long oblique stroke"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          338,
+          245,
+          2900,
+          4617
+        ],
+        "description": "Faint mirror-image show-through of the ink entries on the recto (fol. 250) across most of the ruled page. This is not writing on this page and is not transcribed."
+      },
+      {
+        "bbox": [
+          3205,
+          2560,
+          40,
+          40
+        ],
+        "description": "Small knot or thread mark at the gutter fold, part of the binding."
+      },
+      {
+        "bbox": [
+          3220,
+          3060,
+          30,
+          70
+        ],
+        "description": "Small specks or dots near the gutter."
+      }
+    ],
+    "boundary_notes": [
+      "Looped pencil notes reading 'janm…' and 'Saundā…' at the far right edge (x≈3290+, y≈3910-4270) belong to the facing page, fol. 251 (where they read 'janmā' and 'Saundāryalaharī'). They are excluded from the target page.",
+      "The gutter or fold lies at about x≈3215-3240. The b002 and b003 marks lie to its left, on the target page."
+    ],
+    "uncertainties": [
+      "The superscript after '250' is read as 'b'. The letterform is ambiguous.",
+      "b002 and b003 may be marker annotations relating to entries on the facing fol. 251, which has 'st/' and '/' marks in its left margin at similar heights. Their exact function is not determinable here.",
+      "The dots under 'st' in b002 may be diacritic underdots or stray marks."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "250b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "250^b·",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top left corner of the page.",
+          "A superscript letter follows '250' and is read as 'b'. A dot follows it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letterform is ambiguous. It could be read as 'b' or as '6'. 'b' agrees with the supplied folio label 'fol. 250b'."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_mark",
+        "literal_text": "st/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, right part of the page near the gutter.",
+          "Two dots stand beneath the 's' and 't'. A long oblique stroke follows the letters.",
+          "There is no catalogue entry on this page to which it could attach."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 501,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "st/ mark in left margin of fol. 251 near 'Viṣama : D. Aṣṭādhyāyī'",
+            "evidence": "The facing fol. 251 has a similar 'st/' pencil mark in its left margin at a comparable height. The function and attachment are not determinable from this page.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The dots beneath 'st' may be diacritic underdots (for example ṣṭ) or stray marks.",
+          "The purpose of the mark is unknown."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_mark",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, lower right part of the page near the gutter.",
+          "There is a macron over the 'a'. A long oblique stroke follows it.",
+          "There is no catalogue entry on this page to which it could attach."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 501,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "'/' mark and looped notes 'janmā' / 'Saundāryalaharī' in left margin of fol. 251",
+            "evidence": "The facing fol. 251 has a '/' mark and looped pencil notes in its left margin at a similar height. Attachment is not determinable.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The purpose of the mark is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Isolated pencil marginal mark 'st/'. It has no attachable entry on this page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Isolated pencil marginal mark 'ā/'. It has no attachable entry on this page."
+      }
+    ],
+    "page_annotations": [
+      "The page is a ruled verso with no catalogue entries. The images were reviewed across the top, middle, bottom, outer margin and gutter margin.",
+      "Faint mirror-image show-through of the ink entries on the recto (fol. 250) is visible across most of the page. It is not writing on this page and is not transcribed.",
+      "Looped pencil notes 'janm…' and 'Saundā…' at the far right edge, beyond the gutter, belong to the facing fol. 251. They are excluded.",
+      "A small binding thread or knot and a few specks appear at the gutter. These are non-text marks."
+    ],
+    "unresolved_relationships": [
+      "The function of the 'st/' and 'ā/' marks is undetermined. They may relate to entries or notes on the facing fol. 251."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Pencil folio number in the top left corner at about native x410-560, y305-450. It reads '250' with a superscript letter and a following dot. The superscript is ambiguous between 'b' and a '6'-like form, and r001 already records this. The bbox is consistent with the native tile."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Pencil 'st' with two dots beneath it and a long oblique stroke. It lies at about native x2979-3069, y1853-2023, left of the gutter line at x≈3215. The literal text 'st/' is retained. The dots are visible and their nature is undetermined. The candidate's relationship evidence needs correction; see changes."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Pencil 'a' with a macron and a long oblique stroke. It lies at about native x2854-2959, y3906-4086, on the target page left of the gutter. The relationship evidence needs correction; see changes."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 501,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "st/ mark in left margin of fol. 251 near 'Viṣama : D. Aṣṭādhyāyī'",
+            "evidence": "The facing fol. 251 has a similar 'st/' pencil mark in its left margin at a comparable height. The function and attachment are not determinable from this page.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 501,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "line 'Viṣama : D. Aṣṭādhyāyī' on fol. 251 at a comparable height",
+            "evidence": "In the fol. 251 context image, the 'st/' mark appears at the far left, left of the gutter line. It is therefore most likely this same target-page mark (b002) captured at the edge of that image, not a second mark on fol. 251. It stands roughly level with the fol. 251 line containing 'Aṣṭādhyāyī'. Its function and attachment are not determinable.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The candidate treated a facing-page image fragment as an independent fol. 251 mark. Positional comparison shows the mark lies on the 250b side of the gutter in the adjacent image.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 501,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "'/' mark and looped notes 'janmā' / 'Saundāryalaharī' in left margin of fol. 251",
+            "evidence": "The facing fol. 251 has a '/' mark and looped pencil notes in its left margin at a similar height. Attachment is not determinable.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 501,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "looped pencil notes 'janmā' / 'Saundāryalaharī' in left margin of fol. 251",
+            "evidence": "The '/' stroke seen at the extreme left edge of the fol. 251 context image lies left of the gutter. It is most likely the stroke of this target-page mark (b003), not a separate fol. 251 mark. The looped notes on fol. 251 are at a similar height. Attachment and function are not determinable.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The candidate double-counted the target mark as a fol. 251 '/' mark; positional evidence in the adjacent image indicates it is the same mark.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The superscript after '250' could be 'b' or a '6'-like form.",
+        "next_check": "Compare with superscript verso letters on other versos in the volume."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The function of 'st/' with underdots is unknown. It may relate to 'ṣṭ' in 'Aṣṭādhyāyī' on fol. 251, but this is not established.",
+        "next_check": "Inspect a full-resolution two-page spread to confirm alignment with fol. 251 lines."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The function of 'ā/' and any link to the fol. 251 looped notes are unknown.",
+        "next_check": "Inspect a full-resolution spread of fol. 250b and fol. 251."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3215-3240. b002 and b003 are left of it, on the target page. The looped 'janm…' and 'Saundā…' notes at x≈3290+ belong to fol. 251 and are correctly excluded. The fol. 251 context image shows the target-page marks at its left edge; these should not be read as separate fol. 251 marks. Recto show-through is not transcribed. The binding knot at about (3205,2560) and the specks near the gutter are non-text marks.",
+    "region_review": {
+      "top": "Only the folio number '250' with superscript and dot, top left. Otherwise ruled and blank apart from show-through.",
+      "middle": "The 'st/' mark near the gutter. Faint mirror show-through of recto ink entries. The binding knot and specks at the gutter.",
+      "bottom": "The 'ā/' mark in the lower right. Faint show-through only below it. No bottom note.",
+      "left_margin": "Ruling ticks and the page edge only. No writing.",
+      "right_margin": "The b002 and b003 marks near the gutter. Facing-page looped notes beyond the gutter are excluded.",
+      "interlinear": "No interlinear writing. Only show-through from the recto."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        405,
+        305,
+        145,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "250^b·",
+      "features": [
+        "pencil",
+        "top left corner",
+        "superscript letter read as 'b' after 250, followed by a dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2975,
+        1850,
+        95,
+        175
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "st/",
+      "features": [
+        "pencil",
+        "right part of page near gutter",
+        "dots beneath 'st' (possibly ṣṭ or underdots)",
+        "followed by a long oblique stroke"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2850,
+        3905,
+        115,
+        185
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "ā/",
+      "features": [
+        "pencil",
+        "lower right part of page near gutter",
+        "macron over a",
+        "followed by a long oblique stroke"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "250^b·",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top left corner of the page.",
+        "A superscript letter follows '250' and is read as 'b'. A dot follows it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letterform is ambiguous. It could be read as 'b' or as '6'. 'b' agrees with the supplied folio label 'fol. 250b'."
+      ],
+      "stable_id": "css-prod-0500-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_mark",
+      "literal_text": "st/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, right part of the page near the gutter.",
+        "Two dots stand beneath the 's' and 't'. A long oblique stroke follows the letters.",
+        "There is no catalogue entry on this page to which it could attach."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 501,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "st/ mark in left margin of fol. 251 near 'Viṣama : D. Aṣṭādhyāyī'",
+          "evidence": "The facing fol. 251 has a similar 'st/' pencil mark in its left margin at a comparable height. The function and attachment are not determinable from this page.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The dots beneath 'st' may be diacritic underdots (for example ṣṭ) or stray marks.",
+        "The purpose of the mark is unknown."
+      ],
+      "stable_id": "css-prod-0500-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_mark",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, lower right part of the page near the gutter.",
+        "There is a macron over the 'a'. A long oblique stroke follows it.",
+        "There is no catalogue entry on this page to which it could attach."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 501,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "'/' mark and looped notes 'janmā' / 'Saundāryalaharī' in left margin of fol. 251",
+          "evidence": "The facing fol. 251 has a '/' mark and looped pencil notes in its left margin at a similar height. Attachment is not determinable.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The purpose of the mark is unknown."
+      ],
+      "stable_id": "css-prod-0500-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 501,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "st/ mark in left margin of fol. 251 near 'Viṣama : D. Aṣṭādhyāyī'",
+          "evidence": "The facing fol. 251 has a similar 'st/' pencil mark in its left margin at a comparable height. The function and attachment are not determinable from this page.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 501,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "line 'Viṣama : D. Aṣṭādhyāyī' on fol. 251 at a comparable height",
+          "evidence": "In the fol. 251 context image, the 'st/' mark appears at the far left, left of the gutter line. It is therefore most likely this same target-page mark (b002) captured at the edge of that image, not a second mark on fol. 251. It stands roughly level with the fol. 251 line containing 'Aṣṭādhyāyī'. Its function and attachment are not determinable.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The candidate treated a facing-page image fragment as an independent fol. 251 mark. Positional comparison shows the mark lies on the 250b side of the gutter in the adjacent image.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 501,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "'/' mark and looped notes 'janmā' / 'Saundāryalaharī' in left margin of fol. 251",
+          "evidence": "The facing fol. 251 has a '/' mark and looped pencil notes in its left margin at a similar height. Attachment is not determinable.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 501,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "looped pencil notes 'janmā' / 'Saundāryalaharī' in left margin of fol. 251",
+          "evidence": "The '/' stroke seen at the extreme left edge of the fol. 251 context image lies left of the gutter. It is most likely the stroke of this target-page mark (b003), not a separate fol. 251 mark. The looped notes on fol. 251 are at a similar height. Attachment and function are not determinable.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The candidate double-counted the target mark as a fol. 251 '/' mark; positional evidence in the adjacent image indicates it is the same mark.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/72e634b8-7cba-4d32-a0f8-7bb75437fe30.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72e634b8-7cba-4d32-a0f8-7bb75437fe30/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "2433607537bfcde85caa4098c39be820910122f60b05a877401b6aa667b5dc96",
+      "bytes": 223526,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72e634b8-7cba-4d32-a0f8-7bb75437fe30/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ccb91d4635e6ab7c4d21e28e31a2c5a843e7351b12cabd5268b77c1d48a4a91f",
+      "bytes": 285252,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72e634b8-7cba-4d32-a0f8-7bb75437fe30/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e35fb147dfd6e1d4e51a1d64e1b023ee8a9d59cfdb58e856e6bef82bde52e17c",
+      "bytes": 282870,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72e634b8-7cba-4d32-a0f8-7bb75437fe30/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6af597c44bf369cc7398314555d8d7dbedc32b646219ed6de51fab6688b45add",
+      "bytes": 289289,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72e634b8-7cba-4d32-a0f8-7bb75437fe30/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "29d3f763df565b4e2cbe55799f60e79d674fef1ca758f5a410a6fea29468b225",
+      "bytes": 262568,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72e634b8-7cba-4d32-a0f8-7bb75437fe30/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "119c0b9feca95ed4676c5e995d6552d36cd66a6f3bbaa6535fecdb5f37e1081b",
+      "bytes": 284932,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/72e634b8-7cba-4d32-a0f8-7bb75437fe30/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c7ffeb252d1873eb66dacb8b907efae5bceec7bdf3ebe3eac6142a49d6f34c11",
+      "bytes": 296864,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c77c3a71-a13f-4b87-8ef5-d6236397d95d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "033ded76afc34c3c0256f646e6a4e6de12d16506aefc93c55c4ff6b71165f582",
+      "bytes": 216348,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 499,
+      "folio_label": "fol. 250",
+      "page_id": "c77c3a71-a13f-4b87-8ef5-d6236397d95d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e8523e4a-2659-43b1-af7c-900c2515b502/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "686f5305c5cbc9e6bc4d2902f65b44825e255000e972f3a9d88531bc53557916",
+      "bytes": 234105,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 501,
+      "folio_label": "fol. 251",
+      "page_id": "e8523e4a-2659-43b1-af7c-900c2515b502",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

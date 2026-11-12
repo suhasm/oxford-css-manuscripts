@@ -1,0 +1,730 @@
+{
+  "source_order": 480,
+  "folio_label": "fol. 240b",
+  "page_id": "229a90fa-88b2-451f-a070-92c0e96ccbc6",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "240b",
+    "principal_page_bbox": [
+      315,
+      285,
+      2870,
+      4585
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          325,
+          150,
+          155
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "240b",
+        "features": [
+          "top-left corner",
+          "the 'b' is written superscript above and after '240'",
+          "a dot is visible beneath the superscript 'b'",
+          "written at an angle, apparently in pencil or light ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          470,
+          2640,
+          2380,
+          180
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 2-16 (lu. 15), S. 1805, to end of section on yamaka. Scribe Ravidatta Yājñika, preceded by f. 1 of / Bhānudatta's Rasamañjarī",
+        "features": [
+          "single detached holding-description line with no title or shelfmark on this page",
+          "runs over onto a second, indented line set below and to the right ('Bhānudatta's Rasamañjarī')",
+          "has a date and extent",
+          "presumably continues or supplements an entry on another page, but no linking mark tells us which",
+          "reading of '(lu. 15)' is uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2950,
+          2660,
+          240,
+          150
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "a/.",
+        "features": [
+          "right (gutter-side) margin, level with b002",
+          "a long vertical stroke descends below the line",
+          "followed by a leftward arrow and dashes ('← —') that run to the gutter and appear to continue across it"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3150,
+          880,
+          90,
+          80
+        ],
+        "description": "stitching hole / thread at gutter"
+      },
+      {
+        "bbox": [
+          3140,
+          2500,
+          90,
+          70
+        ],
+        "description": "stitching hole / thread at gutter"
+      },
+      {
+        "bbox": [
+          3150,
+          3690,
+          90,
+          70
+        ],
+        "description": "stitching hole / thread at gutter"
+      },
+      {
+        "bbox": [
+          580,
+          2940,
+          40,
+          30
+        ],
+        "description": "small ink speck or blot, not text"
+      },
+      {
+        "bbox": [
+          1780,
+          3570,
+          30,
+          30
+        ],
+        "description": "small speck"
+      },
+      {
+        "bbox": [
+          400,
+          600,
+          2700,
+          2000
+        ],
+        "description": "faint reversed show-through of recto (fol. 240) writing in upper half; not text of this page"
+      }
+    ],
+    "boundary_notes": [
+      "Right of the gutter line (x≈3185) is a fragment of facing fol. 241 (ticks, 'd.', 'e.', 'c.' shelfmarks, 'wrong ko.', 'see s.'). It is excluded as context.",
+      "The arrow from 'a/.' (b003) continues across the gutter into fol. 241's left margin, where fol. 241's overview shows 'a/. ←—' at the same level. The mark spans both pages. It is recorded here because 'a/.' lies left of the gutter.",
+      "b002 has no heading on this page. Its parent entry, possibly on facing fol. 241 or elsewhere, cannot be determined from this page."
+    ],
+    "uncertainties": [
+      "Exact reading of '(lu. 15)' in b002.",
+      "Whether 'S. 1805' reads S. or Ś.",
+      "Whether b003 belongs to this page or to the facing page margin."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "240b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "240b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner, written at an angle, apparently in pencil.",
+          "The 'b' is written superscript after '240', with a dot beneath it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The dot may belong to the 'b' or be a separate full stop."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "detached_holding_description",
+        "literal_text": "ff. 2-16 (lu.[?] 15), S.[?] 1805, to end of section on yamaka. Scrib[e?] Ravidatta Yājñika, preceded by f. 1 of\n                    Bhānudatta's Rasamañjarī",
+        "fields": {
+          "extent": "ff. 2-16",
+          "date": "S.[?] 1805"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line at mid-page, about y≈2650. It is the only catalogue text on the page.",
+          "The second line ('Bhānudatta's Rasamañjarī') is set lower and indented to the right, under the end of the first line.",
+          "There is no shelfmark, title or heading on this page.",
+          "Ravidatta Yājñika is named as scribe, not author. Bhānudatta's Rasamañjarī is named as the work of which f. 1 precedes; it is not the title of this holding."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 481,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "a/. ←— beside 'd. 266 (5) Vāgbhaṭālaṃkāra By Vāgbhaṭa' (fol. 241 left margin)",
+            "evidence": "The pencil 'a/. ←' mark beside this line (b003) has dashes running across the gutter. They reach a matching 'a/. ←—' mark in fol. 241's left margin at the level of the d. 266 (5) entry. This suggests the note supplements that entry. The link rests on the marks only; there is no written reference.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'(lu. 15)' is uncertain. It could be a lines figure such as 'll. 15'; this is not resolved.",
+          "'S.' versus 'Ś.' before 1805 is uncertain.",
+          "'Scrib' may lack a final 'e' or have it abbreviated.",
+          "The parent entry is not established on this page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_linking_mark",
+        "literal_text": "a/. ←— —",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil mark in the right (gutter-side) margin, level with b002.",
+          "A long vertical stroke descends from the '/'.",
+          "A leftward-pointing arrow is followed by dashes that continue across the gutter into fol. 241's left margin."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 480,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "ff. 2-16 ... Rasamañjarī",
+            "evidence": "The arrow points left toward the b002 line at the same level.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 481,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "a/. ←— beside d. 266 (5) Vāgbhaṭālaṃkāra",
+            "evidence": "The dashes continue across the gutter to a matching mark on fol. 241.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The meaning of 'a/.' is unknown.",
+          "The mark spans both pages. It is recorded here because 'a/.' lies left of the gutter."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Detached holding-description continuation; both lines form one record."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Marginal linking mark recorded separately, with probable attachments."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper. Faint reversed show-through from the recto (fol. 240) in the upper half is not text of this page.",
+      "Stitching holes appear at the gutter, plus minor specks.",
+      "The strip right of the gutter (x≈3185+) belongs to fol. 241 and is excluded: ticks, 'd.', 'e.', 'c.' shelfmarks, 'wrong ko.', 'see s.'.",
+      "Image review covered the top, bottom, both margins and the interlinear areas. No other writing was found."
+    ],
+    "unresolved_relationships": [
+      "The parent entry of b002 is only probably the fol. 241 d. 266 (5) Vāgbhaṭālaṃkāra entry. This rests on the cross-gutter 'a/. ←—' marks and is not confirmed by text."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left folio label reads '240' with a superscript 'b' and a dot beneath it, written at an angle in pencil. The candidate's '240b.' and its annotations match the image. Whether the dot is a full stop remains noted as uncertain."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single ink line at about y≈2650 and its indented second line ('Bhānudatta's Rasamañjarī', at about x≈2220–2830, y≈2720) are both captured. No cancellations or interlinear additions are visible within or around the line. A small stroke under 'preceded' is consistent with the comma after 'Yājñika'. The readings '(lu. 15)', 'S.', 'Scrib' and 'Bhānudatta' rest on cursive forms. The candidate's uncertainty markers are appropriate and are not resolved by the image."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The pencil 'a/.' has a long descending stroke. A leftward arrow at about x≈3045–3135 is followed by a dash crossing the gutter at x≈3185–3275, then faint dots. All of this is level with b002. The disposition is correct as a cross-gutter linking mark."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The parent entry is inferred only from the cross-gutter 'a/. ←—' marks. These reach fol. 241's left margin at the d. 266 (5) line, at about the same height of y≈2645. No written reference confirms the link. The target_anchor in r002 and r003 gives the fol. 241 title as 'Vāgbhaṭālaṃkāra'. That form is a normalized spelling. The adjacent overview appears to read something like 'Vāgbhaṭālamkāra', but its exact literal form was not verified at native resolution.",
+        "next_check": "Inspect fol. 241 at native resolution. Confirm the literal title spelling and that the 'a/. ←' there aligns with the d. 266 (5) line rather than d. 130 (9)."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings are unresolved: '(lu. 15)' could be a lines figure; 'S.' versus 'Ś.' before 1805; 'Scrib' with or without a final 'e'; and the vowel/nasal forms in 'Bhānudatta's'.",
+        "next_check": "Compare with the same hand's abbreviations elsewhere in the catalogue."
+      }
+    ],
+    "boundary_review": "The gutter lies at x≈3185. Everything to its right belongs to facing fol. 241 and is correctly excluded: the shelfmarks 'd.', 'e.', 'c.', the ticks, 'wrong ko.' and 'see s.'. The b003 arrow spans the gutter. It is recorded here because 'a/.' lies left of the gutter, and the cross-page link is kept as probable only. The upper-half show-through from fol. 240 recto is not text.",
+    "region_review": {
+      "top": "Only the pencil folio label '240b.' is present. The faint reversed show-through below it is not text.",
+      "middle": "Only b002 carries writing. The stitching holes at the gutter (y≈880, 2500, 3690) and the specks near (580, 2940) and (1780, 3570) are non-text.",
+      "bottom": "Ruled lines only. No bottom note or faint addition was found on native tile review.",
+      "left_margin": "Blank apart from the paper edge.",
+      "right_margin": "Only b003 lies left of the gutter. The facing-page fragment is excluded.",
+      "interlinear": "No interlinear additions, cancellations or ditto marks were found. The second line of b002 is a run-over line, not an insertion."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        325,
+        150,
+        155
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "240b",
+      "features": [
+        "top-left corner",
+        "the 'b' is written superscript above and after '240'",
+        "a dot is visible beneath the superscript 'b'",
+        "written at an angle, apparently in pencil or light ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        470,
+        2640,
+        2380,
+        180
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 2-16 (lu. 15), S. 1805, to end of section on yamaka. Scribe Ravidatta Yājñika, preceded by f. 1 of / Bhānudatta's Rasamañjarī",
+      "features": [
+        "single detached holding-description line with no title or shelfmark on this page",
+        "runs over onto a second, indented line set below and to the right ('Bhānudatta's Rasamañjarī')",
+        "has a date and extent",
+        "presumably continues or supplements an entry on another page, but no linking mark tells us which",
+        "reading of '(lu. 15)' is uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2950,
+        2660,
+        240,
+        150
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "a/.",
+      "features": [
+        "right (gutter-side) margin, level with b002",
+        "a long vertical stroke descends below the line",
+        "followed by a leftward arrow and dashes ('← —') that run to the gutter and appear to continue across it"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "240b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner, written at an angle, apparently in pencil.",
+        "The 'b' is written superscript after '240', with a dot beneath it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The dot may belong to the 'b' or be a separate full stop."
+      ],
+      "stable_id": "css-prod-0480-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "detached_holding_description",
+      "literal_text": "ff. 2-16 (lu.[?] 15), S.[?] 1805, to end of section on yamaka. Scrib[e?] Ravidatta Yājñika, preceded by f. 1 of\n                    Bhānudatta's Rasamañjarī",
+      "fields": {
+        "extent": "ff. 2-16",
+        "date": "S.[?] 1805"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line at mid-page, about y≈2650. It is the only catalogue text on the page.",
+        "The second line ('Bhānudatta's Rasamañjarī') is set lower and indented to the right, under the end of the first line.",
+        "There is no shelfmark, title or heading on this page.",
+        "Ravidatta Yājñika is named as scribe, not author. Bhānudatta's Rasamañjarī is named as the work of which f. 1 precedes; it is not the title of this holding."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 481,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "a/. ←— beside 'd. 266 (5) Vāgbhaṭālaṃkāra By Vāgbhaṭa' (fol. 241 left margin)",
+          "evidence": "The pencil 'a/. ←' mark beside this line (b003) has dashes running across the gutter. They reach a matching 'a/. ←—' mark in fol. 241's left margin at the level of the d. 266 (5) entry. This suggests the note supplements that entry. The link rests on the marks only; there is no written reference.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'(lu. 15)' is uncertain. It could be a lines figure such as 'll. 15'; this is not resolved.",
+        "'S.' versus 'Ś.' before 1805 is uncertain.",
+        "'Scrib' may lack a final 'e' or have it abbreviated.",
+        "The parent entry is not established on this page."
+      ],
+      "stable_id": "css-prod-0480-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_linking_mark",
+      "literal_text": "a/. ←— —",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil mark in the right (gutter-side) margin, level with b002.",
+        "A long vertical stroke descends from the '/'.",
+        "A leftward-pointing arrow is followed by dashes that continue across the gutter into fol. 241's left margin."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 480,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "ff. 2-16 ... Rasamañjarī",
+          "evidence": "The arrow points left toward the b002 line at the same level.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 481,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "a/. ←— beside d. 266 (5) Vāgbhaṭālaṃkāra",
+          "evidence": "The dashes continue across the gutter to a matching mark on fol. 241.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The meaning of 'a/.' is unknown.",
+        "The mark spans both pages. It is recorded here because 'a/.' lies left of the gutter."
+      ],
+      "stable_id": "css-prod-0480-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/229a90fa-88b2-451f-a070-92c0e96ccbc6.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/229a90fa-88b2-451f-a070-92c0e96ccbc6/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "d7f366d391122a3f7466758744011714e176d64eb38b2b7ccfdc1ebe1f31acaf",
+      "bytes": 239504,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/229a90fa-88b2-451f-a070-92c0e96ccbc6/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "faf964c22edf7b91d30941c9aa3d1bf12c16bd986b222dceafab4818965f1233",
+      "bytes": 292140,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/229a90fa-88b2-451f-a070-92c0e96ccbc6/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3fba3d4bc5aab4fb12e95be856e8e81e7096642f83a85d57db6f764035621390",
+      "bytes": 289524,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/229a90fa-88b2-451f-a070-92c0e96ccbc6/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "104e2a0646573f46dca6d36ca61946c0e6e179633dc45eea092c3a03af8629e6",
+      "bytes": 296781,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/229a90fa-88b2-451f-a070-92c0e96ccbc6/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1591c0d5b0543f7989469ffb500e6cfec0be6a17735b23aa140488ccbd42d6b3",
+      "bytes": 286281,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/229a90fa-88b2-451f-a070-92c0e96ccbc6/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b569997d99d211ade16d07fbcb3f80d39c8b2833a25419ab1c8835303c700f06",
+      "bytes": 294065,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/229a90fa-88b2-451f-a070-92c0e96ccbc6/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "098976a7d065bcbf805d7d4209641602b6a3279ef9c0f304847fabba2a6d0407",
+      "bytes": 296827,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b22e33dd-9d46-4479-831f-6931da56e513/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0b264c94b5a5dc02db4ef713389ef4d24d0c5bf5d313c8d2930f419ca40dcfda",
+      "bytes": 269905,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 479,
+      "folio_label": "fol. 240",
+      "page_id": "b22e33dd-9d46-4479-831f-6931da56e513",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2921e8ed-f83e-4b4d-8cf6-46ba4c3244fb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "66d9249309c6630828d5b0ba2bce2e8ef35930f3a4b3dfa6fc1e3a11947ee332",
+      "bytes": 258055,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 481,
+      "folio_label": "fol. 241",
+      "page_id": "2921e8ed-f83e-4b4d-8cf6-46ba4c3244fb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

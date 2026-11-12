@@ -1,0 +1,1639 @@
+{
+  "source_order": 618,
+  "folio_label": "fol. 309b",
+  "page_id": "302d448f-d819-461a-a0b6-79bc736e98c4",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "309b",
+    "principal_page_bbox": [
+      285,
+      290,
+      2790,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          380,
+          170,
+          145
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "309b",
+        "features": [
+          "pencil",
+          "top-left margin",
+          "superscript 'b'",
+          "small faint mark to right of number, possibly '5' or offset"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          345,
+          2180,
+          330,
+          130
+        ],
+        "kind_hint": "shelfmark",
+        "anchor": "√C. 360(1)",
+        "features": [
+          "ink",
+          "tick mark before shelfmark",
+          "left shelfmark column"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          885,
+          2185,
+          1820,
+          150
+        ],
+        "kind_hint": "entry",
+        "anchor": "Satantaṭīkā [grammar] Def. n.d. : 65 : 5 : Beng.",
+        "features": [
+          "ink",
+          "bracketed subject",
+          "n.d. with extent/line figures",
+          "script abbreviation 'Beng.'",
+          "long descender stroke on 'Beng.'"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          830,
+          2250,
+          1530,
+          135
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 16-67, inc. (m. 7ff). Title",
+        "features": [
+          "pencil",
+          "second line of the same entry",
+          "interlinear pencil addition 'unknown'[reading?] above struck-out words",
+          "small interlinear word [illegible] above, before '['",
+          "cancelled pencil words after 'Title' (e.g. ⟦[illegible] uncertain⟧, ⟦[illegible] part of a[illegible]⟧)"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2890,
+          2210,
+          150,
+          25
+        ],
+        "description": "short horizontal ink dash in the right part of the main column, on the same line as the entry, close to the gutter"
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the canvas (x > ~3080) shows the facing page fol. 310 with shelfmarks such as 'd.541(7)', 'd.805(5)' and 'd.672(4)'; these were excluded as context and not counted as target blocks.",
+      "Faint mirror-image show-through from the reverse of the leaf is visible throughout the main column; it was not treated as text."
+    ],
+    "uncertainties": [
+      "The pencil words in b004, including the cancelled phrase and the interlinear additions, are only partly legible.",
+      "The small mark beside the folio number may be a stray figure or show-through."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "309b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "309b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left margin; 'b' written superscript above and after '309'.",
+          "A faint small mark to the right of the number (possibly '5') may be a stray figure or show-through; not transcribed as text."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The faint mark beside the folio number is unidentified."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "√C. 360(1)    Satantaṭīkā . [grammar]   Def.      n.d. : 65 : 5 : Beng.",
+        "fields": {
+          "shelfmark": "C. 360(1)",
+          "title": "Satantaṭīkā",
+          "subject": "[grammar]",
+          "date": "n.d.",
+          "extent": "65",
+          "lines": "5",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick mark precedes the shelfmark in the left column.",
+          "Written in ink.",
+          "'Def.' is written after the bracketed subject.",
+          "'Beng.' ends in a long descending stroke.",
+          "A short horizontal ink dash stands at the right of the main column on the same line (b901)."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The second letter of the title is uncertain: 'Satantaṭīkā' may instead read 'Sabantaṭīkā'. The written form is kept as read; no correction has been made."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "pencil_description",
+        "literal_text": "ff. 16-67, inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+        "fields": {
+          "extent": "ff. 16-67"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Pencil line written directly below the ink entry.",
+          "Interlinear pencil 'unknown'[reading?] is written above the struck-through 'quite uncertain'. It appears to replace the cancelled words.",
+          "A small interlinear pencil word, [illegible] (possibly 'fuel'/'first'), is written above, just before the '[' of '[grammar]' on the line above.",
+          "The cancelled words after 'Title' are struck through with horizontal pencil lines."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 618,
+            "target_record_id": "r002",
+            "target_block_id": "b003",
+            "target_anchor": "Satantaṭīkā . [grammar]",
+            "evidence": "It sits immediately below the entry, in the same column, as the next line, with no intervening shelfmark.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The second figure of 'ff. 16-67' may read '87'.",
+          "'(m. 7ff)' is only partly legible.",
+          "The cancelled words are tentative readings.",
+          "The interlinear 'unknown' is a probable reading.",
+          "The small interlinear word near '[' is illegible."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2890,
+          2210,
+          150,
+          25
+        ],
+        "kind_hint": "mark",
+        "anchor": "short horizontal ink dash",
+        "features": [
+          "ink",
+          "right of the main column near the gutter",
+          "on the line of entry b003"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Shelfmark of the single holding."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Ink entry text of the holding."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Pencil continuation note securely attached to r002."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Non-text dash on the entry line, recorded as an annotation."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank. Faint mirror-image show-through from the reverse of the leaf is visible but was not transcribed.",
+      "The right edge of the canvas (x > ~3080) shows the facing page, fol. 310 (e.g. 'd.541(7)', 'd.805(5)', 'd.672(4)', 'd.679(14)', 'd.132(5)', 'd.706(14)', 'e.85(10)', 'd.370(10)', 'c.424(2)', 'd.440(4)', 'd.1018'). These fragments were excluded as context."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '309' with a superscript 'b' is in the top-left margin at about [385,380,170,145]. The faint mark to its right is very weak and may be show-through. The candidate's handling is adequate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The tick and shelfmark are at about x 345–675, y 2190–2310. The capital or lowercase form of 'C' cannot be decided against the lowercase 'c.' used on fol. 310. The candidate reading is retained."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The ink entry line is present: title, dot, [grammar], Def., n.d. : 65 : 5 : Beng. The title's vowel letters are ambiguous; see changes."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The pencil second line and its interlinear additions are represented. In the native tile the second folio figure looks more like '87' than '67'."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The short ink dash is at about [2890,2210,150,25], on the entry line near the gutter. On the facing fol. 310, near the same height, there is a dash and an arrow pointing into the text before 'Subandhu'. The dash may be part of an insertion pointer, but this is not secure."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff. 16-67, inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+        "after": "ff. 16-87[reading?], inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+        "reason": "In the native tile [0,1608] the second figure of the folio range has the closed upper loop of an 8. It is still not certain.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "fields.extent",
+        "before": "ff. 16-67",
+        "after": "ff. 16-87[reading?]",
+        "reason": "Consistent with the revised literal reading. The figure remains uncertain.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The second figure of 'ff. 16-67' may read '87'.",
+          "'(m. 7ff)' is only partly legible.",
+          "The cancelled words are tentative readings.",
+          "The interlinear 'unknown' is a probable reading.",
+          "The small interlinear word near '[' is illegible."
+        ],
+        "after": [
+          "The second figure of the folio range is read as '87' (probable). '67' cannot be excluded.",
+          "'(m. 7ff)' is only partly legible.",
+          "The cancelled words are tentative readings.",
+          "The interlinear 'unknown' is a probable reading.",
+          "The small interlinear word above, just left of '[', is illegible."
+        ],
+        "reason": "Updates the uncertainty to match the revised reading without resolving it.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The second letter of the title is uncertain: 'Satantaṭīkā' may instead read 'Sabantaṭīkā'. The written form is kept as read; no correction has been made."
+        ],
+        "after": [
+          "The title's letters are ambiguous. The first vowel may be 'a' or 'u', and the third letter may be 't' or 'b'. Possible readings include 'Satantaṭīkā', 'Sabantaṭīkā' and 'Subantaṭīkā'. The written form is kept as read; no correction has been made.",
+          "The shelfmark letter may be capital 'C' or lowercase 'c'."
+        ],
+        "reason": "In the native tile, the vowel after 'S' is formed like this hand's 'u' and 'a' elsewhere. The stroke read as 't' has a tall ascender. None of these readings is secure.",
+        "source_block_ids": [
+          "b003",
+          "b002"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "A tick mark precedes the shelfmark in the left column.",
+          "Written in ink.",
+          "'Def.' is written after the bracketed subject.",
+          "'Beng.' ends in a long descending stroke.",
+          "A short horizontal ink dash stands at the right of the main column on the same line (b901)."
+        ],
+        "after": [
+          "A tick mark precedes the shelfmark in the left column.",
+          "Written in ink.",
+          "'Def.' is written after the bracketed subject.",
+          "'Beng.' ends in a long descending stroke.",
+          "A short horizontal ink dash stands at the right of the main column on the same line (b901). On the facing fol. 310 a dash and an arrow appear at a similar height, pointing into that page's text. This may be an insertion pointer; it is unverified.",
+          "A small ink dot lies to the right of 'Beng.' at about [2850,2290,10,10]. It is probably a speck."
+        ],
+        "reason": "Records the possible cross-gutter mark relationship and a minor mark, without asserting a resolved link.",
+        "source_block_ids": [
+          "b901",
+          "b003"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The dash may continue as the arrow on the facing fol. 310 (left margin, near d.679(14), pointing before 'Subandhu'). If so, the entry would be marked for insertion there. The physical continuity across the gutter is not confirmed.",
+        "next_check": "Examine a higher-resolution image of the gutter area across both pages at y≈2200–2260."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The title's letter forms are ambiguous (Sa/Su, t/b).",
+        "next_check": "Compare this writer's 'u', 'a' and 'b' forms in nearby entries without normalising."
+      }
+    ],
+    "boundary_review": "The target page runs from about x 285 to x 3080. The facing fol. 310 fragments are context only and are not target records. These include shelfmarks d.541(7)–d.1018, the '||' marks, a dash and arrow, and the margin notes 'Complete work in 34 muktāmaṇis' and 'Into Hindi section'. The facing-page arrow and dash may relate to b901; this is left unresolved.",
+    "region_review": {
+      "top": "Only the folio number and the faint adjacent mark; no other writing.",
+      "middle": "One holding (ink), its pencil continuation line, the dash b901 and a small dot.",
+      "bottom": "Reviewed in tiles [0,3216] and [1604,3216]: only show-through and specks; no text.",
+      "left_margin": "Only the shelfmark C. 360(1) with its tick, and the folio number.",
+      "right_margin": "The dash near the gutter; beyond the gutter is the facing page (context).",
+      "interlinear": "Pencil 'unknown'[reading?] above the cancelled words, and a small illegible word above, before '['."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        380,
+        170,
+        145
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "309b",
+      "features": [
+        "pencil",
+        "top-left margin",
+        "superscript 'b'",
+        "small faint mark to right of number, possibly '5' or offset"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        345,
+        2180,
+        330,
+        130
+      ],
+      "kind_hint": "shelfmark",
+      "anchor": "√C. 360(1)",
+      "features": [
+        "ink",
+        "tick mark before shelfmark",
+        "left shelfmark column"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        885,
+        2185,
+        1820,
+        150
+      ],
+      "kind_hint": "entry",
+      "anchor": "Satantaṭīkā [grammar] Def. n.d. : 65 : 5 : Beng.",
+      "features": [
+        "ink",
+        "bracketed subject",
+        "n.d. with extent/line figures",
+        "script abbreviation 'Beng.'",
+        "long descender stroke on 'Beng.'"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        830,
+        2250,
+        1530,
+        135
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 16-67, inc. (m. 7ff). Title",
+      "features": [
+        "pencil",
+        "second line of the same entry",
+        "interlinear pencil addition 'unknown'[reading?] above struck-out words",
+        "small interlinear word [illegible] above, before '['",
+        "cancelled pencil words after 'Title' (e.g. ⟦[illegible] uncertain⟧, ⟦[illegible] part of a[illegible]⟧)"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2890,
+        2210,
+        150,
+        25
+      ],
+      "kind_hint": "mark",
+      "anchor": "short horizontal ink dash",
+      "features": [
+        "ink",
+        "right of the main column near the gutter",
+        "on the line of entry b003"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "309b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left margin; 'b' written superscript above and after '309'.",
+        "A faint small mark to the right of the number (possibly '5') may be a stray figure or show-through; not transcribed as text."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The faint mark beside the folio number is unidentified."
+      ],
+      "stable_id": "css-prod-0618-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "√C. 360(1)    Satantaṭīkā . [grammar]   Def.      n.d. : 65 : 5 : Beng.",
+      "fields": {
+        "shelfmark": "C. 360(1)",
+        "title": "Satantaṭīkā",
+        "subject": "[grammar]",
+        "date": "n.d.",
+        "extent": "65",
+        "lines": "5",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick mark precedes the shelfmark in the left column.",
+        "Written in ink.",
+        "'Def.' is written after the bracketed subject.",
+        "'Beng.' ends in a long descending stroke.",
+        "A short horizontal ink dash stands at the right of the main column on the same line (b901)."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The second letter of the title is uncertain: 'Satantaṭīkā' may instead read 'Sabantaṭīkā'. The written form is kept as read; no correction has been made."
+      ],
+      "stable_id": "css-prod-0618-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "pencil_description",
+      "literal_text": "ff. 16-67, inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+      "fields": {
+        "extent": "ff. 16-67"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Pencil line written directly below the ink entry.",
+        "Interlinear pencil 'unknown'[reading?] is written above the struck-through 'quite uncertain'. It appears to replace the cancelled words.",
+        "A small interlinear pencil word, [illegible] (possibly 'fuel'/'first'), is written above, just before the '[' of '[grammar]' on the line above.",
+        "The cancelled words after 'Title' are struck through with horizontal pencil lines."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 618,
+          "target_record_id": "r002",
+          "target_block_id": "b003",
+          "target_anchor": "Satantaṭīkā . [grammar]",
+          "evidence": "It sits immediately below the entry, in the same column, as the next line, with no intervening shelfmark.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The second figure of 'ff. 16-67' may read '87'.",
+        "'(m. 7ff)' is only partly legible.",
+        "The cancelled words are tentative readings.",
+        "The interlinear 'unknown' is a probable reading.",
+        "The small interlinear word near '[' is illegible."
+      ],
+      "stable_id": "css-prod-0618-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 16-67, inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+      "after": "ff. 16-87[reading?], inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+      "reason": "In the native tile [0,1608] the second figure of the folio range has the closed upper loop of an 8. It is still not certain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.extent",
+      "before": "ff. 16-67",
+      "after": "ff. 16-87[reading?]",
+      "reason": "Consistent with the revised literal reading. The figure remains uncertain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The second figure of 'ff. 16-67' may read '87'.",
+        "'(m. 7ff)' is only partly legible.",
+        "The cancelled words are tentative readings.",
+        "The interlinear 'unknown' is a probable reading.",
+        "The small interlinear word near '[' is illegible."
+      ],
+      "after": [
+        "The second figure of the folio range is read as '87' (probable). '67' cannot be excluded.",
+        "'(m. 7ff)' is only partly legible.",
+        "The cancelled words are tentative readings.",
+        "The interlinear 'unknown' is a probable reading.",
+        "The small interlinear word above, just left of '[', is illegible."
+      ],
+      "reason": "Updates the uncertainty to match the revised reading without resolving it.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The second letter of the title is uncertain: 'Satantaṭīkā' may instead read 'Sabantaṭīkā'. The written form is kept as read; no correction has been made."
+      ],
+      "after": [
+        "The title's letters are ambiguous. The first vowel may be 'a' or 'u', and the third letter may be 't' or 'b'. Possible readings include 'Satantaṭīkā', 'Sabantaṭīkā' and 'Subantaṭīkā'. The written form is kept as read; no correction has been made.",
+        "The shelfmark letter may be capital 'C' or lowercase 'c'."
+      ],
+      "reason": "In the native tile, the vowel after 'S' is formed like this hand's 'u' and 'a' elsewhere. The stroke read as 't' has a tall ascender. None of these readings is secure.",
+      "source_block_ids": [
+        "b003",
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "A tick mark precedes the shelfmark in the left column.",
+        "Written in ink.",
+        "'Def.' is written after the bracketed subject.",
+        "'Beng.' ends in a long descending stroke.",
+        "A short horizontal ink dash stands at the right of the main column on the same line (b901)."
+      ],
+      "after": [
+        "A tick mark precedes the shelfmark in the left column.",
+        "Written in ink.",
+        "'Def.' is written after the bracketed subject.",
+        "'Beng.' ends in a long descending stroke.",
+        "A short horizontal ink dash stands at the right of the main column on the same line (b901). On the facing fol. 310 a dash and an arrow appear at a similar height, pointing into that page's text. This may be an insertion pointer; it is unverified.",
+        "A small ink dot lies to the right of 'Beng.' at about [2850,2290,10,10]. It is probably a speck."
+      ],
+      "reason": "Records the possible cross-gutter mark relationship and a minor mark, without asserting a resolved link.",
+      "source_block_ids": [
+        "b901",
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 16-67, inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+      "after": "ff. 16-87[reading?], inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+      "reason": "In the native image the second figure has a closed upper loop, more like 8. It is kept doubtful.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0618-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.extent",
+      "before": "ff. 16-67",
+      "after": "ff. 16-87[reading?]",
+      "reason": "Consistent with the revised literal reading.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0618-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The second figure of 'ff. 16-67' may read '87'.",
+        "'(m. 7ff)' is only partly legible.",
+        "The cancelled words are tentative readings.",
+        "The interlinear 'unknown' is a probable reading.",
+        "The small interlinear word near '[' is illegible."
+      ],
+      "after": [
+        "The second figure of the folio range is read as '87' (probable). '67' cannot be excluded.",
+        "'(m. 7ff)' is only partly legible.",
+        "The cancelled words are tentative readings.",
+        "The interlinear 'unknown' is a probable reading.",
+        "The small interlinear word above, just left of '[', is illegible."
+      ],
+      "reason": "Updated to match the revised reading without resolving it.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0618-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The second letter of the title is uncertain: 'Satantaṭīkā' may instead read 'Sabantaṭīkā'. The written form is kept as read; no correction has been made."
+      ],
+      "after": [
+        "The title's letters are ambiguous. The first vowel may be 'a' or 'u', and the third letter may be 't' or 'b'. Possible readings include 'Satantaṭīkā', 'Sabantaṭīkā' and 'Subantaṭīkā'. The written form is kept as read; no correction has been made.",
+        "The shelfmark letter may be capital 'C' or lowercase 'c'."
+      ],
+      "reason": "In the native image the vowel form is ambiguous between a and u, and the following letter has a tall looped ascender.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0618-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "A tick mark precedes the shelfmark in the left column.",
+        "Written in ink.",
+        "'Def.' is written after the bracketed subject.",
+        "'Beng.' ends in a long descending stroke.",
+        "A short horizontal ink dash stands at the right of the main column on the same line (b901)."
+      ],
+      "after": [
+        "A tick mark precedes the shelfmark in the left column.",
+        "Written in ink.",
+        "'Def.' is written after the bracketed subject.",
+        "'Beng.' ends in a long descending stroke.",
+        "A short horizontal ink dash stands at the right of the main column on the same line (b901). On the facing fol. 310 an arrow at a similar height, below 'd. 679(14)', points into that page's text before the 'Subandhu' line. No continuous stroke across the gutter is visible. The link as an insertion pointer is unverified.",
+        "A small ink dot lies to the right of 'Beng.' at about [2848,2290,12,12]. It is probably a speck."
+      ],
+      "reason": "Records the possible cross-gutter relationship and a minor mark without asserting a link.",
+      "source_block_ids": [
+        "b901",
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0618-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "block_ids",
+      "before": [
+        "b002",
+        "b003"
+      ],
+      "after": [
+        "b002",
+        "b003",
+        "b901"
+      ],
+      "reason": "The dash is a non-text mark on the same ruled line as this entry, and it is already described in r002's annotations. Its attachment to the line is probable. Its target on fol. 310 remains unverified.",
+      "source_block_ids": [
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0618-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [
+      "b901"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b901"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b901",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [],
+      "id": "focus-0618-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The dash may continue as the arrow on the facing fol. 310 (left margin, near d.679(14), pointing before 'Subandhu'). If so, the entry would be marked for insertion there. The physical continuity across the gutter is not confirmed.",
+      "block_ids": [
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0618-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "In the native tile [0,1608] the second figure of the folio range has the closed upper loop of an 8. It is still not certain. Proposed literal_text: \"ff. 16-87[reading?], inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0618-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The title's letter forms are ambiguous (Sa/Su, t/b).",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0618-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Consistent with the revised literal reading. The figure remains uncertain. Proposed fields.extent: \"ff. 16-87[reading?]\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0618-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Updates the uncertainty to match the revised reading without resolving it. Proposed uncertainties: [\"The second figure of the folio range is read as '87' (probable). '67' cannot be excluded.\", \"'(m. 7ff)' is only partly legible.\", \"The cancelled words are tentative readings.\", \"The interlinear 'unknown' is a probable reading.\", \"The small interlinear word above, just left of '[', is illegible.\"]",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0618-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "In the native tile, the vowel after 'S' is formed like this hand's 'u' and 'a' elsewhere. The stroke read as 't' has a tall ascender. None of these readings is secure. Proposed uncertainties: [\"The title's letters are ambiguous. The first vowel may be 'a' or 'u', and the third letter may be 't' or 'b'. Possible readings include 'Satantaṭīkā', 'Sabantaṭīkā' and 'Subantaṭīkā'. The written form is kept as read; no correction has been made.\", \"The shelfmark letter may be capital 'C' or lowercase 'c'.\"]",
+      "block_ids": [
+        "b003",
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0618-07"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Records the possible cross-gutter mark relationship and a minor mark, without asserting a resolved link. Proposed annotations: [\"A tick mark precedes the shelfmark in the left column.\", \"Written in ink.\", \"'Def.' is written after the bracketed subject.\", \"'Beng.' ends in a long descending stroke.\", \"A short horizontal ink dash stands at the right of the main column on the same line (b901). On the facing fol. 310 a dash and an arrow appear at a similar height, pointing into that page's text. This may be an insertion pointer; it is unverified.\", \"A small ink dot lies to the right of 'Beng.' at about [2850,2290,10,10]. It is probably a speck.\"]",
+      "block_ids": [
+        "b901",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0618-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The faint mark beside the folio number is unidentified.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0618-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The second letter of the title is uncertain: 'Satantaṭīkā' may instead read 'Sabantaṭīkā'. The written form is kept as read; no correction has been made.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0618-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0618-01",
+        "focus-0618-02",
+        "focus-0618-03",
+        "focus-0618-04",
+        "focus-0618-05",
+        "focus-0618-06",
+        "focus-0618-07",
+        "focus-0618-08",
+        "focus-0618-09",
+        "focus-0618-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0618-01",
+          "source_reading": "A short horizontal ink stroke with no letters, at about canvas x 2894-3040, y about 2225. It is on the baseline level of the 'n.d. : 65 : 5 : Beng.' line, right of the entry and near the outer edge before the gutter.",
+          "certainty": "secure",
+          "evidence": "Native tile [1604,1608]: the stroke runs from about x 1290 to 1435 at y about 617."
+        },
+        {
+          "issue_id": "focus-0618-02",
+          "source_reading": "On fol. 310 a ruled arrow (→) in the left shelfmark column points right into the text column. It is below 'd. 679(14)' and just above the 'Subandhu, Vāsavadattā' line. The target dash is at a similar height, but the paper edge and gutter separate them. No continuous stroke crosses the gutter.",
+          "certainty": "uncertain",
+          "evidence": "Adjacent native tile of fol. 310 [0,1608]: the target dash shows at about x 235-380, y 615 on the left. The arrow is at about x 625-975, y 600-620, and the gutter shadow lies between them."
+        },
+        {
+          "issue_id": "focus-0618-03",
+          "source_reading": "ff-16-87[reading?], inc. (m. 7ff). Title [cancelled words]",
+          "certainty": "probable",
+          "evidence": "Native tile [0,1608], x about 835-1010, y about 745: the second figure of the range has a closed upper loop, more like 8 than 6."
+        },
+        {
+          "issue_id": "focus-0618-04",
+          "source_reading": "S[a/u][t/b]antaṭīkā",
+          "certainty": "uncertain",
+          "evidence": "Native tile [0,1608], x about 885-1255, y about 600-660. The second letter is an open minim form that this hand uses for both a and u. The third letter has a tall looped ascender."
+        },
+        {
+          "issue_id": "focus-0618-05",
+          "source_reading": "ff. 16-87[reading?]",
+          "certainty": "probable",
+          "evidence": "Same as focus-0618-03."
+        },
+        {
+          "issue_id": "focus-0618-06",
+          "source_reading": "The figure is probably 87, but 67 is not excluded. The 'm. 7ff' part is only partly legible. The cancelled words are tentative. 'unknown' is probable. The small word above '[' is illegible.",
+          "certainty": "uncertain",
+          "evidence": "Native tile [0,1608]."
+        },
+        {
+          "issue_id": "focus-0618-07",
+          "source_reading": "S[a/u][t/b]antaṭīkā ; shelfmark 'C.' (capital or lowercase uncertain)",
+          "certainty": "uncertain",
+          "evidence": "Native tile [0,1608]: the shelfmark at x about 400-430 is a single curved C-form of ambiguous size."
+        },
+        {
+          "issue_id": "focus-0618-08",
+          "source_reading": "The dash is on the target. An arrow is on facing fol. 310 at a similar height. A small dot lies right of 'Beng.' at about canvas [2848,2290,12,12].",
+          "certainty": "uncertain",
+          "evidence": "Native tile [1604,1608]: a dot at about (1248,686)."
+        },
+        {
+          "issue_id": "focus-0618-09",
+          "source_reading": "A faint grey mark like '5' with a short tail, right of '309b' at about canvas x 595-650, y 430-450. It is much fainter than the folio number.",
+          "certainty": "uncertain",
+          "evidence": "Native tile [0,0]. It may be offset or show-through; it is not identified as text."
+        },
+        {
+          "issue_id": "focus-0618-10",
+          "source_reading": "S[a/u][t/b]antaṭīkā",
+          "certainty": "uncertain",
+          "evidence": "Same as focus-0618-04."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff. 16-67, inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+          "after": "ff. 16-87[reading?], inc. (m. 7ff). Title ⟦quite[reading?] uncertain⟧, ⟦possibly[reading?]⟧, ⟦part of a lon[reading?]⟧",
+          "reason": "In the native image the second figure has a closed upper loop, more like 8. It is kept doubtful.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "fields.extent",
+          "before": "ff. 16-67",
+          "after": "ff. 16-87[reading?]",
+          "reason": "Consistent with the revised literal reading.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The second figure of 'ff. 16-67' may read '87'.",
+            "'(m. 7ff)' is only partly legible.",
+            "The cancelled words are tentative readings.",
+            "The interlinear 'unknown' is a probable reading.",
+            "The small interlinear word near '[' is illegible."
+          ],
+          "after": [
+            "The second figure of the folio range is read as '87' (probable). '67' cannot be excluded.",
+            "'(m. 7ff)' is only partly legible.",
+            "The cancelled words are tentative readings.",
+            "The interlinear 'unknown' is a probable reading.",
+            "The small interlinear word above, just left of '[', is illegible."
+          ],
+          "reason": "Updated to match the revised reading without resolving it.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "The second letter of the title is uncertain: 'Satantaṭīkā' may instead read 'Sabantaṭīkā'. The written form is kept as read; no correction has been made."
+          ],
+          "after": [
+            "The title's letters are ambiguous. The first vowel may be 'a' or 'u', and the third letter may be 't' or 'b'. Possible readings include 'Satantaṭīkā', 'Sabantaṭīkā' and 'Subantaṭīkā'. The written form is kept as read; no correction has been made.",
+            "The shelfmark letter may be capital 'C' or lowercase 'c'."
+          ],
+          "reason": "In the native image the vowel form is ambiguous between a and u, and the following letter has a tall looped ascender.",
+          "source_block_ids": [
+            "b002",
+            "b003"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "A tick mark precedes the shelfmark in the left column.",
+            "Written in ink.",
+            "'Def.' is written after the bracketed subject.",
+            "'Beng.' ends in a long descending stroke.",
+            "A short horizontal ink dash stands at the right of the main column on the same line (b901)."
+          ],
+          "after": [
+            "A tick mark precedes the shelfmark in the left column.",
+            "Written in ink.",
+            "'Def.' is written after the bracketed subject.",
+            "'Beng.' ends in a long descending stroke.",
+            "A short horizontal ink dash stands at the right of the main column on the same line (b901). On the facing fol. 310 an arrow at a similar height, below 'd. 679(14)', points into that page's text before the 'Subandhu' line. No continuous stroke across the gutter is visible. The link as an insertion pointer is unverified.",
+            "A small ink dot lies to the right of 'Beng.' at about [2848,2290,12,12]. It is probably a speck."
+          ],
+          "reason": "Records the possible cross-gutter relationship and a minor mark without asserting a link.",
+          "source_block_ids": [
+            "b901",
+            "b003"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "block_ids",
+          "before": [
+            "b002",
+            "b003"
+          ],
+          "after": [
+            "b002",
+            "b003",
+            "b901"
+          ],
+          "reason": "The dash is a non-text mark on the same ruled line as this entry, and it is already described in r002's annotations. Its attachment to the line is probable. Its target on fol. 310 remains unverified.",
+          "source_block_ids": [
+            "b901"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number '309b'. The faint adjacent mark is unidentified."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Tick and shelfmark 'C. 360(1)'."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Entry line. The title reading remains ambiguous."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Pencil continuation line. The folio figure is probably 87."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Ink dash attached as a mark of the r002 line (probable). Its cross-gutter target is unresolved."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0618-02",
+          "record_id": "r002",
+          "block_ids": [
+            "b901"
+          ],
+          "issue": "Whether the target dash and the fol. 310 arrow form one insertion pointer across the gutter is not confirmed.",
+          "next_check": "Examine an image of the open spread showing the gutter continuously, or the physical volume."
+        },
+        {
+          "issue_id": "focus-0618-04",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The title letters a/u and t/b remain ambiguous.",
+          "next_check": "Compare with other occurrences of 'u', 'a', 'b' and 't' in this hand at higher magnification."
+        },
+        {
+          "issue_id": "focus-0618-03",
+          "record_id": "r003",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The folio figure 87 vs 67 is probable, not secure.",
+          "next_check": "Examine the pencil figure under raking light or at higher resolution."
+        },
+        {
+          "issue_id": "focus-0618-09",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "The faint mark beside the folio number is unidentified.",
+          "next_check": "Check for offset from the facing leaf or show-through from the verso."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "32524fad49ff097e8bb5daaf405e8887a3d8a2ee65a92b201ea6a97536edf11f",
+      "bytes": 296220,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0c231b69c06f1cc5220ae00a962509730def436252f393849ec20c1c0c7913cc",
+      "bytes": 345613,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "06d7d8da45119608a2f9fd5e36957224667c97d476f87588cb420075f29631e2",
+      "bytes": 378093,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "24c3c200480e8c025c4d54f789f191fcefe19212b32eadbe1dad44808563125c",
+      "bytes": 385702,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91d82e2d-ec33-45d9-8ced-c5776f0928fc/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "28dedc6d1321a3c278ddd9cc679e8f39823f4f0172d4734658ed0fb9796e41b9",
+      "bytes": 321586,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 617,
+      "folio_label": "fol. 309",
+      "page_id": "91d82e2d-ec33-45d9-8ced-c5776f0928fc",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4b2811b6-dbb2-42e6-a6db-a05e37f67e39/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c2613375bcd40f2de08c1b6d580c3591220c85c6dfeb68c314b7582a524affea",
+      "bytes": 322366,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 619,
+      "folio_label": "fol. 310",
+      "page_id": "4b2811b6-dbb2-42e6-a6db-a05e37f67e39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4b2811b6-dbb2-42e6-a6db-a05e37f67e39/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4e2fee2332aeed9d0a281f1b0620239ebaad625f2d6d7c5feb3bdb968d0ce650",
+      "bytes": 562621,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 619,
+      "folio_label": "fol. 310",
+      "page_id": "4b2811b6-dbb2-42e6-a6db-a05e37f67e39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4b2811b6-dbb2-42e6-a6db-a05e37f67e39/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2adb185a88838cc34559af31917db02be77fead5bc762663305f47de6f51175b",
+      "bytes": 591284,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 619,
+      "folio_label": "fol. 310",
+      "page_id": "4b2811b6-dbb2-42e6-a6db-a05e37f67e39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/302d448f-d819-461a-a0b6-79bc736e98c4.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "32524fad49ff097e8bb5daaf405e8887a3d8a2ee65a92b201ea6a97536edf11f",
+      "bytes": 296220,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0c231b69c06f1cc5220ae00a962509730def436252f393849ec20c1c0c7913cc",
+      "bytes": 345613,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "86d16c524b61f56b13d3f0f67e84cf9536546edd7585b8d7906aff95d8b509fc",
+      "bytes": 369195,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "06d7d8da45119608a2f9fd5e36957224667c97d476f87588cb420075f29631e2",
+      "bytes": 378093,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "24c3c200480e8c025c4d54f789f191fcefe19212b32eadbe1dad44808563125c",
+      "bytes": 385702,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "28e0c51e35323e86b759b1ae7d5fe6d3490c418d9cfaec465943669d2996ead2",
+      "bytes": 338473,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/302d448f-d819-461a-a0b6-79bc736e98c4/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "aa07e252e01e1194e19d9cae18231c92f2b991f08023aa27618bb08f657ee4c4",
+      "bytes": 386650,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/91d82e2d-ec33-45d9-8ced-c5776f0928fc/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "28dedc6d1321a3c278ddd9cc679e8f39823f4f0172d4734658ed0fb9796e41b9",
+      "bytes": 321586,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 617,
+      "folio_label": "fol. 309",
+      "page_id": "91d82e2d-ec33-45d9-8ced-c5776f0928fc",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4b2811b6-dbb2-42e6-a6db-a05e37f67e39/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c2613375bcd40f2de08c1b6d580c3591220c85c6dfeb68c314b7582a524affea",
+      "bytes": 322366,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 619,
+      "folio_label": "fol. 310",
+      "page_id": "4b2811b6-dbb2-42e6-a6db-a05e37f67e39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

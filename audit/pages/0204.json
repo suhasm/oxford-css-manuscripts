@@ -1,0 +1,1025 @@
+{
+  "source_order": 204,
+  "folio_label": "fol. 102b",
+  "page_id": "49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "102b",
+    "principal_page_bbox": [
+      330,
+      280,
+      2890,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          415,
+          335,
+          160,
+          85
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "102b",
+        "features": [
+          "top left corner",
+          "superscript or raised 'b' with dot beneath",
+          "ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          370,
+          1770,
+          2760,
+          120
+        ],
+        "kind_hint": "descriptive_note_main_line",
+        "anchor": "MS. is out of order, & ... wrongly renumbered. Old numbers run between 187 & 392, & cover adhy. xxi to xliv &",
+        "features": [
+          "pencil",
+          "no shelfmark or title on this line",
+          "caret before 'MS.' at left",
+          "caret insertion marks under 'Old' and after 'cover'",
+          "runs to right edge of the written area",
+          "followed by a ruled stroke leading toward the gutter or facing page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          380,
+          1725,
+          255,
+          70
+        ],
+        "kind_hint": "interlinear_insertion",
+        "anchor": "fragmentary",
+        "features": [
+          "pencil",
+          "written above the start of b002",
+          "keyed by a caret before 'MS.'"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          1690,
+          1735,
+          115,
+          60
+        ],
+        "kind_hint": "interlinear_insertion",
+        "anchor": "folio",
+        "features": [
+          "pencil",
+          "written above 'Old' and 'numbers'",
+          "keyed by a caret beneath the line"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2520,
+          1755,
+          190,
+          60
+        ],
+        "kind_hint": "interlinear_insertion",
+        "anchor": "parts of",
+        "features": [
+          "pencil",
+          "written above 'cover' and 'adhy.'",
+          "keyed by a caret beneath the line"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          880,
+          1810,
+          210,
+          50
+        ],
+        "kind_hint": "cancellation",
+        "anchor": "⟦has been⟧",
+        "features": [
+          "struck through in b002 between '&' and 'wrongly'",
+          "reading of cancelled words uncertain"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          405,
+          1885,
+          230,
+          70
+        ],
+        "kind_hint": "continuation",
+        "anchor": "& beyond.",
+        "features": [
+          "pencil",
+          "second line of the b002 note at the left margin"
+        ]
+      },
+      {
+        "id": "b008",
+        "bbox": [
+          435,
+          2280,
+          965,
+          100
+        ],
+        "kind_hint": "descriptive_note",
+        "anchor": "ff. 3-4a, beginning missing. Ritual.",
+        "features": [
+          "ink",
+          "'a' underlined",
+          "no shelfmark or title on this page",
+          "linked by an arrow (see unattached marks)"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3150,
+          1805,
+          185,
+          30
+        ],
+        "description": "Pencil horizontal stroke continuing to the right of b002's final '&', leading toward the gutter. It probably connects to 'xliv &' visible in the left margin of facing fol. 103."
+      },
+      {
+        "bbox": [
+          3040,
+          2300,
+          435,
+          55
+        ],
+        "description": "Pencil arrow with its head pointing left toward b008, drawn across the gutter. It continues from the left margin of fol. 103 beside the Dadhisaṃkrāntivrata entry."
+      },
+      {
+        "bbox": [
+          1160,
+          1310,
+          130,
+          60
+        ],
+        "description": "Small ink dots or specks near the middle of the upper page. They are not text."
+      },
+      {
+        "bbox": [
+          3230,
+          1380,
+          280,
+          3700
+        ],
+        "description": "Marks beyond the gutter, including a tick, 'n/', 'ām/?' and further 'n/'. These belong to the left margin of facing fol. 103 and are not target content."
+      }
+    ],
+    "boundary_notes": [
+      "b002 and b008 are orphan descriptive notes with no shelfmark or title on this page. Their parent holdings appear to be on facing fol. 103, joined by a stroke and an arrow across the gutter. They are not new holdings.",
+      "Faint mirrored show-through of text from the reverse leaf is visible across the ruled page and was not inventoried as text.",
+      "The strip right of the gutter, about x>3220, belongs to fol. 103 and was excluded."
+    ],
+    "uncertainties": [
+      "Readings of the cursive pencil in b002, especially 'out of order', 'run between' and the cancelled '⟦has been⟧', are tentative.",
+      "It is uncertain whether 'a' in b008 is 'a' or 'a' with underline only.",
+      "The superscript after '102' is read as 'b' and may instead be a 'b' with a dot."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "102b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "102b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top left corner. The 'b' is raised, with a dot beneath it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised letter is read as 'b'. The dot beneath it may be punctuation or part of the letter form."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004",
+          "b005",
+          "b006",
+          "b007"
+        ],
+        "type": "continuation_note",
+        "subtype": "descriptive_note_on_facing_page_holding",
+        "literal_text": "fragmentary                         folio                         parts of\n^ MS. is out of order, & ⟦has been⟧ wrongly renumbered. Old ^ numbers run between 187 & 392, & cover ^ adhy. xxi to xliv &\n& beyond.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in pencil.",
+          "'fragmentary' is interlinear above the start of the line. It is keyed by a caret before 'MS.'",
+          "'folio' is interlinear above 'Old'/'numbers'. It is keyed by a caret beneath the line after 'Old'.",
+          "'parts of' is interlinear above 'cover'/'adhy.'. It is keyed by a caret beneath the line after 'cover'.",
+          "The words between '&' and 'wrongly' are struck through.",
+          "A small mark below the line after 'order' may be a comma or a stroke of the '&'.",
+          "A pencil stroke runs right from the final '&' toward the gutter.",
+          "The second line, '& beyond.', is at the left margin under the first line.",
+          "No shelfmark or title appears on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 205,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 339. Dattātreya māhātmya ... By Digambarānucara. Fragment. (left margin 'xliv &')",
+            "evidence": "The pencil stroke from the final '&' leads across the gutter. A matching 'xliv &' appears in the left margin of fol. 103 beside the c. 339 entry, which is also marked 'Fragment.'",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cursive pencil readings are tentative, especially 'out of order', 'run between' and '& cover'.",
+          "The cancelled words are read as 'has been', but this reading is uncertain.",
+          "The ampersands are written as a '+'/'r'-like sign.",
+          "The 'v' before 'cover' is read as '&'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b008"
+        ],
+        "type": "continuation_note",
+        "subtype": "descriptive_note_on_facing_page_holding",
+        "literal_text": "ff. 3-4a, beginning missing. Ritual.",
+        "fields": {
+          "extent": "ff. 3-4a",
+          "subject": "Ritual."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written in ink.",
+          "The 'a' in '4a' is underlined.",
+          "A pencil arrow, with its head pointing left toward this note, crosses the gutter from the left margin of fol. 103.",
+          "No shelfmark or title appears on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 205,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 101 (2)a Dadhisaṃkrāntivratakathā. From the Padma Purāṇa",
+            "evidence": "The arrow begins in the left margin of fol. 103 beside the b. 101 (2) entry. It points to this note on the same horizontal level.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'beginning missing' is likely but cursive."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Main line of the pencil continuation note."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear insertion 'fragmentary', keyed by a caret into b002."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear insertion 'folio', keyed by a caret into b002."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear insertion 'parts of', keyed by a caret into b002."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Cancelled words within b002."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Second line of the same note."
+      },
+      {
+        "block_id": "b008",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Ink note linked by an arrow to a fol. 103 entry."
+      }
+    ],
+    "page_annotations": [
+      "Most of the page is blank ruled paper. Faint mirrored show-through from the reverse leaf is visible and was not transcribed.",
+      "Small ink specks near the upper middle are not text.",
+      "Ticks and 'n/' and 'ām/?' marks right of the gutter belong to fol. 103 and are excluded.",
+      "The bottom part of the page was reviewed and is blank."
+    ],
+    "unresolved_relationships": [
+      "The attachments of r002 and r003 to fol. 103 entries rest on a stroke and an arrow crossing the gutter. They are probable, not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "An ink folio number appears top left. It reads '102' with a raised letter that looks like 'b' or possibly '6'-like, with a dot beneath. The candidate reading '102b.' and its uncertainty note are acceptable."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The pencil main line was checked against tiles 3 and 4. The readings 'MS. is out of order, & ... wrongly renumbered. Old ^ numbers run between 187 & 392, & cover ^ adhy. xxi to xliv &' are consistent with the source but remain cursive and tentative. The final '&' is a looped sign."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'fragmentary' is interlinear above the line start. It is keyed by a caret at the far left before 'MS.' (about x380, y1866)."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'folio' is written above 'Old numbers'. A caret beneath the line after 'Old' (about x1670, y1876) keys it in."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'parts of' is written above the space between 'cover' and 'adhy.'. A caret below the line (about x2559, y1878) keys it in."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Words between '&' and 'wrongly' are struck through. The reading 'has been' is plausible but not secure, and the candidate keeps that uncertainty."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'& beyond.' is the second line at the left, directly under the start of b002."
+      },
+      {
+        "block_id": "b008",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The ink note reads 'ff. 3-4a, beginning missing. Ritual.' The 'a' is underlined. No shelfmark appears on this page."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 205,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 101 (2)a Dadhisaṃkrāntivratakathā. From the Padma Purāṇa",
+            "evidence": "The arrow begins in the left margin of fol. 103 beside the b. 101 (2) entry. It points to this note on the same horizontal level.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 205,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 101 (2) entry (title beginning 'Dadhisaṃ...'; on fol. 103 the title ending appears altered, with a cancelled 'katha' and an interlinear addition, so the full title is not securely read here)",
+            "evidence": "A left-pointing pencil arrow on fol. 103's left margin, level with the b. 101 (2) entry, continues across the gutter. Its head points to this note at about y2330.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The candidate anchor gives a full, diacritic-normalised title, 'Dadhisaṃkrāntivratakathā'. The reduced adjacent overview shows that the title ending was corrected and carries an interlinear addition. That reading is not secure enough to be stated as given.",
+        "source_block_ids": [
+          "b008"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b006"
+        ],
+        "issue": "The cancelled words, read as 'has been', and the cursive pencil readings are tentative.",
+        "next_check": "Inspect at higher magnification or under raking light."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The c. 339 target anchor ('Dattātreya māhātmya ... By Digambarānucara') is read from a reduced adjacent overview. Its spelling and diacritics are not verified.",
+        "next_check": "Check the native-resolution image of fol. 103 at about y1820-1900."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b008"
+        ],
+        "issue": "The exact title and correction of the b. 101 (2) entry on fol. 103 are not legible at overview scale.",
+        "next_check": "Check the native image of fol. 103 at about y2280-2340."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Several non-text specks and short pencil strokes were not inventoried: a dot above b002 at about (828,1733); a dot at about (1841,4288); a short vertical stroke at about (2359,4436); and a dot at about (2227,4130). They appear to be accidental marks, not text.",
+        "next_check": "Confirm under magnification that none is a faint letter or tick."
+      }
+    ],
+    "boundary_review": "The target page runs from about x330 to the gutter at about x3220. Material right of the gutter (ticks, 'n/', 'ām/?', 'xliv &') belongs to fol. 103 and was excluded. b002 and b008 are orphan notes, not holdings. Their attachment to fol. 103 entries rests on a pencil stroke and an arrow crossing the gutter. The alignment is consistent with c. 339 at about y1830 and b. 101 (2) at about y2310 on fol. 103, but the attachments remain probable. Fol. 102 recto is unrelated.",
+    "region_review": {
+      "top": "Only the folio number '102b.' is present. Mirrored show-through is visible but is not text.",
+      "middle": "The ink specks at about (1160-1290, 1320-1370) are not text. The pencil note b002-b007 is at about y1730-1960, and the ink note b008 at about y2280-2380. Below that, only show-through appears.",
+      "bottom": "Reviewed in tiles 5 and 6. No text was found, only a few dots and one short stroke at about (2359,4436), all apparently accidental.",
+      "left_margin": "There is a caret before 'MS.' and the 'fragmentary' insertion. Nothing else was found.",
+      "right_margin": "The stroke from the final '&' runs toward the gutter, and the arrow shaft and head lie at about x3044-3204, y2335. Marks beyond x3220 belong to fol. 103.",
+      "interlinear": "The three pencil insertions ('fragmentary', 'folio', 'parts of') are each keyed by a caret. A small mark below the line after 'order' may be a comma or caret. A dot above the line at about x828 is apparently not text."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        415,
+        335,
+        160,
+        85
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "102b",
+      "features": [
+        "top left corner",
+        "superscript or raised 'b' with dot beneath",
+        "ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        370,
+        1770,
+        2760,
+        120
+      ],
+      "kind_hint": "descriptive_note_main_line",
+      "anchor": "MS. is out of order, & ... wrongly renumbered. Old numbers run between 187 & 392, & cover adhy. xxi to xliv &",
+      "features": [
+        "pencil",
+        "no shelfmark or title on this line",
+        "caret before 'MS.' at left",
+        "caret insertion marks under 'Old' and after 'cover'",
+        "runs to right edge of the written area",
+        "followed by a ruled stroke leading toward the gutter or facing page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        380,
+        1725,
+        255,
+        70
+      ],
+      "kind_hint": "interlinear_insertion",
+      "anchor": "fragmentary",
+      "features": [
+        "pencil",
+        "written above the start of b002",
+        "keyed by a caret before 'MS.'"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        1690,
+        1735,
+        115,
+        60
+      ],
+      "kind_hint": "interlinear_insertion",
+      "anchor": "folio",
+      "features": [
+        "pencil",
+        "written above 'Old' and 'numbers'",
+        "keyed by a caret beneath the line"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2520,
+        1755,
+        190,
+        60
+      ],
+      "kind_hint": "interlinear_insertion",
+      "anchor": "parts of",
+      "features": [
+        "pencil",
+        "written above 'cover' and 'adhy.'",
+        "keyed by a caret beneath the line"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        880,
+        1810,
+        210,
+        50
+      ],
+      "kind_hint": "cancellation",
+      "anchor": "⟦has been⟧",
+      "features": [
+        "struck through in b002 between '&' and 'wrongly'",
+        "reading of cancelled words uncertain"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        405,
+        1885,
+        230,
+        70
+      ],
+      "kind_hint": "continuation",
+      "anchor": "& beyond.",
+      "features": [
+        "pencil",
+        "second line of the b002 note at the left margin"
+      ]
+    },
+    {
+      "id": "b008",
+      "bbox": [
+        435,
+        2280,
+        965,
+        100
+      ],
+      "kind_hint": "descriptive_note",
+      "anchor": "ff. 3-4a, beginning missing. Ritual.",
+      "features": [
+        "ink",
+        "'a' underlined",
+        "no shelfmark or title on this page",
+        "linked by an arrow (see unattached marks)"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "102b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top left corner. The 'b' is raised, with a dot beneath it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised letter is read as 'b'. The dot beneath it may be punctuation or part of the letter form."
+      ],
+      "stable_id": "css-prod-0204-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004",
+        "b005",
+        "b006",
+        "b007"
+      ],
+      "type": "continuation_note",
+      "subtype": "descriptive_note_on_facing_page_holding",
+      "literal_text": "fragmentary                         folio                         parts of\n^ MS. is out of order, & ⟦has been⟧ wrongly renumbered. Old ^ numbers run between 187 & 392, & cover ^ adhy. xxi to xliv &\n& beyond.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in pencil.",
+        "'fragmentary' is interlinear above the start of the line. It is keyed by a caret before 'MS.'",
+        "'folio' is interlinear above 'Old'/'numbers'. It is keyed by a caret beneath the line after 'Old'.",
+        "'parts of' is interlinear above 'cover'/'adhy.'. It is keyed by a caret beneath the line after 'cover'.",
+        "The words between '&' and 'wrongly' are struck through.",
+        "A small mark below the line after 'order' may be a comma or a stroke of the '&'.",
+        "A pencil stroke runs right from the final '&' toward the gutter.",
+        "The second line, '& beyond.', is at the left margin under the first line.",
+        "No shelfmark or title appears on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 205,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 339. Dattātreya māhātmya ... By Digambarānucara. Fragment. (left margin 'xliv &')",
+          "evidence": "The pencil stroke from the final '&' leads across the gutter. A matching 'xliv &' appears in the left margin of fol. 103 beside the c. 339 entry, which is also marked 'Fragment.'",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cursive pencil readings are tentative, especially 'out of order', 'run between' and '& cover'.",
+        "The cancelled words are read as 'has been', but this reading is uncertain.",
+        "The ampersands are written as a '+'/'r'-like sign.",
+        "The 'v' before 'cover' is read as '&'."
+      ],
+      "stable_id": "css-prod-0204-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b008"
+      ],
+      "type": "continuation_note",
+      "subtype": "descriptive_note_on_facing_page_holding",
+      "literal_text": "ff. 3-4a, beginning missing. Ritual.",
+      "fields": {
+        "extent": "ff. 3-4a",
+        "subject": "Ritual."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written in ink.",
+        "The 'a' in '4a' is underlined.",
+        "A pencil arrow, with its head pointing left toward this note, crosses the gutter from the left margin of fol. 103.",
+        "No shelfmark or title appears on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 205,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 101 (2)a Dadhisaṃkrāntivratakathā. From the Padma Purāṇa",
+          "evidence": "The arrow begins in the left margin of fol. 103 beside the b. 101 (2) entry. It points to this note on the same horizontal level.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'beginning missing' is likely but cursive."
+      ],
+      "stable_id": "css-prod-0204-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 205,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 101 (2)a Dadhisaṃkrāntivratakathā. From the Padma Purāṇa",
+          "evidence": "The arrow begins in the left margin of fol. 103 beside the b. 101 (2) entry. It points to this note on the same horizontal level.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 205,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 101 (2) entry (title beginning 'Dadhisaṃ...'; on fol. 103 the title ending appears altered, with a cancelled 'katha' and an interlinear addition, so the full title is not securely read here)",
+          "evidence": "A left-pointing pencil arrow on fol. 103's left margin, level with the b. 101 (2) entry, continues across the gutter. Its head points to this note at about y2330.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The candidate anchor gives a full, diacritic-normalised title, 'Dadhisaṃkrāntivratakathā'. The reduced adjacent overview shows that the title ending was corrected and carries an interlinear addition. That reading is not secure enough to be stated as given.",
+      "source_block_ids": [
+        "b008"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7361f9793c255650745678652b7ffd1bcb8373abec5643d1d7849a0e8b31c789",
+      "bytes": 253380,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fb24cb4e5dc55c2365757d7e0b109e89d49a7c9e1f57f3e12bc3f6d8c8b0de3a",
+      "bytes": 324368,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3008ae7d8fee2866d98dd7d01aa4e233d1d8fa7ad4129d9d17af0c2c4d3452a1",
+      "bytes": 338473,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4b5cf6da796d14eeb1d9c53c887890ad65da9ea049d40f2647951cd1ab39f001",
+      "bytes": 344248,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5815285827d86089b83ed8c54bf5dbadad10ff88d9f4eeb39ffa9e9702985953",
+      "bytes": 337181,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "53908ce7d794e196ea940f36b61e225051e3a6516020d59eb0cc266c07687d02",
+      "bytes": 309074,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/49b33e9e-8f29-454e-b0ee-4fa2b6ec47e5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "57f09d2ac0800a0e7bef48b159404d9e827c9ee2124cdbcab817ae823c2b9104",
+      "bytes": 340347,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f817574a-8672-4445-851a-29e41db5f5d7/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "725494455596db6b0bffa477552d0c2a6b5439971de259c39101259bfea52396",
+      "bytes": 283807,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 203,
+      "folio_label": "fol. 102",
+      "page_id": "f817574a-8672-4445-851a-29e41db5f5d7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32ab6423-724b-41da-8b23-e8ef5256a21e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "96ce986f4cc0fac8f0035476d13df220196c6584b16617f7a35a9a2cc2e8ef6c",
+      "bytes": 262561,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 205,
+      "folio_label": "fol. 103",
+      "page_id": "32ab6423-724b-41da-8b23-e8ef5256a21e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

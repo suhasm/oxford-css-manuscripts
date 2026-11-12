@@ -1,0 +1,1059 @@
+{
+  "source_order": 486,
+  "folio_label": "fol. 243b",
+  "page_id": "9a6ab4c0-fdbb-49c0-8e85-c137987cf158",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "243b",
+    "principal_page_bbox": [
+      300,
+      255,
+      2910,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          315,
+          150,
+          135
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "243b",
+        "features": [
+          "top-left corner",
+          "the 'b' is written superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2660,
+          1370,
+          300,
+          225
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "ṅ/ ś/ ā/",
+        "features": [
+          "pencil",
+          "three letter-plus-slash marks in a row",
+          "not attached to any entry on this page",
+          "possibly keyed to entries on facing fol. 244; not verified"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2870,
+          2480,
+          80,
+          165
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "s/",
+        "features": [
+          "pencil",
+          "single letter-plus-slash mark",
+          "reading of the letter is uncertain (s or ṣ)",
+          "unattached"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          330,
+          3490,
+          2810,
+          190
+        ],
+        "kind_hint": "entry",
+        "anchor": "√ b. 95 (7)c. Vāstuyāgaprayoga (Devagṛhārambhe catuḥṣaṣṭipada°), ff. 1-30, inc. (foll. by five leaves of scraps.",
+        "features": [
+          "ink",
+          "tick in the left margin",
+          "shelfmark has superscript c",
+          "parenthetical alternative title ending in a degree sign",
+          "extent ff. 1-30",
+          "'inc.' abbreviation",
+          "parenthesis opened before 'foll.'",
+          "spans two lines",
+          "right end of second line has 'n.d.: 35: 5/6 f: Beng.'",
+          "no closing parenthesis seen for '(foll. by ...'"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          905,
+          3595,
+          1420,
+          90
+        ],
+        "kind_hint": "incipit",
+        "anchor": "(Begins Tatrādau prāguktadīpavarttyā[?] parīkṣitām",
+        "features": [
+          "on the second line of the b004 entry",
+          "enclosed by a hand-drawn loop or circle",
+          "contains the bracketed query '[?]' as written in the source"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2720,
+          3895,
+          170,
+          310
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "ā/  ś/",
+        "features": [
+          "pencil",
+          "two letter-plus-slash marks arranged diagonally, one above the other",
+          "unattached"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2060,
+          3950,
+          470,
+          80
+        ],
+        "description": "very faint pencil trace and dots below the entry, possibly erased writing; illegible apart from a possible 'sāt...'"
+      },
+      {
+        "bbox": [
+          1340,
+          600,
+          20,
+          40
+        ],
+        "description": "small stray pencil stroke near the top"
+      },
+      {
+        "bbox": [
+          3290,
+          3545,
+          140,
+          50
+        ],
+        "description": "leftward arrow lying on the facing page (fol. 244), beyond the gutter, at the level of the b004 entry; it appears to link that entry to the alphabetical sequence on fol. 244"
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the canvas, beyond the gutter at about x 3200, shows fragments of facing fol. 244: 'c. 4...', 'see s. Viṣṇu...', several 'd.' shelfmarks, ticks and arrows. These fragments are not counted as target-page blocks.",
+      "The b004 entry appears to be an out-of-sequence holding placed on this otherwise blank verso. Fol. 244 shows a matching '...5:5/6 f: Beng' fragment and an arrow near the Vāstuyāgatattva entries.",
+      "Faint ghosting of writing visible throughout the ruled area is show-through from the other side of the leaf, not writing on this page."
+    ],
+    "uncertainties": [
+      "The letter readings of the pencil marks 'ṅ', 's' and 'ś' are uncertain.",
+      "'inc.' and 'five leaves' are read from cursive script and are not certain.",
+      "'Devagṛhārambhe' has an unclear initial letter.",
+      "'Beng.' is an abbreviated and partly unclear reading.",
+      "Whether the pencil slash marks relate to entries on fol. 244 or to this page is undetermined."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "243b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": "out_of_sequence_entry_on_verso",
+        "literal_text": "√ b. 95 (7)c. Vāstuyāgaprayoga (Devagṛhārambhe catuḥṣaṣṭipada°), ff. 1-30, inc. (foll. by five leaves\nof scraps. (Begins Tatrādau prāguktadīpavarttyā[?] parīkṣitām          n.d.: 35: 5/6 f: Beng.",
+        "fields": {
+          "shelfmark": "b. 95 (7)c",
+          "title": "Vāstuyāgaprayoga (Devagṛhārambhe catuḥṣaṣṭipada°)",
+          "date": "n.d.",
+          "extent": "ff. 1-30, inc. (foll. by five leaves of scraps.",
+          "lines": "5/6",
+          "script": "Beng.",
+          "incipit": "Tatrādau prāguktadīpavarttyā[?] parīkṣitām"
+        },
+        "normalized_title": "Vāstuyāgaprayoga",
+        "annotations": [
+          "Ink tick (√) in the left margin before the shelfmark.",
+          "The 'c' after '(7)' is written superscript.",
+          "The alternative title in parentheses ends with a degree sign (°).",
+          "The '(Begins ... parīkṣitām' passage on the second line is enclosed by a hand-drawn loop. The loop ends after 'parīkṣitām'.",
+          "The '[?]' after 'prāguktadīpavarttyā' is written in the source. It is not an editorial mark.",
+          "The '(' before 'foll.' has no closing parenthesis visible.",
+          "The figure '35' stands before '5/6 f'. Its field meaning is not stated on the page, so it is not assigned to a field."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 487,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "leftward arrow beside 'd. 775 (7) Vāstupradīpa' / '√c. 384 (3) Vāstuyāgatattva'",
+            "evidence": "A leftward arrow on facing fol. 244 lies at the level of this entry, near the Vāstu- entries in the alphabetical sequence. This suggests the entry is meant for insertion there.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The shelfmark letter is read as 'b.'. It could possibly be another letter.",
+          "'inc.' is cursive, and the stop is overlapped by the '(' stroke.",
+          "'five leaves' is a cursive reading.",
+          "The initial letter of 'Devagṛhārambhe' is unclear. It resembles O/D.",
+          "'Beng.' is abbreviated and partly unclear.",
+          "'Vāstuyāgaprayoga': the medial letters are cursive.",
+          "The field role of the '35' in 'n.d.: 35: 5/6 f' is not stated.",
+          "'5/6' is placed in the lines field by analogy with the page's own pattern 'n.d.: … : … f'. This is uncertain."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "243b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner.",
+          "The 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_letter_slash_marks",
+        "literal_text": "ṅ/ ś/ ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Three letter-plus-slash marks in a row, at mid-upper right of the page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The letter readings are uncertain, especially 'ṅ'.",
+          "The purpose is unknown. These may be keys to facing-page entries, but this is not verified."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_letter_slash_mark",
+        "literal_text": "ṣ/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Single letter with a long slash, near the right edge.",
+          "A dot appears beneath the letter."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The letter could be read as s or ṣ. The dot below suggests ṣ, but the reading is not certain."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_letter_slash_marks",
+        "literal_text": "ā/\n  ś/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Two marks arranged diagonally, one above the other, below the b004 entry."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The letter readings are uncertain.",
+          "It is undetermined whether these marks relate to the entry above."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "faint_possibly_erased_pencil",
+        "literal_text": "[illegible] sāt[illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Very faint pencil trace with dots below the entry.",
+          "Possibly erased writing."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Largely illegible. Only a possible 'sāt…' can be made out.",
+          "This may be show-through rather than writing on this page."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2060,
+          3940,
+          470,
+          90
+        ],
+        "kind_hint": "faint_pencil_trace",
+        "anchor": "sāt…",
+        "features": [
+          "very faint",
+          "dots to the left",
+          "possibly erased",
+          "below the b004 entry"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Unattached pencil marks."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Unattached pencil mark."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Main holding entry spanning two lines."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The incipit lies on the second line of the same entry and is securely part of it."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Unattached pencil marks."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Added block for a faint trace listed among the inventory's unattached marks."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper. Ghosting across the ruled area is show-through from the other side of the leaf.",
+      "There is a small stray pencil stroke near the top at approximately [1340,600], with no text.",
+      "The right portion of the canvas beyond the gutter (x≈3200+) shows facing fol. 244 fragments ('c. 4…', 'see s. Viṣṇu…', 'd.' shelfmarks, ticks, arrows). These were not transcribed as target records.",
+      "The leftward arrow at approximately [3290,3545] lies on fol. 244 at the level of the b004 entry."
+    ],
+    "unresolved_relationships": [
+      "The exact insertion point of r001 in the fol. 244 sequence is unconfirmed. It is probably near the Vāstuyāgatattva / Vāstupradīpa entries.",
+      "The relation of the pencil letter/slash marks (r003–r005) to entries on this page or fol. 244 is undetermined."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The folio number '243' with a superscript 'b' is in the top-left corner at about [380,315]. The record is correct."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Pencil 'ṅ/ ś/ ā/' at about x 2660–2960, y 1370–1590. The first letter shows a mark above an 'n'-like form, so 'ṅ' is plausible but not certain. The record already flags this. No attachment to an entry on this page is visible."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A single pencil letter with a long slash at about [2870,2480]. A dot is visible below the letter, which favours 'ṣ'. The candidate's literal 'ṣ/' presents this as resolved, while its own uncertainty says otherwise. The literal is marked as uncertain below."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The two-line ink entry is verified in the native tiles. Line 1 runs from '√ b. 95 (7)c.' to 'ff. 1-30, inc. (foll. by five leaves'. Line 2 runs from 'of scraps.' to 'parīkṣitām', followed by 'n.d.: 35: 5/6 f: Beng.' at the right. The left-margin tick is a thin faint stroke at about x 340. 'five' could also be read as 'fire', and the record keeps this uncertain. No cancellation is visible."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "A hand-drawn loop encloses '(Begins Tatrādau prāguktadīpavarttyā[?] parīkṣitām' and closes after 'parīkṣitām'. The '[?]' is written in the source. The incipit is correctly grouped with r001."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Pencil 'ā/' with 'ś/' below and to its right, at about x 2720–2890, y 3895–4200. The record is correct and the marks are unattached."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "A very faint trace at about x 2060–2530, y 3940–4030, with dots to the left. A possible 'sāt…' is visible, followed by a few more faint letters. It is treated as illegible, possibly erased writing. Show-through cannot be excluded."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "literal_text",
+        "before": "ṣ/",
+        "after": "[ṣ?]/",
+        "reason": "A dot below the letter is visible, so 'ṣ' is the likelier reading. The dot could still be a stray mark, so 's' remains possible. Following the inventory and the record's own uncertainty note, the literal should not present the reading as resolved.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The attachment to the fol. 244 sequence rests on a leftward arrow on fol. 244, level with the 'd. 775 (7) Vāstupradīpa' / '√c. 384 (3) Vāstuyāgatattva' entries. The inventory note says fol. 244 has a 'matching …5:5/6 f: Beng' fragment. That fragment is most likely this page's own text appearing at the edge of the adjacent photograph, so it is not independent evidence.",
+        "next_check": "Examine fol. 244 at native resolution to confirm the arrow's target and whether any insertion mark corresponds to it."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The field role of '35' in 'n.d.: 35: 5/6 f: Beng.' is not stated on the page. The fol. 243 and fol. 244 entries follow a 'n.d.: N : N : script' pattern, but this page does not resolve the role of '35'. The assignment of '5/6' to the lines field also remains uncertain.",
+        "next_check": "Compare with the catalogue's stated field conventions, if they are given elsewhere."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b003",
+          "b006"
+        ],
+        "issue": "The purpose of the pencil letter-slash marks is unknown. Similar marks ('ā/', 's/') appear in the outer margins of fol. 243 and fol. 244, so these may relate to facing-page entries. This is unverified.",
+        "next_check": "Check the margin marks on the neighbouring leaves for a systematic keying pattern."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter at about x 3180–3220. Beyond it are fragments of fol. 244: 'c. 4…', 'see s. Viṣṇu…', 'd.' shelfmarks, ticks, a rightward arrow at about y 2140 and a leftward arrow at about [3290,3545]. None of these is transcribed as a target record. The leftward arrow is noted only as relationship evidence. Show-through is visible throughout the ruled area and was not transcribed.",
+    "region_review": {
+      "top": "Folio number 243b, plus a small stray pencil stroke at about [1340,600] with no text. The stroke is noted in page_annotations. A dot near the top edge at about x 3050 has no text.",
+      "middle": "Only the pencil marks b002 and b003 and scattered stray dots are present. The rest is show-through.",
+      "bottom": "The b004/b005 entry, the b006 marks and the faint b901 trace. Below about y 4200 the page is blank ruled paper down to its bottom edge at about y 4820.",
+      "left_margin": "Only the faint tick before 'b. 95'. No other marginal writing.",
+      "right_margin": "Pencil marks b002, b003 and b006 lie toward the right side. The text beyond the gutter belongs to fol. 244.",
+      "interlinear": "No interlinear additions or cancellations were found. The loop around the incipit lies on the second line of the entry."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        315,
+        150,
+        135
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "243b",
+      "features": [
+        "top-left corner",
+        "the 'b' is written superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2660,
+        1370,
+        300,
+        225
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "ṅ/ ś/ ā/",
+      "features": [
+        "pencil",
+        "three letter-plus-slash marks in a row",
+        "not attached to any entry on this page",
+        "possibly keyed to entries on facing fol. 244; not verified"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2870,
+        2480,
+        80,
+        165
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "s/",
+      "features": [
+        "pencil",
+        "single letter-plus-slash mark",
+        "reading of the letter is uncertain (s or ṣ)",
+        "unattached"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        330,
+        3490,
+        2810,
+        190
+      ],
+      "kind_hint": "entry",
+      "anchor": "√ b. 95 (7)c. Vāstuyāgaprayoga (Devagṛhārambhe catuḥṣaṣṭipada°), ff. 1-30, inc. (foll. by five leaves of scraps.",
+      "features": [
+        "ink",
+        "tick in the left margin",
+        "shelfmark has superscript c",
+        "parenthetical alternative title ending in a degree sign",
+        "extent ff. 1-30",
+        "'inc.' abbreviation",
+        "parenthesis opened before 'foll.'",
+        "spans two lines",
+        "right end of second line has 'n.d.: 35: 5/6 f: Beng.'",
+        "no closing parenthesis seen for '(foll. by ...'"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        905,
+        3595,
+        1420,
+        90
+      ],
+      "kind_hint": "incipit",
+      "anchor": "(Begins Tatrādau prāguktadīpavarttyā[?] parīkṣitām",
+      "features": [
+        "on the second line of the b004 entry",
+        "enclosed by a hand-drawn loop or circle",
+        "contains the bracketed query '[?]' as written in the source"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2720,
+        3895,
+        170,
+        310
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "ā/  ś/",
+      "features": [
+        "pencil",
+        "two letter-plus-slash marks arranged diagonally, one above the other",
+        "unattached"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2060,
+        3940,
+        470,
+        90
+      ],
+      "kind_hint": "faint_pencil_trace",
+      "anchor": "sāt…",
+      "features": [
+        "very faint",
+        "dots to the left",
+        "possibly erased",
+        "below the b004 entry"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": "out_of_sequence_entry_on_verso",
+      "literal_text": "√ b. 95 (7)c. Vāstuyāgaprayoga (Devagṛhārambhe catuḥṣaṣṭipada°), ff. 1-30, inc. (foll. by five leaves\nof scraps. (Begins Tatrādau prāguktadīpavarttyā[?] parīkṣitām          n.d.: 35: 5/6 f: Beng.",
+      "fields": {
+        "shelfmark": "b. 95 (7)c",
+        "title": "Vāstuyāgaprayoga (Devagṛhārambhe catuḥṣaṣṭipada°)",
+        "date": "n.d.",
+        "extent": "ff. 1-30, inc. (foll. by five leaves of scraps.",
+        "lines": "5/6",
+        "script": "Beng.",
+        "incipit": "Tatrādau prāguktadīpavarttyā[?] parīkṣitām"
+      },
+      "normalized_title": "Vāstuyāgaprayoga",
+      "annotations": [
+        "Ink tick (√) in the left margin before the shelfmark.",
+        "The 'c' after '(7)' is written superscript.",
+        "The alternative title in parentheses ends with a degree sign (°).",
+        "The '(Begins ... parīkṣitām' passage on the second line is enclosed by a hand-drawn loop. The loop ends after 'parīkṣitām'.",
+        "The '[?]' after 'prāguktadīpavarttyā' is written in the source. It is not an editorial mark.",
+        "The '(' before 'foll.' has no closing parenthesis visible.",
+        "The figure '35' stands before '5/6 f'. Its field meaning is not stated on the page, so it is not assigned to a field."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 487,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "leftward arrow beside 'd. 775 (7) Vāstupradīpa' / '√c. 384 (3) Vāstuyāgatattva'",
+          "evidence": "A leftward arrow on facing fol. 244 lies at the level of this entry, near the Vāstu- entries in the alphabetical sequence. This suggests the entry is meant for insertion there.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The shelfmark letter is read as 'b.'. It could possibly be another letter.",
+        "'inc.' is cursive, and the stop is overlapped by the '(' stroke.",
+        "'five leaves' is a cursive reading.",
+        "The initial letter of 'Devagṛhārambhe' is unclear. It resembles O/D.",
+        "'Beng.' is abbreviated and partly unclear.",
+        "'Vāstuyāgaprayoga': the medial letters are cursive.",
+        "The field role of the '35' in 'n.d.: 35: 5/6 f' is not stated.",
+        "'5/6' is placed in the lines field by analogy with the page's own pattern 'n.d.: … : … f'. This is uncertain."
+      ],
+      "stable_id": "css-prod-0486-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "243b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner.",
+        "The 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0486-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_letter_slash_marks",
+      "literal_text": "ṅ/ ś/ ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Three letter-plus-slash marks in a row, at mid-upper right of the page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The letter readings are uncertain, especially 'ṅ'.",
+        "The purpose is unknown. These may be keys to facing-page entries, but this is not verified."
+      ],
+      "stable_id": "css-prod-0486-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_letter_slash_mark",
+      "literal_text": "ṣ/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Single letter with a long slash, near the right edge.",
+        "A dot appears beneath the letter."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The letter could be read as s or ṣ. The dot below suggests ṣ, but the reading is not certain."
+      ],
+      "stable_id": "css-prod-0486-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_letter_slash_marks",
+      "literal_text": "ā/\n  ś/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Two marks arranged diagonally, one above the other, below the b004 entry."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The letter readings are uncertain.",
+        "It is undetermined whether these marks relate to the entry above."
+      ],
+      "stable_id": "css-prod-0486-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "faint_possibly_erased_pencil",
+      "literal_text": "[illegible] sāt[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Very faint pencil trace with dots below the entry.",
+        "Possibly erased writing."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Largely illegible. Only a possible 'sāt…' can be made out.",
+        "This may be show-through rather than writing on this page."
+      ],
+      "stable_id": "css-prod-0486-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "ṣ/",
+      "after": "[ṣ?]/",
+      "reason": "A dot below the letter is visible, so 'ṣ' is the likelier reading. The dot could still be a stray mark, so 's' remains possible. Following the inventory and the record's own uncertainty note, the literal should not present the reading as resolved.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9a6ab4c0-fdbb-49c0-8e85-c137987cf158.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a6ab4c0-fdbb-49c0-8e85-c137987cf158/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "544e6a32140f5d9b9eaaf3c943ddd24b844ec7343f7b01cbec96ab008e3ca190",
+      "bytes": 254034,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a6ab4c0-fdbb-49c0-8e85-c137987cf158/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "398b12fcd55bd8d65418fa5cb5f6617c40547f3dbf6a155d5fc7b4443fcd971a",
+      "bytes": 300698,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a6ab4c0-fdbb-49c0-8e85-c137987cf158/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "87e962344a75f58a435752bbdd624a7b7026d98e7b75250f56c556e87bc96392",
+      "bytes": 298905,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a6ab4c0-fdbb-49c0-8e85-c137987cf158/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a3d2fc0ef0881496484678163c019d68c129e59995839195568669036f80a541",
+      "bytes": 288459,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a6ab4c0-fdbb-49c0-8e85-c137987cf158/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f2f0ca03e0b28e26a15799072ad0983dfe7f17a47a35887fd846356d584cf64a",
+      "bytes": 268108,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a6ab4c0-fdbb-49c0-8e85-c137987cf158/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e8fd01f0bdee852d2fb1713a1832da0f4c7685398042ef17073e680d038b7e5c",
+      "bytes": 331018,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9a6ab4c0-fdbb-49c0-8e85-c137987cf158/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "57a6d6973950040206339b25b140b36ef74daee43cbd59c094d1ea2299e59c6c",
+      "bytes": 337176,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dc496706-60cc-49a5-8abd-27868c99eebe/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8dfd4f261c378169107e38bc26f89a496c5e6cfedb5b092bf543ebf4245396d3",
+      "bytes": 253804,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 485,
+      "folio_label": "fol. 243",
+      "page_id": "dc496706-60cc-49a5-8abd-27868c99eebe",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2191a790-275f-4173-82ec-b7fe65be3131/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0846a2a5a2999f46161a89a967c0e768d64da59c7e352498a1cdcd21adfbc4ce",
+      "bytes": 253458,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 487,
+      "folio_label": "fol. 244",
+      "page_id": "2191a790-275f-4173-82ec-b7fe65be3131",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

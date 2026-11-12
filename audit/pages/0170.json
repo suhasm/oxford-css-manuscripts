@@ -1,0 +1,1750 @@
+{
+  "source_order": 170,
+  "folio_label": "fol. 85b",
+  "page_id": "3927e93c-9f74-411d-bb53-a494df26a896",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "85b",
+    "principal_page_bbox": [
+      285,
+      285,
+      2860,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          330,
+          340,
+          120,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "85b",
+        "features": [
+          "top-left corner",
+          "pencil/ink numeral with superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          820,
+          1585,
+          530,
+          100
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff 2-93 (XVII cent. ?).",
+        "features": [
+          "isolated line in middle of ruled page",
+          "extent and date note",
+          "question mark in date",
+          "no heading or shelfmark on this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          425,
+          2420,
+          2320,
+          110
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 32-39/ of large MS., work complete(?). At end 20 stray leaves ...",
+        "features": [
+          "single long line",
+          "extent statement",
+          "parenthetical query",
+          "ends 'mostly on nyāya'",
+          "no shelfmark on this page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3025,
+          1575,
+          195,
+          70
+        ],
+        "description": "Left-pointing arrow drawn across the gutter. The arrowhead is on the target-page side near the gutter, and the tail runs into the facing page. It is level with b002 and with the facing-page lines ticked '√c.'. It may belong to the facing page, fol. 86."
+      },
+      {
+        "id_hint": "facing",
+        "bbox": [
+          3245,
+          2450,
+          110,
+          60
+        ],
+        "description": "Left-pointing arrow on the facing page just beyond the gutter. It is level with b003 and is not on the target page."
+      }
+    ],
+    "boundary_notes": [
+      "Gutter at about x=3140. Everything to its right is fol. 86 (shelfmarks 'V. c 391(3)', 'ā/', 'd.880', 'd.907', 'd.811', '√c.', 'Xd.', 'ā/?', 'ś/'), so it is not transcribed as target blocks.",
+      "b002 and b003 appear to be notes keyed by arrows to entries on the facing page fol. 86. Attachment is inferred from arrow position only.",
+      "The cross-gutter arrow near y≈1600 is ambiguous as to which page it belongs to."
+    ],
+    "uncertainties": [
+      "The reading of b002 'XVII cent. ?' is from cursive pencil and may be unclear.",
+      "In b003, 'large MS.' and 'work complete(?)' are uncertain readings of rapid cursive.",
+      "There is faint show-through from the reverse side across the page. It is not treated as text."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "85b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "85b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner. Written as '85' with a raised 'b'. There is a small dot below the 'b'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The dot below the superscript may be punctuation or a stray mark."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_and_date_note",
+        "literal_text": "ff 2-93 (XVII cent. ?).",
+        "fields": {
+          "extent": "ff 2-93",
+          "date": "XVII cent. ?"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Isolated line in the middle of the ruled page. There is no shelfmark or title on this page.",
+          "It is level with the left-pointing arrow (b901) near the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 171,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 223 (1) Jīvanmuktiviveka / √c. 235(2)",
+            "evidence": "A cross-gutter arrow at the same height points toward this note from the facing-page entries ticked '√c.'. Fol. 86 has an arrow at its left edge between c. 223 (1) and c. 235 (2).",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+          "It is unclear which facing-page entry the note belongs to: c. 223 (1) or c. 235 (2)."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_and_contents_note",
+        "literal_text": "ff. 32-39/ of large MS., work complete(?). At end 20 stray leaves from various MSS., mostly on nyāya",
+        "fields": {
+          "extent": "ff. 32-39/ of large MS."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single long line written across the page. There is no shelfmark on this page.",
+          "It is level with a left-pointing arrow on the facing page just beyond the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 171,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 85 Jñānakarmādinirūpaṇa",
+            "evidence": "An arrow on fol. 86 at the same height points left from the b. 85 entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'large MS.' is a rapid cursive reading.",
+          "'complete(?)' is also uncertain; the letters look like 'comblb(e)'.",
+          "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+          "The line has no terminal punctuation after 'nyāya'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Left-pointing pencil arrow drawn across the gutter. The arrowhead is on the target page; the tail runs onto fol. 86.",
+          "It is level with b002 and with the fol. 86 entries ticked '√c.'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 171,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 223 (1) / √c. 235(2)",
+            "evidence": "The arrow position links the facing-page entries to b002.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The arrow may belong to the facing-page entry apparatus rather than to the target page."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3030,
+          1590,
+          190,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "left-pointing arrow across gutter",
+        "features": [
+          "pencil",
+          "arrowhead on target side near gutter at x≈3145",
+          "tail continues onto fol. 86"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Extent and date note, probably keyed by arrow to fol. 86."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Extent and contents note, probably keyed by arrow to fol. 86 b. 85."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Added block for the cross-gutter arrow listed in the inventory's unattached marks."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is ruled and blank on image review. Faint show-through from the reverse is not transcribed.",
+      "Material right of the gutter (x≈3145) belongs to fol. 86 and is not transcribed. This includes 'V. c 391(3)', 'ā/', 'd. 880', 'd. 907', 'd. 811', '√c.', '√d.', 'ā/?' and 'ś/', as well as the arrow at about y≈2460."
+    ],
+    "unresolved_relationships": [
+      "The attachment of b002 to a specific fol. 86 entry (c. 223 (1) or c. 235 (2)) is uncertain.",
+      "The attachment of b003 to fol. 86 b. 85 is inferred from arrow position only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '85' with a raised 'b' and a dot below, in the top-left corner. The reading matches the source image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Single pencil line 'ff 2-93 (XVII cent. ?).' at about y≈1590-1680. The roman numeral is written small and cursive. It lies level with the second '√c.' row on fol. 86 rather than the first, so the attachment needs refining (see changes)."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Single long line from about x≈430 to x≈2735, y≈2440-2500. The text is represented, but several readings in the candidate are falsely certain: 'large', the word after 'work' (which shows a parenthesised element that may be '(e)' rather than '(?)'), and 'MSS.'. The line is level with the fol. 86 arrow at y≈2460 and with the b. 85 row."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Cross-gutter pencil arrow. The arrowhead is at x≈3034, on the target side of the gutter (x≈3144), and the tail runs to x≈3215 on fol. 86. It is level with the second '√c.' entry on fol. 86 (c. 235(2)) and with b002. It is the same mark as the arrow visible at the left edge of the fol. 86 overview."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 171,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 223 (1) Jīvanmuktiviveka / √c. 235(2)",
+            "evidence": "A cross-gutter arrow at the same height points toward this note from the facing-page entries ticked '√c.'. Fol. 86 has an arrow at its left edge between c. 223 (1) and c. 235 (2).",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 171,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 235(2) (second '√c.' row, a ditto line under Jīvanmuktiviveka)",
+            "evidence": "At native resolution the cross-gutter arrow (b901, y≈1600-1625) and b002 (y≈1590-1680) are level with the second '√c.' row (y≈1610-1650). The first '√c.' row (c. 223(1)) is at about y≈1500-1540. The attachment is inferred from arrow position only.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The native tile places the arrow and the note level with c. 235(2), not midway between the two ticked rows.",
+        "source_block_ids": [
+          "b002",
+          "b901"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+          "It is unclear which facing-page entry the note belongs to: c. 223 (1) or c. 235 (2)."
+        ],
+        "after": [
+          "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+          "The roman numeral is written small (it looks like 'xvii'). Its capitalisation in the literal is a convention, not a secure observation.",
+          "The attachment to c. 235(2) is probable from level position. It is not certain, because c. 223(1) is the adjacent ticked row."
+        ],
+        "reason": "The source image shows the arrow is level with c. 235(2). The original uncertainty about the date script is preserved.",
+        "source_block_ids": [
+          "b002",
+          "b901"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff. 32-39/ of large MS., work complete(?). At end 20 stray leaves from various MSS., mostly on nyāya",
+        "after": "ff. 32-39/ of [large?] MS., work [complete?]. At end 20 stray leaves from various [MSS.?], mostly on nyāya",
+        "reason": "The cursive forms of these three words are not secure. The image shows 'comblb(e)'-like letters, with a parenthesised element that may be '(e)' rather than '(?)'. 'MSS.' resembles 'M81.'. Uncertainty markers are needed instead of certain readings.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "'large MS.' is a rapid cursive reading.",
+          "'complete(?)' is also uncertain; the letters look like 'comblb(e)'.",
+          "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+          "The line has no terminal punctuation after 'nyāya'."
+        ],
+        "after": [
+          "'large' is a rapid cursive reading; the letters look like 'layr'/'lrge'.",
+          "The word after 'work' looks like 'comblb' followed by a parenthesised element. That element may be '(e)' or '(?)', so it is not securely a query mark.",
+          "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+          "The line has no terminal punctuation after 'nyāya'."
+        ],
+        "reason": "This records the parenthesis ambiguity rather than asserting '(?)'.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 171,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 223 (1) / √c. 235(2)",
+            "evidence": "The arrow position links the facing-page entries to b002.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 171,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 235(2)",
+            "evidence": "The arrow is level with the second '√c.' row on fol. 86 and with b002 on the target page. The arrowhead points toward b002.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The native tile shows the arrow level with c. 235(2).",
+        "source_block_ids": [
+          "b901",
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "Attachment to c. 235(2) rather than c. 223(1) rests on vertical alignment only.",
+        "next_check": "Compare with the fol. 86 entry text for c. 235(2) (a ditto line with '3') and any catalogue slips for c. 235."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The readings 'large', the word after 'work' with its parenthesised element, and 'MSS.' remain uncertain. The attachment to fol. 86 b. 85 is inferred from the facing-page arrow at y≈2460.",
+        "next_check": "Higher-contrast inspection of the cursive; check the fol. 86 b. 85 row, which carries its own marginal mark."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3144. All shelfmarks and ticks to the right belong to fol. 86 and are excluded. These are 'V. c 391(3)', 'ā/', 'd.880', 'd.907', 'd.811', '√c.', the crossed tick on 'd.573(2)', 'ā/?' and 'ś/'. The cross-gutter arrow b901 has its head on the target side and is kept as a target-page mark, with page ownership still ambiguous. The arrow at x≈3250-3345, y≈2460 lies wholly on fol. 86 and is excluded, but it is used as evidence for b003's attachment. Note that the candidate page annotation lists '√d.' where the source shows a crossed tick before 'd.'.",
+    "region_review": {
+      "top": "Only the folio number 85b (with a dot below the b) is present; the rest of the top area is blank.",
+      "middle": "b002 at y≈1630, b901 arrow near the gutter at y≈1610, and b003 at y≈2470. Otherwise the area is ruled and blank.",
+      "bottom": "Ruled and blank from y≈2550 to the page foot at y≈4870. Only paper specks and faint show-through are visible; no text.",
+      "left_margin": "No writing; the outer edge is blank.",
+      "right_margin": "The gutter area holds only the b901 arrow. No other target-side marks.",
+      "interlinear": "No interlinear additions, cancellations or ditto marks on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        330,
+        340,
+        120,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "85b",
+      "features": [
+        "top-left corner",
+        "pencil/ink numeral with superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        820,
+        1585,
+        530,
+        100
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff 2-93 (XVII cent. ?).",
+      "features": [
+        "isolated line in middle of ruled page",
+        "extent and date note",
+        "question mark in date",
+        "no heading or shelfmark on this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        425,
+        2420,
+        2320,
+        110
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 32-39/ of large MS., work complete(?). At end 20 stray leaves ...",
+      "features": [
+        "single long line",
+        "extent statement",
+        "parenthetical query",
+        "ends 'mostly on nyāya'",
+        "no shelfmark on this page"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3030,
+        1590,
+        190,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "left-pointing arrow across gutter",
+      "features": [
+        "pencil",
+        "arrowhead on target side near gutter at x≈3145",
+        "tail continues onto fol. 86"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "85b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner. Written as '85' with a raised 'b'. There is a small dot below the 'b'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The dot below the superscript may be punctuation or a stray mark."
+      ],
+      "stable_id": "css-prod-0170-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_and_date_note",
+      "literal_text": "ff 2-93 (XVII cent. ?).",
+      "fields": {
+        "extent": "ff 2-93",
+        "date": "XVII cent. ?"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Isolated line in the middle of the ruled page. There is no shelfmark or title on this page.",
+        "It is level with the left-pointing arrow (b901) near the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 223 (1) Jīvanmuktiviveka / √c. 235(2)",
+          "evidence": "A cross-gutter arrow at the same height points toward this note from the facing-page entries ticked '√c.'. Fol. 86 has an arrow at its left edge between c. 223 (1) and c. 235 (2).",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+        "It is unclear which facing-page entry the note belongs to: c. 223 (1) or c. 235 (2)."
+      ],
+      "stable_id": "css-prod-0170-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_and_contents_note",
+      "literal_text": "ff. 32-39/ of large MS., work complete(?). At end 20 stray leaves from various MSS., mostly on nyāya",
+      "fields": {
+        "extent": "ff. 32-39/ of large MS."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single long line written across the page. There is no shelfmark on this page.",
+        "It is level with a left-pointing arrow on the facing page just beyond the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 85 Jñānakarmādinirūpaṇa",
+          "evidence": "An arrow on fol. 86 at the same height points left from the b. 85 entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'large MS.' is a rapid cursive reading.",
+        "'complete(?)' is also uncertain; the letters look like 'comblb(e)'.",
+        "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+        "The line has no terminal punctuation after 'nyāya'."
+      ],
+      "stable_id": "css-prod-0170-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Left-pointing pencil arrow drawn across the gutter. The arrowhead is on the target page; the tail runs onto fol. 86.",
+        "It is level with b002 and with the fol. 86 entries ticked '√c.'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 223 (1) / √c. 235(2)",
+          "evidence": "The arrow position links the facing-page entries to b002.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The arrow may belong to the facing-page entry apparatus rather than to the target page."
+      ],
+      "stable_id": "css-prod-0170-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 223 (1) Jīvanmuktiviveka / √c. 235(2)",
+          "evidence": "A cross-gutter arrow at the same height points toward this note from the facing-page entries ticked '√c.'. Fol. 86 has an arrow at its left edge between c. 223 (1) and c. 235 (2).",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 235(2) (second '√c.' row, a ditto line under Jīvanmuktiviveka)",
+          "evidence": "At native resolution the cross-gutter arrow (b901, y≈1600-1625) and b002 (y≈1590-1680) are level with the second '√c.' row (y≈1610-1650). The first '√c.' row (c. 223(1)) is at about y≈1500-1540. The attachment is inferred from arrow position only.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The native tile places the arrow and the note level with c. 235(2), not midway between the two ticked rows.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+        "It is unclear which facing-page entry the note belongs to: c. 223 (1) or c. 235 (2)."
+      ],
+      "after": [
+        "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+        "The roman numeral is written small (it looks like 'xvii'). Its capitalisation in the literal is a convention, not a secure observation.",
+        "The attachment to c. 235(2) is probable from level position. It is not certain, because c. 223(1) is the adjacent ticked row."
+      ],
+      "reason": "The source image shows the arrow is level with c. 235(2). The original uncertainty about the date script is preserved.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 32-39/ of large MS., work complete(?). At end 20 stray leaves from various MSS., mostly on nyāya",
+      "after": "ff. 32-39/ of [large?] MS., work [complete?]. At end 20 stray leaves from various [MSS.?], mostly on nyāya",
+      "reason": "The cursive forms of these three words are not secure. The image shows 'comblb(e)'-like letters, with a parenthesised element that may be '(e)' rather than '(?)'. 'MSS.' resembles 'M81.'. Uncertainty markers are needed instead of certain readings.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "'large MS.' is a rapid cursive reading.",
+        "'complete(?)' is also uncertain; the letters look like 'comblb(e)'.",
+        "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+        "The line has no terminal punctuation after 'nyāya'."
+      ],
+      "after": [
+        "'large' is a rapid cursive reading; the letters look like 'layr'/'lrge'.",
+        "The word after 'work' looks like 'comblb' followed by a parenthesised element. That element may be '(e)' or '(?)', so it is not securely a query mark.",
+        "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+        "The line has no terminal punctuation after 'nyāya'."
+      ],
+      "reason": "This records the parenthesis ambiguity rather than asserting '(?)'.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 223 (1) / √c. 235(2)",
+          "evidence": "The arrow position links the facing-page entries to b002.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 235(2)",
+          "evidence": "The arrow is level with the second '√c.' row on fol. 86 and with b002 on the target page. The arrowhead points toward b002.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The native tile shows the arrow level with c. 235(2).",
+      "source_block_ids": [
+        "b901",
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 223 (1) Jīvanmuktiviveka / √c. 235(2)",
+          "evidence": "A cross-gutter arrow at the same height points toward this note from the facing-page entries ticked '√c.'. Fol. 86 has an arrow at its left edge between c. 223 (1) and c. 235 (2).",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 235(2) (second '√c.' row, ditto line under Jīvanmuktiviveka)",
+          "evidence": "At native resolution the cross-gutter arrow (b901, y≈1600-1625) and b002 (y≈1590-1675) are level with the second '√c.' row (y≈1605-1650). The first row, c. 223(1), is at about y≈1490-1540. The attachment is inferred from position only. The facing row's 'n.d. : 92' is consistent with 'ff 2-93' but is not a written link.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Fresh native reading of vertical alignment.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0170-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+        "It is unclear which facing-page entry the note belongs to: c. 223 (1) or c. 235 (2)."
+      ],
+      "after": [
+        "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+        "The roman numeral is written small (it looks like 'xvii'). Its capitalisation in the literal is a convention, not a secure observation.",
+        "The attachment to c. 235(2) is probable from level position. It is not certain, because c. 223(1) is the adjacent ticked row."
+      ],
+      "reason": "Refines the attachment question; the doubt is kept.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0170-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 223 (1) / √c. 235(2)",
+          "evidence": "The arrow position links the facing-page entries to b002.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 171,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 235(2)",
+          "evidence": "The arrow is level with the second '√c.' row on fol. 86 and with b002 on the target page. The arrowhead points toward b002.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Native alignment.",
+      "source_block_ids": [
+        "b901",
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0170-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 32-39/ of large MS., work complete(?). At end 20 stray leaves from various MSS., mostly on nyāya",
+      "after": "ff. 32-39/ of [large?] MS., work [complete(?)?]. At end 20 stray leaves from various [MSS.?], mostly on nyāya",
+      "reason": "These cursive forms are not secure. The bracket keeps the parenthesised element, whose content is uncertain.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0170-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "'large MS.' is a rapid cursive reading.",
+        "'complete(?)' is also uncertain; the letters look like 'comblb(e)'.",
+        "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+        "The line has no terminal punctuation after 'nyāya'."
+      ],
+      "after": [
+        "'large' is a rapid cursive reading; the letters look like 'layr'/'lrge'.",
+        "The word after 'work' looks like 'comblb' followed by a parenthesised element. That element may be '(e)' or '(?)', so it is not securely a query mark.",
+        "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+        "The line has no terminal punctuation after 'nyāya'.",
+        "The attachment to b. 85 rests on a level arrow on the fol. 86 side (canvas y≈2455-2490). The facing row's 'n.d. : 8' is consistent with ff. 32-39 but is not a written link."
+      ],
+      "reason": "Records the parenthesis ambiguity and the basis for attachment.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0170-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Attachment to c. 235(2) rather than c. 223(1) rests on vertical alignment only.",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0170-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The readings 'large', the word after 'work' with its parenthesised element, and 'MSS.' remain uncertain. The attachment to fol. 86 b. 85 is inferred from the facing-page arrow at y≈2460.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0170-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The native tile places the arrow and the note level with c. 235(2), not midway between the two ticked rows. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 171, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"√c. 235(2) (second '√c.' row, a ditto line under Jīvanmuktiviveka)\", \"evidence\": \"At native resolution the cross-gutter arrow (b901, y≈1600-1625) and b002 (y≈1590-1680) are level with the second '√c.' row (y≈1610-1650). The first '√c.' row (c. 223(1)) is at about y≈1500-1540. The attachment is inferred from arrow position only.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0170-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The cursive forms of these three words are not secure. The image shows 'comblb(e)'-like letters, with a parenthesised element that may be '(e)' rather than '(?)'. 'MSS.' resembles 'M81.'. Uncertainty markers are needed instead of certain readings. Proposed literal_text: \"ff. 32-39/ of [large?] MS., work [complete?]. At end 20 stray leaves from various [MSS.?], mostly on nyāya\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0170-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The native tile shows the arrow level with c. 235(2). Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 171, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"√c. 235(2)\", \"evidence\": \"The arrow is level with the second '√c.' row on fol. 86 and with b002 on the target page. The arrowhead points toward b002.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b901",
+        "b002"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0170-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The source image shows the arrow is level with c. 235(2). The original uncertainty about the date script is preserved. Proposed uncertainties: [\"'cent.' is written in rapid cursive and could be read 'cnt.'.\", \"The roman numeral is written small (it looks like 'xvii'). Its capitalisation in the literal is a convention, not a secure observation.\", \"The attachment to c. 235(2) is probable from level position. It is not certain, because c. 223(1) is the adjacent ticked row.\"]",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0170-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "This records the parenthesis ambiguity rather than asserting '(?)'. Proposed uncertainties: [\"'large' is a rapid cursive reading; the letters look like 'layr'/'lrge'.\", \"The word after 'work' looks like 'comblb' followed by a parenthesised element. That element may be '(e)' or '(?)', so it is not securely a query mark.\", \"'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.\", \"The line has no terminal punctuation after 'nyāya'.\"]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0170-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The dot below the superscript may be punctuation or a stray mark.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0170-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0170-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "It is unclear which facing-page entry the note belongs to: c. 223 (1) or c. 235 (2).",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0170-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0170-01",
+        "focus-0170-02",
+        "focus-0170-03",
+        "focus-0170-04",
+        "focus-0170-05",
+        "focus-0170-06",
+        "focus-0170-07",
+        "focus-0170-08",
+        "focus-0170-09",
+        "focus-0170-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0170-01",
+          "source_reading": "The arrow (b901) lies at canvas y≈1600-1625. On the target tile the second '√c.' row is at canvas y≈1610-1650 and the first '√c.' row is at y≈1500-1540. On the fol. 86 native tile, '√c. 223 (1)' is at y≈1490 and '√c. 2⟦3⟧5 (2)' is at y≈1605, while the arrow is at y≈1585.",
+          "certainty": "probable",
+          "evidence": "Native tiles of both pages agree that the arrow is level with the c. 235(2) row, not between the two ticked rows. Alignment is the only attachment evidence on the page. The c. 235(2) row reads 'n.d. : 92 : 8 : D', which is consistent with 'ff 2-93', but this is a corroboration and not a written link."
+        },
+        {
+          "issue_id": "focus-0170-02",
+          "source_reading": "ff. 32-39/ of [large?] MS., work [comp...(?) — letters like 'comblb(e)'] . At end 20 stray leaves from various [MSS.? — looks like 'M81.'], mostly on nyāya",
+          "certainty": "uncertain",
+          "evidence": "The cursive at canvas y≈2420-2500 is rapid. A left-pointing arrow on the fol. 86 side (canvas x≈3250-3345, y≈2455-2490) is level with this line and with the 'b. 85' entry, whose extent column reads 'n.d. : 8 :'. That figure is consistent with ff. 32-39, but the attachment remains inferred from position."
+        },
+        {
+          "issue_id": "focus-0170-03",
+          "source_reading": "The arrow and b002 are level with '√c. 2⟦3⟧5 (2)'.",
+          "certainty": "probable",
+          "evidence": "Target tile at native region x 1604, y 0: the arrow is at tile y≈1600-1625 and the second √c. row is at about tile y≈1630."
+        },
+        {
+          "issue_id": "focus-0170-04",
+          "source_reading": "work [comp...?] followed by a parenthesised element that may be '(e)' or '(?)'; [MSS.?] resembles 'M81.'",
+          "certainty": "uncertain",
+          "evidence": "Lower-left and lower-right native tiles."
+        },
+        {
+          "issue_id": "focus-0170-05",
+          "source_reading": "The arrow is level with c. 235(2). The arrowhead is on the target side at canvas x≈3034, and the tail crosses the gutter at x≈3144.",
+          "certainty": "probable",
+          "evidence": "Top-right target tile."
+        },
+        {
+          "issue_id": "focus-0170-06",
+          "source_reading": "(XVII cent. ?) — the numeral is written small, like 'xvii'; 'cent.' looks like 'cnt.' or 'ceut.'",
+          "certainty": "uncertain",
+          "evidence": "Top-left native tile at about y≈1600-1670."
+        },
+        {
+          "issue_id": "focus-0170-07",
+          "source_reading": "'large' looks like 'layr'; the word after 'work' looks like 'comblb' followed by a parenthesised element; 'MSS.' looks like 'M81.'; there is no punctuation after 'nyāya'.",
+          "certainty": "uncertain",
+          "evidence": "Native tiles."
+        },
+        {
+          "issue_id": "focus-0170-08",
+          "source_reading": "85 with a raised b, and a small dot beneath the b.",
+          "certainty": "uncertain",
+          "evidence": "Top-left tile at about x≈340-440, y≈350-440. The dot's function cannot be determined."
+        },
+        {
+          "issue_id": "focus-0170-09",
+          "source_reading": "cent. [or cnt.?]",
+          "certainty": "uncertain",
+          "evidence": "Rapid cursive; the letters between c and t are compressed."
+        },
+        {
+          "issue_id": "focus-0170-10",
+          "source_reading": "Level with c. 235 (2).",
+          "certainty": "probable",
+          "evidence": "Arrow alignment on both native views. This is not certain."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 171,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c. 223 (1) Jīvanmuktiviveka / √c. 235(2)",
+              "evidence": "A cross-gutter arrow at the same height points toward this note from the facing-page entries ticked '√c.'. Fol. 86 has an arrow at its left edge between c. 223 (1) and c. 235 (2).",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 171,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c. 235(2) (second '√c.' row, ditto line under Jīvanmuktiviveka)",
+              "evidence": "At native resolution the cross-gutter arrow (b901, y≈1600-1625) and b002 (y≈1590-1675) are level with the second '√c.' row (y≈1605-1650). The first row, c. 223(1), is at about y≈1490-1540. The attachment is inferred from position only. The facing row's 'n.d. : 92' is consistent with 'ff 2-93' but is not a written link.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "Fresh native reading of vertical alignment.",
+          "source_block_ids": [
+            "b002",
+            "b901"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+            "It is unclear which facing-page entry the note belongs to: c. 223 (1) or c. 235 (2)."
+          ],
+          "after": [
+            "'cent.' is written in rapid cursive and could be read 'cnt.'.",
+            "The roman numeral is written small (it looks like 'xvii'). Its capitalisation in the literal is a convention, not a secure observation.",
+            "The attachment to c. 235(2) is probable from level position. It is not certain, because c. 223(1) is the adjacent ticked row."
+          ],
+          "reason": "Refines the attachment question; the doubt is kept.",
+          "source_block_ids": [
+            "b002",
+            "b901"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 171,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c. 223 (1) / √c. 235(2)",
+              "evidence": "The arrow position links the facing-page entries to b002.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 171,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c. 235(2)",
+              "evidence": "The arrow is level with the second '√c.' row on fol. 86 and with b002 on the target page. The arrowhead points toward b002.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "Native alignment.",
+          "source_block_ids": [
+            "b901",
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff. 32-39/ of large MS., work complete(?). At end 20 stray leaves from various MSS., mostly on nyāya",
+          "after": "ff. 32-39/ of [large?] MS., work [complete(?)?]. At end 20 stray leaves from various [MSS.?], mostly on nyāya",
+          "reason": "These cursive forms are not secure. The bracket keeps the parenthesised element, whose content is uncertain.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "'large MS.' is a rapid cursive reading.",
+            "'complete(?)' is also uncertain; the letters look like 'comblb(e)'.",
+            "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+            "The line has no terminal punctuation after 'nyāya'."
+          ],
+          "after": [
+            "'large' is a rapid cursive reading; the letters look like 'layr'/'lrge'.",
+            "The word after 'work' looks like 'comblb' followed by a parenthesised element. That element may be '(e)' or '(?)', so it is not securely a query mark.",
+            "'MSS.' is uncertain; it could be read 'MSS' or 'M81.'.",
+            "The line has no terminal punctuation after 'nyāya'.",
+            "The attachment to b. 85 rests on a level arrow on the fol. 86 side (canvas y≈2455-2490). The facing row's 'n.d. : 8' is consistent with ff. 32-39 but is not a written link."
+          ],
+          "reason": "Records the parenthesis ambiguity and the basis for attachment.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "uncertain"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 85 with raised b and a dot below."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Isolated extent and date line, level with the arrow."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Long note line; the readings are uncertain."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Cross-gutter arrow; the arrowhead is on the target side."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0170-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b901"
+          ],
+          "issue": "The attachment to c. 235(2) is probable from alignment only.",
+          "next_check": "Compare with the catalogue's printed or final entry for c. 235(2)."
+        },
+        {
+          "issue_id": "focus-0170-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The words 'large', the word after 'work', and 'MSS.' remain uncertain. The attachment to b. 85 is inferred.",
+          "next_check": "Examine the same hand's letterforms elsewhere."
+        },
+        {
+          "issue_id": "focus-0170-08",
+          "record_id": "r001",
+          "block_ids": [
+            "b001"
+          ],
+          "issue": "The function of the dot below the superscript b is unknown.",
+          "next_check": "Compare with other folio numbers in the volume."
+        },
+        {
+          "issue_id": "focus-0170-09",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The reading of 'cent.' versus 'cnt.' is unresolved.",
+          "next_check": "Compare with other date notes in the same hand."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "84504d257e67d01cba6831eb0b4acb32ba272e2081a6faee0ef5837915e05e5a",
+      "bytes": 264305,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e9ba31b5d0bce621d6c900712ff19498810646c98b0e064b755074b919e0063e",
+      "bytes": 318566,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bb186c0466a4e32a1dc02cfc052122a5c855dbe9cd3a82252157f05583adcbdf",
+      "bytes": 309331,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1ad5c40c9ddbf09cf2686d3a17d54286bf54cef962d9802edbe4e660a587407c",
+      "bytes": 331348,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2bcffc7cf82436b2497257e4aacf3d0bb77d8d5c054950078c16c8728e2fd967",
+      "bytes": 300364,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/61697d38-4c27-4f6f-addf-36eb07ae0021/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "afb27e52138dd2a2e9fdf8b7bba34863ce6ba6ab85c8697203d53fdbffed3c00",
+      "bytes": 255567,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 169,
+      "folio_label": "fol. 85",
+      "page_id": "61697d38-4c27-4f6f-addf-36eb07ae0021",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b33c510a-0552-4c5e-8ef9-31988cbb9b00/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b1a21c08bd0822fa714d10cc6edb10bf6bea48e34319e14049b5e114810b6346",
+      "bytes": 252067,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 171,
+      "folio_label": "fol. 86",
+      "page_id": "b33c510a-0552-4c5e-8ef9-31988cbb9b00",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b33c510a-0552-4c5e-8ef9-31988cbb9b00/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bbe812ee47d2f8dc1f3aaea86fd380944d5f2379624f68c97405d16a33aca4b9",
+      "bytes": 401082,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 171,
+      "folio_label": "fol. 86",
+      "page_id": "b33c510a-0552-4c5e-8ef9-31988cbb9b00",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b33c510a-0552-4c5e-8ef9-31988cbb9b00/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fb32730235b8a1169d9d227f2afe1fe984672f66ba14aafe803c6c4370ef68ad",
+      "bytes": 403144,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 171,
+      "folio_label": "fol. 86",
+      "page_id": "b33c510a-0552-4c5e-8ef9-31988cbb9b00",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3927e93c-9f74-411d-bb53-a494df26a896.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "84504d257e67d01cba6831eb0b4acb32ba272e2081a6faee0ef5837915e05e5a",
+      "bytes": 264305,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e9ba31b5d0bce621d6c900712ff19498810646c98b0e064b755074b919e0063e",
+      "bytes": 318566,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bb186c0466a4e32a1dc02cfc052122a5c855dbe9cd3a82252157f05583adcbdf",
+      "bytes": 309331,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1ad5c40c9ddbf09cf2686d3a17d54286bf54cef962d9802edbe4e660a587407c",
+      "bytes": 331348,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2bcffc7cf82436b2497257e4aacf3d0bb77d8d5c054950078c16c8728e2fd967",
+      "bytes": 300364,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9ce5e54122432b90a3df5f5ab863101c19a065bacb90ae29b8ae4568a4c73202",
+      "bytes": 309485,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3927e93c-9f74-411d-bb53-a494df26a896/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f8bf73b9b360185e8945293add72a5de2d875f9c67e22f374d7230e24eabba05",
+      "bytes": 322061,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/61697d38-4c27-4f6f-addf-36eb07ae0021/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "afb27e52138dd2a2e9fdf8b7bba34863ce6ba6ab85c8697203d53fdbffed3c00",
+      "bytes": 255567,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 169,
+      "folio_label": "fol. 85",
+      "page_id": "61697d38-4c27-4f6f-addf-36eb07ae0021",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b33c510a-0552-4c5e-8ef9-31988cbb9b00/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b1a21c08bd0822fa714d10cc6edb10bf6bea48e34319e14049b5e114810b6346",
+      "bytes": 252067,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 171,
+      "folio_label": "fol. 86",
+      "page_id": "b33c510a-0552-4c5e-8ef9-31988cbb9b00",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

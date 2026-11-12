@@ -1,0 +1,417 @@
+{
+  "source_order": 188,
+  "folio_label": "fol. 94b",
+  "page_id": "306d1d0f-e42e-46ff-98b9-4834a8798422",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "94b",
+    "principal_page_bbox": [
+      305,
+      295,
+      2845,
+      4565
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          375,
+          345,
+          155,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "94b",
+        "features": [
+          "top-left corner",
+          "pencil or ink numeral 94 with small raised 'b' (possibly followed by a dot)",
+          "only writing on the target page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1250,
+          1750,
+          1000,
+          1600
+        ],
+        "description": "Very faint oval/circular impression in the centre of the page, apparently a watermark, emboss or show-through design. No legible text."
+      },
+      {
+        "bbox": [
+          3120,
+          1400,
+          60,
+          3500
+        ],
+        "description": "Small nicks or stitching points along the gutter fold. These are physical features, not writing."
+      }
+    ],
+    "boundary_notes": [
+      "Writing to the right of the gutter (x > ~3160) belongs to the facing page fol. 95 and is not transcribed here. This includes shelfmarks such as 'd. 875 (4)', ticks, the 't/' and 'c/' marks, and the pencil note 'gadha? gada'.",
+      "The target page ends at the gutter fold at about x 3150 (native)."
+    ],
+    "uncertainties": [
+      "The superscript after '94' is read as 'b'. It may be followed by a dot or other small stroke."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "94b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "94b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Folio number in the top-left corner, probably in pencil. It is written as '94' followed by a small raised 'b'. A small dot or stroke appears beneath or after the 'b'.",
+          "The 'b' is written superscript. It is rendered on the line here."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised character is read as 'b'. The small mark below or after it may be a dot or a stray stroke."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number. It is the only writing on the target page and matches the supplied label fol. 94b."
+      }
+    ],
+    "page_annotations": [
+      "Image-reviewed finding: apart from the folio number '94b' at top left, the ruled page carries no catalogue entries, marginal notes, interlinear additions or bottom notes. The overview and all six native tiles (top, middle, bottom, outer margin and gutter) were checked.",
+      "A very faint large oval or circular design in the centre of the page, about [1250,1750,1000,1600], appears to be a watermark, emboss or show-through. It contains no legible writing.",
+      "Small nicks or stitching points along the gutter fold, about x 3120–3160, are physical features, not writing.",
+      "Scattered specks and dust marks are not text.",
+      "Writing to the right of the gutter (x > ~3160) belongs to the facing page fol. 95 (source order 189) and is not transcribed here. This includes the shelfmarks beginning 'd.', the ticks, the 't/' and 'c/' marks and the pencil 'gadha? gada'."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number at top left, about [375,345,155,130]. It reads '94' with a small raised character, probably 'b', and a small dot or stroke beneath or after it. It matches the supplied label fol. 94b. Record r001 represents it, keeps the superscript uncertainty, and notes the superscript form in its annotations. It is the only writing on the target page."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The raised character after '94' is probably 'b', but its form is slightly open. A small dot or stroke sits beneath or after it, and its nature (punctuation or stray mark) cannot be settled from the image.",
+        "next_check": "Inspect the original or a higher-contrast image of the top-left corner."
+      }
+    ],
+    "boundary_review": "The target page runs from the outer edge (x about 305) to the gutter fold (x about 3150). Writing right of the fold (x above about 3160) belongs to fol. 95. That writing includes the pencil 'gadha? gada', shelfmarks beginning 'd.', ticks, 't/' and 'c/'. It matches the left margin of the fol. 95 context image and is correctly excluded. No catalogue text crosses the fold from fol. 94b. No continuation from fol. 94 and no ditto relationship appears on this page. Small nicks at the fold, about y 1400–4900, are physical stitching points, not writing.",
+    "region_review": {
+      "top": "Only the folio number '94b' (b001) at top left. The rest of the top band above the first ruled line is empty apart from specks.",
+      "middle": "Ruled lines only. A very faint oval or circular design, about [1250,1750,1000,1600], is a watermark, emboss or show-through with no legible writing. Scattered dust specks are not text.",
+      "bottom": "Ruled lines down to the bottom edge, with no notes, dates or pencil additions. The lower-left corner is rounded and worn but carries no writing.",
+      "left_margin": "The outer (left) margin is empty apart from the folio number at the top.",
+      "right_margin": "The gutter side is free of target-page writing. Marks visible past the fold belong to fol. 95.",
+      "interlinear": "No interlinear additions, cancellations, ticks or ditto marks anywhere on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        375,
+        345,
+        155,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "94b",
+      "features": [
+        "top-left corner",
+        "pencil or ink numeral 94 with small raised 'b' (possibly followed by a dot)",
+        "only writing on the target page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "94b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Folio number in the top-left corner, probably in pencil. It is written as '94' followed by a small raised 'b'. A small dot or stroke appears beneath or after the 'b'.",
+        "The 'b' is written superscript. It is rendered on the line here."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised character is read as 'b'. The small mark below or after it may be a dot or a stray stroke."
+      ],
+      "stable_id": "css-prod-0188-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/306d1d0f-e42e-46ff-98b9-4834a8798422.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/306d1d0f-e42e-46ff-98b9-4834a8798422/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "089bdeb9aeb7729d08fd030d95c61cc8e5f3bc9361129bf1b6000ead843ecfe8",
+      "bytes": 255626,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/306d1d0f-e42e-46ff-98b9-4834a8798422/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "50c108ae6d7320663e7f4a1672759340885b335609ad7246311f3c3d34009ff8",
+      "bytes": 312237,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/306d1d0f-e42e-46ff-98b9-4834a8798422/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "96ada0d2c8c37129a849d2a8e26c928baccf132a82ea0d9ba4c4242223447fd5",
+      "bytes": 307551,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/306d1d0f-e42e-46ff-98b9-4834a8798422/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1abdea6573d2750fb4dc5b262f211197f32458751b3611598340e58534fdb5de",
+      "bytes": 328132,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/306d1d0f-e42e-46ff-98b9-4834a8798422/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9a5fde5eded46dee63848aed54a9ca8bd58947704e86f5a7185cf15efbc17113",
+      "bytes": 303078,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/306d1d0f-e42e-46ff-98b9-4834a8798422/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1061d6ecb09860f262fade10e6e3b31506dcbce50526d39f5dfb0bd45671ab5c",
+      "bytes": 317872,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/306d1d0f-e42e-46ff-98b9-4834a8798422/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "39f74e78e2495b6360949444e09edabe9df5b43e46a1b7c922dbadeb23bc85a5",
+      "bytes": 320228,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b96cd39e-c32f-4c48-8bc5-b1aeceb4d42c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6d3bc9cdaaf3b36ff1b7936a2ce18da97ced60c4fa6e7dce77ceaacf75528bd4",
+      "bytes": 292873,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 187,
+      "folio_label": "fol. 94",
+      "page_id": "b96cd39e-c32f-4c48-8bc5-b1aeceb4d42c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6f3eb664-874c-4e90-837b-9fbedae68757/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4d55888783aea2b1e49f57625a49eef8f57862e1f38de560bb01bd70f531de08",
+      "bytes": 240569,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 189,
+      "folio_label": "fol. 95",
+      "page_id": "6f3eb664-874c-4e90-837b-9fbedae68757",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

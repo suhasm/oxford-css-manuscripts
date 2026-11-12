@@ -1,0 +1,861 @@
+{
+  "source_order": 166,
+  "folio_label": "fol. 83b",
+  "page_id": "f587445b-8179-4fdf-b22b-016c73f05579",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "83b",
+    "principal_page_bbox": [
+      365,
+      295,
+      2860,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          410,
+          330,
+          115,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "83b (superscript b)",
+        "features": [
+          "top-left corner",
+          "ink",
+          "superscript letter after 83 with dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          525,
+          1440,
+          2700,
+          125
+        ],
+        "kind_hint": "continuation_incipit_note",
+        "anchor": "Co. begins: Atha ghaṭikādiyantraṃ kṛtva spaṣṭataraṃ janmasamayaḥ. ? Is it really a co. [merely?] glosses",
+        "features": [
+          "single line",
+          "ink",
+          "quoted Sanskrit incipit followed by query",
+          "no shelfmark on this line, so the parent holding is not visible here",
+          "small leftward arrow over the line end near the gutter (x≈3140–3220), apparently pointing into the gutter or towards the facing page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          430,
+          3600,
+          2770,
+          120
+        ],
+        "kind_hint": "holding_entry",
+        "anchor": "C. 299(4). Jānak[ī?][stava?]rāja, Agastya saṃhitā, adhy. 41, + Co., Subodhinī. ff.1-13, S.1875. ... 1309  1818:13:6/11:D",
+        "features": [
+          "shelfmark at left",
+          "title, source, extent and date",
+          "statement near the end read only tentatively: [fr. main work Leipzig?], 1309",
+          "right-hand date/line-count field: 1818:13:6/11:D",
+          "the entry text runs up to the gutter"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          1265,
+          3565,
+          180,
+          55
+        ],
+        "kind_hint": "interlinear_addition",
+        "anchor": "cats.",
+        "features": [
+          "written above 'saṃhitā'",
+          "stroke leading down to the insertion point"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2830,
+          1180,
+          20,
+          20
+        ],
+        "description": "small ink dot in the upper middle area, not attached to any text"
+      },
+      {
+        "bbox": [
+          1795,
+          2900,
+          15,
+          15
+        ],
+        "description": "small dot in the middle of the page"
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x≈3220–3230. The marginal marks to its right belong to the facing page fol. 84 and are not transcribed here: a stroke and '+ →' near y≈1470–1640; 'ā/' near y≈2990–3150; 'diff from jābāla', 'ś/?' and a tick near y≈3880–4100; and 'i/' near y≈4560–4680.",
+      "The faint lined text visible across the page appears to be show-through or offset from the reverse side or facing leaf. It is not counted as target text.",
+      "Line b002 ends with an arrow at the gutter. The adjacent fol. 84 shows c.315(7) '+ D. anon.' at the same height, with marks in its left margin. The link between them is unconfirmed."
+    ],
+    "uncertainties": [
+      "The cursive readings in b002 are tentative, especially 'merely glosses'.",
+      "Several readings in b003 are uncertain: the title (Jānakī-/Jānaki-, with -stava- uncertain), 'cats.', and the phrase before '1309'.",
+      "The superscript after 83 is read as 'b'."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "83ᵇ",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "83ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left corner. The superscript letter is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript is read as 'b'. Its form resembles '6'."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit_and_query",
+        "literal_text": "Co. begins: Atha ghaṭikādiyantraṃ kṛtva spaṣṭataraṃ janmasamayaḥ. ? Is it really a co. [merely?] glosses.",
+        "fields": {
+          "incipit": "Atha ghaṭikādiyantraṃ kṛtva spaṣṭataraṃ janmasamayaḥ."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is no shelfmark on this line, so the parent holding is not stated on this page.",
+          "A short leftward arrow or stroke stands above the end of the line, at the gutter (about x 3130–3220).",
+          "The tail of this line ('…y glosses ←') is also visible in the left margin of the fol. 84 image, at the height of c. 315 (7). In the fol. 84 left margin there is a '+ →' mark beside that line.",
+          "Anusvāra and visarga are written with dots below."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 167,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 315 (7) ——— + D. anon. ff.1-5",
+            "evidence": "Arrow at the gutter and '+ →' in the fol. 84 margin, both at the same height as the c. 315 (7) line, whose '+ D.' (commentary) this Co. incipit may describe",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'merely' is tentative.",
+          "The parent holding is not confirmed on the target page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "C. 299(4). Jānakīstavarāja, Agastya saṃhitā [interlinear above: cats.], adhy. 41, + Co., Subodhinī. ff.1-13, S.1875. [fr. main work Leipzig?], 1309    1818:13:6/11:D",
+        "fields": {
+          "shelfmark": "C. 299(4)",
+          "title": "Jānakīstavarāja",
+          "source": "Agastya saṃhitā, adhy. 41",
+          "date": "S.1875 ; 1818",
+          "extent": "ff.1-13 ; 13",
+          "lines": "6/11",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'cats.' is written above 'saṃhitā'. A stroke leads from it down to a point between 'Agastya' and 'saṃhitā'.",
+          "'+ Co., Subodhinī' records an accompanying commentary.",
+          "The right-hand field '1818:13:6/11:D' runs up to the gutter.",
+          "The fragment '18:13:6/11:D' is also visible in the left margin of the fol. 84 image, at the height of c. 299 (4)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 167,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 299 (4) Jānakīstavarāja. The 40th adh. of the Agastyasaṃhitā",
+            "evidence": "Same shelfmark and title at the same height on the facing page. The target entry appears to be a revised or supplementary version of it.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The title may be written 'Jānaki-' rather than 'Jānakī-'.",
+          "The reading 'cats.' is uncertain.",
+          "The phrase before '1309' ('fr. main work Leipzig') is tentative.",
+          "The first part of the date figure ('1818') is tentatively read."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Commentary incipit and query. Probably linked to c. 315 (7) on fol. 84."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Holding entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Interlinear insertion within the holding."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is ruled and blank apart from faint show-through, which is not transcribed.",
+      "There are isolated small dots near (2830,1180) and (1795,2900). They are not attached to any text.",
+      "The marks to the right of the gutter (about x 3225 onward) belong to fol. 84 and are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The link from b002 to fol. 84 c. 315 (7) rests on the arrow marks and is unconfirmed."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Ink folio number '83' with a superscript letter and a dot in the top-left corner. Read as 'b'; the form resembles '6', and this uncertainty is retained."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Single-line Co. incipit and query at y≈1490. The text and the small leftward arrow above the line end at the gutter are captured. 'merely' remains tentative. No shelfmark is on this page."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Holding line C. 299(4) at y≈3640, with extent, date and the right-hand field. The phrase before '1309' and the line-count digits remain uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Interlinear 'cats.' above 'saṃhitā', with a stroke to the insertion point. It is correctly grouped with r003."
+      },
+      {
+        "block_id": "unattached_mark_2830_1180",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Isolated ink dot, noted in page_annotations. It is not text."
+      },
+      {
+        "block_id": "unattached_mark_1795_2900",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Isolated dot, noted in page_annotations. Other tiny specks (for example near 928,2303) are paper flecks and not text."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The title may be written 'Jānaki-' rather than 'Jānakī-'.",
+          "The reading 'cats.' is uncertain.",
+          "The phrase before '1309' ('fr. main work Leipzig') is tentative.",
+          "The first part of the date figure ('1818') is tentatively read."
+        ],
+        "after": [
+          "The title may be written 'Jānaki-' rather than 'Jānakī-'.",
+          "The reading 'cats.' is uncertain.",
+          "The phrase before '1309' ('fr. main work Leipzig') is tentative.",
+          "The first part of the date figure ('1818') is tentatively read.",
+          "The line-count digit read as '6' in '6/11' is cramped and could be '8'. The facing fol. 84 entry c. 299 (4) carries a superscript correction resembling '8/11', but this has not been used to resolve the target reading."
+        ],
+        "reason": "The native tile shows a cramped digit before '/11'. The ambiguity should be recorded, not silently fixed.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 167,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 315 (7) ——— + D. anon. ff.1-5",
+            "evidence": "Arrow at the gutter and '+ →' in the fol. 84 margin, both at the same height as the c. 315 (7) line, whose '+ D.' (commentary) this Co. incipit may describe",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 167,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 315 (7) ——— + D. anon. ff.1-5",
+            "evidence": "The arrow at the gutter is at the height of the c. 315 (7) line on fol. 84. The fol. 84 '+ →' mark sits slightly lower, between c. 315 (7) and d. 728 (11), so its alignment is not exact. The '+ D.' (commentary) may be what this Co. incipit describes.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The overview shows the '+ →' mark about one half-line below the c. 315 (7) line, so the attachment evidence is weaker than 'probable'.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The parent holding of the Co. incipit is not on this page. A link to fol. 84 c. 315 (7) is suggested only by the arrow marks.",
+        "next_check": "Compare the fol. 84 left margin at native resolution with the gutter arrow."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The phrase before '1309', the line-count digit (6 or 8) and the first part of the date figure remain uncertain.",
+        "next_check": "Inspect at higher magnification and compare with the c. 299 (4) corrections on fol. 84."
+      }
+    ],
+    "boundary_review": "The gutter is at x≈3225. The marks to its right ('+ →', 'ā/', 'diff from jābāla', 'ś/?', a tick, 'i/') belong to fol. 84 and are excluded. The faint lined text is show-through and is not transcribed. The cross-page links for b002 and b003 are left as possible, not confirmed.",
+    "region_review": {
+      "top": "Folio number only; the rest of the top region is ruled and blank apart from show-through.",
+      "middle": "The b002 line near y≈1490 and two isolated dots; otherwise blank.",
+      "bottom": "The b003 holding line and the 'cats.' insertion near y≈3600. No bottom note was found below this, down to the page edge at about y≈4860.",
+      "left_margin": "No marginal text.",
+      "right_margin": "The gutter arrow at the end of b002. Everything beyond the gutter belongs to fol. 84.",
+      "interlinear": "Only 'cats.' above 'saṃhitā'."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        410,
+        330,
+        115,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "83b (superscript b)",
+      "features": [
+        "top-left corner",
+        "ink",
+        "superscript letter after 83 with dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        525,
+        1440,
+        2700,
+        125
+      ],
+      "kind_hint": "continuation_incipit_note",
+      "anchor": "Co. begins: Atha ghaṭikādiyantraṃ kṛtva spaṣṭataraṃ janmasamayaḥ. ? Is it really a co. [merely?] glosses",
+      "features": [
+        "single line",
+        "ink",
+        "quoted Sanskrit incipit followed by query",
+        "no shelfmark on this line, so the parent holding is not visible here",
+        "small leftward arrow over the line end near the gutter (x≈3140–3220), apparently pointing into the gutter or towards the facing page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        430,
+        3600,
+        2770,
+        120
+      ],
+      "kind_hint": "holding_entry",
+      "anchor": "C. 299(4). Jānak[ī?][stava?]rāja, Agastya saṃhitā, adhy. 41, + Co., Subodhinī. ff.1-13, S.1875. ... 1309  1818:13:6/11:D",
+      "features": [
+        "shelfmark at left",
+        "title, source, extent and date",
+        "statement near the end read only tentatively: [fr. main work Leipzig?], 1309",
+        "right-hand date/line-count field: 1818:13:6/11:D",
+        "the entry text runs up to the gutter"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        1265,
+        3565,
+        180,
+        55
+      ],
+      "kind_hint": "interlinear_addition",
+      "anchor": "cats.",
+      "features": [
+        "written above 'saṃhitā'",
+        "stroke leading down to the insertion point"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "83ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left corner. The superscript letter is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript is read as 'b'. Its form resembles '6'."
+      ],
+      "stable_id": "css-prod-0166-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit_and_query",
+      "literal_text": "Co. begins: Atha ghaṭikādiyantraṃ kṛtva spaṣṭataraṃ janmasamayaḥ. ? Is it really a co. [merely?] glosses.",
+      "fields": {
+        "incipit": "Atha ghaṭikādiyantraṃ kṛtva spaṣṭataraṃ janmasamayaḥ."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is no shelfmark on this line, so the parent holding is not stated on this page.",
+        "A short leftward arrow or stroke stands above the end of the line, at the gutter (about x 3130–3220).",
+        "The tail of this line ('…y glosses ←') is also visible in the left margin of the fol. 84 image, at the height of c. 315 (7). In the fol. 84 left margin there is a '+ →' mark beside that line.",
+        "Anusvāra and visarga are written with dots below."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 167,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 315 (7) ——— + D. anon. ff.1-5",
+          "evidence": "Arrow at the gutter and '+ →' in the fol. 84 margin, both at the same height as the c. 315 (7) line, whose '+ D.' (commentary) this Co. incipit may describe",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'merely' is tentative.",
+        "The parent holding is not confirmed on the target page."
+      ],
+      "stable_id": "css-prod-0166-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "C. 299(4). Jānakīstavarāja, Agastya saṃhitā [interlinear above: cats.], adhy. 41, + Co., Subodhinī. ff.1-13, S.1875. [fr. main work Leipzig?], 1309    1818:13:6/11:D",
+      "fields": {
+        "shelfmark": "C. 299(4)",
+        "title": "Jānakīstavarāja",
+        "source": "Agastya saṃhitā, adhy. 41",
+        "date": "S.1875 ; 1818",
+        "extent": "ff.1-13 ; 13",
+        "lines": "6/11",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'cats.' is written above 'saṃhitā'. A stroke leads from it down to a point between 'Agastya' and 'saṃhitā'.",
+        "'+ Co., Subodhinī' records an accompanying commentary.",
+        "The right-hand field '1818:13:6/11:D' runs up to the gutter.",
+        "The fragment '18:13:6/11:D' is also visible in the left margin of the fol. 84 image, at the height of c. 299 (4)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 167,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 299 (4) Jānakīstavarāja. The 40th adh. of the Agastyasaṃhitā",
+          "evidence": "Same shelfmark and title at the same height on the facing page. The target entry appears to be a revised or supplementary version of it.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The title may be written 'Jānaki-' rather than 'Jānakī-'.",
+        "The reading 'cats.' is uncertain.",
+        "The phrase before '1309' ('fr. main work Leipzig') is tentative.",
+        "The first part of the date figure ('1818') is tentatively read."
+      ],
+      "stable_id": "css-prod-0166-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The title may be written 'Jānaki-' rather than 'Jānakī-'.",
+        "The reading 'cats.' is uncertain.",
+        "The phrase before '1309' ('fr. main work Leipzig') is tentative.",
+        "The first part of the date figure ('1818') is tentatively read."
+      ],
+      "after": [
+        "The title may be written 'Jānaki-' rather than 'Jānakī-'.",
+        "The reading 'cats.' is uncertain.",
+        "The phrase before '1309' ('fr. main work Leipzig') is tentative.",
+        "The first part of the date figure ('1818') is tentatively read.",
+        "The line-count digit read as '6' in '6/11' is cramped and could be '8'. The facing fol. 84 entry c. 299 (4) carries a superscript correction resembling '8/11', but this has not been used to resolve the target reading."
+      ],
+      "reason": "The native tile shows a cramped digit before '/11'. The ambiguity should be recorded, not silently fixed.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 167,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 315 (7) ——— + D. anon. ff.1-5",
+          "evidence": "Arrow at the gutter and '+ →' in the fol. 84 margin, both at the same height as the c. 315 (7) line, whose '+ D.' (commentary) this Co. incipit may describe",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 167,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 315 (7) ——— + D. anon. ff.1-5",
+          "evidence": "The arrow at the gutter is at the height of the c. 315 (7) line on fol. 84. The fol. 84 '+ →' mark sits slightly lower, between c. 315 (7) and d. 728 (11), so its alignment is not exact. The '+ D.' (commentary) may be what this Co. incipit describes.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The overview shows the '+ →' mark about one half-line below the c. 315 (7) line, so the attachment evidence is weaker than 'probable'.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f587445b-8179-4fdf-b22b-016c73f05579.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f587445b-8179-4fdf-b22b-016c73f05579/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "334abb9d7a1fd82c074b429f98384aec9f936187117c0596cbd73026dd803e5d",
+      "bytes": 247926,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f587445b-8179-4fdf-b22b-016c73f05579/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "19ed04954461a108112a41a66ab0515b39c909f4a5fba2806c5cc2a5ecb34704",
+      "bytes": 294762,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f587445b-8179-4fdf-b22b-016c73f05579/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "06dbaef4284959483f948a48d49544a38576d055ebe3a145d6f5c6971b933bd5",
+      "bytes": 305930,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f587445b-8179-4fdf-b22b-016c73f05579/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "37582b81a5879f138377c72ea84a9f2e3232b91777e2404c2dd579d9eaef581a",
+      "bytes": 294005,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f587445b-8179-4fdf-b22b-016c73f05579/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2f34b38e66ad0ecb5a20fc751234b284b9b89db4f3481f1da5e6d6f62550e84c",
+      "bytes": 278337,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f587445b-8179-4fdf-b22b-016c73f05579/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "455cc5837a55e3ae7d54683e7d5fe523d63dd77b83b5fbf82a7874df28f7c730",
+      "bytes": 299544,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f587445b-8179-4fdf-b22b-016c73f05579/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "76f9aacec5cac03ec0b852c0040e62d4a7d1d5115e218fffd0059e096dea3736",
+      "bytes": 327425,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7365795-62c6-4da6-9dc0-dd4a86d20df2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4d07df64248d2c8432fed00538f247ec0618055f0b653ed1a3e563fd5e2ff479",
+      "bytes": 266027,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 165,
+      "folio_label": "fol. 83",
+      "page_id": "f7365795-62c6-4da6-9dc0-dd4a86d20df2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0df30e88-ebaf-4038-9e64-122d58e38279/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "39ef933416b2f7212c69fde6ed50a8e47025863b548e17d9e38d23a3bb0a6686",
+      "bytes": 262419,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 167,
+      "folio_label": "fol. 84",
+      "page_id": "0df30e88-ebaf-4038-9e64-122d58e38279",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

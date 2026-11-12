@@ -1,0 +1,1004 @@
+{
+  "source_order": 662,
+  "folio_label": "fol. 331b",
+  "page_id": "8f342770-a466-4197-9dab-b8be7d2faa31",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "tranche-1",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "331b",
+    "principal_page_bbox": [
+      312,
+      280,
+      2815,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          460,
+          355,
+          170,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "331b",
+        "features": [
+          "top-left corner of page",
+          "superscript 'b' after 331"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          440,
+          1600,
+          2460,
+          130
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "d: 989(4) Vaidyaka (Prākṛta°). Medical. Unf. … n.d.: 150: 8: D.",
+        "features": [
+          "shelfmark in left margin column",
+          "title with parenthetical qualifier ending in °",
+          "date/extent column 'n.d.: 150: 8: D.' on the same line",
+          "single line"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          3005,
+          1585,
+          235,
+          70
+        ],
+        "kind_hint": "annotation_arrow",
+        "anchor": "[arrow →]",
+        "features": [
+          "right-pointing arrow after b002",
+          "runs toward the gutter and the facing page at the d. 999(2) line",
+          "attachment evidence: positional only"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          335,
+          3680,
+          2590,
+          130
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "√d. 201(2). Śri Harināmamālā by Kaviśiromaṇi, following Dhanañjaya. ff.1-24. Owner, Paṇḍita Raghunātha n.d.: 24:7:D",
+        "features": [
+          "tick before shelfmark",
+          "shelfmark written into left margin, across the margin rule",
+          "extent 'ff.1-24'",
+          "owner note",
+          "date column 'n.d.: 24:7:D'",
+          "single line"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2980,
+          3700,
+          185,
+          65
+        ],
+        "kind_hint": "annotation_arrow",
+        "anchor": "[double-headed arrow ↔]",
+        "features": [
+          "double-headed arrow after b004",
+          "points toward the gutter and facing-page entries d. 1079 / d. 1072(8)",
+          "attachment evidence: positional only"
+        ]
+      }
+    ],
+    "unattached_marks": [],
+    "boundary_notes": [
+      "Right of the gutter (x ≈ 3125+), shelfmarks from the facing page fol. 332 are visible, including d. 1027, f. 91, cancelled e. 234, d. 1006, ticks, a curved bracket from d. 1072 to d. 996, and d. 999(4). These are facing-page fragments and are not target records.",
+      "Arrows b003 and b005 end at or near the gutter. They appear to link target entries to positions on the facing page, but the precise linkage is not certain."
+    ],
+    "uncertainties": [
+      "Reading of 'Prākṛta°' in b002 is uncertain because of cursive letterforms and the diacritic.",
+      "In b004, readings of 'Harināmamālā', 'Kaviśiromaṇi' and 'Owner' are tentative.",
+      "The final 'D' in both date columns may be a script abbreviation; it has not been expanded."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "331b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "331b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top-left corner of the page, outside the ruled margin column.",
+          "The 'b' is superscript and is followed by a small dot or stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "d: 989(4)   Vaidyaka (Prākṛta°). Medical. Unf.          n.d.: 150: 8: D.",
+        "fields": {
+          "shelfmark": "d: 989(4)",
+          "title": "Vaidyaka (Prākṛta°)",
+          "subject": "Medical",
+          "date": "n.d.",
+          "extent": "150",
+          "lines": "8",
+          "script": "D"
+        },
+        "normalized_title": "Vaidyaka (Prākṛta°)",
+        "annotations": [
+          "The shelfmark is in the left margin column. The punctuation after 'd' looks like a colon.",
+          "'Unf.' is written as on the source and has not been expanded.",
+          "The date, extent and lines column is on the same line at the right."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 663,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 999(2) Vaidyaka (Bhāṣā°). Medical.",
+            "evidence": "The arrow (b003) after this entry runs across the gutter and points to the facing-page line d. 999(2) Vaidyaka (Bhāṣā°). This may be an alphabetical insertion point. The evidence is positional only.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'Prākṛta°' is tentative because of the cursive letterforms and the diacritics.",
+          "The final 'D' may be a script abbreviation. It is left unexpanded."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A right-pointing ink arrow, drawn after the date column of the d: 989(4) entry. It runs toward the gutter and ends at the facing page's d. 999(2) line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 662,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "d: 989(4) Vaidyaka (Prākṛta°)",
+            "evidence": "The arrow starts immediately after this entry on the same line.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 663,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 999(2) Vaidyaka (Bhāṣā°)",
+            "evidence": "The arrowhead ends at this facing-page line.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The purpose of the arrow (for example, an insertion point) is not stated."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "√d. 201(2). Śri Harināmamālā by Kaviśiromaṇi, following Dhanañjaya. ff.1-24. Owner, Paṇḍita Raghunātha     n.d.: 24:7:D",
+        "fields": {
+          "shelfmark": "d. 201(2)",
+          "title": "Śri Harināmamālā",
+          "author": "Kaviśiromaṇi",
+          "date": "n.d.",
+          "extent": "ff.1-24; 24",
+          "lines": "7",
+          "script": "D"
+        },
+        "normalized_title": "Śri Harināmamālā",
+        "annotations": [
+          "A tick is written before the shelfmark.",
+          "The shelfmark is written into the left margin, before the margin rule, and the text runs across that rule.",
+          "'following Dhanañjaya' is recorded as written. It is not taken as an author attribution.",
+          "'Owner, Paṇḍita Raghunātha' is an ownership note. Raghunātha is not an author.",
+          "The extent appears twice: 'ff.1-24' in the text and '24' in the date column."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 663,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "between d. 1079 Śakunaratnāvalī and d. 1072(8) Satsaiyā / 'Śambhunātha, Jātakacandrika' line",
+            "evidence": "The double-headed arrow (b005) after this entry points to the facing page at about this level. The evidence is positional only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'Harināmamālā' is tentative. It may read 'Harināmāmālā'.",
+          "The readings 'Kaviśiromaṇi', 'Owner' and 'Paṇḍita' are tentative.",
+          "The final 'D' may be a script abbreviation. It is left unexpanded."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "double_headed_arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A double-headed ink arrow, drawn after the date column of the d. 201(2) entry. It points toward the gutter and the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 662,
+            "target_record_id": "r004",
+            "target_block_id": "b004",
+            "target_anchor": "d. 201(2) Śri Harināmamālā",
+            "evidence": "The arrow is on the same line, immediately after this entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 663,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 1079 / Śambhunātha, Jātakacandrika / d. 1072(8)",
+            "evidence": "The arrow's right end is at about the level of these facing-page lines.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The exact facing-page target and the purpose of the arrow are uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page or folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "A single-line holding entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "An arrow, recorded separately with a possible attachment to r002 and to the facing page."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "A single-line holding entry with a tick and an owner note."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "A double-headed arrow, recorded separately with a possible attachment."
+      }
+    ],
+    "page_annotations": [
+      "The page is mostly blank ruled paper, with a left margin rule. It has only two entries.",
+      "Shelfmarks of the facing page fol. 332 are visible right of the gutter. These are d. 1027, f. 91, cancelled e. 234, d. 1006, e. 234, d. 339(1), f. 76, d. 1089, d. 999(2), etc., with ticks and a curved bracket from d. 1072 to d. 996. They are facing-page fragments and are not transcribed as target records.",
+      "No faint pencil or bottom-margin notes were found on image review."
+    ],
+    "unresolved_relationships": [
+      "The precise facing-page targets of the arrows b003 and b005 are not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '331' with a raised 'b' and a following small dot, top left at about [460,355]. The candidate reading is acceptable."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Single-line entry 'd: 989(4)' with the title, subject, 'Unf.' and the date column 'n.d.: 150: 8: D.'. The shelfmark sits in the margin column. The separator between 'Medical' and 'Unf.' is a short low stroke. It may be a period or a dash."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003",
+          "r002"
+        ],
+        "finding": "A right-pointing arrow at about x 3010–3230, y about 1610–1650. Its head ends at the gutter, opposite the facing-page line 'd. 999(2) Vaidyaka (Bhāṣā°)'. On fol. 332 this arrow appears entering from the left, which confirms the positional link."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Single-line entry with a tick, 'd. 201(2)', the title, author, 'following Dhanañjaya', 'ff.1-24', the owner note and 'n.d.: 24:7:D'. The tick and shelfmark start left of the margin rule. The title begins in the margin column and crosses the rule."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005",
+          "r004"
+        ],
+        "finding": "A double-headed arrow at about x 2985–3160, y about 3700–3750. On fol. 332 it reaches the level between d. 1079 and the cross-reference line 'Śambhunātha, Jātakacandraka'. The exact target is not certain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "fields",
+        "before": {
+          "shelfmark": "d. 201(2)",
+          "title": "Śri Harināmamālā",
+          "author": "Kaviśiromaṇi",
+          "date": "n.d.",
+          "extent": "ff.1-24; 24",
+          "lines": "7",
+          "script": "D"
+        },
+        "after": {
+          "shelfmark": "d. 201(2)",
+          "title": "Śri Harināmamālā",
+          "author": "Kaviśiromaṇi",
+          "date": "n.d.",
+          "extent": "ff.1-24; 24",
+          "lines": "7",
+          "script": "D",
+          "owner": "Paṇḍita Raghunātha"
+        },
+        "reason": "The entry contains a written ownership note, 'Owner, Paṇḍita Raghunātha'. Recording it as a structured field keeps it distinct from the author. The reading of the name is still tentative.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The mark between 'Medical' and 'Unf.' is a short, low horizontal stroke. It may be a period, as the candidate gives it, or a dash.",
+        "next_check": "Compare with the native tile at about x 1600–1960, y about 1650, and with this hand's punctuation elsewhere."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The title may read 'Harināmāmālā', with a macron over the second 'a' of 'nāma'. The candidate already notes this as uncertain.",
+        "next_check": "Inspect at higher magnification at about x 600–1000, y 3720–3780."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There is a faint small stroke at the extreme left page edge, at about x 340, y 1670, beside the d: 989(4) line. There is also a tiny mark at the left edge at about x 322, y 4540. They are probably paper blemishes, but a faint tick cannot be excluded.",
+        "next_check": "Check the original or a higher-contrast image of the left page edge."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The facing-page target of the double arrow is uncertain. It may be the space between d. 1079 and d. 1072(8), or the cross-reference line 'Śambhunātha, Jātakacandraka'.",
+        "next_check": "Align fol. 332 native coordinates with the arrow's right end at about y 3700–3750."
+      }
+    ],
+    "boundary_review": "The right side of the target canvas, past the gutter at about x 3110, shows fol. 332's shelfmark column. These are facing-page fragments, not target records. Arrows b003 and b005 cross toward that page and are recorded only as possible positional links.",
+    "region_review": {
+      "top": "Only the folio number '331b' is present. The ruled area is otherwise blank.",
+      "middle": "The d: 989(4) entry and arrow sit at y about 1650. The rest is blank ruled lines.",
+      "bottom": "The d. 201(2) entry and double arrow sit at y about 3720. Below that the page is blank to the lower edge, with no bottom note seen.",
+      "left_margin": "The margin column holds the shelfmark d: 989(4), the tick and d. 201(2), and the folio number. Possible faint edge marks are noted under unresolved.",
+      "right_margin": "This area holds the arrow ends and, past the gutter, the facing-page shelfmarks only.",
+      "interlinear": "No interlinear additions, cancellations or pencil notes were seen on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        460,
+        355,
+        170,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "331b",
+      "features": [
+        "top-left corner of page",
+        "superscript 'b' after 331"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        440,
+        1600,
+        2460,
+        130
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "d: 989(4) Vaidyaka (Prākṛta°). Medical. Unf. … n.d.: 150: 8: D.",
+      "features": [
+        "shelfmark in left margin column",
+        "title with parenthetical qualifier ending in °",
+        "date/extent column 'n.d.: 150: 8: D.' on the same line",
+        "single line"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        3005,
+        1585,
+        235,
+        70
+      ],
+      "kind_hint": "annotation_arrow",
+      "anchor": "[arrow →]",
+      "features": [
+        "right-pointing arrow after b002",
+        "runs toward the gutter and the facing page at the d. 999(2) line",
+        "attachment evidence: positional only"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        335,
+        3680,
+        2590,
+        130
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "√d. 201(2). Śri Harināmamālā by Kaviśiromaṇi, following Dhanañjaya. ff.1-24. Owner, Paṇḍita Raghunātha n.d.: 24:7:D",
+      "features": [
+        "tick before shelfmark",
+        "shelfmark written into left margin, across the margin rule",
+        "extent 'ff.1-24'",
+        "owner note",
+        "date column 'n.d.: 24:7:D'",
+        "single line"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2980,
+        3700,
+        185,
+        65
+      ],
+      "kind_hint": "annotation_arrow",
+      "anchor": "[double-headed arrow ↔]",
+      "features": [
+        "double-headed arrow after b004",
+        "points toward the gutter and facing-page entries d. 1079 / d. 1072(8)",
+        "attachment evidence: positional only"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "331b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top-left corner of the page, outside the ruled margin column.",
+        "The 'b' is superscript and is followed by a small dot or stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-t1-0662-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "d: 989(4)   Vaidyaka (Prākṛta°). Medical. Unf.          n.d.: 150: 8: D.",
+      "fields": {
+        "shelfmark": "d: 989(4)",
+        "title": "Vaidyaka (Prākṛta°)",
+        "subject": "Medical",
+        "date": "n.d.",
+        "extent": "150",
+        "lines": "8",
+        "script": "D"
+      },
+      "normalized_title": "Vaidyaka (Prākṛta°)",
+      "annotations": [
+        "The shelfmark is in the left margin column. The punctuation after 'd' looks like a colon.",
+        "'Unf.' is written as on the source and has not been expanded.",
+        "The date, extent and lines column is on the same line at the right."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 663,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 999(2) Vaidyaka (Bhāṣā°). Medical.",
+          "evidence": "The arrow (b003) after this entry runs across the gutter and points to the facing-page line d. 999(2) Vaidyaka (Bhāṣā°). This may be an alphabetical insertion point. The evidence is positional only.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'Prākṛta°' is tentative because of the cursive letterforms and the diacritics.",
+        "The final 'D' may be a script abbreviation. It is left unexpanded."
+      ],
+      "stable_id": "css-t1-0662-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A right-pointing ink arrow, drawn after the date column of the d: 989(4) entry. It runs toward the gutter and ends at the facing page's d. 999(2) line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 662,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "d: 989(4) Vaidyaka (Prākṛta°)",
+          "evidence": "The arrow starts immediately after this entry on the same line.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 663,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 999(2) Vaidyaka (Bhāṣā°)",
+          "evidence": "The arrowhead ends at this facing-page line.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The purpose of the arrow (for example, an insertion point) is not stated."
+      ],
+      "stable_id": "css-t1-0662-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "√d. 201(2). Śri Harināmamālā by Kaviśiromaṇi, following Dhanañjaya. ff.1-24. Owner, Paṇḍita Raghunātha     n.d.: 24:7:D",
+      "fields": {
+        "shelfmark": "d. 201(2)",
+        "title": "Śri Harināmamālā",
+        "author": "Kaviśiromaṇi",
+        "date": "n.d.",
+        "extent": "ff.1-24; 24",
+        "lines": "7",
+        "script": "D"
+      },
+      "normalized_title": "Śri Harināmamālā",
+      "annotations": [
+        "A tick is written before the shelfmark.",
+        "The shelfmark is written into the left margin, before the margin rule, and the text runs across that rule.",
+        "'following Dhanañjaya' is recorded as written. It is not taken as an author attribution.",
+        "'Owner, Paṇḍita Raghunātha' is an ownership note. Raghunātha is not an author.",
+        "The extent appears twice: 'ff.1-24' in the text and '24' in the date column."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 663,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "between d. 1079 Śakunaratnāvalī and d. 1072(8) Satsaiyā / 'Śambhunātha, Jātakacandrika' line",
+          "evidence": "The double-headed arrow (b005) after this entry points to the facing page at about this level. The evidence is positional only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'Harināmamālā' is tentative. It may read 'Harināmāmālā'.",
+        "The readings 'Kaviśiromaṇi', 'Owner' and 'Paṇḍita' are tentative.",
+        "The final 'D' may be a script abbreviation. It is left unexpanded."
+      ],
+      "stable_id": "css-t1-0662-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "double_headed_arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A double-headed ink arrow, drawn after the date column of the d. 201(2) entry. It points toward the gutter and the facing page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 662,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "d. 201(2) Śri Harināmamālā",
+          "evidence": "The arrow is on the same line, immediately after this entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 663,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 1079 / Śambhunātha, Jātakacandrika / d. 1072(8)",
+          "evidence": "The arrow's right end is at about the level of these facing-page lines.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The exact facing-page target and the purpose of the arrow are uncertain."
+      ],
+      "stable_id": "css-t1-0662-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "fields",
+      "before": {
+        "shelfmark": "d. 201(2)",
+        "title": "Śri Harināmamālā",
+        "author": "Kaviśiromaṇi",
+        "date": "n.d.",
+        "extent": "ff.1-24; 24",
+        "lines": "7",
+        "script": "D"
+      },
+      "after": {
+        "shelfmark": "d. 201(2)",
+        "title": "Śri Harināmamālā",
+        "author": "Kaviśiromaṇi",
+        "date": "n.d.",
+        "extent": "ff.1-24; 24",
+        "lines": "7",
+        "script": "D",
+        "owner": "Paṇḍita Raghunātha"
+      },
+      "reason": "The entry contains a written ownership note, 'Owner, Paṇḍita Raghunātha'. Recording it as a structured field keeps it distinct from the author. The reading of the name is still tentative.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/8f342770-a466-4197-9dab-b8be7d2faa31.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f342770-a466-4197-9dab-b8be7d2faa31/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4a0c262d5d71adf819bdf7fae32ba41cf4d7a06aa66005931d6d2de43c536c0a",
+      "bytes": 329456,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f342770-a466-4197-9dab-b8be7d2faa31/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d9e75455df395b85f7bd8271937fd24b55eef1e4ff445e59a59b5eef9862a060",
+      "bytes": 369034,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f342770-a466-4197-9dab-b8be7d2faa31/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5527ef39b542e3c5b07632c90fc499807441a542ba1a7ef6a2db1387b6bae471",
+      "bytes": 410013,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f342770-a466-4197-9dab-b8be7d2faa31/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "918cd83f1d46492329ef1c2c5f3f0b998128cab3252430e1f0d9fb36d7f8298f",
+      "bytes": 397767,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f342770-a466-4197-9dab-b8be7d2faa31/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ba799119da6cfb28dbe27df0b8a6550cff713815d9726ac077c7359467662d04",
+      "bytes": 433871,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f342770-a466-4197-9dab-b8be7d2faa31/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e1819de8f281480cc09f6f22bf3c3d8f5b6905eae356ea94805021d14f94a764",
+      "bytes": 356963,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f342770-a466-4197-9dab-b8be7d2faa31/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2959db81d8e9edac1e90726b19f3cbcb839f84cc131140e41ab288c75b028646",
+      "bytes": 406603,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8952ad2b-1559-47d3-84a6-78d03dca2c98/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b26063e70d7e47d5f02f5ac348ab8377e05f38428c8cd5aee52e8564d4128cde",
+      "bytes": 320285,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 661,
+      "folio_label": "fol. 331",
+      "page_id": "8952ad2b-1559-47d3-84a6-78d03dca2c98",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1fcc474d-e4c1-4b2f-9152-c970548d9e80/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "2cb8912f1d8c4163ab55fafd2c054a5c0176de97437512f9ab28ccdada3561fb",
+      "bytes": 319473,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 663,
+      "folio_label": "fol. 332",
+      "page_id": "1fcc474d-e4c1-4b2f-9152-c970548d9e80",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

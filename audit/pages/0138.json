@@ -1,0 +1,671 @@
+{
+  "source_order": 138,
+  "folio_label": "fol. 69b",
+  "page_id": "a817a6ec-f9b5-4992-b534-b038349a8a67",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "69b",
+    "principal_page_bbox": [
+      295,
+      265,
+      2900,
+      4585
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          320,
+          135,
+          145
+        ],
+        "kind_hint": "page_number",
+        "anchor": "69b",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript-style 'b' after 69"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          515,
+          2000,
+          1600,
+          135
+        ],
+        "kind_hint": "continuation_or_addendum_note",
+        "anchor": "adhy. 34 Śaṁkhacūḍāvadha, adhy. 35 Gopikānugīta. ff. 1-4.",
+        "features": [
+          "ink",
+          "single line on ruled line",
+          "no shelfmark",
+          "no governing heading on this page",
+          "extent 'ff. 1-4.'",
+          "comma after Śaṁkhacūḍāvadha",
+          "possibly linked by a cross/arrow mark at the right to an entry on the facing page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3010,
+          2040,
+          90,
+          40
+        ],
+        "description": "Small ink cross-like or arrow-like mark at the right of the page, level with b002. A matching '+'-like mark appears in the left margin area of the fol. 70 opening view. It may be a reference sign tying b002 to an entry on fol. 70."
+      },
+      {
+        "bbox": [
+          585,
+          770,
+          90,
+          60
+        ],
+        "description": "Faint smudge or speck marks near the top-left, not text."
+      },
+      {
+        "bbox": [
+          370,
+          1290,
+          240,
+          280
+        ],
+        "description": "Faint dotted diagonal strokes in the left area, probably offset or smudge, not text."
+      },
+      {
+        "bbox": [
+          330,
+          1080,
+          140,
+          110
+        ],
+        "description": "Small specks near the left edge or binding, not text."
+      },
+      {
+        "bbox": [
+          1815,
+          1600,
+          30,
+          30
+        ],
+        "description": "Isolated ink dot."
+      },
+      {
+        "bbox": [
+          2380,
+          4360,
+          15,
+          15
+        ],
+        "description": "Isolated dot near the bottom."
+      }
+    ],
+    "boundary_notes": [
+      "Faint mirrored writing across the whole page is show-through from the reverse side or facing leaf. It is not transcribed as target text.",
+      "Along the right edge beyond the gutter (x > ~3200), fragments of fol. 70 are visible. These include 'd. 6…', 'e. …', 'm/', 'ā/', '✓ d…', 'cat s. Bhā…', 's/' and 'ś/?'. They are facing-page fragments and not target records.",
+      "b002 has no shelfmark or heading of its own. From the cross mark it may continue or supplement the Gopīgītā entry on fol. 70, which reads 'adh. 34, 35'. That attachment is inferred, not explicit on this page."
+    ],
+    "uncertainties": [
+      "The diacritics in 'Śaṁkhacūḍāvadha' and 'Gopikānugīta' are as they appear in hasty script. The macron and dot placements are approximate.",
+      "The number after the first 'adhy.' reads as 34, but the second digit is somewhat cursive.",
+      "The right-hand mark may be an arrow or a cross. Its exact form is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "69b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "addendum_on_interleaf_keyed_by_reference_mark",
+        "literal_text": "adhy. 34 Śamkhacūḍāvadha, adhy. 35 Gopīkānugīta. ff. 1-4.",
+        "fields": {
+          "extent": "ff. 1-4."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line written on a ruled line at about mid-page. It has no shelfmark and no heading of its own.",
+          "There is a comma after 'Śamkhacūḍāvadha' and a full stop after 'Gopīkānugīta' and after 'ff. 1-4'.",
+          "A small ink cross- or arrow-like reference mark (b901) stands at the right edge of the target page, level with this line. A similar mark appears in the left margin of fol. 70, beside the entry '✓ d. 311 (2) Gopīgītā ... sk. X. adh. 34.35'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 139,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓ d. 311 (2) Gopīgītā. From the Bhāgavata Purāṇa. sk. X. adh. 34.35",
+            "evidence": "Matching reference marks appear at the right of this line and in the left margin of fol. 70 beside the Gopīgītā entry. That entry also cites adhyāyas 34 and 35 and records 'Also called Gopīkānugītā'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The second digit of '34' is cursive and could be misread.",
+          "Diacritics are hasty. It is unclear whether an anusvāra dot stands over the m of 'Śamkha', or whether the vowels in 'Gopīkānugīta' are long or short. The final vowel appears short as written.",
+          "Attachment rests on the reference marks only and is not stated in words. It is unclear which shelfmark or shelfmarks (d. 311 (2), d. 313, d. 1070 (9)) the 'ff. 1-4' extent belongs to."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "69b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink page number in the top-left corner. The 'b' is written raised, in superscript style, after '69'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3010,
+          2040,
+          90,
+          40
+        ],
+        "kind_hint": "reference_mark",
+        "anchor": "cross/arrow mark level with b002",
+        "features": [
+          "ink",
+          "right edge near gutter",
+          "cross- or arrow-like form",
+          "matches a mark in the left margin of fol. 70"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The only catalogue text on the page. It is an addendum probably keyed to the fol. 70 Gopīgītā entry."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Reference mark linking b002 to the facing page. Described in the annotations of r001."
+      }
+    ],
+    "page_annotations": [
+      "Apart from r001 and the folio number, the page is blank on image review. Faint mirrored writing is show-through and is not transcribed.",
+      "Ink specks and smudges at the upper left and middle (around 585,770; 330,1080; 370,1290; 1815,1600; 2380,4360) are not text.",
+      "Fragments beyond the gutter (x > ~3200) belong to fol. 70 and are not target records. They include 'd. 6…', 'e. …', 'm/', 'ā/', '✓ d…', 'cat s. Bhā…', 's/' and 'ś/?'."
+    ],
+    "unresolved_relationships": [
+      "The exact target holding or shelfmark of the 'ff. 1-4' addendum on fol. 70 is not explicit."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An ink '69' with a raised 'b' stands at the top left, about [385,320,135,145]. r002 records it correctly as the visible folio number. The supplied folio label 'fol. 69b' agrees with it."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "A single ink line runs at about y≈2030–2110, from x≈515 to x≈2110. It reads 'adhy. 34 Śamkhacūḍāvadha, adhy. 35 Gopīkānug?ta. ff. 1-4.' It has no shelfmark and no heading. The text is complete. The only problem is the vowel of 'gita' in 'Gopīkānugita'. As written it looks short or undotted, so the candidate's long 'ī' there is over-certain. A change is proposed below."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "A small ink cross- or arrow-like mark lies at about [3014,2045,80,30], level with b002 and just left of the gutter. A '+'-like mark appears in the left margin of fol. 70 at the same height, beside '✓ d. 311 (2) Gopīgītā'. Treating it as a reference sign is reasonable, but the link is only probable."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "literal_text",
+        "before": "adhy. 34 Śamkhacūḍāvadha, adhy. 35 Gopīkānugīta. ff. 1-4.",
+        "after": "adhy. 34 Śamkhacūḍāvadha, adhy. 35 Gopīkānug[i?]ta. ff. 1-4.",
+        "reason": "In the native tile the vowel after 'g' in the final word shows no clear macron, and the candidate's own uncertainty note says the vowel looks short. The literal text should not assert a long ī there. The mark over the i after 'p' looks like a caret or macron, so 'Gopī' is kept.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "Attachment to the fol. 70 Gopīgītā entry rests only on matching reference marks at the same height. It is not stated in words. It is also unclear which of d. 311 (2), d. 313 or d. 1070 (9) the extent 'ff. 1-4.' belongs to.",
+        "next_check": "Compare the native-resolution fol. 70 left-margin mark and the d. 311 (2) line with the b901 mark."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several diacritics are uncertain. It is not clear whether an anusvāra dot stands over the m of 'Śamkha', whether the i of 'gita' is long or short, or whether the i of 'Gopī' carries a macron or a caret. The second digit of '34' is cursive.",
+        "next_check": "Examine the native pixels at about x 760–1200 and 1480–1880, y 2000–2120."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Neither the inventory nor the candidate lists a curved, dotted, grey smudge at about [1960,1700,90,190] in the middle of the page. It appears to be offset or smudge and is not text, so no record is required.",
+        "next_check": "Confirm under magnification that it holds no writing."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter, at about x≈3150–3200, where a sewing hole is visible near y≈1500. Writing beyond it belongs to fol. 70 and is not a target record. This includes 'd. 6…', 'e. …', 'd', 'e', 'E', 'm/', 'ā/', '✓ d…', 'cat s. Bhā…', 's/' and 'ś/?'. It also includes a faint pencil curved bracket line at x≈3470–3500, y≈3330–4000, which is fol. 70's brace for d. 653 (9) and e. 121 (5). The candidate's page annotations omit that bracket, but it is a facing-page feature only. The link from b002 to fol. 70 remains probable and is not resolved.",
+    "region_review": {
+      "top": "Holds only the folio number '69b' and faint mirrored show-through, which is not transcribed. There is a light smudge at about (590–660, 780–820).",
+      "middle": "Holds the single b002 line and the b901 mark. There is a small isolated ink mark at about (1815,1610) and a dotted curved smudge at about (1960–2050, 1700–1890). Neither is text.",
+      "bottom": "Ruled lines carry show-through only. There is an isolated dot at about (2367,4366) and nothing else written.",
+      "left_margin": "Specks near the binding edge at about (330,1080), and faint dotted diagonal strokes at about (400–600, 1300–1560). Neither is text.",
+      "right_margin": "Holds the b901 mark at about (3014,2045). Beyond it lie the gutter and fragments of the facing fol. 70.",
+      "interlinear": "No interlinear additions or cancellations were found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        320,
+        135,
+        145
+      ],
+      "kind_hint": "page_number",
+      "anchor": "69b",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript-style 'b' after 69"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        515,
+        2000,
+        1600,
+        135
+      ],
+      "kind_hint": "continuation_or_addendum_note",
+      "anchor": "adhy. 34 Śaṁkhacūḍāvadha, adhy. 35 Gopikānugīta. ff. 1-4.",
+      "features": [
+        "ink",
+        "single line on ruled line",
+        "no shelfmark",
+        "no governing heading on this page",
+        "extent 'ff. 1-4.'",
+        "comma after Śaṁkhacūḍāvadha",
+        "possibly linked by a cross/arrow mark at the right to an entry on the facing page"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3010,
+        2040,
+        90,
+        40
+      ],
+      "kind_hint": "reference_mark",
+      "anchor": "cross/arrow mark level with b002",
+      "features": [
+        "ink",
+        "right edge near gutter",
+        "cross- or arrow-like form",
+        "matches a mark in the left margin of fol. 70"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "addendum_on_interleaf_keyed_by_reference_mark",
+      "literal_text": "adhy. 34 Śamkhacūḍāvadha, adhy. 35 Gopīkānugīta. ff. 1-4.",
+      "fields": {
+        "extent": "ff. 1-4."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line written on a ruled line at about mid-page. It has no shelfmark and no heading of its own.",
+        "There is a comma after 'Śamkhacūḍāvadha' and a full stop after 'Gopīkānugīta' and after 'ff. 1-4'.",
+        "A small ink cross- or arrow-like reference mark (b901) stands at the right edge of the target page, level with this line. A similar mark appears in the left margin of fol. 70, beside the entry '✓ d. 311 (2) Gopīgītā ... sk. X. adh. 34.35'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 139,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓ d. 311 (2) Gopīgītā. From the Bhāgavata Purāṇa. sk. X. adh. 34.35",
+          "evidence": "Matching reference marks appear at the right of this line and in the left margin of fol. 70 beside the Gopīgītā entry. That entry also cites adhyāyas 34 and 35 and records 'Also called Gopīkānugītā'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The second digit of '34' is cursive and could be misread.",
+        "Diacritics are hasty. It is unclear whether an anusvāra dot stands over the m of 'Śamkha', or whether the vowels in 'Gopīkānugīta' are long or short. The final vowel appears short as written.",
+        "Attachment rests on the reference marks only and is not stated in words. It is unclear which shelfmark or shelfmarks (d. 311 (2), d. 313, d. 1070 (9)) the 'ff. 1-4' extent belongs to."
+      ],
+      "stable_id": "css-prod-0138-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "69b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink page number in the top-left corner. The 'b' is written raised, in superscript style, after '69'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0138-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "literal_text",
+      "before": "adhy. 34 Śamkhacūḍāvadha, adhy. 35 Gopīkānugīta. ff. 1-4.",
+      "after": "adhy. 34 Śamkhacūḍāvadha, adhy. 35 Gopīkānug[i?]ta. ff. 1-4.",
+      "reason": "In the native tile the vowel after 'g' in the final word shows no clear macron, and the candidate's own uncertainty note says the vowel looks short. The literal text should not assert a long ī there. The mark over the i after 'p' looks like a caret or macron, so 'Gopī' is kept.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/a817a6ec-f9b5-4992-b534-b038349a8a67.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a817a6ec-f9b5-4992-b534-b038349a8a67/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "e418d110e449351a5eda04b4fbd7406bed10db03daf4b0122c3753e2e1caf67c",
+      "bytes": 254425,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a817a6ec-f9b5-4992-b534-b038349a8a67/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "80256470d32a42c5645bf02ddddb9760c22aa3a8f3b4819617a8bbe25fdb2920",
+      "bytes": 299970,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a817a6ec-f9b5-4992-b534-b038349a8a67/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b9af415cb259e46cf7acc13d754ea051b2450193b8d62e70299ac2059ea97e3e",
+      "bytes": 313075,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a817a6ec-f9b5-4992-b534-b038349a8a67/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "66ca41f43d5cb56eae6b252ab438c50234aca5fff6786b3c5ba5083e0eb99cdd",
+      "bytes": 310465,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a817a6ec-f9b5-4992-b534-b038349a8a67/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c203997bfef7e8b53cfe097026077f7635d8dc95e4446d5c37263ab718f52434",
+      "bytes": 300887,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a817a6ec-f9b5-4992-b534-b038349a8a67/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e2eea78610a3c030057dc7deca0036ae6e98d5c808178db26ce52ba2858bebf6",
+      "bytes": 309147,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a817a6ec-f9b5-4992-b534-b038349a8a67/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "72a1b73ee3bf4eaa62c167e96c39a1a47279fbbfe516c0e4c0126a6142928e40",
+      "bytes": 324418,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/57ae7201-7301-400d-9dd4-da6d61fa6963/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d6b450a317253d39d04ab8c44e234e8f90e3b2463cf7de5fa50cdb106f9a09be",
+      "bytes": 268363,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 137,
+      "folio_label": "fol. 69",
+      "page_id": "57ae7201-7301-400d-9dd4-da6d61fa6963",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2fa6988c-b8eb-4c87-b074-5b7091daab03/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5025f7877eebad6f8e7f76b3a56c32fcf99cfaa230a2ee2f702357078b3782d9",
+      "bytes": 273409,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 139,
+      "folio_label": "fol. 70",
+      "page_id": "2fa6988c-b8eb-4c87-b074-5b7091daab03",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

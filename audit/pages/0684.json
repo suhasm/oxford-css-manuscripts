@@ -1,0 +1,423 @@
+{
+  "source_order": 684,
+  "folio_label": "fol. 342b",
+  "page_id": "957e3e59-0f2f-4990-9e60-16f1e0af64e0",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "342b",
+    "principal_page_bbox": [
+      390,
+      300,
+      2750,
+      4540
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          495,
+          360,
+          195,
+          135
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "342b",
+        "features": [
+          "top-left corner of the outer margin, left of the vertical margin rule",
+          "digits '342' with a superscript 'b' followed by a dot-like mark",
+          "written in the same hand or pencil style as the adjacent folio numbers"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          385,
+          1040,
+          20,
+          30
+        ],
+        "description": "Small dark nick or mark on the left paper edge, about level with the third ruled line. It appears to be physical damage or a scan artifact, not writing."
+      },
+      {
+        "bbox": [
+          400,
+          300,
+          250,
+          160
+        ],
+        "description": "Slight greyish discoloration or crease at the top-left corner behind the folio number. No text."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the target page meets the gutter at about x≈3130–3170. Writing visible at x>3170 ('f.93', 'e.24…', 'e.24…', 'e.24…', 'e.25…', 'e.25…') belongs to the facing page, fol. 343, as the adjacent overview confirms. It is not transcribed as target content.",
+      "The target page is ruled paper with a vertical margin rule at about x≈870. No writing appears in the main column or the margin apart from the folio number."
+    ],
+    "uncertainties": [
+      "The superscript letter after '342' is read as 'b', in agreement with the folio label. The trailing dot may be punctuation or a stray mark.",
+      "Faint specks scattered across the page were judged to be paper flecks, not pencil writing."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "342b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "342b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio number in the top-left outer margin, left of the vertical margin rule, at about native x 500–690, y 360–495.",
+          "The 'b' is written superscript after '342'. A small dot-like mark sits beneath or after it.",
+          "The number is written at a slight upward slant."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letter is read as 'b', consistent with the folio label. Its form could also be taken as a 'b' with a looped stroke.",
+          "The trailing dot may be punctuation or a stray mark."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only writing on the target page."
+      }
+    ],
+    "page_annotations": [
+      "Image-reviewed finding: the ruled page is blank apart from the folio number '342b' at the top left. I checked the overview and all six native tiles. The main column, the outer margin, the gutter side, and the top and bottom margins contain no writing, pencil notes or marks.",
+      "There is a vertical margin rule at about native x≈870. The horizontal rules are printed lines only.",
+      "Scattered specks and small strokes, for example near x≈1110, y≈1275 and x≈905, y≈2945, were judged to be paper flecks, not writing.",
+      "A small nick on the left paper edge at about y≈1050 and a slight discoloration or crease at the top-left corner are physical features, not text.",
+      "The writing at x>3170 ('f.93', 'e.24…', 'e.25…') belongs to the facing page, fol. 343 (source order 685). It is not transcribed here.",
+      "The preceding page, fol. 342 (source order 683), ends with 'P.T.O.'. This target verso nevertheless carries no catalogue entries. The entries continue as 'Panjabi contd.' on fol. 343. This is observed context only."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number at the top left (native ≈ x 500–690, y 360–495) reads '342' with a raised 'b'. A small dot sits below or just after the 'b'. Record r001 has '342b.'. Its annotations describe the superscript and the dot, and its uncertainties note that the dot may be punctuation or a stray mark. The bbox and hand description agree with the native tile."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The dot after or beneath the superscript 'b' may be punctuation or a stray mark. The literal_text '342b.' keeps it as a full stop. The source does not settle whether it is intended punctuation.",
+        "next_check": "Compare with how folio numbers with letter suffixes are written on other pages in this volume."
+      }
+    ],
+    "boundary_review": "The gutter of the target page lies at about native x≈3134–3170, where a grey binding shadow and fold are visible. The handwritten shelfmark fragments at x≈3300 and beyond ('f.93', 'e.24…', 'e.24…', 'e.24…', 'e.25…', 'e.25…') match the left column of fol. 343 in the adjacent overview. They are facing-page content, correctly excluded from the target records and mentioned only in the page annotations. No target-page writing runs into the gutter. The preceding page, fol. 342, ends with 'P.T.O.', and its continuation appears on fol. 343 as 'Panjabi contd.'. The candidate records this as observed context only, with no relationship asserted, which is appropriate.",
+    "region_review": {
+      "top": "Only the folio number '342b' is present at the top left. Slight greyish discoloration or crease is visible behind it at the corner (≈ x 390–640, y 300–450). There is no other writing along the top edge.",
+      "middle": "The main column is ruled and empty. Scattered specks and tiny strokes (e.g. near x≈1110, y≈1275; x≈977, y≈2410; x≈2913, y≈1815) are paper flecks or fibres with no letter forms.",
+      "bottom": "The bottom ruled lines down to the lower paper edge (≈ y 4830) are empty. Small edge nicks at the bottom edge (≈ x 1310 and x≈2160) are physical damage, not writing.",
+      "left_margin": "The outer margin left of the rule at x≈870 holds only the folio number. A small dark nick on the left paper edge (≈ x 388, y 1050) is physical damage or a scan artifact.",
+      "right_margin": "The gutter side of the target page is blank. Writing beyond x≈3170 belongs to the facing fol. 343.",
+      "interlinear": "No interlinear additions, pencil notes, cancellations or ditto marks were found anywhere on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        495,
+        360,
+        195,
+        135
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "342b",
+      "features": [
+        "top-left corner of the outer margin, left of the vertical margin rule",
+        "digits '342' with a superscript 'b' followed by a dot-like mark",
+        "written in the same hand or pencil style as the adjacent folio numbers"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "342b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio number in the top-left outer margin, left of the vertical margin rule, at about native x 500–690, y 360–495.",
+        "The 'b' is written superscript after '342'. A small dot-like mark sits beneath or after it.",
+        "The number is written at a slight upward slant."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letter is read as 'b', consistent with the folio label. Its form could also be taken as a 'b' with a looped stroke.",
+        "The trailing dot may be punctuation or a stray mark."
+      ],
+      "stable_id": "css-prod-0684-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/957e3e59-0f2f-4990-9e60-16f1e0af64e0.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/957e3e59-0f2f-4990-9e60-16f1e0af64e0/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "621a3a98ce502a07d19bf8d931d867c4b2bd8b4cf907c5dabff3573f5e6f22bd",
+      "bytes": 284853,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/957e3e59-0f2f-4990-9e60-16f1e0af64e0/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c93b726d48499699873b43d0e8a45d7a27dcc25ea5d7a4958e05246123187c3b",
+      "bytes": 364388,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/957e3e59-0f2f-4990-9e60-16f1e0af64e0/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c3c7366c4c0084c503af53a7aa20a151fe47377456e71e97dd1ad69924029615",
+      "bytes": 399697,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/957e3e59-0f2f-4990-9e60-16f1e0af64e0/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6143c9fc9967a5fd4cf7154f6b6401a96cba230704b053f1ea60688daa3e0344",
+      "bytes": 385859,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/957e3e59-0f2f-4990-9e60-16f1e0af64e0/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "46c1007df575b4984883313348f43f41e1013d35b65a6a78a5ed114764a68e63",
+      "bytes": 390296,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/957e3e59-0f2f-4990-9e60-16f1e0af64e0/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0da6757be0de7e82c9150d75cd3a1079377f8c90ea4ddf385332bcdc543a6f8f",
+      "bytes": 343628,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/957e3e59-0f2f-4990-9e60-16f1e0af64e0/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f9148d42e042f9feb98de50c74867682bd134abbd4b11134de9670b6a6fb5047",
+      "bytes": 376442,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b60c2383-79b6-498d-8878-7af5afe05fd7/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "aa73a574d814c8ba57053041c70b319ec653896c406e2d66902feb25625f374e",
+      "bytes": 293673,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 683,
+      "folio_label": "fol. 342",
+      "page_id": "b60c2383-79b6-498d-8878-7af5afe05fd7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8462440d-bc5d-4628-9a34-dfd293dde430/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b267b5e876f5c6989444974229ce53c25faa569e8a3332c19ff3a944e8d19361",
+      "bytes": 208299,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 685,
+      "folio_label": "fol. 343",
+      "page_id": "8462440d-bc5d-4628-9a34-dfd293dde430",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

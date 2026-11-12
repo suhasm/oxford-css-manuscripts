@@ -1,0 +1,426 @@
+{
+  "source_order": 674,
+  "folio_label": "fol. 337b",
+  "page_id": "47338143-bc0f-4537-be6f-2d5e7f2d0f66",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "337b",
+    "principal_page_bbox": [
+      330,
+      305,
+      2820,
+      4566
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          455,
+          355,
+          175,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "337^b",
+        "features": [
+          "handwritten folio number at top left of the left margin column",
+          "superscript 'b' after '337' followed by a point",
+          "darker ink or pencil than the faint show-through"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1855,
+          315,
+          40,
+          40
+        ],
+        "description": "Small dark ink spot near the top edge, right of the vertical ruled margin line."
+      },
+      {
+        "bbox": [
+          1260,
+          320,
+          40,
+          80
+        ],
+        "description": "Short oblique stroke near the top edge."
+      },
+      {
+        "bbox": [
+          860,
+          2460,
+          70,
+          20
+        ],
+        "description": "Small dash or tick mark at the vertical margin rule, at about mid-page."
+      },
+      {
+        "bbox": [
+          1040,
+          4730,
+          140,
+          40
+        ],
+        "description": "Smudge near the bottom edge of the page."
+      }
+    ],
+    "boundary_notes": [
+      "All faint writing across the body and the left margin is mirror-reversed show-through from the recto, fol. 337. Its line positions match that page's Marathi and Bengali entries, for example the reversed shelfmarks and the 'n.d.' extent columns, and the 'iii. Bengali' heading at about mid-page. It is not treated as target-page text.",
+      "No independent writing was found on this verso apart from the folio number."
+    ],
+    "uncertainties": [
+      "The superscript letter after 337 is read as 'b'. This is consistent with the folio label.",
+      "Very faint marks may be obscured by the show-through, but none were found that read the right way round."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "337b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "337^b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio number at the top left of the left margin column, in darker ink or pencil than the show-through.",
+          "The letter after '337' is written superscript and is followed by a point."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letter is read as 'b'. This agrees with the supplied folio label 'fol. 337b'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The only writing on this verso that reads the right way round: the folio number."
+      }
+    ],
+    "page_annotations": [
+      "The page was reviewed in the overview and in all six native tiles. Apart from the folio number, it is blank of independent writing.",
+      "All faint writing across the body and the left margin is mirror-reversed show-through from the recto, fol. 337 (source order 673). Examples are the reversed shelfmark and 'n.d.' extent columns, and the 'iii. Bengali' heading at about mid-page. It is not transcribed as target-page text.",
+      "Non-text marks with no textual content: a small dark ink spot near the top edge at about [1855,315,40,40]; a short oblique stroke near the top edge at about [1260,320,40,80]; a small dash or tick at the vertical margin rule at about [860,2460,70,20]; a smudge near the bottom edge at about [1040,4730,140,40]; scattered small dots and specks, including some at the left (gutter) edge.",
+      "Ruled lines and the vertical margin rule are printed ruling, not catalogue content."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "In native tile [0,0] the folio number is at about x 460–620, y 355–500. It reads '337' with a superscript letter, consistent with 'b', and a point below and right of it. It is darker than the show-through. Record r001 transcribes it as '337^b.' and keeps the uncertainty about the letter. The inventory's four unattached marks have no block IDs, so they are accounted for here and in region_review rather than as separate blocks. They are: the ink spot at about [1855,315,40,40], the oblique stroke at about [1260,320,40,80], the dash at the margin rule at about [860,2460,70,20], and the bottom smudge at about [1040,4730,140,40]. All four are re-checked in the tiles and appear in the candidate's page_annotations as non-text marks."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [],
+    "boundary_review": "The whole canvas lies within one target page. No fragments of a facing page are visible on this verso; the black background surrounds the leaf on all sides. The faint writing across the body and the left margin column is mirror-reversed show-through from the recto, fol. 337 (source order 673). Its line positions correspond to the recto's Marathi entries, the 'iii. Bengali' heading at about mid-page, and the Bengali entries with their shelfmark and extent columns. The arrows and fragments visible at the left of the fol. 337 image belong to a different facing page, not this leaf. No cross-page or ditto relationship arises from this page.",
+    "region_review": {
+      "top": "Folio number '337^b.' at top left of the margin column. There is a small ink spot at about x 1870, y 330 and a short oblique stroke at about x 1265–1290, y 320–390. Otherwise there is only reversed show-through.",
+      "middle": "Only mirror-reversed show-through of the recto's entries and the 'iii. Bengali' heading. A small dash crosses the vertical margin rule at about y 2468. No writing reads the right way round.",
+      "bottom": "Faint reversed show-through of the last recto entries ends at about y 4620. There is a smudge at about x 1045–1170, y 4736–4766 and scattered specks. There is no bottom note.",
+      "left_margin": "Apart from the folio number, the margin column holds only reversed shelfmark show-through, small dots and specks, and dark notches at the gutter edge (for example at about y 3120 and y 3490). None of these is textual.",
+      "right_margin": "The fore-edge is worn and shows some specks, including a dark speck at about x 3130, y 3420. There is no writing.",
+      "interlinear": "No independent interlinear additions were found. The faint interlinear-looking strokes are reversed show-through of the recto's interlinear corrections."
+    },
+    "overall": "machine_reviewed_no_new_issues"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        455,
+        355,
+        175,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "337^b",
+      "features": [
+        "handwritten folio number at top left of the left margin column",
+        "superscript 'b' after '337' followed by a point",
+        "darker ink or pencil than the faint show-through"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "337^b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio number at the top left of the left margin column, in darker ink or pencil than the show-through.",
+        "The letter after '337' is written superscript and is followed by a point."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letter is read as 'b'. This agrees with the supplied folio label 'fol. 337b'."
+      ],
+      "stable_id": "css-prod-0674-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/47338143-bc0f-4537-be6f-2d5e7f2d0f66.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47338143-bc0f-4537-be6f-2d5e7f2d0f66/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "76726eb970db84312008f397c4a3bbcb186049236dc3f947630bc9f4a4945e26",
+      "bytes": 365805,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47338143-bc0f-4537-be6f-2d5e7f2d0f66/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e37bdf63f88b66120cbd647157d1cba906655b95eed47695b23d22c45d0d8bdf",
+      "bytes": 421244,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47338143-bc0f-4537-be6f-2d5e7f2d0f66/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "394f7b33387faf5ff67a67e6a2d97cd081da03aad5f70c5d02a2d6fefd074e5e",
+      "bytes": 398138,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47338143-bc0f-4537-be6f-2d5e7f2d0f66/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "97e1f050457813bcb7ac4c44094f272082fe6f0eb0ddf63d591b2597e7703855",
+      "bytes": 476921,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47338143-bc0f-4537-be6f-2d5e7f2d0f66/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fe66226490b6438788422eaf2be6a9c76d3227c0b94fef2cd2b4709ecf691567",
+      "bytes": 513826,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47338143-bc0f-4537-be6f-2d5e7f2d0f66/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4f58aa57c5355f6a80442be0bea3284f33a61a6568f4b5d07f052e24c9cb6411",
+      "bytes": 422631,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/47338143-bc0f-4537-be6f-2d5e7f2d0f66/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a8e01eea1c912f846c080f934b3270a552fc9a73203e46a9411c17e03013310f",
+      "bytes": 447042,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b7e573c0-dbe0-4e1e-be8a-1f3321eb2c35/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d969e33e953a78430928e307370162fc5a25eea0aad79d45bba41497347d294c",
+      "bytes": 315671,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 673,
+      "folio_label": "fol. 337",
+      "page_id": "b7e573c0-dbe0-4e1e-be8a-1f3321eb2c35",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ff330d94-428e-45d2-b9d5-acef86ec2fcb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "064cd62655ba531c3a9985efbc82b44b57dfe293eec45c80d0fd40f32b10e208",
+      "bytes": 309588,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 675,
+      "folio_label": "fol. 338",
+      "page_id": "ff330d94-428e-45d2-b9d5-acef86ec2fcb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

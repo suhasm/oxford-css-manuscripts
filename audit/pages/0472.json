@@ -1,0 +1,419 @@
+{
+  "source_order": 472,
+  "folio_label": "fol. 236b",
+  "page_id": "9c038af1-4125-4b68-b21b-03fb3a400e90",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "236b.",
+    "principal_page_bbox": [
+      288,
+      240,
+      2926,
+      4612
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          395,
+          285,
+          150,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "236b.",
+        "features": [
+          "handwritten ink",
+          "top left corner",
+          "superscript b with following full stop"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          340,
+          500,
+          2850,
+          4300
+        ],
+        "description": "Faint reversed show-through of writing from the recto (fol. 236) across the ruled area. It is not written on this page."
+      },
+      {
+        "bbox": [
+          1180,
+          380,
+          20,
+          20
+        ],
+        "description": "Small dark specks or dots scattered on the paper, notably near the top centre and lower right. These are probably paper flecks, not writing."
+      },
+      {
+        "bbox": [
+          330,
+          3750,
+          20,
+          120
+        ],
+        "description": "Small dark vertical mark at the left (gutter) edge near the lower third of the page. This is probably binding or edge damage."
+      }
+    ],
+    "boundary_notes": [
+      "Only the folio number is written in ink on this verso. The ruled lines are otherwise empty.",
+      "The ghost text visible throughout is bleed-through or offset from the facing recto fol. 236. It was not transcribed as target-page content.",
+      "Page edges and stacked leaf edges are visible at the left. A slightly torn right edge is visible near the lower right."
+    ],
+    "uncertainties": [
+      "The faint show-through could hide a very faint pencil addition. None was distinguishable on inspection of the native tiles."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "236b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "236b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten ink folio number at the top left corner of the verso. The 'b' is written superscript and is followed by a full stop."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only written element on the page. It is recorded as non-catalogue text."
+      }
+    ],
+    "page_annotations": [
+      "I reviewed the overview and all six native tiles. Apart from the folio number '236b.', the ruled verso carries no catalogue entries, headings, cross-references, marginal additions or pencil notes.",
+      "Faint reversed show-through or offset of writing from the recto fol. 236 is visible across the ruled area. It is not written on this page and was not transcribed.",
+      "Scattered dark specks, such as those near the top centre and lower right, appear to be paper flecks rather than writing.",
+      "A small dark vertical mark at the left (gutter) edge at about y 3750–3870 appears to be edge or binding damage.",
+      "Stacked leaf edges are visible at the left, and the right edge is slightly torn near the lower right. These are physical features, not text."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "In native tile 1 (offset 0,0), the folio number is in ink at the top left, at about x 400–535 and y 290–400. It reads '236', followed by a raised 'b' and a full stop. Candidate r001 gives the literal '236b.' and describes the superscript 'b' in an annotation. The bbox [395,285,150,120] fits the source. This is the only written unit found on the page. It is a page label, not a catalogue record. The unattached non-text features (show-through, specks, gutter mark, edge tear) have no block IDs. They are covered in region_review and boundary_review."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Show-through from the other side of the leaf (fol. 236, source_order 471) covers the ruled area. In principle it could mask an extremely faint pencil addition. None was distinguishable in any of the six native tiles.",
+        "next_check": "If certainty about a hidden pencil trace is needed, examine the original leaf or a raking-light or higher-contrast image."
+      }
+    ],
+    "boundary_review": "Principal page bbox is approximately [288,240,2926,4612]. Stacked leaf edges appear at the left (gutter) side. The right edge is slightly nicked near the lower right, at about x 3200 and y 4300–4350. No fragment of a facing page with writing falls within the target canvas. The faint reversed ghost text is show-through or offset from the other side of the leaf (fol. 236). Its layout matches the entries on the adjacent fol. 236 image, for example near the top lines. It is not target-page writing and was correctly not transcribed. Adjacent fol. 237 was used only as context. No cross-page continuation or ditto relationship originates on this page.",
+    "region_review": {
+      "top": "Ink folio number '236b.' (raised 'b' with a full stop) at the top left. The rest of the top margin carries only paper flecks, for example near x 1190, y 400 and near x 3000, y 370. No writing.",
+      "middle": "Ruled lines only, with faint reversed show-through from fol. 236. The few small dark dots and specks, for example near x 2490, y 1490 and x 1260, y 2290, are flecks, not script. No entries, headings or cross-references.",
+      "bottom": "Ruled lines continue to about y 4580 with faint show-through only. No bottom note, pencil addition or line count found.",
+      "left_margin": "Gutter side with stacked leaf edges. A short dark vertical mark at about x 330, y 3750–3870 appears to be edge or binding damage, not writing. No marginal notes.",
+      "right_margin": "Outer edge region shows paper texture and a slight tear at the lower right. A vertical margin rule is faintly visible near x 3080. No marginal writing.",
+      "interlinear": "No interlinear additions, ticks, arrows or ditto marks distinguishable apart from show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        395,
+        285,
+        150,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "236b.",
+      "features": [
+        "handwritten ink",
+        "top left corner",
+        "superscript b with following full stop"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "236b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten ink folio number at the top left corner of the verso. The 'b' is written superscript and is followed by a full stop."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0472-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9c038af1-4125-4b68-b21b-03fb3a400e90.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9c038af1-4125-4b68-b21b-03fb3a400e90/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7ae332be0811dd960cf63661457389f770201c7f750e0efcb795512997f0a781",
+      "bytes": 308837,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9c038af1-4125-4b68-b21b-03fb3a400e90/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "39312e13a2a1ac379adc30e14ee19caa260cdd974e493a8f000a1a79847eba32",
+      "bytes": 336341,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9c038af1-4125-4b68-b21b-03fb3a400e90/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b9315cac6c3c9cb2308608924b0d2e32e31418957439f410628c1164ba3e7838",
+      "bytes": 335693,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9c038af1-4125-4b68-b21b-03fb3a400e90/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "978e138ced96928431cd2b7b9c4af18b475560056ef4cf7852720ad8e88340e4",
+      "bytes": 378259,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9c038af1-4125-4b68-b21b-03fb3a400e90/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e884a319940182eabda70b6d58ce8f969105e14871db46d1e1a1bb44787fe303",
+      "bytes": 391246,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9c038af1-4125-4b68-b21b-03fb3a400e90/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f50d9538ffa8d2d83732f44ca171d6db0991f10884bcd5d0b97a24a07e36c656",
+      "bytes": 369289,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9c038af1-4125-4b68-b21b-03fb3a400e90/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c87726d600ba1d76cbd9e46d0fcf13b123ff979732041c4d5bf453be8919e0a0",
+      "bytes": 395831,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e084a0f8-f482-4335-b361-abc6a382667d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d42a00e10cb841c279be6340a9d57496465d9c1746e76dd04174d6f496b09080",
+      "bytes": 308318,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 471,
+      "folio_label": "fol. 236",
+      "page_id": "e084a0f8-f482-4335-b361-abc6a382667d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95f6d4c4-6f52-4259-b561-9ac15252e84a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f89c40e2868faf058096c1ed2321a789f86185e2104b2d34b74737c3b3d1563c",
+      "bytes": 292085,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 473,
+      "folio_label": "fol. 237",
+      "page_id": "95f6d4c4-6f52-4259-b561-9ac15252e84a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

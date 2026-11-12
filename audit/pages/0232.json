@@ -1,0 +1,1508 @@
+{
+  "source_order": 232,
+  "folio_label": "fol. 116b",
+  "page_id": "681498ff-7e4f-4a81-b0af-c63e2bc6599e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "116b.",
+    "principal_page_bbox": [
+      330,
+      290,
+      2900,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          440,
+          330,
+          140,
+          115
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "116b.",
+        "features": [
+          "ink",
+          "top left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          720,
+          2170,
+          1800,
+          200
+        ],
+        "kind_hint": "continuation/explicit",
+        "anchor": "Ends:- 'Iti Brahmayāmalīyanarapatijayā…",
+        "features": [
+          "two lines",
+          "second line indented: 'Sarvatobhadram cakram samāptam'",
+          "no shelfmark on this page",
+          "continues an entry from elsewhere, probably the facing page fol. 117 (Narapatijaya / Brahmayāmala Tantra), not confirmed",
+          "right curly brace with rightward arrow pointing toward facing page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          620,
+          2380,
+          1960,
+          140
+        ],
+        "kind_hint": "continuation/physical_description",
+        "anchor": "ff. 2-42 (2½ in.) … 7 ff. of diagrams. I.O. 3109-3115.",
+        "features": [
+          "single line",
+          "extent and I.O. number range",
+          "closing words uncertain, possibly '… MS.'",
+          "leftward arrow in right margin at about x 3004-3104"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2690,
+          2240,
+          180,
+          170
+        ],
+        "description": "Right curly brace grouping the two 'Ends' lines, with a short arrow pointing right toward the gutter and facing page."
+      },
+      {
+        "bbox": [
+          3000,
+          2440,
+          110,
+          60
+        ],
+        "description": "Leftward arrow in the right margin at the level of the ff. line; probably links to an arrow on facing fol. 117."
+      },
+      {
+        "bbox": [
+          475,
+          2350,
+          20,
+          30
+        ],
+        "description": "Small faint stroke in the left margin; probably not text."
+      },
+      {
+        "bbox": [
+          930,
+          3820,
+          30,
+          70
+        ],
+        "description": "Small ink blot or spot in the lower middle of the page."
+      }
+    ],
+    "boundary_notes": [
+      "Right edge of the image shows part of facing fol. 117: shelfmark fragments 'd.', 'e.', the marks 's/', 'ā/', 'tt/', ticks, an arrow and a long pencil curve. These belong to fol. 117 and are not target records.",
+      "The content of b002-b003 continues an entry that is not headed on this page. Its parent is probably on fol. 117 (arrows link across the gutter), but this is unconfirmed."
+    ],
+    "uncertainties": [
+      "Several words in b003 are hard to read: the word after '(2½ in.)' and the final words before 'MS.'.",
+      "The superscript in '2½' is uncertain.",
+      "'Brahmayāmalīya…' compound reading is approximate."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "116b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "116b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number at the top left. The 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "explicit_and_physical_description",
+        "literal_text": "Ends:- 'Iti Brahmayāmalīyanarapatijayācaryāyāṃ svarodaye\n        Sarvatobhadram cakram samāptam\nff. 2-42 (2½ in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+        "fields": {
+          "extent": "ff. 2-42 (2½ in.)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A right curly brace groups the two 'Ends' lines. A short arrow from the brace points right, toward the gutter and facing fol. 117.",
+          "A leftward arrow stands in the right margin at the level of the 'ff.' line, at about x 3004-3104, y 2468-2498.",
+          "No shelfmark, title or heading is written on this page for this text.",
+          "No closing quotation mark is visible after 'samāptam'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 233,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+            "evidence": "Arrows across the gutter link this page to arrows in the left margin of fol. 117 near the d. 767 (4) / Brahmayāmala Tantra entry. The explicit also names Brahmayāmalīya and Narapatijaya, which matches that entry. This page carries no heading of its own.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+          "'caryāyāṃ' may be written 'caryayāṃ'; the diacritics are uncertain.",
+          "The word after '(2½ in.)' is unclear; it is read tentatively as 'pllavi'.",
+          "The fraction '2½' is uncertain.",
+          "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+          "It is uncertain whether the I.O. range and the closing words belong to the same holding as the explicit; they are joined only by layout and the arrows."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Explicit lines of a continued entry, braced with an arrow toward the facing page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Physical-description line, linked by a margin arrow to the same continued entry."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is ruled and blank after image review of all tiles, including the top, bottom and margins.",
+      "A small faint stroke in the left margin at about [475,2350] and an ink spot at about [930,3820] are not text.",
+      "Marks at the right edge ('d.', 'e.', 's/', 'ā/', 'tt/', ticks, a pencil curve and an arrow) belong to facing fol. 117 and are not transcribed as target records."
+    ],
+    "unresolved_relationships": [
+      "The parent entry of r002 is probably d. 767 (4) on fol. 117 (source order 233). This is not confirmed, because no shelfmark is written on this page."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '116b.' at top left, with a superscript 'b'. The transcription matches the source."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Two braced 'Ends' lines. The source shows a visible space between '…narapatijayā' and 'c[a/ā]ryayāṃ'. It also writes 'Sarvato bhadram' as two words. The candidate joined both. The 'ra' of 'Brahma' is malformed (it looks like 'Btah'). A dot may stand under the final m of 'bhadram'."
+      },
+      {
+        "block_id": "b003",
+        "status": "misgrouped",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The 'ff. 2-42 …' line has its own leftward arrow at about [3000,2440]. A rightward arrow stands just across the gutter at about x 3290 on the same level. This arrow pair lies at the level of the c. 425 entry on fol. 117, not the d. 767 (4) entry. The c. 425 entry mentions palm-leaf, magic diagrams and the title Jyotiṣacakrasaṃgraha. So this line may belong to c. 425 rather than to the same addition as the braced 'Ends' lines. That attribution is probable, not secure. The candidate's single-record grouping is kept, and the ambiguity is now recorded."
+      },
+      {
+        "block_id": "mark_brace_arrow",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Right curly brace with a rightward arrow at about [2690,2240,180,170]. It is recorded in the r002 annotations and attaches only to the two 'Ends' lines."
+      },
+      {
+        "block_id": "mark_left_arrow_ff_line",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Leftward arrow at about [3000,2440,110,60]. It is recorded in the annotations. Its attachment target is revised in relationships."
+      },
+      {
+        "block_id": "mark_faint_stroke",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint stroke in the left margin at about [475,2350]. Not text. It is noted in page_annotations."
+      },
+      {
+        "block_id": "mark_ink_blot",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Ink spot at about [930,3820]. Not text. It is noted in page_annotations."
+      },
+      {
+        "block_id": "facing_fol117_fragments",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Right-edge marks belong to facing fol. 117: 'd.', 'e.', 'd', 'd', braces, 's/', 'ā/', a tick, '→', 's/', 'tt/' and a long pencil curve. They are correctly excluded as target records."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "Ends:- 'Iti Brahmayāmalīyanarapatijayācaryāyāṃ svarodaye\n        Sarvatobhadram cakram samāptam\nff. 2-42 (2½ in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+        "after": "Ends:- 'Iti B[ra?]hmayāmalīyanarapatijayā c[a?]ryayāṃ svarodaye\n        Sarvato bhadram cakram samāptam\nff. 2-42 ([2½?] in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+        "reason": "The source shows word spacing before 'c…ryayāṃ' and between 'Sarvato' and 'bhadram'. The second letter of 'Brahma' is malformed. The first vowel of 'caryayāṃ' is uncertain. The candidate had moved the long ā to a different syllable. The fraction is made explicitly uncertain in the text.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 233,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+            "evidence": "Arrows across the gutter link this page to arrows in the left margin of fol. 117 near the d. 767 (4) / Brahmayāmala Tantra entry. The explicit also names Brahmayāmalīya and Narapatijaya, which matches that entry. This page carries no heading of its own.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 233,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+            "evidence": "Applies to the braced 'Ends' lines (b002) only. The brace arrow points toward fol. 117, where arrows sit near the d. 767 (4) entry. The explicit wording 'Brahmayāmalīya…' corresponds to that entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possibly_continues",
+            "target_page_order": 233,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 425 ——— Beginning wanting … called here Jyotiṣacakrasaṃgraha",
+            "evidence": "Applies to the ff. line (b003). Its leftward arrow and a rightward arrow just across the gutter stand at the level of the c. 425 entry on fol. 117. That entry mentions palm-leaf and magic diagrams, which matches '7 ff. of diagrams'.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "Two separate arrow systems are visible, at different heights. They may point to different entries on fol. 117.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+          "'caryāyāṃ' may be written 'caryayāṃ'; the diacritics are uncertain.",
+          "The word after '(2½ in.)' is unclear; it is read tentatively as 'pllavi'.",
+          "The fraction '2½' is uncertain.",
+          "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+          "It is uncertain whether the I.O. range and the closing words belong to the same holding as the explicit; they are joined only by layout and the arrows."
+        ],
+        "after": [
+          "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+          "The first vowel of 'c[a?]ryayāṃ' is uncertain (a or ā). A space separates it from '…jayā'.",
+          "A dot may stand under the final m of 'bhadram' (possibly 'bhadraṃ'). Not transcribed as certain.",
+          "The word after the parenthesis is unclear; it is read tentatively as 'pllavi'.",
+          "The figure before 'in.' is uncertain; it may be 2½ or another numeral.",
+          "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+          "The ff./I.O. line has its own arrow and may belong to a different fol. 117 entry (c. 425) from the braced explicit (d. 767 (4))."
+        ],
+        "reason": "Updated to match the revised reading and the arrow evidence.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "It is unclear whether the ff./I.O. line belongs to the d. 767 (4) entry or to the c. 425 entry on fol. 117. The arrow levels suggest c. 425.",
+        "next_check": "Compare the native-resolution arrows in the left margin of fol. 117 at the d. 767 (4) and c. 425 lines with the target arrows at y≈2310 and y≈2470."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The readings 'pllavi', 'Adikh' and the figure '2½' are not secure.",
+        "next_check": "Use higher-contrast magnification of x 1100–1300 and x 2270–2500 at y≈2450."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter, about x 3200. Arrows at about x 3290 and the letters and pencil curve further right belong to fol. 117 and are excluded. The cross-page parents of b002 and b003 remain probable or uncertain and may differ from each other.",
+    "region_review": {
+      "top": "Only the folio number '116b.' is present.",
+      "middle": "Two braced 'Ends' lines and one ff./I.O. line, with a brace-and-arrow and a separate leftward arrow.",
+      "bottom": "Ruled and blank apart from an ink spot at about [930,3820].",
+      "left_margin": "A faint stroke at about [475,2350], not text.",
+      "right_margin": "A brace arrow and a leftward arrow on the target. Facing-page marks lie beyond the gutter.",
+      "interlinear": "No interlinear additions or cancellations are visible."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        440,
+        330,
+        140,
+        115
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "116b.",
+      "features": [
+        "ink",
+        "top left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        720,
+        2170,
+        1800,
+        200
+      ],
+      "kind_hint": "continuation/explicit",
+      "anchor": "Ends:- 'Iti Brahmayāmalīyanarapatijayā…",
+      "features": [
+        "two lines",
+        "second line indented: 'Sarvatobhadram cakram samāptam'",
+        "no shelfmark on this page",
+        "continues an entry from elsewhere, probably the facing page fol. 117 (Narapatijaya / Brahmayāmala Tantra), not confirmed",
+        "right curly brace with rightward arrow pointing toward facing page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        620,
+        2380,
+        1960,
+        140
+      ],
+      "kind_hint": "continuation/physical_description",
+      "anchor": "ff. 2-42 (2½ in.) … 7 ff. of diagrams. I.O. 3109-3115.",
+      "features": [
+        "single line",
+        "extent and I.O. number range",
+        "closing words uncertain, possibly '… MS.'",
+        "leftward arrow in right margin at about x 3004-3104"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "116b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number at the top left. The 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0232-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "explicit_and_physical_description",
+      "literal_text": "Ends:- 'Iti Brahmayāmalīyanarapatijayācaryāyāṃ svarodaye\n        Sarvatobhadram cakram samāptam\nff. 2-42 (2½ in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+      "fields": {
+        "extent": "ff. 2-42 (2½ in.)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A right curly brace groups the two 'Ends' lines. A short arrow from the brace points right, toward the gutter and facing fol. 117.",
+        "A leftward arrow stands in the right margin at the level of the 'ff.' line, at about x 3004-3104, y 2468-2498.",
+        "No shelfmark, title or heading is written on this page for this text.",
+        "No closing quotation mark is visible after 'samāptam'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 233,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+          "evidence": "Arrows across the gutter link this page to arrows in the left margin of fol. 117 near the d. 767 (4) / Brahmayāmala Tantra entry. The explicit also names Brahmayāmalīya and Narapatijaya, which matches that entry. This page carries no heading of its own.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+        "'caryāyāṃ' may be written 'caryayāṃ'; the diacritics are uncertain.",
+        "The word after '(2½ in.)' is unclear; it is read tentatively as 'pllavi'.",
+        "The fraction '2½' is uncertain.",
+        "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+        "It is uncertain whether the I.O. range and the closing words belong to the same holding as the explicit; they are joined only by layout and the arrows."
+      ],
+      "stable_id": "css-prod-0232-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "Ends:- 'Iti Brahmayāmalīyanarapatijayācaryāyāṃ svarodaye\n        Sarvatobhadram cakram samāptam\nff. 2-42 (2½ in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+      "after": "Ends:- 'Iti B[ra?]hmayāmalīyanarapatijayā c[a?]ryayāṃ svarodaye\n        Sarvato bhadram cakram samāptam\nff. 2-42 ([2½?] in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+      "reason": "The source shows word spacing before 'c…ryayāṃ' and between 'Sarvato' and 'bhadram'. The second letter of 'Brahma' is malformed. The first vowel of 'caryayāṃ' is uncertain. The candidate had moved the long ā to a different syllable. The fraction is made explicitly uncertain in the text.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 233,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+          "evidence": "Arrows across the gutter link this page to arrows in the left margin of fol. 117 near the d. 767 (4) / Brahmayāmala Tantra entry. The explicit also names Brahmayāmalīya and Narapatijaya, which matches that entry. This page carries no heading of its own.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 233,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+          "evidence": "Applies to the braced 'Ends' lines (b002) only. The brace arrow points toward fol. 117, where arrows sit near the d. 767 (4) entry. The explicit wording 'Brahmayāmalīya…' corresponds to that entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possibly_continues",
+          "target_page_order": 233,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 425 ——— Beginning wanting … called here Jyotiṣacakrasaṃgraha",
+          "evidence": "Applies to the ff. line (b003). Its leftward arrow and a rightward arrow just across the gutter stand at the level of the c. 425 entry on fol. 117. That entry mentions palm-leaf and magic diagrams, which matches '7 ff. of diagrams'.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "Two separate arrow systems are visible, at different heights. They may point to different entries on fol. 117.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+        "'caryāyāṃ' may be written 'caryayāṃ'; the diacritics are uncertain.",
+        "The word after '(2½ in.)' is unclear; it is read tentatively as 'pllavi'.",
+        "The fraction '2½' is uncertain.",
+        "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+        "It is uncertain whether the I.O. range and the closing words belong to the same holding as the explicit; they are joined only by layout and the arrows."
+      ],
+      "after": [
+        "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+        "The first vowel of 'c[a?]ryayāṃ' is uncertain (a or ā). A space separates it from '…jayā'.",
+        "A dot may stand under the final m of 'bhadram' (possibly 'bhadraṃ'). Not transcribed as certain.",
+        "The word after the parenthesis is unclear; it is read tentatively as 'pllavi'.",
+        "The figure before 'in.' is uncertain; it may be 2½ or another numeral.",
+        "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+        "The ff./I.O. line has its own arrow and may belong to a different fol. 117 entry (c. 425) from the braced explicit (d. 767 (4))."
+      ],
+      "reason": "Updated to match the revised reading and the arrow evidence.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "Ends:- 'Iti Brahmayāmalīyanarapatijayācaryāyāṃ svarodaye\n        Sarvatobhadram cakram samāptam\nff. 2-42 (2½ in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+      "after": "Ends:- 'Iti B[ra?]hmayāmalīyanarapatijayā c[a?]ryayāṃ svarodaye\n        Sarvato bhadram cakram samāptam\nff. 2-42 ([2½?] in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+      "reason": "Fresh reading preserves the visible word spacing and the uncertain letters and fraction. It removes the unsupported long ā in 'caryāyāṃ'.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0232-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields.extent",
+      "before": "ff. 2-42 (2½ in.)",
+      "after": "ff. 2-42 ([2½?] in.)",
+      "reason": "The fraction is not secure.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0232-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "A right curly brace groups the two 'Ends' lines. A short arrow from the brace points right, toward the gutter and facing fol. 117.",
+        "A leftward arrow stands in the right margin at the level of the 'ff.' line, at about x 3004-3104, y 2468-2498.",
+        "No shelfmark, title or heading is written on this page for this text.",
+        "No closing quotation mark is visible after 'samāptam'."
+      ],
+      "after": [
+        "A right curly brace groups the two 'Ends' lines. A short arrow from the brace points right, toward the gutter and facing fol. 117 (about x 2750-2870, y ~2318).",
+        "A leftward arrow stands in the right margin at the level of the 'ff.' line, at about x 3004-3104, y 2468-2498.",
+        "A rightward arrow stands just across the gutter at about x 3270-3330, y ~2458, level with the leftward arrow. It sits on the fol. 117 side, at the level of the c. 425 entry.",
+        "No shelfmark, title or heading is written on this page for this text.",
+        "No closing quotation mark is visible after 'samāptam'.",
+        "A dot may stand under the final m of 'bhadram'."
+      ],
+      "reason": "Records the second arrow system separately from the brace arrow.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0232-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 233,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+          "evidence": "Arrows across the gutter link this page to arrows in the left margin of fol. 117 near the d. 767 (4) / Brahmayāmala Tantra entry. The explicit also names Brahmayāmalīya and Narapatijaya, which matches that entry. This page carries no heading of its own.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 233,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+          "evidence": "Applies to the braced 'Ends' lines (b002) only. The brace arrow points toward fol. 117, and the explicit names Brahmayāmalīya…, which corresponds to that entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possibly_continues",
+          "target_page_order": 233,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 425 ——— Beginning wanting … called here Jyotiṣacakrasaṃgraha",
+          "evidence": "Applies to the ff. line (b003). Its leftward arrow and a rightward arrow just across the gutter stand at the level of the c. 425 entry on fol. 117, which mentions magic diagrams.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "There are two arrow systems at different heights.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0232-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+        "'caryāyāṃ' may be written 'caryayāṃ'; the diacritics are uncertain.",
+        "The word after '(2½ in.)' is unclear; it is read tentatively as 'pllavi'.",
+        "The fraction '2½' is uncertain.",
+        "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+        "It is uncertain whether the I.O. range and the closing words belong to the same holding as the explicit; they are joined only by layout and the arrows."
+      ],
+      "after": [
+        "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+        "The first vowel of 'c[a?]ryayāṃ' is uncertain (a or ā). A space separates it from '…jayā'.",
+        "A dot may stand under the final m of 'bhadram' (possibly 'bhadraṃ'). Not transcribed as certain.",
+        "The word after the parenthesis is unclear; it is read tentatively as 'pllavi'.",
+        "The figure before 'in.' is uncertain; it may be 2½ or another numeral.",
+        "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+        "The ff./I.O. line has its own arrow and may belong to a different fol. 117 entry (c. 425) from the braced explicit (d. 767 (4))."
+      ],
+      "reason": "Aligned with the fresh reading and the arrow evidence.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0232-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [
+      {
+        "block_id": "b003",
+        "status": "misgrouped",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The 'ff. 2-42 …' line has its own leftward arrow at about [3000,2440]. A rightward arrow stands just across the gutter at about x 3290 on the same level. This arrow pair lies at the level of the c. 425 entry on fol. 117, not the d. 767 (4) entry. The c. 425 entry mentions palm-leaf, magic diagrams and the title Jyotiṣacakrasaṃgraha. So this line may belong to c. 425 rather than to the same addition as the braced 'Ends' lines. That attribution is probable, not secure. The candidate's single-record grouping is kept, and the ambiguity is now recorded."
+      }
+    ],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [
+      {
+        "block_id": "b003",
+        "status": "misgrouped",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The 'ff. 2-42 …' line has its own leftward arrow at about [3000,2440]. A rightward arrow stands just across the gutter at about x 3290 on the same level. This arrow pair lies at the level of the c. 425 entry on fol. 117, not the d. 767 (4) entry. The c. 425 entry mentions palm-leaf, magic diagrams and the title Jyotiṣacakrasaṃgraha. So this line may belong to c. 425 rather than to the same addition as the braced 'Ends' lines. That attribution is probable, not secure. The candidate's single-record grouping is kept, and the ambiguity is now recorded."
+      }
+    ],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "coverage",
+      "priority": 100,
+      "issue": "The 'ff. 2-42 …' line has its own leftward arrow at about [3000,2440]. A rightward arrow stands just across the gutter at about x 3290 on the same level. This arrow pair lies at the level of the c. 425 entry on fol. 117, not the d. 767 (4) entry. The c. 425 entry mentions palm-leaf, magic diagrams and the title Jyotiṣacakrasaṃgraha. So this line may belong to c. 425 rather than to the same addition as the braced 'Ends' lines. That attribution is probable, not secure. The candidate's single-record grouping is kept, and the ambiguity is now recorded.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-01"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The source shows word spacing before 'c…ryayāṃ' and between 'Sarvato' and 'bhadram'. The second letter of 'Brahma' is malformed. The first vowel of 'caryayāṃ' is uncertain. The candidate had moved the long ā to a different syllable. The fraction is made explicitly uncertain in the text. Proposed literal_text: \"Ends:- 'Iti B[ra?]hmayāmalīyanarapatijayā c[a?]ryayāṃ svarodaye\\n        Sarvato bhadram cakram samāptam\\nff. 2-42 ([2½?] in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.\"",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "Two separate arrow systems are visible, at different heights. They may point to different entries on fol. 117. Proposed relationships: [{\"type\": \"continues\", \"target_page_order\": 233, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"d. 767 (4) ——— Partly from the Brahmayāmala Tantra\", \"evidence\": \"Applies to the braced 'Ends' lines (b002) only. The brace arrow points toward fol. 117, where arrows sit near the d. 767 (4) entry. The explicit wording 'Brahmayāmalīya…' corresponds to that entry.\", \"certainty\": \"probable\"}, {\"type\": \"possibly_continues\", \"target_page_order\": 233, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"c. 425 ——— Beginning wanting … called here Jyotiṣacakrasaṃgraha\", \"evidence\": \"Applies to the ff. line (b003). Its leftward arrow and a rightward arrow just across the gutter stand at the level of the c. 425 entry on fol. 117. That entry mentions palm-leaf and magic diagrams, which matches '7 ff. of diagrams'.\", \"certainty\": \"uncertain\"}]",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is unclear whether the ff./I.O. line belongs to the d. 767 (4) entry or to the c. 425 entry on fol. 117. The arrow levels suggest c. 425.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The readings 'pllavi', 'Adikh' and the figure '2½' are not secure.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Updated to match the revised reading and the arrow evidence. Proposed uncertainties: [\"'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.\", \"The first vowel of 'c[a?]ryayāṃ' is uncertain (a or ā). A space separates it from '…jayā'.\", \"A dot may stand under the final m of 'bhadram' (possibly 'bhadraṃ'). Not transcribed as certain.\", \"The word after the parenthesis is unclear; it is read tentatively as 'pllavi'.\", \"The figure before 'in.' is uncertain; it may be 2½ or another numeral.\", \"The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.\", \"The ff./I.O. line has its own arrow and may belong to a different fol. 117 entry (c. 425) from the braced explicit (d. 767 (4)).\"]",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'caryāyāṃ' may be written 'caryayāṃ'; the diacritics are uncertain.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The word after '(2½ in.)' is unclear; it is read tentatively as 'pllavi'.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The fraction '2½' is uncertain.",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0232-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0232-01",
+        "focus-0232-02",
+        "focus-0232-03",
+        "focus-0232-04",
+        "focus-0232-05",
+        "focus-0232-06",
+        "focus-0232-07",
+        "focus-0232-08",
+        "focus-0232-09",
+        "focus-0232-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0232-01",
+          "source_reading": "Leftward arrow '←' in the right margin at about canvas x 3004-3104, y ~2478. A rightward arrow '→' stands just across the gutter at about x 3270-3330, y ~2458. The brace arrow '}→' is higher, at about y ~2318, and at x ~2750-2870.",
+          "certainty": "secure",
+          "evidence": "Second native tile (offset 1604,1608): '←' at tile x 1400-1500, y ~870; '→' at tile x 1665-1725, y ~850; brace arrow at tile y ~710. In the fol. 117 native tile, the same left/right arrow pair (x 170-265 and 430-495) sits at y ~2400-2420. That is just below 'c. 425' (y ~2308) and level with the start of its 'Beginning wanting' line. It lies well below d. 767 (4) at y ~1700."
+        },
+        {
+          "issue_id": "focus-0232-02",
+          "source_reading": "Ends:- 'Iti B[ra?]hmayāmalīyanarapatijayā c[a?]ryayāṃ svarodaye / Sarvato bhadram cakram samāptam / ff. 2-42 ([2½?] in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+          "certainty": "probable",
+          "evidence": "A space is visible between 'jayā' and 'c…ryayāṃ', and between 'Sarvato' and 'bhadram'. The second letter of 'Brahma' looks like a 't' with an extra stroke. 'of' and 'diagrams' are nearly joined."
+        },
+        {
+          "issue_id": "focus-0232-03",
+          "source_reading": "Two arrow systems at different heights: the brace arrow belongs to the two 'Ends' lines; a separate '←' belongs to the ff. line, paired with '→' across the gutter.",
+          "certainty": "probable",
+          "evidence": "Arrow positions as in focus-0232-01. Where each arrow points on fol. 117 is inferred from height only."
+        },
+        {
+          "issue_id": "focus-0232-04",
+          "source_reading": "Attribution of the ff./I.O. line is undetermined from this page. The arrow height favours the c. 425 entry on fol. 117.",
+          "certainty": "uncertain",
+          "evidence": "Arrow level matches c. 425. No shelfmark is written on fol. 116b."
+        },
+        {
+          "issue_id": "focus-0232-05",
+          "source_reading": "'(2[?] m.)' with an unclear fraction-like mark; 'p[ll]avi' or 'fillavi'; 'Adikh' or 'Adih'.",
+          "certainty": "uncertain",
+          "evidence": "The letter forms are cursive and ambiguous. The 'in.' is written like 'm.'."
+        },
+        {
+          "issue_id": "focus-0232-06",
+          "source_reading": "The revised uncertainty list is supported.",
+          "certainty": "probable",
+          "evidence": "A dot under the final m of 'bhadram' is visible in the native tile at about x 1130, y 768 (tile 1)."
+        },
+        {
+          "issue_id": "focus-0232-07",
+          "source_reading": "B[ra?] / 'Btah'-like form",
+          "certainty": "uncertain",
+          "evidence": "Tile 1, x ~1105-1170, y ~600: a cross-stroked letter follows the B."
+        },
+        {
+          "issue_id": "focus-0232-08",
+          "source_reading": "c[a?]ryayāṃ, with the macron on the final yā and a dot under m",
+          "certainty": "uncertain",
+          "evidence": "There is a mark over the first a, but whether it is a macron is unclear. The macron is clear over the final 'yā'."
+        },
+        {
+          "issue_id": "focus-0232-09",
+          "source_reading": "[pllavi?]",
+          "certainty": "uncertain",
+          "evidence": "Tile 1, x ~1090-1265, y ~840."
+        },
+        {
+          "issue_id": "focus-0232-10",
+          "source_reading": "[2½?]",
+          "certainty": "uncertain",
+          "evidence": "After '2' come two tall strokes, possibly a fraction; not legible as certain."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "Ends:- 'Iti Brahmayāmalīyanarapatijayācaryāyāṃ svarodaye\n        Sarvatobhadram cakram samāptam\nff. 2-42 (2½ in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+          "after": "Ends:- 'Iti B[ra?]hmayāmalīyanarapatijayā c[a?]ryayāṃ svarodaye\n        Sarvato bhadram cakram samāptam\nff. 2-42 ([2½?] in.) [pllavi?] 7 ff. of diagrams. I.O. 3109-3115. [Adikh?] MS.",
+          "reason": "Fresh reading preserves the visible word spacing and the uncertain letters and fraction. It removes the unsupported long ā in 'caryāyāṃ'.",
+          "source_block_ids": [
+            "b002",
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "fields.extent",
+          "before": "ff. 2-42 (2½ in.)",
+          "after": "ff. 2-42 ([2½?] in.)",
+          "reason": "The fraction is not secure.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "A right curly brace groups the two 'Ends' lines. A short arrow from the brace points right, toward the gutter and facing fol. 117.",
+            "A leftward arrow stands in the right margin at the level of the 'ff.' line, at about x 3004-3104, y 2468-2498.",
+            "No shelfmark, title or heading is written on this page for this text.",
+            "No closing quotation mark is visible after 'samāptam'."
+          ],
+          "after": [
+            "A right curly brace groups the two 'Ends' lines. A short arrow from the brace points right, toward the gutter and facing fol. 117 (about x 2750-2870, y ~2318).",
+            "A leftward arrow stands in the right margin at the level of the 'ff.' line, at about x 3004-3104, y 2468-2498.",
+            "A rightward arrow stands just across the gutter at about x 3270-3330, y ~2458, level with the leftward arrow. It sits on the fol. 117 side, at the level of the c. 425 entry.",
+            "No shelfmark, title or heading is written on this page for this text.",
+            "No closing quotation mark is visible after 'samāptam'.",
+            "A dot may stand under the final m of 'bhadram'."
+          ],
+          "reason": "Records the second arrow system separately from the brace arrow.",
+          "source_block_ids": [
+            "b002",
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 233,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+              "evidence": "Arrows across the gutter link this page to arrows in the left margin of fol. 117 near the d. 767 (4) / Brahmayāmala Tantra entry. The explicit also names Brahmayāmalīya and Narapatijaya, which matches that entry. This page carries no heading of its own.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 233,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "d. 767 (4) ——— Partly from the Brahmayāmala Tantra",
+              "evidence": "Applies to the braced 'Ends' lines (b002) only. The brace arrow points toward fol. 117, and the explicit names Brahmayāmalīya…, which corresponds to that entry.",
+              "certainty": "probable"
+            },
+            {
+              "type": "possibly_continues",
+              "target_page_order": 233,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "c. 425 ——— Beginning wanting … called here Jyotiṣacakrasaṃgraha",
+              "evidence": "Applies to the ff. line (b003). Its leftward arrow and a rightward arrow just across the gutter stand at the level of the c. 425 entry on fol. 117, which mentions magic diagrams.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "There are two arrow systems at different heights.",
+          "source_block_ids": [
+            "b002",
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "uncertainties",
+          "before": [
+            "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+            "'caryāyāṃ' may be written 'caryayāṃ'; the diacritics are uncertain.",
+            "The word after '(2½ in.)' is unclear; it is read tentatively as 'pllavi'.",
+            "The fraction '2½' is uncertain.",
+            "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+            "It is uncertain whether the I.O. range and the closing words belong to the same holding as the explicit; they are joined only by layout and the arrows."
+          ],
+          "after": [
+            "'Brahmayāmalīya…' shows a malformed or overwritten letter after 'B' (it looks like 'Btah'). The compound reading is approximate.",
+            "The first vowel of 'c[a?]ryayāṃ' is uncertain (a or ā). A space separates it from '…jayā'.",
+            "A dot may stand under the final m of 'bhadram' (possibly 'bhadraṃ'). Not transcribed as certain.",
+            "The word after the parenthesis is unclear; it is read tentatively as 'pllavi'.",
+            "The figure before 'in.' is uncertain; it may be 2½ or another numeral.",
+            "The word before 'MS.' is unclear; it is read tentatively as 'Adikh'.",
+            "The ff./I.O. line has its own arrow and may belong to a different fol. 117 entry (c. 425) from the braced explicit (d. 767 (4))."
+          ],
+          "reason": "Aligned with the fresh reading and the arrow evidence.",
+          "source_block_ids": [
+            "b002",
+            "b003"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 116b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Braced explicit with its brace arrow."
+        },
+        {
+          "block_id": "b003",
+          "status": "uncertain",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The line is represented in r002, but its own arrow suggests it may belong to a different fol. 117 entry (c. 425). The grouping is kept and the ambiguity is recorded."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0232-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The ff./I.O. line may attach to c. 425 rather than to d. 767 (4).",
+          "next_check": "Compare the I.O. numbers 3109-3115 against the c. 425 and d. 767 (4) entries in other sources; the arrows alone are not decisive."
+        },
+        {
+          "issue_id": "focus-0232-04",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "Attribution of the ff./I.O. line is undetermined.",
+          "next_check": "Examine a higher-resolution gutter image to see how the arrows meet across the gutter."
+        },
+        {
+          "issue_id": "focus-0232-05",
+          "record_id": "r002",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The readings 'pllavi', 'Adikh' and the fraction '2½' are not secure.",
+          "next_check": "Compare with the same hand's letter forms elsewhere in the catalogue."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "35edda54ddbd298f921ce0a56b4cb4858c4dffc0abba314abd41209b80ab8c08",
+      "bytes": 271110,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "63847c53c8b31546e4fd29b6b16cab24223cf1175abd49dbba13bbd371329ad4",
+      "bytes": 352240,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee4307d97b2366ac66b016d80cc915c8c2b0b14b02fb45bf257e211ccbbb98fa",
+      "bytes": 355629,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0f6a579c-2d76-4d4b-8d79-5f77ee9b726a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ebb0ced9dc6abe33a6ff3defe1d3c3e1ef3589dae58c19ca323cc337b4eca68e",
+      "bytes": 258003,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 231,
+      "folio_label": "fol. 116",
+      "page_id": "0f6a579c-2d76-4d4b-8d79-5f77ee9b726a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e8ce214a-9434-4ff7-b13e-60efe648d0b5/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4265570bedd47c59aef47c7bd766c6ab519280d2695346b5f3a9ae53fcf16954",
+      "bytes": 259558,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 233,
+      "folio_label": "fol. 117",
+      "page_id": "e8ce214a-9434-4ff7-b13e-60efe648d0b5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e8ce214a-9434-4ff7-b13e-60efe648d0b5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e28520a8f174870ee69637c31ed962be129a5de96ecec4377e747997fb69953f",
+      "bytes": 462357,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 233,
+      "folio_label": "fol. 117",
+      "page_id": "e8ce214a-9434-4ff7-b13e-60efe648d0b5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e8ce214a-9434-4ff7-b13e-60efe648d0b5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e23f12274f82a44af95089065a362695ed2440fe52332015e74a3b58d23b4538",
+      "bytes": 532902,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 233,
+      "folio_label": "fol. 117",
+      "page_id": "e8ce214a-9434-4ff7-b13e-60efe648d0b5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/681498ff-7e4f-4a81-b0af-c63e2bc6599e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "35edda54ddbd298f921ce0a56b4cb4858c4dffc0abba314abd41209b80ab8c08",
+      "bytes": 271110,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f194efefc55a41eea9ccd46482231cf53f4f1988562af7c7452fd32d51b1517a",
+      "bytes": 307038,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "eb8f79f35094f3afdbbe93d4efeb392d0b58b57f4d6d4af73588de770993a5fb",
+      "bytes": 332542,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "63847c53c8b31546e4fd29b6b16cab24223cf1175abd49dbba13bbd371329ad4",
+      "bytes": 352240,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee4307d97b2366ac66b016d80cc915c8c2b0b14b02fb45bf257e211ccbbb98fa",
+      "bytes": 355629,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ded96c287f7b3d553f4e199473ac24018c76e72f7f7a4c6e52214f271a9c70ec",
+      "bytes": 310472,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/681498ff-7e4f-4a81-b0af-c63e2bc6599e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "194714498d7550c4ea957d39704b7fd4b29c7eb36144067d69be705d95c53673",
+      "bytes": 340481,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0f6a579c-2d76-4d4b-8d79-5f77ee9b726a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ebb0ced9dc6abe33a6ff3defe1d3c3e1ef3589dae58c19ca323cc337b4eca68e",
+      "bytes": 258003,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 231,
+      "folio_label": "fol. 116",
+      "page_id": "0f6a579c-2d76-4d4b-8d79-5f77ee9b726a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e8ce214a-9434-4ff7-b13e-60efe648d0b5/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4265570bedd47c59aef47c7bd766c6ab519280d2695346b5f3a9ae53fcf16954",
+      "bytes": 259558,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 233,
+      "folio_label": "fol. 117",
+      "page_id": "e8ce214a-9434-4ff7-b13e-60efe648d0b5",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

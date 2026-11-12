@@ -1,0 +1,543 @@
+{
+  "source_order": 32,
+  "folio_label": "fol. 16b",
+  "page_id": "dab24ca9-ef6d-41e0-967f-1f1bd697e9d5",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "16b",
+    "principal_page_bbox": [
+      280,
+      265,
+      2850,
+      4610
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          355,
+          330,
+          130,
+          100
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "16b",
+        "features": [
+          "ink",
+          "top left corner",
+          "superscript b written above and to the right of 16"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2820,
+          700,
+          80,
+          120
+        ],
+        "description": "Very faint mark resembling 'd' or a tick in the right part of the page, near the top. Probably show-through from the recto's shelfmark and tick column. Not read as target text."
+      },
+      {
+        "bbox": [
+          2720,
+          3580,
+          60,
+          80
+        ],
+        "description": "Faint pencil-like '?' mark near the lower right of the page. It may be show-through from the recto or a faint direct mark. Not attachable to any entry."
+      },
+      {
+        "bbox": [
+          2640,
+          3800,
+          160,
+          170
+        ],
+        "description": "Faint slanted strokes resembling 'a/?' below the previous mark. These are probably show-through and not legible as target text."
+      },
+      {
+        "bbox": [
+          400,
+          600,
+          2400,
+          3700
+        ],
+        "description": "Faint reversed show-through of the recto's catalogue text (fol. 16) across the ruled lines. This is not written on this page."
+      },
+      {
+        "bbox": [
+          3080,
+          950,
+          80,
+          2800
+        ],
+        "description": "Binding thread along the gutter with a knot at about mid-height. This is not writing."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x≈3110–3140 native. To its right are fragments of the facing fol. 17: check marks and the shelfmark prefixes '√d. 15…', 'e.', 'f.', 'c.', and 'd.'. There are also pencil braces and an arrow, and the marginal note 'see Viveka…'. These belong to fol. 17 and are not recorded as target-page blocks.",
+      "The pencil brace and arrow between x≈3270 and 3460 lie right of the gutter. They are taken to belong to the fol. 17 margin."
+    ],
+    "uncertainties": [
+      "The faint marks at about x 2640–2900 may be show-through from the recto tick column or very faint direct pencil marks. They are treated as unattached and not as entries.",
+      "Show-through text was not transcribed because it is mirrored writing from fol. 16."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "16b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "16b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top left corner. The 'b' is written superscript, above and to the right of '16'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "faint_mark",
+        "literal_text": "?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A small faint pencil-like mark resembling '?' or '2' in the lower right part of the page, between ruled lines. It sits near the position where the mirrored left-margin tick and shelfmark column of the recto (fol. 16) would show through."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is uncertain whether this mark was written directly on fol. 16b or is show-through from fol. 16. The reading '?' versus '2' is also uncertain. It is not attachable to any entry."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2720,
+          3580,
+          60,
+          80
+        ],
+        "kind_hint": "faint_mark",
+        "anchor": "?",
+        "features": [
+          "pencil-like",
+          "lower right",
+          "possibly show-through"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only securely direct writing on the page."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Faint isolated mark recorded as an unattached annotation, with show-through doubt noted."
+      }
+    ],
+    "page_annotations": [
+      "The image review finds that fol. 16b is a ruled verso with no catalogue entries. Apart from the folio number '16b', no direct writing is securely identifiable.",
+      "Faint mirrored show-through of the recto (fol. 16) catalogue text is visible across the ruled lines and was not transcribed.",
+      "Faint slanted strokes resembling 'a/?' appear at about [2640,3800,160,170]. They correspond in position to the mirrored recto marginal note at about the same height, so they are judged to be show-through and are not recorded as target text.",
+      "A very faint 'd'-like or tick-like mark appears at about [2820,700,80,120]. It is probably show-through from the recto shelfmark and tick column and is not recorded.",
+      "A binding thread with a knot runs along the gutter at about x 3080–3160. This is not writing.",
+      "Right of the gutter (x>~3140) are fragments of the facing fol. 17. These include ticks, shelfmark prefixes such as 'd. 15', 'e.', 'f.', 'c.' and 'd.', pencil braces and an arrow, and the marginal note 'see Viveka…'. They belong to fol. 17 and are not recorded here."
+    ],
+    "unresolved_relationships": [
+      "It is not established whether the faint '?' mark (r002) is direct writing on fol. 16b or show-through from fol. 16."
+    ]
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "An ink folio number '16' with a superscript 'b' is in the top left corner, at about native [360,335,120,90]. It is correctly transcribed as '16b' and its position is correctly described."
+      },
+      {
+        "block_id": "b901",
+        "status": "uncertain",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A faint small mark resembling '?' is at about native [2725,3595,30,50], between ruled lines in the lower right of the text area. It is somewhat darker than the surrounding mirrored show-through, but it lies near where the recto's tick column would show through. The candidate's representation as an unattached mark is reasonable. The reading '?' versus another shape, and direct writing versus show-through, both stay unresolved."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "It is not established whether the '?'-like mark is direct pencil writing on fol. 16b or show-through of a tick or mark from fol. 16. The exact reading is also uncertain.",
+        "next_check": "Compare the mark against the mirrored position of the recto tick column at about the 'b. 55' line of fol. 16, using transmitted light or the physical leaf."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Faint slanted strokes resembling 'ā/?' are at about native [2640,3810,140,130]. They are treated as show-through in the candidate's page annotations and are not recorded. This is inconsistent with recording the similar faint '?' at b901: both carry the same doubt, and either could be a direct query mark.",
+        "next_check": "Check whether the strokes read correctly (non-mirrored), which would indicate direct writing. If so, record them as an unattached faint mark."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Small dark specks are not mentioned by the candidate or the inventory. They are at about native [425,2540,130,40] and [470,2975,90,80] in the left part of the page, and at [1180,4335,110,30] near the bottom. They look like ink or dust specks or scan debris rather than writing, but this was not confirmed.",
+        "next_check": "Inspect the physical page or a higher-quality capture to confirm that these are specks or debris and not pencil writing."
+      }
+    ],
+    "boundary_review": "The gutter, with its binding thread and a knot at about native y≈2620, lies at about x≈3110–3140. All writing to the right of it belongs to the facing fol. 17. This includes the ticks, the shelfmark prefixes 'd. 15…', 'e.', 'f.', 'd.' and 'c.', the pencil braces and arrow, the marginal note 'see Viveka…' and the final '√d.'. These are correctly excluded as facing-page fragments; adjacent fol. 17 shows them as its left-margin shelfmark column. No target-page writing crosses the gutter.",
+    "region_review": {
+      "top": "Contains only the folio number '16b' (top left) and faint mirrored show-through. A very faint 'd'-like mark near native [2830,770] matches mirrored recto shelfmark or tick show-through and is not direct text.",
+      "middle": "Ruled lines and mirrored show-through of the fol. 16 catalogue text only. There are scattered dots and specks, with no direct catalogue entries.",
+      "bottom": "The faint '?' (b901) and the faint 'ā/?'-like strokes are in the lower right, both of uncertain status. Dark specks are at about y≈4340. The bottom ruled lines below y≈4600 are empty.",
+      "left_margin": "No writing apart from the folio number. Small specks are at about x 430–550 (y≈2540 and ≈3000); they are not text.",
+      "right_margin": "The binding thread lies along the gutter. Fragments right of the gutter belong to fol. 17 and are excluded.",
+      "interlinear": "No direct interlinear additions were identified. All faint interlinear-looking traces are consistent with show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        355,
+        330,
+        130,
+        100
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "16b",
+      "features": [
+        "ink",
+        "top left corner",
+        "superscript b written above and to the right of 16"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2720,
+        3580,
+        60,
+        80
+      ],
+      "kind_hint": "faint_mark",
+      "anchor": "?",
+      "features": [
+        "pencil-like",
+        "lower right",
+        "possibly show-through"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "16b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top left corner. The 'b' is written superscript, above and to the right of '16'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0032-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "faint_mark",
+      "literal_text": "?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A small faint pencil-like mark resembling '?' or '2' in the lower right part of the page, between ruled lines. It sits near the position where the mirrored left-margin tick and shelfmark column of the recto (fol. 16) would show through."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is uncertain whether this mark was written directly on fol. 16b or is show-through from fol. 16. The reading '?' versus '2' is also uncertain. It is not attachable to any entry."
+      ],
+      "stable_id": "css-prod-0032-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/dab24ca9-ef6d-41e0-967f-1f1bd697e9d5.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dab24ca9-ef6d-41e0-967f-1f1bd697e9d5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7fbf11dbb2e4abaa504045a543e799ed9c617ea9d61c7d806a666e1a7951d48c",
+      "bytes": 260090,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dab24ca9-ef6d-41e0-967f-1f1bd697e9d5/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c378a68d16b7dc51f92bd16bf7c5cbe47167119d25e9e0833aa92ed55a2a3058",
+      "bytes": 304983,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dab24ca9-ef6d-41e0-967f-1f1bd697e9d5/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f22e061040ebe3d8ea926246f59c62ad0235e0ac5239b39ed275f7eebb024ef8",
+      "bytes": 310568,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dab24ca9-ef6d-41e0-967f-1f1bd697e9d5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b5e0556f6c176bca964a6628146cdfbb73f50587b8f83619f54cd1530b85e889",
+      "bytes": 311815,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dab24ca9-ef6d-41e0-967f-1f1bd697e9d5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee2a2e5e0272f5a5968a80c25b9bbd153bb796aa1f7b24841d6f5388bac0fa01",
+      "bytes": 306208,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dab24ca9-ef6d-41e0-967f-1f1bd697e9d5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bc5d7017c1409ddc84a8e8c1fbc74a3cef1094b675e7d39c17f4b1a8ca862281",
+      "bytes": 314230,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dab24ca9-ef6d-41e0-967f-1f1bd697e9d5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "645bfea12ac834999ac799506b52a27496402e4ad616f8d14563e257909e0402",
+      "bytes": 333591,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f0a01310-93cf-48ac-8bfc-deb9693c73a4/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "91b1002215b948f04d518d2421fd0b0dc12461ea039e3d11f6a2c6469dfe555f",
+      "bytes": 283807,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 31,
+      "folio_label": "fol. 16",
+      "page_id": "f0a01310-93cf-48ac-8bfc-deb9693c73a4",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf449e20-96cf-4ed6-9332-9478dd02ae1c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "86b10c44afb4aa3aa3771d7b57877b9414abddff722b7cbc1b18f133836fd52e",
+      "bytes": 250275,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 33,
+      "folio_label": "fol. 17",
+      "page_id": "bf449e20-96cf-4ed6-9332-9478dd02ae1c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

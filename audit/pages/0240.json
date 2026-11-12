@@ -1,0 +1,709 @@
+{
+  "source_order": 240,
+  "folio_label": "fol. 120b",
+  "page_id": "bc6e20dc-956a-4078-ac60-a158d4efef5c",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "120b",
+    "principal_page_bbox": [
+      290,
+      245,
+      2870,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          275,
+          140,
+          110
+        ],
+        "kind_hint": "page_number",
+        "anchor": "120b",
+        "features": [
+          "top-left corner",
+          "superscript 'b' after '120'",
+          "ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          365,
+          1165,
+          2215,
+          120
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff.1-45, inc., to xv.8, + ff.1-10 inc. (not earlier than 1903), xii.38-xvi.1. fragment of larger MS.",
+        "features": [
+          "single line at upper middle of page",
+          "no shelfmark or title on this page",
+          "has no visible parent on this page; it may continue an entry elsewhere, possibly the c.265(3) entry on facing fol. 121 indicated by the arrow, but this is not established",
+          "readings of 'inc.', 'not earlier than', 'larger' tentative"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3025,
+          1195,
+          230,
+          45
+        ],
+        "description": "Leftward arrow ('L—' with a stroke continuing across the gutter) in the inner margin, level with b002. It appears to link b002 to the checked c.265(3) entry on facing fol. 121."
+      },
+      {
+        "bbox": [
+          300,
+          250,
+          2860,
+          4580
+        ],
+        "description": "Faint show-through of writing from the reverse (fol. 120) across the page. This is not target-page text."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter fold lies at about x≈3160. Material to its right ('d. 9..', 'd.', 'd.', 'd.', 'ú/?', '√c.', 'ś/', 'ū/?', 'ā/') belongs to facing fol. 121 and is not inventoried.",
+      "The arrow straddles the gutter. Its left portion lies on the target page, and its right segment may lie on fol. 121's margin."
+    ],
+    "uncertainties": [
+      "The attachment of b002 to a parent entry is unverified from this page alone.",
+      "Some words in b002 are cursive and only tentatively read.",
+      "Faint show-through could mask very faint pencil, but none was identified."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "120b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "120b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink page number in the top-left corner. The 'b' is written superscript after '120' and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letter is read as 'b'. Its form is slightly ambiguous, but it agrees with the supplied folio label."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_without_parent",
+        "literal_text": "ff.1-45, inc., to xv.8, + ff.1-10 inc. (not earlier than 1903), xii.38-xvi.1. fragment of larger MS.",
+        "fields": {
+          "extent": "ff.1-45, inc., to xv.8, + ff.1-10 inc. (not earlier than 1903), xii.38-xvi.1"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single ink line on a ruled line at about y≈1185-1270. It has no shelfmark, title or author on this page.",
+          "A leftward arrow ('L—') in the inner margin near the gutter (b901) is level with this line and points toward it. A short dash continues across the gutter onto the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 241,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c. 265(3) Nāradasmṛti ? dhuma 1903 : 45 :",
+            "evidence": "A matching leftward arrow 'L—' appears in the left margin of fol. 121 beside the ticked c.265(3) entry. The arrow on this page sits level with this note. That entry's date of 1903 and its extent of 45 agree with '(not earlier than 1903)' and 'ff.1-45'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'inc.' (both occurrences), 'not earlier than' and 'larger' are tentative because the hand is cursive.",
+          "'xii.38' could also be read 'xii.35'.",
+          "The attachment to fol. 121 c.265(3) rests on the arrows and the matching data. It is not explicit on this page."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3020,
+          1190,
+          150,
+          50
+        ],
+        "kind_hint": "arrow",
+        "anchor": "L—",
+        "features": [
+          "leftward arrow in the inner margin, level with b002",
+          "its stroke continues across the gutter at x≈3164 onto fol. 121",
+          "ink/pencil line"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "A continuation/description note with no parent on this page. It probably attaches to the fol. 121 c.265(3) entry via the arrow."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Linking arrow, recorded as an annotation and an attachment relationship of r002."
+      }
+    ],
+    "page_annotations": [
+      "Apart from b001, b002 and the arrow, the page is blank ruled paper. Faint show-through of writing from fol. 120 is visible throughout and is not transcribed as target text.",
+      "Marks to the right of the gutter (x>~3165), such as 'd. 9..', 'd.', 'ú/?', '√c.', 'ś/', 'ū/', 'ā/', belong to facing fol. 121 and are not recorded here.",
+      "Small binding holes or stitch marks are visible along the gutter.",
+      "The bottom and outer margins were reviewed and no additional pencil or ink text was found."
+    ],
+    "unresolved_relationships": [
+      "The parent holding of r002 is not on this page. Its attachment to fol. 121 c.265(3) Nāradasmṛti is probable but not explicit."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "An ink page number '120' with a superscript letter and a dot sits in the top-left corner at about [360,275,140,110]. The superscript is read as 'b', in agreement with the folio label. Its form, which looks somewhat like 'ls', remains slightly ambiguous, and the candidate records this."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single ink line sits at about y≈1185-1270. The native tiles confirm the reading 'ff.1-45, inc., to xv.8, + ff.1-10 inc. (not earlier than 1903), xii.38-xvi.1. fragment of larger MS.'. Readings of the cursive words remain tentative. The punctuation after 'xvi.1' is a small mark and may be '.', ',' or ';'. No cancellations, overwriting or interlinear additions were seen."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An arrow ('L—') lies just left of the gutter at about x 3030-3135, y≈1210-1240. A further short dash lies right of the gutter at about x 3165-3250, which is on fol. 121's margin. This is the same unattached arrow listed in the inventory. It is correctly folded into r002 as an annotation and relationship evidence."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 241,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c. 265(3) Nāradasmṛti ? dhuma 1903 : 45 :",
+            "evidence": "A matching leftward arrow 'L—' appears in the left margin of fol. 121 beside the ticked c.265(3) entry. The arrow on this page sits level with this note. That entry's date of 1903 and its extent of 45 agree with '(not earlier than 1903)' and 'ff.1-45'.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 241,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c. 265(3) Nāradasmṛti ? [dhuma? / dharma?] 1903 : 45 [with superscript figure(s) above; reading uncertain] :",
+            "evidence": "The 'L' arrowhead and a dash lie on this page just left of the gutter, level with this note. A second dash continues across the gutter to the ticked c.265(3) line on fol. 121. In the fol. 121 image the same 'L——' appears at the extreme left, straddling the gutter, so it is most likely the same single arrow rather than an independent matching arrow on fol. 121. The fol. 121 entry has date 1903 and extent 45 (apparently with superscript additions). These agree with '(not earlier than 1903)' and 'ff.1-45'. The attachment is not stated in words on either page.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The evidence wrongly describes two matching arrows. The images show one arrow straddling the gutter. The target-anchor word from the adjacent page is small and not securely legible, and the superscript marks near '45' were omitted, so the anchor should not appear certain.",
+        "source_block_ids": [
+          "b002",
+          "b901"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The readings 'inc.' (both occurrences), 'not earlier than' and 'larger' are tentative because the hand is cursive.",
+          "'xii.38' could also be read 'xii.35'.",
+          "The attachment to fol. 121 c.265(3) rests on the arrows and the matching data. It is not explicit on this page."
+        ],
+        "after": [
+          "The readings 'inc.' (both occurrences), 'not earlier than' and 'larger' are tentative because the hand is cursive.",
+          "'xii.38' could also be read 'xii.35'.",
+          "The punctuation after 'xvi.1' is a small mark that could be '.', ',' or ';'.",
+          "The attachment to fol. 121 c.265(3) rests on a single gutter-straddling arrow and the matching data. It is not explicit on this page."
+        ],
+        "reason": "Adds the ambiguous punctuation mark seen in the native tile and corrects the 'arrows' plural.",
+        "source_block_ids": [
+          "b002",
+          "b901"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The parent holding is not on this page. Attachment to fol. 121 c.265(3) is probable, via the arrow and the matching 1903/45 data, but it is not explicit.",
+        "next_check": "Inspect native-resolution fol. 121 around the c.265(3) line and its left margin. Confirm the arrow continuity and the reading of the subject word and the superscripts near '45'."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The superscript letter after '120' is ambiguous in form.",
+        "next_check": "Compare with page-number forms on other 'b' pages."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3160-3165. Text to its right ('d. 9..', 'd.', 'd.', 'd.', 'ú/?', '√c.', 'ś/', 'ū/', 'ā/') belongs to fol. 121 and is correctly excluded. The arrow straddles the gutter. Its 'L' head and first dash are on the target page, and the second dash is on fol. 121. The faint show-through from fol. 120 (reversed entries visible across the page) is not target text. Binding stitch holes along the gutter are physical features only.",
+    "region_review": {
+      "top": "The page number is at the top left. Otherwise the area is blank, with ruled lines only.",
+      "middle": "There is one ink line (b002) and the gutter arrow. The rest of the middle is blank apart from show-through.",
+      "bottom": "The bottom tiles were reviewed. There is no ink or pencil writing, only show-through, specks and ruled lines.",
+      "left_margin": "Blank apart from small specks.",
+      "right_margin": "The inner/gutter margin holds the arrow (b901) and stitch holes. Marks beyond the gutter belong to fol. 121.",
+      "interlinear": "No interlinear additions, cancellations or corrections were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        275,
+        140,
+        110
+      ],
+      "kind_hint": "page_number",
+      "anchor": "120b",
+      "features": [
+        "top-left corner",
+        "superscript 'b' after '120'",
+        "ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        365,
+        1165,
+        2215,
+        120
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff.1-45, inc., to xv.8, + ff.1-10 inc. (not earlier than 1903), xii.38-xvi.1. fragment of larger MS.",
+      "features": [
+        "single line at upper middle of page",
+        "no shelfmark or title on this page",
+        "has no visible parent on this page; it may continue an entry elsewhere, possibly the c.265(3) entry on facing fol. 121 indicated by the arrow, but this is not established",
+        "readings of 'inc.', 'not earlier than', 'larger' tentative"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3020,
+        1190,
+        150,
+        50
+      ],
+      "kind_hint": "arrow",
+      "anchor": "L—",
+      "features": [
+        "leftward arrow in the inner margin, level with b002",
+        "its stroke continues across the gutter at x≈3164 onto fol. 121",
+        "ink/pencil line"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "120b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink page number in the top-left corner. The 'b' is written superscript after '120' and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letter is read as 'b'. Its form is slightly ambiguous, but it agrees with the supplied folio label."
+      ],
+      "stable_id": "css-prod-0240-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_without_parent",
+      "literal_text": "ff.1-45, inc., to xv.8, + ff.1-10 inc. (not earlier than 1903), xii.38-xvi.1. fragment of larger MS.",
+      "fields": {
+        "extent": "ff.1-45, inc., to xv.8, + ff.1-10 inc. (not earlier than 1903), xii.38-xvi.1"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single ink line on a ruled line at about y≈1185-1270. It has no shelfmark, title or author on this page.",
+        "A leftward arrow ('L—') in the inner margin near the gutter (b901) is level with this line and points toward it. A short dash continues across the gutter onto the facing page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 241,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 265(3) Nāradasmṛti ? dhuma 1903 : 45 :",
+          "evidence": "A matching leftward arrow 'L—' appears in the left margin of fol. 121 beside the ticked c.265(3) entry. The arrow on this page sits level with this note. That entry's date of 1903 and its extent of 45 agree with '(not earlier than 1903)' and 'ff.1-45'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'inc.' (both occurrences), 'not earlier than' and 'larger' are tentative because the hand is cursive.",
+        "'xii.38' could also be read 'xii.35'.",
+        "The attachment to fol. 121 c.265(3) rests on the arrows and the matching data. It is not explicit on this page."
+      ],
+      "stable_id": "css-prod-0240-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 241,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 265(3) Nāradasmṛti ? dhuma 1903 : 45 :",
+          "evidence": "A matching leftward arrow 'L—' appears in the left margin of fol. 121 beside the ticked c.265(3) entry. The arrow on this page sits level with this note. That entry's date of 1903 and its extent of 45 agree with '(not earlier than 1903)' and 'ff.1-45'.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 241,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 265(3) Nāradasmṛti ? [dhuma? / dharma?] 1903 : 45 [with superscript figure(s) above; reading uncertain] :",
+          "evidence": "The 'L' arrowhead and a dash lie on this page just left of the gutter, level with this note. A second dash continues across the gutter to the ticked c.265(3) line on fol. 121. In the fol. 121 image the same 'L——' appears at the extreme left, straddling the gutter, so it is most likely the same single arrow rather than an independent matching arrow on fol. 121. The fol. 121 entry has date 1903 and extent 45 (apparently with superscript additions). These agree with '(not earlier than 1903)' and 'ff.1-45'. The attachment is not stated in words on either page.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The evidence wrongly describes two matching arrows. The images show one arrow straddling the gutter. The target-anchor word from the adjacent page is small and not securely legible, and the superscript marks near '45' were omitted, so the anchor should not appear certain.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings 'inc.' (both occurrences), 'not earlier than' and 'larger' are tentative because the hand is cursive.",
+        "'xii.38' could also be read 'xii.35'.",
+        "The attachment to fol. 121 c.265(3) rests on the arrows and the matching data. It is not explicit on this page."
+      ],
+      "after": [
+        "The readings 'inc.' (both occurrences), 'not earlier than' and 'larger' are tentative because the hand is cursive.",
+        "'xii.38' could also be read 'xii.35'.",
+        "The punctuation after 'xvi.1' is a small mark that could be '.', ',' or ';'.",
+        "The attachment to fol. 121 c.265(3) rests on a single gutter-straddling arrow and the matching data. It is not explicit on this page."
+      ],
+      "reason": "Adds the ambiguous punctuation mark seen in the native tile and corrects the 'arrows' plural.",
+      "source_block_ids": [
+        "b002",
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bc6e20dc-956a-4078-ac60-a158d4efef5c.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6e20dc-956a-4078-ac60-a158d4efef5c/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "bbe6eb434e5365ab0bf796a8f6c9d172327cc87dbe01e594f8acdea4ed9208cd",
+      "bytes": 249669,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6e20dc-956a-4078-ac60-a158d4efef5c/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "82c69571529414e89000b1f92e743ebb61033280cf31511fc33a70004f74f705",
+      "bytes": 313579,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6e20dc-956a-4078-ac60-a158d4efef5c/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "06d4d8801f2e758bb88490f8dfaf5777c49be7b5e1a0ec3d1884e4ba71cc6714",
+      "bytes": 338267,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6e20dc-956a-4078-ac60-a158d4efef5c/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1d8a7bbb702406e7b1ecd9cd5300c301a7605dd4afe483acdff734f241907036",
+      "bytes": 318006,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6e20dc-956a-4078-ac60-a158d4efef5c/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8a36465dfe312a83b6d0f89e99b0fa69d4d37d5ba532fbf74274bf724da0e3a5",
+      "bytes": 330760,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6e20dc-956a-4078-ac60-a158d4efef5c/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "426f6667eac0470bbc57d6d0b55f1f859fe9c358d448b4d0bda3b293f4d4ef6c",
+      "bytes": 300198,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bc6e20dc-956a-4078-ac60-a158d4efef5c/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "94e8a58790e31127866aaee52f2feca99d7657570c1be5700e349933158615e2",
+      "bytes": 336305,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/916461ce-66df-4604-84bd-36cf4d825b3c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "12eb3f85eea0ef751e87d3a28b116e545f8543d017f751b457b4db9d4882622b",
+      "bytes": 250421,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 239,
+      "folio_label": "fol. 120",
+      "page_id": "916461ce-66df-4604-84bd-36cf4d825b3c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dfae25d2-e2ad-411c-a6ea-9c1f1bb9d335/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d3cd66111154793d1d5a5a14e8138b95aa8bbc2b473aa49efac3fc57a2b00339",
+      "bytes": 229448,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 241,
+      "folio_label": "fol. 121",
+      "page_id": "dfae25d2-e2ad-411c-a6ea-9c1f1bb9d335",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

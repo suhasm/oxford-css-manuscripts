@@ -1,0 +1,966 @@
+{
+  "source_order": 478,
+  "folio_label": "fol. 239b",
+  "page_id": "4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "239b",
+    "principal_page_bbox": [
+      320,
+      255,
+      2860,
+      4605
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          330,
+          160,
+          145
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "239b.",
+        "features": [
+          "top-left corner",
+          "superscript 'b' above '239'",
+          "ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2975,
+          1135,
+          105,
+          190
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "a/?",
+        "features": [
+          "pencil",
+          "outer (gutter-side) margin near gutter",
+          "long oblique stroke through the mark",
+          "attachment to any entry unclear; no entry on this page at that height"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          390,
+          4130,
+          1415,
+          90
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "√d.244(11)c. Do., by Do. (no Co.), ff.1-2 unf.   n.d.: 2:14'5: D.",
+        "features": [
+          "only entry on page",
+          "leading tick before shelfmark",
+          "ditto forms 'Do.' for title and author",
+          "extent 'ff.1-2 unf.'",
+          "date/line/script field at right 'n.d.: 2:14'5: D.'",
+          "ink",
+          "'(no Co.)' reading uncertain"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2970,
+          4390,
+          100,
+          210
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "5/",
+        "features": [
+          "pencil",
+          "near gutter",
+          "long oblique stroke",
+          "attachment unclear"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          700,
+          475,
+          35,
+          25
+        ],
+        "description": "small caret-like pencil stroke near top, below folio number; not apparently text"
+      },
+      {
+        "bbox": [
+          495,
+          4205,
+          50,
+          70
+        ],
+        "description": "faint dotted/smudged mark below the shelfmark of b003; possibly show-through or stray mark"
+      },
+      {
+        "bbox": [
+          3035,
+          4160,
+          90,
+          35
+        ],
+        "description": "left-pointing arrow in pencil near gutter on target page; paired with a right-pointing arrow on the facing page (fol. 240) at the same height"
+      },
+      {
+        "bbox": [
+          1440,
+          665,
+          480,
+          680
+        ],
+        "description": "faint curved arc line (paper crease/impression), not writing"
+      }
+    ],
+    "boundary_notes": [
+      "Gutter lies at approximately x=3178; all material to the right (circled 'stoka ?', '?', 'e.', 'd', tick, 'See S. Hemr...', '?', 'Benares...', small numeric marks, right-pointing arrow) belongs to the left margin of fol. 240 and is not recorded as target blocks.",
+      "The marks 'a/?', '5/' and the left arrow sit on the target page next to the gutter and also appear at the edge of the fol. 240 image; they may relate to fol. 240 entries rather than to anything on fol. 239b.",
+      "Much faint mirror-image text visible across the page is show-through from fol. 239 recto/240 and is not transcribed."
+    ],
+    "uncertainties": [
+      "Reading of '(no Co.)' and of 'unf.' in b003 is uncertain.",
+      "The superscript after '244(11)' read as 'c' is uncertain.",
+      "Line-count field '14'5' may be read differently (e.g. '14/15').",
+      "Meaning/attachment of 'a/?' and '5/' unknown."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "239b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "239ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner; superscript 'b' written above the '239'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry",
+        "literal_text": "√d.244(11)ᶜ. Do., by Do. (no Co.), ff.1-2 unf.   n.d.: 2:14'5: D.",
+        "fields": {
+          "shelfmark": "d.244(11)ᶜ",
+          "title": "Do.",
+          "author": "Do.",
+          "date": "n.d.",
+          "extent": "ff.1-2 unf.",
+          "lines": "14'5",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink. Only catalogue entry on the page, written on a ruled line near the bottom.",
+          "A leading tick (√) precedes the shelfmark.",
+          "The title and author fields are both ditto forms ('Do.'). The page itself supplies no antecedent for them.",
+          "The '2' before the line-count field is recorded literally, without interpretation.",
+          "A pencil left-pointing arrow near the gutter (b901) sits at the height of this entry. It is paired with a right-pointing arrow on fol. 240."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 479,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "entries near arrow on fol. 240 left margin (c.195(5) / c.345 Vākya- entries)",
+            "evidence": "Paired pencil arrows at the same height on both sides of the gutter. This suggests the entry was meant to be read with, or inserted among, fol. 240 entries.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "ditto_from",
+            "target_page_order": 479,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "unidentified antecedent entry on fol. 240",
+            "evidence": "'Do., by Do.' requires an antecedent. No entry precedes it on this page, and the arrows point toward fol. 240. The specific antecedent is not determinable.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Superscript after '244(11)' read as 'c' is uncertain.",
+          "'(no Co.)' reading is uncertain.",
+          "'unf.' reading is uncertain.",
+          "Line field '14'5' could be read as '14/15'.",
+          "The antecedent of the dittos is unknown."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_query",
+        "literal_text": "a/?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, near the gutter.",
+          "A long oblique stroke runs through the mark.",
+          "No entry on this page stands at this height. The mark is also visible at the edge of the fol. 240 image, near its upper entries (e.g. 'stoka?' circle)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 479,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "upper list entries on fol. 240 (By Vitthala list)",
+            "evidence": "Proximity to the gutter at a height corresponding to fol. 240 entries.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Meaning and attachment unknown.",
+          "Reading 'a' is uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_mark",
+        "literal_text": "5/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, near the gutter.",
+          "Long oblique stroke.",
+          "At a height corresponding to the c.249 Vākyavṛtti entry on fol. 240."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 479,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 249 Vākyavṛtti",
+            "evidence": "Same height across the gutter.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Meaning unknown.",
+          "Could be read as 'S/'."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil arrow pointing left, near the gutter, at the height of the b003 entry. It is paired with a right-pointing arrow on fol. 240."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 479,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "right-pointing arrow on fol. 240 left margin",
+            "evidence": "Paired arrows at the same height.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3040,
+          4160,
+          90,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "pencil",
+          "near gutter",
+          "left-pointing",
+          "paired with right arrow on fol. 240"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Unattached pencil marginal mark."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Sole holding entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Unattached pencil marginal mark."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Added arrow mark, previously listed only among unattached marks."
+      }
+    ],
+    "page_annotations": [
+      "Page is otherwise blank. This finding was reviewed across all tiles; the page contains extensive mirror-image show-through, which is not transcribed.",
+      "A small caret-like pencil stroke near the top (approx. [700,475]) is not text.",
+      "A faint dotted smudge below the b003 shelfmark is a stray mark.",
+      "A curved arc in the upper middle is a paper crease or impression.",
+      "Material to the right of the gutter (x≈3178) belongs to fol. 240 and is excluded."
+    ],
+    "unresolved_relationships": [
+      "The antecedent of 'Do., by Do.' in r002 is undetermined. It possibly lies on fol. 240, given the paired arrows.",
+      "The attachment of the 'a/?' and '5/' marks to fol. 240 entries is unconfirmed."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Ink folio number '239' with superscript 'b' and a following dot, top-left. The literal '239ᵇ.' matches the native tile."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Pencil 'a/?' near the gutter at about y≈1240, with a long oblique stroke. No target-page entry stands at that height. Its attachment, possibly to the Vitthala list on fol. 240, remains uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is the sole ink entry, at about y≈4176. The candidate's literal reading agrees with the native tile. Several uncertainties remain open: '(no Co.)', 'unf.', the superscript 'c', and the line field '14'5' (which could be '14/15'). The candidate correctly keeps these uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Pencil '5/' with a long oblique stroke near the gutter at about y≈4480. Its meaning and attachment are unknown."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Pencil left-pointing arrow at about y≈4165–4180, level with b003. A right-pointing arrow sits just across the gutter on fol. 240, at the height between the c.195(5) and c.345 entries."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003",
+          "b901"
+        ],
+        "issue": "The antecedent of 'Do., by Do.' is undetermined. The paired arrows suggest insertion among the fol. 240 entries c.195(5) and c.345 (Vākya- entries). Neither entry is securely the antecedent, and a fol. 239 antecedent has not been excluded.",
+        "next_check": "Compare at native resolution the paired arrows and the fol. 240 entries at y≈4090–4230. Also check the final entries of fol. 239."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "Several readings remain uncertain: the superscript after '244(11)' (c or a?), '(no Co.)', 'unf.', and the line field '14'5' versus '14/15'.",
+        "next_check": "Compare with the same hand's forms elsewhere in the catalogue, for example 'unf.' and line-count notations on fol. 239 and fol. 240."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The attachment and meaning of 'a/?' are unknown. The reading 'a' is uncertain.",
+        "next_check": "Check alignment with the fol. 240 Vitthala list at native resolution."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The attachment and meaning of '5/' are unknown. It may relate to the fol. 240 'c. 249' entry, whose shelfmark itself carries a query mark.",
+        "next_check": "Check the fol. 240 native image at y≈4450–4500."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3178. Several items right of the gutter belong to fol. 240 and are excluded: the circled 'stoka', the '?' marks, 'e.', 'd', the tick, 'See S. Hemr...', 'Benares...', small numeric marks such as '2, w / r ut 5', and the right arrow. Three items sit on the target side but may relate to fol. 240 entries: 'a/?', '5/' and the left arrow. This possibility is kept visible as uncertain relationships. Binding thread or stitch marks at the gutter are non-text. Faint text across the upper and middle page is show-through and is not transcribed.",
+    "region_review": {
+      "top": "Contains the folio number '239ᵇ.' and a small caret-like pencil stroke at about [700,475], which is not text. Faint show-through text is not transcribed.",
+      "middle": "No writing apart from show-through and a curved crease or arc. The ruled lines are empty.",
+      "bottom": "The single ink entry b003. A faint dotted smudge lies below its shelfmark. Below the entry the page is otherwise empty down to the page edge.",
+      "left_margin": "The leading tick of b003 is the only mark. No other marginal writing.",
+      "right_margin": "Pencil 'a/?' (b002), the left arrow (b901) and '5/' (b004) lie near the gutter. Gutter stitch marks are not text.",
+      "interlinear": "No interlinear additions, cancellations or overwriting seen in b003."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        330,
+        160,
+        145
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "239b.",
+      "features": [
+        "top-left corner",
+        "superscript 'b' above '239'",
+        "ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2975,
+        1135,
+        105,
+        190
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "a/?",
+      "features": [
+        "pencil",
+        "outer (gutter-side) margin near gutter",
+        "long oblique stroke through the mark",
+        "attachment to any entry unclear; no entry on this page at that height"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        390,
+        4130,
+        1415,
+        90
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "√d.244(11)c. Do., by Do. (no Co.), ff.1-2 unf.   n.d.: 2:14'5: D.",
+      "features": [
+        "only entry on page",
+        "leading tick before shelfmark",
+        "ditto forms 'Do.' for title and author",
+        "extent 'ff.1-2 unf.'",
+        "date/line/script field at right 'n.d.: 2:14'5: D.'",
+        "ink",
+        "'(no Co.)' reading uncertain"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2970,
+        4390,
+        100,
+        210
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "5/",
+      "features": [
+        "pencil",
+        "near gutter",
+        "long oblique stroke",
+        "attachment unclear"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3040,
+        4160,
+        90,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "pencil",
+        "near gutter",
+        "left-pointing",
+        "paired with right arrow on fol. 240"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "239ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner; superscript 'b' written above the '239'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0478-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry",
+      "literal_text": "√d.244(11)ᶜ. Do., by Do. (no Co.), ff.1-2 unf.   n.d.: 2:14'5: D.",
+      "fields": {
+        "shelfmark": "d.244(11)ᶜ",
+        "title": "Do.",
+        "author": "Do.",
+        "date": "n.d.",
+        "extent": "ff.1-2 unf.",
+        "lines": "14'5",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink. Only catalogue entry on the page, written on a ruled line near the bottom.",
+        "A leading tick (√) precedes the shelfmark.",
+        "The title and author fields are both ditto forms ('Do.'). The page itself supplies no antecedent for them.",
+        "The '2' before the line-count field is recorded literally, without interpretation.",
+        "A pencil left-pointing arrow near the gutter (b901) sits at the height of this entry. It is paired with a right-pointing arrow on fol. 240."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 479,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "entries near arrow on fol. 240 left margin (c.195(5) / c.345 Vākya- entries)",
+          "evidence": "Paired pencil arrows at the same height on both sides of the gutter. This suggests the entry was meant to be read with, or inserted among, fol. 240 entries.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "ditto_from",
+          "target_page_order": 479,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "unidentified antecedent entry on fol. 240",
+          "evidence": "'Do., by Do.' requires an antecedent. No entry precedes it on this page, and the arrows point toward fol. 240. The specific antecedent is not determinable.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Superscript after '244(11)' read as 'c' is uncertain.",
+        "'(no Co.)' reading is uncertain.",
+        "'unf.' reading is uncertain.",
+        "Line field '14'5' could be read as '14/15'.",
+        "The antecedent of the dittos is unknown."
+      ],
+      "stable_id": "css-prod-0478-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_query",
+      "literal_text": "a/?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, near the gutter.",
+        "A long oblique stroke runs through the mark.",
+        "No entry on this page stands at this height. The mark is also visible at the edge of the fol. 240 image, near its upper entries (e.g. 'stoka?' circle)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 479,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "upper list entries on fol. 240 (By Vitthala list)",
+          "evidence": "Proximity to the gutter at a height corresponding to fol. 240 entries.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Meaning and attachment unknown.",
+        "Reading 'a' is uncertain."
+      ],
+      "stable_id": "css-prod-0478-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_mark",
+      "literal_text": "5/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, near the gutter.",
+        "Long oblique stroke.",
+        "At a height corresponding to the c.249 Vākyavṛtti entry on fol. 240."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 479,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 249 Vākyavṛtti",
+          "evidence": "Same height across the gutter.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Meaning unknown.",
+        "Could be read as 'S/'."
+      ],
+      "stable_id": "css-prod-0478-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil arrow pointing left, near the gutter, at the height of the b003 entry. It is paired with a right-pointing arrow on fol. 240."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 479,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "right-pointing arrow on fol. 240 left margin",
+          "evidence": "Paired arrows at the same height.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0478-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "aeb2a6f7496148451df5bc3aaafe786ae5710ea189f7c19889d99c6da4a169b8",
+      "bytes": 235861,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "47ee68267b3c9226e69fc5a59b9dc3f2895dccac53a37a99638f2fc0e1cd947f",
+      "bytes": 289732,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "684605df9bc852e811dc5a8f1bc909c61b5a00f82cd00b40dbd405b9b6f19779",
+      "bytes": 283641,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a286053e817b081606a8d95d9bb612e9c322d63b2c3a41591798a0ef8035b36f",
+      "bytes": 279391,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "10e804029ba18a534ac0d62fab11593b686467d6afb1efd0382e2174e05b5bf9",
+      "bytes": 262545,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f3f3f7db5f971311996ac7b796fa3b59381bef82127499c70d1ce70fabca3787",
+      "bytes": 302931,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4bc8aee0-2d8e-49e7-a2c7-405e4ab056bc/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0ddbc3c5258c88eeca04f2b7ab49df13e2e9645c4a969ee3e2b13374e5f22652",
+      "bytes": 304849,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e01425-460b-4c06-b6b0-95f2741bf017/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "43787b8b3acc21ac895d351ce8966ebb587eb28bfb62ac03e801787dc23e3977",
+      "bytes": 255120,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 477,
+      "folio_label": "fol. 239",
+      "page_id": "a1e01425-460b-4c06-b6b0-95f2741bf017",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b22e33dd-9d46-4479-831f-6931da56e513/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0b264c94b5a5dc02db4ef713389ef4d24d0c5bf5d313c8d2930f419ca40dcfda",
+      "bytes": 269905,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 479,
+      "folio_label": "fol. 240",
+      "page_id": "b22e33dd-9d46-4479-831f-6931da56e513",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

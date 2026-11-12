@@ -1,0 +1,934 @@
+{
+  "source_order": 168,
+  "folio_label": "fol. 84b",
+  "page_id": "95af556b-68dd-480e-8315-992fe2bba6c4",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "84b",
+    "principal_page_bbox": [
+      300,
+      260,
+      2870,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          285,
+          145,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "84b",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          355,
+          2965,
+          2345,
+          125
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 1-35 (... ), ... MS. but last fol. in later hand, Owner Vacaū Paṇḍita Mālavīya. 1.0.1717, ff.50 sqq.",
+        "features": [
+          "ink",
+          "single line",
+          "overwritten/cancelled word before 'MS.' (illegible)",
+          "date",
+          "extent",
+          "owner name",
+          "no shelfmark on this page; aligned with leftward arrow pointing toward the facing page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          450,
+          3680,
+          1880,
+          115
+        ],
+        "kind_hint": "incipit",
+        "anchor": "Begins Tatra śubhe dine kṛtanityakṛtyaḥ sarvauṣadhijalena snātaḥ.",
+        "features": [
+          "ink",
+          "single line",
+          "incipit",
+          "diacritics"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2985,
+          4035,
+          70,
+          175
+        ],
+        "kind_hint": "marginal_mark",
+        "anchor": "ā/",
+        "features": [
+          "pencil",
+          "right margin near gutter",
+          "sigla-like mark"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3000,
+          3010,
+          200,
+          60
+        ],
+        "description": "Ink arrow pointing left, beginning at or across the gutter, at the height of b002; apparently links b002 to an entry on the facing page fol. 85."
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2850,
+          4000
+        ],
+        "description": "Faint offset/show-through of writing from the facing or reverse page across the ruled lines; not counted as target text."
+      }
+    ],
+    "boundary_notes": [
+      "Right edge of the image shows fol. 85 beyond the gutter at about x≈3170, including marks such as ś/, ticks, shelfmarks, 'Cu Tatt...' and the bracketed note 'Tn. these three...'. These are excluded as facing-page material.",
+      "The arrow tail crosses the gutter, so its attachment between the pages is ambiguous.",
+      "b002 and b003 appear to be continuation material for entries on fol. 85, for example the Jalāśayotsarga entries. This parent attachment is not stated on this page."
+    ],
+    "uncertainties": [
+      "The cancelled or overwritten word before 'MS.' in b002 is illegible. It may begin 'old'.",
+      "The parenthetical in b002 after '1-35' is uncertain, possibly '(lines 2?)'.",
+      "The readings 'Vacaū' and 'Mālavīya' are uncertain.",
+      "'Begins' in b003 is a probable reading.",
+      "It is not certain whether the pencil 'ā/' is a deliberate mark on this page or an offset."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "84b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "84b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left corner. The 'b' is written superscript after '84'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_and_ownership",
+        "literal_text": "ff. 1-35 (lio 2?), ⟦[illegible]⟧ MS. but last fol. in later hand, Owner Vacaū Paṇḍita Mālavīya. 1.0.1717, ff. 50 sqq.",
+        "fields": {
+          "extent": "ff. 1-35",
+          "date": "1.0.1717"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line in ink, with no shelfmark or title on this page.",
+          "The word before 'MS.' is overwritten or cancelled. It may begin 'old'.",
+          "An ink arrow pointing left (b901) is at the height of this line. Its tail runs from at or across the gutter toward the facing page, fol. 85."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 169,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ś/ √d. 117 (5) Jalāśayotsarga[vidhi] ... By Nārāyaṇa Bhaṭṭa",
+            "evidence": "The arrow on the gutter side lines up with the d. 117 (5) row on fol. 85. Fol. 85 entries d. 135 (3) and d. 137 (5) also cite a comparable '1.0.1717 ... f. 50'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The parenthetical after '1-35' is uncertain. It possibly reads '(lio 2?)'.",
+          "The cancelled or overwritten word before 'MS.' is illegible.",
+          "The readings 'Vacaū' and 'Mālavīya' are uncertain.",
+          "'1.0.1717' may be intended as 'I.O.1717'. It is transcribed as written.",
+          "It is unclear whether 'ff. 50 sqq.' was written as 'ff.' or 'll.'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit",
+        "literal_text": "Begins Tatra śubhe dine kṛtanityakṛtyaḥ sarvauṣadhijalena snātaḥ.",
+        "fields": {
+          "incipit": "Tatra śubhe dine kṛtanityakṛtyaḥ sarvauṣadhijalena snātaḥ."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line in ink. No arrow or other linking mark is visible."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 169,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "ś/ √b. 95 (7) Jalāśayotsargavidhi, ff. 1-19",
+            "evidence": "It is at roughly the same height as the b. 95 (7) row on fol. 85, but no explicit linking mark is present. It could instead belong with the d. 117 (5) group.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'Begins' is a probable reading.",
+          "The parent entry is not stated on this page."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_siglum",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil mark in the right margin near the gutter. It resembles the 'ś/' and 'ā/' sigla used in the margins of fol. 84 and fol. 85."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 169,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 767 (12) Jātakapaddhati, or Jātakakarmapaddhati. By Śrīpati",
+            "evidence": "It is at roughly the same height as the d. 767 (12) row on fol. 85.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It is not certain whether this is a deliberate mark referring to this page or to the facing page."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2990,
+          3005,
+          210,
+          60
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "ink",
+          "points left",
+          "tail at or across the gutter",
+          "at the height of b002"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note, probably for a fol. 85 entry linked by the arrow."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Incipit note whose attachment is uncertain."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Marginal pencil siglum."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow that links b002 toward fol. 85."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank, apart from faint show-through or offset from another page, which is not transcribed.",
+      "Material from fol. 85 beyond the gutter (sigla, ticks, shelfmarks, the bracketed note 'Tn. these three...') is excluded."
+    ],
+    "unresolved_relationships": [
+      "The exact parent entries for r002 and r003 on fol. 85 are not stated on this page.",
+      "The attachment of the ā/ siglum is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '84' with a superscript 'b' is at the top left. It matches r001."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is a single ink line at about y≈3000. The text matches, but r002 has two problems. 'fields.date' wrongly classes '1.0.1717' as a date: in context it is a collection reference, comparable to the 'I.O.1717' entries on fol. 85. The parenthetical reading is not marked as uncertain inside literal_text."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "This is a single ink incipit line at about y≈3740. It is read correctly, and 'Begins' stays probable. It lies level with the 'ś/ √b. 95 (7)' row beyond the gutter. Its attachment remains uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Pencil 'ā/' at about x≈2995, y≈4040–4200, left of the gutter. The same mark also appears in the fol. 85 adjacent image, to the left of that image's gutter edge. So it is physically on fol. 84b and is not an offset. Its attachment stays uncertain."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Ink arrow pointing left, about x≈3009–3199, y≈3030. It lies level with b002 and with the d. 117 (5) row on fol. 85. The tail crosses the gutter slightly."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "fields",
+        "before": {
+          "extent": "ff. 1-35",
+          "date": "1.0.1717"
+        },
+        "after": {
+          "extent": "ff. 1-35"
+        },
+        "reason": "'1.0.1717' is not written as a date. It is followed by 'ff.50 sqq.' and matches the reference 'I.O.1717 … f. 50' on fol. 85. Classing it as a date is an unsupported conversion. The literal text keeps the string as written.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "ff. 1-35 (lio 2?), ⟦[illegible]⟧ MS. but last fol. in later hand, Owner Vacaū Paṇḍita Mālavīya. 1.0.1717, ff. 50 sqq.",
+        "after": "ff. 1-35 ([lio 2?]), ⟦[illegible]⟧ MS. but last fol. in later hand, Owner Vacaū Paṇḍita Mālavīya. 1.0.1717, ff. 50 sqq.",
+        "reason": "The contents of the parenthesis are uncertain. Marking them makes clear that '?' belongs to the editor and not to the source.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "It is not certain whether this is a deliberate mark referring to this page or to the facing page."
+        ],
+        "after": [
+          "The mark is physically on fol. 84b, left of the gutter. This is confirmed by its position in the fol. 85 adjacent image. Whether it refers to an entry on the facing page is uncertain."
+        ],
+        "reason": "The adjacent image shows the same mark on the target side of the gutter. Its referent is still unresolved.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Three points in b002 remain unresolved. (1) The cancelled or overwritten word before 'MS.' may begin 'old', and it is unclear whether 'old' itself is cancelled. (2) The parenthetical is uncertain. (3) The readings 'Vacaū', 'Paṇḍita' (placement of the underdots) and 'Mālavīya' are uncertain.",
+        "next_check": "Inspect the original at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The parent entry could be b. 95 (7), which is level with this line, or the d. 117 (5) group. There is no linking mark.",
+        "next_check": "Compare with the source catalogue entry for the Jalāśayotsarga manuscripts."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The referent of 'ā/' is unclear. It is roughly level with d. 767 (12) on fol. 85.",
+        "next_check": "Compare with how the ā/ and ś/ sigla are used elsewhere in the volume."
+      }
+    ],
+    "boundary_review": "The facing page fol. 85 begins at the gutter, about x≈3166. The sigla, ticks, shelfmarks, 'Cu Tatt…' and the bracketed note 'Tn. these three…' beyond the gutter are all excluded. The arrow b901 and the mark b004 lie on the target side; the arrow tail crosses the gutter slightly. The attachments of b002, b003 and b004 to fol. 85 entries are not stated on this page and remain probable or uncertain.",
+    "region_review": {
+      "top": "Only the pencil '84b' is present. The ruled area above shows only faint show-through.",
+      "middle": "There is no writing apart from faint offset or show-through, which is not transcribed.",
+      "bottom": "The incipit line b003 and the pencil ā/ b004 are present. Below them, down to the page edge, only show-through is visible.",
+      "left_margin": "Blank.",
+      "right_margin": "The ā/ mark and the arrow are near the gutter. Material beyond the gutter belongs to fol. 85.",
+      "interlinear": "There is no interlinear addition. There is one overwritten word in b002."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        285,
+        145,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "84b",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        355,
+        2965,
+        2345,
+        125
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 1-35 (... ), ... MS. but last fol. in later hand, Owner Vacaū Paṇḍita Mālavīya. 1.0.1717, ff.50 sqq.",
+      "features": [
+        "ink",
+        "single line",
+        "overwritten/cancelled word before 'MS.' (illegible)",
+        "date",
+        "extent",
+        "owner name",
+        "no shelfmark on this page; aligned with leftward arrow pointing toward the facing page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        450,
+        3680,
+        1880,
+        115
+      ],
+      "kind_hint": "incipit",
+      "anchor": "Begins Tatra śubhe dine kṛtanityakṛtyaḥ sarvauṣadhijalena snātaḥ.",
+      "features": [
+        "ink",
+        "single line",
+        "incipit",
+        "diacritics"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2985,
+        4035,
+        70,
+        175
+      ],
+      "kind_hint": "marginal_mark",
+      "anchor": "ā/",
+      "features": [
+        "pencil",
+        "right margin near gutter",
+        "sigla-like mark"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2990,
+        3005,
+        210,
+        60
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "ink",
+        "points left",
+        "tail at or across the gutter",
+        "at the height of b002"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "84b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left corner. The 'b' is written superscript after '84'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0168-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_and_ownership",
+      "literal_text": "ff. 1-35 (lio 2?), ⟦[illegible]⟧ MS. but last fol. in later hand, Owner Vacaū Paṇḍita Mālavīya. 1.0.1717, ff. 50 sqq.",
+      "fields": {
+        "extent": "ff. 1-35",
+        "date": "1.0.1717"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line in ink, with no shelfmark or title on this page.",
+        "The word before 'MS.' is overwritten or cancelled. It may begin 'old'.",
+        "An ink arrow pointing left (b901) is at the height of this line. Its tail runs from at or across the gutter toward the facing page, fol. 85."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 169,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ś/ √d. 117 (5) Jalāśayotsarga[vidhi] ... By Nārāyaṇa Bhaṭṭa",
+          "evidence": "The arrow on the gutter side lines up with the d. 117 (5) row on fol. 85. Fol. 85 entries d. 135 (3) and d. 137 (5) also cite a comparable '1.0.1717 ... f. 50'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The parenthetical after '1-35' is uncertain. It possibly reads '(lio 2?)'.",
+        "The cancelled or overwritten word before 'MS.' is illegible.",
+        "The readings 'Vacaū' and 'Mālavīya' are uncertain.",
+        "'1.0.1717' may be intended as 'I.O.1717'. It is transcribed as written.",
+        "It is unclear whether 'ff. 50 sqq.' was written as 'ff.' or 'll.'."
+      ],
+      "stable_id": "css-prod-0168-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit",
+      "literal_text": "Begins Tatra śubhe dine kṛtanityakṛtyaḥ sarvauṣadhijalena snātaḥ.",
+      "fields": {
+        "incipit": "Tatra śubhe dine kṛtanityakṛtyaḥ sarvauṣadhijalena snātaḥ."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line in ink. No arrow or other linking mark is visible."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 169,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "ś/ √b. 95 (7) Jalāśayotsargavidhi, ff. 1-19",
+          "evidence": "It is at roughly the same height as the b. 95 (7) row on fol. 85, but no explicit linking mark is present. It could instead belong with the d. 117 (5) group.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'Begins' is a probable reading.",
+        "The parent entry is not stated on this page."
+      ],
+      "stable_id": "css-prod-0168-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_siglum",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil mark in the right margin near the gutter. It resembles the 'ś/' and 'ā/' sigla used in the margins of fol. 84 and fol. 85."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 169,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 767 (12) Jātakapaddhati, or Jātakakarmapaddhati. By Śrīpati",
+          "evidence": "It is at roughly the same height as the d. 767 (12) row on fol. 85.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It is not certain whether this is a deliberate mark referring to this page or to the facing page."
+      ],
+      "stable_id": "css-prod-0168-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "fields",
+      "before": {
+        "extent": "ff. 1-35",
+        "date": "1.0.1717"
+      },
+      "after": {
+        "extent": "ff. 1-35"
+      },
+      "reason": "'1.0.1717' is not written as a date. It is followed by 'ff.50 sqq.' and matches the reference 'I.O.1717 … f. 50' on fol. 85. Classing it as a date is an unsupported conversion. The literal text keeps the string as written.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ff. 1-35 (lio 2?), ⟦[illegible]⟧ MS. but last fol. in later hand, Owner Vacaū Paṇḍita Mālavīya. 1.0.1717, ff. 50 sqq.",
+      "after": "ff. 1-35 ([lio 2?]), ⟦[illegible]⟧ MS. but last fol. in later hand, Owner Vacaū Paṇḍita Mālavīya. 1.0.1717, ff. 50 sqq.",
+      "reason": "The contents of the parenthesis are uncertain. Marking them makes clear that '?' belongs to the editor and not to the source.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "It is not certain whether this is a deliberate mark referring to this page or to the facing page."
+      ],
+      "after": [
+        "The mark is physically on fol. 84b, left of the gutter. This is confirmed by its position in the fol. 85 adjacent image. Whether it refers to an entry on the facing page is uncertain."
+      ],
+      "reason": "The adjacent image shows the same mark on the target side of the gutter. Its referent is still unresolved.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/95af556b-68dd-480e-8315-992fe2bba6c4.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95af556b-68dd-480e-8315-992fe2bba6c4/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "ae72354b2ee4c9a77429c495419f91df4e946d5f4156cbb754d1b69b106f4e16",
+      "bytes": 248139,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95af556b-68dd-480e-8315-992fe2bba6c4/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1c9fb69023553642b6436c3dce5088614c8a53ca6018f2c63d14c005910c2be2",
+      "bytes": 285050,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95af556b-68dd-480e-8315-992fe2bba6c4/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "08c084ebe94a96b902c774b7f915820464a6c1f86212dd09c0753c5db7bb7b97",
+      "bytes": 274529,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95af556b-68dd-480e-8315-992fe2bba6c4/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8526f39db0b5a9ece0fb7d8ce2841a43b67601caa2ed92fba8ff69e718e0d695",
+      "bytes": 300023,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95af556b-68dd-480e-8315-992fe2bba6c4/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3d92b3186cdce9d72cd71c54d6d6f20e1d56e6c6a381724001f5b0acb11cea80",
+      "bytes": 283562,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95af556b-68dd-480e-8315-992fe2bba6c4/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "87b2ad9aff961948097819fa6681ed6415baf90f7a64b52efd9e797ba4e221a4",
+      "bytes": 305602,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/95af556b-68dd-480e-8315-992fe2bba6c4/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7d46d1197a996d7189a8901b5652468ecb7cf25a9ab736c4a5e741c4c9cf6f52",
+      "bytes": 328191,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0df30e88-ebaf-4038-9e64-122d58e38279/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "39ef933416b2f7212c69fde6ed50a8e47025863b548e17d9e38d23a3bb0a6686",
+      "bytes": 262419,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 167,
+      "folio_label": "fol. 84",
+      "page_id": "0df30e88-ebaf-4038-9e64-122d58e38279",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/61697d38-4c27-4f6f-addf-36eb07ae0021/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "afb27e52138dd2a2e9fdf8b7bba34863ce6ba6ab85c8697203d53fdbffed3c00",
+      "bytes": 255567,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 169,
+      "folio_label": "fol. 85",
+      "page_id": "61697d38-4c27-4f6f-addf-36eb07ae0021",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

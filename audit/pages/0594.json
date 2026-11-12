@@ -1,0 +1,1654 @@
+{
+  "source_order": 594,
+  "folio_label": "fol. 297b",
+  "page_id": "1c115dac-e10e-4a2e-8073-fe2d294c644d",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "297b",
+    "principal_page_bbox": [
+      310,
+      295,
+      2810,
+      4555
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          400,
+          365,
+          160,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "297b",
+        "features": [
+          "ink",
+          "top left margin",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2380,
+          3245,
+          325,
+          105
+        ],
+        "kind_hint": "marginal_note_attached_by_arrow",
+        "anchor": "ff.1-8 unf.",
+        "features": [
+          "pencil or faint ink",
+          "followed by a left-pointing arrow at about [2870,3255,195,55]",
+          "arrow points toward the gutter and the facing-page entry level",
+          "no catalogue entry text on this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2135,
+          3705,
+          595,
+          110
+        ],
+        "kind_hint": "marginal_note_attached_by_arrow",
+        "anchor": "ff.1-6 (also numbered 51-56).",
+        "features": [
+          "ink",
+          "the final numeral appears overwritten (5[6?])",
+          "followed by a short left-pointing arrow at about [2900,3738,85,40]",
+          "arrow points toward the gutter and the facing-page entry level"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1840,
+          4455,
+          65,
+          55
+        ],
+        "description": "ink blot/spot in the lower text area"
+      },
+      {
+        "bbox": [
+          570,
+          3320,
+          40,
+          110
+        ],
+        "description": "small faint vertical pencil stroke/dots in the left margin column"
+      },
+      {
+        "bbox": [
+          3000,
+          4255,
+          70,
+          65
+        ],
+        "description": "small faint stroke/smudge near the gutter, lower area"
+      },
+      {
+        "bbox": [
+          330,
+          700,
+          2780,
+          4000
+        ],
+        "description": "show-through of reversed writing from the recto (fol. 297) across the ruled area; not target text"
+      },
+      {
+        "bbox": [
+          2520,
+          1150,
+          60,
+          40
+        ],
+        "description": "small dark speck/smudge in the upper middle area"
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the canvas (x > ~3130) shows the facing page fol. 298, with shelfmarks such as 'd. 139(8', 'c R. 48(', 'd. 629(3', 'b. 93(', 'c. 384(' and a bracket '[N'. These are not transcribed as target blocks.",
+      "The two arrowed notes on 297b probably relate to facing-page entries at the same height: c.386(10) for 'ff.1-8 unf.' and b.99(5) for 'ff.1-6 ...'. That linkage comes only from position and arrow direction."
+    ],
+    "uncertainties": [
+      "'unf.' reading is uncertain due to cursive abbreviation",
+      "last digits of '51-56' appear overwritten; reading of final numeral uncertain",
+      "writing medium (pencil vs ink) of b002 uncertain"
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "297b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "297b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top left margin. The 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_extent_note_with_arrow",
+        "literal_text": "ff.1-8 unf.",
+        "fields": {
+          "extent": "ff.1-8 unf."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Lighter, possibly pencil, handwriting in the ruled area toward the gutter side.",
+          "A left-pointing arrow follows the note at about [2874,3253,190,55]. The arrow points toward the gutter.",
+          "The facing page, fol. 298, has a corresponding left-pointing arrow in its left margin at the level of the entry 'c. 386(10)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 595,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 386(10) Sapiṇḍīkaraṇa",
+            "evidence": "The note is at the same height as that facing-page entry. Arrows on both pages point to each other across the gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'unf.' (cursive abbreviation) is uncertain.",
+          "The medium (pencil or faint ink) is uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_extent_note_with_arrow",
+        "literal_text": "ff.1-6 (also numbered 51-56).",
+        "fields": {
+          "extent": "ff.1-6 (also numbered 51-56)."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink note in the lower part of the ruled area.",
+          "The final numeral of '56' appears to be written over another digit.",
+          "A short left-pointing arrow follows the note at about [2904,3746,80,30].",
+          "The facing page, fol. 298, has a left-pointing arrow in its left margin beside a bracket at the level of the entry 'b. 99(5)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 595,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b. 99(5) Sapiṇḍīkaraṇa. Sāmavedīya.",
+            "evidence": "The note is at the same height as that facing-page entry. The arrows on the two pages point toward each other.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The final digit of '51-56' is overwritten. '6' is the visible top reading and the underlying digit is illegible."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrowed extent note, probably relating to fol. 298 c.386(10)."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrowed extent note, probably relating to fol. 298 b.99(5)."
+      }
+    ],
+    "page_annotations": [
+      "The verso is otherwise unwritten. Apart from b001-b003, the ruled area holds only reversed show-through from fol. 297 recto, which is not target text.",
+      "Non-text marks seen in review:",
+      "- an ink blot near [1840,4455];",
+      "- a small faint vertical pencil stroke or dots in the left margin column near [575,3330];",
+      "- a faint smudge near the gutter at about [3000,4255];",
+      "- a speck near [2520,1150].",
+      "None of these marks carries readable text.",
+      "Shelfmarks visible at the right edge belong to the facing page, fol. 298, and are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The attachment of r002 and r003 to fol. 298 entries rests on position and arrow direction only."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The ink folio number '297' with a superscript 'b' is in the top left margin. The reading is confirmed against the native tile."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The lighter, probably pencil, note 'ff.1-8 unf.' is followed by an arrow. The reading is consistent with the image, and the cursive 'unf.' stays uncertain. The arrowhead is on the LEFT end, pointing toward the note text and away from the gutter. The candidate and the inventory both say the arrow points toward the gutter. This description is corrected below."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The ink note is followed by a short arrow. The opening parenthesis sits directly against '6' with no visible space. The final digit of '56' looks written over an earlier digit. The arrowhead points left toward the note, not toward the gutter."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Lighter, possibly pencil, handwriting in the ruled area toward the gutter side.",
+          "A left-pointing arrow follows the note at about [2874,3253,190,55]. The arrow points toward the gutter.",
+          "The facing page, fol. 298, has a corresponding left-pointing arrow in its left margin at the level of the entry 'c. 386(10)'."
+        ],
+        "after": [
+          "Lighter, possibly pencil, handwriting in the ruled area toward the gutter side.",
+          "An arrow follows the note at about [2874,3253,190,55]. Its head is at the left end, so it points toward the note text and away from the gutter.",
+          "The facing page, fol. 298, has a left-pointing arrow in its left margin at the level of the entry 'c. 386(10)'. That arrow points toward the gutter and fol. 297b."
+        ],
+        "reason": "Image review shows the arrowhead is at the left end, nearer the note. It points away from the gutter, not toward it.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 595,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 386(10) Sapiṇḍīkaraṇa",
+            "evidence": "The note is at the same height as that facing-page entry. Arrows on both pages point to each other across the gutter.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 595,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 386(10) [title on fol. 298 not re-verified at native resolution]",
+            "evidence": "The note is at the same height as that facing-page entry. Both arrows point leftward: the fol. 298 arrow points to the gutter and the fol. 297b arrow points to the note. Together they suggest a transfer of the note from the entry to this page. The evidence is position and arrow direction only.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The arrows do not point toward each other, so the evidence statement is corrected. The diacritics in the facing-page title come from a reduced context image, so the title is not asserted.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Ink note in the lower part of the ruled area.",
+          "The final numeral of '56' appears to be written over another digit.",
+          "A short left-pointing arrow follows the note at about [2904,3746,80,30].",
+          "The facing page, fol. 298, has a left-pointing arrow in its left margin beside a bracket at the level of the entry 'b. 99(5)'."
+        ],
+        "after": [
+          "Ink note in the lower part of the ruled area.",
+          "The final numeral of '56' appears to be written over another digit.",
+          "A short arrow follows the note at about [2904,3746,80,30]. Its head is at the left end, pointing toward the note and away from the gutter.",
+          "The facing page, fol. 298, has a left-pointing arrow in its left margin at the level of the entry 'b. 99(5)'. It sits beside a curved bracket that spans b. 93(2), b. 99(5) and d. 906(6)."
+        ],
+        "reason": "The arrow direction is corrected. The span of the facing-page bracket is noted because it bears on the attachment.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 595,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b. 99(5) Sapiṇḍīkaraṇa. Sāmavedīya.",
+            "evidence": "The note is at the same height as that facing-page entry. The arrows on the two pages point toward each other.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 595,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b. 99(5) [title on fol. 298 not re-verified at native resolution]",
+            "evidence": "The note is at the same height as that facing-page entry. The fol. 298 arrow points left toward the gutter and the fol. 297b arrow points left toward the note. The fol. 298 arrow sits beside a bracket grouping three entries, so attachment to b. 99(5) alone, rather than to the bracketed group, is not certain.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The arrow-direction claim is corrected and the bracket ambiguity is added. The diacritics in the facing-page title are not asserted.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff.1-6 (also numbered 51-56).",
+        "after": "ff.1-6(also numbered 51-56).",
+        "reason": "No space is visible between '6' and the opening parenthesis in the native tile.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "fields.extent",
+        "before": "ff.1-6 (also numbered 51-56).",
+        "after": "ff.1-6(also numbered 51-56).",
+        "reason": "This keeps the extent field consistent with the corrected literal spacing.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Near [3000,4255,70,65], close to the gutter, there is a faint diagonal stroke with what may be a small arrowhead. It could be a faint arrow or simply a smudge. It carries no readable text.",
+        "next_check": "Inspect it at higher contrast. Compare it with the faint mark in the left margin of fol. 298 at roughly the same height, near the b. 93(8) entry."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The digit written under the final '6' of '56' is illegible.",
+        "next_check": "Inspect it under magnification or raking light."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The reading 'unf.' and the writing medium (pencil or faint ink) remain uncertain.",
+        "next_check": "Compare it with the similar note 'ff.1-7unf.' in the left area of fol. 297's adjacent image context."
+      }
+    ],
+    "boundary_review": "The principal page runs to the gutter at about x=3130. The shelfmarks, checkmarks, bracket and arrows to the right belong to fol. 298 and are not transcribed. The two notes on 297b are linked to fol. 298 entries only by their height and by both pages' arrows pointing leftward. These links are probable, not secure. For the lower note, the target on fol. 298 is ambiguous: the arrow there stands beside a bracket over three entries.",
+    "region_review": {
+      "top": "Only the folio number '297' with superscript 'b' is present. The rest is ruled lines and reversed show-through.",
+      "middle": "Show-through from the recto, plus a speck near [2520,1150] and a faint diagonal smudge near [1640,2900]. There is no target text.",
+      "bottom": "Notes b002 and b003 with their arrows; an ink blot near [1840,4455]; a faint stroke or possible small arrow near [3000,4255]. There is no other writing down to the lower edge.",
+      "left_margin": "Small faint vertical pencil dots near [580,3330]. They are not text. The margin column is otherwise empty.",
+      "right_margin": "The gutter side holds the two arrowheads attached to b002 and b003. Beyond the gutter is facing-page material from fol. 298.",
+      "interlinear": "No interlinear additions or cancellations are visible except the overwritten final digit in b003."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        400,
+        365,
+        160,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "297b",
+      "features": [
+        "ink",
+        "top left margin",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2380,
+        3245,
+        325,
+        105
+      ],
+      "kind_hint": "marginal_note_attached_by_arrow",
+      "anchor": "ff.1-8 unf.",
+      "features": [
+        "pencil or faint ink",
+        "followed by a left-pointing arrow at about [2870,3255,195,55]",
+        "arrow points toward the gutter and the facing-page entry level",
+        "no catalogue entry text on this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2135,
+        3705,
+        595,
+        110
+      ],
+      "kind_hint": "marginal_note_attached_by_arrow",
+      "anchor": "ff.1-6 (also numbered 51-56).",
+      "features": [
+        "ink",
+        "the final numeral appears overwritten (5[6?])",
+        "followed by a short left-pointing arrow at about [2900,3738,85,40]",
+        "arrow points toward the gutter and the facing-page entry level"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "297b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top left margin. The 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0594-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_extent_note_with_arrow",
+      "literal_text": "ff.1-8 unf.",
+      "fields": {
+        "extent": "ff.1-8 unf."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Lighter, possibly pencil, handwriting in the ruled area toward the gutter side.",
+        "An arrow follows the note at about [2874,3253,190,55]. Its head is at the left end, so it points toward the note text and away from the gutter.",
+        "The facing page, fol. 298, has a left-pointing arrow in its left margin at the level of the entry 'c. 386(10)'. That arrow points toward the gutter and fol. 297b."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 386(10) Sapiṇḍīkaraṇa",
+          "evidence": "The note is at the same height as that facing-page entry. Arrows on both pages point to each other across the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'unf.' (cursive abbreviation) is uncertain.",
+        "The medium (pencil or faint ink) is uncertain."
+      ],
+      "stable_id": "css-prod-0594-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_extent_note_with_arrow",
+      "literal_text": "ff.1-6 (also numbered 51-56).",
+      "fields": {
+        "extent": "ff.1-6 (also numbered 51-56)."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink note in the lower part of the ruled area.",
+        "The final numeral of '56' appears to be written over another digit.",
+        "A short arrow follows the note at about [2904,3746,80,30]. Its head is at the left end, pointing toward the note and away from the gutter.",
+        "The facing page, fol. 298, has a left-pointing arrow in its left margin at the level of the entry 'b. 99(5)'. It sits beside a curved bracket that spans b. 93(2), b. 99(5) and d. 906(6)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b. 99(5) Sapiṇḍīkaraṇa. Sāmavedīya.",
+          "evidence": "The note is at the same height as that facing-page entry. The arrows on the two pages point toward each other.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The final digit of '51-56' is overwritten. '6' is the visible top reading and the underlying digit is illegible."
+      ],
+      "stable_id": "css-prod-0594-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Lighter, possibly pencil, handwriting in the ruled area toward the gutter side.",
+        "A left-pointing arrow follows the note at about [2874,3253,190,55]. The arrow points toward the gutter.",
+        "The facing page, fol. 298, has a corresponding left-pointing arrow in its left margin at the level of the entry 'c. 386(10)'."
+      ],
+      "after": [
+        "Lighter, possibly pencil, handwriting in the ruled area toward the gutter side.",
+        "An arrow follows the note at about [2874,3253,190,55]. Its head is at the left end, so it points toward the note text and away from the gutter.",
+        "The facing page, fol. 298, has a left-pointing arrow in its left margin at the level of the entry 'c. 386(10)'. That arrow points toward the gutter and fol. 297b."
+      ],
+      "reason": "Image review shows the arrowhead is at the left end, nearer the note. It points away from the gutter, not toward it.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 386(10) Sapiṇḍīkaraṇa",
+          "evidence": "The note is at the same height as that facing-page entry. Arrows on both pages point to each other across the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 386(10) [title on fol. 298 not re-verified at native resolution]",
+          "evidence": "The note is at the same height as that facing-page entry. Both arrows point leftward: the fol. 298 arrow points to the gutter and the fol. 297b arrow points to the note. Together they suggest a transfer of the note from the entry to this page. The evidence is position and arrow direction only.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The arrows do not point toward each other, so the evidence statement is corrected. The diacritics in the facing-page title come from a reduced context image, so the title is not asserted.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Ink note in the lower part of the ruled area.",
+        "The final numeral of '56' appears to be written over another digit.",
+        "A short left-pointing arrow follows the note at about [2904,3746,80,30].",
+        "The facing page, fol. 298, has a left-pointing arrow in its left margin beside a bracket at the level of the entry 'b. 99(5)'."
+      ],
+      "after": [
+        "Ink note in the lower part of the ruled area.",
+        "The final numeral of '56' appears to be written over another digit.",
+        "A short arrow follows the note at about [2904,3746,80,30]. Its head is at the left end, pointing toward the note and away from the gutter.",
+        "The facing page, fol. 298, has a left-pointing arrow in its left margin at the level of the entry 'b. 99(5)'. It sits beside a curved bracket that spans b. 93(2), b. 99(5) and d. 906(6)."
+      ],
+      "reason": "The arrow direction is corrected. The span of the facing-page bracket is noted because it bears on the attachment.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b. 99(5) Sapiṇḍīkaraṇa. Sāmavedīya.",
+          "evidence": "The note is at the same height as that facing-page entry. The arrows on the two pages point toward each other.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b. 99(5) [title on fol. 298 not re-verified at native resolution]",
+          "evidence": "The note is at the same height as that facing-page entry. The fol. 298 arrow points left toward the gutter and the fol. 297b arrow points left toward the note. The fol. 298 arrow sits beside a bracket grouping three entries, so attachment to b. 99(5) alone, rather than to the bracketed group, is not certain.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The arrow-direction claim is corrected and the bracket ambiguity is added. The diacritics in the facing-page title are not asserted.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff.1-6 (also numbered 51-56).",
+      "after": "ff.1-6(also numbered 51-56).",
+      "reason": "No space is visible between '6' and the opening parenthesis in the native tile.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.extent",
+      "before": "ff.1-6 (also numbered 51-56).",
+      "after": "ff.1-6(also numbered 51-56).",
+      "reason": "This keeps the extent field consistent with the corrected literal spacing.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 386(10) Sapiṇḍīkaraṇa",
+          "evidence": "The note is at the same height as that facing-page entry. Arrows on both pages point to each other across the gutter.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 386(10) [title on fol. 298 not re-verified at native resolution]",
+          "evidence": "The note is at the same height as that facing-page entry. Both arrows point leftward: the fol. 298 arrow points to the gutter and the fol. 297b arrow points to the note. Together they suggest a transfer of the note from the entry to this page. The evidence is position and arrow direction only.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Native reread confirms both arrowheads are at the left ends. The claim that the arrows point toward each other was incorrect.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0594-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b. 99(5) Sapiṇḍīkaraṇa. Sāmavedīya.",
+          "evidence": "The note is at the same height as that facing-page entry. The arrows on the two pages point toward each other.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 595,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b. 99(5) [title on fol. 298 not re-verified at native resolution]",
+          "evidence": "The note is at the same height as that facing-page entry. The fol. 298 arrow points left toward the gutter and the fol. 297b arrow points left toward the note. The fol. 298 arrow sits beside a bracket grouping three entries, so attachment to b. 99(5) alone, rather than to the bracketed group, is not certain.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Arrow direction corrected and the bracket ambiguity added after native reread.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0594-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff.1-6 (also numbered 51-56).",
+      "after": "ff.1-6(also numbered 51-56).",
+      "reason": "No space is visible between '6' and '(' in the native tile. The overwritten final digit is recorded in annotations and uncertainties.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0594-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.extent",
+      "before": "ff.1-6 (also numbered 51-56).",
+      "after": "ff.1-6(also numbered 51-56).",
+      "reason": "Kept consistent with the corrected literal spacing.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0594-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Near [3000,4255,70,65], close to the gutter, there is a faint diagonal stroke with what may be a small arrowhead. It could be a faint arrow or simply a smudge. It carries no readable text.",
+      "block_ids": [],
+      "record_ids": [],
+      "id": "focus-0594-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The digit written under the final '6' of '56' is illegible.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0594-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The arrows do not point toward each other, so the evidence statement is corrected. The diacritics in the facing-page title come from a reduced context image, so the title is not asserted. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 595, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"√c. 386(10) [title on fol. 298 not re-verified at native resolution]\", \"evidence\": \"The note is at the same height as that facing-page entry. Both arrows point leftward: the fol. 298 arrow points to the gutter and the fol. 297b arrow points to the note. Together they suggest a transfer of the note from the entry to this page. The evidence is position and arrow direction only.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0594-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The arrow-direction claim is corrected and the bracket ambiguity is added. The diacritics in the facing-page title are not asserted. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 595, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"√b. 99(5) [title on fol. 298 not re-verified at native resolution]\", \"evidence\": \"The note is at the same height as that facing-page entry. The fol. 298 arrow points left toward the gutter and the fol. 297b arrow points left toward the note. The fol. 298 arrow sits beside a bracket grouping three entries, so attachment to b. 99(5) alone, rather than to the bracketed group, is not certain.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0594-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "No space is visible between '6' and the opening parenthesis in the native tile. Proposed literal_text: \"ff.1-6(also numbered 51-56).\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0594-05"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The reading 'unf.' and the writing medium (pencil or faint ink) remain uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0594-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "This keeps the extent field consistent with the corrected literal spacing. Proposed fields.extent: \"ff.1-6(also numbered 51-56).\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0594-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'unf.' (cursive abbreviation) is uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0594-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The medium (pencil or faint ink) is uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0594-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The final digit of '51-56' is overwritten. '6' is the visible top reading and the underlying digit is illegible.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0594-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0594-01",
+        "focus-0594-02",
+        "focus-0594-03",
+        "focus-0594-04",
+        "focus-0594-05",
+        "focus-0594-06",
+        "focus-0594-07",
+        "focus-0594-08",
+        "focus-0594-09",
+        "focus-0594-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0594-01",
+          "source_reading": "[no text] faint broken diagonal stroke running down to the right, with a possible small hook or head at the lower right end, at about [3000,4255,70,65]",
+          "certainty": "uncertain",
+          "evidence": "In the native tile at offset (1604,3216), the mark is at about x1400-1465, y1040-1100. It is faint, grey and broken. A similar faint diagonal mark appears in the fol. 298 left margin at about the same height. It may be an arrow, a set-off or a smudge. No letters are visible."
+        },
+        {
+          "issue_id": "focus-0594-02",
+          "source_reading": "51-5[6 over illegible digit]",
+          "certainty": "uncertain",
+          "evidence": "The final numeral before ')' has a heavy '6'-like top stroke over another form. The underlying digit cannot be read."
+        },
+        {
+          "issue_id": "focus-0594-03",
+          "source_reading": "ff.1-8 unf. ←  (the arrowhead is at the left end)",
+          "certainty": "probable",
+          "evidence": "The b002 arrow spans about canvas x2874-3064, y3255-3305, with its head on the left. On fol. 298, the left-margin arrow beside c. 386(10) also has its head on the left, pointing toward the gutter. The two arrows do not point toward each other."
+        },
+        {
+          "issue_id": "focus-0594-04",
+          "source_reading": "ff.1-6(also numbered 51-5[6]). ←  (the arrowhead is at the left end)",
+          "certainty": "probable",
+          "evidence": "The b003 arrow is at about canvas x2904-2980, y3745-3768, pointing left. On fol. 298 there is a left-pointing arrow in the left margin and a small '<' immediately before a curved bracket that spans b. 93(2), b. 99(5) and d. 906(6). Both are level with b. 99(5)."
+        },
+        {
+          "issue_id": "focus-0594-05",
+          "source_reading": "ff.1-6(also numbered 51-5[6]).",
+          "certainty": "probable",
+          "evidence": "In the native tile, the opening parenthesis follows the '6' directly, with no gap wider than the normal spacing between letters."
+        },
+        {
+          "issue_id": "focus-0594-06",
+          "source_reading": "ff.1-8 unf.",
+          "certainty": "probable",
+          "evidence": "The cursive after '8' reads as u-n-f followed by a stop. The strokes are lighter and greyer than the b003 ink, which suggests pencil, but this is not certain."
+        },
+        {
+          "issue_id": "focus-0594-07",
+          "source_reading": "ff.1-6(also numbered 51-5[6]).",
+          "certainty": "probable",
+          "evidence": "Same observation as focus-0594-05."
+        },
+        {
+          "issue_id": "focus-0594-08",
+          "source_reading": "unf.",
+          "certainty": "probable",
+          "evidence": "The minims and the descender of 'f' are consistent with 'unf.', but the form is a cursive abbreviation."
+        },
+        {
+          "issue_id": "focus-0594-09",
+          "source_reading": "[medium: lighter grey, probably pencil]",
+          "certainty": "uncertain",
+          "evidence": "The tone is distinctly lighter than the b003 ink and the f.298 ink. Pencil and faint ink cannot be distinguished securely from the image."
+        },
+        {
+          "issue_id": "focus-0594-10",
+          "source_reading": "5[6 overwritten; underlying digit illegible]",
+          "certainty": "uncertain",
+          "evidence": "Same observation as focus-0594-02."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 595,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c. 386(10) Sapiṇḍīkaraṇa",
+              "evidence": "The note is at the same height as that facing-page entry. Arrows on both pages point to each other across the gutter.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 595,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c. 386(10) [title on fol. 298 not re-verified at native resolution]",
+              "evidence": "The note is at the same height as that facing-page entry. Both arrows point leftward: the fol. 298 arrow points to the gutter and the fol. 297b arrow points to the note. Together they suggest a transfer of the note from the entry to this page. The evidence is position and arrow direction only.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "Native reread confirms both arrowheads are at the left ends. The claim that the arrows point toward each other was incorrect.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 595,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√b. 99(5) Sapiṇḍīkaraṇa. Sāmavedīya.",
+              "evidence": "The note is at the same height as that facing-page entry. The arrows on the two pages point toward each other.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 595,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√b. 99(5) [title on fol. 298 not re-verified at native resolution]",
+              "evidence": "The note is at the same height as that facing-page entry. The fol. 298 arrow points left toward the gutter and the fol. 297b arrow points left toward the note. The fol. 298 arrow sits beside a bracket grouping three entries, so attachment to b. 99(5) alone, rather than to the bracketed group, is not certain.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "Arrow direction corrected and the bracket ambiguity added after native reread.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff.1-6 (also numbered 51-56).",
+          "after": "ff.1-6(also numbered 51-56).",
+          "reason": "No space is visible between '6' and '(' in the native tile. The overwritten final digit is recorded in annotations and uncertainties.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "fields.extent",
+          "before": "ff.1-6 (also numbered 51-56).",
+          "after": "ff.1-6(also numbered 51-56).",
+          "reason": "Kept consistent with the corrected literal spacing.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number '297' with a superscript 'b' in the top left margin."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Faint note 'ff.1-8 unf.' followed by a left-pointing arrow."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Ink note 'ff.1-6(also numbered 51-5[6]).' followed by a short left-pointing arrow."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0594-01",
+          "record_id": null,
+          "block_ids": [],
+          "issue": "A faint diagonal mark near [3000,4255,70,65] could be an arrow, a set-off or a smudge. It contains no text, so no record was created.",
+          "next_check": "Inspect the original or a higher-contrast image, and compare with the similar mark in the fol. 298 left margin to test for set-off."
+        },
+        {
+          "issue_id": "focus-0594-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The digit beneath the overwritten final '6' of '56' is illegible.",
+          "next_check": "Use magnification or raking light on the original."
+        },
+        {
+          "issue_id": "focus-0594-09",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The medium of the note, pencil or faint ink, is undetermined.",
+          "next_check": "Examine the original for graphite sheen."
+        },
+        {
+          "issue_id": "focus-0594-03",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b003"
+          ],
+          "issue": "Block features still state that the arrows point toward the gutter. The native image shows the fol. 297b arrows point left, away from the gutter. Feature text cannot be changed through block_changes.",
+          "next_check": "Update the b002 and b003 feature descriptions in a later pass."
+        },
+        {
+          "issue_id": "extra-0594-a",
+          "record_id": null,
+          "block_ids": [],
+          "issue": "A small faint vertical dash or pencil mark in the left margin at about [575,3320,30,110] is not represented. It may be a stray mark.",
+          "next_check": "Check whether it is a deliberate mark or paper damage."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7ba8a1a2fab5c1a3c01d52bae73edb3d8de7275b7fad3fda3d484eb8d9ee35b9",
+      "bytes": 297363,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b3a96bc2b02caafaa01e50d0e0d935466bb36d74096b5b8d2ca45d2408740064",
+      "bytes": 345730,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dd3a400409a095298cccb64479de8e3d1ef99b245620801db29b2777ae356570",
+      "bytes": 387154,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4f59f055274fefd62b4c08383afe53cb5cd695fe6b5a5a46e0ec63b0f20a3369",
+      "bytes": 360397,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "461d6286e12c951a86d9fe58bda536b78764aa96be266b3d9384a939bf9baeca",
+      "bytes": 390918,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f7fb026a39fdbe057baaf85d439f2bcc3038707e45bcf5a857e58b94f70fcf4f",
+      "bytes": 333981,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4296ae6ded5d9db7883de75a0319e62782a8c276b12ad0346fd8d3bc62c20bdd",
+      "bytes": 395424,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d62c4970-5d72-4e6a-b7e6-8ae9f1e16579/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "74488b1973f987faeb0102c23f453e746dc892a00b83aa61e70b260360759eb2",
+      "bytes": 369730,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 593,
+      "folio_label": "fol. 297",
+      "page_id": "d62c4970-5d72-4e6a-b7e6-8ae9f1e16579",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "32865ef0671c08f47a60fe94410d25910907e191eb947c9f9e168ed5a5f4d0e4",
+      "bytes": 368509,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 595,
+      "folio_label": "fol. 298",
+      "page_id": "13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b5f74689985d16344524c4ab9fe637c6bc34ec3059f10b775cbaa29cf4343f40",
+      "bytes": 559567,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 595,
+      "folio_label": "fol. 298",
+      "page_id": "13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1a59a307c4f6a3855576ab03955861cabd9c77fd4553eb5a4e440b8eeaad1756",
+      "bytes": 556875,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 595,
+      "folio_label": "fol. 298",
+      "page_id": "13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1c115dac-e10e-4a2e-8073-fe2d294c644d.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7ba8a1a2fab5c1a3c01d52bae73edb3d8de7275b7fad3fda3d484eb8d9ee35b9",
+      "bytes": 297363,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b3a96bc2b02caafaa01e50d0e0d935466bb36d74096b5b8d2ca45d2408740064",
+      "bytes": 345730,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dd3a400409a095298cccb64479de8e3d1ef99b245620801db29b2777ae356570",
+      "bytes": 387154,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4f59f055274fefd62b4c08383afe53cb5cd695fe6b5a5a46e0ec63b0f20a3369",
+      "bytes": 360397,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "461d6286e12c951a86d9fe58bda536b78764aa96be266b3d9384a939bf9baeca",
+      "bytes": 390918,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f7fb026a39fdbe057baaf85d439f2bcc3038707e45bcf5a857e58b94f70fcf4f",
+      "bytes": 333981,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1c115dac-e10e-4a2e-8073-fe2d294c644d/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4296ae6ded5d9db7883de75a0319e62782a8c276b12ad0346fd8d3bc62c20bdd",
+      "bytes": 395424,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d62c4970-5d72-4e6a-b7e6-8ae9f1e16579/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "74488b1973f987faeb0102c23f453e746dc892a00b83aa61e70b260360759eb2",
+      "bytes": 369730,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 593,
+      "folio_label": "fol. 297",
+      "page_id": "d62c4970-5d72-4e6a-b7e6-8ae9f1e16579",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "32865ef0671c08f47a60fe94410d25910907e191eb947c9f9e168ed5a5f4d0e4",
+      "bytes": 368509,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 595,
+      "folio_label": "fol. 298",
+      "page_id": "13e3ad9b-9a3a-4708-bbd3-4cddb4c68c39",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

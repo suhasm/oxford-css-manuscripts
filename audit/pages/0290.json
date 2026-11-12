@@ -1,0 +1,1779 @@
+{
+  "source_order": 290,
+  "folio_label": "fol. 145b",
+  "page_id": "81e8cf16-0ef4-48e3-a9c9-b18909010b07",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "145b",
+    "principal_page_bbox": [
+      300,
+      300,
+      2860,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          380,
+          340,
+          160,
+          120
+        ],
+        "kind_hint": "page_number",
+        "anchor": "145b",
+        "features": [
+          "top-left corner",
+          "'b' written as a superscript above and after '145'",
+          "a dot or comma after '5'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          500,
+          1080,
+          1270,
+          130
+        ],
+        "kind_hint": "continuation_note_linked_by_arrow_to_facing_page",
+        "anchor": "ff.1-51, in two hands, in 15 adhy. I.O. 3444",
+        "features": [
+          "indented start",
+          "a left-pointing arrow near the gutter (~x3040-3170, y1140-1170) links this line to an entry on the facing page",
+          "reading of 'adhy' and 'I.O.' uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          360,
+          1220,
+          2340,
+          120
+        ],
+        "kind_hint": "continuation_note_linked_by_arrow_to_facing_page",
+        "anchor": "ff.1-64, 15 adhy, S.1819. Written at Kāśī by Rāmacandra. I.O. 3444 Owner, Bālamukunda.",
+        "features": [
+          "contains a date: S.1819",
+          "names a scribe and an owner",
+          "a left-pointing arrow (~x3030-3200, y1235-1265) has a stroke that crosses the gutter"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          360,
+          1460,
+          2040,
+          120
+        ],
+        "kind_hint": "continuation_note_linked_by_arrow_to_facing_page",
+        "anchor": "19 ff., inc. & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+        "features": [
+          "contains a chapter range in Roman numerals",
+          "a short left-pointing arrow (~x3010-3090, y1490-1510)"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          360,
+          1570,
+          2170,
+          140
+        ],
+        "kind_hint": "continuation_note_linked_by_arrow_to_facing_page",
+        "anchor": "ff.1-21 (12 bis). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+        "features": [
+          "contains a date: Saṁv. 1907",
+          "a long left-pointing arrow (~x3050-3260, y1625-1655) crosses the gutter to the facing-page entry",
+          "the '(12 bis)' reading is uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          860,
+          2080,
+          1020,
+          100
+        ],
+        "description": "Faint scattered ink specks or offset traces in the middle of the page, around y~2100. No legible text."
+      },
+      {
+        "bbox": [
+          300,
+          1700,
+          2850,
+          2900
+        ],
+        "description": "Very faint ghost or show-through impressions of writing across the lower ruled area. Not legible and not treated as target text."
+      },
+      {
+        "bbox": [
+          3120,
+          2650,
+          90,
+          60
+        ],
+        "description": "Small blot or tear on the gutter line."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x≈3150. Everything to its right is part of the facing page, fol. 146. That includes the ticks and shelfmark fragments ('√d.3…', '√c.1…', 'e.', 'd.') and the cross-reference 'see s. Vi…' near y≈4570. These were not inventoried as target blocks.",
+      "The four note lines on this verso appear to be supplementary descriptions. Arrows tie them to entries on fol. 146, so their parent holdings are on the facing page."
+    ],
+    "uncertainties": [
+      "Cursive readings of the abbreviations ('adhy', 'I.O.', 'inc.', 'bis') and of the proper names are tentative.",
+      "The matching of each arrow to a specific facing-page entry is inferred from vertical position only."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "145b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "145.b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner. The 'b' is written raised, above and after '145'. A dot or comma mark follows the '5'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Whether the mark after '5' is a dot or a comma."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "supplementary_description_linked_by_arrow",
+        "literal_text": "ff.1-51, in two hands, in 15 adhy. I.O. 3444",
+        "fields": {
+          "extent": "ff.1-51"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The line starts indented.",
+          "A left-pointing arrow at about x3040-3170, y1140-1170 runs at the gutter toward the facing page, fol. 146.",
+          "The '5' of '51' looks heavily inked or overwritten.",
+          "'I.O. 3444' is a comparative reference in the note. It is not a shelfmark of the holding."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 291,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.320(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+            "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146 (y≈1125 there).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'adhy' and 'I.O.' are tentative because the hand is cursive.",
+          "The '5' in '51' may be overwritten. The underlying figure is unclear."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "supplementary_description_linked_by_arrow",
+        "literal_text": "ff.1-64, 15 adhy, S.1819. Written at Kāśī by Rāmacandra. I.O. 3444. Owner, Bālamukunda.",
+        "fields": {
+          "extent": "ff.1-64",
+          "date": "S.1819"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A left-pointing arrow at about x3030-3200, y1235-1265 has a stroke that crosses the gutter.",
+          "Rāmacandra is named as the writer (scribe) and Bālamukunda as the owner. Neither is recorded as author.",
+          "'I.O. 3444' is a comparative reference."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 291,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.302(5) Puruṣottamamāhātmya. From the Brahmāṇḍa and Skanda Purāṇas",
+            "evidence": "The arrow and vertical position (y≈1250) align with the second arrowed entry on fol. 146 (y≈1220 there).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings of the personal names 'Rāmacandra' and 'Bālamukunda' and of 'adhy' are tentative.",
+          "The facing-page entry d.302(5) shows a date column reading about '1772'. This was not reconciled with 'S.1819' here."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "supplementary_description_linked_by_arrow",
+        "literal_text": "19 ff., inc. & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+        "fields": {
+          "extent": "19 ff."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A short left-pointing arrow at about x3010-3090, y1490-1510.",
+          "The chapter or verse range is written in Roman numerals: IV.78-XXV.48."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 291,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.100(2) Puruṣottamamāhātmya. From the Brahmāṇḍa Purāṇa",
+            "evidence": "The arrow and vertical position (y≈1500) align with the third arrowed entry on fol. 146 (y≈1475 there).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'inc.' is uncertain (it could be 'nic.' or similar). '&' is read from a cursive ligature."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "supplementary_description_linked_by_arrow",
+        "literal_text": "ff.1-21 (12 bis). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+        "fields": {
+          "extent": "ff.1-21 (12 bis)",
+          "date": "Saṁv. 1907"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A long left-pointing arrow at about x3050-3260, y1625-1655 crosses the gutter toward the facing-page entry.",
+          "Gopinātha is named as scribe, not author."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 291,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+            "evidence": "The arrow and vertical position (y≈1640) align with the fourth arrowed entry on fol. 146 (y≈1600 there).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading '(12 bis)' is uncertain.",
+          "The spelling of the scribe's name (Gopinātha or Gopīnātha) is uncertain.",
+          "'Saṁv.' and 'Madras Cat.' are read from a cursive hand."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note linked by arrow to a fol. 146 holding."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Continuation note linked by arrow to a fol. 146 holding."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Continuation note linked by arrow to a fol. 146 holding."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Continuation note linked by arrow to a fol. 146 holding."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the ruled verso (about y1700-4600) has no legible target text. There are only faint show-through or offset traces and scattered specks, including near y≈2100.",
+      "There is a small blot on the gutter at about y≈2680.",
+      "Ticks, shelfmark fragments and 'see s. Vi…' to the right of the gutter (x>3150) belong to fol. 146 and are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The arrow-to-entry matching for all four notes is inferred from vertical alignment with the arrowed entries on fol. 146 (d.320(1), d.302(5), c.100(2), c.103(3)). These matches are probable, not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The page number '145' appears at top left, with a raised 'b' and a dot or comma mark after the '5'. The candidate literal '145.b' is acceptable. The mark's form is still flagged as uncertain."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The reading checked against tile 1 matches. There may be a stop under or after 'adhy'. A faint dot after '3444' (about x2050, y1150) is probably a speck and not text. The arrow lies left of the gutter at about x3050-3170."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The line reads as transcribed. A small stop seems to follow '3444', so the candidate's 'I.O. 3444.' is acceptable. The inventory omits that stop. The arrow has a second stroke right of the gutter (about x3165-3200)."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The reading 'inc.' is doubtful. The candidate's literal presents it as certain while its uncertainties field flags it, so the literal is changed to use a bracketed query."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The parenthesis '(12 bis)' is small and cramped. The literal is changed to show the query. The arrow continues across the gutter (about x3060-3260)."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "literal_text",
+        "before": "19 ff., inc. & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+        "after": "19 ff., [inc.?] & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+        "reason": "The cursive abbreviation is not securely legible. The literal should mark the uncertainty rather than state the reading as certain.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "literal_text",
+        "before": "ff.1-21 (12 bis). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+        "after": "ff.1-21 ([12 bis?]). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+        "reason": "The small parenthetical is cramped and its reading is uncertain. This is now marked in the literal.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 291,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.320(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+            "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146 (y≈1125 there).",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 291,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.3[?]0(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+            "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146. That entry's extent column appears to read 'n.d.: 51', which is consistent with 'ff.1-51'. The middle digit of the shelfmark is overwritten in the context image.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "This adds consistency evidence visible on the facing page. It also stops presenting the overwritten shelfmark digit as certain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 291,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+            "evidence": "The arrow and vertical position (y≈1640) align with the fourth arrowed entry on fol. 146 (y≈1600 there).",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 291,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+            "evidence": "A two-part arrow crosses the gutter at y≈1640 to the fourth arrowed entry on fol. 146. That entry's date and extent column appears to read '1850: 22', which is consistent with the note's extent of 21 ff. plus a bis leaf. No date conversion is asserted.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "This adds physical and extent evidence from the facing page. The link remains probable.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The date column of facing entry d.302(5) appears to show '1772' written over or above a cancelled figure and 'n.d.'. At context resolution this cannot be reconciled with 'S.1819'.",
+        "next_check": "Inspect fol. 146 at native resolution, at the right-hand column of the second arrowed entry."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The abbreviation before '& beginning missing' is illegible beyond 'inc.?'.",
+        "next_check": "Compare the letter forms with other occurrences in the same hand."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "It is unclear whether the scribe's name is 'Gopinātha' or 'Gopīnātha'. The reading '(12 bis)' is also uncertain.",
+        "next_check": "Zoom closely on x1180-1460, y1600-1700 and x500-700, y1590-1650."
+      }
+    ],
+    "boundary_review": "The gutter lies at x≈3150. The arrow heads lie on the target side, and some arrow shafts continue onto fol. 146. Ticks, shelfmarks ('√d.3…', 'd.6…', '√c.1…', 'e.', 'd.') and 'see s. Vi…' at about y4570 lie right of the gutter. They belong to fol. 146 and are not target records. The links from the notes to entries on fol. 146 remain probable.",
+    "region_review": {
+      "top": "Only the page number is present. The area from y≈700 to 1050 is blank apart from faint show-through.",
+      "middle": "There are four note lines at y≈1080-1700. Below them are scattered specks around y≈2100 and a speck near y≈4270. None of these is legible text.",
+      "bottom": "From y≈3300 to the page edge there are only ruled lines and faint ghosting. This is a blank finding made on image review.",
+      "left_margin": "No writing.",
+      "right_margin": "The arrows lie at the gutter. There is a blot or tear at about y≈2690 and a small notch at about y≈3650 on the gutter line. Writing beyond the gutter belongs to the facing page.",
+      "interlinear": "No interlinear additions or cancellations were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        380,
+        340,
+        160,
+        120
+      ],
+      "kind_hint": "page_number",
+      "anchor": "145b",
+      "features": [
+        "top-left corner",
+        "'b' written as a superscript above and after '145'",
+        "a dot or comma after '5'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        500,
+        1080,
+        1270,
+        130
+      ],
+      "kind_hint": "continuation_note_linked_by_arrow_to_facing_page",
+      "anchor": "ff.1-51, in two hands, in 15 adhy. I.O. 3444",
+      "features": [
+        "indented start",
+        "a left-pointing arrow near the gutter (~x3040-3170, y1140-1170) links this line to an entry on the facing page",
+        "reading of 'adhy' and 'I.O.' uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        360,
+        1220,
+        2340,
+        120
+      ],
+      "kind_hint": "continuation_note_linked_by_arrow_to_facing_page",
+      "anchor": "ff.1-64, 15 adhy, S.1819. Written at Kāśī by Rāmacandra. I.O. 3444 Owner, Bālamukunda.",
+      "features": [
+        "contains a date: S.1819",
+        "names a scribe and an owner",
+        "a left-pointing arrow (~x3030-3200, y1235-1265) has a stroke that crosses the gutter"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        360,
+        1460,
+        2040,
+        120
+      ],
+      "kind_hint": "continuation_note_linked_by_arrow_to_facing_page",
+      "anchor": "19 ff., inc. & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+      "features": [
+        "contains a chapter range in Roman numerals",
+        "a short left-pointing arrow (~x3010-3090, y1490-1510)"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        360,
+        1570,
+        2170,
+        140
+      ],
+      "kind_hint": "continuation_note_linked_by_arrow_to_facing_page",
+      "anchor": "ff.1-21 (12 bis). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+      "features": [
+        "contains a date: Saṁv. 1907",
+        "a long left-pointing arrow (~x3050-3260, y1625-1655) crosses the gutter to the facing-page entry",
+        "the '(12 bis)' reading is uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "145.b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner. The 'b' is written raised, above and after '145'. A dot or comma mark follows the '5'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Whether the mark after '5' is a dot or a comma."
+      ],
+      "stable_id": "css-prod-0290-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "supplementary_description_linked_by_arrow",
+      "literal_text": "ff.1-51, in two hands, in 15 adhy. I.O. 3444",
+      "fields": {
+        "extent": "ff.1-51"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The line starts indented.",
+        "A left-pointing arrow at about x3040-3170, y1140-1170 runs at the gutter toward the facing page, fol. 146.",
+        "The '5' of '51' looks heavily inked or overwritten.",
+        "'I.O. 3444' is a comparative reference in the note. It is not a shelfmark of the holding."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.320(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+          "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146 (y≈1125 there).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'adhy' and 'I.O.' are tentative because the hand is cursive.",
+        "The '5' in '51' may be overwritten. The underlying figure is unclear."
+      ],
+      "stable_id": "css-prod-0290-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "supplementary_description_linked_by_arrow",
+      "literal_text": "ff.1-64, 15 adhy, S.1819. Written at Kāśī by Rāmacandra. I.O. 3444. Owner, Bālamukunda.",
+      "fields": {
+        "extent": "ff.1-64",
+        "date": "S.1819"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A left-pointing arrow at about x3030-3200, y1235-1265 has a stroke that crosses the gutter.",
+        "Rāmacandra is named as the writer (scribe) and Bālamukunda as the owner. Neither is recorded as author.",
+        "'I.O. 3444' is a comparative reference."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.302(5) Puruṣottamamāhātmya. From the Brahmāṇḍa and Skanda Purāṇas",
+          "evidence": "The arrow and vertical position (y≈1250) align with the second arrowed entry on fol. 146 (y≈1220 there).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings of the personal names 'Rāmacandra' and 'Bālamukunda' and of 'adhy' are tentative.",
+        "The facing-page entry d.302(5) shows a date column reading about '1772'. This was not reconciled with 'S.1819' here."
+      ],
+      "stable_id": "css-prod-0290-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "supplementary_description_linked_by_arrow",
+      "literal_text": "19 ff., inc. & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+      "fields": {
+        "extent": "19 ff."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A short left-pointing arrow at about x3010-3090, y1490-1510.",
+        "The chapter or verse range is written in Roman numerals: IV.78-XXV.48."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.100(2) Puruṣottamamāhātmya. From the Brahmāṇḍa Purāṇa",
+          "evidence": "The arrow and vertical position (y≈1500) align with the third arrowed entry on fol. 146 (y≈1475 there).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'inc.' is uncertain (it could be 'nic.' or similar). '&' is read from a cursive ligature."
+      ],
+      "stable_id": "css-prod-0290-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "supplementary_description_linked_by_arrow",
+      "literal_text": "ff.1-21 (12 bis). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+      "fields": {
+        "extent": "ff.1-21 (12 bis)",
+        "date": "Saṁv. 1907"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A long left-pointing arrow at about x3050-3260, y1625-1655 crosses the gutter toward the facing-page entry.",
+        "Gopinātha is named as scribe, not author."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+          "evidence": "The arrow and vertical position (y≈1640) align with the fourth arrowed entry on fol. 146 (y≈1600 there).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading '(12 bis)' is uncertain.",
+        "The spelling of the scribe's name (Gopinātha or Gopīnātha) is uncertain.",
+        "'Saṁv.' and 'Madras Cat.' are read from a cursive hand."
+      ],
+      "stable_id": "css-prod-0290-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "19 ff., inc. & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+      "after": "19 ff., [inc.?] & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+      "reason": "The cursive abbreviation is not securely legible. The literal should mark the uncertainty rather than state the reading as certain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "ff.1-21 (12 bis). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+      "after": "ff.1-21 ([12 bis?]). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+      "reason": "The small parenthetical is cramped and its reading is uncertain. This is now marked in the literal.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.320(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+          "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146 (y≈1125 there).",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.3[?]0(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+          "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146. That entry's extent column appears to read 'n.d.: 51', which is consistent with 'ff.1-51'. The middle digit of the shelfmark is overwritten in the context image.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "This adds consistency evidence visible on the facing page. It also stops presenting the overwritten shelfmark digit as certain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+          "evidence": "The arrow and vertical position (y≈1640) align with the fourth arrowed entry on fol. 146 (y≈1600 there).",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+          "evidence": "A two-part arrow crosses the gutter at y≈1640 to the fourth arrowed entry on fol. 146. That entry's date and extent column appears to read '1850: 22', which is consistent with the note's extent of 21 ff. plus a bis leaf. No date conversion is asserted.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "This adds physical and extent evidence from the facing page. The link remains probable.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "19 ff., inc. & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+      "after": "19 ff., [inc.?] & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+      "reason": "The abbreviation is not securely legible.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0290-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "ff.1-21 (12 bis). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+      "after": "ff.1-21 ([12 bis?]). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+      "reason": "The cramped parenthetical is uncertain.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0290-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "fields.extent",
+      "before": "ff.1-21 (12 bis)",
+      "after": "ff.1-21 ([12 bis?])",
+      "reason": "Keeps the extent field consistent with the uncertain literal reading.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0290-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.320(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+          "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146 (y≈1125 there).",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.3[?]0(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+          "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146. That entry's extent column appears to read 'n.d.: 51', which is consistent with 'ff.1-51'. The middle digit of the shelfmark is overwritten.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Removes the false certainty about the overwritten digit and adds the extent consistency evidence.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0290-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+          "evidence": "The arrow and vertical position (y≈1640) align with the fourth arrowed entry on fol. 146 (y≈1600 there).",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 291,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+          "evidence": "A two-part arrow crosses the gutter at y≈1640 to the fourth arrowed entry on fol. 146. That entry's column appears to read '1850: 22', which is consistent with 21 ff. plus a bis leaf. No date conversion is asserted.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "Adds the extent consistency evidence from the facing page.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0290-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The date column of facing entry d.302(5) appears to show '1772' written over or above a cancelled figure and 'n.d.'. At context resolution this cannot be reconciled with 'S.1819'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0290-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The abbreviation before '& beginning missing' is illegible beyond 'inc.?'.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0290-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The cursive abbreviation is not securely legible. The literal should mark the uncertainty rather than state the reading as certain. Proposed literal_text: \"19 ff., [inc.?] & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0290-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The small parenthetical is cramped and its reading is uncertain. This is now marked in the literal. Proposed literal_text: \"ff.1-21 ([12 bis?]). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.\"",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0290-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "This adds consistency evidence visible on the facing page. It also stops presenting the overwritten shelfmark digit as certain. Proposed relationships: [{\"type\": \"continues\", \"target_page_order\": 291, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"√d.3[?]0(1) Puruṣottamamāhātmya. From the Skanda Purāṇa\", \"evidence\": \"The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146. That entry's extent column appears to read 'n.d.: 51', which is consistent with 'ff.1-51'. The middle digit of the shelfmark is overwritten in the context image.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0290-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "This adds physical and extent evidence from the facing page. The link remains probable. Proposed relationships: [{\"type\": \"continues\", \"target_page_order\": 291, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"√c.103(3) From the Skanda Purāṇa 1850\", \"evidence\": \"A two-part arrow crosses the gutter at y≈1640 to the fourth arrowed entry on fol. 146. That entry's date and extent column appears to read '1850: 22', which is consistent with the note's extent of 21 ff. plus a bis leaf. No date conversion is asserted.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0290-06"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is unclear whether the scribe's name is 'Gopinātha' or 'Gopīnātha'. The reading '(12 bis)' is also uncertain.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0290-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "Whether the mark after '5' is a dot or a comma.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0290-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The readings 'adhy' and 'I.O.' are tentative because the hand is cursive.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0290-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The '5' in '51' may be overwritten. The underlying figure is unclear.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0290-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0290-01",
+        "focus-0290-02",
+        "focus-0290-03",
+        "focus-0290-04",
+        "focus-0290-05",
+        "focus-0290-06",
+        "focus-0290-07",
+        "focus-0290-08",
+        "focus-0290-09",
+        "focus-0290-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0290-01",
+          "source_reading": "Target b003 reads 'S.1819.' On the facing page, the d.302(5) date column shows '1772' written above a struck figure (perhaps '1767') and a struck 'n.d.', followed by ': 64 :' and a size entry.",
+          "certainty": "uncertain",
+          "evidence": "The b003 date is clearly written 'S.1819'. The facing-page column shows overwriting. The two dates are in different notations. No conversion is asserted and no reconciliation is attempted."
+        },
+        {
+          "issue_id": "focus-0290-02",
+          "source_reading": "[inc.?] — the written form looks like 'ic.' or 'inc.' with a lead-in stroke, then '& beginning missing'.",
+          "certainty": "uncertain",
+          "evidence": "Native tile 0,0 at about y1495. The letters are compressed and the first letter is ambiguous."
+        },
+        {
+          "issue_id": "focus-0290-03",
+          "source_reading": "19 ff., [inc.?] & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+          "certainty": "probable",
+          "evidence": "The rest of the line is clear. Only the abbreviation is doubtful."
+        },
+        {
+          "issue_id": "focus-0290-04",
+          "source_reading": "ff.1-21 ([12 bis?]).",
+          "certainty": "uncertain",
+          "evidence": "The small cramped parenthetical looks like '12 lis' or '12 bis'."
+        },
+        {
+          "issue_id": "focus-0290-05",
+          "source_reading": "An arrow at y≈1150 points across the gutter to '√d.3[2 over ?]0(1)'. That entry's date and extent column reads 'n.d.: 51 : 11 : D'.",
+          "certainty": "probable",
+          "evidence": "The vertical alignment matches. The extent of 51 is consistent. The shelfmark's middle digit is overwritten."
+        },
+        {
+          "issue_id": "focus-0290-06",
+          "source_reading": "A two-part arrow at y≈1640 points to '√c.103(3)'. That entry's column reads '1850 : 22 : 11 : D'.",
+          "certainty": "probable",
+          "evidence": "The arrow crosses the gutter. 22 is consistent with ff.1-21 plus a bis leaf. No date conversion is asserted."
+        },
+        {
+          "issue_id": "focus-0290-07",
+          "source_reading": "Gop[i/ī]nātha — no macron over the i is clearly visible. The 'bis' reading is unsure.",
+          "certainty": "uncertain",
+          "evidence": "The cursive capital G and the i are not distinguishable at native resolution."
+        },
+        {
+          "issue_id": "focus-0290-08",
+          "source_reading": "145, with a superscript b and a comma-like mark low after the '5'.",
+          "certainty": "probable",
+          "evidence": "The mark has a short tail, which suggests a comma rather than a dot."
+        },
+        {
+          "issue_id": "focus-0290-09",
+          "source_reading": "'adhy' is written as 'adhy' with a descender; 'I.O.' is written like '1.0.'",
+          "certainty": "probable",
+          "evidence": "The letter shapes in both lines are consistent with 'adhy' and 'I.O.'"
+        },
+        {
+          "issue_id": "focus-0290-10",
+          "source_reading": "51 — the '5' is heavily inked or retouched. Any underlying figure is not legible.",
+          "certainty": "probable",
+          "evidence": "The facing-page extent of 51 supports the final reading, but the overwriting remains unresolved."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r004",
+          "field_path": "literal_text",
+          "before": "19 ff., inc. & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+          "after": "19 ff., [inc.?] & beginning missing, IV.78-XXV.48. Apparently a different version of I.O. 3444.",
+          "reason": "The abbreviation is not securely legible.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "literal_text",
+          "before": "ff.1-21 (12 bis). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+          "after": "ff.1-21 ([12 bis?]). Saṁv. 1907. Scribe Gopinātha. Differs from recension in I.O. & Madras Cat.",
+          "reason": "The cramped parenthetical is uncertain.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "fields.extent",
+          "before": "ff.1-21 (12 bis)",
+          "after": "ff.1-21 ([12 bis?])",
+          "reason": "Keeps the extent field consistent with the uncertain literal reading.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 291,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√d.320(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+              "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146 (y≈1125 there).",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 291,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√d.3[?]0(1) Puruṣottamamāhātmya. From the Skanda Purāṇa",
+              "evidence": "The arrow and vertical position (y≈1150) align with the first arrowed entry on fol. 146. That entry's extent column appears to read 'n.d.: 51', which is consistent with 'ff.1-51'. The middle digit of the shelfmark is overwritten.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "Removes the false certainty about the overwritten digit and adds the extent consistency evidence.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 291,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+              "evidence": "The arrow and vertical position (y≈1640) align with the fourth arrowed entry on fol. 146 (y≈1600 there).",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 291,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c.103(3) From the Skanda Purāṇa 1850",
+              "evidence": "A two-part arrow crosses the gutter at y≈1640 to the fourth arrowed entry on fol. 146. That entry's column appears to read '1850: 22', which is consistent with 21 ff. plus a bis leaf. No date conversion is asserted.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "Adds the extent consistency evidence from the facing page.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Page number. The mark after '5' is probably a comma."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "One line, linked by arrow to the facing page."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Its date differs in notation from the facing-page column."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The abbreviation is now marked as uncertain."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "The parenthetical is now marked as uncertain."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0290-01",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "S.1819 on this page versus the overwritten 1772/[1767?]/n.d. on the facing page for d.302(5).",
+          "next_check": "Inspect the fol. 146 date column at native resolution, independently of this page."
+        },
+        {
+          "issue_id": "focus-0290-02",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The abbreviation before '& beginning missing' is unread.",
+          "next_check": "Use higher magnification or an original image."
+        },
+        {
+          "issue_id": "focus-0290-07",
+          "record_id": "r005",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "Gopinātha or Gopīnātha; '12 bis'.",
+          "next_check": "Use higher magnification."
+        },
+        {
+          "issue_id": "focus-0290-10",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The figure underlying the overwritten '5' is unknown.",
+          "next_check": "Use higher magnification."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7200bce1fd13a890c98946c604cb83a0ec9423cdd05f6ac2b432645ebb55be39",
+      "bytes": 263201,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9f60db8ba3b889a168bcec448af577353b316f2f343c32c2bf68122ac2c9d30d",
+      "bytes": 354999,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d7a391fc9f93846d83a596a516497f7530194f148c9e979a2d604597e86389d0",
+      "bytes": 324649,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dce27a4aa9d0b65a5c70d978c8b7efc86c24ce69827a45df70fcfd2a270f4d2d",
+      "bytes": 308497,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b9cd8219ed130cf4ad2a6f3def830d215958936508006392a2c9faa78dea8cd9",
+      "bytes": 279092,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf03ee82-20a9-4c5e-8c18-f0f08c58c6db/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "25584aed8016e7c81cbf0dcfe4efd02270a95fe57cba3220e0222b7e7d2784f0",
+      "bytes": 282017,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 289,
+      "folio_label": "fol. 145",
+      "page_id": "bf03ee82-20a9-4c5e-8c18-f0f08c58c6db",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/504ffe0f-1f71-46a0-947f-b754371619b0/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8986f5a5499391930ec5f23b879d1654c8ead65cfe84756c32e5c6758f78ff43",
+      "bytes": 254918,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 291,
+      "folio_label": "fol. 146",
+      "page_id": "504ffe0f-1f71-46a0-947f-b754371619b0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/504ffe0f-1f71-46a0-947f-b754371619b0/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "735be779a5927d1dd9af2512c2dcd36777fd8688de2949291cf3443678d97017",
+      "bytes": 357297,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 291,
+      "folio_label": "fol. 146",
+      "page_id": "504ffe0f-1f71-46a0-947f-b754371619b0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/504ffe0f-1f71-46a0-947f-b754371619b0/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "efc2b79ba03f863c32a6a4b7743d9b79ba36f9aa7f0f13dbb6a0de65253a4785",
+      "bytes": 413671,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 291,
+      "folio_label": "fol. 146",
+      "page_id": "504ffe0f-1f71-46a0-947f-b754371619b0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/81e8cf16-0ef4-48e3-a9c9-b18909010b07.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7200bce1fd13a890c98946c604cb83a0ec9423cdd05f6ac2b432645ebb55be39",
+      "bytes": 263201,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9f60db8ba3b889a168bcec448af577353b316f2f343c32c2bf68122ac2c9d30d",
+      "bytes": 354999,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d7a391fc9f93846d83a596a516497f7530194f148c9e979a2d604597e86389d0",
+      "bytes": 324649,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dce27a4aa9d0b65a5c70d978c8b7efc86c24ce69827a45df70fcfd2a270f4d2d",
+      "bytes": 308497,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b9cd8219ed130cf4ad2a6f3def830d215958936508006392a2c9faa78dea8cd9",
+      "bytes": 279092,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "74d3540c0306564040d9b94f80598559b488ceb0be3970782a1da82ad0f90f83",
+      "bytes": 296317,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/81e8cf16-0ef4-48e3-a9c9-b18909010b07/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a806242759d8271b56289d8d3f243adf3b25d3d131ead83a892c301d93f84f59",
+      "bytes": 302500,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bf03ee82-20a9-4c5e-8c18-f0f08c58c6db/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "25584aed8016e7c81cbf0dcfe4efd02270a95fe57cba3220e0222b7e7d2784f0",
+      "bytes": 282017,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 289,
+      "folio_label": "fol. 145",
+      "page_id": "bf03ee82-20a9-4c5e-8c18-f0f08c58c6db",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/504ffe0f-1f71-46a0-947f-b754371619b0/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8986f5a5499391930ec5f23b879d1654c8ead65cfe84756c32e5c6758f78ff43",
+      "bytes": 254918,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 291,
+      "folio_label": "fol. 146",
+      "page_id": "504ffe0f-1f71-46a0-947f-b754371619b0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

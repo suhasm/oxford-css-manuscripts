@@ -1,0 +1,1095 @@
+{
+  "source_order": 582,
+  "folio_label": "fol. 291b",
+  "page_id": "b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "291b.",
+    "principal_page_bbox": [
+      318,
+      290,
+      2795,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          335,
+          160,
+          115
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "291b.",
+        "features": [
+          "top left corner of the principal leaf",
+          "the 'b' and the full stop are small and raised"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          360,
+          2795,
+          2700,
+          135
+        ],
+        "kind_hint": "marginal_note_attached_to_facing_page",
+        "anchor": "two fragments, (a) 18ff., text only, from i,7 to middle of prapāṭhaka v. ll.10, ... b) 10ff, text + co. by Sāyaṇa, ... ll.5/11",
+        "features": [
+          "single long line running across the left margin and the main column",
+          "an arrow at the right end points toward the facing-page shelfmark '–√d. 35*'",
+          "a small subscript or interlinear 'll.5/11' sits below the line end",
+          "the ruled column line is crossed",
+          "many words are hard to read"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          905,
+          3025,
+          1385,
+          95
+        ],
+        "kind_hint": "marginal_note_attached_to_facing_page",
+        "anchor": "ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha Pāṇḍya",
+        "features": [
+          "an arrow '←' at about x 3005-3095 points toward the facing-page shelfmark '–√d.135(6)'",
+          "contains a date and scribe and owner information"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          370,
+          4160,
+          300,
+          90
+        ],
+        "kind_hint": "shelfmark",
+        "anchor": "d.7[8]5(4)",
+        "features": [
+          "in the left shelfmark column",
+          "the second digit is overwritten or blotted with an ink blob; it reads as 8, but this is uncertain"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          885,
+          4170,
+          1085,
+          90
+        ],
+        "kind_hint": "entry_title_line",
+        "anchor": "Ṣaṣṭisaṃvatsaraphala. Jyotiṣa. Begin:",
+        "features": [
+          "the title has underdots marking diacritics",
+          "the title line belongs to the shelfmark in b004"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          1210,
+          4245,
+          1215,
+          125
+        ],
+        "kind_hint": "incipit_continuation",
+        "anchor": "Devadevaṃ namaskṛtya sarveṣāṃ sarvavyāpitam |",
+        "features": [
+          "an interlinear '?ṇa' is placed above 'sarvavyāpitam', at about [2290,4248,50,30]",
+          "the line is indented"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          2520,
+          4310,
+          390,
+          65
+        ],
+        "kind_hint": "date_extent_line",
+        "anchor": "n.d.:6:12:D.",
+        "features": [
+          "in the right-hand date/extent column",
+          "on the same line as the incipit"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2930,
+          4230,
+          110,
+          25
+        ],
+        "description": "A horizontal dash near the right edge of the page, level with the b005/b006 entry. It appears to continue the arrow '→' on the facing page, which points to the d.753(5) entry there."
+      },
+      {
+        "bbox": [
+          330,
+          700,
+          2770,
+          1900
+        ],
+        "description": "Faint show-through or offset of writing from another leaf across the upper and middle ruled area. It is not target-page writing and has not been treated as text."
+      }
+    ],
+    "boundary_notes": [
+      "The right strip beyond the gutter (x > ~3115) shows shelfmarks belonging to the facing page fol. 292, from d.750(6) through d.753(5). These are context only and are excluded.",
+      "b002 and b003 are written on the target page but are linked by arrows to entries on the facing page (d.35 and d.135(6)). They are recorded as marginal notes and not as independent holdings.",
+      "The entry made up of b004-b007 (d.785(4) Ṣaṣṭisaṃvatsaraphala) is written on the target page. A dash or arrow links it toward the facing page near d.753(5)."
+    ],
+    "uncertainties": [
+      "The reading of b002 is largely uncertain: the cursive hand is hard to read, and phrases such as 'Oldish hand' and 'end of each' are guesses.",
+      "The second digit of the b004 shelfmark is obscured by an ink blot.",
+      "The interlinear '?ṇa' in b006: it is not certain which syllable it is meant to correct."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "291b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "291b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top left corner of the leaf. The 'b' and the full stop are small and raised."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_note_for_facing_page_entry",
+        "literal_text": "two fragments, (a) 18ff., text only, from i,7 to middle of prapāṭhaka v. ll.10, Oldish hand; b) 10ff, text + co. by Sāyaṇa, [hand of each?] [arrow]\nll.5/11",
+        "fields": {
+          "extent": "(a) 18ff. ... b) 10ff",
+          "lines": "ll.10 ... ll.5/11"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A single long cursive line runs from the left margin across the ruled column line and the main column.",
+          "'ll.5/11' is written small, below the end of the line.",
+          "An arrow-like mark at the right end of the line is directed toward the gutter. On the facing page, a dash is drawn before the shelfmark '–√d. 35*'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 583,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "–√d. 35* (Do., comm. by Sāyaṇa. Two fragments.)",
+            "evidence": "The arrow and dash link across the gutter at the same height. The facing entry also mentions two fragments and comm. by Sāyaṇa.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cursive hand is hard to read. The readings 'Oldish hand' and '[hand of each?]' are tentative.",
+          "The exact form and direction of the terminal arrow mark are uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b902"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_note_for_facing_page_entry",
+        "literal_text": "ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha Pāṇḍya ←",
+        "fields": {
+          "extent": "ff.1-4",
+          "date": "S.1664"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "An arrow '←' near the gutter is level with the facing-page shelfmark '–√d.135(6)', which is preceded by a dash.",
+          "The scribe and owner named in the note are not authors."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 583,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "–√d.135(6) Ṣaṣṭikāpūjāpaddhati",
+            "evidence": "The arrow and dash connect across the gutter at the same height.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The diacritics in 'Pāṇḍya' are uncertain; it may be written 'Pāṇḍya' or 'Pāṇḍyā'.",
+          "The reading 'Yajñapati' is fairly but not fully certain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b005",
+          "b006",
+          "b007",
+          "b901"
+        ],
+        "type": "holding",
+        "subtype": "inserted_entry",
+        "literal_text": "d.7[8?]5(4)    Ṣaṣṭisaṁvatsaraphala. Jyotiṣa. Begin:\n        Devadevaṁ namaskṛtya sarveṣāṁ sarvavyāpitam |   [interlinear: ?ṇa]   n.d.:6:12:D.",
+        "fields": {
+          "shelfmark": "d.7[8?]5(4)",
+          "title": "Ṣaṣṭisaṁvatsaraphala",
+          "subject": "Jyotiṣa",
+          "date": "n.d.",
+          "incipit": "Devadevaṁ namaskṛtya sarveṣāṁ sarvavyāpitam |"
+        },
+        "normalized_title": "Ṣaṣṭisaṃvatsaraphala",
+        "annotations": [
+          "The second digit of the shelfmark is covered by an ink blot.",
+          "The title is written with underdots for diacritics.",
+          "An interlinear '?ṇa' is written above 'sarvavyāpitam'.",
+          "A horizontal dash (b901) near the right edge, level with the title line, is aligned with an arrow '→' on the facing page. That arrow sits just above d.753(5)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 583,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ d.753(5) Ṣaṣṭisaṃvatsarabhāvaphala",
+            "evidence": "The dash on the target page aligns with the facing-page arrow. This suggests the entry is to be inserted at that point in the sequence.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The second digit of the shelfmark is obscured; it may read 8.",
+          "It is not certain which syllable the interlinear '?ṇa' corrects.",
+          "The remaining date/extent figures '6:12' are recorded literally and have not been interpreted."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2930,
+          4228,
+          110,
+          25
+        ],
+        "kind_hint": "linking_dash",
+        "anchor": "—",
+        "features": [
+          "horizontal dash near the right edge, level with the b005 title line",
+          "aligns with the facing-page arrow '→' at d.753(5)"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3000,
+          3045,
+          100,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "arrow pointing left toward the b003 note",
+          "level with the facing-page shelfmark '–√d.135(6)'"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Marginal note linked to the facing-page d.35 entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Marginal note linked to the facing-page d.135(6) entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Shelfmark of the holding."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Title, subject and 'Begin:' of the holding."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Incipit of the holding."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Date/extent column of the holding."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Linking dash for the insertion of the holding."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrow linking the b003 note to the facing page."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the ruled area shows only show-through or offset from another leaf; this is not transcribed.",
+      "Shelfmarks in the strip beyond the gutter belong to fol. 292 and are excluded."
+    ],
+    "unresolved_relationships": [
+      "The attachments of r002 and r003 to facing-page entries rest on arrows and dashes and are marked probable.",
+      "The insertion point of r004 on fol. 292 is probable."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '291b.' is at the top left. The 'b.' is raised. It is correctly a non-catalogue page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "One long cursive line runs from the left margin across the ruling, with 'll.5/11' written small below its right end. A curled left-pointing arrow-like mark at about x 3010-3050 ends the line, level with '–√d. 35*' on fol. 292. Several words remain hard to read ('Oldish hand', 'hand of each'). The macron in 'Sāyaṇa' is not securely visible."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Note reading 'ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha P…ya'. The final name is cursive and its middle consonant cluster is uncertain. The arrow is recorded separately as b902."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Shelfmark 'd.7?5(4)' with the second digit blotted. Reading it as 8 remains uncertain."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Title line 'Ṣaṣṭisaṁvatsaraphala. Jyotiṣa. Begin:', with underdots."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Indented incipit line ending in a daṇḍa. The small interlinear mark above 'sarvavyāpitam' looks like ':u'/'?ṇa'. Its reading and target syllable are uncertain."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'n.d.:6:12:D.' is on the incipit line in the right column."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Horizontal dash near the gutter at about y 4235. It aligns with the '→' on fol. 292 just above d.753(5)."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Left-pointing arrow at about x 3000-3100, y 3050. It is level with '–√d.135(6)' on fol. 292."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha Pāṇḍya ←",
+        "after": "ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha [Pāṇḍya?] ←",
+        "reason": "The cursive final name (it looks like 'Pā?jya') does not securely show 'ṇḍ' or its diacritics. Certain transcription should not be asserted.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The cursive hand is hard to read. The readings 'Oldish hand' and '[hand of each?]' are tentative.",
+          "The exact form and direction of the terminal arrow mark are uncertain."
+        ],
+        "after": [
+          "The cursive hand is hard to read. The readings 'Oldish hand' and '[hand of each?]' are tentative.",
+          "The exact form and direction of the terminal arrow mark are uncertain; it resembles a curled left-pointing arrow.",
+          "The diacritics of 'Sāyaṇa' (macron on first a) are not securely visible; underdot under ṇ appears present."
+        ],
+        "reason": "There is diacritic uncertainty in the cursive name. The arrow form was observed in the native tile.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There is a tiny isolated vertical tick or dot at about [3008,3980,10,30], above the b901 dash. It may be a stray mark or a paper flaw. It is not transcribed.",
+        "next_check": "Inspect at higher magnification to decide whether it is ink."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004",
+          "b006"
+        ],
+        "issue": "The blotted second digit of the shelfmark and the interlinear '?ṇa' correction remain unresolved.",
+        "next_check": "Compare with the fol. 292 sequence (which has d.785(3)) and with the original manuscript."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several words in the cursive note are tentative.",
+        "next_check": "Read at higher resolution."
+      }
+    ],
+    "boundary_review": "The strip beyond the gutter (x > ~3115) belongs to fol. 292 and is excluded. The notes r002 and r003 and the entry r004 are written on fol. 291b. They are linked by arrows and dashes to fol. 292 entries d.35, d.135(6) and the insertion point before d.753(5). These links are probable, not certain. The note r002 is a continuation note, not an independent holding.",
+    "region_review": {
+      "top": "Only the folio number '291b.' appears. No other writing is visible.",
+      "middle": "There is faint show-through from another leaf across the ruled area; it is not target writing. The b002 and b003 notes are at about y 2800-3100.",
+      "bottom": "The b004-b007 entry and the b901 dash are present. Below y ~4380 to the page foot the page is blank, as reviewed in the image.",
+      "left_margin": "Contains the folio number, the start of the b002 line, and shelfmark b004.",
+      "right_margin": "Contains the b002 terminal arrow, the b902 arrow, the b901 dash and a tiny stray tick. Facing-page shelfmarks beyond the gutter are excluded.",
+      "interlinear": "'ll.5/11' appears below the end of b002, and '?ṇa' appears above 'sarvavyāpitam' in b006."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        335,
+        160,
+        115
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "291b.",
+      "features": [
+        "top left corner of the principal leaf",
+        "the 'b' and the full stop are small and raised"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        360,
+        2795,
+        2700,
+        135
+      ],
+      "kind_hint": "marginal_note_attached_to_facing_page",
+      "anchor": "two fragments, (a) 18ff., text only, from i,7 to middle of prapāṭhaka v. ll.10, ... b) 10ff, text + co. by Sāyaṇa, ... ll.5/11",
+      "features": [
+        "single long line running across the left margin and the main column",
+        "an arrow at the right end points toward the facing-page shelfmark '–√d. 35*'",
+        "a small subscript or interlinear 'll.5/11' sits below the line end",
+        "the ruled column line is crossed",
+        "many words are hard to read"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        905,
+        3025,
+        1385,
+        95
+      ],
+      "kind_hint": "marginal_note_attached_to_facing_page",
+      "anchor": "ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha Pāṇḍya",
+      "features": [
+        "an arrow '←' at about x 3005-3095 points toward the facing-page shelfmark '–√d.135(6)'",
+        "contains a date and scribe and owner information"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        370,
+        4160,
+        300,
+        90
+      ],
+      "kind_hint": "shelfmark",
+      "anchor": "d.7[8]5(4)",
+      "features": [
+        "in the left shelfmark column",
+        "the second digit is overwritten or blotted with an ink blob; it reads as 8, but this is uncertain"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        885,
+        4170,
+        1085,
+        90
+      ],
+      "kind_hint": "entry_title_line",
+      "anchor": "Ṣaṣṭisaṃvatsaraphala. Jyotiṣa. Begin:",
+      "features": [
+        "the title has underdots marking diacritics",
+        "the title line belongs to the shelfmark in b004"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        1210,
+        4245,
+        1215,
+        125
+      ],
+      "kind_hint": "incipit_continuation",
+      "anchor": "Devadevaṃ namaskṛtya sarveṣāṃ sarvavyāpitam |",
+      "features": [
+        "an interlinear '?ṇa' is placed above 'sarvavyāpitam', at about [2290,4248,50,30]",
+        "the line is indented"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        2520,
+        4310,
+        390,
+        65
+      ],
+      "kind_hint": "date_extent_line",
+      "anchor": "n.d.:6:12:D.",
+      "features": [
+        "in the right-hand date/extent column",
+        "on the same line as the incipit"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2930,
+        4228,
+        110,
+        25
+      ],
+      "kind_hint": "linking_dash",
+      "anchor": "—",
+      "features": [
+        "horizontal dash near the right edge, level with the b005 title line",
+        "aligns with the facing-page arrow '→' at d.753(5)"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3000,
+        3045,
+        100,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "arrow pointing left toward the b003 note",
+        "level with the facing-page shelfmark '–√d.135(6)'"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "291b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top left corner of the leaf. The 'b' and the full stop are small and raised."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0582-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_note_for_facing_page_entry",
+      "literal_text": "two fragments, (a) 18ff., text only, from i,7 to middle of prapāṭhaka v. ll.10, Oldish hand; b) 10ff, text + co. by Sāyaṇa, [hand of each?] [arrow]\nll.5/11",
+      "fields": {
+        "extent": "(a) 18ff. ... b) 10ff",
+        "lines": "ll.10 ... ll.5/11"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A single long cursive line runs from the left margin across the ruled column line and the main column.",
+        "'ll.5/11' is written small, below the end of the line.",
+        "An arrow-like mark at the right end of the line is directed toward the gutter. On the facing page, a dash is drawn before the shelfmark '–√d. 35*'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 583,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "–√d. 35* (Do., comm. by Sāyaṇa. Two fragments.)",
+          "evidence": "The arrow and dash link across the gutter at the same height. The facing entry also mentions two fragments and comm. by Sāyaṇa.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cursive hand is hard to read. The readings 'Oldish hand' and '[hand of each?]' are tentative.",
+        "The exact form and direction of the terminal arrow mark are uncertain."
+      ],
+      "stable_id": "css-prod-0582-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b902"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_note_for_facing_page_entry",
+      "literal_text": "ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha Pāṇḍya ←",
+      "fields": {
+        "extent": "ff.1-4",
+        "date": "S.1664"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "An arrow '←' near the gutter is level with the facing-page shelfmark '–√d.135(6)', which is preceded by a dash.",
+        "The scribe and owner named in the note are not authors."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 583,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "–√d.135(6) Ṣaṣṭikāpūjāpaddhati",
+          "evidence": "The arrow and dash connect across the gutter at the same height.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The diacritics in 'Pāṇḍya' are uncertain; it may be written 'Pāṇḍya' or 'Pāṇḍyā'.",
+        "The reading 'Yajñapati' is fairly but not fully certain."
+      ],
+      "stable_id": "css-prod-0582-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b005",
+        "b006",
+        "b007",
+        "b901"
+      ],
+      "type": "holding",
+      "subtype": "inserted_entry",
+      "literal_text": "d.7[8?]5(4)    Ṣaṣṭisaṁvatsaraphala. Jyotiṣa. Begin:\n        Devadevaṁ namaskṛtya sarveṣāṁ sarvavyāpitam |   [interlinear: ?ṇa]   n.d.:6:12:D.",
+      "fields": {
+        "shelfmark": "d.7[8?]5(4)",
+        "title": "Ṣaṣṭisaṁvatsaraphala",
+        "subject": "Jyotiṣa",
+        "date": "n.d.",
+        "incipit": "Devadevaṁ namaskṛtya sarveṣāṁ sarvavyāpitam |"
+      },
+      "normalized_title": "Ṣaṣṭisaṃvatsaraphala",
+      "annotations": [
+        "The second digit of the shelfmark is covered by an ink blot.",
+        "The title is written with underdots for diacritics.",
+        "An interlinear '?ṇa' is written above 'sarvavyāpitam'.",
+        "A horizontal dash (b901) near the right edge, level with the title line, is aligned with an arrow '→' on the facing page. That arrow sits just above d.753(5)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 583,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ d.753(5) Ṣaṣṭisaṃvatsarabhāvaphala",
+          "evidence": "The dash on the target page aligns with the facing-page arrow. This suggests the entry is to be inserted at that point in the sequence.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The second digit of the shelfmark is obscured; it may read 8.",
+        "It is not certain which syllable the interlinear '?ṇa' corrects.",
+        "The remaining date/extent figures '6:12' are recorded literally and have not been interpreted."
+      ],
+      "stable_id": "css-prod-0582-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha Pāṇḍya ←",
+      "after": "ff.1-4, S.1664. Scribe Yajñapati. Owner Gopīnātha [Pāṇḍya?] ←",
+      "reason": "The cursive final name (it looks like 'Pā?jya') does not securely show 'ṇḍ' or its diacritics. Certain transcription should not be asserted.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The cursive hand is hard to read. The readings 'Oldish hand' and '[hand of each?]' are tentative.",
+        "The exact form and direction of the terminal arrow mark are uncertain."
+      ],
+      "after": [
+        "The cursive hand is hard to read. The readings 'Oldish hand' and '[hand of each?]' are tentative.",
+        "The exact form and direction of the terminal arrow mark are uncertain; it resembles a curled left-pointing arrow.",
+        "The diacritics of 'Sāyaṇa' (macron on first a) are not securely visible; underdot under ṇ appears present."
+      ],
+      "reason": "There is diacritic uncertainty in the cursive name. The arrow form was observed in the native tile.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "1ea04efa331c373c7d0b68518aa2068b48ad37e762f554793327b0d2283dcd8e",
+      "bytes": 335584,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "176b76823da988e786c121775389bae22ca455363097f35c6d029b4a30a071bb",
+      "bytes": 364792,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "89ec4f8cc3a9406f86ac582e944d7711ab6121ffcae04f86490dade784d92931",
+      "bytes": 411671,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d95af36ba41600c088b189921cda27f935365127e9bf333263f8a9e006ced31f",
+      "bytes": 424886,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6b7a445d78e659141e12644493da50e2cd9afb8155a138d66eca545702e8386b",
+      "bytes": 453882,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1054b8bbb7c687ab7d5ce844ca434ceecb009c0d4de4285bcb8f7ec43bc99ee2",
+      "bytes": 377139,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b9a36d52-eb8d-4e8f-9d13-8f56f53a64eb/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "372f992ce55411b14b591ba36bed2ff965369910a54239353da47714d17c5b7b",
+      "bytes": 419461,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/536c9cf2-8f3d-4f35-a2c9-cbd8817530f4/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7bf07736e6ae32b4e572cd1e552723aca8052a5f259643399b48537ea74d28f0",
+      "bytes": 350536,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 581,
+      "folio_label": "fol. 291",
+      "page_id": "536c9cf2-8f3d-4f35-a2c9-cbd8817530f4",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f8ad7e51-719a-4ace-a4df-f9eae589f3bb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4bcdb14b020b9314128622334b2dca95cd2ef8a9475ba0325d37121b8e7acb01",
+      "bytes": 326392,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 583,
+      "folio_label": "fol. 292",
+      "page_id": "f8ad7e51-719a-4ace-a4df-f9eae589f3bb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,912 @@
+{
+  "source_order": 520,
+  "folio_label": "fol. 260b",
+  "page_id": "f7db01d9-4802-4628-b2f9-6ba70e5c4db6",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "260b",
+    "principal_page_bbox": [
+      280,
+      250,
+      2895,
+      4400
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          335,
+          300,
+          140,
+          160
+        ],
+        "kind_hint": "page_number",
+        "anchor": "260b",
+        "features": [
+          "top-left corner",
+          "the 'b' is a smaller superscript-like letter above and right of '260'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          355,
+          850,
+          2790,
+          200
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "c. 88(2). Vaiṣṇavāmṛta Sāroddhāra, from the Skanda, Padma, & Garuḍa purāṇas ... ff. 1-98. Saṁv. 1658 ... 1601:98:8/11: D.",
+        "features": [
+          "tick mark before shelfmark",
+          "two lines",
+          "second line indented: 'ff. 1-98. Saṁv. 1658'",
+          "extent/date data right-aligned below first line: '1601:98:8/11: D.'",
+          "reading 'Kārttikamāhātmya' at end of line 1 uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          465,
+          1510,
+          965,
+          150
+        ],
+        "kind_hint": "marginal_or_detached_note",
+        "anchor": "Dated San 1257, Śaka 1272 (for 1772).",
+        "features": [
+          "single line, set well below b002 with several blank ruled lines between",
+          "acute accent over 'S' of Śaka",
+          "'Dated' appears underlined or has a trailing stroke",
+          "a leftward arrow at the gutter on this line may link it to an entry on the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2745,
+          3820,
+          110,
+          85
+        ],
+        "kind_hint": "faint_pencil_mark",
+        "anchor": "9/.?",
+        "features": [
+          "very faint pencil",
+          "lower right of page",
+          "reading highly uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3040,
+          1570,
+          130,
+          30
+        ],
+        "description": "Small leftward-pointing arrow near the gutter at the level of b003. A matching arrow appears on the facing page just beyond the gutter."
+      },
+      {
+        "bbox": [
+          585,
+          4550,
+          12,
+          12
+        ],
+        "description": "Small ink dot near the bottom left of the page."
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2850,
+          3900
+        ],
+        "description": "Faint mirror-image show-through of writing from the reverse leaf across the ruled lines. It is not legible target text."
+      }
+    ],
+    "boundary_notes": [
+      "Gutter at about x=3170. Material to the right belongs to the facing page, fol. 261: ticks, 'd.', 'c.', 'e', arrows, 'see Āśauca...' and 'See under...'. It is excluded from the target blocks.",
+      "Line 1 of b002 extends nearly to the gutter, ending about x=3135.",
+      "b003 may be a note belonging to a holding on the facing page, via the arrows, rather than a continuation of b002. Its attachment is ambiguous."
+    ],
+    "uncertainties": [
+      "Exact reading of the subject words at the end of the b002 first line.",
+      "Reading of the extent/date figures '1601:98:8/11'.",
+      "Faint pencil b004 could be a numeral, a query mark, or stray marks.",
+      "Whether b003 attaches to b002 or to a facing-page entry."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "260b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "260b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner. The 'b' is written smaller, raised above and to the right of '260'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised letter could be read as 'b' or as a tick-like stroke. 'b' is the more likely reading."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "c. 88(2). Vaiṣṇavāmṛta Sāroddhāra, from the Skanda, Padma, & Garuḍa purāṇas, on the subject of Kārttikādimāhātmya[?].\nff. 1-98. Saṁv. 1658                    1601:98:8/11: D.",
+        "fields": {
+          "shelfmark": "c. 88(2)",
+          "title": "Vaiṣṇavāmṛta Sāroddhāra",
+          "source": "from the Skanda, Padma, & Garuḍa purāṇas",
+          "subject": "on the subject of Kārttikādimāhātmya[?]",
+          "date": "Saṁv. 1658; 1601",
+          "extent": "ff. 1-98; 98",
+          "lines": "8/11",
+          "script": "D."
+        },
+        "normalized_title": "Vaiṣṇavāmṛtasāroddhāra",
+        "annotations": [
+          "A tick mark is written before the shelfmark.",
+          "Line 2 is indented.",
+          "The figures '1601:98:8/11: D.' are right-aligned below the end of line 1.",
+          "The '&' is written as a ligature resembling 'v'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 521,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "arrow beside '√c. 343(7) Vaiṣṇavāmṛtastotra' near the gutter on fol. 261",
+            "evidence": "On the facing page, a leftward arrow at the level of the c.343(7) entry points toward this entry. The entry may be meant for insertion into the alphabetical sequence there.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The final word of line 1 is cramped: it reads 'Kārttikādimāhātmya', possibly with an '-e' ending.",
+          "The first figure of '1601' is cramped and could be misread."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "date_note",
+        "literal_text": "Dated San 1257, Śaka 1272 (for 1772).",
+        "fields": {
+          "date": "San 1257, Śaka 1272 (for 1772)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written several ruled lines below r002.",
+          "'Dated' has a trailing underline-like stroke.",
+          "An acute stroke stands above the 'S' of Śaka.",
+          "A small leftward arrow is drawn near the gutter on the same line. On fol. 261, another leftward arrow appears at the '√b. 99(3)' Vaiśvadevabali entry."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 521,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 99(3) Vaiśvadevabali",
+            "evidence": "The gutter arrows on this line and on the facing-page line of b. 99(3) correspond in height. That facing-page entry has no date on its main line.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 520,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "c. 88(2)",
+            "evidence": "This is the only other entry on the page, but it is separated by blank lines and is already dated Saṁv. 1658.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The attachment is ambiguous, though the arrows favour the facing-page entry b. 99(3).",
+          "The reading of 'for' in '(for 1772)' is probable."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "faint_pencil_mark",
+        "literal_text": "[9/.?]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A very faint pencil mark in the lower right of the page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading is highly uncertain. It may be a numeral with a query mark, or stray marks."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Single holding entry with two lines and right-aligned data."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Detached date note with ambiguous attachment, probably via arrows to fol. 261 b. 99(3)."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Faint pencil mark."
+      }
+    ],
+    "page_annotations": [
+      "Material beyond the gutter (about x=3170) belongs to fol. 261 and is excluded: ticks, letters, arrows, 'see Āśauca...' and 'See under...'.",
+      "A small ink dot appears near the lower left at about [585,4550]. It is not text.",
+      "Faint mirror-image show-through from the reverse leaf is visible and is not transcribed.",
+      "Apart from the recorded blocks, the page is otherwise blank on review of all tiles."
+    ],
+    "unresolved_relationships": [
+      "Whether r003 belongs to fol. 261 b. 99(3) or to r002.",
+      "Whether the fol. 261 arrow at c. 343(7) refers to r002."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Top-left page number '260' with a smaller raised letter, most likely 'b'. The candidate's uncertainty note is kept."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Two-line holding c. 88(2) with a tick before the shelfmark, an indented line 2 'ff. 1-98. Saṁv. 1658' and right-aligned '1601:98:8/11: D.'. The final word of line 1 reads as 'Kārttikādimāhātmya.' on the native tile but is cramped, so the [?] is kept. No overlap duplication was found between tiles 1 and 2."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Detached line 'Dated San 1257, Śaka 1272 (for 1772).' about five ruled lines below b002. A small leftward arrow on the target page, at about x 3044-3164 and y 1585 just left of the gutter, sits on this line. The facing page has '← √b. 99(3)' at the same height. The attachment remains ambiguous."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Very faint pencil at about [2754,3816,95,80] in native coordinates. It looks like '9/.' followed by '?'. The reading stays highly uncertain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 521,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 99(3) Vaiśvadevabali",
+            "evidence": "The gutter arrows on this line and on the facing-page line of b. 99(3) correspond in height. That facing-page entry has no date on its main line.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 520,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "c. 88(2)",
+            "evidence": "This is the only other entry on the page, but it is separated by blank lines and is already dated Saṁv. 1658.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 521,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 99(3) Vaiśvadevabali",
+            "evidence": "A leftward arrow on the target page next to the gutter on this line matches a leftward arrow before '√b. 99(3)' on fol. 261 at the same height. In the reduced adjacent image, the date position of that facing-page entry appears to hold a cancelled figure followed by ':1:8'. That figure is not legible enough to confirm or exclude a date.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 520,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "c. 88(2)",
+            "evidence": "This is the only other entry on the page, but it is separated by blank lines and is already dated Saṁv. 1658.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The candidate's statement that b. 99(3) has no date on its main line is not secure. The adjacent overview shows a possibly cancelled figure in the date column of that entry.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "It is unresolved whether the date note belongs to fol. 261 b. 99(3), as the arrows suggest, or to r002. The relation of '(for 1772)' to San 1257 and Śaka 1272 is not resolved here.",
+        "next_check": "Inspect fol. 261 at native resolution for the b. 99(3) date column and any cancellation."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "It is uncertain whether the fol. 261 arrow between d. 330(4) and c. 343(7) indicates where c. 88(2) should be inserted. The final word of line 1 and the first digit of '1601' remain uncertain.",
+        "next_check": "Check the native fol. 261 gutter region and recheck the end of line 1 at higher contrast."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The faint pencil reading is uncertain.",
+        "next_check": "Enhanced-contrast inspection."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x=3170. Arrows and text to its right belong to fol. 261 and are excluded: ticks, 'd.', 'c.', 'e', the arrow at the d.330/c.343 level, '← √', 'see Āśauca...' and 'See under...'. The small arrow at y≈1585, x≈3044-3164 lies on the target side and is described in r003. Cross-page attachments are left as possible or probable, not resolved.",
+    "region_review": {
+      "top": "The only text is the page number b001. There is a stray dot at about (1866,335), which is not text.",
+      "middle": "Contains b002 and b003. There are small stray marks at about (2514,1140) and (2844,1265), which look like show-through or blemishes rather than text. The rest shows ruled lines with mirror show-through only.",
+      "bottom": "Contains the faint pencil b004 at the lower right and an ink dot at about (585,4550). Otherwise blank.",
+      "left_margin": "Contains the tick before c. 88(2). No other writing.",
+      "right_margin": "Contains the target-side arrow at the b003 level. The rest is facing-page material, which is excluded.",
+      "interlinear": "No interlinear additions or cancellations were found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        335,
+        300,
+        140,
+        160
+      ],
+      "kind_hint": "page_number",
+      "anchor": "260b",
+      "features": [
+        "top-left corner",
+        "the 'b' is a smaller superscript-like letter above and right of '260'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        355,
+        850,
+        2790,
+        200
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "c. 88(2). Vaiṣṇavāmṛta Sāroddhāra, from the Skanda, Padma, & Garuḍa purāṇas ... ff. 1-98. Saṁv. 1658 ... 1601:98:8/11: D.",
+      "features": [
+        "tick mark before shelfmark",
+        "two lines",
+        "second line indented: 'ff. 1-98. Saṁv. 1658'",
+        "extent/date data right-aligned below first line: '1601:98:8/11: D.'",
+        "reading 'Kārttikamāhātmya' at end of line 1 uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        465,
+        1510,
+        965,
+        150
+      ],
+      "kind_hint": "marginal_or_detached_note",
+      "anchor": "Dated San 1257, Śaka 1272 (for 1772).",
+      "features": [
+        "single line, set well below b002 with several blank ruled lines between",
+        "acute accent over 'S' of Śaka",
+        "'Dated' appears underlined or has a trailing stroke",
+        "a leftward arrow at the gutter on this line may link it to an entry on the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2745,
+        3820,
+        110,
+        85
+      ],
+      "kind_hint": "faint_pencil_mark",
+      "anchor": "9/.?",
+      "features": [
+        "very faint pencil",
+        "lower right of page",
+        "reading highly uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "260b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner. The 'b' is written smaller, raised above and to the right of '260'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised letter could be read as 'b' or as a tick-like stroke. 'b' is the more likely reading."
+      ],
+      "stable_id": "css-prod-0520-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "c. 88(2). Vaiṣṇavāmṛta Sāroddhāra, from the Skanda, Padma, & Garuḍa purāṇas, on the subject of Kārttikādimāhātmya[?].\nff. 1-98. Saṁv. 1658                    1601:98:8/11: D.",
+      "fields": {
+        "shelfmark": "c. 88(2)",
+        "title": "Vaiṣṇavāmṛta Sāroddhāra",
+        "source": "from the Skanda, Padma, & Garuḍa purāṇas",
+        "subject": "on the subject of Kārttikādimāhātmya[?]",
+        "date": "Saṁv. 1658; 1601",
+        "extent": "ff. 1-98; 98",
+        "lines": "8/11",
+        "script": "D."
+      },
+      "normalized_title": "Vaiṣṇavāmṛtasāroddhāra",
+      "annotations": [
+        "A tick mark is written before the shelfmark.",
+        "Line 2 is indented.",
+        "The figures '1601:98:8/11: D.' are right-aligned below the end of line 1.",
+        "The '&' is written as a ligature resembling 'v'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 521,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "arrow beside '√c. 343(7) Vaiṣṇavāmṛtastotra' near the gutter on fol. 261",
+          "evidence": "On the facing page, a leftward arrow at the level of the c.343(7) entry points toward this entry. The entry may be meant for insertion into the alphabetical sequence there.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The final word of line 1 is cramped: it reads 'Kārttikādimāhātmya', possibly with an '-e' ending.",
+        "The first figure of '1601' is cramped and could be misread."
+      ],
+      "stable_id": "css-prod-0520-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "date_note",
+      "literal_text": "Dated San 1257, Śaka 1272 (for 1772).",
+      "fields": {
+        "date": "San 1257, Śaka 1272 (for 1772)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written several ruled lines below r002.",
+        "'Dated' has a trailing underline-like stroke.",
+        "An acute stroke stands above the 'S' of Śaka.",
+        "A small leftward arrow is drawn near the gutter on the same line. On fol. 261, another leftward arrow appears at the '√b. 99(3)' Vaiśvadevabali entry."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 521,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 99(3) Vaiśvadevabali",
+          "evidence": "The gutter arrows on this line and on the facing-page line of b. 99(3) correspond in height. That facing-page entry has no date on its main line.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 520,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "c. 88(2)",
+          "evidence": "This is the only other entry on the page, but it is separated by blank lines and is already dated Saṁv. 1658.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The attachment is ambiguous, though the arrows favour the facing-page entry b. 99(3).",
+        "The reading of 'for' in '(for 1772)' is probable."
+      ],
+      "stable_id": "css-prod-0520-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "faint_pencil_mark",
+      "literal_text": "[9/.?]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A very faint pencil mark in the lower right of the page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading is highly uncertain. It may be a numeral with a query mark, or stray marks."
+      ],
+      "stable_id": "css-prod-0520-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 521,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 99(3) Vaiśvadevabali",
+          "evidence": "The gutter arrows on this line and on the facing-page line of b. 99(3) correspond in height. That facing-page entry has no date on its main line.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 520,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "c. 88(2)",
+          "evidence": "This is the only other entry on the page, but it is separated by blank lines and is already dated Saṁv. 1658.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 521,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 99(3) Vaiśvadevabali",
+          "evidence": "A leftward arrow on the target page next to the gutter on this line matches a leftward arrow before '√b. 99(3)' on fol. 261 at the same height. In the reduced adjacent image, the date position of that facing-page entry appears to hold a cancelled figure followed by ':1:8'. That figure is not legible enough to confirm or exclude a date.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 520,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "c. 88(2)",
+          "evidence": "This is the only other entry on the page, but it is separated by blank lines and is already dated Saṁv. 1658.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The candidate's statement that b. 99(3) has no date on its main line is not secure. The adjacent overview shows a possibly cancelled figure in the date column of that entry.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f7db01d9-4802-4628-b2f9-6ba70e5c4db6.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7db01d9-4802-4628-b2f9-6ba70e5c4db6/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "107eec73e05dbbec4f6fe462162d136001d387bcfde9cd1d84de0e75bf57b461",
+      "bytes": 236197,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7db01d9-4802-4628-b2f9-6ba70e5c4db6/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0f3e28a6079f5765c5527e848698b574506bcea4a0441ffb1263a6c0f12bf32a",
+      "bytes": 313506,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7db01d9-4802-4628-b2f9-6ba70e5c4db6/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f4e898f177d9d5dec24e8ed8175ae97717d935cf13de731a9b79a59bbf0222ba",
+      "bytes": 296294,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7db01d9-4802-4628-b2f9-6ba70e5c4db6/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "458b1a67bb050fdbda6332523452a3259d3b0ce4e9694ba08f9cb2944f8a6a32",
+      "bytes": 278069,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7db01d9-4802-4628-b2f9-6ba70e5c4db6/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8f76a68715b816825ccd0c807df307d8d3747f5c1db5f5d59ecc1c859bf73985",
+      "bytes": 256219,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7db01d9-4802-4628-b2f9-6ba70e5c4db6/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e235c6f03eef4b4c7d164223c3c34342fe8a6f91d27cc401f26dca3f9474156b",
+      "bytes": 275557,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f7db01d9-4802-4628-b2f9-6ba70e5c4db6/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "533c2386f8c17a6c17f39442bdeda80f272aaf370351c89e753b6c379319e5bc",
+      "bytes": 286560,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/540e20d3-086d-4e26-8965-0ff489f4591c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0a290e8a7d2506fc888d3d31d44d9ca25c56e454915c3b8b4de9c62264529440",
+      "bytes": 233455,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 519,
+      "folio_label": "fol. 260",
+      "page_id": "540e20d3-086d-4e26-8965-0ff489f4591c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ec50d8f3-9f4a-416d-bb3a-ba6827103320/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5834e5c88733b212b495e2a63638edb70f5e3b372b5083248e2a8fdc1a955f97",
+      "bytes": 256635,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 521,
+      "folio_label": "fol. 261",
+      "page_id": "ec50d8f3-9f4a-416d-bb3a-ba6827103320",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "source_order": 368,
+  "folio_label": "fol. 184b",
+  "page_id": "b06e64f4-a80d-4a10-91f1-a557475e15e9",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "184b",
+    "principal_page_bbox": [
+      300,
+      270,
+      2880,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          320,
+          150,
+          115
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "184b",
+        "features": [
+          "top left corner",
+          "dark ink/pencil numeral 184 with superscript 'b' and a dot beneath"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          460,
+          1520,
+          2690,
+          150
+        ],
+        "kind_hint": "unattached_note",
+        "anchor": "ff.1-68(62 bis) + ff.54-105 (54-68 of first part duplicated in 54-65 of second part), in 23 adhy. I.O. 3441.",
+        "features": [
+          "single ink line written across the page at about mid-height",
+          "no title or shelfmark on this line",
+          "the '4' in '54-65' seems to be overwritten or retouched",
+          "hurried cursive with abbreviations: 'adhy.', 'I.O.'",
+          "no parent heading on this page; it may be an addition attached to an entry on a facing page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2070,
+          3700,
+          40,
+          90
+        ],
+        "description": "short faint grey pencil-like diagonal stroke in lower middle area; no legible text"
+      },
+      {
+        "bbox": [
+          3180,
+          500,
+          330,
+          4300
+        ],
+        "description": "strip of the facing page (fol. 185) beyond the gutter, with ticks and shelfmark beginnings ('√d.3', 'd.6', '√c.', '√d.', 'e', '√c', 'd', '√c', '√c', 'd', 'd', 'g.'). These belong to the adjacent page and are not target records."
+      },
+      {
+        "bbox": [
+          330,
+          550,
+          2800,
+          4100
+        ],
+        "description": "reversed show-through of the fol. 184 recto entries across the whole ruled page. This is not target-page writing."
+      }
+    ],
+    "boundary_notes": [
+      "The right edge beyond the gutter (x > ~3180) shows the facing page fol. 185. It was excluded.",
+      "The faint mirrored text across the page is bleed-through from the recto and was not inventoried as target text.",
+      "The ending of b002 ('...adhy. I.O. 3441.') is visible at the left edge of the fol. 185 overview. This confirms it is the same verso line seen across the opening, not a separate record on fol. 185.",
+      "b002 is probably an addendum to an entry on fol. 185, perhaps the Mallārimāhātmya entry citing I.O. 3441. This attachment is not explicit on the target page and is not asserted."
+    ],
+    "uncertainties": [
+      "The reading of '62 bis' is uncertain, as is the exact form of the '+' connector, which may be '&'.",
+      "The '4' in '54-65' appears overwritten; it is unclear whether it replaced another digit.",
+      "The 'b' of the folio label is read from a small superscript."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "184b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "184b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top left corner. The 'b' is a small superscript. There is a dot beneath it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript 'b' is small. It is read as 'b' and agrees with the supplied folio label fol. 184b."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "collation_note",
+        "literal_text": "ff.1-68(62 bis) [&?] ff.54-105 (54-68 of first part duplicated in 54-65 of second part), in 23 adhy. I.O. 3441.",
+        "fields": {
+          "extent": "ff.1-68(62 bis) [&?] ff.54-105 (54-68 of first part duplicated in 54-65 of second part), in 23 adhy."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A single ink line in hurried cursive, written across the page at mid-height (about y 1520-1670).",
+          "The '4' of '54-65' appears to be written over another stroke or retouched.",
+          "There is no title, shelfmark or heading on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 369,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mallārimāhātmya ... d.326(1) ... I.O. 3441 (23 adhy.)",
+            "evidence": "On the facing fol. 185, the Mallārimāhātmya entry has an interlinear note citing I.O. 3441 and 23 adhy. The ending of this verso line is visible at the left edge of the fol. 185 image. The target page itself gives no explicit attachment mark.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The connector after '(62 bis)' is a small mark. It may be '&' or '+'.",
+          "'bis' is read with moderate confidence.",
+          "The digit under the overwritten '4' in '54-65' is undetermined.",
+          "'second part' is written cursively ('secon[d] [p]art'). The reading is probable."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number at the top left."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "The only text line on the page. It is a collation note with no explicit attachment on this page."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the ruled page carries only reversed show-through of the fol. 184 recto entries. This is not target writing.",
+      "A faint grey pencil-like diagonal stroke near (2070,3700) carries no legible text.",
+      "The strip beyond the gutter (x > ~3180) belongs to fol. 185, with ticks and shelfmark beginnings. It was excluded."
+    ],
+    "unresolved_relationships": [
+      "Attachment of r002 to the fol. 185 Mallārimāhātmya entry (I.O. 3441) is plausible but not explicit."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '184' with a small superscript 'b' and a dot is at the top left (native about 370-510, 320-430). The candidate's literal '184b.' with its annotation and uncertainty matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "One ink line runs across mid-page (native y about 1530-1660, x about 465-3140). The candidate's reading matches the source. The connector after '(62 bis)' is a small looped mark, correctly left uncertain as '[&?]'. The '4' of '54-65' shows overwriting, which is recorded. The ending '...adhy. I.O. 3441.' agrees with the fragment at the left edge of the fol. 185 overview. Nothing from the overlapping tiles is duplicated."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The attachment to the fol. 185 Mallārimāhātmya entry (d.326(1)), whose interlinear note cites I.O. 3441 and 23 adhy., is plausible but has no mark on the target page.",
+        "next_check": "Compare with the native image of fol. 185 for an insertion sign or a matching reference."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings stay uncertain: the connector ('&' or '+'), 'bis', the digit beneath the overwritten '4' in '54-65', and the letter forms of 'I.O.' (which could also be read '1.0.').",
+        "next_check": "Inspect the native pixels at higher magnification."
+      }
+    ],
+    "boundary_review": "Content beyond the gutter (x > about 3180) belongs to fol. 185. It holds ticks and shelfmark beginnings ('√d.3', 'd.6', '√c.', '√d.', 'e', '√c', 'd', '√c', '√c', 'd', 'd', 'g.') and is correctly excluded. The ending of b002 visible on the fol. 185 overview is the same verso line, not a separate record. The faint mirrored text across the page is show-through from the fol. 184 recto and is not target writing.",
+    "region_review": {
+      "top": "Only the folio number b001 is target writing. The rest is reversed show-through.",
+      "middle": "The single line b002. Everything else is show-through.",
+      "bottom": "No target text. A faint grey diagonal pencil-like stroke near native (2080, 3710) carries no legible text and is noted in the page annotations. A few specks are visible.",
+      "left_margin": "No writing. Only small dots and specks.",
+      "right_margin": "The gutter, then the facing-page strip of fol. 185, which is excluded.",
+      "interlinear": "No interlinear additions on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        320,
+        150,
+        115
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "184b",
+      "features": [
+        "top left corner",
+        "dark ink/pencil numeral 184 with superscript 'b' and a dot beneath"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        460,
+        1520,
+        2690,
+        150
+      ],
+      "kind_hint": "unattached_note",
+      "anchor": "ff.1-68(62 bis) + ff.54-105 (54-68 of first part duplicated in 54-65 of second part), in 23 adhy. I.O. 3441.",
+      "features": [
+        "single ink line written across the page at about mid-height",
+        "no title or shelfmark on this line",
+        "the '4' in '54-65' seems to be overwritten or retouched",
+        "hurried cursive with abbreviations: 'adhy.', 'I.O.'",
+        "no parent heading on this page; it may be an addition attached to an entry on a facing page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "184b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top left corner. The 'b' is a small superscript. There is a dot beneath it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript 'b' is small. It is read as 'b' and agrees with the supplied folio label fol. 184b."
+      ],
+      "stable_id": "css-prod-0368-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "collation_note",
+      "literal_text": "ff.1-68(62 bis) [&?] ff.54-105 (54-68 of first part duplicated in 54-65 of second part), in 23 adhy. I.O. 3441.",
+      "fields": {
+        "extent": "ff.1-68(62 bis) [&?] ff.54-105 (54-68 of first part duplicated in 54-65 of second part), in 23 adhy."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A single ink line in hurried cursive, written across the page at mid-height (about y 1520-1670).",
+        "The '4' of '54-65' appears to be written over another stroke or retouched.",
+        "There is no title, shelfmark or heading on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 369,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mallārimāhātmya ... d.326(1) ... I.O. 3441 (23 adhy.)",
+          "evidence": "On the facing fol. 185, the Mallārimāhātmya entry has an interlinear note citing I.O. 3441 and 23 adhy. The ending of this verso line is visible at the left edge of the fol. 185 image. The target page itself gives no explicit attachment mark.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The connector after '(62 bis)' is a small mark. It may be '&' or '+'.",
+        "'bis' is read with moderate confidence.",
+        "The digit under the overwritten '4' in '54-65' is undetermined.",
+        "'second part' is written cursively ('secon[d] [p]art'). The reading is probable."
+      ],
+      "stable_id": "css-prod-0368-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b06e64f4-a80d-4a10-91f1-a557475e15e9.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b06e64f4-a80d-4a10-91f1-a557475e15e9/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "cc77fb66eeafa1e23eaa76b9fec8661983fafc9b71decf7b55b27761a1e95673",
+      "bytes": 242626,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b06e64f4-a80d-4a10-91f1-a557475e15e9/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3fb4061cb1692c5b293b3afb04c548f5ed80f4f00eb2c7ae792a03d67ba68ffd",
+      "bytes": 326266,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b06e64f4-a80d-4a10-91f1-a557475e15e9/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5c876bd24a60e10baf35a2731864bed75e4a0cc4b89aaf88e2af2c331dda0493",
+      "bytes": 325582,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b06e64f4-a80d-4a10-91f1-a557475e15e9/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "de4c23f757d2e3c829a8e7df1ea668814281978e832198b356333b77d0cdab29",
+      "bytes": 305548,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b06e64f4-a80d-4a10-91f1-a557475e15e9/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c09374c050334901aed08d4ac6901a1369a4f5e1eed54e4f3fc7a2971317e32e",
+      "bytes": 284274,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b06e64f4-a80d-4a10-91f1-a557475e15e9/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "085b1baadf6291daecfcd26e9a7c4ba48f16cc5517ce3a87a9652cdaeea7866e",
+      "bytes": 307835,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b06e64f4-a80d-4a10-91f1-a557475e15e9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8ca1238ca0138809267aaaa3c3f94e54dde20dc16f19cf78a165939150bff9a7",
+      "bytes": 311272,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7177ab82-8518-432b-b620-85f8957d7d70/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "9aebfcc1b2eb546ca4dc5ae770dac21d3de36721e28f9c5ecfb7dceed0974e41",
+      "bytes": 277650,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 367,
+      "folio_label": "fol. 184",
+      "page_id": "7177ab82-8518-432b-b620-85f8957d7d70",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c0e8814-2b22-43e8-8db4-ad0d35de33a2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7a44e627ff5ed2964d0e274229d7901052b5d1c64181f45667ba13e8422e19f3",
+      "bytes": 259592,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 369,
+      "folio_label": "fol. 185",
+      "page_id": "2c0e8814-2b22-43e8-8db4-ad0d35de33a2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

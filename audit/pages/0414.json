@@ -1,0 +1,786 @@
+{
+  "source_order": 414,
+  "folio_label": "fol. 207b",
+  "page_id": "24374b4f-5e91-40f2-b8de-90e0401b6c62",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "207b",
+    "principal_page_bbox": [
+      300,
+      270,
+      2900,
+      4570
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          315,
+          150,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "207b",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          1685,
+          1150,
+          1150,
+          120
+        ],
+        "kind_hint": "unattached_note",
+        "anchor": "?by Kṛṣṇānanda: not traceable in Oxf. 149.",
+        "features": [
+          "ink",
+          "single line",
+          "mid-upper page",
+          "leading query mark",
+          "no adjacent entry on this page; probably relates to an entry on a facing page, but the attachment is unverified"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2785,
+          3550,
+          275,
+          100
+        ],
+        "kind_hint": "marginal_query_note",
+        "anchor": "ā? o ?",
+        "features": [
+          "faint pencil",
+          "lower right area of page",
+          "query marks",
+          "attachment unclear"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          3040,
+          3800,
+          210,
+          140
+        ],
+        "kind_hint": "marginal_query_note",
+        "anchor": "ā/? ?",
+        "features": [
+          "faint pencil",
+          "near gutter",
+          "slash between ā and ?",
+          "second ? lies at or just across the gutter line"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2910,
+          1625,
+          65,
+          180
+        ],
+        "description": "Pencil tick or check-like stroke, possibly a √ followed by a slash, in the right part of the page below the ink note. It carries no legible wording."
+      },
+      {
+        "bbox": [
+          620,
+          4330,
+          120,
+          130
+        ],
+        "description": "Circular grey stain or blot in the lower left area."
+      },
+      {
+        "bbox": [
+          1235,
+          3960,
+          25,
+          25
+        ],
+        "description": "Small dark dot of the kind that occurs in the paper or in the ink."
+      }
+    ],
+    "boundary_notes": [
+      "The right strip beyond the gutter (x approx. 3210 and above) belongs to a facing page, apparently fol. 208. Its partial shelfmarks 'd.', 'd.', 'd.', 'e.', 'e' and the note 'cat.s. Pūrvaṇ…' are not target-page records.",
+      "Faint reversed writing visible throughout the page is show-through from fol. 207 recto. It is not transcribed as target text.",
+      "The second '?' of b004 lies at the gutter and may sit on the stub or the facing edge. In the fol. 208 overview, the same 'ā/? ?' appears on the left strip, which confirms that it is on this leaf."
+    ],
+    "uncertainties": [
+      "The exact reading of the vowel signs and letters in b003 and b004 is uncertain ('ā', 'o').",
+      "The reading 'Kṛṣṇānanda' and the abbreviation 'Oxf. 149' in b002 come from cursive script and are approximate.",
+      "The parent entry of b002, b003 and b004 cannot be determined from this page."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "207b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "207b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left corner. The 'b' is written superscript and is followed by a point."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "bibliographic_query_note",
+        "literal_text": "?by Kṛṣṇānanda: not traceable in Oxf. 149.",
+        "fields": {
+          "author": "Kṛṣṇānanda"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, one line in the mid-upper part of the page, written on a ruled line.",
+          "Leading query mark.",
+          "No catalogue entry stands next to it on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The cursive reading of 'Kṛṣṇānanda' is approximate, including the diacritics.",
+          "The reading 'Oxf. 149' is approximate: 'Oxf.' could be another abbreviation. It is not expanded.",
+          "The parent entry cannot be established. The author value is the name stated in the note itself and is queried by the note's own '?'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_query_note",
+        "literal_text": "ā?  o ?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, lower right of the page, near the gutter.",
+          "Spaced query marks follow each letter.",
+          "The 'o' has a small mark above it, possibly a circumflex-like stroke."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 415,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Yantracintāmaṇi incipit lines (d. 378(2)), 'Varṇāśramāśca …'",
+            "evidence": "On the fol. 208 overview, the left strip shows this note roughly level with the Yantracintāmaṇi incipit. A vowel query fits an incipit reading, but the alignment across leaves of different scale is unverified.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading of the letters is uncertain: 'ā' and 'o' (the 'o' may carry a diacritic).",
+          "The attachment is unclear."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_query_note",
+        "literal_text": "ā/?   ?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil near the gutter.",
+          "A slash stands between 'ā' and '?'.",
+          "The second '?' lies at or just across the gutter line. It is confirmed on this leaf by the fol. 208 overview's left strip."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 415,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 702(1) incipit 'Begins:- Yam dhyāyanty asurāsurāśca …'",
+            "evidence": "In the fol. 208 overview, this note appears roughly level with the incipit line of d. 702(1). The alignment is visual only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The letter reading 'ā' is uncertain.",
+          "The function of the slash is unclear.",
+          "The attachment is unverified."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Independent ink query note. No adjacent entry on this page; parent entry unresolved."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Faint pencil query note. Possible attachment to fol. 208 is uncertain."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Faint pencil query note at the gutter. Possible attachment to fol. 208 is uncertain."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper; this was reviewed in all tiles. It carries no holdings, headings or cross-references.",
+      "Pencil tick or check-like stroke (possibly √ with a slash) at approx. [2910,1625,65,180], below the ink note. It has no wording and its attachment is unknown.",
+      "A circular grey stain sits at approx. [620,4330,120,130] and a small dark dot at approx. [1235,3960,25,25]. Neither is text.",
+      "Faint reversed writing throughout is show-through from fol. 207 recto and is not transcribed.",
+      "The strip right of the gutter (x > ~3210) belongs to the facing fol. 208. Its partial shelfmarks 'd.', 'd.', 'd.', 'e.', 'e' and the note 'cat.s. Pūrvaṇ…' are not recorded as target records."
+    ],
+    "unresolved_relationships": [
+      "b002 '?by Kṛṣṇānanda: not traceable in Oxf. 149.': the entry this note refers to (on fol. 207 recto or fol. 208) cannot be determined.",
+      "b003 and b004 pencil vowel queries: probably relate to incipit readings on fol. 208, but this is unverified."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil folio label '207' with a superscript 'b' and a following point is in the top-left corner at about [365,315,150,110], as the native tile shows. The record's literal text and its annotation about the superscript and point match the source."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The one-line ink note sits at about [1690,1170,1140,100] and reads approximately '?by Kṛṣṇānanda: not traceable in Oxf. 149.' The leading query mark and the final point are visible. The cursive name, its diacritics and the abbreviation 'Oxf.' are rightly kept as approximate. No entry on this page sits next to it."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The faint pencil note sits at about [2789,3556,265,85]. It reads 'ā' (with a macron above), a query mark, then 'o' with a small circumflex-like stroke above, then a query mark. The record's literal text, its annotation of the circumflex-like stroke and its uncertain attachment all fit the source."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The faint pencil note sits at about [3044,3806,200,125]. It reads 'ā' with a macron, a long slash, a query mark, a gap, and then a second '?' at about x 3224. That second mark lies just right of the gutter fold (about x 3200). The fol. 208 overview's left strip shows the same group, which supports placing it on this leaf. The record is consistent with the source."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The parent entry is undetermined. Nothing on fol. 208 sits at the note's height that clearly involves Kṛṣṇānanda. Fol. 207 recto has a 'Kṛṣṇa Bhaṭṭa …' interlinear note in the Yajurvedikahautra entry, but no connection is evidenced. The fields.author value is a cursive, approximate reading that the note itself queries.",
+        "next_check": "Compare with higher-resolution images of fol. 207 recto and fol. 208, and with the printed catalogue, to find an entry attributed to Kṛṣṇānanda."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The possible attachment rests on visual alignment across differently framed images. In the fol. 208 overview, 'c ?' on the left strip sits level with the 'Varṇāśramāśca dharmaśca arthakāma …' line, which itself carries a query mark and a wavy mark. Scale and framing differ (3419x4089 vs 3508x5120).",
+        "next_check": "Check the alignment against native-resolution fol. 208 tiles that show the left strip."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The possible attachment is to the d. 702(1) 'Begins:- Yam dhyāyanty …' line, which has a wavy underline. This is based on visual alignment only. The function of the slash is unknown.",
+        "next_check": "Check native-resolution fol. 208 tiles."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "The candidate's list of facing-page fragments ('d.', 'd.', 'd.', 'e.', 'e') leaves some out. Further partial letter fragments appear at about y 2900 and y 3020 near the right edge, above 'cat.s. Pūrvaṇ…'. All of these belong to fol. 208 and are not target records.",
+        "next_check": "No action is needed for this target page. Use the fol. 208 page record for these readings."
+      }
+    ],
+    "boundary_review": "The gutter fold lies at about x 3200. The strip to its right, from about x 3300, holds the facing fol. 208 shelfmark fragments ('d.' ×3, 'e.', 'e', further partial fragments) and 'cat.s. Pūrvaṇ…'. These are correctly excluded. The second '?' of b004 sits just right of the fold. The fol. 208 overview shows it with the 'ā/?' group on the left strip, so it is treated as on this leaf, though this placement is not fully certain. Reversed show-through from fol. 207 recto appears across the page and is not target text.",
+    "region_review": {
+      "top": "Only the pencil folio label '207b.' is present, with paper specks. Show-through is faint and reversed.",
+      "middle": "The ink note b002 is present. A pencil tick-like stroke (possibly √ with a slash) sits at about [2910,1625,65,180] and has no wording; the candidate records it in page_annotations. Scattered small dots are paper specks. There is no catalogue entry.",
+      "bottom": "There is no text. A circular grey stain sits at about [620,4330,120,130] and a dark dot at about [1235,3960,25,25]. The lower writing area is otherwise blank apart from show-through.",
+      "left_margin": "Blank apart from the paper edge and show-through.",
+      "right_margin": "The pencil queries b003 and b004 are near the gutter. Beyond the fold lie the facing fol. 208 fragments, which are excluded.",
+      "interlinear": "No interlinear additions were found on this page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        315,
+        150,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "207b",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        1685,
+        1150,
+        1150,
+        120
+      ],
+      "kind_hint": "unattached_note",
+      "anchor": "?by Kṛṣṇānanda: not traceable in Oxf. 149.",
+      "features": [
+        "ink",
+        "single line",
+        "mid-upper page",
+        "leading query mark",
+        "no adjacent entry on this page; probably relates to an entry on a facing page, but the attachment is unverified"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2785,
+        3550,
+        275,
+        100
+      ],
+      "kind_hint": "marginal_query_note",
+      "anchor": "ā? o ?",
+      "features": [
+        "faint pencil",
+        "lower right area of page",
+        "query marks",
+        "attachment unclear"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        3040,
+        3800,
+        210,
+        140
+      ],
+      "kind_hint": "marginal_query_note",
+      "anchor": "ā/? ?",
+      "features": [
+        "faint pencil",
+        "near gutter",
+        "slash between ā and ?",
+        "second ? lies at or just across the gutter line"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "207b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left corner. The 'b' is written superscript and is followed by a point."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0414-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "bibliographic_query_note",
+      "literal_text": "?by Kṛṣṇānanda: not traceable in Oxf. 149.",
+      "fields": {
+        "author": "Kṛṣṇānanda"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, one line in the mid-upper part of the page, written on a ruled line.",
+        "Leading query mark.",
+        "No catalogue entry stands next to it on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The cursive reading of 'Kṛṣṇānanda' is approximate, including the diacritics.",
+        "The reading 'Oxf. 149' is approximate: 'Oxf.' could be another abbreviation. It is not expanded.",
+        "The parent entry cannot be established. The author value is the name stated in the note itself and is queried by the note's own '?'."
+      ],
+      "stable_id": "css-prod-0414-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_query_note",
+      "literal_text": "ā?  o ?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, lower right of the page, near the gutter.",
+        "Spaced query marks follow each letter.",
+        "The 'o' has a small mark above it, possibly a circumflex-like stroke."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 415,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Yantracintāmaṇi incipit lines (d. 378(2)), 'Varṇāśramāśca …'",
+          "evidence": "On the fol. 208 overview, the left strip shows this note roughly level with the Yantracintāmaṇi incipit. A vowel query fits an incipit reading, but the alignment across leaves of different scale is unverified.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading of the letters is uncertain: 'ā' and 'o' (the 'o' may carry a diacritic).",
+        "The attachment is unclear."
+      ],
+      "stable_id": "css-prod-0414-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_query_note",
+      "literal_text": "ā/?   ?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil near the gutter.",
+        "A slash stands between 'ā' and '?'.",
+        "The second '?' lies at or just across the gutter line. It is confirmed on this leaf by the fol. 208 overview's left strip."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 415,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 702(1) incipit 'Begins:- Yam dhyāyanty asurāsurāśca …'",
+          "evidence": "In the fol. 208 overview, this note appears roughly level with the incipit line of d. 702(1). The alignment is visual only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The letter reading 'ā' is uncertain.",
+        "The function of the slash is unclear.",
+        "The attachment is unverified."
+      ],
+      "stable_id": "css-prod-0414-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/24374b4f-5e91-40f2-b8de-90e0401b6c62.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/24374b4f-5e91-40f2-b8de-90e0401b6c62/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b34f2cae888e6c64f1d22647f3848c8688171868f0e98bae0e799bb5c6497e86",
+      "bytes": 236446,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/24374b4f-5e91-40f2-b8de-90e0401b6c62/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b8196b4217e9a7cf72ddbd719026c8898ff1af3af532b4257d0a8459d20ee2f0",
+      "bytes": 293529,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/24374b4f-5e91-40f2-b8de-90e0401b6c62/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c8c17c0d5283601521ee5cb6b72e142ea9df999db412772331103a124d9c3cde",
+      "bytes": 305392,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/24374b4f-5e91-40f2-b8de-90e0401b6c62/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0ada17d6ed0ab4cff423909da08e596f94216cc077e4e6456c8c266d03acae77",
+      "bytes": 281999,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/24374b4f-5e91-40f2-b8de-90e0401b6c62/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6f1b068074d2a85f815082e55622ba86c819d2a2113d6c2268b583d4f4c7c975",
+      "bytes": 276379,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/24374b4f-5e91-40f2-b8de-90e0401b6c62/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a650b0102260fc25e11ecccdf496558340bb448d059ec3fa50c0212d60007afb",
+      "bytes": 281235,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/24374b4f-5e91-40f2-b8de-90e0401b6c62/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e87c9055d9ca7671d633c7ed4667ef0b2ce7d77db3e404913118d7ded09ddd8d",
+      "bytes": 293491,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dcd86037-07c6-46fe-80b4-8801cf3bfca6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "9c880c9731c2851dc0127bb0308d5eb006ed0c149dbdb97cdb4ffa1b833103ac",
+      "bytes": 289443,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 413,
+      "folio_label": "fol. 207",
+      "page_id": "dcd86037-07c6-46fe-80b4-8801cf3bfca6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7ff80d11-0c8f-4451-b85d-8bd9af05436c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1254,
+        1500
+      ],
+      "sha256": "2495e46f6417ebe6b41d301a1863a705396e0c1b5fb8610c03c00fcfc5f610c4",
+      "bytes": 279981,
+      "visual_tokens": 2430,
+      "role": "adjacent_context_only",
+      "source_order": 415,
+      "folio_label": "fol. 208",
+      "page_id": "7ff80d11-0c8f-4451-b85d-8bd9af05436c",
+      "native_dimensions": [
+        3419,
+        4089
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1062 @@
+{
+  "source_order": 638,
+  "folio_label": "fol. 319b",
+  "page_id": "6ea22174-db9f-4be9-939c-c8661d8ad967",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "319b",
+    "principal_page_bbox": [
+      325,
+      295,
+      2815,
+      4545
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          480,
+          410,
+          170,
+          135
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "319b",
+        "features": [
+          "top-left corner of page",
+          "superscript 'b' added above and after '319', apparently in a different stroke",
+          "faint smudge or erased marks just above and left of the number"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          385,
+          3530,
+          2120,
+          100
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "√d. 134(12) Svasti[puṇyāha]vācana. ff.1-7. Cat. calls it Pañcāṅgapaddhati. n.d.: 7:10/12:D",
+        "features": [
+          "ink",
+          "single line",
+          "tick mark before shelfmark",
+          "shelfmark is written in the left column, and the text runs across the vertical ruled margin line",
+          "extent 'ff.1-7'",
+          "terminal date/size/script group 'n.d.: 7:10/12:D'",
+          "title reading partly uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          380,
+          4390,
+          2240,
+          115
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "Three ff. from larger MS. with end of Uttaratantra, Jayadurgā[?]prastāva, pat. 34, and Ghaṭasthāpana",
+        "features": [
+          "pencil, fainter than b002",
+          "single line",
+          "no shelfmark on the target page",
+          "pencil arrow at the gutter (x≈2980–3250) points left toward this note from the facing page, apparently linking it to the facing entry 'c. 386(4)' on fol. 320"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2975,
+          4325,
+          275,
+          55
+        ],
+        "description": "Pencil arrow pointing left that straddles the gutter at the level of b003. It is likely drawn from the fol. 320 margin; the attachment is inferred, not certain."
+      },
+      {
+        "bbox": [
+          3085,
+          3575,
+          100,
+          40
+        ],
+        "description": "Double-headed arrow '⟷' at the gutter near the level of b002. It appears to belong to the fol. 320 left margin, beside 'd. 642(4)'."
+      }
+    ],
+    "boundary_notes": [
+      "The right strip beyond the gutter (x≳3140) shows the left margin of the facing page, fol. 320. It contains shelfmarks such as d. 568(, d. 2[3]2(, 'see s. Siddhānt[a]...', √d. 73, f. 60a, d. 558(, √c. 224(, d. 799(, e. 149(, d. 799(, d. 952, √c.⟦d⟧. 159(, d. 944(, c. 620(, d. 642(, '1 syll. missing ...', d. 824(, d. 692(, e. 5(1), √c. 386(, √d. 74(, and a bracketing curve. These are not target-page records.",
+      "Ruled column line at x≈840; text in b002 and b003 crosses it."
+    ],
+    "uncertainties": [
+      "Exact reading of the title in b002: possibly 'Svastipuṇyāhavācana'.",
+      "Reading of 'Jayadurgā[?]prastāva' and 'pat. 34' in b003.",
+      "Whether the gutter arrows belong to the target page or the facing page."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "319b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "319^b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner of the page.",
+          "The superscript 'b' sits above and after '319' and appears to be a separate stroke.",
+          "Faint smudged or erased marks lie just above and to the left of the number. They are not legible."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The erased marks above the number cannot be read."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "√d. 134(12) Svasti'puṇyāha vācana. ff.1-7. Cat. calls it Pañcāṅgapaddhati. n.d.: 7: 10/12: D",
+        "fields": {
+          "shelfmark": "d. 134(12)",
+          "title": "Svasti'puṇyāha vācana",
+          "source": "Cat. calls it Pañcāṅgapaddhati",
+          "date": "n.d.",
+          "extent": "ff.1-7",
+          "lines": "10/12",
+          "script": "D"
+        },
+        "normalized_title": "Svastipuṇyāhavācana",
+        "annotations": [
+          "A tick mark precedes the shelfmark.",
+          "Ink, single line.",
+          "The shelfmark is in the left column. The text runs across the vertical ruled column line at about x≈840.",
+          "The entry is isolated on an otherwise blank page.",
+          "A double-headed arrow at the gutter at the same level (b901) may connect this entry with the facing-page entry d. 642(4) Svastivācana on fol. 320."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 639,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 642(4) Svastivācana",
+            "evidence": "A double-headed arrow at the gutter at the level of this line points between this entry and the fol. 320 entry d. 642(4). The titles are similar.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The title is written as if broken: 'Svasti' is followed by a raised mark, then 'puṇyāha vācana'. The exact spelling and word division are uncertain.",
+          "In the terminal group 'n.d.: 7: 10/12: D', the field meanings are inferred from the catalogue's format. '7' may be the folio count, '10/12' the lines and 'D' the script abbreviation. The assignment of '10/12' to lines is probable, not certain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_note",
+        "literal_text": "Three ff. from larger MS. with end of Uttaratantra, Jayadurgā[?]prastāva, pat[?]. 34, and Ghaṭasthāpana",
+        "fields": {
+          "extent": "Three ff."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, fainter than b002. Single line near the foot of the page.",
+          "No shelfmark is present on the target page.",
+          "A pencil arrow at the gutter at this level (b902) points left toward this note. It appears to be drawn from the left margin of fol. 320, near the entry √c. 386(4) Svastyayanavidhi."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 639,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 386(4) Svastyayanavidhi",
+            "evidence": "A left-pointing pencil arrow at the same height starts in the fol. 320 margin below c. 386(4) and points to this note.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "Reading 'Jayadurgā[?]prastāva' is uncertain.",
+          "'pat. 34' may carry a diacritic dot (possibly 'paṭ.'). The reading is uncertain.",
+          "The listed works are recorded as written and not separated into holdings, because no shelfmark is given on this page."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow_mark",
+        "literal_text": "⟷",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Double-headed arrow at the gutter at the level of b002.",
+          "It appears to sit in or near the fol. 320 left margin beside d. 642(4)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 639,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 642(4)",
+            "evidence": "Position beside the facing-page shelfmark.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear whether the mark belongs to the target page or to fol. 320."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow_mark",
+        "literal_text": "←",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil arrow pointing left, straddling the gutter at the level of b003."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 639,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 386(4)",
+            "evidence": "The arrow tail lies in the fol. 320 margin below c. 386(4).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The attachment is inferred from position."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3085,
+          3575,
+          100,
+          40
+        ],
+        "kind_hint": "arrow_mark",
+        "anchor": "⟷",
+        "features": [
+          "double-headed arrow at gutter",
+          "level of b002"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2975,
+          4325,
+          275,
+          55
+        ],
+        "kind_hint": "arrow_mark",
+        "anchor": "←",
+        "features": [
+          "pencil",
+          "left-pointing arrow straddling gutter",
+          "level of b003"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number with added 'b'."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Single ink holding entry with shelfmark."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Pencil note without shelfmark. Probably attached via the arrow to the fol. 320 entry c. 386(4)."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Inventory's unattached double arrow, recorded as an added block."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Inventory's unattached left arrow, recorded as an added block."
+      }
+    ],
+    "page_annotations": [
+      "The page is ruled, with a vertical column line at about x≈840. Apart from the folio number, two entries and the arrows, the page is blank after image review.",
+      "The strip beyond the gutter (x≳3140) shows the left margin of fol. 320, with shelfmarks such as d. 568(, √d. 73, √c. 386(, √d. 74( and a bracketing curve. These belong to the facing page and are not transcribed as target records."
+    ],
+    "unresolved_relationships": [
+      "Whether b002 is a supplementary entry intended for the Svastivācana sequence on fol. 320 (d. 642(4)) is uncertain.",
+      "Whether the b003 pencil note describes c. 386(4) on fol. 320 is probable but not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '319' is at the top left, with 'b' raised after it and a point after the 9. Faint smudged marks lie above and to the left. They are not legible. The record matches the source."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single ink line, verified against tile [0,3216] and tile [1604,3216]. It reads: tick, 'd. 134(12)', 'Svasti' followed by a raised mark, 'puṇyāha vācana.', 'ff.1-7.', 'Cat. calls it Pañcāṅgapaddhati.', 'n.d.: 7:10/12:D'. The literal transcription is acceptable. The field structuring has been adjusted (see changes)."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A faint pencil line near the foot of the page, crossing the ruled column line. The reading is largely as transcribed. The diacritic in 'Ghaṭasthāpana' is not visible at native scale and is now flagged as uncertain."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A double-headed arrow at about [3090,3590,95,30], at the gutter. The fol. 320 adjacent image shows the same mark as part of its own left margin, beside d. 642(4). It is therefore most likely a facing-page mark visible across the gutter. Its link to b002 is uncertain."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "A left-pointing pencil arrow at native x≈2979–3249. Its vertical position is about y≈4405–4485, slightly lower than the bbox given in added_blocks, and level with b003. In the fol. 320 view it sits at the level of the continuation line of c. 386(4). The attachment is probable, not certain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "fields",
+        "before": {
+          "shelfmark": "d. 134(12)",
+          "title": "Svasti'puṇyāha vācana",
+          "source": "Cat. calls it Pañcāṅgapaddhati",
+          "date": "n.d.",
+          "extent": "ff.1-7",
+          "lines": "10/12",
+          "script": "D"
+        },
+        "after": {
+          "shelfmark": "d. 134(12)",
+          "title": "Svasti'puṇyāha vācana",
+          "note": "Cat. calls it Pañcāṅgapaddhati.",
+          "date": "n.d.",
+          "extent": "ff.1-7",
+          "terminal_group": "n.d.: 7:10/12:D",
+          "folio_count_inferred": "7",
+          "lines": "10/12",
+          "script": "D"
+        },
+        "reason": "'Cat. calls it …' is a remark about an alternative catalogue title, not a source citation. The second element '7' of the terminal group was not captured. The roles assigned to '7' and '10/12' are inferred from the catalogue's format on fols 319–320 and remain only probable.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "Reading 'Jayadurgā[?]prastāva' is uncertain.",
+          "'pat. 34' may carry a diacritic dot (possibly 'paṭ.'). The reading is uncertain.",
+          "The listed works are recorded as written and not separated into holdings, because no shelfmark is given on this page."
+        ],
+        "after": [
+          "Reading 'Jayadurgā[?]prastāva' is uncertain.",
+          "'pat. 34' may carry a diacritic dot (possibly 'paṭ.'). The reading is uncertain.",
+          "No underdot is clearly visible on the 't' of 'Ghaṭasthāpana' in the faint pencil. The written form may be 'Ghatasthāpana'. The diacritics are uncertain.",
+          "The listed works are recorded as written and not separated into holdings, because no shelfmark is given on this page."
+        ],
+        "reason": "The candidate's diacritic in this word is not securely visible in the source.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "Double-headed arrow at the gutter at the level of b002.",
+          "It appears to sit in or near the fol. 320 left margin beside d. 642(4)."
+        ],
+        "after": [
+          "Double-headed arrow at the gutter at the level of b002.",
+          "It appears to sit in or near the fol. 320 left margin beside d. 642(4).",
+          "The fol. 320 adjacent image shows this arrow as part of its own left-margin apparatus, next to the end of the bracketing curve from c. 159(3) to d. 642(4)."
+        ],
+        "reason": "Adjacent-page evidence bears on whether the mark belongs to the target page or the facing page.",
+        "source_block_ids": [
+          "b901"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "It is unclear whether the double arrow links d. 134(12) to the Svastivācana entry d. 642(4) on fol. 320 or is only a facing-page mark.",
+        "next_check": "Compare ink and stroke of the arrow with fol. 320 margin marks under higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b902"
+        ],
+        "issue": "Attachment of the pencil note to c. 386(4) on fol. 320 is inferred from the arrow's position.",
+        "next_check": "Inspect continuity of the arrow across the gutter in a flattened image."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b902"
+        ],
+        "issue": "The added_blocks bbox y (4325) appears about 80 px high. The arrow lies at about y 4405–4485.",
+        "next_check": "Re-measure on the native tile [1604,3216]."
+      }
+    ],
+    "boundary_review": "The strip beyond the gutter (x≳3140) is the left margin of fol. 320. Its shelfmarks, the bracketing curve and the note '1 syll. missing …' belong to the facing page and are not target records. The two gutter arrows are kept as target-canvas marks, with their facing-page ownership left uncertain.",
+    "region_review": {
+      "top": "Folio number only. Faint erased marks above it are illegible. The rest is ruled and blank.",
+      "middle": "Ruled and blank apart from faint show-through. No text.",
+      "bottom": "The b003 pencil note. Below it to the page foot there are only specks and no writing.",
+      "left_margin": "The narrow column left of the ruling at x≈840 holds the start of b002 and b003. Nothing else is present.",
+      "right_margin": "The gutter holds the two arrows (b901, b902). Facing-page shelfmarks lie beyond it.",
+      "interlinear": "No interlinear additions were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        480,
+        410,
+        170,
+        135
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "319b",
+      "features": [
+        "top-left corner of page",
+        "superscript 'b' added above and after '319', apparently in a different stroke",
+        "faint smudge or erased marks just above and left of the number"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        385,
+        3530,
+        2120,
+        100
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "√d. 134(12) Svasti[puṇyāha]vācana. ff.1-7. Cat. calls it Pañcāṅgapaddhati. n.d.: 7:10/12:D",
+      "features": [
+        "ink",
+        "single line",
+        "tick mark before shelfmark",
+        "shelfmark is written in the left column, and the text runs across the vertical ruled margin line",
+        "extent 'ff.1-7'",
+        "terminal date/size/script group 'n.d.: 7:10/12:D'",
+        "title reading partly uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        380,
+        4390,
+        2240,
+        115
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "Three ff. from larger MS. with end of Uttaratantra, Jayadurgā[?]prastāva, pat. 34, and Ghaṭasthāpana",
+      "features": [
+        "pencil, fainter than b002",
+        "single line",
+        "no shelfmark on the target page",
+        "pencil arrow at the gutter (x≈2980–3250) points left toward this note from the facing page, apparently linking it to the facing entry 'c. 386(4)' on fol. 320"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3085,
+        3575,
+        100,
+        40
+      ],
+      "kind_hint": "arrow_mark",
+      "anchor": "⟷",
+      "features": [
+        "double-headed arrow at gutter",
+        "level of b002"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2975,
+        4325,
+        275,
+        55
+      ],
+      "kind_hint": "arrow_mark",
+      "anchor": "←",
+      "features": [
+        "pencil",
+        "left-pointing arrow straddling gutter",
+        "level of b003"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "319^b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner of the page.",
+        "The superscript 'b' sits above and after '319' and appears to be a separate stroke.",
+        "Faint smudged or erased marks lie just above and to the left of the number. They are not legible."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The erased marks above the number cannot be read."
+      ],
+      "stable_id": "css-prod-0638-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "√d. 134(12) Svasti'puṇyāha vācana. ff.1-7. Cat. calls it Pañcāṅgapaddhati. n.d.: 7: 10/12: D",
+      "fields": {
+        "shelfmark": "d. 134(12)",
+        "title": "Svasti'puṇyāha vācana",
+        "source": "Cat. calls it Pañcāṅgapaddhati",
+        "date": "n.d.",
+        "extent": "ff.1-7",
+        "lines": "10/12",
+        "script": "D"
+      },
+      "normalized_title": "Svastipuṇyāhavācana",
+      "annotations": [
+        "A tick mark precedes the shelfmark.",
+        "Ink, single line.",
+        "The shelfmark is in the left column. The text runs across the vertical ruled column line at about x≈840.",
+        "The entry is isolated on an otherwise blank page.",
+        "A double-headed arrow at the gutter at the same level (b901) may connect this entry with the facing-page entry d. 642(4) Svastivācana on fol. 320."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 639,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 642(4) Svastivācana",
+          "evidence": "A double-headed arrow at the gutter at the level of this line points between this entry and the fol. 320 entry d. 642(4). The titles are similar.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The title is written as if broken: 'Svasti' is followed by a raised mark, then 'puṇyāha vācana'. The exact spelling and word division are uncertain.",
+        "In the terminal group 'n.d.: 7: 10/12: D', the field meanings are inferred from the catalogue's format. '7' may be the folio count, '10/12' the lines and 'D' the script abbreviation. The assignment of '10/12' to lines is probable, not certain."
+      ],
+      "stable_id": "css-prod-0638-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_note",
+      "literal_text": "Three ff. from larger MS. with end of Uttaratantra, Jayadurgā[?]prastāva, pat[?]. 34, and Ghaṭasthāpana",
+      "fields": {
+        "extent": "Three ff."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, fainter than b002. Single line near the foot of the page.",
+        "No shelfmark is present on the target page.",
+        "A pencil arrow at the gutter at this level (b902) points left toward this note. It appears to be drawn from the left margin of fol. 320, near the entry √c. 386(4) Svastyayanavidhi."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 639,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 386(4) Svastyayanavidhi",
+          "evidence": "A left-pointing pencil arrow at the same height starts in the fol. 320 margin below c. 386(4) and points to this note.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "Reading 'Jayadurgā[?]prastāva' is uncertain.",
+        "'pat. 34' may carry a diacritic dot (possibly 'paṭ.'). The reading is uncertain.",
+        "The listed works are recorded as written and not separated into holdings, because no shelfmark is given on this page."
+      ],
+      "stable_id": "css-prod-0638-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow_mark",
+      "literal_text": "⟷",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Double-headed arrow at the gutter at the level of b002.",
+        "It appears to sit in or near the fol. 320 left margin beside d. 642(4)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 639,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 642(4)",
+          "evidence": "Position beside the facing-page shelfmark.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear whether the mark belongs to the target page or to fol. 320."
+      ],
+      "stable_id": "css-prod-0638-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow_mark",
+      "literal_text": "←",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil arrow pointing left, straddling the gutter at the level of b003."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 639,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 386(4)",
+          "evidence": "The arrow tail lies in the fol. 320 margin below c. 386(4).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The attachment is inferred from position."
+      ],
+      "stable_id": "css-prod-0638-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "fields",
+      "before": {
+        "shelfmark": "d. 134(12)",
+        "title": "Svasti'puṇyāha vācana",
+        "source": "Cat. calls it Pañcāṅgapaddhati",
+        "date": "n.d.",
+        "extent": "ff.1-7",
+        "lines": "10/12",
+        "script": "D"
+      },
+      "after": {
+        "shelfmark": "d. 134(12)",
+        "title": "Svasti'puṇyāha vācana",
+        "note": "Cat. calls it Pañcāṅgapaddhati.",
+        "date": "n.d.",
+        "extent": "ff.1-7",
+        "terminal_group": "n.d.: 7:10/12:D",
+        "folio_count_inferred": "7",
+        "lines": "10/12",
+        "script": "D"
+      },
+      "reason": "'Cat. calls it …' is a remark about an alternative catalogue title, not a source citation. The second element '7' of the terminal group was not captured. The roles assigned to '7' and '10/12' are inferred from the catalogue's format on fols 319–320 and remain only probable.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "Reading 'Jayadurgā[?]prastāva' is uncertain.",
+        "'pat. 34' may carry a diacritic dot (possibly 'paṭ.'). The reading is uncertain.",
+        "The listed works are recorded as written and not separated into holdings, because no shelfmark is given on this page."
+      ],
+      "after": [
+        "Reading 'Jayadurgā[?]prastāva' is uncertain.",
+        "'pat. 34' may carry a diacritic dot (possibly 'paṭ.'). The reading is uncertain.",
+        "No underdot is clearly visible on the 't' of 'Ghaṭasthāpana' in the faint pencil. The written form may be 'Ghatasthāpana'. The diacritics are uncertain.",
+        "The listed works are recorded as written and not separated into holdings, because no shelfmark is given on this page."
+      ],
+      "reason": "The candidate's diacritic in this word is not securely visible in the source.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "Double-headed arrow at the gutter at the level of b002.",
+        "It appears to sit in or near the fol. 320 left margin beside d. 642(4)."
+      ],
+      "after": [
+        "Double-headed arrow at the gutter at the level of b002.",
+        "It appears to sit in or near the fol. 320 left margin beside d. 642(4).",
+        "The fol. 320 adjacent image shows this arrow as part of its own left-margin apparatus, next to the end of the bracketing curve from c. 159(3) to d. 642(4)."
+      ],
+      "reason": "Adjacent-page evidence bears on whether the mark belongs to the target page or the facing page.",
+      "source_block_ids": [
+        "b901"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/6ea22174-db9f-4be9-939c-c8661d8ad967.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6ea22174-db9f-4be9-939c-c8661d8ad967/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "9b92f46b11eecb8879916d7609b133eb09c80926723a9e8c2435844a3462c2cb",
+      "bytes": 315044,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6ea22174-db9f-4be9-939c-c8661d8ad967/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a0d3952b5522862b5682006e1fe392400a9138760d0494f5d2edcc5655a3359f",
+      "bytes": 364292,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6ea22174-db9f-4be9-939c-c8661d8ad967/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "017353f4e16883ad695cddc7319c2dd100bf85891d6fdc3bde16ecbd2c592cc2",
+      "bytes": 391619,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6ea22174-db9f-4be9-939c-c8661d8ad967/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7537d3ca9f0a1185f6f91392398f14c363a551bf64b3b51b46b3e9ce15d83249",
+      "bytes": 384795,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6ea22174-db9f-4be9-939c-c8661d8ad967/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d9eb7a501b2a96fd4b20ff878222bb23be713d1fb2f0de16233ae381f2fbdd29",
+      "bytes": 397759,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6ea22174-db9f-4be9-939c-c8661d8ad967/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "27fc8e39837b84babc0ec0d26697055764b1a4cfcd17d1a029343343a920c90c",
+      "bytes": 376374,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/6ea22174-db9f-4be9-939c-c8661d8ad967/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d17aafea41d1b5dfe0058b42012a0ee16c538a4d8d8ad13fd938ffc3aecc683f",
+      "bytes": 410634,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e77018a6-9b34-4b5a-9c44-32e856552d57/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c824f42d3aaf6a83d1b900fe5089718f37fb3d28df91f35f743fcb7e7caa4085",
+      "bytes": 316788,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 637,
+      "folio_label": "fol. 319",
+      "page_id": "e77018a6-9b34-4b5a-9c44-32e856552d57",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/46ca288d-0410-480f-82fa-b490b3c60ee3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "58708ccb790dea2c65ea316bade293f4779e15b7cb22e5798b062b8ff611c602",
+      "bytes": 329205,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 639,
+      "folio_label": "fol. 320",
+      "page_id": "46ca288d-0410-480f-82fa-b490b3c60ee3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

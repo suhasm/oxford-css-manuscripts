@@ -1,0 +1,834 @@
+{
+  "source_order": 284,
+  "folio_label": "fol. 142b",
+  "page_id": "091590b6-99f0-43c5-ae15-361d60e1adae",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "142b",
+    "principal_page_bbox": [
+      270,
+      285,
+      2845,
+      4545
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          335,
+          360,
+          160,
+          80
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "142b",
+        "features": [
+          "ink",
+          "top left corner",
+          "the 'b' is written superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          325,
+          3225,
+          2790,
+          240
+        ],
+        "kind_hint": "marginal_note_continuation",
+        "anchor": "Verses not traceable in Vedic Concordance; ... Begins: Vṛṣā kar- ... ceremonies.",
+        "features": [
+          "four handwritten lines across the lower part of the page",
+          "appears to be a descriptive note attached by arrows to entries on the facing page fol. 143 (Pitṛsūkta d.13(3) and d.13(4) area)",
+          "heavy overwriting/inking near 'an unpublished' in line 1; the original reading under it is uncertain",
+          "contains an incipit introduced by 'Begins:'",
+          "contains '(sic)', an abbreviation 'col.', and folio and verse ranges 'ff.1-3, verses 1-35' and 'ff 4-5 verses 47-70'",
+          "small commas added below the line in line 3",
+          "line 4 'ceremonies.' is indented"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          395,
+          1785,
+          60,
+          115
+        ],
+        "description": "isolated ink stroke resembling 'j' or 'i' in the left margin area; probably a stray mark or blot, not text"
+      },
+      {
+        "bbox": [
+          880,
+          560,
+          1000,
+          70
+        ],
+        "description": "very faint dotted marks near the top of the page; probably offset or show-through, not legible writing"
+      },
+      {
+        "bbox": [
+          3020,
+          1660,
+          20,
+          20
+        ],
+        "description": "small ink dot near the right edge of the page"
+      }
+    ],
+    "boundary_notes": [
+      "The gutter is at about x≈3114. The two arrows at about x 3190–3340, y 3235–3390 lie to the right of the gutter. They belong to the facing fol. 143, pointing toward its entries d.13(3) and d.13(4), so they are not recorded as target blocks.",
+      "On fol. 143, the left-margin fragments 'Vṛṣā kar-' and 'al funeral' are the ends of the lines of note b002 seen from the facing-page image. They are not separate records.",
+      "The facing-page right column (√d., e., etc.) is context only and was not inventoried.",
+      "Note b002 is likely the continuation or annotation for the Pitṛsūkta entries on fol. 143, but no parent heading is on this page."
+    ],
+    "uncertainties": [
+      "The overwritten or cancelled word(s) near 'an unpublished' in line 1 of b002 cannot be resolved.",
+      "The exact readings of several cursive words in b002 are tentative.",
+      "It is unclear whether the 'j'-shaped mark is a deliberate character."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "142b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "142b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number at the top left corner; the 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "descriptive_note_for_facing_page_entries",
+        "literal_text": "Verses not traceable in Vedic Concordance; either late forgery or from [overwritten: an unpublished?] Brāhmaṇa. Begins: Vṛṣā kar-\nvi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva.\nff.1-3, verses 1-35, called Pitṛsūkta in col., ff 4-5 verses 47-70 without col., a collection of mantras used at funeral\n   ceremonies.",
+        "fields": {
+          "title": "Pitṛsūkta",
+          "extent": "ff.1-3, verses 1-35 ... ff 4-5 verses 47-70",
+          "incipit": "Vṛṣā kar-vi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Four lines of cursive ink across the lower part of the page, at about y 3225–3465.",
+          "The words near 'an unpublished' in line 1 are heavily overwritten or re-inked; the underlying reading is unresolved.",
+          "Dots under letters in 'Brāhmaṇa' and 'Vṛṣā'.",
+          "Small commas are added below the line in line 3, after '1-35' and after 'col.'.",
+          "Line 4 'ceremonies.' is indented.",
+          "Two arrows on the facing fol. 143, to the right of the gutter, point from this note's line ends toward the entries d.13(3) and d.13(4)."
+        ],
+        "editorial_context": [
+          {
+            "field": "shelfmark",
+            "value": "d.13(3) / d.13(4)",
+            "source_page_order": 285,
+            "source_block_id": null,
+            "evidence": "Arrows at the line ends of this note point to the Pitṛsūkta entries d.13(3) and d.13(4) on fol. 143.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 285,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.13(3) Pitṛsūkta ... ff.1-3",
+            "evidence": "An arrow on fol. 143 runs beside line 1 of this note toward d.13(3). The extent 'ff.1-3' and the title 'Pitṛsūkta' match that entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 285,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.13(4) —— Begins with the gāyatrī verse",
+            "evidence": "A second arrow on fol. 143 runs beside line 3 of this note toward d.13(4). The 'ff 4-5 verses 47-70 without col.' portion may describe it.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The overwritten word(s) in line 1 near 'an unpublished' are unresolved.",
+          "The readings of the cursive transliteration are tentative, especially 'kulaṁ', 'ha vai', 'tasyāyam', 'kulavidyā' and both instances of 'babhūva'.",
+          "The division of the note between d.13(3) and d.13(4) is not certain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "A single continuous descriptive note transcribed as one continuation note, possibly attached to entries on fol. 143."
+      }
+    ],
+    "page_annotations": [
+      "Apart from b001 and b002, the ruled page is blank on image review.",
+      "There is an isolated ink stroke resembling 'j' or 'i' in the left margin at about [395,1785,60,115]. It is probably a stray mark or blot; no text is recorded.",
+      "Very faint dotted marks near the top, at about [880,560,1000,70], are probably offset or show-through and are illegible.",
+      "There is a small ink dot near the right edge at about [3020,1660].",
+      "The facing fol. 143 is visible to the right of the gutter (x≈3114). It is context only and is not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The precise attachment of r002 to d.13(3) and/or d.13(4) on fol. 143 is not confirmed beyond the arrows and the matching extent."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left page number reads '142' with a raised 'b'. It is correctly recorded as a page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "All four lines are present: line 1 from 'Verses not' to 'kar-', line 2 from 'vi(sic)' to 'babhūva.', line 3 from 'ff.1-3' to 'funeral', and the indented line 4 'ceremonies.'. The overlapping tiles add no duplicated text. Three items need correction. The literal text puts description inside brackets ('overwritten:'). The arrow direction is misdescribed: on fol. 143 the arrowheads point left, toward this note. 'Pitṛsūkta' is a title cited from the colophon, but it is filed as fields.title."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "Verses not traceable in Vedic Concordance; either late forgery or from [overwritten: an unpublished?] Brāhmaṇa. Begins: Vṛṣā kar-\nvi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva.\nff.1-3, verses 1-35, called Pitṛsūkta in col., ff 4-5 verses 47-70 without col., a collection of mantras used at funeral\n   ceremonies.",
+        "after": "Verses not traceable in Vedic Concordance; either late forgery or from [an unpublished?] Brāhmaṇa. Begins: Vṛṣā kar-\nvi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva.\nff.1-3, verses 1-35, called Pitṛsūkta in col., ff 4-5 verses 47-70 without col., a collection of mantras used at funeral\n   ceremonies.",
+        "reason": "The description of the overwriting belongs in the annotations, not in the literal text. Only the uncertain reading is kept in brackets. The heavy re-inking makes the underlying letters unresolvable, so this is not a reading certified by image review.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "fields",
+        "before": {
+          "title": "Pitṛsūkta",
+          "extent": "ff.1-3, verses 1-35 ... ff 4-5 verses 47-70",
+          "incipit": "Vṛṣā kar-vi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva."
+        },
+        "after": {
+          "colophon_title": "Pitṛsūkta",
+          "extent": "ff.1-3, verses 1-35 ... ff 4-5 verses 47-70",
+          "incipit": "Vṛṣā kar-vi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva."
+        },
+        "reason": "'Pitṛsūkta' appears only as 'called Pitṛsūkta in col.', which describes ff.1-3. It is not a governing title or heading on this page. Labelling it as a colophon title avoids implying a holding heading here.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Four lines of cursive ink across the lower part of the page, at about y 3225–3465.",
+          "The words near 'an unpublished' in line 1 are heavily overwritten or re-inked; the underlying reading is unresolved.",
+          "Dots under letters in 'Brāhmaṇa' and 'Vṛṣā'.",
+          "Small commas are added below the line in line 3, after '1-35' and after 'col.'.",
+          "Line 4 'ceremonies.' is indented.",
+          "Two arrows on the facing fol. 143, to the right of the gutter, point from this note's line ends toward the entries d.13(3) and d.13(4)."
+        ],
+        "after": [
+          "Four lines of cursive ink across the lower part of the page, at about y 3225–3465.",
+          "The words near 'an unpublished' in line 1 are heavily overwritten or re-inked; the underlying reading is unresolved.",
+          "Dots under letters in 'Brāhmaṇa' and 'Vṛṣā'.",
+          "Small commas are added below the line in line 3, after '1-35' and after 'col.'.",
+          "Line 4 'ceremonies.' is indented.",
+          "Two leftward-pointing arrows are drawn on the facing fol. 143, in its left margin at about x 3190–3340. They point from beside the entries d.13(3) and d.13(4) back toward the ends of lines 1 and 3 of this note."
+        ],
+        "reason": "In the native tile, both arrowheads are at the left ends, nearest the gutter. The arrows therefore point toward this note, not away from it.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 285,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.13(3) Pitṛsūkta ... ff.1-3",
+            "evidence": "An arrow on fol. 143 runs beside line 1 of this note toward d.13(3). The extent 'ff.1-3' and the title 'Pitṛsūkta' match that entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 285,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.13(4) —— Begins with the gāyatrī verse",
+            "evidence": "A second arrow on fol. 143 runs beside line 3 of this note toward d.13(4). The 'ff 4-5 verses 47-70 without col.' portion may describe it.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 285,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.13(3) Pitṛsūkta ... ff.1-3",
+            "evidence": "A leftward arrow drawn beside d.13(3) on fol. 143 points back toward line 1 of this note. The extent 'ff.1-3' and the title 'Pitṛsūkta' match that entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 285,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.13(4) ——",
+            "evidence": "A second leftward arrow drawn beside d.13(4) on fol. 143 points back toward line 3 of this note. The 'ff 4-5 verses 47-70 without col.' portion may describe it. On fol. 143, the words after the dash for d.13(4) appear to be struck through, but this is not verified at the overview's resolution.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The direction of the arrows is corrected. The possibly cancelled wording on the facing page has been removed from the anchor, because it is not verified there.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The heavily overwritten word(s) before 'Brāhmaṇa' in line 1 are unresolved. The source may read something like 'on an unpublished' with re-inking, or something else.",
+        "next_check": "Examine a higher-resolution or raking-light image of about x 1880–2290, y 3225–3285."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The anusvāra and candrabindu forms in 'kulaṁ', 'Śibikulaṁ' and 'tasyāyam', and the reading 'kulavidyā', are tentative. The parallel 'Begins' line on fol. 143 (about 'Vṛṣādarvikulam ... ha vai Śibikulam babhūva') must not be used to correct them.",
+        "next_check": "Compare letter forms against the native tile only."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The division of the note between d.13(3) and d.13(4) is unresolved. The relation of this note to the 'Begins: Vṛṣādarvikulam...' line on fol. 143, which is linked by an arrow to the area around d.94(11), is also unresolved.",
+        "next_check": "Review the native tiles of fol. 143 around y 3150–3450."
+      }
+    ],
+    "boundary_review": "The gutter is at about x 3114. Everything to its right belongs to fol. 143 and is context only. This includes the two leftward arrows, the column of shelfmarks and ticks, the curved arrow near the top, and 'See Pariśiṣṭa'. The fragments 'Vṛṣā kar-' and 'al funeral' seen at the left edge of the fol. 143 image are this page's own note b002, not separate records.",
+    "region_review": {
+      "top": "This region contains the folio number '142b' (b001). There are faint dotted, illegible marks at about [880,560,1000,70], which are probably offset; they are noted in the page annotations. There is no text.",
+      "middle": "The ruled lines are blank apart from a 'j'-like stroke at about [395,1785,60,115], probably a stray mark, and small dots at about [3020,1660] and [1210,2060]. None of these is text.",
+      "bottom": "This region contains the four-line note b002 at y 3225–3465. Below it the page is blank down to the lower edge at about y 4820.",
+      "left_margin": "There is nothing besides the stray 'j'-like mark.",
+      "right_margin": "Near the gutter there is only the small dot. The facing-page arrows lie beyond the gutter.",
+      "interlinear": "Within b002 there are only the commas added below line 3 and the subscript dots. There is no other interlinear writing."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        335,
+        360,
+        160,
+        80
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "142b",
+      "features": [
+        "ink",
+        "top left corner",
+        "the 'b' is written superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        325,
+        3225,
+        2790,
+        240
+      ],
+      "kind_hint": "marginal_note_continuation",
+      "anchor": "Verses not traceable in Vedic Concordance; ... Begins: Vṛṣā kar- ... ceremonies.",
+      "features": [
+        "four handwritten lines across the lower part of the page",
+        "appears to be a descriptive note attached by arrows to entries on the facing page fol. 143 (Pitṛsūkta d.13(3) and d.13(4) area)",
+        "heavy overwriting/inking near 'an unpublished' in line 1; the original reading under it is uncertain",
+        "contains an incipit introduced by 'Begins:'",
+        "contains '(sic)', an abbreviation 'col.', and folio and verse ranges 'ff.1-3, verses 1-35' and 'ff 4-5 verses 47-70'",
+        "small commas added below the line in line 3",
+        "line 4 'ceremonies.' is indented"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "142b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number at the top left corner; the 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0284-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "descriptive_note_for_facing_page_entries",
+      "literal_text": "Verses not traceable in Vedic Concordance; either late forgery or from [overwritten: an unpublished?] Brāhmaṇa. Begins: Vṛṣā kar-\nvi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva.\nff.1-3, verses 1-35, called Pitṛsūkta in col., ff 4-5 verses 47-70 without col., a collection of mantras used at funeral\n   ceremonies.",
+      "fields": {
+        "title": "Pitṛsūkta",
+        "extent": "ff.1-3, verses 1-35 ... ff 4-5 verses 47-70",
+        "incipit": "Vṛṣā kar-vi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Four lines of cursive ink across the lower part of the page, at about y 3225–3465.",
+        "The words near 'an unpublished' in line 1 are heavily overwritten or re-inked; the underlying reading is unresolved.",
+        "Dots under letters in 'Brāhmaṇa' and 'Vṛṣā'.",
+        "Small commas are added below the line in line 3, after '1-35' and after 'col.'.",
+        "Line 4 'ceremonies.' is indented.",
+        "Two leftward-pointing arrows are drawn on the facing fol. 143, in its left margin at about x 3190–3340. They point from beside the entries d.13(3) and d.13(4) back toward the ends of lines 1 and 3 of this note."
+      ],
+      "editorial_context": [
+        {
+          "field": "shelfmark",
+          "value": "d.13(3) / d.13(4)",
+          "source_page_order": 285,
+          "source_block_id": null,
+          "evidence": "Arrows at the line ends of this note point to the Pitṛsūkta entries d.13(3) and d.13(4) on fol. 143.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 285,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.13(3) Pitṛsūkta ... ff.1-3",
+          "evidence": "An arrow on fol. 143 runs beside line 1 of this note toward d.13(3). The extent 'ff.1-3' and the title 'Pitṛsūkta' match that entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 285,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.13(4) —— Begins with the gāyatrī verse",
+          "evidence": "A second arrow on fol. 143 runs beside line 3 of this note toward d.13(4). The 'ff 4-5 verses 47-70 without col.' portion may describe it.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The overwritten word(s) in line 1 near 'an unpublished' are unresolved.",
+        "The readings of the cursive transliteration are tentative, especially 'kulaṁ', 'ha vai', 'tasyāyam', 'kulavidyā' and both instances of 'babhūva'.",
+        "The division of the note between d.13(3) and d.13(4) is not certain."
+      ],
+      "stable_id": "css-prod-0284-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "Verses not traceable in Vedic Concordance; either late forgery or from [overwritten: an unpublished?] Brāhmaṇa. Begins: Vṛṣā kar-\nvi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva.\nff.1-3, verses 1-35, called Pitṛsūkta in col., ff 4-5 verses 47-70 without col., a collection of mantras used at funeral\n   ceremonies.",
+      "after": "Verses not traceable in Vedic Concordance; either late forgery or from [an unpublished?] Brāhmaṇa. Begins: Vṛṣā kar-\nvi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva.\nff.1-3, verses 1-35, called Pitṛsūkta in col., ff 4-5 verses 47-70 without col., a collection of mantras used at funeral\n   ceremonies.",
+      "reason": "The description of the overwriting belongs in the annotations, not in the literal text. Only the uncertain reading is kept in brackets. The heavy re-inking makes the underlying letters unresolvable, so this is not a reading certified by image review.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "fields",
+      "before": {
+        "title": "Pitṛsūkta",
+        "extent": "ff.1-3, verses 1-35 ... ff 4-5 verses 47-70",
+        "incipit": "Vṛṣā kar-vi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva."
+      },
+      "after": {
+        "colophon_title": "Pitṛsūkta",
+        "extent": "ff.1-3, verses 1-35 ... ff 4-5 verses 47-70",
+        "incipit": "Vṛṣā kar-vi(sic) kulaṁ ha vai Śibikulaṁ babhūva | tasyāyam itihāsaḥ kulavidyā babhūva."
+      },
+      "reason": "'Pitṛsūkta' appears only as 'called Pitṛsūkta in col.', which describes ff.1-3. It is not a governing title or heading on this page. Labelling it as a colophon title avoids implying a holding heading here.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Four lines of cursive ink across the lower part of the page, at about y 3225–3465.",
+        "The words near 'an unpublished' in line 1 are heavily overwritten or re-inked; the underlying reading is unresolved.",
+        "Dots under letters in 'Brāhmaṇa' and 'Vṛṣā'.",
+        "Small commas are added below the line in line 3, after '1-35' and after 'col.'.",
+        "Line 4 'ceremonies.' is indented.",
+        "Two arrows on the facing fol. 143, to the right of the gutter, point from this note's line ends toward the entries d.13(3) and d.13(4)."
+      ],
+      "after": [
+        "Four lines of cursive ink across the lower part of the page, at about y 3225–3465.",
+        "The words near 'an unpublished' in line 1 are heavily overwritten or re-inked; the underlying reading is unresolved.",
+        "Dots under letters in 'Brāhmaṇa' and 'Vṛṣā'.",
+        "Small commas are added below the line in line 3, after '1-35' and after 'col.'.",
+        "Line 4 'ceremonies.' is indented.",
+        "Two leftward-pointing arrows are drawn on the facing fol. 143, in its left margin at about x 3190–3340. They point from beside the entries d.13(3) and d.13(4) back toward the ends of lines 1 and 3 of this note."
+      ],
+      "reason": "In the native tile, both arrowheads are at the left ends, nearest the gutter. The arrows therefore point toward this note, not away from it.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 285,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.13(3) Pitṛsūkta ... ff.1-3",
+          "evidence": "An arrow on fol. 143 runs beside line 1 of this note toward d.13(3). The extent 'ff.1-3' and the title 'Pitṛsūkta' match that entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 285,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.13(4) —— Begins with the gāyatrī verse",
+          "evidence": "A second arrow on fol. 143 runs beside line 3 of this note toward d.13(4). The 'ff 4-5 verses 47-70 without col.' portion may describe it.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 285,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.13(3) Pitṛsūkta ... ff.1-3",
+          "evidence": "A leftward arrow drawn beside d.13(3) on fol. 143 points back toward line 1 of this note. The extent 'ff.1-3' and the title 'Pitṛsūkta' match that entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 285,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.13(4) ——",
+          "evidence": "A second leftward arrow drawn beside d.13(4) on fol. 143 points back toward line 3 of this note. The 'ff 4-5 verses 47-70 without col.' portion may describe it. On fol. 143, the words after the dash for d.13(4) appear to be struck through, but this is not verified at the overview's resolution.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The direction of the arrows is corrected. The possibly cancelled wording on the facing page has been removed from the anchor, because it is not verified there.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/091590b6-99f0-43c5-ae15-361d60e1adae.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/091590b6-99f0-43c5-ae15-361d60e1adae/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "1c129794634676cbd9a81a43e1b9ed38d13dba5d431b31f602c079c56f1b5a8d",
+      "bytes": 290152,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/091590b6-99f0-43c5-ae15-361d60e1adae/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ae0d80a9ad41aa4f844aac3e34dcc14d29a7db17b96fe1a0e6c54f1413b97f07",
+      "bytes": 330310,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/091590b6-99f0-43c5-ae15-361d60e1adae/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "84ee4aa0e5d0847020f5803c5748f8d020bc0d44cd423312160589b6eb5d409d",
+      "bytes": 328885,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/091590b6-99f0-43c5-ae15-361d60e1adae/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c1ba16bad67fca2cbc63a781f84584e5eac7fee0fe4adb2a75807bb5a82dd76c",
+      "bytes": 365864,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/091590b6-99f0-43c5-ae15-361d60e1adae/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c6a0b276659ec16093ec2603ea08f3bb7bd18e2311222489a553ee174a9c752a",
+      "bytes": 335588,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/091590b6-99f0-43c5-ae15-361d60e1adae/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4e02003db54779bd8064bd4635ac9f266c9b4fe40fa3ca337f240983adefd4de",
+      "bytes": 359330,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/091590b6-99f0-43c5-ae15-361d60e1adae/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5534dfd72103a7c5f07bb9452581d6e37e86417c296dd63c920f05849c02e485",
+      "bytes": 361622,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3ca156af-5c24-4aa5-9db0-7d15306e3d08/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "049c4b3b0f3c1d6836e5e75af5ed33dc96038c1ab0ecf46099b9ee06d86e09ee",
+      "bytes": 326734,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 283,
+      "folio_label": "fol. 142",
+      "page_id": "3ca156af-5c24-4aa5-9db0-7d15306e3d08",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7b71236a-78ea-4636-9a69-56b242fe7a86/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f3db50bac1ab4efe29693efca955e25926b36a12343fd5a354846ef55874e94d",
+      "bytes": 289094,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 285,
+      "folio_label": "fol. 143",
+      "page_id": "7b71236a-78ea-4636-9a69-56b242fe7a86",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

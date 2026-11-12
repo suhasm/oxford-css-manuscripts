@@ -1,0 +1,785 @@
+{
+  "source_order": 214,
+  "folio_label": "fol. 107b",
+  "page_id": "2f93c901-27a4-4d49-a8fd-6f8484c5bed8",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "107b",
+    "principal_page_bbox": [
+      300,
+      285,
+      2865,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          355,
+          335,
+          155,
+          100
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "107b",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript 'b' with dot beneath"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          345,
+          1858,
+          1600,
+          100
+        ],
+        "kind_hint": "entry",
+        "anchor": "c. 396(e) Dīpadānavidhi (ff.1-5a) and Nityadīpavidhi (ff.5a-9), ff.1-9.",
+        "features": [
+          "shelfmark with superscript '(e)'",
+          "two titles with folio ranges",
+          "extent",
+          "single line",
+          "reading of title words is tentative"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2460,
+          1885,
+          455,
+          75
+        ],
+        "kind_hint": "entry_continuation_date_extent_script",
+        "anchor": "n.d.: 9:10: Beng.",
+        "features": [
+          "date/extent/script column",
+          "same line as b002"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3020,
+          1885,
+          90,
+          60
+        ],
+        "description": "Ink arrow pointing left (←) near the gutter, on the same line as b002/b003. It is perhaps linked to the arrow (→) on the facing page fol. 108."
+      },
+      {
+        "bbox": [
+          295,
+          2995,
+          15,
+          120
+        ],
+        "description": "Short vertical dark stroke at the left page edge. It is probably a paper edge or scanning artefact, not writing."
+      },
+      {
+        "bbox": [
+          850,
+          1600,
+          300,
+          70
+        ],
+        "description": "Scattered faint specks above the entry line. These are paper spots, not text."
+      }
+    ],
+    "boundary_notes": [
+      "Text right of the gutter (x>3165) belongs to the facing page fol. 108 and was not inventoried. This includes 't', 'ti?', 'e.8…', '√d.…', '→', '√c. 3…' and 'ff.10-…'.",
+      "Faint ghost lines of writing across the ruled area are show-through from the reverse leaf. They were not read as target text."
+    ],
+    "uncertainties": [
+      "The shelfmark superscript reads '(e)'. The numeral may be '396' or '39b'.",
+      "The title readings in b002 are tentative because of a cursive hand. Possible readings are 'Dīpadānavidhi' and 'Nityadīpavidhi'.",
+      "The function of the left arrow beside the gutter is unclear."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "107b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "107b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left corner. The 'b' is superscript and has a dot beneath it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "composite_two_works",
+        "literal_text": "c. 396(e) Dīpadānavidhi (ff.1-5a) and Nityadīpavidhi (ff.5a-9), ff.1-9.        n.d.: 9:10: Beng.",
+        "fields": {
+          "shelfmark": "c. 396(e)",
+          "title": "Dīpadānavidhi (ff.1-5a) and Nityadīpavidhi (ff.5a-9)",
+          "date": "n.d.",
+          "extent": "ff.1-9; 9",
+          "lines": "10",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The shelfmark suffix '(e)' is written superscript.",
+          "The 'a' in '5a' is written superscript and underlined in both folio ranges.",
+          "The date, extent, lines and script column (b003) stands on the same ruled line as b002, so it is securely part of the same entry.",
+          "This is the only catalogue entry on the page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 215,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ arrow in left margin of fol. 108 beside the cancelled line 'd. 360(5) Dīkṣāvicāra ...', above 'd. 950(10)b Dīpadurgāvidhi'",
+            "evidence": "An ink ← arrow stands at the end of this line next to the gutter. A matching → arrow on the facing leaf points toward that position in the alphabetical sequence. The entry is probably meant for insertion there.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The shelfmark numeral may read '396' or '39b'.",
+          "The title words are in a cursive hand and their readings are tentative. The first title may carry the macron on the 'i' or a variant spelling.",
+          "Reading the fields '9:10' as extent:lines follows the catalogue's column pattern. It is not explicitly labelled."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "insertion_arrow",
+        "literal_text": "←",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink arrow pointing left near the gutter, on the line of r002."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 214,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "c. 396(e)",
+            "evidence": "The arrow is on the same ruled line as the entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 215,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "→ arrow in fol. 108 left margin",
+            "evidence": "It appears paired with the arrow on the facing leaf.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The exact function of the arrow is unclear. It may be a transfer or insertion mark."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3020,
+          1885,
+          90,
+          60
+        ],
+        "kind_hint": "mark",
+        "anchor": "←",
+        "features": [
+          "ink arrow",
+          "near gutter",
+          "same line as b002/b003"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Shelfmark, titles and extent of the single entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Date, extent, lines and script column on the same line as b002."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Left arrow promoted from the inventory's unattached marks."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the ruled page is empty of target writing. Faint ghost lines are show-through from the reverse leaf and were not transcribed.",
+      "A vertical stroke at the left edge near y≈3000 and scattered specks above the entry are paper or scan artefacts, not writing.",
+      "Text right of the gutter (x>3165) belongs to the facing page, fol. 108, and was not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "The intended destination of r002 on fol. 108, as indicated by the arrows, is probable but unconfirmed."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Ink folio number '107' with superscript 'b' and a dot below it, top-left. Correctly represented."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single entry line: 'c. 396(e)' with superscript (e), two titles with folio ranges, and 'ff.1-9.'. The hand is cursive. The title readings are plausible but not certain, and the candidate flags this. The superscript/underlined 'a' in '5a' is described in the annotations."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'n.d.: 9:10: Beng.' stands on the same ruled line as b002. Grouping it with r002 is sound."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Ink '←' near the gutter on the entry line. It is kept as a separate mark record and linked to r002 as probable. On fol. 108 a facing '→' stands just across the gutter at the cancelled 'd. 360(5)' line, above 'd. 950(10)b Dīpadurgāvidhi'."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The shelfmark numeral may read '396' or '39b'.",
+          "The title words are in a cursive hand and their readings are tentative. The first title may carry the macron on the 'i' or a variant spelling.",
+          "Reading the fields '9:10' as extent:lines follows the catalogue's column pattern. It is not explicitly labelled."
+        ],
+        "after": [
+          "The shelfmark numeral may read '396' or '39b'.",
+          "The title words are in a cursive hand and their readings are tentative. The first title may carry the macron on the 'i' or a variant spelling.",
+          "The second title's reading 'Nityadīpavidhi' is also tentative. The letter forms ('Nityadi pavidhi') leave the macron and word division unclear.",
+          "Reading the fields '9:10' as extent:lines follows the catalogue's column pattern. It is not explicitly labelled."
+        ],
+        "reason": "Uncertainty for the second title should be explicit rather than implied, because the cursive letters are not securely legible.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The intended insertion point on fol. 108, indicated by the paired arrows, is probable but not confirmed.",
+        "next_check": "Compare the fol. 108 native tile at the d. 360(5) / d. 950(10)b lines with the arrow positions."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The shelfmark '396' versus '39b' and both title spellings remain tentative.",
+        "next_check": "Run a higher-contrast inspection of x≈340-1950, y≈1860-1960."
+      }
+    ],
+    "boundary_review": "Writing right of the gutter (x>~3165) belongs to fol. 108 and is correctly excluded. This includes 't', 'ti?', 'e.8', 'd.' entries, ticks, 'i/', a cancelled 'c.' line, a pencil bracket, '√c. 3', 'ff.10-', 'f', '√b' and '('. The '→' at x≈3190 is also on the facing page and is referenced only as a relationship target. No target text continues across the gutter.",
+    "region_review": {
+      "top": "Only the folio number. The rest is ruled lines with faint show-through.",
+      "middle": "A single entry line at y≈1885-1960 with its date/extent/script column and the ← arrow. Other faint marks are show-through.",
+      "bottom": "Ruled lines and show-through only. No bottom note found on image review.",
+      "left_margin": "A vertical dark stroke near y≈3000 at the page edge appears to be a paper or scan artefact. No writing.",
+      "right_margin": "The ← arrow near the gutter. Everything beyond it is facing-page material.",
+      "interlinear": "None, apart from the superscript '(e)' and 'a' forms within the entry line. Specks near y≈1600 are paper spots."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        355,
+        335,
+        155,
+        100
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "107b",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript 'b' with dot beneath"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        345,
+        1858,
+        1600,
+        100
+      ],
+      "kind_hint": "entry",
+      "anchor": "c. 396(e) Dīpadānavidhi (ff.1-5a) and Nityadīpavidhi (ff.5a-9), ff.1-9.",
+      "features": [
+        "shelfmark with superscript '(e)'",
+        "two titles with folio ranges",
+        "extent",
+        "single line",
+        "reading of title words is tentative"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2460,
+        1885,
+        455,
+        75
+      ],
+      "kind_hint": "entry_continuation_date_extent_script",
+      "anchor": "n.d.: 9:10: Beng.",
+      "features": [
+        "date/extent/script column",
+        "same line as b002"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3020,
+        1885,
+        90,
+        60
+      ],
+      "kind_hint": "mark",
+      "anchor": "←",
+      "features": [
+        "ink arrow",
+        "near gutter",
+        "same line as b002/b003"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "107b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left corner. The 'b' is superscript and has a dot beneath it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0214-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "composite_two_works",
+      "literal_text": "c. 396(e) Dīpadānavidhi (ff.1-5a) and Nityadīpavidhi (ff.5a-9), ff.1-9.        n.d.: 9:10: Beng.",
+      "fields": {
+        "shelfmark": "c. 396(e)",
+        "title": "Dīpadānavidhi (ff.1-5a) and Nityadīpavidhi (ff.5a-9)",
+        "date": "n.d.",
+        "extent": "ff.1-9; 9",
+        "lines": "10",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The shelfmark suffix '(e)' is written superscript.",
+        "The 'a' in '5a' is written superscript and underlined in both folio ranges.",
+        "The date, extent, lines and script column (b003) stands on the same ruled line as b002, so it is securely part of the same entry.",
+        "This is the only catalogue entry on the page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 215,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ arrow in left margin of fol. 108 beside the cancelled line 'd. 360(5) Dīkṣāvicāra ...', above 'd. 950(10)b Dīpadurgāvidhi'",
+          "evidence": "An ink ← arrow stands at the end of this line next to the gutter. A matching → arrow on the facing leaf points toward that position in the alphabetical sequence. The entry is probably meant for insertion there.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The shelfmark numeral may read '396' or '39b'.",
+        "The title words are in a cursive hand and their readings are tentative. The first title may carry the macron on the 'i' or a variant spelling.",
+        "Reading the fields '9:10' as extent:lines follows the catalogue's column pattern. It is not explicitly labelled."
+      ],
+      "stable_id": "css-prod-0214-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "insertion_arrow",
+      "literal_text": "←",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink arrow pointing left near the gutter, on the line of r002."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 214,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "c. 396(e)",
+          "evidence": "The arrow is on the same ruled line as the entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 215,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "→ arrow in fol. 108 left margin",
+          "evidence": "It appears paired with the arrow on the facing leaf.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The exact function of the arrow is unclear. It may be a transfer or insertion mark."
+      ],
+      "stable_id": "css-prod-0214-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The shelfmark numeral may read '396' or '39b'.",
+        "The title words are in a cursive hand and their readings are tentative. The first title may carry the macron on the 'i' or a variant spelling.",
+        "Reading the fields '9:10' as extent:lines follows the catalogue's column pattern. It is not explicitly labelled."
+      ],
+      "after": [
+        "The shelfmark numeral may read '396' or '39b'.",
+        "The title words are in a cursive hand and their readings are tentative. The first title may carry the macron on the 'i' or a variant spelling.",
+        "The second title's reading 'Nityadīpavidhi' is also tentative. The letter forms ('Nityadi pavidhi') leave the macron and word division unclear.",
+        "Reading the fields '9:10' as extent:lines follows the catalogue's column pattern. It is not explicitly labelled."
+      ],
+      "reason": "Uncertainty for the second title should be explicit rather than implied, because the cursive letters are not securely legible.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2f93c901-27a4-4d49-a8fd-6f8484c5bed8.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f93c901-27a4-4d49-a8fd-6f8484c5bed8/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "51e6a2c26e48c2b3b4df013bf953166959159cdc6a1120b894b08d899cafe046",
+      "bytes": 256422,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f93c901-27a4-4d49-a8fd-6f8484c5bed8/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "960a810e3297112ff76f2a8b0d2c7510da7c8287aedd0b65493b0c182ff2efbb",
+      "bytes": 310085,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f93c901-27a4-4d49-a8fd-6f8484c5bed8/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bc37cdce5012d1820d2ed4c216d1210ef88eb6c8c81845198e43d72ffa6e4729",
+      "bytes": 324725,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f93c901-27a4-4d49-a8fd-6f8484c5bed8/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "06ac857219f72c0d6114c6a28e1778991466c89d0ed7277402cbe9829c072b34",
+      "bytes": 333863,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f93c901-27a4-4d49-a8fd-6f8484c5bed8/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "785b34769830eecf9ff7e7a08e4d1ae69160b07f7ea26becf08b4478e690f283",
+      "bytes": 333490,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f93c901-27a4-4d49-a8fd-6f8484c5bed8/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "53f03844502b1c455857448fae4beecf243613c5c457879a38033ede3822c151",
+      "bytes": 298376,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f93c901-27a4-4d49-a8fd-6f8484c5bed8/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "07e39991fc0c06596520b04c734d811b8b5beb3548120ca6e4c1949bc54da299",
+      "bytes": 335252,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b5e71e85-acc3-4d13-89ea-838cc4356402/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c8ab241ec6ff62f2f8af8d0734431c7bd98ae31f6c2b1fb56cb52a6ab1f84a1e",
+      "bytes": 255542,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 213,
+      "folio_label": "fol. 107",
+      "page_id": "b5e71e85-acc3-4d13-89ea-838cc4356402",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2e3923fa-d24d-4eac-b2f5-d399660e13fd/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "3eb47f527c86d963781f732367ca2582fb08c73246e8405ec67881a3146b06ce",
+      "bytes": 268973,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 215,
+      "folio_label": "fol. 108",
+      "page_id": "2e3923fa-d24d-4eac-b2f5-d399660e13fd",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

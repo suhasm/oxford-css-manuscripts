@@ -1,0 +1,1995 @@
+{
+  "source_order": 358,
+  "folio_label": "fol. 179b",
+  "page_id": "ae092467-62b9-49aa-8bef-132896a2b0b5",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "179b.",
+    "principal_page_bbox": [
+      320,
+      285,
+      2860,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          405,
+          325,
+          130,
+          110
+        ],
+        "kind_hint": "page_number",
+        "anchor": "179b.",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2665,
+          820,
+          800,
+          210
+        ],
+        "kind_hint": "marginal_note_cross_reference",
+        "anchor": "Brahmagītā",
+        "features": [
+          "ink",
+          "written at an angle",
+          "a long connecting line runs from beneath the word across the gutter toward the facing-page entry 'e.2[...]'",
+          "attached by the line to the facing fol. 180 entry"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          420,
+          1330,
+          1460,
+          110
+        ],
+        "kind_hint": "annotation_note",
+        "anchor": "f.s. only partially identical with Haeberlin, p.240.",
+        "features": [
+          "ink",
+          "single line",
+          "a left-pointing arrow near the gutter (~[3050,1360,140,40]) links it to the facing-page entry with tick and superscript 'c'"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          350,
+          3080,
+          2290,
+          140
+        ],
+        "kind_hint": "annotation_note",
+        "anchor": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al. ... ff.23-28 of unidentified MS. ...",
+        "features": [
+          "faint pencil",
+          "small cramped hand",
+          "several readings uncertain",
+          "an 'L'-shaped arrow mark follows to the right (~[2970,3120,110,60])",
+          "the mark points toward the facing-page 'Printer change order' entries"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2240,
+          3330,
+          1050,
+          150
+        ],
+        "kind_hint": "annotation_note_with_cancellation",
+        "anchor": "Part of ⟦Yoll[?]⟧",
+        "features": [
+          "pencil",
+          "the second word is struck through and its reading is uncertain",
+          "a long wavy line extends right across the gutter to the facing-page circled number 3"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          335,
+          3970,
+          1460,
+          200
+        ],
+        "kind_hint": "entry",
+        "anchor": "√c.396k. Mañjughoṣa mantra, f.1, inc. ... n.d.: 1:10: Beng. / ff.1-141 inc., in two hands. Oxf. 404.",
+        "features": [
+          "ink",
+          "two lines",
+          "tick before the shelfmark",
+          "date/extent/script statement at the right on the first line",
+          "left-pointing arrows near the gutter (~[3045,4020,180,110]) link it to the facing-page 'c.' entries"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          490,
+          775,
+          20,
+          20
+        ],
+        "description": "small ink dot in upper left area"
+      },
+      {
+        "bbox": [
+          3160,
+          900,
+          40,
+          4000
+        ],
+        "description": "gutter fold with sewing holes/thread marks"
+      }
+    ],
+    "boundary_notes": [
+      "The right portion beyond x≈3180 is the facing fol. 180 (shelfmarks e., d., c., 'Printer change order', circled numbers). It is not transcribed here.",
+      "Faint mirror-image show-through text from the other side of the leaf appears throughout the ruled area. It is not treated as target text.",
+      "The connecting lines in b002, b005 and b006 cross the gutter onto the facing page."
+    ],
+    "uncertainties": [
+      "The cancelled word in b005 is read as 'Yoll' only tentatively.",
+      "The pencil note b004 is faint. Words such as 'Co.', 'Cf. Al.' and the ending 'one misc. f.' are uncertain.",
+      "'f.s.' at the start of b003 is uncertain.",
+      "The superscript 'k' in '396k' in b006 is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "179b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "179b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner; 'b' written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "marginal_annotation_linked_to_facing_entry",
+        "literal_text": "Brahmagītā",
+        "fields": {
+          "title": "Brahmagītā"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, written at an upward slant in the right part of the page.",
+          "A long line runs from beneath the word across the gutter. It ends at the facing-page entry 'e.266(2)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 359,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "e.266(2) Bhramaragītā",
+            "evidence": "A connecting line drawn from the word reaches the facing-page shelfmark line.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The function of the word is unclear. It could be an alternative title or a correction for the facing entry; the page does not say which."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_linked_by_arrow",
+        "literal_text": "f.s. only partially identical with Haeberlin, p.240.",
+        "fields": {
+          "source": "Haeberlin, p.240"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, single line.",
+          "Near the gutter (~[3050,1340,140,40]) a left-pointing arrow with a dash connects to the facing-page ticked entry with superscript c."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 359,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.385(9)a Bhramarāṣṭaka",
+            "evidence": "The arrow from the gutter at the same height points to this note from the facing entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The opening 'f.s.' is uncertain; it could also be read 'J.s.'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "pencil_note_linked_by_mark",
+        "literal_text": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al. [14?] ff. 23-28 of unidentified MS. + one misc. f.",
+        "fields": {
+          "subject": "[Co. on Pakṣadhara's Tattvacintāmaṇyāloka?]",
+          "extent": "ff. 23-28 [?]"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil in a small cramped hand.",
+          "An angular '∠'-type mark follows at ~[2970,3120,110,60].",
+          "A similar '∠' mark appears in the facing-page left margin beside the 'Printer change order' group at c.376d."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 359,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.376d Maṅgalavāda (pencil: section of a ... nyāya ff.1-26)",
+            "evidence": "A matching ∠ mark appears on the facing page at the same height. The facing pencil note mentions nyāya and 'one misc. f.'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'Co.', 'Cf. Al.', '14' and 'one misc. f.' are uncertain.",
+          "'Tattvacintāmaṇyāloka' is read from a faint, cramped hand."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "pencil_note_with_cancellation",
+        "literal_text": "Part of ⟦[Yoll?]⟧",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "The second word is struck through.",
+          "A long wavy line extends right across the gutter to the facing-page circled number 3."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 359,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "③ – d.901(3) Maṅgalastotra",
+            "evidence": "The wavy line ends at circled 3 on the facing page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cancelled word is tentatively read 'Yoll' and may be illegible.",
+          "No completed statement follows the cancellation."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "holding",
+        "subtype": "insertion_entry",
+        "literal_text": "√c. 396k. Mañjughoṣa mantra, f.1, inc.   n.d.: 1:10: Beng.",
+        "fields": {
+          "shelfmark": "c. 396k",
+          "title": "Mañjughoṣa mantra",
+          "date": "n.d.",
+          "extent": "f.1, inc.; 1",
+          "lines": "10",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "A tick precedes the shelfmark.",
+          "The date, extent, lines and script statement stands at the right of the line.",
+          "Near the gutter at ~[3045,4030,100,30] a left-pointing arrow is paired with a right-pointing arrow on the facing page toward e.167(6)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 359,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "e.167(6) Maṅgalāṣṭaka",
+            "evidence": "Paired arrows at the same height suggest this entry is to be inserted in the facing sequence.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The superscript 'k' in '396k' is uncertain.",
+          "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern."
+        ]
+      },
+      {
+        "id": "r007",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_linked_by_arrow",
+        "literal_text": "ff.1-141 inc., in two hands. Oxf. 404.",
+        "fields": {
+          "extent": "ff.1-141 inc.",
+          "source": "Oxf. 404"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, second line beneath r006.",
+          "At the same height a left-pointing arrow (~[3100,4090,180,40]) leads from the facing ticked entry 'c.194'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 359,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.194 Mañjuṣā... n.d.: 141: 14: D",
+            "evidence": "The lower arrow is aligned with this line. The facing entry gives an extent of 141, matching 'ff.1-141'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The line could alternatively continue r006; it is separated here because of the separate arrow and the matching extent."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Marginal word linked by a line to the facing entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Ink note linked by an arrow."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Pencil note with a ∠ mark."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Pencil note with a cancelled word and a wavy linking line."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006",
+          "r007"
+        ],
+        "explanation": "Split into two records. Line 1 is the c.396k holding; line 2 is tied by a separate arrow to facing c.194."
+      }
+    ],
+    "page_annotations": [
+      "Mirror-image show-through from the reverse appears throughout and is not transcribed.",
+      "Facing fol. 180 material to the right of the gutter (x≈3180) is excluded.",
+      "There is a small ink dot at ~[490,775]."
+    ],
+    "unresolved_relationships": [
+      "The exact target of the paired arrows for r006 (e.167(6) or c.194) is uncertain.",
+      "The meaning of 'Brahmagītā' relative to facing 'Bhramaragītā' is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The page number '179' with superscript 'b' and a following point is in the top-left corner. It is correctly recorded. The superscript letter looks like 'b', though the stroke resembles 'ls'."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "'Brahmagītā' is written in ink at an upward slant. A line drawn beneath it runs across the gutter to the facing-page 'e.2..' entry. On the reduced facing overview that entry reads as 'e.266(2) Bhramaragītā'. The shelfmark digits are not securely legible at native scale on this page."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The single ink line reads 'f.s. only partially identical with Haeberlin, p.240.' A left-pointing arrow (~[3059,1325,90,30]) and a dash on the facing side link it to the facing ticked entry. That entry's shelfmark letter appears to be 'f' with a superscript 'c', not simply 'c'."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The faint pencil line ends at ~x2620. It is followed by a '∠' mark at ~[2979,3138,95,40]. Several words are uncertain, but the candidate literal marked only one of them."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The pencil reads 'Part of' followed by a struck-through word. A long wavy line runs across the gutter and stops just before facing circled 3."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006",
+          "r007"
+        ],
+        "finding": "There are two ink lines. The split into a c.396k holding and a second line linked to facing c.194 is plausible but not secure. The left arrows sit at ~y4056 and ~y4110 near the gutter. The right-pointing arrow (~[3215,4030,90,30]) is on the facing page."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "literal_text",
+        "before": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al. [14?] ff. 23-28 of unidentified MS. + one misc. f.",
+        "after": "Prob. part of [Co.?] on Pakṣadhara's Tattvacintāmaṇyāloka. [Cf. Al.?] [14?] ff. 23-28 of unidentified MS. [+?] [one misc.?] f.",
+        "reason": "The pencil is faint and cramped. The candidate's own uncertainty list flags these words, but the literal text presented them as certain. The '+' could also be '&' or 'r'.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 359,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.385(9)a Bhramarāṣṭaka",
+            "evidence": "The arrow from the gutter at the same height points to this note from the facing entry.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 359,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ f[with superscript c].385(9)ª Bhramarāṣṭaka [facing reading from reduced image]",
+            "evidence": "A left arrow on this page (~[3059,1325,90,30]) and a dash on the facing page lie at the same height as the facing ticked entry. That entry's shelfmark shows 'f' with a superscript 'c'; it may be a correction.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The facing shelfmark is not plainly 'c.'. The visible 'f' with superscript 'c' should not be normalized away.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Ink, written at an upward slant in the right part of the page.",
+          "A long line runs from beneath the word across the gutter. It ends at the facing-page entry 'e.266(2)'."
+        ],
+        "after": [
+          "Ink, written at an upward slant in the right part of the page.",
+          "A long line runs from beneath the word across the gutter. It ends at the facing-page entry beginning 'e.2'. On the reduced facing overview this reads as 'e.266(2)'."
+        ],
+        "reason": "Only 'e.2' is visible in the target tiles. The full shelfmark comes from the reduced adjacent image.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r006",
+        "field_path": "uncertainties",
+        "before": [
+          "The superscript 'k' in '396k' is uncertain.",
+          "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern."
+        ],
+        "after": [
+          "The superscript 'k' in '396k' is uncertain.",
+          "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern.",
+          "The title is written with a lowercase-looking initial ('mañjughosa mantra'). An underdot on 's' is not securely visible, so the capitalization and 'ṣ' in the literal are not certain."
+        ],
+        "reason": "In the native tile the initial and the diacritics are not as certain as the literal suggests.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "It is unclear whether 'Brahmagītā' is a correction of, an alternative to, or a cross-reference for facing 'Bhramaragītā'.",
+        "next_check": "Compare at native resolution with the facing fol. 180 entry and any related entries."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The cancelled word is read only tentatively as 'Yoll'. The note is incomplete. It may relate to the facing 'Part of a collection of scraps found in no. 5584' notes.",
+        "next_check": "Use higher-contrast imaging of the struck word and check the facing circled-3 entry d.901(3)."
+      },
+      {
+        "record_id": "r007",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "It is uncertain whether line 2 continues c.396k or annotates facing c.194. Which of the two facing targets (e.167(6) or c.194) the upper arrow refers to is also unresolved.",
+        "next_check": "Trace the arrow heights against the facing native-resolution image."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "Several pencil readings are uncertain. The linkage to facing c.376d depends on matching '∠' marks.",
+        "next_check": "Use enhanced imaging of the pencil and compare with the facing pencil note on c.376d."
+      }
+    ],
+    "boundary_review": "The principal page runs from x≈320 to the gutter at ~x3180. Facing fol. 180 shelfmarks, the 'Printer change order' group and circled numbers lie beyond the gutter and are not transcribed. The connector lines for b002, b003, b005 and b006 cross the gutter. Their attachments are recorded as possible or probable only. Show-through text from the reverse is excluded.",
+    "region_review": {
+      "top": "Page number 179b at top left; nothing else.",
+      "middle": "b002 at upper right and b003 with its arrow. A small ink dot at ~[490,775] and a small dash at ~[660,1018] are non-text marks. Apart from show-through, the rest is blank.",
+      "bottom": "b004, b005 and b006. Below y≈4200 to the page foot there is only show-through and specks.",
+      "left_margin": "No marginal writing.",
+      "right_margin": "Arrows and connector lines near the gutter, attached to b003–b006. Stitching holes appear at the gutter.",
+      "interlinear": "No interlinear additions found beyond the cancellation in b005."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        405,
+        325,
+        130,
+        110
+      ],
+      "kind_hint": "page_number",
+      "anchor": "179b.",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2665,
+        820,
+        800,
+        210
+      ],
+      "kind_hint": "marginal_note_cross_reference",
+      "anchor": "Brahmagītā",
+      "features": [
+        "ink",
+        "written at an angle",
+        "a long connecting line runs from beneath the word across the gutter toward the facing-page entry 'e.2[...]'",
+        "attached by the line to the facing fol. 180 entry"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        420,
+        1330,
+        1460,
+        110
+      ],
+      "kind_hint": "annotation_note",
+      "anchor": "f.s. only partially identical with Haeberlin, p.240.",
+      "features": [
+        "ink",
+        "single line",
+        "a left-pointing arrow near the gutter (~[3050,1360,140,40]) links it to the facing-page entry with tick and superscript 'c'"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        350,
+        3080,
+        2290,
+        140
+      ],
+      "kind_hint": "annotation_note",
+      "anchor": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al. ... ff.23-28 of unidentified MS. ...",
+      "features": [
+        "faint pencil",
+        "small cramped hand",
+        "several readings uncertain",
+        "an 'L'-shaped arrow mark follows to the right (~[2970,3120,110,60])",
+        "the mark points toward the facing-page 'Printer change order' entries"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2240,
+        3330,
+        1050,
+        150
+      ],
+      "kind_hint": "annotation_note_with_cancellation",
+      "anchor": "Part of ⟦Yoll[?]⟧",
+      "features": [
+        "pencil",
+        "the second word is struck through and its reading is uncertain",
+        "a long wavy line extends right across the gutter to the facing-page circled number 3"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        335,
+        3970,
+        1460,
+        200
+      ],
+      "kind_hint": "entry",
+      "anchor": "√c.396k. Mañjughoṣa mantra, f.1, inc. ... n.d.: 1:10: Beng. / ff.1-141 inc., in two hands. Oxf. 404.",
+      "features": [
+        "ink",
+        "two lines",
+        "tick before the shelfmark",
+        "date/extent/script statement at the right on the first line",
+        "left-pointing arrows near the gutter (~[3045,4020,180,110]) link it to the facing-page 'c.' entries"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "179b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner; 'b' written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0358-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "marginal_annotation_linked_to_facing_entry",
+      "literal_text": "Brahmagītā",
+      "fields": {
+        "title": "Brahmagītā"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, written at an upward slant in the right part of the page.",
+        "A long line runs from beneath the word across the gutter. It ends at the facing-page entry beginning 'e.2'. On the reduced facing overview this reads as 'e.266(2)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "e.266(2) Bhramaragītā",
+          "evidence": "A connecting line drawn from the word reaches the facing-page shelfmark line.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The function of the word is unclear. It could be an alternative title or a correction for the facing entry; the page does not say which."
+      ],
+      "stable_id": "css-prod-0358-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_linked_by_arrow",
+      "literal_text": "f.s. only partially identical with Haeberlin, p.240.",
+      "fields": {
+        "source": "Haeberlin, p.240"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, single line.",
+        "Near the gutter (~[3050,1340,140,40]) a left-pointing arrow with a dash connects to the facing-page ticked entry with superscript c."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.385(9)a Bhramarāṣṭaka",
+          "evidence": "The arrow from the gutter at the same height points to this note from the facing entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The opening 'f.s.' is uncertain; it could also be read 'J.s.'."
+      ],
+      "stable_id": "css-prod-0358-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "pencil_note_linked_by_mark",
+      "literal_text": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al. [14?] ff. 23-28 of unidentified MS. + one misc. f.",
+      "fields": {
+        "subject": "[Co. on Pakṣadhara's Tattvacintāmaṇyāloka?]",
+        "extent": "ff. 23-28 [?]"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil in a small cramped hand.",
+        "An angular '∠'-type mark follows at ~[2970,3120,110,60].",
+        "A similar '∠' mark appears in the facing-page left margin beside the 'Printer change order' group at c.376d."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.376d Maṅgalavāda (pencil: section of a ... nyāya ff.1-26)",
+          "evidence": "A matching ∠ mark appears on the facing page at the same height. The facing pencil note mentions nyāya and 'one misc. f.'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'Co.', 'Cf. Al.', '14' and 'one misc. f.' are uncertain.",
+        "'Tattvacintāmaṇyāloka' is read from a faint, cramped hand."
+      ],
+      "stable_id": "css-prod-0358-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "pencil_note_with_cancellation",
+      "literal_text": "Part of ⟦[Yoll?]⟧",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "The second word is struck through.",
+        "A long wavy line extends right across the gutter to the facing-page circled number 3."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "③ – d.901(3) Maṅgalastotra",
+          "evidence": "The wavy line ends at circled 3 on the facing page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cancelled word is tentatively read 'Yoll' and may be illegible.",
+        "No completed statement follows the cancellation."
+      ],
+      "stable_id": "css-prod-0358-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "holding",
+      "subtype": "insertion_entry",
+      "literal_text": "√c. 396k. Mañjughoṣa mantra, f.1, inc.   n.d.: 1:10: Beng.",
+      "fields": {
+        "shelfmark": "c. 396k",
+        "title": "Mañjughoṣa mantra",
+        "date": "n.d.",
+        "extent": "f.1, inc.; 1",
+        "lines": "10",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "A tick precedes the shelfmark.",
+        "The date, extent, lines and script statement stands at the right of the line.",
+        "Near the gutter at ~[3045,4030,100,30] a left-pointing arrow is paired with a right-pointing arrow on the facing page toward e.167(6)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "e.167(6) Maṅgalāṣṭaka",
+          "evidence": "Paired arrows at the same height suggest this entry is to be inserted in the facing sequence.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The superscript 'k' in '396k' is uncertain.",
+        "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern."
+      ],
+      "stable_id": "css-prod-0358-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r007",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_linked_by_arrow",
+      "literal_text": "ff.1-141 inc., in two hands. Oxf. 404.",
+      "fields": {
+        "extent": "ff.1-141 inc.",
+        "source": "Oxf. 404"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, second line beneath r006.",
+        "At the same height a left-pointing arrow (~[3100,4090,180,40]) leads from the facing ticked entry 'c.194'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.194 Mañjuṣā... n.d.: 141: 14: D",
+          "evidence": "The lower arrow is aligned with this line. The facing entry gives an extent of 141, matching 'ff.1-141'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The line could alternatively continue r006; it is separated here because of the separate arrow and the matching extent."
+      ],
+      "stable_id": "css-prod-0358-r007",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al. [14?] ff. 23-28 of unidentified MS. + one misc. f.",
+      "after": "Prob. part of [Co.?] on Pakṣadhara's Tattvacintāmaṇyāloka. [Cf. Al.?] [14?] ff. 23-28 of unidentified MS. [+?] [one misc.?] f.",
+      "reason": "The pencil is faint and cramped. The candidate's own uncertainty list flags these words, but the literal text presented them as certain. The '+' could also be '&' or 'r'.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.385(9)a Bhramarāṣṭaka",
+          "evidence": "The arrow from the gutter at the same height points to this note from the facing entry.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ f[with superscript c].385(9)ª Bhramarāṣṭaka [facing reading from reduced image]",
+          "evidence": "A left arrow on this page (~[3059,1325,90,30]) and a dash on the facing page lie at the same height as the facing ticked entry. That entry's shelfmark shows 'f' with a superscript 'c'; it may be a correction.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The facing shelfmark is not plainly 'c.'. The visible 'f' with superscript 'c' should not be normalized away.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Ink, written at an upward slant in the right part of the page.",
+        "A long line runs from beneath the word across the gutter. It ends at the facing-page entry 'e.266(2)'."
+      ],
+      "after": [
+        "Ink, written at an upward slant in the right part of the page.",
+        "A long line runs from beneath the word across the gutter. It ends at the facing-page entry beginning 'e.2'. On the reduced facing overview this reads as 'e.266(2)'."
+      ],
+      "reason": "Only 'e.2' is visible in the target tiles. The full shelfmark comes from the reduced adjacent image.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "uncertainties",
+      "before": [
+        "The superscript 'k' in '396k' is uncertain.",
+        "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern."
+      ],
+      "after": [
+        "The superscript 'k' in '396k' is uncertain.",
+        "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern.",
+        "The title is written with a lowercase-looking initial ('mañjughosa mantra'). An underdot on 's' is not securely visible, so the capitalization and 'ṣ' in the literal are not certain."
+      ],
+      "reason": "In the native tile the initial and the diacritics are not as certain as the literal suggests.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al. [14?] ff. 23-28 of unidentified MS. + one misc. f.",
+      "after": "Prob. part of [Co.?] on Pakṣadhara's Tattvacintāmaṇyāloka. [Cf. Al.?] [14?] ff. 23-28 of unidentified MS. [+?] one misc. f.",
+      "reason": "The literal text now marks the uncertain readings in the faint pencil.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0358-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.385(9)a Bhramarāṣṭaka",
+          "evidence": "The arrow from the gutter at the same height points to this note from the facing entry.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 359,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ f[with superscript c].385(9)ª Bhramarāṣṭaka [facing reading from reduced image]",
+          "evidence": "A left arrow on this page and a dash on the facing page lie at the same height as the facing ticked entry. That entry's shelfmark shows 'f' with a superscript 'c'; it may be a correction.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The facing shelfmark is not plainly 'c.' and should not be normalized.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0358-focus.parsed.json"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "literal_text",
+      "before": "√c. 396k. Mañjughoṣa mantra, f.1, inc.   n.d.: 1:10: Beng.",
+      "after": "√c. 396k. mañjughosa mantra, f.1, inc.   n.d.: 1:10: Beng.",
+      "reason": "The native tile shows a lowercase-looking initial and no visible underdot.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0358-focus.parsed.json"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "uncertainties",
+      "before": [
+        "The superscript 'k' in '396k' is uncertain.",
+        "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern."
+      ],
+      "after": [
+        "The superscript 'k' in '396k' is uncertain.",
+        "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern.",
+        "The title is written with a lowercase-looking initial ('mañjughosa mantra'). An underdot on 's' is not securely visible, so the capitalization and 'ṣ' are not certain."
+      ],
+      "reason": "Adds the title-reading uncertainty.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0358-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "It is unclear whether 'Brahmagītā' is a correction of, an alternative to, or a cross-reference for facing 'Bhramaragītā'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0358-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The cancelled word is read only tentatively as 'Yoll'. The note is incomplete. It may relate to the facing 'Part of a collection of scraps found in no. 5584' notes.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0358-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "It is uncertain whether line 2 continues c.396k or annotates facing c.194. Which of the two facing targets (e.167(6) or c.194) the upper arrow refers to is also unresolved.",
+      "block_ids": [
+        "b006"
+      ],
+      "record_ids": [
+        "r007"
+      ],
+      "id": "focus-0358-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Several pencil readings are uncertain. The linkage to facing c.376d depends on matching '∠' marks.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0358-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The pencil is faint and cramped. The candidate's own uncertainty list flags these words, but the literal text presented them as certain. The '+' could also be '&' or 'r'. Proposed literal_text: \"Prob. part of [Co.?] on Pakṣadhara's Tattvacintāmaṇyāloka. [Cf. Al.?] [14?] ff. 23-28 of unidentified MS. [+?] [one misc.?] f.\"",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0358-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The facing shelfmark is not plainly 'c.'. The visible 'f' with superscript 'c' should not be normalized away. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 359, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"√ f[with superscript c].385(9)ª Bhramarāṣṭaka [facing reading from reduced image]\", \"evidence\": \"A left arrow on this page (~[3059,1325,90,30]) and a dash on the facing page lie at the same height as the facing ticked entry. That entry's shelfmark shows 'f' with a superscript 'c'; it may be a correction.\", \"certainty\": \"probable\"}]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0358-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "In the native tile the initial and the diacritics are not as certain as the literal suggests. Proposed uncertainties: [\"The superscript 'k' in '396k' is uncertain.\", \"The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern.\", \"The title is written with a lowercase-looking initial ('mañjughosa mantra'). An underdot on 's' is not securely visible, so the capitalization and 'ṣ' in the literal are not certain.\"]",
+      "block_ids": [
+        "b006"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0358-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The function of the word is unclear. It could be an alternative title or a correction for the facing entry; the page does not say which.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0358-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The opening 'f.s.' is uncertain; it could also be read 'J.s.'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0358-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The readings 'Co.', 'Cf. Al.', '14' and 'one misc. f.' are uncertain.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0358-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0358-01",
+        "focus-0358-02",
+        "focus-0358-03",
+        "focus-0358-04",
+        "focus-0358-05",
+        "focus-0358-06",
+        "focus-0358-07",
+        "focus-0358-08",
+        "focus-0358-09",
+        "focus-0358-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0358-01",
+          "source_reading": "Brahmagītā",
+          "certainty": "probable",
+          "evidence": "The native tile at about [2665,820,800,210] shows 'Brahmagi' followed by 'tā' with strokes above, written on a slant. A wavy line runs from below the word to the facing 'e.2…' entry. Nothing on the target page states whether the word is a correction, an alternative title or a cross-reference."
+        },
+        {
+          "issue_id": "focus-0358-02",
+          "source_reading": "Part of ⟦[Yoll?]⟧",
+          "certainty": "uncertain",
+          "evidence": "The pencil reads 'Part of' clearly. It is followed by a word with a horizontal strike that looks like 'Yoll' or 'yoll'. There is no further wording. The wavy line ends at the facing circled 3. Its relation to the facing 'Part of a collection of scraps found in no. 5584' notes is not shown on this page."
+        },
+        {
+          "issue_id": "focus-0358-03",
+          "source_reading": "Line 1: √c. 396k. … n.d.: 1:10: Beng. / Line 2: ff.1-141 inc., in two hands. Oxf. 404.",
+          "certainty": "uncertain",
+          "evidence": "The upper left arrow (about y 4050) is paired with a right arrow across the gutter at the facing e.167(6) height. The lower arrow with a dash (about y 4105) lies at the facing √c.194 height, and line 2 lies at that same height. The facing c.194 gives an extent of 141. Even so, the visible marks do not determine the attachment."
+        },
+        {
+          "issue_id": "focus-0358-04",
+          "source_reading": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al.[?] [?] ff. 23-28 of unidentified MS. [+?] one misc. f.   ∠",
+          "certainty": "uncertain",
+          "evidence": "The pencil is faint and cramped. The '∠' mark at about [2970,3120,110,60] matches a '∠' in the facing left margin near c.376d. The link rests only on that mark resemblance and the same height."
+        },
+        {
+          "issue_id": "focus-0358-05",
+          "source_reading": "Prob. part of [Co.?] on Pakṣadhara's Tattvacintāmaṇyāloka. [Cf. Al.?] [14?] ff. 23-28 of unidentified MS. [+?] one misc. f.",
+          "certainty": "uncertain",
+          "evidence": "'one misc. f.' is reasonably legible in the native tile. 'Co.', 'Cf. Al.', the following numeral and the '+' are not secure."
+        },
+        {
+          "issue_id": "focus-0358-06",
+          "source_reading": "facing: √ f[superscript c] [3?]85(9)ª",
+          "certainty": "probable",
+          "evidence": "The target native tile edge shows a tick, then 'f' with a 'c' written above it. It is not a plain 'c.'."
+        },
+        {
+          "issue_id": "focus-0358-07",
+          "source_reading": "√c. 396[k?]. mañjughosa mantra, f.1, inc.   n.d.: 1:10: Beng.",
+          "certainty": "probable",
+          "evidence": "The title initial looks lowercase. No underdot is securely visible under the 's' of 'ghosa'."
+        },
+        {
+          "issue_id": "focus-0358-08",
+          "source_reading": "Brahmagītā",
+          "certainty": "uncertain",
+          "evidence": "Same as focus-0358-01; the function of the word is not stated on the page."
+        },
+        {
+          "issue_id": "focus-0358-09",
+          "source_reading": "[f.s.?]",
+          "certainty": "uncertain",
+          "evidence": "The first letter has a long descender and could be 'f' or 'J', followed by '.s.' or '.s'."
+        },
+        {
+          "issue_id": "focus-0358-10",
+          "source_reading": "[Co.?] … [Cf. Al.?] [14?] … one misc. f.",
+          "certainty": "uncertain",
+          "evidence": "As in focus-0358-05."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r004",
+          "field_path": "literal_text",
+          "before": "Prob. part of Co. on Pakṣadhara's Tattvacintāmaṇyāloka. Cf. Al. [14?] ff. 23-28 of unidentified MS. + one misc. f.",
+          "after": "Prob. part of [Co.?] on Pakṣadhara's Tattvacintāmaṇyāloka. [Cf. Al.?] [14?] ff. 23-28 of unidentified MS. [+?] one misc. f.",
+          "reason": "The literal text now marks the uncertain readings in the faint pencil.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 359,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√c.385(9)a Bhramarāṣṭaka",
+              "evidence": "The arrow from the gutter at the same height points to this note from the facing entry.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 359,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√ f[with superscript c].385(9)ª Bhramarāṣṭaka [facing reading from reduced image]",
+              "evidence": "A left arrow on this page and a dash on the facing page lie at the same height as the facing ticked entry. That entry's shelfmark shows 'f' with a superscript 'c'; it may be a correction.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The facing shelfmark is not plainly 'c.' and should not be normalized.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r006",
+          "field_path": "literal_text",
+          "before": "√c. 396k. Mañjughoṣa mantra, f.1, inc.   n.d.: 1:10: Beng.",
+          "after": "√c. 396k. mañjughosa mantra, f.1, inc.   n.d.: 1:10: Beng.",
+          "reason": "The native tile shows a lowercase-looking initial and no visible underdot.",
+          "source_block_ids": [
+            "b006"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r006",
+          "field_path": "uncertainties",
+          "before": [
+            "The superscript 'k' in '396k' is uncertain.",
+            "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern."
+          ],
+          "after": [
+            "The superscript 'k' in '396k' is uncertain.",
+            "The fields 'extent 1' and 'lines 10' are interpreted from '1:10' by position in the date:extent:lines:script pattern.",
+            "The title is written with a lowercase-looking initial ('mañjughosa mantra'). An underdot on 's' is not securely visible, so the capitalization and 'ṣ' are not certain."
+          ],
+          "reason": "Adds the title-reading uncertainty.",
+          "source_block_ids": [
+            "b006"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Function of the word remains unresolved."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Opening reading uncertain."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Literal text now flags uncertain readings."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Cancelled word uncertain."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r006",
+            "r007"
+          ],
+          "finding": "Grouping of line 2 uncertain."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0358-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "Function of 'Brahmagītā' relative to facing 'Bhramaragītā' (correction, alternative or cross-reference) is unknown.",
+          "next_check": "Check against other cross-reference practice in the catalogue."
+        },
+        {
+          "issue_id": "focus-0358-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "Same question as focus-0358-01.",
+          "next_check": "Same check as focus-0358-01."
+        },
+        {
+          "issue_id": "focus-0358-02",
+          "record_id": "r005",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "Cancelled word unread; note incomplete; relation to the facing 'scraps' notes unproven.",
+          "next_check": "Examine under higher contrast."
+        },
+        {
+          "issue_id": "focus-0358-03",
+          "record_id": "r007",
+          "block_ids": [
+            "b006"
+          ],
+          "issue": "Attachment of line 2 to c.396k or to facing c.194 is undetermined, as is the upper arrow's target.",
+          "next_check": "Compare arrow alignment on the native facing page."
+        },
+        {
+          "issue_id": "focus-0358-04",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "Linkage to c.376d rests on matching '∠' marks.",
+          "next_check": "Compare the mark shapes and heights natively."
+        },
+        {
+          "issue_id": "focus-0358-05",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "'Co.', 'Cf. Al.', the numeral and '+' remain doubtful.",
+          "next_check": "Re-examine with enhanced contrast."
+        },
+        {
+          "issue_id": "focus-0358-10",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "Same doubtful readings as focus-0358-05.",
+          "next_check": "Same check as focus-0358-05."
+        },
+        {
+          "issue_id": "focus-0358-09",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "'f.s.' or 'J.s.' undetermined.",
+          "next_check": "Compare with this hand's other f and J forms."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "f478511adc0a360732e358f8c696d534731946cf601d4264846dbe57004389da",
+      "bytes": 261152,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8c3965dd563788a4776553b6c475fe42e40b3324c788c282a66b3c60d904c626",
+      "bytes": 323929,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8e23a72a62d8ea49e1f1da2a46d9b8e226b4b3c48f75b7d4f4e6ea7d78ab0400",
+      "bytes": 320308,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c4b9aba9dc4c505d88da4c5164c0edd3f0658c9ad5bb178770101140c2c1c795",
+      "bytes": 315341,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ba5886a5ecd6f98a1f0f511bc94c8b85bbd5f9bce5d555a646f91d791cd84fa0",
+      "bytes": 305361,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e5722a0cb7c6e99611dc8406cde4c94675e5a89f28e836f28e2e2224d51b60bd",
+      "bytes": 336318,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "036a29727de6c4816879801b86aa92095922ea9b8e6bba61e8e2a1eb0a1e74c7",
+      "bytes": 337129,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/52396843-df12-461b-8433-5dd8271ac4b4/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a271ea4b1107516a25f9b26bbc27f81a0034cfb17dea9da484373472de1fa610",
+      "bytes": 252833,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 357,
+      "folio_label": "fol. 179",
+      "page_id": "52396843-df12-461b-8433-5dd8271ac4b4",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/68383562-47bd-4737-9f7d-c7c17ef41291/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "24b3ca311c3019d3e34e4ff8e790d27ad3f6f8d1b84b64aab40410c057a8f3b4",
+      "bytes": 264226,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 359,
+      "folio_label": "fol. 180",
+      "page_id": "68383562-47bd-4737-9f7d-c7c17ef41291",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/68383562-47bd-4737-9f7d-c7c17ef41291/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a813b18852c1518f8d2bf7a343c85a5538e25cfc6e54dfbcd6be062c39c32eba",
+      "bytes": 442113,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 359,
+      "folio_label": "fol. 180",
+      "page_id": "68383562-47bd-4737-9f7d-c7c17ef41291",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/68383562-47bd-4737-9f7d-c7c17ef41291/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ffcdd63b9b34e984e265e763776037e3fd1d4d115900db067776cf479c191534",
+      "bytes": 468856,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 359,
+      "folio_label": "fol. 180",
+      "page_id": "68383562-47bd-4737-9f7d-c7c17ef41291",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ae092467-62b9-49aa-8bef-132896a2b0b5.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "f478511adc0a360732e358f8c696d534731946cf601d4264846dbe57004389da",
+      "bytes": 261152,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8c3965dd563788a4776553b6c475fe42e40b3324c788c282a66b3c60d904c626",
+      "bytes": 323929,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8e23a72a62d8ea49e1f1da2a46d9b8e226b4b3c48f75b7d4f4e6ea7d78ab0400",
+      "bytes": 320308,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c4b9aba9dc4c505d88da4c5164c0edd3f0658c9ad5bb178770101140c2c1c795",
+      "bytes": 315341,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ba5886a5ecd6f98a1f0f511bc94c8b85bbd5f9bce5d555a646f91d791cd84fa0",
+      "bytes": 305361,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e5722a0cb7c6e99611dc8406cde4c94675e5a89f28e836f28e2e2224d51b60bd",
+      "bytes": 336318,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae092467-62b9-49aa-8bef-132896a2b0b5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "036a29727de6c4816879801b86aa92095922ea9b8e6bba61e8e2a1eb0a1e74c7",
+      "bytes": 337129,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/52396843-df12-461b-8433-5dd8271ac4b4/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a271ea4b1107516a25f9b26bbc27f81a0034cfb17dea9da484373472de1fa610",
+      "bytes": 252833,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 357,
+      "folio_label": "fol. 179",
+      "page_id": "52396843-df12-461b-8433-5dd8271ac4b4",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/68383562-47bd-4737-9f7d-c7c17ef41291/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "24b3ca311c3019d3e34e4ff8e790d27ad3f6f8d1b84b64aab40410c057a8f3b4",
+      "bytes": 264226,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 359,
+      "folio_label": "fol. 180",
+      "page_id": "68383562-47bd-4737-9f7d-c7c17ef41291",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

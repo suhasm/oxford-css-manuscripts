@@ -1,0 +1,1236 @@
+{
+  "source_order": 416,
+  "folio_label": "fol. 208b",
+  "page_id": "210a8668-d362-4c65-9dab-ebdd0f5c14d2",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "208b.",
+    "principal_page_bbox": [
+      300,
+      275,
+      2920,
+      4575
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          315,
+          160,
+          115
+        ],
+        "kind_hint": "folio_label_on_pasted_slip",
+        "anchor": "207b.",
+        "features": [
+          "pencil",
+          "top-left corner of the attached slip covering the upper page",
+          "labels the slip as 207b rather than 208b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          1685,
+          1160,
+          1150,
+          115
+        ],
+        "kind_hint": "marginal_note_on_slip",
+        "anchor": "? by Kṛṣṇānanda: not traceable in Oxf. 149.",
+        "features": [
+          "ink",
+          "written on the attached slip",
+          "leftward arrow to its right in the gutter region, apparently linking it to the facing-page entry (✓ d. 366(5)) on fol. 209",
+          "the arrow links the note to a facing-page entry; it does not continue a target-page holding"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          385,
+          1465,
+          150,
+          125
+        ],
+        "kind_hint": "folio_label",
+        "anchor": "208b.",
+        "features": [
+          "pencil",
+          "top-left of the main page area below the slip"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          385,
+          3435,
+          2640,
+          80
+        ],
+        "kind_hint": "entry",
+        "anchor": "✓ d.118(1a) Yājuṣa[?]mantra (?), ff 1-10 unf. Beg.: ... n.d.: 10: 9/10: D",
+        "features": [
+          "tick at left",
+          "shelfmark, title, extent, incipit and date/lines/script statement on one line",
+          "ink",
+          "left and right arrows (← →) at the right edge, near the gutter"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          355,
+          3525,
+          2665,
+          80
+        ],
+        "kind_hint": "entry",
+        "anchor": "v. d. 119(10) Yājuṣa mantra prayoga, Hiraṇyakeśin, ff.1-10. Beg. ... n.d: 10: 9: D.",
+        "features": [
+          "small v-like tick at left",
+          "incipit on the same line",
+          "right-edge arrows ← →"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          345,
+          3600,
+          2680,
+          95
+        ],
+        "kind_hint": "entry",
+        "anchor": "✓ d.122(8) Yājuṣa maitrāvaruṇa or Yajuṣaniruddha[?]... , ff.1-5 with unf. addition. n.d. 5: 9/10: D",
+        "features": [
+          "tick at left",
+          "the 'or' gives an alternative title",
+          "right-edge arrows ← →"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3105,
+          3455,
+          215,
+          175
+        ],
+        "description": "Three pairs of arrows (← →) in the gutter beside entries b004–b006. They point toward both the target entries and the facing page (fol. 209), where an 'add Yājur...' note appears."
+      },
+      {
+        "bbox": [
+          3100,
+          1190,
+          150,
+          40
+        ],
+        "description": "Leftward arrow and dash at the gutter on the slip line of b002."
+      }
+    ],
+    "boundary_notes": [
+      "The upper part of the canvas is covered by an attached or folded slip labelled 207b. Its lower edge is at approximately y≈1450. The main page labelled 208b begins below it.",
+      "The right strip, from x≈3190 onward, belongs to the facing fol. 209. Its d./e. shelfmarks, ticks, the 'See Mantra...' pencil note and the 'add Yājur...' note are not target blocks.",
+      "The gutter arrows straddle the boundary between the target page and the facing page."
+    ],
+    "uncertainties": [
+      "Faint mirrored show-through text is visible on the slip and on the page; it was not treated as text blocks.",
+      "Several words in the incipits of b004–b006 are uncertain. The anchors are approximate.",
+      "The status of the slip (its attachment to this page and its folio labelling as 207b) is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "208b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_label_on_slip",
+        "literal_text": "207b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "Written at the top left of the attached or folded slip that covers the upper part of the page.",
+          "The 'b' is superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The slip is labelled 207b, not 208b. Its original placement and its attachment to this page are uncertain."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_note_on_slip",
+        "literal_text": "? by Kṛṣṇānanda: not traceable in Oxf. 149.",
+        "fields": {
+          "author": "Kṛṣṇānanda"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "Written on the attached slip.",
+          "A leftward arrow and dash (← -) sit in the gutter on the same line, at the level of the facing-page entry '✓ d. 366(5) Yantrapratiṣṭhā'.",
+          "The arrow points toward this note."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 417,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "✓ d. 366(5) Yantrapratiṣṭhā ff.1-3 From the Tantrasāra",
+            "evidence": "The gutter arrow aligns the note with the facing-page entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Kṛṣṇānanda' is a cursive reading; the diacritics are probable.",
+          "The author attribution is queried in the source itself ('?')."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_label",
+        "literal_text": "208b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil.",
+          "At the top left of the main page area, below the slip.",
+          "The 'b' is superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "✓ d.118(1ª) Yājuṣamantra (?), ff 1-10 unf. Beg.: Śambhuṃ Viṣṇuṃ Bhāskaraṃ Varuṇāryāṅgaṇ[?] gaurīm[?]. n.d.: 10: 9/10: D",
+        "fields": {
+          "shelfmark": "d.118(1ª)",
+          "title": "Yājuṣamantra (?)",
+          "extent": "ff 1-10 unf.",
+          "incipit": "Śambhuṃ Viṣṇuṃ Bhāskaraṃ Varuṇāryāṅgaṇ[?] gaurīm[?]",
+          "date": "n.d.",
+          "lines": "9/10",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Tick at left.",
+          "Ink.",
+          "The figure '10' after n.d. is probably a folio count, but it is not assigned as a field.",
+          "Gutter arrows (← →) to the right of the line; see r007."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The tick and the superscript 'a' in the shelfmark are probable readings.",
+          "The incipit words after 'Bhāskaraṃ' are uncertain cursive readings.",
+          "The anusvāra or ṃ endings are uncertain."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "v. d. 119(10) Yājuṣa mantra prayoga, Hiraṇyakeśin, ff.1-10. Beg. adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hotaś cikitvāṃ[?] ukta[?] hotā[?] n.d: 10: 9: D.",
+        "fields": {
+          "shelfmark": "d. 119(10)",
+          "title": "Yājuṣa mantra prayoga",
+          "extent": "ff.1-10",
+          "incipit": "adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hotaś cikitvāṃ[?] ukta[?] hotā[?]",
+          "date": "n.d",
+          "lines": "9",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Small v-like mark at left.",
+          "'Hiraṇyakeśin' follows the title after a comma. It is not confirmed as an author, so it is not entered in the author field.",
+          "Gutter arrows (← →) to the right; see r007."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Most of the incipit wording is uncertain.",
+          "The role of 'Hiraṇyakeśin' (school or author) is unstated.",
+          "'Hiraṇyakeśin' is a probable reading."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "✓ d.122(8) Yājuṣa maitrāvaruṇa or Yajuṣanirūḍhapaśor[?] maitrāvaruṇa, ff.1-5 with unf. addition. n.d. 5: 9/10: D",
+        "fields": {
+          "shelfmark": "d.122(8)",
+          "title": "Yājuṣa maitrāvaruṇa or Yajuṣanirūḍhapaśor[?] maitrāvaruṇa",
+          "extent": "ff.1-5 with unf. addition",
+          "date": "n.d.",
+          "lines": "9/10",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Tick at left.",
+          "'or' introduces an alternative title.",
+          "Gutter arrows (← →) to the right; see r007."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "'Yajuṣanirūḍhapaśor' is uncertain; it may read 'Yajuṣaniṣūḍha-' or similar.",
+          "The vowel marks on 'Yajuṣa' are uncertain."
+        ]
+      },
+      {
+        "id": "r007",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "gutter_arrows",
+        "literal_text": "← → / ← → / ← →",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Three pairs of arrows in the gutter, one beside each of the lines r004 to r006.",
+          "Left-pointing arrows face the target entries; right-pointing arrows face the facing page.",
+          "On the facing page, near the gutter just below them, is a note beginning 'add Yājur...'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 417,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "add Yājur[...] (note near e. 44(6) / f. 69)",
+            "evidence": "The arrows straddle the gutter between the three Yājuṣa entries and the facing-page note.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The exact function of the arrows (insertion or transfer instruction) is not stated."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3105,
+          3455,
+          215,
+          175
+        ],
+        "kind_hint": "gutter_arrows",
+        "anchor": "← →",
+        "features": [
+          "three pairs of arrows",
+          "ink",
+          "beside b004–b006"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3100,
+          1190,
+          150,
+          40
+        ],
+        "kind_hint": "gutter_arrow",
+        "anchor": "← -",
+        "features": [
+          "leftward arrow and dash on the line of b002"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio label on the slip."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Note on the slip, with its gutter arrow b902."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Folio label of the main page."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Holding entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Holding entry."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Holding entry."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r007"
+        ],
+        "explanation": "Gutter arrows."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow linked to the slip note."
+      }
+    ],
+    "page_annotations": [
+      "The upper canvas, to about y≈1450, is covered by an attached or folded slip labelled 207b.",
+      "The middle of the page between the 208b label and the entries is blank apart from mirrored show-through, which was image-reviewed and not transcribed.",
+      "The strip to the right of x≈3190 belongs to facing fol. 209 and was not transcribed."
+    ],
+    "unresolved_relationships": [
+      "It is unclear whether the slip note r002 belongs to fol. 207b, 208b or facing fol. 209 d.366(5).",
+      "The connection of the gutter arrows to the facing-page 'add Yājur...' note is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Pencil '207b.' is at the top left of the attached or folded slip. The record is adequate. The relationship of the slip to fol. 208b remains uncertain."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The ink note on the slip reads '? by Kṛṣṇānanda: not traceable in Oxf. 149.' The literal text matches the image. The reading of the name is cursive and appropriately flagged."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Pencil '208b.' is below the lower edge of the slip."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "This is a single-line holding. The 'mantra' in the title is written with an h-like initial, the same letterform as in b005. The initial of the incipit word looks like a plain 'S'; no acute is clearly visible. The uncertainty list is extended to cover this."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "This is a single-line holding. In the latter part of the incipit, the image looks more like 'hotar chity ukte hotā' than 'hotaś cikitvāṃ ukta hotā'. A revised reading is proposed with uncertainty retained. A comma-like descender below 'prayoga' appears to be punctuation."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "This is a single-line holding with an alternative title introduced by 'or'. A small stroke above the left tick appears to belong to the tick or to the comma of the line above; it is not a separate text."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r007"
+        ],
+        "finding": "Three pairs of ← → arrows sit in the gutter. On the first line the right arrow is longer; the lower pairs are smaller. The facing page has a note beginning 'add Yājur...' just below them."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A leftward arrow and dash sit in the gutter on the line of the slip note. They align with the facing-page entry '← ✓ d. 366(5) Yantrapratiṣṭhā'. Attaching them to r002 as a link is reasonable; the direction of the link remains unresolved."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r005",
+        "field_path": "literal_text",
+        "before": "v. d. 119(10) Yājuṣa mantra prayoga, Hiraṇyakeśin, ff.1-10. Beg. adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hotaś cikitvāṃ[?] ukta[?] hotā[?] n.d: 10: 9: D.",
+        "after": "v. d. 119(10) Yājuṣa mantra prayoga, Hiraṇyakeśin, ff.1-10. Beg. adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hota[r?] chity[?] ukte[?] hotā[?] n.d: 10: 9: D.",
+        "reason": "At native resolution the letterforms after 'hotṛsadanaṃ' look like 'hotar chity ukte hotā' rather than 'hotaś cikitvāṃ ukta'. The cursive remains uncertain.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "fields.incipit",
+        "before": "adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hotaś cikitvāṃ[?] ukta[?] hotā[?]",
+        "after": "adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hota[r?] chity[?] ukte[?] hotā[?]",
+        "reason": "Brings the incipit field into line with the revised literal reading. The reading remains uncertain.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "The tick and the superscript 'a' in the shelfmark are probable readings.",
+          "The incipit words after 'Bhāskaraṃ' are uncertain cursive readings.",
+          "The anusvāra or ṃ endings are uncertain."
+        ],
+        "after": [
+          "The tick and the superscript 'a' in the shelfmark are probable readings.",
+          "The incipit words after 'Bhāskaraṃ' are uncertain cursive readings.",
+          "The anusvāra or ṃ endings are uncertain.",
+          "The initial of the first incipit word appears as a plain 'S'; an acute (Ś) is not clearly visible.",
+          "The 'm' of 'mantra' in the title is written with an h-like form, the same letterform as in d.119(10)."
+        ],
+        "reason": "The diacritic on the incipit initial is not securely visible in the image, and the letterform of the title should be recorded.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b902"
+        ],
+        "issue": "It is unclear whether the slip note belongs to fol. 207b, fol. 208b or facing fol. 209 d.366(5) Yantrapratiṣṭhā. The arrow on fol. 209 lies beside that entry.",
+        "next_check": "Check the physical attachment of the slip and the fol. 207 sequence."
+      },
+      {
+        "record_id": "r007",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The function of the gutter arrows and their relationship to the facing-page note 'add Yājur...' (which appears to continue toward a page reference) are unresolved.",
+        "next_check": "Read the full 'add Yājur...' note on fol. 209 at native resolution."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The incipit words after 'hotṛsadanaṃ' remain uncertain.",
+        "next_check": "Compare with the shelfmark d.119(10) or with other examples of the same hand."
+      }
+    ],
+    "boundary_review": "The slip covers the canvas to about y≈1450 and carries its own label, 207b. The main page, labelled 208b, begins below it. The strip from x≈3190 onward belongs to facing fol. 209: its d./e. shelfmarks, ticks, the pencil 'See Mantra...' note and the 'add Yājur...' note were reviewed and are not target records. The gutter arrows straddle the boundary and are recorded with uncertain relationships.",
+    "region_review": {
+      "top": "The slip carries the pencil label 207b. There is faint mirrored show-through but no other writing.",
+      "middle": "The slip note with its gutter arrow and the 208b label are present. The rest of the middle is blank apart from show-through.",
+      "bottom": "Below the three entries the lined page is blank to the lower edge. There is a faint circular stain but no text.",
+      "left_margin": "Only the ticks of the entries appear. No marginal notes.",
+      "right_margin": "The gutter arrows (b901, b902) are present. The facing-page fragments are excluded.",
+      "interlinear": "No interlinear additions or cancellations found. The small strokes near b005 and b006 are punctuation or parts of ticks."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        315,
+        160,
+        115
+      ],
+      "kind_hint": "folio_label_on_pasted_slip",
+      "anchor": "207b.",
+      "features": [
+        "pencil",
+        "top-left corner of the attached slip covering the upper page",
+        "labels the slip as 207b rather than 208b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        1685,
+        1160,
+        1150,
+        115
+      ],
+      "kind_hint": "marginal_note_on_slip",
+      "anchor": "? by Kṛṣṇānanda: not traceable in Oxf. 149.",
+      "features": [
+        "ink",
+        "written on the attached slip",
+        "leftward arrow to its right in the gutter region, apparently linking it to the facing-page entry (✓ d. 366(5)) on fol. 209",
+        "the arrow links the note to a facing-page entry; it does not continue a target-page holding"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        385,
+        1465,
+        150,
+        125
+      ],
+      "kind_hint": "folio_label",
+      "anchor": "208b.",
+      "features": [
+        "pencil",
+        "top-left of the main page area below the slip"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        385,
+        3435,
+        2640,
+        80
+      ],
+      "kind_hint": "entry",
+      "anchor": "✓ d.118(1a) Yājuṣa[?]mantra (?), ff 1-10 unf. Beg.: ... n.d.: 10: 9/10: D",
+      "features": [
+        "tick at left",
+        "shelfmark, title, extent, incipit and date/lines/script statement on one line",
+        "ink",
+        "left and right arrows (← →) at the right edge, near the gutter"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        355,
+        3525,
+        2665,
+        80
+      ],
+      "kind_hint": "entry",
+      "anchor": "v. d. 119(10) Yājuṣa mantra prayoga, Hiraṇyakeśin, ff.1-10. Beg. ... n.d: 10: 9: D.",
+      "features": [
+        "small v-like tick at left",
+        "incipit on the same line",
+        "right-edge arrows ← →"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        345,
+        3600,
+        2680,
+        95
+      ],
+      "kind_hint": "entry",
+      "anchor": "✓ d.122(8) Yājuṣa maitrāvaruṇa or Yajuṣaniruddha[?]... , ff.1-5 with unf. addition. n.d. 5: 9/10: D",
+      "features": [
+        "tick at left",
+        "the 'or' gives an alternative title",
+        "right-edge arrows ← →"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3105,
+        3455,
+        215,
+        175
+      ],
+      "kind_hint": "gutter_arrows",
+      "anchor": "← →",
+      "features": [
+        "three pairs of arrows",
+        "ink",
+        "beside b004–b006"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3100,
+        1190,
+        150,
+        40
+      ],
+      "kind_hint": "gutter_arrow",
+      "anchor": "← -",
+      "features": [
+        "leftward arrow and dash on the line of b002"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_label_on_slip",
+      "literal_text": "207b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "Written at the top left of the attached or folded slip that covers the upper part of the page.",
+        "The 'b' is superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The slip is labelled 207b, not 208b. Its original placement and its attachment to this page are uncertain."
+      ],
+      "stable_id": "css-prod-0416-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_note_on_slip",
+      "literal_text": "? by Kṛṣṇānanda: not traceable in Oxf. 149.",
+      "fields": {
+        "author": "Kṛṣṇānanda"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "Written on the attached slip.",
+        "A leftward arrow and dash (← -) sit in the gutter on the same line, at the level of the facing-page entry '✓ d. 366(5) Yantrapratiṣṭhā'.",
+        "The arrow points toward this note."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 417,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "✓ d. 366(5) Yantrapratiṣṭhā ff.1-3 From the Tantrasāra",
+          "evidence": "The gutter arrow aligns the note with the facing-page entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Kṛṣṇānanda' is a cursive reading; the diacritics are probable.",
+        "The author attribution is queried in the source itself ('?')."
+      ],
+      "stable_id": "css-prod-0416-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_label",
+      "literal_text": "208b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil.",
+        "At the top left of the main page area, below the slip.",
+        "The 'b' is superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0416-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "✓ d.118(1ª) Yājuṣamantra (?), ff 1-10 unf. Beg.: Śambhuṃ Viṣṇuṃ Bhāskaraṃ Varuṇāryāṅgaṇ[?] gaurīm[?]. n.d.: 10: 9/10: D",
+      "fields": {
+        "shelfmark": "d.118(1ª)",
+        "title": "Yājuṣamantra (?)",
+        "extent": "ff 1-10 unf.",
+        "incipit": "Śambhuṃ Viṣṇuṃ Bhāskaraṃ Varuṇāryāṅgaṇ[?] gaurīm[?]",
+        "date": "n.d.",
+        "lines": "9/10",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Tick at left.",
+        "Ink.",
+        "The figure '10' after n.d. is probably a folio count, but it is not assigned as a field.",
+        "Gutter arrows (← →) to the right of the line; see r007."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The tick and the superscript 'a' in the shelfmark are probable readings.",
+        "The incipit words after 'Bhāskaraṃ' are uncertain cursive readings.",
+        "The anusvāra or ṃ endings are uncertain."
+      ],
+      "stable_id": "css-prod-0416-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "v. d. 119(10) Yājuṣa mantra prayoga, Hiraṇyakeśin, ff.1-10. Beg. adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hotaś cikitvāṃ[?] ukta[?] hotā[?] n.d: 10: 9: D.",
+      "fields": {
+        "shelfmark": "d. 119(10)",
+        "title": "Yājuṣa mantra prayoga",
+        "extent": "ff.1-10",
+        "incipit": "adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hotaś cikitvāṃ[?] ukta[?] hotā[?]",
+        "date": "n.d",
+        "lines": "9",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Small v-like mark at left.",
+        "'Hiraṇyakeśin' follows the title after a comma. It is not confirmed as an author, so it is not entered in the author field.",
+        "Gutter arrows (← →) to the right; see r007."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Most of the incipit wording is uncertain.",
+        "The role of 'Hiraṇyakeśin' (school or author) is unstated.",
+        "'Hiraṇyakeśin' is a probable reading."
+      ],
+      "stable_id": "css-prod-0416-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "✓ d.122(8) Yājuṣa maitrāvaruṇa or Yajuṣanirūḍhapaśor[?] maitrāvaruṇa, ff.1-5 with unf. addition. n.d. 5: 9/10: D",
+      "fields": {
+        "shelfmark": "d.122(8)",
+        "title": "Yājuṣa maitrāvaruṇa or Yajuṣanirūḍhapaśor[?] maitrāvaruṇa",
+        "extent": "ff.1-5 with unf. addition",
+        "date": "n.d.",
+        "lines": "9/10",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Tick at left.",
+        "'or' introduces an alternative title.",
+        "Gutter arrows (← →) to the right; see r007."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "'Yajuṣanirūḍhapaśor' is uncertain; it may read 'Yajuṣaniṣūḍha-' or similar.",
+        "The vowel marks on 'Yajuṣa' are uncertain."
+      ],
+      "stable_id": "css-prod-0416-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r007",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "gutter_arrows",
+      "literal_text": "← → / ← → / ← →",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Three pairs of arrows in the gutter, one beside each of the lines r004 to r006.",
+        "Left-pointing arrows face the target entries; right-pointing arrows face the facing page.",
+        "On the facing page, near the gutter just below them, is a note beginning 'add Yājur...'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 417,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "add Yājur[...] (note near e. 44(6) / f. 69)",
+          "evidence": "The arrows straddle the gutter between the three Yājuṣa entries and the facing-page note.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The exact function of the arrows (insertion or transfer instruction) is not stated."
+      ],
+      "stable_id": "css-prod-0416-r007",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "v. d. 119(10) Yājuṣa mantra prayoga, Hiraṇyakeśin, ff.1-10. Beg. adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hotaś cikitvāṃ[?] ukta[?] hotā[?] n.d: 10: 9: D.",
+      "after": "v. d. 119(10) Yājuṣa mantra prayoga, Hiraṇyakeśin, ff.1-10. Beg. adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hota[r?] chity[?] ukte[?] hotā[?] n.d: 10: 9: D.",
+      "reason": "At native resolution the letterforms after 'hotṛsadanaṃ' look like 'hotar chity ukte hotā' rather than 'hotaś cikitvāṃ ukta'. The cursive remains uncertain.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "fields.incipit",
+      "before": "adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hotaś cikitvāṃ[?] ukta[?] hotā[?]",
+      "after": "adhvaryuṇā kḷpta[?] hotṛsadanaṃ[?] hota[r?] chity[?] ukte[?] hotā[?]",
+      "reason": "Brings the incipit field into line with the revised literal reading. The reading remains uncertain.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "The tick and the superscript 'a' in the shelfmark are probable readings.",
+        "The incipit words after 'Bhāskaraṃ' are uncertain cursive readings.",
+        "The anusvāra or ṃ endings are uncertain."
+      ],
+      "after": [
+        "The tick and the superscript 'a' in the shelfmark are probable readings.",
+        "The incipit words after 'Bhāskaraṃ' are uncertain cursive readings.",
+        "The anusvāra or ṃ endings are uncertain.",
+        "The initial of the first incipit word appears as a plain 'S'; an acute (Ś) is not clearly visible.",
+        "The 'm' of 'mantra' in the title is written with an h-like form, the same letterform as in d.119(10)."
+      ],
+      "reason": "The diacritic on the incipit initial is not securely visible in the image, and the letterform of the title should be recorded.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/210a8668-d362-4c65-9dab-ebdd0f5c14d2.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/210a8668-d362-4c65-9dab-ebdd0f5c14d2/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "2963641e4c462dd346c8ea268df9bf4d3c705db396bddd5a12e5ffa3b3c72d77",
+      "bytes": 266262,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/210a8668-d362-4c65-9dab-ebdd0f5c14d2/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3dfa8eb484d1606df0fca9b295c90a031fe0f5fee400f6bf2169e0825ba2fe28",
+      "bytes": 294681,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/210a8668-d362-4c65-9dab-ebdd0f5c14d2/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3226704e3b1ac2bc989804be178fd3fb939681ee2afe4cb6222219fe345d864d",
+      "bytes": 300023,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/210a8668-d362-4c65-9dab-ebdd0f5c14d2/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d7f71852e59e9797210793140d6a33ef2ead708001eccf5aa7fe07bb0d59e21e",
+      "bytes": 300903,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/210a8668-d362-4c65-9dab-ebdd0f5c14d2/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5cf7a05587a2bc97a98291316e95e57d260c477611daf80d9a920a4f7ade11c3",
+      "bytes": 276100,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/210a8668-d362-4c65-9dab-ebdd0f5c14d2/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "27bfadf65474a492515b83b76bdfb618e5e6f0762a7010581ee35094138fbfc1",
+      "bytes": 348898,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/210a8668-d362-4c65-9dab-ebdd0f5c14d2/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "832ccdfe7bbde5b9fa5756c3195c73889c51aa490618bb9d59cfe40c6bd32e67",
+      "bytes": 341956,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7ff80d11-0c8f-4451-b85d-8bd9af05436c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1254,
+        1500
+      ],
+      "sha256": "2495e46f6417ebe6b41d301a1863a705396e0c1b5fb8610c03c00fcfc5f610c4",
+      "bytes": 279981,
+      "visual_tokens": 2430,
+      "role": "adjacent_context_only",
+      "source_order": 415,
+      "folio_label": "fol. 208",
+      "page_id": "7ff80d11-0c8f-4451-b85d-8bd9af05436c",
+      "native_dimensions": [
+        3419,
+        4089
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7b8919c0-230e-405a-acb3-98a6e82fe75d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8fa4ccb1379a92d03a173e6bc1d5a77490cdca17b0a12a4bd5aac56a9a963666",
+      "bytes": 248054,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 417,
+      "folio_label": "fol. 209",
+      "page_id": "7b8919c0-230e-405a-acb3-98a6e82fe75d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

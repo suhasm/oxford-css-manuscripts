@@ -1,0 +1,1693 @@
+{
+  "source_order": 114,
+  "folio_label": "fol. 57b",
+  "page_id": "2d23dfdb-7c1d-4022-b55a-6f2d691d6af9",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "57b",
+    "principal_page_bbox": [
+      300,
+      275,
+      2880,
+      4570
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          330,
+          130,
+          105
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "57b",
+        "features": [
+          "ink",
+          "top left corner",
+          "the b is written superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          515,
+          1525,
+          1000,
+          130
+        ],
+        "kind_hint": "continuation_or_incipit",
+        "anchor": "Begins  Atha kālaniyamo nāsti",
+        "features": [
+          "ink",
+          "single line",
+          "no shelfmark or heading on this page",
+          "the parent entry is not visible on this page",
+          "the reading kālaniyamo is somewhat uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2715,
+          830,
+          240,
+          140
+        ],
+        "kind_hint": "marginal_pencil_mark",
+        "anchor": "m/ n/",
+        "features": [
+          "very faint pencil",
+          "two short letter-and-slash marks",
+          "right part of the page near the gutter",
+          "reading uncertain"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2915,
+          1420,
+          80,
+          160
+        ],
+        "kind_hint": "marginal_pencil_mark",
+        "anchor": "5/",
+        "features": [
+          "faint pencil",
+          "letter or numeral followed by a slash",
+          "reading uncertain"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2905,
+          1920,
+          70,
+          130
+        ],
+        "kind_hint": "marginal_pencil_mark",
+        "anchor": "c/",
+        "features": [
+          "faint pencil",
+          "reading uncertain"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2925,
+          2610,
+          80,
+          180
+        ],
+        "kind_hint": "marginal_pencil_mark",
+        "anchor": "a/",
+        "features": [
+          "faint pencil",
+          "the a has a short stroke above it",
+          "reading uncertain"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          2570,
+          3230,
+          330,
+          140
+        ],
+        "kind_hint": "marginal_pencil_mark",
+        "anchor": "1/ 1/",
+        "features": [
+          "faint pencil",
+          "two marks",
+          "reading uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          320,
+          640,
+          2850,
+          4150
+        ],
+        "description": "Faint mirrored show-through of the writing on the facing or reverse page (fol. 57) across the ruled area. It is not target text and is not transcribed."
+      },
+      {
+        "bbox": [
+          3190,
+          280,
+          320,
+          4600
+        ],
+        "description": "Strip of the facing page (fol. 58) beyond the gutter: shelfmark fragments ('e. 12', 'f.', 'd.', ticks, 's. Gaṅgāsta...', 'see s. Siddh...', 'ff. 1-156 s...', 'Pt. Balemunu...'). This belongs to the adjacent page and is not a target record."
+      },
+      {
+        "bbox": [
+          300,
+          280,
+          2880,
+          4570
+        ],
+        "description": "Scattered small dots and specks of dirt across the page. They are not text."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x≈3170–3200. All text to the right of it belongs to fol. 58 and is excluded.",
+      "b002 carries no shelfmark or heading on this page. Its parent entry, possibly on a neighbouring page, cannot be determined from this page alone."
+    ],
+    "uncertainties": [
+      "The exact wording of b002 is uncertain, especially kālaniyamo.",
+      "The faint pencil marks (b003–b007) may be tallies or checking marks rather than text. Their readings are tentative.",
+      "It is unclear whether the faint shapes near the right edge are pencil on the target page or show-through from the other side of the leaf."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "57b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "57b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top left corner; the 'b' is written superscript after '57', with a dot or point below it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit_without_parent",
+        "literal_text": "Begins  Atha kālaniyamo nāsti",
+        "fields": {
+          "incipit": "Atha kālaniyamo nāsti"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, a single line on a ruled line in the upper part of the page, indented from the left edge.",
+          "There is no shelfmark, title, date or extent on this page.",
+          "A small dot follows at the right, about x≈1675. It may be a speck rather than punctuation."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 113,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 947 (6) Gaṅgāsahasranāma ... Begins: Asya śrī annapūrṇā...",
+            "evidence": "57b is the verso following fol. 57. Its only entry text is an isolated 'Begins' line, possibly belonging to an entry on fol. 57 or fol. 58. The images show no explicit linking mark.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'kālaniyamo' is somewhat uncertain; 'kālaniyamo' is the best reading of the letters.",
+          "The parent entry cannot be determined from this page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "m/ n/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Very faint pencil, two short letter-and-slash marks to the right of centre, at about y≈840–970."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading is tentative. These may be tally or checking marks.",
+          "They could be show-through, but the strokes appear unmirrored and of pencil character."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "[5?]/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, a character followed by a slash, near the gutter side."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The character might be '5', 's' or 'ś'."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "c/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, a character followed by a slash."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The reading 'c' is tentative."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "ā/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil 'a' with a short stroke above it, followed by a long slash."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is unclear whether the stroke above is a macron or a separate mark. The reading is tentative."
+        ]
+      },
+      {
+        "id": "r007",
+        "block_ids": [
+          "b007"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "1/ 1/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, two marks side by side at about y≈3240–3370."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The first could be read 'm/' or 'n/'. The readings are tentative."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Isolated incipit line. Its parent entry is not on this page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Faint pencil marks with no attachment to any record."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Faint pencil mark."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Faint pencil mark."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Faint pencil mark."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r007"
+        ],
+        "explanation": "Faint pencil marks."
+      }
+    ],
+    "page_annotations": [
+      "Mirrored show-through of the writing on the other side of the leaf is visible across the ruled area. It is not transcribed.",
+      "The strip beyond the gutter (x≳3170) belongs to fol. 58 and is excluded.",
+      "There are scattered dirt specks, which are not text.",
+      "The bottom area was reviewed. It shows only show-through and no target-page note."
+    ],
+    "unresolved_relationships": [
+      "The parent holding for 'Begins  Atha kālaniyamo nāsti' (b002) cannot be identified from this page. It may belong to an entry on fol. 57 or fol. 58.",
+      "The function of the pencil marks b003–b007 (tallies or checking marks) and any relation they have to entries on facing pages are unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The ink folio number at the top left (native ≈390–515, 330–435) reads '57' with a superscript 'b' and a point below it. This matches r001."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single ink line on a ruled line (native ≈520–1515, y≈1560–1655) reads 'Begins  Atha kālaniyamo nāsti'. A detached dot follows at x≈1675. The letters support the candidate's reading, but the 'kālaniyamo' cluster stays tentative as given. No shelfmark, title, extent or date appears anywhere on the page."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "There are two very faint pencil letter-and-slash marks at native ≈2715–2950, y≈840–970. The 'm/ n/' reading is plausible and remains tentative."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A faint pencil mark appears at native ≈2915–3005, y≈1415–1595. The candidate's '[5?]/' properly keeps the uncertainty."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "A faint pencil 'c/' appears at native ≈2910–2960, y≈1920–2045. The reading is tentative."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "A faint pencil 'a' with a short stroke above it and a long slash appears at native ≈2925–3005, y≈2605–2790. The candidate's literal 'ā/' presents the stroke as a certain macron, which the source does not secure."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r007"
+        ],
+        "finding": "Two faint pencil marks appear at native ≈2575–2890, y≈3245–3370. The second shows more than one upright stroke before the slash. The literal '1/ 1/' is stated too certainly."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r006",
+        "field_path": "literal_text",
+        "before": "ā/",
+        "after": "[ā?]/",
+        "reason": "It is not secure that the short stroke above the 'a' is a macron. The candidate's own uncertainties say so, so the literal should not assert 'ā'.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r007",
+        "field_path": "literal_text",
+        "before": "1/ 1/",
+        "after": "[1?]/ [1?]/",
+        "reason": "Both marks are very faint, and the second appears to have additional upright stroke(s). The readings are tentative and should be bracketed as uncertain.",
+        "source_block_ids": [
+          "b007"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r007",
+        "field_path": "uncertainties",
+        "before": [
+          "The first could be read 'm/' or 'n/'. The readings are tentative."
+        ],
+        "after": [
+          "The first could be read 'm/' or 'n/'. The readings are tentative.",
+          "The second mark appears to have more than one upright stroke before the slash (possibly '11/' or 'u/'). The reading is unresolved."
+        ],
+        "reason": "The tile shows extra strokes in the second mark.",
+        "source_block_ids": [
+          "b007"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The parent holding of the isolated 'Begins' line is not identifiable. The candidate's possible attachment to d. 947 (6) on fol. 57 has no supporting link mark. The incipit wording differs from that entry's recorded 'Begins: Asya śrī …'. Fol. 58 shows no link either.",
+        "next_check": "Check the catalogue's conventions for verso additions, and look for any corresponding caret or reference mark on fols. 57 and 58."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b003",
+          "b004",
+          "b005",
+          "b006",
+          "b007"
+        ],
+        "issue": "The function of the pencil letter-slash marks (tallies, checking or allocation marks) and any correspondence to entries on the facing pages are unknown. Faint matching shapes appear in the left strip of the fol. 58 image, probably the same marks seen across the opening.",
+        "next_check": "Compare the marks with the shelfmark-letter series (e, f, d, b) on fol. 58 under higher contrast."
+      }
+    ],
+    "boundary_review": "The gutter lies at x≈3170–3200. Ink beyond it ('e. 12', 'f.', 'e.', 'd.', 's. Gaṅgāsta…', ticks, 'see s. Siddh…', 'ff. 1-156 s…', 'Pt. Balemuku…') belongs to fol. 58 and is correctly excluded. Mirrored show-through of the fol. 57 entries, including the d. 947 (6) block near the bottom at y≈4600–4800, is not target text. No target-page text crosses the gutter.",
+    "region_review": {
+      "top": "Only the folio number '57b' is present. The rest of the top area is blank apart from specks.",
+      "middle": "The single ink 'Begins' line is at y≈1600. The remainder shows only show-through and dirt specks.",
+      "bottom": "Reviewed in the native tiles. There is mirrored show-through of the fol. 57 bottom entry and specks, but no target-page ink or pencil note.",
+      "left_margin": "No writing. The large dot at about (395, 2924) is a speck.",
+      "right_margin": "Five faint pencil letter-slash marks (b003–b007) lie just left of the gutter. All are captured.",
+      "interlinear": "No interlinear additions or cancellations are found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        330,
+        130,
+        105
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "57b",
+      "features": [
+        "ink",
+        "top left corner",
+        "the b is written superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        515,
+        1525,
+        1000,
+        130
+      ],
+      "kind_hint": "continuation_or_incipit",
+      "anchor": "Begins  Atha kālaniyamo nāsti",
+      "features": [
+        "ink",
+        "single line",
+        "no shelfmark or heading on this page",
+        "the parent entry is not visible on this page",
+        "the reading kālaniyamo is somewhat uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2715,
+        830,
+        240,
+        140
+      ],
+      "kind_hint": "marginal_pencil_mark",
+      "anchor": "m/ n/",
+      "features": [
+        "very faint pencil",
+        "two short letter-and-slash marks",
+        "right part of the page near the gutter",
+        "reading uncertain"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2915,
+        1420,
+        80,
+        160
+      ],
+      "kind_hint": "marginal_pencil_mark",
+      "anchor": "5/",
+      "features": [
+        "faint pencil",
+        "letter or numeral followed by a slash",
+        "reading uncertain"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2905,
+        1920,
+        70,
+        130
+      ],
+      "kind_hint": "marginal_pencil_mark",
+      "anchor": "c/",
+      "features": [
+        "faint pencil",
+        "reading uncertain"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2925,
+        2610,
+        80,
+        180
+      ],
+      "kind_hint": "marginal_pencil_mark",
+      "anchor": "a/",
+      "features": [
+        "faint pencil",
+        "the a has a short stroke above it",
+        "reading uncertain"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        2570,
+        3230,
+        330,
+        140
+      ],
+      "kind_hint": "marginal_pencil_mark",
+      "anchor": "1/ 1/",
+      "features": [
+        "faint pencil",
+        "two marks",
+        "reading uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "57b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top left corner; the 'b' is written superscript after '57', with a dot or point below it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0114-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit_without_parent",
+      "literal_text": "Begins  Atha kālaniyamo nāsti",
+      "fields": {
+        "incipit": "Atha kālaniyamo nāsti"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, a single line on a ruled line in the upper part of the page, indented from the left edge.",
+        "There is no shelfmark, title, date or extent on this page.",
+        "A small dot follows at the right, about x≈1675. It may be a speck rather than punctuation."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 113,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 947 (6) Gaṅgāsahasranāma ... Begins: Asya śrī annapūrṇā...",
+          "evidence": "57b is the verso following fol. 57. Its only entry text is an isolated 'Begins' line, possibly belonging to an entry on fol. 57 or fol. 58. The images show no explicit linking mark.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'kālaniyamo' is somewhat uncertain; 'kālaniyamo' is the best reading of the letters.",
+        "The parent entry cannot be determined from this page."
+      ],
+      "stable_id": "css-prod-0114-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "m/ n/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Very faint pencil, two short letter-and-slash marks to the right of centre, at about y≈840–970."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading is tentative. These may be tally or checking marks.",
+        "They could be show-through, but the strokes appear unmirrored and of pencil character."
+      ],
+      "stable_id": "css-prod-0114-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "[5?]/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, a character followed by a slash, near the gutter side."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The character might be '5', 's' or 'ś'."
+      ],
+      "stable_id": "css-prod-0114-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "c/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, a character followed by a slash."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The reading 'c' is tentative."
+      ],
+      "stable_id": "css-prod-0114-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "ā/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil 'a' with a short stroke above it, followed by a long slash."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unclear whether the stroke above is a macron or a separate mark. The reading is tentative."
+      ],
+      "stable_id": "css-prod-0114-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r007",
+      "block_ids": [
+        "b007"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "1/ 1/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, two marks side by side at about y≈3240–3370."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The first could be read 'm/' or 'n/'. The readings are tentative."
+      ],
+      "stable_id": "css-prod-0114-r007",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r006",
+      "field_path": "literal_text",
+      "before": "ā/",
+      "after": "[ā?]/",
+      "reason": "It is not secure that the short stroke above the 'a' is a macron. The candidate's own uncertainties say so, so the literal should not assert 'ā'.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r007",
+      "field_path": "literal_text",
+      "before": "1/ 1/",
+      "after": "[1?]/ [1?]/",
+      "reason": "Both marks are very faint, and the second appears to have additional upright stroke(s). The readings are tentative and should be bracketed as uncertain.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r007",
+      "field_path": "uncertainties",
+      "before": [
+        "The first could be read 'm/' or 'n/'. The readings are tentative."
+      ],
+      "after": [
+        "The first could be read 'm/' or 'n/'. The readings are tentative.",
+        "The second mark appears to have more than one upright stroke before the slash (possibly '11/' or 'u/'). The reading is unresolved."
+      ],
+      "reason": "The tile shows extra strokes in the second mark.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "literal_text",
+      "before": "ā/",
+      "after": "[ā?]/",
+      "reason": "The stroke above the 'a' is not securely a macron.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0114-focus.parsed.json"
+    },
+    {
+      "record_id": "r007",
+      "field_path": "literal_text",
+      "before": "1/ 1/",
+      "after": "[1?]/ [1?]/",
+      "reason": "Both marks are very faint and their readings are tentative.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0114-focus.parsed.json"
+    },
+    {
+      "record_id": "r007",
+      "field_path": "uncertainties",
+      "before": [
+        "The first could be read 'm/' or 'n/'. The readings are tentative."
+      ],
+      "after": [
+        "The first could be read 'm/' or 'n/'. The readings are tentative.",
+        "The second mark appears to have more than one upright stroke before the slash (possibly '11/' or 'u/'). The reading is unresolved."
+      ],
+      "reason": "The tile shows extra strokes in the second mark.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0114-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The parent holding of the isolated 'Begins' line is not identifiable. The candidate's possible attachment to d. 947 (6) on fol. 57 has no supporting link mark. The incipit wording differs from that entry's recorded 'Begins: Asya śrī …'. Fol. 58 shows no link either.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0114-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The function of the pencil letter-slash marks (tallies, checking or allocation marks) and any correspondence to entries on the facing pages are unknown. Faint matching shapes appear in the left strip of the fol. 58 image, probably the same marks seen across the opening.",
+      "block_ids": [
+        "b003",
+        "b004",
+        "b005",
+        "b006",
+        "b007"
+      ],
+      "record_ids": [
+        "r003",
+        "r004",
+        "r005",
+        "r006",
+        "r007"
+      ],
+      "id": "focus-0114-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "It is not secure that the short stroke above the 'a' is a macron. The candidate's own uncertainties say so, so the literal should not assert 'ā'. Proposed literal_text: \"[ā?]/\"",
+      "block_ids": [
+        "b006"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0114-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "Both marks are very faint, and the second appears to have additional upright stroke(s). The readings are tentative and should be bracketed as uncertain. Proposed literal_text: \"[1?]/ [1?]/\"",
+      "block_ids": [
+        "b007"
+      ],
+      "record_ids": [
+        "r007"
+      ],
+      "id": "focus-0114-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The tile shows extra strokes in the second mark. Proposed uncertainties: [\"The first could be read 'm/' or 'n/'. The readings are tentative.\", \"The second mark appears to have more than one upright stroke before the slash (possibly '11/' or 'u/'). The reading is unresolved.\"]",
+      "block_ids": [
+        "b007"
+      ],
+      "record_ids": [
+        "r007"
+      ],
+      "id": "focus-0114-05"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'kālaniyamo' is somewhat uncertain; 'kālaniyamo' is the best reading of the letters.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0114-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The parent entry cannot be determined from this page.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0114-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading is tentative. These may be tally or checking marks.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0114-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "They could be show-through, but the strokes appear unmirrored and of pencil character.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0114-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The character might be '5', 's' or 'ś'.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0114-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0114-01",
+        "focus-0114-02",
+        "focus-0114-03",
+        "focus-0114-04",
+        "focus-0114-05",
+        "focus-0114-06",
+        "focus-0114-07",
+        "focus-0114-08",
+        "focus-0114-09",
+        "focus-0114-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0114-01",
+          "source_reading": "Begins  Atha kālaniyamo nāsti",
+          "certainty": "probable",
+          "evidence": "In tile [0,0], the line is a single ink line at about y≈1570–1650. It carries no shelfmark, arrow, bracket or link mark. On fol. 57, the d. 947 (6) entry reads 'Begins: Asya śrī annapūrṇā…', which is different wording, and that page shows no reference to 57b. The parent cannot be identified."
+        },
+        {
+          "issue_id": "focus-0114-02",
+          "source_reading": "m/ n/ ; [5?]/ ; c/ ; [ā?]/ ; [1?]/ [1?]/",
+          "certainty": "uncertain",
+          "evidence": "These are faint pencil letter-plus-slash marks in the right part of 57b, near the gutter, at y≈820–3380. The left strip of the fol. 58 image shows this same page edge, so the shapes there are these marks, not separate fol. 58 marks. No correspondence to particular fol. 58 entries is demonstrable. Their function is unknown."
+        },
+        {
+          "issue_id": "focus-0114-03",
+          "source_reading": "[ā?]/",
+          "certainty": "uncertain",
+          "evidence": "In tile [1604,1608] at about x 1325–1400, y 1000–1180, there is a small 'a' with a short separate stroke above it and a long slash. Whether the stroke is a macron is not determinable."
+        },
+        {
+          "issue_id": "focus-0114-04",
+          "source_reading": "[1?]/ [1?]/",
+          "certainty": "uncertain",
+          "evidence": "In tiles [1604,1608] and [1604,3216], two very faint marks lie at about canvas y 3230–3375. The first has a small form at its foot. The second seems to have more than one upright stroke before the slash."
+        },
+        {
+          "issue_id": "focus-0114-05",
+          "source_reading": "second mark: upright stroke(s) + slash, possibly 11/ or u/",
+          "certainty": "uncertain",
+          "evidence": "The same tiles show extra upright strokes to the left of the second slash."
+        },
+        {
+          "issue_id": "focus-0114-06",
+          "source_reading": "kālaniyamo",
+          "certainty": "probable",
+          "evidence": "The letter sequence k-ā-l-a-n-i-y-a-m-o is visible in ink. The 'n' and the 'ni' minims are slightly ambiguous."
+        },
+        {
+          "issue_id": "focus-0114-07",
+          "source_reading": "no parent heading or shelfmark on 57b",
+          "certainty": "secure",
+          "evidence": "The full-page review shows only the folio number, the Begins line, faint pencil marks and show-through."
+        },
+        {
+          "issue_id": "focus-0114-08",
+          "source_reading": "m/ n/",
+          "certainty": "uncertain",
+          "evidence": "In tile [1604,0] at x 1115–1345, y 820–965, the first mark is an m-like form with a slash. The second is an n- or u-like form with a long slash."
+        },
+        {
+          "issue_id": "focus-0114-09",
+          "source_reading": "pencil strokes, not mirrored",
+          "certainty": "probable",
+          "evidence": "The strokes are grey pencil marks with forward slashes. They are distinct from the fainter mirrored ink show-through elsewhere on the page."
+        },
+        {
+          "issue_id": "focus-0114-10",
+          "source_reading": "[5?]/",
+          "certainty": "uncertain",
+          "evidence": "In tile [1604,0] at x≈1315–1395, y≈1410–1570, there is an S- or 5-like curved form followed by a slash."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r006",
+          "field_path": "literal_text",
+          "before": "ā/",
+          "after": "[ā?]/",
+          "reason": "The stroke above the 'a' is not securely a macron.",
+          "source_block_ids": [
+            "b006"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r007",
+          "field_path": "literal_text",
+          "before": "1/ 1/",
+          "after": "[1?]/ [1?]/",
+          "reason": "Both marks are very faint and their readings are tentative.",
+          "source_block_ids": [
+            "b007"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r007",
+          "field_path": "uncertainties",
+          "before": [
+            "The first could be read 'm/' or 'n/'. The readings are tentative."
+          ],
+          "after": [
+            "The first could be read 'm/' or 'n/'. The readings are tentative.",
+            "The second mark appears to have more than one upright stroke before the slash (possibly '11/' or 'u/'). The reading is unresolved."
+          ],
+          "reason": "The tile shows extra strokes in the second mark.",
+          "source_block_ids": [
+            "b007"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number 57 with superscript b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Single Begins line. No parent entry or link mark is visible."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Faint pencil marks."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Faint pencil mark."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Faint pencil mark."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "Faint pencil mark. The macron is uncertain."
+        },
+        {
+          "block_id": "b007",
+          "status": "represented",
+          "record_ids": [
+            "r007"
+          ],
+          "finding": "Two faint pencil marks."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0114-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The parent holding of the isolated Begins line is unknown. No link mark is visible on 57b, fol. 57 or fol. 58.",
+          "next_check": "Compare with the physical volume or catalogue cards for an entry whose incipit is 'Atha kālaniyamo nāsti'."
+        },
+        {
+          "issue_id": "focus-0114-02",
+          "record_id": null,
+          "block_ids": [
+            "b003",
+            "b004",
+            "b005",
+            "b006",
+            "b007"
+          ],
+          "issue": "The function of the pencil letter-slash marks is unknown, and no correspondence to facing-page entries is established.",
+          "next_check": "Examine the original page under raking light and compare the marks' vertical positions with fol. 58 rows."
+        },
+        {
+          "issue_id": "focus-0114-04",
+          "record_id": "r007",
+          "block_ids": [
+            "b007"
+          ],
+          "issue": "The readings of both faint marks remain tentative.",
+          "next_check": "Check the original at higher resolution or under raking light."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "be278b1f3e9627f9f542533c55cfbe10609389c6584f65ff111dc871a43763cc",
+      "bytes": 244231,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "16d6ea3e93321041b1079d151397d0702f5b0c2195232ff945cad712155f2af2",
+      "bytes": 295466,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "82210cb29443c139b235fee19d16c6149d1cf490fb5edb60b1cd18c7b84684b1",
+      "bytes": 289599,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6d90e0e292d025b985b1724eb3cdd788cf7d0e4c9f694101f4991ddfe8e49cef",
+      "bytes": 289698,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1e4abe40c80eecb5c893103d03c7ac771663e15b36082372e7c7b2bc75dc40b9",
+      "bytes": 278776,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "af0085541f8675cff05fc4c454629008ef0a81f72363112f5f06cbb4a741704d",
+      "bytes": 308117,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4a62f20f-646a-4cfe-96b5-5c1b25f73040/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        993,
+        1500
+      ],
+      "sha256": "d6d5d01e536e25696f0bc623a8dd33db366b1d5b77817824efdac6066eee12ad",
+      "bytes": 268449,
+      "visual_tokens": 1944,
+      "role": "adjacent_context_only",
+      "source_order": 113,
+      "folio_label": "fol. 57",
+      "page_id": "4a62f20f-646a-4cfe-96b5-5c1b25f73040",
+      "native_dimensions": [
+        3389,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cc35987f-d0e9-4a27-a10f-ad2a74c7d9be/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b77c46b4a864a96bc28dd54dc9a901be9e763e900ece69e102e6fa7a8ac4ad98",
+      "bytes": 272423,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 115,
+      "folio_label": "fol. 58",
+      "page_id": "cc35987f-d0e9-4a27-a10f-ad2a74c7d9be",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4a62f20f-646a-4cfe-96b5-5c1b25f73040/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "db0189be1eeabe1555e1977fd9aeba3543f6c6838d0801c3628ce8d027858809",
+      "bytes": 414949,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 113,
+      "folio_label": "fol. 57",
+      "page_id": "4a62f20f-646a-4cfe-96b5-5c1b25f73040",
+      "native_dimensions": [
+        3389,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4a62f20f-646a-4cfe-96b5-5c1b25f73040/1485,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "33ab29a159019322c2392b8592322884ab17ff5682628ad9a1522992f06f145f",
+      "bytes": 456827,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1485,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 113,
+      "folio_label": "fol. 57",
+      "page_id": "4a62f20f-646a-4cfe-96b5-5c1b25f73040",
+      "native_dimensions": [
+        3389,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "be278b1f3e9627f9f542533c55cfbe10609389c6584f65ff111dc871a43763cc",
+      "bytes": 244231,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "16d6ea3e93321041b1079d151397d0702f5b0c2195232ff945cad712155f2af2",
+      "bytes": 295466,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "82210cb29443c139b235fee19d16c6149d1cf490fb5edb60b1cd18c7b84684b1",
+      "bytes": 289599,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6d90e0e292d025b985b1724eb3cdd788cf7d0e4c9f694101f4991ddfe8e49cef",
+      "bytes": 289698,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1e4abe40c80eecb5c893103d03c7ac771663e15b36082372e7c7b2bc75dc40b9",
+      "bytes": 278776,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cec121ca2b722e8206e42786ec2c277df7e33b5f1042a9fb4a79ae8c8753a861",
+      "bytes": 296200,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2d23dfdb-7c1d-4022-b55a-6f2d691d6af9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "af0085541f8675cff05fc4c454629008ef0a81f72363112f5f06cbb4a741704d",
+      "bytes": 308117,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4a62f20f-646a-4cfe-96b5-5c1b25f73040/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        993,
+        1500
+      ],
+      "sha256": "d6d5d01e536e25696f0bc623a8dd33db366b1d5b77817824efdac6066eee12ad",
+      "bytes": 268449,
+      "visual_tokens": 1944,
+      "role": "adjacent_context_only",
+      "source_order": 113,
+      "folio_label": "fol. 57",
+      "page_id": "4a62f20f-646a-4cfe-96b5-5c1b25f73040",
+      "native_dimensions": [
+        3389,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cc35987f-d0e9-4a27-a10f-ad2a74c7d9be/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b77c46b4a864a96bc28dd54dc9a901be9e763e900ece69e102e6fa7a8ac4ad98",
+      "bytes": 272423,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 115,
+      "folio_label": "fol. 58",
+      "page_id": "cc35987f-d0e9-4a27-a10f-ad2a74c7d9be",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1097 @@
+{
+  "source_order": 4,
+  "folio_label": "fol. 2b",
+  "page_id": "056df809-5b40-40b4-bdab-e11debae1402",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "2b",
+    "principal_page_bbox": [
+      305,
+      255,
+      2835,
+      4620
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          395,
+          340,
+          100,
+          90
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "2b",
+        "features": [
+          "top-left corner",
+          "pen; 'b' written small and raised"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          840,
+          1550,
+          1330,
+          120
+        ],
+        "kind_hint": "note_continuation",
+        "anchor": "Introd. as in Weber, II, 1453, then different text.",
+        "features": [
+          "indented note line with no shelfmark",
+          "'II' written as a roman numeral with overbar/underbar",
+          "left-pointing arrow in the right margin near the gutter (x≈3020, y≈1595) on the same line",
+          "likely linked by arrows to an entry on facing fol. 3; parent not on this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          355,
+          1780,
+          2380,
+          110
+        ],
+        "kind_hint": "entry",
+        "anchor": "✓ d. 169(1) Agnisaṃdhāna, ff. 1-4 inc., different recension of Madras Tri. 61(2)   n.d.: 4:10: D",
+        "features": [
+          "tick before shelfmark",
+          "extent and date fields 'n.d.: 4 : 10 : D'",
+          "left-pointing arrow in the right margin (x≈3000-3085, y≈1825) toward the gutter"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          345,
+          2130,
+          1545,
+          240
+        ],
+        "kind_hint": "entry",
+        "anchor": "✓d. 117(10). Do., Hiraṇyakeśin school, ff. 1-9.   n.d.: 9: 7/9: D",
+        "features": [
+          "two ticks: one before 'd.' and a fainter separate tick above it at about x 430-520, y 2140-2265",
+          "ditto 'Do.' referring to the preceding entry",
+          "'7/9' is possibly an overwritten or alternative figure; reading uncertain",
+          "left-pointing arrow in the right margin (x≈2985-3085, y≈2325)"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3015,
+          1580,
+          80,
+          40
+        ],
+        "description": "Small left-pointing arrow near the gutter beside b002."
+      },
+      {
+        "bbox": [
+          2995,
+          1805,
+          95,
+          45
+        ],
+        "description": "Left-pointing arrow near the gutter beside b003. It corresponds with a right-pointing arrow on facing fol. 3."
+      },
+      {
+        "bbox": [
+          2980,
+          2305,
+          105,
+          45
+        ],
+        "description": "Left-pointing arrow near the gutter beside b004. It corresponds with a right-pointing arrow on facing fol. 3."
+      },
+      {
+        "bbox": [
+          300,
+          600,
+          2840,
+          4200
+        ],
+        "description": "Scattered specks and dust dots on the ruled paper. These are not writing."
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the canvas beyond the gutter (x>~3140) shows facing fol. 3. Its marks are not target-page records: ticks, 'd.' and 'e.' shelfmark fragments, a long bracket line, a right-pointing arrow, 'See s. Prāyaśc…' and a faint '9'/'?' near the bottom.",
+      "The arrows on this page point toward the facing page and appear to link b002 to b004 with fol. 3 entries."
+    ],
+    "uncertainties": [
+      "The reading of 'Agnisaṃdhāna' in b003 is uncertain (diacritics unclear).",
+      "The '7/9' in b004 may be an overwritten correction.",
+      "The 'inc.' abbreviation in b003 is read from a cramped form.",
+      "Which entry b002 continues is not determinable from this page alone."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "2b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "2b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pen, top-left corner. The 'b' is written small and raised after '2'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "textual_note",
+        "literal_text": "Introd. as in Weber, II, 1453, then different text.",
+        "fields": {
+          "source": "Weber, II, 1453"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Indented note line with no shelfmark or title.",
+          "'II' is written as a roman numeral with a bar.",
+          "A small left-pointing arrow in the right margin near the gutter (b901) is on the same line.",
+          "On the facing fol. 3 side, a short horizontal dash appears opposite at about the same height."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 5,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "short dash / arrow area in left margin of fol. 3 near the bracketed group of 'd.' entries",
+            "evidence": "The margin arrow points toward the gutter and facing fol. 3. There is no parent entry on this page.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The parent entry that this note continues is not identifiable from this page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b902"
+        ],
+        "type": "holding",
+        "subtype": "added_entry",
+        "literal_text": "✓ d. 169(1) Agnisamidhāna, ff. 1-4 inc., different recension of Madras Tri. 61(2)    n.d. : 4 : 10 : D",
+        "fields": {
+          "shelfmark": "d. 169(1)",
+          "title": "Agnisamidhāna",
+          "extent": "ff. 1-4 inc.",
+          "date": "n.d.",
+          "source": "different recension of Madras Tri. 61(2)",
+          "lines": "10",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is a tick before the shelfmark.",
+          "The trailing field sequence 'n.d. : 4 : 10 : D' follows the date : extent : lines : script pattern used on adjacent pages.",
+          "A left-pointing arrow in the right margin (b902) points to the gutter. A right-pointing arrow on facing fol. 3 lies opposite, at the bracket."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 5,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "right-pointing arrow at bracket in left margin of fol. 3 opposite this line",
+            "evidence": "The paired arrows across the gutter suggest an intended insertion position in the fol. 3 sequence.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The title could also be read 'Agnisaṃdhāna'. The letters after 's' appear to be 'ami'; diacritics are unclear.",
+          "'inc.' is cramped and the reading is uncertain.",
+          "The assignment of '4' as extent and '10' as lines is inferred from the column pattern."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b903"
+        ],
+        "type": "holding",
+        "subtype": "added_entry_ditto",
+        "literal_text": "✓d. 117(10). Do., Hiraṇyakeśin school, ff. 1-9.    n.d. : 9 : 7/9 : D",
+        "fields": {
+          "shelfmark": "d. 117(10)",
+          "title": "Do.",
+          "extent": "ff. 1-9",
+          "date": "n.d.",
+          "lines": "7/9",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is a tick before 'd.'.",
+          "A fainter separate tick stands above and left at about x 430-520, y 2140-2265.",
+          "'Do.' is a ditto for the title.",
+          "'Hiraṇyakeśin school' is a school designation; it is not an author.",
+          "A left-pointing arrow in the right margin (b903) points to the gutter. A right-pointing arrow on facing fol. 3 lies opposite."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Agnisamidhāna (ditto from preceding entry)",
+            "source_page_order": 4,
+            "source_block_id": "b003",
+            "evidence": "'Do.' immediately follows the preceding entry d. 169(1) on the same page.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 4,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "Agnisamidhāna",
+            "evidence": "The 'Do.' ditto follows the preceding holding.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 5,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "right-pointing arrow in left margin of fol. 3 opposite this line",
+            "evidence": "Paired arrows run across the gutter.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'7/9' may be an overwritten correction or alternative figure.",
+          "The lines value is inferred from the column position."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3005,
+          1570,
+          90,
+          50
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "left-pointing arrow beside b002 near the gutter"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2990,
+          1800,
+          100,
+          55
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "left-pointing arrow beside b003 near the gutter"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          2975,
+          2305,
+          110,
+          50
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "left-pointing arrow beside b004 near the gutter"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note with no parent on this page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Holding entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Ditto holding entry."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow attached to the line of b002."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrow attached to the line of b003."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrow attached to the line of b004."
+      }
+    ],
+    "page_annotations": [
+      "Ruled page with writing only in the upper half. The lower half was reviewed in native tiles and is blank apart from specks and dust.",
+      "The strip right of the gutter (x>~3140) belongs to facing fol. 3. It shows ticks, 'd.'/'e.' fragments, a bracket line, arrows, 'See s. Prāyaśc…' and a faint '9'. These were not transcribed as target records."
+    ],
+    "unresolved_relationships": [
+      "The exact fol. 3 entries targeted by the three gutter arrows are uncertain.",
+      "The parent entry of the note 'Introd. as in Weber, II, 1453…' is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio label '2b' is in pen at the top left, with the 'b' raised. The record matches."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The indented note 'Introd. as in Weber, II, 1453, then different text.' has no shelfmark. It continues a parent entry that is not on this page and is not determinable. The literal text matches the source."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The ticked entry d. 169(1) is transcribed. The image supports 'Agnisamidhāna' better than the inventory's 'Agnisaṃdhāna', but the uncertainty is properly retained. The trailing fields 'n.d. :4 :10: D' match."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The ticked entry d. 117(10) 'Do.' is represented, including the second fainter tick. The 'Hiraṇyakeśin' spelling and a faint vertical stroke near '7/9' need annotation (see changes)."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A small left-pointing arrow near the gutter sits on the line of b002. It is attached by its line position only."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A left-pointing arrow sits beside b003. A right-pointing arrow on the facing fol. 3 strip lies opposite it, at the bracket."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "A left-pointing arrow sits beside b004. A right-pointing arrow on the facing strip lies opposite it."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "There is a tick before 'd.'.",
+          "A fainter separate tick stands above and left at about x 430-520, y 2140-2265.",
+          "'Do.' is a ditto for the title.",
+          "'Hiraṇyakeśin school' is a school designation; it is not an author.",
+          "A left-pointing arrow in the right margin (b903) points to the gutter. A right-pointing arrow on facing fol. 3 lies opposite."
+        ],
+        "after": [
+          "There is a tick before 'd.'.",
+          "A fainter separate tick stands above and left at about x 430-520, y 2140-2265.",
+          "'Do.' is a ditto for the title.",
+          "'Hiraṇyakeśin school' is a school designation; it is not an author.",
+          "A faint thin vertical stroke, apparently pencil, rises above the '7/' of '7/9' at about x 1795-1810, y 2240-2300. Its function (correction mark or stray) is unclear.",
+          "A left-pointing arrow in the right margin (b903) points to the gutter. A right-pointing arrow on facing fol. 3 lies opposite."
+        ],
+        "reason": "A faint stroke above the lines figure is visible in the native tile but was not recorded.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "'7/9' may be an overwritten correction or alternative figure.",
+          "The lines value is inferred from the column position."
+        ],
+        "after": [
+          "'7/9' may be an overwritten correction or alternative figure.",
+          "The lines value is inferred from the column position.",
+          "The diacritics of 'Hiraṇyakeśin' are uncertain. The hand shows an accent-like mark over the 'e'/'s' area ('Hiranyakésin'?), and a subscript dot under 'n'. Whether the mark represents 'ś' or an acute on 'e' is not secure."
+        ],
+        "reason": "The candidate presents a normalized diacritic form with certainty, but the written mark's placement is ambiguous.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "issue": "The parent entry of the Weber note is not on this page. The arrow's target on fol. 3 is unclear.",
+        "next_check": "Compare the left-margin arrows and the dash on fol. 3 at full resolution, at the d. 118(8)/d. 131(3) rows."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b902"
+        ],
+        "issue": "The exact fol. 3 insertion point indicated by the paired arrows is uncertain. The title reading is 'Agnisamidhāna' versus 'Agnisaṃdhāna'.",
+        "next_check": "Inspect the fol. 3 bracket and arrows at native resolution."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004",
+          "b903"
+        ],
+        "issue": "Two questions remain: the '7/9' reading with its faint stroke, and the fol. 3 insertion target.",
+        "next_check": "Inspect at higher magnification, or under raking light."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x 3140. Everything to its right (ticks, 'd.'/'e.' fragments, the bracket, right-pointing arrows, 'See s. Prāyaśc…', the faint '9') belongs to facing fol. 3 and is correctly excluded. The cross-gutter arrow pairing is recorded only as an uncertain relationship.",
+    "region_review": {
+      "top": "Only the folio label '2b' appears. The rest of the upper area is blank ruled paper with specks.",
+      "middle": "Three lines of writing (b002–b004) appear at y≈1550–2370. They are separated by blank ruled lines.",
+      "bottom": "The lower half to the bottom edge was reviewed in native tiles. It is blank apart from dust specks; there is no bottom note.",
+      "left_margin": "The ticks for b003 and b004 are present, including the faint second tick above b004. There is no other marginal writing.",
+      "right_margin": "There are three left-pointing arrows near the gutter (b901–b903). There is no text.",
+      "interlinear": "There is no interlinear writing, apart from a faint stroke above '7/9' in b004."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        395,
+        340,
+        100,
+        90
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "2b",
+      "features": [
+        "top-left corner",
+        "pen; 'b' written small and raised"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        840,
+        1550,
+        1330,
+        120
+      ],
+      "kind_hint": "note_continuation",
+      "anchor": "Introd. as in Weber, II, 1453, then different text.",
+      "features": [
+        "indented note line with no shelfmark",
+        "'II' written as a roman numeral with overbar/underbar",
+        "left-pointing arrow in the right margin near the gutter (x≈3020, y≈1595) on the same line",
+        "likely linked by arrows to an entry on facing fol. 3; parent not on this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        355,
+        1780,
+        2380,
+        110
+      ],
+      "kind_hint": "entry",
+      "anchor": "✓ d. 169(1) Agnisaṃdhāna, ff. 1-4 inc., different recension of Madras Tri. 61(2)   n.d.: 4:10: D",
+      "features": [
+        "tick before shelfmark",
+        "extent and date fields 'n.d.: 4 : 10 : D'",
+        "left-pointing arrow in the right margin (x≈3000-3085, y≈1825) toward the gutter"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        345,
+        2130,
+        1545,
+        240
+      ],
+      "kind_hint": "entry",
+      "anchor": "✓d. 117(10). Do., Hiraṇyakeśin school, ff. 1-9.   n.d.: 9: 7/9: D",
+      "features": [
+        "two ticks: one before 'd.' and a fainter separate tick above it at about x 430-520, y 2140-2265",
+        "ditto 'Do.' referring to the preceding entry",
+        "'7/9' is possibly an overwritten or alternative figure; reading uncertain",
+        "left-pointing arrow in the right margin (x≈2985-3085, y≈2325)"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3005,
+        1570,
+        90,
+        50
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "left-pointing arrow beside b002 near the gutter"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2990,
+        1800,
+        100,
+        55
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "left-pointing arrow beside b003 near the gutter"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        2975,
+        2305,
+        110,
+        50
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "left-pointing arrow beside b004 near the gutter"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "2b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pen, top-left corner. The 'b' is written small and raised after '2'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0004-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "textual_note",
+      "literal_text": "Introd. as in Weber, II, 1453, then different text.",
+      "fields": {
+        "source": "Weber, II, 1453"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Indented note line with no shelfmark or title.",
+        "'II' is written as a roman numeral with a bar.",
+        "A small left-pointing arrow in the right margin near the gutter (b901) is on the same line.",
+        "On the facing fol. 3 side, a short horizontal dash appears opposite at about the same height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 5,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "short dash / arrow area in left margin of fol. 3 near the bracketed group of 'd.' entries",
+          "evidence": "The margin arrow points toward the gutter and facing fol. 3. There is no parent entry on this page.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The parent entry that this note continues is not identifiable from this page."
+      ],
+      "stable_id": "css-prod-0004-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b902"
+      ],
+      "type": "holding",
+      "subtype": "added_entry",
+      "literal_text": "✓ d. 169(1) Agnisamidhāna, ff. 1-4 inc., different recension of Madras Tri. 61(2)    n.d. : 4 : 10 : D",
+      "fields": {
+        "shelfmark": "d. 169(1)",
+        "title": "Agnisamidhāna",
+        "extent": "ff. 1-4 inc.",
+        "date": "n.d.",
+        "source": "different recension of Madras Tri. 61(2)",
+        "lines": "10",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is a tick before the shelfmark.",
+        "The trailing field sequence 'n.d. : 4 : 10 : D' follows the date : extent : lines : script pattern used on adjacent pages.",
+        "A left-pointing arrow in the right margin (b902) points to the gutter. A right-pointing arrow on facing fol. 3 lies opposite, at the bracket."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 5,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "right-pointing arrow at bracket in left margin of fol. 3 opposite this line",
+          "evidence": "The paired arrows across the gutter suggest an intended insertion position in the fol. 3 sequence.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The title could also be read 'Agnisaṃdhāna'. The letters after 's' appear to be 'ami'; diacritics are unclear.",
+        "'inc.' is cramped and the reading is uncertain.",
+        "The assignment of '4' as extent and '10' as lines is inferred from the column pattern."
+      ],
+      "stable_id": "css-prod-0004-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b903"
+      ],
+      "type": "holding",
+      "subtype": "added_entry_ditto",
+      "literal_text": "✓d. 117(10). Do., Hiraṇyakeśin school, ff. 1-9.    n.d. : 9 : 7/9 : D",
+      "fields": {
+        "shelfmark": "d. 117(10)",
+        "title": "Do.",
+        "extent": "ff. 1-9",
+        "date": "n.d.",
+        "lines": "7/9",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is a tick before 'd.'.",
+        "A fainter separate tick stands above and left at about x 430-520, y 2140-2265.",
+        "'Do.' is a ditto for the title.",
+        "'Hiraṇyakeśin school' is a school designation; it is not an author.",
+        "A left-pointing arrow in the right margin (b903) points to the gutter. A right-pointing arrow on facing fol. 3 lies opposite."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Agnisamidhāna (ditto from preceding entry)",
+          "source_page_order": 4,
+          "source_block_id": "b003",
+          "evidence": "'Do.' immediately follows the preceding entry d. 169(1) on the same page.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 4,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "Agnisamidhāna",
+          "evidence": "The 'Do.' ditto follows the preceding holding.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 5,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "right-pointing arrow in left margin of fol. 3 opposite this line",
+          "evidence": "Paired arrows run across the gutter.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'7/9' may be an overwritten correction or alternative figure.",
+        "The lines value is inferred from the column position."
+      ],
+      "stable_id": "css-prod-0004-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "There is a tick before 'd.'.",
+        "A fainter separate tick stands above and left at about x 430-520, y 2140-2265.",
+        "'Do.' is a ditto for the title.",
+        "'Hiraṇyakeśin school' is a school designation; it is not an author.",
+        "A left-pointing arrow in the right margin (b903) points to the gutter. A right-pointing arrow on facing fol. 3 lies opposite."
+      ],
+      "after": [
+        "There is a tick before 'd.'.",
+        "A fainter separate tick stands above and left at about x 430-520, y 2140-2265.",
+        "'Do.' is a ditto for the title.",
+        "'Hiraṇyakeśin school' is a school designation; it is not an author.",
+        "A faint thin vertical stroke, apparently pencil, rises above the '7/' of '7/9' at about x 1795-1810, y 2240-2300. Its function (correction mark or stray) is unclear.",
+        "A left-pointing arrow in the right margin (b903) points to the gutter. A right-pointing arrow on facing fol. 3 lies opposite."
+      ],
+      "reason": "A faint stroke above the lines figure is visible in the native tile but was not recorded.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "'7/9' may be an overwritten correction or alternative figure.",
+        "The lines value is inferred from the column position."
+      ],
+      "after": [
+        "'7/9' may be an overwritten correction or alternative figure.",
+        "The lines value is inferred from the column position.",
+        "The diacritics of 'Hiraṇyakeśin' are uncertain. The hand shows an accent-like mark over the 'e'/'s' area ('Hiranyakésin'?), and a subscript dot under 'n'. Whether the mark represents 'ś' or an acute on 'e' is not secure."
+      ],
+      "reason": "The candidate presents a normalized diacritic form with certainty, but the written mark's placement is ambiguous.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/056df809-5b40-40b4-bdab-e11debae1402.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/056df809-5b40-40b4-bdab-e11debae1402/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b1709c2de49805ec8d6ae19c281b4ce25190b0bba202bd167afcabb5c9c30892",
+      "bytes": 289429,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/056df809-5b40-40b4-bdab-e11debae1402/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a73ba39e893256cbdc7719aeda4bbc4e6c9d83f90652909d71ba37929f79cfb2",
+      "bytes": 382919,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/056df809-5b40-40b4-bdab-e11debae1402/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e26c4891f3d17e5a329b489f4be5a726d7f1f15d0fa23b077258d2bab16ee21b",
+      "bytes": 378958,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/056df809-5b40-40b4-bdab-e11debae1402/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4183986f4a7a0b1ecad478578398b67cf975c59584db61a33dacdd228c711e55",
+      "bytes": 388923,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/056df809-5b40-40b4-bdab-e11debae1402/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9b25466c52713f29b266df61a3e7abc264b74d6409431b4144bb321ce26a1f7f",
+      "bytes": 367822,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/056df809-5b40-40b4-bdab-e11debae1402/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "71db0ffaa516ecd7d1622d5880d15263d980c0f6bdd37ca73422c4cb1f060bf2",
+      "bytes": 365572,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/056df809-5b40-40b4-bdab-e11debae1402/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3788959fc56752592217ca2843efa8d5e2939412d6d433c434c560572746aea5",
+      "bytes": 368287,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/615a48f1-feae-473c-9a3c-d8ccad6392e6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "73fd3259b10300f63ccf44ecf5cf4a869308c946601642f9344bdabe620d7c4d",
+      "bytes": 295968,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 3,
+      "folio_label": "fol. 2",
+      "page_id": "615a48f1-feae-473c-9a3c-d8ccad6392e6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d9c32b18-2aaf-4b0b-8b83-ffd7d8acc259/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e6bf690d38afbe03a7088eaf6fe499186e09e89e5c5c4ff5e06a41d5c811a888",
+      "bytes": 272923,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 5,
+      "folio_label": "fol. 3",
+      "page_id": "d9c32b18-2aaf-4b0b-8b83-ffd7d8acc259",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

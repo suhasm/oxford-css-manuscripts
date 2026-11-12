@@ -1,0 +1,893 @@
+{
+  "source_order": 494,
+  "folio_label": "fol. 247b",
+  "page_id": "3d444bce-470b-4dfe-b604-0d8acb063bf2",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "tranche-1",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "247b",
+    "principal_page_bbox": [
+      295,
+      262,
+      2880,
+      4608
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          375,
+          295,
+          165,
+          145
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "247b",
+        "features": [
+          "top-left corner",
+          "written as 247 with superscript b",
+          "pencil or dark pencil"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2888,
+          1765,
+          95,
+          175
+        ],
+        "kind_hint": "marginal_annotation",
+        "anchor": "5/",
+        "features": [
+          "isolated mark in the right part of the page",
+          "small 5 with a diagonal stroke",
+          "not attached to any entry line",
+          "the facing fol. 248 has a similar '5/' in its left margin, which may be offset or related"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          338,
+          2705,
+          2350,
+          105
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "√ C. 3[4?]0(17) Vibhutiśodhanamantra. ... n.d.:1: – : Beng.",
+        "features": [
+          "tick before shelfmark",
+          "ink",
+          "single line",
+          "title is followed by an extent or reference phrase and a short note ('9 lines ... all'?)",
+          "date/extent/script column at right: 'n.d.:1: – : Beng.'",
+          "aligned with arrow mark at right edge (see unattached_marks)"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          405,
+          3458,
+          1865,
+          120
+        ],
+        "kind_hint": "catalogue_entry_or_continuation",
+        "anchor": "ff.1-39(m.24), inc. Ṛṇādānadīpa, ... 1.0.1534.",
+        "features": [
+          "faint pencil",
+          "no shelfmark or title column entry at left",
+          "foliation with a parenthetical",
+          "'inc.' followed by an underlined title with subscript dots",
+          "ends with reference '1.0.1534.'",
+          "pencil arrow at right edge on same line"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3000,
+          2745,
+          105,
+          45
+        ],
+        "description": "Ink left-pointing arrow (←) with crossbar near the gutter, on the line of b003; it pairs with a right-pointing arrow on the facing page beyond the gutter."
+      },
+      {
+        "bbox": [
+          3055,
+          3495,
+          150,
+          45
+        ],
+        "description": "Faint pencil left-pointing arrow near the gutter, on the line of b004."
+      },
+      {
+        "bbox": [
+          1445,
+          2045,
+          10,
+          10
+        ],
+        "description": "Small isolated dot in the middle of the page; probably a speck."
+      }
+    ],
+    "boundary_notes": [
+      "Text right of the gutter (x>~3175), such as 'd. 3...', 'ff1-16a, Vi...', 'Gau. Hari,', 'Bhaviṣyapu...', 'Catuthakalpe,', 'See Brahma...', ticks and a '→' arrow, belongs to facing fol. 248. It is excluded as a target record.",
+      "The ink arrow on the b003 line and the facing-page '→' appear to form a cross-page link marker. The b003 entry seems related to the facing-page 'Vibhūti...' entries, but it is recorded here as a target-page entry.",
+      "b004 lacks a shelfmark or title. It may be a pencil continuation or supplementary note relating to another entry, possibly on the facing page via the arrow. Its parent is not determined."
+    ],
+    "uncertainties": [
+      "Shelfmark digit in b003 is unclear: '340' or '390'.",
+      "The wording after the title in b003 ('1.1, p.101(?)', '9 lines ... all') is uncertain.",
+      "Reading of 'm.24' in b004 is uncertain, as is the title spelling Ṛṇādānadīpa with its subscript dots. 'pratha iv' may read 'prathama iv'.",
+      "Faint show-through lines from the reverse are visible across the page; they were not treated as text."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "247b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "247b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner as 247 with a superscript b, in dark pencil or ink."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_mark",
+        "literal_text": "5/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A small '5' with an acute-like stroke above it and a long diagonal stroke, isolated in the right part of the page and not on any entry line.",
+          "Facing fol. 248 has a similar '5/' in its left margin near the Vināyakaśānti entries. This may be a related tally or an offset mark."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The function of the mark and any attachment are undetermined."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "√ C. 340(17) Vibhutiśodhanamantra. 1.1,p.101. 9 lines in all          n.d.:1: – : Beng.",
+        "fields": {
+          "shelfmark": "C. 340(17)",
+          "title": "Vibhutiśodhanamantra",
+          "source": "1.1,p.101.",
+          "date": "n.d.",
+          "extent": "1",
+          "lines": "–",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick (√) precedes the shelfmark.",
+          "Written in ink on a single line.",
+          "An ink left-pointing arrow (←) with a crossbar is at the right edge of the same line, near the gutter. It pairs with '→' beyond the gutter and with '← →' in the left margin of fol. 248 beside 'f. 34 (3) Vibhūti dhāraṇavidhi'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 495,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "f. 34 (3) Vibhūti dhāraṇavidhi",
+            "evidence": "Paired arrow markers: '←' on this line, '→' at the gutter, and '← →' in the fol. 248 margin at that entry. They suggest this entry is meant for insertion in the alphabetical sequence there.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The shelfmark digit may be '340' or '390'.",
+          "The reading '1.1,p.101.' is uncertain; it may be 'I.1, p.101'.",
+          "The reading '9 lines in all' is uncertain.",
+          "No macron is visible over the u in 'Vibhuti'; it is transcribed as written."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "pencil_supplementary_note",
+        "literal_text": "ff.1-39(m.24), inc. Ṛṇādānadīpa, to middle of pratha iv. 1.0.1534.",
+        "fields": {
+          "extent": "ff.1-39(m.24)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written in faint pencil, with no shelfmark or title column.",
+          "'Ṛṇādānadīpa' is underlined and has subscript dots.",
+          "A faint pencil left-pointing arrow (←) is at the right edge of the same line, near the gutter, close to the fol. 248 left-margin '←' beside 'c. 341 (7) Vivādabhaṅgārṇava'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 495,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 341 (7) Vivādabhaṅgārṇava",
+            "evidence": "The pencil arrow on this line points toward the gutter, and fol. 248 has a '←' in its left margin at the c. 341 (7) entry, just below the marginal 'See Brahmasūtra'.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "'(m.24)' may read '(n.24)'.",
+          "'pratha' may read 'prathama' or another word.",
+          "The reading 'to middle of' is uncertain.",
+          "The parent entry is not securely determined."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Isolated marginal mark, unattached."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Ink catalogue entry with an arrow linking it to fol. 248."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Pencil note with no shelfmark; its attachment is uncertain."
+      }
+    ],
+    "page_annotations": [
+      "Text right of the gutter (for example 'd. 3...', 'ff1-16a, Vi...', 'Gau. Hari,', 'Bhaviṣyapu...', 'Catuthakalpe,', 'See Brahma...', ticks and '→') belongs to facing fol. 248 and is excluded.",
+      "Faint show-through from the reverse is visible across the page and is not treated as text.",
+      "A small dot near mid-page is a speck."
+    ],
+    "unresolved_relationships": [
+      "The exact parent of the r004 pencil note is undetermined; one possibility is c. 341 (7) on fol. 248.",
+      "The insertion point for r003 on fol. 248 is probable but not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left '247' with superscript 'b' is confirmed in tile [0,0]."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An isolated '5' with an acute-like stroke and a long diagonal stroke is confirmed near x≈2900, y≈1780–1930. It is not on an entry line. The '5/' in the fol. 248 left margin is at a comparable height, but any link is undetermined."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The single ink line and its right-hand column 'n.d.:1: – : Beng.' are confirmed. The ink '←' near x≈3010 is on this line. The '→' beyond the gutter belongs to fol. 248. The shelfmark digit and the reference phrase remain uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The faint pencil line ending '1.0.1534.' is confirmed across tiles [0,3216] and [1604,3216] and was not duplicated. The faint pencil '←' near the gutter is on the same line. Subscript dots appear under the opening letters of the underlined title."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The shelfmark digit may be '340' or '390'.",
+          "The reading '1.1,p.101.' is uncertain; it may be 'I.1, p.101'.",
+          "The reading '9 lines in all' is uncertain.",
+          "No macron is visible over the u in 'Vibhuti'; it is transcribed as written."
+        ],
+        "after": [
+          "The shelfmark digit may be '340' or '390'.",
+          "The reading '1.1,p.101.' is uncertain; the first character may be 'I' or 'f' ('f.1, p.101'). The field label 'source' is an interpretation, not source wording.",
+          "The reading '9 lines in all' is uncertain.",
+          "No macron is visible over the u in 'Vibhuti'; it is transcribed as written."
+        ],
+        "reason": "In the native tile, the first character of the reference could equally be 'f'. The function of the phrase is not stated in the source.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "'(m.24)' may read '(n.24)'.",
+          "'pratha' may read 'prathama' or another word.",
+          "The reading 'to middle of' is uncertain.",
+          "The parent entry is not securely determined."
+        ],
+        "after": [
+          "'(m.24)' may read '(n.24)'.",
+          "'pratha' may read 'prathama' or another word.",
+          "The reading 'to middle of' is uncertain; 'to' appears to be written as a single abbreviated 't'-like form.",
+          "'1.0.1534.' may be written with capital 'I.O.'; it is left as written and not expanded.",
+          "The parent entry is not securely determined."
+        ],
+        "reason": "Native-tile inspection shows the abbreviated letterforms. The reference letters are ambiguous between digit and capital.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The shelfmark is either 340(17) or 390(17). The reference '1.1,p.101' / 'f.1,p.101' is unclear.",
+        "next_check": "Check against the shelf list or a higher-contrast image of the digit."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The parent entry is undetermined. The fol. 248 '←' at c. 341 (7) suggests a link, but this is not secure.",
+        "next_check": "Compare the pencil hand and the arrow positions on fol. 248 at higher resolution."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The function of the '5/' mark and any relation to the fol. 248 '5/' are unknown.",
+        "next_check": "Check whether similar tallies occur on other openings."
+      }
+    ],
+    "boundary_review": "The gutter is at x≈3170. All writing right of it ('d. 3…', 'ff1-16a, Vi…', 'Gau. Hari,', 'Bhaviṣyapu…', 'Catuthakalpe,', ticks, '→', 'See Brahma…') belongs to fol. 248 and is excluded. The two left-pointing arrows lie on the target side of the gutter and are recorded as annotations of r003 and r004.",
+    "region_review": {
+      "top": "Only the folio number. The ruled lines below it are blank apart from show-through.",
+      "middle": "Only the '5/' mark and specks; the b003 ink entry is at y≈2750. Faint show-through from the reverse is not text.",
+      "bottom": "The b004 pencil line is at y≈3500. Below it, down to the page edge at y≈4870, the page was reviewed and is blank.",
+      "left_margin": "No writing in the left margin.",
+      "right_margin": "Arrows on the b003 and b004 lines near the gutter. Beyond the gutter is facing-page material only.",
+      "interlinear": "No interlinear additions or cancellations were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        375,
+        295,
+        165,
+        145
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "247b",
+      "features": [
+        "top-left corner",
+        "written as 247 with superscript b",
+        "pencil or dark pencil"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2888,
+        1765,
+        95,
+        175
+      ],
+      "kind_hint": "marginal_annotation",
+      "anchor": "5/",
+      "features": [
+        "isolated mark in the right part of the page",
+        "small 5 with a diagonal stroke",
+        "not attached to any entry line",
+        "the facing fol. 248 has a similar '5/' in its left margin, which may be offset or related"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        338,
+        2705,
+        2350,
+        105
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "√ C. 3[4?]0(17) Vibhutiśodhanamantra. ... n.d.:1: – : Beng.",
+      "features": [
+        "tick before shelfmark",
+        "ink",
+        "single line",
+        "title is followed by an extent or reference phrase and a short note ('9 lines ... all'?)",
+        "date/extent/script column at right: 'n.d.:1: – : Beng.'",
+        "aligned with arrow mark at right edge (see unattached_marks)"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        405,
+        3458,
+        1865,
+        120
+      ],
+      "kind_hint": "catalogue_entry_or_continuation",
+      "anchor": "ff.1-39(m.24), inc. Ṛṇādānadīpa, ... 1.0.1534.",
+      "features": [
+        "faint pencil",
+        "no shelfmark or title column entry at left",
+        "foliation with a parenthetical",
+        "'inc.' followed by an underlined title with subscript dots",
+        "ends with reference '1.0.1534.'",
+        "pencil arrow at right edge on same line"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "247b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner as 247 with a superscript b, in dark pencil or ink."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-t1-0494-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_mark",
+      "literal_text": "5/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A small '5' with an acute-like stroke above it and a long diagonal stroke, isolated in the right part of the page and not on any entry line.",
+        "Facing fol. 248 has a similar '5/' in its left margin near the Vināyakaśānti entries. This may be a related tally or an offset mark."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The function of the mark and any attachment are undetermined."
+      ],
+      "stable_id": "css-t1-0494-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "√ C. 340(17) Vibhutiśodhanamantra. 1.1,p.101. 9 lines in all          n.d.:1: – : Beng.",
+      "fields": {
+        "shelfmark": "C. 340(17)",
+        "title": "Vibhutiśodhanamantra",
+        "source": "1.1,p.101.",
+        "date": "n.d.",
+        "extent": "1",
+        "lines": "–",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick (√) precedes the shelfmark.",
+        "Written in ink on a single line.",
+        "An ink left-pointing arrow (←) with a crossbar is at the right edge of the same line, near the gutter. It pairs with '→' beyond the gutter and with '← →' in the left margin of fol. 248 beside 'f. 34 (3) Vibhūti dhāraṇavidhi'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 495,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "f. 34 (3) Vibhūti dhāraṇavidhi",
+          "evidence": "Paired arrow markers: '←' on this line, '→' at the gutter, and '← →' in the fol. 248 margin at that entry. They suggest this entry is meant for insertion in the alphabetical sequence there.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The shelfmark digit may be '340' or '390'.",
+        "The reading '1.1,p.101.' is uncertain; it may be 'I.1, p.101'.",
+        "The reading '9 lines in all' is uncertain.",
+        "No macron is visible over the u in 'Vibhuti'; it is transcribed as written."
+      ],
+      "stable_id": "css-t1-0494-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "pencil_supplementary_note",
+      "literal_text": "ff.1-39(m.24), inc. Ṛṇādānadīpa, to middle of pratha iv. 1.0.1534.",
+      "fields": {
+        "extent": "ff.1-39(m.24)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written in faint pencil, with no shelfmark or title column.",
+        "'Ṛṇādānadīpa' is underlined and has subscript dots.",
+        "A faint pencil left-pointing arrow (←) is at the right edge of the same line, near the gutter, close to the fol. 248 left-margin '←' beside 'c. 341 (7) Vivādabhaṅgārṇava'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 495,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 341 (7) Vivādabhaṅgārṇava",
+          "evidence": "The pencil arrow on this line points toward the gutter, and fol. 248 has a '←' in its left margin at the c. 341 (7) entry, just below the marginal 'See Brahmasūtra'.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "'(m.24)' may read '(n.24)'.",
+        "'pratha' may read 'prathama' or another word.",
+        "The reading 'to middle of' is uncertain.",
+        "The parent entry is not securely determined."
+      ],
+      "stable_id": "css-t1-0494-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The shelfmark digit may be '340' or '390'.",
+        "The reading '1.1,p.101.' is uncertain; it may be 'I.1, p.101'.",
+        "The reading '9 lines in all' is uncertain.",
+        "No macron is visible over the u in 'Vibhuti'; it is transcribed as written."
+      ],
+      "after": [
+        "The shelfmark digit may be '340' or '390'.",
+        "The reading '1.1,p.101.' is uncertain; the first character may be 'I' or 'f' ('f.1, p.101'). The field label 'source' is an interpretation, not source wording.",
+        "The reading '9 lines in all' is uncertain.",
+        "No macron is visible over the u in 'Vibhuti'; it is transcribed as written."
+      ],
+      "reason": "In the native tile, the first character of the reference could equally be 'f'. The function of the phrase is not stated in the source.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "'(m.24)' may read '(n.24)'.",
+        "'pratha' may read 'prathama' or another word.",
+        "The reading 'to middle of' is uncertain.",
+        "The parent entry is not securely determined."
+      ],
+      "after": [
+        "'(m.24)' may read '(n.24)'.",
+        "'pratha' may read 'prathama' or another word.",
+        "The reading 'to middle of' is uncertain; 'to' appears to be written as a single abbreviated 't'-like form.",
+        "'1.0.1534.' may be written with capital 'I.O.'; it is left as written and not expanded.",
+        "The parent entry is not securely determined."
+      ],
+      "reason": "Native-tile inspection shows the abbreviated letterforms. The reference letters are ambiguous between digit and capital.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3d444bce-470b-4dfe-b604-0d8acb063bf2.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3d444bce-470b-4dfe-b604-0d8acb063bf2/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "f95e7e06809292c95c1f462162d056a9166acea67e09a3a9425c248755f1ff38",
+      "bytes": 250217,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3d444bce-470b-4dfe-b604-0d8acb063bf2/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "68ce1e8e4dd365f8ba4d15a9567a7f94d2bbcdda0c94a4b17154a298f1ccd136",
+      "bytes": 300115,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3d444bce-470b-4dfe-b604-0d8acb063bf2/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6554cdb5da6b16776dc95dda323230e9b73cc7b8df875cee0a88e16de8c0cf9c",
+      "bytes": 319201,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3d444bce-470b-4dfe-b604-0d8acb063bf2/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dfa084db608e8b9e8ab623de8d3ef63fea9cc5aa273753e8becbfcccb9d04b27",
+      "bytes": 318160,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3d444bce-470b-4dfe-b604-0d8acb063bf2/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ad0b2047b5d7b23d1c64df432d322b14d3e10dac9a95f876f2ea00211c7596b4",
+      "bytes": 291719,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3d444bce-470b-4dfe-b604-0d8acb063bf2/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "29dbd38f254dfb7cd41396562d4e9c55a01dea87fc0e15cbefc4c9c0adeb4122",
+      "bytes": 303599,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3d444bce-470b-4dfe-b604-0d8acb063bf2/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "261d6e447e6176ddfe91bea81136fc11783deffe9686c30ff9cfa0971db7e874",
+      "bytes": 311312,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8f528e6f-6246-4a86-9114-9193c4d52dd3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ab0e603be8006b832cfe06270d7e9642dd24a34c2f812ca635bfcae460bda836",
+      "bytes": 295902,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 493,
+      "folio_label": "fol. 247",
+      "page_id": "8f528e6f-6246-4a86-9114-9193c4d52dd3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae92426b-3793-426e-b060-7358c7c6f15a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "19768488c97c1938baf604884666bf6ef3b06de436e43729ee1757b21b197044",
+      "bytes": 258053,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 495,
+      "folio_label": "fol. 248",
+      "page_id": "ae92426b-3793-426e-b060-7358c7c6f15a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

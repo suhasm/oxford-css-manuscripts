@@ -1,0 +1,1596 @@
+{
+  "source_order": 202,
+  "folio_label": "fol. 101b",
+  "page_id": "35a9f08e-8ed0-4068-9948-3062ad3cbf15",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "101b",
+    "principal_page_bbox": [
+      315,
+      275,
+      2890,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          315,
+          145,
+          95
+        ],
+        "kind_hint": "page_number",
+        "anchor": "101b",
+        "features": [
+          "top-left corner",
+          "the 'b' is written superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          375,
+          2700,
+          2800,
+          100
+        ],
+        "kind_hint": "entry",
+        "anchor": "c. 323(3), Do., Ajapāparavidyā [reading?] (...), + Co. anon., 7ff., inc. ... n.d: 7:14/16:D",
+        "features": [
+          "single long line written across the full page width",
+          "contains the ditto abbreviation 'Do.'",
+          "parenthetical '(where chapter is called ...)'",
+          "date/format string 'n.d: 7:14/16:D' at the right end, with a final digit possibly overwritten",
+          "an arrow runs from the line end across the gutter onto fol. 102",
+          "a faint curved stroke stands at the left start of the line"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          425,
+          3110,
+          1370,
+          105
+        ],
+        "kind_hint": "unattached_note",
+        "anchor": "Date is Samvat 176 with space for last figure not filled in.",
+        "features": [
+          "free-standing note",
+          "a left-pointing arrow in the right margin points toward it, apparently linking it to an entry on the facing page fol. 102"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          355,
+          2585,
+          60,
+          190
+        ],
+        "description": "faint curved pencil stroke rising from the left start of the c.323(3) line; possibly an insertion or attachment mark"
+      },
+      {
+        "bbox": [
+          3170,
+          2725,
+          338,
+          45
+        ],
+        "description": "arrow drawn from the end of the c.323(3) line rightward across the gutter onto fol. 102, near the entry d.458(4)/e.176(10) there"
+      },
+      {
+        "bbox": [
+          3030,
+          3135,
+          160,
+          50
+        ],
+        "description": "left-pointing arrow near the gutter at the level of the 'Date is Samvat' note"
+      },
+      {
+        "bbox": [
+          1570,
+          1810,
+          60,
+          50
+        ],
+        "description": "small dark spot or blot, not writing"
+      }
+    ],
+    "boundary_notes": [
+      "The page's right edge and the gutter fall at about x=3200. The ticks, 'c.', 'f.', '5/', 'ff.1-45' and '9' to the right of the gutter belong to the facing page fol. 102 and are not recorded here.",
+      "The arrow from the c.323(3) line crosses the gutter. Its matching fragment ('n.d: 7:14/16:D →') is visible in the left margin of the adjacent overview of fol. 102.",
+      "The left-pointing arrow near the gutter at y≈3150 corresponds to the arrow beside c.290(2) on fol. 102. This suggests the date note relates to that facing-page entry, but the attachment is inferred and not certain."
+    ],
+    "uncertainties": [
+      "The reading of the title in the c.323(3) line ('Ajapāparavidyā'?) and of the parenthetical after it is uncertain.",
+      "The wording of the parenthetical 'where chapter is called Ajapānāma vidhāna' [reading?] is uncertain.",
+      "The final element '16:D' may contain an overwriting.",
+      "Much of the page carries faint show-through of writing from the reverse side. This was treated as bleed-through, not as target text."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "101b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "101b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The 'b' is written superscript after '101'.",
+          "Top-left corner of the page."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901",
+          "b902"
+        ],
+        "type": "holding",
+        "subtype": "inserted_entry_for_facing_page",
+        "literal_text": "c. 323(3), Do., Ajapāparavidyā (Paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+        "fields": {
+          "shelfmark": "c. 323(3)",
+          "title": "Do., Ajapāparavidyā [reading?]",
+          "date": "n.d",
+          "extent": "7ff., inc.",
+          "lines": "14/16",
+          "script": "D"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line written across the full page width.",
+          "'Do.' is a ditto abbreviation for a title that is not written on this page.",
+          "The parenthesis opened before 'where chapter is called' has no visible closing parenthesis.",
+          "The final 'D' (or the character before it) appears overwritten. A small stroke stands above it.",
+          "A faint curved stroke rises from the left start of the line, at about x=355–410, y=2585–2775. It may be an insertion mark.",
+          "An arrow runs from the line end, at about x=3170, rightward across the gutter onto fol. 102. It points to the area between d.458(4) and e.176(10). This indicates the entry is to be inserted into the sequence on fol. 102."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 203,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "arrow landing between 'd. 458 (4)' and 'e. 176 (10)' (Dakṣiṇāmūrti... entries)",
+            "evidence": "Arrow drawn from the line end across the gutter. The matching fragment 'n.d: 7:14/16:D →' is visible in the left margin of the fol. 102 overview.",
+            "certainty": "probable"
+          },
+          {
+            "type": "ditto_from",
+            "target_page_order": 203,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "title of the entry at the insertion point on fol. 102 (possibly 'Dakṣiṇāmūrtisaṃhitā', d. 962(15)/d. 458(4))",
+            "evidence": "'Do.' presupposes a preceding title. The only evident referent is at the arrow's landing point on fol. 102. The exact referent is not verified.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'Ajapāparavidyā' is uncertain.",
+          "The parenthetical '(Paṭala 7)' is uncertain. It could be read as 'kut ala 7'.",
+          "The reading 'Ch. 10. 2583' is uncertain.",
+          "The words 'Ajapānāma vidhāna' are uncertain.",
+          "The final '16:D' contains an overwriting, and its exact reading is uncertain.",
+          "'7' in '7:14/16' repeats the extent figure. It was not entered separately as a field."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b903"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "date_note",
+        "literal_text": "Date is Samvat 176 with space for last figure not filled in.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Free-standing note, at about y=3110–3215.",
+          "A left-pointing arrow near the gutter, at about x=3030–3190, y≈3155, points toward the note."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 203,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 290(2) Dakṣiṇāmūrtistotra",
+            "evidence": "A left-pointing arrow beside c. 290(2) on fol. 102 aligns with the arrow at the level of this note.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The attachment is inferred from arrow alignment only.",
+          "It is not certain whether the note relates instead to r002."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          355,
+          2585,
+          60,
+          190
+        ],
+        "kind_hint": "mark",
+        "anchor": "curved stroke at left start of c.323(3) line",
+        "features": [
+          "faint curved pencil stroke",
+          "possible insertion mark"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3170,
+          2715,
+          338,
+          50
+        ],
+        "kind_hint": "arrow",
+        "anchor": "arrow from c.323(3) line end across gutter",
+        "features": [
+          "points right onto fol. 102"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          3030,
+          3135,
+          160,
+          50
+        ],
+        "kind_hint": "arrow",
+        "anchor": "left-pointing arrow at level of date note",
+        "features": [
+          "near gutter"
+        ]
+      },
+      {
+        "id": "b904",
+        "bbox": [
+          1570,
+          1810,
+          60,
+          50
+        ],
+        "kind_hint": "blot",
+        "anchor": "small dark spot",
+        "features": [
+          "not writing"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Inserted entry line."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Free-standing date note. Its attachment is ambiguous."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Mark at the start of the entry line."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Insertion arrow from the entry."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrow associated with the date note."
+      },
+      {
+        "block_id": "b904",
+        "record_ids": [],
+        "explanation": "Blot, not text."
+      }
+    ],
+    "page_annotations": [
+      "Most of the page is blank ruled paper with faint show-through from the reverse side. The show-through was not transcribed.",
+      "Material to the right of the gutter (x>~3210) belongs to fol. 102 and was not recorded. This includes ticks, 'c.', 'f.', '5/', 'ff.1-45' and '9'."
+    ],
+    "unresolved_relationships": [
+      "The exact referent of 'Do.' in c. 323(3) is unresolved.",
+      "The attachment of the 'Date is Samvat 176' note to c. 290(2) on fol. 102 is probable but not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The page number '101' with a superscript 'b' is in the top-left corner. It is correctly transcribed."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single long entry line at y≈2700–2800 is fully captured, running from 'c. 323(3)' to the overwritten final 'D'. The overlapping tiles show no duplication. Small corrections to the literal text are proposed below: lowercase 'paṭala' and the comma after the closing parenthesis."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The free-standing note 'Date is Samvat 176 with space for last figure not filled in.' is correctly transcribed."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A faint curved stroke rises at the left start of the c.323(3) line, at about x 355–410, y 2585–2750. It is correctly treated as a possible insertion mark."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An arrow runs from the end of the line across the gutter onto fol. 102. Its head lands between d.458(4) and e.176(10). On fol. 102 the left margin shows the matching 'n.d: 7:14/16:D →'."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A left-pointing arrow stands at about x 3030–3185, y≈3160, left of the gutter. On fol. 102 it aligns with the left-pointing arrow beside c.290(2)."
+      },
+      {
+        "block_id": "b904",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A small blot at about x 1570–1630, y 1810–1860. It is not writing."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "c. 323(3), Do., Ajapāparavidyā (Paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+        "after": "c. 323(3), Do., Ajapāparavidyā [reading?] (paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 [reading?] (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+        "reason": "The parenthetical word is written in lower case, and its first letter is ambiguous (k/p). This uncertainty is already noted in the record's uncertainties. The title and 'Ch. 10. 2583' are each also flagged uncertain in the record's uncertainties list, so inline [reading?] markers are added at the correct positions. The comma after the closing parenthesis is visible before '+ Co.' and is retained.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002",
+          "b902"
+        ],
+        "issue": "The referent of 'Do.' is unresolved. The arrow lands after d.458(4) on fol. 102, which is a ditto line under d.962(15) 'Dakṣiṇāmūrtisaṃhitā' marked 'Paṭalas 5-7 only'. This makes Dakṣiṇāmūrtisaṃhitā a plausible referent, but the link is not verified.",
+        "next_check": "Compare the arrow head position on fol. 102 at native resolution."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings remain uncertain: the final character group '16:D' is overwritten, with a stroke above; 'Ch. 10. 2583' is uncertain; the parenthetical 'kuṭala/paṭala 7' is uncertain.",
+        "next_check": "Inspect the line at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b903"
+        ],
+        "issue": "Attaching the note to c.290(2) on fol. 102 rests only on the alignment of the two arrows. Dates in that entry are cancelled and overwritten.",
+        "next_check": "Check the fol. 102 c.290(2) date column."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x 3205. Everything to its right belongs to fol. 102 and is correctly excluded: the ticks, 'c.', 'f.', 'e', the '5/' mark at about x 3300, y 2990–3150, 'ff.1-45' and the '9' mark near the bottom. Only the two arrows, b902 and b903, cross or approach the gutter. They are retained as linking marks.",
+    "region_review": {
+      "top": "Only the page number 101b. The rest is ruled paper with faint show-through from the reverse.",
+      "middle": "Only a blot and faint show-through dots until the c.323(3) line.",
+      "bottom": "Below the date note there is no target writing, only show-through of the reverse side.",
+      "left_margin": "A curved stroke at the start of the entry line. Nothing else.",
+      "right_margin": "Arrows b902 and b903 near the gutter. The facing-page marks beyond the gutter are excluded.",
+      "interlinear": "No interlinear additions. There is only a small stroke above the overwritten final 'D'."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        315,
+        145,
+        95
+      ],
+      "kind_hint": "page_number",
+      "anchor": "101b",
+      "features": [
+        "top-left corner",
+        "the 'b' is written superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        375,
+        2700,
+        2800,
+        100
+      ],
+      "kind_hint": "entry",
+      "anchor": "c. 323(3), Do., Ajapāparavidyā [reading?] (...), + Co. anon., 7ff., inc. ... n.d: 7:14/16:D",
+      "features": [
+        "single long line written across the full page width",
+        "contains the ditto abbreviation 'Do.'",
+        "parenthetical '(where chapter is called ...)'",
+        "date/format string 'n.d: 7:14/16:D' at the right end, with a final digit possibly overwritten",
+        "an arrow runs from the line end across the gutter onto fol. 102",
+        "a faint curved stroke stands at the left start of the line"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        425,
+        3110,
+        1370,
+        105
+      ],
+      "kind_hint": "unattached_note",
+      "anchor": "Date is Samvat 176 with space for last figure not filled in.",
+      "features": [
+        "free-standing note",
+        "a left-pointing arrow in the right margin points toward it, apparently linking it to an entry on the facing page fol. 102"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        355,
+        2585,
+        60,
+        190
+      ],
+      "kind_hint": "mark",
+      "anchor": "curved stroke at left start of c.323(3) line",
+      "features": [
+        "faint curved pencil stroke",
+        "possible insertion mark"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3170,
+        2715,
+        338,
+        50
+      ],
+      "kind_hint": "arrow",
+      "anchor": "arrow from c.323(3) line end across gutter",
+      "features": [
+        "points right onto fol. 102"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        3030,
+        3135,
+        160,
+        50
+      ],
+      "kind_hint": "arrow",
+      "anchor": "left-pointing arrow at level of date note",
+      "features": [
+        "near gutter"
+      ]
+    },
+    {
+      "id": "b904",
+      "bbox": [
+        1570,
+        1810,
+        60,
+        50
+      ],
+      "kind_hint": "blot",
+      "anchor": "small dark spot",
+      "features": [
+        "not writing"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "101b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The 'b' is written superscript after '101'.",
+        "Top-left corner of the page."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0202-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901",
+        "b902"
+      ],
+      "type": "holding",
+      "subtype": "inserted_entry_for_facing_page",
+      "literal_text": "c. 323(3), Do., Ajapāparavidyā (Paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+      "fields": {
+        "shelfmark": "c. 323(3)",
+        "title": "Do., Ajapāparavidyā [reading?]",
+        "date": "n.d",
+        "extent": "7ff., inc.",
+        "lines": "14/16",
+        "script": "D"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line written across the full page width.",
+        "'Do.' is a ditto abbreviation for a title that is not written on this page.",
+        "The parenthesis opened before 'where chapter is called' has no visible closing parenthesis.",
+        "The final 'D' (or the character before it) appears overwritten. A small stroke stands above it.",
+        "A faint curved stroke rises from the left start of the line, at about x=355–410, y=2585–2775. It may be an insertion mark.",
+        "An arrow runs from the line end, at about x=3170, rightward across the gutter onto fol. 102. It points to the area between d.458(4) and e.176(10). This indicates the entry is to be inserted into the sequence on fol. 102."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 203,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "arrow landing between 'd. 458 (4)' and 'e. 176 (10)' (Dakṣiṇāmūrti... entries)",
+          "evidence": "Arrow drawn from the line end across the gutter. The matching fragment 'n.d: 7:14/16:D →' is visible in the left margin of the fol. 102 overview.",
+          "certainty": "probable"
+        },
+        {
+          "type": "ditto_from",
+          "target_page_order": 203,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "title of the entry at the insertion point on fol. 102 (possibly 'Dakṣiṇāmūrtisaṃhitā', d. 962(15)/d. 458(4))",
+          "evidence": "'Do.' presupposes a preceding title. The only evident referent is at the arrow's landing point on fol. 102. The exact referent is not verified.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'Ajapāparavidyā' is uncertain.",
+        "The parenthetical '(Paṭala 7)' is uncertain. It could be read as 'kut ala 7'.",
+        "The reading 'Ch. 10. 2583' is uncertain.",
+        "The words 'Ajapānāma vidhāna' are uncertain.",
+        "The final '16:D' contains an overwriting, and its exact reading is uncertain.",
+        "'7' in '7:14/16' repeats the extent figure. It was not entered separately as a field."
+      ],
+      "stable_id": "css-prod-0202-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b903"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "date_note",
+      "literal_text": "Date is Samvat 176 with space for last figure not filled in.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Free-standing note, at about y=3110–3215.",
+        "A left-pointing arrow near the gutter, at about x=3030–3190, y≈3155, points toward the note."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 203,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 290(2) Dakṣiṇāmūrtistotra",
+          "evidence": "A left-pointing arrow beside c. 290(2) on fol. 102 aligns with the arrow at the level of this note.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The attachment is inferred from arrow alignment only.",
+        "It is not certain whether the note relates instead to r002."
+      ],
+      "stable_id": "css-prod-0202-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "c. 323(3), Do., Ajapāparavidyā (Paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+      "after": "c. 323(3), Do., Ajapāparavidyā [reading?] (paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 [reading?] (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+      "reason": "The parenthetical word is written in lower case, and its first letter is ambiguous (k/p). This uncertainty is already noted in the record's uncertainties. The title and 'Ch. 10. 2583' are each also flagged uncertain in the record's uncertainties list, so inline [reading?] markers are added at the correct positions. The comma after the closing parenthesis is visible before '+ Co.' and is retained.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "c. 323(3), Do., Ajapāparavidyā (Paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+      "after": "c. 323(3), Do., Ajapāparavidyā [reading?] (paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 [reading?] (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+      "reason": "The parenthetical is written in lowercase. Inline uncertainty markers are added for the title and 'Ch. 10. 2583' to match the record's uncertainties. The comma after ')' is retained because it is visible.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0202-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Single line written across the full page width.",
+        "'Do.' is a ditto abbreviation for a title that is not written on this page.",
+        "The parenthesis opened before 'where chapter is called' has no visible closing parenthesis.",
+        "The final 'D' (or the character before it) appears overwritten. A small stroke stands above it.",
+        "A faint curved stroke rises from the left start of the line, at about x=355–410, y=2585–2775. It may be an insertion mark.",
+        "An arrow runs from the line end, at about x=3170, rightward across the gutter onto fol. 102. It points to the area between d.458(4) and e.176(10). This indicates the entry is to be inserted into the sequence on fol. 102."
+      ],
+      "after": [
+        "Single line written across the full page width.",
+        "'Do.' is a ditto abbreviation for a title that is not written on this page.",
+        "The parenthesis opened before 'where chapter is called' has no visible closing parenthesis.",
+        "The final 'D' (or the character before it) appears overwritten. A small stroke stands above it.",
+        "A faint curved stroke rises from the left start of the line, at about x=355–410, y=2585–2775. It may be an insertion mark.",
+        "An arrow runs from the line end, at about x=3170, rightward across the gutter onto fol. 102. It points to the area between d.458(4) and e.176(10). This indicates the entry is to be inserted into the sequence on fol. 102.",
+        "The arrow's tail starts on fol. 101b. It crosses the gutter at about x=3214, so most of the arrow block lies on the fol. 102 strip that is visible on this canvas. The arrow is kept with this record because it originates at the end of this line."
+      ],
+      "reason": "Documents the ownership of block b902 as it straddles the gutter.",
+      "source_block_ids": [
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0202-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [
+      "b904"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [
+      "b904"
+    ],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unrepresented_blocks",
+      "priority": 100,
+      "issue": "unrepresented blocks: b904",
+      "block_ids": [
+        "b904"
+      ],
+      "record_ids": [],
+      "id": "focus-0202-01"
+    },
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0202-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Attaching the note to c.290(2) on fol. 102 rests only on the alignment of the two arrows. Dates in that entry are cancelled and overwritten.",
+      "block_ids": [
+        "b003",
+        "b903"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0202-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The parenthetical word is written in lower case, and its first letter is ambiguous (k/p). This uncertainty is already noted in the record's uncertainties. The title and 'Ch. 10. 2583' are each also flagged uncertain in the record's uncertainties list, so inline [reading?] markers are added at the correct positions. The comma after the closing parenthesis is visible before '+ Co.' and is retained. Proposed literal_text: \"c. 323(3), Do., Ajapāparavidyā [reading?] (paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 [reading?] (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0202-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The referent of 'Do.' is unresolved. The arrow lands after d.458(4) on fol. 102, which is a ditto line under d.962(15) 'Dakṣiṇāmūrtisaṃhitā' marked 'Paṭalas 5-7 only'. This makes Dakṣiṇāmūrtisaṃhitā a plausible referent, but the link is not verified.",
+      "block_ids": [
+        "b002",
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0202-05"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "Several readings remain uncertain: the final character group '16:D' is overwritten, with a stroke above; 'Ch. 10. 2583' is uncertain; the parenthetical 'kuṭala/paṭala 7' is uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0202-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'Ajapāparavidyā' is uncertain.",
+      "block_ids": [
+        "b002",
+        "b901",
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0202-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The parenthetical '(Paṭala 7)' is uncertain. It could be read as 'kut ala 7'.",
+      "block_ids": [
+        "b002",
+        "b901",
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0202-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'Ch. 10. 2583' is uncertain.",
+      "block_ids": [
+        "b002",
+        "b901",
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0202-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The words 'Ajapānāma vidhāna' are uncertain.",
+      "block_ids": [
+        "b002",
+        "b901",
+        "b902"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0202-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0202-01",
+        "focus-0202-02",
+        "focus-0202-03",
+        "focus-0202-04",
+        "focus-0202-05",
+        "focus-0202-06",
+        "focus-0202-07",
+        "focus-0202-08",
+        "focus-0202-09",
+        "focus-0202-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0202-01",
+          "source_reading": "[no text: small dark grey blot/smudge]",
+          "certainty": "secure",
+          "evidence": "In the native tile at region (0,1608), local position ≈(1575–1620, 210–245) gives canvas ≈(1575–1620, 1818–1853). This is an irregular grey spot with no letter forms. It is a paper or ink blemish, not writing."
+        },
+        {
+          "issue_id": "focus-0202-02",
+          "source_reading": "[arrow, no text] a thin line runs right from just after the final 'D' at canvas x≈3170, y≈2745. It crosses the gutter fold at x≈3214 and runs to the canvas edge with an arrowhead. It continues on fol. 102, where it ends at the left of 'd. 458 (4)'/'e. 176 (10)'.",
+          "certainty": "probable",
+          "evidence": "In the native tile at region (1604,1608), the line begins at local x≈1570 and the gutter shadow is at local x≈1610. Only about 45 px of the arrow lie on fol. 101b. The rest lies on the fol. 102 strip that is visible on this canvas. The arrow starts at the end of the 101b line, so it originates on the target page."
+        },
+        {
+          "issue_id": "focus-0202-03",
+          "source_reading": "Date is Samvat 176 with space for last figure not filled in.  ←  (the arrow is at canvas x≈3034–3184, y≈3158)",
+          "certainty": "probable",
+          "evidence": "The note text reads clearly. The left-pointing arrow ends near the gutter. On fol. 102 (adjacent native tile), a left arrow in the left margin at about the same height (y≈3153) stands beside 'c. 290 (2)'. That entry carries cancelled dates. The link rests on alignment only."
+        },
+        {
+          "issue_id": "focus-0202-04",
+          "source_reading": "c. 323(3), Do., Ajapāparavidyā (paṭala 7), + Co. anon., 7ff., inc.. Ch. 10. 2583 (where chapter is called Ajapānāma vidhāna n.d: 7:14/16:D",
+          "certainty": "uncertain",
+          "evidence": "The comma after ')' is visible before '+'. The parenthetical begins with a lowercase letter that could be p or k. A small mark like '!' stands over the t."
+        },
+        {
+          "issue_id": "focus-0202-05",
+          "source_reading": "Do.",
+          "certainty": "uncertain",
+          "evidence": "No title is written on 101b. The arrow lands on fol. 102 between 'd. 458 (4)' (a ditto line, 'Paṭalas 5-7 only') and 'e. 176 (10)'. The referent is not stated in writing."
+        },
+        {
+          "issue_id": "focus-0202-06",
+          "source_reading": "n.d: 7:14/16:D (the final letter is overwritten, apparently a D written over another stroke like 'S'/'5', with a short stroke above)",
+          "certainty": "uncertain",
+          "evidence": "Native tile local ≈(1530–1565, 1125–1160): the letter forms overlap."
+        },
+        {
+          "issue_id": "focus-0202-07",
+          "source_reading": "Ajapāparavidyā (or 'Ajapāparacidyā')",
+          "certainty": "uncertain",
+          "evidence": "Cursive script. The letter before 'idyā' could be read as v or c."
+        },
+        {
+          "issue_id": "focus-0202-08",
+          "source_reading": "(paṭala 7) or (kuṭala 7)",
+          "certainty": "uncertain",
+          "evidence": "The first letter is ambiguous between p and k. There is a mark above or after the t."
+        },
+        {
+          "issue_id": "focus-0202-09",
+          "source_reading": "Ch. 10. 2583",
+          "certainty": "probable",
+          "evidence": "In the native tile at region (1604,1608), local x≈265–560, the letters 'Ch' are followed by '10.' and '2583'. The digits are fairly clear."
+        },
+        {
+          "issue_id": "focus-0202-10",
+          "source_reading": "Ajapānāma vidhāna (or 'cidhāna')",
+          "certainty": "uncertain",
+          "evidence": "Small cursive script at local x≈1000–1270. The second word begins with an ambiguous v or c."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "c. 323(3), Do., Ajapāparavidyā (Paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+          "after": "c. 323(3), Do., Ajapāparavidyā [reading?] (paṭala 7) [reading?], + Co. anon., 7ff., inc.. Ch. 10. 2583 [reading?] (where chapter is called Ajapānāma vidhāna [reading?] n.d: 7:14/16:D [reading?]",
+          "reason": "The parenthetical is written in lowercase. Inline uncertainty markers are added for the title and 'Ch. 10. 2583' to match the record's uncertainties. The comma after ')' is retained because it is visible.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "Single line written across the full page width.",
+            "'Do.' is a ditto abbreviation for a title that is not written on this page.",
+            "The parenthesis opened before 'where chapter is called' has no visible closing parenthesis.",
+            "The final 'D' (or the character before it) appears overwritten. A small stroke stands above it.",
+            "A faint curved stroke rises from the left start of the line, at about x=355–410, y=2585–2775. It may be an insertion mark.",
+            "An arrow runs from the line end, at about x=3170, rightward across the gutter onto fol. 102. It points to the area between d.458(4) and e.176(10). This indicates the entry is to be inserted into the sequence on fol. 102."
+          ],
+          "after": [
+            "Single line written across the full page width.",
+            "'Do.' is a ditto abbreviation for a title that is not written on this page.",
+            "The parenthesis opened before 'where chapter is called' has no visible closing parenthesis.",
+            "The final 'D' (or the character before it) appears overwritten. A small stroke stands above it.",
+            "A faint curved stroke rises from the left start of the line, at about x=355–410, y=2585–2775. It may be an insertion mark.",
+            "An arrow runs from the line end, at about x=3170, rightward across the gutter onto fol. 102. It points to the area between d.458(4) and e.176(10). This indicates the entry is to be inserted into the sequence on fol. 102.",
+            "The arrow's tail starts on fol. 101b. It crosses the gutter at about x=3214, so most of the arrow block lies on the fol. 102 strip that is visible on this canvas. The arrow is kept with this record because it originates at the end of this line."
+          ],
+          "reason": "Documents the ownership of block b902 as it straddles the gutter.",
+          "source_block_ids": [
+            "b902"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Page number '101b'."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Inserted entry line; readings remain uncertain."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Date note."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Faint curved stroke at the start of the line."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The arrow originates on 101b and mostly crosses onto the fol. 102 strip. It is not a separate facing-page fragment."
+        },
+        {
+          "block_id": "b903",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Left-pointing arrow beside the note."
+        },
+        {
+          "block_id": "b904",
+          "status": "represented",
+          "record_ids": [],
+          "finding": "Non-text blot. Image review shows no writing, so no transcription record is needed."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0202-03",
+          "record_id": "r003",
+          "block_ids": [
+            "b003",
+            "b903"
+          ],
+          "issue": "Attaching the note to c. 290(2) rests only on the alignment of the arrows. The relation to that entry's cancelled dates is unverified.",
+          "next_check": "Compare with the fol. 102 transcription of c. 290(2) and its cancelled dates."
+        },
+        {
+          "issue_id": "focus-0202-05",
+          "record_id": "r002",
+          "block_ids": [
+            "b002",
+            "b902"
+          ],
+          "issue": "The referent of 'Do.' is unverified.",
+          "next_check": "Check the fol. 102 record at the arrow landing (d. 458(4)/d. 962(15))."
+        },
+        {
+          "issue_id": "focus-0202-06",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The overwritten final character in '16:D' and the parenthetical's first letter (p/k) remain doubtful.",
+          "next_check": "Use higher magnification or raking-light imaging."
+        },
+        {
+          "issue_id": "focus-0202-07",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "'Ajapāparavidyā' could also be read 'Ajapāparacidyā' (v or c).",
+          "next_check": "Use higher-resolution imaging."
+        },
+        {
+          "issue_id": "focus-0202-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The parenthetical could be 'paṭala 7' or 'kuṭala 7'.",
+          "next_check": "Use higher-resolution imaging."
+        },
+        {
+          "issue_id": "focus-0202-09",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "'Ch. 10. 2583' is probable but not secure.",
+          "next_check": "Use higher-resolution imaging."
+        },
+        {
+          "issue_id": "focus-0202-10",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "'vidhāna' could also be read 'cidhāna'.",
+          "next_check": "Use higher-resolution imaging."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "15fc673700c85c98edde8c6e79e8e264bcf2dc3af808e64f88f7bd80e0c4d24e",
+      "bytes": 259097,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7bbb8ddef3b1300c4f29a0e9b31e20f427b868eaf5060bf9df20c6d163e32ce6",
+      "bytes": 307860,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4a92742966401a5996ecaee1934e59414a96ee4e259df9194d24baca85e17ec1",
+      "bytes": 328732,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "84bef9472007998c1ae70b62ffded94456b3b35c57f5aef153d638a62900a35f",
+      "bytes": 358699,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b87ca4d4c97470836d77472b038965e19013599006a82700cba7a0ca5a3c1575",
+      "bytes": 350061,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "51c139766ade9e258e1d0b5d29ed3c2a53d7e4d308c46e9d8e2fe1aab68a5956",
+      "bytes": 315154,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2e784e49f17e421a6dca48ebbe3502aa1609b2ca6344e8f256e6c8d518a317ba",
+      "bytes": 350055,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e478c0e0-d10c-47ff-9bc7-0edea816fd65/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "68ce23a16a03036d2025034edbb4773200e6492bef2bfc191bf507285bb50eb7",
+      "bytes": 281464,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 201,
+      "folio_label": "fol. 101",
+      "page_id": "e478c0e0-d10c-47ff-9bc7-0edea816fd65",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f817574a-8672-4445-851a-29e41db5f5d7/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "725494455596db6b0bffa477552d0c2a6b5439971de259c39101259bfea52396",
+      "bytes": 283807,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 203,
+      "folio_label": "fol. 102",
+      "page_id": "f817574a-8672-4445-851a-29e41db5f5d7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f817574a-8672-4445-851a-29e41db5f5d7/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b6725bddc1806755a07d573cc291589172b5f93afd98ffd33fe115787c7247fa",
+      "bytes": 509880,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 203,
+      "folio_label": "fol. 102",
+      "page_id": "f817574a-8672-4445-851a-29e41db5f5d7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f817574a-8672-4445-851a-29e41db5f5d7/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3ae68d1b6ec775b1c0a7e1a53c6b1bb77bdfa4c0a8cba1c1f17133f85520534f",
+      "bytes": 517103,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 203,
+      "folio_label": "fol. 102",
+      "page_id": "f817574a-8672-4445-851a-29e41db5f5d7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/35a9f08e-8ed0-4068-9948-3062ad3cbf15.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "15fc673700c85c98edde8c6e79e8e264bcf2dc3af808e64f88f7bd80e0c4d24e",
+      "bytes": 259097,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7bbb8ddef3b1300c4f29a0e9b31e20f427b868eaf5060bf9df20c6d163e32ce6",
+      "bytes": 307860,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4a92742966401a5996ecaee1934e59414a96ee4e259df9194d24baca85e17ec1",
+      "bytes": 328732,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "84bef9472007998c1ae70b62ffded94456b3b35c57f5aef153d638a62900a35f",
+      "bytes": 358699,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b87ca4d4c97470836d77472b038965e19013599006a82700cba7a0ca5a3c1575",
+      "bytes": 350061,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "51c139766ade9e258e1d0b5d29ed3c2a53d7e4d308c46e9d8e2fe1aab68a5956",
+      "bytes": 315154,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35a9f08e-8ed0-4068-9948-3062ad3cbf15/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2e784e49f17e421a6dca48ebbe3502aa1609b2ca6344e8f256e6c8d518a317ba",
+      "bytes": 350055,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e478c0e0-d10c-47ff-9bc7-0edea816fd65/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "68ce23a16a03036d2025034edbb4773200e6492bef2bfc191bf507285bb50eb7",
+      "bytes": 281464,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 201,
+      "folio_label": "fol. 101",
+      "page_id": "e478c0e0-d10c-47ff-9bc7-0edea816fd65",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f817574a-8672-4445-851a-29e41db5f5d7/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "725494455596db6b0bffa477552d0c2a6b5439971de259c39101259bfea52396",
+      "bytes": 283807,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 203,
+      "folio_label": "fol. 102",
+      "page_id": "f817574a-8672-4445-851a-29e41db5f5d7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

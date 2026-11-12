@@ -1,0 +1,878 @@
+{
+  "source_order": 242,
+  "folio_label": "fol. 121b",
+  "page_id": "c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "121b",
+    "principal_page_bbox": [
+      320,
+      255,
+      2875,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          320,
+          150,
+          95
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "121b",
+        "features": [
+          "top-left corner",
+          "superscript b; there may be a dot after it"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          1910,
+          3310,
+          1050,
+          95
+        ],
+        "kind_hint": "marginal_or_added_note",
+        "anchor": "ff.4b-23a, really the Mahānārayaṇa Up.",
+        "features": [
+          "written in the right half of a ruled line above the C. 426d entry",
+          "an arrow pointing left (←) at about [3050,3330,260,40] crosses the gutter from the facing page",
+          "possibly attached to an entry on facing fol. 122 rather than to this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          340,
+          3395,
+          1910,
+          90
+        ],
+        "kind_hint": "holding_entry",
+        "anchor": "√C. 426d, Nārāyaṇa Up., ff.17b-10(m.16, foliation in reverse order) of palm leaf MS.",
+        "features": [
+          "tick before shelfmark",
+          "superscript d",
+          "runs from the left edge into the right half of the page",
+          "spelling Nārāyaṇa / Up. abbreviation uncertain in cursive hand"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2070,
+          3415,
+          180,
+          50
+        ],
+        "kind_hint": "cancellation",
+        "anchor": "⟦ff.[illegible]⟧",
+        "features": [
+          "struck-through word at the end of the C. 426d entry text",
+          "reading uncertain"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2510,
+          3430,
+          420,
+          65
+        ],
+        "kind_hint": "entry_date_extent_column",
+        "anchor": "n.d.: 7: 3: Beng",
+        "features": [
+          "date/extent/script column on the same line as b003",
+          "an arrow pointing left (←) at about [3090,3450,60,35] is near the gutter",
+          "Beng abbreviation as written"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3054,
+          3330,
+          250,
+          40
+        ],
+        "description": "left-pointing arrow line from the gutter / facing page toward b002"
+      },
+      {
+        "bbox": [
+          3090,
+          3450,
+          60,
+          35
+        ],
+        "description": "small left-pointing arrow near the gutter beside b005; this may link to the facing-page entry"
+      }
+    ],
+    "boundary_notes": [
+      "Marks at the right edge beyond the gutter (x>~3200), such as ā/, ś/, ticks, c, f, 'see s. Bh p.', n/, t/? and ā/, belong to facing fol. 122. They are not target records.",
+      "Faint show-through of writing from the reverse side is visible across the page. It was not transcribed.",
+      "Attachment of b002 and b005 to entries on the facing fol. 122 (for example the d.62(9)b and d.341(6) lines) is uncertain."
+    ],
+    "uncertainties": [
+      "Exact readings of the cursive abbreviations in b003 are uncertain: 'm.16', 'foliation in reverse order'.",
+      "The cancelled word in b004 is illegible.",
+      "It is unclear whether b002 is a note to b003 or to a facing-page entry."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "121b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "121b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top-left corner. The 'b' is superscript and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "correction_note",
+        "literal_text": "ff.4b-23a, really the Mahānārayaṇa Up.",
+        "fields": {
+          "extent": "ff.4b-23a"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Written in the right half of the ruled line directly above the C. 426d entry.",
+          "A left-pointing arrow (←) at about [3054,3330,140,40] points toward the note. It continues as a line across the gutter at about [3214,3330,90,20] onto facing fol. 122.",
+          "On fol. 122 the arrow line meets the left margin near the 'd. 62 (9)b' line of the Nārāyaṇa Upaniṣad entries."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 243,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 62 (9)b ... H. 4b-28 of a Ms. containing 5 small upanishads",
+            "evidence": "The arrow line runs from the facing page across the gutter to this note. The extent 'ff.4b-23a' resembles that entry's foliation.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 242,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "√C. 426d",
+            "evidence": "The note sits on the line directly above the C. 426d entry, but the arrow points elsewhere.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The second macron in 'Mahānārayaṇa' is uncertain: the word may read 'Mahānārāyaṇa'.",
+          "The attachment target is not secure."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b004",
+          "b005"
+        ],
+        "type": "holding",
+        "subtype": "added_entry",
+        "literal_text": "√C. 426d, Nārāyaṇa Up., ff.17b-10(m.16, foliation in reverse order) of palm leaf MS., ⟦ff.[illegible]⟧    n.d.: 7: 3: Beng",
+        "fields": {
+          "shelfmark": "C. 426d",
+          "title": "Nārāyaṇa Up.",
+          "date": "n.d.",
+          "extent": "7",
+          "lines": "3",
+          "script": "Beng"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick (√) precedes the shelfmark.",
+          "The 'd' of 426d is superscript.",
+          "The final word before the date column is struck through.",
+          "A small left-pointing arrow (←) at about [3094,3450,60,35] sits beside the date column near the gutter. A rightward arrow (→) appears just across the gutter on fol. 122, near 'see s. Bh p.' / 'd. 341 (6)'.",
+          "The whole entry appears to be written on a page that is otherwise blank, apparently as an addition belonging with the Nārāyaṇa Upaniṣad entries on the facing fol. 122."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 243,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Nārāyaṇa Upaniṣad entries (near d. 62 (9)b / d. 341 (6))",
+            "evidence": "Arrows at the gutter link this line to the facing page's Nārāyaṇa Upaniṣad group.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading '(m.16' is uncertain.",
+          "The closing bracket after 'order' is written as ')' or '/'.",
+          "The cancelled word is illegible. It possibly begins 'ff.'.",
+          "'Up.' is read from a cursive abbreviation.",
+          "The column values are assigned to extent, lines and script following this catalogue's usual column order."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Separate note with ambiguous attachment, linked by arrow to the facing page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Main text of the holding entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Cancelled word at the end of the C. 426d entry text."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Date, extent, lines and script column on the same line as the entry."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank apart from faint show-through from the reverse, which was not transcribed.",
+      "Marks beyond the gutter (x>~3200), such as ā/, ś/, ticks, c, f, 'see s. Bh p.', n/, t/? and ā/, belong to facing fol. 122 and are not recorded here."
+    ],
+    "unresolved_relationships": [
+      "Whether r002 annotates facing-page d. 62 (9)b or the C. 426d entry.",
+      "The exact facing-page target of the arrows beside r003."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Top-left folio number reads '121' with a superscript 'b' and a dot below or after it. r001 '121b.' is acceptable."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Added line 'ff.4b-23a, really the Mahānārayaṇa Up.' lies at about native [1914,3328,1030,70], one ruled line above the C. 426d line. A left-pointing arrow at about [3054,3340,130,25] is followed by a line segment across the gutter at about [3214,3335,90,15]. On fol. 122 that segment reaches the left margin at the d. 62 (9)b row. The digit read as '3' in '23a' could possibly be '8'; this is unresolved."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Main entry text is read. The tick, the superscript d and the comma after 426d are visible. The '(m.16' reading and the closing mark after 'order' remain uncertain, as the candidate states."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A struck-through word after 'MS.,' lies at about [2084,3443,155,35]. It may begin 'ff.' but remains illegible. It is correctly kept as a cancellation with an [illegible] reading."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Column 'n.d.: 7: 3: Beng' lies at about [2519,3443,405,45] on the C. 426d line. A small left-pointing arrow sits at about [3094,3450,50,30], before the gutter. Separately, a right-pointing arrow lies just beyond the gutter on fol. 122, above 'see s. Bh p.'."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "A tick (√) precedes the shelfmark.",
+          "The 'd' of 426d is superscript.",
+          "The final word before the date column is struck through.",
+          "A small left-pointing arrow (←) at about [3094,3450,60,35] sits beside the date column near the gutter. A rightward arrow (→) appears just across the gutter on fol. 122, near 'see s. Bh p.' / 'd. 341 (6)'.",
+          "The whole entry appears to be written on a page that is otherwise blank, apparently as an addition belonging with the Nārāyaṇa Upaniṣad entries on the facing fol. 122."
+        ],
+        "after": [
+          "A tick (√) precedes the shelfmark.",
+          "The 'd' of 426d is superscript.",
+          "The final word before the date column is struck through.",
+          "A small left-pointing arrow (←) at about [3094,3450,60,35] sits beside the date column near the gutter. A rightward arrow (→) appears just across the gutter on fol. 122, near 'see s. Bh p.' / 'd. 341 (6)'."
+        ],
+        "reason": "The final annotation is an interpretive inference about where the entry belongs, not a description of a visible feature. It is moved to editorial_context.",
+        "source_block_ids": [
+          "b003",
+          "b005"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "editorial_context",
+        "before": [],
+        "after": [
+          "Inference, not source wording: the entry appears to be written on an otherwise blank page, possibly as an addition belonging with the Nārāyaṇa Upaniṣad entries on facing fol. 122. This is not confirmed."
+        ],
+        "reason": "Keeps the inference separate from the literal description.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The arrow line reaches the fol. 122 left margin at the d. 62 (9)b row. That entry's foliation reads roughly '4b-28' in the reduced context image, while the note reads 'ff.4b-23a'. Whether '23a' is actually '28a' is unresolved, so the attachment remains probable, not secure. The candidate's facing-page anchor 'H. 4b-28' may itself be a misreading of 'ff.'.",
+        "next_check": "Inspect native-resolution fol. 122 at the d. 62 (9)b line and the note digits at about [2050,3330,150,60]."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b005"
+        ],
+        "issue": "The relation of the small left arrow beside the column to the right-pointing arrow and 'see s. Bh p.' on fol. 122 (d. 341 (6), the cancelled Nārāyaṇakavaca line) is unclear.",
+        "next_check": "Compare native-resolution fol. 122 gutter-side marks at rows 'd. 62 (9)b' and 'd. 341 (6)'."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "Assigning 7 and 3 to the extent and lines fields follows the catalogue's column pattern on fol. 121 ('n.d. : 8 : 13 : Tel.'). It is not written as labelled fields.",
+        "next_check": "Retain as inferred field mapping."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x=3190. Writing beyond it belongs to fol. 122 and is not a target record. This includes ā/, ś/, ticks, 'c', 'f', the right-pointing arrow, 'see s. Bh p.', n/, t/? and the lower ā/. The arrow segment crossing the gutter is a linking mark between the target note b002 and the facing page. Faint show-through of reversed text across the page was not transcribed. Small marks at the gutter are binding or sewing holes, not text.",
+    "region_review": {
+      "top": "Only the folio number '121b.' is present. The rest is blank ruled paper with show-through.",
+      "middle": "Blank ruled lines with faint show-through only. No ink additions were found.",
+      "bottom": "Two written lines, the b002 note and the C. 426d entry with its column, at about y 3330–3490. Below them, to the page foot at about y 4840, there is only show-through.",
+      "left_margin": "No marginal marks apart from the tick beginning the C. 426d entry.",
+      "right_margin": "Arrows near the gutter at y about 3340 and 3455. Facing-page fragments beyond the gutter are excluded.",
+      "interlinear": "No interlinear additions apart from the superscript 'd' of 426d. The cancelled word at the end of the entry line is noted."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        320,
+        150,
+        95
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "121b",
+      "features": [
+        "top-left corner",
+        "superscript b; there may be a dot after it"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        1910,
+        3310,
+        1050,
+        95
+      ],
+      "kind_hint": "marginal_or_added_note",
+      "anchor": "ff.4b-23a, really the Mahānārayaṇa Up.",
+      "features": [
+        "written in the right half of a ruled line above the C. 426d entry",
+        "an arrow pointing left (←) at about [3050,3330,260,40] crosses the gutter from the facing page",
+        "possibly attached to an entry on facing fol. 122 rather than to this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        340,
+        3395,
+        1910,
+        90
+      ],
+      "kind_hint": "holding_entry",
+      "anchor": "√C. 426d, Nārāyaṇa Up., ff.17b-10(m.16, foliation in reverse order) of palm leaf MS.",
+      "features": [
+        "tick before shelfmark",
+        "superscript d",
+        "runs from the left edge into the right half of the page",
+        "spelling Nārāyaṇa / Up. abbreviation uncertain in cursive hand"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2070,
+        3415,
+        180,
+        50
+      ],
+      "kind_hint": "cancellation",
+      "anchor": "⟦ff.[illegible]⟧",
+      "features": [
+        "struck-through word at the end of the C. 426d entry text",
+        "reading uncertain"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2510,
+        3430,
+        420,
+        65
+      ],
+      "kind_hint": "entry_date_extent_column",
+      "anchor": "n.d.: 7: 3: Beng",
+      "features": [
+        "date/extent/script column on the same line as b003",
+        "an arrow pointing left (←) at about [3090,3450,60,35] is near the gutter",
+        "Beng abbreviation as written"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "121b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top-left corner. The 'b' is superscript and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0242-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "correction_note",
+      "literal_text": "ff.4b-23a, really the Mahānārayaṇa Up.",
+      "fields": {
+        "extent": "ff.4b-23a"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Written in the right half of the ruled line directly above the C. 426d entry.",
+        "A left-pointing arrow (←) at about [3054,3330,140,40] points toward the note. It continues as a line across the gutter at about [3214,3330,90,20] onto facing fol. 122.",
+        "On fol. 122 the arrow line meets the left margin near the 'd. 62 (9)b' line of the Nārāyaṇa Upaniṣad entries."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 243,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 62 (9)b ... H. 4b-28 of a Ms. containing 5 small upanishads",
+          "evidence": "The arrow line runs from the facing page across the gutter to this note. The extent 'ff.4b-23a' resembles that entry's foliation.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 242,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "√C. 426d",
+          "evidence": "The note sits on the line directly above the C. 426d entry, but the arrow points elsewhere.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The second macron in 'Mahānārayaṇa' is uncertain: the word may read 'Mahānārāyaṇa'.",
+        "The attachment target is not secure."
+      ],
+      "stable_id": "css-prod-0242-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b004",
+        "b005"
+      ],
+      "type": "holding",
+      "subtype": "added_entry",
+      "literal_text": "√C. 426d, Nārāyaṇa Up., ff.17b-10(m.16, foliation in reverse order) of palm leaf MS., ⟦ff.[illegible]⟧    n.d.: 7: 3: Beng",
+      "fields": {
+        "shelfmark": "C. 426d",
+        "title": "Nārāyaṇa Up.",
+        "date": "n.d.",
+        "extent": "7",
+        "lines": "3",
+        "script": "Beng"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick (√) precedes the shelfmark.",
+        "The 'd' of 426d is superscript.",
+        "The final word before the date column is struck through.",
+        "A small left-pointing arrow (←) at about [3094,3450,60,35] sits beside the date column near the gutter. A rightward arrow (→) appears just across the gutter on fol. 122, near 'see s. Bh p.' / 'd. 341 (6)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 243,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Nārāyaṇa Upaniṣad entries (near d. 62 (9)b / d. 341 (6))",
+          "evidence": "Arrows at the gutter link this line to the facing page's Nārāyaṇa Upaniṣad group.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading '(m.16' is uncertain.",
+        "The closing bracket after 'order' is written as ')' or '/'.",
+        "The cancelled word is illegible. It possibly begins 'ff.'.",
+        "'Up.' is read from a cursive abbreviation.",
+        "The column values are assigned to extent, lines and script following this catalogue's usual column order."
+      ],
+      "stable_id": "css-prod-0242-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "A tick (√) precedes the shelfmark.",
+        "The 'd' of 426d is superscript.",
+        "The final word before the date column is struck through.",
+        "A small left-pointing arrow (←) at about [3094,3450,60,35] sits beside the date column near the gutter. A rightward arrow (→) appears just across the gutter on fol. 122, near 'see s. Bh p.' / 'd. 341 (6)'.",
+        "The whole entry appears to be written on a page that is otherwise blank, apparently as an addition belonging with the Nārāyaṇa Upaniṣad entries on the facing fol. 122."
+      ],
+      "after": [
+        "A tick (√) precedes the shelfmark.",
+        "The 'd' of 426d is superscript.",
+        "The final word before the date column is struck through.",
+        "A small left-pointing arrow (←) at about [3094,3450,60,35] sits beside the date column near the gutter. A rightward arrow (→) appears just across the gutter on fol. 122, near 'see s. Bh p.' / 'd. 341 (6)'."
+      ],
+      "reason": "The final annotation is an interpretive inference about where the entry belongs, not a description of a visible feature. It is moved to editorial_context.",
+      "source_block_ids": [
+        "b003",
+        "b005"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "editorial_context",
+      "before": [],
+      "after": [
+        "Inference, not source wording: the entry appears to be written on an otherwise blank page, possibly as an addition belonging with the Nārāyaṇa Upaniṣad entries on facing fol. 122. This is not confirmed."
+      ],
+      "reason": "Keeps the inference separate from the literal description.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "c9835193c74ddd12eed4670ef35ffa52fd3f79ad8867ef3608118bfc9e31719f",
+      "bytes": 242352,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c25b022ae882e4830580e2edfbd8eb5e0b877c8da3b6045b63d1834e4e8515a5",
+      "bytes": 273958,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "35e6fb48f063173bed2b017dd9e9bc6a3632984e2813e375d199e5ed15e7f128",
+      "bytes": 293564,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "04e5c1626a93fa798f246cac3921f89e520e908996c0ac4133ee528df84ff1a0",
+      "bytes": 308381,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e56e87271b24108d66c48507bbd3df9b181518c2c56524cf169dc5a85418abe7",
+      "bytes": 322195,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "838432431528a4cd069fabf8c4de33f233b9c9248aaaba053b65dd13d2f9935d",
+      "bytes": 299106,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c5fc52a3-6ee1-46aa-91e2-6ab22f2b36e7/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e3040e7d41d66338609fd29c58f96c16be06c36d857e2ddc73b34a6113a14efc",
+      "bytes": 338965,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/dfae25d2-e2ad-411c-a6ea-9c1f1bb9d335/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d3cd66111154793d1d5a5a14e8138b95aa8bbc2b473aa49efac3fc57a2b00339",
+      "bytes": 229448,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 241,
+      "folio_label": "fol. 121",
+      "page_id": "dfae25d2-e2ad-411c-a6ea-9c1f1bb9d335",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cb7f478b-0910-48ef-838a-9f393d2dd880/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "467a13f37e9fd54eddcba1329a79bb64aca05ae6422902562c702508c11dd771",
+      "bytes": 254971,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 243,
+      "folio_label": "fol. 122",
+      "page_id": "cb7f478b-0910-48ef-838a-9f393d2dd880",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

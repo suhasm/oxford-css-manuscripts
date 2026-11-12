@@ -1,0 +1,1589 @@
+{
+  "source_order": 476,
+  "folio_label": "fol. 238b",
+  "page_id": "1450c478-2848-426c-a879-c8d94bfa316c",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "other",
+    "visible_folio": "238b",
+    "principal_page_bbox": [
+      315,
+      300,
+      2850,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          330,
+          150,
+          155
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "238b.",
+        "features": [
+          "top left corner",
+          "written '238' with raised 'b' and a dot below it",
+          "ink or dark pencil",
+          "matches the supplied label 'fol. 238b'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2905,
+          690,
+          110,
+          195
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "ū/",
+        "features": [
+          "faint pencil",
+          "near the outer right edge by the gutter, upper part of the page",
+          "'u' with a macron, followed by a long diagonal slash",
+          "no catalogue entry on this page to attach it to",
+          "may relate to the facing fol. 239 entries (cancelled Varṇavṛtti entry region); attachment not certain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2910,
+          2890,
+          60,
+          145
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "d/",
+        "features": [
+          "faint pencil",
+          "right part of the page, middle-lower area",
+          "a letter-like form read as 'd', crossed by or followed by a diagonal stroke",
+          "reading uncertain",
+          "unattached on this page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2760,
+          3330,
+          200,
+          180
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "bheda",
+        "features": [
+          "pencil",
+          "word enclosed in a hand-drawn circle",
+          "short dash just to the right of the circle",
+          "lower right part of the page",
+          "unattached on this page; possibly keyed to an item on facing fol. 239, but not confirmed"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3000,
+          3415,
+          25,
+          10
+        ],
+        "description": "Short pencil dash to the right of the circled 'bheda'."
+      },
+      {
+        "bbox": [
+          3110,
+          900,
+          80,
+          4000
+        ],
+        "description": "Holes, pinches and creases from sewing along the gutter and spine edge. These are not writing."
+      },
+      {
+        "bbox": [
+          330,
+          690,
+          2830,
+          4100
+        ],
+        "description": "The ruled lines across the page carry very faint, illegible reversed show-through of writing from the other side of the leaf. This is not transcribed as target text."
+      }
+    ],
+    "boundary_notes": [
+      "The strip beyond the gutter (x > ~3170) belongs to facing fol. 239 and is excluded from this inventory. It contains the following fragments of that page: a tick and 'd', 'd. 18' with cancellation, a faint 'see', a circled 'hy' with '?', and two '?' marks.",
+      "The marks 'ū/', 'd/' and the circled '...da' also appear at the left edge of the adjacent fol. 239 image. That is the same 238b page seen in the opening, not a separate record.",
+      "Faint ghost writing on the ruled lines is show-through from the reverse side. It was not treated as entries."
+    ],
+    "uncertainties": [
+      "Reading of b003 as 'd/' is uncertain.",
+      "b002 may be 'ū/' or 'ā/'; the macron sits over a 'u'-like form.",
+      "The relation of the pencil marks to specific entries on fol. 239 is unconfirmed."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "mostly_blank_verso_with_pencil_marginalia",
+    "visible_folio": "238b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "238b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top left corner of the page.",
+          "The 'b' is written raised after '238'. A dot stands below or after it.",
+          "Written in ink or dark pencil.",
+          "It matches the supplied label 'fol. 238b'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The raised 'b' is transcribed inline because superscript placement cannot be shown in the literal field."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_pencil_mark",
+        "literal_text": "ū/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil near the gutter-side edge of the page, upper part (about y 700–880).",
+          "A 'u'-like letter with a macron above it, followed by a long diagonal slash.",
+          "There is no catalogue entry on fol. 238b to which it could attach.",
+          "It also shows at the left edge of the adjacent fol. 239 image. This is the same mark seen in the opening, not a second instance."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 477,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 187 (1) Varṇavṛtti (cancelled entry)",
+            "evidence": "The mark sits at roughly the same height across the gutter as the cancelled Varṇavṛtti entry at the top of fol. 239. Nothing on the target page links it.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The letter could be 'ū' or 'ā'. The form under the macron looks like a 'u'.",
+          "The meaning of the mark and the slash is unknown."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_pencil_mark",
+        "literal_text": "[d?]/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil on the right side of the page, middle-lower area (about y 2900–3030).",
+          "A small letter-like form crossed by, or followed by, a long diagonal stroke.",
+          "No entry on this page to attach it to."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 477,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vallabha Deva : Śiśupālavadha",
+            "evidence": "The mark sits at roughly the same height across the gutter as the Vallabha Deva cross-reference line on fol. 239. This is a positional coincidence only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'd' is uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "circled_pencil_word",
+        "literal_text": "bheda",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil word enclosed in a hand-drawn circle, lower right part of the page (about y 3340–3510).",
+          "A short pencil dash lies just to the right of the circle (about x 3000, y 3415).",
+          "It is visible as a circled '...da' at the left edge of the fol. 239 image. This is the same mark, not a separate record."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 477,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Jala[f/bh]edha (in the list under f. 87 Vallabhācāryastutikalāpa, 'By Vallabha')",
+            "evidence": "The mark sits at roughly the same height as the 'Jalabhedha' list item on fol. 239, which carries an interlinear correction. The shared wording 'bheda' is suggestive but not confirmed.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The attachment to any fol. 239 item is unconfirmed."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Unattached pencil mark 'ū/'."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Unattached pencil mark, reading uncertain."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Circled pencil word 'bheda' with a dash; the dash is included in this record."
+      }
+    ],
+    "page_annotations": [
+      "Otherwise blank ruled verso: there are no catalogue entries, headings or cross-references.",
+      "Very faint reversed show-through from the other side of the leaf appears along the ruled lines. It is not target text and is not transcribed.",
+      "Sewing holes and creases along the gutter are not writing.",
+      "The strip beyond the gutter (x > ~3170) belongs to fol. 239 and is excluded. It shows a tick, 'd. 18' with a cancellation, a faint 'see', a circled 'hy' with '?', and '?' marks.",
+      "Faint marks seen at about x 1120–1600, y 3500 in the lower-right tile look like specks or show-through. They were not treated as writing."
+    ],
+    "unresolved_relationships": [
+      "The three pencil marks (ū/, [d?]/, circled 'bheda') may be keyed to entries on facing fol. 239 (source order 477). They are aligned by height only; no confirmed attachment."
+    ]
+  },
+  "review": {
+    "page_class": "mostly_blank_verso_with_pencil_marginalia",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Top-left folio number '238' with a raised 'b' and a dot below. Read on the native tile at about x 395–530, y 335–480. The literal '238b.' is acceptable."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Faint pencil 'u' with a macron above it and a long diagonal slash, at about x 2920–3010, y 690–880 on the gutter side. It is the same mark seen at the left edge of the fol. 239 image, not a second instance. The ū/ā ambiguity is correctly kept open."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A small pencil letter-like form crossed by a diagonal stroke, at about x 2920–2960, y 2900–3030. The reading '[d?]/' keeps the uncertainty. It is the same mark as the 'd' at the left edge of the fol. 239 image."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The pencil word 'bheda' is enclosed in a hand-drawn circle at about x 2765–2955, y 3335–3505. A short dash lies at about x 3000, y 3415 and is correctly folded into r004. The left edge of the fol. 239 image shows only a partial circled '...da' of this same mark."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 477,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 187 (1) Varṇavṛtti (cancelled entry)",
+            "evidence": "The mark sits at roughly the same height across the gutter as the cancelled Varṇavṛtti entry at the top of fol. 239. Nothing on the target page links it.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 477,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "cancelled entry at shelfmark 'd. 18[?] (1)' (title read approximately as Var[ṇ?]avṛtti) near the top of fol. 239",
+            "evidence": "The mark sits at roughly the same height across the gutter as the cancelled entry near the top of fol. 239. The final digit of the shelfmark and the diacritics of the title are not securely legible in the reduced context image. Nothing on the target page links the two.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The anchor gave a falsely certain shelfmark 'd. 187' and a fully diacriticised title. The adjacent-page image does not securely show the last digit or the diacritics; the inventory itself reads only 'd. 18' with a cancellation.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The letter is ū or ā. The meaning of the slash, and any attachment to a fol. 239 entry, are unconfirmed.",
+        "next_check": "Compare with a native-resolution view of fol. 239, rows near y≈650–800."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The letter reading 'd' is uncertain. Alignment with the Vallabha Deva line on fol. 239 is positional only.",
+        "next_check": "Check native fol. 239 at its left margin near y≈2900."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The intended attachment is unconfirmed. Two items on fol. 239 contain 'bheda'-like wording: the corrected first list item 'Jala[?]edha' at the same height, and 'Jalabhedapañcasikā' lower in the right column.",
+        "next_check": "Inspect the fol. 239 list at native resolution near y≈3350–3500."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "The candidate page annotation places faint marks at 'x 1120–1600, y 3500 in the lower-right tile'. Its coordinate frame is ambiguous: tile-relative or canvas. A small speck at about canvas (1045, 2478) also looks like show-through or dirt, not writing.",
+        "next_check": "No transcription consequence. Treat as non-writing unless a higher-contrast view shows pencil strokes."
+      }
+    ],
+    "boundary_review": "The gutter is at about x≈3170. The strip to its right belongs to fol. 239 and is excluded as target text. That strip shows a tick, a cancelled 'd. 18…', a faint 'see', a circled 'hy' with '?', and two '?' marks. The ū/, d/ and circled bheda marks lie on the 238b side of the gutter. They appear again only as edge fragments in the fol. 239 image and are not duplicate records. Their attachment to fol. 239 entries remains unresolved.",
+    "region_review": {
+      "top": "Only the folio number 238b. is present; the area is otherwise blank.",
+      "middle": "Blank apart from the pencil marks ū/ (y≈690–880) and d/ (y≈2900–3030) near the gutter. The ruled lines carry only faint reversed show-through.",
+      "bottom": "No writing below the circled 'bheda'. The lower ruled lines and the foot of the page are blank apart from show-through and specks.",
+      "left_margin": "Blank. The page edge and black background are visible.",
+      "right_margin": "This is the gutter side. It holds the three pencil marks and the dash. Sewing holes and creases are not writing.",
+      "interlinear": "No interlinear additions. The faint ghost writing is show-through from the reverse side and is not transcribed."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        330,
+        150,
+        155
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "238b.",
+      "features": [
+        "top left corner",
+        "written '238' with raised 'b' and a dot below it",
+        "ink or dark pencil",
+        "matches the supplied label 'fol. 238b'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2905,
+        690,
+        110,
+        195
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "ū/",
+      "features": [
+        "faint pencil",
+        "near the outer right edge by the gutter, upper part of the page",
+        "'u' with a macron, followed by a long diagonal slash",
+        "no catalogue entry on this page to attach it to",
+        "may relate to the facing fol. 239 entries (cancelled Varṇavṛtti entry region); attachment not certain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2910,
+        2890,
+        60,
+        145
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "d/",
+      "features": [
+        "faint pencil",
+        "right part of the page, middle-lower area",
+        "a letter-like form read as 'd', crossed by or followed by a diagonal stroke",
+        "reading uncertain",
+        "unattached on this page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2760,
+        3330,
+        200,
+        180
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "bheda",
+      "features": [
+        "pencil",
+        "word enclosed in a hand-drawn circle",
+        "short dash just to the right of the circle",
+        "lower right part of the page",
+        "unattached on this page; possibly keyed to an item on facing fol. 239, but not confirmed"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "238b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top left corner of the page.",
+        "The 'b' is written raised after '238'. A dot stands below or after it.",
+        "Written in ink or dark pencil.",
+        "It matches the supplied label 'fol. 238b'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The raised 'b' is transcribed inline because superscript placement cannot be shown in the literal field."
+      ],
+      "stable_id": "css-prod-0476-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_pencil_mark",
+      "literal_text": "ū/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil near the gutter-side edge of the page, upper part (about y 700–880).",
+        "A 'u'-like letter with a macron above it, followed by a long diagonal slash.",
+        "There is no catalogue entry on fol. 238b to which it could attach.",
+        "It also shows at the left edge of the adjacent fol. 239 image. This is the same mark seen in the opening, not a second instance."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cancelled entry at shelfmark 'd. 18[?] (1)' (title read approximately as Var[ṇ?]avṛtti) near the top of fol. 239",
+          "evidence": "The mark sits at roughly the same height across the gutter as the cancelled entry near the top of fol. 239. The final shelfmark digit and the title diacritics are not securely legible in the reduced context image. Nothing on the target page links the two.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The letter could be 'ū' or 'ā'. The form under the macron looks like a 'u'.",
+        "The meaning of the mark and the slash is unknown."
+      ],
+      "stable_id": "css-prod-0476-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_pencil_mark",
+      "literal_text": "[d?]/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil on the right side of the page, middle-lower area (about y 2900–3030).",
+        "A small letter-like form crossed by, or followed by, a long diagonal stroke.",
+        "No entry on this page to attach it to."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vallabha Deva : Śiśupālavadha",
+          "evidence": "The mark sits at roughly the same height across the gutter as the Vallabha Deva cross-reference line on fol. 239. This is a positional coincidence only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'd' is uncertain."
+      ],
+      "stable_id": "css-prod-0476-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "circled_pencil_word",
+      "literal_text": "bheda",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil word enclosed in a hand-drawn circle, lower right part of the page (about y 3340–3510).",
+        "A short pencil dash lies just to the right of the circle (about x 3000, y 3415).",
+        "It is visible as a circled '...da' at the left edge of the fol. 239 image. This is the same mark, not a separate record."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "first list item 'Jala[?]edha' under 'By Vallabha' (f. 87 entry) on fol. 239",
+          "evidence": "The circle (canvas y about 3338–3508) sits at the height of the first list item on fol. 239 (about y 3400). That item has a corrected third letter with an interlinear letter above. A later item, 'Jala...pañcasikā', sits much lower, at about y 3970. The shared 'bheda'-like wording and the position are suggestive but not confirmed.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The attachment to any fol. 239 item is unconfirmed."
+      ],
+      "stable_id": "css-prod-0476-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 187 (1) Varṇavṛtti (cancelled entry)",
+          "evidence": "The mark sits at roughly the same height across the gutter as the cancelled Varṇavṛtti entry at the top of fol. 239. Nothing on the target page links it.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cancelled entry at shelfmark 'd. 18[?] (1)' (title read approximately as Var[ṇ?]avṛtti) near the top of fol. 239",
+          "evidence": "The mark sits at roughly the same height across the gutter as the cancelled entry near the top of fol. 239. The final digit of the shelfmark and the diacritics of the title are not securely legible in the reduced context image. Nothing on the target page links the two.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The anchor gave a falsely certain shelfmark 'd. 187' and a fully diacriticised title. The adjacent-page image does not securely show the last digit or the diacritics; the inventory itself reads only 'd. 18' with a cancellation.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "ū/",
+      "after": "[ū?]/",
+      "reason": "The letter could be ū or ā. The literal field should not assert ū.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0476-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 187 (1) Varṇavṛtti (cancelled entry)",
+          "evidence": "The mark sits at roughly the same height across the gutter as the cancelled Varṇavṛtti entry at the top of fol. 239. Nothing on the target page links it.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "cancelled entry at shelfmark 'd. 18[?] (1)' (title read approximately as Var[ṇ?]avṛtti) near the top of fol. 239",
+          "evidence": "The mark sits at roughly the same height across the gutter as the cancelled entry near the top of fol. 239. The final shelfmark digit and the title diacritics are not securely legible in the reduced context image. Nothing on the target page links the two.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "Removes the falsely certain shelfmark digit and title diacritics.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0476-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading 'd' is uncertain."
+      ],
+      "after": [
+        "The reading 'd' is uncertain. The form could also be an 'a' crossed by the diagonal slash.",
+        "Alignment with the Vallabha Deva line on fol. 239 is positional only."
+      ],
+      "reason": "Fresh reread shows that an alternative letter form is possible.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0476-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Jala[f/bh]edha (in the list under f. 87 Vallabhācāryastutikalāpa, 'By Vallabha')",
+          "evidence": "The mark sits at roughly the same height as the 'Jalabhedha' list item on fol. 239, which carries an interlinear correction. The shared wording 'bheda' is suggestive but not confirmed.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 477,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "first list item 'Jala[?]edha' under 'By Vallabha' (f. 87 entry) on fol. 239",
+          "evidence": "The circle (canvas y about 3338–3508) sits at the height of the first list item on fol. 239 (about y 3400). That item has a corrected third letter with an interlinear letter above. A later item, 'Jala...pañcasikā', sits much lower, at about y 3970. The shared 'bheda'-like wording and the position are suggestive but not confirmed.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The evidence previously stated a resolved spelling 'Jalabhedha'. The corrected letter is not securely legible.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0476-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The letter is ū or ā. The meaning of the slash, and any attachment to a fol. 239 entry, are unconfirmed.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0476-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The intended attachment is unconfirmed. Two items on fol. 239 contain 'bheda'-like wording: the corrected first list item 'Jala[?]edha' at the same height, and 'Jalabhedapañcasikā' lower in the right column.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0476-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The candidate page annotation places faint marks at 'x 1120–1600, y 3500 in the lower-right tile'. Its coordinate frame is ambiguous: tile-relative or canvas. A small speck at about canvas (1045, 2478) also looks like show-through or dirt, not writing.",
+      "block_ids": [],
+      "record_ids": [],
+      "id": "focus-0476-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The anchor gave a falsely certain shelfmark 'd. 187' and a fully diacriticised title. The adjacent-page image does not securely show the last digit or the diacritics; the inventory itself reads only 'd. 18' with a cancellation. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 477, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"cancelled entry at shelfmark 'd. 18[?] (1)' (title read approximately as Var[ṇ?]avṛtti) near the top of fol. 239\", \"evidence\": \"The mark sits at roughly the same height across the gutter as the cancelled entry near the top of fol. 239. The final digit of the shelfmark and the diacritics of the title are not securely legible in the reduced context image. Nothing on the target page links the two.\", \"certainty\": \"uncertain\"}]",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0476-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The letter reading 'd' is uncertain. Alignment with the Vallabha Deva line on fol. 239 is positional only.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0476-05"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The raised 'b' is transcribed inline because superscript placement cannot be shown in the literal field.",
+      "block_ids": [
+        "b001"
+      ],
+      "record_ids": [
+        "r001"
+      ],
+      "id": "focus-0476-06"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The letter could be 'ū' or 'ā'. The form under the macron looks like a 'u'.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0476-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The meaning of the mark and the slash is unknown.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0476-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading 'd' is uncertain.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0476-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The attachment to any fol. 239 item is unconfirmed.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0476-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0476-01",
+        "focus-0476-02",
+        "focus-0476-03",
+        "focus-0476-04",
+        "focus-0476-05",
+        "focus-0476-06",
+        "focus-0476-07",
+        "focus-0476-08",
+        "focus-0476-09",
+        "focus-0476-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0476-01",
+          "source_reading": "A short horizontal bar over a small open-topped letter shaped like 'u', followed by a long diagonal slash rising to the right. Canvas location is about x 2919–3009, y 700–880.",
+          "certainty": "uncertain",
+          "evidence": "The upper-right native tile (offset x 1604) shows the mark at tile x 1315–1405, y 700–880. The letter has the form of a 'u'. This hand's 'a' can also look open-topped, and fol. 238 has similar 'a/' and '[ā/ū]/' margin marks. So ū or ā cannot be decided. Nothing on fol. 238b shows what the slash means or what it is attached to."
+        },
+        {
+          "issue_id": "focus-0476-02",
+          "source_reading": "bheda (inside a pencil circle), with a short dash to the right. Canvas location is about x 2764–2954, y 3338–3508.",
+          "certainty": "probable",
+          "evidence": "The word reads 'bheda' in both lower-right tiles. On the fol. 239 native context, the first list item under 'By Vallabha' sits at about canvas y 3400. Its third letter is corrected, with an interlinear letter above. That is the same height as the circle. 'Jala...pañcasikā' sits much lower, at about y 3970. The link to the first item rests on position and shared wording only. Nothing on the target page states it."
+        },
+        {
+          "issue_id": "focus-0476-03",
+          "source_reading": "No writing. Small specks only: a tiny mark at about canvas (1045, 2478), dots at about (2334, 3861) and (3124, 4101), and marks near the gutter at about y 4100.",
+          "certainty": "probable",
+          "evidence": "In the middle-left tile (offset y 1608), the mark at tile (1045, 870) is a minute irregular speck. It is consistent with dirt or show-through, not a letter. The lower-right tile shows only isolated dots and dashes near the gutter. They have no letter form. The earlier 'x 1120–1600, y 3500 in lower-right tile' wording cannot be matched to any written unit in either coordinate frame."
+        },
+        {
+          "issue_id": "focus-0476-04",
+          "source_reading": "From the fol. 239 reduced context: a cancelled entry near the top whose shelfmark reads 'd. 18[?] (1)', with a corrected letter under the 'd'. The title is struck through and reads approximately 'Var[?]avṛtti'.",
+          "certainty": "uncertain",
+          "evidence": "No native tile of the top of fol. 239 was supplied. In the reduced image the final digit and the title diacritics are not secure. The target mark at y 700–880 is near that entry's height, about y 650. This is a positional match only."
+        },
+        {
+          "issue_id": "focus-0476-05",
+          "source_reading": "[d? / a?]/: a small looped letter with an upward stroke continuing as a long slash. Canvas location is about x 2919–2959, y 2903–3028.",
+          "certainty": "uncertain",
+          "evidence": "In the lower-right tile at tile x 1315–1355, y 1295–1420, the loop and the rising stroke could be a 'd' ascender, or an 'a' crossed by a slash. It aligns with the fol. 239 'Vallabha Deva' line at about canvas y 2918. That alignment is positional only."
+        },
+        {
+          "issue_id": "focus-0476-06",
+          "source_reading": "238b.: the 'b' is raised above and after '8', with a dot below it.",
+          "certainty": "secure",
+          "evidence": "The top-left tile shows the mark at x 390–530, y 330–485. The superscript placement is described in the annotations."
+        },
+        {
+          "issue_id": "focus-0476-07",
+          "source_reading": "The letter under the bar has the form of a 'u'. It may be ū, or an open 'a' with a macron (ā).",
+          "certainty": "uncertain",
+          "evidence": "Same as focus-0476-01."
+        },
+        {
+          "issue_id": "focus-0476-08",
+          "source_reading": "The slash's meaning is not stated on the page.",
+          "certainty": "uncertain",
+          "evidence": "There is no accompanying wording. Similar letter-plus-slash marks appear in the margin of fol. 238. That is a pattern, not an explanation."
+        },
+        {
+          "issue_id": "focus-0476-09",
+          "source_reading": "[d?] (alternatively 'a' crossed by a slash).",
+          "certainty": "uncertain",
+          "evidence": "Same as focus-0476-05."
+        },
+        {
+          "issue_id": "focus-0476-10",
+          "source_reading": "There is no attachment wording on fol. 238b.",
+          "certainty": "uncertain",
+          "evidence": "Same as focus-0476-02."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "ū/",
+          "after": "[ū?]/",
+          "reason": "The letter could be ū or ā. The literal field should not assert ū.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 477,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "d. 187 (1) Varṇavṛtti (cancelled entry)",
+              "evidence": "The mark sits at roughly the same height across the gutter as the cancelled Varṇavṛtti entry at the top of fol. 239. Nothing on the target page links it.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 477,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "cancelled entry at shelfmark 'd. 18[?] (1)' (title read approximately as Var[ṇ?]avṛtti) near the top of fol. 239",
+              "evidence": "The mark sits at roughly the same height across the gutter as the cancelled entry near the top of fol. 239. The final shelfmark digit and the title diacritics are not securely legible in the reduced context image. Nothing on the target page links the two.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "Removes the falsely certain shelfmark digit and title diacritics.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The reading 'd' is uncertain."
+          ],
+          "after": [
+            "The reading 'd' is uncertain. The form could also be an 'a' crossed by the diagonal slash.",
+            "Alignment with the Vallabha Deva line on fol. 239 is positional only."
+          ],
+          "reason": "Fresh reread shows that an alternative letter form is possible.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 477,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "Jala[f/bh]edha (in the list under f. 87 Vallabhācāryastutikalāpa, 'By Vallabha')",
+              "evidence": "The mark sits at roughly the same height as the 'Jalabhedha' list item on fol. 239, which carries an interlinear correction. The shared wording 'bheda' is suggestive but not confirmed.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 477,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "first list item 'Jala[?]edha' under 'By Vallabha' (f. 87 entry) on fol. 239",
+              "evidence": "The circle (canvas y about 3338–3508) sits at the height of the first list item on fol. 239 (about y 3400). That item has a corrected third letter with an interlinear letter above. A later item, 'Jala...pañcasikā', sits much lower, at about y 3970. The shared 'bheda'-like wording and the position are suggestive but not confirmed.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "The evidence previously stated a resolved spelling 'Jalabhedha'. The corrected letter is not securely legible.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "secure"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "The folio number '238b.' is confirmed."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The bbox matches the native tile. The letter is ū or ā."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "The bbox matches the native tile. The letter reading is doubtful."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The circled 'bheda' and the dash are confirmed. The bbox matches."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0476-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "ū or ā, the meaning of the slash, and attachment to fol. 239 all remain unconfirmed.",
+          "next_check": "Compare with this hand's ā/ū forms in native tiles of the top of fol. 239 and the margins of fol. 238."
+        },
+        {
+          "issue_id": "focus-0476-02",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "Attachment to the 'Jala[?]edha' item rests on position only.",
+          "next_check": "Read the interlinear correction on fol. 239 at higher resolution."
+        },
+        {
+          "issue_id": "focus-0476-03",
+          "record_id": null,
+          "block_ids": [],
+          "issue": "The specks appear to be non-writing, but the earlier annotation's coordinate frame cannot be verified.",
+          "next_check": "Check the raw image at canvas (1045, 2478) and the lower-right gutter area."
+        },
+        {
+          "issue_id": "focus-0476-04",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The shelfmark's final digit and the title diacritics on fol. 239 are not secure.",
+          "next_check": "Use a native tile of the fol. 239 top-left region."
+        },
+        {
+          "issue_id": "focus-0476-05",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The letter could be d or a, and attachment is positional only.",
+          "next_check": "Compare with the margin-mark letterforms on fol. 238."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4690a12ede2621633aab12a5732d13a5faf420a45eef78dfc9ccab477d23fa9e",
+      "bytes": 229763,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4f2a93ef57ef0b8cc763233d64b5318a9f151f5a4939c6a0a07d71229b359563",
+      "bytes": 300223,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ea63fb592f5f1710c6407722d9e06e79a21e160cd338f8420ef32fd3be43776c",
+      "bytes": 289395,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b8f28ad026165c776c7e18fd190e2e0ca7d1d3f197544c76f3fb27f90781d398",
+      "bytes": 288451,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c769fdc0207aca84748efea81532029b2de047bfae28889dfef2325c2ec7748c",
+      "bytes": 259774,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d28216f9306906a087a2110ad4ac8fd0c4800929f60a0ba00710bbf5ec1d98a2",
+      "bytes": 298374,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2a04ee71e12a7e79eb7099eec851108c98811638c4aeee98235ab36ffee53687",
+      "bytes": 290046,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/66d97460-0bcb-46a5-adab-ec6cded7110d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "fe64a9713aeb262e14cafd5466d74b2b76ca2d9a08dfdf395470ae17ae94951c",
+      "bytes": 300731,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 475,
+      "folio_label": "fol. 238",
+      "page_id": "66d97460-0bcb-46a5-adab-ec6cded7110d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e01425-460b-4c06-b6b0-95f2741bf017/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "43787b8b3acc21ac895d351ce8966ebb587eb28bfb62ac03e801787dc23e3977",
+      "bytes": 255120,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 477,
+      "folio_label": "fol. 239",
+      "page_id": "a1e01425-460b-4c06-b6b0-95f2741bf017",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e01425-460b-4c06-b6b0-95f2741bf017/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "153f05a980563f19cf5d6860ab2ad1c5f1ff2dcde1c44351d590c4669afe53b6",
+      "bytes": 367052,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 477,
+      "folio_label": "fol. 239",
+      "page_id": "a1e01425-460b-4c06-b6b0-95f2741bf017",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e01425-460b-4c06-b6b0-95f2741bf017/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8fd75c4fed0f88cb847383c692ee0343528bc0e98806c1251377f0d5e0de6606",
+      "bytes": 421193,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 477,
+      "folio_label": "fol. 239",
+      "page_id": "a1e01425-460b-4c06-b6b0-95f2741bf017",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1450c478-2848-426c-a879-c8d94bfa316c.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4690a12ede2621633aab12a5732d13a5faf420a45eef78dfc9ccab477d23fa9e",
+      "bytes": 229763,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4f2a93ef57ef0b8cc763233d64b5318a9f151f5a4939c6a0a07d71229b359563",
+      "bytes": 300223,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ea63fb592f5f1710c6407722d9e06e79a21e160cd338f8420ef32fd3be43776c",
+      "bytes": 289395,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b8f28ad026165c776c7e18fd190e2e0ca7d1d3f197544c76f3fb27f90781d398",
+      "bytes": 288451,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c769fdc0207aca84748efea81532029b2de047bfae28889dfef2325c2ec7748c",
+      "bytes": 259774,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d28216f9306906a087a2110ad4ac8fd0c4800929f60a0ba00710bbf5ec1d98a2",
+      "bytes": 298374,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1450c478-2848-426c-a879-c8d94bfa316c/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2a04ee71e12a7e79eb7099eec851108c98811638c4aeee98235ab36ffee53687",
+      "bytes": 290046,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/66d97460-0bcb-46a5-adab-ec6cded7110d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "fe64a9713aeb262e14cafd5466d74b2b76ca2d9a08dfdf395470ae17ae94951c",
+      "bytes": 300731,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 475,
+      "folio_label": "fol. 238",
+      "page_id": "66d97460-0bcb-46a5-adab-ec6cded7110d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a1e01425-460b-4c06-b6b0-95f2741bf017/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "43787b8b3acc21ac895d351ce8966ebb587eb28bfb62ac03e801787dc23e3977",
+      "bytes": 255120,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 477,
+      "folio_label": "fol. 239",
+      "page_id": "a1e01425-460b-4c06-b6b0-95f2741bf017",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

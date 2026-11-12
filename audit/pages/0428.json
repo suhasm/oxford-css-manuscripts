@@ -1,0 +1,665 @@
+{
+  "source_order": 428,
+  "folio_label": "fol. 214b",
+  "page_id": "b4580811-f4fb-4a87-8e87-477db86eda7e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "other",
+    "visible_folio": "214b",
+    "principal_page_bbox": [
+      305,
+      285,
+      2865,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          310,
+          140,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "214b",
+        "features": [
+          "top left corner",
+          "written as '214' with superscript 'b'",
+          "dot after 214",
+          "darker than the pencil marks"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2835,
+          1030,
+          95,
+          220
+        ],
+        "kind_hint": "marginal_annotation",
+        "anchor": "ś/",
+        "features": [
+          "faint pencil",
+          "right part of page near the gutter",
+          "letter with an acute-like mark followed by a long slanted stroke",
+          "no catalogue entry adjacent on this page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2965,
+          2160,
+          110,
+          150
+        ],
+        "kind_hint": "marginal_annotation",
+        "anchor": "s/?",
+        "features": [
+          "faint pencil",
+          "right part of page near the gutter",
+          "letter, slanted stroke, question mark",
+          "no catalogue entry adjacent on this page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          305,
+          600,
+          2850,
+          4200
+        ],
+        "description": "Faint show-through of handwriting from the other side of the leaf across the ruled lines. It is reversed and illegible. It is not target-page text and has not been transcribed."
+      },
+      {
+        "bbox": [
+          305,
+          285,
+          2865,
+          4580
+        ],
+        "description": "Scattered specks and dots, and foxing or smudging near the lower left corner. These are not writing."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter is at about x 3170–3185. Material to its right belongs to the facing page (fol. 215) left margin and is excluded. This includes 'd. L…', the circled 'dhenu', 'n/?', the circled 'yatin' and the letters at lower right.",
+      "The 's/?' at about x 2970 lies left of the gutter, so it is assigned to the target page. Its proximity to 'n/?' on the facing page suggests a related annotation series, but that is not certain."
+    ],
+    "uncertainties": [
+      "The reading of b002 as 'ś/' is uncertain: the diacritic may be an acute accent or a stray stroke.",
+      "The purpose of b002 and b003 cannot be determined. These pencil marks are not attached to any entry on this page and may relate to entries on the facing pages."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "mostly_blank_verso_with_marginal_pencil_marks",
+    "visible_folio": "214b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "214.ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top left corner, in darker ink than the pencil marks.",
+          "Written as '214' followed by a dot, with 'b' raised above and to the right of the '4'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The order of the dot and the superscript 'b' in the literal rendering is approximate."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_pencil_mark",
+        "literal_text": "ś/",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil in the right part of the page near the gutter, at about y 1030–1250.",
+          "A letter with an acute-like mark above it, followed by a long slanted stroke.",
+          "There is no catalogue entry on this page to which it could attach."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 429,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "left-margin area of fol. 215 near the upper entries (e.g. 'Raghunandanakāvya' / circled 'dhenu')",
+            "evidence": "The mark lies at the gutter beside the facing page's upper entries. A similar mark series ('s/', 'ā/') appears in the margin of fol. 214. Alignment alone does not establish attachment.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The diacritic may be an acute accent or a stray stroke, so the reading 'ś' rather than 's' is uncertain.",
+          "The purpose of the mark is unknown."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_pencil_mark",
+        "literal_text": "s/?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil just left of the gutter, at about y 2160–2310.",
+          "A letter, a long slanted stroke and a question mark."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 429,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "'n/?' in fol. 215 left margin beside 'Raghunātha, son of Lakṣmīdhara : Śāṅkhyāyana tantra'",
+            "evidence": "The mark is at the same height as the 'n/?' mark across the gutter on fol. 215 and has a similar form. It may belong to the same annotation series. This is not certain.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The purpose of the mark and its attachment are undetermined."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number written at the top left."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Unattached pencil mark near the gutter."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Unattached pencil mark just left of the gutter."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper; this finding is based on review of all native tiles.",
+      "Faint reversed show-through from the other side of the leaf runs across the ruled lines. It is illegible and was not transcribed.",
+      "Specks, foxing and smudging near the lower left corner are not writing.",
+      "Material right of the gutter (about x 3170–3185) belongs to fol. 215 and is excluded. This includes 'd. L…', the circled 'dhenu', 'n/?', the circled 'yatin' and the letters at lower right."
+    ],
+    "unresolved_relationships": [
+      "The attachment of 'ś/' (r002) and 's/?' (r003) to entries on the facing pages is undetermined."
+    ]
+  },
+  "review": {
+    "page_class": "mostly_blank_verso_with_marginal_pencil_marks",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The native top-left tile shows '214' with a dot and a raised 'b' above and to the right of the '4', at about x 360–500, y 310–440. The candidate's literal text '214.ᵇ' and its uncertainty about the order of the dot and the 'b' are appropriate. The mark is darker than the pencil marks, but whether it is ink or dark pencil cannot be settled from the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The native tile at native_region x 1604 shows a letter with an acute-like stroke and a long slanted stroke at about x 2840–2920, y 1030–1250. The candidate keeps the 'ś' versus 's' uncertainty. It is not attached to any entry on this page."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The native tile at native_region x 1604, y 1608 shows 's', a slanted stroke and a question mark at about x 2970–3070, y 2165–2310. This lies left of the gutter and is correctly assigned to the target page."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The possible attachment to fol. 215 rests only on alignment. Across the gutter at roughly this height is the facing page's 'd. L…' shelfmark (the d. 435(7) Raghunandana… entry). The circled 'dhenu' sits lower, at about y 1380. The mark could also belong to a series like the 's/' and 'ā/' marks in the outer margin of fol. 214. None of this is established.",
+        "next_check": "Compare the facing page's left margin at native resolution with the same marks on neighbouring openings."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The relationship anchor quotes the fol. 215 entry title ('Śāṅkhyāyana tantra'). That title was read only from the reduced adjacent overview, where the initial letter and diacritics are not securely legible. The attachment to 'n/?' remains uncertain.",
+        "next_check": "Verify the reading of the fol. 215 entry at native resolution before relying on the anchor wording."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "It cannot be determined whether the folio number is in ink or dark pencil. The exact placement of the dot relative to the superscript 'b' also cannot be determined.",
+        "next_check": "Higher-contrast inspection of the top-left corner."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x 3165–3185 and the target leaf edge at about x 3145. Material to the right belongs to fol. 215 and is correctly excluded: 'd. L…', the circled 'dhenu', 'n/?', the circled 'yatin' and the 'd'/'a' letters at lower right. b003 lies left of the gutter, so it is treated as target-page material. Whether b002 and b003 relate to entries on fol. 215 is left unresolved.",
+    "region_review": {
+      "top": "The only writing is the folio number at top left. Elsewhere there are only specks and faint show-through.",
+      "middle": "The only writing is the two faint pencil marks near the gutter (b002, b003). The rest is reversed show-through of handwriting from the other side of the leaf, which is illegible and not transcribed.",
+      "bottom": "Reviewed in the native tiles: there are scattered specks and foxing or smudging at lower left. No bottom note or other writing was found.",
+      "left_margin": "No writing apart from the folio number at the top corner.",
+      "right_margin": "Near the gutter, only b002 and b003. All facing-page writing lies right of the gutter.",
+      "interlinear": "No interlinear additions, cancellations or ditto marks were found; only show-through."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        310,
+        140,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "214b",
+      "features": [
+        "top left corner",
+        "written as '214' with superscript 'b'",
+        "dot after 214",
+        "darker than the pencil marks"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2835,
+        1030,
+        95,
+        220
+      ],
+      "kind_hint": "marginal_annotation",
+      "anchor": "ś/",
+      "features": [
+        "faint pencil",
+        "right part of page near the gutter",
+        "letter with an acute-like mark followed by a long slanted stroke",
+        "no catalogue entry adjacent on this page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2965,
+        2160,
+        110,
+        150
+      ],
+      "kind_hint": "marginal_annotation",
+      "anchor": "s/?",
+      "features": [
+        "faint pencil",
+        "right part of page near the gutter",
+        "letter, slanted stroke, question mark",
+        "no catalogue entry adjacent on this page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "214.ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top left corner, in darker ink than the pencil marks.",
+        "Written as '214' followed by a dot, with 'b' raised above and to the right of the '4'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The order of the dot and the superscript 'b' in the literal rendering is approximate."
+      ],
+      "stable_id": "css-prod-0428-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_pencil_mark",
+      "literal_text": "ś/",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil in the right part of the page near the gutter, at about y 1030–1250.",
+        "A letter with an acute-like mark above it, followed by a long slanted stroke.",
+        "There is no catalogue entry on this page to which it could attach."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 429,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "left-margin area of fol. 215 near the upper entries (e.g. 'Raghunandanakāvya' / circled 'dhenu')",
+          "evidence": "The mark lies at the gutter beside the facing page's upper entries. A similar mark series ('s/', 'ā/') appears in the margin of fol. 214. Alignment alone does not establish attachment.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The diacritic may be an acute accent or a stray stroke, so the reading 'ś' rather than 's' is uncertain.",
+        "The purpose of the mark is unknown."
+      ],
+      "stable_id": "css-prod-0428-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_pencil_mark",
+      "literal_text": "s/?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil just left of the gutter, at about y 2160–2310.",
+        "A letter, a long slanted stroke and a question mark."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 429,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "'n/?' in fol. 215 left margin beside 'Raghunātha, son of Lakṣmīdhara : Śāṅkhyāyana tantra'",
+          "evidence": "The mark is at the same height as the 'n/?' mark across the gutter on fol. 215 and has a similar form. It may belong to the same annotation series. This is not certain.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The purpose of the mark and its attachment are undetermined."
+      ],
+      "stable_id": "css-prod-0428-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b4580811-f4fb-4a87-8e87-477db86eda7e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4580811-f4fb-4a87-8e87-477db86eda7e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "0f0cf0aa930fac0965511f920bb56e899003dc1b7dc5cbaea3b82d1824c3633a",
+      "bytes": 245841,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4580811-f4fb-4a87-8e87-477db86eda7e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "44e04466ac10d997d0493f19bc0a99b45ea9a0490523c85a8ab41d3ff00b2a5b",
+      "bytes": 302221,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4580811-f4fb-4a87-8e87-477db86eda7e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e968e8c6c7ccccd204510a66a0dd990ef3e4c1f75988f2be8a15c98505596eff",
+      "bytes": 313655,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4580811-f4fb-4a87-8e87-477db86eda7e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4bb616e2a3750f7433672b5b3afe1b6a9f36fa431b3bf66bb350f598c87ba606",
+      "bytes": 301745,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4580811-f4fb-4a87-8e87-477db86eda7e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "763d62fd8ec26ae312894136e27c6c08dd66056b63305c0b9b3a4acb8355087f",
+      "bytes": 289464,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4580811-f4fb-4a87-8e87-477db86eda7e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4d4f396d35bab27292ad70570fef8c4839a75cbc884a8a7dfb45f3f2f6f69048",
+      "bytes": 308105,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b4580811-f4fb-4a87-8e87-477db86eda7e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "34ce188ec5df256c1c7596abce9ce3d36aeb7566f8e2e63a7c2c114bd8275e6a",
+      "bytes": 315271,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5339fe9f-b367-48ee-a254-73540e1b800c/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "9e397e50878ac01835b4531d9595aced7129d13746cd7cbc236359865276ad2f",
+      "bytes": 258732,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 427,
+      "folio_label": "fol. 214",
+      "page_id": "5339fe9f-b367-48ee-a254-73540e1b800c",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/234bbd3c-5b7b-4417-b3af-6337dd0eb9be/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4009add36288b5e2e0b67cabce76a4e666eadc933fcebae55a301d7d73845064",
+      "bytes": 245008,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 429,
+      "folio_label": "fol. 215",
+      "page_id": "234bbd3c-5b7b-4417-b3af-6337dd0eb9be",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

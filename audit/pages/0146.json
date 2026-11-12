@@ -1,0 +1,2126 @@
+{
+  "source_order": 146,
+  "folio_label": "fol. 73b",
+  "page_id": "04d046ea-f643-490a-9b84-a620fa3ae178",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "73b",
+    "principal_page_bbox": [
+      320,
+      285,
+      2850,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          415,
+          330,
+          140,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "73b.",
+        "features": [
+          "top-left corner",
+          "superscript 'b'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          385,
+          960,
+          1455,
+          110
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "33 ff. (foliation partly destroyed, begins with f.2). Cf. I.O. 2931.",
+        "features": [
+          "ink",
+          "no shelfmark on line",
+          "extent statement",
+          "cross-reference to I.O. number",
+          "probable continuation of an entry on facing/preceding page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          475,
+          1400,
+          1145,
+          140
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 1-16. S. 1801, Śk. 1666. I.O. 2932.",
+        "features": [
+          "ink",
+          "no shelfmark on line",
+          "extent",
+          "dates in two eras",
+          "I.O. reference",
+          "acute accent written above S of Śk"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          440,
+          4190,
+          2170,
+          110
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 2-12 (in more than one hand), at end single leaf of similar MS. Begins with RV., i. 185, 7.",
+        "features": [
+          "ink",
+          "no shelfmark on line",
+          "extent",
+          "incipit reference to RV.",
+          "dotted/underlined mark beneath 'single'",
+          "small tick-like mark before line at left"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          370,
+          4460,
+          2340,
+          120
+        ],
+        "kind_hint": "holding_entry",
+        "anchor": "√ C. 390(2a) Do., + Co, f. 1, unf., p. 109, followed by 05 ff. from unidentified texts   n.d.: 1:10: Beng",
+        "features": [
+          "tick at left",
+          "shelfmark C. 390(2a)",
+          "ditto 'Do.'",
+          "extent",
+          "date/lines/script field at right 'n.d.: [1?]:10: Beng'",
+          "reading of several words uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3070,
+          1490,
+          40,
+          60
+        ],
+        "description": "Small '‹' / angle mark in right margin near gutter, level with b003"
+      },
+      {
+        "bbox": [
+          325,
+          3130,
+          360,
+          90
+        ],
+        "description": "Curved horizontal pencil stroke at left edge of page, mid-lower page, with small mark above its right end; no text"
+      },
+      {
+        "bbox": [
+          2990,
+          4530,
+          90,
+          40
+        ],
+        "description": "Left-pointing arrow '←' near gutter level with b005"
+      }
+    ],
+    "boundary_notes": [
+      "Right side of canvas (x>~3170) shows the facing page fol. 74 margin: '←ā/i/?', a dash, ticks, 'c/', 's/', 'Begins Bh...', arrows, 'C?', 'm', 'b. 101' — these belong to fol. 74 and are not recorded as target blocks.",
+      "An arrow '←' at about x 3250-3350, y 4250 lies on the facing-page side of the gutter and is treated as fol. 74 material.",
+      "Faint show-through of text from the reverse side (fol. 73) is visible across the page and is not transcribed."
+    ],
+    "uncertainties": [
+      "Parent entries for b002-b004 are not on this page; they appear to continue entries whose headings are elsewhere (likely fol. 74 at same level).",
+      "b005 reading 'f.1, unf., p.109' and '05 ff.' uncertain; date field middle number uncertain ('1' or '?').",
+      "'Śk' accent and 'S.' era readings taken as written."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "73b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "73b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top left corner, with the 'b' superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "verso_note_to_facing_entry",
+        "literal_text": "33 ff. (foliation partly destroyed, begins with f. 2). Cf. I.O. 2931.",
+        "fields": {
+          "extent": "33 ff. (foliation partly destroyed, begins with f. 2)",
+          "source": "Cf. I.O. 2931"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "There is no shelfmark on the line.",
+          "The opening parenthesis is written like '/'."
+        ],
+        "editorial_context": [
+          {
+            "field": "shelfmark",
+            "value": "c. 316(8)",
+            "source_page_order": 147,
+            "source_block_id": null,
+            "evidence": "This note sits at the same ruled level as the fol. 74 entry 'c. 316(8)'. That entry has a marginal arrow '←ā/i/?' pointing toward this page.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 147,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c. 316(8) ——— D. by Mallāri n.d. : 33 : 15/21 : D.",
+            "evidence": "Same level on the facing recto, with a connecting arrow in the fol. 74 margin.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The attachment to the facing entry is positional only; the parent entry is not on this page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "verso_note_to_facing_entry",
+        "literal_text": "ff. 1-16. S. 1801, Śk. 1666. I.O. 2932.",
+        "fields": {
+          "extent": "ff. 1-16",
+          "date": "S. 1801, Śk. 1666",
+          "source": "I.O. 2932"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "The acute stroke over the 'S' of 'Śk' is written separately above.",
+          "A small '‹' mark near the gutter (b901), level with this line, appears to be a linking mark paired with the '—' in the fol. 74 margin."
+        ],
+        "editorial_context": [
+          {
+            "field": "shelfmark",
+            "value": "c. 315(2)",
+            "source_page_order": 147,
+            "source_block_id": null,
+            "evidence": "The note is level with the fol. 74 entry 'c. 315(2)'. That entry has a marginal '‹ ——' mark.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 147,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c. 315(2) ——— 6 only ——— 1744 : 16 : 20 : D.",
+            "evidence": "Same level, with a gutter marker and a matching dash on the facing page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The attachment is positional."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "verso_note_to_facing_entry",
+        "literal_text": "ff. 2-12 (in more than one hand), at end single leaf of similar MS. Begins with RV., i. 185, 7.",
+        "fields": {
+          "extent": "ff. 2-12 (in more than one hand), at end single leaf of similar MS.",
+          "incipit": "Begins with RV., i. 185, 7."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "'end' appears retouched or overwritten.",
+          "A dotted mark lies beneath 'single'.",
+          "There is a small tick-like mark at the left before the line."
+        ],
+        "editorial_context": [
+          {
+            "field": "shelfmark",
+            "value": "b. 73",
+            "source_page_order": 147,
+            "source_block_id": null,
+            "evidence": "The note is level with the fol. 74 entry '√ b. 73 Ghaṭasthāpanamantra', which has a '←' arrow in its margin.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 147,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ b. 73 Ghaṭasthāpanamantra . ritual ... n.d.: 10: 8: Beng",
+            "evidence": "Same level, with an arrow pointing toward this verso.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading of 'end' is uncertain because of overwriting.",
+          "The attachment is positional."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005",
+          "b903"
+        ],
+        "type": "holding",
+        "subtype": "added_holding_on_verso",
+        "literal_text": "√ C. 390(2a) Do., + Co, f. 1, unf., p. 109, followed by 05 ff. from unidentified texts   n.d.: 1:10: Beng",
+        "fields": {
+          "shelfmark": "C. 390(2a)",
+          "title": "Do.",
+          "extent": "f. 1, unf., p. 109, followed by 05 ff. from unidentified texts",
+          "date": "n.d.",
+          "lines": "10",
+          "script": "Beng"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is a tick at the left.",
+          "'Do.' is a ditto mark for the title.",
+          "A left-pointing arrow '←' near the gutter (b903) links this line to the facing page.",
+          "The middle element of 'n.d.: 1:10' is read as '1'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 147,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ c. 386(2c) Ghaṭasthāpanamantravyākhyā, ff. 1-9 inc., pp. 64-72.",
+            "evidence": "'Do.' together with the arrow pointing from the fol. 74 margin, near the facing entry at the same level.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The superscript after 390(2 may be 'a' or 'c'.",
+          "'+ Co' is an uncertain reading.",
+          "'p. 109' is uncertain.",
+          "'05' may be '65' or 'c5'.",
+          "The middle numeral of the date field is uncertain; the extent field cannot be confirmed."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A curved horizontal pencil stroke at the left edge, with a small mark above its right end.",
+          "It contains no text."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The function of the mark is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3070,
+          1490,
+          40,
+          60
+        ],
+        "kind_hint": "linking_mark",
+        "anchor": "‹",
+        "features": [
+          "near gutter",
+          "level with b003"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          325,
+          3130,
+          360,
+          90
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "curved stroke",
+        "features": [
+          "no text"
+        ]
+      },
+      {
+        "id": "b903",
+        "bbox": [
+          2990,
+          4530,
+          90,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "near gutter",
+          "level with b005"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note to an entry on the facing page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Continuation note to an entry on the facing page."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Continuation note to an entry on the facing page."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Added holding with a ditto mark."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Linking mark."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Unattached pencil stroke."
+      },
+      {
+        "block_id": "b903",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Linking arrow."
+      }
+    ],
+    "page_annotations": [
+      "The verso is used for notes keyed by position to entries on the facing fol. 74.",
+      "Show-through from fol. 73 is not transcribed.",
+      "Material on the fol. 74 side of the gutter is excluded."
+    ],
+    "unresolved_relationships": [
+      "The parent entries for r002–r004 and the ditto source for r005 are inferred only from position and arrows."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio label at the top left reads '73' with a superscript 'b' and a dot. The record is accurate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The line reads '33 ff. (foliation partly destroyed, begins with f.2). Cf. I.O. 2931.' The candidate's spacing 'f. 2' is a trivial difference. It sits level with the fol. 74 entry 'c. 316(8)', which has '←ā/i/?' in that page's margin, so the positional attachment is plausible."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The text is represented. After 'Śk' there appear to be both a low dot and a comma before '1666', which the candidate reduces to 'Śk. 1666'. The acute accent written above 'S' is noted."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The text is represented. A retouched 'end', a dotted mark under 'single' and a small vertical tick plus a faint mark at the left before 'ff' are noted. The line is level with fol. 74 '√ b. 73 Ghaṭasthāpanamantra', which has a '←' in that page's left margin."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The text is represented, but several readings are uncertain. The shelfmark letter appears lower-case 'c.', like the shelfmarks on fol. 74. The superscript after '(2' is ambiguous between 'a' and 'c'. The extent element in the date field ('1') is not reflected in the fields."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A '‹' mark near the gutter at y≈1490 is paired with a short dash on the fol. 74 side at the same level. Its attachment to r003 is reasonable."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "This is a heavy pencil curve at the left edge at about y≈3140–3210, with a small mark above its right end. It contains no text, and its function is unknown."
+      },
+      {
+        "block_id": "b903",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "A '←' near the gutter at about x≈3000–3080, y≈4550 is level with b005. A matching '←' appears in the fol. 74 left margin beside 'c. 386(2c)'."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r005",
+        "field_path": "literal_text",
+        "before": "√ C. 390(2a) Do., + Co, f. 1, unf., p. 109, followed by 05 ff. from unidentified texts   n.d.: 1:10: Beng",
+        "after": "√ c. 390(2[a or c?]) Do., + Co [reading?], f. 1, unf., p. 109 [reading?], followed by 05 [reading?] ff. from unidentified texts   n.d.: 1 [reading?]:10: Beng",
+        "reason": "The shelfmark letter appears lower-case, matching the 'c.' shelfmarks on fol. 74, though letter case in this hand is not fully secure. The superscript and several other readings are ambiguous and should be marked in the literal text rather than presented as certain.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "fields",
+        "before": {
+          "shelfmark": "C. 390(2a)",
+          "title": "Do.",
+          "extent": "f. 1, unf., p. 109, followed by 05 ff. from unidentified texts",
+          "date": "n.d.",
+          "lines": "10",
+          "script": "Beng"
+        },
+        "after": {
+          "shelfmark": "c. 390(2[a or c?])",
+          "title": "Do.",
+          "extent": "f. 1, unf., p. 109, followed by 05 ff. from unidentified texts",
+          "date": "n.d.",
+          "leaves_field": "1 [reading?]",
+          "lines": "10",
+          "script": "Beng",
+          "date_field_literal": "n.d.: 1:10: Beng"
+        },
+        "reason": "The right-hand field follows the date : leaves : lines : script pattern used on fol. 74. Its middle element was dropped from the fields. The shelfmark case and superscript are uncertain.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff. 1-16. S. 1801, Śk. 1666. I.O. 2932.",
+        "after": "ff. 1-16. S. 1801, Śk., [reading?] 1666. I.O. 2932.",
+        "reason": "After 'Śk' the source shows a low dot followed by a comma-like stroke. The candidate normalised these to a single full stop.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005",
+          "b903"
+        ],
+        "issue": "The 'Do.' ditto source is inferred from the arrows and from its level with fol. 74 '√ c. 386(2c) Ghaṭasthāpanamantravyākhyā'. The superscript of the target's own shelfmark ('2a' or '2c') is unresolved.",
+        "next_check": "Compare the native-resolution fol. 74 gutter-side arrow and the c. 386 line; examine the superscript after '390(2' at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The relationship anchor quotes the fol. 74 date field as '1744 : 16 : 20 : D.'. The adjacent overview suggests '23/28' written above a possibly cancelled '20', so the anchor may oversimplify a correction.",
+        "next_check": "Read the c. 315(2) line on native-resolution fol. 74."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The anchor gives the b. 73 date field as 'n.d.: 10: 8: Beng'. The adjacent overview suggests '6/8' or an overwritten numeral.",
+        "next_check": "Read the fol. 74 b. 73 line at native resolution."
+      },
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b902"
+        ],
+        "issue": "The purpose of the pencil curve is unknown. It is not clearly level with any fol. 74 entry.",
+        "next_check": "Check whether it aligns with any fol. 74 entry (for example d. 154(1)) or is a stray mark."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3160. Marks at x>3170 ('←ā/i/?', dashes, ticks, 'c/', 's/', 'Begins Bh...', arrows, 'C?', 'm', 'b. 101') belong to fol. 74 and are excluded. Binding-thread knots on the gutter line are not text. The target-side marks '‹' (b901) and '←' (b903) are kept as linking marks. The continuations in b002–b004 depend on parents on fol. 74; those attachments are positional and remain probable only.",
+    "region_review": {
+      "top": "Only the folio label '73b.' is present. A speck near x≈1775, y≈420 is not writing.",
+      "middle": "b002 and b003 are present. The rest is ruled lines with faint show-through from fol. 73, which is not transcribed.",
+      "bottom": "b004 and b005 are present. Below b005 to the page edge there are only stray specks.",
+      "left_margin": "There is the pencil curve b902, a small tick before b004 at about x≈425, y≈4150, and the tick beginning b005.",
+      "right_margin": "The gutter-side marks b901 '‹' at y≈1490 and b903 '←' at y≈4550 are present. No other target-side writing was found.",
+      "interlinear": "There is the acute stroke over 'S' of 'Śk', dotted marks under 'single' and the retouched 'end' in b004. No interlinear additions were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        415,
+        330,
+        140,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "73b.",
+      "features": [
+        "top-left corner",
+        "superscript 'b'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        385,
+        960,
+        1455,
+        110
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "33 ff. (foliation partly destroyed, begins with f.2). Cf. I.O. 2931.",
+      "features": [
+        "ink",
+        "no shelfmark on line",
+        "extent statement",
+        "cross-reference to I.O. number",
+        "probable continuation of an entry on facing/preceding page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        475,
+        1400,
+        1145,
+        140
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 1-16. S. 1801, Śk. 1666. I.O. 2932.",
+      "features": [
+        "ink",
+        "no shelfmark on line",
+        "extent",
+        "dates in two eras",
+        "I.O. reference",
+        "acute accent written above S of Śk"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        440,
+        4190,
+        2170,
+        110
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 2-12 (in more than one hand), at end single leaf of similar MS. Begins with RV., i. 185, 7.",
+      "features": [
+        "ink",
+        "no shelfmark on line",
+        "extent",
+        "incipit reference to RV.",
+        "dotted/underlined mark beneath 'single'",
+        "small tick-like mark before line at left"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        370,
+        4460,
+        2340,
+        120
+      ],
+      "kind_hint": "holding_entry",
+      "anchor": "√ C. 390(2a) Do., + Co, f. 1, unf., p. 109, followed by 05 ff. from unidentified texts   n.d.: 1:10: Beng",
+      "features": [
+        "tick at left",
+        "shelfmark C. 390(2a)",
+        "ditto 'Do.'",
+        "extent",
+        "date/lines/script field at right 'n.d.: [1?]:10: Beng'",
+        "reading of several words uncertain"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3070,
+        1490,
+        40,
+        60
+      ],
+      "kind_hint": "linking_mark",
+      "anchor": "‹",
+      "features": [
+        "near gutter",
+        "level with b003"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        325,
+        3130,
+        360,
+        90
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "curved stroke",
+      "features": [
+        "no text"
+      ]
+    },
+    {
+      "id": "b903",
+      "bbox": [
+        2990,
+        4530,
+        90,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "near gutter",
+        "level with b005"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "73b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top left corner, with the 'b' superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0146-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "verso_note_to_facing_entry",
+      "literal_text": "33 ff. (foliation partly destroyed, begins with f. 2). Cf. I.O. 2931.",
+      "fields": {
+        "extent": "33 ff. (foliation partly destroyed, begins with f. 2)",
+        "source": "Cf. I.O. 2931"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "There is no shelfmark on the line.",
+        "The opening parenthesis is written like '/'."
+      ],
+      "editorial_context": [
+        {
+          "field": "shelfmark",
+          "value": "c. 316(8)",
+          "source_page_order": 147,
+          "source_block_id": null,
+          "evidence": "This note sits at the same ruled level as the fol. 74 entry 'c. 316(8)'. That entry has a marginal arrow '←ā/i/?' pointing toward this page.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 147,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 316(8) ——— D. by Mallāri n.d. : 33 : 15/21 : D.",
+          "evidence": "Same level on the facing recto, with a connecting arrow in the fol. 74 margin.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The attachment to the facing entry is positional only; the parent entry is not on this page."
+      ],
+      "stable_id": "css-prod-0146-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "verso_note_to_facing_entry",
+      "literal_text": "ff. 1-16. S. 1801, Śk. 1666. I.O. 2932.",
+      "fields": {
+        "extent": "ff. 1-16",
+        "date": "S. 1801, Śk. 1666",
+        "source": "I.O. 2932"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "The acute stroke over the 'S' of 'Śk' is written separately above.",
+        "A small '‹' mark near the gutter (b901), level with this line, appears to be a linking mark paired with the '—' in the fol. 74 margin."
+      ],
+      "editorial_context": [
+        {
+          "field": "shelfmark",
+          "value": "c. 315(2)",
+          "source_page_order": 147,
+          "source_block_id": null,
+          "evidence": "The note is level with the fol. 74 entry 'c. 315(2)'. That entry has a marginal '‹ ——' mark.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 147,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 315(2) ——— 6 only ——— 1744 : 16 : 20 : D.",
+          "evidence": "Same level, with a gutter marker and a matching dash on the facing page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The attachment is positional."
+      ],
+      "stable_id": "css-prod-0146-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "verso_note_to_facing_entry",
+      "literal_text": "ff. 2-12 (in more than one hand), at end single leaf of similar MS. Begins with RV., i. 185, 7.",
+      "fields": {
+        "extent": "ff. 2-12 (in more than one hand), at end single leaf of similar MS.",
+        "incipit": "Begins with RV., i. 185, 7."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "'end' appears retouched or overwritten.",
+        "A dotted mark lies beneath 'single'.",
+        "There is a small tick-like mark at the left before the line."
+      ],
+      "editorial_context": [
+        {
+          "field": "shelfmark",
+          "value": "b. 73",
+          "source_page_order": 147,
+          "source_block_id": null,
+          "evidence": "The note is level with the fol. 74 entry '√ b. 73 Ghaṭasthāpanamantra', which has a '←' arrow in its margin.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 147,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ b. 73 Ghaṭasthāpanamantra . ritual ... n.d.: 10: 8: Beng",
+          "evidence": "Same level, with an arrow pointing toward this verso.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading of 'end' is uncertain because of overwriting.",
+        "The attachment is positional."
+      ],
+      "stable_id": "css-prod-0146-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005",
+        "b903"
+      ],
+      "type": "holding",
+      "subtype": "added_holding_on_verso",
+      "literal_text": "√ C. 390(2a) Do., + Co, f. 1, unf., p. 109, followed by 05 ff. from unidentified texts   n.d.: 1:10: Beng",
+      "fields": {
+        "shelfmark": "C. 390(2a)",
+        "title": "Do.",
+        "extent": "f. 1, unf., p. 109, followed by 05 ff. from unidentified texts",
+        "date": "n.d.",
+        "lines": "10",
+        "script": "Beng"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is a tick at the left.",
+        "'Do.' is a ditto mark for the title.",
+        "A left-pointing arrow '←' near the gutter (b903) links this line to the facing page.",
+        "The middle element of 'n.d.: 1:10' is read as '1'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 147,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 386(2c) Ghaṭasthāpanamantravyākhyā, ff. 1-9 inc., pp. 64-72.",
+          "evidence": "'Do.' together with the arrow pointing from the fol. 74 margin, near the facing entry at the same level.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The superscript after 390(2 may be 'a' or 'c'.",
+        "'+ Co' is an uncertain reading.",
+        "'p. 109' is uncertain.",
+        "'05' may be '65' or 'c5'.",
+        "The middle numeral of the date field is uncertain; the extent field cannot be confirmed."
+      ],
+      "stable_id": "css-prod-0146-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A curved horizontal pencil stroke at the left edge, with a small mark above its right end.",
+        "It contains no text."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The function of the mark is unknown."
+      ],
+      "stable_id": "css-prod-0146-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "√ C. 390(2a) Do., + Co, f. 1, unf., p. 109, followed by 05 ff. from unidentified texts   n.d.: 1:10: Beng",
+      "after": "√ c. 390(2[a or c?]) Do., + Co [reading?], f. 1, unf., p. 109 [reading?], followed by 05 [reading?] ff. from unidentified texts   n.d.: 1 [reading?]:10: Beng",
+      "reason": "The shelfmark letter appears lower-case, matching the 'c.' shelfmarks on fol. 74, though letter case in this hand is not fully secure. The superscript and several other readings are ambiguous and should be marked in the literal text rather than presented as certain.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "fields",
+      "before": {
+        "shelfmark": "C. 390(2a)",
+        "title": "Do.",
+        "extent": "f. 1, unf., p. 109, followed by 05 ff. from unidentified texts",
+        "date": "n.d.",
+        "lines": "10",
+        "script": "Beng"
+      },
+      "after": {
+        "shelfmark": "c. 390(2[a or c?])",
+        "title": "Do.",
+        "extent": "f. 1, unf., p. 109, followed by 05 ff. from unidentified texts",
+        "date": "n.d.",
+        "leaves_field": "1 [reading?]",
+        "lines": "10",
+        "script": "Beng",
+        "date_field_literal": "n.d.: 1:10: Beng"
+      },
+      "reason": "The right-hand field follows the date : leaves : lines : script pattern used on fol. 74. Its middle element was dropped from the fields. The shelfmark case and superscript are uncertain.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 1-16. S. 1801, Śk. 1666. I.O. 2932.",
+      "after": "ff. 1-16. S. 1801, Śk., [reading?] 1666. I.O. 2932.",
+      "reason": "After 'Śk' the source shows a low dot followed by a comma-like stroke. The candidate normalised these to a single full stop.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "√ C. 390(2a) Do., + Co, f. 1, unf., p. 109, followed by 05 ff. from unidentified texts   n.d.: 1:10: Beng",
+      "after": "√ c. 390(2[a or c?]) Do., + Co [reading?], f. 1, unf., p. 109 [reading?], followed by 05 [reading?] ff. from unidentified texts   n.d.: 1 [reading?]:10: Beng",
+      "reason": "The shelfmark letter appears lower-case. The superscript and several other readings are doubtful and are now marked in the literal text.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0146-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "fields",
+      "before": {
+        "shelfmark": "C. 390(2a)",
+        "title": "Do.",
+        "extent": "f. 1, unf., p. 109, followed by 05 ff. from unidentified texts",
+        "date": "n.d.",
+        "lines": "10",
+        "script": "Beng"
+      },
+      "after": {
+        "shelfmark": "c. 390(2[a or c?])",
+        "title": "Do.",
+        "extent": "f. 1, unf., p. 109 [reading?], followed by 05 [reading?] ff. from unidentified texts",
+        "date": "n.d.",
+        "leaves_field": "1 [reading?]",
+        "lines": "10",
+        "script": "Beng",
+        "date_field_literal": "n.d.: 1 [reading?]:10: Beng"
+      },
+      "reason": "Restores the dropped middle element of the date field and records the uncertainty of the shelfmark case and superscript.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0146-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 1-16. S. 1801, Śk. 1666. I.O. 2932.",
+      "after": "ff. 1-16. S. 1801, Śk., 1666. I.O. 2932.",
+      "reason": "A low dot and a faint comma-like stroke follow 'Śk'.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0146-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 147,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 315(2) ——— 6 only ——— 1744 : 16 : 20 : D.",
+          "evidence": "Same level, with a gutter marker and a matching dash on the facing page.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 147,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ c. 315(2) ——— 6 only ——— 1744 : 16 : [20? altered], '23/28' above : D.",
+          "evidence": "Same level, with a gutter marker and a matching dash on the facing page. The third element of the facing date field appears corrected, with '23/28' written above.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The previous anchor oversimplified the correction in the fol. 74 date field.",
+      "source_block_ids": [
+        "b003",
+        "b901"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0146-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 147,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ b. 73 Ghaṭasthāpanamantra . ritual ... n.d.: 10: 8: Beng",
+          "evidence": "Same level, with an arrow pointing toward this verso.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 147,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ b. 73 Ghaṭasthāpanamantra . ritual ... n.d.: 10: [8? overwritten], '6/8' above: Beng",
+          "evidence": "Same level, with an arrow pointing toward this verso. The third element of the facing date field appears altered, with '6/8' written above.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The previous anchor omitted the correction in the fol. 74 date field.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0146-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The 'Do.' ditto source is inferred from the arrows and from its level with fol. 74 '√ c. 386(2c) Ghaṭasthāpanamantravyākhyā'. The superscript of the target's own shelfmark ('2a' or '2c') is unresolved.",
+      "block_ids": [
+        "b005",
+        "b903"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0146-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The relationship anchor quotes the fol. 74 date field as '1744 : 16 : 20 : D.'. The adjacent overview suggests '23/28' written above a possibly cancelled '20', so the anchor may oversimplify a correction.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0146-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The anchor gives the b. 73 date field as 'n.d.: 10: 8: Beng'. The adjacent overview suggests '6/8' or an overwritten numeral.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0146-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The shelfmark letter appears lower-case, matching the 'c.' shelfmarks on fol. 74, though letter case in this hand is not fully secure. The superscript and several other readings are ambiguous and should be marked in the literal text rather than presented as certain. Proposed literal_text: \"√ c. 390(2[a or c?]) Do., + Co [reading?], f. 1, unf., p. 109 [reading?], followed by 05 [reading?] ff. from unidentified texts   n.d.: 1 [reading?]:10: Beng\"",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0146-04"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "After 'Śk' the source shows a low dot followed by a comma-like stroke. The candidate normalised these to a single full stop. Proposed literal_text: \"ff. 1-16. S. 1801, Śk., [reading?] 1666. I.O. 2932.\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0146-05"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The purpose of the pencil curve is unknown. It is not clearly level with any fol. 74 entry.",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0146-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The right-hand field follows the date : leaves : lines : script pattern used on fol. 74. Its middle element was dropped from the fields. The shelfmark case and superscript are uncertain. Proposed fields: {\"shelfmark\": \"c. 390(2[a or c?])\", \"title\": \"Do.\", \"extent\": \"f. 1, unf., p. 109, followed by 05 ff. from unidentified texts\", \"date\": \"n.d.\", \"leaves_field\": \"1 [reading?]\", \"lines\": \"10\", \"script\": \"Beng\", \"date_field_literal\": \"n.d.: 1:10: Beng\"}",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0146-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The attachment to the facing entry is positional only; the parent entry is not on this page.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0146-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The attachment is positional.",
+      "block_ids": [
+        "b003",
+        "b901"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0146-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading of 'end' is uncertain because of overwriting.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0146-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0146-01",
+        "focus-0146-02",
+        "focus-0146-03",
+        "focus-0146-04",
+        "focus-0146-05",
+        "focus-0146-06",
+        "focus-0146-07",
+        "focus-0146-08",
+        "focus-0146-09",
+        "focus-0146-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0146-01",
+          "source_reading": "√ c. 390(2[a or c?]) Do.",
+          "certainty": "uncertain",
+          "evidence": "Native tile (0,3216): the small raised letter after the '2' is an open, rounded stroke. It is not clearly 'a' or 'c'. On fol. 74 the entry 'c. 386(2)ᶜ' and its gutter arrow lie close to the level of b005/b903, but the 'Do.' link rests only on that position and on the arrows."
+        },
+        {
+          "issue_id": "focus-0146-02",
+          "source_reading": "1744 : 16 : [20? overwritten or cancelled] : D., with '23/28' written above",
+          "certainty": "uncertain",
+          "evidence": "Fol. 74 overview, adjacent context only: '23/28' is written above the third element. The digits below look altered, possibly a cancelled or overwritten '20'."
+        },
+        {
+          "issue_id": "focus-0146-03",
+          "source_reading": "n.d.: 10: [8? overwritten]: Beng, with '6/8' written above",
+          "certainty": "uncertain",
+          "evidence": "Fol. 74 overview, adjacent context only: '6/8' stands above the third element. The numeral below appears overwritten or struck."
+        },
+        {
+          "issue_id": "focus-0146-04",
+          "source_reading": "√ c. 390(2[a or c?]) Do., + Co [reading?], f. 1, unf., p. 109 [reading?], followed by 05 [reading?] ff. from unidentified texts   n.d.: 1 [reading?]:10: Beng",
+          "certainty": "probable",
+          "evidence": "Native tiles (0,3216) and (1604,3216): the shelfmark letter is a small lower-case-like 'c', the same size as the 'c.' shelfmarks on fol. 74. '05' could also be read 'c5' or '65'."
+        },
+        {
+          "issue_id": "focus-0146-05",
+          "source_reading": "ff. 1-16. S. 1801, Śk., 1666. I.O. 2932.",
+          "certainty": "probable",
+          "evidence": "Native tile (0,0): after 'Śk' there is a low dot followed by a faint comma-like stroke, before '1666'."
+        },
+        {
+          "issue_id": "focus-0146-06",
+          "source_reading": "[no text; curved pencil stroke with small mark above right end]",
+          "certainty": "secure",
+          "evidence": "Native tile (0,1608), at about y 3130-3200: a stroke only. Its function is undetermined."
+        },
+        {
+          "issue_id": "focus-0146-07",
+          "source_reading": "n.d.: 1 [reading?]:10: Beng",
+          "certainty": "probable",
+          "evidence": "Native tile (1604,3216): the right-hand field shows 'n.d:' then a single upright stroke, then ':10: Beng'."
+        },
+        {
+          "issue_id": "focus-0146-08",
+          "source_reading": "33 ff. (foliation partly destroyed, begins with f. 2). Cf. I.O. 2931.",
+          "certainty": "secure",
+          "evidence": "The text is secure. The attachment to fol. 74 'c. 316(8)' is positional, supported by the arrow '←ā/i/?' on fol. 74."
+        },
+        {
+          "issue_id": "focus-0146-09",
+          "source_reading": "‹ (gutter mark level with b003)",
+          "certainty": "probable",
+          "evidence": "Native tile (1604,0): a '‹' at x≈3080 sits opposite a '——' in the fol. 74 margin. The attachment is positional."
+        },
+        {
+          "issue_id": "focus-0146-10",
+          "source_reading": "at end [reading?] single leaf",
+          "certainty": "probable",
+          "evidence": "Native tile (0,3216): the word reads as 'end' but is retouched. A dotted mark lies beneath 'single'."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r005",
+          "field_path": "literal_text",
+          "before": "√ C. 390(2a) Do., + Co, f. 1, unf., p. 109, followed by 05 ff. from unidentified texts   n.d.: 1:10: Beng",
+          "after": "√ c. 390(2[a or c?]) Do., + Co [reading?], f. 1, unf., p. 109 [reading?], followed by 05 [reading?] ff. from unidentified texts   n.d.: 1 [reading?]:10: Beng",
+          "reason": "The shelfmark letter appears lower-case. The superscript and several other readings are doubtful and are now marked in the literal text.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "fields",
+          "before": {
+            "shelfmark": "C. 390(2a)",
+            "title": "Do.",
+            "extent": "f. 1, unf., p. 109, followed by 05 ff. from unidentified texts",
+            "date": "n.d.",
+            "lines": "10",
+            "script": "Beng"
+          },
+          "after": {
+            "shelfmark": "c. 390(2[a or c?])",
+            "title": "Do.",
+            "extent": "f. 1, unf., p. 109 [reading?], followed by 05 [reading?] ff. from unidentified texts",
+            "date": "n.d.",
+            "leaves_field": "1 [reading?]",
+            "lines": "10",
+            "script": "Beng",
+            "date_field_literal": "n.d.: 1 [reading?]:10: Beng"
+          },
+          "reason": "Restores the dropped middle element of the date field and records the uncertainty of the shelfmark case and superscript.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "ff. 1-16. S. 1801, Śk. 1666. I.O. 2932.",
+          "after": "ff. 1-16. S. 1801, Śk., 1666. I.O. 2932.",
+          "reason": "A low dot and a faint comma-like stroke follow 'Śk'.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 147,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√ c. 315(2) ——— 6 only ——— 1744 : 16 : 20 : D.",
+              "evidence": "Same level, with a gutter marker and a matching dash on the facing page.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 147,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√ c. 315(2) ——— 6 only ——— 1744 : 16 : [20? altered], '23/28' above : D.",
+              "evidence": "Same level, with a gutter marker and a matching dash on the facing page. The third element of the facing date field appears corrected, with '23/28' written above.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The previous anchor oversimplified the correction in the fol. 74 date field.",
+          "source_block_ids": [
+            "b003",
+            "b901"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 147,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√ b. 73 Ghaṭasthāpanamantra . ritual ... n.d.: 10: 8: Beng",
+              "evidence": "Same level, with an arrow pointing toward this verso.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 147,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "√ b. 73 Ghaṭasthāpanamantra . ritual ... n.d.: 10: [8? overwritten], '6/8' above: Beng",
+              "evidence": "Same level, with an arrow pointing toward this verso. The third element of the facing date field appears altered, with '6/8' written above.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "The previous anchor omitted the correction in the fol. 74 date field.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "uncertain"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Folio number '73b.'."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Text is secure; the attachment is positional."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Punctuation after 'Śk' corrected."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "'end' is retouched."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Literal text and fields revised with uncertainty markers."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Gutter mark '‹'."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "Pencil curve, no text."
+        },
+        {
+          "block_id": "b903",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Arrow '←' near the gutter."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0146-01",
+          "record_id": "r005",
+          "block_ids": [
+            "b005",
+            "b903"
+          ],
+          "issue": "The superscript after 390(2 ('a' or 'c') is unresolved. The 'Do.' source on fol. 74 is positional only.",
+          "next_check": "Higher magnification of the superscript; compare with the shelf list for c. 390."
+        },
+        {
+          "issue_id": "focus-0146-02",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The exact form of the corrected third element in the fol. 74 date field for c. 315(2) is unclear.",
+          "next_check": "Native tile of fol. 74 near y≈1480."
+        },
+        {
+          "issue_id": "focus-0146-03",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The overwritten numeral in the fol. 74 date field for b. 73 is unclear.",
+          "next_check": "Native tile of fol. 74 near y≈4220."
+        },
+        {
+          "issue_id": "focus-0146-06",
+          "record_id": "r006",
+          "block_ids": [
+            "b902"
+          ],
+          "issue": "The function of the pencil curve is unknown.",
+          "next_check": "Compare it with the level of fol. 74 entries at y≈3150."
+        },
+        {
+          "issue_id": "focus-0146-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The attachment to fol. 74 c. 316(8) is positional.",
+          "next_check": "None available on this page."
+        },
+        {
+          "issue_id": "focus-0146-09",
+          "record_id": "r003",
+          "block_ids": [
+            "b003",
+            "b901"
+          ],
+          "issue": "The attachment to fol. 74 c. 315(2) is positional.",
+          "next_check": "None available on this page."
+        },
+        {
+          "issue_id": "focus-0146-10",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "The reading 'end' is affected by overwriting.",
+          "next_check": "Higher magnification."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "cc5166a9d28cf92df5664d87dbef756b44f277a0140a532a80ccd753db68167a",
+      "bytes": 263550,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "02025afbc5b465e491a635bacb5443e41b1253c124a265ff3d17add8339c4004",
+      "bytes": 321726,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4f6e2e84ab7c9b1f29f8fc7ad73e55500e308a804b7b0c4b05766afea6cddc57",
+      "bytes": 296145,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1cdb4fd8b8ad3ff9c90b4e15171a2867c107d6a117cb0d9ec1a7032053da48f2",
+      "bytes": 299326,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0490753cceab7565064c25a22065742d48d27f3b1eb505b055b010b5b0680210",
+      "bytes": 273761,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "129005336407b53c694135932d07770a697e7dc281498dfa8991119206113068",
+      "bytes": 330844,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4a830728e5172c77a3d5c0419737ca06646d4b8994225290d667f29fcef52a77",
+      "bytes": 336664,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e844fd42-56b5-4159-a3d3-0b599cf55430/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4c159a6e99981ae29ea4d113bafa9fd4ef936e4963d2e87a2cdde6e34b29dcce",
+      "bytes": 276356,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 145,
+      "folio_label": "fol. 73",
+      "page_id": "e844fd42-56b5-4159-a3d3-0b599cf55430",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3da70937-47f6-4ca1-acbc-978b80d53015/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "781b2a26f74a3541c65876258b07e436e48d55ed7fdacae3ab93a499487015b4",
+      "bytes": 265439,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 147,
+      "folio_label": "fol. 74",
+      "page_id": "3da70937-47f6-4ca1-acbc-978b80d53015",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3da70937-47f6-4ca1-acbc-978b80d53015/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "47718f9948abe324687b36c62b3a3ee89167a7ea7459a537e8c360f7af2952b6",
+      "bytes": 366349,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 147,
+      "folio_label": "fol. 74",
+      "page_id": "3da70937-47f6-4ca1-acbc-978b80d53015",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3da70937-47f6-4ca1-acbc-978b80d53015/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e001c74542ff05cb056592e50fdad254a0bdf18b690ae60c4cce9f1c391cdcd1",
+      "bytes": 404118,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 147,
+      "folio_label": "fol. 74",
+      "page_id": "3da70937-47f6-4ca1-acbc-978b80d53015",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/04d046ea-f643-490a-9b84-a620fa3ae178.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "cc5166a9d28cf92df5664d87dbef756b44f277a0140a532a80ccd753db68167a",
+      "bytes": 263550,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "02025afbc5b465e491a635bacb5443e41b1253c124a265ff3d17add8339c4004",
+      "bytes": 321726,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4f6e2e84ab7c9b1f29f8fc7ad73e55500e308a804b7b0c4b05766afea6cddc57",
+      "bytes": 296145,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1cdb4fd8b8ad3ff9c90b4e15171a2867c107d6a117cb0d9ec1a7032053da48f2",
+      "bytes": 299326,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0490753cceab7565064c25a22065742d48d27f3b1eb505b055b010b5b0680210",
+      "bytes": 273761,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "129005336407b53c694135932d07770a697e7dc281498dfa8991119206113068",
+      "bytes": 330844,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/04d046ea-f643-490a-9b84-a620fa3ae178/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4a830728e5172c77a3d5c0419737ca06646d4b8994225290d667f29fcef52a77",
+      "bytes": 336664,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e844fd42-56b5-4159-a3d3-0b599cf55430/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4c159a6e99981ae29ea4d113bafa9fd4ef936e4963d2e87a2cdde6e34b29dcce",
+      "bytes": 276356,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 145,
+      "folio_label": "fol. 73",
+      "page_id": "e844fd42-56b5-4159-a3d3-0b599cf55430",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3da70937-47f6-4ca1-acbc-978b80d53015/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "781b2a26f74a3541c65876258b07e436e48d55ed7fdacae3ab93a499487015b4",
+      "bytes": 265439,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 147,
+      "folio_label": "fol. 74",
+      "page_id": "3da70937-47f6-4ca1-acbc-978b80d53015",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

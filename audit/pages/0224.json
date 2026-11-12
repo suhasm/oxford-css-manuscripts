@@ -1,0 +1,548 @@
+{
+  "source_order": 224,
+  "folio_label": "fol. 112b",
+  "page_id": "0be07835-2171-4fd8-b665-0d9f6df35413",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "112b.",
+    "principal_page_bbox": [
+      265,
+      280,
+      2880,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          350,
+          310,
+          125,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "112b.",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript 'b' written above and after '112'",
+          "point after numeral"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2515,
+          4090,
+          610,
+          135
+        ],
+        "kind_hint": "marginal_note_unattached",
+        "anchor": "bg. yaj jñānāśraya[n?] iti?",
+        "features": [
+          "faint pencil",
+          "single line on lower part of page near gutter",
+          "ends with question mark",
+          "no visible arrow or link to an entry on this page",
+          "reading uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          265,
+          560,
+          2870,
+          4100
+        ],
+        "description": "Faint mirror-image show-through of writing from the other side of the leaf (fol. 112 recto) across the ruled lines; not written on this page and not transcribed."
+      },
+      {
+        "bbox": [
+          280,
+          4430,
+          1500,
+          190
+        ],
+        "description": "Small dark specks/foxing spots near the bottom ruled lines; not writing."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter is at about x≈3140. Everything to the right of it belongs to the facing fol. 113: the pencil marks such as 'S̄/', 'ā/', 'S̄/ā/', 'n/', 's/?', the ticks and the shelfmark fragments 'c', 'd', 'e'. These are excluded from this page.",
+      "The pencil note b002 sits next to the gutter, level with the fol. 113 entry beginning 'Yad ajñānāśrayam āpnoti'. It probably refers to that facing entry, but no physical link is visible. The adjacent overview of fol. 113 also shows its tail end, 'ñānāśrayan iti?', at the left edge."
+    ],
+    "uncertainties": [
+      "In b002 the first word could be 'bg.' or 'Bg.'. The ending of the long word could be '-āśrayan' or '-āśrayam'. The diacritics (ñ, ā, ś) are faint."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "112b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "112b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner. The 'b' is written raised above and after '112', and a point follows the numeral."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The point after the numeral may sit at mid-height rather than on the baseline."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_query_note",
+        "literal_text": "bg. yaj jñānāśrayan iti?",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, single line in the lower part of the page next to the gutter (about canvas y 4100–4210).",
+          "The line ends with a question mark.",
+          "No arrow, bracket or other physical link to any entry is visible. There is no catalogue entry on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 225,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Yad ajñānāśrayam āpnoti",
+            "evidence": "The note sits at the same height as this incipit line on the facing fol. 113, across the gutter. Its wording resembles that line, but no link mark is visible.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first word may be read 'bg.' or 'Bg.'.",
+          "The ending of the long word may be read '-āśrayan' or '-āśrayam'.",
+          "The diacritics (ñ, ā, ś) are faint and their exact placement is uncertain.",
+          "The last word is read as 'iti'; its initial letter is faint."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number written on the page; recorded as non-catalogue text."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Pencil query note with no visible attachment. It is probably related to the incipit of the facing fol. 113 entry."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and one pencil note, the ruled page carries no catalogue entries. This finding is based on review of all native tiles.",
+      "Faint mirror-image show-through from the other side of the leaf is visible across the ruled lines. It was not transcribed.",
+      "Dark specks and foxing appear near the bottom ruled lines. They are not writing.",
+      "Marks to the right of the gutter (about x≈3140) belong to the facing fol. 113 and are excluded. These include the pencil 'S̄/', 'ā/', 'S̄/ā/', 'n/', 's/?', a tick, and the shelfmark letters c, d, e."
+    ],
+    "unresolved_relationships": [
+      "r002: its attachment to the fol. 113 incipit 'Yad ajñānāśrayam āpnoti' rests only on position and similar wording. No link mark is visible."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The native top-left tile shows the ink folio number '112' with a raised 'b' and a point after the numeral, at about canvas x 355–470, y 315–425. r001's literal text '112b.' and its annotation agree with the image. The exact vertical position of the point remains a minor uncertainty, and the candidate already records it."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The native bottom-right tile shows a single faint pencil line at tile x≈920–1510, y≈880–1000, which is about canvas x 2524–3114, y 4096–4216. It sits left of the gutter, which is at about canvas x 3140. It reads approximately 'bg. yaj jñānāśrayan iti?', with a question mark written above the line end. The first letters could also be taken as 'by'/'Bg', and the diacritics and final nasal are faint. The candidate records these doubts. No arrow, bracket or link mark is visible."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "Several readings in the note are insecure: the first abbreviation ('bg.' vs 'Bg.' vs 'by'), the ending '-āśrayan' vs '-āśrayam', the diacritic placement on 'jñānā', and the faint initial of 'iti'.",
+        "next_check": "Examine the original or a higher-contrast capture of canvas region x≈2520–3120, y≈4090–4220."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "A possible attachment to the fol. 113 line 'Yad ajñānāśrayam āpnoti' has some support. The line lies at the same height (overview y≈1212/1500, about canvas y≈4137 on fol. 113), and the wording is similar, suggesting a query about word division. No physical link is visible, so the relationship stays probable only.",
+        "next_check": "Inspect the gutter area of both openings for any connecting stroke, and compare the pencil hand with the fol. 113 marginal pencil marks."
+      }
+    ],
+    "boundary_review": "The gutter lies at about canvas x≈3140. Everything to its right belongs to the facing fol. 113 and is correctly excluded from records. This includes pencil 'S̄/', 'ā/', 'S̄/ā/', 'n/', 's/?', the tick before 'c', and the shelfmark letters c, d and e. b002 lies entirely left of the gutter on fol. 112b, although it is probably related to a fol. 113 entry. The adjacent fol. 113 overview shows the tail 'ñānāśrayan iti?' at its left edge; this is the same note seen across the opening, not a second record. Small marks along the gutter fold are stitching or fold artefacts, not writing.",
+    "region_review": {
+      "top": "Only the folio number '112b.' (b001) is present. The rest of the top margin is blank.",
+      "middle": "The ruled lines carry only faint mirror-image show-through from the recto of the leaf, which is not writing on this page. A few isolated specks are present. No entries were found.",
+      "bottom": "There is one pencil note (b002) at about y 4100–4210 near the gutter. Dark specks and foxing near the lowest ruled lines (about y 4430–4620) are not writing. No other bottom note was found.",
+      "left_margin": "The left margin is blank apart from the folio number at the top-left.",
+      "right_margin": "The gutter side carries only b002 on this page. Marks beyond the gutter belong to fol. 113.",
+      "interlinear": "No interlinear additions, cancellations or ditto marks were found on this page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        350,
+        310,
+        125,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "112b.",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript 'b' written above and after '112'",
+        "point after numeral"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2515,
+        4090,
+        610,
+        135
+      ],
+      "kind_hint": "marginal_note_unattached",
+      "anchor": "bg. yaj jñānāśraya[n?] iti?",
+      "features": [
+        "faint pencil",
+        "single line on lower part of page near gutter",
+        "ends with question mark",
+        "no visible arrow or link to an entry on this page",
+        "reading uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "112b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner. The 'b' is written raised above and after '112', and a point follows the numeral."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The point after the numeral may sit at mid-height rather than on the baseline."
+      ],
+      "stable_id": "css-prod-0224-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_query_note",
+      "literal_text": "bg. yaj jñānāśrayan iti?",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, single line in the lower part of the page next to the gutter (about canvas y 4100–4210).",
+        "The line ends with a question mark.",
+        "No arrow, bracket or other physical link to any entry is visible. There is no catalogue entry on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 225,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Yad ajñānāśrayam āpnoti",
+          "evidence": "The note sits at the same height as this incipit line on the facing fol. 113, across the gutter. Its wording resembles that line, but no link mark is visible.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first word may be read 'bg.' or 'Bg.'.",
+        "The ending of the long word may be read '-āśrayan' or '-āśrayam'.",
+        "The diacritics (ñ, ā, ś) are faint and their exact placement is uncertain.",
+        "The last word is read as 'iti'; its initial letter is faint."
+      ],
+      "stable_id": "css-prod-0224-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0be07835-2171-4fd8-b665-0d9f6df35413.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0be07835-2171-4fd8-b665-0d9f6df35413/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "45c3edcd5af597721c4dc7c39c131cc28a5ffb34016fc0cf6c64dff472864af3",
+      "bytes": 247749,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0be07835-2171-4fd8-b665-0d9f6df35413/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "46a39deb613a9372e90e986ec6cfab82e6004ead3dd11072de091b174fb09dd6",
+      "bytes": 302092,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0be07835-2171-4fd8-b665-0d9f6df35413/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d5ba99f49923a990df9646cf9958b9abe1893e87ffc62e873c650d0736c31f27",
+      "bytes": 314528,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0be07835-2171-4fd8-b665-0d9f6df35413/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f2e02de0298faec95c0aa92581f680cbd247f326dd6ef934331ef6718d633e59",
+      "bytes": 316311,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0be07835-2171-4fd8-b665-0d9f6df35413/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8e1f7aff75289f0c231824e15fc37fc382e9f5469917598aba66fc368b88e8a2",
+      "bytes": 314569,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0be07835-2171-4fd8-b665-0d9f6df35413/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a8d85d796d122ec90f215b8e391b815c7d01039c491f04867141187e2b2d10e3",
+      "bytes": 311428,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0be07835-2171-4fd8-b665-0d9f6df35413/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "aabc3adea7cf3af26f33b881b8d92fbf3aad2eb6a3d74c79a54df2e90f373bdb",
+      "bytes": 340047,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1595ce12-3ed1-452f-aba2-adf4cd78f341/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4b424513ea2d19ee47bcab63303570cea3ebe55cb0365a737ae0ec5cfb9757e4",
+      "bytes": 281658,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 223,
+      "folio_label": "fol. 112",
+      "page_id": "1595ce12-3ed1-452f-aba2-adf4cd78f341",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d4b33709-cc33-4957-87a0-66f93cd7ec66/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b5b6e938f54ef357fc1390b7b15a841000a46a40e02399ce7b2cb60391eb83b6",
+      "bytes": 258640,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 225,
+      "folio_label": "fol. 113",
+      "page_id": "d4b33709-cc33-4957-87a0-66f93cd7ec66",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

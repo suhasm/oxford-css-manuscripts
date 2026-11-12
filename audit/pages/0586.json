@@ -1,0 +1,913 @@
+{
+  "source_order": 586,
+  "folio_label": "fol. 293b",
+  "page_id": "36917917-e6af-4136-8bb0-66c607213f8c",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "293b",
+    "principal_page_bbox": [
+      305,
+      300,
+      2795,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          390,
+          330,
+          170,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "293ᵇ.",
+        "features": [
+          "top-left corner",
+          "superscript b",
+          "ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          420,
+          1530,
+          1630,
+          90
+        ],
+        "kind_hint": "marginal_overflow_note",
+        "anchor": "last two ff., preceded by ff. 1 and 2 of work in verse on astrology by Nīlakaṇṭha",
+        "features": [
+          "single line spanning the margin rule into the text column",
+          "overflow note for the facing page, linked by a double arrow near the gutter at about y 1545 (facing shelfmark c. 386)",
+          "ink, small cursive",
+          "reading of 'ff. 1 and 2' uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          440,
+          1635,
+          1900,
+          90
+        ],
+        "kind_hint": "marginal_overflow_note",
+        "anchor": "s/o Ummana(sic) Bhaṭṭa, s/o Paurāṇikadharma (sic) Bhaṭṭa, ff. 1-73. I.O. 465",
+        "features": [
+          "single line spanning the margin rule into the text column",
+          "underlined 'sic' twice",
+          "dot-below diacritics",
+          "linked by an arrow and dash near the gutter at about y 1660 (facing shelfmark d. 111)",
+          "ink"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          455,
+          2580,
+          540,
+          100
+        ],
+        "kind_hint": "marginal_overflow_note",
+        "anchor": "ff. 1-6, Saṁv. 1817",
+        "features": [
+          "date given in Saṁvat",
+          "linked by an arrow at about y 2590 toward the facing page (facing shelfmark c. 43)",
+          "ink"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3025,
+          1520,
+          75,
+          50
+        ],
+        "description": "Left-pointing arrow at the gutter edge of the target page, paired with a right-pointing arrow on the facing page (row of facing shelfmark c. 386)."
+      },
+      {
+        "bbox": [
+          3025,
+          1635,
+          65,
+          45
+        ],
+        "description": "Small left-pointing arrow with a cross-stroke at the gutter (row of facing shelfmark d. 111)."
+      },
+      {
+        "bbox": [
+          2905,
+          2560,
+          145,
+          50
+        ],
+        "description": "Left-pointing arrow near the gutter (row of facing shelfmark c. 43)."
+      },
+      {
+        "bbox": [
+          780,
+          2440,
+          480,
+          60
+        ],
+        "description": "Faint broken dashed strokes, probably offset or stray marks rather than text."
+      },
+      {
+        "bbox": [
+          1770,
+          2340,
+          350,
+          90
+        ],
+        "description": "Faint dotted line and small curved hook mark, probably stray, offset or show-through; no legible text."
+      }
+    ],
+    "boundary_notes": [
+      "The right portion of the image beyond the gutter (x > about 3100) shows the facing page fol. 294, with shelfmarks d. 423, c. 113, d. 863, c. 386, d. 111, d. 611, e. 169, d. 329, 'See Brahmav...', c. 43, d. 235, d. 235, c. 244, d. 824, and others. These are not target records.",
+      "Blocks b002 to b004 are overflow annotations written on the blank 293b and keyed by arrows to entries on fol. 294. Their parent entries lie on the facing page. They are kept here as distinct blocks.",
+      "Notes b002 and b003 run across the vertical margin rule at about x 820."
+    ],
+    "uncertainties": [
+      "In b002, the reading 'ff. 1 and 2 of work in verse on astrology' is uncertain because the handwriting is small and cursive.",
+      "In b003, the reading of the names 'Ummana' and 'Paurāṇikadharma' is uncertain.",
+      "In b004, the reading of 'Saṁv.' is an abbreviation reading, not an expansion.",
+      "The faint marks at mid-page may be show-through from the reverse side."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "293ᵇ.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "293ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top-left corner, with a superscript b."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_for_facing_page",
+        "literal_text": "last two ff., preceded by ff. 1 and 2 of work in verse on astrology by Nīlakaṇṭha",
+        "fields": {
+          "extent": "last two ff."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Small cursive ink line written across the margin rule into the text column.",
+          "A left-pointing arrow at the gutter edge of this page (about x3025,y1520) is paired with a right-pointing arrow on fol. 294 beside the shelfmark 'c. 386(8)'."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_entry",
+            "value": "c. 386(8) Saṁskāradīpikā … Nyāya (fol. 294)",
+            "source_page_order": 587,
+            "source_block_id": null,
+            "evidence": "The double arrow at the gutter lies on the same row as the facing shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 587,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 386(8)",
+            "evidence": "Arrow pair across the gutter on the same ruled line.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'ff. 1 and 2 of work in verse' is uncertain because the cursive is small.",
+          "It is unclear whether the i of 'Nīlakaṇṭha' carries a macron."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_for_facing_page",
+        "literal_text": "s/o Ummaṇa (sic) Bhatta, s/o Paurāṇikadharmā (sic) Bhaṭṭa, ff. 1-73. I.O. 465",
+        "fields": {
+          "extent": "ff. 1-73",
+          "source": "I.O. 465"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Both instances of 'sic' are underlined.",
+          "The line runs across the margin rule.",
+          "A small arrow with a cross-stroke at the gutter (about x3025,y1635) is followed on fol. 294 by a dash before the shelfmark 'd. 111(2)'."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_entry",
+            "value": "d. 111(2) Saṁskāranirṇaya. By Candracūḍa … (fol. 294)",
+            "source_page_order": 587,
+            "source_block_id": null,
+            "evidence": "The gutter arrow and dash lie on the same row as the facing shelfmark.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 587,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 111(2)",
+            "evidence": "Arrow and dash link across the gutter on the same line.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The name readings 'Ummaṇa' and 'Paurāṇikadharmā' are uncertain, including whether the final a carries a macron.",
+          "The underdots in the first 'Bhatta' are not clearly visible, whereas the second 'Bhaṭṭa' shows them.",
+          "'s/o' is the literal abbreviation and is not expanded here."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_for_facing_page",
+        "literal_text": "ff. 1-6, Saṁv. 1817",
+        "fields": {
+          "extent": "ff. 1-6",
+          "date": "Saṁv. 1817"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A left-pointing arrow near the gutter (about x2905,y2560) is followed on fol. 294 by a dash before the shelfmark 'c. 43(2)'."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_entry",
+            "value": "c. 43(2) Saṁskṛtamañjarī. By Raghunātha Bhaṭṭa. Grammar … 1817:6:9:D. (fol. 294)",
+            "source_page_order": 587,
+            "source_block_id": null,
+            "evidence": "The arrow lies on the same row as the facing shelfmark, and the date 1817 matches the facing entry.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 587,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 43(2)",
+            "evidence": "Arrow and dash link across the gutter on the same line.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The abbreviation 'Saṁv.' is read from cursive and is not expanded; the date is not converted."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Overflow note keyed by arrow to c. 386(8) on fol. 294."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Overflow note keyed by arrow to d. 111(2) on fol. 294."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Overflow note keyed by arrow to c. 43(2) on fol. 294."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number and three overflow notes keyed to fol. 294, the page is ruled and otherwise blank after image review.",
+      "There are faint dashed or dotted strokes and a hook mark at mid-page (about y2340–2500). They contain no legible text and are probably stray marks or show-through.",
+      "The bottom region and margins were reviewed and contain no text.",
+      "The region right of the gutter (x > about 3100) belongs to fol. 294 and is not transcribed as target records."
+    ],
+    "unresolved_relationships": [
+      "The attachment of each note to its fol. 294 entry rests on arrow position and row alignment, so it is probable rather than secure."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The ink folio number '293ᵇ.' at the top left is correctly transcribed."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single overflow line is present. The reading 'ff. 1 and 2' remains uncertain. The written form of the name looks like 'Nilakaṇṭha': the i has a dot, and no macron is clearly visible. The candidate's literal 'Nīlakaṇṭha' asserts a macron that the image does not secure. The left arrow at the gutter (about x3025,y1520) pairs with the right arrow before c. 386(8) on fol. 294."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The line is present and the readings agree in substance. However, the source writes '(sic)' closed up against the neighbouring words in the first instance ('Ummaṇa(sic)Bhatta'), whereas the candidate inserts spaces. Both instances of 'sic' are underlined. The first 'Bhatta' shows no clear underdots; the second 'Bhaṭṭa' has them. The gutter arrow with a cross-stroke at about y1660 aligns with d. 111(2)."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'ff. 1-6, Saṁv. 1817' is correctly transcribed. The left arrow at about x2905,y2590 aligns with the dash before c. 43(2) on fol. 294, whose date reads 1817:6:9:D."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "s/o Ummaṇa (sic) Bhatta, s/o Paurāṇikadharmā (sic) Bhaṭṭa, ff. 1-73. I.O. 465",
+        "after": "s/o Ummaṇa(sic)Bhatta, s/o Paurāṇikadharmā (sic) Bhaṭṭa, ff. 1-73. I.O. 465",
+        "reason": "In the native tile the first '(sic)' is written without spaces between 'Ummaṇa' and 'Bhatta'. The second '(sic)' is spaced. Name readings remain uncertain, as already noted in the record.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "last two ff., preceded by ff. 1 and 2 of work in verse on astrology by Nīlakaṇṭha",
+        "after": "last two ff., preceded by ff. 1 and 2 of work in verse on astrology by N[ī?]lakaṇṭha",
+        "reason": "The image does not clearly show a macron over the i. The literal text should not assert one, consistent with the record's own uncertainty note.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The reading 'ff. 1 and 2' and the vowel length in the name are uncertain. The attachment to c. 386(8) is probable only.",
+        "next_check": "Compare with the fol. 294 entry c. 386(8) and the hand's other numerals at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The name forms 'Ummaṇa' and 'Paurāṇikadharmā' are uncertain, including the underdots in the first 'Bhatta'. The attachment to d. 111(2) is probable only.",
+        "next_check": "Inspect the diacritics at higher magnification."
+      }
+    ],
+    "boundary_review": "The target page runs to the gutter at about x3100; everything beyond belongs to fol. 294 and is not transcribed. The gutter-side arrows on the target page (about y1520, y1635 and y2590) are attachment evidence for b002–b004, not separate text. The right-pointing arrow and dashes before the shelfmarks c. 386(8), d. 111(2) and c. 43(2) lie on the facing page. Each attachment is probable, based on row alignment.",
+    "region_review": {
+      "top": "Only the folio number '293ᵇ.' is present; the rest is ruled and blank.",
+      "middle": "Three overflow lines (b002, b003, b004) are present. Faint dashed strokes at about y2440 and a dotted line with a hook mark at about y2340–2430 contain no legible text; they are probably stray marks or offset.",
+      "bottom": "Reviewed in the native tiles: only ruled lines, faint show-through and specks; no text.",
+      "left_margin": "The margin column holds only the starts of b002–b004, which cross the margin rule at about x820. There is no separate marginal text.",
+      "right_margin": "The gutter area holds only the three arrows linked to entries on fol. 294.",
+      "interlinear": "No interlinear additions, cancellations or corrections were found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        390,
+        330,
+        170,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "293ᵇ.",
+      "features": [
+        "top-left corner",
+        "superscript b",
+        "ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        420,
+        1530,
+        1630,
+        90
+      ],
+      "kind_hint": "marginal_overflow_note",
+      "anchor": "last two ff., preceded by ff. 1 and 2 of work in verse on astrology by Nīlakaṇṭha",
+      "features": [
+        "single line spanning the margin rule into the text column",
+        "overflow note for the facing page, linked by a double arrow near the gutter at about y 1545 (facing shelfmark c. 386)",
+        "ink, small cursive",
+        "reading of 'ff. 1 and 2' uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        440,
+        1635,
+        1900,
+        90
+      ],
+      "kind_hint": "marginal_overflow_note",
+      "anchor": "s/o Ummana(sic) Bhaṭṭa, s/o Paurāṇikadharma (sic) Bhaṭṭa, ff. 1-73. I.O. 465",
+      "features": [
+        "single line spanning the margin rule into the text column",
+        "underlined 'sic' twice",
+        "dot-below diacritics",
+        "linked by an arrow and dash near the gutter at about y 1660 (facing shelfmark d. 111)",
+        "ink"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        455,
+        2580,
+        540,
+        100
+      ],
+      "kind_hint": "marginal_overflow_note",
+      "anchor": "ff. 1-6, Saṁv. 1817",
+      "features": [
+        "date given in Saṁvat",
+        "linked by an arrow at about y 2590 toward the facing page (facing shelfmark c. 43)",
+        "ink"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "293ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top-left corner, with a superscript b."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0586-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_for_facing_page",
+      "literal_text": "last two ff., preceded by ff. 1 and 2 of work in verse on astrology by Nīlakaṇṭha",
+      "fields": {
+        "extent": "last two ff."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Small cursive ink line written across the margin rule into the text column.",
+        "A left-pointing arrow at the gutter edge of this page (about x3025,y1520) is paired with a right-pointing arrow on fol. 294 beside the shelfmark 'c. 386(8)'."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_entry",
+          "value": "c. 386(8) Saṁskāradīpikā … Nyāya (fol. 294)",
+          "source_page_order": 587,
+          "source_block_id": null,
+          "evidence": "The double arrow at the gutter lies on the same row as the facing shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 587,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 386(8)",
+          "evidence": "Arrow pair across the gutter on the same ruled line.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'ff. 1 and 2 of work in verse' is uncertain because the cursive is small.",
+        "It is unclear whether the i of 'Nīlakaṇṭha' carries a macron."
+      ],
+      "stable_id": "css-prod-0586-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_for_facing_page",
+      "literal_text": "s/o Ummaṇa (sic) Bhatta, s/o Paurāṇikadharmā (sic) Bhaṭṭa, ff. 1-73. I.O. 465",
+      "fields": {
+        "extent": "ff. 1-73",
+        "source": "I.O. 465"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Both instances of 'sic' are underlined.",
+        "The line runs across the margin rule.",
+        "A small arrow with a cross-stroke at the gutter (about x3025,y1635) is followed on fol. 294 by a dash before the shelfmark 'd. 111(2)'."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_entry",
+          "value": "d. 111(2) Saṁskāranirṇaya. By Candracūḍa … (fol. 294)",
+          "source_page_order": 587,
+          "source_block_id": null,
+          "evidence": "The gutter arrow and dash lie on the same row as the facing shelfmark.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 587,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 111(2)",
+          "evidence": "Arrow and dash link across the gutter on the same line.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The name readings 'Ummaṇa' and 'Paurāṇikadharmā' are uncertain, including whether the final a carries a macron.",
+        "The underdots in the first 'Bhatta' are not clearly visible, whereas the second 'Bhaṭṭa' shows them.",
+        "'s/o' is the literal abbreviation and is not expanded here."
+      ],
+      "stable_id": "css-prod-0586-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_for_facing_page",
+      "literal_text": "ff. 1-6, Saṁv. 1817",
+      "fields": {
+        "extent": "ff. 1-6",
+        "date": "Saṁv. 1817"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A left-pointing arrow near the gutter (about x2905,y2560) is followed on fol. 294 by a dash before the shelfmark 'c. 43(2)'."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_entry",
+          "value": "c. 43(2) Saṁskṛtamañjarī. By Raghunātha Bhaṭṭa. Grammar … 1817:6:9:D. (fol. 294)",
+          "source_page_order": 587,
+          "source_block_id": null,
+          "evidence": "The arrow lies on the same row as the facing shelfmark, and the date 1817 matches the facing entry.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 587,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 43(2)",
+          "evidence": "Arrow and dash link across the gutter on the same line.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The abbreviation 'Saṁv.' is read from cursive and is not expanded; the date is not converted."
+      ],
+      "stable_id": "css-prod-0586-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "s/o Ummaṇa (sic) Bhatta, s/o Paurāṇikadharmā (sic) Bhaṭṭa, ff. 1-73. I.O. 465",
+      "after": "s/o Ummaṇa(sic)Bhatta, s/o Paurāṇikadharmā (sic) Bhaṭṭa, ff. 1-73. I.O. 465",
+      "reason": "In the native tile the first '(sic)' is written without spaces between 'Ummaṇa' and 'Bhatta'. The second '(sic)' is spaced. Name readings remain uncertain, as already noted in the record.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "last two ff., preceded by ff. 1 and 2 of work in verse on astrology by Nīlakaṇṭha",
+      "after": "last two ff., preceded by ff. 1 and 2 of work in verse on astrology by N[ī?]lakaṇṭha",
+      "reason": "The image does not clearly show a macron over the i. The literal text should not assert one, consistent with the record's own uncertainty note.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/36917917-e6af-4136-8bb0-66c607213f8c.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36917917-e6af-4136-8bb0-66c607213f8c/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b95adfc742c5990d9ee25754b670eaf5854350bff43587feb91c0484b89dd9f4",
+      "bytes": 327262,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36917917-e6af-4136-8bb0-66c607213f8c/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "39e19588c65d5cc486ee5b95e08170f9958080756f03b679bd85512c04d9449a",
+      "bytes": 397190,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36917917-e6af-4136-8bb0-66c607213f8c/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "520354ee25ebf3b64e0540352bb4a26daebd8721ca010ca9a6ec176762c792b7",
+      "bytes": 410734,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36917917-e6af-4136-8bb0-66c607213f8c/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d949409fea932fa422ffcc406bd00d2708eb3cb5f8a8f25b32e29e375c1a0fcc",
+      "bytes": 425336,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36917917-e6af-4136-8bb0-66c607213f8c/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "71abb8b4b5503cde838cdfd90563e445f1cb11414dd02c2e4bf54e6a0e83c405",
+      "bytes": 437218,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36917917-e6af-4136-8bb0-66c607213f8c/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "16bc32b7008fb56d8c7e4cec3f864b39706def6dc960634af0ba7e13204baeb0",
+      "bytes": 358550,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/36917917-e6af-4136-8bb0-66c607213f8c/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b07735c208c25769f7d76dfdfebae1531b794a7dfc52a0499e6f1a1ed8451b36",
+      "bytes": 407335,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/c85065b8-a35b-48aa-b105-c17031e7c530/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "93a46f57fcd5aaac75e91e509b471598e9b0f0ff133d86b324a9d6310c1e2a26",
+      "bytes": 336342,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 585,
+      "folio_label": "fol. 293",
+      "page_id": "c85065b8-a35b-48aa-b105-c17031e7c530",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ceaa7259-c5d5-4e7b-bae9-87693406ecd7/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "786603a9c1d11e9c9473163ad8ed170e353dde01dceeedadf65f5302cd282d3b",
+      "bytes": 356264,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 587,
+      "folio_label": "fol. 294",
+      "page_id": "ceaa7259-c5d5-4e7b-bae9-87693406ecd7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

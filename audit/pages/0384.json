@@ -1,0 +1,1103 @@
+{
+  "source_order": 384,
+  "folio_label": "fol. 192b",
+  "page_id": "df92f0c6-1f84-4a97-842a-62ed14dc7e53",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "192b",
+    "principal_page_bbox": [
+      290,
+      265,
+      2900,
+      4610
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          395,
+          300,
+          135,
+          125
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "192^b.",
+        "features": [
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          350,
+          3520,
+          1820,
+          90
+        ],
+        "kind_hint": "entry",
+        "anchor": "√d. 36(6) Mahāvrata brāhmaṇa, ff.1-7 unf. ? from Śatapatha br. as some other brāhmaṇas",
+        "features": [
+          "tick before shelfmark",
+          "shelfmark digits partly unclear",
+          "extent given",
+          "query mark"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1805,
+          3600,
+          330,
+          75
+        ],
+        "kind_hint": "continuation",
+        "anchor": "Cf. with Ait. Br.",
+        "features": [
+          "second line below end of b002",
+          "indented right"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          2280,
+          3545,
+          360,
+          75
+        ],
+        "kind_hint": "entry_extent_date",
+        "anchor": "n.d. : 7:8/10 : D",
+        "features": [
+          "same line as b002",
+          "date/extent/script column",
+          "fractional line count"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2670,
+          3530,
+          440,
+          135
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "?Aitareya ā[?] / or a Śrautasūtra",
+        "features": [
+          "two-line note",
+          "interlinear superscript 'ā[?]' between the two lines",
+          "leftward arrow ← drawn to its right",
+          "arrow points toward the gutter"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          570,
+          3670,
+          30,
+          20
+        ],
+        "description": "Small ink specks below the start of the entry line."
+      },
+      {
+        "bbox": [
+          940,
+          670,
+          30,
+          40
+        ],
+        "description": "Ink specks in the upper ruled area. These do not form text."
+      },
+      {
+        "bbox": [
+          1290,
+          1190,
+          50,
+          40
+        ],
+        "description": "Small ink specks in the upper-middle area. These do not form text."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter with binding thread lies at about x≈3180-3200. The checkmarks, 'c.', 'd.' and the rightward arrow → at about [3209,3570,90,30] belong to the facing fol. 193 and are not transcribed as target blocks.",
+      "The ← arrow beside b005 appears to pair with the → arrow on fol. 193. Together they link this note to the Mahāvrata entry there. The linkage is inferred from layout only.",
+      "Faint ghosted handwriting visible across the page is show-through or offset from other leaves. It is not ink on this page."
+    ],
+    "uncertainties": [
+      "The shelfmark number in b002 is uncertain ('36(6)' vs '3616' or similar).",
+      "In b002 the reading 'as some other brāhmaṇas' is uncertain; the phrase might be 'or some other brāhmaṇa'.",
+      "The interlinear letters above b005 are uncertain ('ā' / 'ār' / 'ās').",
+      "In b004 the reading '7:8/10' is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "192b",
+    "records": [
+      {
+        "id": "r000",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "192^b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top-left corner. The 'b' is superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r001",
+        "block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "entry",
+        "literal_text": "√d. 36(6) Mahāvrata brāhmaṇa, ff.1-7 unf. ? from Śatapatha br. [or?] some other brāhmaṇa[m?]\n                                        Cf. with Ait. Br.          n.d. : 7:8/10 : D",
+        "fields": {
+          "shelfmark": "d. 36(6)",
+          "title": "Mahāvrata brāhmaṇa",
+          "extent": "ff.1-7 unf.; 7",
+          "date": "n.d.",
+          "lines": "8/10",
+          "script": "D"
+        },
+        "normalized_title": "Mahāvrata Brāhmaṇa",
+        "annotations": [
+          "A tick (√) stands before the shelfmark.",
+          "'Cf. with Ait. Br.' is written on a second line below the end of the main line and is indented to the right.",
+          "The date, extent, lines and script are given in the right-hand column on the same line as the title."
+        ],
+        "editorial_context": [
+          {
+            "field": "shelfmark",
+            "value": "d. 36(6)",
+            "source_page_order": 385,
+            "source_block_id": null,
+            "evidence": "Fol. 193 has a corrected entry reading 'X.36(6) ff.1-7' beside 'Mahāvrata Brāhmaṇa n.d: 7:9: D'. This supports the reading '36(6)'. It was not used to alter the literal text.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 385,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mahāvrata Brāhmaṇa … n.d: 7:9: D (with marginal 'X. 36(6) ff.1-8')",
+            "evidence": "The same title and a similar shelfmark and extent appear on the facing page. The entry may be a draft or a relocated version of that entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The shelfmark digits are partly unclear. '36(6)' could also be read as '3616' or '3666'.",
+          "The reading 'or some other brāhmaṇa' is uncertain. It could also be 'as some other brāhmaṇas' or 'brāhmaṇam'.",
+          "The line count '8/10' is uncertain. It could be '8/10' or '8|10'."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "marginal_identification_note",
+        "literal_text": "?Aitareya ā[r?]\nor a Śrautasūtra  ←",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The note has two lines.",
+          "Small letters 'ār'[?] are written interlinearly above, between 'Aitareya' and the second line.",
+          "A leftward arrow ← is drawn to the right of the note, toward the gutter. It pairs with a → arrow on facing fol. 193."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 384,
+            "target_record_id": "r001",
+            "target_block_id": "b002",
+            "target_anchor": "Mahāvrata brāhmaṇa",
+            "evidence": "The note is on the same line as the entry, in the column after the date/extent/script.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 385,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mahāvrata … Adh. 17 and 18 of the Śāṅkhāyana śrauta sūtra / Mahāvrata Upaniṣad (see under Aitareya Ār.)",
+            "evidence": "The ← and → arrows across the gutter suggest a link to the facing page's Mahāvrata entries. This is inferred from layout only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The interlinear letters are uncertain ('ā', 'ār' or 'ās'). They are not expanded."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r000"
+        ],
+        "explanation": "Visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Main entry line."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Securely attached continuation line directly below the end of the entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Date, extent, lines and script column on the same line as the entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Marginal note with an arrow. Its attachment is ambiguous, so it is kept as a separate record."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is ruled but blank apart from ink specks. Faint ghosting is show-through or offset from other leaves and is not transcribed.",
+      "The marks beyond the gutter (ticks, 'c.', 'd.', → arrow, 'may ad') belong to facing fol. 193 and are not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "It is uncertain whether r002 qualifies r001 or the Mahāvrata entries on fol. 193 via the paired arrows."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r000"
+        ],
+        "finding": "The folio number '192' with a superscript 'b' and a dot is at the top left. It is correctly transcribed."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The main entry line is present. The shelfmark digits look like '36(6)'. The connective before 'some other' is written as 'a' or 'o' followed by 's' and may read 'as' or 'or'. It stays uncertain."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "'Cf. with Ait. Br.' is on the second line under the end of the main line. The candidate literal misplaces b004 after this line, so a change is proposed."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "'n.d. : 7 : 8/10 : D' is on the same ruled line as b002, not on the 'Cf.' line. The literal order is corrected."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The note is present. Its arrowhead points left, toward the note and away from the gutter. The paired → on fol. 193 stands on the line of the d. 93(3) Mahāvrata entry, which cites the Śāṅkhāyana śrauta sūtra."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "literal_text",
+        "before": "√d. 36(6) Mahāvrata brāhmaṇa, ff.1-7 unf. ? from Śatapatha br. [or?] some other brāhmaṇa[m?]\n                                        Cf. with Ait. Br.          n.d. : 7:8/10 : D",
+        "after": "√d. 36(6) Mahāvrata brāhmaṇa, ff.1-7 unf. ? from Śatapatha br. [or? / as?] some other brāhmaṇa[m?]          n.d. : 7:8/10 : D\n                                        Cf. with Ait. Br.",
+        "reason": "The date, extent and script column (b004) is on the main entry line. 'Cf. with Ait. Br.' alone forms the second line. The connective reading is kept uncertain, with both readings shown.",
+        "source_block_ids": [
+          "b002",
+          "b003",
+          "b004"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "The note has two lines.",
+          "Small letters 'ār'[?] are written interlinearly above, between 'Aitareya' and the second line.",
+          "A leftward arrow ← is drawn to the right of the note, toward the gutter. It pairs with a → arrow on facing fol. 193."
+        ],
+        "after": [
+          "The note has two lines.",
+          "Small letters 'ār'[?] with a macron are written interlinearly between 'Aitareya' and the second line, roughly above the latter part of the second line.",
+          "A hooked arrow is drawn to the right of the note, between the note and the gutter. Its head points left, toward the note. A → arrow stands on facing fol. 193 just across the gutter at the same height."
+        ],
+        "reason": "In the native tile the arrowhead is at the left end, so the arrow points toward the note and not toward the gutter.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 384,
+            "target_record_id": "r001",
+            "target_block_id": "b002",
+            "target_anchor": "Mahāvrata brāhmaṇa",
+            "evidence": "The note is on the same line as the entry, in the column after the date/extent/script.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 385,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mahāvrata … Adh. 17 and 18 of the Śāṅkhāyana śrauta sūtra / Mahāvrata Upaniṣad (see under Aitareya Ār.)",
+            "evidence": "The ← and → arrows across the gutter suggest a link to the facing page's Mahāvrata entries. This is inferred from layout only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 384,
+            "target_record_id": "r001",
+            "target_block_id": "b002",
+            "target_anchor": "Mahāvrata brāhmaṇa",
+            "evidence": "The note is on the same ruled line as the entry, in the column after the date/extent/script.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 385,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 93(3) Mahāvrata, ff.1-13 … Adh. 17 and 18 of the Śāṅkhāyana śrauta sūtra",
+            "evidence": "The → arrow on fol. 193 is in the left margin on the line of the d. 93(3) Mahāvrata entry, at the same height as this note. This is inferred from layout only. The facing page is reduced, so the reading of the target anchor is approximate.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The facing-page arrow aligns with the d. 93(3) line specifically, not with all the Mahāvrata entries. Attachment to r001 rests only on the shared line and is not secure.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r001",
+        "field_path": "editorial_context",
+        "before": [
+          {
+            "field": "shelfmark",
+            "value": "d. 36(6)",
+            "source_page_order": 385,
+            "source_block_id": null,
+            "evidence": "Fol. 193 has a corrected entry reading 'X.36(6) ff.1-7' beside 'Mahāvrata Brāhmaṇa n.d: 7:9: D'. This supports the reading '36(6)'. It was not used to alter the literal text.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "field": "shelfmark",
+            "value": "d. 36(6)",
+            "source_page_order": 385,
+            "source_block_id": null,
+            "evidence": "Fol. 193 has a left-margin note ('may ad', 'd.', 'X. 36(6)' and a further ff./extent reading that is unclear in the reduced image) beside 'Mahāvrata Brāhmaṇa … n.d: 7:9: D'. This supports the reading '36(6)'. It was not used to alter the literal text.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The candidate gives inconsistent ff. readings for the same fol. 193 note ('ff.1-7' here, 'ff.1-8' in the relationships). Neither reading can be verified from the reduced adjacent image.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r001",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 385,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mahāvrata Brāhmaṇa … n.d: 7:9: D (with marginal 'X. 36(6) ff.1-8')",
+            "evidence": "The same title and a similar shelfmark and extent appear on the facing page. The entry may be a draft or a relocated version of that entry.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 385,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mahāvrata Brāhmaṇa … n.d: 7:9: D (with marginal 'X. 36(6)' and an unclear ff. reading)",
+            "evidence": "The same title and a similar shelfmark appear on the facing page. The line counts differ ('8/10' here, '9' there). The entry may be a draft or a relocated version of that entry.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The unverifiable 'ff.1-8' is removed and the line-count discrepancy is noted.",
+        "source_block_ids": [
+          "b002",
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The connective before 'some other' may read 'as' or 'or', and the final word may be 'brāhmaṇa', 'brāhmaṇam' or 'brāhmaṇas'. The shelfmark '36(6)' is probable but its digits are not secure.",
+        "next_check": "Examine the native image at higher magnification around x≈1500-1800, y≈3540."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The interlinear letters ('ā'/'ār'/'ās') are uncertain. It is also unresolved whether the note qualifies r001 or the d. 93(3) Mahāvrata entry on fol. 193.",
+        "next_check": "Compare with fol. 193 at native resolution around its left margin, y≈3550-3600."
+      }
+    ],
+    "boundary_review": "The gutter with binding thread is at x≈3170-3200. Ticks, 'c.', 'd.', the → arrow, 'may ad' and a struck 'X' to the right of it belong to fol. 193 and are not transcribed here. The fol. 193 overview shows a cropped fragment of this page's b005 ('reya / ār / …autasūtra ←'), which confirms that the arrows face each other across the gutter. That fragment is not a separate record.",
+    "region_review": {
+      "top": "Only the folio number '192^b.' is written here. There are scattered ink specks near y≈670-730 and y≈1190-1230, plus faint show-through. No text is present.",
+      "middle": "The ruled lines are blank apart from show-through ghosting and specks.",
+      "bottom": "A single entry line at y≈3540-3580 runs across with b004 and b005, and the 'Cf.' line is at y≈3620. Below this there are only specks and ghosted offset; there is no bottom note.",
+      "left_margin": "There is no marginal writing. The tick before 'd.' belongs to b002.",
+      "right_margin": "This area holds b005 and its arrow. Everything beyond the gutter belongs to fol. 193.",
+      "interlinear": "The only interlinear writing is the small 'ār[?]' in b005."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        395,
+        300,
+        135,
+        125
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "192^b.",
+      "features": [
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        350,
+        3520,
+        1820,
+        90
+      ],
+      "kind_hint": "entry",
+      "anchor": "√d. 36(6) Mahāvrata brāhmaṇa, ff.1-7 unf. ? from Śatapatha br. as some other brāhmaṇas",
+      "features": [
+        "tick before shelfmark",
+        "shelfmark digits partly unclear",
+        "extent given",
+        "query mark"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1805,
+        3600,
+        330,
+        75
+      ],
+      "kind_hint": "continuation",
+      "anchor": "Cf. with Ait. Br.",
+      "features": [
+        "second line below end of b002",
+        "indented right"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        2280,
+        3545,
+        360,
+        75
+      ],
+      "kind_hint": "entry_extent_date",
+      "anchor": "n.d. : 7:8/10 : D",
+      "features": [
+        "same line as b002",
+        "date/extent/script column",
+        "fractional line count"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2670,
+        3530,
+        440,
+        135
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "?Aitareya ā[?] / or a Śrautasūtra",
+      "features": [
+        "two-line note",
+        "interlinear superscript 'ā[?]' between the two lines",
+        "leftward arrow ← drawn to its right",
+        "arrow points toward the gutter"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r000",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "192^b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top-left corner. The 'b' is superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0384-r000",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r001",
+      "block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "entry",
+      "literal_text": "√d. 36(6) Mahāvrata brāhmaṇa, ff.1-7 unf. ? from Śatapatha br. [or? / as?] some other brāhmaṇa[m?]          n.d. : 7:8/10 : D\n                                        Cf. with Ait. Br.",
+      "fields": {
+        "shelfmark": "d. 36(6)",
+        "title": "Mahāvrata brāhmaṇa",
+        "extent": "ff.1-7 unf.; 7",
+        "date": "n.d.",
+        "lines": "8/10",
+        "script": "D"
+      },
+      "normalized_title": "Mahāvrata Brāhmaṇa",
+      "annotations": [
+        "A tick (√) stands before the shelfmark.",
+        "'Cf. with Ait. Br.' is written on a second line below the end of the main line and is indented to the right.",
+        "The date, extent, lines and script are given in the right-hand column on the same line as the title."
+      ],
+      "editorial_context": [
+        {
+          "field": "shelfmark",
+          "value": "d. 36(6)",
+          "source_page_order": 385,
+          "source_block_id": null,
+          "evidence": "Fol. 193 has a corrected entry reading 'X.36(6) ff.1-7' beside 'Mahāvrata Brāhmaṇa n.d: 7:9: D'. This supports the reading '36(6)'. It was not used to alter the literal text.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 385,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mahāvrata Brāhmaṇa … n.d: 7:9: D (with marginal 'X. 36(6) ff.1-8')",
+          "evidence": "The same title and a similar shelfmark and extent appear on the facing page. The entry may be a draft or a relocated version of that entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The shelfmark digits are partly unclear. '36(6)' could also be read as '3616' or '3666'.",
+        "The reading 'or some other brāhmaṇa' is uncertain. It could also be 'as some other brāhmaṇas' or 'brāhmaṇam'.",
+        "The line count '8/10' is uncertain. It could be '8/10' or '8|10'."
+      ],
+      "stable_id": "css-prod-0384-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "marginal_identification_note",
+      "literal_text": "?Aitareya ā[r?]\nor a Śrautasūtra  ←",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The note has two lines.",
+        "Small letters 'ār'[?] with a macron are written interlinearly between 'Aitareya' and the second line, roughly above the latter part of the second line.",
+        "A hooked arrow is drawn to the right of the note, between the note and the gutter. Its head points left, toward the note. A → arrow stands on facing fol. 193 just across the gutter at the same height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 384,
+          "target_record_id": "r001",
+          "target_block_id": "b002",
+          "target_anchor": "Mahāvrata brāhmaṇa",
+          "evidence": "The note is on the same line as the entry, in the column after the date/extent/script.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 385,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mahāvrata … Adh. 17 and 18 of the Śāṅkhāyana śrauta sūtra / Mahāvrata Upaniṣad (see under Aitareya Ār.)",
+          "evidence": "The ← and → arrows across the gutter suggest a link to the facing page's Mahāvrata entries. This is inferred from layout only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The interlinear letters are uncertain ('ā', 'ār' or 'ās'). They are not expanded."
+      ],
+      "stable_id": "css-prod-0384-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "literal_text",
+      "before": "√d. 36(6) Mahāvrata brāhmaṇa, ff.1-7 unf. ? from Śatapatha br. [or?] some other brāhmaṇa[m?]\n                                        Cf. with Ait. Br.          n.d. : 7:8/10 : D",
+      "after": "√d. 36(6) Mahāvrata brāhmaṇa, ff.1-7 unf. ? from Śatapatha br. [or? / as?] some other brāhmaṇa[m?]          n.d. : 7:8/10 : D\n                                        Cf. with Ait. Br.",
+      "reason": "The date, extent and script column (b004) is on the main entry line. 'Cf. with Ait. Br.' alone forms the second line. The connective reading is kept uncertain, with both readings shown.",
+      "source_block_ids": [
+        "b002",
+        "b003",
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "The note has two lines.",
+        "Small letters 'ār'[?] are written interlinearly above, between 'Aitareya' and the second line.",
+        "A leftward arrow ← is drawn to the right of the note, toward the gutter. It pairs with a → arrow on facing fol. 193."
+      ],
+      "after": [
+        "The note has two lines.",
+        "Small letters 'ār'[?] with a macron are written interlinearly between 'Aitareya' and the second line, roughly above the latter part of the second line.",
+        "A hooked arrow is drawn to the right of the note, between the note and the gutter. Its head points left, toward the note. A → arrow stands on facing fol. 193 just across the gutter at the same height."
+      ],
+      "reason": "In the native tile the arrowhead is at the left end, so the arrow points toward the note and not toward the gutter.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 384,
+          "target_record_id": "r001",
+          "target_block_id": "b002",
+          "target_anchor": "Mahāvrata brāhmaṇa",
+          "evidence": "The note is on the same line as the entry, in the column after the date/extent/script.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 385,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mahāvrata … Adh. 17 and 18 of the Śāṅkhāyana śrauta sūtra / Mahāvrata Upaniṣad (see under Aitareya Ār.)",
+          "evidence": "The ← and → arrows across the gutter suggest a link to the facing page's Mahāvrata entries. This is inferred from layout only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 384,
+          "target_record_id": "r001",
+          "target_block_id": "b002",
+          "target_anchor": "Mahāvrata brāhmaṇa",
+          "evidence": "The note is on the same ruled line as the entry, in the column after the date/extent/script.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 385,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 93(3) Mahāvrata, ff.1-13 … Adh. 17 and 18 of the Śāṅkhāyana śrauta sūtra",
+          "evidence": "The → arrow on fol. 193 is in the left margin on the line of the d. 93(3) Mahāvrata entry, at the same height as this note. This is inferred from layout only. The facing page is reduced, so the reading of the target anchor is approximate.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The facing-page arrow aligns with the d. 93(3) line specifically, not with all the Mahāvrata entries. Attachment to r001 rests only on the shared line and is not secure.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r001",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "shelfmark",
+          "value": "d. 36(6)",
+          "source_page_order": 385,
+          "source_block_id": null,
+          "evidence": "Fol. 193 has a corrected entry reading 'X.36(6) ff.1-7' beside 'Mahāvrata Brāhmaṇa n.d: 7:9: D'. This supports the reading '36(6)'. It was not used to alter the literal text.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "field": "shelfmark",
+          "value": "d. 36(6)",
+          "source_page_order": 385,
+          "source_block_id": null,
+          "evidence": "Fol. 193 has a left-margin note ('may ad', 'd.', 'X. 36(6)' and a further ff./extent reading that is unclear in the reduced image) beside 'Mahāvrata Brāhmaṇa … n.d: 7:9: D'. This supports the reading '36(6)'. It was not used to alter the literal text.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The candidate gives inconsistent ff. readings for the same fol. 193 note ('ff.1-7' here, 'ff.1-8' in the relationships). Neither reading can be verified from the reduced adjacent image.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r001",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 385,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mahāvrata Brāhmaṇa … n.d: 7:9: D (with marginal 'X. 36(6) ff.1-8')",
+          "evidence": "The same title and a similar shelfmark and extent appear on the facing page. The entry may be a draft or a relocated version of that entry.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 385,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mahāvrata Brāhmaṇa … n.d: 7:9: D (with marginal 'X. 36(6)' and an unclear ff. reading)",
+          "evidence": "The same title and a similar shelfmark appear on the facing page. The line counts differ ('8/10' here, '9' there). The entry may be a draft or a relocated version of that entry.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The unverifiable 'ff.1-8' is removed and the line-count discrepancy is noted.",
+      "source_block_ids": [
+        "b002",
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/df92f0c6-1f84-4a97-842a-62ed14dc7e53.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/df92f0c6-1f84-4a97-842a-62ed14dc7e53/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "e7f007921cf42bc8b92cc75cecdd39891920311142a7da4bbcc608fae70963e7",
+      "bytes": 243480,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/df92f0c6-1f84-4a97-842a-62ed14dc7e53/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "082854cb1f638157acae3e85a1778c930eac61ad15b00267bc093cba847d584f",
+      "bytes": 283049,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/df92f0c6-1f84-4a97-842a-62ed14dc7e53/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d5c06b12a1bff8940e1da968701a7bac8af5b22dd3795fc6ff7d1e02784d0c84",
+      "bytes": 281572,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/df92f0c6-1f84-4a97-842a-62ed14dc7e53/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d33dfdab8b8a557293871aa3a071a9ffb606ecf6a7fbe167e6a1eda3a223ae5c",
+      "bytes": 277611,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/df92f0c6-1f84-4a97-842a-62ed14dc7e53/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "98eec610d9cfa9ad3a9da45ed4eabc9cb7c8a8e5051de1918bc84df99900abc6",
+      "bytes": 262824,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/df92f0c6-1f84-4a97-842a-62ed14dc7e53/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "78d292598785d09a7eb80ba4f8fa30268299dc763c164f1a2f30e7427a57621f",
+      "bytes": 307197,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/df92f0c6-1f84-4a97-842a-62ed14dc7e53/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c0c64a7683706a606ddb3e703c29ffa51e606a18c4be5e79c0a26c74425874c6",
+      "bytes": 315843,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7cdd231d-2677-4871-9953-30498b6de27b/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "08efa3ae3b91d8a1143483cab4cb454622874f32238565c62f1df3366d2ac442",
+      "bytes": 273880,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 383,
+      "folio_label": "fol. 192",
+      "page_id": "7cdd231d-2677-4871-9953-30498b6de27b",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e63be94-deda-4661-a064-62bbfde1555b/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "89498fe1f20c04ead05599908ed9f10bf9594396a94d63456fb183a09713a363",
+      "bytes": 271737,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 385,
+      "folio_label": "fol. 193",
+      "page_id": "9e63be94-deda-4661-a064-62bbfde1555b",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

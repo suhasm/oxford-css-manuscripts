@@ -1,0 +1,1101 @@
+{
+  "source_order": 246,
+  "folio_label": "fol. 123b",
+  "page_id": "f2433903-581f-4002-b15d-4e7ab54ced2b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "123b",
+    "principal_page_bbox": [
+      305,
+      285,
+      2890,
+      4605
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          415,
+          330,
+          140,
+          120
+        ],
+        "kind_hint": "page_number",
+        "anchor": "123b",
+        "features": [
+          "superscript 'b' above and to right of 123",
+          "top-left corner of page"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          405,
+          945,
+          2345,
+          135
+        ],
+        "kind_hint": "entry_note_aligned_with_facing_entry",
+        "anchor": "ff.1-80, presumably from misc. scraps. Scribe ... Śarman, ... San 1276",
+        "features": [
+          "single line in ink",
+          "date 'San 1276'",
+          "left-pointing arrow in right margin at about [3050,980,100,40] points toward facing page"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          365,
+          3030,
+          1175,
+          95
+        ],
+        "kind_hint": "entry_note_aligned_with_facing_entry",
+        "anchor": "63 ff., fragments of more than one MS, + Co. in parts.,",
+        "features": [
+          "single line in ink",
+          "small dot before '63'",
+          "left-pointing arrow at about [3105,3075,60,25] just left of the stitching"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          385,
+          4340,
+          2640,
+          175
+        ],
+        "kind_hint": "entry_note_aligned_with_facing_entry",
+        "anchor": "three MSS: (1) ff.1-38 (m. 8,10), i-vi ... (3) ff.1-48 / inc., vii-xii.44, ll.9/10",
+        "features": [
+          "two handwritten lines, the second indented",
+          "cancelled reading 'xi–xii' struck through, followed by 'xi.8 to xii.9'",
+          "enumerated MSS (1)-(3)",
+          "line counts written as 'll.10/13' and 'll.9/10'",
+          "left-pointing arrow at about [3095,4350,90,30]"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          385,
+          4520,
+          2640,
+          215
+        ],
+        "kind_hint": "entry_note_aligned_with_facing_entry",
+        "anchor": "Two MSS: (1) ff.2-68 (m. 30, 39, 48), ... S.1683, Scribe Śāma s/o Phaphī Tra.: (2) ff.1-94, vii-xiii, S.1745, Scribe Harirāma s/o Harihara ... (aghehadholkāmadhye), ll.8.",
+        "features": [
+          "two handwritten lines",
+          "dates S.1683 and S.1745",
+          "'i+vi' or similar appears altered or overwritten",
+          "'aghehadholkāmadhye' underlined with a wavy line",
+          "small marks below 'Tra.'",
+          "left-pointing arrow at about [3150,4590,110,30]"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          1175,
+          4525,
+          150,
+          60
+        ],
+        "kind_hint": "interlinear_addition",
+        "anchor": "to end of",
+        "features": [
+          "interlinear, written above 'i+vi' in b005",
+          "possibly reads 'to end of'; reading uncertain"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          2190,
+          4535,
+          135,
+          55
+        ],
+        "kind_hint": "interlinear_addition",
+        "anchor": "ll.9/10",
+        "features": [
+          "interlinear, written above 'Tra.' in b005",
+          "line count"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          870,
+          1695,
+          30,
+          10
+        ],
+        "description": "small horizontal dash or stray stroke in the left-middle area"
+      },
+      {
+        "bbox": [
+          2280,
+          4790,
+          150,
+          110
+        ],
+        "description": "paper crease or scratch near the bottom edge"
+      },
+      {
+        "bbox": [
+          3180,
+          680,
+          30,
+          4200
+        ],
+        "description": "binding stitching thread along the gutter"
+      }
+    ],
+    "boundary_notes": [
+      "Everything right of the stitching (x > ~3190) belongs to facing fol. 124: 'wt?', ticks, 'd.', 'e.', 'c.', 'a/?', 'Owner Thākura', 'a/? ff./' and short dashes. These are not counted as target blocks.",
+      "The arrows lie on the target side of the gutter and point toward the facing page. They link the notes in b002–b005 to entries on fol. 124 (Nidāna, c.305(6), Nirukta d.178, d.179).",
+      "Very faint show-through of writing from the reverse of the leaf is visible across the page. It was not transcribed as target text."
+    ],
+    "uncertainties": [
+      "Many word readings are uncertain because of cursive hand, e.g. the scribe name in b002 and the place name in b005.",
+      "The interlinear reading 'to end of' in b006 is uncertain.",
+      "The exact form of the altered 'i+vi' in b005 is unclear.",
+      "The short dashes just right of the stitching beside b003 and b004 could belong to either page."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "123b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "123b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The 'b' is written superscript above and to the right of '123', followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_for_facing_page_entry",
+        "literal_text": "ff.1-80, presumably [reading?] from misc. scraps. Scribe [illegible] Śarman, Murshidabad [reading?], San 1276",
+        "fields": {
+          "extent": "ff.1-80",
+          "date": "San 1276"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A left-pointing arrow in the right margin near the gutter (about [3050,980,100,40]) points toward the facing page, fol. 124."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 247,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 392 (1) NIDĀNA, otherwise called Mādhavanidāna",
+            "evidence": "The arrow on the target side lies at the same height as the facing-page arrow beside c.392(1).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The scribe's first name is cursive and illegible; it looks something like 'Jamearane'.",
+          "The readings 'presumably' and 'Murshidabad' are uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_for_facing_page_entry",
+        "literal_text": "· 63 ff., fragments of more than one MS, + Co. in parts.,",
+        "fields": {
+          "extent": "63 ff."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A small dot precedes '63'.",
+          "A left-pointing arrow appears near the gutter at about [3105,3075,60,25]. A short dash lies just beyond the stitching."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 247,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 305 (6) ——2 with partial C.",
+            "evidence": "The arrow and dash align with the facing-page '← —' beside c.305(6), whose extent is 63.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear whether the short dash right of the stitching belongs to the target page or the facing page."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_for_facing_page_entry",
+        "literal_text": "three MSS: (1) ff.1-38 (m. 8,10), i-vi except last few verses [reading?], ll.10/13: (2) ff.24-29, ⟦xi–xii⟧ xi.8 to xii.9, ll.9/10: (3) ff.1-48\ninc., vii-xii.44, ll.9/10",
+        "fields": {
+          "extent": "(1) ff.1-38; (2) ff.24-29; (3) ff.1-48",
+          "lines": "ll.10/13; ll.9/10; ll.9/10"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'xi–xii' is struck through and followed by 'xi.8 to xii.9'.",
+          "The second line is indented.",
+          "A left-pointing arrow and a dash appear near the gutter at about [3095,4350,90,30]."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 247,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ d. 178 ——2. 2 pts in different hands",
+            "evidence": "The facing-page overview shows the edge fragment 'ff.1-48 ←—' beside d.178.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'verses' is uncertain."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005",
+          "b006",
+          "b007"
+        ],
+        "type": "continuation_note",
+        "subtype": "note_for_facing_page_entry",
+        "literal_text": "Two MSS: (1) ff.2-68 (m. 30, 39, 48), [i+vi?] [to end of?] , S.1683, Scribe Śāma s/o Phaphī Tra. [ll.9/10 above]: (2) ff.1-94, vii-xiii, S.1745,\nScribe Harirāma s/o Harihara of Muphatīpura [reading?] (aghehadholkāmadhye), ll.8.",
+        "fields": {
+          "extent": "(1) ff.2-68; (2) ff.1-94",
+          "date": "S.1683; S.1745",
+          "lines": "ll.9/10; ll.8"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "b006: an interlinear 'to end of' [reading?] is written above the altered 'i+vi'.",
+          "b007: an interlinear 'll.9/10' is written above 'Tra.'.",
+          "'aghehadholkāmadhye' is underlined with a wavy line.",
+          "There are small marks below 'Tra.'.",
+          "The 'i+vi' appears altered or overwritten.",
+          "A left-pointing arrow is at about [3150,4590,110,30]."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 247,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√ d. 179 ——3. As last. 1627 & 1686",
+            "evidence": "The facing-page overview shows the edge fragment 'S.1745, ←' beside d.179.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The exact form of the overwritten 'i+vi' is unclear.",
+          "The interlinear 'to end of' is uncertain.",
+          "The place name 'Muphatīpura' is uncertain.",
+          "The text inside the parentheses may be read differently."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrowed note for a facing-page entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrowed note for a facing-page entry."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrowed note for a facing-page entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Arrowed note for a facing-page entry."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Interlinear addition within b005."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Interlinear line count within b005."
+      }
+    ],
+    "page_annotations": [
+      "The page consists of notes keyed by arrows to entries on facing fol. 124.",
+      "A stray dash appears at about [870,1695]; it was not transcribed.",
+      "Show-through from the reverse of the leaf was not transcribed.",
+      "Marks right of the stitching ('wt?', ticks, 'Owner Thākura', 'a/?', 'ff./') belong to fol. 124 and are excluded."
+    ],
+    "unresolved_relationships": [
+      "The attachment targets for r002 and r003 are probable but not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio label '123' with a superscript 'b' and a dot is in the top-left corner. It is correctly recorded as a page number."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "One ink line, 'ff.1-80, presumably from misc. scraps. Scribe [name] Śarman, [place], San 1276', with a left-pointing arrow near the gutter at about y≈1000. The words 'presumably', the scribe's first name and the place name remain cursive and uncertain. The candidate correctly flags them."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "One line beginning with a small dot: '63 ff., fragments of more than one MS, + Co. in parts.,'. The arrow is left of the stitching at about x≈3110–3165, y≈3080. The short dash at about x≈3240–3350 lies right of the stitching, and its page attribution is ambiguous."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Two lines, the second indented. The struck-through 'xi–xii' is followed by 'xi.8 to xii.9'. The arrow is left of the stitching. The following dash lies right of the stitching at about x≈3225–3285, so its attribution is ambiguous. The candidate annotation places the dash with the arrow without noting this."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Two lines with dates S.1683 and S.1745. 'aghehadholkāmadhye' has a wavy underline. There is an altered 'i+vi'-like form and small marks below 'Tra.'. The arrow at about [3150,4590] lies below the lower end of the stitching."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Interlinear 'to end of' [reading?] above the altered form. The candidate keeps it inline as uncertain, which is acceptable."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Interlinear 'll.9/10' above 'Tra.'. The candidate's literal_text contains the editorial phrase '[ll.9/10 above]', which mixes description into the literal wording."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r005",
+        "field_path": "literal_text",
+        "before": "Two MSS: (1) ff.2-68 (m. 30, 39, 48), [i+vi?] [to end of?] , S.1683, Scribe Śāma s/o Phaphī Tra. [ll.9/10 above]: (2) ff.1-94, vii-xiii, S.1745,\nScribe Harirāma s/o Harihara of Muphatīpura [reading?] (aghehadholkāmadhye), ll.8.",
+        "after": "Two MSS: (1) ff.2-68 (m. 30, 39, 48), [i+vi?] [to end of?], S.1683, Scribe Śāma s/o Phaphī Tra.: (2) ff.1-94, vii-xiii, S.1745,\nScribe Harirāma s/o Harihara of Muphatīpura [reading?] (aghehadholkāmadhye), ll.8.",
+        "reason": "The editorial description '[ll.9/10 above]' is not source wording. The interlinear 'll.9/10' (b007) and its position are already recorded in the annotations. The stray space before the comma is also removed. No readings are changed.",
+        "source_block_ids": [
+          "b005",
+          "b007"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "'xi–xii' is struck through and followed by 'xi.8 to xii.9'.",
+          "The second line is indented.",
+          "A left-pointing arrow and a dash appear near the gutter at about [3095,4350,90,30]."
+        ],
+        "after": [
+          "'xi–xii' is struck through and followed by 'xi.8 to xii.9'.",
+          "The second line is indented.",
+          "A left-pointing arrow appears left of the stitching at about [3095,4350,90,30]. A short dash lies just right of the stitching at about x≈3225–3285, and its page attribution is uncertain."
+        ],
+        "reason": "In the native tile, the dash lies on the far side of the stitching thread. Its attribution to the target page or the facing page should remain visible as ambiguous.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "secure"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The scribe's first name (the candidate suggests something like 'Jamearane'), 'presumably' and 'Murshidabad' are all uncertain cursive readings.",
+        "next_check": "Compare with the same hand elsewhere in the catalogue."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005",
+          "b006"
+        ],
+        "issue": "The overwritten 'i+vi' form and the interlinear 'to end of' reading are uncertain. The place name 'Muphatīpura' is also uncertain.",
+        "next_check": "Examine a higher-resolution or raking-light image of the area at x≈1150–1330, y≈4520–4610."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "issue": "The short dashes just right of the stitching beside b003 and b004 may belong to the facing fol. 124 rather than to the target page.",
+        "next_check": "Compare the stroke ink and hand with the dashes on fol. 124."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The dates S.1683 and S.1745 in the target note do not visibly match '1627 & 1686' on facing d.179. The attachment rests on arrow alignment and the matching extent of 94. The date discrepancy is a source matter, not an error to correct.",
+        "next_check": "None needed for transcription. Record the discrepancy only if the relationship is used editorially."
+      }
+    ],
+    "boundary_review": "Everything right of the stitching (x > ~3190) belongs to the facing fol. 124 and is excluded: 'wt?', ticks, 'e.', 'c.', 'd.', 'a/?', 'ff./' and 'Owner Thākura'. The arrows lie on the target side, except the b005 arrow, which lies below the end of the stitching but still points toward fol. 124. Aligned facing entries: c.392(1) for b002 (probable), c.305(6) with extent 63 for b003 (probable), d.178 with extent 48 for b004, and d.179 with extent 94 for b005. The dashes beyond the stitching remain ambiguous.",
+    "region_review": {
+      "top": "Only the folio label '123b.' is present. Faint show-through of the reverse writing is not transcribed.",
+      "middle": "b002 and b003 only. The stray dash at about [870,1695] is unattached. The rest is show-through.",
+      "bottom": "b004 and b005 with interlinear additions. A paper crease or scratch is at about [2280,4790]. There is no further note below.",
+      "left_margin": "No writing in the left margin.",
+      "right_margin": "Four arrows near the gutter, plus ambiguous dashes beyond the stitching. Facing-page marks are excluded.",
+      "interlinear": "Within b005 there are b006 ('to end of' [reading?]), b007 ('ll.9/10'), an accent stroke above the S of Śāma, and small marks below 'Tra.'. No other interlinear text was found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        415,
+        330,
+        140,
+        120
+      ],
+      "kind_hint": "page_number",
+      "anchor": "123b",
+      "features": [
+        "superscript 'b' above and to right of 123",
+        "top-left corner of page"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        405,
+        945,
+        2345,
+        135
+      ],
+      "kind_hint": "entry_note_aligned_with_facing_entry",
+      "anchor": "ff.1-80, presumably from misc. scraps. Scribe ... Śarman, ... San 1276",
+      "features": [
+        "single line in ink",
+        "date 'San 1276'",
+        "left-pointing arrow in right margin at about [3050,980,100,40] points toward facing page"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        365,
+        3030,
+        1175,
+        95
+      ],
+      "kind_hint": "entry_note_aligned_with_facing_entry",
+      "anchor": "63 ff., fragments of more than one MS, + Co. in parts.,",
+      "features": [
+        "single line in ink",
+        "small dot before '63'",
+        "left-pointing arrow at about [3105,3075,60,25] just left of the stitching"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        385,
+        4340,
+        2640,
+        175
+      ],
+      "kind_hint": "entry_note_aligned_with_facing_entry",
+      "anchor": "three MSS: (1) ff.1-38 (m. 8,10), i-vi ... (3) ff.1-48 / inc., vii-xii.44, ll.9/10",
+      "features": [
+        "two handwritten lines, the second indented",
+        "cancelled reading 'xi–xii' struck through, followed by 'xi.8 to xii.9'",
+        "enumerated MSS (1)-(3)",
+        "line counts written as 'll.10/13' and 'll.9/10'",
+        "left-pointing arrow at about [3095,4350,90,30]"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        385,
+        4520,
+        2640,
+        215
+      ],
+      "kind_hint": "entry_note_aligned_with_facing_entry",
+      "anchor": "Two MSS: (1) ff.2-68 (m. 30, 39, 48), ... S.1683, Scribe Śāma s/o Phaphī Tra.: (2) ff.1-94, vii-xiii, S.1745, Scribe Harirāma s/o Harihara ... (aghehadholkāmadhye), ll.8.",
+      "features": [
+        "two handwritten lines",
+        "dates S.1683 and S.1745",
+        "'i+vi' or similar appears altered or overwritten",
+        "'aghehadholkāmadhye' underlined with a wavy line",
+        "small marks below 'Tra.'",
+        "left-pointing arrow at about [3150,4590,110,30]"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        1175,
+        4525,
+        150,
+        60
+      ],
+      "kind_hint": "interlinear_addition",
+      "anchor": "to end of",
+      "features": [
+        "interlinear, written above 'i+vi' in b005",
+        "possibly reads 'to end of'; reading uncertain"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        2190,
+        4535,
+        135,
+        55
+      ],
+      "kind_hint": "interlinear_addition",
+      "anchor": "ll.9/10",
+      "features": [
+        "interlinear, written above 'Tra.' in b005",
+        "line count"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "123b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The 'b' is written superscript above and to the right of '123', followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0246-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_for_facing_page_entry",
+      "literal_text": "ff.1-80, presumably [reading?] from misc. scraps. Scribe [illegible] Śarman, Murshidabad [reading?], San 1276",
+      "fields": {
+        "extent": "ff.1-80",
+        "date": "San 1276"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A left-pointing arrow in the right margin near the gutter (about [3050,980,100,40]) points toward the facing page, fol. 124."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 247,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 392 (1) NIDĀNA, otherwise called Mādhavanidāna",
+          "evidence": "The arrow on the target side lies at the same height as the facing-page arrow beside c.392(1).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The scribe's first name is cursive and illegible; it looks something like 'Jamearane'.",
+        "The readings 'presumably' and 'Murshidabad' are uncertain."
+      ],
+      "stable_id": "css-prod-0246-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_for_facing_page_entry",
+      "literal_text": "· 63 ff., fragments of more than one MS, + Co. in parts.,",
+      "fields": {
+        "extent": "63 ff."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A small dot precedes '63'.",
+        "A left-pointing arrow appears near the gutter at about [3105,3075,60,25]. A short dash lies just beyond the stitching."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 247,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 305 (6) ——2 with partial C.",
+          "evidence": "The arrow and dash align with the facing-page '← —' beside c.305(6), whose extent is 63.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear whether the short dash right of the stitching belongs to the target page or the facing page."
+      ],
+      "stable_id": "css-prod-0246-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_for_facing_page_entry",
+      "literal_text": "three MSS: (1) ff.1-38 (m. 8,10), i-vi except last few verses [reading?], ll.10/13: (2) ff.24-29, ⟦xi–xii⟧ xi.8 to xii.9, ll.9/10: (3) ff.1-48\ninc., vii-xii.44, ll.9/10",
+      "fields": {
+        "extent": "(1) ff.1-38; (2) ff.24-29; (3) ff.1-48",
+        "lines": "ll.10/13; ll.9/10; ll.9/10"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'xi–xii' is struck through and followed by 'xi.8 to xii.9'.",
+        "The second line is indented.",
+        "A left-pointing arrow appears left of the stitching at about [3095,4350,90,30]. A short dash lies just right of the stitching at about x≈3225–3285, and its page attribution is uncertain."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 247,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ d. 178 ——2. 2 pts in different hands",
+          "evidence": "The facing-page overview shows the edge fragment 'ff.1-48 ←—' beside d.178.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'verses' is uncertain."
+      ],
+      "stable_id": "css-prod-0246-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005",
+        "b006",
+        "b007"
+      ],
+      "type": "continuation_note",
+      "subtype": "note_for_facing_page_entry",
+      "literal_text": "Two MSS: (1) ff.2-68 (m. 30, 39, 48), [i+vi?] [to end of?], S.1683, Scribe Śāma s/o Phaphī Tra.: (2) ff.1-94, vii-xiii, S.1745,\nScribe Harirāma s/o Harihara of Muphatīpura [reading?] (aghehadholkāmadhye), ll.8.",
+      "fields": {
+        "extent": "(1) ff.2-68; (2) ff.1-94",
+        "date": "S.1683; S.1745",
+        "lines": "ll.9/10; ll.8"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "b006: an interlinear 'to end of' [reading?] is written above the altered 'i+vi'.",
+        "b007: an interlinear 'll.9/10' is written above 'Tra.'.",
+        "'aghehadholkāmadhye' is underlined with a wavy line.",
+        "There are small marks below 'Tra.'.",
+        "The 'i+vi' appears altered or overwritten.",
+        "A left-pointing arrow is at about [3150,4590,110,30]."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 247,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√ d. 179 ——3. As last. 1627 & 1686",
+          "evidence": "The facing-page overview shows the edge fragment 'S.1745, ←' beside d.179.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The exact form of the overwritten 'i+vi' is unclear.",
+        "The interlinear 'to end of' is uncertain.",
+        "The place name 'Muphatīpura' is uncertain.",
+        "The text inside the parentheses may be read differently."
+      ],
+      "stable_id": "css-prod-0246-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r005",
+      "field_path": "literal_text",
+      "before": "Two MSS: (1) ff.2-68 (m. 30, 39, 48), [i+vi?] [to end of?] , S.1683, Scribe Śāma s/o Phaphī Tra. [ll.9/10 above]: (2) ff.1-94, vii-xiii, S.1745,\nScribe Harirāma s/o Harihara of Muphatīpura [reading?] (aghehadholkāmadhye), ll.8.",
+      "after": "Two MSS: (1) ff.2-68 (m. 30, 39, 48), [i+vi?] [to end of?], S.1683, Scribe Śāma s/o Phaphī Tra.: (2) ff.1-94, vii-xiii, S.1745,\nScribe Harirāma s/o Harihara of Muphatīpura [reading?] (aghehadholkāmadhye), ll.8.",
+      "reason": "The editorial description '[ll.9/10 above]' is not source wording. The interlinear 'll.9/10' (b007) and its position are already recorded in the annotations. The stray space before the comma is also removed. No readings are changed.",
+      "source_block_ids": [
+        "b005",
+        "b007"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "'xi–xii' is struck through and followed by 'xi.8 to xii.9'.",
+        "The second line is indented.",
+        "A left-pointing arrow and a dash appear near the gutter at about [3095,4350,90,30]."
+      ],
+      "after": [
+        "'xi–xii' is struck through and followed by 'xi.8 to xii.9'.",
+        "The second line is indented.",
+        "A left-pointing arrow appears left of the stitching at about [3095,4350,90,30]. A short dash lies just right of the stitching at about x≈3225–3285, and its page attribution is uncertain."
+      ],
+      "reason": "In the native tile, the dash lies on the far side of the stitching thread. Its attribution to the target page or the facing page should remain visible as ambiguous.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f2433903-581f-4002-b15d-4e7ab54ced2b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2433903-581f-4002-b15d-4e7ab54ced2b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "bc5a1afe90f29d01aab4c4e2e114dd905849e3d6af8ed942c38a8980cafe7d87",
+      "bytes": 289616,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2433903-581f-4002-b15d-4e7ab54ced2b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b1eb7ef1c0832f5c37380229c5499232a08e52256a78e4ec8d415cd5a68929a5",
+      "bytes": 295629,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2433903-581f-4002-b15d-4e7ab54ced2b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4421d90fc63b98ce1e8a26030666c1c53ab4c64cb0c22b862c1ce8a3d5d87247",
+      "bytes": 322675,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2433903-581f-4002-b15d-4e7ab54ced2b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "431c76da4663bf832ab78d808d784fffdf9ba5be35739369e5ff48c2d6e3d02a",
+      "bytes": 317188,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2433903-581f-4002-b15d-4e7ab54ced2b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0a301ffe7486c7f6d56477de7412742a0e91b3c62938b99045279d350ab6985b",
+      "bytes": 323756,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2433903-581f-4002-b15d-4e7ab54ced2b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f5ca658887cd8a5654fffac38fb6c046b6a4f1cd28e2ed0d42605a6f86b9a12d",
+      "bytes": 339701,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f2433903-581f-4002-b15d-4e7ab54ced2b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "64b7ffa73fe72884ff934b4afdb100c72caedc4d0e16fd3839bd8c2061a1ed8b",
+      "bytes": 361579,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2ef3926d-660a-45f1-96bf-3c1d96cb2c88/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "294a6b519fc3480ffc1a6a12522e0cdae1cf8a3a19fa11fc78e0a43909cb9fd7",
+      "bytes": 288879,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 245,
+      "folio_label": "fol. 123",
+      "page_id": "2ef3926d-660a-45f1-96bf-3c1d96cb2c88",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30c0506d-427e-42fe-bada-8cc9fc56b35d/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5a2955053cb9e3d9d904d391009306f78eb15567c55e8db765133a055b2bd424",
+      "bytes": 261738,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 247,
+      "folio_label": "fol. 124",
+      "page_id": "30c0506d-427e-42fe-bada-8cc9fc56b35d",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

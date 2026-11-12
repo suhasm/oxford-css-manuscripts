@@ -1,0 +1,875 @@
+{
+  "source_order": 156,
+  "folio_label": "fol. 78b",
+  "page_id": "b188bc5f-abaf-4f42-a91f-c4577d7e4473",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "78b",
+    "principal_page_bbox": [
+      340,
+      270,
+      2890,
+      4570
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          420,
+          335,
+          150,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "78b",
+        "features": [
+          "pencil",
+          "top left corner"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          400,
+          2390,
+          2640,
+          150
+        ],
+        "kind_hint": "entry_detail_continuation",
+        "anchor": "ff.1-33(18th), in two hands, begins Jagannāthapada... / ...vidhīyate | , foll. by ff. 34-42, unf., of unidentified medical text.",
+        "features": [
+          "ink",
+          "two lines",
+          "second line indented",
+          "contains a Sanskrit incipit with daṇḍas",
+          "ends with a left-pointing arrow (~x3070-3150, y~2440) toward the facing page",
+          "no shelfmark or heading on this page; parent entry presumably on facing fol. 79 (inferred from the arrow only)"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          455,
+          3330,
+          1740,
+          110
+        ],
+        "kind_hint": "entry_detail_continuation",
+        "anchor": "ff.1-49(m. 36-39, 42, 48). = I.O. 1172, 5245 + Kāvyamālā, 38.",
+        "features": [
+          "ink",
+          "single line",
+          "'42' possibly overwritten",
+          "linked by a long left-pointing arrow (~x3030-3305, y~3395) running from the gutter area; the arrow crosses the gutter",
+          "no shelfmark on this page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2255,
+          1120,
+          30,
+          50
+        ],
+        "description": "small isolated ink stroke in the upper middle"
+      },
+      {
+        "bbox": [
+          495,
+          1140,
+          90,
+          20
+        ],
+        "description": "faint dots near the left of the upper ruled area"
+      },
+      {
+        "bbox": [
+          505,
+          3470,
+          60,
+          40
+        ],
+        "description": "small faint stroke/dots below b003"
+      },
+      {
+        "bbox": [
+          400,
+          600,
+          2800,
+          4000
+        ],
+        "description": "faint show-through or offset of writing from the reverse side across much of the page; not target text"
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the image shows the left margin of facing fol. 79: ticks with 'd', 'ā/' marks, a second arrow at y~2440, 'see Taitt...', ticks, 'ff.1-3(' and 'ś/'. These belong to fol. 79 and are excluded.",
+      "Both arrows point from fol. 79 toward the b002/b003 notes, suggesting these are continuations of fol. 79 entries placed on the blank verso. The exact parent is not determined here."
+    ],
+    "uncertainties": [
+      "The word readings within b002 are cursive and uncertain, especially 'in two hands', '18th' and the Sanskrit incipit words.",
+      "In b003 the '42' may be a corrected numeral.",
+      "The exact gutter position is approximate, at x≈3225."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "78b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "78b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number, top left corner; the 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The final stop after the 'b' may be a stray mark."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "entry_detail_continuation_on_blank_verso",
+        "literal_text": "ff.1-33(18th), in two hands, begins Jagannāthapadadvandvaṁ praṇamāmi hṛdi smaran | Aśeṣāṇām sarvarogāṇāṁ cikitsā ca\nvidhīyate | , foll. by ff. 34-42, unf., of unidentified medical text.",
+        "fields": {
+          "extent": "ff.1-33",
+          "date": "(18th)",
+          "incipit": "Jagannāthapadadvandvaṁ praṇamāmi hṛdi smaran | Aśeṣāṇām sarvarogāṇāṁ cikitsā ca vidhīyate |"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, two lines; the second line is indented.",
+          "A short left-pointing arrow ends line 1 at about x3070-3150, y~2440. A second left-pointing arrow lies beyond the gutter on fol. 79, at the same height."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_entry",
+            "value": "c. 392(4) Cikitsādarpaṇa",
+            "source_page_order": 157,
+            "source_block_id": null,
+            "evidence": "The arrow pair at y~2440 is level with the fol. 79 row '← ✓c. 392(4) Cikitsādarpaṇa'.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 157,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 392(4) Cikitsādarpaṇa",
+            "evidence": "There are aligned left-pointing arrows on both sides of the gutter, and the subject matter (medical) is consistent with the arrow linkage.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The readings 'in two hands' and '(18th)' are cursive and uncertain.",
+          "The incipit word forms are uncertain: Jagannāthapadadvandvaṁ [reading?], praṇamāmi [reading?], hṛdi smaran [reading?], Aśeṣāṇām / Āśeṣāṇām [reading?], sarvarogāṇāṁ [reading?].",
+          "'unf.' is read as an abbreviation and is left unexpanded."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "entry_detail_continuation_on_blank_verso",
+        "literal_text": "ff.1-49(m. 36-39, 42, 48). = I.O. 1172, 5245 + Kāvyamālā, 38.",
+        "fields": {
+          "extent": "ff.1-49(m. 36-39, 42, 48)",
+          "source": "= I.O. 1172, 5245 + Kāvyamālā, 38."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, single line.",
+          "The '4' of '42' appears to be overwritten or corrected.",
+          "A long left-pointing arrow at about x3030-3310, y~3395 crosses the gutter from fol. 79."
+        ],
+        "editorial_context": [
+          {
+            "field": "parent_entry",
+            "value": "c. 47(2) Citramīmāṃsā",
+            "source_page_order": 157,
+            "source_block_id": null,
+            "evidence": "The arrow is level with the fol. 79 row '← ✓c ?.47(2) Citramīmāṃsā'.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 157,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 47(2) Citramīmāṃsā",
+            "evidence": "The long arrow crosses the gutter at the height of that row.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The overwritten numeral in '42' is uncertain.",
+          "The 'm.' abbreviation is left unexpanded."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note linked by an arrow to a fol. 79 entry."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Continuation note linked by an arrow to a fol. 79 entry."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper, with show-through from the reverse side, which is not transcribed.",
+      "Several isolated marks are not text: a small ink stroke near x2255,y1120; faint dots near x495,y1140; a faint stroke/dots near x505,y3470.",
+      "Material right of the gutter (x≈3230+) belongs to fol. 79 and is excluded: ticks, 'd', 'ā/', 'see Taitt...', 'ff.1-3(', 'ś/'."
+    ],
+    "unresolved_relationships": [
+      "Parent entries on fol. 79 are inferred from arrow alignment only and are marked probable."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '78' with a superscript 'b' and a stop is at the top left (tile 1, ~x430-555, y~345-450). The candidate's literal '78b.' is acceptable. The stop may be a stray mark, and the candidate already flags this."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Two ink lines span ~x400-3040, y~2390-2540; the second line is indented, starting ~x680. The terminal left-pointing arrow is at canvas ~x3074-3154, y~2438, on the target side of the gutter (~x3225). A second arrow at ~x3269-3389 lies on fol. 79. The text matches the candidate overall. Several cursive readings remain uncertain: 'in two hands' (the final 's' is unclear), diacritics in the incipit, and '34', where the 4 may be retouched."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A single ink line runs ~x455-2190, y~3330-3440. The '4' of '42' is visibly retouched or overwritten. The final numeral in the parenthesis could be '48' or '46'. A long arrow at ~x3029-3309, y~3396 crosses the gutter. The fol. 79 overview shows the same arrow entering at the 'c ?.47(2) Citramīmāṃsā' row."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The readings 'in two hands' and '(18th)' are cursive and uncertain.",
+          "The incipit word forms are uncertain: Jagannāthapadadvandvaṁ [reading?], praṇamāmi [reading?], hṛdi smaran [reading?], Aśeṣāṇām / Āśeṣāṇām [reading?], sarvarogāṇāṁ [reading?].",
+          "'unf.' is read as an abbreviation and is left unexpanded."
+        ],
+        "after": [
+          "The readings 'in two hands' and '(18th)' are cursive and uncertain; the plural 's' of 'hands' is not clearly formed.",
+          "The incipit word forms are uncertain: Jagannāthapadadvandvaṁ [reading?], praṇamāmi [reading?] (the subscript dot under n is not clearly visible), hṛdi smaran [reading?], Aśeṣāṇām / Āśeṣāṇām [reading?], sarvarogāṇāṁ [reading?].",
+          "In 'ff. 34-42' the '4' of '34' may be retouched or overwritten [reading?].",
+          "'unf.' is read as an abbreviation and is left unexpanded."
+        ],
+        "reason": "Native tile inspection shows additional cursive ambiguities that should remain explicit.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The overwritten numeral in '42' is uncertain.",
+          "The 'm.' abbreviation is left unexpanded."
+        ],
+        "after": [
+          "The overwritten numeral in '42' is uncertain.",
+          "The last numeral in the parenthesis is read as '48' but could be '46' [reading?].",
+          "The 'm.' abbreviation is left unexpanded."
+        ],
+        "reason": "The final digit in the native tile is ambiguous between 8 and 6.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 157,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 392(4) Cikitsādarpaṇa",
+            "evidence": "There are aligned left-pointing arrows on both sides of the gutter, and the subject matter (medical) is consistent with the arrow linkage.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 157,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 392(4) Cikitsādarpaṇa",
+            "evidence": "Aligned left-pointing arrows appear on both sides of the gutter at y~2440. The fol. 79 overview shows the fragment '...tsā ca ←' of this note at the left edge of the '← ✓c. 392(4) Cikitsādarpaṇa' row. The medical subject is consistent.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The adjacent fol. 79 image shows the target-page fragment level with the candidate parent row, which strengthens the documented evidence. The relationship is kept at probable because the link rests on arrow alignment only.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The parent entry (c. 392(4) Cikitsādarpaṇa on fol. 79) is inferred from arrow alignment only.",
+        "next_check": "Inspect fol. 79 at native resolution around y~2400-2460 to confirm the arrow origin."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The parent entry (c ?.47(2) Citramīmāṃsā) is inferred from the arrow. The shelfmark on fol. 79 is itself corrected or uncertain.",
+        "next_check": "Inspect fol. 79 native tiles around y~3370-3400."
+      }
+    ],
+    "boundary_review": "The gutter lies at ~x3225. Everything to its right belongs to facing fol. 79 and is excluded: ticks with 'd', 'ā/' marks, a second arrow at y~2440, 'see Taitt', '√c', 'ff.1-3(', 'ś/', and faint marks lower down. The target-page notes are continuations without shelfmarks on this page, attached to fol. 79 entries by arrows. The fol. 79 overview shows the matching target-page fragments at its left edge.",
+    "region_review": {
+      "top": "Only the pencil folio number '78b.' is present. Show-through from the reverse is visible across the ruled area and is not transcribed.",
+      "middle": "The b002 note is at y~2390-2540. A small isolated ink stroke near x2262, y1130 is a non-text mark. Faint dots near x500-580, y1140 are also present.",
+      "bottom": "The b003 note is at y~3330-3440, with a faint stroke or dots below it at ~x505-560, y~3470. The lower half otherwise contains only show-through; no bottom note was found.",
+      "left_margin": "No text is present; only the paper edge and faint dots appear.",
+      "right_margin": "The right margin holds the arrow ends for b002 and b003. Beyond the gutter is fol. 79 material, which is excluded.",
+      "interlinear": "No interlinear additions were found. The only corrections are the retouched digits in '42' (b003) and possibly '34' (b002)."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        420,
+        335,
+        150,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "78b",
+      "features": [
+        "pencil",
+        "top left corner"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        400,
+        2390,
+        2640,
+        150
+      ],
+      "kind_hint": "entry_detail_continuation",
+      "anchor": "ff.1-33(18th), in two hands, begins Jagannāthapada... / ...vidhīyate | , foll. by ff. 34-42, unf., of unidentified medical text.",
+      "features": [
+        "ink",
+        "two lines",
+        "second line indented",
+        "contains a Sanskrit incipit with daṇḍas",
+        "ends with a left-pointing arrow (~x3070-3150, y~2440) toward the facing page",
+        "no shelfmark or heading on this page; parent entry presumably on facing fol. 79 (inferred from the arrow only)"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        455,
+        3330,
+        1740,
+        110
+      ],
+      "kind_hint": "entry_detail_continuation",
+      "anchor": "ff.1-49(m. 36-39, 42, 48). = I.O. 1172, 5245 + Kāvyamālā, 38.",
+      "features": [
+        "ink",
+        "single line",
+        "'42' possibly overwritten",
+        "linked by a long left-pointing arrow (~x3030-3305, y~3395) running from the gutter area; the arrow crosses the gutter",
+        "no shelfmark on this page"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "78b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number, top left corner; the 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The final stop after the 'b' may be a stray mark."
+      ],
+      "stable_id": "css-prod-0156-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "entry_detail_continuation_on_blank_verso",
+      "literal_text": "ff.1-33(18th), in two hands, begins Jagannāthapadadvandvaṁ praṇamāmi hṛdi smaran | Aśeṣāṇām sarvarogāṇāṁ cikitsā ca\nvidhīyate | , foll. by ff. 34-42, unf., of unidentified medical text.",
+      "fields": {
+        "extent": "ff.1-33",
+        "date": "(18th)",
+        "incipit": "Jagannāthapadadvandvaṁ praṇamāmi hṛdi smaran | Aśeṣāṇām sarvarogāṇāṁ cikitsā ca vidhīyate |"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, two lines; the second line is indented.",
+        "A short left-pointing arrow ends line 1 at about x3070-3150, y~2440. A second left-pointing arrow lies beyond the gutter on fol. 79, at the same height."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_entry",
+          "value": "c. 392(4) Cikitsādarpaṇa",
+          "source_page_order": 157,
+          "source_block_id": null,
+          "evidence": "The arrow pair at y~2440 is level with the fol. 79 row '← ✓c. 392(4) Cikitsādarpaṇa'.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 157,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 392(4) Cikitsādarpaṇa",
+          "evidence": "There are aligned left-pointing arrows on both sides of the gutter, and the subject matter (medical) is consistent with the arrow linkage.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The readings 'in two hands' and '(18th)' are cursive and uncertain.",
+        "The incipit word forms are uncertain: Jagannāthapadadvandvaṁ [reading?], praṇamāmi [reading?], hṛdi smaran [reading?], Aśeṣāṇām / Āśeṣāṇām [reading?], sarvarogāṇāṁ [reading?].",
+        "'unf.' is read as an abbreviation and is left unexpanded."
+      ],
+      "stable_id": "css-prod-0156-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "entry_detail_continuation_on_blank_verso",
+      "literal_text": "ff.1-49(m. 36-39, 42, 48). = I.O. 1172, 5245 + Kāvyamālā, 38.",
+      "fields": {
+        "extent": "ff.1-49(m. 36-39, 42, 48)",
+        "source": "= I.O. 1172, 5245 + Kāvyamālā, 38."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, single line.",
+        "The '4' of '42' appears to be overwritten or corrected.",
+        "A long left-pointing arrow at about x3030-3310, y~3395 crosses the gutter from fol. 79."
+      ],
+      "editorial_context": [
+        {
+          "field": "parent_entry",
+          "value": "c. 47(2) Citramīmāṃsā",
+          "source_page_order": 157,
+          "source_block_id": null,
+          "evidence": "The arrow is level with the fol. 79 row '← ✓c ?.47(2) Citramīmāṃsā'.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 157,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 47(2) Citramīmāṃsā",
+          "evidence": "The long arrow crosses the gutter at the height of that row.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The overwritten numeral in '42' is uncertain.",
+        "The 'm.' abbreviation is left unexpanded."
+      ],
+      "stable_id": "css-prod-0156-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings 'in two hands' and '(18th)' are cursive and uncertain.",
+        "The incipit word forms are uncertain: Jagannāthapadadvandvaṁ [reading?], praṇamāmi [reading?], hṛdi smaran [reading?], Aśeṣāṇām / Āśeṣāṇām [reading?], sarvarogāṇāṁ [reading?].",
+        "'unf.' is read as an abbreviation and is left unexpanded."
+      ],
+      "after": [
+        "The readings 'in two hands' and '(18th)' are cursive and uncertain; the plural 's' of 'hands' is not clearly formed.",
+        "The incipit word forms are uncertain: Jagannāthapadadvandvaṁ [reading?], praṇamāmi [reading?] (the subscript dot under n is not clearly visible), hṛdi smaran [reading?], Aśeṣāṇām / Āśeṣāṇām [reading?], sarvarogāṇāṁ [reading?].",
+        "In 'ff. 34-42' the '4' of '34' may be retouched or overwritten [reading?].",
+        "'unf.' is read as an abbreviation and is left unexpanded."
+      ],
+      "reason": "Native tile inspection shows additional cursive ambiguities that should remain explicit.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The overwritten numeral in '42' is uncertain.",
+        "The 'm.' abbreviation is left unexpanded."
+      ],
+      "after": [
+        "The overwritten numeral in '42' is uncertain.",
+        "The last numeral in the parenthesis is read as '48' but could be '46' [reading?].",
+        "The 'm.' abbreviation is left unexpanded."
+      ],
+      "reason": "The final digit in the native tile is ambiguous between 8 and 6.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 157,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 392(4) Cikitsādarpaṇa",
+          "evidence": "There are aligned left-pointing arrows on both sides of the gutter, and the subject matter (medical) is consistent with the arrow linkage.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 157,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 392(4) Cikitsādarpaṇa",
+          "evidence": "Aligned left-pointing arrows appear on both sides of the gutter at y~2440. The fol. 79 overview shows the fragment '...tsā ca ←' of this note at the left edge of the '← ✓c. 392(4) Cikitsādarpaṇa' row. The medical subject is consistent.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The adjacent fol. 79 image shows the target-page fragment level with the candidate parent row, which strengthens the documented evidence. The relationship is kept at probable because the link rests on arrow alignment only.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b188bc5f-abaf-4f42-a91f-c4577d7e4473.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b188bc5f-abaf-4f42-a91f-c4577d7e4473/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b7a5b5bdf96661a27c83275d3e13287dd11b4554d67da8738aa9e4e27748d04f",
+      "bytes": 263780,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b188bc5f-abaf-4f42-a91f-c4577d7e4473/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e12e97ded8dd838ee95371c5c6fdf66424f5315cd2da56edd71967c1889e1612",
+      "bytes": 297236,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b188bc5f-abaf-4f42-a91f-c4577d7e4473/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ee8a0043293d11b4fab9942a3a2fb335121caa4cc5facada431e267150aff6d7",
+      "bytes": 294013,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b188bc5f-abaf-4f42-a91f-c4577d7e4473/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d94c10f10fe8c00c94536591886ab85494d1a89508bc4502826a87ed6f73e43b",
+      "bytes": 343824,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b188bc5f-abaf-4f42-a91f-c4577d7e4473/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8de44c130952d41f408a69007903dcb6e0c5705725f88e0f942292f79213d048",
+      "bytes": 307857,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b188bc5f-abaf-4f42-a91f-c4577d7e4473/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ab61c6b5f5e03cde6fdd652aac14bf2a88b8de7219a8ade36805c4d7f9476435",
+      "bytes": 319370,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b188bc5f-abaf-4f42-a91f-c4577d7e4473/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ddeb18a752a66a528bf05765836efac9027b76f11273514dca3d322ac81d6f94",
+      "bytes": 327968,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/66655524-275d-49ca-ae37-6608580babc6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "222a9c6c5cffdaf959ce2a483f65936a9a6c10be6daacbb00e9e77137c82d71c",
+      "bytes": 301859,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 155,
+      "folio_label": "fol. 78",
+      "page_id": "66655524-275d-49ca-ae37-6608580babc6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/37fe59c6-88b1-4e2b-8fa5-f65270837f73/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "74fee7af4b6ff3a69793221b17f659a0b00d53c95cd3a9d7d51682c8ff25e8ad",
+      "bytes": 278037,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 157,
+      "folio_label": "fol. 79",
+      "page_id": "37fe59c6-88b1-4e2b-8fa5-f65270837f73",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "source_order": 370,
+  "folio_label": "fol. 185b",
+  "page_id": "a0637e1b-b35a-434b-92bc-f9b1f132adef",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "185b",
+    "principal_page_bbox": [
+      315,
+      270,
+      2885,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          300,
+          130,
+          135
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "185b",
+        "features": [
+          "top left corner",
+          "appears to be pencil or graphite",
+          "the 'b' is raised or superscript after '185'",
+          "no catalogue text accompanies it"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          570,
+          1085,
+          30,
+          50
+        ],
+        "description": "Small cluster of dark specks in the upper left area. These appear to be dirt or ink spots rather than writing."
+      },
+      {
+        "bbox": [
+          2500,
+          270,
+          80,
+          40
+        ],
+        "description": "Small notch or tear at the top edge of the leaf. This is physical damage, not a mark."
+      },
+      {
+        "bbox": [
+          315,
+          600,
+          2885,
+          4200
+        ],
+        "description": "Ruled horizontal lines run across the page. They are printed ruling, not text."
+      }
+    ],
+    "boundary_notes": [
+      "Very faint, reversed writing shows through across the page. It matches the layout of the recto, fol. 185 (shelfmark column, entries and an underlined list), so it is bleed-through and is not transcribed as target text.",
+      "A narrow strip of the facing page (fol. 186) is visible beyond the gutter at the right edge, from about x=3200. Its shelfmark-column fragments are 'e' (y≈660), 'e' (y≈890), a tick with 'd'/'c' (y≈1110), 'c' (y≈1375) and a tick with 'd.' (y≈3165). These belong to fol. 186 and are not target records."
+    ],
+    "uncertainties": [
+      "The folio number is read as '185b' with a superscript-like 'b'. The exact form of the 'b' is slightly uncertain.",
+      "Faint show-through could hide very light pencil writing on this side. No independent target-side writing was identified on close inspection of the native tiles."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "185b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "185b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner of the leaf, apparently in pencil or graphite.",
+          "The 'b' is written raised or superscript after '185'.",
+          "No catalogue text accompanies it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The exact form of the raised 'b' is slightly uncertain. It could be read as a 'b'-like or '6'-like stroke, but '185b' agrees with the supplied folio label."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only target-side writing found on the page."
+      }
+    ],
+    "page_annotations": [
+      "I reviewed the overview and all six native tiles. Apart from the folio number '185b', the target page carries no catalogue entries, marginal notes or interlinear additions.",
+      "Very faint, reversed writing is visible across the page. It matches the layout of fol. 185: a shelfmark column, entries and underlined lists. I treated it as show-through from the recto and did not transcribe it as target text.",
+      "At about x≈3200 and beyond, the right edge shows a narrow strip of the facing page, fol. 186. It contains shelfmark-column fragments: 'e' (y≈660), 'e' (y≈890), a tick with partial 'd'/'c' (y≈1110), a partial 'c' (y≈1375), and a tick with 'd.' (y≈3165). These belong to fol. 186 and are not target records.",
+      "Several non-text features appear on the page: printed horizontal ruling, a small notch at the top edge (about x≈2540, y≈280), and scattered specks such as a cluster near x≈580, y≈1100. None of these is writing."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "In the top-left corner, at about x≈385–515 and y≈300–435 in native tile 1, there is a graphite-like '185' followed by a raised final letter. The letter's form resembles 'b' or '6'. Record r001 transcribes it as '185b' and keeps that uncertainty. This agrees with the supplied folio label. It is the only writing found that belongs to the target side."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There is a short, isolated dash-like stroke at about x≈3235–3250, y≈770–780. It lies just beyond the gutter crease on the facing-page strip and is visible in native tile 2 and the overview. Neither the inventory nor the candidate mentions it. Its position places it on fol. 186, not the target page. It could be a stray mark or a ruling or binding artefact. It has not been transcribed.",
+        "next_check": "Compare it with the left margin of the full fol. 186 image at native resolution, near the second ruled line."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The raised final character of the folio number could be read as 'b' or '6'. The reading '185b' is supported mainly by the folio label and the verso position.",
+        "next_check": "Compare it with the folio-number hand on other verso pages."
+      }
+    ],
+    "boundary_review": "The target leaf runs from about x≈315 to the gutter crease at about x≈3195–3235. Beyond the crease, a strip of fol. 186 is visible. Its shelfmark-column fragments line up with the fol. 186 adjacent image as follows: 'e' at y≈660 matches 'e.88(6)'; 'e' at y≈890 matches 'e.88(2)'; a tick with a partial letter at y≈1110 matches '✓d.368(11)'; a partial 'c' at y≈1375 matches 'c.368(10)'; and '✓d.' at y≈3160 matches '✓d.157(6)'. On the strip itself, the third fragment's letter is only partly visible, so 'd' rests on the adjacent-page correspondence. These fragments are correctly excluded as target records. The faint, reversed writing across the target page is show-through from the fol. 185 recto. Its layout matches: a shelfmark column, entries, underlined titles, and a list near the bottom. It is correctly left untranscribed.",
+    "region_review": {
+      "top": "Contains the folio number only, plus a small notch in the top edge at about x≈2540. There is no catalogue text.",
+      "middle": "Shows ruled lines and faint, reversed show-through. Scattered specks appear, including a cluster at about x≈580, y≈1100 and dots near x≈990, y≈1110 and x≈1530, y≈1050. No target-side writing was found.",
+      "bottom": "Show-through is visible down to about y≈4600, but no independent note was found. The lower edge is blank.",
+      "left_margin": "The leaf edge has small nicks and dots at about x≈330. None of them is writing.",
+      "right_margin": "The gutter crease is blank on the target side. Beyond it lies the fol. 186 strip, whose fragments are excluded as described above. A possible stray dash at about x≈3240, y≈775 is noted as unresolved.",
+      "interlinear": "No interlinear additions were found. What is visible between the lines is reversed show-through only."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        300,
+        130,
+        135
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "185b",
+      "features": [
+        "top left corner",
+        "appears to be pencil or graphite",
+        "the 'b' is raised or superscript after '185'",
+        "no catalogue text accompanies it"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "185b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner of the leaf, apparently in pencil or graphite.",
+        "The 'b' is written raised or superscript after '185'.",
+        "No catalogue text accompanies it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The exact form of the raised 'b' is slightly uncertain. It could be read as a 'b'-like or '6'-like stroke, but '185b' agrees with the supplied folio label."
+      ],
+      "stable_id": "css-prod-0370-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/a0637e1b-b35a-434b-92bc-f9b1f132adef.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0637e1b-b35a-434b-92bc-f9b1f132adef/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "4ac0a23dbe47a6d8a2a4d0055ca18bb439642200abbe28614bc3fea2c0970eb9",
+      "bytes": 228245,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0637e1b-b35a-434b-92bc-f9b1f132adef/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2aaf7f3b9c2a1e5ece22d5a1c426ac4468c2d2ce78a631b86a55e9087fee7cbb",
+      "bytes": 304202,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0637e1b-b35a-434b-92bc-f9b1f132adef/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "703402ab42988f20f35b837eac6cae38bf4adcf0ad1cb67dfca7e98ad28c3ae8",
+      "bytes": 303407,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0637e1b-b35a-434b-92bc-f9b1f132adef/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "62fca41df44022f784ae7b4efa5558fff43b118ea6022966259a656fc2661f83",
+      "bytes": 299707,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0637e1b-b35a-434b-92bc-f9b1f132adef/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "275c47087c469f3fabc5d1c01b9e4eed4a0537ad78f021e4cb352faed393ca0a",
+      "bytes": 276871,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0637e1b-b35a-434b-92bc-f9b1f132adef/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "788f78c565b4ca03ce4e3ae408d2c86d3f36f8ac6eaf7d094e2ed0c96d11c608",
+      "bytes": 307685,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/a0637e1b-b35a-434b-92bc-f9b1f132adef/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "29aeaa5509f03b1f6538217a9aa54d12e97346d7c02fd627ec65ef8dd11100f8",
+      "bytes": 307807,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c0e8814-2b22-43e8-8db4-ad0d35de33a2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7a44e627ff5ed2964d0e274229d7901052b5d1c64181f45667ba13e8422e19f3",
+      "bytes": 259592,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 369,
+      "folio_label": "fol. 185",
+      "page_id": "2c0e8814-2b22-43e8-8db4-ad0d35de33a2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/75dd4eef-8dc1-45d6-b8d8-9ff7e2d31d4a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "14546e8edcf96d689bb1034a286a0bdeed580a0bea5c0b4c6c9d34ca17250d75",
+      "bytes": 252370,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 371,
+      "folio_label": "fol. 186",
+      "page_id": "75dd4eef-8dc1-45d6-b8d8-9ff7e2d31d4a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1113 @@
+{
+  "source_order": 598,
+  "folio_label": "fol. 299b",
+  "page_id": "1cab67a6-c70d-47ec-ae23-f9b70dd0c779",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "299b",
+    "principal_page_bbox": [
+      315,
+      288,
+      2810,
+      4555
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          410,
+          380,
+          175,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "299b",
+        "features": [
+          "top-left corner",
+          "handwritten ink",
+          "superscript 'b'"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          360,
+          2735,
+          2560,
+          110
+        ],
+        "kind_hint": "entry",
+        "anchor": "✓ d. 154(2) Samudhapṛṣṭhya, ff.1-18, S. 1767. Scribe ... at Benares.",
+        "features": [
+          "tick before shelfmark",
+          "shelfmark begins in the left margin column and runs across the ruled margin line",
+          "extent and date in the text",
+          "right-hand field '1710: 18:10/13: D.'",
+          "reading of the title is tentative; diacritics are as they appear"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          375,
+          2855,
+          2000,
+          150
+        ],
+        "kind_hint": "continuation",
+        "anchor": "= Rl. Mitra, I, 185. Followed by Janmāṣṭamīvyavasthā ... unf., & by one stray leaf.",
+        "features": [
+          "continuation of b002",
+          "'Janmāṣṭamīvyavasthā' underlined",
+          "interlinear 'ff.1-2' above the line with a caret after the title",
+          "begins at the far left in the margin column"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2995,
+          2775,
+          85,
+          40
+        ],
+        "description": "Short leftward arrow at the right edge, level with b002; it pairs with an arrow mark on the facing page (fol. 300)."
+      },
+      {
+        "bbox": [
+          2985,
+          2915,
+          140,
+          40
+        ],
+        "description": "Long leftward arrow level with b003. It is drawn from the facing page's '?. 96(2)' entry and crosses the gutter onto this page."
+      },
+      {
+        "bbox": [
+          515,
+          2450,
+          40,
+          35
+        ],
+        "description": "Ink blot in the left margin."
+      },
+      {
+        "bbox": [
+          1440,
+          2500,
+          25,
+          25
+        ],
+        "description": "Small ink speck in the text area."
+      },
+      {
+        "bbox": [
+          550,
+          4400,
+          380,
+          90
+        ],
+        "description": "Faint smudges and specks near the margin line at the bottom left. No legible text."
+      },
+      {
+        "bbox": [
+          620,
+          1820,
+          90,
+          50
+        ],
+        "description": "Faint specks in the left margin."
+      }
+    ],
+    "boundary_notes": [
+      "The strip of fol. 300 visible at the right beyond the gutter (x>3125), with shelfmarks d. 866(5) etc., is facing-page context and is not transcribed.",
+      "Faint show-through of writing from the reverse side is visible across the page and is not treated as text."
+    ],
+    "uncertainties": [
+      "The exact letters of the title in b002 ('Samudhapṛṣṭhya'?) and of the scribe's name ('Durlabhaji Dīkṣita'?) are uncertain.",
+      "The reading of the date/extent field '1710: 18:10/13: D.' is uncertain: the first figure could be 1710 or 1767 by analogy, but it is recorded as seen.",
+      "The relation of the arrows to the facing-page entry is not resolved."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "299b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "299b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten ink folio number in the top-left corner of the left margin column; the 'b' is written as a superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry",
+        "literal_text": "✓ d. 154(2) Samūḍhapṛṣṭhya, ff. 1-18, S. 1767. Scrib. Darlabhajī Dīkṣita at Benares.          1710: 18:10/13: D.",
+        "fields": {
+          "shelfmark": "d. 154(2)",
+          "title": "Samūḍhapṛṣṭhya",
+          "date": "S. 1767",
+          "extent": "ff. 1-18",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick (✓) precedes the shelfmark in the left margin column.",
+          "The shelfmark sits in the margin column and the title runs across the ruled margin line.",
+          "Right-hand field '1710: 18:10/13: D.' is written apart from the main text in the same line.",
+          "The scribe statement ('Scrib. Darlabhajī Dīkṣita at Benares') names a scribe. It is not an authorship statement."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "Title letters are uncertain. They could be 'Samūḍhapṛṣṭhya' or 'Samudhapṛṣṭhya'; the vowel length and the dot under d are unclear.",
+          "The 'S.' before 1767 could be read as '3.'.",
+          "The abbreviation before the scribe's name could be 'Scrib.' or 'Scrib'.",
+          "The scribe's name could be 'Darlabhajī' or 'Durlabhajī'.",
+          "The first figure of the right-hand field reads as 1710. It is recorded as seen and not reconciled with S. 1767.",
+          "The right-hand field '18:10/13' is not resolved. It may mean leaves 18 and lines 10/13, but this is not stated on the page."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "concordance_and_contents",
+        "literal_text": "= Rl. Mitra, I, 185. Followed by Janmāṣṭamīvyavasthā ^[ff. 1-2] , unf., & by one stray leaf.",
+        "fields": {
+          "source": "Rl. Mitra, I, 185",
+          "title": "Janmāṣṭamīvyavasthā",
+          "extent": "ff. 1-2"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Begins at the far left in the margin column on the line below b002.",
+          "'Janmāṣṭamīvyavasthā' is underlined.",
+          "'ff. 1-2' is written interlinearly above the line and keyed by a caret after the title.",
+          "The connective before 'by one stray leaf' looks like '&' or '+'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 598,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "d. 154(2)",
+            "evidence": "Begins on the immediately following line in the same hand and ink, with no new shelfmark. It opens with '=' and 'Followed by', which continue the description of the item.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "'Rl.' could be read as 'R.L.'.",
+          "'unf.' is recorded as written and not expanded."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow_mark",
+        "literal_text": "←",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Short leftward arrow near the gutter, level with the line of b002 (d. 154(2)).",
+          "A '>'-like mark appears at the same level on the facing page (fol. 300)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 598,
+            "target_record_id": "r002",
+            "target_block_id": "b002",
+            "target_anchor": "d. 154(2)",
+            "evidence": "The arrow is level with the line and points toward it.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 599,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "'>' mark at the left of fol. 300, level with this line",
+            "evidence": "The marks are at the same height on facing pages.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The purpose of the arrow (relocation or insertion) is not stated."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow_mark",
+        "literal_text": "←———",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Long leftward arrow starting at the facing page's '?. 96(2)' entry, crossing the gutter and ending near the right of the b003 line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 599,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "?. 96(2) Saṁbandhanirṇaya",
+            "evidence": "The arrow's tail is at that facing-page entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 598,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "= Rl. Mitra, I, 185.",
+            "evidence": "The arrowhead ends level with this line.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The meaning of the link between the facing-page entry and this page is not resolved."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3005,
+          2775,
+          85,
+          45
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "short leftward arrow",
+          "level with b002",
+          "near gutter"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          2990,
+          2915,
+          230,
+          50
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←———",
+        "features": [
+          "long leftward arrow",
+          "level with b003",
+          "drawn from facing page across gutter"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Sole holding on the page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Securely attached continuation of b002, kept as a separate record."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Arrow mark listed among the inventory's unattached marks, added as a block."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Long cross-gutter arrow, added as a block."
+      }
+    ],
+    "page_annotations": [
+      "The page is ruled, with a left margin column. Apart from the folio number, all writing is in two lines at about y 2735-3005.",
+      "The rest of the page was image-reviewed and contains no further text. There is faint show-through from the reverse side, ink blots at about (515,2450) and (1440,2500), faint specks at about (620,1820), and faint smudges at the bottom left at about (550-930, 4400-4490). None of these is legible text.",
+      "The strip of fol. 300 beyond the gutter (x > 3125) is facing-page context and was not transcribed."
+    ],
+    "unresolved_relationships": [
+      "The function of the two arrows linking this entry to fol. 300 (near the '?. 96(2)' entry and a '>' mark) is undetermined.",
+      "The relation between 'S. 1767' in the text and '1710' in the right-hand field is not stated on the page."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '299' with superscript 'b' in the top-left margin column at about x 420-575, y 385-520. Matches r001."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Single holding line at y ≈2760-2810. The line runs from the tick in the margin column to 'at Benares.', followed by a separated right-hand field ending at about x 2905. The title, 'S.'/'3.', 'Scrib' and the scribe-name letters remain uncertain, and r002 already records this. No cancellations were seen."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Continuation line at y ≈2880-2990, with the interlinear 'ff.1-2' above the end of the underlined title. The caret sits below the baseline after the comma that follows the title. The connective before 'by one stray leaf' is ambiguous between '&' and '+'; r003 notes this. The attachment to b002 as a continuation is secure."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Short leftward arrow at about x 3010-3080, y ≈2790-2810, level with b002. It sits within the target page, before the gutter. Its function is unresolved."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Long leftward arrow at y ≈2930. Its arrowhead is at about x 2995 on the target page and the stroke continues across the gutter to the fol. 300 shelfmark '?. 96(2…'. Only the on-page portion belongs to this page. Its function is unresolved."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 599,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "?. 96(2) Saṁbandhanirṇaya",
+            "evidence": "The arrow's tail is at that facing-page entry.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 598,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "= Rl. Mitra, I, 185.",
+            "evidence": "The arrowhead ends level with this line.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 599,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "facing-page shelfmark read approximately as '?. 96(2…' (first character and title not verified at native resolution)",
+            "evidence": "The arrow's tail reaches that facing-page shelfmark.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 598,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "= Rl. Mitra, I, 185.",
+            "evidence": "The arrowhead ends level with this line.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The facing-page title reading 'Saṁbandhanirṇaya' comes only from a reduced context image. It should not be carried as a verified anchor with probable certainty.",
+        "source_block_ids": [
+          "b902"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Begins at the far left in the margin column on the line below b002.",
+          "'Janmāṣṭamīvyavasthā' is underlined.",
+          "'ff. 1-2' is written interlinearly above the line and keyed by a caret after the title.",
+          "The connective before 'by one stray leaf' looks like '&' or '+'."
+        ],
+        "after": [
+          "Begins at the far left in the margin column on the line below b002.",
+          "'Janmāṣṭamīvyavasthā' is underlined.",
+          "'ff.1-2' is written interlinearly above the end of the title. A caret is placed below the baseline just after the comma that follows the title, marking the insertion point.",
+          "The connective before 'by one stray leaf' looks like '&' or '+'."
+        ],
+        "reason": "In the native tile the caret sits below the line beside the comma, not above the line. The exact ordering of comma and caret is minor but visible.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The title letters (macron and underdot in 'Samūḍha'), 'S.' versus '3.', 'Scrib' with or without a period, 'Darlabhajī' versus 'Durlabhajī', and the first figure of the right-hand field ('1710', with a possibly ambiguous final digit) remain uncertain.",
+        "next_check": "Higher-magnification inspection of x 360-2910, y 2740-2820."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The function of the short arrow and its relation to the '>' mark on fol. 300 are undetermined.",
+        "next_check": "Compare with similar arrow conventions elsewhere in the volume."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b902"
+        ],
+        "issue": "The meaning of the cross-gutter link from the fol. 300 entry to this page is undetermined. The facing-page shelfmark and title are unverified.",
+        "next_check": "Review fol. 300 at native resolution around y 2900-2960."
+      }
+    ],
+    "boundary_review": "The target page ends at the gutter, at about x 3120-3140. Everything beyond it (d. 866(5), d. 363(7), the '>' mark, '?. 96(2…', and so on) is fol. 300 context and is not transcribed. Arrow b902 physically crosses the gutter. Only its on-page portion is recorded, and its facing-page endpoint is kept as an uncertain relationship.",
+    "region_review": {
+      "top": "Only the folio number '299b'. The rest is ruled blank with faint show-through.",
+      "middle": "Blank above y ≈2730 apart from an ink blot (~535,2460), a speck (~1445,2510) and faint specks (~665,1845). The two text lines are at y ≈2740-3000.",
+      "bottom": "Blank below y ≈3000. There are faint, illegible smudges near the margin rule at about x 555-940, y 4420-4560, and show-through only.",
+      "left_margin": "Folio number, the tick and shelfmark of b002, and the opening '= Rl. Mitra' of b003. No other notes.",
+      "right_margin": "Two arrows near the gutter (b901, b902). No text.",
+      "interlinear": "Only 'ff.1-2' above the title in b003, with its caret."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        410,
+        380,
+        175,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "299b",
+      "features": [
+        "top-left corner",
+        "handwritten ink",
+        "superscript 'b'"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        360,
+        2735,
+        2560,
+        110
+      ],
+      "kind_hint": "entry",
+      "anchor": "✓ d. 154(2) Samudhapṛṣṭhya, ff.1-18, S. 1767. Scribe ... at Benares.",
+      "features": [
+        "tick before shelfmark",
+        "shelfmark begins in the left margin column and runs across the ruled margin line",
+        "extent and date in the text",
+        "right-hand field '1710: 18:10/13: D.'",
+        "reading of the title is tentative; diacritics are as they appear"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        375,
+        2855,
+        2000,
+        150
+      ],
+      "kind_hint": "continuation",
+      "anchor": "= Rl. Mitra, I, 185. Followed by Janmāṣṭamīvyavasthā ... unf., & by one stray leaf.",
+      "features": [
+        "continuation of b002",
+        "'Janmāṣṭamīvyavasthā' underlined",
+        "interlinear 'ff.1-2' above the line with a caret after the title",
+        "begins at the far left in the margin column"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3005,
+        2775,
+        85,
+        45
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "short leftward arrow",
+        "level with b002",
+        "near gutter"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        2990,
+        2915,
+        230,
+        50
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←———",
+      "features": [
+        "long leftward arrow",
+        "level with b003",
+        "drawn from facing page across gutter"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "299b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten ink folio number in the top-left corner of the left margin column; the 'b' is written as a superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0598-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry",
+      "literal_text": "✓ d. 154(2) Samūḍhapṛṣṭhya, ff. 1-18, S. 1767. Scrib. Darlabhajī Dīkṣita at Benares.          1710: 18:10/13: D.",
+      "fields": {
+        "shelfmark": "d. 154(2)",
+        "title": "Samūḍhapṛṣṭhya",
+        "date": "S. 1767",
+        "extent": "ff. 1-18",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick (✓) precedes the shelfmark in the left margin column.",
+        "The shelfmark sits in the margin column and the title runs across the ruled margin line.",
+        "Right-hand field '1710: 18:10/13: D.' is written apart from the main text in the same line.",
+        "The scribe statement ('Scrib. Darlabhajī Dīkṣita at Benares') names a scribe. It is not an authorship statement."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "Title letters are uncertain. They could be 'Samūḍhapṛṣṭhya' or 'Samudhapṛṣṭhya'; the vowel length and the dot under d are unclear.",
+        "The 'S.' before 1767 could be read as '3.'.",
+        "The abbreviation before the scribe's name could be 'Scrib.' or 'Scrib'.",
+        "The scribe's name could be 'Darlabhajī' or 'Durlabhajī'.",
+        "The first figure of the right-hand field reads as 1710. It is recorded as seen and not reconciled with S. 1767.",
+        "The right-hand field '18:10/13' is not resolved. It may mean leaves 18 and lines 10/13, but this is not stated on the page."
+      ],
+      "stable_id": "css-prod-0598-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "concordance_and_contents",
+      "literal_text": "= Rl. Mitra, I, 185. Followed by Janmāṣṭamīvyavasthā ^[ff. 1-2] , unf., & by one stray leaf.",
+      "fields": {
+        "source": "Rl. Mitra, I, 185",
+        "title": "Janmāṣṭamīvyavasthā",
+        "extent": "ff. 1-2"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Begins at the far left in the margin column on the line below b002.",
+        "'Janmāṣṭamīvyavasthā' is underlined.",
+        "'ff. 1-2' is written interlinearly above the line and keyed by a caret after the title.",
+        "The connective before 'by one stray leaf' looks like '&' or '+'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 598,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "d. 154(2)",
+          "evidence": "Begins on the immediately following line in the same hand and ink, with no new shelfmark. It opens with '=' and 'Followed by', which continue the description of the item.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "'Rl.' could be read as 'R.L.'.",
+        "'unf.' is recorded as written and not expanded."
+      ],
+      "stable_id": "css-prod-0598-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow_mark",
+      "literal_text": "←",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Short leftward arrow near the gutter, level with the line of b002 (d. 154(2)).",
+        "A '>'-like mark appears at the same level on the facing page (fol. 300)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 598,
+          "target_record_id": "r002",
+          "target_block_id": "b002",
+          "target_anchor": "d. 154(2)",
+          "evidence": "The arrow is level with the line and points toward it.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 599,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "'>' mark at the left of fol. 300, level with this line",
+          "evidence": "The marks are at the same height on facing pages.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The purpose of the arrow (relocation or insertion) is not stated."
+      ],
+      "stable_id": "css-prod-0598-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow_mark",
+      "literal_text": "←———",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Long leftward arrow starting at the facing page's '?. 96(2)' entry, crossing the gutter and ending near the right of the b003 line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 599,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "?. 96(2) Saṁbandhanirṇaya",
+          "evidence": "The arrow's tail is at that facing-page entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 598,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "= Rl. Mitra, I, 185.",
+          "evidence": "The arrowhead ends level with this line.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The meaning of the link between the facing-page entry and this page is not resolved."
+      ],
+      "stable_id": "css-prod-0598-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 599,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "?. 96(2) Saṁbandhanirṇaya",
+          "evidence": "The arrow's tail is at that facing-page entry.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 598,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "= Rl. Mitra, I, 185.",
+          "evidence": "The arrowhead ends level with this line.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 599,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "facing-page shelfmark read approximately as '?. 96(2…' (first character and title not verified at native resolution)",
+          "evidence": "The arrow's tail reaches that facing-page shelfmark.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 598,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "= Rl. Mitra, I, 185.",
+          "evidence": "The arrowhead ends level with this line.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The facing-page title reading 'Saṁbandhanirṇaya' comes only from a reduced context image. It should not be carried as a verified anchor with probable certainty.",
+      "source_block_ids": [
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Begins at the far left in the margin column on the line below b002.",
+        "'Janmāṣṭamīvyavasthā' is underlined.",
+        "'ff. 1-2' is written interlinearly above the line and keyed by a caret after the title.",
+        "The connective before 'by one stray leaf' looks like '&' or '+'."
+      ],
+      "after": [
+        "Begins at the far left in the margin column on the line below b002.",
+        "'Janmāṣṭamīvyavasthā' is underlined.",
+        "'ff.1-2' is written interlinearly above the end of the title. A caret is placed below the baseline just after the comma that follows the title, marking the insertion point.",
+        "The connective before 'by one stray leaf' looks like '&' or '+'."
+      ],
+      "reason": "In the native tile the caret sits below the line beside the comma, not above the line. The exact ordering of comma and caret is minor but visible.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/1cab67a6-c70d-47ec-ae23-f9b70dd0c779.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1cab67a6-c70d-47ec-ae23-f9b70dd0c779/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "0bfc8a732682863b0a0e8a0d1bb125574877aaef17ff995dc06119bcb44e2aa5",
+      "bytes": 300117,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1cab67a6-c70d-47ec-ae23-f9b70dd0c779/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "344c93017a67bd39fb712fe5b5a6a34470532812b825fdc77a32e56e04d09023",
+      "bytes": 339149,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1cab67a6-c70d-47ec-ae23-f9b70dd0c779/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dc4b92c97e650fdd3e8067ccde8970c750406aa90fa9913e501312e297cc4427",
+      "bytes": 363976,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1cab67a6-c70d-47ec-ae23-f9b70dd0c779/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "db58e433322119ec8c1dad47b73c796a0b8cb176b604758ff50429b197fd94dd",
+      "bytes": 378158,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1cab67a6-c70d-47ec-ae23-f9b70dd0c779/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d462d8c04c81c5fd58508f0a16155d10160d5e44b9d87d3c2749cb8c0d4b7b68",
+      "bytes": 394390,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1cab67a6-c70d-47ec-ae23-f9b70dd0c779/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9fe2a3e336f3521411d3640faf2787e4b728e3074c121b2c2cfa33ca6aca86d0",
+      "bytes": 328842,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/1cab67a6-c70d-47ec-ae23-f9b70dd0c779/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c0ff0603df0fcadd43479f91f913bf6f5542b1d92cd6cad1e08f81c03bab68e0",
+      "bytes": 357788,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/21e08166-b80d-4f70-8cd9-79fb8b0ad2e9/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b8680760dc2dbe513ab33a2484ab20b277e9c30499fc9d6b2b00201dc7b088ad",
+      "bytes": 337748,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 597,
+      "folio_label": "fol. 299",
+      "page_id": "21e08166-b80d-4f70-8cd9-79fb8b0ad2e9",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ac2f6f37-b119-4e1d-933f-9c34e77fe8be/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8f07acaf6773ffb83ddcdca63dcf0905959a7df6d1c066882f41d8020b858830",
+      "bytes": 338374,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 599,
+      "folio_label": "fol. 300",
+      "page_id": "ac2f6f37-b119-4e1d-933f-9c34e77fe8be",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

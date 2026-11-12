@@ -1,0 +1,2252 @@
+{
+  "source_order": 8,
+  "folio_label": "fol. 4b",
+  "page_id": "62d574bd-7364-4aac-be8b-57e4268982ea",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "4b",
+    "principal_page_bbox": [
+      280,
+      280,
+      2840,
+      4620
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          360,
+          360,
+          120,
+          110
+        ],
+        "kind_hint": "page_number",
+        "anchor": "4b",
+        "features": [
+          "top left corner",
+          "pencil or faint ink"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          790,
+          2070,
+          745,
+          110
+        ],
+        "kind_hint": "note_for_facing_entry",
+        "anchor": "ff. 1-8, as in A.S.S. edn.",
+        "features": [
+          "single line",
+          "arrow at right edge pointing toward gutter (approx. [2985,2100,110,40])",
+          "aligned with 'd. 58' on facing fol. 5"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          330,
+          2310,
+          2790,
+          160
+        ],
+        "kind_hint": "note_for_facing_entry",
+        "anchor": "ff. 1-114, S. 1902. Scribe Harivaṃśa ... Weber, 446.",
+        "features": [
+          "two lines",
+          "contains a date: 'S. 1902'",
+          "contains place names and scribe details",
+          "arrow at right end pointing toward gutter (approx. [3035,2330,95,35])",
+          "aligned with 'd. 294' on facing fol. 5"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          380,
+          2660,
+          2100,
+          125
+        ],
+        "kind_hint": "note_for_facing_entry",
+        "anchor": "ff. 1-4, Scribe Nārāyaṇa ... (ed. Weber, AkM, 1858, p. 313)",
+        "features": [
+          "single line",
+          "arrow at right pointing toward gutter (approx. [2960,2685,100,40])",
+          "aligned with 'd. 36' on facing fol. 5"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2480,
+          3370,
+          290,
+          310
+        ],
+        "kind_hint": "pencil_marginal_note",
+        "anchor": "NR [illegible]",
+        "features": [
+          "faint pencil",
+          "three short lines",
+          "partly illegible",
+          "short pencil dash under the second line",
+          "associated with diagonal pencil strokes"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2670,
+          3185,
+          330,
+          180
+        ],
+        "description": "long diagonal pencil stroke rising toward the gutter, above pencil note b005"
+      },
+      {
+        "bbox": [
+          2860,
+          3510,
+          140,
+          50
+        ],
+        "description": "short faint pencil stroke to the right of the pencil note"
+      },
+      {
+        "bbox": [
+          2820,
+          3630,
+          125,
+          45
+        ],
+        "description": "short faint pencil stroke to the right of the pencil note's last line"
+      },
+      {
+        "bbox": [
+          3170,
+          2670,
+          60,
+          20
+        ],
+        "description": "short dash near the gutter at the level of b004, possibly belonging to the facing-page tick area"
+      }
+    ],
+    "boundary_notes": [
+      "The right edge strip beyond the gutter at about x≈3120 shows fol. 5 shelfmarks (d. 723 ... d. 560). These are facing-page fragments and are not recorded as target blocks.",
+      "Blocks b002 to b004 are on the verso and have arrows toward the facing recto. Their parent entries are likely on fol. 5, but they are inventoried here as independent blocks.",
+      "Faint mirrored show-through of text from the other side of the leaf is visible across the page. It is not treated as target text."
+    ],
+    "uncertainties": [
+      "Readings in b003 and b004 are cursive and need checking at transcription. Examples are 'Kasivāra', 'Gangāpura', 'Koiti', 'Laracchuṭa', 'Kiriāti', 'Sīsaḍī' and 'Dhenkara'.",
+      "The pencil note b005 is largely illegible. Its first word appears to read 'NR', and the following words are uncertain.",
+      "The page number may be in pencil."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "4b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "4b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Page number at the top left corner. It is in pencil or grey ink, at about [370,370,110,95]."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "verso_note_for_facing_entry",
+        "literal_text": "ff.1-8, as in A.S.S. edn.",
+        "fields": {
+          "extent": "ff.1-8",
+          "source": "as in A.S.S. edn."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A single ink line in the middle of the page.",
+          "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+          "A matching '←' appears in the left margin of fol. 5 beside 'd. 58 (7)'."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Atharvaśira Upaniṣad (facing entry d. 58 (7))",
+            "source_page_order": 9,
+            "source_block_id": null,
+            "evidence": "The note is aligned with 'd. 58 (7)' on fol. 5. Arrows appear on both sides of the gutter. The facing entry gives 8 as its leaf count.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 9,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 58 (7) Atharvaśira Upaniṣad",
+            "evidence": "Horizontal alignment, the arrow and the matching facing-page arrow. The facing entry's extent of 8 matches ff.1-8.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'edn.' is a reading of a cursive abbreviation."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "verso_note_for_facing_entry",
+        "literal_text": "ff. 1-114, S. 1902. Scribe Harivaṃśa [Jaṭāvāra?] of Pargana Kasivāra [reading?], Taluk Gangāpura [reading?], village Koiti [reading?], for Prayāgadatta Paṇḍita ←\nof village Larachuṭa [reading?], Pargana Kiriāti [reading?], Taluk Sīsaḍī [reading?]. Weber, 446.",
+        "fields": {
+          "extent": "ff. 1-114",
+          "date": "S. 1902",
+          "source": "Weber, 446."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two lines in ink.",
+          "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+          "Fol. 5 has a '←' in its left margin beside 'd. 294 (2)'.",
+          "The scribe and the patron (the 'for' person) are named. Neither is an author."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Adbhutarāmāyaṇa (facing entry d. 294 (2))",
+            "source_page_order": 9,
+            "source_block_id": null,
+            "evidence": "The note is aligned with 'd. 294 (2)' on fol. 5. The arrows match. That entry gives an extent of 114, which matches ff. 1-114.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 9,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 294 (2) Adbhutarāmāyaṇa",
+            "evidence": "The alignment, the arrows and the matching extent all point to this entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cursive proper names are uncertain. This applies to the word after Harivaṃśa, Kasivāra, Gangāpura, Koiti, Larachuṭa/Lerachuṭa, Kiriāti and Sīsaḍī.",
+          "'Harivaṃśa' may be written without the diacritic as 'Harivamśa'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "verso_note_for_facing_entry",
+        "literal_text": "ff.1-4, Scribe Nārāyaṇa Dhenkara [reading?]. 82 [reading?] of Adbhutabrāhmaṇa (ed. Weber, AkM, 1858, p.313)",
+        "fields": {
+          "extent": "ff.1-4",
+          "source": "ed. Weber, AkM, 1858, p.313"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A single ink line.",
+          "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+          "Fol. 5 has a '←' and a dash in its left margin beside 'd. 36 (2)'.",
+          "The named person is the scribe, not the author."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Adbhutaśānti (facing entry d. 36 (2))",
+            "source_page_order": 9,
+            "source_block_id": null,
+            "evidence": "The note is aligned with 'd. 36 (2)' on fol. 5, the arrows match, and the facing extent of 4 matches ff.1-4.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 9,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 36 (2) Adbhutaśānti",
+            "evidence": "The alignment, the arrows and the matching extent all point to this entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'82' could instead be read as '§2'.",
+          "The surname 'Dhenkara' is uncertain.",
+          "'Adbhutabrāhmaṇa' is written in a cursive hand."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_note",
+        "literal_text": "NR\nunder [reading?]\n[illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil note in three short lines in the lower right part of the page.",
+          "A short pencil dash lies under line 2.",
+          "A long diagonal pencil stroke rises toward the gutter above the note, at about [2670,3185,330,180].",
+          "Short faint strokes lie to the right of the note, at about [2860,3510,140,50] and [2820,3630,125,45]."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 9,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "region of d. 59?/d. 950/d. 576 on fol. 5",
+            "evidence": "The diagonal strokes point toward the gutter, but no specific entry can be identified.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The second word is read tentatively as 'under'.",
+          "The third line is illegible. It might be 'lookup', but that reading is very uncertain.",
+          "The note's attachment is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Note, probably for facing entry d. 58 (7)."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Note, probably for facing entry d. 294 (2)."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Note, probably for facing entry d. 36 (2)."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Unattached pencil note."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the verso is blank ruled paper. This was reviewed in all tiles.",
+      "Faint mirrored show-through of text from the reverse of the leaf is visible across the page. It is not transcribed.",
+      "The strip beyond the gutter at about x>3120 shows fol. 5 shelfmarks with ticks. These are facing-page fragments and are not recorded.",
+      "A dash near the gutter at about [3170,2670,60,20] lies on the fol. 5 side.",
+      "There are stray dots and a faint vertical scratch near [1290,3220]. They are not text."
+    ],
+    "unresolved_relationships": [
+      "The attachment of the pencil note b005 to any entry is unknown.",
+      "The attachments of b002 to b004 to the facing entries are probable but not secure."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The '4b' at the top left is in grey pencil or ink. This is confirmed in native tile 1."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single line 'ff.1-8, as in A.S.S. edn.' is confirmed, with the left-pointing arrow near the gutter. The claim that a separate matching arrow appears on fol. 5 needs correction. The '←' at the left edge of the fol. 5 image lies in the fol. 4b strip, so it is this same arrow."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Two ink lines. The arrow at the end of line 1 is a non-text mark and should not be in literal_text. Several proper names remain uncertain. The fol. 5 image shows 'a Paṇḍita ←' at its left edge, which is the target-page text, not a second arrow."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The single line is confirmed. The arrow is on the target side. The short dash at about [3170,2670] lies beyond the gutter (x≈3124) on the fol. 5 side. The initial of 'Adbhutabrāhmaṇa' may be lowercase, and '82' versus '§2' is unresolved."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The faint three-line pencil note 'NR / under? / [lookup?]' and the associated strokes are confirmed. The attachment-anchor shelfmark 'd. 59?' is the truncated fol. 5 'd. 550'."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff. 1-114, S. 1902. Scribe Harivaṃśa [Jaṭāvāra?] of Pargana Kasivāra [reading?], Taluk Gangāpura [reading?], village Koiti [reading?], for Prayāgadatta Paṇḍita ←\nof village Larachuṭa [reading?], Pargana Kiriāti [reading?], Taluk Sīsaḍī [reading?]. Weber, 446.",
+        "after": "ff. 1-114, S. 1902. Scribe Harivaṃśa [Jaṭāvāra?] of Pargana Kasivāra [reading?], Taluk Gangāpura [reading?], village Koiti [reading?], for Prayāgadatta Paṇḍita\nof village Larachuṭa [reading?], Pargana Kiriāti [reading?], Taluk Sīsaḍī [reading?]. Weber, 446.",
+        "reason": "The arrow is a non-text mark that is already described in the annotations. It should not form part of the literal wording.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "A single ink line in the middle of the page.",
+          "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+          "A matching '←' appears in the left margin of fol. 5 beside 'd. 58 (7)'."
+        ],
+        "after": [
+          "A single ink line in the middle of the page.",
+          "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+          "The '←' visible at the left edge of the fol. 5 adjacent image lies in the fol. 4b strip captured in that image. It is this same arrow, not a separate mark on fol. 5."
+        ]
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Two lines in ink.",
+          "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+          "Fol. 5 has a '←' in its left margin beside 'd. 294 (2)'.",
+          "The scribe and the patron (the 'for' person) are named. Neither is an author."
+        ],
+        "after": [
+          "Two lines in ink.",
+          "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+          "The '...a Paṇḍita ←' visible at the left edge of the fol. 5 adjacent image is this target-page text and arrow, not a separate fol. 5 mark.",
+          "The scribe and the patron (the 'for' person) are named. Neither is an author."
+        ],
+        "reason": "The supposed fol. 5 arrow is the target-page text and arrow captured in the adjacent image.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "annotations",
+        "before": [
+          "A single ink line.",
+          "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+          "Fol. 5 has a '←' and a dash in its left margin beside 'd. 36 (2)'.",
+          "The named person is the scribe, not the author."
+        ],
+        "after": [
+          "A single ink line.",
+          "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+          "The '←' at the left edge of the fol. 5 adjacent image is this same target arrow. A separate short dash at about [3170,2670] lies beyond the gutter on the fol. 5 side, near 'd. 36 (2)'.",
+          "The named person is the scribe, not the author."
+        ],
+        "reason": "The arrow is not duplicated on fol. 5. Only the dash is on the fol. 5 side.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r005",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 9,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "region of d. 59?/d. 950/d. 576 on fol. 5",
+            "evidence": "The diagonal strokes point toward the gutter, but no specific entry can be identified.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 9,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "region of d. 550 / d. 950 (10) / d. 576 (6) on fol. 5",
+            "evidence": "The diagonal pencil strokes point toward the gutter at the level of these fol. 5 shelfmarks. The truncated 'd. 55..' in the target strip corresponds to fol. 5 'd. 550.'. No specific entry can be identified.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The fol. 5 overview shows d. 550 at this level, not 'd. 59?'.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The cursive proper names remain uncertain: the word after Harivaṃśa, Kasivāra, Gangāpura, Koiti (possibly Köiti/Koīti), Larachuṭa, Kiriāti and Sīsaḍī. 'Pargana' may be written 'Pargane'.",
+        "next_check": "Compare with the same hand elsewhere in the catalogue."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "It is unresolved whether the reading is '82' or '§2', whether 'Adbhutabrāhmaṇa' has a lowercase initial ('adbhuta...'), and whether 'Dhenkara' or 'Dheṅkara' is correct.",
+        "next_check": "Inspect the line at higher magnification."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The pencil note's lines 2 and 3 are tentative ('under', 'lookup'). Its attachment is unknown.",
+        "next_check": "Use enhanced imaging of the faint pencil."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Small marks just left of the gutter at about [3100,2930], [3100,3180] and [3100,3340] (short vertical strokes and a ')' shape) are not inventoried. They are probably binding or sewing artefacts and not text.",
+        "next_check": "Confirm against the physical gutter."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3124. The fol. 5 shelfmarks, ticks and the dash at [3170,2670] lie beyond it and are facing-page fragments, not target records. The arrows on the target side belong to b002–b004. The fol. 5 adjacent image's left strip duplicates these arrows and the 'Paṇḍita' text, so they should not be counted twice. Attachments to d. 58 (7), d. 294 (2) and d. 36 (2) remain probable.",
+    "region_review": {
+      "top": "Only the '4b' page number is present. The rest is blank ruled paper with faint show-through.",
+      "middle": "Contains b002–b004 in ink. Faint mirrored show-through is not transcribed.",
+      "bottom": "Blank ruled paper with show-through and specks. There is no bottom note.",
+      "left_margin": "No writing.",
+      "right_margin": "Contains the arrows of b002–b004, the pencil note b005 and its diagonal strokes, and small gutter marks. Fol. 5 fragments lie beyond the gutter.",
+      "interlinear": "No interlinear additions or cancellations were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        360,
+        360,
+        120,
+        110
+      ],
+      "kind_hint": "page_number",
+      "anchor": "4b",
+      "features": [
+        "top left corner",
+        "pencil or faint ink"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        790,
+        2070,
+        745,
+        110
+      ],
+      "kind_hint": "note_for_facing_entry",
+      "anchor": "ff. 1-8, as in A.S.S. edn.",
+      "features": [
+        "single line",
+        "arrow at right edge pointing toward gutter (approx. [2985,2100,110,40])",
+        "aligned with 'd. 58' on facing fol. 5"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        330,
+        2310,
+        2790,
+        160
+      ],
+      "kind_hint": "note_for_facing_entry",
+      "anchor": "ff. 1-114, S. 1902. Scribe Harivaṃśa ... Weber, 446.",
+      "features": [
+        "two lines",
+        "contains a date: 'S. 1902'",
+        "contains place names and scribe details",
+        "arrow at right end pointing toward gutter (approx. [3035,2330,95,35])",
+        "aligned with 'd. 294' on facing fol. 5"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        380,
+        2660,
+        2100,
+        125
+      ],
+      "kind_hint": "note_for_facing_entry",
+      "anchor": "ff. 1-4, Scribe Nārāyaṇa ... (ed. Weber, AkM, 1858, p. 313)",
+      "features": [
+        "single line",
+        "arrow at right pointing toward gutter (approx. [2960,2685,100,40])",
+        "aligned with 'd. 36' on facing fol. 5"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2480,
+        3370,
+        290,
+        310
+      ],
+      "kind_hint": "pencil_marginal_note",
+      "anchor": "NR [illegible]",
+      "features": [
+        "faint pencil",
+        "three short lines",
+        "partly illegible",
+        "short pencil dash under the second line",
+        "associated with diagonal pencil strokes"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "4b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Page number at the top left corner. It is in pencil or grey ink, at about [370,370,110,95]."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0008-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "verso_note_for_facing_entry",
+      "literal_text": "ff.1-8, as in A.S.S. edn.",
+      "fields": {
+        "extent": "ff.1-8",
+        "source": "as in A.S.S. edn."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A single ink line in the middle of the page.",
+        "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+        "The '←' visible at the left edge of the fol. 5 adjacent image lies in the fol. 4b strip captured in that image. It is this same arrow, not a separate mark on fol. 5."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Atharvaśira Upaniṣad (facing entry d. 58 (7))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 58 (7)' on fol. 5, and the target-page arrow points toward the gutter. The facing entry gives 8 as its leaf count.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 58 (7) Atharvaśira Upaniṣad",
+          "evidence": "Horizontal alignment and the target-page arrow pointing toward the gutter. The facing entry's extent of 8 matches ff.1-8.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'edn.' is a reading of a cursive abbreviation."
+      ],
+      "stable_id": "css-prod-0008-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "verso_note_for_facing_entry",
+      "literal_text": "ff. 1-114, S. 1902. Scribe Harivaṃśa [Jaṭāvāra?] of Pargana Kasivāra [reading?], Taluk Gangāpura [reading?], village Koiti [reading?], for Prayāgadatta Paṇḍita\nof village Larachuṭa [reading?], Pargana Kiriāti [reading?], Taluk Sīsaḍī [reading?]. Weber, 446.",
+      "fields": {
+        "extent": "ff. 1-114",
+        "date": "S. 1902",
+        "source": "Weber, 446."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two lines in ink.",
+        "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+        "The '...a Paṇḍita ←' visible at the left edge of the fol. 5 adjacent image is this target-page text and arrow, not a separate fol. 5 mark.",
+        "The scribe and the patron (the 'for' person) are named. Neither is an author."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Adbhutarāmāyaṇa (facing entry d. 294 (2))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 294 (2)' on fol. 5, and the target-page arrow points toward the gutter. That entry gives an extent of 114, which matches ff. 1-114.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 294 (2) Adbhutarāmāyaṇa",
+          "evidence": "The alignment, the arrows and the matching extent all point to this entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cursive proper names are uncertain. This applies to the word after Harivaṃśa, Kasivāra, Gangāpura, Koiti, Larachuṭa/Lerachuṭa, Kiriāti and Sīsaḍī.",
+        "'Harivaṃśa' may be written without the diacritic as 'Harivamśa'."
+      ],
+      "stable_id": "css-prod-0008-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "verso_note_for_facing_entry",
+      "literal_text": "ff.1-4, Scribe Nārāyaṇa Dhenkara [reading?]. 82 [reading?] of Adbhutabrāhmaṇa (ed. Weber, AkM, 1858, p.313)",
+      "fields": {
+        "extent": "ff.1-4",
+        "source": "ed. Weber, AkM, 1858, p.313"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A single ink line.",
+        "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+        "Fol. 5 has a '←' and a dash in its left margin beside 'd. 36 (2)'.",
+        "The named person is the scribe, not the author."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Adbhutaśānti (facing entry d. 36 (2))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 36 (2)' on fol. 5, the target-page arrow points toward the gutter, and the facing extent of 4 matches ff.1-4.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 36 (2) Adbhutaśānti",
+          "evidence": "The alignment, the arrows and the matching extent all point to this entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'82' could instead be read as '§2'.",
+        "The surname 'Dhenkara' is uncertain.",
+        "'Adbhutabrāhmaṇa' is written in a cursive hand."
+      ],
+      "stable_id": "css-prod-0008-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_note",
+      "literal_text": "NR\nunder [reading?]\n[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil note in three short lines in the lower right part of the page.",
+        "A short pencil dash lies under line 2.",
+        "A long diagonal pencil stroke rises toward the gutter above the note, at about [2670,3185,330,180].",
+        "Short faint strokes lie to the right of the note, at about [2860,3510,140,50] and [2820,3630,125,45]."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "region of d. 59?/d. 950/d. 576 on fol. 5",
+          "evidence": "The diagonal strokes point toward the gutter, but no specific entry can be identified.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The second word is read tentatively as 'under'.",
+        "The third line is illegible. It might be 'lookup', but that reading is very uncertain.",
+        "The note's attachment is unknown."
+      ],
+      "stable_id": "css-prod-0008-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff. 1-114, S. 1902. Scribe Harivaṃśa [Jaṭāvāra?] of Pargana Kasivāra [reading?], Taluk Gangāpura [reading?], village Koiti [reading?], for Prayāgadatta Paṇḍita ←\nof village Larachuṭa [reading?], Pargana Kiriāti [reading?], Taluk Sīsaḍī [reading?]. Weber, 446.",
+      "after": "ff. 1-114, S. 1902. Scribe Harivaṃśa [Jaṭāvāra?] of Pargana Kasivāra [reading?], Taluk Gangāpura [reading?], village Koiti [reading?], for Prayāgadatta Paṇḍita\nof village Larachuṭa [reading?], Pargana Kiriāti [reading?], Taluk Sīsaḍī [reading?]. Weber, 446.",
+      "reason": "The arrow is a non-text mark that is already described in the annotations. It should not form part of the literal wording.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "A single ink line in the middle of the page.",
+        "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+        "A matching '←' appears in the left margin of fol. 5 beside 'd. 58 (7)'."
+      ],
+      "after": [
+        "A single ink line in the middle of the page.",
+        "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+        "The '←' visible at the left edge of the fol. 5 adjacent image lies in the fol. 4b strip captured in that image. It is this same arrow, not a separate mark on fol. 5."
+      ],
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Two lines in ink.",
+        "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+        "Fol. 5 has a '←' in its left margin beside 'd. 294 (2)'.",
+        "The scribe and the patron (the 'for' person) are named. Neither is an author."
+      ],
+      "after": [
+        "Two lines in ink.",
+        "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+        "The '...a Paṇḍita ←' visible at the left edge of the fol. 5 adjacent image is this target-page text and arrow, not a separate fol. 5 mark.",
+        "The scribe and the patron (the 'for' person) are named. Neither is an author."
+      ],
+      "reason": "The supposed fol. 5 arrow is the target-page text and arrow captured in the adjacent image.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "A single ink line.",
+        "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+        "Fol. 5 has a '←' and a dash in its left margin beside 'd. 36 (2)'.",
+        "The named person is the scribe, not the author."
+      ],
+      "after": [
+        "A single ink line.",
+        "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+        "The '←' at the left edge of the fol. 5 adjacent image is this same target arrow. A separate short dash at about [3170,2670] lies beyond the gutter on the fol. 5 side, near 'd. 36 (2)'.",
+        "The named person is the scribe, not the author."
+      ],
+      "reason": "The arrow is not duplicated on fol. 5. Only the dash is on the fol. 5 side.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "region of d. 59?/d. 950/d. 576 on fol. 5",
+          "evidence": "The diagonal strokes point toward the gutter, but no specific entry can be identified.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "region of d. 550 / d. 950 (10) / d. 576 (6) on fol. 5",
+          "evidence": "The diagonal pencil strokes point toward the gutter at the level of these fol. 5 shelfmarks. The truncated 'd. 55..' in the target strip corresponds to fol. 5 'd. 550.'. No specific entry can be identified.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The fol. 5 overview shows d. 550 at this level, not 'd. 59?'.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "A single ink line in the middle of the page.",
+        "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+        "A matching '←' appears in the left margin of fol. 5 beside 'd. 58 (7)'."
+      ],
+      "after": [
+        "A single ink line in the middle of the page.",
+        "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+        "The '←' visible at the left edge of the fol. 5 adjacent image lies in the fol. 4b strip captured in that image. It is this same arrow, not a separate mark on fol. 5."
+      ],
+      "reason": "The supposed fol. 5 arrow is the target-page arrow captured in the adjacent image.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 58 (7) Atharvaśira Upaniṣad",
+          "evidence": "Horizontal alignment, the arrow and the matching facing-page arrow. The facing entry's extent of 8 matches ff.1-8.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 58 (7) Atharvaśira Upaniṣad",
+          "evidence": "Horizontal alignment and the target-page arrow pointing toward the gutter. The facing entry's extent of 8 matches ff.1-8.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "There is only one arrow, so the evidence should not cite a facing-page arrow.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "title",
+          "value": "Atharvaśira Upaniṣad (facing entry d. 58 (7))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 58 (7)' on fol. 5. Arrows appear on both sides of the gutter. The facing entry gives 8 as its leaf count.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "field": "title",
+          "value": "Atharvaśira Upaniṣad (facing entry d. 58 (7))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 58 (7)' on fol. 5, and the target-page arrow points toward the gutter. The facing entry gives 8 as its leaf count.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "There is only one arrow, so the evidence should not cite arrows on both sides of the gutter.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Two lines in ink.",
+        "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+        "Fol. 5 has a '←' in its left margin beside 'd. 294 (2)'.",
+        "The scribe and the patron (the 'for' person) are named. Neither is an author."
+      ],
+      "after": [
+        "Two lines in ink.",
+        "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+        "The '...a Paṇḍita ←' visible at the left edge of the fol. 5 adjacent image is this target-page text and arrow, not a separate fol. 5 mark.",
+        "The scribe and the patron (the 'for' person) are named. Neither is an author."
+      ],
+      "reason": "The adjacent image captures the target-page text and arrow beyond the fold.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "title",
+          "value": "Adbhutarāmāyaṇa (facing entry d. 294 (2))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 294 (2)' on fol. 5. The arrows match. That entry gives an extent of 114, which matches ff. 1-114.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "field": "title",
+          "value": "Adbhutarāmāyaṇa (facing entry d. 294 (2))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 294 (2)' on fol. 5, and the target-page arrow points toward the gutter. That entry gives an extent of 114, which matches ff. 1-114.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "There is only one arrow, so the evidence should not say that arrows match.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The cursive proper names are uncertain. This applies to the word after Harivaṃśa, Kasivāra, Gangāpura, Koiti, Larachuṭa/Lerachuṭa, Kiriāti and Sīsaḍī.",
+        "'Harivaṃśa' may be written without the diacritic as 'Harivamśa'."
+      ],
+      "after": [
+        "The cursive proper names are uncertain. This applies to the word after Harivaṃśa (possibly 'Jatarvān'), Kasivāra (possibly 'Kasivān'), Gangāpura, Koiti (possibly 'Köitī'), Larachuṭa/Lerachuṭa, Kiriāti and Sīsaḍī.",
+        "'Harivaṃśa' may be written without the diacritic as 'Harivamśa'.",
+        "Both instances of 'Pargana' may be written 'Pargane'."
+      ],
+      "reason": "Fresh reread of the alternative readings. The literal text is left unchanged.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "annotations",
+      "before": [
+        "A single ink line.",
+        "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+        "Fol. 5 has a '←' and a dash in its left margin beside 'd. 36 (2)'.",
+        "The named person is the scribe, not the author."
+      ],
+      "after": [
+        "A single ink line.",
+        "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+        "The '←' at the left edge of the fol. 5 adjacent image is this same target arrow. A separate short dash at about [3170,2670] lies beyond the gutter on the fol. 5 side, near 'd. 36 (2)'.",
+        "The named person is the scribe, not the author."
+      ],
+      "reason": "The arrow is not duplicated on fol. 5. Only the dash is on the fol. 5 side.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "title",
+          "value": "Adbhutaśānti (facing entry d. 36 (2))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 36 (2)' on fol. 5, the arrows match, and the facing extent of 4 matches ff.1-4.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "field": "title",
+          "value": "Adbhutaśānti (facing entry d. 36 (2))",
+          "source_page_order": 9,
+          "source_block_id": null,
+          "evidence": "The note is aligned with 'd. 36 (2)' on fol. 5, the target-page arrow points toward the gutter, and the facing extent of 4 matches ff.1-4.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "There is only one arrow, so the evidence should not say that arrows match.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "'82' could instead be read as '§2'.",
+        "The surname 'Dhenkara' is uncertain.",
+        "'Adbhutabrāhmaṇa' is written in a cursive hand."
+      ],
+      "after": [
+        "'82' could instead be read as '§2' or '882'.",
+        "The surname 'Dhenkara' is uncertain; 'Dheṅkara' cannot be excluded.",
+        "'Adbhutabrāhmaṇa' is written in a cursive hand and appears to have a lowercase initial ('adbhuta...')."
+      ],
+      "reason": "Fresh reread. The doubtful readings are kept doubtful.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0008-focus.parsed.json"
+    },
+    {
+      "record_id": "r005",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "region of d. 59?/d. 950/d. 576 on fol. 5",
+          "evidence": "The diagonal strokes point toward the gutter, but no specific entry can be identified.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 9,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "region of d. 550 / d. 950 (10) / d. 576 (6) on fol. 5",
+          "evidence": "The diagonal pencil strokes point toward the gutter at the level of these fol. 5 shelfmarks. The truncated 'd. 55..' in the target strip corresponds to fol. 5 'd. 550.'. No specific entry can be identified.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The fol. 5 native image reads 'd. 550.' at this level.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0008-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The pencil note's lines 2 and 3 are tentative ('under', 'lookup'). Its attachment is unknown.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0008-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "Small marks just left of the gutter at about [3100,2930], [3100,3180] and [3100,3340] (short vertical strokes and a ')' shape) are not inventoried. They are probably binding or sewing artefacts and not text.",
+      "block_ids": [],
+      "record_ids": [],
+      "id": "focus-0008-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The fol. 5 overview shows d. 550 at this level, not 'd. 59?'. Proposed relationships: [{\"type\": \"possible_attachment\", \"target_page_order\": 9, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"region of d. 550 / d. 950 (10) / d. 576 (6) on fol. 5\", \"evidence\": \"The diagonal pencil strokes point toward the gutter at the level of these fol. 5 shelfmarks. The truncated 'd. 55..' in the target strip corresponds to fol. 5 'd. 550.'. No specific entry can be identified.\", \"certainty\": \"uncertain\"}]",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0008-03"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The cursive proper names remain uncertain: the word after Harivaṃśa, Kasivāra, Gangāpura, Koiti (possibly Köiti/Koīti), Larachuṭa, Kiriāti and Sīsaḍī. 'Pargana' may be written 'Pargane'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0008-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "It is unresolved whether the reading is '82' or '§2', whether 'Adbhutabrāhmaṇa' has a lowercase initial ('adbhuta...'), and whether 'Dhenkara' or 'Dheṅkara' is correct.",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0008-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": " Proposed annotations: [\"A single ink line in the middle of the page.\", \"An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.\", \"The '←' visible at the left edge of the fol. 5 adjacent image lies in the fol. 4b strip captured in that image. It is this same arrow, not a separate mark on fol. 5.\"]",
+      "block_ids": [],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0008-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The supposed fol. 5 arrow is the target-page text and arrow captured in the adjacent image. Proposed annotations: [\"Two lines in ink.\", \"An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.\", \"The '...a Paṇḍita ←' visible at the left edge of the fol. 5 adjacent image is this target-page text and arrow, not a separate fol. 5 mark.\", \"The scribe and the patron (the 'for' person) are named. Neither is an author.\"]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0008-07"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The arrow is not duplicated on fol. 5. Only the dash is on the fol. 5 side. Proposed annotations: [\"A single ink line.\", \"An arrow '←' at about [2960,2685,100,40] points back toward the text.\", \"The '←' at the left edge of the fol. 5 adjacent image is this same target arrow. A separate short dash at about [3170,2670] lies beyond the gutter on the fol. 5 side, near 'd. 36 (2)'.\", \"The named person is the scribe, not the author.\"]",
+      "block_ids": [
+        "b004"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0008-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "'edn.' is a reading of a cursive abbreviation.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0008-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The cursive proper names are uncertain. This applies to the word after Harivaṃśa, Kasivāra, Gangāpura, Koiti, Larachuṭa/Lerachuṭa, Kiriāti and Sīsaḍī.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0008-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0008-01",
+        "focus-0008-02",
+        "focus-0008-03",
+        "focus-0008-04",
+        "focus-0008-05",
+        "focus-0008-06",
+        "focus-0008-07",
+        "focus-0008-08",
+        "focus-0008-09",
+        "focus-0008-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0008-01",
+          "source_reading": "NR / under [reading?] / lookup [reading?]",
+          "certainty": "uncertain",
+          "evidence": "Native tile [1604,3216]: the faint pencil note is at about canvas x 2490-2760, y 3380-3680. Line 1 is two capitals, possibly 'NR' or 'Nr'. Line 2 is a cursive word that could be 'under' or 'unter'; a short dash lies beneath it. Line 3 looks like 'lookup' or 'lookups' but the letter forms are not secure. The note has no visible link to any one entry."
+        },
+        {
+          "issue_id": "focus-0008-02",
+          "source_reading": "[non-text marks: short vertical stroke at about (3104,2938); short vertical stroke at about (3109,3183); ')'-shaped mark at about (3104,3343)]",
+          "certainty": "probable",
+          "evidence": "Native tile [1604,1608] shows three small marks just left of the gutter line (gutter at x≈3124). They are isolated strokes with no letter forms. The same pixels appear in the left strip of the fol. 5 native image. Their position along the fold suggests sewing or binding artefacts, but this is not proven."
+        },
+        {
+          "issue_id": "focus-0008-03",
+          "source_reading": "Fol. 5 shelfmark at this level: 'd. 550.'; the target right-edge strip shows truncated 'd. 55'",
+          "certainty": "probable",
+          "evidence": "In the fol. 5 native image, 'd. 550.' lies at about y 3273, followed by 'd. 950 (10)' and 'd. 576 (6)' further down. The target diagonal pencil stroke runs at about y 3185-3365 and points toward the gutter at that level. No specific entry can be secured."
+        },
+        {
+          "issue_id": "focus-0008-04",
+          "source_reading": "Scribe Harivaṃśa Jatarvān [reading?] of Pargane [reading?] Kasivān [reading?], Taluk Gangāpura [reading?], village Köitī [reading?], for Prayāgadatta Paṇḍita / of village Larachuṭa [reading?], Pargane [reading?] Kiriāti [reading?], Taluk Sīsaḍī [reading?]",
+          "certainty": "uncertain",
+          "evidence": "Native tiles [0,1608] and [1604,1608]. The first 'Parga..' ends in an e-like loop that runs into 'Kasivā..'. The word after Harivaṃśa begins with a J/G-like letter and looks like 'Jatarvān'. 'Koiti' has marks above the o and a long final vowel stroke. The second 'Parga..' could also end in e. All of these names remain doubtful."
+        },
+        {
+          "issue_id": "focus-0008-05",
+          "source_reading": "Nārāyaṇa Dheṅkara/Dhenkara [reading?]. 82/§2/882 [reading?] of adbhutabrāhmaṇa",
+          "certainty": "uncertain",
+          "evidence": "Native tile [0,1608], at about y 2700. The numeral group begins with a looped sign (an 8-like form or §) followed by a 2-like form; it could be read as 82, §2 or 882. The 'a' of adbhuta.. appears lowercase. No dot is visible over the n in Dhenkara, but the stroke is cursive and a dot could be lost in it."
+        },
+        {
+          "issue_id": "focus-0008-06",
+          "source_reading": "←",
+          "certainty": "secure",
+          "evidence": "The single arrow for b002 is at about [2985,2095]. The '←' at the left edge of the fol. 5 native image lies in the part of fol. 4b captured in that image. It is the same arrow, not a separate fol. 5 mark."
+        },
+        {
+          "issue_id": "focus-0008-07",
+          "source_reading": "... Paṇḍita ←",
+          "certainty": "secure",
+          "evidence": "The fol. 5 adjacent tile shows 'a Paṇḍita ←' at its far left. This is target-page text captured beyond the fold, not a separate arrow on fol. 5."
+        },
+        {
+          "issue_id": "focus-0008-08",
+          "source_reading": "← (target page); separate short dash beyond the gutter",
+          "certainty": "probable",
+          "evidence": "Target tile: the arrow is at about [2964,2690,95,35]. A short dash lies at about [3180,2680] to the right of the gutter line (x≈3124), on the fol. 5 side near 'd. 36 (2)'."
+        },
+        {
+          "issue_id": "focus-0008-09",
+          "source_reading": "edn. [reading?]",
+          "certainty": "probable",
+          "evidence": "Tile [0,1608], at about x 1420-1520: the abbreviation reads as 'e', a looped 'd' and a terminal stroke, followed by a full stop. 'edn.' is the likely reading."
+        },
+        {
+          "issue_id": "focus-0008-10",
+          "source_reading": "See focus-0008-04",
+          "certainty": "uncertain",
+          "evidence": "Same cursive names as focus-0008-04. They remain doubtful."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "A single ink line in the middle of the page.",
+            "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+            "A matching '←' appears in the left margin of fol. 5 beside 'd. 58 (7)'."
+          ],
+          "after": [
+            "A single ink line in the middle of the page.",
+            "An ink arrow '←' stands near the gutter at about [2985,2095,110,40] and points back toward the note.",
+            "The '←' visible at the left edge of the fol. 5 adjacent image lies in the fol. 4b strip captured in that image. It is this same arrow, not a separate mark on fol. 5."
+          ],
+          "reason": "The supposed fol. 5 arrow is the target-page arrow captured in the adjacent image.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "continues",
+              "target_page_order": 9,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "d. 58 (7) Atharvaśira Upaniṣad",
+              "evidence": "Horizontal alignment, the arrow and the matching facing-page arrow. The facing entry's extent of 8 matches ff.1-8.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "continues",
+              "target_page_order": 9,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "d. 58 (7) Atharvaśira Upaniṣad",
+              "evidence": "Horizontal alignment and the target-page arrow pointing toward the gutter. The facing entry's extent of 8 matches ff.1-8.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "There is only one arrow, so the evidence should not cite a facing-page arrow.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "editorial_context",
+          "before": [
+            {
+              "field": "title",
+              "value": "Atharvaśira Upaniṣad (facing entry d. 58 (7))",
+              "source_page_order": 9,
+              "source_block_id": null,
+              "evidence": "The note is aligned with 'd. 58 (7)' on fol. 5. Arrows appear on both sides of the gutter. The facing entry gives 8 as its leaf count.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "field": "title",
+              "value": "Atharvaśira Upaniṣad (facing entry d. 58 (7))",
+              "source_page_order": 9,
+              "source_block_id": null,
+              "evidence": "The note is aligned with 'd. 58 (7)' on fol. 5, and the target-page arrow points toward the gutter. The facing entry gives 8 as its leaf count.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "There is only one arrow, so the evidence should not cite arrows on both sides of the gutter.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "annotations",
+          "before": [
+            "Two lines in ink.",
+            "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+            "Fol. 5 has a '←' in its left margin beside 'd. 294 (2)'.",
+            "The scribe and the patron (the 'for' person) are named. Neither is an author."
+          ],
+          "after": [
+            "Two lines in ink.",
+            "An arrow '←' at the end of line 1, at about [3035,2330,95,35], points back toward the text from the gutter side.",
+            "The '...a Paṇḍita ←' visible at the left edge of the fol. 5 adjacent image is this target-page text and arrow, not a separate fol. 5 mark.",
+            "The scribe and the patron (the 'for' person) are named. Neither is an author."
+          ],
+          "reason": "The adjacent image captures the target-page text and arrow beyond the fold.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "editorial_context",
+          "before": [
+            {
+              "field": "title",
+              "value": "Adbhutarāmāyaṇa (facing entry d. 294 (2))",
+              "source_page_order": 9,
+              "source_block_id": null,
+              "evidence": "The note is aligned with 'd. 294 (2)' on fol. 5. The arrows match. That entry gives an extent of 114, which matches ff. 1-114.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "field": "title",
+              "value": "Adbhutarāmāyaṇa (facing entry d. 294 (2))",
+              "source_page_order": 9,
+              "source_block_id": null,
+              "evidence": "The note is aligned with 'd. 294 (2)' on fol. 5, and the target-page arrow points toward the gutter. That entry gives an extent of 114, which matches ff. 1-114.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "There is only one arrow, so the evidence should not say that arrows match.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The cursive proper names are uncertain. This applies to the word after Harivaṃśa, Kasivāra, Gangāpura, Koiti, Larachuṭa/Lerachuṭa, Kiriāti and Sīsaḍī.",
+            "'Harivaṃśa' may be written without the diacritic as 'Harivamśa'."
+          ],
+          "after": [
+            "The cursive proper names are uncertain. This applies to the word after Harivaṃśa (possibly 'Jatarvān'), Kasivāra (possibly 'Kasivān'), Gangāpura, Koiti (possibly 'Köitī'), Larachuṭa/Lerachuṭa, Kiriāti and Sīsaḍī.",
+            "'Harivaṃśa' may be written without the diacritic as 'Harivamśa'.",
+            "Both instances of 'Pargana' may be written 'Pargane'."
+          ],
+          "reason": "Fresh reread of the alternative readings. The literal text is left unchanged.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "annotations",
+          "before": [
+            "A single ink line.",
+            "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+            "Fol. 5 has a '←' and a dash in its left margin beside 'd. 36 (2)'.",
+            "The named person is the scribe, not the author."
+          ],
+          "after": [
+            "A single ink line.",
+            "An arrow '←' at about [2960,2685,100,40] points back toward the text.",
+            "The '←' at the left edge of the fol. 5 adjacent image is this same target arrow. A separate short dash at about [3170,2670] lies beyond the gutter on the fol. 5 side, near 'd. 36 (2)'.",
+            "The named person is the scribe, not the author."
+          ],
+          "reason": "The arrow is not duplicated on fol. 5. Only the dash is on the fol. 5 side.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "editorial_context",
+          "before": [
+            {
+              "field": "title",
+              "value": "Adbhutaśānti (facing entry d. 36 (2))",
+              "source_page_order": 9,
+              "source_block_id": null,
+              "evidence": "The note is aligned with 'd. 36 (2)' on fol. 5, the arrows match, and the facing extent of 4 matches ff.1-4.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "field": "title",
+              "value": "Adbhutaśānti (facing entry d. 36 (2))",
+              "source_page_order": 9,
+              "source_block_id": null,
+              "evidence": "The note is aligned with 'd. 36 (2)' on fol. 5, the target-page arrow points toward the gutter, and the facing extent of 4 matches ff.1-4.",
+              "certainty": "probable"
+            }
+          ],
+          "reason": "There is only one arrow, so the evidence should not say that arrows match.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r004",
+          "field_path": "uncertainties",
+          "before": [
+            "'82' could instead be read as '§2'.",
+            "The surname 'Dhenkara' is uncertain.",
+            "'Adbhutabrāhmaṇa' is written in a cursive hand."
+          ],
+          "after": [
+            "'82' could instead be read as '§2' or '882'.",
+            "The surname 'Dhenkara' is uncertain; 'Dheṅkara' cannot be excluded.",
+            "'Adbhutabrāhmaṇa' is written in a cursive hand and appears to have a lowercase initial ('adbhuta...')."
+          ],
+          "reason": "Fresh reread. The doubtful readings are kept doubtful.",
+          "source_block_ids": [
+            "b004"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r005",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 9,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "region of d. 59?/d. 950/d. 576 on fol. 5",
+              "evidence": "The diagonal strokes point toward the gutter, but no specific entry can be identified.",
+              "certainty": "uncertain"
+            }
+          ],
+          "after": [
+            {
+              "type": "possible_attachment",
+              "target_page_order": 9,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "region of d. 550 / d. 950 (10) / d. 576 (6) on fol. 5",
+              "evidence": "The diagonal pencil strokes point toward the gutter at the level of these fol. 5 shelfmarks. The truncated 'd. 55..' in the target strip corresponds to fol. 5 'd. 550.'. No specific entry can be identified.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "The fol. 5 native image reads 'd. 550.' at this level.",
+          "source_block_ids": [
+            "b005"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b001",
+          "status": "represented",
+          "record_ids": [
+            "r001"
+          ],
+          "finding": "Page number 4b."
+        },
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "Note and arrow are represented."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Two-line note; the names remain uncertain."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Note represented; the numeral remains uncertain."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "Pencil note; lines 2 and 3 are tentative and the attachment is unknown."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0008-01",
+          "record_id": "r005",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "The readings 'under' and 'lookup' and the attachment of the note remain unresolved.",
+          "next_check": "Higher-contrast imaging of the pencil note."
+        },
+        {
+          "issue_id": "focus-0008-02",
+          "record_id": null,
+          "block_ids": [],
+          "issue": "The gutter marks at about (3104,2938), (3109,3183) and (3104,3343) are probably binding artefacts. No record was created.",
+          "next_check": "Physical inspection of the gutter."
+        },
+        {
+          "issue_id": "focus-0008-04",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The cursive proper names and Pargana/Pargane remain uncertain.",
+          "next_check": "Compare with the original manuscript colophon, if one is available."
+        },
+        {
+          "issue_id": "focus-0008-05",
+          "record_id": "r004",
+          "block_ids": [
+            "b004"
+          ],
+          "issue": "Whether the numeral is 82, §2 or 882, and whether the surname is Dhenkara or Dheṅkara, remains uncertain.",
+          "next_check": "Higher-resolution examination of the numeral and of the n in the surname."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b48a53ff540fcf8dbec23fd1c89cbcaceba7e43c699a70cf15bc707e5169bd67",
+      "bytes": 279810,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d2e4f5a051997e837ed44a21feea035e67d5a3668fa41c41a6be6f685ff47ff9",
+      "bytes": 315630,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d87a9e4f9d1eec354e7ec00a8a4076eaa0907104db7e401ee3e1b5859e9260b1",
+      "bytes": 339527,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e655fd8c96c65d03a930b2005ad975d14189c8837ec75b2179ed5f88ce479ecf",
+      "bytes": 372493,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "021587e32373942adff7652637b8eb77bb368ce62b678fd1239557dbf8956c44",
+      "bytes": 365681,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "927de66baf8141a2bf29f0ddeb355a82343f5483da99990b74c6a8ccd24c7cd2",
+      "bytes": 341649,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cf08420a7d93a4506a987f2e561cc23d01a323698c2c46205394dade27765f1c",
+      "bytes": 354637,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f80b8ff-c447-441e-9beb-f1d6c64552ed/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4a9e1699e92a063a603ad77fa0dc8b07df4e52275fc656f8d739036c7515c449",
+      "bytes": 264037,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 7,
+      "folio_label": "fol. 4",
+      "page_id": "2f80b8ff-c447-441e-9beb-f1d6c64552ed",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e3f7de6-6ba5-46f0-9e8c-ef2fca075277/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "850263858c4327431cc9e30670d15158c555406c1d09f84003b12d9fd2e3441b",
+      "bytes": 262671,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 9,
+      "folio_label": "fol. 5",
+      "page_id": "9e3f7de6-6ba5-46f0-9e8c-ef2fca075277",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e3f7de6-6ba5-46f0-9e8c-ef2fca075277/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "44d7e122ae2839ed7e466b6df13472453543cf30c003bb44666140fb79140109",
+      "bytes": 466700,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 9,
+      "folio_label": "fol. 5",
+      "page_id": "9e3f7de6-6ba5-46f0-9e8c-ef2fca075277",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e3f7de6-6ba5-46f0-9e8c-ef2fca075277/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1b07069525661c8e52dd08e9379e5910b7706157059115d9615f6916e119cbfb",
+      "bytes": 490210,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 9,
+      "folio_label": "fol. 5",
+      "page_id": "9e3f7de6-6ba5-46f0-9e8c-ef2fca075277",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/62d574bd-7364-4aac-be8b-57e4268982ea.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "b48a53ff540fcf8dbec23fd1c89cbcaceba7e43c699a70cf15bc707e5169bd67",
+      "bytes": 279810,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d2e4f5a051997e837ed44a21feea035e67d5a3668fa41c41a6be6f685ff47ff9",
+      "bytes": 315630,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d87a9e4f9d1eec354e7ec00a8a4076eaa0907104db7e401ee3e1b5859e9260b1",
+      "bytes": 339527,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e655fd8c96c65d03a930b2005ad975d14189c8837ec75b2179ed5f88ce479ecf",
+      "bytes": 372493,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "021587e32373942adff7652637b8eb77bb368ce62b678fd1239557dbf8956c44",
+      "bytes": 365681,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "927de66baf8141a2bf29f0ddeb355a82343f5483da99990b74c6a8ccd24c7cd2",
+      "bytes": 341649,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/62d574bd-7364-4aac-be8b-57e4268982ea/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cf08420a7d93a4506a987f2e561cc23d01a323698c2c46205394dade27765f1c",
+      "bytes": 354637,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f80b8ff-c447-441e-9beb-f1d6c64552ed/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4a9e1699e92a063a603ad77fa0dc8b07df4e52275fc656f8d739036c7515c449",
+      "bytes": 264037,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 7,
+      "folio_label": "fol. 4",
+      "page_id": "2f80b8ff-c447-441e-9beb-f1d6c64552ed",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9e3f7de6-6ba5-46f0-9e8c-ef2fca075277/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "850263858c4327431cc9e30670d15158c555406c1d09f84003b12d9fd2e3441b",
+      "bytes": 262671,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 9,
+      "folio_label": "fol. 5",
+      "page_id": "9e3f7de6-6ba5-46f0-9e8c-ef2fca075277",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

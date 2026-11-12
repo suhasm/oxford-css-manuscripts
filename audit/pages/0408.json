@@ -1,0 +1,1382 @@
+{
+  "source_order": 408,
+  "folio_label": "fol. 204b",
+  "page_id": "2c499019-6d02-42d3-8387-57dea344aad9",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "204b",
+    "principal_page_bbox": [
+      330,
+      280,
+      2845,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          320,
+          155,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "204b",
+        "features": [
+          "pencil",
+          "top-left corner",
+          "'b' written superscript after 204"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          360,
+          2130,
+          1580,
+          130
+        ],
+        "kind_hint": "cancelled_note",
+        "anchor": "⟦Mṛtyuñjaya sahasranāma…, being Devīrahasyatantra, part⟧",
+        "features": [
+          "ink",
+          "entire line struck through with horizontal stroke",
+          "single line on ruled line",
+          "keyed by a left-pointing arrow at right toward the gutter"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          3020,
+          2180,
+          120,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "pencil",
+          "left-pointing arrow near the gutter",
+          "on the same line as b002"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          440,
+          4030,
+          1490,
+          110
+        ],
+        "kind_hint": "note",
+        "anchor": "ff 1-41 and 34-146, complete with some … in several hands",
+        "features": [
+          "ink",
+          "'overlapping' interlined above a cancelled short word [reading?]",
+          "some letterforms cramped"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          2870,
+          4085,
+          110,
+          45
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "pencil",
+          "left-pointing arrow toward the gutter",
+          "on the same line as b004"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          490,
+          4380,
+          2380,
+          140
+        ],
+        "kind_hint": "note",
+        "anchor": "ff. 333, numbered up to 106 only. Cf. Eggeling 2570. Differs from H.P. Śāstri, Nepal MSS, Vol. II, p. 115.",
+        "features": [
+          "ink",
+          "bibliographic cross-reference to Eggeling",
+          "reference to Śāstri Nepal catalogue",
+          "single long line"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          450,
+          4150,
+          90,
+          60
+        ],
+        "description": "Small cluster of dots or specks below the start of b004; possibly faint pencil marks or ink specks; illegible"
+      },
+      {
+        "bbox": [
+          2855,
+          4500,
+          40,
+          100
+        ],
+        "description": "Small mark resembling '9' or '?' with a dot below it, beneath the end of b006; function unclear"
+      },
+      {
+        "bbox": [
+          330,
+          500,
+          2840,
+          4300
+        ],
+        "description": "Faint mirror-image show-through of the recto (fol. 205) across the ruled page; not transcribed"
+      }
+    ],
+    "boundary_notes": [
+      "Stitching or gutter thread runs vertically at x≈3170; the material to the right belongs to facing fol. 205 and is excluded. It includes 'e.' marks at the top, 'see Devīrahasyatantra' at y≈2140, and left-pointing arrows at y≈4100 and y≈4440.",
+      "Arrows b003 and b005 sit on the target page beside the gutter. They and the unarrowed b006 appear to key these notes to entries on fol. 205, for example the cancelled Mṛtyuñjaya-sahasranāma entry and the Merutantra or Medinīkośa entries. This attachment is inferred from layout only.",
+      "Faint show-through text of fol. 205 was not treated as target-page text."
+    ],
+    "uncertainties": [
+      "Exact readings in the cancelled line b002 are uncertain, including 'sahasranāma…' and the final word 'part'.",
+      "The cancelled word under 'overlapping' in b004 is illegible.",
+      "The '9'-like mark beneath b006 may be a numeral or a query mark.",
+      "No arrow is visible on the target side of the gutter for b006; the arrow on that line lies across the gutter on fol. 205."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "204b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "204ᵇ.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top-left corner; 'b' written superscript after 204, followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "cancelled_note_keyed_to_facing_page",
+        "literal_text": "⟦Mṛtyuñjaya sahasranām[ā?]khyāna[?], being Devīrahasyatantra, part[?]⟧ ←",
+        "fields": {
+          "title": "⟦Mṛtyuñjaya sahasranām[ā?]khyāna[?]⟧",
+          "source": "⟦being Devīrahasyatantra, part[?]⟧"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink; the entire line is struck through with a horizontal stroke.",
+          "Pencil left-pointing arrow (b003) near the gutter on the same ruled line. It points toward fol. 205."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 409,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.289(3) ⟦Mṛtyuñjayasahasranāma … From the Devīrahasya Tantra⟧ (with margin 'see Devīrahasyatantra')",
+            "evidence": "The arrow on the same line points across the gutter to the cancelled Mṛtyuñjaya entry at the corresponding height on fol. 205. The title wording also matches.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The middle and final words of the cancelled line are uncertain: 'sahasranāmākhyāna' and 'part' (the last word may read 'pat')."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_keyed_to_facing_page",
+        "literal_text": "ff 1-41 and 34-146, complete with some ⟦[illegible]⟧ overla[interlined]pping, in several hands ←",
+        "fields": {
+          "extent": "ff 1-41 and 34-146"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "'overla' (or 'overlapping') is interlined above a short cancelled word, before 'pping'.",
+          "Pencil left-pointing arrow (b005) toward the gutter on the same line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 409,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.37(2) Medinīkośa",
+            "evidence": "The arrow on this line points to fol. 205. At that height fol. 205 has a left-pointing arrow beside the Medinīkośa c.37(2) entry. The attachment is based on layout only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The cancelled word under the interlineation is illegible.",
+          "The exact extent of the interlined portion is uncertain ('overla' vs 'overlapping')."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_and_bibliographic_reference",
+        "literal_text": "ff. 333, numbered up to 106 only. Cf. Eggeling 2570. Differs from H.P. Śāstri, Nepal MSS, Vol. II, p. 115.",
+        "fields": {
+          "extent": "ff. 333, numbered up to 106 only",
+          "source": "Cf. Eggeling 2570. Differs from H.P. Śāstri, Nepal MSS, Vol. II, p. 115."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, single long line.",
+          "No arrow is on the target side of the gutter. A large arrow lies on fol. 205 at the same height."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 409,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b.54 Merutantra … n.d.: 333: 11: Newari",
+            "evidence": "The arrow on fol. 205 at the same height marks the Merutantra b.54 entry. Its extent figure 333 matches 'ff. 333'.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Vol. II' is read from a roman numeral with a ligature-like form."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "mark",
+        "literal_text": "9[?]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A small mark resembling '9' or '?' with a dot below it, beneath the end of r004."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 408,
+            "target_record_id": "r004",
+            "target_block_id": "b006",
+            "target_anchor": "p. 115.",
+            "evidence": "Positioned directly under the end of the line.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It may be a numeral, a query mark, or a stray mark."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "specks",
+        "literal_text": "[illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A cluster of dots or specks below the start of b004; possibly offset ink or pencil specks."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It may not be writing at all."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          2860,
+          4500,
+          50,
+          100
+        ],
+        "kind_hint": "mark",
+        "anchor": "9 / ? with dot",
+        "features": [
+          "below end of b006"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          450,
+          4150,
+          90,
+          70
+        ],
+        "kind_hint": "specks",
+        "anchor": "dots",
+        "features": [
+          "below start of b004",
+          "illegible"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Cancelled note."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow on the same line as b002, keying it to the facing page."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Note."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Arrow on the same line as b004."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Note with bibliographic references."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Mark below b006 (from the inventory's unattached marks)."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Specks below b004 (from the inventory's unattached marks)."
+      }
+    ],
+    "page_annotations": [
+      "The page is ruled. Most of it carries only faint mirror-image show-through, which was not transcribed.",
+      "Gutter stitching runs at x≈3170. Material to its right ('e.' marks, 'see Devīrahasyatantra', arrows) belongs to fol. 205 and is excluded.",
+      "No holdings or headings are present. The notes appear to be verso additions keyed by arrows to entries on fol. 205."
+    ],
+    "unresolved_relationships": [
+      "The attachments of r002, r003 and r004 to fol. 205 entries rest on arrow position and line height only. r004 is supported by the matching extent '333'."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The pencil '204' with superscript 'b' and a following dot is at the top left. The candidate's literal '204ᵇ.' matches the image."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single ink line is struck through. The readings 'sahasranām[ā?]khyāna[?]' and the final 'part[?]' (possibly 'pat') remain uncertain, as the candidate states. The cancellation is preserved."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The pencil arrow at about x 3035–3135, y 2190 lies on the target side of the stitching. It points LEFT, toward the note text and away from the gutter. The candidate's statement that it points toward fol. 205 is incorrect."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The ink line is present. An interlined 'overla' sits above a short cancelled word, and 'pping' continues on the line. The last word reads 'hand' followed by a stroke, so 's' versus a closing mark is uncertain. The literal contains an editorial '[interlined]' marker inside the word."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The pencil arrow at about x 2880–2975, y 4090–4125 points LEFT toward the note, not toward the gutter. A separate left-pointing arrow lies across the gutter on fol. 205 at about x 3370 and is excluded."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The ink line is fully legible apart from the punctuation after 'ff', which is a short mid-height stroke: period or hyphen. No arrow appears on the target side. The large arrow at about x 3230–3360, y 4440–4520 is on the fol. 205 side."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "A '9'/'?'-like mark with a dot below sits under the end of b006. Its function is unresolved."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "Specks below the start of b004. They are probably not writing."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Ink; the entire line is struck through with a horizontal stroke.",
+          "Pencil left-pointing arrow (b003) near the gutter on the same ruled line. It points toward fol. 205."
+        ],
+        "after": [
+          "Ink; the entire line is struck through with a horizontal stroke.",
+          "Pencil left-pointing arrow (b003) near the gutter on the same ruled line, on the target side of the stitching. It points leftward toward the note text, away from the gutter."
+        ],
+        "reason": "The arrow head is on its left end. It points toward the note, not across the gutter.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 409,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.289(3) ⟦Mṛtyuñjayasahasranāma … From the Devīrahasya Tantra⟧ (with margin 'see Devīrahasyatantra')",
+            "evidence": "The arrow on the same line points across the gutter to the cancelled Mṛtyuñjaya entry at the corresponding height on fol. 205. The title wording also matches.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 409,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.289(3) ⟦Mṛtyuñjayasahasranāma … From the Devīrahasya Tantra⟧ (with margin 'see Devīrahasyatantra')",
+            "evidence": "Fol. 205 has a cancelled Mṛtyuñjaya entry, a left-pointing arrow and a margin note 'see Devīrahasyatantra' at the same height as this line. The pencil arrow on this page points left toward the note. The title wording is similar. The fol. 205 reading is from a reduced adjacent image.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The evidence statement described the arrow direction incorrectly.",
+        "source_block_ids": [
+          "b002",
+          "b003"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "ff 1-41 and 34-146, complete with some ⟦[illegible]⟧ overla[interlined]pping, in several hands ←",
+        "after": "ff 1-41 and 34-146, complete with some ⟦[illegible]⟧ overlapping, in several hand[s?] ←",
+        "reason": "The interlineation is an annotation and should not be a marker inside the literal text. The final letter after 'hand' is an uncertain stroke.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "Ink.",
+          "'overla' (or 'overlapping') is interlined above a short cancelled word, before 'pping'.",
+          "Pencil left-pointing arrow (b005) toward the gutter on the same line."
+        ],
+        "after": [
+          "Ink.",
+          "'overla' (or 'overlapping') is interlined above a short cancelled word, before 'pping' on the line.",
+          "Pencil left-pointing arrow (b005) near the gutter on the same line, on the target side of the stitching. It points leftward toward the note text."
+        ],
+        "reason": "The arrow direction was misdescribed.",
+        "source_block_ids": [
+          "b004",
+          "b005"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 409,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.37(2) Medinīkośa",
+            "evidence": "The arrow on this line points to fol. 205. At that height fol. 205 has a left-pointing arrow beside the Medinīkośa c.37(2) entry. The attachment is based on layout only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 409,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c.37(2) Medinīkośa",
+            "evidence": "The pencil arrow on this line points left toward the note. At about the same height, fol. 205 has left-pointing arrows in its inner margin beside the c.37(2) Medinīkośa entry. The attachment is based on layout only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "This corrects the arrow direction in the evidence.",
+        "source_block_ids": [
+          "b005"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The cancelled word under the interlineation is illegible.",
+          "The exact extent of the interlined portion is uncertain ('overla' vs 'overlapping')."
+        ],
+        "after": [
+          "The cancelled word under the interlineation is illegible.",
+          "The exact extent of the interlined portion is uncertain ('overla' vs 'overlapping').",
+          "The final word may be 'hands' or 'hand' followed by a closing stroke."
+        ],
+        "reason": "The terminal stroke is ambiguous.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "'Vol. II' is read from a roman numeral with a ligature-like form."
+        ],
+        "after": [
+          "'Vol. II' is read from a roman numeral with a ligature-like form.",
+          "The punctuation after 'ff' is a short stroke and may be a period or a hyphen ('ff-333')."
+        ],
+        "reason": "The image shows a mid-height stroke after 'ff'.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b901"
+        ],
+        "issue": "The function of the '9'/'?'-like mark is unknown.",
+        "next_check": "Compare with similar marks elsewhere in the volume."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "issue": "The attachment to Medinīkośa c.37(2) rests on layout only.",
+        "next_check": "Inspect fol. 205 at native resolution at about y 4090."
+      }
+    ],
+    "boundary_review": "The stitching is at about x 3170–3190. The 'e.' marks, 'see Devīrahasyatantra', and the arrows at about x 3370, y 4100 and x 3230–3360, y 4440–4520 belong to fol. 205 and are excluded. Arrows b003 and b005 lie on the target side. The attachments of the notes to fol. 205 entries are inferred, not secure.",
+    "region_review": {
+      "top": "Only the folio number '204ᵇ.' appears, plus faint show-through.",
+      "middle": "Only the cancelled line b002 and arrow b003 appear. The rest is show-through from fol. 205, which is not transcribed.",
+      "bottom": "Notes b004 and b006, specks b902, mark b901 and arrow b005 are present. The faint dots near x 1660–1720, y 4200 appear to be specks or show-through and are not text.",
+      "left_margin": "Nothing beyond the page-edge rulings.",
+      "right_margin": "Arrows b003 and b005 are on the target side. Material beyond the gutter is excluded.",
+      "interlinear": "Only the interlined 'overla' in b004, written above a cancelled word."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        320,
+        155,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "204b",
+      "features": [
+        "pencil",
+        "top-left corner",
+        "'b' written superscript after 204"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        360,
+        2130,
+        1580,
+        130
+      ],
+      "kind_hint": "cancelled_note",
+      "anchor": "⟦Mṛtyuñjaya sahasranāma…, being Devīrahasyatantra, part⟧",
+      "features": [
+        "ink",
+        "entire line struck through with horizontal stroke",
+        "single line on ruled line",
+        "keyed by a left-pointing arrow at right toward the gutter"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        3020,
+        2180,
+        120,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "pencil",
+        "left-pointing arrow near the gutter",
+        "on the same line as b002"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        440,
+        4030,
+        1490,
+        110
+      ],
+      "kind_hint": "note",
+      "anchor": "ff 1-41 and 34-146, complete with some … in several hands",
+      "features": [
+        "ink",
+        "'overlapping' interlined above a cancelled short word [reading?]",
+        "some letterforms cramped"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        2870,
+        4085,
+        110,
+        45
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "pencil",
+        "left-pointing arrow toward the gutter",
+        "on the same line as b004"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        490,
+        4380,
+        2380,
+        140
+      ],
+      "kind_hint": "note",
+      "anchor": "ff. 333, numbered up to 106 only. Cf. Eggeling 2570. Differs from H.P. Śāstri, Nepal MSS, Vol. II, p. 115.",
+      "features": [
+        "ink",
+        "bibliographic cross-reference to Eggeling",
+        "reference to Śāstri Nepal catalogue",
+        "single long line"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        2860,
+        4500,
+        50,
+        100
+      ],
+      "kind_hint": "mark",
+      "anchor": "9 / ? with dot",
+      "features": [
+        "below end of b006"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        450,
+        4150,
+        90,
+        70
+      ],
+      "kind_hint": "specks",
+      "anchor": "dots",
+      "features": [
+        "below start of b004",
+        "illegible"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "204ᵇ.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top-left corner; 'b' written superscript after 204, followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0408-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "cancelled_note_keyed_to_facing_page",
+      "literal_text": "⟦Mṛtyuñjaya sahasranām[ā?]khyāna[?], being Devīrahasyatantra, part[?]⟧ ←",
+      "fields": {
+        "title": "⟦Mṛtyuñjaya sahasranām[ā?]khyāna[?]⟧",
+        "source": "⟦being Devīrahasyatantra, part[?]⟧"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink; the entire line is struck through with a horizontal stroke.",
+        "Pencil left-pointing arrow (b003) near the gutter on the same ruled line, on the target side of the stitching. It points leftward toward the note text, away from the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 409,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.289(3) ⟦Mṛtyuñjayasahasranāma … From the Devīrahasya Tantra⟧ (with margin 'see Devīrahasyatantra')",
+          "evidence": "Fol. 205 has a cancelled Mṛtyuñjaya entry, a left-pointing arrow and a margin note 'see Devīrahasyatantra' at the same height as this line. The pencil arrow on this page points left toward the note. The title wording is similar. The fol. 205 reading is from a reduced adjacent image.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The middle and final words of the cancelled line are uncertain: 'sahasranāmākhyāna' and 'part' (the last word may read 'pat')."
+      ],
+      "stable_id": "css-prod-0408-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_keyed_to_facing_page",
+      "literal_text": "ff 1-41 and 34-146, complete with some ⟦[illegible]⟧ overla[interlined]pping, in several hands ←",
+      "fields": {
+        "extent": "ff 1-41 and 34-146"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "'overla' (or 'overlapping') is interlined above a short cancelled word, before 'pping' on the line.",
+        "Pencil left-pointing arrow (b005) near the gutter on the same line, on the target side of the stitching. It points leftward toward the note text."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 409,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.37(2) Medinīkośa",
+          "evidence": "The pencil arrow on this line points left toward the note. At about the same height, fol. 205 has left-pointing arrows in its inner margin beside the c.37(2) Medinīkośa entry. The attachment is based on layout only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The cancelled word under the interlineation is illegible.",
+        "The exact extent of the interlined portion is uncertain ('overla' vs 'overlapping')."
+      ],
+      "stable_id": "css-prod-0408-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_and_bibliographic_reference",
+      "literal_text": "ff. 333, numbered up to 106 only. Cf. Eggeling 2570. Differs from H.P. Śāstri, Nepal MSS, Vol. II, p. 115.",
+      "fields": {
+        "extent": "ff. 333, numbered up to 106 only",
+        "source": "Cf. Eggeling 2570. Differs from H.P. Śāstri, Nepal MSS, Vol. II, p. 115."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, single long line.",
+        "No arrow is on the target side of the gutter. A large arrow lies on fol. 205 at the same height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 409,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b.54 Merutantra … n.d.: 333: 11: Newari",
+          "evidence": "The arrow on fol. 205 at the same height marks the Merutantra b.54 entry. Its extent figure 333 matches 'ff. 333'.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Vol. II' is read from a roman numeral with a ligature-like form."
+      ],
+      "stable_id": "css-prod-0408-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "mark",
+      "literal_text": "9[?]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A small mark resembling '9' or '?' with a dot below it, beneath the end of r004."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 408,
+          "target_record_id": "r004",
+          "target_block_id": "b006",
+          "target_anchor": "p. 115.",
+          "evidence": "Positioned directly under the end of the line.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It may be a numeral, a query mark, or a stray mark."
+      ],
+      "stable_id": "css-prod-0408-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "specks",
+      "literal_text": "[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A cluster of dots or specks below the start of b004; possibly offset ink or pencil specks."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It may not be writing at all."
+      ],
+      "stable_id": "css-prod-0408-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Ink; the entire line is struck through with a horizontal stroke.",
+        "Pencil left-pointing arrow (b003) near the gutter on the same ruled line. It points toward fol. 205."
+      ],
+      "after": [
+        "Ink; the entire line is struck through with a horizontal stroke.",
+        "Pencil left-pointing arrow (b003) near the gutter on the same ruled line, on the target side of the stitching. It points leftward toward the note text, away from the gutter."
+      ],
+      "reason": "The arrow head is on its left end. It points toward the note, not across the gutter.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 409,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.289(3) ⟦Mṛtyuñjayasahasranāma … From the Devīrahasya Tantra⟧ (with margin 'see Devīrahasyatantra')",
+          "evidence": "The arrow on the same line points across the gutter to the cancelled Mṛtyuñjaya entry at the corresponding height on fol. 205. The title wording also matches.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 409,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.289(3) ⟦Mṛtyuñjayasahasranāma … From the Devīrahasya Tantra⟧ (with margin 'see Devīrahasyatantra')",
+          "evidence": "Fol. 205 has a cancelled Mṛtyuñjaya entry, a left-pointing arrow and a margin note 'see Devīrahasyatantra' at the same height as this line. The pencil arrow on this page points left toward the note. The title wording is similar. The fol. 205 reading is from a reduced adjacent image.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The evidence statement described the arrow direction incorrectly.",
+      "source_block_ids": [
+        "b002",
+        "b003"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "ff 1-41 and 34-146, complete with some ⟦[illegible]⟧ overla[interlined]pping, in several hands ←",
+      "after": "ff 1-41 and 34-146, complete with some ⟦[illegible]⟧ overlapping, in several hand[s?] ←",
+      "reason": "The interlineation is an annotation and should not be a marker inside the literal text. The final letter after 'hand' is an uncertain stroke.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "Ink.",
+        "'overla' (or 'overlapping') is interlined above a short cancelled word, before 'pping'.",
+        "Pencil left-pointing arrow (b005) toward the gutter on the same line."
+      ],
+      "after": [
+        "Ink.",
+        "'overla' (or 'overlapping') is interlined above a short cancelled word, before 'pping' on the line.",
+        "Pencil left-pointing arrow (b005) near the gutter on the same line, on the target side of the stitching. It points leftward toward the note text."
+      ],
+      "reason": "The arrow direction was misdescribed.",
+      "source_block_ids": [
+        "b004",
+        "b005"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 409,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.37(2) Medinīkośa",
+          "evidence": "The arrow on this line points to fol. 205. At that height fol. 205 has a left-pointing arrow beside the Medinīkośa c.37(2) entry. The attachment is based on layout only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 409,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c.37(2) Medinīkośa",
+          "evidence": "The pencil arrow on this line points left toward the note. At about the same height, fol. 205 has left-pointing arrows in its inner margin beside the c.37(2) Medinīkośa entry. The attachment is based on layout only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "This corrects the arrow direction in the evidence.",
+      "source_block_ids": [
+        "b005"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The cancelled word under the interlineation is illegible.",
+        "The exact extent of the interlined portion is uncertain ('overla' vs 'overlapping')."
+      ],
+      "after": [
+        "The cancelled word under the interlineation is illegible.",
+        "The exact extent of the interlined portion is uncertain ('overla' vs 'overlapping').",
+        "The final word may be 'hands' or 'hand' followed by a closing stroke."
+      ],
+      "reason": "The terminal stroke is ambiguous.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "'Vol. II' is read from a roman numeral with a ligature-like form."
+      ],
+      "after": [
+        "'Vol. II' is read from a roman numeral with a ligature-like form.",
+        "The punctuation after 'ff' is a short stroke and may be a period or a hyphen ('ff-333')."
+      ],
+      "reason": "The image shows a mid-height stroke after 'ff'.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2c499019-6d02-42d3-8387-57dea344aad9.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c499019-6d02-42d3-8387-57dea344aad9/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "bf777db5567018ddb385b25a9bf7d585ec6559c83bf27c6bb0bacaf7c6f05dd0",
+      "bytes": 264922,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c499019-6d02-42d3-8387-57dea344aad9/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0025e826bda3e3562228e1df491de4dff7a500fe32a518a20d744cc5c1bb5313",
+      "bytes": 307514,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c499019-6d02-42d3-8387-57dea344aad9/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "27be4bfa32a57bc3798a286629802825b5941acc6432b1b5014539d737904035",
+      "bytes": 298240,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c499019-6d02-42d3-8387-57dea344aad9/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a3e63deb7a2afb823640c0fc47c88486480f35d69685c126f89fa093c5e64099",
+      "bytes": 329871,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c499019-6d02-42d3-8387-57dea344aad9/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9e57b508fc05c6ea432679a10c03059ec71f8b1d7ba78ab96708e10ce0045ae5",
+      "bytes": 290982,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c499019-6d02-42d3-8387-57dea344aad9/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b970c2e5c82da539454fdba7f5f0cb192bfef09050f19273e8dca4176b68a92d",
+      "bytes": 348769,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2c499019-6d02-42d3-8387-57dea344aad9/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8bfa94d8b958b7e3dc1369fc7750fc234a95d1fa916749273bfb7879a4bb3001",
+      "bytes": 332046,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/477d6b41-5957-4f38-8bc7-dba0d7b77ac6/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "e15c10436d492811b25798e965c7aef05dfcb4a6a5c0b15752b465002081c908",
+      "bytes": 283154,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 407,
+      "folio_label": "fol. 204",
+      "page_id": "477d6b41-5957-4f38-8bc7-dba0d7b77ac6",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e59c09bb-696e-45e5-b455-801f5a38870a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c332630008a99d56e65f880e3e2b5bf2e18e3fdb0013abce426a8043a254f174",
+      "bytes": 272004,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 409,
+      "folio_label": "fol. 205",
+      "page_id": "e59c09bb-696e-45e5-b455-801f5a38870a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

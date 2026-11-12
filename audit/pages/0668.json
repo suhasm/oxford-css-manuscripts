@@ -1,0 +1,462 @@
+{
+  "source_order": 668,
+  "folio_label": "fol. 334b",
+  "page_id": "075ddf27-a839-4a5f-8044-8b89f5101775",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "334b",
+    "principal_page_bbox": [
+      290,
+      275,
+      2805,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          495,
+          355,
+          175,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "334 with superscript b",
+        "features": [
+          "handwritten folio number in the upper left of the margin column",
+          "\"b\" written raised after \"334\"",
+          "a small comma-like stroke beneath the \"b\""
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          460,
+          370,
+          90,
+          60
+        ],
+        "description": "Faint grey smudge just above and left of the folio number. It may be an erasure or offset. No legible text."
+      },
+      {
+        "bbox": [
+          300,
+          640,
+          2790,
+          3800
+        ],
+        "description": "Faint mirror-image show-through runs across the ruled lines of both the shelfmark column and the main column. It appears to come from the writing on the other side of the leaf (fol. 334). It is not target-page ink and has not been transcribed as entries."
+      },
+      {
+        "bbox": [
+          2230,
+          1160,
+          20,
+          20
+        ],
+        "description": "Isolated small dark dot in the main column. It is probably a speck."
+      }
+    ],
+    "boundary_notes": [
+      "The right side of the image beyond the gutter (about x>3100) shows the shelfmark column of the facing page, fol. 335. That column includes \"d. 1007\", \"d. 1017\", \"f. 85\", the cancelled \"c. 454\" through \"d. 295(2)\", and \"? in Hindi\". These are facing-page fragments, not target records, and are excluded from this inventory.",
+      "The vertical ruled margin line is at about x=835. Horizontal rules run down the page. No ink entries appear on these lines on the target page."
+    ],
+    "uncertainties": [
+      "The exact form of the mark after \"334\" is uncertain. It could be a superscript \"b\" with a comma or another stroke.",
+      "Whether the faint smudge near the folio number is an erased pencil note cannot be determined at this resolution."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "334b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "334b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio number in the upper left of the shelfmark (margin) column, at about [495,355,175,150].",
+          "The \"b\" is written raised (superscript) after \"334\".",
+          "A small comma-like stroke sits beneath the raised \"b\". It is not transcribed as text."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The exact form of the raised mark after \"334\" is uncertain. It is read as \"b\", with an accompanying comma-like stroke whose function is unclear."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only target-page ink. It is recorded as non-catalogue text."
+      }
+    ],
+    "page_annotations": [
+      "The page was reviewed at native resolution across the top, middle, bottom, outer margin and gutter. Apart from the folio number \"334b\", there are no ink or pencil catalogue entries, headings, cross-references or marginal notes on the target page.",
+      "Faint mirror-image show-through from the writing on the other side of the leaf (fol. 334) is visible across the ruled lines of both columns, at about [300,640,2790,3800]. It is not target-page ink and has not been transcribed.",
+      "There is a faint grey smudge just above and left of the folio number, at about [460,370,90,60]. It may be an erasure or offset. No legible text could be read in it.",
+      "Scattered small dark specks occur, e.g. at about [2230,1160,20,20] and at about [880,4010] in the margin column. They are treated as paper specks, not text.",
+      "The ruled vertical margin line is at about x=835. The horizontal rules are empty.",
+      "The right edge beyond the gutter (about x>3100) shows the shelfmark column of the facing page, fol. 335. Visible there are \"d. 1007\", \"d. 1017\", \"f. 85\", \"d. 1070(6\", \"e. 244\", \"f. 84\", the cancelled \"c. 454\", \"d. 295(2\" and \"? in Hindi\". These are facing-page fragments and are excluded as target records."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The native tile confirms the folio number in the upper left of the shelfmark column. It reads \"334\", followed by a raised letter-like mark that is read as \"b\", with a small comma-like stroke between and below them, at about x≈620–635, y≈440–465. The bbox [495,355,175,150] covers the numerals and the raised mark. The record is correctly classed as non-catalogue text, and the uncertainty about the raised mark is kept."
+      },
+      {
+        "block_id": "unattached_mark_smudge_near_folio",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "A faint grey smudge sits above and left of the folio number, at about [460,370,90,60]. Native review finds no legible strokes in it. It is recorded in page_annotations as a possible erasure or offset. It is not made into a text record."
+      },
+      {
+        "block_id": "unattached_mark_show_through",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Mirror-image show-through runs across both columns. It is faint, reversed and not legible as target-page ink, and is recorded in page_annotations only. Its attribution to the other side of the leaf is an inference from its reversed appearance. No target-page entries are hidden in it."
+      },
+      {
+        "block_id": "unattached_mark_specks",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Isolated dark specks occur at about [2230,1160] and at about [880,4016] in the margin column, and possibly elsewhere. They are paper specks, not text, and are recorded in page_annotations."
+      },
+      {
+        "block_id": "facing_page_shelfmark_fragments",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Beyond the gutter (x≈3100+) the shelfmark column of fol. 335 is visible, ending with \"d. 295(2\" and \"? in Hindi\". The adjacent fol. 335 image confirms these belong to that page. They are correctly excluded as target records and are noted in page_annotations."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The raised character after \"334\" is read as \"b\" (matching the supplied label fol. 334b). Its loop form could also resemble a \"6\". The function of the accompanying comma-like stroke is unclear.",
+        "next_check": "Compare with other \"b\" folio suffixes in the same catalogue hand."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "unattached_mark_smudge_near_folio"
+        ],
+        "issue": "It cannot be determined whether the smudge near the folio number is an erased pencil note.",
+        "next_check": "Consult a higher-contrast or raking-light image."
+      }
+    ],
+    "boundary_review": "The target page runs from about x=290 to the gutter at about x≈3090. The right strip shows the shelfmark column of fol. 335 (\"d. 1007\" through \"d. 295(2\" and \"? in Hindi\"), and the adjacent image confirms it belongs there. It is excluded from the target. No target-page ink crosses the gutter. There are no continuation or ditto relationships to resolve, because the page has no entries.",
+    "region_review": {
+      "top": "Only the folio number \"334b\" (raised b) and a faint smudge; no other ink.",
+      "middle": "Ruled lines carry only faint reversed show-through and specks; no target-page ink or pencil entries.",
+      "bottom": "The lowest ruled lines and the bottom edge are empty; no bottom note was found.",
+      "left_margin": "The shelfmark column (x≈300–835) is empty apart from the folio number, show-through and specks.",
+      "right_margin": "The main column's right edge and the gutter are empty. Beyond the gutter are facing-page fragments only.",
+      "interlinear": "No interlinear additions, corrections or cancellations were found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        495,
+        355,
+        175,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "334 with superscript b",
+      "features": [
+        "handwritten folio number in the upper left of the margin column",
+        "\"b\" written raised after \"334\"",
+        "a small comma-like stroke beneath the \"b\""
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "334b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio number in the upper left of the shelfmark (margin) column, at about [495,355,175,150].",
+        "The \"b\" is written raised (superscript) after \"334\".",
+        "A small comma-like stroke sits beneath the raised \"b\". It is not transcribed as text."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The exact form of the raised mark after \"334\" is uncertain. It is read as \"b\", with an accompanying comma-like stroke whose function is unclear."
+      ],
+      "stable_id": "css-prod-0668-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/075ddf27-a839-4a5f-8044-8b89f5101775.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/075ddf27-a839-4a5f-8044-8b89f5101775/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "95fbb0b6412f6e481eb3d12de8c4fb4cb6c13f1b2afb49f3c112c8d69e1822d3",
+      "bytes": 297649,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/075ddf27-a839-4a5f-8044-8b89f5101775/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fde6af3bbc7970162f49160e7e54a7e5dd594f3ca7f862be1643242aee85fa38",
+      "bytes": 355957,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/075ddf27-a839-4a5f-8044-8b89f5101775/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8c63b0beb3850d2a3ae6d7d09ab033eef43f4f73b5a856bfc0c72754ba71b400",
+      "bytes": 389890,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/075ddf27-a839-4a5f-8044-8b89f5101775/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "e86f078f1e2b544627339fc9df0c3438fbe1c6e0e8b9a4aaff56ef3a1343b035",
+      "bytes": 366133,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/075ddf27-a839-4a5f-8044-8b89f5101775/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "a64537308d45a7d513f5c47a5fdd61f55c44e86f2875720686e26daa3504e3f9",
+      "bytes": 403409,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/075ddf27-a839-4a5f-8044-8b89f5101775/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c94bb221bb67392a6ed53198ed0a26279c877d46ed5b8f894b46eecdd88b8ba1",
+      "bytes": 343467,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/075ddf27-a839-4a5f-8044-8b89f5101775/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "26a1be2dc6d44d563aa683fe045d7acc7221ebcb49359e3e5098a49f0431324f",
+      "bytes": 396841,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/8eb24bc2-1c65-4859-a963-195133b98971/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "52246057ee18ee6ef6496e76c2b9b3c7a41facb3b993c85dfa6d3a111be8ec41",
+      "bytes": 319550,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 667,
+      "folio_label": "fol. 334",
+      "page_id": "8eb24bc2-1c65-4859-a963-195133b98971",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eacdef7d-c6e0-4e31-86a5-6c5a2348e59e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ae5f7b78e8cafa5beb4d3b85cceb951f402c608a737c328c0de184072d8bb371",
+      "bytes": 310936,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 669,
+      "folio_label": "fol. 335",
+      "page_id": "eacdef7d-c6e0-4e31-86a5-6c5a2348e59e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

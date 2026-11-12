@@ -1,0 +1,817 @@
+{
+  "source_order": 670,
+  "folio_label": "fol. 335b",
+  "page_id": "07e17838-7d45-452d-b411-13bccc5b67b5",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "335b",
+    "principal_page_bbox": [
+      350,
+      300,
+      2810,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          500,
+          380,
+          190,
+          170
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "335b",
+        "features": [
+          "pencil",
+          "top left margin",
+          "superscript-like 'b' after 335"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          1150,
+          800,
+          1510,
+          160
+        ],
+        "kind_hint": "author_title_cross_reference",
+        "anchor": "Yasavanta Simha (Jasvant Singh), Bhāṣābhūṣaṇa",
+        "features": [
+          "ink",
+          "centred in main column",
+          "isolated line, no shelfmark or date",
+          "reading of parenthetical uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          440,
+          2900,
+          2620,
+          130
+        ],
+        "kind_hint": "entry",
+        "anchor": "d. 1070(3) | Viśvāmitramakharakṣaṇa by Janārdana s/o Bāla. Stotra | n.d.:2:18:D.",
+        "features": [
+          "ink",
+          "shelfmark in left column",
+          "date/extent/script at right",
+          "s/o abbreviation",
+          "fine ink line runs from after the date toward the gutter; arrowhead lies beyond the gutter on the facing page"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3020,
+          2900,
+          140,
+          60
+        ],
+        "description": "Thin ink line drawn from after 'n.d.:2:18:D.' toward the gutter, continuing as an arrow on the facing page. It apparently indicates the insertion point of the b003 entry in the facing page's sequence."
+      },
+      {
+        "bbox": [
+          370,
+          700,
+          2790,
+          4100
+        ],
+        "description": "Faint show-through of handwriting from the reverse side across the ruled page; not text written on this page."
+      }
+    ],
+    "boundary_notes": [
+      "Right of the gutter (x≈3160+) are fragments of the facing page fol. 336, including shelfmarks c.205, d.1070(1), the arrowhead, f.19 and c.443(4). These are not target records.",
+      "The arrowhead at about [3210,2860,120,60] lies on the facing page. Only the connecting line is on the target page."
+    ],
+    "uncertainties": [
+      "The exact letterforms of 'Simha' and of the parenthetical 'Jasvant Singh' in b002 are uncertain.",
+      "'Bāla' and 'Stotra' in b003 are read with moderate confidence.",
+      "Whether b002 is an independent cross-reference or a heading for b003 is unclear. It is treated as independent because it names a different author and title."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "335b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "335b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil, top left margin. The 'b' is raised, superscript-like, after '335'. A small mark beneath the 'b' may be a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is not certain whether the small mark under the raised 'b' is a dot or part of the letter."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "cross_reference",
+        "subtype": "author_title_cross_reference",
+        "literal_text": "Yasavanta Simha (Jasvant Singh), Bhāṣābhūṣaṇa",
+        "fields": {
+          "author": "Yasavanta Simha (Jasvant Singh)",
+          "title": "Bhāṣābhūṣaṇa"
+        },
+        "normalized_title": "Bhāṣābhūṣaṇa",
+        "annotations": [
+          "Ink. A single isolated line, centred in the main column, near the top. There is no shelfmark, date or extent. It has the same format as the author/work lists on fol. 336, for example 'Mahipati, ...'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 669,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "f. 22(1) Bhāṣābhūṣaṇa by Yasavanta (Jasvant) Siṁha",
+            "evidence": "The same title and author name appear in the holding f.22(1) on fol. 335.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The exact letterforms and diacritics of 'Simha' (possibly Siṁha) and of the parenthetical 'Jasvant Singh' (possibly Siṅgh) are uncertain.",
+          "The initial letter could be read as J or Y. It is read as Y by comparison with the hand's usage."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003",
+          "b901"
+        ],
+        "type": "holding",
+        "subtype": "inserted_entry",
+        "literal_text": "d. 1070(3)    Viśvāmitramakharakṣaṇa by Janārdana s/o Bāla. Stotra.    n.d.:2:18:D.",
+        "fields": {
+          "shelfmark": "d. 1070(3)",
+          "title": "Viśvāmitramakharakṣaṇa",
+          "author": "Janārdana s/o Bāla",
+          "subject": "Stotra",
+          "date": "n.d.",
+          "extent": "2",
+          "lines": "18",
+          "script": "D."
+        },
+        "normalized_title": "Viśvāmitramakharakṣaṇa",
+        "annotations": [
+          "Ink. The shelfmark is in the left column, and the date:extent:lines:script is at the right.",
+          "'s/o' is written as a stacked abbreviation.",
+          "A fine ink line runs from after 'n.d.:2:18:D.' toward the gutter. It continues as an arrowhead on facing fol. 336, between the shelfmarks d.1021(3) and d.999(9). This apparently marks an insertion point in that page's sequence."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 671,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "arrow between 'd.1021(3) Vivekasindhu' and 'd.999(9) Vaidyaka'",
+            "evidence": "A connecting line on the target page leads to an arrowhead on the facing page at that position.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'Bāla' and 'Stotra' are read with moderate confidence. 'Stotra' could be the abbreviation 'Stotr.'",
+          "The first digit '1' of '1070' is written as a small mark and is ambiguous.",
+          "Fol. 336 lists 'd. 1070(3)' with a different title, Varāhajayantīkathā. This conflict is not resolved here."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3020,
+          2880,
+          140,
+          70
+        ],
+        "kind_hint": "connector_line",
+        "anchor": "line after 'n.d.:2:18:D.'",
+        "features": [
+          "fine ink line",
+          "leads to an arrowhead on the facing page beyond the gutter"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "An independent author/title cross-reference. It is not treated as a heading for b003, which has a different author and title."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "A single holding entry."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "A connector line attached to the end of the b003 entry. It is described in the annotations."
+      }
+    ],
+    "page_annotations": [
+      "Faint show-through of handwriting from the reverse side covers most of the ruled page. It is not text written on this page and was not transcribed.",
+      "Fragments of facing fol. 336 lie right of the gutter (shelfmarks c.205, d.1070(1), ... f.19, c.443(4), and the arrowhead). They are not target records.",
+      "The bottom, the margins and the remaining lines were reviewed. No other writing is present."
+    ],
+    "unresolved_relationships": [
+      "The exact insertion position that the b003 arrow indicates on fol. 336 is probable, not certain.",
+      "Whether r002 is meant as a cross-reference to fol. 335 f.22(1) is probable, not certain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "A pencil '335' with a raised 'b' is in the top-left margin at about [505,380,170,165]. There is a small dot under or after the 'b'. The literal text and the uncertainty about the dot are adequate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single isolated ink line in the main column at about y 810–955, x 1160–2650. It has no shelfmark, date or extent. The initial letters of 'Yasavanta' and of the parenthetical 'Jasvant' are written with very similar looped forms. The diacritics of 'Simha' and 'Singh' cannot be securely read, and the candidate correctly leaves them uncertain. No connecting line leads from this line to the gutter. It is correctly treated as an independent author/title cross-reference, not as a heading for b003."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The shelfmark 'd. 1070(3)' is in the left column at about [440,2920,320,90]. Its first digit is a small stroke that resembles 'ı'. The entry text runs across the main column, and 'n.d. :2:18:D.' is at the right, ending at about x 3030. The stacked 's/o', the underdots in 'rakṣaṇa', and 'Janārdana' are visible. The subject word after 'Bāla.' could be 'Stotra' or the abbreviation 'Stotr.'; it remains uncertain."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "A fine ink line rises slightly from after 'D.' at about x 3025 to x 3155, y about 2880–2900, toward the gutter. The arrowhead is at native x about 3210–3320, y about 2875, on the facing page. In the adjacent fol. 336 image, that arrow lies between d.1021(3) and d.999(9), with '...:2:18:D.' from this page visible to its left. The attachment to r003 is correct. This block duplicates the inventory's first unattached mark; it is the same feature, not a second one."
+      },
+      {
+        "block_id": "unattached_mark_showthrough",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Faint mirrored show-through of handwriting covers the ruled area. The page annotations correctly record it as not text written on this page. Scattered specks, for example at about [1025,3600] and [1310,3750], are paper flecks, not marks."
+      },
+      {
+        "block_id": "facing_page_fragments",
+        "status": "represented",
+        "record_ids": [],
+        "finding": "Right of the gutter (x about 3170 and beyond) are cut-off fol. 336 shelfmarks: e.2.., d.107.., d.105.., d.30.., e.24.., d.10.., d.102.., e.23.., e.21.., d.99.., d.1021.., d.99.., d.98.., d.9.., e.14.., d.98.., c.443(.., d.103.., d.107.., f.7.., '?n 29 / f.19', and c.443(4..). The arrowhead is also on that side. None of these are target records, and the candidate correctly does not record them."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 669,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "f. 22(1) Bhāṣābhūṣaṇa by Yasavanta (Jasvant) Siṁha",
+            "evidence": "The same title and author name appear in the holding f.22(1) on fol. 335.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "cross_reference",
+            "target_page_order": 669,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "f. 22(1) Bhāṣābhūṣaṇa by Yasavanta (Jasvant) Simha [diacritic not verified]",
+            "evidence": "The same title and author name appear in the holding f.22(1) on fol. 335. The reduced adjacent image does not securely show the diacritic on Simha.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The target anchor imposed a diacritic (Siṁha) that cannot be verified from the reduced adjacent image.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The subject word after 'Bāla.' may be written in full as 'Stotra' or abbreviated as 'Stotr.'. The literal text keeps 'Stotra.' with a noted uncertainty.",
+        "next_check": "Inspect the word at native resolution, about x 2560–2680, y 2900–2960."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003",
+          "b901"
+        ],
+        "issue": "Fol. 336 lists d.1070(3) as Varāhajayantīkathā, while this inserted entry gives d.1070(3) as Viśvāmitramakharakṣaṇa. The arrow targets a position between d.1021(3) and d.999(9) by alphabetical order, so the inserted entry is not placed next to the fol. 336 d.1070(3) entry. The shelfmark conflict is not resolved.",
+        "next_check": "Compare the shelfmark digits at native resolution and consult the fol. 336 sequence."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The intended placement of the cross-reference line is unknown. No connector is visible on the target page. The arrow at the top of fol. 336, before c.205, was not traced to this line.",
+        "next_check": "Check the gutter edge at about y 800–950 at native resolution for any faint connecting stroke."
+      }
+    ],
+    "boundary_review": "The target page runs from about x 350 to x 3160, with the gutter at about x 3160–3190. The fol. 336 fragments lie beyond the gutter and are excluded. The b003 connector crosses the boundary: its line is on the target page and its arrowhead is on fol. 336. The pencil folio number is on the target page.",
+    "region_review": {
+      "top": "Pencil '335b' at the top left. The upper ruled area and the top edge are otherwise blank apart from show-through.",
+      "middle": "The b002 line near the top of the text area and the b003 entry at about y 2900. All other lines between them contain only show-through.",
+      "bottom": "From y 3030 to the page foot at about y 4860, only faint show-through and specks. No note or pencil addition was found.",
+      "left_margin": "The shelfmark column holds only 'd. 1070(3)'. The other faint marks are show-through.",
+      "right_margin": "Gutter edge only, apart from the b901 connector line. The facing-page fragments beyond it are excluded.",
+      "interlinear": "No interlinear additions, cancellations or ditto marks were found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        500,
+        380,
+        190,
+        170
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "335b",
+      "features": [
+        "pencil",
+        "top left margin",
+        "superscript-like 'b' after 335"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        1150,
+        800,
+        1510,
+        160
+      ],
+      "kind_hint": "author_title_cross_reference",
+      "anchor": "Yasavanta Simha (Jasvant Singh), Bhāṣābhūṣaṇa",
+      "features": [
+        "ink",
+        "centred in main column",
+        "isolated line, no shelfmark or date",
+        "reading of parenthetical uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        440,
+        2900,
+        2620,
+        130
+      ],
+      "kind_hint": "entry",
+      "anchor": "d. 1070(3) | Viśvāmitramakharakṣaṇa by Janārdana s/o Bāla. Stotra | n.d.:2:18:D.",
+      "features": [
+        "ink",
+        "shelfmark in left column",
+        "date/extent/script at right",
+        "s/o abbreviation",
+        "fine ink line runs from after the date toward the gutter; arrowhead lies beyond the gutter on the facing page"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3020,
+        2880,
+        140,
+        70
+      ],
+      "kind_hint": "connector_line",
+      "anchor": "line after 'n.d.:2:18:D.'",
+      "features": [
+        "fine ink line",
+        "leads to an arrowhead on the facing page beyond the gutter"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "335b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil, top left margin. The 'b' is raised, superscript-like, after '335'. A small mark beneath the 'b' may be a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is not certain whether the small mark under the raised 'b' is a dot or part of the letter."
+      ],
+      "stable_id": "css-prod-0670-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "cross_reference",
+      "subtype": "author_title_cross_reference",
+      "literal_text": "Yasavanta Simha (Jasvant Singh), Bhāṣābhūṣaṇa",
+      "fields": {
+        "author": "Yasavanta Simha (Jasvant Singh)",
+        "title": "Bhāṣābhūṣaṇa"
+      },
+      "normalized_title": "Bhāṣābhūṣaṇa",
+      "annotations": [
+        "Ink. A single isolated line, centred in the main column, near the top. There is no shelfmark, date or extent. It has the same format as the author/work lists on fol. 336, for example 'Mahipati, ...'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 669,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "f. 22(1) Bhāṣābhūṣaṇa by Yasavanta (Jasvant) Siṁha",
+          "evidence": "The same title and author name appear in the holding f.22(1) on fol. 335.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The exact letterforms and diacritics of 'Simha' (possibly Siṁha) and of the parenthetical 'Jasvant Singh' (possibly Siṅgh) are uncertain.",
+        "The initial letter could be read as J or Y. It is read as Y by comparison with the hand's usage."
+      ],
+      "stable_id": "css-prod-0670-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003",
+        "b901"
+      ],
+      "type": "holding",
+      "subtype": "inserted_entry",
+      "literal_text": "d. 1070(3)    Viśvāmitramakharakṣaṇa by Janārdana s/o Bāla. Stotra.    n.d.:2:18:D.",
+      "fields": {
+        "shelfmark": "d. 1070(3)",
+        "title": "Viśvāmitramakharakṣaṇa",
+        "author": "Janārdana s/o Bāla",
+        "subject": "Stotra",
+        "date": "n.d.",
+        "extent": "2",
+        "lines": "18",
+        "script": "D."
+      },
+      "normalized_title": "Viśvāmitramakharakṣaṇa",
+      "annotations": [
+        "Ink. The shelfmark is in the left column, and the date:extent:lines:script is at the right.",
+        "'s/o' is written as a stacked abbreviation.",
+        "A fine ink line runs from after 'n.d.:2:18:D.' toward the gutter. It continues as an arrowhead on facing fol. 336, between the shelfmarks d.1021(3) and d.999(9). This apparently marks an insertion point in that page's sequence."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 671,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "arrow between 'd.1021(3) Vivekasindhu' and 'd.999(9) Vaidyaka'",
+          "evidence": "A connecting line on the target page leads to an arrowhead on the facing page at that position.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'Bāla' and 'Stotra' are read with moderate confidence. 'Stotra' could be the abbreviation 'Stotr.'",
+        "The first digit '1' of '1070' is written as a small mark and is ambiguous.",
+        "Fol. 336 lists 'd. 1070(3)' with a different title, Varāhajayantīkathā. This conflict is not resolved here."
+      ],
+      "stable_id": "css-prod-0670-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 669,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "f. 22(1) Bhāṣābhūṣaṇa by Yasavanta (Jasvant) Siṁha",
+          "evidence": "The same title and author name appear in the holding f.22(1) on fol. 335.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "cross_reference",
+          "target_page_order": 669,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "f. 22(1) Bhāṣābhūṣaṇa by Yasavanta (Jasvant) Simha [diacritic not verified]",
+          "evidence": "The same title and author name appear in the holding f.22(1) on fol. 335. The reduced adjacent image does not securely show the diacritic on Simha.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The target anchor imposed a diacritic (Siṁha) that cannot be verified from the reduced adjacent image.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/07e17838-7d45-452d-b411-13bccc5b67b5.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/07e17838-7d45-452d-b411-13bccc5b67b5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "93cbe93a878a2762593783a2c18fbd671be5614460355086947bfbc473556684",
+      "bytes": 297513,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/07e17838-7d45-452d-b411-13bccc5b67b5/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fcead809590014e829824403f42616fef237576993917f7aacd6564e665c039e",
+      "bytes": 345780,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/07e17838-7d45-452d-b411-13bccc5b67b5/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "60250fa42057e85913b728d4abd7e868c2fc8de2530e7840d7145ba76b0a3785",
+      "bytes": 377779,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/07e17838-7d45-452d-b411-13bccc5b67b5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c217807766ab3a9ddf38a3a0f21229f8ef4c6814bf0bb3a05fefedab59a2bb24",
+      "bytes": 362933,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/07e17838-7d45-452d-b411-13bccc5b67b5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d0cec1bd521b6fd7b27b8cad0b410979a051c5b243f8a839a2314943a3a3290e",
+      "bytes": 379730,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/07e17838-7d45-452d-b411-13bccc5b67b5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4945e53f48aabf9644e492d695a813464ed0387b18646066820f2ac7efc08e1c",
+      "bytes": 333245,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/07e17838-7d45-452d-b411-13bccc5b67b5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "add8c84c7c0f60e23d3e2ad387a9c3f897a26ae7b9e6b68519548d1d24866f7e",
+      "bytes": 371246,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/eacdef7d-c6e0-4e31-86a5-6c5a2348e59e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ae5f7b78e8cafa5beb4d3b85cceb951f402c608a737c328c0de184072d8bb371",
+      "bytes": 310936,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 669,
+      "folio_label": "fol. 335",
+      "page_id": "eacdef7d-c6e0-4e31-86a5-6c5a2348e59e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/516b84e2-6e33-4547-b980-0dc8741a6ca7/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "aa83fe9ac82a86b1b7c87637b2ffcddb8fbda59f021f88c1911f7810e8ce87a9",
+      "bytes": 343506,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 671,
+      "folio_label": "fol. 336",
+      "page_id": "516b84e2-6e33-4547-b980-0dc8741a6ca7",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

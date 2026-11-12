@@ -1,0 +1,696 @@
+{
+  "source_order": 348,
+  "folio_label": "fol. 174b",
+  "page_id": "0e67191b-84ba-4c39-8550-cbecceee724b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "174b",
+    "principal_page_bbox": [
+      320,
+      285,
+      2890,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          395,
+          305,
+          150,
+          145
+        ],
+        "kind_hint": "page_number",
+        "anchor": "174b",
+        "features": [
+          "ink",
+          "top-left corner",
+          "superscript 'b' after 174 followed by a dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          385,
+          4160,
+          2760,
+          360
+        ],
+        "kind_hint": "holding_description_continuation",
+        "anchor": "Collection of various fragmentary MSS. bound in four volumes. c.300, ff.1-247 ... one fragment dated S. 1768.",
+        "features": [
+          "ink",
+          "three handwritten lines in the lower part of the page",
+          "folio ranges and line counts for c.300-303",
+          "superscript '33' before '-208'",
+          "parenthesised omissions '(m. 90, 142-146)'",
+          "the word 'unidenti-' is hyphenated across lines 2 and 3",
+          "date S. 1768",
+          "'., ,' punctuation after 'work' is written as source",
+          "no shelfmark or title on this page",
+          "the parent is apparently the entry 'Bhāvaprakāśa' c.300-303 at the foot of the facing fol. 175"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2430,
+          4440,
+          900,
+          90
+        ],
+        "kind_hint": "date_extent_column_dittos",
+        "anchor": "n.d. : ‒ ‒ : ‒ : D. ←",
+        "features": [
+          "ink",
+          "on the right end of line 3",
+          "ditto dashes in the extent and line-count positions",
+          "'D.' is a script abbreviation",
+          "a leftward-pointing arrow with a line runs toward the gutter, linking to the facing-page entry 'c.300-303'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1425,
+          1830,
+          80,
+          60
+        ],
+        "description": "small ink blot or specks, mid-left area; not text"
+      },
+      {
+        "bbox": [
+          2800,
+          1690,
+          300,
+          40
+        ],
+        "description": "three small isolated dots, upper-middle right; not text"
+      },
+      {
+        "bbox": [
+          1730,
+          2800,
+          30,
+          30
+        ],
+        "description": "small speck; not text"
+      },
+      {
+        "bbox": [
+          340,
+          550,
+          2800,
+          3500
+        ],
+        "description": "faint show-through of writing from the verso/next leaf across the ruled lines; this is not target-page text"
+      }
+    ],
+    "boundary_notes": [
+      "A strip of the facing page (fol. 175) is visible to the right of the gutter at about x>3210. It contains 'd.', 'e.', ticks, 'Ch. I.O. ... which it ... en Eng). ... Sarman', 'ff.1-8', 'ff.1-21 ... Thāk...' and '√c.'. These belong to fol. 175 and are not recorded as target blocks.",
+      "The arrow in b003 crosses the gutter toward '√c.' on fol. 175. This links the bottom note to the c.300-303 entry on fol. 175."
+    ],
+    "uncertainties": [
+      "Readings in the handwritten note are approximate. Examples are 'various' and 'may be an unidentified'. The shelfmark is read as '4.300' or 'c.300'.",
+      "The dashes in the date/extent row may be ditto marks or placeholders.",
+      "Faint show-through could hide very faint pencil. None was distinguishable as target-page writing."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "174b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_continuation_with_column_row",
+        "literal_text": "Collection of various fragmentary MSS. bound in four volumes. 4.300, ff.1-247, ll.10 : 301, ff. 33-208 (m. 90, 142-146), ll.10/13:\n302, ff 1-212 (but starts in middle of chapter), ll. 10/15 : 303, six fragments, 115 ff. in all, and ff.155-159 may be an unidenti-\nfied fragment of the same work., one fragment dated S. 1768.          n.d. : ‒ ‒ : ‒ : D. ←———",
+        "fields": {
+          "date": "n.d.",
+          "extent": "‒ ‒",
+          "lines": "‒",
+          "script": "D."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, three lines written at the foot of an otherwise empty ruled page.",
+          "'33-208' after 'ff.' is written slightly raised above the line.",
+          "'unidenti-' is hyphenated across lines 2 and 3.",
+          "The punctuation after 'work' is written as '.,'.",
+          "'n.d. : ‒ ‒ : ‒ : D.' stands at the right end of line 3, in the date/extent/lines/script column positions. The dashes there may be ditto marks or placeholders.",
+          "A leftward-pointing arrow with a horizontal line runs from after 'D.' to the gutter. On the facing fol. 175 it meets '√c.300-303'.",
+          "The part numbers 4.300 (or c.300), 301, 302 and 303 open the four sub-descriptions. No title or author is written on this page."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Bhāvaprakāśa (entry c.300-303 on facing page)",
+            "source_page_order": 349,
+            "source_block_id": null,
+            "evidence": "Arrow from this note crosses the gutter to '√c.300-303 Bhāvaprakāśa' near the foot of fol. 175. That entry reads 'Various scraps and fragments. Now bound in 4 volumes.'",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 349,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.300-303 Bhāvaprakāśa ... Various scraps and fragments. Now bound in 4 volumes.",
+            "evidence": "The drawn arrow line runs into the gutter toward '√c.' on fol. 175. The content (four volumes, c.300-303) matches that entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first shelfmark is read as '4.300'. It may be 'c.300'.",
+          "'various' is an uncertain reading of a cursive word.",
+          "The reading 'may be an unidenti-' is approximate.",
+          "'m.' in '(m. 90, 142-146)' is left unexpanded.",
+          "The dashes in the column row may be ditto marks or placeholders."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "174b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner. The 'b' is superscript after 174 and is followed by a dot."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Visible folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The three-line continuation note."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The column row and arrow at the end of line 3 of the same note, joined to it on the same line."
+      }
+    ],
+    "page_annotations": [
+      "The ruled page is otherwise empty apart from faint show-through from the other side of the leaf and small ink specks. Neither is target-page text.",
+      "A strip of fol. 175 at the right of the gutter (d., e., ticks, 'Ch. I.O. ...', 'ff.1-8', 'ff.1-21 ... Thāk...', '√c.') belongs to the facing page and is not transcribed here."
+    ],
+    "unresolved_relationships": [
+      "Attachment of the note to the fol. 175 entry 'Bhāvaprakāśa' c.300-303 rests on the arrow and the matching content. It is recorded as probable."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Top-left ink folio number '174' with a superscript 'b' and a dot. Record r002 represents it adequately."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The three-line ink note at the foot of the page was rechecked against the native bottom tiles. The content and line breaks are represented in r001. There is one small spacing discrepancy before '(m.'; see changes. The readings '4.300' (or 'c.300'), 'various' and 'm.' remain uncertain, as the candidate already records."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The column row 'n.d. : ‒ ‒ : ‒ : D.' and the leftward arrow with a horizontal stroke stand at the end of line 3. They are correctly grouped with r001. The dashes are short marks and their function (ditto or placeholder) is unresolved. Beyond the gutter, the arrow meets '√c.' on fol. 175, which is facing-page text."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "literal_text",
+        "before": "Collection of various fragmentary MSS. bound in four volumes. 4.300, ff.1-247, ll.10 : 301, ff. 33-208 (m. 90, 142-146), ll.10/13:\n302, ff 1-212 (but starts in middle of chapter), ll. 10/15 : 303, six fragments, 115 ff. in all, and ff.155-159 may be an unidenti-\nfied fragment of the same work., one fragment dated S. 1768.          n.d. : ‒ ‒ : ‒ : D. ←———",
+        "after": "Collection of various fragmentary MSS. bound in four volumes. 4.300, ff.1-247, ll.10 : 301, ff. 33-208(m. 90, 142-146), ll.10/13:\n302, ff 1-212 (but starts in middle of chapter), ll. 10/15 : 303, six fragments, 115 ff. in all, and ff.155-159 may be an unidenti-\nfied fragment of the same work., one fragment dated S. 1768.          n.d. : ‒ ‒ : ‒ : D. ←———",
+        "reason": "In the native tile, '208' runs directly into '(m.' with no intervening space.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The first shelfmark letter is ambiguous: it may read '4.300', 'c.300' or 'd.300'. The cursive readings 'various', 'six' and 'm.' are uncertain. 'middle of(chapter)' may lack a space.",
+        "next_check": "Compare the letterforms with the same hand's 'c.' shelfmarks on fol. 175, for example '√c.300-303'."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The short dashes in the extent and line-count positions may be ditto marks or placeholders. Treating them as fields.extent and fields.lines is interpretive. The parent entry on fol. 175 gives 'n.d.:249+170+212+120: var: D', so the row may duplicate that column.",
+        "next_check": "Compare with the column row of the c.300-303 entry on fol. 175 at native resolution."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "The attachment to the fol. 175 entry c.300-303 ('Bhāvaprakāśa' as read in the overview) rests on the arrow crossing the gutter and on matching content. The title's diacritics and its added 'by Bhāva[...]' are not securely legible in the reduced overview.",
+        "next_check": "Read the fol. 175 entry at native resolution."
+      }
+    ],
+    "boundary_review": "The facing fol. 175 strip lies beyond the gutter (about x>3210). It shows 'd.', 'e.', ticks, 'Ch. I.O. ... which it ... en ...). ... Sarman', 'ff.1-8', 'ff.1-21 ... Thāk...' and '√c.'. These belong to fol. 175 and are correctly excluded. The arrow at line 3 crosses the gutter toward '√c.' of the c.300-303 entry on fol. 175. That relationship stays probable.",
+    "region_review": {
+      "top": "Only the folio number '174b.' is present. The rest is blank ruled paper with faint show-through.",
+      "middle": "Blank ruled lines with faint show-through from the other side of the leaf, plus isolated ink specks and dots (about x1425 y1830, x2800-3100 y1690, x1730 y2800). No target-page writing was found.",
+      "bottom": "Three lines of the ink note, with the column row and arrow at the right end of line 3. Below them the ruled lines are blank down to the page edge.",
+      "left_margin": "Blank apart from a tiny mark near the binding edge at about y530. Not text.",
+      "right_margin": "The gutter is crossed only by the arrow stroke. Text beyond the gutter belongs to fol. 175.",
+      "interlinear": "The only raised writing is '33-208' in line 1. No other interlinear additions or cancellations were seen."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        395,
+        305,
+        150,
+        145
+      ],
+      "kind_hint": "page_number",
+      "anchor": "174b",
+      "features": [
+        "ink",
+        "top-left corner",
+        "superscript 'b' after 174 followed by a dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        385,
+        4160,
+        2760,
+        360
+      ],
+      "kind_hint": "holding_description_continuation",
+      "anchor": "Collection of various fragmentary MSS. bound in four volumes. c.300, ff.1-247 ... one fragment dated S. 1768.",
+      "features": [
+        "ink",
+        "three handwritten lines in the lower part of the page",
+        "folio ranges and line counts for c.300-303",
+        "superscript '33' before '-208'",
+        "parenthesised omissions '(m. 90, 142-146)'",
+        "the word 'unidenti-' is hyphenated across lines 2 and 3",
+        "date S. 1768",
+        "'., ,' punctuation after 'work' is written as source",
+        "no shelfmark or title on this page",
+        "the parent is apparently the entry 'Bhāvaprakāśa' c.300-303 at the foot of the facing fol. 175"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2430,
+        4440,
+        900,
+        90
+      ],
+      "kind_hint": "date_extent_column_dittos",
+      "anchor": "n.d. : ‒ ‒ : ‒ : D. ←",
+      "features": [
+        "ink",
+        "on the right end of line 3",
+        "ditto dashes in the extent and line-count positions",
+        "'D.' is a script abbreviation",
+        "a leftward-pointing arrow with a line runs toward the gutter, linking to the facing-page entry 'c.300-303'"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_continuation_with_column_row",
+      "literal_text": "Collection of various fragmentary MSS. bound in four volumes. 4.300, ff.1-247, ll.10 : 301, ff. 33-208 (m. 90, 142-146), ll.10/13:\n302, ff 1-212 (but starts in middle of chapter), ll. 10/15 : 303, six fragments, 115 ff. in all, and ff.155-159 may be an unidenti-\nfied fragment of the same work., one fragment dated S. 1768.          n.d. : ‒ ‒ : ‒ : D. ←———",
+      "fields": {
+        "date": "n.d.",
+        "extent": "‒ ‒",
+        "lines": "‒",
+        "script": "D."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, three lines written at the foot of an otherwise empty ruled page.",
+        "'33-208' after 'ff.' is written slightly raised above the line.",
+        "'unidenti-' is hyphenated across lines 2 and 3.",
+        "The punctuation after 'work' is written as '.,'.",
+        "'n.d. : ‒ ‒ : ‒ : D.' stands at the right end of line 3, in the date/extent/lines/script column positions. The dashes there may be ditto marks or placeholders.",
+        "A leftward-pointing arrow with a horizontal line runs from after 'D.' to the gutter. On the facing fol. 175 it meets '√c.300-303'.",
+        "The part numbers 4.300 (or c.300), 301, 302 and 303 open the four sub-descriptions. No title or author is written on this page."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Bhāvaprakāśa (entry c.300-303 on facing page)",
+          "source_page_order": 349,
+          "source_block_id": null,
+          "evidence": "Arrow from this note crosses the gutter to '√c.300-303 Bhāvaprakāśa' near the foot of fol. 175. That entry reads 'Various scraps and fragments. Now bound in 4 volumes.'",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 349,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.300-303 Bhāvaprakāśa ... Various scraps and fragments. Now bound in 4 volumes.",
+          "evidence": "The drawn arrow line runs into the gutter toward '√c.' on fol. 175. The content (four volumes, c.300-303) matches that entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first shelfmark is read as '4.300'. It may be 'c.300'.",
+        "'various' is an uncertain reading of a cursive word.",
+        "The reading 'may be an unidenti-' is approximate.",
+        "'m.' in '(m. 90, 142-146)' is left unexpanded.",
+        "The dashes in the column row may be ditto marks or placeholders."
+      ],
+      "stable_id": "css-prod-0348-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "174b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner. The 'b' is superscript after 174 and is followed by a dot."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0348-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "literal_text",
+      "before": "Collection of various fragmentary MSS. bound in four volumes. 4.300, ff.1-247, ll.10 : 301, ff. 33-208 (m. 90, 142-146), ll.10/13:\n302, ff 1-212 (but starts in middle of chapter), ll. 10/15 : 303, six fragments, 115 ff. in all, and ff.155-159 may be an unidenti-\nfied fragment of the same work., one fragment dated S. 1768.          n.d. : ‒ ‒ : ‒ : D. ←———",
+      "after": "Collection of various fragmentary MSS. bound in four volumes. 4.300, ff.1-247, ll.10 : 301, ff. 33-208(m. 90, 142-146), ll.10/13:\n302, ff 1-212 (but starts in middle of chapter), ll. 10/15 : 303, six fragments, 115 ff. in all, and ff.155-159 may be an unidenti-\nfied fragment of the same work., one fragment dated S. 1768.          n.d. : ‒ ‒ : ‒ : D. ←———",
+      "reason": "In the native tile, '208' runs directly into '(m.' with no intervening space.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/0e67191b-84ba-4c39-8550-cbecceee724b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0e67191b-84ba-4c39-8550-cbecceee724b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "cef9915202e37753b6b20af6bef7d32efdacc41b6a0d1e69f7986292461f6341",
+      "bytes": 265349,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0e67191b-84ba-4c39-8550-cbecceee724b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fefb40163c680ffaf8e9e5e1cc315663b88a6900270a0042a82c6d68803f506f",
+      "bytes": 298833,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0e67191b-84ba-4c39-8550-cbecceee724b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "14497def50b135007104a93d835e185a39b1ed82974445054ea709467c131d37",
+      "bytes": 301595,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0e67191b-84ba-4c39-8550-cbecceee724b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1062027c8f2b51ba71f02179ff1b0edc0b859a7ead4197aa248afcfe16b73e97",
+      "bytes": 293121,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0e67191b-84ba-4c39-8550-cbecceee724b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "8d7003ce9cc9fa555e433937105d151e8a9a1a7227c3c12e69316471a4baf65c",
+      "bytes": 283415,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0e67191b-84ba-4c39-8550-cbecceee724b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f4273245844c31b229fb52c719d9f421916226384cf8269462668040954053e5",
+      "bytes": 347131,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/0e67191b-84ba-4c39-8550-cbecceee724b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "40eae55a51bf283013f31f8b5a4f07850bd2c9c1136b76ad9738fa273e3afbe5",
+      "bytes": 341064,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/35d9e7c0-484f-4d29-94dc-c357ae467754/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "bc004cf297ff7ee0cf9d92374dc88707cf85a6cdcd2098fd61e2611929577d23",
+      "bytes": 262123,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 347,
+      "folio_label": "fol. 174",
+      "page_id": "35d9e7c0-484f-4d29-94dc-c357ae467754",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/353429ad-e62a-4b87-a820-4dc18048bcc2/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "ab13880868be0dc41be1b477a9116e3f9b2c3900208092494f5c1d9155a87948",
+      "bytes": 287537,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 349,
+      "folio_label": "fol. 175",
+      "page_id": "353429ad-e62a-4b87-a820-4dc18048bcc2",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2138 @@
+{
+  "source_order": 402,
+  "folio_label": "fol. 201b",
+  "page_id": "9b1f04b1-10c2-4650-8524-d85235d88b9d",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "201b",
+    "principal_page_bbox": [
+      300,
+      280,
+      2895,
+      4560
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          400,
+          360,
+          135,
+          85
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "201b",
+        "features": [
+          "top-left corner",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          450,
+          975,
+          720,
+          80
+        ],
+        "kind_hint": "continuation",
+        "anchor": "ff. 2-54. cf. Eggeling, 872",
+        "features": [
+          "no shelfmark",
+          "indented; appears to continue an entry from the preceding or facing page",
+          "left-pointing arrow far right at about x3000 on the same line"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          400,
+          1095,
+          2700,
+          170
+        ],
+        "kind_hint": "entry",
+        "anchor": "b 61(3). Do, w. Bālabodhinī [by Śrīvallabha ...",
+        "features": [
+          "two lines",
+          "second line reads 'pāda and saṃjñāpāda). Cf. Eggeling 858-860.'",
+          "left-pointing arrow at line end (about x3040-3090)",
+          "diacritics"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          1840,
+          1210,
+          1300,
+          70
+        ],
+        "kind_hint": "entry",
+        "anchor": "// b.61(1) ——, —, ff.4-44 (n. 32, 39). Cf. Ox. Cat.",
+        "features": [
+          "introduced by double slash after b003 on the same line",
+          "ditto dashes",
+          "superscript '395-396' above line end",
+          "right brace"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          1855,
+          1270,
+          1290,
+          185
+        ],
+        "kind_hint": "interlinear_note",
+        "anchor": "At end, scraps found in MS.: (a) one folio of a pseudo-Vedic ...",
+        "features": [
+          "three small lines squeezed between b004 and b006",
+          "enclosed by a right brace together with b004",
+          "arrow from the brace toward the gutter",
+          "'(third leaf may be from a different MS.)'"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          400,
+          1455,
+          2730,
+          85
+        ],
+        "kind_hint": "entry",
+        "anchor": "b.99(2)ⁱ. Do., ff.1-3 inc. Followed by stray leaf (f 67) of unidentified astrological text.",
+        "features": [
+          "superscript i after shelfmark",
+          "data column at right reads 'n.d. : 3 : 4 : Beng.'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2980,
+          970,
+          120,
+          40
+        ],
+        "description": "Left-pointing arrow on the b002 line, near the gutter."
+      },
+      {
+        "bbox": [
+          3150,
+          1240,
+          280,
+          100
+        ],
+        "description": "Arrow running from the brace of b004/b005 across the gutter toward the facing page (fol. 202)."
+      },
+      {
+        "bbox": [
+          3155,
+          600,
+          70,
+          60
+        ],
+        "description": "V-shaped mark at the gutter fold near the top."
+      },
+      {
+        "bbox": [
+          2870,
+          2920,
+          300,
+          140
+        ],
+        "description": "Grey smudge or blot in the lower middle, close to the gutter."
+      },
+      {
+        "bbox": [
+          395,
+          1685,
+          140,
+          70
+        ],
+        "description": "Small specks near the left edge below the entries."
+      },
+      {
+        "bbox": [
+          3150,
+          2480,
+          60,
+          40
+        ],
+        "description": "Stitch or tie mark at the gutter."
+      }
+    ],
+    "boundary_notes": [
+      "Text right of the gutter (about x>3190) belongs to the facing page fol. 202 and is excluded. This includes 'd.' shelfmarks, ticks, a horizontal line, and the pencil note 'ed. by Kṛṣ[...] / Keśavarām[...]' at about y4010-4080.",
+      "b002 lacks a shelfmark. Its parent entry probably lies on the preceding or facing page and is not resolved here.",
+      "The arrows from b002, b003 and b004/b005 point toward fol. 202, which suggests these entries are attached to entries on fol. 202."
+    ],
+    "uncertainties": [
+      "Readings in b005 are tentative: 'critical manual' and 'vocabulary modern'.",
+      "In b004, 'Ox. Cat.' is a tentative reading of the abbreviation.",
+      "Whether the b006 data column 'n.d. : 3 : 4 : Beng.' belongs only to b006 or also to b004 is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "201b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "201ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Pencil folio number in the top-left corner; the 'b' is superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_and_reference_addition",
+        "literal_text": "ff. 2-54. cf. Eggeling, 872",
+        "fields": {
+          "extent": "ff. 2-54",
+          "source": "cf. Eggeling, 872"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is no shelfmark.",
+          "The line is indented.",
+          "A left-pointing arrow stands at the right of the line near the gutter, about x2980-3095.",
+          "On fol. 202 a left-pointing arrow in the outer margin stands beside the b.60 Mugdhabodha line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 403,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 60  Mugdhabodha, By Vopadeva. grammar. n.d.: 52: 6: Beng.",
+            "evidence": "There is an arrow at the gutter end of this line, and a matching left-pointing arrow appears beside the b.60 line on the facing fol. 202. The block has no shelfmark of its own.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The parent entry is not on this page, so the attachment to fol. 202 b.60 rests on arrow evidence only."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "commentary_copy",
+        "literal_text": "b 61(3). Do, w. Bālabodhinī [by Śrīvallabha Vidyāvāgīśa Bhaṭṭācārya). ff 1-14, inc. (saṃdhi-\npāda and saṃjñāpāda). Cf. Eggeling 858-860.",
+        "fields": {
+          "shelfmark": "b 61(3)",
+          "title": "Do, w. Bālabodhinī",
+          "author": "by Śrīvallabha Vidyāvāgīśa Bhaṭṭācārya",
+          "extent": "ff 1-14, inc.",
+          "source": "Cf. Eggeling 858-860."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'Do' is a ditto for the governing title.",
+          "The square bracket opened before 'by' is closed with a round parenthesis.",
+          "A left-pointing arrow stands at the line end, about x3040-3090.",
+          "No data column is present on this line."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Do probably refers to Mugdhabodha (fol. 202, b. 60)",
+            "source_page_order": 403,
+            "source_block_id": null,
+            "evidence": "Arrows link this verso to the b.60 to b.64(1) group of entries on facing fol. 202.",
+            "certainty": "probable"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 403,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mugdhabodha (b. 60)",
+            "evidence": "The 'Do' ditto and the arrows point toward facing fol. 202.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading of 'Vidyāvāgīśa' is uncertain.",
+          "The 'b 61' shelfmark lacks a clear point after 'b'."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry",
+        "literal_text": "// b.61(1) ——, —, ff.4-44 (n. 32, 39). Cf. Ox. Cat. ³⁹⁵⁻³⁹⁶",
+        "fields": {
+          "shelfmark": "b.61(1)",
+          "title": "——, —,",
+          "extent": "ff.4-44",
+          "source": "Cf. Ox. Cat. 395-396"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The entry is introduced by '//' and begins on the same line as the end of b003.",
+          "Ditto dashes stand in place of the title.",
+          "'395-396' is written superscript above the end of the line, over 'Vedic' in b005; it is taken as part of the Ox. Cat. reference.",
+          "A right brace encloses b004 and b005.",
+          "An arrow runs from the brace across the gutter toward fol. 202."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 402,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "b 61(3). Do, w. Bālabodhinī",
+            "evidence": "The ditto dashes immediately follow the b003 text on the same line.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 403,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 6?(1) ———, D: [Subodha, by Durgādāsa]",
+            "evidence": "The arrow from the brace points to the b.6?(1) line on fol. 202, which carries a left-pointing arrow.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The shelfmark could be read 'b.64(1)'; fol. 202 shows 'b. 6?(1)'.",
+          "'(n. 32, 39)' is uncertain; the last number might be 34.",
+          "'Ox. Cat.' is a tentative reading.",
+          "The dittos may refer to b003 or to the fol. 202 entry."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "contents_note",
+        "literal_text": "At end, scraps found in MS.: (a) one folio of a pseudo-Vedic\ntext, accented, but vocabulary modern; (b) three fol. from [a ritual?] manual\n(third leaf may be from a different MS.)",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Three small interlinear lines are squeezed between the b004 and b006 lines.",
+          "The note is enclosed by the same right brace as b004."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 402,
+            "target_record_id": "r004",
+            "target_block_id": "b004",
+            "target_anchor": "// b.61(1) ——, —, ff.4-44",
+            "evidence": "A shared brace encloses this note and b004.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "'[a ritual?]' could alternatively be read 'critical'.",
+          "The reading 'vocabulary modern' is tentative."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "holding",
+        "subtype": "ditto_entry",
+        "literal_text": "b.99(2)ⁱ. Do., ff.1-3 inc. Followed by stray leaf (f.67) of unidentified astrological text.     n.d. : 3 : 4 : Beng.",
+        "fields": {
+          "shelfmark": "b.99(2)ⁱ",
+          "title": "Do.",
+          "extent": "ff.1-3 inc.; 3",
+          "date": "n.d.",
+          "lines": "4",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The 'i' after the shelfmark is superscript.",
+          "The data column 'n.d. : 3 : 4 : Beng.' is at the right of the same line.",
+          "The column order follows the catalogue's date : folios : lines : script pattern."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "Do. probably refers to the same governing title as b003 (Mugdhabodha?)",
+            "source_page_order": 403,
+            "source_block_id": null,
+            "evidence": "The entry belongs to the same group of dittos.",
+            "certainty": "uncertain"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 402,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "Do",
+            "evidence": "The 'Do.' ditto belongs to a sequence of dittos.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The data column is on the b006 line and matches 'ff.1-3', so it is taken as belonging to b006, not b004."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note with no shelfmark, linked by arrow to fol. 202."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Holding b 61(3), two lines."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Holding b.61(1) with dittos and the superscript 395-396."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Interlinear note attached to b004 by a brace."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Holding b.99(2)ⁱ with its data column."
+      }
+    ],
+    "page_annotations": [
+      "The remainder of the page (from about y1600 to the bottom) was image-reviewed and is blank apart from faint show-through and specks.",
+      "A V-shaped mark is at the gutter near the top, about [3155,600].",
+      "There are stitch or tie marks at the gutter.",
+      "A grey smudge lies near the gutter, about [2870,2920].",
+      "Small specks are near the left edge, about [395,1685].",
+      "Text right of the gutter belongs to fol. 202 and is excluded. This includes 'd.' shelfmarks, ticks, and the pencil 'ed. by Kṛṣ[...] / Keśavarām[...]'."
+    ],
+    "unresolved_relationships": [
+      "The exact parent entries on fol. 202 for b002, b003 and b004/b005 are inferred from arrows only.",
+      "The shelfmark of b004 (b.61(1) or b.64(1)) and its relation to fol. 202 b.6?(1) are unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '201' with superscript b is in the top-left corner. It is correctly recorded as non-catalogue text."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The indented line 'ff. 2-54. cf. Eggeling, 872' has no shelfmark. A left-pointing arrow stands near the gutter. The cross-page attachment is plausible but rests on arrows only."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The two-line holding b 61(3) is transcribed adequately. In '858-860' the first digit looks heavily inked or overwritten. Its governing 'Do' target on fol. 202 is less certain than the candidate states (see changes)."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The '// b.61(1)' entry is recorded with dittos, the extent, '(n. 32, 3[9/4])' and 'Cf. Ox. Cat.' with the superscript 395-396. The brace and the arrow toward fol. 202 are recorded."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Three cramped interlinear lines are enclosed by a brace with b004. The tentative readings ('critical'/'a ritual', 'vocabulary modern') stay uncertain."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "The holding b.99(2)ⁱ is recorded with its data column 'n.d. : 3 : 4 : Beng.'. The fields conflate extent and folio count (see changes)."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "editorial_context",
+        "before": [
+          {
+            "field": "title",
+            "value": "Do probably refers to Mugdhabodha (fol. 202, b. 60)",
+            "source_page_order": 403,
+            "source_block_id": null,
+            "evidence": "Arrows link this verso to the b.60 to b.64(1) group of entries on facing fol. 202.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "field": "title",
+            "value": "Do may refer to Mugdhabodha (fol. 202, b. 60) or to the unshelfmarked line 'D: Mugdhabodhapariśiṣṭa, by Kāśīśvara Bhaṭṭācārya' on fol. 202; unresolved",
+            "source_page_order": 403,
+            "source_block_id": null,
+            "evidence": "The b003 arrow at about y1140 corresponds in height to the fol. 202 line 'D: Mugdhabodhapariśiṣṭa' rather than to the b.60 line. Neither target is secure.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The arrow height on the facing page does not securely indicate b.60. An alternative governing line exists.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 403,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mugdhabodha (b. 60)",
+            "evidence": "The 'Do' ditto and the arrows point toward facing fol. 202.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 403,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Mugdhabodha (b. 60) or 'D: Mugdhabodhapariśiṣṭa' line",
+            "evidence": "The 'Do' ditto and the arrow point toward facing fol. 202. The exact target line is ambiguous.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The certainty of the ditto target is overstated.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r006",
+        "field_path": "fields.extent",
+        "before": "ff.1-3 inc.; 3",
+        "after": "ff.1-3 inc.",
+        "reason": "The data-column folio count is a separate field from the written extent.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r006",
+        "field_path": "fields.folios",
+        "before": null,
+        "after": "3",
+        "reason": "Records the data-column folio count separately.",
+        "source_block_ids": [
+          "b006"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "literal_text",
+        "before": "// b.61(1) ——, —, ff.4-44 (n. 32, 39). Cf. Ox. Cat. ³⁹⁵⁻³⁹⁶",
+        "after": "// b.61(1) ——, —, ff.4-44 (n. 32, 3[9?]). Cf. Ox. Cat.[?] ³⁹⁵⁻³⁹⁶",
+        "reason": "The last digit (9 or 4) and the abbreviation 'Ox. Cat.' are not securely legible, so the literal text should not present them as certain.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "secure"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "On fol. 202 the matching arrow sits between the d.824(4) and b.60 lines. The attachment to b.60 Mugdhabodha is plausible but not secure.",
+        "next_check": "Compare ruled-line alignment across the opening at higher resolution."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "issue": "The shelfmark b.61(1) appears on fol. 202 as 'b. 6?(1)'. It is unclear whether the dashes ditto r003 or the fol. 202 Subodha line.",
+        "next_check": "Inspect the fol. 202 margin shelfmark natively."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "issue": "The reading 'critical' versus '[a ritual?]' and the phrase 'vocabulary modern' are tentative.",
+        "next_check": "Native zoom on the b005 second line."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The first digit of '858' appears overwritten or heavily inked.",
+        "next_check": "Native zoom on 'Eggeling 858-860'."
+      }
+    ],
+    "boundary_review": "The gutter is at about x3180-3190. Text, 'd.' shelfmarks, ticks and the pencil 'ed. by Kṛṣ[...] / Keśavarām[...]' to the right belong to fol. 202 and are excluded. The arrows from b002, b003 and b004/b005 cross toward fol. 202. Their exact targets remain unresolved, and no records are duplicated from the facing page.",
+    "region_review": {
+      "top": "Only the folio number 201ᵇ and a V-shaped mark at the gutter fold.",
+      "middle": "Entries b002-b006 occupy about y970-1540. The remainder from about y1600 is blank apart from show-through, specks, a grey smudge near the gutter at about y2920, and stitch marks.",
+      "bottom": "Image-reviewed. Blank apart from faint show-through. No note was found.",
+      "left_margin": "Small specks at about y1685. No writing.",
+      "right_margin": "The gutter carries arrows and a stitch or tie mark. The facing-page text there is excluded.",
+      "interlinear": "The b005 three-line note and the superscript 395-396 are captured. No other interlinear additions or cancellations are visible."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        400,
+        360,
+        135,
+        85
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "201b",
+      "features": [
+        "top-left corner",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        450,
+        975,
+        720,
+        80
+      ],
+      "kind_hint": "continuation",
+      "anchor": "ff. 2-54. cf. Eggeling, 872",
+      "features": [
+        "no shelfmark",
+        "indented; appears to continue an entry from the preceding or facing page",
+        "left-pointing arrow far right at about x3000 on the same line"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        400,
+        1095,
+        2700,
+        170
+      ],
+      "kind_hint": "entry",
+      "anchor": "b 61(3). Do, w. Bālabodhinī [by Śrīvallabha ...",
+      "features": [
+        "two lines",
+        "second line reads 'pāda and saṃjñāpāda). Cf. Eggeling 858-860.'",
+        "left-pointing arrow at line end (about x3040-3090)",
+        "diacritics"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        1840,
+        1210,
+        1300,
+        70
+      ],
+      "kind_hint": "entry",
+      "anchor": "// b.61(1) ——, —, ff.4-44 (n. 32, 39). Cf. Ox. Cat.",
+      "features": [
+        "introduced by double slash after b003 on the same line",
+        "ditto dashes",
+        "superscript '395-396' above line end",
+        "right brace"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        1855,
+        1270,
+        1290,
+        185
+      ],
+      "kind_hint": "interlinear_note",
+      "anchor": "At end, scraps found in MS.: (a) one folio of a pseudo-Vedic ...",
+      "features": [
+        "three small lines squeezed between b004 and b006",
+        "enclosed by a right brace together with b004",
+        "arrow from the brace toward the gutter",
+        "'(third leaf may be from a different MS.)'"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        400,
+        1455,
+        2730,
+        85
+      ],
+      "kind_hint": "entry",
+      "anchor": "b.99(2)ⁱ. Do., ff.1-3 inc. Followed by stray leaf (f 67) of unidentified astrological text.",
+      "features": [
+        "superscript i after shelfmark",
+        "data column at right reads 'n.d. : 3 : 4 : Beng.'"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "201ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Pencil folio number in the top-left corner; the 'b' is superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0402-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_and_reference_addition",
+      "literal_text": "ff. 2-54. cf. Eggeling, 872",
+      "fields": {
+        "extent": "ff. 2-54",
+        "source": "cf. Eggeling, 872"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is no shelfmark.",
+        "The line is indented.",
+        "A left-pointing arrow stands at the right of the line near the gutter, about x2980-3095.",
+        "On fol. 202 a left-pointing arrow in the outer margin stands beside the b.60 Mugdhabodha line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 403,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 60  Mugdhabodha, By Vopadeva. grammar. n.d.: 52: 6: Beng.",
+          "evidence": "There is an arrow at the gutter end of this line, and a matching left-pointing arrow appears beside the b.60 line on the facing fol. 202. The block has no shelfmark of its own.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The parent entry is not on this page, so the attachment to fol. 202 b.60 rests on arrow evidence only."
+      ],
+      "stable_id": "css-prod-0402-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "commentary_copy",
+      "literal_text": "b 61(3). Do, w. Bālabodhinī [by Śrīvallabha Vidyāvāgīśa Bhaṭṭācārya). ff 1-14, inc. (saṃdhi-\npāda and saṃjñāpāda). Cf. Eggeling 858-860.",
+      "fields": {
+        "shelfmark": "b 61(3)",
+        "title": "Do, w. Bālabodhinī",
+        "author": "by Śrīvallabha Vidyāvāgīśa Bhaṭṭācārya",
+        "extent": "ff 1-14, inc.",
+        "source": "Cf. Eggeling 858-860."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'Do' is a ditto for the governing title.",
+        "The square bracket opened before 'by' is closed with a round parenthesis.",
+        "A left-pointing arrow stands at the line end, about x3040-3090.",
+        "No data column is present on this line."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Do probably refers to Mugdhabodha (fol. 202, b. 60)",
+          "source_page_order": 403,
+          "source_block_id": null,
+          "evidence": "Arrows link this verso to the b.60 to b.64(1) group of entries on facing fol. 202.",
+          "certainty": "probable"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 403,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mugdhabodha (b. 60)",
+          "evidence": "The 'Do' ditto and the arrows point toward facing fol. 202.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading of 'Vidyāvāgīśa' is uncertain.",
+        "The 'b 61' shelfmark lacks a clear point after 'b'."
+      ],
+      "stable_id": "css-prod-0402-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry",
+      "literal_text": "// b.61(1) ——, —, ff.4-44 (n. 32, 3[9?]). Cf. Ox. Cat.[?] ³⁹⁵⁻³⁹⁶",
+      "fields": {
+        "shelfmark": "b.61(1)",
+        "title": "——, —,",
+        "extent": "ff.4-44",
+        "source": "Cf. Ox. Cat. 395-396"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The entry is introduced by '//' and begins on the same line as the end of b003.",
+        "Ditto dashes stand in place of the title.",
+        "'395-396' is written superscript above the end of the line, over 'Vedic' in b005; it is taken as part of the Ox. Cat. reference.",
+        "A right brace encloses b004 and b005.",
+        "An arrow runs from the brace across the gutter toward fol. 202."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 402,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "b 61(3). Do, w. Bālabodhinī",
+          "evidence": "The ditto dashes immediately follow the b003 text on the same line.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 403,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 6?(1) ———, D: [Subodha, by Durgādāsa]",
+          "evidence": "The arrow from the brace points to the b.6?(1) line on fol. 202, which carries a left-pointing arrow.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The shelfmark could be read 'b.64(1)'; fol. 202 shows 'b. 6?(1)'.",
+        "'(n. 32, 39)' is uncertain; the last number might be 34.",
+        "'Ox. Cat.' is a tentative reading.",
+        "The dittos may refer to b003 or to the fol. 202 entry."
+      ],
+      "stable_id": "css-prod-0402-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "contents_note",
+      "literal_text": "At end, scraps found in MS.: (a) one folio of a pseudo-Vedic\ntext, accented, but vocabulary modern; (b) three fol. from [a ritual?] manual\n(third leaf may be from a different MS.)",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Three small interlinear lines are squeezed between the b004 and b006 lines.",
+        "The note is enclosed by the same right brace as b004."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 402,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "// b.61(1) ——, —, ff.4-44",
+          "evidence": "A shared brace encloses this note and b004.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "'[a ritual?]' could alternatively be read 'critical'.",
+        "The reading 'vocabulary modern' is tentative."
+      ],
+      "stable_id": "css-prod-0402-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "holding",
+      "subtype": "ditto_entry",
+      "literal_text": "b.99(2)ⁱ. Do., ff.1-3 inc. Followed by stray leaf (f.67) of unidentified astrological text.     n.d. : 3 : 4 : Beng.",
+      "fields": {
+        "shelfmark": "b.99(2)ⁱ",
+        "title": "Do.",
+        "extent": "ff.1-3 inc.",
+        "date": "n.d.",
+        "folios": "3",
+        "lines": "4",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The 'i' after the shelfmark is superscript.",
+        "The data column 'n.d. : 3 : 4 : Beng.' is at the right of the same line.",
+        "The column order follows the catalogue's date : folios : lines : script pattern."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "Do. probably refers to the same governing title as b003 (Mugdhabodha?)",
+          "source_page_order": 403,
+          "source_block_id": null,
+          "evidence": "The entry belongs to the same group of dittos.",
+          "certainty": "uncertain"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 402,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "Do",
+          "evidence": "The 'Do.' ditto belongs to a sequence of dittos.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The data column is on the b006 line and matches 'ff.1-3', so it is taken as belonging to b006, not b004."
+      ],
+      "stable_id": "css-prod-0402-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "title",
+          "value": "Do probably refers to Mugdhabodha (fol. 202, b. 60)",
+          "source_page_order": 403,
+          "source_block_id": null,
+          "evidence": "Arrows link this verso to the b.60 to b.64(1) group of entries on facing fol. 202.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "field": "title",
+          "value": "Do may refer to Mugdhabodha (fol. 202, b. 60) or to the unshelfmarked line 'D: Mugdhabodhapariśiṣṭa, by Kāśīśvara Bhaṭṭācārya' on fol. 202; unresolved",
+          "source_page_order": 403,
+          "source_block_id": null,
+          "evidence": "The b003 arrow at about y1140 corresponds in height to the fol. 202 line 'D: Mugdhabodhapariśiṣṭa' rather than to the b.60 line. Neither target is secure.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The arrow height on the facing page does not securely indicate b.60. An alternative governing line exists.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 403,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mugdhabodha (b. 60)",
+          "evidence": "The 'Do' ditto and the arrows point toward facing fol. 202.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 403,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mugdhabodha (b. 60) or 'D: Mugdhabodhapariśiṣṭa' line",
+          "evidence": "The 'Do' ditto and the arrow point toward facing fol. 202. The exact target line is ambiguous.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The certainty of the ditto target is overstated.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "fields.extent",
+      "before": "ff.1-3 inc.; 3",
+      "after": "ff.1-3 inc.",
+      "reason": "The data-column folio count is a separate field from the written extent.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "fields.folios",
+      "before": null,
+      "after": "3",
+      "reason": "Records the data-column folio count separately.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "literal_text",
+      "before": "// b.61(1) ——, —, ff.4-44 (n. 32, 39). Cf. Ox. Cat. ³⁹⁵⁻³⁹⁶",
+      "after": "// b.61(1) ——, —, ff.4-44 (n. 32, 3[9?]). Cf. Ox. Cat.[?] ³⁹⁵⁻³⁹⁶",
+      "reason": "The last digit (9 or 4) and the abbreviation 'Ox. Cat.' are not securely legible, so the literal text should not present them as certain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 403,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mugdhabodha (b. 60)",
+          "evidence": "The 'Do' ditto and the arrows point toward facing fol. 202.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 403,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Mugdhabodha (b. 60) or 'D: Mugdhabodhapariśiṣṭa' line",
+          "evidence": "The 'Do' ditto and the arrow point toward facing fol. 202. The arrow height matches the D: Mugdhabodhapariśiṣṭa line. The exact target line is ambiguous.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The certainty of the ditto target was overstated.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0402-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "editorial_context",
+      "before": [
+        {
+          "field": "title",
+          "value": "Do probably refers to Mugdhabodha (fol. 202, b. 60)",
+          "source_page_order": 403,
+          "source_block_id": null,
+          "evidence": "Arrows link this verso to the b.60 to b.64(1) group of entries on facing fol. 202.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "field": "title",
+          "value": "Do may refer to Mugdhabodha (fol. 202, b. 60) or to the unshelfmarked line 'D: Mugdhabodhapariśiṣṭa, by Kāśīśvara Bhaṭṭācārya' on fol. 202; unresolved",
+          "source_page_order": 403,
+          "source_block_id": null,
+          "evidence": "The b003 arrow at about y1130 corresponds in height to the fol. 202 'D: Mugdhabodhapariśiṣṭa' line. Neither target is secure.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The arrow-height evidence does not support a single target.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0402-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The reading of 'Vidyāvāgīśa' is uncertain.",
+        "The 'b 61' shelfmark lacks a clear point after 'b'."
+      ],
+      "after": [
+        "The reading of 'Vidyāvāgīśa' is uncertain.",
+        "The 'b 61' shelfmark lacks a clear point after 'b'.",
+        "The first digit of '858' is heavily inked or possibly overwritten. No underlying digit is legible."
+      ],
+      "reason": "Records the observation for issue 03.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0402-focus.parsed.json"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "fields",
+      "before": {
+        "shelfmark": "b.99(2)ⁱ",
+        "title": "Do.",
+        "extent": "ff.1-3 inc.",
+        "date": "n.d.",
+        "lines": "4",
+        "script": "Beng."
+      },
+      "after": {
+        "shelfmark": "b.99(2)ⁱ",
+        "title": "Do.",
+        "extent": "ff.1-3 inc.",
+        "date": "n.d.",
+        "folios": "3",
+        "lines": "4",
+        "script": "Beng."
+      },
+      "reason": "The data column reads 'n.d. : 3 : 4 : Beng.'.",
+      "source_block_ids": [
+        "b006"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match",
+      "focused_check_file": "0402-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "There is no shelfmark.",
+        "The line is indented.",
+        "A left-pointing arrow stands at the right of the line near the gutter, about x2980-3095.",
+        "On fol. 202 a left-pointing arrow in the outer margin stands beside the b.60 Mugdhabodha line."
+      ],
+      "after": [
+        "There is no shelfmark.",
+        "The line is indented.",
+        "A left-pointing arrow stands at the right of the line near the gutter, about x2980-3095.",
+        "On fol. 202 a left-pointing arrow in the left margin stands between the d. 824 (4) and b. 60 lines, slightly nearer b. 60."
+      ],
+      "reason": "More exact description of the arrow position on the facing page.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0402-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "On fol. 202 the matching arrow sits between the d.824(4) and b.60 lines. The attachment to b.60 Mugdhabodha is plausible but not secure.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0402-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The shelfmark b.61(1) appears on fol. 202 as 'b. 6?(1)'. It is unclear whether the dashes ditto r003 or the fol. 202 Subodha line.",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0402-02"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "The first digit of '858' appears overwritten or heavily inked.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0402-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The certainty of the ditto target is overstated. Proposed relationships: [{\"type\": \"ditto_from\", \"target_page_order\": 403, \"target_record_id\": null, \"target_block_id\": null, \"target_anchor\": \"Mugdhabodha (b. 60) or 'D: Mugdhabodhapariśiṣṭa' line\", \"evidence\": \"The 'Do' ditto and the arrow point toward facing fol. 202. The exact target line is ambiguous.\", \"certainty\": \"uncertain\"}]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0402-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The reading 'critical' versus '[a ritual?]' and the phrase 'vocabulary modern' are tentative.",
+      "block_ids": [
+        "b005"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0402-05"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "The arrow height on the facing page does not securely indicate b.60. An alternative governing line exists. Proposed editorial_context: [{\"field\": \"title\", \"value\": \"Do may refer to Mugdhabodha (fol. 202, b. 60) or to the unshelfmarked line 'D: Mugdhabodhapariśiṣṭa, by Kāśīśvara Bhaṭṭācārya' on fol. 202; unresolved\", \"source_page_order\": 403, \"source_block_id\": null, \"evidence\": \"The b003 arrow at about y1140 corresponds in height to the fol. 202 line 'D: Mugdhabodhapariśiṣṭa' rather than to the b.60 line. Neither target is secure.\", \"certainty\": \"uncertain\"}]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0402-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Records the data-column folio count separately. Proposed fields.folios: \"3\"",
+      "block_ids": [
+        "b006"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0402-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The parent entry is not on this page, so the attachment to fol. 202 b.60 rests on arrow evidence only.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0402-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The reading of 'Vidyāvāgīśa' is uncertain.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0402-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The 'b 61' shelfmark lacks a clear point after 'b'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0402-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0402-01",
+        "focus-0402-02",
+        "focus-0402-03",
+        "focus-0402-04",
+        "focus-0402-05",
+        "focus-0402-06",
+        "focus-0402-07",
+        "focus-0402-08",
+        "focus-0402-09",
+        "focus-0402-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0402-01",
+          "source_reading": "[left-pointing arrow at about x2985-3090, y985 on fol. 201b; on fol. 202 a left-pointing arrow at about x155-255, y965, below the d. 824 (4) line (about y885) and slightly above the b. 60 line (about y1000)]",
+          "certainty": "probable",
+          "evidence": "In the adjacent native tile the fol. 202 arrow stands in the space between the two lines and is nearer to b. 60. It is not level with either line."
+        },
+        {
+          "issue_id": "focus-0402-02",
+          "source_reading": "target: '// b.61(1) ——, —,'; fol. 202: 'b. 6[?](1)' (digit overwritten, with a stroke above), followed by '——— ———, D: [Subodha, by Durgādāsa]'",
+          "certainty": "uncertain",
+          "evidence": "On the target the shelfmark reads 61 fairly clearly. On fol. 202 the second digit is overwritten. The brace arrow leads to the fol. 202 arrow beside that line. The ditto pattern '——, —,' is consistent with either target."
+        },
+        {
+          "issue_id": "focus-0402-03",
+          "source_reading": "Cf. Eggeling 858-860.",
+          "certainty": "probable",
+          "evidence": "The first '8' is darker and thicker than the others, which suggests overwriting or reinking. No underlying digit is legible."
+        },
+        {
+          "issue_id": "focus-0402-04",
+          "source_reading": "Do",
+          "certainty": "uncertain",
+          "evidence": "The arrow at the end of the b003 line (about y1130) matches a dash or arrow on fol. 202 at about y1115. That position is level with the 'D: Mugdhabodhapariśiṣṭa' line, not with b. 60."
+        },
+        {
+          "issue_id": "focus-0402-05",
+          "source_reading": "text, accented, but vocabulary modern; (b) three fol. from [c ritual? / critical?] manual",
+          "certainty": "uncertain",
+          "evidence": "After 'from' there is a small letter, then 'ritual'-like letters. The text could be 'a ritual' or 'critical'. 'vocabulary modern' is probable."
+        },
+        {
+          "issue_id": "focus-0402-06",
+          "source_reading": "Do (governing line not determinable from this page)",
+          "certainty": "uncertain",
+          "evidence": "The arrow height aligns with the fol. 202 'D: Mugdhabodhapariśiṣṭa' line."
+        },
+        {
+          "issue_id": "focus-0402-07",
+          "source_reading": "n.d. : 3 : 4 : Beng.",
+          "certainty": "secure",
+          "evidence": "The data column is on the b006 line at about x2720-3120."
+        },
+        {
+          "issue_id": "focus-0402-08",
+          "source_reading": "ff. 2-54. cf. Eggeling, 872 [no parent on this page]",
+          "certainty": "probable",
+          "evidence": "The attachment rests on arrow evidence only, as noted for issue 01."
+        },
+        {
+          "issue_id": "focus-0402-09",
+          "source_reading": "Vidyā[vāgīśa?]",
+          "certainty": "uncertain",
+          "evidence": "The letters after 'Vidyā' are cramped. Only 'v', 'g' and 'ś' forms are partly discernible."
+        },
+        {
+          "issue_id": "focus-0402-10",
+          "source_reading": "b 61(3).",
+          "certainty": "probable",
+          "evidence": "No clear point is visible between 'b' and '61'. The point after '(3)' is clear."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "relationships",
+          "before": [
+            {
+              "type": "ditto_from",
+              "target_page_order": 403,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "Mugdhabodha (b. 60)",
+              "evidence": "The 'Do' ditto and the arrows point toward facing fol. 202.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "type": "ditto_from",
+              "target_page_order": 403,
+              "target_record_id": null,
+              "target_block_id": null,
+              "target_anchor": "Mugdhabodha (b. 60) or 'D: Mugdhabodhapariśiṣṭa' line",
+              "evidence": "The 'Do' ditto and the arrow point toward facing fol. 202. The arrow height matches the D: Mugdhabodhapariśiṣṭa line. The exact target line is ambiguous.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "The certainty of the ditto target was overstated.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "editorial_context",
+          "before": [
+            {
+              "field": "title",
+              "value": "Do probably refers to Mugdhabodha (fol. 202, b. 60)",
+              "source_page_order": 403,
+              "source_block_id": null,
+              "evidence": "Arrows link this verso to the b.60 to b.64(1) group of entries on facing fol. 202.",
+              "certainty": "probable"
+            }
+          ],
+          "after": [
+            {
+              "field": "title",
+              "value": "Do may refer to Mugdhabodha (fol. 202, b. 60) or to the unshelfmarked line 'D: Mugdhabodhapariśiṣṭa, by Kāśīśvara Bhaṭṭācārya' on fol. 202; unresolved",
+              "source_page_order": 403,
+              "source_block_id": null,
+              "evidence": "The b003 arrow at about y1130 corresponds in height to the fol. 202 'D: Mugdhabodhapariśiṣṭa' line. Neither target is secure.",
+              "certainty": "uncertain"
+            }
+          ],
+          "reason": "The arrow-height evidence does not support a single target.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The reading of 'Vidyāvāgīśa' is uncertain.",
+            "The 'b 61' shelfmark lacks a clear point after 'b'."
+          ],
+          "after": [
+            "The reading of 'Vidyāvāgīśa' is uncertain.",
+            "The 'b 61' shelfmark lacks a clear point after 'b'.",
+            "The first digit of '858' is heavily inked or possibly overwritten. No underlying digit is legible."
+          ],
+          "reason": "Records the observation for issue 03.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r006",
+          "field_path": "fields",
+          "before": {
+            "shelfmark": "b.99(2)ⁱ",
+            "title": "Do.",
+            "extent": "ff.1-3 inc.",
+            "date": "n.d.",
+            "lines": "4",
+            "script": "Beng."
+          },
+          "after": {
+            "shelfmark": "b.99(2)ⁱ",
+            "title": "Do.",
+            "extent": "ff.1-3 inc.",
+            "date": "n.d.",
+            "folios": "3",
+            "lines": "4",
+            "script": "Beng."
+          },
+          "reason": "The data column reads 'n.d. : 3 : 4 : Beng.'.",
+          "source_block_ids": [
+            "b006"
+          ],
+          "certainty": "secure"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "annotations",
+          "before": [
+            "There is no shelfmark.",
+            "The line is indented.",
+            "A left-pointing arrow stands at the right of the line near the gutter, about x2980-3095.",
+            "On fol. 202 a left-pointing arrow in the outer margin stands beside the b.60 Mugdhabodha line."
+          ],
+          "after": [
+            "There is no shelfmark.",
+            "The line is indented.",
+            "A left-pointing arrow stands at the right of the line near the gutter, about x2980-3095.",
+            "On fol. 202 a left-pointing arrow in the left margin stands between the d. 824 (4) and b. 60 lines, slightly nearer b. 60."
+          ],
+          "reason": "More exact description of the arrow position on the facing page.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The attachment is probable but not secure."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "The ditto target is uncertain."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The ditto source is unresolved."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "The reading 'critical' versus 'a ritual' is unresolved."
+        },
+        {
+          "block_id": "b006",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "The folio count has been added."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0402-01",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The fol. 202 arrow lies between the d.824(4) and b.60 lines.",
+          "next_check": "Compare the arrow positions on the physical opening."
+        },
+        {
+          "issue_id": "focus-0402-02",
+          "record_id": "r004",
+          "block_ids": [
+            "b004",
+            "b005"
+          ],
+          "issue": "The ditto source could be r003 or the fol. 202 b.6?(1) Subodha line. The fol. 202 digit is overwritten.",
+          "next_check": "Examine the overwritten digit on fol. 202 at higher resolution."
+        },
+        {
+          "issue_id": "focus-0402-03",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The first digit of '858' may overwrite another digit.",
+          "next_check": "Use raking light or a higher-contrast image."
+        },
+        {
+          "issue_id": "focus-0402-04",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The Do target is ambiguous.",
+          "next_check": "Align the opening and measure line heights."
+        },
+        {
+          "issue_id": "focus-0402-05",
+          "record_id": "r005",
+          "block_ids": [
+            "b005"
+          ],
+          "issue": "'critical' or 'a ritual' remains undecided.",
+          "next_check": "Use a higher-resolution crop of b005 line 2."
+        },
+        {
+          "issue_id": "focus-0402-06",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The governing title could be b.60 or the D: Mugdhabodhapariśiṣṭa line.",
+          "next_check": "Align the opening."
+        },
+        {
+          "issue_id": "focus-0402-08",
+          "record_id": "r002",
+          "block_ids": [
+            "b002"
+          ],
+          "issue": "The parent entry is not on this page.",
+          "next_check": "Align the opening."
+        },
+        {
+          "issue_id": "focus-0402-09",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The reading 'Vidyāvāgīśa' is unclear.",
+          "next_check": "Use a higher-resolution crop."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "266008afb80a94c39d8673e62c6b1dd4d8f52ab67477fe78ce344d7704a1bf2e",
+      "bytes": 283761,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b918a9bd7f868a46578b0f4b6ddd6a5c39dbef65c9abd0075981bfbc0b822e9b",
+      "bytes": 357623,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "72736455d76de11f60250176082dde089a89fe06ccda5938cc686909b9b18ebe",
+      "bytes": 373077,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2f19263031f4f8f8894b8d7fc1229b7d9a8117b6e711b01edbd4199b2c207396",
+      "bytes": 302459,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "601d17d48849334a78037923564534ff024c16353a3f5694ad7e594ea3c0a629",
+      "bytes": 283793,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4438e2ea-83f8-413c-87ee-25be26069010/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "53a259d76309b4678ee8afab3db907d8f944b2ebdcb0b55d1836e13084fa19ef",
+      "bytes": 258184,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 401,
+      "folio_label": "fol. 201",
+      "page_id": "4438e2ea-83f8-413c-87ee-25be26069010",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d503e383-db67-4f5a-892c-addfd60663b3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "344c8ada0077eefbff6067e2d8ae13954026030162f61bcf7bd319fb1ac69a75",
+      "bytes": 272323,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 403,
+      "folio_label": "fol. 202",
+      "page_id": "d503e383-db67-4f5a-892c-addfd60663b3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d503e383-db67-4f5a-892c-addfd60663b3/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "15745bf17ef2f93adba6e427143105f088850a5cc32b126be02edbf24e54eca0",
+      "bytes": 407640,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 403,
+      "folio_label": "fol. 202",
+      "page_id": "d503e383-db67-4f5a-892c-addfd60663b3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d503e383-db67-4f5a-892c-addfd60663b3/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c9b45c2ae8ff5c1d38be18b01d1a97e4f90b5703888d666ad98f0d67db1cfd2b",
+      "bytes": 455330,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 403,
+      "folio_label": "fol. 202",
+      "page_id": "d503e383-db67-4f5a-892c-addfd60663b3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9b1f04b1-10c2-4650-8524-d85235d88b9d.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "266008afb80a94c39d8673e62c6b1dd4d8f52ab67477fe78ce344d7704a1bf2e",
+      "bytes": 283761,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b918a9bd7f868a46578b0f4b6ddd6a5c39dbef65c9abd0075981bfbc0b822e9b",
+      "bytes": 357623,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "72736455d76de11f60250176082dde089a89fe06ccda5938cc686909b9b18ebe",
+      "bytes": 373077,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2f19263031f4f8f8894b8d7fc1229b7d9a8117b6e711b01edbd4199b2c207396",
+      "bytes": 302459,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "601d17d48849334a78037923564534ff024c16353a3f5694ad7e594ea3c0a629",
+      "bytes": 283793,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5e992bb4af96be051b6d686becf835a5493c00b0a39837b2bea48a82f02f9d54",
+      "bytes": 297500,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/9b1f04b1-10c2-4650-8524-d85235d88b9d/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c543912476d01241ea66a139f73ab54c02a7f3f35ab86ac9d603e27c6010881d",
+      "bytes": 312888,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/4438e2ea-83f8-413c-87ee-25be26069010/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "53a259d76309b4678ee8afab3db907d8f944b2ebdcb0b55d1836e13084fa19ef",
+      "bytes": 258184,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 401,
+      "folio_label": "fol. 201",
+      "page_id": "4438e2ea-83f8-413c-87ee-25be26069010",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d503e383-db67-4f5a-892c-addfd60663b3/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "344c8ada0077eefbff6067e2d8ae13954026030162f61bcf7bd319fb1ac69a75",
+      "bytes": 272323,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 403,
+      "folio_label": "fol. 202",
+      "page_id": "d503e383-db67-4f5a-892c-addfd60663b3",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

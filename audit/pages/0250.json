@@ -1,0 +1,436 @@
+{
+  "source_order": 250,
+  "folio_label": "fol. 125b",
+  "page_id": "30c119d2-ad09-4037-b001-95253942233b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "125b",
+    "principal_page_bbox": [
+      275,
+      285,
+      2870,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          365,
+          325,
+          170,
+          120
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "125b.",
+        "features": [
+          "ink",
+          "top left corner",
+          "the 'b' is written superscript after '125'"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1328,
+          1192,
+          14,
+          14
+        ],
+        "description": "small dark dot in the upper middle of the page, probably a speck rather than writing"
+      },
+      {
+        "bbox": [
+          2900,
+          380,
+          40,
+          25
+        ],
+        "description": "short faint diagonal stroke near the top right of the page, probably a stray mark"
+      },
+      {
+        "bbox": [
+          3130,
+          1785,
+          30,
+          25
+        ],
+        "description": "small dark mark at the gutter edge, about level with the facing page's '2nd. pada' note; probably a binding or speck mark"
+      },
+      {
+        "bbox": [
+          3135,
+          2180,
+          25,
+          35
+        ],
+        "description": "small mark at the gutter edge lower down, probably a speck or binding mark"
+      }
+    ],
+    "boundary_notes": [
+      "Apart from the folio number, the ruled page carries no writing in its own hand. The faint grey text across the ruled lines is mirrored show-through from the recto (fol. 125 entries such as Nirṇaya..., Cāṇakyanīti). It is not transcribed as target text.",
+      "At the right edge beyond the gutter (x≈3150 onward), the visible fragments 'd. 4..', 'n/?', 'f.', '2nd. pada defe..', 'ↄ ↄ', '5/' and 'm?' belong to the facing page, fol. 126. They are not target-page records."
+    ],
+    "uncertainties": [
+      "The show-through is very faint. A very light pencil addition on the target page itself cannot be fully excluded beneath it, but none was distinguishable on the native tiles."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "125b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "125b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink folio number in the top left corner.",
+          "The 'b' is written raised or superscript after '125', followed by a point."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number is the only writing in the target page's own hand. The native tile at about x 370–520, y 330–440 confirms it."
+      }
+    ],
+    "page_annotations": [
+      "The image review found this ruled page blank apart from the folio number '125b.'. The native tiles were checked at the top, middle, bottom, left margin, right margin and gutter, including between the lines.",
+      "Faint grey mirrored writing across the ruled lines is show-through from the recto, fol. 125, whose entries include Nirṇaya... and Cāṇakyanīti. It is not transcribed as target-page text.",
+      "The fragments beyond the gutter at x≈3150 and to the right belong to the facing page, fol. 126 (source order 251). They are 'd. 4..', 'n/?', 'f.', '2nd. pada defe..', 'ↄ ↄ', '5/' and 'm?'. They are not target-page records.",
+      "Several small dots and specks appear on the page: near x 1328, y 1192; near x 2900, y 380; and at the gutter near y 1785 and y 2180. There are also scattered dots in the lower half. These look like paper flecks or stray marks, not writing."
+    ],
+    "unresolved_relationships": [
+      "A very light pencil addition beneath the recto show-through cannot be fully excluded. None was distinguishable on the native tiles."
+    ]
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The native tile at about x 370–520, y 330–440 shows an ink '125' with a raised 'b' and a point. Candidate r001 matches this literally. It is the only writing in the target page's own hand."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Faint grey mirrored show-through from the recto, fol. 125, covers most ruled lines. A very light pencil addition on fol. 125b itself cannot be fully excluded beneath it, though none was distinguishable on the native tiles.",
+        "next_check": "Examine the original leaf, or use raking or transmitted-light imaging, to separate show-through from any direct pencil on the verso."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "Small unattached marks are disposed of as specks or stray marks, not writing. They are near (1328,1192), (2900,380) and at the gutter near y≈1790 and y≈2190. An additional small dot just left of the gutter near (3074,1733) is likewise read as a speck. Their non-textual status rests on image appearance only.",
+        "next_check": "Check these marks at higher magnification on the original if their status matters."
+      }
+    ],
+    "boundary_review": "The principal page runs from about x 275 to the gutter at about x 3150. The writing beyond the gutter belongs to the facing page, fol. 126 (source order 251). This is confirmed against the adjacent image, where 'd. 453 (3)'… 'd. 453 (8)', 'f. 97', 'n/?', '2nd. pada defective x ?', the 'ↄ' marks, '5/' and 'm?' sit in that page's left margin and shelfmark column. These fragments are not target records. The mirrored grey text on the target matches recto fol. 125 content, such as the Nirṇaya entries and the CĀṆAKYANĪTI heading. It is show-through and is not transcribed.",
+    "region_review": {
+      "top": "Only the folio number '125b.' at top left, plus a faint stray diagonal stroke near x 2900, y 380. There is no heading.",
+      "middle": "Ruled lines carry only mirrored show-through from the recto and a few specks. No direct writing was distinguished.",
+      "bottom": "The lower ruled lines and bottom margin show only faint show-through and scattered specks. No bottom note was found.",
+      "left_margin": "The binding edge and margin are blank apart from show-through.",
+      "right_margin": "The gutter area carries small specks or binding marks near y 1790 and y 2190. Text beyond the gutter belongs to fol. 126.",
+      "interlinear": "The faint interlinear-looking traces are mirrored recto show-through. No target-page interlinear additions were distinguishable."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        365,
+        325,
+        170,
+        120
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "125b.",
+      "features": [
+        "ink",
+        "top left corner",
+        "the 'b' is written superscript after '125'"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "125b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink folio number in the top left corner.",
+        "The 'b' is written raised or superscript after '125', followed by a point."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0250-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/30c119d2-ad09-4037-b001-95253942233b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30c119d2-ad09-4037-b001-95253942233b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "150d01cebc97a4a1726a756f7591849fe7f5a08113f2ced5fca8358c82a536f2",
+      "bytes": 248843,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30c119d2-ad09-4037-b001-95253942233b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "64614c57eff88c19089e9829b41b82f33b08638fd889f008807cfb73ae95f022",
+      "bytes": 321330,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30c119d2-ad09-4037-b001-95253942233b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "90a30af1b682347a6d450136daf730d287bd5b369d801e0d0642e75f908a6b07",
+      "bytes": 336051,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30c119d2-ad09-4037-b001-95253942233b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fe8aa2383eb877ecb397386a730e00982717ee3fafb7f09f73bad87e6c268672",
+      "bytes": 333775,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30c119d2-ad09-4037-b001-95253942233b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "aa049dca8a54523826631f0c6053e1a434531ce4ae4cd17f0c2212642fdbb9ed",
+      "bytes": 327883,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30c119d2-ad09-4037-b001-95253942233b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7cefb889878264956cee6f8dc15a967fd99d8b301ec36a04492dc066140439e0",
+      "bytes": 320999,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30c119d2-ad09-4037-b001-95253942233b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "480973de98f16185e7ae285f624b1922fe88b8262928f00bc0f19d28f2cce4c9",
+      "bytes": 338172,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f1083f78-bff7-46f8-b507-d0a6d5ae2b6e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "59c5210abed75ca5a989769602ad1b5bd9cd414d04b8578315a2cbc34a2a86ea",
+      "bytes": 265082,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 249,
+      "folio_label": "fol. 125",
+      "page_id": "f1083f78-bff7-46f8-b507-d0a6d5ae2b6e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f44a7b2a-c9f1-4ece-b8d0-16e45f32f85b/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "c722d99b4ea934e092159395a4dd63281bab373ea74fda49c091b5bf25390542",
+      "bytes": 211563,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 251,
+      "folio_label": "fol. 126",
+      "page_id": "f44a7b2a-c9f1-4ece-b8d0-16e45f32f85b",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

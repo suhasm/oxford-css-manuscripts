@@ -1,0 +1,1019 @@
+{
+  "source_order": 622,
+  "folio_label": "fol. 311b",
+  "page_id": "5a6a9785-8f5b-44dd-af25-1c61dda2872e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "311b",
+    "principal_page_bbox": [
+      290,
+      285,
+      2830,
+      4820
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          430,
+          400,
+          140,
+          140
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "311 b",
+        "features": [
+          "top-left corner",
+          "superscript 'b' above and right of '311' with a small mark (possibly '=' or underline) beneath it"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          360,
+          920,
+          2420,
+          100
+        ],
+        "kind_hint": "continuation_note_for_facing_page_entry",
+        "anchor": "a mixture of Sanskrit v Hindi, latter apparently from Sūrasāgara of Sūrdāsa, hopelessly muddled",
+        "features": [
+          "single line running across the left ruled margin into the main column",
+          "the connective after 'Sanskrit' is written like 'v', possibly an ampersand form",
+          "left-pointing arrow '←' at the right edge of the page, about x 2945-3015",
+          "appears keyed to the facing fol. 312 entry Vc. 409 (Sūrasāgarasārabhāgavata), which has an arrow in its margin"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          710,
+          2910,
+          700,
+          100
+        ],
+        "kind_hint": "continuation_note_for_facing_page_entry",
+        "anchor": "ff. 1-6. I.O. 2546, fol. 34.",
+        "features": [
+          "single line in the main column",
+          "left-pointing arrow '←' at about x 2984-3090, y 2928",
+          "the arrow is continued by a line on the facing page leading to entry 'Vc. 299'"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          350,
+          3340,
+          2620,
+          170
+        ],
+        "kind_hint": "continuation_note_for_facing_page_entry",
+        "anchor": "ff. 1-54, pp. 32-51 and 123-156, foll. by ff. 1-47 (ll. 26-36), pp. 52-87, … jyotiṣa, scribe Dīnabandhu Bhaṭṭācārya, dealing with / pañcasvara v eclipses, San 1308, and ll. 13-17, unf. of work on jyotiṣa",
+        "features": [
+          "two lines",
+          "the second line is indented",
+          "cancelled words '⟦a work⟧' (reading?) before 'of jyotiṣa'",
+          "interlinear 'extraction' (reading?) written above the cancellation, at about x 1715-1910, y 3350",
+          "possibly keyed to facing fol. 312 entry Vc. 393, where 'dealing with' is visible at that page's left edge"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          595,
+          3330,
+          15,
+          40
+        ],
+        "description": "small vertical dotted mark above the start of 'pp. 32-51' in b004; possibly an insertion or reference mark"
+      },
+      {
+        "bbox": [
+          2945,
+          930,
+          70,
+          30
+        ],
+        "description": "left-pointing arrow at the end of b002 (also noted in b002)"
+      },
+      {
+        "bbox": [
+          2984,
+          2920,
+          110,
+          25
+        ],
+        "description": "left-pointing arrow beside b003, linked by a line to the facing page (also noted in b003)"
+      }
+    ],
+    "boundary_notes": [
+      "The right strip beyond about x 3120 shows the facing fol. 312 (shelfmarks d. 857(8), Vc. 409, d. 900(4), etc.). It is context only and is not transcribed as target blocks.",
+      "The notes on this page (b002-b004) appear to be overflow annotations for entries on facing fol. 312, linked by arrows. They are kept as distinct continuation blocks."
+    ],
+    "uncertainties": [
+      "Exact reading of the cancelled words in b004 ('a work') and of the interlinear 'extraction'.",
+      "Whether the 'v' in b002 and b004 is an ampersand form.",
+      "The mark below the superscript 'b' of the folio number is ambiguous.",
+      "Readings 'San 1308', 'll. 26-36' and 'unf.' are uncertain due to cursive hand."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "311b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "311 b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top left. The 'b' is raised above and to the right of '311'.",
+          "A small mark beneath the 'b' may be '=' or ':'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The mark under the superscript 'b' is ambiguous."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_keyed_by_arrow",
+        "literal_text": "a mixture of Sanskrit v Hindi, latter apparently from Sūrasāgara of Sūrdāsa, hopelessly muddled",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Single line. It starts in the narrow left ruled column and runs across the vertical ruling into the main column.",
+          "A left-pointing arrow '←' stands near the right edge of the page, about x 2945-3015, y 930-960.",
+          "The connective after 'Sanskrit' is written like 'v', possibly an ampersand form."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 623,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 409 Sūrasāgarasārabhāgavata",
+            "evidence": "Facing fol. 312 has a left-pointing arrow in its left margin at the same height as entry Vc. 409. This note ends in an arrow pointing toward the gutter. The subject matter (Sūrasāgara) matches.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "Readings 'Sūrasāgara' (the final vowel could be read 'e') and 'Sūrdāsa' are cursive and uncertain.",
+          "'v' may stand for '&'."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_keyed_by_arrow",
+        "literal_text": "ff. 1-6. I.O. 2546, fol. 34.",
+        "fields": {
+          "extent": "ff. 1-6",
+          "source": "I.O. 2546, fol. 34"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Single line in the main column.",
+          "A left-pointing arrow at about x 2984-3090, y 2928 continues as a drawn line across the gutter on the facing page, leading to entry 'Vc. 299'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 623,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 299(1) Sūryasahasranāma, from Devīrahasya of Rudrayāmalatantra",
+            "evidence": "A drawn line connects this note's arrow to the shelfmark Vc. 299 on facing fol. 312.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The word read 'fol.' is cursive and could be another abbreviation."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note",
+        "literal_text": "ff. 1-54, pp. 32-51 and 123-156, foll. by ff. 1-47 (ll. 26-36), pp. 52-87, ⟦a work⟧ [interlinear: extraction] of jyotiṣa, scribe Dīnabandhu Bhaṭṭācārya, dealing with\n    pañcasvara v eclipses, San 1308, and ll. 13-17, unf. of work on jyotiṣa",
+        "fields": {
+          "extent": "ff. 1-54, pp. 32-51 and 123-156, foll. by ff. 1-47 (ll. 26-36), pp. 52-87, ... and ll. 13-17",
+          "subject": "jyotiṣa",
+          "date": "San 1308"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Two lines. The second line is indented.",
+          "The words 'a work' are struck through. The word 'extraction' is written above them as an interlinear replacement, at about x 1715-1910, y 3350.",
+          "A small vertical dotted mark stands above the start of 'pp. 32-51', at about x 595, y 3330. It may be an insertion or reference mark.",
+          "No arrow is present beside this block.",
+          "Dīnabandhu Bhaṭṭācārya is named as scribe, not as author."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 623,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 393(2) + (3)",
+            "evidence": "The note lies at roughly the same height as entry Vc. 393 on facing fol. 312, and its jyotiṣa subject is compatible. There is no arrow or connecting line. The 'dealing with' visible at the left edge of the fol. 312 image is this page's own text showing through, not independent evidence.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Readings of the cancelled 'a work' and the interlinear 'extraction' are uncertain.",
+          "Readings 'll. 26-36', 'San 1308', 'll. 13-17' and 'unf.' are uncertain because of the cursive hand.",
+          "'v' may stand for '&'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Arrow-keyed overflow note, probably for facing-page Vc. 409."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Overflow note joined by a drawn line to facing-page Vc. 299."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Two-line overflow note whose attachment is uncertain."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the folio number, the page carries only three overflow notes for entries on facing fol. 312; the rest of the ruled page is blank on review.",
+      "Faint show-through from the reverse side is not transcribed.",
+      "The strip right of about x 3120 belongs to facing fol. 312 and is context only."
+    ],
+    "unresolved_relationships": [
+      "The target entry for r004 (b004) is not marked by any arrow; Vc. 393 on fol. 312 is only a hypothesis."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '311' with raised 'b' at the top left, at about x 440-560, y 405-535. A small mark under the 'b' is visible; it could be ':' or '='. The candidate records this ambiguity correctly."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "A single line from about x 370 to x 2770, y 940-1010. It starts in the left ruled column and crosses the vertical ruling. The left-pointing arrow at about x 2949-3009, y 945 is the unattached mark listed in the inventory, and it is recorded in r002's annotations. The arrow points left, toward the note and away from the gutter. The relationship evidence in r002 is corrected below."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "'ff. 1-6. I.O. 2546, fol. 34.' at about x 715-1410, y 2918-3008. There is a small blot on the '6' of 2546. The arrow at about x 2984-3094, y 2928 is the unattached mark and is recorded in r003. Beyond the gutter, a drawn line on fol. 312 runs to 'Vc. 299'."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Two lines at about y 3340-3510; the second line is indented and starts near x 660. The small vertical dotted mark at about x 598, y 3320-3350 is the unattached mark and is recorded in r004; it stands above the '32' of 'pp. 32-51'. The cancellation and interlinear word are recorded, but where the cancellation ends, and the interlinear reading itself, remain uncertain. No arrow appears at the right of this block."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 623,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 409 Sūrasāgarasārabhāgavata",
+            "evidence": "Facing fol. 312 has a left-pointing arrow in its left margin at the same height as entry Vc. 409. This note ends in an arrow pointing toward the gutter. The subject matter (Sūrasāgara) matches.",
+            "certainty": "probable"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 623,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 409 Sūrasāgarasārabhāgavata",
+            "evidence": "The arrow seen at the left of the fol. 312 image is this page's own arrow, on the fol. 311b strip left of the gutter; it is not a mark on fol. 312. The arrow is left-pointing, toward the note text. It stands at the same height as Vc. 409, the first fol. 312 shelfmark right of the gutter at that height (about y 960-1010). No connecting line on fol. 312 is visible. The subject (Sūrasāgara) is compatible.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The source image shows that the arrow lies on the target page and points left. Fol. 312 has no separate arrow at this height.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "annotations",
+        "before": [
+          "Single line. It starts in the narrow left ruled column and runs across the vertical ruling into the main column.",
+          "A left-pointing arrow '←' stands near the right edge of the page, about x 2945-3015, y 930-960.",
+          "The connective after 'Sanskrit' is written like 'v', possibly an ampersand form."
+        ],
+        "after": [
+          "Single line. It starts in the narrow left ruled column and runs across the vertical ruling into the main column.",
+          "A left-pointing arrow '←' stands near the right edge of the page, about x 2945-3015, y 930-960. It points toward the note text, away from the gutter.",
+          "The connective after 'Sanskrit' is written like 'v', possibly an ampersand form."
+        ],
+        "reason": "Clarifies the direction of the arrow.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 623,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 393(2) + (3)",
+            "evidence": "The note lies at roughly the same height as entry Vc. 393 on facing fol. 312, and its jyotiṣa subject is compatible. There is no arrow or connecting line. The 'dealing with' visible at the left edge of the fol. 312 image is this page's own text showing through, not independent evidence.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 623,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Vc. 393(2) + (3)",
+            "evidence": "The note lies at roughly the same height as entry Vc. 393 on facing fol. 312 (about y 3390), and its jyotiṣa subject is compatible. There is no arrow or connecting line. The 'dealing with' at the left edge of the fol. 312 image is the visible fol. 311b strip of the photographed opening, not show-through, so it is not independent evidence.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The adjacent image shows the facing leaf itself, not show-through.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "secure"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "Readings of the cancelled 'a work' and the interlinear 'extraction' are uncertain.",
+          "Readings 'll. 26-36', 'San 1308', 'll. 13-17' and 'unf.' are uncertain because of the cursive hand.",
+          "'v' may stand for '&'."
+        ],
+        "after": [
+          "Readings of the cancelled 'a work' and the interlinear 'extraction' are uncertain. The interlinear word might alternatively be read 'extracts on'.",
+          "The strike-through may extend over the following 'of' (written as a short stroke before 'jyotiṣa'). Whether 'of' is cancelled is unresolved.",
+          "Readings 'll. 26-36', 'San 1308', 'll. 13-17' and 'unf.' are uncertain because of the cursive hand.",
+          "'v' may stand for '&'."
+        ],
+        "reason": "At native scale the cancellation line runs into the stroke before 'jyotiṣa'. The interlinear word is cursive.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "Two points are unresolved. First, the extent of the cancellation (whether it includes 'of'). Second, the reading of the interlinear word ('extraction' or 'extracts on').",
+        "next_check": "Higher-resolution inspection of x 1700-2000, y 3330-3420."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "No arrow keys this note to an entry. The attachment to Vc. 393 is a hypothesis.",
+        "next_check": "Compare with a published catalogue entry for Vc. 393, or look for a key mark on fol. 312."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The attachment to Vc. 409 rests only on height alignment and subject; no connecting line is visible.",
+        "next_check": "Inspect the gutter region at about y 900-1020 on both leaves."
+      }
+    ],
+    "boundary_review": "The target leaf runs from about x 290 to x 3110. Beyond the gutter (x > about 3130) lies the strip of facing fol. 312, with shelfmarks d. 857(8) through d. 800(6), the line to Vc. 299 and a bracket arrow near Vc. 393/d. 901/f. 103. That strip is context only and is not transcribed. No fragment of fol. 311 appears at the left edge. The 'dealing with' and arrows seen at the left of the fol. 312 adjacent image are this page's own content and are not duplicated.",
+    "region_review": {
+      "top": "Only the folio number '311 b' with the small mark under the 'b'. Otherwise blank above the first ruled lines.",
+      "middle": "b002 at about y 940 and b003 at about y 2930, each with an arrow at the right. Between them is faint show-through of the reverse side only, not transcribed.",
+      "bottom": "b004 at about y 3340-3510. From there to the bottom edge at about y 4850 is blank except faint show-through and specks.",
+      "left_margin": "b002 and the first line of b004 start in the left ruled column. The second line of b004 starts near x 660. The dotted mark at about x 598, y 3330 is recorded. Nothing else.",
+      "right_margin": "Two left-pointing arrows, at about y 945 and y 2928. None beside b004.",
+      "interlinear": "Only the word above the cancellation in b004 ('extraction', reading uncertain). The vertical dotted mark above '32' is recorded."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        430,
+        400,
+        140,
+        140
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "311 b",
+      "features": [
+        "top-left corner",
+        "superscript 'b' above and right of '311' with a small mark (possibly '=' or underline) beneath it"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        360,
+        920,
+        2420,
+        100
+      ],
+      "kind_hint": "continuation_note_for_facing_page_entry",
+      "anchor": "a mixture of Sanskrit v Hindi, latter apparently from Sūrasāgara of Sūrdāsa, hopelessly muddled",
+      "features": [
+        "single line running across the left ruled margin into the main column",
+        "the connective after 'Sanskrit' is written like 'v', possibly an ampersand form",
+        "left-pointing arrow '←' at the right edge of the page, about x 2945-3015",
+        "appears keyed to the facing fol. 312 entry Vc. 409 (Sūrasāgarasārabhāgavata), which has an arrow in its margin"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        710,
+        2910,
+        700,
+        100
+      ],
+      "kind_hint": "continuation_note_for_facing_page_entry",
+      "anchor": "ff. 1-6. I.O. 2546, fol. 34.",
+      "features": [
+        "single line in the main column",
+        "left-pointing arrow '←' at about x 2984-3090, y 2928",
+        "the arrow is continued by a line on the facing page leading to entry 'Vc. 299'"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        350,
+        3340,
+        2620,
+        170
+      ],
+      "kind_hint": "continuation_note_for_facing_page_entry",
+      "anchor": "ff. 1-54, pp. 32-51 and 123-156, foll. by ff. 1-47 (ll. 26-36), pp. 52-87, … jyotiṣa, scribe Dīnabandhu Bhaṭṭācārya, dealing with / pañcasvara v eclipses, San 1308, and ll. 13-17, unf. of work on jyotiṣa",
+      "features": [
+        "two lines",
+        "the second line is indented",
+        "cancelled words '⟦a work⟧' (reading?) before 'of jyotiṣa'",
+        "interlinear 'extraction' (reading?) written above the cancellation, at about x 1715-1910, y 3350",
+        "possibly keyed to facing fol. 312 entry Vc. 393, where 'dealing with' is visible at that page's left edge"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "311 b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top left. The 'b' is raised above and to the right of '311'.",
+        "A small mark beneath the 'b' may be '=' or ':'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The mark under the superscript 'b' is ambiguous."
+      ],
+      "stable_id": "css-prod-0622-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_keyed_by_arrow",
+      "literal_text": "a mixture of Sanskrit v Hindi, latter apparently from Sūrasāgara of Sūrdāsa, hopelessly muddled",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Single line. It starts in the narrow left ruled column and runs across the vertical ruling into the main column.",
+        "A left-pointing arrow '←' stands near the right edge of the page, about x 2945-3015, y 930-960. It points toward the note text, away from the gutter.",
+        "The connective after 'Sanskrit' is written like 'v', possibly an ampersand form."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 623,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 409 Sūrasāgarasārabhāgavata",
+          "evidence": "The arrow seen at the left of the fol. 312 image is this page's own arrow, on the fol. 311b strip left of the gutter; it is not a mark on fol. 312. The arrow is left-pointing, toward the note text. It stands at the same height as Vc. 409, the first fol. 312 shelfmark right of the gutter at that height (about y 960-1010). No connecting line on fol. 312 is visible. The subject (Sūrasāgara) is compatible.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "Readings 'Sūrasāgara' (the final vowel could be read 'e') and 'Sūrdāsa' are cursive and uncertain.",
+        "'v' may stand for '&'."
+      ],
+      "stable_id": "css-prod-0622-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_keyed_by_arrow",
+      "literal_text": "ff. 1-6. I.O. 2546, fol. 34.",
+      "fields": {
+        "extent": "ff. 1-6",
+        "source": "I.O. 2546, fol. 34"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Single line in the main column.",
+        "A left-pointing arrow at about x 2984-3090, y 2928 continues as a drawn line across the gutter on the facing page, leading to entry 'Vc. 299'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 623,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 299(1) Sūryasahasranāma, from Devīrahasya of Rudrayāmalatantra",
+          "evidence": "A drawn line connects this note's arrow to the shelfmark Vc. 299 on facing fol. 312.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The word read 'fol.' is cursive and could be another abbreviation."
+      ],
+      "stable_id": "css-prod-0622-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note",
+      "literal_text": "ff. 1-54, pp. 32-51 and 123-156, foll. by ff. 1-47 (ll. 26-36), pp. 52-87, ⟦a work⟧ [interlinear: extraction] of jyotiṣa, scribe Dīnabandhu Bhaṭṭācārya, dealing with\n    pañcasvara v eclipses, San 1308, and ll. 13-17, unf. of work on jyotiṣa",
+      "fields": {
+        "extent": "ff. 1-54, pp. 32-51 and 123-156, foll. by ff. 1-47 (ll. 26-36), pp. 52-87, ... and ll. 13-17",
+        "subject": "jyotiṣa",
+        "date": "San 1308"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Two lines. The second line is indented.",
+        "The words 'a work' are struck through. The word 'extraction' is written above them as an interlinear replacement, at about x 1715-1910, y 3350.",
+        "A small vertical dotted mark stands above the start of 'pp. 32-51', at about x 595, y 3330. It may be an insertion or reference mark.",
+        "No arrow is present beside this block.",
+        "Dīnabandhu Bhaṭṭācārya is named as scribe, not as author."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 623,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 393(2) + (3)",
+          "evidence": "The note lies at roughly the same height as entry Vc. 393 on facing fol. 312 (about y 3390), and its jyotiṣa subject is compatible. There is no arrow or connecting line. The 'dealing with' at the left edge of the fol. 312 image is the visible fol. 311b strip of the photographed opening, not show-through, so it is not independent evidence.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Readings of the cancelled 'a work' and the interlinear 'extraction' are uncertain.",
+        "Readings 'll. 26-36', 'San 1308', 'll. 13-17' and 'unf.' are uncertain because of the cursive hand.",
+        "'v' may stand for '&'."
+      ],
+      "stable_id": "css-prod-0622-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 623,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 409 Sūrasāgarasārabhāgavata",
+          "evidence": "Facing fol. 312 has a left-pointing arrow in its left margin at the same height as entry Vc. 409. This note ends in an arrow pointing toward the gutter. The subject matter (Sūrasāgara) matches.",
+          "certainty": "probable"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 623,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 409 Sūrasāgarasārabhāgavata",
+          "evidence": "The arrow seen at the left of the fol. 312 image is this page's own arrow, on the fol. 311b strip left of the gutter; it is not a mark on fol. 312. The arrow is left-pointing, toward the note text. It stands at the same height as Vc. 409, the first fol. 312 shelfmark right of the gutter at that height (about y 960-1010). No connecting line on fol. 312 is visible. The subject (Sūrasāgara) is compatible.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The source image shows that the arrow lies on the target page and points left. Fol. 312 has no separate arrow at this height.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "annotations",
+      "before": [
+        "Single line. It starts in the narrow left ruled column and runs across the vertical ruling into the main column.",
+        "A left-pointing arrow '←' stands near the right edge of the page, about x 2945-3015, y 930-960.",
+        "The connective after 'Sanskrit' is written like 'v', possibly an ampersand form."
+      ],
+      "after": [
+        "Single line. It starts in the narrow left ruled column and runs across the vertical ruling into the main column.",
+        "A left-pointing arrow '←' stands near the right edge of the page, about x 2945-3015, y 930-960. It points toward the note text, away from the gutter.",
+        "The connective after 'Sanskrit' is written like 'v', possibly an ampersand form."
+      ],
+      "reason": "Clarifies the direction of the arrow.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 623,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 393(2) + (3)",
+          "evidence": "The note lies at roughly the same height as entry Vc. 393 on facing fol. 312, and its jyotiṣa subject is compatible. There is no arrow or connecting line. The 'dealing with' visible at the left edge of the fol. 312 image is this page's own text showing through, not independent evidence.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 623,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Vc. 393(2) + (3)",
+          "evidence": "The note lies at roughly the same height as entry Vc. 393 on facing fol. 312 (about y 3390), and its jyotiṣa subject is compatible. There is no arrow or connecting line. The 'dealing with' at the left edge of the fol. 312 image is the visible fol. 311b strip of the photographed opening, not show-through, so it is not independent evidence.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The adjacent image shows the facing leaf itself, not show-through.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "secure",
+      "applied": true,
+      "application_reason": "Applied secure proposal with exact before match"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "Readings of the cancelled 'a work' and the interlinear 'extraction' are uncertain.",
+        "Readings 'll. 26-36', 'San 1308', 'll. 13-17' and 'unf.' are uncertain because of the cursive hand.",
+        "'v' may stand for '&'."
+      ],
+      "after": [
+        "Readings of the cancelled 'a work' and the interlinear 'extraction' are uncertain. The interlinear word might alternatively be read 'extracts on'.",
+        "The strike-through may extend over the following 'of' (written as a short stroke before 'jyotiṣa'). Whether 'of' is cancelled is unresolved.",
+        "Readings 'll. 26-36', 'San 1308', 'll. 13-17' and 'unf.' are uncertain because of the cursive hand.",
+        "'v' may stand for '&'."
+      ],
+      "reason": "At native scale the cancellation line runs into the stroke before 'jyotiṣa'. The interlinear word is cursive.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5a6a9785-8f5b-44dd-af25-1c61dda2872e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5a6a9785-8f5b-44dd-af25-1c61dda2872e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "a8f7d05eedcaba7f90084be88f9756561d349f18af34013c83f2789ecec644a3",
+      "bytes": 320117,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5a6a9785-8f5b-44dd-af25-1c61dda2872e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "991a9db1bde72fc0e23aa69d1ade78d16944a4ade6e5decc4e9ccda12f82e6d3",
+      "bytes": 365856,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5a6a9785-8f5b-44dd-af25-1c61dda2872e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5039a7a05af46538bc2d94f29e8cebdafc5b4576bfa8bb5cf9fcb40c0cab25f5",
+      "bytes": 400972,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5a6a9785-8f5b-44dd-af25-1c61dda2872e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4ca58c9fb22fac5c2422cae7e25a6ad1323bb5d6b61cdd352876502b158b00a4",
+      "bytes": 395893,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5a6a9785-8f5b-44dd-af25-1c61dda2872e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "cbea1f75a730ff72356485c840345d8ff76fc0289083ea9b002a622ecc50b5e5",
+      "bytes": 417683,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5a6a9785-8f5b-44dd-af25-1c61dda2872e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "afe75042a76f6827f8007d5991ea07003174b35fcd2f64e4995fd5dadd5c3970",
+      "bytes": 369086,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5a6a9785-8f5b-44dd-af25-1c61dda2872e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "29e11bb2d211d1db680761ac96083885edcc4068ff584aaba7c9a21d0d6485db",
+      "bytes": 411003,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e7ab8124-2af9-445a-995b-45a9e8c505cf/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "597af4624a43f5360fe97be3af72468f275916b6a4611b1ffab61c7a94d09e96",
+      "bytes": 339085,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 621,
+      "folio_label": "fol. 311",
+      "page_id": "e7ab8124-2af9-445a-995b-45a9e8c505cf",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f78d5d1c-c684-40a8-a011-92fd91700e51/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "cd2bf48cf7c40ee98e76d6c688ad75c6e3514e7a926002f566edd56621c155ed",
+      "bytes": 343288,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 623,
+      "folio_label": "fol. 312",
+      "page_id": "f78d5d1c-c684-40a8-a011-92fd91700e51",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1849 @@
+{
+  "source_order": 292,
+  "folio_label": "fol. 146b",
+  "page_id": "d09b955a-6e66-4b84-b719-3cc17a8c46e5",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "146b",
+    "principal_page_bbox": [
+      305,
+      290,
+      2865,
+      4590
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          410,
+          350,
+          145,
+          110
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "146b",
+        "features": [
+          "top-left corner",
+          "ink",
+          "superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          330,
+          2660,
+          830,
+          110
+        ],
+        "kind_hint": "marginal_note",
+        "anchor": "This & Uttarapakṣāvali (q.v.) are jointly called / Praśnāvali apparently",
+        "features": [
+          "two lines",
+          "small hand",
+          "written above entry c. 21(1)",
+          "second line interlinear"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1345,
+          2660,
+          1340,
+          105
+        ],
+        "kind_hint": "interlinear_note",
+        "anchor": "Scribe Gaṅgādhara Upādhyāya of the Karṇāṭaka jñāti",
+        "features": [
+          "written on the line above the entry",
+          "arrow to its right pointing left (toward note)"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          335,
+          2720,
+          2190,
+          130
+        ],
+        "kind_hint": "entry",
+        "anchor": "c. 21(1) Pūrvamīmāṃsārthasaṅgraha, by Bhāskara Laugākṣi, ff. 1-14. Dated Kāśī, S. 1916.",
+        "features": [
+          "tick mark at left before shelfmark",
+          "extent",
+          "date",
+          "place"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          1920,
+          2850,
+          630,
+          60
+        ],
+        "kind_hint": "continuation",
+        "anchor": "Scribe Sadānanda. I.O. 5912",
+        "features": [
+          "below main entry line",
+          "smaller hand",
+          "apparently attached to b004 by placement"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          2705,
+          2780,
+          320,
+          60
+        ],
+        "kind_hint": "entry_data_column",
+        "anchor": "(1859:14:11:D)",
+        "features": [
+          "in parentheses",
+          "right column on entry line",
+          "lighter/possibly pencil"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3010,
+          2700,
+          100,
+          30
+        ],
+        "description": "short left-pointing arrow to right of b003, near gutter"
+      },
+      {
+        "bbox": [
+          3080,
+          2780,
+          330,
+          60
+        ],
+        "description": "'<' mark followed by wavy line extending across gutter toward facing page fol. 147 entry b. 101(18) Pūrvacaṭakāṣṭaka"
+      },
+      {
+        "bbox": [
+          1390,
+          1800,
+          30,
+          30
+        ],
+        "description": "small ink dot in middle of page"
+      },
+      {
+        "bbox": [
+          3130,
+          2690,
+          90,
+          50
+        ],
+        "description": "paper damage/blot at gutter"
+      }
+    ],
+    "boundary_notes": [
+      "Right edge of target is the gutter at about x=3170; text beyond (√ d. …, d., See cat…) belongs to facing fol. 147 and is not transcribed.",
+      "Wavy line from '<' crosses the gutter; its attachment may be to the facing-page entry rather than to the target entry.",
+      "Faint reversed show-through text visible in lower half is offset/bleed from other leaf, not target writing."
+    ],
+    "uncertainties": [
+      "Reading of 'Gaṅgādhara' and 'Laugākṣi' diacritics uncertain from cursive hand.",
+      "Whether b006 date column belongs to b004 or to the line of the facing-page arrow is assumed by placement only.",
+      "'S. 1916' era abbreviation not resolved."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "146b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "146b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Ink, top-left corner; the 'b' is written superscript."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "title_note",
+        "literal_text": "This & Uttarapakṣāvali (q.v.) are jointly called\nPraśnāvali apparently",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Small hand on two lines at the left. It sits above the entry c. 21(1); the second line is interlinear, just above the shelfmark.",
+          "'Uttarapakṣāvali' appears underlined."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 292,
+            "target_record_id": "r004",
+            "target_block_id": "b004",
+            "target_anchor": "c. 21(1) Pūrvamīmāṃsārthasaṅgraha",
+            "evidence": "Written directly above the entry, and 'This' refers to an adjacent work.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The cursive reading of 'Uttarapakṣāvali' and of 'Praśnāvali' (the second could be read 'Prásnāvali'), including diacritics, is uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "scribe_note",
+        "literal_text": "Scribe Gaṅgādhara Upādhyāya of the Karṇāṭaka jñāti",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written on the ruled line above the c. 21(1) entry, in the middle and right of the page.",
+          "A short left-pointing arrow (b901) lies to its right, near the gutter."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 292,
+            "target_record_id": "r004",
+            "target_block_id": "b004",
+            "target_anchor": "c. 21(1) Pūrvamīmāṃsārthasaṅgraha",
+            "evidence": "Placed on the line directly above the only entry on the page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The name is cursive: 'Gaṅgādhara' could also be read 'Gaṅidhara[?]'.",
+          "The diacritics of 'Karṇāṭaka' are uncertain.",
+          "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004",
+          "b005",
+          "b006"
+        ],
+        "type": "holding",
+        "subtype": null,
+        "literal_text": "√c. 21(1) Pūrvamīmāṃsārthasaṅgraha, by Bhāskara Laugākṣi, ff. 1-14. Dated Kāśī, S. 1916.   (1859:14:11:D)\nScribe Sadānanda. I.O. 5912",
+        "fields": {
+          "shelfmark": "c. 21(1)",
+          "title": "Pūrvamīmāṃsārthasaṅgraha",
+          "author": "Bhāskara Laugākṣi",
+          "date": "S. 1916; 1859 (column)",
+          "extent": "ff. 1-14; 14 (column)",
+          "lines": "11",
+          "script": "D",
+          "source": "I.O. 5912"
+        },
+        "normalized_title": "Pūrvamīmāṃsārthasaṅgraha",
+        "annotations": [
+          "A tick precedes the shelfmark in the left margin.",
+          "The right-column data '(1859:14:11:D)' is in parentheses and in lighter ink or pencil.",
+          "'Scribe Sadānanda. I.O. 5912' is in a smaller hand below 'ff. 1-14 ... Kāśī'. Small strokes beneath the commas after 'Laugākṣi' and after 'Kāśī' may be insertion marks.",
+          "Place of writing as given: 'Kāśī'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The diacritics in 'Laugākṣi' and 'Kāśī' are uncertain.",
+          "The era 'S.' is not resolved.",
+          "The column positions are read by analogy with the page layout, and the column values are recorded literally.",
+          "The 'I.O. 5912' reading is probable."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "arrow",
+        "literal_text": "←",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Short left-pointing ink arrow near the gutter at the level of the scribe note b003. The same arrow is visible in the left margin of facing fol. 147, beside √d.239(3)."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 292,
+            "target_record_id": "r003",
+            "target_block_id": "b003",
+            "target_anchor": "Scribe Gaṅgādhara Upādhyāya",
+            "evidence": "The arrow points left toward the note.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 293,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.239(3) Pūrvapakṣāvali",
+            "evidence": "The arrow sits immediately left of the facing-page entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear which page's entry the arrow belongs to."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b902"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "linking_mark",
+        "literal_text": "<",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A '<' mark sits right of the c. 21(1) data column. A wavy line runs from it across the gutter toward facing fol. 147, entry b. 101(18) Pūrvacaṭakāṣṭaka."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 293,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 101(18) Pūrvacaṭakāṣṭaka",
+            "evidence": "The wavy line extends across the gutter to that line.",
+            "certainty": "uncertain"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 292,
+            "target_record_id": "r004",
+            "target_block_id": "b006",
+            "target_anchor": "(1859:14:11:D)",
+            "evidence": "The mark is on the same line as this entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The purpose of the link is unknown."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3010,
+          2690,
+          110,
+          40
+        ],
+        "kind_hint": "arrow",
+        "anchor": "←",
+        "features": [
+          "near gutter",
+          "ink",
+          "listed in inventory unattached_marks"
+        ]
+      },
+      {
+        "id": "b902",
+        "bbox": [
+          3080,
+          2780,
+          330,
+          70
+        ],
+        "kind_hint": "linking_mark",
+        "anchor": "< ~~~",
+        "features": [
+          "crosses gutter",
+          "wavy line",
+          "listed in inventory unattached_marks"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Note above the entry; probable attachment."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Scribe note above the entry; probable attachment."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Main holding entry."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Sub-line attached to the entry by placement directly beneath it."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Right data column on the entry line."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Arrow mark with ambiguous attachment."
+      },
+      {
+        "block_id": "b902",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Linking mark crossing the gutter."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is ruled and has no target-page writing.",
+      "A small ink dot appears near mid-page (about x=1390, y=1800).",
+      "There is paper damage or a blot at the gutter (about x=3130, y=2690).",
+      "Faint reversed show-through in the lower half is offset from another leaf and is not transcribed.",
+      "Text beyond the gutter (about x>3170) belongs to fol. 147 and is not transcribed."
+    ],
+    "unresolved_relationships": [
+      "Whether the arrow (b901) and the wavy-line link (b902) connect the c. 21(1) entry to facing-page entries d.239(3) or b.101(18) is uncertain.",
+      "The page carries two scribe statements (Gaṅgādhara above the entry, Sadānanda below it), and their relation is unresolved."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '146' with a superscript 'b' in ink at the top left. The reading agrees with the target metadata label 'fol. 146b'."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "Two-line note above c. 21(1). The second line visibly carries an accent over the first 'a', so it reads 'Prás/śnāvali' rather than a secure 'Praśnāvali'. A stroke may also stand over the first letter of 'apparently'. The '&' is a cursive ampersand that looks like 'v'."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Scribe note on the line above the entry. The name is not securely 'Gaṅgādhara': the visible letters look more like 'Ga[n/ṅ/ṇ]idhara' followed by 'ṭi' with an underdot. The candidate literal is falsely certain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Main holding line with a tick before 'c. 21(1)'. The reading agrees with the image within cursive uncertainty."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'Scribe Sadānanda. I.O. 5912' in a smaller hand beneath 'ff. 1-14 ... Kāśī'. Small strokes sit under the commas after 'Laugākṣi' and 'Kāśī'; they may be insertion signs, but this is not resolved."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "'(1859:14:11:D)' in lighter ink on the entry line, attached by placement."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Left-pointing arrow at about x=3010–3100, y≈2700, just left of the gutter blot. The fol. 147 overview shows the same physical mark at the edge of that image, level with √d.239(3). It is the same mark, not a second one."
+      },
+      {
+        "block_id": "b902",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "'<' on the target side of the gutter. A wavy line continues onto fol. 147 toward b. 101(18) Pūrvacaṭakāṣṭaka. Its attachment remains ambiguous."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "Scribe Gaṅgādhara Upādhyāya of the Karṇāṭaka jñāti",
+        "after": "Scribe [Gaṅgādhara? / Ga(ṇ/ṅ)idharaṭi?] Upādhyāya of the Karṇāṭaka jñāti",
+        "reason": "The native tile shows extra letters after 'dhara', apparently 'ṭi' with an underdot, and an 'i' after 'Ga'. A clean 'Gaṅgādhara' should not be presented as certain.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "uncertainties",
+        "before": [
+          "The name is cursive: 'Gaṅgādhara' could also be read 'Gaṅidhara[?]'.",
+          "The diacritics of 'Karṇāṭaka' are uncertain.",
+          "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+        ],
+        "after": [
+          "The name is cursive and unresolved. The visible letters suggest 'Ga?idharaṭi', with an underdotted t after 'dhara'. 'Gaṅgādhara' is not secure.",
+          "The ending of 'Upādhyāya' and the diacritics of 'Karṇāṭaka' are uncertain.",
+          "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+        ],
+        "reason": "Reflects the visible letter sequence without choosing a reading.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "literal_text",
+        "before": "This & Uttarapakṣāvali (q.v.) are jointly called\nPraśnāvali apparently",
+        "after": "This & Uttarapakṣāvali (q.v.) are jointly called\nPrá[ś?]nāvali [ā?]pparently",
+        "reason": "An acute-like accent is visible over the first 'a' of the second line. A stroke may stand over the first letter of 'apparently'. The candidate's own uncertainty note already conflicts with its literal text.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The scribe's name is not securely legible.",
+        "next_check": "Examine a higher-contrast image of x≈1600–2150, y≈2660–2760."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004",
+          "b005"
+        ],
+        "issue": "The strokes under the commas may be insertion marks placing 'Scribe Sadānanda' and 'I.O. 5912' into the line. The relation between this scribe statement and the Gaṅgādhara(?) note is also unresolved.",
+        "next_check": "Inspect the strokes near x≈2330 and x≈2420, y≈2800–2850."
+      },
+      {
+        "record_id": "r005",
+        "block_ids": [
+          "b901",
+          "b902"
+        ],
+        "issue": "It is unknown whether the arrow and the wavy link belong to the target entry or to the facing-page entries d.239(3) and b.101(18).",
+        "next_check": "Compare the ink and hand with the fol. 147 margin marks."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x≈3170. Writing beyond it (√ d.…, d., 'See ca(ṭa)…', and the wavy-line continuation) belongs to fol. 147 and is not transcribed. The '<' and the arrow lie on the target side of the gutter, but their attachment is ambiguous and stays visible as such. The fol. 146 recto does not overlap.",
+    "region_review": {
+      "top": "Only the folio number '146b' appears; the ruled lines are otherwise blank.",
+      "middle": "Blank apart from the small ink dot at about (1400, 1810). The only writing on the page is the block at y≈2660–2900.",
+      "bottom": "No writing on the target page; faint reversed show-through is offset from the other leaf. Small specks appear at about (905, 3636) and (835, 3276). They are not text.",
+      "left_margin": "The tick before 'c. 21(1)' and the start of the b002 note are covered.",
+      "right_margin": "The arrow, the '<' mark and the gutter blot are covered. Facing-page text is excluded.",
+      "interlinear": "The second line of b002, the b003 line above the entry and the b005 sub-line are covered."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        410,
+        350,
+        145,
+        110
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "146b",
+      "features": [
+        "top-left corner",
+        "ink",
+        "superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        330,
+        2660,
+        830,
+        110
+      ],
+      "kind_hint": "marginal_note",
+      "anchor": "This & Uttarapakṣāvali (q.v.) are jointly called / Praśnāvali apparently",
+      "features": [
+        "two lines",
+        "small hand",
+        "written above entry c. 21(1)",
+        "second line interlinear"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1345,
+        2660,
+        1340,
+        105
+      ],
+      "kind_hint": "interlinear_note",
+      "anchor": "Scribe Gaṅgādhara Upādhyāya of the Karṇāṭaka jñāti",
+      "features": [
+        "written on the line above the entry",
+        "arrow to its right pointing left (toward note)"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        335,
+        2720,
+        2190,
+        130
+      ],
+      "kind_hint": "entry",
+      "anchor": "c. 21(1) Pūrvamīmāṃsārthasaṅgraha, by Bhāskara Laugākṣi, ff. 1-14. Dated Kāśī, S. 1916.",
+      "features": [
+        "tick mark at left before shelfmark",
+        "extent",
+        "date",
+        "place"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        1920,
+        2850,
+        630,
+        60
+      ],
+      "kind_hint": "continuation",
+      "anchor": "Scribe Sadānanda. I.O. 5912",
+      "features": [
+        "below main entry line",
+        "smaller hand",
+        "apparently attached to b004 by placement"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        2705,
+        2780,
+        320,
+        60
+      ],
+      "kind_hint": "entry_data_column",
+      "anchor": "(1859:14:11:D)",
+      "features": [
+        "in parentheses",
+        "right column on entry line",
+        "lighter/possibly pencil"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3010,
+        2690,
+        110,
+        40
+      ],
+      "kind_hint": "arrow",
+      "anchor": "←",
+      "features": [
+        "near gutter",
+        "ink",
+        "listed in inventory unattached_marks"
+      ]
+    },
+    {
+      "id": "b902",
+      "bbox": [
+        3080,
+        2780,
+        330,
+        70
+      ],
+      "kind_hint": "linking_mark",
+      "anchor": "< ~~~",
+      "features": [
+        "crosses gutter",
+        "wavy line",
+        "listed in inventory unattached_marks"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "146b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Ink, top-left corner; the 'b' is written superscript."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0292-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "title_note",
+      "literal_text": "This & Uttarapakṣāvali (q.v.) are jointly called\nPraśnāvali apparently",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Small hand on two lines at the left. It sits above the entry c. 21(1); the second line is interlinear, just above the shelfmark.",
+        "'Uttarapakṣāvali' appears underlined."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 292,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "c. 21(1) Pūrvamīmāṃsārthasaṅgraha",
+          "evidence": "Written directly above the entry, and 'This' refers to an adjacent work.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The cursive reading of 'Uttarapakṣāvali' and of 'Praśnāvali' (the second could be read 'Prásnāvali'), including diacritics, is uncertain."
+      ],
+      "stable_id": "css-prod-0292-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "scribe_note",
+      "literal_text": "Scribe Gaṅgādhara Upādhyāya of the Karṇāṭaka jñāti",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written on the ruled line above the c. 21(1) entry, in the middle and right of the page.",
+        "A short left-pointing arrow (b901) lies to its right, near the gutter."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 292,
+          "target_record_id": "r004",
+          "target_block_id": "b004",
+          "target_anchor": "c. 21(1) Pūrvamīmāṃsārthasaṅgraha",
+          "evidence": "Placed on the line directly above the only entry on the page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The name is cursive: 'Gaṅgādhara' could also be read 'Gaṅidhara[?]'.",
+        "The diacritics of 'Karṇāṭaka' are uncertain.",
+        "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+      ],
+      "stable_id": "css-prod-0292-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004",
+        "b005",
+        "b006"
+      ],
+      "type": "holding",
+      "subtype": null,
+      "literal_text": "√c. 21(1) Pūrvamīmāṃsārthasaṅgraha, by Bhāskara Laugākṣi, ff. 1-14. Dated Kāśī, S. 1916.   (1859:14:11:D)\nScribe Sadānanda. I.O. 5912",
+      "fields": {
+        "shelfmark": "c. 21(1)",
+        "title": "Pūrvamīmāṃsārthasaṅgraha",
+        "author": "Bhāskara Laugākṣi",
+        "date": "S. 1916; 1859 (column)",
+        "extent": "ff. 1-14; 14 (column)",
+        "lines": "11",
+        "script": "D",
+        "source": "I.O. 5912"
+      },
+      "normalized_title": "Pūrvamīmāṃsārthasaṅgraha",
+      "annotations": [
+        "A tick precedes the shelfmark in the left margin.",
+        "The right-column data '(1859:14:11:D)' is in parentheses and in lighter ink or pencil.",
+        "'Scribe Sadānanda. I.O. 5912' is in a smaller hand below 'ff. 1-14 ... Kāśī'. Small strokes beneath the commas after 'Laugākṣi' and after 'Kāśī' may be insertion marks.",
+        "Place of writing as given: 'Kāśī'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The diacritics in 'Laugākṣi' and 'Kāśī' are uncertain.",
+        "The era 'S.' is not resolved.",
+        "The column positions are read by analogy with the page layout, and the column values are recorded literally.",
+        "The 'I.O. 5912' reading is probable."
+      ],
+      "stable_id": "css-prod-0292-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "arrow",
+      "literal_text": "←",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Short left-pointing ink arrow near the gutter at the level of the scribe note b003. The same arrow is visible in the left margin of facing fol. 147, beside √d.239(3)."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 292,
+          "target_record_id": "r003",
+          "target_block_id": "b003",
+          "target_anchor": "Scribe Gaṅgādhara Upādhyāya",
+          "evidence": "The arrow points left toward the note.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 293,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.239(3) Pūrvapakṣāvali",
+          "evidence": "The arrow sits immediately left of the facing-page entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear which page's entry the arrow belongs to."
+      ],
+      "stable_id": "css-prod-0292-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b902"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "linking_mark",
+      "literal_text": "<",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A '<' mark sits right of the c. 21(1) data column. A wavy line runs from it across the gutter toward facing fol. 147, entry b. 101(18) Pūrvacaṭakāṣṭaka."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 293,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 101(18) Pūrvacaṭakāṣṭaka",
+          "evidence": "The wavy line extends across the gutter to that line.",
+          "certainty": "uncertain"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 292,
+          "target_record_id": "r004",
+          "target_block_id": "b006",
+          "target_anchor": "(1859:14:11:D)",
+          "evidence": "The mark is on the same line as this entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The purpose of the link is unknown."
+      ],
+      "stable_id": "css-prod-0292-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "Scribe Gaṅgādhara Upādhyāya of the Karṇāṭaka jñāti",
+      "after": "Scribe [Gaṅgādhara? / Ga(ṇ/ṅ)idharaṭi?] Upādhyāya of the Karṇāṭaka jñāti",
+      "reason": "The native tile shows extra letters after 'dhara', apparently 'ṭi' with an underdot, and an 'i' after 'Ga'. A clean 'Gaṅgādhara' should not be presented as certain.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The name is cursive: 'Gaṅgādhara' could also be read 'Gaṅidhara[?]'.",
+        "The diacritics of 'Karṇāṭaka' are uncertain.",
+        "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+      ],
+      "after": [
+        "The name is cursive and unresolved. The visible letters suggest 'Ga?idharaṭi', with an underdotted t after 'dhara'. 'Gaṅgādhara' is not secure.",
+        "The ending of 'Upādhyāya' and the diacritics of 'Karṇāṭaka' are uncertain.",
+        "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+      ],
+      "reason": "Reflects the visible letter sequence without choosing a reading.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "This & Uttarapakṣāvali (q.v.) are jointly called\nPraśnāvali apparently",
+      "after": "This & Uttarapakṣāvali (q.v.) are jointly called\nPrá[ś?]nāvali [ā?]pparently",
+      "reason": "An acute-like accent is visible over the first 'a' of the second line. A stroke may stand over the first letter of 'apparently'. The candidate's own uncertainty note already conflicts with its literal text.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "Scribe Gaṅgādhara Upādhyāya of the Karṇāṭaka jñāti",
+      "after": "Scribe Ga[?]idharaṭi Upādhyāy[a?] of the Karṇāṭaka jñāti",
+      "reason": "The native tile does not support a clean 'Gaṅgādhara'. The visible letters are kept with uncertainty markers.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0292-focus.parsed.json"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "uncertainties",
+      "before": [
+        "The name is cursive: 'Gaṅgādhara' could also be read 'Gaṅidhara[?]'.",
+        "The diacritics of 'Karṇāṭaka' are uncertain.",
+        "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+      ],
+      "after": [
+        "The name is cursive and unresolved. The visible letters suggest 'Ga?idharaṭi', with an underdotted t after 'dhara'. 'Gaṅgādhara' is not secure.",
+        "The ending of 'Upādhyāya' and the diacritics of 'Karṇāṭaka' are uncertain.",
+        "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+      ],
+      "reason": "Aligns the uncertainty notes with the fresh reading.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0292-focus.parsed.json"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "literal_text",
+      "before": "This & Uttarapakṣāvali (q.v.) are jointly called\nPraśnāvali apparently",
+      "after": "This & Uttarapakṣāvali (q.v.) are jointly called\nPrá[ś?]nāvali [ā?]pparently",
+      "reason": "An acute over the first a of the title and a stroke over the first a of 'apparently' are visible in the native tile.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0292-focus.parsed.json"
+    },
+    {
+      "record_id": "r006",
+      "field_path": "annotations",
+      "before": [
+        "A '<' mark sits right of the c. 21(1) data column. A wavy line runs from it across the gutter toward facing fol. 147, entry b. 101(18) Pūrvacaṭakāṣṭaka."
+      ],
+      "after": [
+        "A '<' mark sits right of the c. 21(1) data column, on the target leaf just left of the gutter.",
+        "A wavy line begins immediately right of the gutter, on facing fol. 147. It continues there through 'b. 101(18) Pūrvacaṭakāṣṭaka' and 'poem' toward the n.d. column. Only the '<' is target-page material; the wavy line's link to the '<' is inferred from adjacency."
+      ],
+      "reason": "This clarifies leaf ownership of the mark components.",
+      "source_block_ids": [
+        "b902"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure",
+      "focused_check_file": "0292-focus.parsed.json"
+    }
+  ],
+  "block_change_audit": [
+    {
+      "block_id": "b902",
+      "before_bbox": [
+        3080,
+        2780,
+        330,
+        70
+      ],
+      "after_bbox": [
+        3075,
+        2780,
+        95,
+        70
+      ],
+      "reason": "Only the '<' lies on the target leaf. The wavy line lies right of the gutter (about x 3170) on fol. 147.",
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Uncertain source location retained as a proposal",
+      "focused_check_file": "0292-focus.parsed.json"
+    }
+  ],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [
+      "b902"
+    ],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [
+    {
+      "kind": "source_boundary",
+      "priority": 95,
+      "issue": "Most of this approximate block locator is outside the principal leaf; check ownership and facing-page fragments, not just the coordinates: b902",
+      "block_ids": [
+        "b902"
+      ],
+      "record_ids": [
+        "r006"
+      ],
+      "id": "focus-0292-01"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 85,
+      "issue": "It is unknown whether the arrow and the wavy link belong to the target entry or to the facing-page entries d.239(3) and b.101(18).",
+      "block_ids": [
+        "b901",
+        "b902"
+      ],
+      "record_ids": [
+        "r005"
+      ],
+      "id": "focus-0292-02"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "The native tile shows extra letters after 'dhara', apparently 'ṭi' with an underdot, and an 'i' after 'Ga'. A clean 'Gaṅgādhara' should not be presented as certain. Proposed literal_text: \"Scribe [Gaṅgādhara? / Ga(ṇ/ṅ)idharaṭi?] Upādhyāya of the Karṇāṭaka jñāti\"",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0292-03"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 80,
+      "issue": "An acute-like accent is visible over the first 'a' of the second line. A stroke may stand over the first letter of 'apparently'. The candidate's own uncertainty note already conflicts with its literal text. Proposed literal_text: \"This & Uttarapakṣāvali (q.v.) are jointly called\\nPrá[ś?]nāvali [ā?]pparently\"",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0292-04"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The scribe's name is not securely legible.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0292-05"
+    },
+    {
+      "kind": "unresolved_review",
+      "priority": 60,
+      "issue": "The strokes under the commas may be insertion marks placing 'Scribe Sadānanda' and 'I.O. 5912' into the line. The relation between this scribe statement and the Gaṅgādhara(?) note is also unresolved.",
+      "block_ids": [
+        "b004",
+        "b005"
+      ],
+      "record_ids": [
+        "r004"
+      ],
+      "id": "focus-0292-06"
+    },
+    {
+      "kind": "unapplied_proposal",
+      "priority": 55,
+      "issue": "Reflects the visible letter sequence without choosing a reading. Proposed uncertainties: [\"The name is cursive and unresolved. The visible letters suggest 'Ga?idharaṭi', with an underdotted t after 'dhara'. 'Gaṅgādhara' is not secure.\", \"The ending of 'Upādhyāya' and the diacritics of 'Karṇāṭaka' are uncertain.\", \"The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain.\"]",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0292-07"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The cursive reading of 'Uttarapakṣāvali' and of 'Praśnāvali' (the second could be read 'Prásnāvali'), including diacritics, is uncertain.",
+      "block_ids": [
+        "b002"
+      ],
+      "record_ids": [
+        "r002"
+      ],
+      "id": "focus-0292-08"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The name is cursive: 'Gaṅgādhara' could also be read 'Gaṅidhara[?]'.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0292-09"
+    },
+    {
+      "kind": "record_uncertainty",
+      "priority": 50,
+      "issue": "The diacritics of 'Karṇāṭaka' are uncertain.",
+      "block_ids": [
+        "b003"
+      ],
+      "record_ids": [
+        "r003"
+      ],
+      "id": "focus-0292-10"
+    }
+  ],
+  "focused_checks": [
+    {
+      "covered_issue_ids": [
+        "focus-0292-01",
+        "focus-0292-02",
+        "focus-0292-03",
+        "focus-0292-04",
+        "focus-0292-05",
+        "focus-0292-06",
+        "focus-0292-07",
+        "focus-0292-08",
+        "focus-0292-09",
+        "focus-0292-10"
+      ],
+      "readings": [
+        {
+          "issue_id": "focus-0292-01",
+          "source_reading": "'<' (target leaf, left of gutter); wavy line begins right of gutter on facing leaf",
+          "certainty": "probable",
+          "evidence": "The gutter or leaf edge is at about x 3170 native: tile 2 x≈1568, and the fol. 147 tile x≈318. The '<' is at about x 3084-3139, y 2790-2840, left of the gutter, so it is on fol. 146b. The wavy stroke starts at about x 3174, right of the gutter. It continues on fol. 147 through 'b. 101(18) Pūrvacaṭakāṣṭaka' and on to 'poem' and the n.d. column. The fol. 147 tile also shows our '14:11:D)' fragment left of its gutter."
+        },
+        {
+          "issue_id": "focus-0292-02",
+          "source_reading": "← on 146b at the level of 'Scribe ...' line; < on 146b at level of c. 21(1) line, followed across gutter by wavy line on fol. 147",
+          "certainty": "uncertain",
+          "evidence": "Both marks lie physically on the target leaf, just left of the gutter. Each sits level both with a target line and with a facing-page line: the arrow with b003 and with d.239(3), the '<' with b004/b006 and with b.101(18). The image does not show which entry they serve."
+        },
+        {
+          "issue_id": "focus-0292-03",
+          "source_reading": "Scribe Ga[?]idharaṭi Upādhyāy[a/e?] of the Karṇāṭaka jñāti",
+          "certainty": "uncertain",
+          "evidence": "The native tile shows 'Ga', then a letter with a superscript dot or nasal, then 'i'. After that comes 'dhara' and 'ṭi', with a dot under the t. It does not read cleanly as 'Gaṅgādhara'."
+        },
+        {
+          "issue_id": "focus-0292-04",
+          "source_reading": "This & Uttarapakṣāvali (q.v.) are jointly called / Prá[ś?]nāvali [ā?]pparently",
+          "certainty": "probable",
+          "evidence": "There is an acute over the first a of 'Prásnāvali'. A short stroke stands over the initial a of 'apparently'. The mark over the s is unclear."
+        },
+        {
+          "issue_id": "focus-0292-05",
+          "source_reading": "Ga[?]idharaṭi",
+          "certainty": "uncertain",
+          "evidence": "The name is cursive and the second letter is unclear."
+        },
+        {
+          "issue_id": "focus-0292-06",
+          "source_reading": "Laugākṣi,ʹ ff. 1-14. Dated Kāśī,ʹ S. 1916. / Scribe Sadānanda. I.O. 5912",
+          "certainty": "uncertain",
+          "evidence": "Small vertical strokes sit beneath both commas. They may be insertion marks or comma tails. The smaller line below starts right after the first stroke. The page shows no link between this scribe note and the 'Scribe Ga[?]idharaṭi' line."
+        },
+        {
+          "issue_id": "focus-0292-07",
+          "source_reading": "Ga[?]idharaṭi Upādhyāy[a/e?] ... Karṇāṭaka",
+          "certainty": "uncertain",
+          "evidence": "These are the same strokes as in focus-0292-03. The ending of 'Upādhyāy-' is ambiguous."
+        },
+        {
+          "issue_id": "focus-0292-08",
+          "source_reading": "Uttarapakṣāvali; Prá[ś?]nāvali",
+          "certainty": "probable",
+          "evidence": "'Uttarapakṣāvali' is underlined and cursive. 'Prá' carries a clear acute."
+        },
+        {
+          "issue_id": "focus-0292-09",
+          "source_reading": "Ga[?]idharaṭi",
+          "certainty": "uncertain",
+          "evidence": "There is an 'i' after the second letter and a 'ṭi' after 'dhara'."
+        },
+        {
+          "issue_id": "focus-0292-10",
+          "source_reading": "Karṇāṭaka",
+          "certainty": "probable",
+          "evidence": "Dots appear under the n and the t, and macrons over the ā. Their placement is small and cursive."
+        }
+      ],
+      "changes": [
+        {
+          "record_id": "r003",
+          "field_path": "literal_text",
+          "before": "Scribe Gaṅgādhara Upādhyāya of the Karṇāṭaka jñāti",
+          "after": "Scribe Ga[?]idharaṭi Upādhyāy[a?] of the Karṇāṭaka jñāti",
+          "reason": "The native tile does not support a clean 'Gaṅgādhara'. The visible letters are kept with uncertainty markers.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "uncertain"
+        },
+        {
+          "record_id": "r003",
+          "field_path": "uncertainties",
+          "before": [
+            "The name is cursive: 'Gaṅgādhara' could also be read 'Gaṅidhara[?]'.",
+            "The diacritics of 'Karṇāṭaka' are uncertain.",
+            "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+          ],
+          "after": [
+            "The name is cursive and unresolved. The visible letters suggest 'Ga?idharaṭi', with an underdotted t after 'dhara'. 'Gaṅgādhara' is not secure.",
+            "The ending of 'Upādhyāya' and the diacritics of 'Karṇāṭaka' are uncertain.",
+            "The entry also has a second scribe note, 'Scribe Sadānanda', which makes this note's exact attachment uncertain."
+          ],
+          "reason": "Aligns the uncertainty notes with the fresh reading.",
+          "source_block_ids": [
+            "b003"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r002",
+          "field_path": "literal_text",
+          "before": "This & Uttarapakṣāvali (q.v.) are jointly called\nPraśnāvali apparently",
+          "after": "This & Uttarapakṣāvali (q.v.) are jointly called\nPrá[ś?]nāvali [ā?]pparently",
+          "reason": "An acute over the first a of the title and a stroke over the first a of 'apparently' are visible in the native tile.",
+          "source_block_ids": [
+            "b002"
+          ],
+          "certainty": "probable"
+        },
+        {
+          "record_id": "r006",
+          "field_path": "annotations",
+          "before": [
+            "A '<' mark sits right of the c. 21(1) data column. A wavy line runs from it across the gutter toward facing fol. 147, entry b. 101(18) Pūrvacaṭakāṣṭaka."
+          ],
+          "after": [
+            "A '<' mark sits right of the c. 21(1) data column, on the target leaf just left of the gutter.",
+            "A wavy line begins immediately right of the gutter, on facing fol. 147. It continues there through 'b. 101(18) Pūrvacaṭakāṣṭaka' and 'poem' toward the n.d. column. Only the '<' is target-page material; the wavy line's link to the '<' is inferred from adjacency."
+          ],
+          "reason": "This clarifies leaf ownership of the mark components.",
+          "source_block_ids": [
+            "b902"
+          ],
+          "certainty": "probable"
+        }
+      ],
+      "block_changes": [
+        {
+          "block_id": "b902",
+          "before_bbox": [
+            3080,
+            2780,
+            330,
+            70
+          ],
+          "after_bbox": [
+            3075,
+            2780,
+            95,
+            70
+          ],
+          "reason": "Only the '<' lies on the target leaf. The wavy line lies right of the gutter (about x 3170) on fol. 147.",
+          "certainty": "probable"
+        }
+      ],
+      "missing_records": [],
+      "coverage": [
+        {
+          "block_id": "b002",
+          "status": "represented",
+          "record_ids": [
+            "r002"
+          ],
+          "finding": "The two-line note is represented. The reading has been refined."
+        },
+        {
+          "block_id": "b003",
+          "status": "represented",
+          "record_ids": [
+            "r003"
+          ],
+          "finding": "Represented. The name remains uncertain."
+        },
+        {
+          "block_id": "b004",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "The entry line is represented."
+        },
+        {
+          "block_id": "b005",
+          "status": "represented",
+          "record_ids": [
+            "r004"
+          ],
+          "finding": "Represented. The insertion marks are uncertain."
+        },
+        {
+          "block_id": "b901",
+          "status": "represented",
+          "record_ids": [
+            "r005"
+          ],
+          "finding": "The arrow is physically on the target leaf. Its attachment is uncertain."
+        },
+        {
+          "block_id": "b902",
+          "status": "represented",
+          "record_ids": [
+            "r006"
+          ],
+          "finding": "The '<' is on the target leaf. The wavy-line continuation is on the facing page."
+        }
+      ],
+      "unresolved": [
+        {
+          "issue_id": "focus-0292-02",
+          "record_id": "r005",
+          "block_ids": [
+            "b901",
+            "b902"
+          ],
+          "issue": "The image does not show whether the arrow and the '<' belong to the target entry and its scribe note or to facing entries d.239(3) and b.101(18).",
+          "next_check": "Compare the ink of the marks with the fol. 147 entries and with the b003/b006 hands."
+        },
+        {
+          "issue_id": "focus-0292-05",
+          "record_id": "r003",
+          "block_ids": [
+            "b003"
+          ],
+          "issue": "The scribe's name is not securely legible (Ga?idharaṭi).",
+          "next_check": "Examine a higher-resolution image of the second letter of the name."
+        },
+        {
+          "issue_id": "focus-0292-06",
+          "record_id": "r004",
+          "block_ids": [
+            "b004",
+            "b005"
+          ],
+          "issue": "The strokes beneath the commas may be insertion marks. The relation between the two scribe notes is unresolved.",
+          "next_check": "Compare with this hand's insertion-mark practice on other pages."
+        }
+      ],
+      "overall": "machine_reviewed_with_unresolved"
+    }
+  ],
+  "focused_images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "93e31e0a9df6fffdf8d80b17890b2a3c5df01fc0451a0b2c2d1dd71a1f478f71",
+      "bytes": 249129,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "23d2eb4a09e41667fb2b0440d0d374e27317124f8212239167b3455e9a155b0a",
+      "bytes": 332755,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "787fbbfbf8e4113128fa7441cb2edc4aeb9973b30cf07c62bc7b955655634def",
+      "bytes": 293933,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/504ffe0f-1f71-46a0-947f-b754371619b0/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8986f5a5499391930ec5f23b879d1654c8ead65cfe84756c32e5c6758f78ff43",
+      "bytes": 254918,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 291,
+      "folio_label": "fol. 146",
+      "page_id": "504ffe0f-1f71-46a0-947f-b754371619b0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e2972bb9-1b6e-4260-99a8-9d7c39c31d45/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4890593d23e5b4c097d27f77f1f99d30cbf6e9d0bfa26f42d92f0980bb61e3da",
+      "bytes": 244896,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 293,
+      "folio_label": "fol. 147",
+      "page_id": "e2972bb9-1b6e-4260-99a8-9d7c39c31d45",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e2972bb9-1b6e-4260-99a8-9d7c39c31d45/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f46919f95472d02902c5cda57ed470eb0f710603b9a4912f1d49fc65963fdaad",
+      "bytes": 382585,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 293,
+      "folio_label": "fol. 147",
+      "page_id": "e2972bb9-1b6e-4260-99a8-9d7c39c31d45",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e2972bb9-1b6e-4260-99a8-9d7c39c31d45/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "61d0a4f1857ca5fcf25df3b3a0eeeee7b3eff02643a9dfbb68f6a65a586a2e07",
+      "bytes": 442119,
+      "visual_tokens": 4624,
+      "role": "adjacent_native_context_only",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding.",
+      "source_order": 293,
+      "folio_label": "fol. 147",
+      "page_id": "e2972bb9-1b6e-4260-99a8-9d7c39c31d45",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d09b955a-6e66-4b84-b719-3cc17a8c46e5.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "93e31e0a9df6fffdf8d80b17890b2a3c5df01fc0451a0b2c2d1dd71a1f478f71",
+      "bytes": 249129,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5e78ab6ffe221372c47fcdb4d9579761bd2b32cc3a00ae59c345cb9e9884dcb4",
+      "bytes": 294873,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "38f490e0150f0c59ec1336189738cd17d68a2f821da0c9619af0db8ce9d02556",
+      "bytes": 282701,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "23d2eb4a09e41667fb2b0440d0d374e27317124f8212239167b3455e9a155b0a",
+      "bytes": 332755,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "787fbbfbf8e4113128fa7441cb2edc4aeb9973b30cf07c62bc7b955655634def",
+      "bytes": 293933,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "754506c648ad28dce7482dd9d840aabedaced2048ab111c640ecd0800df8df68",
+      "bytes": 295158,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d09b955a-6e66-4b84-b719-3cc17a8c46e5/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "08cf082ce6ef6c5d0278ac096b2ca6effce3cf03a0ae05069f02e635f2cd6846",
+      "bytes": 292438,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/504ffe0f-1f71-46a0-947f-b754371619b0/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "8986f5a5499391930ec5f23b879d1654c8ead65cfe84756c32e5c6758f78ff43",
+      "bytes": 254918,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 291,
+      "folio_label": "fol. 146",
+      "page_id": "504ffe0f-1f71-46a0-947f-b754371619b0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e2972bb9-1b6e-4260-99a8-9d7c39c31d45/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "4890593d23e5b4c097d27f77f1f99d30cbf6e9d0bfa26f42d92f0980bb61e3da",
+      "bytes": 244896,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 293,
+      "folio_label": "fol. 147",
+      "page_id": "e2972bb9-1b6e-4260-99a8-9d7c39c31d45",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

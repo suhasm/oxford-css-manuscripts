@@ -1,0 +1,721 @@
+{
+  "source_order": 53,
+  "folio_label": "fol. 27",
+  "page_id": "963e1896-d913-42c5-870f-51846f7d1f05",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "27",
+    "principal_page_bbox": [
+      400,
+      280,
+      2800,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          2950,
+          320,
+          110,
+          90
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "27",
+        "features": [
+          "pencil",
+          "top right corner",
+          "current folio number written above a cancelled earlier number"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          2900,
+          400,
+          160,
+          70
+        ],
+        "kind_hint": "cancelled_folio_number",
+        "anchor": "⟦26a⟧",
+        "features": [
+          "pencil",
+          "struck through with horizontal strokes",
+          "short underline beneath the final letter",
+          "cancelled earlier foliation"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          485,
+          680,
+          300,
+          100
+        ],
+        "kind_hint": "shelfmark",
+        "anchor": "✓C. 163 (2)",
+        "features": [
+          "left ruled column",
+          "tick before the shelfmark",
+          "ink",
+          "aligned with the first line of b004"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          950,
+          690,
+          2100,
+          220
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "Uttararāmacarita, by Bhavabhūti, Co. by Bhaṭṭa Nārāyaṇa s/o … ff. 1-13, inc. (to beginning of Act iii). 1.0.4137. … n.d.: 13:9: D.",
+        "features": [
+          "two handwritten lines",
+          "ink",
+          "includes title, author and commentary attribution",
+          "includes extent and incompleteness",
+          "includes a number '1.0.4137.'",
+          "right-aligned 'n.d.: 13:9: D.' on line 2",
+          "diacritics present"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3090,
+          2750,
+          20,
+          20
+        ],
+        "description": "small dark speck in main column, mid-page; not writing"
+      },
+      {
+        "bbox": [
+          810,
+          4200,
+          20,
+          30
+        ],
+        "description": "small grey spot in left column near the bottom; not writing"
+      },
+      {
+        "bbox": [
+          2600,
+          4650,
+          30,
+          40
+        ],
+        "description": "faint smudge near the bottom of the main column; not writing"
+      }
+    ],
+    "boundary_notes": [
+      "The strip at x≈0-400 is the facing page, fol. 26b, which is blank ruled paper. It is excluded from this inventory.",
+      "The vertical ruled line at x≈905 divides the shelfmark column from the main entry column."
+    ],
+    "uncertainties": [
+      "The patronymic after 's/o' is uncertain: possibly 'Raṅganātha Dīkṣita'. The initial letter could also be read 'K'.",
+      "'1.0.4137' is uncertain: possibly '1.0.4137', with an unclear third digit.",
+      "The cancelled number under '27' reads as '26a'. The final letter is uncertain."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "27",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b003",
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "catalogue_entry_with_shelfmark",
+        "literal_text": "✓C. 163 (2)\tUttararāmacarita, by Bhavabhūti, Co. by Bhaṭṭa Nārāyaṇa s/o [Raṅganātha Dīkṣita?],\nff. 1-13, inc. (to beginning of Act iii). [1.0.4137?].\t\tn.d.: 13: 9: D.",
+        "fields": {
+          "shelfmark": "C. 163 (2)",
+          "title": "Uttararāmacarita",
+          "author": "Bhavabhūti",
+          "date": "n.d.",
+          "extent": "ff. 1-13, inc. (to beginning of Act iii)",
+          "script": "D."
+        },
+        "normalized_title": "Uttararāmacarita",
+        "annotations": [
+          "A tick precedes the shelfmark in the left ruled column.",
+          "The shelfmark is aligned with the first line of the entry in the main column.",
+          "'n.d.: 13: 9: D.' is right-aligned on the second line.",
+          "The text is in ink."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The patronymic after 's/o' is hard to read. It may be 'Raṅganātha Dīkṣita'. The initial letter may be K, so a reading like 'Kaugenātha' is also possible. Diacritics are uncertain.",
+          "The reading '1.0.4137' is uncertain. It could be read as 'I.O. 4137'. The abbreviation is not expanded, and the third digit is unclear.",
+          "The values '13' and '9' in 'n.d.: 13: 9: D.' are not assigned to fields such as lines or akṣaras, because their meaning is not stated on the page.",
+          "The commentator 'Bhaṭṭa Nārāyaṇa' is kept in the literal text only. The 'author' field records Bhavabhūti, the author of the root text as written."
+        ]
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "foliation",
+        "literal_text": "27",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in pencil in the top right corner, above the cancelled earlier number."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "cancelled_foliation",
+        "literal_text": "⟦26a⟧",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in pencil and struck through with horizontal strokes.",
+          "A short underline appears beneath the final letter.",
+          "It is superseded by '27' written above it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The final letter of the cancelled number is read as 'a', but this reading is uncertain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Current pencil folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Cancelled earlier foliation beneath the current folio number."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Shelfmark with tick. It is aligned with and securely belongs to entry b004."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Two-line catalogue entry for the holding C. 163 (2)."
+      }
+    ],
+    "page_annotations": [
+      "Apart from the single entry and the foliation at the top, the rest of the ruled page (top to bottom, both columns and the margins) was reviewed in the native tiles and is blank. Only specks and smudges appear, and these are not writing.",
+      "The strip at left (x≈0-400) belongs to the facing fol. 26b, which is blank ruled paper. It is excluded from this transcription.",
+      "A vertical ruled line at x≈905 separates the shelfmark column from the entry column."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The pencil '27' in the top right corner is confirmed in the native tile at about x≈2970-3060, y≈335-400."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Directly below '27' is a pencil number struck through with horizontal strokes. It reads '26' followed by a letter that looks like 'a', with a short underline beneath that letter. The final letter remains uncertain, so the candidate is acceptable."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The tick and 'C. 163 (2)' are in the left ruled column, aligned with line 1 of b004. Grouping them with b004 is correct."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Both lines are present. The patronymic after 's/o' looks like 'Ka[u/ṅ]genātha', with a capital-like K as the initial letter. The candidate's bracketed reading 'Raṅganātha Dīkṣita' favours one interpretation, so the literal text is revised to keep both readings open. Dots under 'Bhaṭṭa' and under 'ṇ' in 'Nārāyaṇa' are visible. The second line ends '1.0.4137.' and, right-aligned, 'n.d. : 13 : 9 : D.'"
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r001",
+        "field_path": "literal_text",
+        "before": "✓C. 163 (2)\tUttararāmacarita, by Bhavabhūti, Co. by Bhaṭṭa Nārāyaṇa s/o [Raṅganātha Dīkṣita?],\nff. 1-13, inc. (to beginning of Act iii). [1.0.4137?].\t\tn.d.: 13: 9: D.",
+        "after": "✓C. 163 (2)\tUttararāmacarita, by Bhavabhūti, Co. by Bhaṭṭa Nārāyaṇa s/o [Raṅganātha? / Kaugenātha?] [Dīkṣita?],\nff. 1-13, inc. (to beginning of Act iii). [1.0.4137?].\t\tn.d.: 13: 9: D.",
+        "reason": "The written form of the name visibly begins with a K-like letter and looks like 'Kaugenātha'. Presenting only 'Raṅganātha' risks correcting the source from knowledge. Both readings are now kept open. The vowel length in 'Dīkṣita' is also not secure.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The patronymic after 's/o' is ambiguous between 'Raṅganātha' and a K-initial reading such as 'Kaugenātha'. The diacritics of 'Dīkṣita' are also uncertain.",
+        "next_check": "Compare letter forms of K and R and the 'ṅg' and 'ug' ligatures elsewhere in this hand, at higher magnification."
+      },
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "In '1.0.4137', the third digit and the meaning of '1.0.' or 'I.O.' are unclear. The meaning of the values '13' and '9' is not stated on the page. The commentator is not entered as a field, and 'Co.' is left unexpanded.",
+        "next_check": "Check the same notation on other folios of this catalogue for the convention used."
+      }
+    ],
+    "boundary_review": "The strip at x≈0-400 belongs to the facing fol. 26b. In the adjacent image that page is blank apart from its own '26b' label; its 'C. 163' fragment is this target's shelfmark seen across the gutter, so it is not a separate record. The fragments at the right edge of the fol. 27b view ('√d. ...') belong to the following page, not to fol. 27. The single entry on fol. 27 has no ditto marks and no continuation from fol. 26b, which is blank.",
+    "region_review": {
+      "top": "Only the foliation '27' and the cancelled number below it appear. Nothing else is written there.",
+      "middle": "Below line 2 of the entry, both columns are ruled and blank. A small dark speck near x≈3100, y≈2760 is not writing.",
+      "bottom": "The lower rules down to the page edge are blank. There are faint specks and smudges only, with no bottom note.",
+      "left_margin": "The shelfmark column holds only '✓C. 163 (2)'. Small specks lower down are not writing. The gutter shows only shadow.",
+      "right_margin": "Only the ruled-line ends at the page edge are visible. There are no marginal additions.",
+      "interlinear": "There is no interlinear writing between or around the two entry lines, and no cancellations within the entry."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        2950,
+        320,
+        110,
+        90
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "27",
+      "features": [
+        "pencil",
+        "top right corner",
+        "current folio number written above a cancelled earlier number"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        2900,
+        400,
+        160,
+        70
+      ],
+      "kind_hint": "cancelled_folio_number",
+      "anchor": "⟦26a⟧",
+      "features": [
+        "pencil",
+        "struck through with horizontal strokes",
+        "short underline beneath the final letter",
+        "cancelled earlier foliation"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        485,
+        680,
+        300,
+        100
+      ],
+      "kind_hint": "shelfmark",
+      "anchor": "✓C. 163 (2)",
+      "features": [
+        "left ruled column",
+        "tick before the shelfmark",
+        "ink",
+        "aligned with the first line of b004"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        950,
+        690,
+        2100,
+        220
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "Uttararāmacarita, by Bhavabhūti, Co. by Bhaṭṭa Nārāyaṇa s/o … ff. 1-13, inc. (to beginning of Act iii). 1.0.4137. … n.d.: 13:9: D.",
+      "features": [
+        "two handwritten lines",
+        "ink",
+        "includes title, author and commentary attribution",
+        "includes extent and incompleteness",
+        "includes a number '1.0.4137.'",
+        "right-aligned 'n.d.: 13:9: D.' on line 2",
+        "diacritics present"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b003",
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "catalogue_entry_with_shelfmark",
+      "literal_text": "✓C. 163 (2)\tUttararāmacarita, by Bhavabhūti, Co. by Bhaṭṭa Nārāyaṇa s/o [Raṅganātha Dīkṣita?],\nff. 1-13, inc. (to beginning of Act iii). [1.0.4137?].\t\tn.d.: 13: 9: D.",
+      "fields": {
+        "shelfmark": "C. 163 (2)",
+        "title": "Uttararāmacarita",
+        "author": "Bhavabhūti",
+        "date": "n.d.",
+        "extent": "ff. 1-13, inc. (to beginning of Act iii)",
+        "script": "D."
+      },
+      "normalized_title": "Uttararāmacarita",
+      "annotations": [
+        "A tick precedes the shelfmark in the left ruled column.",
+        "The shelfmark is aligned with the first line of the entry in the main column.",
+        "'n.d.: 13: 9: D.' is right-aligned on the second line.",
+        "The text is in ink."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The patronymic after 's/o' is hard to read. It may be 'Raṅganātha Dīkṣita'. The initial letter may be K, so a reading like 'Kaugenātha' is also possible. Diacritics are uncertain.",
+        "The reading '1.0.4137' is uncertain. It could be read as 'I.O. 4137'. The abbreviation is not expanded, and the third digit is unclear.",
+        "The values '13' and '9' in 'n.d.: 13: 9: D.' are not assigned to fields such as lines or akṣaras, because their meaning is not stated on the page.",
+        "The commentator 'Bhaṭṭa Nārāyaṇa' is kept in the literal text only. The 'author' field records Bhavabhūti, the author of the root text as written."
+      ],
+      "stable_id": "css-prod-0053-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "foliation",
+      "literal_text": "27",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in pencil in the top right corner, above the cancelled earlier number."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0053-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "cancelled_foliation",
+      "literal_text": "⟦26a⟧",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in pencil and struck through with horizontal strokes.",
+        "A short underline appears beneath the final letter.",
+        "It is superseded by '27' written above it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The final letter of the cancelled number is read as 'a', but this reading is uncertain."
+      ],
+      "stable_id": "css-prod-0053-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r001",
+      "field_path": "literal_text",
+      "before": "✓C. 163 (2)\tUttararāmacarita, by Bhavabhūti, Co. by Bhaṭṭa Nārāyaṇa s/o [Raṅganātha Dīkṣita?],\nff. 1-13, inc. (to beginning of Act iii). [1.0.4137?].\t\tn.d.: 13: 9: D.",
+      "after": "✓C. 163 (2)\tUttararāmacarita, by Bhavabhūti, Co. by Bhaṭṭa Nārāyaṇa s/o [Raṅganātha? / Kaugenātha?] [Dīkṣita?],\nff. 1-13, inc. (to beginning of Act iii). [1.0.4137?].\t\tn.d.: 13: 9: D.",
+      "reason": "The written form of the name visibly begins with a K-like letter and looks like 'Kaugenātha'. Presenting only 'Raṅganātha' risks correcting the source from knowledge. Both readings are now kept open. The vowel length in 'Dīkṣita' is also not secure.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/963e1896-d913-42c5-870f-51846f7d1f05.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/963e1896-d913-42c5-870f-51846f7d1f05/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "f1fe343241f1ed0cddc35eb9c14357e7586af3089604d42e400fe139bc6a9205",
+      "bytes": 294306,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/963e1896-d913-42c5-870f-51846f7d1f05/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3840b75f34e53e410e036ff8ca7017a7eb6895078e9f4fd5597888ebbaaf5ca4",
+      "bytes": 388095,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/963e1896-d913-42c5-870f-51846f7d1f05/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "262853f453af5ce1e735c36cc292713fc8cd3f7dc34468deed726f59ab41cefa",
+      "bytes": 389965,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/963e1896-d913-42c5-870f-51846f7d1f05/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "f80d7ced7c654e89d834003c5345e070aebe7354a046f4bf8133518dc55bc289",
+      "bytes": 363318,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/963e1896-d913-42c5-870f-51846f7d1f05/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "3a651979172eb049d7148e4539658d3d2dec502e34ddb38c0b64fd459dc1335a",
+      "bytes": 377880,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/963e1896-d913-42c5-870f-51846f7d1f05/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "1f21c3d1d9d0c6bbcc61f19d9811da70e8be17fc0e4fd4ce2a4565e477fb2bc1",
+      "bytes": 365393,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/963e1896-d913-42c5-870f-51846f7d1f05/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "da51f937577dbaf449a3fd9724b750eb251847a76a55e2c0a3d57a8eb8b3c4f1",
+      "bytes": 365192,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30d7eab1-f217-40e8-aae1-f2f7273d6a1e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "95592a3419e4d9bd242ee070ddcdaad3b4e529e97fd15742ec42f1f2f37200fd",
+      "bytes": 146017,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 52,
+      "folio_label": "fol. 26b",
+      "page_id": "30d7eab1-f217-40e8-aae1-f2f7273d6a1e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3d16c3ea-7022-431c-b7de-d7d98b8c32f0/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "7b1e91916a3ed55d5b9fb13ef9ffa751885ac7db3ff9db01b3e806ad22ac363b",
+      "bytes": 168535,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 54,
+      "folio_label": "fol. 27b",
+      "page_id": "3d16c3ea-7022-431c-b7de-d7d98b8c32f0",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

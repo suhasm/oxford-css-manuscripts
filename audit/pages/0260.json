@@ -1,0 +1,922 @@
+{
+  "source_order": 260,
+  "folio_label": "fol. 130b",
+  "page_id": "e73dded7-ea5f-4992-9979-6092643b9349",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "130b",
+    "principal_page_bbox": [
+      320,
+      265,
+      2875,
+      4615
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          420,
+          330,
+          200,
+          100
+        ],
+        "kind_hint": "page_number",
+        "anchor": "130b.",
+        "features": [
+          "top-left corner",
+          "superscript 'b' after 130",
+          "followed by a dot"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          400,
+          1530,
+          2150,
+          90
+        ],
+        "kind_hint": "entry_or_continuation_note",
+        "anchor": "Viṣayaviṣayibhāvatattvaparīkṣā section ff.1-16 in several hands. Cf. RLM. V, 1877",
+        "features": [
+          "single line written on the ruled line",
+          "no shelfmark at the start",
+          "roman numeral V underlined",
+          "likely a note keyed to an entry on the facing page; it is not a standalone holding"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          350,
+          1620,
+          2820,
+          120
+        ],
+        "kind_hint": "entry",
+        "anchor": "√C.375(5). Do, Do., to wh. [by Vaṃśadhara] ādhārādheyabhāvatattvaparīkṣā section. Cf. RLM.V, 1877 n.d.:10:11/13:Beng.",
+        "features": [
+          "tick before the shelfmark",
+          "ditto forms 'Do, Do.'",
+          "bracketed insertion '[by Vaṃśadhara]'",
+          "extent and date run to the gutter edge",
+          "the reading 'to wh.' is uncertain"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          380,
+          4270,
+          1830,
+          150
+        ],
+        "kind_hint": "continuation_or_note",
+        "anchor": "ff.1-11. Part of the Kāśīmāhātmya (begins at 31b of C.88(4)). 1. c. 02/.I.71",
+        "features": [
+          "no shelfmark on this line",
+          "date-like ending '02/.I.71'",
+          "the reading of '1. c. 02' is uncertain",
+          "probably linked by an arrow to an entry on the facing page fol. 131"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3110,
+          1580,
+          55,
+          50
+        ],
+        "description": "Small 'L'/angle-shaped mark near the gutter at the level of line b002. It is probably a linking mark that pairs with the double-headed arrow on the facing page."
+      },
+      {
+        "bbox": [
+          425,
+          2560,
+          40,
+          40
+        ],
+        "description": "Small ink blot or spot in the left margin area. It is not text."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x 3190. The marks to its right ('d.' shelfmark initials, ticks, the double-headed arrow at about y 1650, the left-pointing arrow at about y 4380, '? =' and the pencil note '? is this same…' with a bracket) belong to the facing fol. 131. They are not target records.",
+      "Blocks b002 and b003 appear to be additions related to the Nyāyasūtra entry 'c.376b' on fol. 131, which carries a matching arrow. Block b004 appears related to the Pañcakrośamāhātmya entry 'c.89(3)' on fol. 131, which has a left-pointing arrow. The attachment is inferred from the arrows and is not certain."
+    ],
+    "uncertainties": [
+      "The exact letter forms of the cursive transliterated titles in b002 and b003 are uncertain.",
+      "'to wh.' in b003 and '1. c.' in b004 are uncertain readings.",
+      "'02/.I.71' may be a date (e.g. 2?/I/71). It has not been converted."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "130b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "page_number",
+        "literal_text": "130b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written in the top-left corner. The 'b' is superscript and a dot follows it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b901"
+        ],
+        "type": "continuation_note",
+        "subtype": "added_note_keyed_to_facing_page",
+        "literal_text": "Viṣayaviṣayibhāvatattvaparīkṣā section, ff.1-16 in several hands. Cf. RLM. V, 1877",
+        "fields": {
+          "title": "Viṣayaviṣayibhāvatattvaparīkṣā section",
+          "extent": "ff.1-16",
+          "source": "Cf. RLM. V, 1877"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The 'V' after RLM. is underlined.",
+          "There is no shelfmark at the start of the line.",
+          "A small 'L'-shaped mark (b901) sits near the gutter at the level of this line. A similar 'L' mark stands beside the '√c.376b' Nyāyasūtra entry on fol. 131."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 261,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.376b Nyāyasūtra By Gautama. D: Nyāyatattvaparīkṣā [by Vaṃśadhara]",
+            "evidence": "Matching 'L' linking marks are at the gutter of the target page and in the margin of fol. 131 beside the c.376b entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The exact letter forms of the cursive transliterated title are uncertain.",
+          "The punctuation after 'section' (comma or full stop) is uncertain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "holding",
+        "subtype": "added_entry_keyed_to_facing_page",
+        "literal_text": "√C.375(5). Do, Do., to wh. [by Vaṃśadhara] ādhārādheyabhāvatattvaparīkṣā section. Cf. RLM.V, 1877 n.d.:10:11/13:Beng.",
+        "fields": {
+          "shelfmark": "C.375(5)",
+          "title": "Do, Do., to wh. [by Vaṃśadhara] ādhārādheyabhāvatattvaparīkṣā section",
+          "source": "Cf. RLM.V, 1877",
+          "date": "n.d.",
+          "extent": "10",
+          "lines": "11/13",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick precedes the shelfmark.",
+          "'Do, Do.' are ditto forms.",
+          "'[by Vaṃśadhara]' is in square brackets.",
+          "The 'V' after RLM is underlined.",
+          "The date and extent string runs up to the gutter edge.",
+          "A double-headed arrow on fol. 131, just across the gutter, stands at the level of this line."
+        ],
+        "editorial_context": [
+          {
+            "field": "title",
+            "value": "The ditto forms probably repeat 'Nyāyasūtra' and 'D: Nyāyatattvaparīkṣā [by Vaṃśadhara]' from the c.376b entry on fol. 131.",
+            "source_page_order": 261,
+            "source_block_id": null,
+            "evidence": "The double-headed arrow links to that entry, which carries the same bracketed '[by Vaṃśadhara]'.",
+            "certainty": "uncertain"
+          }
+        ],
+        "relationships": [
+          {
+            "type": "ditto_from",
+            "target_page_order": 261,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.376b Nyāyasūtra By Gautama. D: Nyāyatattvaparīkṣā [by Vaṃśadhara]",
+            "evidence": "A double-headed arrow is at the level of this line on fol. 131 beside the c.376b entry. The 'Do, Do.' ditto marks have no antecedent on the target page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'to wh.' is uncertain.",
+          "The shelfmark digit read as '5' in '375' may also be read as '6'.",
+          "The exact letter forms of the cursive title are uncertain."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "added_note_keyed_to_facing_page",
+        "literal_text": "ff.1-11. Part of the Kāśīmāhātmya (begins at 31b of C.88(4)). 1. c. 02/.I.71",
+        "fields": {
+          "extent": "ff.1-11",
+          "date": "02/.I.71"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There is no shelfmark on this line.",
+          "A left-pointing arrow on fol. 131 stands beside the '√c. 89 (3)' entry, at about the level of this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 261,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 89 (3) ——— From the Brahmavaivarta Purāṇa (Pañcakrośamāhātmya group)",
+            "evidence": "A left-pointing arrow on fol. 131 points toward this page from the c.89(3) entry.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "'1. c.' is an uncertain reading; it might be 'l.c.'.",
+          "'02/.I.71' appears to be a date but has not been converted. Its first digits are uncertain.",
+          "'Kāśīmāhātmya' follows the visible spelling; the letter forms are cursive."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          3110,
+          1580,
+          55,
+          50
+        ],
+        "kind_hint": "linking_mark",
+        "anchor": "L-shaped mark near gutter",
+        "features": [
+          "at the level of b002",
+          "pairs with the 'L' mark beside c.376b on fol. 131"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Page number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Unshelfmarked note, probably keyed by the L mark to the c.376b entry on fol. 131."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Added holding with shelfmark C.375(5), using ditto forms keyed by an arrow to fol. 131."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Note keyed by an arrow to the c.89(3) entry on fol. 131."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Linking mark associated with the b002 note."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise blank ruled paper. This was image-reviewed across the top, middle, bottom and margins.",
+      "A small ink blot at about [425,2560,40,40] is not text.",
+      "Marks right of the gutter (about x 3190) belong to fol. 131 and are not transcribed here: 'd.' shelfmark initials, ticks, the double-headed arrow, the left arrow, '? =' and the pencil note '? is this same…'."
+    ],
+    "unresolved_relationships": [
+      "The exact attachment of b002 versus b003 to the fol. 131 c.376b entry is inferred from linking marks only.",
+      "Whether b004 continues c.89(3) or a neighbouring entry on fol. 131 is uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left page label reads '130' with a superscript 'b' and a dot after it. A short dash-like stroke to its right appears to be a stray mark. The label is correctly treated as a page number."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is a single unshelfmarked line on a ruled line at about y 1550–1600. The reading matches the source within the stated uncertainty. The ending of 'hand[s]' is cursive and the final 's' is not secure. The mark after 'section' may be a comma or only a pen tail. 'V' after 'RLM.' is underlined."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The line begins with a tick and 'C.375(5).' and the digits read as 375 in the native tile. The bracketed insertion's closing bracket is written as a curly-brace-like stroke and is followed by a comma. 'n.d.:10:11/13:Beng.' runs up to the gutter at about x 3150. 'to wh.' is still uncertain."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The bottom line is at about y 4320–4400 and has no shelfmark. The terminal string '1. c. 02/.I.71' (or 'l.c. ...') is legible as strokes but its function is uncertain. It may be initials plus a date of the same kind as strings on fol. 131 (e.g. near d.308(2) and d.326(3)), but that is not established. The candidate's 'date' field overstates this."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An 'L'/angle mark sits at about [3120,1580,40,45], just left of the gutter, at the level of the b002 line. Attaching it to r002 is plausible. The pairing with the mark beside c.376b on fol. 131 is inferred from position only."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "fields",
+        "before": {
+          "extent": "ff.1-11",
+          "date": "02/.I.71"
+        },
+        "after": {
+          "extent": "ff.1-11",
+          "terminal_string": "1. c. 02/.I.71"
+        },
+        "reason": "The terminal string may be initials or an abbreviation followed by a date-like sequence. Its first characters are uncertain. Recording it as a secure date field implies a function that the source does not establish.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "It is unclear whether the text reads 'hand.' or 'hands.' The punctuation after 'section' is also unclear.",
+        "next_check": "Inspect the end of the word at about x 1850–2000, y 1560–1600 at higher magnification."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The phrase read as 'to wh.' (about x 900–1050, y 1630–1680) could equally be 'to which' or another abbreviation. The ditto antecedent on fol. 131 is inferred from the arrow only.",
+        "next_check": "Compare the letter forms with the same hand elsewhere. Examine the fol. 131 c.376b line at native resolution."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The reading and function of '1. c. 02/.I.71' are uncertain. Attachment to fol. 131 c.89(3) rests on a left-pointing arrow. The spelling Kāśī-/Kāśi- in 'Kāśīmāhātmya' is cursive and uncertain.",
+        "next_check": "Compare with similar terminal strings on fol. 131 lines d.308(2) and d.326(3)."
+      }
+    ],
+    "boundary_review": "The gutter is at about x 3180–3195. Everything to its right belongs to fol. 131 and is not transcribed here. That material comprises the 'd.' shelfmark initials, ticks, the double-headed arrow at y≈1665, the left arrow at y≈4380, '? =', the pencil note '? is this same…' and a bracket. The b003 string ends at about x 3150, before the gutter. The L mark (b901) is on the target side. Attachments of b002/b003 to c.376b and of b004 to c.89(3) on fol. 131 remain inferred.",
+    "region_review": {
+      "top": "Only the page label '130b.' and a small stray dash appear. The ruled lines are otherwise blank.",
+      "middle": "The two lines b002 and b003 are at about y 1550–1690. Below them, down to about y 4250, the page is blank ruled paper apart from a small ink blot at about [430,2565,40,40], which is not text.",
+      "bottom": "The single line b004 is at about y 4330–4400. The remaining ruled lines down to the paper edge at about y 4840 are blank.",
+      "left_margin": "No marginal writing appears apart from the ink blot noted above.",
+      "right_margin": "The gutter area holds the b901 L mark. Marks beyond the gutter belong to fol. 131.",
+      "interlinear": "No interlinear additions or cancellations were found on the target page."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        420,
+        330,
+        200,
+        100
+      ],
+      "kind_hint": "page_number",
+      "anchor": "130b.",
+      "features": [
+        "top-left corner",
+        "superscript 'b' after 130",
+        "followed by a dot"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        400,
+        1530,
+        2150,
+        90
+      ],
+      "kind_hint": "entry_or_continuation_note",
+      "anchor": "Viṣayaviṣayibhāvatattvaparīkṣā section ff.1-16 in several hands. Cf. RLM. V, 1877",
+      "features": [
+        "single line written on the ruled line",
+        "no shelfmark at the start",
+        "roman numeral V underlined",
+        "likely a note keyed to an entry on the facing page; it is not a standalone holding"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        350,
+        1620,
+        2820,
+        120
+      ],
+      "kind_hint": "entry",
+      "anchor": "√C.375(5). Do, Do., to wh. [by Vaṃśadhara] ādhārādheyabhāvatattvaparīkṣā section. Cf. RLM.V, 1877 n.d.:10:11/13:Beng.",
+      "features": [
+        "tick before the shelfmark",
+        "ditto forms 'Do, Do.'",
+        "bracketed insertion '[by Vaṃśadhara]'",
+        "extent and date run to the gutter edge",
+        "the reading 'to wh.' is uncertain"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        380,
+        4270,
+        1830,
+        150
+      ],
+      "kind_hint": "continuation_or_note",
+      "anchor": "ff.1-11. Part of the Kāśīmāhātmya (begins at 31b of C.88(4)). 1. c. 02/.I.71",
+      "features": [
+        "no shelfmark on this line",
+        "date-like ending '02/.I.71'",
+        "the reading of '1. c. 02' is uncertain",
+        "probably linked by an arrow to an entry on the facing page fol. 131"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        3110,
+        1580,
+        55,
+        50
+      ],
+      "kind_hint": "linking_mark",
+      "anchor": "L-shaped mark near gutter",
+      "features": [
+        "at the level of b002",
+        "pairs with the 'L' mark beside c.376b on fol. 131"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "page_number",
+      "literal_text": "130b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written in the top-left corner. The 'b' is superscript and a dot follows it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0260-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b901"
+      ],
+      "type": "continuation_note",
+      "subtype": "added_note_keyed_to_facing_page",
+      "literal_text": "Viṣayaviṣayibhāvatattvaparīkṣā section, ff.1-16 in several hands. Cf. RLM. V, 1877",
+      "fields": {
+        "title": "Viṣayaviṣayibhāvatattvaparīkṣā section",
+        "extent": "ff.1-16",
+        "source": "Cf. RLM. V, 1877"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The 'V' after RLM. is underlined.",
+        "There is no shelfmark at the start of the line.",
+        "A small 'L'-shaped mark (b901) sits near the gutter at the level of this line. A similar 'L' mark stands beside the '√c.376b' Nyāyasūtra entry on fol. 131."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 261,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.376b Nyāyasūtra By Gautama. D: Nyāyatattvaparīkṣā [by Vaṃśadhara]",
+          "evidence": "Matching 'L' linking marks are at the gutter of the target page and in the margin of fol. 131 beside the c.376b entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The exact letter forms of the cursive transliterated title are uncertain.",
+        "The punctuation after 'section' (comma or full stop) is uncertain."
+      ],
+      "stable_id": "css-prod-0260-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "holding",
+      "subtype": "added_entry_keyed_to_facing_page",
+      "literal_text": "√C.375(5). Do, Do., to wh. [by Vaṃśadhara] ādhārādheyabhāvatattvaparīkṣā section. Cf. RLM.V, 1877 n.d.:10:11/13:Beng.",
+      "fields": {
+        "shelfmark": "C.375(5)",
+        "title": "Do, Do., to wh. [by Vaṃśadhara] ādhārādheyabhāvatattvaparīkṣā section",
+        "source": "Cf. RLM.V, 1877",
+        "date": "n.d.",
+        "extent": "10",
+        "lines": "11/13",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick precedes the shelfmark.",
+        "'Do, Do.' are ditto forms.",
+        "'[by Vaṃśadhara]' is in square brackets.",
+        "The 'V' after RLM is underlined.",
+        "The date and extent string runs up to the gutter edge.",
+        "A double-headed arrow on fol. 131, just across the gutter, stands at the level of this line."
+      ],
+      "editorial_context": [
+        {
+          "field": "title",
+          "value": "The ditto forms probably repeat 'Nyāyasūtra' and 'D: Nyāyatattvaparīkṣā [by Vaṃśadhara]' from the c.376b entry on fol. 131.",
+          "source_page_order": 261,
+          "source_block_id": null,
+          "evidence": "The double-headed arrow links to that entry, which carries the same bracketed '[by Vaṃśadhara]'.",
+          "certainty": "uncertain"
+        }
+      ],
+      "relationships": [
+        {
+          "type": "ditto_from",
+          "target_page_order": 261,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.376b Nyāyasūtra By Gautama. D: Nyāyatattvaparīkṣā [by Vaṃśadhara]",
+          "evidence": "A double-headed arrow is at the level of this line on fol. 131 beside the c.376b entry. The 'Do, Do.' ditto marks have no antecedent on the target page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'to wh.' is uncertain.",
+        "The shelfmark digit read as '5' in '375' may also be read as '6'.",
+        "The exact letter forms of the cursive title are uncertain."
+      ],
+      "stable_id": "css-prod-0260-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "added_note_keyed_to_facing_page",
+      "literal_text": "ff.1-11. Part of the Kāśīmāhātmya (begins at 31b of C.88(4)). 1. c. 02/.I.71",
+      "fields": {
+        "extent": "ff.1-11",
+        "date": "02/.I.71"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There is no shelfmark on this line.",
+        "A left-pointing arrow on fol. 131 stands beside the '√c. 89 (3)' entry, at about the level of this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 261,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 89 (3) ——— From the Brahmavaivarta Purāṇa (Pañcakrośamāhātmya group)",
+          "evidence": "A left-pointing arrow on fol. 131 points toward this page from the c.89(3) entry.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "'1. c.' is an uncertain reading; it might be 'l.c.'.",
+        "'02/.I.71' appears to be a date but has not been converted. Its first digits are uncertain.",
+        "'Kāśīmāhātmya' follows the visible spelling; the letter forms are cursive."
+      ],
+      "stable_id": "css-prod-0260-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "fields",
+      "before": {
+        "extent": "ff.1-11",
+        "date": "02/.I.71"
+      },
+      "after": {
+        "extent": "ff.1-11",
+        "terminal_string": "1. c. 02/.I.71"
+      },
+      "reason": "The terminal string may be initials or an abbreviation followed by a date-like sequence. Its first characters are uncertain. Recording it as a secure date field implies a function that the source does not establish.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e73dded7-ea5f-4992-9979-6092643b9349.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e73dded7-ea5f-4992-9979-6092643b9349/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "fd2f873d76d3bb4cf23978dce4fbae96d1520f768996e75142a923aa91131875",
+      "bytes": 283516,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e73dded7-ea5f-4992-9979-6092643b9349/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "41b3bf8ce0986d3684e4acb7f6b37aef144e418d399d7f169e94ac83d1ee6260",
+      "bytes": 348995,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e73dded7-ea5f-4992-9979-6092643b9349/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5d1fcb19c41afda50d6c244e418d12f7e10f8ad014dea7e1c07b4f44f64e09f2",
+      "bytes": 379769,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e73dded7-ea5f-4992-9979-6092643b9349/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "dae35c4aa602a91ad4102db6449aeb1b07bee72ad7704eaa206a2ef93039058c",
+      "bytes": 363182,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e73dded7-ea5f-4992-9979-6092643b9349/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bfc3da9f292a65155acc2353da74c9582828e9404948751f530a801c3b4b14ad",
+      "bytes": 380390,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e73dded7-ea5f-4992-9979-6092643b9349/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "89044f608166b33b5145f59fed1ec446efdb286c115c5c9ee5918c12b150e544",
+      "bytes": 342993,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e73dded7-ea5f-4992-9979-6092643b9349/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "06167045f06edbbf6b2e9c73f62e37f76dc258ba372c1562df1a0b8509e7508a",
+      "bytes": 385267,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/21df90d2-6533-4dac-8114-b38fb1ec9a59/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "f51fc981e0a7c065084343a27a7a6a2e3be83d9a4e43e2f49649ca19a0c55a79",
+      "bytes": 293751,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 259,
+      "folio_label": "fol. 130",
+      "page_id": "21df90d2-6533-4dac-8114-b38fb1ec9a59",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2edb0ec7-5a33-4f71-836e-245f88383575/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "d3307baa973bcf221bc29101027dbe6180ded27398c1b28602de61bb9131220c",
+      "bytes": 272805,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 261,
+      "folio_label": "fol. 131",
+      "page_id": "2edb0ec7-5a33-4f71-836e-245f88383575",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

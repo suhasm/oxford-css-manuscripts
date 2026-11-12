@@ -1,0 +1,883 @@
+{
+  "source_order": 356,
+  "folio_label": "fol. 178b",
+  "page_id": "463d2352-e8c5-43f5-bd0a-cd2475ecad2a",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "178b",
+    "principal_page_bbox": [
+      325,
+      290,
+      2855,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          385,
+          330,
+          145,
+          125
+        ],
+        "kind_hint": "page_number",
+        "anchor": "178b",
+        "features": [
+          "top-left corner",
+          "handwritten folio number with superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          350,
+          2940,
+          2360,
+          110
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "√ C. 396^i Bhairavatantra, extract sādhana for chinnamastaka, f.1, inc. … n.d. : 1 : 10 : Beng.",
+        "features": [
+          "tick mark before the shelfmark",
+          "superscript 'i' after 396",
+          "single line",
+          "date/extent/script field at right",
+          "small left-pointing arrow to the right of the entry, at about x3030 y3030"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          2755,
+          3205,
+          320,
+          290
+        ],
+        "kind_hint": "marginal_note_unattached",
+        "anchor": "ff. 1-5",
+        "features": [
+          "isolated note in the right part of the page",
+          "a faint left-pointing arrow follows it, running toward the gutter",
+          "no target-page entry on this line",
+          "apparently linked by an arrow across the gutter to the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          365,
+          4030,
+          2790,
+          130
+        ],
+        "kind_hint": "catalogue_entry",
+        "anchor": "b. 99(2) f. Bhojanotsarga, f.1. Begins Pūrvāsyām bhuktvā ācamya … Ritual. On verso opening lines of Hitopadeśa. n.d.: 11 : 9 : Beng.",
+        "features": [
+          "two lines",
+          "the second line is indented",
+          "incipit is included",
+          "wavy underline under 'Hitopadeśa'",
+          "first letters of 'Hitopadeśa' possibly overwritten",
+          "date/extent/script field at the far right, slightly below line 1"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3030,
+          3025,
+          80,
+          35
+        ],
+        "description": "Small left-pointing arrow on the target page, to the right of the C.396 entry line."
+      },
+      {
+        "bbox": [
+          3010,
+          3230,
+          160,
+          45
+        ],
+        "description": "Faint left-pointing arrow after 'ff. 1-5', extending toward the gutter."
+      }
+    ],
+    "boundary_notes": [
+      "The gutter lies at about x3175–3185. Text to its right ('d.', 'e', 'f', 'Su T[aitt]', ticks and 'c' fragments) belongs to the facing page fol. 179 and is not transcribed here.",
+      "A right-pointing arrow at about [3219,3035,155,40] lies on the facing side of the gutter, level with the C.396 entry.",
+      "A dash at about [3195,3245,65,15] lies across the gutter, level with 'ff. 1-5'.",
+      "A left-pointing arrow at about [3259,4061,145,40] lies across the gutter, level with b.99(2). It appears to belong to the facing page and point toward the target entry.",
+      "The fol. 179 context shows the target's 'ff. 1-5' and 'n.d.:11:9:Beng' near its left edge. This is overlap of the same marks, not separate records."
+    ],
+    "uncertainties": [
+      "The attachment of 'ff. 1-5' is uncertain. It may be keyed by arrow to an entry on fol. 179, such as c.387(3), rather than to anything on this page.",
+      "The exact letter forms of the incipit in b004 and of 'chinnamastaka' in b002 are cursive and not verified letter by letter.",
+      "The superscript after 396 is read as 'i'.",
+      "Possible overwriting at the start of 'Hitopadeśa'."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "178b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "178b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio number at the top-left corner. The 'b' is written superscript, with a dot or stop after it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "holding",
+        "subtype": "added_entry",
+        "literal_text": "√C. 396^i Bhairavatantra, extract sādhana for chinna mastaka, f.1, inc.    n.d. : 1 : 10 : Beng.",
+        "fields": {
+          "shelfmark": "C. 396^i",
+          "title": "Bhairavatantra, extract sādhana for chinna mastaka",
+          "date": "n.d.",
+          "extent": "f.1",
+          "lines": "10",
+          "script": "Beng."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A tick (√) is written before the shelfmark.",
+          "A superscript letter, read as 'i', follows 396.",
+          "'inc.' is written after 'f.1'. Its meaning is not expanded here.",
+          "The right-hand field reads 'n.d. : 1 : 10 : Beng.'.",
+          "A small left-pointing arrow stands to the right of the entry at about x3030 y3030.",
+          "A right-pointing arrow on the facing side of the gutter, at about x3219 y3035, is level with this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 357,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "arrows '← →' on fol. 179 left margin near f.16(4) Bhairavadīpadānapaddhati / Bhairava Tantra extracts list",
+            "evidence": "Paired arrows across the gutter are level with this entry. The fol. 179 overview shows the same arrows beside the Bhairava Tantra extracts and the f.16(4) entry. This suggests the entry is to be inserted there.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The word 'Bhairavatantra' is cursive and could be misread, for example as 'Bhaviava-'.",
+          "The word division of 'chinna mastaka' is not certain.",
+          "The superscript after 396 is read as 'i'.",
+          "The arrow-target meaning is not certain."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "extent_note_keyed_by_arrow",
+        "literal_text": "ff. 1-5",
+        "fields": {
+          "extent": "ff. 1-5"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "An isolated note on an otherwise empty line.",
+          "A faint left-pointing arrow follows the note.",
+          "A dash lies across the gutter at about x3195 y3245."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 357,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 387(3) Bhairavītārāsahasranāmastotra",
+            "evidence": "In the fol. 179 overview, the fragment '-5 ←' is visible at the left edge, level with c.387(3).",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The attachment is uncertain. There is no target-page entry on this line."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "holding",
+        "subtype": "added_entry",
+        "literal_text": "b. 99(2) f. Bhojanotsarga, f.1. Begins Pūrvāsyām bhuktvā ācamya svastivācanādikaṃ kṛtvā bhojyam arccayet.\n    Ritual. On verso opening lines of Hitopadeśa.    n.d.: 11 : 9 : Beng.",
+        "fields": {
+          "shelfmark": "b. 99(2)",
+          "title": "Bhojanotsarga",
+          "subject": "Ritual",
+          "date": "n.d.",
+          "extent": "f.1",
+          "script": "Beng.",
+          "incipit": "Pūrvāsyām bhuktvā ācamya svastivācanādikaṃ kṛtvā bhojyam arccayet."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The entry runs over two lines, and the second line is indented.",
+          "'Hitopadeśa' has a wavy underline, and its first letters may be overwritten.",
+          "The right-hand field reads 'n.d.: 11 : 9 : Beng.'. It is written at the far right, slightly below line 1.",
+          "A left-pointing arrow on the facing side of the gutter, at about x3259 y4061, points toward this entry."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 357,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "arrow '←' and fragment 'n.d.:11:9:Beng' near √c.170(2) Bhojaprabandha / d.713(3) Bhojanahitāhitavicāra",
+            "evidence": "The fol. 179 overview shows the arrow and this entry's date field at its left edge, between the Bhojana and Bhojaprabandha lines.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "It is unclear whether the 'f.' after 99(2) belongs to the shelfmark.",
+          "The incipit letter forms are cursive and not verified letter by letter, including 'Pūrvāsyām' and 'kṛtvā'.",
+          "The right-hand field gives '11', while the text gives 'f.1'. The value of the 'lines' field (9) is therefore not certain.",
+          "Possible overwriting at the start of 'Hitopadeśa'."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Single-line entry. The adjacent arrow is noted in the record annotations."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Isolated note, possibly keyed by arrow to fol. 179."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Two-line entry, including its date field."
+      }
+    ],
+    "page_annotations": [
+      "The page is otherwise ruled and blank on review, including the top, middle, bottom and margins.",
+      "Text right of the gutter (about x3180) belongs to fol. 179 and is not transcribed.",
+      "Arrows level with the C.396, 'ff. 1-5' and b.99(2) lines link across the gutter to fol. 179."
+    ],
+    "unresolved_relationships": [
+      "The exact insertion points on fol. 179 for r002, r003 and r004 are inferred only from arrow alignment."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '178b' is at the top left. The 'b' is superscript and a stop follows it. The literal text matches the source."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single-line entry is fully captured. It includes the tick, the superscript 'i', 'inc.' and the right-hand field 'n.d. : 1 : 10 : Beng.'. The target-side left arrow at about x3030 y3030 is recorded in the annotations. The facing-side right arrow is noted as a gutter-crossing mark."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The isolated note 'ff. 1-5' is captured. So are the faint left arrow after it and the dash across the gutter. There is no target-page entry on this line. Its attachment to fol. 179 remains probable only."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The two-line entry with incipit, the indented second line, the wavy underline under 'Hitopadeśa' and the right-hand field 'n.d.: 11 : 9 : Beng.' are all captured. The cursive readings of 'Begins' and of the anusvāra or m-forms in the incipit remain uncertain."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r004",
+        "field_path": "uncertainties",
+        "before": [
+          "It is unclear whether the 'f.' after 99(2) belongs to the shelfmark.",
+          "The incipit letter forms are cursive and not verified letter by letter, including 'Pūrvāsyām' and 'kṛtvā'.",
+          "The right-hand field gives '11', while the text gives 'f.1'. The value of the 'lines' field (9) is therefore not certain.",
+          "Possible overwriting at the start of 'Hitopadeśa'."
+        ],
+        "after": [
+          "It is unclear whether the 'f.' after 99(2) belongs to the shelfmark.",
+          "The incipit letter forms are cursive and not verified letter by letter, including 'Pūrvāsyām' and 'kṛtvā'.",
+          "The final nasal in 'Pūrvāsyām' and 'svastivācanādikaṃ' may be written as m, ṃ or ṁ. The diacritic form is not securely legible.",
+          "The word before the incipit is read as 'Begins'. The final letter is cursive and could be absent ('Begin').",
+          "The right-hand field gives '11', while the text gives 'f.1'. The value of the 'lines' field (9) is therefore not certain.",
+          "Possible overwriting at the start of 'Hitopadeśa'."
+        ],
+        "reason": "On the native tile the 'Begins' abbreviation and the nasal marks in the incipit are cursive. Their exact forms are not secure, so this uncertainty should be recorded rather than implied as certain.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "'ff. 1-5' has no target-page entry. The arrow and dash align with the level of c.387(3) on fol. 179, where '-5 ←' is visible near the left edge. The attachment rests on alignment only.",
+        "next_check": "Compare with fol. 179 at native resolution to confirm the arrow continues to c.387(3)."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The paired arrows ('←' on the target page, '→' on the facing side) align with the Bhairava Tantra extracts list near Pañcāṅgasādhana and f.16(4) on fol. 179. The intended insertion point is not certain.",
+        "next_check": "Inspect the fol. 179 native tiles around the arrows at the left margin."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The arrow across the gutter points toward this entry. It lies between d.713(3) and c.170(2) on fol. 179, so the insertion point is inferred.",
+        "next_check": "Inspect the fol. 179 native left-margin region at the level of the Bhojana entries."
+      }
+    ],
+    "boundary_review": "The gutter lies at about x3175. The letter fragments to its right ('d.', 'e', 'f', 'Su T…', ticks, 'c') belong to fol. 179 and are correctly excluded. The facing-side arrows and dash are noted only as relationship evidence. The '-5' and 'n.d.:11:9:Beng' seen on the fol. 179 overview are the same target-page marks, not separate records.",
+    "region_review": {
+      "top": "Only the folio number '178b.' is present. The ruled lines are otherwise blank. Faint show-through from the reverse side is not text.",
+      "middle": "The page is blank down to the C.396 entry at about y3020. 'ff. 1-5' and its arrow follow at about y3250.",
+      "bottom": "The b.99(2) entry is at about y4030–4130. Below it, ruled lines are blank to the page edge.",
+      "left_margin": "No marginal writing appears apart from the tick before C.396.",
+      "right_margin": "There are arrows at about x3030 (C.396 line) and x3010 (ff. 1-5 line). The 'n.d.: 11 : 9 : Beng.' field sits at about x2890 y4100. Facing-page fragments lie beyond the gutter.",
+      "interlinear": "No interlinear additions were found. The second line of b.99(2) is a continuation, not an insertion."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        385,
+        330,
+        145,
+        125
+      ],
+      "kind_hint": "page_number",
+      "anchor": "178b",
+      "features": [
+        "top-left corner",
+        "handwritten folio number with superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        350,
+        2940,
+        2360,
+        110
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "√ C. 396^i Bhairavatantra, extract sādhana for chinnamastaka, f.1, inc. … n.d. : 1 : 10 : Beng.",
+      "features": [
+        "tick mark before the shelfmark",
+        "superscript 'i' after 396",
+        "single line",
+        "date/extent/script field at right",
+        "small left-pointing arrow to the right of the entry, at about x3030 y3030"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        2755,
+        3205,
+        320,
+        290
+      ],
+      "kind_hint": "marginal_note_unattached",
+      "anchor": "ff. 1-5",
+      "features": [
+        "isolated note in the right part of the page",
+        "a faint left-pointing arrow follows it, running toward the gutter",
+        "no target-page entry on this line",
+        "apparently linked by an arrow across the gutter to the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        365,
+        4030,
+        2790,
+        130
+      ],
+      "kind_hint": "catalogue_entry",
+      "anchor": "b. 99(2) f. Bhojanotsarga, f.1. Begins Pūrvāsyām bhuktvā ācamya … Ritual. On verso opening lines of Hitopadeśa. n.d.: 11 : 9 : Beng.",
+      "features": [
+        "two lines",
+        "the second line is indented",
+        "incipit is included",
+        "wavy underline under 'Hitopadeśa'",
+        "first letters of 'Hitopadeśa' possibly overwritten",
+        "date/extent/script field at the far right, slightly below line 1"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "178b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio number at the top-left corner. The 'b' is written superscript, with a dot or stop after it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0356-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "holding",
+      "subtype": "added_entry",
+      "literal_text": "√C. 396^i Bhairavatantra, extract sādhana for chinna mastaka, f.1, inc.    n.d. : 1 : 10 : Beng.",
+      "fields": {
+        "shelfmark": "C. 396^i",
+        "title": "Bhairavatantra, extract sādhana for chinna mastaka",
+        "date": "n.d.",
+        "extent": "f.1",
+        "lines": "10",
+        "script": "Beng."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A tick (√) is written before the shelfmark.",
+        "A superscript letter, read as 'i', follows 396.",
+        "'inc.' is written after 'f.1'. Its meaning is not expanded here.",
+        "The right-hand field reads 'n.d. : 1 : 10 : Beng.'.",
+        "A small left-pointing arrow stands to the right of the entry at about x3030 y3030.",
+        "A right-pointing arrow on the facing side of the gutter, at about x3219 y3035, is level with this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 357,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "arrows '← →' on fol. 179 left margin near f.16(4) Bhairavadīpadānapaddhati / Bhairava Tantra extracts list",
+          "evidence": "Paired arrows across the gutter are level with this entry. The fol. 179 overview shows the same arrows beside the Bhairava Tantra extracts and the f.16(4) entry. This suggests the entry is to be inserted there.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The word 'Bhairavatantra' is cursive and could be misread, for example as 'Bhaviava-'.",
+        "The word division of 'chinna mastaka' is not certain.",
+        "The superscript after 396 is read as 'i'.",
+        "The arrow-target meaning is not certain."
+      ],
+      "stable_id": "css-prod-0356-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "extent_note_keyed_by_arrow",
+      "literal_text": "ff. 1-5",
+      "fields": {
+        "extent": "ff. 1-5"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "An isolated note on an otherwise empty line.",
+        "A faint left-pointing arrow follows the note.",
+        "A dash lies across the gutter at about x3195 y3245."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 357,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 387(3) Bhairavītārāsahasranāmastotra",
+          "evidence": "In the fol. 179 overview, the fragment '-5 ←' is visible at the left edge, level with c.387(3).",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The attachment is uncertain. There is no target-page entry on this line."
+      ],
+      "stable_id": "css-prod-0356-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "holding",
+      "subtype": "added_entry",
+      "literal_text": "b. 99(2) f. Bhojanotsarga, f.1. Begins Pūrvāsyām bhuktvā ācamya svastivācanādikaṃ kṛtvā bhojyam arccayet.\n    Ritual. On verso opening lines of Hitopadeśa.    n.d.: 11 : 9 : Beng.",
+      "fields": {
+        "shelfmark": "b. 99(2)",
+        "title": "Bhojanotsarga",
+        "subject": "Ritual",
+        "date": "n.d.",
+        "extent": "f.1",
+        "script": "Beng.",
+        "incipit": "Pūrvāsyām bhuktvā ācamya svastivācanādikaṃ kṛtvā bhojyam arccayet."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The entry runs over two lines, and the second line is indented.",
+        "'Hitopadeśa' has a wavy underline, and its first letters may be overwritten.",
+        "The right-hand field reads 'n.d.: 11 : 9 : Beng.'. It is written at the far right, slightly below line 1.",
+        "A left-pointing arrow on the facing side of the gutter, at about x3259 y4061, points toward this entry."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 357,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "arrow '←' and fragment 'n.d.:11:9:Beng' near √c.170(2) Bhojaprabandha / d.713(3) Bhojanahitāhitavicāra",
+          "evidence": "The fol. 179 overview shows the arrow and this entry's date field at its left edge, between the Bhojana and Bhojaprabandha lines.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "It is unclear whether the 'f.' after 99(2) belongs to the shelfmark.",
+        "The incipit letter forms are cursive and not verified letter by letter, including 'Pūrvāsyām' and 'kṛtvā'.",
+        "The right-hand field gives '11', while the text gives 'f.1'. The value of the 'lines' field (9) is therefore not certain.",
+        "Possible overwriting at the start of 'Hitopadeśa'."
+      ],
+      "stable_id": "css-prod-0356-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r004",
+      "field_path": "uncertainties",
+      "before": [
+        "It is unclear whether the 'f.' after 99(2) belongs to the shelfmark.",
+        "The incipit letter forms are cursive and not verified letter by letter, including 'Pūrvāsyām' and 'kṛtvā'.",
+        "The right-hand field gives '11', while the text gives 'f.1'. The value of the 'lines' field (9) is therefore not certain.",
+        "Possible overwriting at the start of 'Hitopadeśa'."
+      ],
+      "after": [
+        "It is unclear whether the 'f.' after 99(2) belongs to the shelfmark.",
+        "The incipit letter forms are cursive and not verified letter by letter, including 'Pūrvāsyām' and 'kṛtvā'.",
+        "The final nasal in 'Pūrvāsyām' and 'svastivācanādikaṃ' may be written as m, ṃ or ṁ. The diacritic form is not securely legible.",
+        "The word before the incipit is read as 'Begins'. The final letter is cursive and could be absent ('Begin').",
+        "The right-hand field gives '11', while the text gives 'f.1'. The value of the 'lines' field (9) is therefore not certain.",
+        "Possible overwriting at the start of 'Hitopadeśa'."
+      ],
+      "reason": "On the native tile the 'Begins' abbreviation and the nasal marks in the incipit are cursive. Their exact forms are not secure, so this uncertainty should be recorded rather than implied as certain.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/463d2352-e8c5-43f5-bd0a-cd2475ecad2a.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/463d2352-e8c5-43f5-bd0a-cd2475ecad2a/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "2c00a9d5c3fe95d0c72312bd54bef77368620517ca2aa532067dd8a5a44320e7",
+      "bytes": 253065,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/463d2352-e8c5-43f5-bd0a-cd2475ecad2a/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c9d6372f58ffcc717585b59064835f9bf3a568f5f939c4fd6943a51b0ffd79ea",
+      "bytes": 298247,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/463d2352-e8c5-43f5-bd0a-cd2475ecad2a/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d400c2cb4b2af37cce453d5dd4f8a39e0bd5aaf83742ad820941bb9258e5e26e",
+      "bytes": 305986,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/463d2352-e8c5-43f5-bd0a-cd2475ecad2a/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d6c02149755ac4f5853bcaa6043a368bf21fe5295b67a07b8867a4904ca3c325",
+      "bytes": 317298,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/463d2352-e8c5-43f5-bd0a-cd2475ecad2a/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "def8ea084193cdebe2f7225e5517e0e4ec63e734203de7ef8b4f664989d3ce76",
+      "bytes": 299971,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/463d2352-e8c5-43f5-bd0a-cd2475ecad2a/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "7f44d2d2b5de199b55272cbf3d949d1218d8171155ae65cef71e0dfa99ea806f",
+      "bytes": 326620,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/463d2352-e8c5-43f5-bd0a-cd2475ecad2a/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "34082638648a304b18eac02d6659000493f63cd87795e0037ed9b1637550b159",
+      "bytes": 335179,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2118e275-ad88-498c-81ec-53f538db2cdc/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "6733f829f93cb7ec064074c92993aabbc499fd5f604b97c8691e366e06b8db64",
+      "bytes": 258623,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 355,
+      "folio_label": "fol. 178",
+      "page_id": "2118e275-ad88-498c-81ec-53f538db2cdc",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/52396843-df12-461b-8433-5dd8271ac4b4/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "a271ea4b1107516a25f9b26bbc27f81a0034cfb17dea9da484373472de1fa610",
+      "bytes": 252833,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 357,
+      "folio_label": "fol. 179",
+      "page_id": "52396843-df12-461b-8433-5dd8271ac4b4",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

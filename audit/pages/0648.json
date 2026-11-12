@@ -1,0 +1,916 @@
+{
+  "source_order": 648,
+  "folio_label": "fol. 324b",
+  "page_id": "900a1871-2eae-4710-8133-c82288001fb3",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "324b",
+    "principal_page_bbox": [
+      300,
+      270,
+      2820,
+      4570
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          425,
+          365,
+          195,
+          150
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "324b",
+        "features": [
+          "top left corner of the margin column",
+          "'b' written as a superscript after 324",
+          "a dot follows the number"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          915,
+          1020,
+          1790,
+          125
+        ],
+        "kind_hint": "cross_reference_or_heading_line",
+        "anchor": "Himavatsetkhaṇḍa (Skandapur.), on Cāmuṇḍāsahasranāmastotra",
+        "features": [
+          "single line in the main column",
+          "stands isolated with no shelfmark beside it",
+          "reading of the opening word is uncertain",
+          "the word read as 'on' could be 'or'"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          340,
+          4060,
+          2560,
+          180
+        ],
+        "kind_hint": "note_incipit_continuation",
+        "anchor": "Sent. Mahādevaji. Begins: Atha homapaddhatiḥ ... kuryāt(sic) ... tattā.",
+        "features": [
+          "two lines",
+          "begins in the left margin column and runs across the ruled margin line into the main column",
+          "contains '(sic)' twice",
+          "a left-pointing arrow at the right edge (x≈2950–3110, y≈4105) links it across the gutter to the facing page at the '√c.27' row",
+          "no shelfmark on this page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          430,
+          4480,
+          1130,
+          165
+        ],
+        "kind_hint": "note_extent_date_reference_continuation",
+        "anchor": "ff.1-29 (m. 6, 22, 23), S. 1872. Weber, II, 3, 2109",
+        "features": [
+          "ink blot over the digit after 'S. 1'",
+          "an '8' is written above the blotted digit as a correction",
+          "a left-pointing arrow at the right edge (x≈2960–3110, y≈4555) links it to the facing page at the '√d.168(6)' row",
+          "apparently a continuation of a facing-page holding"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          2945,
+          4085,
+          170,
+          40
+        ],
+        "description": "Left-pointing arrow near the gutter at the level of b003. It continues on the facing page as a dash before '√c.27'."
+      },
+      {
+        "bbox": [
+          2960,
+          4535,
+          155,
+          40
+        ],
+        "description": "Left-pointing arrow near the gutter at the level of b004. It continues on the facing page as a dash before '√d.168(6)'."
+      },
+      {
+        "bbox": [
+          560,
+          4660,
+          40,
+          90
+        ],
+        "description": "Small ink blot and dots below b004 in the left margin column."
+      },
+      {
+        "bbox": [
+          1400,
+          3790,
+          80,
+          40
+        ],
+        "description": "Small ink specks in the main column."
+      },
+      {
+        "bbox": [
+          300,
+          270,
+          2820,
+          4570
+        ],
+        "description": "Faint mirror-image show-through of writing from the reverse side across the whole ruled page. It is not treated as target text."
+      }
+    ],
+    "boundary_notes": [
+      "The right strip at x>3130 belongs to the facing page, fol. 325. It shows shelfmarks such as d.883, c.223, √c.372, √c.311 with the note 'On f.11.a ...', 'See s. Anekārtha...', √d.128, c.27, d.168, √e.368(7). These are context only and are not transcribed as target blocks.",
+      "The arrows in b003 and b004 cross the gutter. Which facing-page holding each note belongs to is inferred from arrow alignment and is somewhat ambiguous. The b003 arrow aligns with c.27, but its incipit 'Atha homapaddhatiḥ' resembles the Homapaddhati entry at d.168(6)."
+    ],
+    "uncertainties": [
+      "The exact spelling of b002 (Himavat...khaṇḍa) is uncertain.",
+      "The digit under the ink blot in b004 is unknown; '8' is written above it.",
+      "The individual words of the Sanskrit incipit in b003 are only approximately read."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "324b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "324b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "The 'b' is written superscript after 324 and is followed by a dot. Top left of the margin column."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "cross_reference",
+        "subtype": "independent_title_reference_without_shelfmark",
+        "literal_text": "Himavatse[t?]khaṇḍa (Skandapur.), on Cāmuṇḍāsahasranāmastotra.",
+        "fields": {
+          "title": "Himavatse[t?]khaṇḍa (Skandapur.), on Cāmuṇḍāsahasranāmastotra",
+          "source": "Skandapur."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "This is a single isolated line in the main column. No shelfmark stands beside it.",
+          "It may be a cross-reference or an index-type entry inserted on this otherwise blank verso."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The exact spelling of the first word is uncertain. The letters read as 'se[t?]' are unclear.",
+          "The word read as 'on' could possibly be 'or'.",
+          "It is uncertain whether this is a cross-reference or a heading. No holding is inferred."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "source_and_incipit_note_for_facing_page_holding",
+        "literal_text": "Sent. Mahādevaji. Begins: Atha homapaddhatiḥ s[nā?]nātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān\nkuryāt(sic) pratijñāṃ vidhiva(sic) tathā.",
+        "fields": {
+          "source": "Sent. Mahādevaji.",
+          "incipit": "Atha homapaddhatiḥ s[nā?]nātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān kuryāt(sic) pratijñāṃ vidhiva(sic) tathā."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "There are two lines. The note begins in the left margin column and runs across the ruled margin line.",
+          "A left-pointing arrow at the right edge near the gutter continues on the facing page as a dash before '√c.27'.",
+          "'(sic)' occurs twice in the source."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 649,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c.27 Homakarmamaṇḍala",
+            "evidence": "The arrow and dash cross the gutter at the level of the c.27 row.",
+            "certainty": "probable"
+          },
+          {
+            "type": "possible_attachment",
+            "target_page_order": 649,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.168(6) Homapaddhati by Lambodara",
+            "evidence": "The incipit wording resembles the d.168(6) entry, but the arrow aligns with c.27.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "Individual words of the Sanskrit incipit are only approximately read.",
+          "The attachment to c.27 or d.168(6) is ambiguous."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_date_reference_note_for_facing_page_holding",
+        "literal_text": "ff.1-29 (m. 6, 22, 23), S. 1[blotted digit; '8' written above]72. Weber, II, 3, 2109",
+        "fields": {
+          "extent": "ff.1-29 (m. 6, 22, 23)",
+          "date": "S. 1[?]72 (8 written above blotted digit)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "An ink blot covers the digit after 'S. 1'. An '8' is written above it as an apparent correction.",
+          "A left-pointing arrow near the gutter continues on the facing page as a dash before '√d.168(6)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 649,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√d.168(6) Homapaddhati",
+            "evidence": "The arrow and dash cross the gutter at the level of the d.168(6) row.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The original digit under the blot is unknown.",
+          "The 'II' in the Weber reference is read approximately."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Isolated title line without a shelfmark, recorded as an independent cross-reference."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Note linked by an arrow to a facing-page holding."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Note linked by an arrow to a facing-page holding."
+      }
+    ],
+    "page_annotations": [
+      "The page is mostly blank ruled paper. Faint mirror-image show-through from the reverse side is visible and is not transcribed.",
+      "A small ink blot and dots appear below b004 in the left margin. Minor ink specks appear in the main column. Neither is text.",
+      "The right strip belongs to the facing page, fol. 325. It is context only and is not transcribed."
+    ],
+    "unresolved_relationships": [
+      "b003: the arrow aligns with c.27, but the incipit resembles d.168(6) Homapaddhati."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '324' with superscript 'b' and a dot is at the top left of the margin column. It is correctly recorded as a page label."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "This is a single isolated main-column line with no shelfmark. The opening word is unclear in the native tile; it may read 'Himavatsa?khaṇḍa' or 'Himavatsetkhaṇḍa'. The candidate's uncertainty markers are appropriate. It is kept as an independent cross-reference, not as a holding or governing heading."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The two-line note begins in the margin column and crosses the ruling. The second line appears to read 'kuyāt(sic)', without the r, which would explain the sic. The candidate's 'kuryāt(sic)' looks like a silent correction. The candidate's opening form 's[nā?]nātaḥ' is malformed; the source looks like '[su?]snātaḥ'. The arrow at the right edge is recorded in annotations."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The line reads 'ff.1-29 (m. 6, 22, 23), S. 1[blot]72. Weber, II, 3, 2109', with '8' written above the blot. The Weber reference is not split into fields. The arrow to √d.168(6) is recorded."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r003",
+        "field_path": "literal_text",
+        "before": "Sent. Mahādevaji. Begins: Atha homapaddhatiḥ s[nā?]nātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān\nkuryāt(sic) pratijñāṃ vidhiva(sic) tathā.",
+        "after": "Sent. Mahādevaji. Begins: Atha homapaddhatiḥ [su?]snātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān\nku[yāt?](sic) pratijñāṃ vidhiva(sic) tathā.",
+        "reason": "The native tile shows a short word with no visible r before 'yāt'. The '(sic)' supports a defective written form, so 'kuryāt' would be a silent correction. The opening of the snātaḥ word shows extra strokes, plausibly 'su'. The candidate's 's[nā?]nātaḥ' duplicates letters.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "fields.incipit",
+        "before": "Atha homapaddhatiḥ s[nā?]nātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān kuryāt(sic) pratijñāṃ vidhiva(sic) tathā.",
+        "after": "Atha homapaddhatiḥ [su?]snātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān ku[yāt?](sic) pratijñāṃ vidhiva(sic) tathā.",
+        "reason": "This field is aligned with the revised literal reading.",
+        "source_block_ids": [
+          "b003"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r004",
+        "field_path": "fields",
+        "before": {
+          "extent": "ff.1-29 (m. 6, 22, 23)",
+          "date": "S. 1[?]72 (8 written above blotted digit)"
+        },
+        "after": {
+          "extent": "ff.1-29 (m. 6, 22, 23)",
+          "date": "S. 1[?]72 (8 written above blotted digit)",
+          "reference": "Weber, II, 3, 2109"
+        },
+        "reason": "The Weber reference is visible in the source but was omitted from the fields. 'II' remains approximate according to the record's uncertainties.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The b003 arrow aligns with √c.27 (Homakarmamaṇḍala) on fol. 325. However, the incipit closely matches the 'Begins' text of the √d.168(6) Homapaddhati entry on the facing page. Attachment is therefore ambiguous.",
+        "next_check": "Compare the arrow and dash geometry across the gutter in a native-resolution image of fol. 325."
+      },
+      {
+        "record_id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The digit under the ink blot is unknown, and '8' is written above it. The relationship of the 'S. 1872' note to the date column of the d.168(6) row on fol. 325 is unverified.",
+        "next_check": "Examine native fol. 325 for the d.168(6) row's date and extent."
+      },
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The spelling of the first word (Himavat-?-khaṇḍa) and the reading 'on' versus 'or' remain uncertain.",
+        "next_check": "Use higher-contrast imaging of the line at about y≈1060."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The readings '[su?]snātaḥ', 'ku[yāt?]' and 'prāṅmukho' (written ṅ uncertain) are not secure.",
+        "next_check": "Use close inspection at native resolution."
+      }
+    ],
+    "boundary_review": "The right strip at x>3130 is fol. 325 (shelfmarks d.883 … √e.368(7)); it is context only. The two arrows near the gutter, at y≈4105 and y≈4555, belong to the target notes and continue as dashes on the facing page. The attachment of the b003 note remains ambiguous between c.27 and d.168(6).",
+    "region_review": {
+      "top": "Folio number 324b only, plus a few specks.",
+      "middle": "Only the b002 line, with scattered dots and specks. Mirror show-through from the reverse is not transcribed.",
+      "bottom": "b003 (two lines with an arrow), b004 (with an arrow), and an ink blot and dots below b004 in the margin column.",
+      "left_margin": "Folio number, the start of b003 and b004 in the margin column, and an ink blot.",
+      "right_margin": "Arrows at the gutter only. Everything beyond the gutter is the facing page.",
+      "interlinear": "An '8' is written above the blotted date digit in b004. No other interlinear additions were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        425,
+        365,
+        195,
+        150
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "324b",
+      "features": [
+        "top left corner of the margin column",
+        "'b' written as a superscript after 324",
+        "a dot follows the number"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        915,
+        1020,
+        1790,
+        125
+      ],
+      "kind_hint": "cross_reference_or_heading_line",
+      "anchor": "Himavatsetkhaṇḍa (Skandapur.), on Cāmuṇḍāsahasranāmastotra",
+      "features": [
+        "single line in the main column",
+        "stands isolated with no shelfmark beside it",
+        "reading of the opening word is uncertain",
+        "the word read as 'on' could be 'or'"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        340,
+        4060,
+        2560,
+        180
+      ],
+      "kind_hint": "note_incipit_continuation",
+      "anchor": "Sent. Mahādevaji. Begins: Atha homapaddhatiḥ ... kuryāt(sic) ... tattā.",
+      "features": [
+        "two lines",
+        "begins in the left margin column and runs across the ruled margin line into the main column",
+        "contains '(sic)' twice",
+        "a left-pointing arrow at the right edge (x≈2950–3110, y≈4105) links it across the gutter to the facing page at the '√c.27' row",
+        "no shelfmark on this page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        430,
+        4480,
+        1130,
+        165
+      ],
+      "kind_hint": "note_extent_date_reference_continuation",
+      "anchor": "ff.1-29 (m. 6, 22, 23), S. 1872. Weber, II, 3, 2109",
+      "features": [
+        "ink blot over the digit after 'S. 1'",
+        "an '8' is written above the blotted digit as a correction",
+        "a left-pointing arrow at the right edge (x≈2960–3110, y≈4555) links it to the facing page at the '√d.168(6)' row",
+        "apparently a continuation of a facing-page holding"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "324b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "The 'b' is written superscript after 324 and is followed by a dot. Top left of the margin column."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0648-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "cross_reference",
+      "subtype": "independent_title_reference_without_shelfmark",
+      "literal_text": "Himavatse[t?]khaṇḍa (Skandapur.), on Cāmuṇḍāsahasranāmastotra.",
+      "fields": {
+        "title": "Himavatse[t?]khaṇḍa (Skandapur.), on Cāmuṇḍāsahasranāmastotra",
+        "source": "Skandapur."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "This is a single isolated line in the main column. No shelfmark stands beside it.",
+        "It may be a cross-reference or an index-type entry inserted on this otherwise blank verso."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The exact spelling of the first word is uncertain. The letters read as 'se[t?]' are unclear.",
+        "The word read as 'on' could possibly be 'or'.",
+        "It is uncertain whether this is a cross-reference or a heading. No holding is inferred."
+      ],
+      "stable_id": "css-prod-0648-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "source_and_incipit_note_for_facing_page_holding",
+      "literal_text": "Sent. Mahādevaji. Begins: Atha homapaddhatiḥ s[nā?]nātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān\nkuryāt(sic) pratijñāṃ vidhiva(sic) tathā.",
+      "fields": {
+        "source": "Sent. Mahādevaji.",
+        "incipit": "Atha homapaddhatiḥ s[nā?]nātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān kuryāt(sic) pratijñāṃ vidhiva(sic) tathā."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "There are two lines. The note begins in the left margin column and runs across the ruled margin line.",
+        "A left-pointing arrow at the right edge near the gutter continues on the facing page as a dash before '√c.27'.",
+        "'(sic)' occurs twice in the source."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 649,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c.27 Homakarmamaṇḍala",
+          "evidence": "The arrow and dash cross the gutter at the level of the c.27 row.",
+          "certainty": "probable"
+        },
+        {
+          "type": "possible_attachment",
+          "target_page_order": 649,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.168(6) Homapaddhati by Lambodara",
+          "evidence": "The incipit wording resembles the d.168(6) entry, but the arrow aligns with c.27.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "Individual words of the Sanskrit incipit are only approximately read.",
+        "The attachment to c.27 or d.168(6) is ambiguous."
+      ],
+      "stable_id": "css-prod-0648-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_date_reference_note_for_facing_page_holding",
+      "literal_text": "ff.1-29 (m. 6, 22, 23), S. 1[blotted digit; '8' written above]72. Weber, II, 3, 2109",
+      "fields": {
+        "extent": "ff.1-29 (m. 6, 22, 23)",
+        "date": "S. 1[?]72 (8 written above blotted digit)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "An ink blot covers the digit after 'S. 1'. An '8' is written above it as an apparent correction.",
+        "A left-pointing arrow near the gutter continues on the facing page as a dash before '√d.168(6)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 649,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√d.168(6) Homapaddhati",
+          "evidence": "The arrow and dash cross the gutter at the level of the d.168(6) row.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The original digit under the blot is unknown.",
+        "The 'II' in the Weber reference is read approximately."
+      ],
+      "stable_id": "css-prod-0648-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r003",
+      "field_path": "literal_text",
+      "before": "Sent. Mahādevaji. Begins: Atha homapaddhatiḥ s[nā?]nātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān\nkuryāt(sic) pratijñāṃ vidhiva(sic) tathā.",
+      "after": "Sent. Mahādevaji. Begins: Atha homapaddhatiḥ [su?]snātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān\nku[yāt?](sic) pratijñāṃ vidhiva(sic) tathā.",
+      "reason": "The native tile shows a short word with no visible r before 'yāt'. The '(sic)' supports a defective written form, so 'kuryāt' would be a silent correction. The opening of the snātaḥ word shows extra strokes, plausibly 'su'. The candidate's 's[nā?]nātaḥ' duplicates letters.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "fields.incipit",
+      "before": "Atha homapaddhatiḥ s[nā?]nātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān kuryāt(sic) pratijñāṃ vidhiva(sic) tathā.",
+      "after": "Atha homapaddhatiḥ [su?]snātaḥ prāṅmukho bhūtvā yajamānaḥ kṛtāhnikaḥ āhūya brāhmaṇān ku[yāt?](sic) pratijñāṃ vidhiva(sic) tathā.",
+      "reason": "This field is aligned with the revised literal reading.",
+      "source_block_ids": [
+        "b003"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r004",
+      "field_path": "fields",
+      "before": {
+        "extent": "ff.1-29 (m. 6, 22, 23)",
+        "date": "S. 1[?]72 (8 written above blotted digit)"
+      },
+      "after": {
+        "extent": "ff.1-29 (m. 6, 22, 23)",
+        "date": "S. 1[?]72 (8 written above blotted digit)",
+        "reference": "Weber, II, 3, 2109"
+      },
+      "reason": "The Weber reference is visible in the source but was omitted from the fields. 'II' remains approximate according to the record's uncertainties.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/900a1871-2eae-4710-8133-c82288001fb3.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/900a1871-2eae-4710-8133-c82288001fb3/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "a5acd2ec71d50de25afaef88b8b10a347fa3d02ca43d975f966eaffabd923e55",
+      "bytes": 321404,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/900a1871-2eae-4710-8133-c82288001fb3/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "43475d10eceb60817af4bb59897172d00e106fb073d9fc2f17a2a12727f1580b",
+      "bytes": 363527,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/900a1871-2eae-4710-8133-c82288001fb3/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "af276a1659aac95c212152f42c13fd2649dd47a4ead75440fee1b22d704f4575",
+      "bytes": 400805,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/900a1871-2eae-4710-8133-c82288001fb3/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bbf54e59e5be56c609b6d8a6f8aefe9ce1a6fc8eff910785109b7ee8a8212efe",
+      "bytes": 359661,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/900a1871-2eae-4710-8133-c82288001fb3/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "9294c8934be9fe79b654d967116b5ba0359a7969c8237bcec7c6d5e1f29f012a",
+      "bytes": 393809,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/900a1871-2eae-4710-8133-c82288001fb3/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "23a346c907e11670bd28de827fbb2c5089269eb12a6cde2f0acb0bbbcb863a39",
+      "bytes": 380608,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/900a1871-2eae-4710-8133-c82288001fb3/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "13e0548edf770703cd07908017cc0147e0792de7ad7908b84871dbba09632fd8",
+      "bytes": 407308,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7089a907-3138-4687-bc8a-543fac41d395/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b850dd4ce3000a4b7cbd481f276b3dc1c6625273aa51b9f911465121bd180e44",
+      "bytes": 320188,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 647,
+      "folio_label": "fol. 324",
+      "page_id": "7089a907-3138-4687-bc8a-543fac41d395",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2885ad57-3b9e-4e58-8711-5e13f5418088/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "304fc8222127aabe96582bc5dcd0c648a7eb6999f69cbe0f0e0ea84fb419c7d8",
+      "bytes": 356129,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 649,
+      "folio_label": "fol. 325",
+      "page_id": "2885ad57-3b9e-4e58-8711-5e13f5418088",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

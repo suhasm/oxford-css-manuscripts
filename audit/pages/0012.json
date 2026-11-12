@@ -1,0 +1,1054 @@
+{
+  "source_order": 12,
+  "folio_label": "fol. 6b",
+  "page_id": "5be679f0-240d-435b-9ff7-a9510f6234c3",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "6b",
+    "principal_page_bbox": [
+      280,
+      255,
+      2850,
+      4625
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          350,
+          280,
+          110,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "6b",
+        "features": [
+          "top left corner",
+          "written 6 with superscript b"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          330,
+          2410,
+          1360,
+          110
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "4ff. pp. 71-74, foll. by 3ff., pp. 75-77, from Śivarahasya (?).",
+        "features": [
+          "ink",
+          "no heading or shelfmark on this page",
+          "left-pointing arrow near the gutter at the same height appears to link it to a shelfmark row on the facing page (c. 390)"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          330,
+          2530,
+          2050,
+          110
+        ],
+        "kind_hint": "continuation_note_incipit",
+        "anchor": "ff. 1-6, inc. Begins Svastivācanapūrvakaṃ saṃkalpaṃ kuryāt | Oṃ ... adyetyādi",
+        "features": [
+          "faint pencil",
+          "contains an incipit",
+          "the word before 'adyetyādi' is uncertain and may be overwritten",
+          "faint arrow near the gutter at this height (facing row c. 368)"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          450,
+          2640,
+          2450,
+          130
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 1-10. Owner's (and writer's?) name Bhairavanātha Devaśarman. Cf. Oxf. Cat. 76, adhy. 92.",
+        "features": [
+          "ink",
+          "indented",
+          "no arrow at this height on the target page",
+          "aligned with facing row b. 74"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          1600,
+          2870,
+          1000,
+          110
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "ff. 1-16, S. 1824, portions of text in I.O. 5570",
+        "features": [
+          "ink",
+          "starts mid-line",
+          "left-pointing arrow near the gutter (facing row d. 117)",
+          "date is written as 'S. 1824'"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          350,
+          4140,
+          2440,
+          280
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "a. only, ...ṭīkā by Rucipati of Vaijantigrāma and Khaṇḍālavaṃśa, ff. 1-25, 44-68, and 148, each part in different hand. I.O. 4157.",
+        "features": [
+          "ink",
+          "two lines",
+          "interlinear numeral '2' above 'Vaijantigrāma' and '1' above 'Khaṇḍālavaṃśa' (possible transposition marks)",
+          "left-pointing arrow at right (facing row c. 181)",
+          "first word of the title is uncertain"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          3040,
+          2690,
+          140,
+          130
+        ],
+        "description": "binding thread knot and tie at the gutter"
+      },
+      {
+        "bbox": [
+          3120,
+          500,
+          40,
+          4100
+        ],
+        "description": "stitching thread running down the gutter"
+      },
+      {
+        "bbox": [
+          460,
+          3000,
+          40,
+          60
+        ],
+        "description": "small ink specks in the left area; not text"
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the image beyond the gutter (about x>3130) shows a fragment of facing fol. 7: shelfmarks with ticks (c. 390, c. 368, b. 74, d. 944, d. 117, d. 312, e 72, d. 328, ff. 1-3, d. 392, d. 397, d. 1123, c. 181, d. 244) and short dashes. These were not recorded as target blocks.",
+      "The target-page arrows point toward facing-page shelfmark rows. Each note probably continues the fol. 7 entry on the same line, but attachment is inferred only from position.",
+      "It is ambiguous whether the short dashes just right of the thread belong to the arrows on this page or to the facing page."
+    ],
+    "uncertainties": [
+      "The first title word in b006 (reading like 'Mucuṇṭīkā') is uncertain.",
+      "The pencil word before 'adyetyādi' in b003 is uncertain.",
+      "Faint show-through ruled impressions in the upper half were judged to be bleed-through, not text."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "6b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "6ᵇ",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Written at the top left corner as '6' with a superscript 'b'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_and_source_note",
+        "literal_text": "4ff. pp. 71-74, foll. by 3ff., pp. 75-77, from Śivarahasya (?).",
+        "fields": {
+          "extent": "4ff. pp. 71-74, foll. by 3ff., pp. 75-77",
+          "source": "Śivarahasya (?)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "There is no heading or shelfmark on this page.",
+          "A left-pointing arrow near the gutter, at about x 3050–3180 and y 2440, is at the same height as facing fol. 7 row 'c. 390 (6)ᵃ'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 13,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 390 (6)ᵃ Anantavrata kathā From the Bhaviṣya Purāṇa",
+            "evidence": "An arrow links the note to the facing shelfmark row, and the note is at the same line height. Attachment is inferred only from position.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The '(?)' is the source's own query mark. Its form is slightly unclear."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_and_incipit",
+        "literal_text": "ff. 1-6, inc. Begins Svastivācanapūrvakaṃ saṃkalpaṃ kuryāt | Oṃ [illegible] adyetyādi",
+        "fields": {
+          "extent": "ff. 1-6, inc.",
+          "incipit": "Svastivācanapūrvakaṃ saṃkalpaṃ kuryāt | Oṃ [illegible] adyetyādi"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil.",
+          "A short word before 'adyetyādi' appears overwritten or blotted.",
+          "A faint pencil arrow or mark near the gutter at about x 3030 and y 2560 is at the height of facing fol. 7 row 'c. 368 (5)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 13,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 368 (5) Anantavratakathā From the Bhaviṣyottara Purāṇa",
+            "evidence": "A faint arrow and same-line alignment link the note to the facing row. This is positional only.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The word between 'Oṃ' and 'adyetyādi' is illegible or overwritten.",
+          "The anusvāra diacritics (ṃ or ṁ) in the pencil are not clearly distinguishable."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_owner_reference",
+        "literal_text": "ff. 1-10. Owner's (and writer's?) name Bhairavanātha Devaśarman. Cf. Oxf. Cat. 76, adhy. 92.",
+        "fields": {
+          "extent": "ff. 1-10"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, indented.",
+          "Bhairavanātha Devaśarman is named as owner (and possibly writer), not as author.",
+          "The reference 'Cf. Oxf. Cat. 76, adhy. 92' is part of the note.",
+          "No arrow was found at this height on the target page. The binding-thread knot lies near the gutter at this height."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 13,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "b. 74 (2) Anantavratavidhi and °kathā, From the Bhaviṣya Purāṇa",
+            "evidence": "Aligned with the facing row; no arrow is visible on the target page.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The attachment rests on line alignment alone."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "extent_date_note",
+        "literal_text": "ff. 1-16, S. 1824, portions of text in I.O. 5570",
+        "fields": {
+          "extent": "ff. 1-16",
+          "date": "S. 1824"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink.",
+          "Starts mid-line at about x 1600.",
+          "A left-pointing arrow near the gutter at about x 2990–3100 and y 2930 is at the height of facing row 'd. 117 (2)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 13,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "d. 117 (2) Anantavrata vidhi with kathā ... Hemādri",
+            "evidence": "An arrow and same-line alignment link the note to the facing row.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The date prefix reads 'S.'. It could possibly be 'Ś.'; it is not expanded here."
+        ]
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "commentary_extent_note",
+        "literal_text": "a. only, Mucuṇṭīkā [reading?] by Rucipati of Vaijantigrāma and Khaṇḍālavaṃśa, ff. 1-25, 44-68,\nand 148, each part in different hand. I.O. 4157.",
+        "fields": {
+          "title": "Mucuṇṭīkā [reading?]",
+          "author": "Rucipati",
+          "extent": "ff. 1-25, 44-68, and 148"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Ink, two lines.",
+          "An interlinear numeral '2' is written above 'Vaijantigrāma' and '1' above 'Khaṇḍālavaṃśa'; these are possible transposition marks.",
+          "A left-pointing arrow at the right end of line 1 (about x 2900–3050, y 4230) is at the height of facing row 'c. 181 (3)'.",
+          "The '8' of '68' may be overwritten."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 13,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "c. 181 (3) [Anargharāghava ditto row] ... only ... D.",
+            "evidence": "An arrow and same-line alignment link the note to the facing row.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first title word is uncertain (read here as 'Mucuṇṭīkā').",
+          "The meaning of the interlinear 2/1 numerals is not certain."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Continuation note, arrow-linked to the facing page."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Pencil continuation note with incipit."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Continuation note attached by alignment only."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Continuation note, arrow-linked to the facing page."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Two-line continuation note, arrow-linked to the facing page."
+      }
+    ],
+    "page_annotations": [
+      "The upper half of the page is blank apart from the folio number; faint ruled show-through was judged not to be text.",
+      "The strip right of the gutter (x>3130) shows a fragment of facing fol. 7: shelfmarks with ticks (c. 390, c. 368, b. 74, d. 944, d. 117, d. 312, e 72, d. 328, ff. 1-3, d. 392, d. 397, d. 1123, c. 181, d. 244). These are not transcribed as target records.",
+      "Binding thread runs down the gutter, with a knot at about y 2700. Small ink specks at about (460, 3000) are not text."
+    ],
+    "unresolved_relationships": [
+      "The short dashes just right of the gutter thread may belong either to this page's arrows or to the facing page.",
+      "All attachments to fol. 7 rows are positional (arrows or line alignment), not explicit."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "Folio number '6' with superscript 'b', top left at about (360,300)–(440,400). The record is accurate."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "An ink line at y≈2440 reads '4ff. pp. 71-74, foll. by 3ff., pp. 75-77, from Śivarahasya(?).' A left arrow at about x 3054–3194, y 2443 points toward fol. 7 row c. 390. The punctuation after '4ff.' is cramped. The record is acceptable."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "The pencil line is confirmed. The word between 'Oṁ' and 'adyetyādi' is overwritten or blotted and is correctly left illegible. The anusvāra form looks like m with a dot above, but this is uncertain and already flagged. A faint pencil hooked mark sits at about (3030,2560)."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "The indented ink line ending 'Cf. Oxf. Cat. 76, adhy. 92.' is confirmed. No arrow is visible on the target page. The '.92.' visible at the left edge of the fol. 7 image is this same line seen across the spread, not separate text."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "The line starting mid-page, 'ff.1-16, S.1824, portions of text in I.O. 5570', is confirmed. The spacing is compressed in the source. The arrow is at about x 2994–3084, y 2908."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "The two-line note is confirmed, with interlinear '2' and '1'. The arrow is at about x 2894–3049, y 4236. The '68,' plus arrow is also visible at the left edge of the fol. 7 image at the c. 181 row, which confirms alignment only. The first title word remains uncertain. The '8' of '68' appears overwritten."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "issue": "The first title word is read as 'Mucuṇṭīkā' but the letter forms are ambiguous. It should not be normalized from knowledge of the facing-page Anargharāghava entry.",
+        "next_check": "Higher-contrast inspection of x≈600–900, y≈4200–4260."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "issue": "The overwritten pencil word before 'adyetyādi' is unread. The anusvāra notation (ṃ vs ṁ) is uncertain.",
+        "next_check": "Enhanced view of x≈2150–2300, y≈2540–2580."
+      },
+      {
+        "record_id": null,
+        "block_ids": [],
+        "issue": "There is a small faint mark near the top edge close to the gutter (about x 3030, y 290). It is probably a paper mark or show-through, not text, but this is unconfirmed.",
+        "next_check": "Inspect at higher contrast."
+      },
+      {
+        "record_id": null,
+        "block_ids": [
+          "b002",
+          "b003",
+          "b005"
+        ],
+        "issue": "Short dashes just right of the gutter thread may be arrow tails crossing the gutter or facing-page marks. All attachments to fol. 7 rows are positional only.",
+        "next_check": "Compare with native fol. 7 left strip."
+      }
+    ],
+    "boundary_review": "The strip right of the gutter thread (x>~3130) belongs to facing fol. 7: shelfmarks with ticks (c. 390 through d. 244). It is correctly not transcribed. The binding thread, the knot at y≈2700, and the black blob at the top right (facing-page edge) are physical features. The relationships to fol. 7 rows remain probable and positional.",
+    "region_review": {
+      "top": "Only the folio number; faint ruled show-through and a tiny mark near the gutter top; no text.",
+      "middle": "Blocks b002–b005 around y 2400–2950; nothing else besides ink specks near (460,3000) and scattered dots.",
+      "bottom": "b006 at y≈4200–4400; below it only stray specks to the page edge; no bottom note.",
+      "left_margin": "No marginal writing.",
+      "right_margin": "Arrows near the gutter for b002, b003 (pencil) and b005, plus the arrow at the end of b006 line 1; beyond the gutter lies the facing-page fragment.",
+      "interlinear": "Numerals '2' and '1' above b006 line 1; no other interlinear additions found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        350,
+        280,
+        110,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "6b",
+      "features": [
+        "top left corner",
+        "written 6 with superscript b"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        330,
+        2410,
+        1360,
+        110
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "4ff. pp. 71-74, foll. by 3ff., pp. 75-77, from Śivarahasya (?).",
+      "features": [
+        "ink",
+        "no heading or shelfmark on this page",
+        "left-pointing arrow near the gutter at the same height appears to link it to a shelfmark row on the facing page (c. 390)"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        330,
+        2530,
+        2050,
+        110
+      ],
+      "kind_hint": "continuation_note_incipit",
+      "anchor": "ff. 1-6, inc. Begins Svastivācanapūrvakaṃ saṃkalpaṃ kuryāt | Oṃ ... adyetyādi",
+      "features": [
+        "faint pencil",
+        "contains an incipit",
+        "the word before 'adyetyādi' is uncertain and may be overwritten",
+        "faint arrow near the gutter at this height (facing row c. 368)"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        450,
+        2640,
+        2450,
+        130
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 1-10. Owner's (and writer's?) name Bhairavanātha Devaśarman. Cf. Oxf. Cat. 76, adhy. 92.",
+      "features": [
+        "ink",
+        "indented",
+        "no arrow at this height on the target page",
+        "aligned with facing row b. 74"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        1600,
+        2870,
+        1000,
+        110
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "ff. 1-16, S. 1824, portions of text in I.O. 5570",
+      "features": [
+        "ink",
+        "starts mid-line",
+        "left-pointing arrow near the gutter (facing row d. 117)",
+        "date is written as 'S. 1824'"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        350,
+        4140,
+        2440,
+        280
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "a. only, ...ṭīkā by Rucipati of Vaijantigrāma and Khaṇḍālavaṃśa, ff. 1-25, 44-68, and 148, each part in different hand. I.O. 4157.",
+      "features": [
+        "ink",
+        "two lines",
+        "interlinear numeral '2' above 'Vaijantigrāma' and '1' above 'Khaṇḍālavaṃśa' (possible transposition marks)",
+        "left-pointing arrow at right (facing row c. 181)",
+        "first word of the title is uncertain"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "6ᵇ",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Written at the top left corner as '6' with a superscript 'b'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0012-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_and_source_note",
+      "literal_text": "4ff. pp. 71-74, foll. by 3ff., pp. 75-77, from Śivarahasya (?).",
+      "fields": {
+        "extent": "4ff. pp. 71-74, foll. by 3ff., pp. 75-77",
+        "source": "Śivarahasya (?)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "There is no heading or shelfmark on this page.",
+        "A left-pointing arrow near the gutter, at about x 3050–3180 and y 2440, is at the same height as facing fol. 7 row 'c. 390 (6)ᵃ'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 13,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 390 (6)ᵃ Anantavrata kathā From the Bhaviṣya Purāṇa",
+          "evidence": "An arrow links the note to the facing shelfmark row, and the note is at the same line height. Attachment is inferred only from position.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The '(?)' is the source's own query mark. Its form is slightly unclear."
+      ],
+      "stable_id": "css-prod-0012-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_and_incipit",
+      "literal_text": "ff. 1-6, inc. Begins Svastivācanapūrvakaṃ saṃkalpaṃ kuryāt | Oṃ [illegible] adyetyādi",
+      "fields": {
+        "extent": "ff. 1-6, inc.",
+        "incipit": "Svastivācanapūrvakaṃ saṃkalpaṃ kuryāt | Oṃ [illegible] adyetyādi"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil.",
+        "A short word before 'adyetyādi' appears overwritten or blotted.",
+        "A faint pencil arrow or mark near the gutter at about x 3030 and y 2560 is at the height of facing fol. 7 row 'c. 368 (5)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 13,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 368 (5) Anantavratakathā From the Bhaviṣyottara Purāṇa",
+          "evidence": "A faint arrow and same-line alignment link the note to the facing row. This is positional only.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The word between 'Oṃ' and 'adyetyādi' is illegible or overwritten.",
+        "The anusvāra diacritics (ṃ or ṁ) in the pencil are not clearly distinguishable."
+      ],
+      "stable_id": "css-prod-0012-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_owner_reference",
+      "literal_text": "ff. 1-10. Owner's (and writer's?) name Bhairavanātha Devaśarman. Cf. Oxf. Cat. 76, adhy. 92.",
+      "fields": {
+        "extent": "ff. 1-10"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, indented.",
+        "Bhairavanātha Devaśarman is named as owner (and possibly writer), not as author.",
+        "The reference 'Cf. Oxf. Cat. 76, adhy. 92' is part of the note.",
+        "No arrow was found at this height on the target page. The binding-thread knot lies near the gutter at this height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 13,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "b. 74 (2) Anantavratavidhi and °kathā, From the Bhaviṣya Purāṇa",
+          "evidence": "Aligned with the facing row; no arrow is visible on the target page.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The attachment rests on line alignment alone."
+      ],
+      "stable_id": "css-prod-0012-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "extent_date_note",
+      "literal_text": "ff. 1-16, S. 1824, portions of text in I.O. 5570",
+      "fields": {
+        "extent": "ff. 1-16",
+        "date": "S. 1824"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink.",
+        "Starts mid-line at about x 1600.",
+        "A left-pointing arrow near the gutter at about x 2990–3100 and y 2930 is at the height of facing row 'd. 117 (2)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 13,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "d. 117 (2) Anantavrata vidhi with kathā ... Hemādri",
+          "evidence": "An arrow and same-line alignment link the note to the facing row.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The date prefix reads 'S.'. It could possibly be 'Ś.'; it is not expanded here."
+      ],
+      "stable_id": "css-prod-0012-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "commentary_extent_note",
+      "literal_text": "a. only, Mucuṇṭīkā [reading?] by Rucipati of Vaijantigrāma and Khaṇḍālavaṃśa, ff. 1-25, 44-68,\nand 148, each part in different hand. I.O. 4157.",
+      "fields": {
+        "title": "Mucuṇṭīkā [reading?]",
+        "author": "Rucipati",
+        "extent": "ff. 1-25, 44-68, and 148"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Ink, two lines.",
+        "An interlinear numeral '2' is written above 'Vaijantigrāma' and '1' above 'Khaṇḍālavaṃśa'; these are possible transposition marks.",
+        "A left-pointing arrow at the right end of line 1 (about x 2900–3050, y 4230) is at the height of facing row 'c. 181 (3)'.",
+        "The '8' of '68' may be overwritten."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 13,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "c. 181 (3) [Anargharāghava ditto row] ... only ... D.",
+          "evidence": "An arrow and same-line alignment link the note to the facing row.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first title word is uncertain (read here as 'Mucuṇṭīkā').",
+        "The meaning of the interlinear 2/1 numerals is not certain."
+      ],
+      "stable_id": "css-prod-0012-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/5be679f0-240d-435b-9ff7-a9510f6234c3.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5be679f0-240d-435b-9ff7-a9510f6234c3/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "7f8f791e28934218c508400696052ef9a3357cc2540613c9fc9ec1de12f8d970",
+      "bytes": 314076,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5be679f0-240d-435b-9ff7-a9510f6234c3/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c6c0e46bc9c213842a0167e4f66a5ac42fd11a93d7df59671b86e9abff9ce468",
+      "bytes": 333541,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5be679f0-240d-435b-9ff7-a9510f6234c3/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4244e2f01a3f5a3105c1763a369c611b77dfb8033051ed9db07d07c884bf4611",
+      "bytes": 344479,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5be679f0-240d-435b-9ff7-a9510f6234c3/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c12338adb6cd67f6cb66a2105d1be3860fd7792b6429795efccde1cc1a87e6ee",
+      "bytes": 378472,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5be679f0-240d-435b-9ff7-a9510f6234c3/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2a3454dbcaf31424167e5ed9e3f1a5fc8e7eb087141bf9f3279672567fe9df56",
+      "bytes": 373037,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5be679f0-240d-435b-9ff7-a9510f6234c3/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "4d6eac292b7bb6873b66d5e76d3e06cdb22d31fcbbed5ab4933a07850c48358b",
+      "bytes": 380219,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/5be679f0-240d-435b-9ff7-a9510f6234c3/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "c8db3ea50528812c9c84846636a51cd01e61160cd6dbee2aa8ca5eaffbc3bb99",
+      "bytes": 385714,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/cc1abb58-bc25-4a8b-b408-f94d1d2f34cb/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0a0da2bc2dd2fab2f456b2bab575cd1b498595897a6f04cf65256ca197040718",
+      "bytes": 305395,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 11,
+      "folio_label": "fol. 6",
+      "page_id": "cc1abb58-bc25-4a8b-b408-f94d1d2f34cb",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/17b4efa4-123a-46d0-9cad-6935a8dd7f5a/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "0c4c08265b969376144a7a46675a9bd39f35fe803fc7a599cc14e6fc1afb221f",
+      "bytes": 285103,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 13,
+      "folio_label": "fol. 7",
+      "page_id": "17b4efa4-123a-46d0-9cad-6935a8dd7f5a",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

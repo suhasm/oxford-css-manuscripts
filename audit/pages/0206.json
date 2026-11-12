@@ -1,0 +1,881 @@
+{
+  "source_order": 206,
+  "folio_label": "fol. 103b",
+  "page_id": "3f1bfd56-7305-4826-91ce-df11a647184e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "103b",
+    "principal_page_bbox": [
+      300,
+      275,
+      2910,
+      4580
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          405,
+          315,
+          150,
+          130
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "103b",
+        "features": [
+          "handwritten folio number at top left",
+          "'b' written superscript"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          365,
+          1030,
+          2800,
+          140
+        ],
+        "kind_hint": "continuation_note_for_facing_page_entry",
+        "anchor": "ff 1-33 + two blank, S. 1825, Śaka 1693, ⟦written⟧ at Kāśī by Maheśvara",
+        "features": [
+          "single long line in ink",
+          "no shelfmark or title on this page",
+          "'written' struck through, with replacement written above it (see b003)",
+          "line continues: 'differs from d. 115(2)'",
+          "ends with a short horizontal stroke or arrow-like mark after '(2)', near the gutter"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          1175,
+          1035,
+          125,
+          55
+        ],
+        "kind_hint": "interlinear_insertion",
+        "anchor": "copied",
+        "features": [
+          "written above the cancelled 'written' in b002",
+          "replacement wording"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          375,
+          1970,
+          2725,
+          145
+        ],
+        "kind_hint": "continuation_note_for_facing_page_entry",
+        "anchor": "ff. 1-17, S. 1826. Calc. S.C., I, 314 (slight verbal differences).",
+        "features": [
+          "single line in ink",
+          "no shelfmark or title on this page",
+          "continues: 'Probably another recension of Anantadeva's Prāyaścitta (q.v.)'",
+          "'(q.v.)' written slightly lower, at the end of the line",
+          "a left-pointing arrow is drawn across or over 'Prāyaścitta', from about x 2890 to 3115"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          1470,
+          575,
+          25,
+          25
+        ],
+        "description": "small ink speck near top centre, possibly a cross or plus-like dot"
+      },
+      {
+        "bbox": [
+          645,
+          1290,
+          25,
+          25
+        ],
+        "description": "ink dot below the first entry line"
+      },
+      {
+        "bbox": [
+          1265,
+          2160,
+          50,
+          30
+        ],
+        "description": "small dots or specks below the second entry line"
+      }
+    ],
+    "boundary_notes": [
+      "The right edge of the canvas beyond the gutter (x > ~3200) shows the left margin of the facing page, fol. 104. The pencil ticks, 'ā/' marks, '?', 'add d.117(4) → on next page', 'Ā/' and 'n/' visible there belong to fol. 104 and are not target-page blocks.",
+      "b002 and b004 lack shelfmarks or titles. They appear to be overflow notes for entries on facing fol. 104 (the first line is also visible at the left edge of the fol. 104 image as '.115(2) ←'). Attachment to specific fol. 104 entries is inferred from position and is not certain.",
+      "Faint show-through of writing from the reverse side is visible across the page and has not been treated as text."
+    ],
+    "uncertainties": [
+      "Exact readings in b002 and b004 are only partially secure. Examples: 'Upādhyāya', 'Mudgala', 'slight verbal', 'recension', 'Anantadeva's'.",
+      "The function of the arrow at the end of b002, and of the arrow across 'Prāyaścitta' in b004, is unclear."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "103b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "103b",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Handwritten folio number at top left; the 'b' is written superscript, with a dot after the '3'."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_from_facing_page",
+        "literal_text": "ff 1-33 + two blank, S. 1825, Śaka 1693, ⟦written⟧ copied at Kāśī by Maheśvara s/o Śambhu [reading?] Upādhyāya [reading?] Mudgala [reading?], differs from d. 115(2) ←",
+        "fields": {
+          "extent": "ff 1-33 + two blank",
+          "date": "S. 1825, Śaka 1693"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'written' is struck through. 'copied' is written interlinearly above it (b003).",
+          "'s/o' is written as an abbreviation resembling '%'.",
+          "A short left-pointing arrow or stroke follows '(2)' near the gutter. The end of this line is also visible at the left edge of fol. 104 as '.115(2) ←'.",
+          "No shelfmark or title is on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 207,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "a Darśapūrṇamāsaprayoga entry on fol. 104 near the d.115(2)/d.115(3) rows (not d.115(2) itself, since the note says 'differs from d. 115(2)')",
+            "evidence": "The note has no shelfmark. Its line continues visibly onto the left margin of fol. 104 at about the same height. The arrow suggests it is linked to a fol. 104 entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The readings of the father's name and epithets ('Śambhu', 'Upādhyāya', 'Mudgala') are insecure.",
+          "The '5' in 'S. 1825' is written somewhat unclearly.",
+          "The fol. 104 entry this note belongs to cannot be securely determined. The d.115(3) entry at the same height gives the date 1771, which conflicts with this note."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "overflow_note_from_facing_page",
+        "literal_text": "ff. 1-17, S. 1826. Calc. S.C., I, 314 (slight verbal [reading?] differences). Probably another recension [reading?] of Anantadeva's [reading?] Prāyaścitta (q.v.)",
+        "fields": {
+          "extent": "ff. 1-17",
+          "date": "S. 1826",
+          "source": "Calc. S.C., I, 314"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A left-pointing arrow is drawn over or through 'Prāyaścitta', extending toward the gutter. A matching '…ścitta (q.v.)' with an arrow is visible at the left edge of fol. 104.",
+          "'(q.v.)' is written slightly lower at the end of the line.",
+          "The 'I' is underlined.",
+          "No shelfmark or title is on this page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 207,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "Darśapūrṇamāsaprāyaścitta. By Anantadeva (d.154(4) / d.147(11) area)",
+            "evidence": "The arrow points toward fol. 104 at the height of the Darśapūrṇamāsaprāyaścitta entries. The note mentions Anantadeva's Prāyaścitta.",
+            "certainty": "uncertain"
+          }
+        ],
+        "uncertainties": [
+          "The exact target shelfmark on fol. 104 is not determinable.",
+          "The readings 'slight verbal', 'recension' and 'Anantadeva's' are tentative."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Overflow continuation note."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Interlinear replacement 'copied' within the r002 line."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Overflow continuation note."
+      }
+    ],
+    "page_annotations": [
+      "The rest of the page is ruled and blank apart from scattered ink specks (near top centre, below line 1, below line 2, lower left). These specks are not treated as text.",
+      "Show-through from the reverse is visible and is not transcribed.",
+      "The pencil marks at the right edge (ticks, 'ā/', '?', 'add d.117(4) → on next page', 'Ā/', 'n/') belong to fol. 104 and are excluded."
+    ],
+    "unresolved_relationships": [
+      "The specific fol. 104 entries to which r002 and r003 attach are uncertain."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number '103' is followed by a dot and a superscript 'b' at top left. This matches r001."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "One ink line at native y≈1100–1160, from x≈370 to the gutter at x≈3165. The candidate wording matches the image. 'written' is struck through. The name readings remain tentative. The line ends with a short left-pointing arrow or stroke after '(2)'."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The interlinear 'copied' sits above the cancelled 'written' at about x≈1180–1300. It is correctly merged into r002 as the replacement."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "One ink line at native y≈2040–2110. The left-pointing arrow begins at about x≈2895 over the end of 'Prāyaścitta' and runs right to about x≈3115, above '(q.v.)'. 'slightverbal' is written almost as one word. The candidate wording is acceptable, with its uncertainties kept."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The readings of the father's name and epithets ('Śambhu', 'Upādhyāya', 'Mudgala') are insecure.",
+          "The '5' in 'S. 1825' is written somewhat unclearly.",
+          "The fol. 104 entry this note belongs to cannot be securely determined. The d.115(3) entry at the same height gives the date 1771, which conflicts with this note."
+        ],
+        "after": [
+          "The readings of the father's name and epithets ('Śambhu', 'Upādhyāya', 'Mudgala') are insecure.",
+          "The '5' in 'S. 1825' is written somewhat unclearly.",
+          "The fol. 104 entry this note belongs to cannot be securely determined. The '.115(2) ←' fragment in the left margin of fol. 104 is at about the height of the d.115(3) row, which shows a date '1771' (written over). Whether that date is consistent with this note's dates has not been established from the source and is not asserted here."
+        ],
+        "reason": "The candidate asserts a conflict between dates. That assertion depends on unstated date reasoning. The source shows only positional proximity, so the claim should be neutral rather than asserted.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 207,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "a Darśapūrṇamāsaprayoga entry on fol. 104 near the d.115(2)/d.115(3) rows (not d.115(2) itself, since the note says 'differs from d. 115(2)')",
+            "evidence": "The note has no shelfmark. Its line continues visibly onto the left margin of fol. 104 at about the same height. The arrow suggests it is linked to a fol. 104 entry.",
+            "certainty": "uncertain"
+          }
+        ],
+        "after": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 207,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "fol. 104 Darśapūrṇamāsaprayoga group; the margin fragment '.115(2) ←' is at about the height of the d.115(3) row ('By Govinda …')",
+            "evidence": "The note has no shelfmark. Its end is visible in the left margin of fol. 104 at about the height of the d.115(3) row. The arrow points toward fol. 104. The note states 'differs from d. 115(2)'. The attachment is positional only.",
+            "certainty": "uncertain"
+          }
+        ],
+        "reason": "The fol. 104 context image shows the fragment level with d.115(3) rather than vaguely between rows. The attachment remains uncertain.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      },
+      {
+        "record_id": "r003",
+        "field_path": "annotations",
+        "before": [
+          "A left-pointing arrow is drawn over or through 'Prāyaścitta', extending toward the gutter. A matching '…ścitta (q.v.)' with an arrow is visible at the left edge of fol. 104.",
+          "'(q.v.)' is written slightly lower at the end of the line.",
+          "The 'I' is underlined.",
+          "No shelfmark or title is on this page."
+        ],
+        "after": [
+          "A left-pointing arrow is drawn over the end of 'Prāyaścitta' and above '(q.v.)', extending toward the gutter. A matching '…ścitta (q.v.)' with an arrow is visible at the left edge of fol. 104.",
+          "'(q.v.)' is written slightly lower at the end of the line.",
+          "The 'I' has horizontal strokes at top and bottom. These may be serifs of a roman numeral or underlining/overlining; this is unclear.",
+          "No shelfmark or title is on this page."
+        ],
+        "reason": "In the native tile, the 'I' shows bars at both top and bottom, not clearly an underline.",
+        "source_block_ids": [
+          "b004"
+        ],
+        "certainty": "probable"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "issue": "The readings 'Śambhu', 'Upādhyāya' and 'Mudgala', and the third digit of 'S. 1825', are not secure. The target fol. 104 entry is unresolved.",
+        "next_check": "Higher-resolution inspection of x≈1900–2600 on line 1. Compare with the fol. 104 d.115(3) row at native resolution."
+      },
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b004"
+        ],
+        "issue": "The readings 'slight verbal', 'recension' and 'Anantadeva's' are tentative. The exact fol. 104 target (Darśapūrṇamāsaprāyaścitta heading or d.154(4)/d.147(11)) is unresolved.",
+        "next_check": "Native-resolution view of fol. 104 left margin at y≈2000–2100."
+      }
+    ],
+    "boundary_review": "The gutter is at x≈3190–3210. Everything to its right (pencil ticks, 'ā/' marks, '?', 'add d.117(4) → on next page', 'Ā/', 'n/') belongs to the left margin of fol. 104 and is excluded. Both ink lines on the target run up to the gutter and continue visibly at the left edge of fol. 104. They are overflow notes, not independent holdings or cross-references. Their attachment to specific fol. 104 entries remains positional and uncertain.",
+    "region_review": {
+      "top": "The folio number '103.b' is at top left. There is a small ink speck near top centre (≈1480,585), not text. Ruled lines and faint show-through are not transcribed.",
+      "middle": "There are two ink lines (b002 with b003, and b004). There is a dot at ≈655,1300 and specks at ≈1275,2165. No other writing is present; the faint show-through from the reverse is not text.",
+      "bottom": "Inspected in tiles from y=3216 down. It is ruled and blank apart from tiny specks near ≈530,4460 and faint show-through. No bottom note is present.",
+      "left_margin": "Blank apart from the edge of the paper. No marginal marks.",
+      "right_margin": "The target's right area up to the gutter contains only the line ends of b002 and b004 and their arrows. The pencil marks beyond the gutter belong to fol. 104.",
+      "interlinear": "Only 'copied' above the cancelled 'written' (b003). No other interlinear additions were found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        405,
+        315,
+        150,
+        130
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "103b",
+      "features": [
+        "handwritten folio number at top left",
+        "'b' written superscript"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        365,
+        1030,
+        2800,
+        140
+      ],
+      "kind_hint": "continuation_note_for_facing_page_entry",
+      "anchor": "ff 1-33 + two blank, S. 1825, Śaka 1693, ⟦written⟧ at Kāśī by Maheśvara",
+      "features": [
+        "single long line in ink",
+        "no shelfmark or title on this page",
+        "'written' struck through, with replacement written above it (see b003)",
+        "line continues: 'differs from d. 115(2)'",
+        "ends with a short horizontal stroke or arrow-like mark after '(2)', near the gutter"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        1175,
+        1035,
+        125,
+        55
+      ],
+      "kind_hint": "interlinear_insertion",
+      "anchor": "copied",
+      "features": [
+        "written above the cancelled 'written' in b002",
+        "replacement wording"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        375,
+        1970,
+        2725,
+        145
+      ],
+      "kind_hint": "continuation_note_for_facing_page_entry",
+      "anchor": "ff. 1-17, S. 1826. Calc. S.C., I, 314 (slight verbal differences).",
+      "features": [
+        "single line in ink",
+        "no shelfmark or title on this page",
+        "continues: 'Probably another recension of Anantadeva's Prāyaścitta (q.v.)'",
+        "'(q.v.)' written slightly lower, at the end of the line",
+        "a left-pointing arrow is drawn across or over 'Prāyaścitta', from about x 2890 to 3115"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "103b",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Handwritten folio number at top left; the 'b' is written superscript, with a dot after the '3'."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0206-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002",
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_from_facing_page",
+      "literal_text": "ff 1-33 + two blank, S. 1825, Śaka 1693, ⟦written⟧ copied at Kāśī by Maheśvara s/o Śambhu [reading?] Upādhyāya [reading?] Mudgala [reading?], differs from d. 115(2) ←",
+      "fields": {
+        "extent": "ff 1-33 + two blank",
+        "date": "S. 1825, Śaka 1693"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'written' is struck through. 'copied' is written interlinearly above it (b003).",
+        "'s/o' is written as an abbreviation resembling '%'.",
+        "A short left-pointing arrow or stroke follows '(2)' near the gutter. The end of this line is also visible at the left edge of fol. 104 as '.115(2) ←'.",
+        "No shelfmark or title is on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 207,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "a Darśapūrṇamāsaprayoga entry on fol. 104 near the d.115(2)/d.115(3) rows (not d.115(2) itself, since the note says 'differs from d. 115(2)')",
+          "evidence": "The note has no shelfmark. Its line continues visibly onto the left margin of fol. 104 at about the same height. The arrow suggests it is linked to a fol. 104 entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The readings of the father's name and epithets ('Śambhu', 'Upādhyāya', 'Mudgala') are insecure.",
+        "The '5' in 'S. 1825' is written somewhat unclearly.",
+        "The fol. 104 entry this note belongs to cannot be securely determined. The d.115(3) entry at the same height gives the date 1771, which conflicts with this note."
+      ],
+      "stable_id": "css-prod-0206-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "overflow_note_from_facing_page",
+      "literal_text": "ff. 1-17, S. 1826. Calc. S.C., I, 314 (slight verbal [reading?] differences). Probably another recension [reading?] of Anantadeva's [reading?] Prāyaścitta (q.v.)",
+      "fields": {
+        "extent": "ff. 1-17",
+        "date": "S. 1826",
+        "source": "Calc. S.C., I, 314"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A left-pointing arrow is drawn over or through 'Prāyaścitta', extending toward the gutter. A matching '…ścitta (q.v.)' with an arrow is visible at the left edge of fol. 104.",
+        "'(q.v.)' is written slightly lower at the end of the line.",
+        "The 'I' is underlined.",
+        "No shelfmark or title is on this page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 207,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "Darśapūrṇamāsaprāyaścitta. By Anantadeva (d.154(4) / d.147(11) area)",
+          "evidence": "The arrow points toward fol. 104 at the height of the Darśapūrṇamāsaprāyaścitta entries. The note mentions Anantadeva's Prāyaścitta.",
+          "certainty": "uncertain"
+        }
+      ],
+      "uncertainties": [
+        "The exact target shelfmark on fol. 104 is not determinable.",
+        "The readings 'slight verbal', 'recension' and 'Anantadeva's' are tentative."
+      ],
+      "stable_id": "css-prod-0206-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The readings of the father's name and epithets ('Śambhu', 'Upādhyāya', 'Mudgala') are insecure.",
+        "The '5' in 'S. 1825' is written somewhat unclearly.",
+        "The fol. 104 entry this note belongs to cannot be securely determined. The d.115(3) entry at the same height gives the date 1771, which conflicts with this note."
+      ],
+      "after": [
+        "The readings of the father's name and epithets ('Śambhu', 'Upādhyāya', 'Mudgala') are insecure.",
+        "The '5' in 'S. 1825' is written somewhat unclearly.",
+        "The fol. 104 entry this note belongs to cannot be securely determined. The '.115(2) ←' fragment in the left margin of fol. 104 is at about the height of the d.115(3) row, which shows a date '1771' (written over). Whether that date is consistent with this note's dates has not been established from the source and is not asserted here."
+      ],
+      "reason": "The candidate asserts a conflict between dates. That assertion depends on unstated date reasoning. The source shows only positional proximity, so the claim should be neutral rather than asserted.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 207,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "a Darśapūrṇamāsaprayoga entry on fol. 104 near the d.115(2)/d.115(3) rows (not d.115(2) itself, since the note says 'differs from d. 115(2)')",
+          "evidence": "The note has no shelfmark. Its line continues visibly onto the left margin of fol. 104 at about the same height. The arrow suggests it is linked to a fol. 104 entry.",
+          "certainty": "uncertain"
+        }
+      ],
+      "after": [
+        {
+          "type": "possible_attachment",
+          "target_page_order": 207,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "fol. 104 Darśapūrṇamāsaprayoga group; the margin fragment '.115(2) ←' is at about the height of the d.115(3) row ('By Govinda …')",
+          "evidence": "The note has no shelfmark. Its end is visible in the left margin of fol. 104 at about the height of the d.115(3) row. The arrow points toward fol. 104. The note states 'differs from d. 115(2)'. The attachment is positional only.",
+          "certainty": "uncertain"
+        }
+      ],
+      "reason": "The fol. 104 context image shows the fragment level with d.115(3) rather than vaguely between rows. The attachment remains uncertain.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r003",
+      "field_path": "annotations",
+      "before": [
+        "A left-pointing arrow is drawn over or through 'Prāyaścitta', extending toward the gutter. A matching '…ścitta (q.v.)' with an arrow is visible at the left edge of fol. 104.",
+        "'(q.v.)' is written slightly lower at the end of the line.",
+        "The 'I' is underlined.",
+        "No shelfmark or title is on this page."
+      ],
+      "after": [
+        "A left-pointing arrow is drawn over the end of 'Prāyaścitta' and above '(q.v.)', extending toward the gutter. A matching '…ścitta (q.v.)' with an arrow is visible at the left edge of fol. 104.",
+        "'(q.v.)' is written slightly lower at the end of the line.",
+        "The 'I' has horizontal strokes at top and bottom. These may be serifs of a roman numeral or underlining/overlining; this is unclear.",
+        "No shelfmark or title is on this page."
+      ],
+      "reason": "In the native tile, the 'I' shows bars at both top and bottom, not clearly an underline.",
+      "source_block_ids": [
+        "b004"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3f1bfd56-7305-4826-91ce-df11a647184e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f1bfd56-7305-4826-91ce-df11a647184e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "3c73cc69a0de45e8729c41b8f1a04cd9ea774ec69c51082df10ea87e12e037b7",
+      "bytes": 266468,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f1bfd56-7305-4826-91ce-df11a647184e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5087d973ec605c71282721d9935ddc565c5176e7e0313f39b246d718f389a972",
+      "bytes": 334852,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f1bfd56-7305-4826-91ce-df11a647184e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2d610453f3a3c0955c283c5f11cdace5458d660732b79c993db568c6b7080d30",
+      "bytes": 344199,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f1bfd56-7305-4826-91ce-df11a647184e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "32f9fac3859d038f28f4a4716bc7f698ac523275829d2385a237ae03c3c35528",
+      "bytes": 337597,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f1bfd56-7305-4826-91ce-df11a647184e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "57e52cda06c1c89212389aea3f50f4705bde02248f9f8e34c81fbff822876340",
+      "bytes": 338081,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f1bfd56-7305-4826-91ce-df11a647184e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "abcdc69f03a885c376457182a1620d8f18cdc46641aeeb25e5cd16883c53bbed",
+      "bytes": 309759,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f1bfd56-7305-4826-91ce-df11a647184e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6ec822efeb6e7f29f599394cd8a68fa1004e9d071c8df3fe376d5c452f08e60e",
+      "bytes": 333421,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/32ab6423-724b-41da-8b23-e8ef5256a21e/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "96ce986f4cc0fac8f0035476d13df220196c6584b16617f7a35a9a2cc2e8ef6c",
+      "bytes": 262561,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 205,
+      "folio_label": "fol. 103",
+      "page_id": "32ab6423-724b-41da-8b23-e8ef5256a21e",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2bf519e4-0e33-4913-bf98-81c34b8de071/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "5e6f6069f8baf45a274774d251444954a67b6a50021c1fe878ea4319e2769cd9",
+      "bytes": 281273,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 207,
+      "folio_label": "fol. 104",
+      "page_id": "2bf519e4-0e33-4913-bf98-81c34b8de071",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

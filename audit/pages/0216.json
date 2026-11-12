@@ -1,0 +1,1329 @@
+{
+  "source_order": 216,
+  "folio_label": "fol. 108b",
+  "page_id": "d73eceea-006c-464f-88a8-e8e2c9aed46b",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "sparse_catalogue",
+    "visible_folio": "108b",
+    "principal_page_bbox": [
+      310,
+      285,
+      2850,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          400,
+          350,
+          140,
+          90
+        ],
+        "kind_hint": "folio_number",
+        "anchor": "108b",
+        "features": [
+          "top-left corner",
+          "superscript b with dot/underline"
+        ]
+      },
+      {
+        "id": "b002",
+        "bbox": [
+          460,
+          690,
+          2690,
+          150
+        ],
+        "kind_hint": "continuation_incipit",
+        "anchor": "Begins: Ardrāyāṃ bodhayed Devīṃ ... visarjayet ||",
+        "features": [
+          "single long line ending at gutter",
+          "interlinear '(sic)' above the word before 'visarjayet'",
+          "acute-like stroke above a word near '(sic)'",
+          "heavy overwritten/inked 'pūrvokta' segment",
+          "an arrow on the facing page's left margin at this height points toward this block; its attachment is uncertain"
+        ]
+      },
+      {
+        "id": "b003",
+        "bbox": [
+          500,
+          850,
+          1590,
+          100
+        ],
+        "kind_hint": "continuation_physical_description",
+        "anchor": "ff.1-8, inc., watermark 1863. Not Calc. Sanskr. Coll, II, 334.",
+        "features": [
+          "contains a date (watermark 1863)",
+          "contains a catalogue reference",
+          "an arrow at about x3030-3145 near the gutter points to the facing page"
+        ]
+      },
+      {
+        "id": "b004",
+        "bbox": [
+          1550,
+          1570,
+          1230,
+          100
+        ],
+        "kind_hint": "continuation_note_faint_pencil",
+        "anchor": "title uncertain. One misc. f. + ff.159-226, inc.",
+        "features": [
+          "faint pencil",
+          "indented, mid-page",
+          "an arrow near the gutter (about x3070-3165) points to the facing page"
+        ]
+      },
+      {
+        "id": "b005",
+        "bbox": [
+          385,
+          2830,
+          2460,
+          110
+        ],
+        "kind_hint": "continuation_physical_description",
+        "anchor": "ff.1-62 and 1-?, in several handwritings. Last few leaves probably a different work on the same subject.",
+        "features": [
+          "ink",
+          "an arrow at the gutter on the facing side at this height"
+        ]
+      },
+      {
+        "id": "b006",
+        "bbox": [
+          545,
+          3010,
+          1460,
+          110
+        ],
+        "kind_hint": "continuation_note",
+        "anchor": "from the Smṛtiviveka (ext.8.) = Cal. S. Coll, II, 335",
+        "features": [
+          "indented line",
+          "an arrow at the facing page's left margin at this height, beside a bracketed b./e. pair",
+          "it is uncertain whether this block is separate from b005 or a second line of b005"
+        ]
+      },
+      {
+        "id": "b007",
+        "bbox": [
+          355,
+          4520,
+          2890,
+          190
+        ],
+        "kind_hint": "continuation_physical_description",
+        "anchor": "ff.1-20 (m.4,13). Has some verses in common with I.O. 3926 ... of I.O. MS.)",
+        "features": [
+          "two lines",
+          "there is a small mark like 'to' before 'ff.' in the left margin",
+          "a long rule runs from the line end across the gutter to the facing page's 'c.' shelfmark",
+          "'b' in '7b' is superscript and underlined",
+          "'a' in '8a' is underlined"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          455,
+          2660,
+          45,
+          60
+        ],
+        "description": "Small faint pencil mark, possibly a numeral or tick, in the left part of the page above b005."
+      },
+      {
+        "bbox": [
+          1060,
+          2000,
+          20,
+          20
+        ],
+        "description": "Isolated dot or speck in the mid-page."
+      }
+    ],
+    "boundary_notes": [
+      "The right strip at about x3160-3508 shows the left edge of the facing page fol. 109. Its shelfmarks (√c.406, d.376, √b.106, √c.388, ... √c.181) and its marginal arrows belong to that page. They are not target-page records.",
+      "Several arrows sit at or just beyond the gutter. The ones at about x3030-3165 are on the target side. The ones at about x3200-3330 appear to be on the facing page's margin.",
+      "All target-page blocks are continuation notes for entries on fol. 109. No headings or independent entries appear on this page.",
+      "Faint offset show-through from the reverse/facing side is visible across the page. It was not treated as text."
+    ],
+    "uncertainties": [
+      "Many readings in the anchors are approximate. These include the Sanskrit incipit in b002, 'ext.8.' in b006, the mark before b007 and the end of the b007 line ('7b leftat'?).",
+      "It is uncertain whether b005 and b006 are one note or two notes. Separate arrows suggest two notes."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "sparse_catalogue_continuation_notes",
+    "visible_folio": "108b",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "108b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Top-left corner. The 'b' is superscript, with a dot or short stroke beneath it."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": []
+      },
+      {
+        "id": "r002",
+        "block_ids": [
+          "b002"
+        ],
+        "type": "continuation_note",
+        "subtype": "incipit",
+        "literal_text": "Begins: Ārdrāyāṃ bodhayed Devīṃ mūlenaiva praveśayet | Pūrvoktarātryāṃ saṃpūjya Śravaṇena visarjayet ||",
+        "fields": {
+          "incipit": "Ārdrāyāṃ bodhayed Devīṃ mūlenaiva praveśayet | Pūrvoktarātryāṃ saṃpūjya Śravaṇena visarjayet ||"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "'(sic)' is written interlinearly above the word read as 'Śravaṇena'.",
+          "An acute-like stroke appears above that word. It may mark an accent or a correction.",
+          "The segment 'Pūrvokta' is heavily inked and possibly overwritten.",
+          "The line runs to the gutter.",
+          "An arrow on the facing page's left margin, at the level of the fol. 109 shelfmark '√b. 106', points toward this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 217,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b. 106 Durgāpūjāpaddhati. From the Devī Purāṇa",
+            "evidence": "The arrow sits at the same height beside b.106 on the facing page, and the end of this line also appears on the facing page's margin.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The Sanskrit readings are approximate, especially 'Śravaṇena' (it may be written 'Śravánena'), the punctuation mark after 'praveśayet', and the exact form of 'rātryāṃ'.",
+          "It is uncertain which word the '(sic)' marks."
+        ]
+      },
+      {
+        "id": "r003",
+        "block_ids": [
+          "b003"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description",
+        "literal_text": "ff.1-8, inc., watermark 1863. Not Calc. Sanskr. Coll, II, 334.",
+        "fields": {
+          "extent": "ff.1-8, inc.",
+          "date": "watermark 1863",
+          "source": "Not Calc. Sanskr. Coll, II, 334."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "An arrow on the target side near the gutter (about x3030-3145, y~890) points toward this line."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 217,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 388 From the Bṛhannandikeśvara Purāṇa",
+            "evidence": "The arrow is at the height of the c.388 line on fol. 109.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "It is possible that this line instead belongs with the b.106 entry, together with b002."
+        ]
+      },
+      {
+        "id": "r004",
+        "block_ids": [
+          "b004"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description_pencil",
+        "literal_text": "title uncertain. One misc. f. + ff.159-226, inc.",
+        "fields": {
+          "extent": "One misc. f. + ff.159-226, inc."
+        },
+        "normalized_title": null,
+        "annotations": [
+          "Faint pencil, indented mid-page.",
+          "A pencil arrow near the gutter points toward the facing page."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 217,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√C.f. 347 Durgārcanakaumudī",
+            "evidence": "The arrow is at the same height as the C.f.347 line on fol. 109.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The first word is read as 'title'; it could be 'titl[e]'."
+        ]
+      },
+      {
+        "id": "r005",
+        "block_ids": [
+          "b005"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description",
+        "literal_text": "ff.1-62 and 1-?, in several handwritings. Last few leaves probably a different work on the same subject.",
+        "fields": {
+          "extent": "ff.1-62 and 1-?"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "An arrow on the facing page margin sits at this height."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 217,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√b. 105 Durgotsava (title in catalogue)",
+            "evidence": "The arrow sits beside b.105 at the same height.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": []
+      },
+      {
+        "id": "r006",
+        "block_ids": [
+          "b006"
+        ],
+        "type": "continuation_note",
+        "subtype": "source_note",
+        "literal_text": "from the Smṛtiviveka (ext. 8.) = Cal. S. Coll, II, 335",
+        "fields": {
+          "source": "from the Smṛtiviveka (ext. 8.) = Cal. S. Coll, II, 335"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "The line is indented.",
+          "A separate arrow on the facing margin points from the bracketed pair 'b.93 (7) / e.48 (7)'."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 217,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "[b.93 (7) / e.48 (7)] Durgotsavaviveka. By Śūlapāṇi Bhaṭṭa",
+            "evidence": "A separate arrow sits at this height beside the bracketed shelfmarks.",
+            "certainty": "probable"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'ext. 8.' is uncertain; it could be 'est.' or another form.",
+          "It is possible that this line is a second line of b005, but the separate arrows suggest a distinct note."
+        ]
+      },
+      {
+        "id": "r007",
+        "block_ids": [
+          "b007"
+        ],
+        "type": "continuation_note",
+        "subtype": "physical_description",
+        "literal_text": "[to?] ff.1-20 (m.4,13). Has some verses in common with I.O. 3926 with similar commentary (e.g. 7b leftat[?]\nand 8a with opening verses of I.O. MS.)",
+        "fields": {
+          "extent": "ff.1-20 (m.4,13)"
+        },
+        "normalized_title": null,
+        "annotations": [
+          "A small mark like 'to' or 'te' is written before 'ff.', possibly struck through.",
+          "The 'b' in '7b' is superscript and underlined.",
+          "The 'a' in '8a' is underlined.",
+          "A long rule runs from the line end across the gutter to √c. 181 (1) on fol. 109."
+        ],
+        "editorial_context": [],
+        "relationships": [
+          {
+            "type": "continues",
+            "target_page_order": 217,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 181 (1) Durghaṭakāvya",
+            "evidence": "A connecting rule runs to this shelfmark, and the fragment '7b leftat' is repeated on the facing margin.",
+            "certainty": "secure"
+          }
+        ],
+        "uncertainties": [
+          "The reading 'leftat' is uncertain.",
+          "The initial mark is uncertain.",
+          "'(m.4,13)' may be '(m. 4, 13)'."
+        ]
+      },
+      {
+        "id": "r008",
+        "block_ids": [
+          "b901"
+        ],
+        "type": "unattached_annotation",
+        "subtype": "pencil_mark",
+        "literal_text": "[illegible]",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "A small faint pencil mark in the left part of the page above b005. It is possibly a numeral (4?) or a tick."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "It is unclear whether this is text or a stray mark."
+        ]
+      }
+    ],
+    "added_blocks": [
+      {
+        "id": "b901",
+        "bbox": [
+          455,
+          2660,
+          45,
+          60
+        ],
+        "kind_hint": "pencil_mark",
+        "anchor": "faint mark above b005",
+        "features": [
+          "faint pencil",
+          "possibly a numeral or tick"
+        ]
+      }
+    ],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "Folio number."
+      },
+      {
+        "block_id": "b002",
+        "record_ids": [
+          "r002"
+        ],
+        "explanation": "Incipit continuation note."
+      },
+      {
+        "block_id": "b003",
+        "record_ids": [
+          "r003"
+        ],
+        "explanation": "Physical description continuation note."
+      },
+      {
+        "block_id": "b004",
+        "record_ids": [
+          "r004"
+        ],
+        "explanation": "Pencil continuation note."
+      },
+      {
+        "block_id": "b005",
+        "record_ids": [
+          "r005"
+        ],
+        "explanation": "Continuation note, kept separate from b006."
+      },
+      {
+        "block_id": "b006",
+        "record_ids": [
+          "r006"
+        ],
+        "explanation": "Separate continuation note with its own arrow."
+      },
+      {
+        "block_id": "b007",
+        "record_ids": [
+          "r007"
+        ],
+        "explanation": "Two-line continuation note linked by a rule."
+      },
+      {
+        "block_id": "b901",
+        "record_ids": [
+          "r008"
+        ],
+        "explanation": "Unattached faint mark, promoted from unattached_marks."
+      }
+    ],
+    "page_annotations": [
+      "The right strip (x≈3160+) shows the left edge of fol. 109 with its shelfmarks and arrows. It was not transcribed as target records.",
+      "An isolated speck at about (1060,2000) is not text.",
+      "Faint show-through from the reverse side was ignored.",
+      "No headings or independent entries appear on this page."
+    ],
+    "unresolved_relationships": [
+      "The b002/b003 attachments to b.106 and c.388 are probable only; both could belong to b.106.",
+      "The attachment of b006 to the b.93/e.48 bracket is probable."
+    ]
+  },
+  "review": {
+    "page_class": "sparse_catalogue_continuation_notes",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The top-left folio number '108' has a superscript b and a dot. r001 records it adequately."
+      },
+      {
+        "block_id": "b002",
+        "status": "represented",
+        "record_ids": [
+          "r002"
+        ],
+        "finding": "The single long ink incipit line runs to the gutter. The interlinear '(sic)' and the acute-like stroke above are present. The 'Pūrvokta' segment is heavily inked. Several diacritic and form readings remain uncertain: anusvāra rendering (ṃ vs ṁ), the 'Śravaṇena/Śravánena' form, and the final verb, which may be written with doubled j ('visarjjayet'). The left margin of fol. 109 shows this same line's end because the images overlap; it is not a separate text."
+      },
+      {
+        "block_id": "b003",
+        "status": "represented",
+        "record_ids": [
+          "r003"
+        ],
+        "finding": "Ink line with 'watermark 1863' and the Calc. Sanskr. Coll reference. A left-pointing arrow near the gutter sits at the height of √c.388."
+      },
+      {
+        "block_id": "b004",
+        "status": "represented",
+        "record_ids": [
+          "r004"
+        ],
+        "finding": "Faint pencil line, indented mid-page. A pencil arrow at the gutter sits at the height of √C.f.347 on fol. 109. A small faint dot follows 'inc.' and is probably not text."
+      },
+      {
+        "block_id": "b005",
+        "status": "represented",
+        "record_ids": [
+          "r005"
+        ],
+        "finding": "Ink line. An arrow at the gutter sits at the height of √b.105."
+      },
+      {
+        "block_id": "b006",
+        "status": "represented",
+        "record_ids": [
+          "r006"
+        ],
+        "finding": "Indented ink line. A separate arrow points from the bracketed √b.93(7)/e.48(7) on fol. 109. It is kept separate from b005, but boundary ambiguity remains."
+      },
+      {
+        "block_id": "b007",
+        "status": "represented",
+        "record_ids": [
+          "r007"
+        ],
+        "finding": "Two-line ink note at the bottom with a 'to'-like mark at the left. A rule extends across the gutter toward √c.181(1). The '7b leftat' visible on the fol. 109 image is the same target text seen in the overlapping photograph, not a repetition."
+      },
+      {
+        "block_id": "b901",
+        "status": "represented",
+        "record_ids": [
+          "r008"
+        ],
+        "finding": "A faint pencil mark at about (465,2700), possibly '4' or a tick. It is correctly recorded as an unattached mark with uncertain status."
+      }
+    ],
+    "changes": [
+      {
+        "record_id": "r007",
+        "field_path": "relationships",
+        "before": [
+          {
+            "type": "continues",
+            "target_page_order": 217,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 181 (1) Durghaṭakāvya",
+            "evidence": "A connecting rule runs to this shelfmark, and the fragment '7b leftat' is repeated on the facing margin.",
+            "certainty": "secure"
+          }
+        ],
+        "after": [
+          {
+            "type": "continues",
+            "target_page_order": 217,
+            "target_record_id": null,
+            "target_block_id": null,
+            "target_anchor": "√c. 181 (1) Durghaṭakāvya",
+            "evidence": "A connecting rule runs from the end of the first line across the gutter toward √c. 181 (1) on fol. 109. The '7b leftat' seen in the fol. 109 image is this same target-page text captured in the overlapping photograph; it is not an independent repetition.",
+            "certainty": "probable"
+          }
+        ],
+        "reason": "The evidence statement misdescribed the photographic overlap as a repeated fragment. The rule supports the attachment, but the attachment is still a linkage inference.",
+        "source_block_ids": [
+          "b007"
+        ],
+        "certainty": "probable"
+      },
+      {
+        "record_id": "r002",
+        "field_path": "uncertainties",
+        "before": [
+          "The Sanskrit readings are approximate, especially 'Śravaṇena' (it may be written 'Śravánena'), the punctuation mark after 'praveśayet', and the exact form of 'rātryāṃ'.",
+          "It is uncertain which word the '(sic)' marks."
+        ],
+        "after": [
+          "The Sanskrit readings are approximate, especially 'Śravaṇena' (it may be written 'Śravánena'), the punctuation mark after 'praveśayet', and the exact form of 'rātryāṃ'.",
+          "It is uncertain which word the '(sic)' marks.",
+          "The final verb may be written 'visarjjayet' (doubled j). This is not securely resolved.",
+          "The anusvāra may be written as a dot above (ṁ) rather than ṃ. The candidate's ṃ is a rendering choice."
+        ],
+        "reason": "Native-tile inspection suggests a doubled-j form and a superscript-dot anusvāra. Neither is secure, so they are recorded as uncertainties rather than as changed readings.",
+        "source_block_ids": [
+          "b002"
+        ],
+        "certainty": "uncertain"
+      }
+    ],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r003",
+        "block_ids": [
+          "b002",
+          "b003"
+        ],
+        "issue": "b003 may be attached to √c.388 (arrow height) or belong with the b.106 entry together with b002.",
+        "next_check": "Compare arrow vertical positions against the fol. 109 line baselines at native resolution."
+      },
+      {
+        "record_id": "r006",
+        "block_ids": [
+          "b005",
+          "b006"
+        ],
+        "issue": "It is unclear whether b006 is a separate note for b.93/e.48 or a second line of b005.",
+        "next_check": "Inspect the arrows at y≈2930 and y≈3040 against the facing bracket."
+      },
+      {
+        "record_id": "r007",
+        "block_ids": [
+          "b007"
+        ],
+        "issue": "The initial 'to' mark (possibly cancelled) and the reading 'leftat' remain uncertain.",
+        "next_check": "Use a higher-contrast view of x≈355-420 and x≈2900-3100, y≈4560-4620."
+      }
+    ],
+    "boundary_review": "The gutter is at about x3155. Everything to the right (√c.406, d.376, √b.106, √c.388, ... √c.181, faint 'ↄↄ' pencil marks near √c.368, and the arrows on the facing margin) belongs to fol. 109 and is not transcribed. All target blocks are continuation notes keyed to fol. 109 entries. No heading or independent cross-reference was found.",
+    "region_review": {
+      "top": "Folio number 108b and lines b002/b003 only. The area above is blank.",
+      "middle": "Pencil line b004 only. The isolated speck at about (1060,2000), faint '+' and dot marks, and show-through are not text.",
+      "bottom": "b007, two lines. The area below it to the page edge is blank.",
+      "left_margin": "The faint pencil mark b901 and the 'to'-like mark before b007. Nothing else was found.",
+      "right_margin": "Gutter arrows and the b007 rule. The facing-page shelfmarks are excluded.",
+      "interlinear": "'(sic)' and an acute-like stroke above the end of b002. No other interlinear text was found."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        400,
+        350,
+        140,
+        90
+      ],
+      "kind_hint": "folio_number",
+      "anchor": "108b",
+      "features": [
+        "top-left corner",
+        "superscript b with dot/underline"
+      ]
+    },
+    {
+      "id": "b002",
+      "bbox": [
+        460,
+        690,
+        2690,
+        150
+      ],
+      "kind_hint": "continuation_incipit",
+      "anchor": "Begins: Ardrāyāṃ bodhayed Devīṃ ... visarjayet ||",
+      "features": [
+        "single long line ending at gutter",
+        "interlinear '(sic)' above the word before 'visarjayet'",
+        "acute-like stroke above a word near '(sic)'",
+        "heavy overwritten/inked 'pūrvokta' segment",
+        "an arrow on the facing page's left margin at this height points toward this block; its attachment is uncertain"
+      ]
+    },
+    {
+      "id": "b003",
+      "bbox": [
+        500,
+        850,
+        1590,
+        100
+      ],
+      "kind_hint": "continuation_physical_description",
+      "anchor": "ff.1-8, inc., watermark 1863. Not Calc. Sanskr. Coll, II, 334.",
+      "features": [
+        "contains a date (watermark 1863)",
+        "contains a catalogue reference",
+        "an arrow at about x3030-3145 near the gutter points to the facing page"
+      ]
+    },
+    {
+      "id": "b004",
+      "bbox": [
+        1550,
+        1570,
+        1230,
+        100
+      ],
+      "kind_hint": "continuation_note_faint_pencil",
+      "anchor": "title uncertain. One misc. f. + ff.159-226, inc.",
+      "features": [
+        "faint pencil",
+        "indented, mid-page",
+        "an arrow near the gutter (about x3070-3165) points to the facing page"
+      ]
+    },
+    {
+      "id": "b005",
+      "bbox": [
+        385,
+        2830,
+        2460,
+        110
+      ],
+      "kind_hint": "continuation_physical_description",
+      "anchor": "ff.1-62 and 1-?, in several handwritings. Last few leaves probably a different work on the same subject.",
+      "features": [
+        "ink",
+        "an arrow at the gutter on the facing side at this height"
+      ]
+    },
+    {
+      "id": "b006",
+      "bbox": [
+        545,
+        3010,
+        1460,
+        110
+      ],
+      "kind_hint": "continuation_note",
+      "anchor": "from the Smṛtiviveka (ext.8.) = Cal. S. Coll, II, 335",
+      "features": [
+        "indented line",
+        "an arrow at the facing page's left margin at this height, beside a bracketed b./e. pair",
+        "it is uncertain whether this block is separate from b005 or a second line of b005"
+      ]
+    },
+    {
+      "id": "b007",
+      "bbox": [
+        355,
+        4520,
+        2890,
+        190
+      ],
+      "kind_hint": "continuation_physical_description",
+      "anchor": "ff.1-20 (m.4,13). Has some verses in common with I.O. 3926 ... of I.O. MS.)",
+      "features": [
+        "two lines",
+        "there is a small mark like 'to' before 'ff.' in the left margin",
+        "a long rule runs from the line end across the gutter to the facing page's 'c.' shelfmark",
+        "'b' in '7b' is superscript and underlined",
+        "'a' in '8a' is underlined"
+      ]
+    },
+    {
+      "id": "b901",
+      "bbox": [
+        455,
+        2660,
+        45,
+        60
+      ],
+      "kind_hint": "pencil_mark",
+      "anchor": "faint mark above b005",
+      "features": [
+        "faint pencil",
+        "possibly a numeral or tick"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "108b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Top-left corner. The 'b' is superscript, with a dot or short stroke beneath it."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [],
+      "stable_id": "css-prod-0216-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r002",
+      "block_ids": [
+        "b002"
+      ],
+      "type": "continuation_note",
+      "subtype": "incipit",
+      "literal_text": "Begins: Ārdrāyāṃ bodhayed Devīṃ mūlenaiva praveśayet | Pūrvoktarātryāṃ saṃpūjya Śravaṇena visarjayet ||",
+      "fields": {
+        "incipit": "Ārdrāyāṃ bodhayed Devīṃ mūlenaiva praveśayet | Pūrvoktarātryāṃ saṃpūjya Śravaṇena visarjayet ||"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "'(sic)' is written interlinearly above the word read as 'Śravaṇena'.",
+        "An acute-like stroke appears above that word. It may mark an accent or a correction.",
+        "The segment 'Pūrvokta' is heavily inked and possibly overwritten.",
+        "The line runs to the gutter.",
+        "An arrow on the facing page's left margin, at the level of the fol. 109 shelfmark '√b. 106', points toward this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 217,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b. 106 Durgāpūjāpaddhati. From the Devī Purāṇa",
+          "evidence": "The arrow sits at the same height beside b.106 on the facing page, and the end of this line also appears on the facing page's margin.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The Sanskrit readings are approximate, especially 'Śravaṇena' (it may be written 'Śravánena'), the punctuation mark after 'praveśayet', and the exact form of 'rātryāṃ'.",
+        "It is uncertain which word the '(sic)' marks."
+      ],
+      "stable_id": "css-prod-0216-r002",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r003",
+      "block_ids": [
+        "b003"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description",
+      "literal_text": "ff.1-8, inc., watermark 1863. Not Calc. Sanskr. Coll, II, 334.",
+      "fields": {
+        "extent": "ff.1-8, inc.",
+        "date": "watermark 1863",
+        "source": "Not Calc. Sanskr. Coll, II, 334."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "An arrow on the target side near the gutter (about x3030-3145, y~890) points toward this line."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 217,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 388 From the Bṛhannandikeśvara Purāṇa",
+          "evidence": "The arrow is at the height of the c.388 line on fol. 109.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "It is possible that this line instead belongs with the b.106 entry, together with b002."
+      ],
+      "stable_id": "css-prod-0216-r003",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r004",
+      "block_ids": [
+        "b004"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description_pencil",
+      "literal_text": "title uncertain. One misc. f. + ff.159-226, inc.",
+      "fields": {
+        "extent": "One misc. f. + ff.159-226, inc."
+      },
+      "normalized_title": null,
+      "annotations": [
+        "Faint pencil, indented mid-page.",
+        "A pencil arrow near the gutter points toward the facing page."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 217,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√C.f. 347 Durgārcanakaumudī",
+          "evidence": "The arrow is at the same height as the C.f.347 line on fol. 109.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The first word is read as 'title'; it could be 'titl[e]'."
+      ],
+      "stable_id": "css-prod-0216-r004",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r005",
+      "block_ids": [
+        "b005"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description",
+      "literal_text": "ff.1-62 and 1-?, in several handwritings. Last few leaves probably a different work on the same subject.",
+      "fields": {
+        "extent": "ff.1-62 and 1-?"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "An arrow on the facing page margin sits at this height."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 217,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√b. 105 Durgotsava (title in catalogue)",
+          "evidence": "The arrow sits beside b.105 at the same height.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [],
+      "stable_id": "css-prod-0216-r005",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r006",
+      "block_ids": [
+        "b006"
+      ],
+      "type": "continuation_note",
+      "subtype": "source_note",
+      "literal_text": "from the Smṛtiviveka (ext. 8.) = Cal. S. Coll, II, 335",
+      "fields": {
+        "source": "from the Smṛtiviveka (ext. 8.) = Cal. S. Coll, II, 335"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "The line is indented.",
+        "A separate arrow on the facing margin points from the bracketed pair 'b.93 (7) / e.48 (7)'."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 217,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "[b.93 (7) / e.48 (7)] Durgotsavaviveka. By Śūlapāṇi Bhaṭṭa",
+          "evidence": "A separate arrow sits at this height beside the bracketed shelfmarks.",
+          "certainty": "probable"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'ext. 8.' is uncertain; it could be 'est.' or another form.",
+        "It is possible that this line is a second line of b005, but the separate arrows suggest a distinct note."
+      ],
+      "stable_id": "css-prod-0216-r006",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r007",
+      "block_ids": [
+        "b007"
+      ],
+      "type": "continuation_note",
+      "subtype": "physical_description",
+      "literal_text": "[to?] ff.1-20 (m.4,13). Has some verses in common with I.O. 3926 with similar commentary (e.g. 7b leftat[?]\nand 8a with opening verses of I.O. MS.)",
+      "fields": {
+        "extent": "ff.1-20 (m.4,13)"
+      },
+      "normalized_title": null,
+      "annotations": [
+        "A small mark like 'to' or 'te' is written before 'ff.', possibly struck through.",
+        "The 'b' in '7b' is superscript and underlined.",
+        "The 'a' in '8a' is underlined.",
+        "A long rule runs from the line end across the gutter to √c. 181 (1) on fol. 109."
+      ],
+      "editorial_context": [],
+      "relationships": [
+        {
+          "type": "continues",
+          "target_page_order": 217,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 181 (1) Durghaṭakāvya",
+          "evidence": "A connecting rule runs to this shelfmark, and the fragment '7b leftat' is repeated on the facing margin.",
+          "certainty": "secure"
+        }
+      ],
+      "uncertainties": [
+        "The reading 'leftat' is uncertain.",
+        "The initial mark is uncertain.",
+        "'(m.4,13)' may be '(m. 4, 13)'."
+      ],
+      "stable_id": "css-prod-0216-r007",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    },
+    {
+      "id": "r008",
+      "block_ids": [
+        "b901"
+      ],
+      "type": "unattached_annotation",
+      "subtype": "pencil_mark",
+      "literal_text": "[illegible]",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "A small faint pencil mark in the left part of the page above b005. It is possibly a numeral (4?) or a tick."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "It is unclear whether this is text or a stray mark."
+      ],
+      "stable_id": "css-prod-0216-r008",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [
+    {
+      "record_id": "r007",
+      "field_path": "relationships",
+      "before": [
+        {
+          "type": "continues",
+          "target_page_order": 217,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 181 (1) Durghaṭakāvya",
+          "evidence": "A connecting rule runs to this shelfmark, and the fragment '7b leftat' is repeated on the facing margin.",
+          "certainty": "secure"
+        }
+      ],
+      "after": [
+        {
+          "type": "continues",
+          "target_page_order": 217,
+          "target_record_id": null,
+          "target_block_id": null,
+          "target_anchor": "√c. 181 (1) Durghaṭakāvya",
+          "evidence": "A connecting rule runs from the end of the first line across the gutter toward √c. 181 (1) on fol. 109. The '7b leftat' seen in the fol. 109 image is this same target-page text captured in the overlapping photograph; it is not an independent repetition.",
+          "certainty": "probable"
+        }
+      ],
+      "reason": "The evidence statement misdescribed the photographic overlap as a repeated fragment. The rule supports the attachment, but the attachment is still a linkage inference.",
+      "source_block_ids": [
+        "b007"
+      ],
+      "certainty": "probable",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    },
+    {
+      "record_id": "r002",
+      "field_path": "uncertainties",
+      "before": [
+        "The Sanskrit readings are approximate, especially 'Śravaṇena' (it may be written 'Śravánena'), the punctuation mark after 'praveśayet', and the exact form of 'rātryāṃ'.",
+        "It is uncertain which word the '(sic)' marks."
+      ],
+      "after": [
+        "The Sanskrit readings are approximate, especially 'Śravaṇena' (it may be written 'Śravánena'), the punctuation mark after 'praveśayet', and the exact form of 'rātryāṃ'.",
+        "It is uncertain which word the '(sic)' marks.",
+        "The final verb may be written 'visarjjayet' (doubled j). This is not securely resolved.",
+        "The anusvāra may be written as a dot above (ṁ) rather than ṃ. The candidate's ṃ is a rendering choice."
+      ],
+      "reason": "Native-tile inspection suggests a doubled-j form and a superscript-dot anusvāra. Neither is secure, so they are recorded as uncertainties rather than as changed readings.",
+      "source_block_ids": [
+        "b002"
+      ],
+      "certainty": "uncertain",
+      "applied": false,
+      "application_reason": "Retained as a proposal; source certainty is not secure"
+    }
+  ],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d73eceea-006c-464f-88a8-e8e2c9aed46b.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d73eceea-006c-464f-88a8-e8e2c9aed46b/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "e9788c1b625a5fedba5a097d2e3274f9e4785972d069a3eed33bfe23d4348091",
+      "bytes": 294990,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d73eceea-006c-464f-88a8-e8e2c9aed46b/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "bb13ff70ed2fac47242712e78f194b75a9f70115b04e93be2d4947a34896281e",
+      "bytes": 341590,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d73eceea-006c-464f-88a8-e8e2c9aed46b/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "eaefeb5361dcc870361f9385d3ff1a3f38fa8c19e28c94e149b5e40c6424fef4",
+      "bytes": 366806,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d73eceea-006c-464f-88a8-e8e2c9aed46b/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "ebb2a2f2310ec544508d5b41be15f0d8333194c021be74c17f8de0708857b33d",
+      "bytes": 351152,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d73eceea-006c-464f-88a8-e8e2c9aed46b/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "2326eb1fa1de4b4ef2615411bc9ad34751b28f3ebf50e8bda9837f54f4d5a05d",
+      "bytes": 354483,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d73eceea-006c-464f-88a8-e8e2c9aed46b/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "be28255b2eb1dd314ac609f67305ec87433cd093200292d9417d8f07792d8935",
+      "bytes": 342034,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d73eceea-006c-464f-88a8-e8e2c9aed46b/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "5fdcf3b0905852fb9ccf6e24aff1e68b0302b5a825261528b90ce0c77e76db36",
+      "bytes": 360382,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2e3923fa-d24d-4eac-b2f5-d399660e13fd/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "3eb47f527c86d963781f732367ca2582fb08c73246e8405ec67881a3146b06ce",
+      "bytes": 268973,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 215,
+      "folio_label": "fol. 108",
+      "page_id": "2e3923fa-d24d-4eac-b2f5-d399660e13fd",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b7f25234-e649-4ef6-a70b-cf6b6d7bcf57/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "715eb43a090a4eb970832614203922ec14e84469ecd78de01aecb5831a98a5cb",
+      "bytes": 276211,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 217,
+      "folio_label": "fol. 109",
+      "page_id": "b7f25234-e649-4ef6-a70b-cf6b6d7bcf57",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}

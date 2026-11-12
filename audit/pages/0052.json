@@ -1,0 +1,438 @@
+{
+  "source_order": 52,
+  "folio_label": "fol. 26b",
+  "page_id": "30d7eab1-f217-40e8-aae1-f2f7273d6a1e",
+  "native_dimensions": [
+    3508,
+    5120
+  ],
+  "run": "production",
+  "inventory": {
+    "page_class": "blank",
+    "visible_folio": "26b.",
+    "principal_page_bbox": [
+      305,
+      240,
+      2840,
+      4600
+    ],
+    "blocks": [
+      {
+        "id": "b001",
+        "bbox": [
+          400,
+          295,
+          135,
+          110
+        ],
+        "kind_hint": "page_number",
+        "anchor": "26b.",
+        "features": [
+          "pencil or ink folio number at top-left corner",
+          "superscript 'b' after '26'",
+          "followed by a point"
+        ]
+      }
+    ],
+    "unattached_marks": [
+      {
+        "bbox": [
+          600,
+          350,
+          20,
+          20
+        ],
+        "description": "small dark dot to the right of the page number; possibly a stray mark or punctuation, not text"
+      },
+      {
+        "bbox": [
+          360,
+          1445,
+          30,
+          20
+        ],
+        "description": "small dark dash or speck in the left margin; probably a blemish"
+      },
+      {
+        "bbox": [
+          1600,
+          600,
+          1560,
+          4000
+        ],
+        "description": "faint reversed show-through of writing from the other side of the leaf (fol. 26 entries) across the ruled lines; not writing on this page"
+      },
+      {
+        "bbox": [
+          3140,
+          640,
+          60,
+          4200
+        ],
+        "description": "small dark nicks and marks along the gutter or binding edge; physical marks, not text"
+      }
+    ],
+    "boundary_notes": [
+      "At the far right beyond the gutter (x≈3200–3508) a strip of the facing page fol. 27 is visible. It shows '√C. 163 (' at about [3290,665,220,75]. This belongs to the adjacent page and is not recorded as a target block.",
+      "The faint mirrored text visible through the paper is show-through from fol. 26 (verso side). It is not original writing on fol. 26b."
+    ],
+    "uncertainties": [
+      "The superscript after '26' is read as 'b'. Its form is somewhat ambiguous.",
+      "Show-through is too faint and reversed to exclude with complete certainty a very faint pencil note on this side. On inspection, no independent writing on this side was identified."
+    ],
+    "coverage_check": {
+      "top": true,
+      "middle": true,
+      "bottom": true,
+      "left_margin": true,
+      "right_margin": true,
+      "interlinear": true
+    }
+  },
+  "extraction": {
+    "page_class": "blank",
+    "visible_folio": "26b.",
+    "records": [
+      {
+        "id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "type": "non_catalogue_text",
+        "subtype": "folio_number",
+        "literal_text": "26b.",
+        "fields": {},
+        "normalized_title": null,
+        "annotations": [
+          "Folio number written at the top-left corner of the page, apparently in pencil or grey ink.",
+          "The 'b' is written raised, as a superscript, after '26' and is followed by a point.",
+          "A separate small dark dot lies to the right at about [600,350,20,20]. It appears to be a stray mark, not part of the number."
+        ],
+        "editorial_context": [],
+        "relationships": [],
+        "uncertainties": [
+          "The superscript letter after '26' is read as 'b'. Its form is somewhat ambiguous and could be misread as another letter."
+        ]
+      }
+    ],
+    "added_blocks": [],
+    "block_disposition": [
+      {
+        "block_id": "b001",
+        "record_ids": [
+          "r001"
+        ],
+        "explanation": "The folio number '26b.' at the top-left is the only writing identified on the target page."
+      }
+    ],
+    "page_annotations": [
+      "After review of the overview and all six native tiles, the page is a ruled leaf with no catalogue entries. The only writing is the folio number '26b.' at the top-left.",
+      "Faint reversed show-through of handwriting from the other side of the leaf is visible across the ruled lines. It is not treated as writing on this page, and no transcription of it is attempted.",
+      "Small dark specks occur in the left margin at about [360,1445,30,20] and elsewhere on the page. Nicks and marks run along the gutter edge at about x≈3140–3200. These are physical marks, not text.",
+      "At the far right, beyond the gutter (x≈3200–3508), a strip of the facing page, fol. 27 (source order 53), is visible. It shows '√C. 163 (' at about [3290,665,220,75]. This belongs to the adjacent page and is not recorded as a target-page record.",
+      "The adjacent fol. 26 (source order 51) closes with the note 'end of extra leaf. Continue at Uttararāmacarita (back)'. This is context only and does not attach any text to this blank page."
+    ],
+    "unresolved_relationships": []
+  },
+  "review": {
+    "page_class": "blank",
+    "coverage": [
+      {
+        "block_id": "b001",
+        "status": "represented",
+        "record_ids": [
+          "r001"
+        ],
+        "finding": "The folio number at the top-left, at about native [400,295,135,110], reads '26' followed by a raised letter and a point. The raised letter is most likely 'b', with a hooked form. It is the only writing identified on the target page. The separate dot at about [600,350] is a stray mark and is correctly kept out of the literal text."
+      }
+    ],
+    "changes": [],
+    "missing_records": [],
+    "unresolved": [
+      {
+        "record_id": "r001",
+        "block_ids": [
+          "b001"
+        ],
+        "issue": "The raised letter after '26' has a hooked or angular form. It is read as 'b', which is consistent with the folio label 'fol. 26b', but the letterform alone is not fully secure.",
+        "next_check": "Compare the letterform with other a/b folio suffixes in the volume. For example, the cancelled '26a'-like label at the top of fol. 27 may help."
+      }
+    ],
+    "boundary_review": "The right strip beyond the gutter (x≈3200–3508) belongs to the facing fol. 27. Its '√C. 163 (' at about [3290,665] is the truncated start of the fol. 27 shelfmark entry 'C. 163 (2)'. It is correctly excluded as a facing-page fragment and not duplicated. Reversed ghost writing across the ruled area is show-through from fol. 26 and is not target-page writing. Fol. 26 ends with an encircled note about the end of the extra leaf, continuing at Uttararāmacarita. No text on fol. 26b attaches to or continues that note.",
+    "region_review": {
+      "top": "Only the folio number '26b.' and a stray dot to its right were found. No headings are present.",
+      "middle": "Ruled lines with faint mirrored show-through only. No independent pencil or ink writing was identified in the native tiles.",
+      "bottom": "Ruled lines and faint show-through down to the lower edge near y≈4830. There is no bottom note.",
+      "left_margin": "Page-edge stack lines and a small dark speck near [360,1445]. No marginal text was found.",
+      "right_margin": "The gutter shows dark shadow, small nicks and ruling ticks. Beyond it lies the fol. 27 fragment, which is excluded.",
+      "interlinear": "No interlinear additions were found. Faint marks between the lines are show-through from the reverse side."
+    },
+    "overall": "machine_reviewed_with_unresolved"
+  },
+  "blocks": [
+    {
+      "id": "b001",
+      "bbox": [
+        400,
+        295,
+        135,
+        110
+      ],
+      "kind_hint": "page_number",
+      "anchor": "26b.",
+      "features": [
+        "pencil or ink folio number at top-left corner",
+        "superscript 'b' after '26'",
+        "followed by a point"
+      ]
+    }
+  ],
+  "reviewed_records": [
+    {
+      "id": "r001",
+      "block_ids": [
+        "b001"
+      ],
+      "type": "non_catalogue_text",
+      "subtype": "folio_number",
+      "literal_text": "26b.",
+      "fields": {},
+      "normalized_title": null,
+      "annotations": [
+        "Folio number written at the top-left corner of the page, apparently in pencil or grey ink.",
+        "The 'b' is written raised, as a superscript, after '26' and is followed by a point.",
+        "A separate small dark dot lies to the right at about [600,350,20,20]. It appears to be a stray mark, not part of the number."
+      ],
+      "editorial_context": [],
+      "relationships": [],
+      "uncertainties": [
+        "The superscript letter after '26' is read as 'b'. Its form is somewhat ambiguous and could be misread as another letter."
+      ],
+      "stable_id": "css-prod-0052-r001",
+      "human_verified": false,
+      "verification_status": "machine_reviewed"
+    }
+  ],
+  "change_audit": [],
+  "block_change_audit": [],
+  "addition_audit": [],
+  "structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "prior_structural_checks": {
+    "unrepresented_blocks": [],
+    "review_unaccounted_blocks": [],
+    "unknown_record_blocks": [],
+    "duplicate_block_ids": [],
+    "duplicate_record_ids": [],
+    "out_of_canvas_blocks": [],
+    "outside_principal_page_blocks": [],
+    "uninspected_regions": [],
+    "review_missing_or_misgrouped": [],
+    "rejected_additions": [],
+    "metadata_only_blocks": []
+  },
+  "focused_questions": [],
+  "focused_checks": [],
+  "focused_images": [],
+  "prior_human_comparison": [],
+  "human_verified": false,
+  "source_url": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/30d7eab1-f217-40e8-aae1-f2f7273d6a1e.json",
+  "images": [
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30d7eab1-f217-40e8-aae1-f2f7273d6a1e/full/!2048,2048/0/default.jpg",
+      "dimensions": [
+        1403,
+        2048
+      ],
+      "sha256": "36e16ea4bc9e26fc0a36feb7588e6cf7d980e74c8d2d6e8a642ba16c9acdaa40",
+      "bytes": 252828,
+      "visual_tokens": 3774,
+      "role": "target_overview",
+      "native_region": [
+        0,
+        0,
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30d7eab1-f217-40e8-aae1-f2f7273d6a1e/0,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "d5c80d296161c20ea2735eb41bf0c06e0efb915d923bd61cdae61a82bdf57197",
+      "bytes": 311245,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30d7eab1-f217-40e8-aae1-f2f7273d6a1e/1604,0,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0b410eb920106b08862c22f3e996c29be34d3a459f005f2119472795acc7e610",
+      "bytes": 325033,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        0,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30d7eab1-f217-40e8-aae1-f2f7273d6a1e/0,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "b12f52a684f3ec436e6ce79973b7f0797a67f43c8592e345904a632dc0c3a727",
+      "bytes": 314245,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30d7eab1-f217-40e8-aae1-f2f7273d6a1e/1604,1608,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "fbcb8c870aac72ca29011db3c096f782ca6a4c5f3e616ed67567ed738d6ee583",
+      "bytes": 300754,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        1608,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30d7eab1-f217-40e8-aae1-f2f7273d6a1e/0,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "0d1ac7f94de76f7f3cdd6767b3d5b298cec1fefc65810248e30431092850d5f0",
+      "bytes": 316000,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        0,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/30d7eab1-f217-40e8-aae1-f2f7273d6a1e/1604,3216,1904,1904/full/0/default.jpg",
+      "dimensions": [
+        1904,
+        1904
+      ],
+      "sha256": "6f6fbb4930a67459f635d42d1119ba63a87385c9d981babb838c805f78025b4d",
+      "bytes": 329307,
+      "visual_tokens": 4624,
+      "role": "target_native_tile",
+      "native_region": [
+        1604,
+        3216,
+        1904,
+        1904
+      ],
+      "pixel_to_canvas_scale": [
+        1.0,
+        1.0
+      ],
+      "resizing_note": "No local resizing. Coordinates account for any IIIF rounding."
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ed3b281d-192e-4bab-8341-97d34f25b9e1/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "b745148278d8a6ed5cc8c604238b56f6256ad8523861e1a930b28902f493e91c",
+      "bytes": 276428,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 51,
+      "folio_label": "fol. 26",
+      "page_id": "ed3b281d-192e-4bab-8341-97d34f25b9e1",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    },
+    {
+      "url": "https://iiif.bodleian.ox.ac.uk/iiif/image/963e1896-d913-42c5-870f-51846f7d1f05/full/!1500,1500/0/default.jpg",
+      "dimensions": [
+        1028,
+        1500
+      ],
+      "sha256": "077b0ac1c12c0a156f745cf9a2f7e8f7b9f46ab6973b89184d826df6d9211de6",
+      "bytes": 164291,
+      "visual_tokens": 1998,
+      "role": "adjacent_context_only",
+      "source_order": 53,
+      "folio_label": "fol. 27",
+      "page_id": "963e1896-d913-42c5-870f-51846f7d1f05",
+      "native_dimensions": [
+        3508,
+        5120
+      ]
+    }
+  ]
+}
