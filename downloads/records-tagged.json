@@ -1310228,7 +1310228,9 @@
     ],
     "focused_readings": [],
     "reviewNotes": [],
-    "editorialNotes": [],
+    "editorialNotes": [
+      "The catalogue's interlinear cross-reference, ‘see under Bhāvaprakāśa’, is now attached to this entry (13 November 2026). The original machine assessment remains in the transcription history."
+    ],
     "relationships": [],
     "editorial_context": [],
     "block_ids": [
@@ -1310252,9 +1310254,99 @@
     "change_audit": [],
     "sourceCitationURL": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f78d5d1c-c684-40a8-a011-92fd91700e51.json",
     "auditPath": "audit/pages/0623.json",
-    "attachedNotes": [],
+    "attachedNotes": [
+      "css-prod-0623-r004"
+    ],
     "resolvedRelationships": [],
-    "attachedRecords": [],
+    "attachedRecords": [
+      {
+        "id": "css-prod-0623-r004",
+        "local_id": "r004",
+        "source_order": 623,
+        "folio": "312",
+        "folio_label": "fol. 312",
+        "sequence": 4,
+        "page_id": "f78d5d1c-c684-40a8-a011-92fd91700e51",
+        "kind": "continuation",
+        "record_type": "continuation_note",
+        "source_model_record_type": "continuation_note",
+        "subtype": "interlinear_note",
+        "shelfmark": "",
+        "titleLiteral": "",
+        "titleNormalized": "",
+        "displayTitle": "Continuation note",
+        "authorOrSource": "",
+        "source": "",
+        "subject": "",
+        "subjectGroup": "",
+        "date": "",
+        "extent": "",
+        "lines": "",
+        "script": "",
+        "incipit": "",
+        "transcription": "see under Bhāvaprakāśa",
+        "annotations": [
+          "The note is written above 'Medical' in the cancelled e.303 line.",
+          "The note itself is not struck through."
+        ],
+        "uncertainties": [
+          "The reading of the final word is uncertain."
+        ],
+        "focused_readings": [],
+        "reviewNotes": [],
+        "editorialNotes": [
+          "The catalogue's interlinear cross-reference, ‘see under Bhāvaprakāśa’, is now attached to this entry (13 November 2026). The original machine assessment remains in the transcription history."
+        ],
+        "relationships": [
+          {
+            "type": "possible_attachment",
+            "target_page_order": 623,
+            "target_record_id": "r003",
+            "target_block_id": "b004",
+            "target_anchor": "e.303(end) Sūtrasthāna",
+            "evidence": "The note is written directly above 'Medical' in this line.",
+            "certainty": "probable"
+          }
+        ],
+        "editorial_context": [],
+        "block_ids": [
+          "b005"
+        ],
+        "locations": [
+          {
+            "block_id": "b005",
+            "bbox": [
+              2010,
+              680,
+              560,
+              50
+            ]
+          }
+        ],
+        "isCancelled": false,
+        "needsReview": true,
+        "human_verified": false,
+        "verification_status": "machine_reviewed",
+        "change_audit": [],
+        "sourceCitationURL": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f78d5d1c-c684-40a8-a011-92fd91700e51.json",
+        "auditPath": "audit/pages/0623.json",
+        "resolvedRelationships": [
+          {
+            "type": "continues",
+            "target_page_order": 623,
+            "target_record_id": "r003",
+            "target_block_id": "b004",
+            "target_anchor": "e.303(end) Sūtrasthāna",
+            "evidence": "The note is written directly above 'Medical' in this line.",
+            "certainty": "secure",
+            "target_stable_id": "css-prod-0623-r003",
+            "resolution_basis": "The uncancelled interlinear note is written above Medical in the cancelled Sūtrasthāna entry on catalogue fol. 312.",
+            "editorial_update_id": "2026-11-13-sutrasthana-cross-reference"
+          }
+        ],
+        "attachedTo": "css-prod-0623-r003"
+      }
+    ],
     "classification": {
       "subjects": [
         {
@@ -1310274,7 +1310366,14 @@
       "status": "supported",
       "has_uncertain_tags": false,
       "method": "Local catalogue evidence, expanded readings and record-level context review; no human verification."
-    }
+    },
+    "searchContext": [
+      {
+        "text": "see under Bhāvaprakāśa",
+        "source_record_id": "css-prod-0623-r004",
+        "evidence": "The uncancelled interlinear note is written above Medical in the cancelled Sūtrasthāna entry on catalogue fol. 312."
+      }
+    ]
   },
   {
     "id": "css-prod-0623-r004",
@@ -1310307,12 +1310406,13 @@
       "The note itself is not struck through."
     ],
     "uncertainties": [
-      "The reading of the final word is uncertain.",
-      "Unresolved relationship: possible_attachment to image 623, e.303(end) Sūtrasthāna (probable). The note is written directly above 'Medical' in this line."
+      "The reading of the final word is uncertain."
     ],
     "focused_readings": [],
     "reviewNotes": [],
-    "editorialNotes": [],
+    "editorialNotes": [
+      "The catalogue's interlinear cross-reference, ‘see under Bhāvaprakāśa’, is now attached to this entry (13 November 2026). The original machine assessment remains in the transcription history."
+    ],
     "relationships": [
       {
         "type": "possible_attachment",
@@ -1310347,8 +1310447,22 @@
     "sourceCitationURL": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f78d5d1c-c684-40a8-a011-92fd91700e51.json",
     "auditPath": "audit/pages/0623.json",
     "attachedNotes": [],
-    "resolvedRelationships": [],
-    "attachedRecords": []
+    "resolvedRelationships": [
+      {
+        "type": "continues",
+        "target_page_order": 623,
+        "target_record_id": "r003",
+        "target_block_id": "b004",
+        "target_anchor": "e.303(end) Sūtrasthāna",
+        "evidence": "The note is written directly above 'Medical' in this line.",
+        "certainty": "secure",
+        "target_stable_id": "css-prod-0623-r003",
+        "resolution_basis": "The uncancelled interlinear note is written above Medical in the cancelled Sūtrasthāna entry on catalogue fol. 312.",
+        "editorial_update_id": "2026-11-13-sutrasthana-cross-reference"
+      }
+    ],
+    "attachedRecords": [],
+    "attachedTo": "css-prod-0623-r003"
   },
   {
     "id": "css-prod-0623-r005",
