@@ -455,12 +455,12 @@ function readingHTML(value) {
   return readingParts(value).map(part=>part.cancelled?`<del class="cancelled-text" title="Cancelled in the source">${escapeHTML(part.text)}</del>`:escapeHTML(part.text)).join('');
 }
 
-/** Apply recorded inline positioning without changing or trusting source text. */
+/** Retain source-position metadata while displaying all catalogue text inline. */
 function transcriptionHTML(record) {
   const text=String(record.transcription??'');
   const segments=record.transcriptionSegments;
   if(!Array.isArray(segments)||!segments.length||!segments.every(segment=>segment&&typeof segment.text==='string')||segments.map(segment=>segment.text).join('')!==text)return readingHTML(text);
-  return segments.map(segment=>segment.superscript===true?`<sup class="interlinear-text">${readingHTML(segment.text)}</sup>`:readingHTML(segment.text)).join('');
+  return segments.map(segment=>segment.superscript===true?`<span class="interlinear-text" data-source-position="superscript">${readingHTML(segment.text)}</span>`:readingHTML(segment.text)).join('');
 }
 
 function cancelledEntry(record){
