@@ -28,6 +28,14 @@ export function readingHTML(value) {
   return readingParts(value).map(part=>part.cancelled?`<del class="cancelled-text" title="Cancelled in the source">${escapeHTML(part.text)}</del>`:escapeHTML(part.text)).join('');
 }
 
+/** Apply recorded inline positioning without changing or trusting source text. */
+export function transcriptionHTML(record) {
+  const text=String(record.transcription??'');
+  const segments=record.transcriptionSegments;
+  if(!Array.isArray(segments)||!segments.length||!segments.every(segment=>segment&&typeof segment.text==='string')||segments.map(segment=>segment.text).join('')!==text)return readingHTML(text);
+  return segments.map(segment=>segment.superscript===true?`<sup class="interlinear-text">${readingHTML(segment.text)}</sup>`:readingHTML(segment.text)).join('');
+}
+
 export function cancelledEntry(record){
   return record.status==='cancelled'||/^(?:cancelled|cancelled_(?:entry|holding|ditto_entry)(?:_(?:with_.+|redirected|moved|converted))?)$/.test(record.subtype||'');
 }
@@ -142,8 +150,8 @@ export function catalogueEntryHTML(record) {
       ${inheritanceHTML(record)}
       ${record.resolvedFields?.work&&!record.readableTitle?.work?`<p class="entry-work-context"><span>Work context:</span> ${readingHTML(context)}${record.resolvedFields.work.certainty==='secure'?'':' <span class="inherited-field uncertain">· uncertain</span>'}</p>`:''}
       ${metadataHTML(descriptions,'entry-descriptive')}
-      <div class="entry-source-text"><h4>${fieldHelpHTML('Catalogue text')}</h4><p class="transcription full-transcription">${readingHTML(record.transcription)}</p></div>
-      ${record.attachedRecords?.length ? `<section class="attached-notes"><h4>Continuation notes</h4>${record.attachedRecords.map(n=>`<div class="attached-note">${folioLink(n)}<p class="transcription">${readingHTML(n.transcription)}</p>${noteSection('Uncertain readings',n.uncertainties)}${noteSection('Annotations',n.annotations)}${entryImageControlsHTML(n)}</div>`).join('')}</section>` : ''}
+      <div class="entry-source-text"><h4>${fieldHelpHTML('Catalogue text')}</h4><p class="transcription full-transcription">${transcriptionHTML(record)}</p></div>
+      ${record.attachedRecords?.length ? `<section class="attached-notes"><h4>Continuation notes</h4>${record.attachedRecords.map(n=>`<div class="attached-note">${folioLink(n)}<p class="transcription">${transcriptionHTML(n)}</p>${noteSection('Uncertain readings',n.uncertainties)}${noteSection('Annotations',n.annotations)}${entryImageControlsHTML(n)}</div>`).join('')}</section>` : ''}
       ${record.attachedTo ? `<p class="attachment-label">Continuation note · <a href="?record=${encodeURIComponent(record.attachedTo)}" data-record-link="${escapeHTML(record.attachedTo)}">View parent entry</a></p>` : ''}
       <div class="entry-bottom">
         ${classificationHTML(record,escapeHTML)}

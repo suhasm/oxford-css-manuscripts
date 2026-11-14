@@ -455,6 +455,14 @@ function readingHTML(value) {
   return readingParts(value).map(part=>part.cancelled?`<del class="cancelled-text" title="Cancelled in the source">${escapeHTML(part.text)}</del>`:escapeHTML(part.text)).join('');
 }
 
+/** Apply recorded inline positioning without changing or trusting source text. */
+function transcriptionHTML(record) {
+  const text=String(record.transcription??'');
+  const segments=record.transcriptionSegments;
+  if(!Array.isArray(segments)||!segments.length||!segments.every(segment=>segment&&typeof segment.text==='string')||segments.map(segment=>segment.text).join('')!==text)return readingHTML(text);
+  return segments.map(segment=>segment.superscript===true?`<sup class="interlinear-text">${readingHTML(segment.text)}</sup>`:readingHTML(segment.text)).join('');
+}
+
 function cancelledEntry(record){
   return record.status==='cancelled'||/^(?:cancelled|cancelled_(?:entry|holding|ditto_entry)(?:_(?:with_.+|redirected|moved|converted))?)$/.test(record.subtype||'');
 }
@@ -569,8 +577,8 @@ function catalogueEntryHTML(record) {
       ${inheritanceHTML(record)}
       ${record.resolvedFields?.work&&!record.readableTitle?.work?`<p class="entry-work-context"><span>Work context:</span> ${readingHTML(context)}${record.resolvedFields.work.certainty==='secure'?'':' <span class="inherited-field uncertain">· uncertain</span>'}</p>`:''}
       ${metadataHTML(descriptions,'entry-descriptive')}
-      <div class="entry-source-text"><h4>${fieldHelpHTML('Catalogue text')}</h4><p class="transcription full-transcription">${readingHTML(record.transcription)}</p></div>
-      ${record.attachedRecords?.length ? `<section class="attached-notes"><h4>Continuation notes</h4>${record.attachedRecords.map(n=>`<div class="attached-note">${folioLink(n)}<p class="transcription">${readingHTML(n.transcription)}</p>${noteSection('Uncertain readings',n.uncertainties)}${noteSection('Annotations',n.annotations)}${entryImageControlsHTML(n)}</div>`).join('')}</section>` : ''}
+      <div class="entry-source-text"><h4>${fieldHelpHTML('Catalogue text')}</h4><p class="transcription full-transcription">${transcriptionHTML(record)}</p></div>
+      ${record.attachedRecords?.length ? `<section class="attached-notes"><h4>Continuation notes</h4>${record.attachedRecords.map(n=>`<div class="attached-note">${folioLink(n)}<p class="transcription">${transcriptionHTML(n)}</p>${noteSection('Uncertain readings',n.uncertainties)}${noteSection('Annotations',n.annotations)}${entryImageControlsHTML(n)}</div>`).join('')}</section>` : ''}
       ${record.attachedTo ? `<p class="attachment-label">Continuation note · <a href="?record=${encodeURIComponent(record.attachedTo)}" data-record-link="${escapeHTML(record.attachedTo)}">View parent entry</a></p>` : ''}
       <div class="entry-bottom">
         ${classificationHTML(record,escapeHTML)}
@@ -630,7 +638,7 @@ function spreadsheetHTML(records, {sortKey, sortDirection = 'asc'} = {}) {
   const column = spreadsheetColumns.find(item => item.key === sortKey);
   const descending = sortDirection === 'desc' || sortDirection === 'descending';
   const headings = spreadsheetColumns.map(item => `<th scope="col" data-column="${item.key}"${item.className ? ` class="${item.className}"` : ''} aria-sort="${column?.key === item.key ? descending ? 'descending' : 'ascending' : 'none'}"><div class="column-heading"><button type="button" data-column-sort="${item.key}" ${fieldHelpAttributes(item.helpLabel||item.label)}>${escapeHTML(item.label)}${column?.key === item.key ? `<span aria-hidden="true"> ${descending ? '↓' : '↑'}</span>` : ''}</button></div></th>`).join('');
-  const rows = records.map(record => `<tr data-record-id="${escapeHTML(record.id ?? record.record_id ?? '')}"${record.isCancelled || record.status === 'cancelled' ? ' class="cancelled-entry"' : ''}>${spreadsheetColumns.map(item => `<td data-column="${item.key}"${item.className ? ` class="${item.className}"` : ''}>${item.key === 'folio' ? folioLink(record) : (['title','author','shelfmark'].includes(item.key)?summaryReadingHTML(record,item.key,item.value(record)):readingHTML(item.value(record)))+spreadsheetInheritanceHTML(record,item.key)}</td>`).join('')}</tr>`).join('');
+  const rows = records.map(record => `<tr data-record-id="${escapeHTML(record.id ?? record.record_id ?? '')}"${record.isCancelled || record.status === 'cancelled' ? ' class="cancelled-entry"' : ''}>${spreadsheetColumns.map(item => `<td data-column="${item.key}"${item.className ? ` class="${item.className}"` : ''}>${item.key === 'folio' ? folioLink(record) : (item.key==='transcription'?transcriptionHTML(record):['title','author','shelfmark'].includes(item.key)?summaryReadingHTML(record,item.key,item.value(record)):readingHTML(item.value(record)))+spreadsheetInheritanceHTML(record,item.key)}</td>`).join('')}</tr>`).join('');
   return `<table class="catalogue-spreadsheet"><caption class="sr-only">Manuscript catalogue entries. Shelfmark, title, author and manuscript particulars appear first; all catalogue text and editorial evidence remain available in later columns. Scroll horizontally to read every field.</caption><thead><tr>${headings}</tr></thead><tbody>${rows || `<tr><td colspan="${spreadsheetColumns.length}" class="empty-cell">No entries match the current search.</td></tr>`}</tbody></table>`;
 }
 
@@ -753,6 +761,7 @@ let catalogue,filtered=[],zoom=1,fitWidth=0,toastTimer,debounce;
 let highlightEnabled=true,locatorAvailable=false,imageVersion=0,nativeRequest=null,readerImage=null;
 let renderSerial=0,readerSerial=0,exporting=false;
 const pageFor=order=>catalogue.pages.find(p=>p.source_order===Number(order));
+const canonicalRecordID=id=>Object.hasOwn(catalogue.recordAliases||{},id)?catalogue.recordAliases[id]:id;
 const isSheet=()=>state.view==='spreadsheet';
 const views=['catalogue','spreadsheet','folios','about'];
 
@@ -791,11 +800,12 @@ function readURL(){
  Object.assign(state,{view:views.includes(q.get('view'))?q.get('view'):'catalogue',query:q.get('q')||'',kind:['manuscript','heading','all','section','continuation','note','other'].includes(q.get('kind'))?q.get('kind'):'manuscript',subject:q.get('subject')||'',folio:q.get('folio')||'',sort:['source','title','shelfmark','relevance','column'].includes(q.get('sort'))?q.get('sort'):'source',includeCancelled:q.get('cancelled')!=='0',review:q.get('review')==='1',page:Math.max(1,Number(q.get('p'))||1),sourceFolio:q.get('page')||null,column:q.get('column')||'',direction:q.get('dir')==='desc'?'desc':'asc'});
  if(state.folio){const mapped=folioForLabel(state.folio);if(mapped)state.folio=String(mapped.source_order);}
  // Old entry links now lead directly to the source folio, not an entry page.
- if(q.get('entry'))state.sourceFolio=catalogue.records.find(r=>r.id===q.get('entry'))?.source_order||null;
+ if(q.get('entry'))state.sourceFolio=catalogue.records.find(r=>r.id===canonicalRecordID(q.get('entry')))?.source_order||null;
  state.focusRecord=null;
  if(q.get('record'))setRecordLocation(q.get('record'));
 }
 function setRecordLocation(id){
+ id=canonicalRecordID(id);
  const record=catalogue.records.find(r=>r.id===id);if(!record)return false;
  const entries=catalogue.records.filter(r=>r.source_order===record.source_order).sort((a,b)=>a.sequence-b.sequence);
  Object.assign(state,{view:'catalogue',query:'',scope:'all',kind:'all',subject:'',subjectTags:[],traditionTags:[],folio:String(record.source_order),sort:'source',includeCancelled:true,review:false,page:Math.floor(entries.indexOf(record)/pageSize)+1,focusRecord:id});
@@ -1007,7 +1017,7 @@ async function download(){
  const rows=[...filtered];exporting=true;$('#download-results').disabled=true;toast('Preparing download…');
  try{
  await loadBulkDetails(rows);
- const fields=['id','source_order','folio_label','record_type','subtype','annotations','verification_status','human_verified','locations','relationships','resolvedRelationships','editorial_context','change_audit','focused_readings','source','incipit','shelfmark','titleLiteral','titleNormalized','displayTitle','authorOrSource','displayAuthor','readable_title','readableTitle','resolved_title','resolved_author','resolved_source','resolved_subject','resolved_work','resolvedFields','subject','subject_tags','uncertain_subject_tags','tradition_tags','uncertain_tradition_tags','classification_status','classification','date','extent','lines','script','status','transcription','uncertainties','reviewNotes','editorialNotes','originalFieldReadings','sourceCitationURL'];
+ const fields=['id','source_order','folio_label','record_type','subtype','annotations','verification_status','human_verified','locations','relationships','resolvedRelationships','editorial_context','change_audit','focused_readings','source','incipit','shelfmark','titleLiteral','titleNormalized','displayTitle','authorOrSource','displayAuthor','readable_title','readableTitle','resolved_title','resolved_author','resolved_source','resolved_subject','resolved_work','resolvedFields','subject','subject_tags','uncertain_subject_tags','tradition_tags','uncertain_tradition_tags','classification_status','classification','date','extent','lines','script','status','transcription','transcriptionSegments','uncertainties','reviewNotes','editorialNotes','originalFieldReadings','sourceCitationURL'];
  const q=v=>'"'+String(Array.isArray(v)?(v.some(x=>x&&typeof x==='object')?JSON.stringify(v):v.join('\n')):v&&typeof v==='object'?JSON.stringify(v):v??'').replaceAll('"','""')+'"';
  const csv='\uFEFF'+[fields.map(q).join(','),...rows.map(r=>{const c=r.classification;const row={...r,readable_title:r.readableTitle?.value||'',...Object.fromEntries(['title','author','source','subject','work'].map(field=>['resolved_'+field,r.resolvedFields?.[field]?.value||''])),subject_tags:c?.subjects.map(t=>t.label),uncertain_subject_tags:c?.subjects.filter(t=>t.confidence==='uncertain').map(t=>t.label),tradition_tags:c?.traditions.map(t=>t.label),uncertain_tradition_tags:c?.traditions.filter(t=>t.confidence==='uncertain').map(t=>t.label),classification_status:c?.status};return fields.map(f=>q(row[f])).join(',');})].join('\r\n');
  const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));const a=document.createElement('a');a.href=url;a.download='chandra-shum-shere-results.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast(`${rows.length} records downloaded`);

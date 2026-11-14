@@ -10,7 +10,7 @@ the same files, with proportional native-coordinate locations. Higher-resolution
 Bodleian images are available only through explicit links opening another tab.
 No remote images, fonts, analytics or APIs load automatically.
 
-The startup index contains all 13,029 records and their filter/sort metadata.
+The startup index contains all 13,028 records and their filter/sort metadata.
 Full records and folio notes load from versioned data/records bundles as needed.
 The full-text search index loads only when a query is entered. Downloads and
 spreadsheet sorting wait for all relevant complete records. This split changes
